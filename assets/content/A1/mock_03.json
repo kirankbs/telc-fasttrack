@@ -2,12 +2,593 @@
   "id": "A1_mock_03",
   "level": "A1",
   "title": "Übungstest 3",
-  "version": 0,
-  "_stub": true,
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören drei kurze Texte. Zu jedem Text gibt es eine Aufgabe. Welches Bild passt? Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.",
+          "instructionsTranslation": "You will hear three short recordings. For each recording there is one task. Which picture matches? Mark: a, b, or c. You will hear each recording twice.",
+          "audioFile": "assets/audio/A1/mock03/listening_part1.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A1_m03_L1_q1",
+              "type": "mcq",
+              "questionText": "Wann ist der Arzttermin von Frau Neumann?",
+              "questionImage": "assets/images/A1/mock03/L1_q1_arzt.png",
+              "options": [
+                "a) Montag um 9 Uhr",
+                "b) Dienstag um 10 Uhr",
+                "c) Mittwoch um 14 Uhr"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Auf der Mailbox-Nachricht sagt die Praxis: 'Guten Tag Frau Neumann, wir bestätigen Ihren Termin am Dienstag, dem 8., um 10 Uhr.' Der Termin ist also Dienstag um 10 Uhr. Montag und Mittwoch werden nicht genannt.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A1_m03_L1_q2",
+              "type": "mcq",
+              "questionText": "Was gibt es heute in der Cafeteria als Mittagessen?",
+              "questionImage": "assets/images/A1/mock03/L1_q2_cafeteria.png",
+              "options": [
+                "a) Suppe und Brot",
+                "b) Schnitzel mit Pommes",
+                "c) Pasta mit Salat"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Schulansage sagt: 'In der Cafeteria gibt es heute Pasta mit grünem Salat — das kostet 3 Euro 50.' Das Angebot ist also Pasta mit Salat. Schnitzel und Suppe sind nicht das heutige Angebot.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "A1_m03_L1_q3",
+              "type": "mcq",
+              "questionText": "Was bestellt die Frau im Café?",
+              "questionImage": "assets/images/A1/mock03/L1_q3_cafe.png",
+              "options": [
+                "a) einen Kaffee und ein Croissant",
+                "b) einen Tee und einen Kuchen",
+                "c) einen Cappuccino und ein Sandwich"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Im Café sagt die Frau: 'Ich hätte gern einen Tee — Kamille, bitte — und ein Stück Apfelkuchen.' Sie bestellt also Tee und Kuchen. Kaffee, Croissant, Cappuccino und Sandwich werden nicht bestellt.",
+              "audioTimestamp": 10
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören fünf kurze Texte. Zu jedem Text gibt es eine Aufgabe. Kreuzen Sie an: richtig oder falsch. Sie hören jeden Text zweimal.",
+          "instructionsTranslation": "You will hear five short recordings. For each recording there is one task. Mark: correct or incorrect. You will hear each recording twice.",
+          "audioFile": "assets/audio/A1/mock03/listening_part2.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A1_m03_L2_q1",
+              "type": "true_false",
+              "questionText": "Der Deutschkurs beginnt nächsten Montag.",
+              "correctAnswer": "richtig",
+              "explanation": "Die Nachricht auf dem Anrufbeantworter sagt: 'Ihr Deutschkurs A1 beginnt nächsten Montag um 18 Uhr in Raum 12.' Der Kurs beginnt also nächsten Montag. Die Aussage ist richtig.",
+              "audioTimestamp": 7
+            },
+            {
+              "id": "A1_m03_L2_q2",
+              "type": "true_false",
+              "questionText": "Die Sporthalle ist am Wochenende geschlossen.",
+              "correctAnswer": "falsch",
+              "explanation": "Die Ansage der Sporthalle sagt: 'Unsere Halle ist montags bis sonntags von 8 bis 21 Uhr geöffnet — auch am Wochenende.' Die Halle ist also am Wochenende geöffnet, nicht geschlossen. Die Aussage ist falsch.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A1_m03_L2_q3",
+              "type": "true_false",
+              "questionText": "Herr Richter kommt um 15 Uhr zum Termin.",
+              "correctAnswer": "falsch",
+              "explanation": "Die Mailbox-Nachricht sagt: 'Guten Tag, hier ist das Büro Müller. Herr Richter hat seinen Termin morgen leider auf 16:30 Uhr verschoben.' Er kommt also um 16:30 Uhr, nicht um 15 Uhr. Die Aussage ist falsch.",
+              "audioTimestamp": 11
+            },
+            {
+              "id": "A1_m03_L2_q4",
+              "type": "true_false",
+              "questionText": "Das Schwimmbad hat heute wegen Reinigung geschlossen.",
+              "correctAnswer": "richtig",
+              "explanation": "Die Ansage des Schwimmbads sagt: 'Das Hallenbad ist heute wegen Reinigungsarbeiten geschlossen. Wir öffnen wieder morgen um 7 Uhr.' Das Schwimmbad ist heute wegen Reinigung geschlossen. Die Aussage ist richtig.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "A1_m03_L2_q5",
+              "type": "true_false",
+              "questionText": "Die neue Bäckerei ist in der Hauptstraße.",
+              "correctAnswer": "richtig",
+              "explanation": "Die Radiosendung sagt: 'Die neue Bäckerei Sonnenschein hat in der Hauptstraße 45 geöffnet — frisches Brot täglich ab 6 Uhr morgens.' Die Bäckerei ist in der Hauptstraße. Die Aussage ist richtig.",
+              "audioTimestamp": 8
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören drei Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear three short conversations. For each conversation there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A1/mock03/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A1_m03_L3_q1",
+              "type": "mcq",
+              "questionText": "Warum ruft Maria an?",
+              "options": [
+                "a) Sie möchte einen Termin absagen.",
+                "b) Sie fragt nach den Öffnungszeiten.",
+                "c) Sie möchte einen Termin vereinbaren."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Im Telefonat sagt Maria: 'Guten Tag, ich möchte gern einen Termin machen — für nächste Woche wenn möglich.' Sie ruft an, um einen Termin zu vereinbaren. Absagen und nach Öffnungszeiten fragen sind nicht der Grund.",
+              "audioTimestamp": 13
+            },
+            {
+              "id": "A1_m03_L3_q2",
+              "type": "mcq",
+              "questionText": "Wo findet der Sprachkurs statt?",
+              "options": [
+                "a) in der Volkshochschule",
+                "b) in der Universität",
+                "c) online"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Im Gespräch sagt die Mitarbeiterin: 'Der Kurs findet hier bei uns in der Volkshochschule statt — Zimmer 3 im Erdgeschoss.' Der Kurs ist also in der Volkshochschule. Universität und online werden nicht erwähnt.",
+              "audioTimestamp": 11
+            },
+            {
+              "id": "A1_m03_L3_q3",
+              "type": "mcq",
+              "questionText": "Was trinkt der Mann im Café?",
+              "options": [
+                "a) Orangensaft",
+                "b) Wasser",
+                "c) Bier"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Im Café sagt der Mann auf die Frage der Kellnerin: 'Ich nehme nur ein Wasser, bitte — still.' Er trinkt also Wasser. Orangensaft und Bier werden als Vorschläge erwähnt, aber er wählt Wasser.",
+              "audioTimestamp": 9
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 25,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie die zwei Texte. Zu den Texten gibt es fünf Aufgaben. Kreuzen Sie an: richtig oder falsch.",
+          "instructionsTranslation": "Read the two texts. There are five tasks about the texts. Mark: correct or incorrect.",
+          "texts": [
+            {
+              "id": "A1_m03_R1_text1",
+              "type": "email",
+              "content": "Von: anna.wolf@email.de\nAn: tim.krause@email.de\nBetreff: Meine neue Wohnung\n\nHallo Tim,\n\nich habe jetzt eine neue Wohnung! Sie ist in der Friedrichstraße 21 im dritten Stock. Die Wohnung hat zwei Zimmer, eine Küche und ein Bad. Die Miete ist 750 Euro warm. Ich ziehe am 1. April ein. Kommst du mir helfen?\n\nLiebe Grüße,\nAnna",
+              "source": "Persönliche E-Mail"
+            },
+            {
+              "id": "A1_m03_R1_text2",
+              "type": "article",
+              "content": "SPORTVEREIN BLAU-WEISS\nNeu im Verein?\n\nUnser Verein bietet Sport für alle: Fußball, Basketball und Schwimmen. Die Mitgliedschaft kostet 15 Euro pro Monat. Kinder bis 14 Jahre zahlen nur 8 Euro. Das Training findet montags, mittwochs und freitags statt. Neue Mitglieder können jederzeit eintreten. Einfach in unser Büro kommen — montags von 17 bis 19 Uhr.",
+              "source": "Vereinsinformation"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_m03_R1_q1",
+              "type": "true_false",
+              "questionText": "Annas neue Wohnung hat drei Zimmer.",
+              "relatedTextId": "A1_m03_R1_text1",
+              "correctAnswer": "falsch",
+              "explanation": "In der E-Mail steht: 'Die Wohnung hat zwei Zimmer, eine Küche und ein Bad.' Die Wohnung hat zwei Zimmer, nicht drei. Die Aussage ist falsch."
+            },
+            {
+              "id": "A1_m03_R1_q2",
+              "type": "true_false",
+              "questionText": "Anna zieht am 1. April in die neue Wohnung ein.",
+              "relatedTextId": "A1_m03_R1_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Anna schreibt: 'Ich ziehe am 1. April ein.' Das Einzugsdatum ist der 1. April. Die Aussage ist richtig."
+            },
+            {
+              "id": "A1_m03_R1_q3",
+              "type": "true_false",
+              "questionText": "Die Miete beträgt 750 Euro.",
+              "relatedTextId": "A1_m03_R1_text1",
+              "correctAnswer": "richtig",
+              "explanation": "In der E-Mail steht: 'Die Miete ist 750 Euro warm.' Die Miete beträgt also 750 Euro. Die Aussage ist richtig."
+            },
+            {
+              "id": "A1_m03_R1_q4",
+              "type": "true_false",
+              "questionText": "Kinder zahlen im Sportverein 15 Euro pro Monat.",
+              "relatedTextId": "A1_m03_R1_text2",
+              "correctAnswer": "falsch",
+              "explanation": "Im Text steht: 'Kinder bis 14 Jahre zahlen nur 8 Euro.' 15 Euro ist der Preis für Erwachsene. Kinder zahlen 8 Euro. Die Aussage ist falsch."
+            },
+            {
+              "id": "A1_m03_R1_q5",
+              "type": "true_false",
+              "questionText": "Das Büro des Sportvereins ist montags geöffnet.",
+              "relatedTextId": "A1_m03_R1_text2",
+              "correctAnswer": "richtig",
+              "explanation": "Im Text steht: 'Einfach in unser Büro kommen — montags von 17 bis 19 Uhr.' Das Büro ist also montags geöffnet. Die Aussage ist richtig."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie die Anzeigen a–h und die Situationen 1–5. Welche Anzeige passt zu welcher Situation? Für eine Situation gibt es keine passende Anzeige. Schreiben Sie den richtigen Buchstaben (a–h).",
+          "instructionsTranslation": "Read the advertisements a–h and situations 1–5. Which advertisement matches which situation? For one situation there is no matching advertisement. Write the correct letter (a–h).",
+          "texts": [
+            {
+              "id": "A1_m03_R2_ad_a",
+              "type": "ad",
+              "content": "SPRACHSCHULE BERLIN-MITTE\nDeutsch als Fremdsprache\nKleingruppen: max. 8 Personen\nMo – Fr, 9–13 Uhr oder 18–20 Uhr\nErstgespräch kostenlos!\nwww.sprachschule-berlin.de"
+            },
+            {
+              "id": "A1_m03_R2_ad_b",
+              "type": "ad",
+              "content": "KINO ROYAL BERLIN\n'Das große Abenteuer' — Familienfilm\nTäglich 14:30 und 17:00 Uhr\nKinder unter 12: 5 €\nErwachsene: 9 €\nPopcorn & Getränke an der Kasse"
+            },
+            {
+              "id": "A1_m03_R2_ad_c",
+              "type": "ad",
+              "content": "BÄCKEREI SONNENSCHEIN\nFrisches Brot täglich ab 6 Uhr!\nKuchen, Brötchen, Croissants\nKaffee zum Mitnehmen: 2 €\nHauptstraße 45 — neben der Post"
+            },
+            {
+              "id": "A1_m03_R2_ad_d",
+              "type": "ad",
+              "content": "TIERARZTPRAXIS DR. VOGEL\nKlein- und Haustiere\nNotfallnummer: 030 / 887 44 22\nTermine: Mo–Fr 9–18 Uhr\nImpfungen, Vorsorge, Behandlung"
+            },
+            {
+              "id": "A1_m03_R2_ad_e",
+              "type": "ad",
+              "content": "NACHHILFELEHRER GESUCHT\nFür Schüler Klasse 5–8\nFächer: Mathe, Englisch\n15 € pro Stunde\nKontakt: nachhilfe-berlin@email.de"
+            },
+            {
+              "id": "A1_m03_R2_ad_f",
+              "type": "ad",
+              "content": "WOHNGEMEINSCHAFT SUCHT MITBEWOHNER\n1 Zimmer frei (18 m²)\nGemeinsame Küche und Bad\nMiete: 450 € warm\nNur Nichtraucher\nAnruf: 0157 / 334 22 11"
+            },
+            {
+              "id": "A1_m03_R2_ad_g",
+              "type": "ad",
+              "content": "FAHRSCHULE STADTMITTE\nAuto, Motorrad, LKW\nIntensive Ferienkurse\nOnline-Theorie verfügbar\nInfo: 030 / 445 67 89"
+            },
+            {
+              "id": "A1_m03_R2_ad_h",
+              "type": "ad",
+              "content": "SECONDHAND-MÖBEL\nGünstige Möbel für Studenten\nStühle ab 10 €, Tische ab 25 €\nSa + So 10–15 Uhr\nLagerstraße 8"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_m03_R2_q1",
+              "type": "matching",
+              "questionText": "Jana zieht in eine neue Wohnung und braucht günstige Möbel.",
+              "matchingSources": [
+                {"id": "A1_m03_R2_ad_a", "label": "a"},
+                {"id": "A1_m03_R2_ad_b", "label": "b"},
+                {"id": "A1_m03_R2_ad_c", "label": "c"},
+                {"id": "A1_m03_R2_ad_d", "label": "d"},
+                {"id": "A1_m03_R2_ad_e", "label": "e"},
+                {"id": "A1_m03_R2_ad_f", "label": "f"},
+                {"id": "A1_m03_R2_ad_g", "label": "g"},
+                {"id": "A1_m03_R2_ad_h", "label": "h"}
+              ],
+              "correctAnswer": "h",
+              "explanation": "Anzeige h bietet günstige Secondhand-Möbel — Stühle ab 10 €, Tische ab 25 €. Jana braucht günstige Möbel für ihre neue Wohnung — das passt."
+            },
+            {
+              "id": "A1_m03_R2_q2",
+              "type": "matching",
+              "questionText": "David ist neu in Berlin und möchte Deutsch lernen.",
+              "matchingSources": [
+                {"id": "A1_m03_R2_ad_a", "label": "a"},
+                {"id": "A1_m03_R2_ad_b", "label": "b"},
+                {"id": "A1_m03_R2_ad_c", "label": "c"},
+                {"id": "A1_m03_R2_ad_d", "label": "d"},
+                {"id": "A1_m03_R2_ad_e", "label": "e"},
+                {"id": "A1_m03_R2_ad_f", "label": "f"},
+                {"id": "A1_m03_R2_ad_g", "label": "g"},
+                {"id": "A1_m03_R2_ad_h", "label": "h"}
+              ],
+              "correctAnswer": "a",
+              "explanation": "Anzeige a ist die Sprachschule Berlin-Mitte mit Deutschkursen (Deutsch als Fremdsprache) in kleinen Gruppen. David ist neu und möchte Deutsch lernen — das passt."
+            },
+            {
+              "id": "A1_m03_R2_q3",
+              "type": "matching",
+              "questionText": "Frau Lange sucht ein günstiges Zimmer in einer Wohngemeinschaft.",
+              "matchingSources": [
+                {"id": "A1_m03_R2_ad_a", "label": "a"},
+                {"id": "A1_m03_R2_ad_b", "label": "b"},
+                {"id": "A1_m03_R2_ad_c", "label": "c"},
+                {"id": "A1_m03_R2_ad_d", "label": "d"},
+                {"id": "A1_m03_R2_ad_e", "label": "e"},
+                {"id": "A1_m03_R2_ad_f", "label": "f"},
+                {"id": "A1_m03_R2_ad_g", "label": "g"},
+                {"id": "A1_m03_R2_ad_h", "label": "h"}
+              ],
+              "correctAnswer": "f",
+              "explanation": "Anzeige f ist eine Wohngemeinschaft, die einen Mitbewohner sucht — 1 Zimmer für 450 € warm. Frau Lange sucht ein Zimmer in einer WG — das passt."
+            },
+            {
+              "id": "A1_m03_R2_q4",
+              "type": "matching",
+              "questionText": "Herr und Frau Bauer möchten mit ihren Kindern einen Kinderfilm anschauen.",
+              "matchingSources": [
+                {"id": "A1_m03_R2_ad_a", "label": "a"},
+                {"id": "A1_m03_R2_ad_b", "label": "b"},
+                {"id": "A1_m03_R2_ad_c", "label": "c"},
+                {"id": "A1_m03_R2_ad_d", "label": "d"},
+                {"id": "A1_m03_R2_ad_e", "label": "e"},
+                {"id": "A1_m03_R2_ad_f", "label": "f"},
+                {"id": "A1_m03_R2_ad_g", "label": "g"},
+                {"id": "A1_m03_R2_ad_h", "label": "h"}
+              ],
+              "correctAnswer": "b",
+              "explanation": "Anzeige b ist das Kino Royal mit dem Familienfilm 'Das große Abenteuer', täglich nachmittags. Familie Bauer möchte mit Kindern einen Film sehen — das passt."
+            },
+            {
+              "id": "A1_m03_R2_q5",
+              "type": "matching",
+              "questionText": "Ihr Hund ist krank. Sie brauchen dringend einen Arzt für Tiere.",
+              "matchingSources": [
+                {"id": "A1_m03_R2_ad_a", "label": "a"},
+                {"id": "A1_m03_R2_ad_b", "label": "b"},
+                {"id": "A1_m03_R2_ad_c", "label": "c"},
+                {"id": "A1_m03_R2_ad_d", "label": "d"},
+                {"id": "A1_m03_R2_ad_e", "label": "e"},
+                {"id": "A1_m03_R2_ad_f", "label": "f"},
+                {"id": "A1_m03_R2_ad_g", "label": "g"},
+                {"id": "A1_m03_R2_ad_h", "label": "h"}
+              ],
+              "correctAnswer": "d",
+              "explanation": "Anzeige d ist die Tierarztpraxis Dr. Vogel mit einer Notfallnummer. Der Hund ist krank und ein Tierarzt wird dringend gebraucht — das passt."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die Texte und die Aufgaben 1–5. Kreuzen Sie an: richtig oder falsch.",
+          "instructionsTranslation": "Read the texts and tasks 1–5. Mark: correct or incorrect.",
+          "texts": [
+            {
+              "id": "A1_m03_R3_notice1",
+              "type": "notice",
+              "content": "ACHTUNG — BAUSTELLE\nDie Einfahrt ist von Montag bis Freitag gesperrt.\nBitte benutzen Sie die Einfahrt Nordseite.\nWir bitten um Ihr Verständnis."
+            },
+            {
+              "id": "A1_m03_R3_notice2",
+              "type": "notice",
+              "content": "BITTE LEISE!\nBibliothek — Ruhezone\nHandy bitte stumm schalten.\nEssen und Trinken verboten."
+            },
+            {
+              "id": "A1_m03_R3_notice3",
+              "type": "notice",
+              "content": "SCHWIMMBAD\nKinder unter 14 Jahren\nnur in Begleitung eines Erwachsenen!"
+            },
+            {
+              "id": "A1_m03_R3_notice4",
+              "type": "notice",
+              "content": "POSTFILIALE\nMo–Fr: 8:30–18:00 Uhr\nSa: 9:00–13:00 Uhr\nSo: geschlossen"
+            },
+            {
+              "id": "A1_m03_R3_notice5",
+              "type": "notice",
+              "content": "FAHRRADSTÄNDER\nBitte Fahrräder nur hier abstellen.\nNicht an den Bäumen!\nDanke."
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_m03_R3_q1",
+              "type": "true_false",
+              "questionText": "Die Einfahrt ist am Wochenende frei.",
+              "relatedTextId": "A1_m03_R3_notice1",
+              "correctAnswer": "richtig",
+              "explanation": "Das Schild sagt: 'Die Einfahrt ist von Montag bis Freitag gesperrt.' Am Wochenende (Samstag und Sonntag) ist die Einfahrt also nicht gesperrt — sie ist frei. Die Aussage ist richtig."
+            },
+            {
+              "id": "A1_m03_R3_q2",
+              "type": "true_false",
+              "questionText": "In der Bibliothek darf man etwas essen.",
+              "relatedTextId": "A1_m03_R3_notice2",
+              "correctAnswer": "falsch",
+              "explanation": "Das Schild sagt: 'Essen und Trinken verboten.' In der Bibliothek darf man also nicht essen. Die Aussage ist falsch."
+            },
+            {
+              "id": "A1_m03_R3_q3",
+              "type": "true_false",
+              "questionText": "Ein 12-jähriges Kind darf allein im Schwimmbad schwimmen.",
+              "relatedTextId": "A1_m03_R3_notice3",
+              "correctAnswer": "falsch",
+              "explanation": "Das Schild sagt: 'Kinder unter 14 Jahren nur in Begleitung eines Erwachsenen!' Ein 12-jähriges Kind ist unter 14 Jahren und darf daher nicht allein schwimmen. Die Aussage ist falsch."
+            },
+            {
+              "id": "A1_m03_R3_q4",
+              "type": "true_false",
+              "questionText": "Die Postfiliale ist am Sonntag geschlossen.",
+              "relatedTextId": "A1_m03_R3_notice4",
+              "correctAnswer": "richtig",
+              "explanation": "Das Schild zeigt: 'So: geschlossen.' Die Post ist am Sonntag also geschlossen. Die Aussage ist richtig."
+            },
+            {
+              "id": "A1_m03_R3_q5",
+              "type": "true_false",
+              "questionText": "Man darf sein Fahrrad an die Bäume stellen.",
+              "relatedTextId": "A1_m03_R3_notice5",
+              "correctAnswer": "falsch",
+              "explanation": "Das Schild sagt: 'Nicht an den Bäumen!' Man soll Fahrräder nur am Fahrradständer abstellen, nicht an den Bäumen. Die Aussage ist falsch."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 20,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "form_fill",
+          "instructions": "Frau Özdemir möchte einen Arzttermin machen. Lesen Sie das Formular und füllen Sie die fünf Lücken aus. Benutzen Sie die Informationen unten.\n\nAngaben: Vorname: Elif | Nachname: Özdemir | Geburtsdatum: 03.09.1992 | Krankenkasse: AOK | Beschwerden: Halsschmerzen seit 3 Tagen",
+          "instructionsTranslation": "Ms Özdemir wants to make a doctor's appointment. Read the form and fill in the five gaps using the information below.\n\nDetails: First name: Elif | Surname: Özdemir | Date of birth: 03.09.1992 | Health insurance: AOK | Symptoms: sore throat for 3 days",
+          "formFields": [
+            {
+              "label": "Vorname",
+              "correctAnswer": "Elif",
+              "hint": "Erster Name der Person"
+            },
+            {
+              "label": "Nachname",
+              "correctAnswer": "Özdemir",
+              "hint": "Familienname der Person"
+            },
+            {
+              "label": "Geburtsdatum",
+              "correctAnswer": "03.09.1992",
+              "hint": "Tag, Monat und Jahr der Geburt"
+            },
+            {
+              "label": "Krankenkasse",
+              "correctAnswer": "AOK",
+              "hint": "Name der Krankenkasse"
+            },
+            {
+              "label": "Beschwerden",
+              "correctAnswer": "Halsschmerzen seit 3 Tagen",
+              "hint": "Was tut weh? Wie lange schon?"
+            }
+          ],
+          "sampleAnswer": "Vorname: Elif\nNachname: Özdemir\nGeburtsdatum: 03.09.1992\nKrankenkasse: AOK\nBeschwerden: Halsschmerzen seit 3 Tagen",
+          "scoringCriteria": [
+            {
+              "criterion": "Vollständigkeit",
+              "maxPoints": 5,
+              "description": "Alle fünf Felder sind ausgefüllt. Pro korrekt ausgefülltem Feld einen Punkt."
+            },
+            {
+              "criterion": "Korrektheit",
+              "maxPoints": 5,
+              "description": "Die Informationen entsprechen den Angaben aus der Aufgabe. Schreibweise von Namen ist akzeptiert, wenn klar lesbar."
+            }
+          ]
+        },
+        {
+          "taskNumber": 2,
+          "type": "short_message",
+          "instructions": "Schreiben Sie eine kurze Nachricht an Ihren Nachbarn Herrn Fischer. Schreiben Sie 30–40 Wörter. Schreiben Sie zu diesen drei Punkten:",
+          "instructionsTranslation": "Write a short message to your neighbour Mr Fischer. Write 30–40 words. Write about these three points:",
+          "prompt": "Schreiben Sie Herrn Fischer eine Nachricht.\n\n• Warum schreiben Sie? (Paket oder Lärm)\n• Was ist das Problem?\n• Was soll Herr Fischer tun?",
+          "promptTranslation": "Write Mr Fischer a message.\n\n• Why are you writing? (parcel or noise)\n• What is the problem?\n• What should Mr Fischer do?",
+          "requiredPoints": [
+            "Grund des Schreibens (Paket oder Lärm)",
+            "Beschreibung des Problems",
+            "Bitte / Aufforderung an Herrn Fischer"
+          ],
+          "wordCountMin": 30,
+          "wordCountMax": 40,
+          "sampleAnswer": "Guten Tag Herr Fischer,\n\nein Paket für Sie liegt bei mir. Der Postbote hat heute geklingelt — Sie waren nicht da. Das Paket ist bei mir in Wohnung 12. Bitte klingeln Sie heute Abend!\n\nMit freundlichen Grüßen,\nM. Schmidt",
+          "scoringCriteria": [
+            {
+              "criterion": "Aufgabenerfüllung",
+              "maxPoints": 4,
+              "description": "Alle drei Inhaltspunkte (Grund, Problem, Aufforderung) sind angesprochen und klar formuliert."
+            },
+            {
+              "criterion": "Kommunikative Gestaltung",
+              "maxPoints": 4,
+              "description": "Die Nachricht hat eine passende Anrede und einen Abschluss. Der Ton ist freundlich aber direkt."
+            },
+            {
+              "criterion": "Formale Richtigkeit",
+              "maxPoints": 4,
+              "description": "Einfache Satzstrukturen auf A1-Niveau. Fehler werden toleriert, solange die Nachricht verständlich ist."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 0,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Stellen Sie sich vor. Sagen Sie etwas über: Name, Alter, Herkunft, Beruf oder Hobby.",
+          "instructionsTranslation": "Introduce yourself. Say something about: name, age, where you are from, job or hobby.",
+          "type": "introduce",
+          "prompt": "Guten Tag, mein Name ist ... Ich komme aus ... Ich bin ... Jahre alt. Ich arbeite als ... / In meiner Freizeit ...",
+          "sampleResponse": "Guten Tag, mein Name ist Mehmet Kaya. Ich komme aus der Türkei. Ich bin 34 Jahre alt und ich wohne seit zwei Jahren in Berlin. Ich arbeite als Koch in einem Restaurant. In meiner Freizeit spiele ich Fußball.",
+          "sampleAudioFile": "assets/audio/A1/mock03/speaking_part1_sample.mp3",
+          "evaluationTips": [
+            "Nennen Sie alle vier Punkte: Name, Alter, Herkunft und Beruf oder Hobby.",
+            "Sagen Sie ruhig auch, wie lange Sie schon in Deutschland sind — das ist eine natürliche Ergänzung.",
+            "Sprechen Sie langsam und deutlich. Es ist keine Prüfung über Geschwindigkeit.",
+            "Wenn Sie ein Wort vergessen, beschreiben Sie es: 'Ich mache Sport — ich spiele mit einem Ball.'"
+          ],
+          "keyPhrases": [
+            "Mein Name ist ... / Ich heiße ...",
+            "Ich komme aus ...",
+            "Ich bin ... Jahre alt.",
+            "Ich wohne seit ... Jahren in ...",
+            "Ich arbeite als ...",
+            "In meiner Freizeit ..."
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie bekommen eine Bildkarte. Sagen Sie das Wort auf Deutsch. Der Prüfer fragt dann: 'Haben Sie das auch?' Antworten Sie mit Ja oder Nein und einem kurzen Satz.",
+          "instructionsTranslation": "You receive a picture card. Say the word in German. The examiner then asks: 'Do you have that too?' Answer with yes or no and a short sentence.",
+          "type": "picture_cards",
+          "prompt": "Bildkarte 1: Ein Tisch\nBildkarte 2: Eine Katze\nBildkarte 3: Ein Computer\n\nDer Prüfer fragt nach jeder Karte:\n'Haben Sie einen Tisch / eine Katze / einen Computer?'",
+          "promptImage": "assets/images/A1/mock03/speaking_part2_cards.png",
+          "sampleResponse": "Karte 1: 'Das ist ein Tisch. Ja, ich habe einen Tisch. Er ist aus Holz und sehr groß.'\nKarte 2: 'Das ist eine Katze. Nein, ich habe keine Katze. Aber ich mag Tiere sehr.'\nKarte 3: 'Das ist ein Computer. Ja, ich habe einen Computer. Ich brauche ihn für die Arbeit.'",
+          "sampleAudioFile": "assets/audio/A1/mock03/speaking_part2_sample.mp3",
+          "evaluationTips": [
+            "Achten Sie auf den richtigen Artikel im Akkusativ: 'ich habe einen Tisch' (nicht 'ein Tisch').",
+            "Auf A1-Niveau sind Fehler im Akkusativ normal — kommunizieren Sie weiter.",
+            "Antworten Sie nicht nur mit 'Ja' oder 'Nein' — fügen Sie immer einen Satz hinzu.",
+            "Beschreiben Sie das Objekt kurz: Farbe, Material oder Größe."
+          ],
+          "keyPhrases": [
+            "Das ist ein / eine ...",
+            "Ja, ich habe einen / eine / ein ...",
+            "Nein, ich habe keinen / keine / kein ...",
+            "Er ist / Sie ist / Es ist ...",
+            "Ich brauche ihn / sie / es für ..."
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie bekommen eine Wortkarte mit einem Thema. Stellen Sie dem Prüfer eine Frage zu diesem Thema. Der Prüfer antwortet und fragt dann: 'Und du?' Antworten Sie auch.",
+          "instructionsTranslation": "You receive a word card with a topic. Ask the examiner a question on this topic. The examiner answers and then asks: 'And you?' Answer too.",
+          "type": "und_du",
+          "prompt": "Wortkarte 1: Sport\nWortkarte 2: Musik\nWortkarte 3: Wetter\n\nFormulieren Sie für jede Karte eine Frage an den Prüfer.",
+          "sampleResponse": "Karte 1 — Sport:\nKandidat: 'Machen Sie Sport?'\nPrüfer: 'Ja, ich gehe joggen. Und du?'\nKandidat: 'Ich spiele Fußball — zweimal pro Woche.'\n\nKarte 2 — Musik:\nKandidat: 'Hören Sie gern Musik?'\nPrüfer: 'Ja, ich höre Jazz. Und du?'\nKandidat: 'Ich höre gern Popmusik, zum Beispiel im Bus.'\n\nKarte 3 — Wetter:\nKandidat: 'Wie ist das Wetter heute?'\nPrüfer: 'Es ist sonnig und warm. Und du — magst du das Wetter?'\nKandidat: 'Ja, ich mag Sommer. Ich mag keinen Regen.'",
+          "sampleAudioFile": "assets/audio/A1/mock03/speaking_part3_sample.mp3",
+          "evaluationTips": [
+            "Formulieren Sie immer eine echte Frage — kein einzelnes Wort wie 'Sport?'",
+            "Auf 'Und du?' antworten Sie mit mindestens einem vollständigen Satz.",
+            "Sie können Ihre Antwort mit einer kleinen Erklärung ergänzen — das zeigt mehr Sprachkompetenz.",
+            "Wenn der Prüfer spricht, hören Sie aufmerksam zu — er könnte etwas sagen, worauf Sie reagieren können."
+          ],
+          "keyPhrases": [
+            "Machen Sie Sport / Musik?",
+            "Hören Sie gern ...?",
+            "Wie ist das Wetter heute?",
+            "Ich mache / höre gern ...",
+            "Ich mag ... / Ich mag keinen / keine ...",
+            "... mal pro Woche."
+          ]
+        }
+      ]
+    }
   }
 }

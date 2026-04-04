@@ -2,12 +2,593 @@
   "id": "A1_mock_02",
   "level": "A1",
   "title": "Übungstest 2",
-  "version": 0,
-  "_stub": true,
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören drei kurze Texte. Zu jedem Text gibt es eine Aufgabe. Welches Bild passt? Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.",
+          "instructionsTranslation": "You will hear three short recordings. For each recording there is one task. Which picture matches? Mark: a, b, or c. You will hear each recording twice.",
+          "audioFile": "assets/audio/A1/mock02/listening_part1.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A1_m02_L1_q1",
+              "type": "mcq",
+              "questionText": "Wie ist das Wetter am Wochenende?",
+              "questionImage": "assets/images/A1/mock02/L1_q1_wetter.png",
+              "options": [
+                "a) sonnig und warm",
+                "b) bewölkt und kalt",
+                "c) Regen und Sturm"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Im Wetterbericht sagt die Sprecherin: 'Am Wochenende scheint die Sonne — die Temperaturen steigen auf 22 Grad. Perfektes Wetter für einen Ausflug!' Das Wetter ist also sonnig und warm. Regen und Kälte werden nicht genannt.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "A1_m02_L1_q2",
+              "type": "mcq",
+              "questionText": "Was kauft Herr Braun im Supermarkt?",
+              "questionImage": "assets/images/A1/mock02/L1_q2_supermarkt.png",
+              "options": [
+                "a) Brot und Butter",
+                "b) Eier und Milch",
+                "c) Käse und Schinken"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Herr Braun sagt an der Kasse: 'Ich brauche noch Eier und Milch — das ist alles für heute.' Er kauft also Eier und Milch. Brot, Butter, Käse und Schinken werden im Gespräch nicht erwähnt.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A1_m02_L1_q3",
+              "type": "mcq",
+              "questionText": "Von welchem Gleis fährt der Zug ab?",
+              "questionImage": "assets/images/A1/mock02/L1_q3_bahnhof.png",
+              "options": [
+                "a) Gleis 3",
+                "b) Gleis 5",
+                "c) Gleis 9"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Bahnhofsdurchsage sagt: 'Der Regionalexpress nach Frankfurt fährt heute von Gleis 9 ab. Bitte beachten Sie: Gleis 9 befindet sich im hinteren Teil des Bahnhofs.' Der Zug fährt von Gleis 9 ab.",
+              "audioTimestamp": 7
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören fünf kurze Texte. Zu jedem Text gibt es eine Aufgabe. Kreuzen Sie an: richtig oder falsch. Sie hören jeden Text zweimal.",
+          "instructionsTranslation": "You will hear five short recordings. For each recording there is one task. Mark: correct or incorrect. You will hear each recording twice.",
+          "audioFile": "assets/audio/A1/mock02/listening_part2.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A1_m02_L2_q1",
+              "type": "true_false",
+              "questionText": "Das Fitnessstudio öffnet um 7 Uhr morgens.",
+              "correctAnswer": "richtig",
+              "explanation": "Die Ansage des Fitnessstudios sagt: 'Wir haben täglich von 7 bis 22 Uhr für Sie geöffnet.' Das Studio öffnet also um 7 Uhr morgens. Die Aussage ist richtig.",
+              "audioTimestamp": 5
+            },
+            {
+              "id": "A1_m02_L2_q2",
+              "type": "true_false",
+              "questionText": "Der Zug nach Berlin hat keine Verspätung.",
+              "correctAnswer": "falsch",
+              "explanation": "Die Durchsage am Bahnhof sagt: 'Der ICE 812 nach Berlin hat heute leider 25 Minuten Verspätung.' Der Zug hat also Verspätung. Die Aussage ist falsch.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A1_m02_L2_q3",
+              "type": "true_false",
+              "questionText": "Die Arztpraxis ist am Freitagnachmittag geschlossen.",
+              "correctAnswer": "richtig",
+              "explanation": "Die Ansage der Arztpraxis sagt: 'Unsere Praxis ist montags bis donnerstags von 8 bis 18 Uhr geöffnet. Freitags nur bis 13 Uhr.' Freitagnachmittag ist die Praxis also geschlossen. Die Aussage ist richtig.",
+              "audioTimestamp": 10
+            },
+            {
+              "id": "A1_m02_L2_q4",
+              "type": "true_false",
+              "questionText": "Das Konzert beginnt um 20 Uhr.",
+              "correctAnswer": "falsch",
+              "explanation": "Die Ansage sagt: 'Das Konzert heute Abend beginnt um 19:30 Uhr. Bitte kommen Sie rechtzeitig.' Das Konzert beginnt also um 19:30 Uhr, nicht um 20 Uhr. Die Aussage ist falsch.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "A1_m02_L2_q5",
+              "type": "true_false",
+              "questionText": "Der Supermarkt macht heute früher zu.",
+              "correctAnswer": "richtig",
+              "explanation": "Die Durchsage im Supermarkt sagt: 'Liebe Kunden, heute schließen wir ausnahmsweise um 18 Uhr — zwei Stunden früher als sonst.' Der Supermarkt macht heute also früher zu. Die Aussage ist richtig.",
+              "audioTimestamp": 7
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören drei Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear three short conversations. For each conversation there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A1/mock02/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A1_m02_L3_q1",
+              "type": "mcq",
+              "questionText": "Was macht Anna am Samstag?",
+              "options": [
+                "a) Sie geht ins Kino.",
+                "b) Sie macht einen Ausflug.",
+                "c) Sie bleibt zu Hause."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Im Gespräch sagt Anna: 'Am Samstag fahre ich mit meiner Familie an den See — wir machen einen Tagesausflug, wenn das Wetter gut ist.' Sie macht also einen Ausflug. Kino und zu Hause bleiben werden nicht erwähnt.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "A1_m02_L3_q2",
+              "type": "mcq",
+              "questionText": "Wie viel kostet das Mittagessen?",
+              "options": [
+                "a) 6,50 Euro",
+                "b) 8,50 Euro",
+                "c) 11 Euro"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Kellnerin erklärt: 'Der Mittagstisch kostet 8 Euro 50 — das ist Suppe und Hauptgericht.' Das Mittagessen kostet also 8,50 Euro. 6,50 und 11 Euro werden nicht als Preise für das Mittagessen genannt.",
+              "audioTimestamp": 10
+            },
+            {
+              "id": "A1_m02_L3_q3",
+              "type": "mcq",
+              "questionText": "Wohin fährt Peter in den Urlaub?",
+              "options": [
+                "a) nach Österreich",
+                "b) nach Spanien",
+                "c) nach Italien"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Peter sagt: 'Dieses Jahr fahre ich nach Italien — nach Rom und Florenz. Ich freue mich schon sehr!' Er fährt nach Italien. Österreich und Spanien werden zwar kurz erwähnt, aber Peter hat sich für Italien entschieden.",
+              "audioTimestamp": 15
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 25,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie die zwei Texte. Zu den Texten gibt es fünf Aufgaben. Kreuzen Sie an: richtig oder falsch.",
+          "instructionsTranslation": "Read the two texts. There are five tasks about the texts. Mark: correct or incorrect.",
+          "texts": [
+            {
+              "id": "A1_m02_R1_text1",
+              "type": "email",
+              "content": "Von: peter.hoffmann@email.de\nAn: lisa.schneider@email.de\nBetreff: Mein Geburtstag\n\nHallo Lisa,\n\nich feiere am Sonntag, den 22. Juni, meinen Geburtstag. Die Party beginnt um 17 Uhr — wir grillen im Garten! Ich wohne jetzt in der Rosenstraße 8 in Köln. Kannst du kommen? Bitte sag mir bis Donnerstag, ob du Zeit hast.\n\nViele Grüße,\nPeter",
+              "source": "Persönliche E-Mail"
+            },
+            {
+              "id": "A1_m02_R1_text2",
+              "type": "ad",
+              "content": "STELLENANZEIGE\n\nWir suchen: Kellner/Kellnerin (Teilzeit)\nRestaurant Zur alten Post, München\n\nArbeitszeit: Dienstag bis Samstag, abends\nGehalt: 14 Euro pro Stunde\n\nVoraussetzungen:\n— gute Deutschkenntnisse\n— freundlich und zuverlässig\n— Erfahrung im Service erwünscht\n\nBewerbung an: info@altepost-muenchen.de",
+              "source": "Stellenanzeige"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_m02_R1_q1",
+              "type": "true_false",
+              "questionText": "Peters Party ist am 22. Juni.",
+              "relatedTextId": "A1_m02_R1_text1",
+              "correctAnswer": "richtig",
+              "explanation": "In Peters E-Mail steht: 'ich feiere am Sonntag, den 22. Juni, meinen Geburtstag.' Das Datum ist der 22. Juni. Die Aussage ist richtig."
+            },
+            {
+              "id": "A1_m02_R1_q2",
+              "type": "true_false",
+              "questionText": "Die Party beginnt um 19 Uhr.",
+              "relatedTextId": "A1_m02_R1_text1",
+              "correctAnswer": "falsch",
+              "explanation": "In der E-Mail steht: 'Die Party beginnt um 17 Uhr.' Die Party beginnt also um 17 Uhr, nicht um 19 Uhr. Die Aussage ist falsch."
+            },
+            {
+              "id": "A1_m02_R1_q3",
+              "type": "true_false",
+              "questionText": "Lisa soll bis Donnerstag antworten.",
+              "relatedTextId": "A1_m02_R1_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Peter schreibt: 'Bitte sag mir bis Donnerstag, ob du Zeit hast.' Lisa soll also bis Donnerstag antworten. Die Aussage ist richtig."
+            },
+            {
+              "id": "A1_m02_R1_q4",
+              "type": "true_false",
+              "questionText": "Der Job im Restaurant ist eine Vollzeitstelle.",
+              "relatedTextId": "A1_m02_R1_text2",
+              "correctAnswer": "falsch",
+              "explanation": "In der Stellenanzeige steht: 'Kellner/Kellnerin (Teilzeit).' Es ist eine Teilzeitstelle, keine Vollzeitstelle. Die Aussage ist falsch."
+            },
+            {
+              "id": "A1_m02_R1_q5",
+              "type": "true_false",
+              "questionText": "Man braucht für den Job gute Deutschkenntnisse.",
+              "relatedTextId": "A1_m02_R1_text2",
+              "correctAnswer": "richtig",
+              "explanation": "In der Anzeige steht unter Voraussetzungen: 'gute Deutschkenntnisse.' Diese sind also erforderlich. Die Aussage ist richtig."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie die Anzeigen a–h und die Situationen 1–5. Welche Anzeige passt zu welcher Situation? Für eine Situation gibt es keine passende Anzeige. Schreiben Sie den richtigen Buchstaben (a–h).",
+          "instructionsTranslation": "Read the advertisements a–h and situations 1–5. Which advertisement matches which situation? For one situation there is no matching advertisement. Write the correct letter (a–h).",
+          "texts": [
+            {
+              "id": "A1_m02_R2_ad_a",
+              "type": "ad",
+              "content": "FITNESS FIRST MÜNCHEN\nMitgliedschaft ab 29 € / Monat\nKurse: Yoga, Pilates, Spinning\nTäglich 6–23 Uhr geöffnet\nKostenlose Probestunde!"
+            },
+            {
+              "id": "A1_m02_R2_ad_b",
+              "type": "ad",
+              "content": "RESTAURANT GOLDENER HIRSCH\nMittagsmenü täglich 11:30–14:30 Uhr\nSuppe + Hauptgericht + Dessert: 12 €\nVegetarische Gerichte vorhanden\nReservierung: 089 / 44 55 66"
+            },
+            {
+              "id": "A1_m02_R2_ad_c",
+              "type": "ad",
+              "content": "DR. MED. SABINE KELLER\nAllgemeinmedizin\nNeu in der Praxis? Termine online buchbar\nSprechstunde: Mo–Fr 8–12 Uhr\nHausbesuche auf Anfrage\nTel: 089 / 223 44 11"
+            },
+            {
+              "id": "A1_m02_R2_ad_d",
+              "type": "ad",
+              "content": "STADTAPOTHEKE AM MARKT\nIhre Gesundheit — unser Beruf\nRezepte und rezeptfreie Medikamente\nMo–Sa 8–19 Uhr\nNotfallservice 24h\nMarktplatz 3"
+            },
+            {
+              "id": "A1_m02_R2_ad_e",
+              "type": "ad",
+              "content": "FERIENWOHNUNG ZU VERMIETEN\n3 Zimmer, vollmöbliert\nNahe Stadtmitte — ruhige Straße\nKurzmiete ab 1 Woche möglich\nKontakt: fewo-muenchen@email.de"
+            },
+            {
+              "id": "A1_m02_R2_ad_f",
+              "type": "ad",
+              "content": "KINDERKLEIDUNG — SECONDHAND\nGut erhaltene Kleidung Gr. 74–140\nJe Stück 1–5 Euro\nSamstags 9–13 Uhr\nKirchenstraße 17"
+            },
+            {
+              "id": "A1_m02_R2_ad_g",
+              "type": "ad",
+              "content": "FAHRRADVERLEIH STADTMITTE\nCitybikes, E-Bikes, Kindersitze\nAb 8 € pro Tag\nOnline buchen: radverleih-muc.de\nTäglich 9–18 Uhr"
+            },
+            {
+              "id": "A1_m02_R2_ad_h",
+              "type": "ad",
+              "content": "SPRACHSCHULE LINGUA\nEnglisch, Spanisch, Französisch\nKurse für alle Niveaus\nAbendkurse ab 18 Uhr\nInfo & Anmeldung: lingua-muenchen.de"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_m02_R2_q1",
+              "type": "matching",
+              "questionText": "Herr Kim ist krank und braucht Medikamente. Er hat kein Rezept.",
+              "matchingSources": [
+                {"id": "A1_m02_R2_ad_a", "label": "a"},
+                {"id": "A1_m02_R2_ad_b", "label": "b"},
+                {"id": "A1_m02_R2_ad_c", "label": "c"},
+                {"id": "A1_m02_R2_ad_d", "label": "d"},
+                {"id": "A1_m02_R2_ad_e", "label": "e"},
+                {"id": "A1_m02_R2_ad_f", "label": "f"},
+                {"id": "A1_m02_R2_ad_g", "label": "g"},
+                {"id": "A1_m02_R2_ad_h", "label": "h"}
+              ],
+              "correctAnswer": "d",
+              "explanation": "Anzeige d ist die Stadtapotheke am Markt, die rezeptfreie Medikamente verkauft und Mo–Sa von 8–19 Uhr geöffnet ist. Herr Kim braucht Medikamente ohne Rezept — das passt."
+            },
+            {
+              "id": "A1_m02_R2_q2",
+              "type": "matching",
+              "questionText": "Sandra möchte Sport machen und sucht einen Kurs mit Yoga.",
+              "matchingSources": [
+                {"id": "A1_m02_R2_ad_a", "label": "a"},
+                {"id": "A1_m02_R2_ad_b", "label": "b"},
+                {"id": "A1_m02_R2_ad_c", "label": "c"},
+                {"id": "A1_m02_R2_ad_d", "label": "d"},
+                {"id": "A1_m02_R2_ad_e", "label": "e"},
+                {"id": "A1_m02_R2_ad_f", "label": "f"},
+                {"id": "A1_m02_R2_ad_g", "label": "g"},
+                {"id": "A1_m02_R2_ad_h", "label": "h"}
+              ],
+              "correctAnswer": "a",
+              "explanation": "Anzeige a ist Fitness First mit einer Mitgliedschaft ab 29 € pro Monat und Yoga-Kursen. Sandra sucht Sport und Yoga — das passt."
+            },
+            {
+              "id": "A1_m02_R2_q3",
+              "type": "matching",
+              "questionText": "Familie Schulz sucht eine möblierte Wohnung für eine Woche Urlaub.",
+              "matchingSources": [
+                {"id": "A1_m02_R2_ad_a", "label": "a"},
+                {"id": "A1_m02_R2_ad_b", "label": "b"},
+                {"id": "A1_m02_R2_ad_c", "label": "c"},
+                {"id": "A1_m02_R2_ad_d", "label": "d"},
+                {"id": "A1_m02_R2_ad_e", "label": "e"},
+                {"id": "A1_m02_R2_ad_f", "label": "f"},
+                {"id": "A1_m02_R2_ad_g", "label": "g"},
+                {"id": "A1_m02_R2_ad_h", "label": "h"}
+              ],
+              "correctAnswer": "e",
+              "explanation": "Anzeige e bietet eine vollmöblierte Ferienwohnung zur Kurzmiete ab einer Woche. Familie Schulz sucht eine möblierte Wohnung für Urlaub — das passt perfekt."
+            },
+            {
+              "id": "A1_m02_R2_q4",
+              "type": "matching",
+              "questionText": "Frau Meier möchte mit Kollegen günstig zu Mittag essen gehen.",
+              "matchingSources": [
+                {"id": "A1_m02_R2_ad_a", "label": "a"},
+                {"id": "A1_m02_R2_ad_b", "label": "b"},
+                {"id": "A1_m02_R2_ad_c", "label": "c"},
+                {"id": "A1_m02_R2_ad_d", "label": "d"},
+                {"id": "A1_m02_R2_ad_e", "label": "e"},
+                {"id": "A1_m02_R2_ad_f", "label": "f"},
+                {"id": "A1_m02_R2_ad_g", "label": "g"},
+                {"id": "A1_m02_R2_ad_h", "label": "h"}
+              ],
+              "correctAnswer": "b",
+              "explanation": "Anzeige b ist das Restaurant Goldener Hirsch mit einem Mittagsmenü (Suppe, Hauptgericht, Dessert) für 12 Euro. Frau Meier möchte günstig zu Mittag essen — das passt."
+            },
+            {
+              "id": "A1_m02_R2_q5",
+              "type": "matching",
+              "questionText": "Tom möchte günstig Kleidung für sein kleines Kind kaufen.",
+              "matchingSources": [
+                {"id": "A1_m02_R2_ad_a", "label": "a"},
+                {"id": "A1_m02_R2_ad_b", "label": "b"},
+                {"id": "A1_m02_R2_ad_c", "label": "c"},
+                {"id": "A1_m02_R2_ad_d", "label": "d"},
+                {"id": "A1_m02_R2_ad_e", "label": "e"},
+                {"id": "A1_m02_R2_ad_f", "label": "f"},
+                {"id": "A1_m02_R2_ad_g", "label": "g"},
+                {"id": "A1_m02_R2_ad_h", "label": "h"}
+              ],
+              "correctAnswer": "f",
+              "explanation": "Anzeige f ist ein Secondhand-Laden für Kinderkleidung mit Größen 74–140, je Stück für 1–5 Euro. Tom sucht günstige Kleidung für ein kleines Kind — das passt."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die Texte und die Aufgaben 1–5. Kreuzen Sie an: richtig oder falsch.",
+          "instructionsTranslation": "Read the texts and tasks 1–5. Mark: correct or incorrect.",
+          "texts": [
+            {
+              "id": "A1_m02_R3_notice1",
+              "type": "notice",
+              "content": "BITTE BEACHTEN\nDer Fahrstuhl wird am Dienstag gewartet.\nBitte benutzen Sie in dieser Zeit die Treppe.\nWir danken für Ihr Verständnis."
+            },
+            {
+              "id": "A1_m02_R3_notice2",
+              "type": "notice",
+              "content": "STADTBÜCHEREI\nDienstag bis Freitag: 10–19 Uhr\nSamstag: 10–14 Uhr\nMontag + Sonntag: geschlossen"
+            },
+            {
+              "id": "A1_m02_R3_notice3",
+              "type": "notice",
+              "content": "HUNDE VERBOTEN\nBitte lassen Sie Ihren Hund draußen.\nVielen Dank!"
+            },
+            {
+              "id": "A1_m02_R3_notice4",
+              "type": "notice",
+              "content": "Mitglieder zahlen 50% weniger!\nNicht-Mitglieder: Eintritt 10 €\nMitglieder: Eintritt 5 €"
+            },
+            {
+              "id": "A1_m02_R3_notice5",
+              "type": "notice",
+              "content": "PARKPLATZ PRIVAT\nNur für Bewohner des Hauses.\nAlle anderen Fahrzeuge werden abgeschleppt."
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_m02_R3_q1",
+              "type": "true_false",
+              "questionText": "Der Fahrstuhl funktioniert am Dienstag nicht.",
+              "relatedTextId": "A1_m02_R3_notice1",
+              "correctAnswer": "richtig",
+              "explanation": "Das Schild sagt: 'Der Fahrstuhl wird am Dienstag gewartet.' Während der Wartung ist der Fahrstuhl nicht in Betrieb. Man soll die Treppe nehmen. Die Aussage ist richtig."
+            },
+            {
+              "id": "A1_m02_R3_q2",
+              "type": "true_false",
+              "questionText": "Die Stadtbücherei ist am Samstag bis 19 Uhr geöffnet.",
+              "relatedTextId": "A1_m02_R3_notice2",
+              "correctAnswer": "falsch",
+              "explanation": "Das Schild zeigt: Samstag ist die Bücherei von 10 bis 14 Uhr geöffnet, nicht bis 19 Uhr. 19 Uhr gilt nur für Dienstag bis Freitag. Die Aussage ist falsch."
+            },
+            {
+              "id": "A1_m02_R3_q3",
+              "type": "true_false",
+              "questionText": "Man darf keinen Hund mitbringen.",
+              "relatedTextId": "A1_m02_R3_notice3",
+              "correctAnswer": "richtig",
+              "explanation": "Das Schild sagt: 'HUNDE VERBOTEN. Bitte lassen Sie Ihren Hund draußen.' Man darf also keinen Hund mitbringen. Die Aussage ist richtig."
+            },
+            {
+              "id": "A1_m02_R3_q4",
+              "type": "true_false",
+              "questionText": "Mitglieder zahlen hier nichts.",
+              "relatedTextId": "A1_m02_R3_notice4",
+              "correctAnswer": "falsch",
+              "explanation": "Das Schild sagt: 'Mitglieder: Eintritt 5 €.' Mitglieder zahlen weniger, aber nicht nichts — sie zahlen 5 Euro. Die Aussage ist falsch."
+            },
+            {
+              "id": "A1_m02_R3_q5",
+              "type": "true_false",
+              "questionText": "Alle Personen dürfen hier parken.",
+              "relatedTextId": "A1_m02_R3_notice5",
+              "correctAnswer": "falsch",
+              "explanation": "Das Schild sagt: 'Nur für Bewohner des Hauses.' Nur Bewohner dürfen hier parken — nicht alle Personen. Andere Autos werden abgeschleppt. Die Aussage ist falsch."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 20,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "form_fill",
+          "instructions": "Herr Weber möchte sich im Hotel anmelden. Lesen Sie das Formular und füllen Sie die fünf Lücken aus. Benutzen Sie die Informationen unten.\n\nAngaben: Vorname: Thomas | Nachname: Weber | Geburtsdatum: 14.05.1985 | Nationalität: deutsch | Zimmerwunsch: Einzelzimmer, 3 Nächte",
+          "instructionsTranslation": "Mr Weber wants to check in at the hotel. Read the form and fill in the five gaps using the information below.\n\nDetails: First name: Thomas | Surname: Weber | Date of birth: 14.05.1985 | Nationality: German | Room request: single room, 3 nights",
+          "formFields": [
+            {
+              "label": "Vorname",
+              "correctAnswer": "Thomas",
+              "hint": "Erster Name der Person"
+            },
+            {
+              "label": "Nachname",
+              "correctAnswer": "Weber",
+              "hint": "Familienname der Person"
+            },
+            {
+              "label": "Geburtsdatum",
+              "correctAnswer": "14.05.1985",
+              "hint": "Tag, Monat und Jahr der Geburt"
+            },
+            {
+              "label": "Nationalität",
+              "correctAnswer": "deutsch",
+              "hint": "Land, aus dem die Person kommt"
+            },
+            {
+              "label": "Zimmerwunsch",
+              "correctAnswer": "Einzelzimmer, 3 Nächte",
+              "hint": "Art des Zimmers und Aufenthaltsdauer"
+            }
+          ],
+          "sampleAnswer": "Vorname: Thomas\nNachname: Weber\nGeburtsdatum: 14.05.1985\nNationalität: deutsch\nZimmerwunsch: Einzelzimmer, 3 Nächte",
+          "scoringCriteria": [
+            {
+              "criterion": "Vollständigkeit",
+              "maxPoints": 5,
+              "description": "Alle fünf Felder sind ausgefüllt. Pro korrekt ausgefülltem Feld einen Punkt."
+            },
+            {
+              "criterion": "Korrektheit",
+              "maxPoints": 5,
+              "description": "Die Informationen entsprechen exakt den Angaben aus der Aufgabe. Das Datum ist im richtigen Format (TT.MM.JJJJ)."
+            }
+          ]
+        },
+        {
+          "taskNumber": 2,
+          "type": "short_message",
+          "instructions": "Schreiben Sie eine kurze Einladung an Ihre Freundin Mia. Schreiben Sie 30–40 Wörter. Schreiben Sie zu diesen drei Punkten:",
+          "instructionsTranslation": "Write a short invitation to your friend Mia. Write 30–40 words. Write about these three points:",
+          "prompt": "Schreiben Sie Mia eine Einladung zu Ihrem Geburtstag.\n\n• Wann ist die Party?\n• Wo findet die Party statt?\n• Was soll Mia mitbringen?",
+          "promptTranslation": "Write Mia an invitation to your birthday party.\n\n• When is the party?\n• Where is the party taking place?\n• What should Mia bring?",
+          "requiredPoints": [
+            "Datum und Uhrzeit der Party",
+            "Ort der Party",
+            "Was Mia mitbringen soll"
+          ],
+          "wordCountMin": 30,
+          "wordCountMax": 40,
+          "sampleAnswer": "Hallo Mia,\n\nich mache am Samstag, den 5. Juli, eine Geburtstagsparty — sie beginnt um 18 Uhr bei mir zu Hause, Bergstraße 3. Kannst du kommen? Bitte bring eine Flasche Saft mit!\n\nBis bald,\nEmma",
+          "scoringCriteria": [
+            {
+              "criterion": "Aufgabenerfüllung",
+              "maxPoints": 4,
+              "description": "Alle drei Inhaltspunkte (Datum/Zeit, Ort, Mitbringsel) sind genannt. Je vollständiger und klarer, desto mehr Punkte."
+            },
+            {
+              "criterion": "Kommunikative Gestaltung",
+              "maxPoints": 4,
+              "description": "Die Nachricht hat eine Anrede (z.B. 'Hallo Mia') und einen Abschluss. Der Text ist verständlich und freundlich."
+            },
+            {
+              "criterion": "Formale Richtigkeit",
+              "maxPoints": 4,
+              "description": "Auf A1-Niveau sind einfache Fehler toleriert, solange die Aussage verständlich bleibt. Grundlegende Satzstruktur (Subjekt + Verb) soll erkennbar sein."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 0,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Stellen Sie sich vor. Sagen Sie etwas über: Name, Alter, Herkunft, Beruf oder Hobby.",
+          "instructionsTranslation": "Introduce yourself. Say something about: name, age, where you are from, job or hobby.",
+          "type": "introduce",
+          "prompt": "Guten Tag, mein Name ist ... Ich komme aus ... Ich bin ... Jahre alt. Ich arbeite als ... / Mein Hobby ist ...",
+          "sampleResponse": "Guten Tag, mein Name ist Fatima Yilmaz. Ich komme aus der Türkei, aus Istanbul. Ich bin 26 Jahre alt. Ich lerne noch Deutsch. In meiner Freizeit koche ich gern und ich gehe oft spazieren.",
+          "sampleAudioFile": "assets/audio/A1/mock02/speaking_part1_sample.mp3",
+          "evaluationTips": [
+            "Nennen Sie alle vier Punkte: Name, Alter, Herkunft, und Beruf oder Hobby.",
+            "Sprechen Sie in vollständigen Sätzen: 'Ich komme aus...' ist besser als nur den Ländernamen zu sagen.",
+            "Sprechen Sie deutlich und nicht zu schnell — der Prüfer möchte Sie verstehen.",
+            "Kleine Grammatikfehler auf A1-Niveau sind normal. Hören Sie nicht auf, wenn Sie einen Fehler machen."
+          ],
+          "keyPhrases": [
+            "Mein Name ist ... / Ich heiße ...",
+            "Ich komme aus ...",
+            "Ich bin ... Jahre alt.",
+            "Ich arbeite als ...",
+            "Ich lerne noch Deutsch.",
+            "In meiner Freizeit ..."
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie bekommen eine Bildkarte. Sagen Sie das Wort auf Deutsch. Der Prüfer fragt dann: 'Haben Sie das auch?' Antworten Sie mit Ja oder Nein und einem kurzen Satz.",
+          "instructionsTranslation": "You receive a picture card. Say the word in German. The examiner then asks: 'Do you have that too?' Answer with yes or no and a short sentence.",
+          "type": "picture_cards",
+          "prompt": "Bildkarte 1: Ein Handy\nBildkarte 2: Ein Auto\nBildkarte 3: Eine Tasche\n\nDer Prüfer fragt nach jeder Karte:\n'Haben Sie ein Handy / ein Auto / eine Tasche?'",
+          "promptImage": "assets/images/A1/mock02/speaking_part2_cards.png",
+          "sampleResponse": "Karte 1: 'Das ist ein Handy. Ja, ich habe ein Handy. Es ist sehr alt.'\nKarte 2: 'Das ist ein Auto. Nein, ich habe kein Auto. Ich fahre mit dem Bus.'\nKarte 3: 'Das ist eine Tasche. Ja, ich habe eine Tasche. Sie ist schwarz und groß.'",
+          "sampleAudioFile": "assets/audio/A1/mock02/speaking_part2_sample.mp3",
+          "evaluationTips": [
+            "Nennen Sie das Objekt mit dem richtigen Artikel: 'Das ist ein Handy.' Üben Sie die Artikel der, die, das.",
+            "Antworten Sie mit einem vollständigen Satz auf die Frage 'Haben Sie das auch?'",
+            "Wenn Sie 'Nein' sagen, erklären Sie kurz warum oder was Sie stattdessen haben.",
+            "Fügen Sie eine Beschreibung hinzu (Farbe, Größe) — das zeigt Ihren Wortschatz."
+          ],
+          "keyPhrases": [
+            "Das ist ein / eine ...",
+            "Ja, ich habe ein / eine ...",
+            "Nein, ich habe kein / keine ...",
+            "Es ist ... / Sie ist ...",
+            "Ich fahre mit dem Bus / der U-Bahn."
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie bekommen eine Wortkarte mit einem Thema. Stellen Sie dem Prüfer eine Frage zu diesem Thema. Der Prüfer antwortet und fragt dann: 'Und du?' Antworten Sie auch.",
+          "instructionsTranslation": "You receive a word card with a topic. Ask the examiner a question on this topic. The examiner answers and then asks: 'And you?' Answer too.",
+          "type": "und_du",
+          "prompt": "Wortkarte 1: Familie\nWortkarte 2: Lieblingsessen\nWortkarte 3: Urlaub\n\nFormulieren Sie für jede Karte eine Frage an den Prüfer.",
+          "sampleResponse": "Karte 1 — Familie:\nKandidat: 'Haben Sie Kinder?'\nPrüfer: 'Ja, ich habe zwei Kinder. Und du?'\nKandidat: 'Nein, ich habe keine Kinder, aber ich habe eine Schwester.'\n\nKarte 2 — Lieblingsessen:\nKandidat: 'Was essen Sie am liebsten?'\nPrüfer: 'Ich esse am liebsten Pizza. Und du?'\nKandidat: 'Ich esse am liebsten Nudeln mit Tomatensoße.'\n\nKarte 3 — Urlaub:\nKandidat: 'Wohin fahren Sie im Urlaub?'\nPrüfer: 'Ich fahre ans Meer. Und du?'\nKandidat: 'Ich möchte gern nach Italien fahren.'",
+          "sampleAudioFile": "assets/audio/A1/mock02/speaking_part3_sample.mp3",
+          "evaluationTips": [
+            "Lesen Sie das Wort auf der Karte und formulieren Sie eine einfache W-Frage: 'Familie' wird zu 'Haben Sie eine Familie?' oder 'Wie viele Geschwister haben Sie?'",
+            "Antworten Sie auf 'Und du?' immer mit einem vollständigen Satz.",
+            "Verwenden Sie 'Sie' (formell) für den Prüfer.",
+            "Wenn Sie ein Wort nicht kennen, umschreiben Sie es — das ist kein Fehler, sondern zeigt Kommunikationsfähigkeit."
+          ],
+          "keyPhrases": [
+            "Haben Sie Kinder / Geschwister?",
+            "Was essen Sie am liebsten?",
+            "Wohin fahren Sie im Urlaub?",
+            "Ich habe ... / Ich habe kein/keine ...",
+            "Ich esse am liebsten ...",
+            "Ich möchte gern nach ... fahren."
+          ]
+        }
+      ]
+    }
   }
 }
