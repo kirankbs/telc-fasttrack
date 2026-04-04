@@ -2,7 +2,8 @@
  * Tests for the Practice screen.
  *
  * Verifies vocabulary due count is displayed when words are pending,
- * the section drill cards are present, and the "coming soon" alert fires.
+ * the section drill cards are present, the vocab card navigates to /vocab,
+ * and the "coming soon" alert fires for unbuilt section drills.
  */
 import React from 'react';
 import { render, waitFor, fireEvent } from '@testing-library/react-native';
@@ -19,11 +20,16 @@ jest.mock('@expo/vector-icons', () => ({
   },
 }));
 
+jest.mock('expo-router', () => ({
+  router: { push: jest.fn(), back: jest.fn(), replace: jest.fn() },
+}));
+
 jest.mock('../../src/services/database', () => ({
   getVocabularyDueToday: jest.fn(),
 }));
 
 import { getVocabularyDueToday } from '../../src/services/database';
+import { router } from 'expo-router';
 
 const mockGetVocabDue = getVocabularyDueToday as jest.MockedFunction<
   typeof getVocabularyDueToday
@@ -103,5 +109,12 @@ describe('PracticeScreen', () => {
       'Listening Practice',
       'Coming soon in the next update.'
     );
+  });
+
+  it('navigates to /vocab when Vocabulary Flashcards card is pressed', async () => {
+    const { getByText } = render(<PracticeScreen />);
+    await waitFor(() => expect(getByText('Vocabulary Flashcards')).toBeTruthy());
+    fireEvent.press(getByText('Vocabulary Flashcards'));
+    expect(router.push).toHaveBeenCalledWith('/vocab');
   });
 });

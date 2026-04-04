@@ -8,6 +8,7 @@ import {
   ActivityIndicator,
   StyleSheet,
 } from 'react-native';
+import { router } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { getVocabularyDueToday } from '../../services/database';
@@ -103,7 +104,8 @@ export default function PracticeScreen() {
       <TouchableOpacity
         style={[styles.featuredCard, { borderLeftColor: colors.levelA1 }]}
         activeOpacity={0.85}
-        onPress={() => comingSoon('Vocabulary Flashcards')}
+        // expo-router typed routes — cast to any for dynamic path string
+        onPress={() => router.push('/vocab' as any)}
       >
         <View style={styles.featuredCardLeft}>
           <MaterialCommunityIcons name="cards" size={28} color={colors.levelA1} />
