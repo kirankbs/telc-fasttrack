@@ -1,0 +1,13 @@
+{
+  "id": "B2_mock_02",
+  "level": "B2",
+  "title": "Übungstest 2",
+  "version": 0,
+  "_stub": true,
+  "sections": {
+    "listening": { "totalTimeMinutes": 20, "parts": [] },
+    "reading": { "totalTimeMinutes": 25, "parts": [] },
+    "writing": { "totalTimeMinutes": 20, "tasks": [] },
+    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+  }
+}

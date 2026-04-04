@@ -1,0 +1,13 @@
+{
+  "id": "B1_mock_07",
+  "level": "B1",
+  "title": "Übungstest 7",
+  "version": 0,
+  "_stub": true,
+  "sections": {
+    "listening": { "totalTimeMinutes": 20, "parts": [] },
+    "reading": { "totalTimeMinutes": 25, "parts": [] },
+    "writing": { "totalTimeMinutes": 20, "tasks": [] },
+    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+  }
+}

@@ -1,0 +1,517 @@
+[
+  {
+    "id": 1,
+    "level": "A1",
+    "topic": "Präsens — regelmäßige Verben",
+    "explanation": "Regular verbs in the present tense follow a predictable pattern. Remove the infinitive ending -en to get the stem, then add personal endings: -e (ich), -st (du), -t (er/sie/es), -en (wir), -t (ihr), -en (Sie/sie). Verbs whose stem ends in -t or -d insert an extra -e before -st and -t to make pronunciation easier.",
+    "examples": [
+      "Ich lerne Deutsch.",
+      "Du spielst Fußball.",
+      "Er kommt aus Berlin.",
+      "Wir wohnen in München.",
+      "Ihr trinkt Kaffee.",
+      "Sie arbeiten viel."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich ___ (lernen) jeden Tag Deutsch.",
+        "correctAnswer": "lerne",
+        "explanation": "First person singular: stem 'lern' + ending '-e' = lerne"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Du ___ (spielen) gern Tennis.",
+        "correctAnswer": "spielst",
+        "explanation": "Second person singular: stem 'spiel' + ending '-st' = spielst"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wir ___ in einer kleinen Stadt.",
+        "correctAnswer": "wohnen",
+        "explanation": "First person plural always takes the full infinitive form for regular verbs: wohnen"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Er ___ (arbeiten) bei einer Bank.",
+        "correctAnswer": "arbeitet",
+        "explanation": "Stem 'arbeit' ends in -t, so add '-et' for third person singular: arbeitet"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Ihr ___ viel Kaffee.",
+        "correctAnswer": "trinkt",
+        "explanation": "Second person plural: stem 'trink' + ending '-t' = trinkt"
+      }
+    ],
+    "orderIndex": 1
+  },
+  {
+    "id": 2,
+    "level": "A1",
+    "topic": "Präsens — sein und haben",
+    "explanation": "The verbs sein (to be) and haben (to have) are the two most important irregular verbs in German. Their forms do not follow the regular pattern and must be memorised. Both are used very frequently — as main verbs and as auxiliary verbs in compound tenses.",
+    "examples": [
+      "Ich bin Studentin.",
+      "Du bist sehr nett.",
+      "Er ist aus Österreich.",
+      "Wir sind Freunde.",
+      "Ich habe eine Schwester.",
+      "Hast du Zeit?"
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich ___ (sein) 25 Jahre alt.",
+        "correctAnswer": "bin",
+        "explanation": "First person singular of 'sein' is 'bin' — an irregular form."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Sie ___ (haben) zwei Kinder.",
+        "correctAnswer": "hat",
+        "explanation": "Third person singular of 'haben' is 'hat'."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wir ___ Hunger.",
+        "correctAnswer": "haben",
+        "explanation": "'haben' in first person plural keeps the full infinitive form."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Du ___ (sein) sehr müde.",
+        "correctAnswer": "bist",
+        "explanation": "Second person singular of 'sein' is 'bist'."
+      }
+    ],
+    "orderIndex": 2
+  },
+  {
+    "id": 3,
+    "level": "A1",
+    "topic": "Grundwortstellung (Subjekt-Verb-Objekt)",
+    "explanation": "German main clauses follow a Subject-Verb-Object (SVO) order in their basic form. The verb is always the second element in a statement — this is called the 'V2 rule'. If you begin a sentence with something other than the subject (e.g. a time expression), the subject moves to third position, right after the verb.",
+    "examples": [
+      "Ich kaufe Brot.",
+      "Maria trinkt Kaffee.",
+      "Heute kaufe ich Brot.",
+      "Jeden Morgen trinkt Maria Kaffee.",
+      "Wir besuchen meine Eltern.",
+      "Am Wochenende besuchen wir meine Eltern."
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "prompt": "kaufe / Ich / Brot / heute",
+        "correctAnswer": "Ich kaufe heute Brot.",
+        "explanation": "Subject first, verb second, object and time expression follow."
+      },
+      {
+        "type": "reorder",
+        "prompt": "Montag / arbeitet / Am / er",
+        "correctAnswer": "Am Montag arbeitet er.",
+        "explanation": "Time expression first, then verb (V2), then subject."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which word order is correct? (a) Heute ich gehe zum Arzt. (b) Heute gehe ich zum Arzt.",
+        "correctAnswer": "b",
+        "explanation": "When 'heute' opens the sentence, the verb 'gehe' must remain second — so the subject 'ich' shifts to third position."
+      },
+      {
+        "type": "reorder",
+        "prompt": "das Buch / liest / Sie",
+        "correctAnswer": "Sie liest das Buch.",
+        "explanation": "Subject 'Sie', verb 'liest', object 'das Buch'."
+      }
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": 4,
+    "level": "A1",
+    "topic": "W-Fragen",
+    "explanation": "W-questions (Wh-questions) begin with a question word and ask for specific information. The question word comes first, followed immediately by the conjugated verb, then the subject. Common A1 question words: Wer (who), Was (what), Wo (where), Woher (where from), Wohin (where to), Wann (when), Wie (how), Wie viel (how much).",
+    "examples": [
+      "Wer ist das?",
+      "Was machst du heute?",
+      "Wo wohnen Sie?",
+      "Woher kommen Sie?",
+      "Wann fährt der Zug?",
+      "Wie heißen Sie?"
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "___ (What) kostet das?",
+        "correctAnswer": "Was",
+        "explanation": "'Was' asks about things or prices — 'What does that cost?'"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ (Where from) kommen Sie?",
+        "correctAnswer": "Woher",
+        "explanation": "'Woher' asks about origin — always use this, never 'Von wo' at A1 level."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which question asks 'What is your name?'",
+        "correctAnswer": "Wie heißen Sie?",
+        "explanation": "'Wie heißen Sie?' literally asks 'How are you called?' — the standard way to ask someone's name."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ (When) kommt der Bus?",
+        "correctAnswer": "Wann",
+        "explanation": "'Wann' asks about time."
+      }
+    ],
+    "orderIndex": 4
+  },
+  {
+    "id": 5,
+    "level": "A1",
+    "topic": "Ja/Nein-Fragen",
+    "explanation": "Yes/no questions are formed by placing the conjugated verb first, before the subject. No question word is used. The answer is ja (yes) or nein (no). You can also use doch to contradict a negative question — this has no direct English equivalent.",
+    "examples": [
+      "Sprechen Sie Deutsch?",
+      "Hast du einen Hund?",
+      "Ist das Ihr Buch?",
+      "Kommt er aus Deutschland?",
+      "Haben Sie einen Termin?"
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "prompt": "du / Deutsch / Lernst",
+        "correctAnswer": "Lernst du Deutsch?",
+        "explanation": "Yes/no question: verb first, then subject."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Someone asks: 'Bist du nicht müde?' You ARE tired. What do you answer?",
+        "correctAnswer": "Doch, ich bin müde.",
+        "explanation": "'Doch' contradicts a negative question — use it when the answer to a negative question is yes."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ (haben) Sie einen Ausweis?",
+        "correctAnswer": "Haben",
+        "explanation": "Yes/no questions begin with the conjugated verb."
+      },
+      {
+        "type": "reorder",
+        "prompt": "das / Ihr / Ist / Fahrrad",
+        "correctAnswer": "Ist das Ihr Fahrrad?",
+        "explanation": "Verb 'Ist' first, then demonstrative 'das', then subject 'Ihr Fahrrad'."
+      }
+    ],
+    "orderIndex": 5
+  },
+  {
+    "id": 6,
+    "level": "A1",
+    "topic": "Artikel — bestimmt und unbestimmt",
+    "explanation": "German nouns have three genders: masculine (der), feminine (die), and neuter (das). The definite article (the) changes by gender: der, die, das. The indefinite article (a/an) is: ein (masculine/neuter), eine (feminine). In the accusative case — used when the noun is the direct object — only the masculine article changes: den / einen.",
+    "examples": [
+      "Der Mann ist hier. (Nominative, masculine)",
+      "Ich sehe den Mann. (Accusative, masculine)",
+      "Die Frau kauft eine Tasche. (Nominative/Accusative, feminine)",
+      "Das Kind spielt im Park. (Nominative, neuter)",
+      "Ich esse ein Brötchen. (Accusative, neuter)",
+      "Er hat eine Schwester."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich suche ___ Supermarkt. (der Supermarkt — accusative)",
+        "correctAnswer": "einen",
+        "explanation": "Masculine noun in accusative: 'ein' becomes 'einen'."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which is correct? (a) Das Buch ist interessant. (b) Der Buch ist interessant.",
+        "correctAnswer": "a",
+        "explanation": "'Buch' is neuter — use 'das'."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ Kind (neuter) spielt Fußball.",
+        "correctAnswer": "Das",
+        "explanation": "Neuter nominative definite article is 'das'."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Ich habe ___ Frage. (die Frage — accusative)",
+        "correctAnswer": "eine",
+        "explanation": "Feminine indefinite article stays 'eine' in accusative."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Ich trinke ___ Kaffee. (der Kaffee — accusative, no article changes for indefinite masculine in this context) Choose the correct indefinite article:",
+        "correctAnswer": "einen",
+        "explanation": "Masculine noun in accusative takes 'einen'."
+      }
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": 7,
+    "level": "A1",
+    "topic": "Negation — nicht und kein",
+    "explanation": "There are two ways to negate in German. Use 'kein/keine/kein' to negate a noun that has no article or an indefinite article — it follows the same endings as 'ein'. Use 'nicht' to negate verbs, adjectives, adverbs, or nouns with a definite article. 'Nicht' generally comes near the end of the clause.",
+    "examples": [
+      "Ich habe kein Auto. (negating a noun with no article)",
+      "Er hat keine Zeit.",
+      "Das ist kein Problem.",
+      "Ich komme nicht aus Deutschland. (negating a verb/adverb phrase)",
+      "Das Wetter ist nicht schön.",
+      "Ich verstehe das nicht."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich habe ___ Telefon. (I have no phone.)",
+        "correctAnswer": "kein",
+        "explanation": "'Telefon' is neuter with no article — use 'kein' (neuter form)."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Sie hat ___ Hunger. (She is not hungry.)",
+        "correctAnswer": "keinen",
+        "explanation": "'Hunger' is masculine and the direct object (accusative) — 'kein' takes accusative masculine ending: 'keinen'."
+      },
+      {
+        "type": "mcq",
+        "prompt": "To negate 'Ich spreche Deutsch', which is correct? (a) Ich spreche kein Deutsch. (b) Ich spreche nicht Deutsch.",
+        "correctAnswer": "a",
+        "explanation": "'Deutsch' here is an unmodified noun used without an article — negate with 'kein'."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Das Essen ist ___ (not) gut.",
+        "correctAnswer": "nicht",
+        "explanation": "Negating an adjective: use 'nicht', placed before the adjective."
+      }
+    ],
+    "orderIndex": 7
+  },
+  {
+    "id": 8,
+    "level": "A1",
+    "topic": "Modalverben — können und möchten",
+    "explanation": "Modal verbs modify the meaning of another verb. At A1, the two most important are können (can / to be able to) and möchten (would like to). They are conjugated in the first position and the main verb goes to the end of the clause in its infinitive form. Both 'können' and 'möchten' have irregular stems in the singular (ich/du/er forms).",
+    "examples": [
+      "Ich kann Deutsch sprechen.",
+      "Kannst du mir helfen?",
+      "Er kann gut kochen.",
+      "Ich möchte einen Kaffee, bitte.",
+      "Möchten Sie etwas essen?",
+      "Wir möchten eine Wohnung mieten."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich ___ (können) gut schwimmen.",
+        "correctAnswer": "kann",
+        "explanation": "First person singular of 'können' is 'kann' — irregular stem."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ (möchten) du etwas trinken?",
+        "correctAnswer": "Möchtest",
+        "explanation": "Second person singular of 'möchten' is 'möchtest'."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Where does the infinitive go in a modal verb sentence?",
+        "correctAnswer": "At the end of the clause",
+        "explanation": "In German, when a modal verb is used, the main verb (infinitive) is sent to the end of the sentence."
+      },
+      {
+        "type": "reorder",
+        "prompt": "ich / kaufen / einen / möchte / Kaffee",
+        "correctAnswer": "Ich möchte einen Kaffee kaufen.",
+        "explanation": "Modal 'möchte' is second, infinitive 'kaufen' goes to the end."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Wir ___ (können) morgen kommen.",
+        "correctAnswer": "können",
+        "explanation": "First person plural of 'können' returns to the infinitive form: 'können'."
+      }
+    ],
+    "orderIndex": 8
+  },
+  {
+    "id": 9,
+    "level": "A1",
+    "topic": "Trennbare Verben",
+    "explanation": "Separable verbs are made up of a base verb and a prefix (e.g. an-, auf-, ein-, mit-, zurück-). In a main clause, the prefix separates from the verb and moves to the very end of the sentence, while the conjugated base verb stays in second position. Common A1 separable verbs: anrufen (to call), aufstehen (to get up), einkaufen (to shop), anfangen (to begin), mitnehmen (to take along).",
+    "examples": [
+      "Ich rufe dich morgen an.",
+      "Wann stehst du auf?",
+      "Wir kaufen heute ein.",
+      "Der Kurs fängt um neun Uhr an.",
+      "Nehmen Sie bitte Ihren Ausweis mit.",
+      "Sie steht um sechs Uhr auf."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich ___ um sieben Uhr ___. (aufstehen)",
+        "correctAnswer": "stehe … auf",
+        "explanation": "Conjugated base 'stehe' stays in position 2; prefix 'auf' moves to the end."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Er ___ seine Mutter ___. (anrufen)",
+        "correctAnswer": "ruft … an",
+        "explanation": "'anrufen' → base 'ruft' + prefix 'an' at the end."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'einkaufen'? (a) Ich einkaufe heute. (b) Ich kaufe heute ein.",
+        "correctAnswer": "b",
+        "explanation": "The prefix 'ein' must detach and move to the end of the clause."
+      },
+      {
+        "type": "reorder",
+        "prompt": "wir / ein / morgen / kaufen",
+        "correctAnswer": "Morgen kaufen wir ein.",
+        "explanation": "Time word first, conjugated 'kaufen' second (V2 rule), subject 'wir' third, prefix 'ein' at the end."
+      }
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": 10,
+    "level": "A1",
+    "topic": "Possessivartikel — mein und dein",
+    "explanation": "Possessive articles show ownership. At A1, the most common are mein (my) and dein (your, informal). They take the same endings as the indefinite article 'ein': no ending for masculine nominative and neuter nominative/accusative, -e for feminine, -en for masculine accusative. Other possessives at A1: sein (his), ihr (her), Ihr (your, formal), unser (our).",
+    "examples": [
+      "Das ist mein Buch. (neuter nominative — no ending)",
+      "Wo ist meine Tasche? (feminine nominative — -e)",
+      "Ich habe meinen Bruder angerufen. (masculine accusative — -en)",
+      "Dein Auto ist sehr schön.",
+      "Ist das Ihr Pass? (formal 'your')",
+      "Wir besuchen unsere Großmutter."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Das ist ___ (my) Schlüssel. (der Schlüssel — masculine nominative)",
+        "correctAnswer": "mein",
+        "explanation": "Masculine nominative: 'mein' — no ending."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Ich suche ___ (my) Tasche. (die Tasche — feminine accusative)",
+        "correctAnswer": "meine",
+        "explanation": "Feminine accusative: 'meine' — the -e ending stays the same as nominative."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Hast du ___ Handy? (your — informal, das Handy — neuter accusative)",
+        "correctAnswer": "dein",
+        "explanation": "Neuter accusative: 'dein' — no ending, same as nominative."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Ich besuche ___ (my) Vater. (der Vater — masculine accusative)",
+        "correctAnswer": "meinen",
+        "explanation": "Masculine accusative: 'mein' + '-en' = 'meinen'."
+      }
+    ],
+    "orderIndex": 10
+  },
+  {
+    "id": 11,
+    "level": "A1",
+    "topic": "Imperativ — Sie-Form",
+    "explanation": "The imperative (command form) for the formal Sie is formed by using the regular Sie conjugation but placing the verb before 'Sie'. This is identical to a yes/no question in word order, but it is spoken with a falling intonation and often followed by 'bitte' to soften it. The infinitive form works for all regular and most irregular verbs.",
+    "examples": [
+      "Kommen Sie bitte herein!",
+      "Sprechen Sie bitte langsam.",
+      "Füllen Sie das Formular aus, bitte.",
+      "Warten Sie einen Moment!",
+      "Buchstabieren Sie Ihren Namen, bitte.",
+      "Gehen Sie geradeaus."
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "prompt": "bitte / Sie / langsam / Sprechen",
+        "correctAnswer": "Sprechen Sie bitte langsam.",
+        "explanation": "Sie-imperative: conjugated verb first, then 'Sie', then the rest of the sentence."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ (kommen) Sie bitte um zehn Uhr!",
+        "correctAnswer": "Kommen",
+        "explanation": "Sie-imperative of 'kommen' is 'Kommen' — the same as the Sie-conjugation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "How do you politely tell a customer to fill out a form?",
+        "correctAnswer": "Füllen Sie das Formular aus, bitte.",
+        "explanation": "Sie-imperative with separable verb: base verb first, prefix at the end."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ (warten) Sie bitte!",
+        "correctAnswer": "Warten",
+        "explanation": "Sie-imperative of 'warten': 'Warten Sie bitte!'"
+      }
+    ],
+    "orderIndex": 11
+  },
+  {
+    "id": 12,
+    "level": "A1",
+    "topic": "Präpositionen mit Dativ — Ortsangaben",
+    "explanation": "Several prepositions that indicate a static location always take the dative case in German: in, an, auf, neben, zwischen, unter, über, vor, hinter (the 'two-way prepositions' when used with location, answering 'Wo?'). The dative changes the article: der/das → dem, die → der. To say 'in the' you say 'im' (in + dem) for masculine/neuter and 'in der' for feminine.",
+    "examples": [
+      "Das Buch liegt auf dem Tisch. (der Tisch → dem Tisch)",
+      "Ich bin in der Schule. (die Schule → der Schule)",
+      "Er wartet an der Haltestelle.",
+      "Die Katze sitzt neben dem Sofa.",
+      "Das Café ist im Bahnhof. (in + dem = im)",
+      "Wir treffen uns am Marktplatz. (an + dem = am)"
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Das Buch liegt auf ___ Tisch. (der Tisch → dative)",
+        "correctAnswer": "dem",
+        "explanation": "Masculine noun in dative: 'der' → 'dem'."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Ich bin in ___ Küche. (die Küche → dative)",
+        "correctAnswer": "der",
+        "explanation": "Feminine noun in dative: 'die' → 'der'."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which contraction is correct for 'in dem Supermarkt'?",
+        "correctAnswer": "im Supermarkt",
+        "explanation": "'in + dem' contracts to 'im' in spoken and written German."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Er wohnt ___ ___ Bahnhof. (near: neben + der Bahnhof)",
+        "correctAnswer": "neben dem",
+        "explanation": "'neben' takes dative; 'der Bahnhof' is masculine → 'dem Bahnhof'."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wir treffen uns ___ Marktplatz. (an + dem — contract it)",
+        "correctAnswer": "am",
+        "explanation": "'an + dem' contracts to 'am'. Always use this contraction in natural speech."
+      }
+    ],
+    "orderIndex": 12
+  }
+]

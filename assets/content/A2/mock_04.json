@@ -1,0 +1,13 @@
+{
+  "id": "A2_mock_04",
+  "level": "A2",
+  "title": "Übungstest 4",
+  "version": 0,
+  "_stub": true,
+  "sections": {
+    "listening": { "totalTimeMinutes": 20, "parts": [] },
+    "reading": { "totalTimeMinutes": 25, "parts": [] },
+    "writing": { "totalTimeMinutes": 20, "tasks": [] },
+    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+  }
+}

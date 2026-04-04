@@ -1,0 +1,13 @@
+{
+  "id": "A1_mock_06",
+  "level": "A1",
+  "title": "Übungstest 6",
+  "version": 0,
+  "_stub": true,
+  "sections": {
+    "listening": { "totalTimeMinutes": 20, "parts": [] },
+    "reading": { "totalTimeMinutes": 25, "parts": [] },
+    "writing": { "totalTimeMinutes": 20, "tasks": [] },
+    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+  }
+}

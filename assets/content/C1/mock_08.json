@@ -1,0 +1,13 @@
+{
+  "id": "C1_mock_08",
+  "level": "C1",
+  "title": "Übungstest 8",
+  "version": 0,
+  "_stub": true,
+  "sections": {
+    "listening": { "totalTimeMinutes": 20, "parts": [] },
+    "reading": { "totalTimeMinutes": 25, "parts": [] },
+    "writing": { "totalTimeMinutes": 20, "tasks": [] },
+    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+  }
+}
