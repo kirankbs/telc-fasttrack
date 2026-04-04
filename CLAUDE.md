@@ -4,13 +4,14 @@ German exam prep app for telc A1 through C1. Offline-first, content-driven. "Spe
 
 ## Stack
 
-- **Framework:** Expo SDK 52+ / React Native / TypeScript
-- **Navigation:** expo-router (file-based) with bottom tabs — 5 tabs: Home, Practice, Exam, Resources, Settings
-- **Database:** expo-sqlite (offline-first, no backend)
+- **Framework:** Expo SDK 54 / React Native 0.81 / React 19 / TypeScript
+- **Navigation:** expo-router 6 (file-based) with bottom tabs — 5 tabs: Home, Practice, Exam, Resources, Settings
+- **Database:** expo-sqlite 16 (offline-first, no backend)
 - **State:** React Context + useReducer
-- **Animations:** react-native-reanimated (never use legacy Animated API)
-- **Audio:** expo-audio (listening playback) + expo-speech (vocabulary TTS)
-- **Speech recognition:** @jamsch/expo-speech-recognition (speaking practice)
+- **Animations:** react-native-reanimated 4 (never use legacy Animated API)
+- **Audio:** expo-audio 1 (listening playback) + expo-speech 14 (vocabulary TTS)
+- **Speech recognition:** @jamsch/expo-speech-recognition (migrate to expo-speech-recognition when ready)
+- **Node:** 22+ compatible (SDK 54 requirement)
 
 ## Architecture
 
