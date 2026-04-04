@@ -129,7 +129,8 @@ export default function PracticeScreen() {
       <TouchableOpacity
         style={[styles.featuredCard, { borderLeftColor: colors.levelA2 }]}
         activeOpacity={0.85}
-        onPress={() => comingSoon('Grammar Topics')}
+        // expo-router typed routes — cast to any for dynamic string param
+        onPress={() => router.push('/grammar?level=A1' as any)}
       >
         <View style={styles.featuredCardLeft}>
           <MaterialCommunityIcons
