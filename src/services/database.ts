@@ -38,7 +38,7 @@ async function runMigrations(database: SQLite.SQLiteDatabase): Promise<void> {
     if (!appliedVersions.has(migration.version)) {
       await database.execAsync(migration.sql);
       await database.runAsync(
-        'INSERT INTO schema_migrations (version) VALUES (?);',
+        'INSERT OR IGNORE INTO schema_migrations (version) VALUES (?);',
         migration.version
       );
     }
