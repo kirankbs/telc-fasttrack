@@ -32,7 +32,6 @@
       "expo-router",
       "expo-sqlite",
       "expo-audio",
-      "expo-speech",
       [
         "expo-notifications",
         {
