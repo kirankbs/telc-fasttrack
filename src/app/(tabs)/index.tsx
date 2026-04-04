@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import {
   View,
   Text,
@@ -6,15 +6,11 @@ import {
   TouchableOpacity,
   ActivityIndicator,
   StyleSheet,
+  Animated,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import Animated, {
-  useSharedValue,
-  useAnimatedStyle,
-  withTiming,
-} from 'react-native-reanimated';
 import {
   getUserSettings,
   getTodayStreak,
@@ -47,11 +43,7 @@ export default function HomeScreen() {
   const [data, setData] = useState<DashboardData | null>(null);
   const [loading, setLoading] = useState(true);
 
-  const progressWidth = useSharedValue(0);
-
-  const progressBarStyle = useAnimatedStyle(() => ({
-    width: `${progressWidth.value}%` as `${number}%`,
-  }));
+  const progressWidth = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
     async function load() {
@@ -85,7 +77,7 @@ export default function HomeScreen() {
           100,
           Math.round((todayMinutes / dailyGoalMinutes) * 100)
         );
-        progressWidth.value = withTiming(pct, { duration: 800 });
+        Animated.timing(progressWidth, { toValue: pct, duration: 800, useNativeDriver: false }).start();
       } catch (err) {
         console.error('[Home] Load error:', err);
       } finally {
@@ -94,7 +86,7 @@ export default function HomeScreen() {
     }
 
     load();
-  }, [progressWidth]);
+  }, []);
 
   if (loading) {
     return (
@@ -165,7 +157,7 @@ export default function HomeScreen() {
         </View>
         <View style={styles.progressTrack}>
           <Animated.View
-            style={[styles.progressFill, { backgroundColor: levelColor }, progressBarStyle]}
+            style={[styles.progressFill, { backgroundColor: levelColor }, { width: progressWidth.interpolate({ inputRange: [0, 100], outputRange: ['0%', '100%'] }) }]}
           />
         </View>
       </View>
