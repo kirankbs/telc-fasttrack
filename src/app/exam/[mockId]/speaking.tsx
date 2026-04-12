@@ -220,6 +220,11 @@ export default function SpeakingScreen() {
   const [activePartIndex, setActivePartIndex] = useState(0);
   const [manualScore, setManualScore] = useState(0);
 
+  if (!mockId) {
+    router.replace('/(tabs)/exam' as any);
+    return null;
+  }
+
   const exam = session?.exam ?? null;
   const mode = session?.mode ?? 'exam_sim';
 
