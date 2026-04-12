@@ -2,12 +2,719 @@
   "id": "A1_mock_07",
   "level": "A1",
   "title": "Übungstest 7",
-  "version": 0,
-  "_stub": true,
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören drei kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Kreuzen Sie die richtige Antwort an: a, b oder c. Sie hören jeden Text zweimal.",
+          "instructionsTranslation": "You will hear three short conversations. There is one task per conversation. Mark the correct answer: a, b or c. You will hear each text twice.",
+          "audioFile": "assets/audio/A1/mock07/listening_part1.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A1_m07_L1_q1",
+              "type": "mcq",
+              "questionText": "Wohin geht die Frau am Samstag?",
+              "questionImage": "assets/images/A1/mock07/L1_q1.png",
+              "options": [
+                "a) ins Schwimmbad",
+                "b) in den Park",
+                "c) ins Kino"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Frau sagt im Gespräch: 'Am Samstag gehe ich mit meiner Freundin ins Kino. Der neue Film läuft schon seit einer Woche.' Park und Schwimmbad werden nicht erwähnt.",
+              "audioTimestamp": 14
+            },
+            {
+              "id": "A1_m07_L1_q2",
+              "type": "mcq",
+              "questionText": "Was macht der Mann in seiner Freizeit?",
+              "questionImage": "assets/images/A1/mock07/L1_q2.png",
+              "options": [
+                "a) Er spielt Fußball.",
+                "b) Er fährt Fahrrad.",
+                "c) Er spielt Tennis."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Mann sagt: 'Ich fahre jeden Sonntag Fahrrad, meistens zwei Stunden im Stadtpark.' Fußball und Tennis werden im Gespräch nicht genannt.",
+              "audioTimestamp": 47
+            },
+            {
+              "id": "A1_m07_L1_q3",
+              "type": "mcq",
+              "questionText": "Wann beginnt das Konzert?",
+              "questionImage": "assets/images/A1/mock07/L1_q3.png",
+              "options": [
+                "a) um 19 Uhr",
+                "b) um 20 Uhr",
+                "c) um 21 Uhr"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Frau fragt: 'Wann fängt das Konzert an?' und der Mann antwortet: 'Um 19 Uhr. Aber wir sollten um 18:30 Uhr dort sein.' 20 Uhr und 21 Uhr sind falsch.",
+              "audioTimestamp": 82
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören einen Text. Lesen Sie die Aufgaben 1 bis 5. Kreuzen Sie an: richtig oder falsch. Sie hören den Text zweimal.",
+          "instructionsTranslation": "You will hear a text. Read tasks 1 to 5. Mark: correct or incorrect. You will hear the text twice.",
+          "audioFile": "assets/audio/A1/mock07/listening_part2.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A1_m07_L2_q1",
+              "type": "true_false",
+              "questionText": "Der Sportverein hat am Montag geschlossen.",
+              "correctAnswer": "falsch",
+              "explanation": "Im Text heißt es: 'Der Sportverein Stadtmitte ist montags bis freitags von 9 bis 21 Uhr geöffnet.' Er ist also montags geöffnet, nicht geschlossen.",
+              "audioTimestamp": 18
+            },
+            {
+              "id": "A1_m07_L2_q2",
+              "type": "true_false",
+              "questionText": "Kinder bis 12 Jahre bezahlen keinen Eintritt.",
+              "correctAnswer": "richtig",
+              "explanation": "Der Sprecher sagt ausdrücklich: 'Kinder bis zwölf Jahre können kostenlos mitmachen.' Das bestätigt die Aussage.",
+              "audioTimestamp": 34
+            },
+            {
+              "id": "A1_m07_L2_q3",
+              "type": "true_false",
+              "questionText": "Das Schwimmbad ist am Wochenende bis 22 Uhr geöffnet.",
+              "correctAnswer": "falsch",
+              "explanation": "Im Text wird gesagt: 'Am Samstag und Sonntag ist das Hallenbad von 8 bis 20 Uhr geöffnet.' 22 Uhr ist falsch — es schließt um 20 Uhr.",
+              "audioTimestamp": 52
+            },
+            {
+              "id": "A1_m07_L2_q4",
+              "type": "true_false",
+              "questionText": "Es gibt einen Yogakurs für Anfänger.",
+              "correctAnswer": "richtig",
+              "explanation": "Der Sprecher erwähnt: 'Wir bieten auch Yoga für Anfänger an — dienstags und donnerstags um 18 Uhr.' Die Aussage ist korrekt.",
+              "audioTimestamp": 68
+            },
+            {
+              "id": "A1_m07_L2_q5",
+              "type": "true_false",
+              "questionText": "Man kann sich beim Verein nur online anmelden.",
+              "correctAnswer": "falsch",
+              "explanation": "Im Text heißt es: 'Sie können sich online oder persönlich an unserer Rezeption anmelden.' Es ist also auch eine persönliche Anmeldung möglich.",
+              "audioTimestamp": 85
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören drei Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Kreuzen Sie die richtige Antwort an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear three conversations. There is one task per conversation. Mark the correct answer: a, b or c. You will hear each text once.",
+          "audioFile": "assets/audio/A1/mock07/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A1_m07_L3_q1",
+              "type": "mcq",
+              "questionText": "Was kauft die Frau im Sportgeschäft?",
+              "options": [
+                "a) Sportschuhe",
+                "b) eine Schwimmbrille",
+                "c) ein Trikot"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Frau fragt den Verkäufer: 'Haben Sie Schwimmbrillen? Ich brauche eine für das Training.' Sie kauft schließlich eine Schwimmbrille. Schuhe und Trikots werden nicht gekauft.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "A1_m07_L3_q2",
+              "type": "mcq",
+              "questionText": "Wie oft trainiert Lukas pro Woche?",
+              "options": [
+                "a) einmal",
+                "b) zweimal",
+                "c) dreimal"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Lukas sagt: 'Ich trainiere dreimal pro Woche: Montag, Mittwoch und Freitag.' Er nennt konkret drei Termine pro Woche.",
+              "audioTimestamp": 51
+            },
+            {
+              "id": "A1_m07_L3_q3",
+              "type": "mcq",
+              "questionText": "Wo treffen sich die Freunde am Sonntag?",
+              "options": [
+                "a) im Café",
+                "b) am Bahnhof",
+                "c) im Park"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Im Gespräch sagt Anna: 'Treffen wir uns im Park, am Haupteingang um 11 Uhr?' und Tobias antwortet: 'Ja, gerne!' Café und Bahnhof werden nicht als Treffpunkt genannt.",
+              "audioTimestamp": 88
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 25,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie die Texte und die Aufgaben 1 bis 5. Kreuzen Sie an: richtig oder falsch.",
+          "instructionsTranslation": "Read the texts and tasks 1 to 5. Mark: correct or incorrect.",
+          "texts": [
+            {
+              "id": "A1_m07_R1_text1",
+              "type": "notice",
+              "content": "SMS von Mia:\nHallo Jana! Ich gehe heute Nachmittag um 15 Uhr in den Stadtpark zum Joggen. Kommst du mit? Wir können danach zusammen einen Kaffee trinken. Bitte schreib mir schnell!",
+              "source": "SMS-Nachricht"
+            },
+            {
+              "id": "A1_m07_R1_text2",
+              "type": "notice",
+              "content": "STADTFEST GRÜNTAL\nSamstag, 14. Juni – 11:00 bis 22:00 Uhr\nGroßer Festplatz am Stadtpark\n\nProgramm:\n- Kinderturnier (Fußball) ab 11 Uhr\n- Live-Musik ab 15 Uhr\n- Feuerwerk um 21:30 Uhr\n\nEintritt frei! Für Essen und Getränke sind Festmarken erhältlich.\nInformationen: www.stadtfest-gruental.de",
+              "source": "Veranstaltungsflyer"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_m07_R1_q1",
+              "type": "true_false",
+              "questionText": "Mia möchte heute Nachmittag joggen gehen.",
+              "relatedTextId": "A1_m07_R1_text1",
+              "correctAnswer": "richtig",
+              "explanation": "In der SMS schreibt Mia: 'Ich gehe heute Nachmittag um 15 Uhr in den Stadtpark zum Joggen.' Das stimmt mit der Aussage überein."
+            },
+            {
+              "id": "A1_m07_R1_q2",
+              "type": "true_false",
+              "questionText": "Jana und Mia wollen nach dem Sport Kaffee trinken.",
+              "relatedTextId": "A1_m07_R1_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Mia schlägt vor: 'Wir können danach zusammen einen Kaffee trinken.' Das stimmt genau."
+            },
+            {
+              "id": "A1_m07_R1_q3",
+              "type": "true_false",
+              "questionText": "Das Stadtfest beginnt um 10 Uhr.",
+              "relatedTextId": "A1_m07_R1_text2",
+              "correctAnswer": "falsch",
+              "explanation": "Laut Flyer beginnt das Stadtfest Grüntal um 11:00 Uhr, nicht um 10 Uhr."
+            },
+            {
+              "id": "A1_m07_R1_q4",
+              "type": "true_false",
+              "questionText": "Der Eintritt zum Stadtfest ist kostenlos.",
+              "relatedTextId": "A1_m07_R1_text2",
+              "correctAnswer": "richtig",
+              "explanation": "Der Flyer sagt klar: 'Eintritt frei!' Das bedeutet kostenlos."
+            },
+            {
+              "id": "A1_m07_R1_q5",
+              "type": "true_false",
+              "questionText": "Es gibt beim Stadtfest ein Feuerwerk um Mitternacht.",
+              "relatedTextId": "A1_m07_R1_text2",
+              "correctAnswer": "falsch",
+              "explanation": "Das Feuerwerk ist laut Programm um 21:30 Uhr geplant, nicht um Mitternacht."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie die Anzeigen a bis h und die Aufgaben 1 bis 5. Welche Anzeige passt zu welcher Person? Für eine Aufgabe gibt es keine Anzeige. Schreiben Sie dann den Buchstaben oder X.",
+          "instructionsTranslation": "Read ads a to h and tasks 1 to 5. Which ad matches which person? For one task there is no ad. Write the letter or X.",
+          "texts": [
+            {
+              "id": "A1_m07_R2_ad_a",
+              "type": "ad",
+              "content": "FITNESSSTUDIO AKTIV\nMitgliedschaft ab 29 Euro/Monat\nModerne Geräte, Kurse und Sauna\nNeue Mitglieder erhalten den ersten Monat gratis!\nInfo: 0221 345678"
+            },
+            {
+              "id": "A1_m07_R2_ad_b",
+              "type": "ad",
+              "content": "KINO PALACE – DIESE WOCHE\n'Sommertage in Rom' – romantische Komödie\nTäglich 17:30 und 20:00 Uhr\nStudenten zahlen nur 7 Euro\nOnline-Tickets: www.kinopalace.de"
+            },
+            {
+              "id": "A1_m07_R2_ad_c",
+              "type": "ad",
+              "content": "SPORTSHOP LAUFSTARK\nLaufschuhe für alle Distanzen\nFachberatung kostenlos\nSonderangebot: 20% auf alle Laufschuhe diese Woche!\nÖffnungszeiten: Mo–Sa 9–20 Uhr"
+            },
+            {
+              "id": "A1_m07_R2_ad_d",
+              "type": "ad",
+              "content": "SCHWIMMKURS FÜR ERWACHSENE\nAnfänger und Fortgeschrittene\nKursbeginn: 3. März, montags 19–20 Uhr\nAnmeldung bis 28. Februar\nStadtbad Mitte – Tel. 0221 987654"
+            },
+            {
+              "id": "A1_m07_R2_ad_e",
+              "type": "ad",
+              "content": "PARKFEST IM ROSENGARTEN\nSonntag, 20. Juli\nFlohmarkt, Kinderkarussell und Livemusik\nEintritt: Erwachsene 3 Euro, Kinder frei\nWir freuen uns auf Sie!"
+            },
+            {
+              "id": "A1_m07_R2_ad_f",
+              "type": "ad",
+              "content": "TANZSCHULE RHYTHMUS\nSalsa, Tango und Standard\nSchnupperkurs Samstag, 10 Uhr\nKeine Vorkenntnisse nötig!\nAnmeldung: info@tanzschule-rhythmus.de"
+            },
+            {
+              "id": "A1_m07_R2_ad_g",
+              "type": "ad",
+              "content": "FAHRRAD MIETEN – STADTPARK\nStundenmiete ab 4 Euro\nTagesmiete ab 15 Euro\nHelm und Schloss inklusive\nVerleihaus: Parkeingang Nord, täglich 8–18 Uhr"
+            },
+            {
+              "id": "A1_m07_R2_ad_h",
+              "type": "ad",
+              "content": "TENNIS-CLUB STADTMITTE\nSchnupperstunde gratis für Neumitglieder\nPlätze frei, auch abends\nTrainer mit Lizenz\nTel. 0221 112233 – www.tc-stadtmitte.de"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_m07_R2_q1",
+              "type": "matching",
+              "questionText": "Petra möchte Schwimmen lernen. Sie hat montags abends Zeit.",
+              "matchingSources": [
+                {
+                  "id": "A1_m07_R2_ad_a",
+                  "label": "a) Fitnessstudio Aktiv"
+                },
+                {
+                  "id": "A1_m07_R2_ad_b",
+                  "label": "b) Kino Palace"
+                },
+                {
+                  "id": "A1_m07_R2_ad_c",
+                  "label": "c) Sportshop Laufstark"
+                },
+                {
+                  "id": "A1_m07_R2_ad_d",
+                  "label": "d) Schwimmkurs für Erwachsene"
+                },
+                {
+                  "id": "A1_m07_R2_ad_e",
+                  "label": "e) Parkfest im Rosengarten"
+                },
+                {
+                  "id": "A1_m07_R2_ad_f",
+                  "label": "f) Tanzschule Rhythmus"
+                },
+                {
+                  "id": "A1_m07_R2_ad_g",
+                  "label": "g) Fahrrad mieten – Stadtpark"
+                },
+                {
+                  "id": "A1_m07_R2_ad_h",
+                  "label": "h) Tennis-Club Stadtmitte"
+                }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Anzeige d bietet einen Schwimmkurs für Erwachsene und Anfänger montags von 19–20 Uhr an — das passt genau zu Petras Wunsch und ihrer freien Zeit."
+            },
+            {
+              "id": "A1_m07_R2_q2",
+              "type": "matching",
+              "questionText": "Marco ist Student und möchte einen Film sehen. Er sucht ein günstiges Angebot.",
+              "matchingSources": [
+                {
+                  "id": "A1_m07_R2_ad_a",
+                  "label": "a) Fitnessstudio Aktiv"
+                },
+                {
+                  "id": "A1_m07_R2_ad_b",
+                  "label": "b) Kino Palace"
+                },
+                {
+                  "id": "A1_m07_R2_ad_c",
+                  "label": "c) Sportshop Laufstark"
+                },
+                {
+                  "id": "A1_m07_R2_ad_d",
+                  "label": "d) Schwimmkurs für Erwachsene"
+                },
+                {
+                  "id": "A1_m07_R2_ad_e",
+                  "label": "e) Parkfest im Rosengarten"
+                },
+                {
+                  "id": "A1_m07_R2_ad_f",
+                  "label": "f) Tanzschule Rhythmus"
+                },
+                {
+                  "id": "A1_m07_R2_ad_g",
+                  "label": "g) Fahrrad mieten – Stadtpark"
+                },
+                {
+                  "id": "A1_m07_R2_ad_h",
+                  "label": "h) Tennis-Club Stadtmitte"
+                }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Anzeige b ist das Kino Palace mit einem Studentenrabatt von 7 Euro. Marco ist Student, sucht einen Film, und das ist das günstigste passende Angebot."
+            },
+            {
+              "id": "A1_m07_R2_q3",
+              "type": "matching",
+              "questionText": "Sabine möchte am Wochenende mit ihrer Familie in den Park. Sie sucht eine Veranstaltung mit Musik und Aktivitäten für Kinder.",
+              "matchingSources": [
+                {
+                  "id": "A1_m07_R2_ad_a",
+                  "label": "a) Fitnessstudio Aktiv"
+                },
+                {
+                  "id": "A1_m07_R2_ad_b",
+                  "label": "b) Kino Palace"
+                },
+                {
+                  "id": "A1_m07_R2_ad_c",
+                  "label": "c) Sportshop Laufstark"
+                },
+                {
+                  "id": "A1_m07_R2_ad_d",
+                  "label": "d) Schwimmkurs für Erwachsene"
+                },
+                {
+                  "id": "A1_m07_R2_ad_e",
+                  "label": "e) Parkfest im Rosengarten"
+                },
+                {
+                  "id": "A1_m07_R2_ad_f",
+                  "label": "f) Tanzschule Rhythmus"
+                },
+                {
+                  "id": "A1_m07_R2_ad_g",
+                  "label": "g) Fahrrad mieten – Stadtpark"
+                },
+                {
+                  "id": "A1_m07_R2_ad_h",
+                  "label": "h) Tennis-Club Stadtmitte"
+                }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Anzeige e (Parkfest im Rosengarten) bietet Livemusik und ein Kinderkarussell — ideal für eine Familie mit Kindern an einem Sonntag im Park."
+            },
+            {
+              "id": "A1_m07_R2_q4",
+              "type": "matching",
+              "questionText": "Thomas läuft gern und möchte neue Laufschuhe kaufen. Er sucht Fachberatung.",
+              "matchingSources": [
+                {
+                  "id": "A1_m07_R2_ad_a",
+                  "label": "a) Fitnessstudio Aktiv"
+                },
+                {
+                  "id": "A1_m07_R2_ad_b",
+                  "label": "b) Kino Palace"
+                },
+                {
+                  "id": "A1_m07_R2_ad_c",
+                  "label": "c) Sportshop Laufstark"
+                },
+                {
+                  "id": "A1_m07_R2_ad_d",
+                  "label": "d) Schwimmkurs für Erwachsene"
+                },
+                {
+                  "id": "A1_m07_R2_ad_e",
+                  "label": "e) Parkfest im Rosengarten"
+                },
+                {
+                  "id": "A1_m07_R2_ad_f",
+                  "label": "f) Tanzschule Rhythmus"
+                },
+                {
+                  "id": "A1_m07_R2_ad_g",
+                  "label": "g) Fahrrad mieten – Stadtpark"
+                },
+                {
+                  "id": "A1_m07_R2_ad_h",
+                  "label": "h) Tennis-Club Stadtmitte"
+                }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Anzeige c (Sportshop Laufstark) bietet kostenlose Fachberatung und 20% Rabatt auf Laufschuhe — genau das, was Thomas sucht."
+            },
+            {
+              "id": "A1_m07_R2_q5",
+              "type": "matching",
+              "questionText": "Lena möchte eine neue Sportart ausprobieren. Sie interessiert sich für Kampfsport.",
+              "matchingSources": [
+                {
+                  "id": "A1_m07_R2_ad_a",
+                  "label": "a) Fitnessstudio Aktiv"
+                },
+                {
+                  "id": "A1_m07_R2_ad_b",
+                  "label": "b) Kino Palace"
+                },
+                {
+                  "id": "A1_m07_R2_ad_c",
+                  "label": "c) Sportshop Laufstark"
+                },
+                {
+                  "id": "A1_m07_R2_ad_d",
+                  "label": "d) Schwimmkurs für Erwachsene"
+                },
+                {
+                  "id": "A1_m07_R2_ad_e",
+                  "label": "e) Parkfest im Rosengarten"
+                },
+                {
+                  "id": "A1_m07_R2_ad_f",
+                  "label": "f) Tanzschule Rhythmus"
+                },
+                {
+                  "id": "A1_m07_R2_ad_g",
+                  "label": "g) Fahrrad mieten – Stadtpark"
+                },
+                {
+                  "id": "A1_m07_R2_ad_h",
+                  "label": "h) Tennis-Club Stadtmitte"
+                }
+              ],
+              "correctAnswer": "x",
+              "explanation": "Keine der Anzeigen a bis h bietet Kampfsport an. Anzeige f ist Tanzen, nicht Kampfsport. Lena findet kein passendes Angebot."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die fünf Texte. Zu jedem Text gibt es eine Aufgabe. Kreuzen Sie an: richtig oder falsch.",
+          "instructionsTranslation": "Read the five texts. There is one task per text. Mark: correct or incorrect.",
+          "texts": [
+            {
+              "id": "A1_m07_R3_text1",
+              "type": "notice",
+              "content": "HALLENBAD GESCHLOSSEN\nWegen Wartungsarbeiten bleibt das Hallenbad am Dienstag, 18. März, ganztägig geschlossen. Ab Mittwoch wieder normal geöffnet.",
+              "source": "Aushang am Eingang"
+            },
+            {
+              "id": "A1_m07_R3_text2",
+              "type": "notice",
+              "content": "Fußballtraining heute Abend findet NICHT statt. Der Trainer ist krank. Nächstes Training: Donnerstag, 18 Uhr, wie gewohnt. – FC Blau-Weiß",
+              "source": "Gruppeninfo"
+            },
+            {
+              "id": "A1_m07_R3_text3",
+              "type": "notice",
+              "content": "FAHRRÄDER ABSTELLEN VERBOTEN!\nBitte Fahrräder nur im Fahrradkeller abstellen. Fahrräder im Hausflur werden entfernt.",
+              "source": "Hinweisschild im Eingangsbereich"
+            },
+            {
+              "id": "A1_m07_R3_text4",
+              "type": "notice",
+              "content": "Yoga im Park – kostenlos!\nJeden Samstag, 9 Uhr, Stadtpark Pavillon\nAlle Levels willkommen. Bitte Matte mitbringen.\nBei schlechtem Wetter fällt der Kurs aus.",
+              "source": "Plakat"
+            },
+            {
+              "id": "A1_m07_R3_text5",
+              "type": "notice",
+              "content": "Lieber Mieter,\nbitte beachten Sie: Der Aufzug ist diese Woche außer Betrieb. Wir bitten um Entschuldigung für die Unannehmlichkeiten.\n– Die Hausverwaltung",
+              "source": "Brief"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_m07_R3_q1",
+              "type": "true_false",
+              "questionText": "Das Hallenbad öffnet am Mittwoch wieder.",
+              "relatedTextId": "A1_m07_R3_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Der Aushang sagt: 'Ab Mittwoch wieder normal geöffnet.' Die Aussage stimmt."
+            },
+            {
+              "id": "A1_m07_R3_q2",
+              "type": "true_false",
+              "questionText": "Das Fußballtraining findet heute statt.",
+              "relatedTextId": "A1_m07_R3_text2",
+              "correctAnswer": "falsch",
+              "explanation": "Die Nachricht sagt ausdrücklich: 'Fußballtraining heute Abend findet NICHT statt.' Es fällt also aus."
+            },
+            {
+              "id": "A1_m07_R3_q3",
+              "type": "true_false",
+              "questionText": "Man darf das Fahrrad im Hausflur abstellen.",
+              "relatedTextId": "A1_m07_R3_text3",
+              "correctAnswer": "falsch",
+              "explanation": "Das Schild sagt: 'Fahrräder im Hausflur werden entfernt' und 'Abstellen verboten'. Es ist also nicht erlaubt, Fahrräder dort abzustellen."
+            },
+            {
+              "id": "A1_m07_R3_q4",
+              "type": "true_false",
+              "questionText": "Der Yogakurs im Park kostet Geld.",
+              "relatedTextId": "A1_m07_R3_text4",
+              "correctAnswer": "falsch",
+              "explanation": "Das Plakat sagt klar: 'Yoga im Park – kostenlos!' Der Kurs ist gratis."
+            },
+            {
+              "id": "A1_m07_R3_q5",
+              "type": "true_false",
+              "questionText": "Der Aufzug funktioniert diese Woche nicht.",
+              "relatedTextId": "A1_m07_R3_text5",
+              "correctAnswer": "richtig",
+              "explanation": "Der Brief sagt: 'Der Aufzug ist diese Woche außer Betrieb.' Das bedeutet, er funktioniert nicht."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 20,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "form_fill",
+          "instructions": "Sie möchten Mitglied in einem Sportverein werden. Füllen Sie das Anmeldeformular aus.",
+          "instructionsTranslation": "You would like to become a member of a sports club. Fill in the registration form.",
+          "formFields": [
+            {
+              "label": "Vorname und Nachname",
+              "correctAnswer": "z. B. Julia Hoffmann",
+              "hint": "Schreiben Sie Ihren vollen Namen."
+            },
+            {
+              "label": "Geburtsdatum",
+              "correctAnswer": "z. B. 12.05.1990",
+              "hint": "Schreiben Sie Tag, Monat und Jahr."
+            },
+            {
+              "label": "Gewünschte Sportart",
+              "correctAnswer": "z. B. Schwimmen",
+              "hint": "Welchen Sport möchten Sie machen? (z. B. Fußball, Tennis, Schwimmen)"
+            },
+            {
+              "label": "Telefonnummer",
+              "correctAnswer": "z. B. 0176 1234567",
+              "hint": "Schreiben Sie Ihre Handynummer oder Festnetznummer."
+            },
+            {
+              "label": "Wann haben Sie Zeit? (Tag und Uhrzeit)",
+              "correctAnswer": "z. B. Dienstag und Donnerstag, 18 Uhr",
+              "hint": "Nennen Sie einen oder zwei Tage und eine Uhrzeit."
+            }
+          ],
+          "sampleAnswer": "Vorname und Nachname: Julia Hoffmann\nGeburtsdatum: 12.05.1990\nGewünschte Sportart: Schwimmen\nTelefonnummer: 0176 1234567\nWann haben Sie Zeit?: Dienstag und Donnerstag, 18 Uhr",
+          "scoringCriteria": [
+            {
+              "criterion": "Vollständigkeit",
+              "maxPoints": 5,
+              "description": "Alle fünf Felder sind ausgefüllt. Für jedes ausgefüllte Feld gibt es einen Punkt."
+            },
+            {
+              "criterion": "Korrektheit",
+              "maxPoints": 5,
+              "description": "Die Angaben sind sprachlich korrekt und verständlich. Kleine Rechtschreibfehler werden nicht bestraft, wenn die Information klar ist."
+            }
+          ]
+        },
+        {
+          "taskNumber": 2,
+          "type": "short_message",
+          "instructions": "Sie möchten Ihren Freund / Ihre Freundin zu einer Freizeitaktivität einladen. Schreiben Sie eine Nachricht (30–40 Wörter). Schreiben Sie zu allen drei Punkten.",
+          "instructionsTranslation": "You would like to invite your friend to a leisure activity. Write a message (30–40 words). Write about all three points.",
+          "prompt": "- Was machen Sie? (Aktivität)\n- Wann und wo?\n- Was soll Ihr Freund / Ihre Freundin mitbringen?",
+          "promptTranslation": "- What are you doing? (activity)\n- When and where?\n- What should your friend bring?",
+          "requiredPoints": [
+            "Art der Aktivität nennen (z. B. Fahrradtour, Schwimmen, Kino)",
+            "Zeit und Ort angeben",
+            "Etwas zum Mitbringen erwähnen"
+          ],
+          "wordCountMin": 30,
+          "wordCountMax": 40,
+          "sampleAnswer": "Hallo Katrin!\n\nIch mache am Samstag um 10 Uhr eine Fahrradtour im Stadtpark. Kommst du mit? Wir treffen uns am Parkeingang Nord. Bitte bring dein Fahrrad und eine Wasserflasche mit. Bis Samstag!\n\nDeine Julia",
+          "scoringCriteria": [
+            {
+              "criterion": "Aufgabenerfüllung",
+              "maxPoints": 4,
+              "description": "Alle drei Punkte (Aktivität, Zeit/Ort, Mitbringen) sind vollständig und verständlich bearbeitet."
+            },
+            {
+              "criterion": "Kommunikative Gestaltung",
+              "maxPoints": 4,
+              "description": "Die Nachricht ist klar strukturiert, hat eine Anrede und einen Abschluss, und liest sich natürlich."
+            },
+            {
+              "criterion": "Formale Richtigkeit",
+              "maxPoints": 4,
+              "description": "Grammatik, Rechtschreibung und Zeichensetzung sind weitgehend korrekt. Kleinere Fehler sind akzeptabel, wenn der Text verständlich bleibt."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 0,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "introduce",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie über Ihre Hobbys und Ihre Freizeit.",
+          "instructionsTranslation": "Introduce yourself. Talk about your hobbies and your free time.",
+          "prompt": "Sagen Sie etwas über:\n- Ihren Namen und Ihre Herkunft\n- Ihre Hobbys und Freizeitaktivitäten\n- Ihren Lieblingssport oder Ihre Lieblingsfreizeitaktivität\n- Wann und wie oft Sie Sport machen",
+          "sampleResponse": "Hallo, mein Name ist Luisa Becker. Ich komme aus Köln. In meiner Freizeit mache ich gern Sport. Mein Hobby ist Schwimmen. Ich schwimme zweimal pro Woche im Hallenbad. Am Wochenende gehe ich auch manchmal joggen. Ich liebe Sport, weil er Spaß macht und gesund ist.",
+          "sampleAudioFile": "assets/audio/A1/mock07/speaking_part1_sample.mp3",
+          "evaluationTips": [
+            "Sprechen Sie laut und deutlich — der Prüfer muss Sie gut verstehen.",
+            "Benutzen Sie einfache, vollständige Sätze auf Deutsch.",
+            "Nennen Sie konkrete Hobbys mit Häufigkeit (z. B. 'zweimal pro Woche').",
+            "Machen Sie eine kurze Pause zwischen den Themen — das wirkt strukturiert."
+          ],
+          "keyPhrases": [
+            "Mein Name ist ...",
+            "Ich komme aus ...",
+            "In meiner Freizeit ...",
+            "Mein Hobby ist ...",
+            "Ich mache gern ...",
+            "Ich mache das ... mal pro Woche."
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "picture_cards",
+          "instructions": "Sie sehen drei Bildkarten mit Freizeitgegenständen. Bitte sprechen Sie über die Gegenstände auf den Karten.",
+          "instructionsTranslation": "You see three picture cards showing leisure items. Please talk about the items on the cards.",
+          "prompt": "Was sehen Sie auf den Bildern? Sagen Sie, was es ist, welche Farbe es hat, oder was man damit macht.",
+          "promptImage": "assets/images/A1/mock07/speaking_part2_cards.png",
+          "sampleResponse": "Auf dem ersten Bild sehe ich einen Fußball. Er ist schwarz und weiß. Man spielt Fußball auf einem Fußballplatz. Auf dem zweiten Bild ist ein Fahrrad. Das Fahrrad ist blau. Man fährt Fahrrad im Park oder auf der Straße. Auf dem dritten Bild sehe ich eine Schwimmbrille. Die Schwimmbrille ist rot. Man benutzt sie im Schwimmbad.",
+          "sampleAudioFile": "assets/audio/A1/mock07/speaking_part2_sample.mp3",
+          "evaluationTips": [
+            "Beschreiben Sie jedes Bild mit mindestens einem vollständigen Satz.",
+            "Nennen Sie den Artikel (der, die, das) — das gehört zur Bewertung.",
+            "Sie dürfen auch sagen, was man mit dem Gegenstand macht.",
+            "Wenn Sie ein Wort nicht wissen, beschreiben Sie den Gegenstand auf Deutsch."
+          ],
+          "keyPhrases": [
+            "Auf dem Bild sehe ich ...",
+            "Das ist ein/eine ...",
+            "Es ist / Er ist / Sie ist ...",
+            "Man benutzt das für ...",
+            "Man spielt / fährt / schwimmt ...",
+            "Die Farbe ist ..."
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "und_du",
+          "instructions": "Ihr Gesprächspartner nennt ein Thema. Stellen Sie eine Frage dazu und antworten Sie auch selbst. Themen: Sport, Musik, Urlaub.",
+          "instructionsTranslation": "Your conversation partner names a topic. Ask a question about it and also answer yourself. Topics: Sport, Musik, Urlaub.",
+          "prompt": "Thema 1: Sport\nThema 2: Musik\nThema 3: Urlaub",
+          "sampleResponse": "Prüfer: Sport. Und du?\nKandidat: Machst du gern Sport?\nPrüfer: Ja, ich spiele Tennis. Und du?\nKandidat: Ich schwimme gern, zweimal pro Woche.\n\nPrüfer: Musik. Und du?\nKandidat: Hörst du gern Musik?\nPrüfer: Ja, ich höre gern Pop. Und du?\nKandidat: Ich höre auch gern Musik. Am liebsten höre ich Rock.\n\nPrüfer: Urlaub. Und du?\nKandidat: Fährst du gern in den Urlaub?\nPrüfer: Ja, ich fahre gern ans Meer. Und du?\nKandidat: Ich fahre gern in die Berge. Das macht mir sehr viel Spaß.",
+          "sampleAudioFile": "assets/audio/A1/mock07/speaking_part3_sample.mp3",
+          "evaluationTips": [
+            "Stellen Sie immer eine Frage zum genannten Thema — das ist Pflicht in diesem Teil.",
+            "Antworten Sie auch selbst auf das Thema, nicht nur mit 'Ja' oder 'Nein'.",
+            "Benutzen Sie 'Und du?' oder 'Und Sie?' um das Gespräch weiterzuführen.",
+            "Bleiben Sie beim Thema und sprechen Sie in ganzen Sätzen."
+          ],
+          "keyPhrases": [
+            "Machst du gern ...?",
+            "Spielst du ...?",
+            "Hörst du gern ...?",
+            "Fährst du gern ...?",
+            "Ich ... gern ...",
+            "Das macht mir Spaß."
+          ]
+        }
+      ]
+    }
   }
 }

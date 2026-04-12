@@ -2,12 +2,714 @@
   "id": "A1_mock_06",
   "level": "A1",
   "title": "Übungstest 6",
-  "version": 0,
-  "_stub": true,
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören drei kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Kreuzen Sie die richtige Antwort an: a, b oder c. Sie hören jeden Text zweimal.",
+          "instructionsTranslation": "You will hear three short conversations. For each conversation there is one task. Mark the correct answer: a, b, or c. You will hear each text twice.",
+          "audioFile": "assets/audio/A1/mock06/listening_part1.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A1_m06_L1_q1",
+              "type": "mcq",
+              "questionText": "Wann beginnt Herr Meyers Arbeit heute?",
+              "questionImage": "assets/images/A1/mock06/L1_q1.png",
+              "options": [
+                "a) Um 7:00 Uhr",
+                "b) Um 8:30 Uhr",
+                "c) Um 9:00 Uhr"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Im Audio Herr Meyer sagt: 'Ich fange heute um halb neun an' — 'halb neun' is 8:30 Uhr.",
+              "audioTimestamp": 18
+            },
+            {
+              "id": "A1_m06_L1_q2",
+              "type": "mcq",
+              "questionText": "Was kauft die Frau im Supermarkt für das Büro?",
+              "questionImage": "assets/images/A1/mock06/L1_q2.png",
+              "options": [
+                "a) Kaffee und Zucker",
+                "b) Milch und Brot",
+                "c) Wasser und Tee"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Frau sagt 'Ich kaufe Kaffee und Zucker für das Büro' when asked what she is getting from the supermarket.",
+              "audioTimestamp": 52
+            },
+            {
+              "id": "A1_m06_L1_q3",
+              "type": "mcq",
+              "questionText": "Wo arbeitet Frau Klein?",
+              "questionImage": "assets/images/A1/mock06/L1_q3.png",
+              "options": [
+                "a) In einer Schule",
+                "b) In einem Krankenhaus",
+                "c) In einem Büro"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Frau Klein sagt 'Ich arbeite in einem Büro in der Stadtmitte' — she works in an office in the city centre.",
+              "audioTimestamp": 88
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören ein Gespräch. Zu dem Gespräch gibt es fünf Aufgaben. Kreuzen Sie an: Richtig oder Falsch. Sie hören den Text zweimal.",
+          "instructionsTranslation": "You will hear one conversation. There are five tasks. Mark: Correct or Incorrect. You will hear the text twice.",
+          "audioFile": "assets/audio/A1/mock06/listening_part2.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A1_m06_L2_q1",
+              "type": "true_false",
+              "questionText": "Peter arbeitet seit drei Jahren in der Firma.",
+              "correctAnswer": "falsch",
+              "explanation": "Peter sagt 'Ich arbeite seit zwei Jahren hier' — he has been at the company for two years, nicht three.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "A1_m06_L2_q2",
+              "type": "true_false",
+              "questionText": "Das Büro hat von Montag bis Freitag geöffnet.",
+              "correctAnswer": "richtig",
+              "explanation": "Die Rezeptionistin bestätigt 'Das Büro ist von Montag bis Freitag von 8 bis 17 Uhr geöffnet.'",
+              "audioTimestamp": 35
+            },
+            {
+              "id": "A1_m06_L2_q3",
+              "type": "true_false",
+              "questionText": "Der Chef ist heute krank und kommt nicht ins Büro.",
+              "correctAnswer": "richtig",
+              "explanation": "Der Kollege sagt: \"Der Chef ist heute krank. Er kommt nicht ins Büro.\" Der Chef ist also krank. Die Aussage ist richtig.",
+              "audioTimestamp": 58
+            },
+            {
+              "id": "A1_m06_L2_q4",
+              "type": "true_false",
+              "questionText": "Das Mittagessen beginnt um 13:00 Uhr.",
+              "correctAnswer": "falsch",
+              "explanation": "Peter sagt the lunch break starts 'um halb eins' — at 12:30, nicht 13:00.",
+              "audioTimestamp": 74
+            },
+            {
+              "id": "A1_m06_L2_q5",
+              "type": "true_false",
+              "questionText": "Peter kommt morgen früher zur Arbeit.",
+              "correctAnswer": "richtig",
+              "explanation": "Peter sagt 'Morgen komme ich früher, um 7 Uhr' at the end of the conversation.",
+              "audioTimestamp": 98
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören drei kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Kreuzen Sie die richtige Antwort an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear three short conversations. For each conversation there is one task. Mark the correct answer: a, b, or c. You will hear each text once.",
+          "audioFile": "assets/audio/A1/mock06/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A1_m06_L3_q1",
+              "type": "mcq",
+              "questionText": "Was ist das Problem mit dem Drucker?",
+              "options": [
+                "a) Der Drucker hat kein Papier.",
+                "b) Der Drucker ist kaputt.",
+                "c) Der Drucker ist aus."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Kollege sagt: \"Der Drucker druckt nicht — er hat kein Papier mehr.\" Das Problem ist das fehlende Papier. Die Antwort ist a.",
+              "audioTimestamp": 14
+            },
+            {
+              "id": "A1_m06_L3_q2",
+              "type": "mcq",
+              "questionText": "Wann hat Frau Hoffmann heute einen Termin?",
+              "options": [
+                "a) Um 10:00 Uhr",
+                "b) Um 14:00 Uhr",
+                "c) Um 15:30 Uhr"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Frau Hoffmann's assistant sagt her appointment is 'um 14 Uhr nachmittags' — at 2 p.m.",
+              "audioTimestamp": 48
+            },
+            {
+              "id": "A1_m06_L3_q3",
+              "type": "mcq",
+              "questionText": "Warum ruft der Mann an?",
+              "options": [
+                "a) Er möchte einen Job.",
+                "b) Er hat eine Frage zur Stelle.",
+                "c) Er möchte seine Adresse ändern."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Mann sagt 'Ich habe eine Frage zu der Stelle, die Sie ausgeschrieben haben' — he has a question about the advertised position.",
+              "audioTimestamp": 82
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 25,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie die Texte und die Aufgaben. Kreuzen Sie an: Richtig oder Falsch.",
+          "instructionsTranslation": "Read the texts and the tasks. Mark: Correct or Incorrect.",
+          "texts": [
+            {
+              "id": "A1_m06_R1_text1",
+              "type": "email",
+              "content": "Von: anna.berger@buromax.de\nAn: team@buromax.de\nBetreff: Neue Arbeitszeiten\n\nLiebe Kolleginnen und Kollegen,\n\nab nächsten Montag beginnt unsere Arbeitszeit um 8:00 Uhr (früher: 9:00 Uhr). Das Büro schließt dann um 17:00 Uhr. Die Mittagspause ist von 12:00 bis 13:00 Uhr.\n\nBitte kommen Sie pünktlich. Bei Fragen wenden Sie sich an mich.\n\nViele Grüße\nAnna Berger\nPersonalabteilung",
+              "source": "Büromax GmbH – interne E-Mail"
+            },
+            {
+              "id": "A1_m06_R1_text2",
+              "type": "ad",
+              "content": "STELLENANZEIGE\n\nWir suchen ab sofort:\n\nBürokaufmann / Bürokauffrau (Vollzeit)\n\nIhre Aufgaben:\n– Telefon und E-Mails bearbeiten\n– Termine organisieren\n– Dokumente ablegen\n\nWir bieten:\n– 30 Tage Urlaub\n– Gutes Gehalt\n– Freundliches Team\n\nBitte senden Sie Ihre Bewerbung an:\njobs@stadtwerke-nord.de\n\nStadtwerke Nord GmbH",
+              "source": "Stellenanzeige – Stadtwerke Nord GmbH"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_m06_R1_q1",
+              "type": "true_false",
+              "questionText": "Die neue Arbeitszeit beginnt um 8:00 Uhr.",
+              "relatedTextId": "A1_m06_R1_text1",
+              "correctAnswer": "richtig",
+              "explanation": "In der E-Mail steht: \"Ab nächsten Montag beginnt unsere Arbeitszeit um 8:00 Uhr.\" Die neue Arbeitszeit beginnt also am Montag. Die Aussage ist richtig."
+            },
+            {
+              "id": "A1_m06_R1_q2",
+              "type": "true_false",
+              "questionText": "Das Büro schließt jetzt um 18:00 Uhr.",
+              "relatedTextId": "A1_m06_R1_text1",
+              "correctAnswer": "falsch",
+              "explanation": "In der E-Mail steht: \"Das Büro ist von 8:00 bis 17:00 Uhr geöffnet.\" Das Büro schließt um 17:00 Uhr, nicht um 18:00 Uhr. Die Aussage ist falsch."
+            },
+            {
+              "id": "A1_m06_R1_q3",
+              "type": "true_false",
+              "questionText": "Die Mittagspause dauert eine Stunde.",
+              "relatedTextId": "A1_m06_R1_text1",
+              "correctAnswer": "richtig",
+              "explanation": "In der E-Mail steht: \"Die Mittagspause ist von 12:00 bis 13:00 Uhr.\" Das ist eine Stunde. Die Aussage ist richtig."
+            },
+            {
+              "id": "A1_m06_R1_q4",
+              "type": "true_false",
+              "questionText": "Die Stelle bei Stadtwerke Nord ist für Teilzeit.",
+              "relatedTextId": "A1_m06_R1_text2",
+              "correctAnswer": "falsch",
+              "explanation": "In der Stellenanzeige steht \"Vollzeit\" — das bedeutet eine Vollzeitstelle, keine Teilzeitstelle. Die Aussage ist falsch."
+            },
+            {
+              "id": "A1_m06_R1_q5",
+              "type": "true_false",
+              "questionText": "Bewerber sollen eine E-Mail schicken.",
+              "relatedTextId": "A1_m06_R1_text2",
+              "correctAnswer": "richtig",
+              "explanation": "Die Anzeige sagt 'Bitte senden Sie Ihre Bewerbung an: jobs@stadtwerke-nord.de' — applicants should send an email."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie die Anzeigen a–h und die Situationen 1–5. Welche Anzeige passt zu welcher Situation? Für eine Situation gibt es keine passende Anzeige. Schreiben Sie dann den Buchstaben oder ein X.",
+          "instructionsTranslation": "Read the ads a–h and situations 1–5. Which ad matches which situation? For one situation there is no matching ad. Write the letter or X.",
+          "texts": [
+            {
+              "id": "A1_m06_R2_ad_a",
+              "type": "ad",
+              "content": "JOBBÖRSE ONLINE\nTelefonist/-in gesucht\nTeilzeit, 20 Std./Woche\nGute Deutschkenntnisse nötig\nBewerbung: jobs@callcenter-berlin.de"
+            },
+            {
+              "id": "A1_m06_R2_ad_b",
+              "type": "ad",
+              "content": "Sprachkurs Deutsch A1\nAbende: Mo, Mi, Fr — 18:00–19:30 Uhr\nKleingruppenunterricht (max. 8 Personen)\nAnmeldung: vhs-mitte.de"
+            },
+            {
+              "id": "A1_m06_R2_ad_c",
+              "type": "ad",
+              "content": "LAGERHELFER (m/w/d)\nSofort! Vollzeit\nKeine Berufserfahrung nötig\nAnruf: 030 / 44 55 66 77\nLogistik Müller GmbH"
+            },
+            {
+              "id": "A1_m06_R2_ad_d",
+              "type": "ad",
+              "content": "Bürostuhl & Schreibtisch zu verkaufen\nGut erhalten, zusammen 80 €\nAbholung in Prenzlauer Berg\nTel.: 0177 / 123 456 78"
+            },
+            {
+              "id": "A1_m06_R2_ad_e",
+              "type": "ad",
+              "content": "BABYSITTER GESUCHT\nFür 2 Kinder (3 und 6 Jahre)\nDienstag & Donnerstag, 16–19 Uhr\nGute Bezahlung\nbabysitter@familiemayer.de"
+            },
+            {
+              "id": "A1_m06_R2_ad_f",
+              "type": "ad",
+              "content": "Kostenloser Computerkurs\nGrundlagen: Word & Excel\nSamstags 10:00–12:00 Uhr\nAnmeldung: bildung@gemeinde-nord.de"
+            },
+            {
+              "id": "A1_m06_R2_ad_g",
+              "type": "ad",
+              "content": "REINIGUNGSKRAFT (m/w/d)\nBüroreinigung, Mo–Fr morgens\nErfahrung erwünscht\nBewerbung an: info@cleanpro.de"
+            },
+            {
+              "id": "A1_m06_R2_ad_h",
+              "type": "ad",
+              "content": "Mitfahrgelegenheit\nBerlin → Hamburg, jeden Montag\nAbfahrt 6:30 Uhr, Kosten: 20 €\nKontakt: fahrer@mitfahrclub.de"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_m06_R2_q1",
+              "type": "matching",
+              "questionText": "Maria spricht wenig Deutsch. Sie möchte einen Deutschkurs am Abend machen.",
+              "matchingSources": [
+                {
+                  "id": "A1_m06_R2_ad_a",
+                  "label": "a"
+                },
+                {
+                  "id": "A1_m06_R2_ad_b",
+                  "label": "b"
+                },
+                {
+                  "id": "A1_m06_R2_ad_c",
+                  "label": "c"
+                },
+                {
+                  "id": "A1_m06_R2_ad_d",
+                  "label": "d"
+                },
+                {
+                  "id": "A1_m06_R2_ad_e",
+                  "label": "e"
+                },
+                {
+                  "id": "A1_m06_R2_ad_f",
+                  "label": "f"
+                },
+                {
+                  "id": "A1_m06_R2_ad_g",
+                  "label": "g"
+                },
+                {
+                  "id": "A1_m06_R2_ad_h",
+                  "label": "h"
+                }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Ad b bietet a German A1 course in the evenings (Monday, Wednesday, Friday 18:00–19:30), which passt zu Maria's need."
+            },
+            {
+              "id": "A1_m06_R2_q2",
+              "type": "matching",
+              "questionText": "Thomas sucht einen Job. Er hat keine Berufserfahrung und kann sofort anfangen.",
+              "matchingSources": [
+                {
+                  "id": "A1_m06_R2_ad_a",
+                  "label": "a"
+                },
+                {
+                  "id": "A1_m06_R2_ad_b",
+                  "label": "b"
+                },
+                {
+                  "id": "A1_m06_R2_ad_c",
+                  "label": "c"
+                },
+                {
+                  "id": "A1_m06_R2_ad_d",
+                  "label": "d"
+                },
+                {
+                  "id": "A1_m06_R2_ad_e",
+                  "label": "e"
+                },
+                {
+                  "id": "A1_m06_R2_ad_f",
+                  "label": "f"
+                },
+                {
+                  "id": "A1_m06_R2_ad_g",
+                  "label": "g"
+                },
+                {
+                  "id": "A1_m06_R2_ad_h",
+                  "label": "h"
+                }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Ad c is for a warehouse helper (Lagerhelfer), available immediately and requires no prior work experience."
+            },
+            {
+              "id": "A1_m06_R2_q3",
+              "type": "matching",
+              "questionText": "Familie Bauer braucht jemanden, der zwei Nachmittage pro Woche auf ihre Kinder aufpasst.",
+              "matchingSources": [
+                {
+                  "id": "A1_m06_R2_ad_a",
+                  "label": "a"
+                },
+                {
+                  "id": "A1_m06_R2_ad_b",
+                  "label": "b"
+                },
+                {
+                  "id": "A1_m06_R2_ad_c",
+                  "label": "c"
+                },
+                {
+                  "id": "A1_m06_R2_ad_d",
+                  "label": "d"
+                },
+                {
+                  "id": "A1_m06_R2_ad_e",
+                  "label": "e"
+                },
+                {
+                  "id": "A1_m06_R2_ad_f",
+                  "label": "f"
+                },
+                {
+                  "id": "A1_m06_R2_ad_g",
+                  "label": "g"
+                },
+                {
+                  "id": "A1_m06_R2_ad_h",
+                  "label": "h"
+                }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Ad e is looking for a babysitter for 2 children on Tuesday and Thursday afternoons — two afternoons per week."
+            },
+            {
+              "id": "A1_m06_R2_q4",
+              "type": "matching",
+              "questionText": "Lena möchte lernen, wie man Word und Excel am Computer benutzt. Sie hat am Samstag Zeit.",
+              "matchingSources": [
+                {
+                  "id": "A1_m06_R2_ad_a",
+                  "label": "a"
+                },
+                {
+                  "id": "A1_m06_R2_ad_b",
+                  "label": "b"
+                },
+                {
+                  "id": "A1_m06_R2_ad_c",
+                  "label": "c"
+                },
+                {
+                  "id": "A1_m06_R2_ad_d",
+                  "label": "d"
+                },
+                {
+                  "id": "A1_m06_R2_ad_e",
+                  "label": "e"
+                },
+                {
+                  "id": "A1_m06_R2_ad_f",
+                  "label": "f"
+                },
+                {
+                  "id": "A1_m06_R2_ad_g",
+                  "label": "g"
+                },
+                {
+                  "id": "A1_m06_R2_ad_h",
+                  "label": "h"
+                }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Ad f bietet a free computer course covering Word and Excel basics on Saturdays from 10:00–12:00."
+            },
+            {
+              "id": "A1_m06_R2_q5",
+              "type": "matching",
+              "questionText": "Herr Vogel sucht ein günstiges Ticket für einen Zug von Berlin nach Hamburg.",
+              "matchingSources": [
+                {
+                  "id": "A1_m06_R2_ad_a",
+                  "label": "a"
+                },
+                {
+                  "id": "A1_m06_R2_ad_b",
+                  "label": "b"
+                },
+                {
+                  "id": "A1_m06_R2_ad_c",
+                  "label": "c"
+                },
+                {
+                  "id": "A1_m06_R2_ad_d",
+                  "label": "d"
+                },
+                {
+                  "id": "A1_m06_R2_ad_e",
+                  "label": "e"
+                },
+                {
+                  "id": "A1_m06_R2_ad_f",
+                  "label": "f"
+                },
+                {
+                  "id": "A1_m06_R2_ad_g",
+                  "label": "g"
+                },
+                {
+                  "id": "A1_m06_R2_ad_h",
+                  "label": "h"
+                }
+              ],
+              "correctAnswer": "x",
+              "explanation": "Ad h bietet a carpooling ride (Mitfahrgelegenheit) Berlin–Hamburg, but Herr Vogel wants a train ticket. No ad passt zu a train ticket specifically."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die Texte und die Aufgaben. Kreuzen Sie an: Richtig oder Falsch.",
+          "instructionsTranslation": "Read the texts and the tasks. Mark: Correct or Incorrect.",
+          "texts": [
+            {
+              "id": "A1_m06_R3_text1",
+              "type": "notice",
+              "content": "AUSHANG\n\nDas Büro ist am Freitag, den 14. Juni, ab 15:00 Uhr geschlossen.\nWir sind ab Montag wieder für Sie da.\n\nDanke für Ihr Verständnis!\n– Die Geschäftsleitung"
+            },
+            {
+              "id": "A1_m06_R3_text2",
+              "type": "notice",
+              "content": "ACHTUNG!\n\nDer Aufzug ist kaputt.\nBitte benutzen Sie die Treppe.\nWir reparieren den Aufzug am Dienstag.\n\n– Hausmeister"
+            },
+            {
+              "id": "A1_m06_R3_text3",
+              "type": "notice",
+              "content": "Liebe Mitarbeiterinnen und Mitarbeiter,\n\nbitte stellen Sie keine privaten Sachen in der Büroküche ab. Die Küche ist nur für die Mittagspause.\n\nDienstag und Donnerstag gibt es frischen Kaffee.\n\n– Anna, Verwaltung"
+            },
+            {
+              "id": "A1_m06_R3_text4",
+              "type": "notice",
+              "content": "PARKPLATZ-INFORMATION\n\nMitarbeiter können Platz 1–10 benutzen.\nBitte fahren Sie langsam auf dem Parkplatz (max. 10 km/h).\nBesucher parken bitte auf Platz 11–15."
+            },
+            {
+              "id": "A1_m06_R3_text5",
+              "type": "notice",
+              "content": "Teambesprechung\nMittwoch, 11. Juni — 10:00 Uhr\nKonferenzraum 2 (3. Etage)\n\nThemen: Neue Projekte, Urlaubsplanung\n\nBitte alle pünktlich kommen!"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_m06_R3_q1",
+              "type": "true_false",
+              "questionText": "Das Büro ist am Freitagnachmittag zu.",
+              "relatedTextId": "A1_m06_R3_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Das Schild sagt the office is closed on Friday from 15:00 — so it closes in the afternoon."
+            },
+            {
+              "id": "A1_m06_R3_q2",
+              "type": "true_false",
+              "questionText": "Der Aufzug funktioniert heute nicht.",
+              "relatedTextId": "A1_m06_R3_text2",
+              "correctAnswer": "richtig",
+              "explanation": "Das Schild sagt 'Der Aufzug ist kaputt' — the elevator is broken and nicht working."
+            },
+            {
+              "id": "A1_m06_R3_q3",
+              "type": "true_false",
+              "questionText": "In der Büroküche darf man persönliche Sachen lagern.",
+              "relatedTextId": "A1_m06_R3_text3",
+              "correctAnswer": "falsch",
+              "explanation": "Das Schild sagt 'bitte stellen Sie keine privaten Sachen in der Büroküche ab' — personal items are nicht allowed in the kitchen."
+            },
+            {
+              "id": "A1_m06_R3_q4",
+              "type": "true_false",
+              "questionText": "Besucher können die Parkplätze 1–10 benutzen.",
+              "relatedTextId": "A1_m06_R3_text4",
+              "correctAnswer": "falsch",
+              "explanation": "Places 1–10 are for employees (Mitarbeiter). Visitors (Besucher) use places 11–15."
+            },
+            {
+              "id": "A1_m06_R3_q5",
+              "type": "true_false",
+              "questionText": "Die Teambesprechung ist im dritten Stock.",
+              "relatedTextId": "A1_m06_R3_text5",
+              "correctAnswer": "richtig",
+              "explanation": "Das Schild sagt the meeting is in 'Konferenzraum 2 (3. Etage)' — 3. Etage means the third floor."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 20,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "form_fill",
+          "instructions": "Füllen Sie das Formular aus. Lesen Sie zuerst das Beispiel.",
+          "instructionsTranslation": "Fill in the form. Read the example first.",
+          "formFields": [
+            {
+              "label": "Vorname",
+              "correctAnswer": "Sara",
+              "hint": "Schreiben Sie Ihren Vornamen."
+            },
+            {
+              "label": "Familienname",
+              "correctAnswer": "Yilmaz",
+              "hint": "Schreiben Sie Ihren Familiennamen."
+            },
+            {
+              "label": "Beruf",
+              "correctAnswer": "Bürokauffrau",
+              "hint": "Was ist Ihr Beruf? (z. B. Verkäufer, Kellner, Bürokaufmann)"
+            },
+            {
+              "label": "Arbeitszeit",
+              "correctAnswer": "Vollzeit",
+              "hint": "Möchten Sie Vollzeit oder Teilzeit arbeiten?"
+            },
+            {
+              "label": "Telefonnummer",
+              "correctAnswer": "0176 / 98 76 54 32",
+              "hint": "Schreiben Sie Ihre Handynummer oder Festnetznummer."
+            }
+          ],
+          "sampleAnswer": "Vorname: Sara | Familienname: Yilmaz | Beruf: Bürokauffrau | Arbeitszeit: Vollzeit | Telefonnummer: 0176 / 98 76 54 32",
+          "scoringCriteria": [
+            {
+              "criterion": "Vollständigkeit",
+              "maxPoints": 5,
+              "description": "Alle fünf Felder sind ausgefüllt. Pro fehlendem Feld wird ein Punkt abgezogen."
+            },
+            {
+              "criterion": "Korrektheit",
+              "maxPoints": 5,
+              "description": "Die Angaben sind sprachlich korrekt und dem Feld entsprechend (z. B. kein Satz statt eines Namens)."
+            }
+          ]
+        },
+        {
+          "taskNumber": 2,
+          "type": "short_message",
+          "instructions": "Sie sind krank und können heute nicht zur Arbeit kommen. Schreiben Sie eine Nachricht an Ihren Kollegen Jonas. Schreiben Sie 30–40 Wörter. Schreiben Sie zu allen drei Punkten.",
+          "instructionsTranslation": "You are sick and cannot come to work today. Write a message to your colleague Jonas. Write 30–40 words. Write about all three points.",
+          "prompt": "– Warum schreiben Sie?\n– Wann kommen Sie wieder?\n– Was soll Jonas für Sie machen?",
+          "promptTranslation": "– Why are you writing?\n– When will you come back?\n– What should Jonas do for you?",
+          "requiredPoints": [
+            "Begründung (Sie sind krank / können nicht kommen)",
+            "Rückkehr (z. B. morgen oder übermorgen)",
+            "Bitte an Jonas (z. B. Termin absagen, E-Mails lesen)"
+          ],
+          "wordCountMin": 30,
+          "wordCountMax": 40,
+          "sampleAnswer": "Hallo Jonas,\n\nleider bin ich heute krank und kann nicht zur Arbeit kommen. Ich komme wahrscheinlich morgen wieder. Kannst du bitte den Termin mit Frau Schulz um 14 Uhr absagen? Danke!\n\nViele Grüße,\nSara",
+          "scoringCriteria": [
+            {
+              "criterion": "Aufgabenerfüllung",
+              "maxPoints": 4,
+              "description": "Alle drei Punkte sind angesprochen. Für jeden fehlenden Punkt werden Punkte abgezogen."
+            },
+            {
+              "criterion": "Kommunikative Gestaltung",
+              "maxPoints": 4,
+              "description": "Die Nachricht ist verständlich, hat eine Anrede und einen Abschluss. Der Text ist zusammenhängend."
+            },
+            {
+              "criterion": "Formale Richtigkeit",
+              "maxPoints": 4,
+              "description": "Rechtschreibung, Grammatik und Wortschatz sind überwiegend korrekt für das Niveau A1."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 0,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "introduce",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie über: Name, Herkunft, Wohnort, Beruf und Sprachen.",
+          "instructionsTranslation": "Introduce yourself. Talk about: name, origin, place of residence, job and languages.",
+          "prompt": "Mein Name ist ... Ich komme aus ... Ich wohne in ... Ich bin ... (Beruf). Ich spreche ...",
+          "sampleResponse": "Mein Name ist Kerim Demir. Ich komme aus der Türkei, aber ich wohne jetzt in Hamburg. Ich bin Bürokaufmann. Ich spreche Türkisch und etwas Deutsch.",
+          "sampleAudioFile": "assets/audio/A1/mock06/speaking_part1_sample.mp3",
+          "evaluationTips": [
+            "Sprechen Sie laut und deutlich.",
+            "Nennen Sie alle fünf Punkte: Name, Herkunft, Wohnort, Beruf, Sprachen.",
+            "Machen Sie kurze, einfache Sätze.",
+            "Schauen Sie den Prüfer an, wenn möglich."
+          ],
+          "keyPhrases": [
+            "Mein Name ist ...",
+            "Ich komme aus ...",
+            "Ich wohne in ...",
+            "Ich bin ... (Beruf).",
+            "Ich spreche ...",
+            "Ich lerne Deutsch."
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "picture_cards",
+          "instructions": "Sie bekommen drei Karten. Auf jeder Karte ist ein Bild und ein Wort. Sagen Sie, was Sie auf den Bildern sehen. Machen Sie einen Satz zu jedem Bild.",
+          "instructionsTranslation": "You receive three cards. Each card has a picture and a word. Say what you see in the pictures. Make one sentence for each picture.",
+          "prompt": "Karte 1: der Computer\nKarte 2: das Telefon\nKarte 3: der Schreibtisch",
+          "promptImage": "assets/images/A1/mock06/speaking_part2_cards.png",
+          "sampleResponse": "Karte 1: Das ist ein Computer. Der Computer ist im Büro.\nKarte 2: Das ist ein Telefon. Das Telefon ist schwarz.\nKarte 3: Das ist ein Schreibtisch. Der Schreibtisch ist groß.",
+          "sampleAudioFile": "assets/audio/A1/mock06/speaking_part2_sample.mp3",
+          "evaluationTips": [
+            "Sagen Sie das Wort auf der Karte: 'Das ist ein/eine ...'",
+            "Fügen Sie eine weitere Information hinzu (Farbe, Ort, Größe).",
+            "Benutzen Sie den richtigen Artikel: der, die oder das.",
+            "Sprechen Sie ruhig — es ist kein Problem, kurz nachzudenken."
+          ],
+          "keyPhrases": [
+            "Das ist ein/eine ...",
+            "Der/Die/Das ... ist ...",
+            "Ich sehe ...",
+            "Das benutzt man im Büro.",
+            "Das ist groß / klein / neu.",
+            "Man schreibt damit."
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "und_du",
+          "instructions": "Sie bekommen drei Wortkarten zu einem Thema. Sie stellen Ihrem Partner eine Frage. Ihr Partner antwortet und fragt zurück: 'Und du?' Dann antworten Sie.",
+          "instructionsTranslation": "You receive three word cards on a topic. You ask your partner a question. Your partner answers and asks back: 'And you?' Then you answer.",
+          "prompt": "Thema: Arbeit\nWortkarte 1: Arbeitszeit\nWortkarte 2: Kollegen\nWortkarte 3: Pause",
+          "sampleResponse": "Wortkarte 1 — Arbeitszeit:\nA: 'Wann arbeitest du?' B: 'Ich arbeite von 8 bis 17 Uhr. Und du?' A: 'Ich arbeite von 9 bis 18 Uhr.'\n\nWortkarte 2 — Kollegen:\nA: 'Hast du nette Kollegen?' B: 'Ja, meine Kollegen sind sehr freundlich. Und du?' A: 'Meine Kollegen sind auch nett.'\n\nWortkarte 3 — Pause:\nA: 'Wann machst du Pause?' B: 'Ich mache um 12 Uhr Pause. Und du?' A: 'Ich mache um halb eins Pause.'",
+          "sampleAudioFile": "assets/audio/A1/mock06/speaking_part3_sample.mp3",
+          "evaluationTips": [
+            "Stellen Sie eine klare Frage mit 'Wann', 'Wo', 'Wie' oder 'Hast du ...'.",
+            "Antworten Sie in einem vollständigen Satz.",
+            "Vergessen Sie nicht 'Und du?' nach Ihrer Antwort.",
+            "Benutzen Sie einfache Sätze — kurz und klar ist gut."
+          ],
+          "keyPhrases": [
+            "Wann arbeitest du?",
+            "Ich arbeite von ... bis ...",
+            "Hast du nette Kollegen?",
+            "Meine Kollegen sind ...",
+            "Wann machst du Pause?",
+            "Und du?"
+          ]
+        }
+      ]
+    }
   }
 }
