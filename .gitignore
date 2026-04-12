@@ -1,11 +1,18 @@
 # Dependencies
 node_modules/
 
+# Turbo
+.turbo/
+
 # Expo
 .expo/
 dist/
 web-build/
 expo-env.d.ts
+
+# Next.js
+.next/
+out/
 
 # Native
 *.orig.*
@@ -48,3 +55,10 @@ yarn-debug.log*
 
 # EAS
 .eas/
+
+# pnpm
+pnpm-debug.log*
+
+# Test
+test-results/
+coverage/

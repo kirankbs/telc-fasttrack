@@ -1,82 +1,87 @@
 # Telc-FastTrack
 
-German exam prep app for telc A1 through C1. Offline-first, content-driven. "Spend X hours. Pass telc."
+German exam prep app for telc A1 through C1. "Spend X hours. Pass telc."
+
+pnpm monorepo: web-first (Next.js 15) with mobile (Expo) sharing core packages.
+
+## Monorepo Structure
+
+```
+apps/
+  web/      — Next.js 15 App Router, Tailwind CSS 4, responsive (primary)
+  mobile/   — Expo SDK 54, React Native 0.81, expo-router 6
+packages/
+  types/    — @telc/types: MockExam interfaces, all shared TypeScript types
+  core/     — @telc/core: scoring engine, spaced repetition (SM-2), timer
+  config/   — @telc/config: design tokens (colors, typography, spacing)
+  content/  — @telc/content: exam catalog, validation, content metadata
+```
 
 ## Stack
 
-- **Framework:** Expo SDK 54 / React Native 0.81 / React 19 / TypeScript
-- **Navigation:** expo-router 6 (file-based) with bottom tabs — 5 tabs: Home, Practice, Exam, Resources, Settings
-- **Database:** expo-sqlite 16 (offline-first, no backend)
+- **Monorepo:** pnpm workspaces + Turborepo
+- **Web:** Next.js 15 / React 19 / Tailwind CSS 4 / TypeScript
+- **Mobile:** Expo SDK 54 / React Native 0.81 / React 19 / TypeScript
+- **Database (mobile):** expo-sqlite 16 (offline-first, no backend)
 - **State:** React Context + useReducer
-- **Animations:** react-native-reanimated 4 (never use legacy Animated API)
-- **Audio:** expo-audio 1 (listening playback) + expo-speech 14 (vocabulary TTS)
-- **Speech recognition:** @jamsch/expo-speech-recognition (migrate to expo-speech-recognition when ready)
-- **Node:** 22+ compatible (SDK 54 requirement)
+- **Node:** 22+
 
-## Architecture
+## Commands
 
-Content is bundled JSON + pre-generated MP3 audio. No network calls in core learning flow.
-
-- **Mock exams:** `assets/content/{level}/mock_XX.json` — 10 per level, target
-- **Audio:** `assets/audio/{level}/mockXX/` — pre-generated Google Cloud WaveNet MP3s
-- **Vocabulary:** `src/data/vocabulary/{level}_vocabulary.json`
-- **Grammar:** `src/data/grammar/{level}_grammar.json`
-- **DB:** 8 SQLite tables (see `src/services/database.ts`)
+```bash
+pnpm dev:web              # start Next.js dev server (port 3000)
+pnpm dev:mobile           # start Expo dev server
+pnpm typecheck            # typecheck all packages
+pnpm test                 # run all tests
+pnpm build                # build all packages
+```
 
 ## Key Files
 
 | File | Purpose |
 |------|---------|
-| `src/types/exam.ts` | MockExam TypeScript interfaces — canonical definition |
-| `src/utils/theme.ts` | Design tokens — NEVER hardcode hex values |
-| `src/services/database.ts` | SQLite schema + migration support |
-| `src/services/scoringEngine.ts` | telc scoring logic (60% pass threshold per section) |
-| `src/services/spacedRepetition.ts` | SM-2 algorithm for vocabulary flashcards |
-| `src/services/studyPlanEngine.ts` | "X hours to pass" daily recommendations |
-| `src/app/_layout.tsx` | Root layout (5 bottom tabs) |
-| `telc-fasttrack-implementation-plan.md` | Full requirements doc — all agents reference this |
+| `packages/types/src/exam.ts` | MockExam TypeScript interfaces — canonical definition |
+| `packages/config/src/theme.ts` | Design tokens — NEVER hardcode hex values |
+| `packages/core/src/scoring.ts` | telc scoring logic (60% pass threshold per section) |
+| `packages/core/src/spaced-repetition.ts` | SM-2 algorithm for vocabulary flashcards |
+| `packages/core/src/timer.ts` | Section time limits per telc spec |
+| `packages/content/src/catalog.ts` | Mock exam catalog metadata |
+| `apps/web/src/app/layout.tsx` | Web app root layout |
+| `apps/mobile/src/app/_layout.tsx` | Mobile app root layout (5 bottom tabs) |
+| `apps/mobile/src/services/database.ts` | SQLite schema + migration support |
+| `telc-fasttrack-implementation-plan.md` | Full requirements doc |
 
-## Content Schema
+## Shared Packages
 
-Mock exams follow the `MockExam` TypeScript interface in `src/types/exam.ts`. See requirements doc section 7 for the full definition with all sub-types (ListeningSection, ReadingSection, WritingSection, SpeakingSection).
+All apps import shared logic via `workspace:*` protocol:
+- **Types:** `import type { MockExam } from '@telc/types'`
+- **Core:** `import { calculateExamScore } from '@telc/core'`
+- **Config:** `import { colors, LEVEL_CONFIG } from '@telc/config'`
+- **Content:** `import { getMocksForLevel } from '@telc/content'`
 
-Mock exam file naming: `assets/content/A1/mock_01.json` through `mock_10.json`
+Mobile app has thin re-export shims in `apps/mobile/src/{types,utils,services}/` so existing relative imports still resolve.
 
-## Testing
+## Content
 
-```bash
-npx tsc --noEmit          # type check
-npx jest --no-cache --forceExit   # run all tests
-```
-
-Tests live in `__tests__/` mirroring `src/` structure.
-
-## Code Patterns
-
-- **Colors/typography:** import from `src/utils/theme.ts` — never hardcode hex
-- **Database:** always async (`database.execAsync`, `getAllAsync`, `getFirstAsync`)
-- **Animations:** `useAnimatedStyle`, `useSharedValue`, `withSpring`, `withTiming` from reanimated
-- **Navigation:** typed expo-router routes, cast as `any` only with explanatory comment
-- **Content loading:** via `src/services/contentLoader.ts`
-- **Timer:** via `src/services/timerService.ts` (per-section limits per telc spec)
+- **Mock exams:** `apps/mobile/assets/content/{level}/mock_XX.json` — 10 per level
+- **Vocabulary:** `apps/mobile/src/data/vocabulary/{level}_vocabulary.json`
+- **Grammar:** `apps/mobile/src/data/grammar/{level}_grammar.json`
 
 ## Telc Exam Key Facts
 
 - **Pass threshold:** 60% in BOTH written AND oral (applies to all levels)
-- **A1:** 65 min written, 15 min oral. Sections: Hören (20 min, ~24 pts), Lesen (25 min, ~24 pts), Schreiben (20 min, ~12 pts), Sprechen (15 min, ~24 pts)
+- **A1:** 65 min written, 15 min oral
 - **Sprachbausteine:** B1+ only (cloze exercises)
 - **Speaking prep time:** 20 min for B1 and B2, 0 for A1/A2/C1
 - **A1 vocab target:** 650 words (Goethe A1 Wortliste)
 
 ## Priority
 
-**A1 = 80% of initial effort.** Do not build A2+ content until A1 has 5+ complete mocks, 400+ vocabulary words, and end-to-end exam simulation validated.
+**Web app is primary focus.** A1 content is most complete (10 mocks, 650 words).
 
 ## Agent Team
 
 11 agents in `.claude/agents/`. Orchestrated via the `/deep-work` skill.
-
-See `.claude/AGENTS-GUIDE.md` for the full trigger table and team overview.
 
 ## Git
 

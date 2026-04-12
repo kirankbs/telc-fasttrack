@@ -3,7 +3,7 @@ import type {
   ListeningSection,
   ReadingSection,
   SprachbausteineSection,
-} from '../types/exam';
+} from '@telc/types';
 
 export interface SectionScore {
   earned: number;
@@ -18,11 +18,9 @@ export interface ExamScore {
   writing: SectionScore;
   sprachbausteine?: SectionScore;
   speaking: SectionScore;
-  // Aggregate partitions used by telc pass/fail rule
   written: SectionScore;
   oral: SectionScore;
   overall: SectionScore;
-  // Pass requires >= 60% in BOTH written AND oral
   passed: boolean;
 }
 
@@ -46,20 +44,12 @@ function combineScores(...scores: SectionScore[]): SectionScore {
   return makeSectionScore(earned, max);
 }
 
-/**
- * Points per question: use the explicit `points` field when present, otherwise 1 point each.
- * Partial credit is not modelled at this layer — writing tasks are scored separately.
- */
 export interface QuestionResponse {
   questionId: string;
   userAnswer: string;
   correctAnswer: string;
   points?: number;
 }
-
-// ---------------------------------------------------------------------------
-// Section-level helpers
-// ---------------------------------------------------------------------------
 
 export function calculateSectionScore(
   userAnswers: Record<string, string>,
@@ -102,28 +92,15 @@ function scoreSprachbausteine(
   return makeSectionScore(earned, max);
 }
 
-// ---------------------------------------------------------------------------
-// Full exam scoring
-// ---------------------------------------------------------------------------
-
-/**
- * Calculates a complete ExamScore from a flat list of question responses.
- *
- * For writing and speaking, responses are treated as self-assessed quality
- * ratings encoded in `points` (0–max per task). When `points` is present
- * on a response its value is used directly; `correctAnswer` is ignored for
- * those sections since there is no single correct string.
- */
 export function calculateExamScore(
   responses: QuestionResponse[],
   exam: MockExam
 ): ExamScore {
-  // Build lookup: questionId → response
   const responseMap = new Map<string, QuestionResponse>(
     responses.map((r) => [r.questionId, r])
   );
 
-  // --- Listening ---
+  // Listening
   let listeningEarned = 0;
   let listeningMax = 0;
   for (const part of exam.sections.listening.parts) {
@@ -137,7 +114,7 @@ export function calculateExamScore(
   }
   const listening = makeSectionScore(listeningEarned, listeningMax);
 
-  // --- Reading ---
+  // Reading
   let readingEarned = 0;
   let readingMax = 0;
   for (const part of exam.sections.reading.parts) {
@@ -151,7 +128,7 @@ export function calculateExamScore(
   }
   const reading = makeSectionScore(readingEarned, readingMax);
 
-  // --- Writing — uses points field; criteria-based scoring done elsewhere ---
+  // Writing
   let writingEarned = 0;
   let writingMax = 0;
   for (const task of exam.sections.writing.tasks) {
@@ -165,7 +142,7 @@ export function calculateExamScore(
   }
   const writing = makeSectionScore(writingEarned, writingMax);
 
-  // --- Sprachbausteine (B1+) ---
+  // Sprachbausteine (B1+)
   let sprachbausteine: SectionScore | undefined;
   if (exam.sections.sprachbausteine !== undefined) {
     const userAnswers: Record<string, string> = {};
@@ -175,11 +152,10 @@ export function calculateExamScore(
     sprachbausteine = scoreSprachbausteine(userAnswers, exam.sections.sprachbausteine);
   }
 
-  // --- Speaking — points field carries examiner/self rating per part ---
+  // Speaking
   let speakingEarned = 0;
   let speakingMax = 0;
   for (const part of exam.sections.speaking.parts) {
-    // Each part is worth 8 points by convention (3 parts × 8 = 24 total for A1)
     const partMax = 8;
     speakingMax += partMax;
     const partKey = `speaking_part_${part.partNumber}`;
@@ -190,7 +166,7 @@ export function calculateExamScore(
   }
   const speaking = makeSectionScore(speakingEarned, speakingMax);
 
-  // --- Aggregate written / oral partitions ---
+  // Aggregate
   const writtenComponents: SectionScore[] = [listening, reading, writing];
   if (sprachbausteine !== undefined) {
     writtenComponents.push(sprachbausteine);
@@ -198,8 +174,6 @@ export function calculateExamScore(
   const written = combineScores(...writtenComponents);
   const oral = speaking;
   const overall = combineScores(written, oral);
-
-  // telc pass rule: both written AND oral must clear 60%
   const passed = written.passed && oral.passed;
 
   return {
@@ -214,10 +188,6 @@ export function calculateExamScore(
     passed,
   };
 }
-
-// ---------------------------------------------------------------------------
-// Utility helpers
-// ---------------------------------------------------------------------------
 
 export function getReadinessLevel(percentage: number): ReadinessLevel {
   if (percentage >= 0.75) return 'ready';

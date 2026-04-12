@@ -1,7 +1,7 @@
-import type { MockExam } from '../types/exam';
+import type { MockExam } from '@telc/types';
+import { getMockId, validateMockExam } from '@telc/content';
 
 // Static asset map — dynamic require() is not supported by Metro bundler.
-// Add new entries here as mock JSON files are created.
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const MOCK_ASSET_MAP: Record<string, any> = {
   // A1
@@ -61,49 +61,8 @@ const MOCK_ASSET_MAP: Record<string, any> = {
   C1_mock_10: require('../../assets/content/C1/mock_10.json'),
 };
 
-export function getMockId(level: string, mockNumber: number): string {
-  const padded = String(mockNumber).padStart(2, '0');
-  return `${level}_mock_${padded}`;
-}
+export { getMockId };
 
-function validateMockExam(data: unknown, mockId: string): MockExam {
-  if (data === null || typeof data !== 'object') {
-    throw new Error(`Mock exam ${mockId}: JSON root must be an object`);
-  }
-
-  const d = data as Record<string, unknown>;
-
-  if (typeof d.id !== 'string') {
-    throw new Error(`Mock exam ${mockId}: missing or invalid "id" field`);
-  }
-  if (typeof d.level !== 'string') {
-    throw new Error(`Mock exam ${mockId}: missing or invalid "level" field`);
-  }
-  if (typeof d.title !== 'string') {
-    throw new Error(`Mock exam ${mockId}: missing or invalid "title" field`);
-  }
-  if (typeof d.version !== 'number') {
-    throw new Error(`Mock exam ${mockId}: missing or invalid "version" field`);
-  }
-  if (d.sections === null || typeof d.sections !== 'object') {
-    throw new Error(`Mock exam ${mockId}: missing or invalid "sections" object`);
-  }
-
-  const sections = d.sections as Record<string, unknown>;
-
-  for (const required of ['listening', 'reading', 'writing', 'speaking']) {
-    if (sections[required] === null || typeof sections[required] !== 'object') {
-      throw new Error(`Mock exam ${mockId}: missing required section "${required}"`);
-    }
-  }
-
-  return d as unknown as MockExam;
-}
-
-/**
- * Loads a single mock exam from the bundled asset map.
- * mockNumber is 1-indexed (1–10).
- */
 export async function loadMockExam(level: string, mockNumber: number): Promise<MockExam> {
   const mockId = getMockId(level, mockNumber);
 
@@ -119,10 +78,6 @@ export async function loadMockExam(level: string, mockNumber: number): Promise<M
   return validateMockExam(raw, mockId);
 }
 
-/**
- * Returns the list of mock IDs available for a given level.
- * Checks the static asset map rather than probing the filesystem — safe for Metro bundler.
- */
 export async function listAvailableMocks(level: string): Promise<string[]> {
   const available: string[] = [];
 
