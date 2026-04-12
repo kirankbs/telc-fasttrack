@@ -65,29 +65,23 @@ interface AudioCardProps {
 
 function AudioCard({ audioFile, playCount }: AudioCardProps) {
   const [playsRemaining, setPlaysRemaining] = useState(playCount);
-  const [isAvailable] = useState(true);
+  const [audioError, setAudioError] = useState(false);
 
-  // expo-audio hook — source is the asset URI or require()
-  // On stubs/missing files we catch and show a graceful message.
-  let player: ReturnType<typeof useAudioPlayer> | null = null;
-  try {
-    // eslint-disable-next-line react-hooks/rules-of-hooks
-    player = useAudioPlayer(audioFile);
-  } catch {
-    // player stays null — caught below in render
-  }
+  // useAudioPlayer must be called unconditionally — hook rules require it.
+  // Missing/stub audio files are caught when play() is attempted, not on init.
+  const player = useAudioPlayer(audioFile);
 
   const handlePlay = useCallback(() => {
-    if (!player || playsRemaining <= 0) return;
+    if (playsRemaining <= 0) return;
     try {
       player.play();
       setPlaysRemaining((n) => Math.max(0, n - 1));
     } catch {
-      // Audio not available — already shown gracefully
+      setAudioError(true);
     }
   }, [player, playsRemaining]);
 
-  if (!isAvailable || player === null) {
+  if (audioError) {
     return (
       <View style={[styles.audioCard, styles.audioCardUnavailable]}>
         <MaterialCommunityIcons
@@ -307,6 +301,11 @@ export default function ListeningScreen() {
   const { session, setAnswer, completeSection } = useExam();
 
   const [activePartIndex, setActivePartIndex] = useState(0);
+
+  if (!mockId) {
+    router.replace('/(tabs)/exam' as any);
+    return null;
+  }
 
   const exam = session?.exam ?? null;
   const mode = session?.mode ?? 'exam_sim';
