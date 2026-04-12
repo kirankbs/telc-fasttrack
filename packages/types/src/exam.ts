@@ -1,19 +1,15 @@
-// telc exam TypeScript interfaces
-// This file is the canonical definition. All agents reference this.
-// Source: telc-fasttrack-implementation-plan.md section 7
-
 export type Level = 'A1' | 'A2' | 'B1' | 'B2' | 'C1';
 
 export interface MockExam {
-  id: string;                    // "A1_mock_01"
+  id: string;
   level: Level;
-  title: string;                 // "Übungstest 1"
-  version: number;               // content version for updates
+  title: string;
+  version: number;
   sections: {
     listening: ListeningSection;
     reading: ReadingSection;
     writing: WritingSection;
-    sprachbausteine?: SprachbausteineSection; // B1+ only
+    sprachbausteine?: SprachbausteineSection;
     speaking: SpeakingSection;
   };
 }
@@ -29,20 +25,20 @@ export interface ListeningPart {
   partNumber: number;
   instructions: string;
   instructionsTranslation: string;
-  audioFile: string;             // path: assets/audio/{level}/mock{NN}/listening_part{N}.mp3
-  playCount: number;             // 1 or 2 (A1: parts 1+2 twice, part 3 once)
+  audioFile: string;
+  playCount: number;
   questions: ListeningQuestion[];
 }
 
 export interface ListeningQuestion {
-  id: string;                    // "A1_m01_L1_q1"
+  id: string;
   type: 'mcq' | 'true_false' | 'matching';
   questionText: string;
-  questionImage?: string;        // path: assets/images/{level}/mock{NN}/...
-  options?: string[];            // for mcq
-  correctAnswer: string;        // "a" | "b" | "c" | "richtig" | "falsch"
+  questionImage?: string;
+  options?: string[];
+  correctAnswer: string;
   explanation: string;
-  audioTimestamp?: number;       // seconds into audio where answer clue appears
+  audioTimestamp?: number;
 }
 
 // --- READING ---
@@ -90,8 +86,8 @@ export interface WritingTask {
   type: 'form_fill' | 'short_message' | 'letter' | 'essay';
   instructions: string;
   instructionsTranslation: string;
-  formFields?: FormField[];      // for form_fill
-  prompt?: string;               // for short_message/letter/essay
+  formFields?: FormField[];
+  prompt?: string;
   promptTranslation?: string;
   requiredPoints?: string[];
   wordCountMin?: number;
@@ -107,7 +103,7 @@ export interface FormField {
 }
 
 export interface ScoringCriteria {
-  criterion: string;             // "Aufgabenerfüllung"
+  criterion: string;
   maxPoints: number;
   description: string;
 }
@@ -121,14 +117,14 @@ export interface SprachbausteineSection {
 export interface SprachbausteinePart {
   partNumber: number;
   instructions: string;
-  text: string;                  // text with blanks: ___[1]___, ___[2]___
+  text: string;
   questions: SprachbausteineQuestion[];
 }
 
 export interface SprachbausteineQuestion {
   blankNumber: number;
   type: 'mcq' | 'word_bank';
-  options: string[];             // 3 for B1 MCQ, 15 for word bank
+  options: string[];
   correctAnswer: string;
   explanation: string;
 }
@@ -137,18 +133,18 @@ export interface SprachbausteineQuestion {
 
 export interface SpeakingSection {
   totalTimeMinutes: number;
-  prepTimeMinutes: number;       // 0 for A1/A2/C1, 20 for B1/B2
+  prepTimeMinutes: number;
   parts: SpeakingPart[];
 }
 
 export type SpeakingPartType =
-  | 'introduce'      // A1: Sich vorstellen
-  | 'picture_cards'  // A1: Bild und Wortkarte
-  | 'und_du'         // A1: "Und du?" Q&A
-  | 'conversation'   // A2/B1: Alltagsgespräch
-  | 'planning'       // B1/B2: Gemeinsam planen
-  | 'presentation'   // B2/C1: Präsentation
-  | 'discussion';    // B2/C1: Diskussion
+  | 'introduce'
+  | 'picture_cards'
+  | 'und_du'
+  | 'conversation'
+  | 'planning'
+  | 'presentation'
+  | 'discussion';
 
 export interface SpeakingPart {
   partNumber: number;
@@ -170,16 +166,15 @@ export interface VocabularyItem {
   level: Level;
   german: string;
   english: string;
-  article?: string;              // der | die | das
+  article?: string;
   plural?: string;
   exampleSentence?: string;
-  topic: string;                 // Wortgruppenliste category
+  topic: string;
   audioFile?: string;
-  // SM-2 spaced repetition fields
-  easeFactor: number;            // default 2.5
-  intervalDays: number;          // default 0
-  repetitions: number;           // default 0
-  nextReviewDate?: string;       // ISO date string
+  easeFactor: number;
+  intervalDays: number;
+  repetitions: number;
+  nextReviewDate?: string;
   lastReviewedAt?: string;
 }
 
@@ -188,9 +183,9 @@ export interface VocabularyItem {
 export interface GrammarTopic {
   id: number;
   level: Level;
-  topic: string;                 // "Perfekt mit haben"
+  topic: string;
   explanation: string;
-  examples: string[];            // JSON array of example sentences
+  examples: string[];
   exercises?: GrammarExercise[];
   orderIndex: number;
 }

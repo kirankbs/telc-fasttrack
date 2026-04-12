@@ -1,19 +1,8 @@
-// SM-2 spaced repetition algorithm for vocabulary flashcards.
-// Ref: Wozniak, P.A. (1990). "Optimization of learning" — original SM-2 paper.
-//
-// Quality scale:
-//   0 = complete blackout
-//   1 = wrong answer, remembered on seeing correct
-//   2 = wrong answer, but correct felt obvious
-//   3 = correct with significant difficulty
-//   4 = correct after a hesitation
-//   5 = perfect recall
-
 export interface SM2Result {
   easeFactor: number;
   intervalDays: number;
   repetitions: number;
-  nextReviewDate: string; // ISO date string (YYYY-MM-DD)
+  nextReviewDate: string;
 }
 
 const MIN_EASE_FACTOR = 1.3;
@@ -39,7 +28,6 @@ export function calculateNextReview(
     throw new RangeError(`SM-2 quality must be 0–5, got ${quality}`);
   }
 
-  // Update ease factor first (applied regardless of quality)
   const easeAdjustment = 0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02);
   const newEaseFactor = Math.max(MIN_EASE_FACTOR, easeFactor + easeAdjustment);
 
@@ -47,7 +35,6 @@ export function calculateNextReview(
   let newInterval: number;
 
   if (quality < 3) {
-    // Failed recall — restart the schedule
     newRepetitions = 0;
     newInterval = 1;
   } else {
@@ -74,7 +61,6 @@ export function calculateNextReview(
 
 export function isDueToday(nextReviewDate: string | undefined): boolean {
   if (nextReviewDate === undefined || nextReviewDate === null) {
-    // Never reviewed — always due
     return true;
   }
   const today = toISODate(new Date());
@@ -92,8 +78,6 @@ export function getDaysUntilReview(nextReviewDate: string | undefined): number {
   return Math.max(0, Math.ceil(diffMs / (1000 * 60 * 60 * 24)));
 }
 
-// Maps quality values to the four-button labels used in flashcard UIs.
-// Quality 0–1 both map to "Again" since either is a failed recall at the UX level.
 export function getQualityLabel(quality: number): string {
   if (quality <= 1) return 'Again';
   if (quality === 2) return 'Hard';

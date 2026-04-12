@@ -1,10 +1,6 @@
-// Vocabulary DB helpers — seed, review recording, and stats queries.
-// All operations go through getDatabase() to ensure WAL mode and migrations
-// have run before any query executes.
-
 import { getDatabase } from './database';
-import type { VocabularyItem } from '../types/exam';
-import type { SM2Result } from './spacedRepetition';
+import type { VocabularyItem } from '@telc/types';
+import type { SM2Result } from '@telc/core';
 
 export async function seedVocabularyIfEmpty(
   level: string,
@@ -19,7 +15,6 @@ export async function seedVocabularyIfEmpty(
 
   if (row && row.count > 0) return;
 
-  // Batch insert in a transaction — much faster than individual runAsync calls
   await db.withTransactionAsync(async () => {
     for (const item of items) {
       await db.runAsync(

@@ -1,19 +1,15 @@
-// Design tokens for telc-fasttrack
-// PRIMARY SOURCE OF TRUTH for colors and typography.
-// Never use raw hex values anywhere else in the codebase.
-
 export const colors = {
   // Brand
-  primary: '#1a3a5c',          // Deep navy — telc authority
-  primaryLight: '#2a5298',     // Medium blue — interactive elements
-  primarySurface: '#e8f0fe',   // Light blue surface
+  primary: '#1a3a5c',
+  primaryLight: '#2a5298',
+  primarySurface: '#e8f0fe',
 
   // Levels
-  levelA1: '#4caf50',          // Green — beginner
-  levelA2: '#8bc34a',          // Light green
-  levelB1: '#ff9800',          // Orange — intermediate
-  levelB2: '#ff5722',          // Deep orange
-  levelC1: '#9c27b0',          // Purple — advanced
+  levelA1: '#4caf50',
+  levelA2: '#8bc34a',
+  levelB1: '#ff9800',
+  levelB2: '#ff5722',
+  levelC1: '#9c27b0',
 
   // Semantic
   success: '#2e7d32',
@@ -48,9 +44,9 @@ export const colors = {
   textOnSuccess: '#ffffff',
   textOnError: '#ffffff',
 
-  // Timer (neutral — never red to avoid exam anxiety)
+  // Timer
   timerNormal: '#1a3a5c',
-  timerWarning: '#f57c00',     // Under 5 minutes remaining
+  timerWarning: '#f57c00',
 
   // Streaks / gamification
   streakFire: '#ff6d00',
@@ -58,21 +54,18 @@ export const colors = {
   streakBackground: '#fff3e0',
 
   // Score readiness stages
-  readinessBuilding: '#78909c',     // "Building foundation"
-  readinessDeveloping: '#1565c0',   // "Developing skills"
-  readinessAlmost: '#f57c00',       // "Nearly ready"
-  readinessReady: '#2e7d32',        // "Exam ready"
+  readinessBuilding: '#78909c',
+  readinessDeveloping: '#1565c0',
+  readinessAlmost: '#f57c00',
+  readinessReady: '#2e7d32',
 } as const;
 
 export const typography = {
-  // Font families — system fonts for now; replace with custom font if added to assets/fonts
   fontFamily: {
     regular: 'System',
     medium: 'System',
     bold: 'System',
   },
-
-  // Scale
   fontSize: {
     xs: 11,
     sm: 13,
@@ -84,14 +77,12 @@ export const typography = {
     '3xl': 32,
     '4xl': 40,
   },
-
   fontWeight: {
     regular: '400' as const,
     medium: '500' as const,
     semibold: '600' as const,
     bold: '700' as const,
   },
-
   lineHeight: {
     tight: 1.2,
     normal: 1.5,
@@ -145,10 +136,8 @@ export const shadows = {
   },
 } as const;
 
-// Minimum touch target — 44pt per HIG / Material Design
 export const MIN_TOUCH_TARGET = 44;
 
-// Telc exam level display config
 export const LEVEL_CONFIG = {
   A1: {
     color: colors.levelA1,

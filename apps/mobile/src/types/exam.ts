@@ -1,0 +1,28 @@
+// Re-export all types from the shared @telc/types package.
+// Existing relative imports throughout the mobile app resolve here.
+export type {
+  Level,
+  MockExam,
+  ListeningSection,
+  ListeningPart,
+  ListeningQuestion,
+  ReadingSection,
+  ReadingPart,
+  ReadingText,
+  ReadingQuestion,
+  WritingSection,
+  WritingTask,
+  FormField,
+  ScoringCriteria,
+  SprachbausteineSection,
+  SprachbausteinePart,
+  SprachbausteineQuestion,
+  SpeakingSection,
+  SpeakingPart,
+  SpeakingPartType,
+  VocabularyItem,
+  GrammarTopic,
+  GrammarExercise,
+  ExamAttempt,
+  UserProgress,
+} from '@telc/types';
