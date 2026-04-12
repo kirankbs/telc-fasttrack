@@ -2,12 +2,714 @@
   "id": "A1_mock_10",
   "level": "A1",
   "title": "Übungstest 10",
-  "version": 0,
-  "_stub": true,
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören drei kurze Texte. Zu jedem Text gibt es eine Aufgabe. Kreuzen Sie die richtige Antwort an: a, b oder c. Sie hören jeden Text zweimal.",
+          "instructionsTranslation": "You will hear three short texts. There is one task for each text. Mark the correct answer: a, b or c. You will hear each text twice.",
+          "audioFile": "assets/audio/A1/mock10/listening_part1.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A1_m10_L1_q1",
+              "type": "mcq",
+              "questionText": "Was kauft die Frau im Supermarkt?",
+              "questionImage": "assets/images/A1/mock10/L1_q1.png",
+              "options": [
+                "a) Brot und Milch",
+                "b) Äpfel und Käse",
+                "c) Fleisch und Kartoffeln"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Frau sagt im Dialog: 'Ich brauche Äpfel und Käse. Brot haben wir noch.' Sie kauft also Äpfel und Käse.",
+              "audioTimestamp": 18
+            },
+            {
+              "id": "A1_m10_L1_q2",
+              "type": "mcq",
+              "questionText": "Wie viel kostet das Kilo Tomaten?",
+              "questionImage": "assets/images/A1/mock10/L1_q2.png",
+              "options": [
+                "a) 1,20 Euro",
+                "b) 1,99 Euro",
+                "c) 2,50 Euro"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Verkäufer sagt: 'Das Kilo Tomaten kostet heute ein Euro neunundneunzig.' Die richtige Antwort ist 1,99 Euro.",
+              "audioTimestamp": 42
+            },
+            {
+              "id": "A1_m10_L1_q3",
+              "type": "mcq",
+              "questionText": "Wo ist der Wochenmarkt?",
+              "questionImage": "assets/images/A1/mock10/L1_q3.png",
+              "options": [
+                "a) Vor dem Rathaus",
+                "b) Neben dem Bahnhof",
+                "c) Auf dem Marktplatz"
+              ],
+              "correctAnswer": "c",
+              "explanation": "In der Durchsage heißt es: 'Der Wochenmarkt findet jeden Samstag auf dem Marktplatz statt.' Die richtige Antwort ist also auf dem Marktplatz.",
+              "audioTimestamp": 67
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören einen Text. Lesen Sie die Aufgaben 1 bis 5. Kreuzen Sie an: richtig oder falsch. Sie hören den Text zweimal.",
+          "instructionsTranslation": "You will hear a text. Read tasks 1 to 5. Mark: correct or incorrect. You will hear the text twice.",
+          "audioFile": "assets/audio/A1/mock10/listening_part2.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A1_m10_L2_q1",
+              "type": "true_false",
+              "questionText": "Die Wohnung hat zwei Schlafzimmer.",
+              "correctAnswer": "falsch",
+              "explanation": "Die Vermieterin sagt: 'Die Wohnung hat ein Schlafzimmer, ein Wohnzimmer, eine Küche und ein Bad.' Es gibt also nur ein Schlafzimmer.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "A1_m10_L2_q2",
+              "type": "true_false",
+              "questionText": "Die Miete kostet 650 Euro im Monat.",
+              "correctAnswer": "richtig",
+              "explanation": "Die Vermieterin erklärt: 'Die Kaltmiete beträgt sechshundertfünfzig Euro pro Monat.' Das sind 650 Euro — richtig.",
+              "audioTimestamp": 28
+            },
+            {
+              "id": "A1_m10_L2_q3",
+              "type": "true_false",
+              "questionText": "In der Wohnung gibt es eine Einbauküche.",
+              "correctAnswer": "richtig",
+              "explanation": "Die Vermieterin sagt ausdrücklich: 'Die Küche ist eine Einbauküche mit Herd und Kühlschrank.' Das ist richtig.",
+              "audioTimestamp": 41
+            },
+            {
+              "id": "A1_m10_L2_q4",
+              "type": "true_false",
+              "questionText": "Die Wohnung ist im dritten Stock.",
+              "correctAnswer": "falsch",
+              "explanation": "Die Vermieterin sagt: 'Die Wohnung liegt im zweiten Stock.' Sie ist also nicht im dritten, sondern im zweiten Stock.",
+              "audioTimestamp": 55
+            },
+            {
+              "id": "A1_m10_L2_q5",
+              "type": "true_false",
+              "questionText": "Es gibt einen Parkplatz für das Auto.",
+              "correctAnswer": "richtig",
+              "explanation": "Am Ende sagt die Vermieterin: 'Im Hof gibt es einen Parkplatz, den Sie mitbenutzen können.' Das ist richtig.",
+              "audioTimestamp": 70
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören drei Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Kreuzen Sie die richtige Antwort an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear three conversations. There is one task for each conversation. Mark the correct answer: a, b or c. You will hear each text once.",
+          "audioFile": "assets/audio/A1/mock10/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A1_m10_L3_q1",
+              "type": "mcq",
+              "questionText": "Was braucht der Mann für seine neue Wohnung noch?",
+              "options": [
+                "a) Einen Schrank",
+                "b) Ein Bett",
+                "c) Einen Tisch"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Mann sagt seiner Freundin: 'Bett und Tisch habe ich schon, aber ich brauche noch einen Schrank.' Die richtige Antwort ist einen Schrank.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A1_m10_L3_q2",
+              "type": "mcq",
+              "questionText": "Wann ist das Möbelgeschäft geöffnet?",
+              "options": [
+                "a) Von Montag bis Samstag, 9 bis 19 Uhr",
+                "b) Von Montag bis Freitag, 10 bis 18 Uhr",
+                "c) Jeden Tag von 8 bis 20 Uhr"
+              ],
+              "correctAnswer": "a",
+              "explanation": "In der telefonischen Ansage heißt es: 'Unser Geschäft ist Montag bis Samstag von neun bis neunzehn Uhr für Sie geöffnet.' Antwort a ist richtig.",
+              "audioTimestamp": 38
+            },
+            {
+              "id": "A1_m10_L3_q3",
+              "type": "mcq",
+              "questionText": "Warum geht die Frau nicht auf den Markt?",
+              "options": [
+                "a) Der Markt ist geschlossen.",
+                "b) Sie hat kein Geld dabei.",
+                "c) Sie hat keine Zeit."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Frau sagt: 'Ich würde gerne auf den Markt gehen, aber heute habe ich wirklich keine Zeit.' Die richtige Antwort ist c.",
+              "audioTimestamp": 64
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 25,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie die Texte und die Aufgaben 1 bis 5. Kreuzen Sie an: richtig oder falsch.",
+          "instructionsTranslation": "Read the texts and tasks 1 to 5. Mark: correct or incorrect.",
+          "texts": [
+            {
+              "id": "A1_m10_R1_text1",
+              "type": "email",
+              "content": "Betreff: Wohnung gesucht\n\nLiebe Frau Hartmann,\n\nich heiße Jana Müller und suche eine Wohnung in Mainz. Ich bin 28 Jahre alt und arbeite als Lehrerin. Ich brauche eine ruhige Wohnung mit mindestens zwei Zimmern, weil ich auch zu Hause arbeite. Eine Küche und ein Bad sind natürlich wichtig. Ein Balkon wäre schön, aber er ist nicht unbedingt nötig. Meine maximale Miete ist 700 Euro warm. Ich habe keine Haustiere und rauche nicht. Ich bin eine zuverlässige Mieterin.\n\nKönnen Sie mir helfen? Bitte schreiben Sie mir zurück.\n\nMit freundlichen Grüßen\nJana Müller",
+              "source": "Wohnungssuche per E-Mail"
+            },
+            {
+              "id": "A1_m10_R1_text2",
+              "type": "ad",
+              "content": "WOHNUNG ZU VERMIETEN\n\n3-Zimmer-Wohnung in Mainz-Mitte\nWohnfläche: 72 m²\nErdgeschoss\nModerne Einbauküche, Bad mit Dusche\nKein Balkon\nKaltmiete: 620 Euro + 80 Euro Nebenkosten\nHaustiere auf Anfrage\nNichtraucher bevorzugt\n\nKontakt: Hartmann Immobilien, Tel. 06131-445566",
+              "source": "Wohnungsanzeige Mainzer Zeitung"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_m10_R1_q1",
+              "type": "true_false",
+              "questionText": "Jana Müller sucht eine Wohnung in Mainz.",
+              "relatedTextId": "A1_m10_R1_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Im ersten Satz der E-Mail steht: 'ich suche eine Wohnung in Mainz.' Das ist richtig."
+            },
+            {
+              "id": "A1_m10_R1_q2",
+              "type": "true_false",
+              "questionText": "Jana Müller möchte maximal 650 Euro Miete zahlen.",
+              "relatedTextId": "A1_m10_R1_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Im Text steht: 'Meine maximale Miete ist 700 Euro warm.' Sie kann bis zu 700 Euro zahlen, nicht nur 650 Euro."
+            },
+            {
+              "id": "A1_m10_R1_q3",
+              "type": "true_false",
+              "questionText": "Die angebotene Wohnung hat einen Balkon.",
+              "relatedTextId": "A1_m10_R1_text2",
+              "correctAnswer": "falsch",
+              "explanation": "In der Anzeige steht explizit: 'Kein Balkon.' Die Wohnung hat also keinen Balkon."
+            },
+            {
+              "id": "A1_m10_R1_q4",
+              "type": "true_false",
+              "questionText": "Die Gesamtmiete der angebotenen Wohnung beträgt 700 Euro.",
+              "relatedTextId": "A1_m10_R1_text2",
+              "correctAnswer": "richtig",
+              "explanation": "Kaltmiete 620 Euro plus 80 Euro Nebenkosten ergibt zusammen 700 Euro Warmmiete. Das ist richtig."
+            },
+            {
+              "id": "A1_m10_R1_q5",
+              "type": "true_false",
+              "questionText": "Jana Müller hat eine Katze.",
+              "relatedTextId": "A1_m10_R1_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Im Text schreibt Jana: 'Ich habe keine Haustiere und rauche nicht.' Sie hat also keine Katze."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie die Anzeigen a bis h und die Aufgaben 1 bis 5. Welche Anzeige passt zu welcher Aufgabe? Für eine Aufgabe gibt es keine passende Anzeige. Schreiben Sie dann: x.",
+          "instructionsTranslation": "Read the ads a to h and tasks 1 to 5. Which ad matches which task? For one task there is no matching ad. Write then: x.",
+          "texts": [
+            {
+              "id": "A1_m10_R2_ad_a",
+              "type": "ad",
+              "content": "ALDI SÜD — Wochenangebote\nBananen 1 kg: 0,89 €\nYogurt (500 g): 0,49 €\nHähnchen (ganz, 1,5 kg): 3,99 €\nNur gültig Mo–Sa diese Woche!\nALDI SÜD, Berliner Str. 12"
+            },
+            {
+              "id": "A1_m10_R2_ad_b",
+              "type": "ad",
+              "content": "MÖBELHAUS KAISER\nGroßer Sommerschlussverkauf!\nBis zu 40% auf alle Sofas und Sessel\nAuch Betten und Schränke reduziert\nKostenlose Lieferung ab 500 € Einkauf\nGeöffnet: Mo–Sa 9–20 Uhr\nKaiserstr. 88"
+            },
+            {
+              "id": "A1_m10_R2_ad_c",
+              "type": "ad",
+              "content": "WOHNGEMEINSCHAFT GESUCHT\nWir sind 2 Studenten (25, 27) und suchen eine dritte Person für unser WG-Zimmer (14 m²).\nMiete: 380 Euro alles inklusive\nRuhige Lage, Nähe Universität\nKontakt: wg-suche@mail.de"
+            },
+            {
+              "id": "A1_m10_R2_ad_d",
+              "type": "ad",
+              "content": "WOCHENMARKT BORNHEIM\nFrisches Obst und Gemüse direkt vom Bauern\nJeden Dienstag und Freitag 7–13 Uhr\nMarktplatz Bornheim\nAuch Käse, Eier und Honig aus der Region"
+            },
+            {
+              "id": "A1_m10_R2_ad_e",
+              "type": "ad",
+              "content": "SECOND-HAND-MÖBEL\nFlohmarkt & Gebrauchtmöbel\nTisch, Stühle, Regale, Lampen — alles günstig!\nSamstag 8–14 Uhr, Parkplatz Industriestr. 5\nFür Käufer und Verkäufer offen"
+            },
+            {
+              "id": "A1_m10_R2_ad_f",
+              "type": "ad",
+              "content": "1-ZIMMER-WOHNUNG FREI\nZentral gelegen, 35 m², 4. Etage, Aufzug\nBad mit Badewanne, Küchenzeile\nKaltmiete 490 Euro, NK 60 Euro\nFrei ab 1. Juli\nTel. 069-778899"
+            },
+            {
+              "id": "A1_m10_R2_ad_g",
+              "type": "ad",
+              "content": "BIO-SUPERMARKT GRÜNWELT\nNeueröffnung! Diese Woche: 10% auf alles\nBio-Gemüse, Vollkornbrot, Naturkosmetik\nKostenloser Parkplatz\nHauptstr. 33, Mo–Sa 8–20 Uhr"
+            },
+            {
+              "id": "A1_m10_R2_ad_h",
+              "type": "ad",
+              "content": "UMZUGSHELFER GESUCHT\nWir suchen 2 kräftige Helfer für Umzug am Samstag, 15. Juni\nVon 9–15 Uhr, Frankfurt Innenstadt\nBezahlung: 12 Euro pro Stunde + Essen und Trinken\nBitte melden: 0176-12345678"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_m10_R2_q1",
+              "type": "matching",
+              "questionText": "Herr Novak möchte günstig ein gebrauchtes Regal kaufen.",
+              "matchingSources": [
+                {
+                  "id": "A1_m10_R2_ad_a",
+                  "label": "a) ALDI SÜD Wochenangebote"
+                },
+                {
+                  "id": "A1_m10_R2_ad_b",
+                  "label": "b) Möbelhaus Kaiser Schlussverkauf"
+                },
+                {
+                  "id": "A1_m10_R2_ad_c",
+                  "label": "c) WG-Zimmer gesucht"
+                },
+                {
+                  "id": "A1_m10_R2_ad_d",
+                  "label": "d) Wochenmarkt Bornheim"
+                },
+                {
+                  "id": "A1_m10_R2_ad_e",
+                  "label": "e) Second-Hand-Möbel Flohmarkt"
+                },
+                {
+                  "id": "A1_m10_R2_ad_f",
+                  "label": "f) 1-Zimmer-Wohnung frei"
+                },
+                {
+                  "id": "A1_m10_R2_ad_g",
+                  "label": "g) Bio-Supermarkt Grünwelt"
+                },
+                {
+                  "id": "A1_m10_R2_ad_h",
+                  "label": "h) Umzugshelfer gesucht"
+                }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Anzeige e ist der Second-Hand-Möbel Flohmarkt, wo man günstig gebrauchte Möbel und Regale kaufen kann. Das passt zu Herrn Novaks Wunsch."
+            },
+            {
+              "id": "A1_m10_R2_q2",
+              "type": "matching",
+              "questionText": "Frau Becker sucht frisches Gemüse und Eier direkt vom Bauern.",
+              "matchingSources": [
+                {
+                  "id": "A1_m10_R2_ad_a",
+                  "label": "a) ALDI SÜD Wochenangebote"
+                },
+                {
+                  "id": "A1_m10_R2_ad_b",
+                  "label": "b) Möbelhaus Kaiser Schlussverkauf"
+                },
+                {
+                  "id": "A1_m10_R2_ad_c",
+                  "label": "c) WG-Zimmer gesucht"
+                },
+                {
+                  "id": "A1_m10_R2_ad_d",
+                  "label": "d) Wochenmarkt Bornheim"
+                },
+                {
+                  "id": "A1_m10_R2_ad_e",
+                  "label": "e) Second-Hand-Möbel Flohmarkt"
+                },
+                {
+                  "id": "A1_m10_R2_ad_f",
+                  "label": "f) 1-Zimmer-Wohnung frei"
+                },
+                {
+                  "id": "A1_m10_R2_ad_g",
+                  "label": "g) Bio-Supermarkt Grünwelt"
+                },
+                {
+                  "id": "A1_m10_R2_ad_h",
+                  "label": "h) Umzugshelfer gesucht"
+                }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Anzeige d ist der Wochenmarkt Bornheim mit frischem Obst und Gemüse direkt vom Bauern sowie Käse und Eiern aus der Region. Das passt perfekt."
+            },
+            {
+              "id": "A1_m10_R2_q3",
+              "type": "matching",
+              "questionText": "Student Ali sucht ein günstiges Zimmer mit anderen Leuten zusammen.",
+              "matchingSources": [
+                {
+                  "id": "A1_m10_R2_ad_a",
+                  "label": "a) ALDI SÜD Wochenangebote"
+                },
+                {
+                  "id": "A1_m10_R2_ad_b",
+                  "label": "b) Möbelhaus Kaiser Schlussverkauf"
+                },
+                {
+                  "id": "A1_m10_R2_ad_c",
+                  "label": "c) WG-Zimmer gesucht"
+                },
+                {
+                  "id": "A1_m10_R2_ad_d",
+                  "label": "d) Wochenmarkt Bornheim"
+                },
+                {
+                  "id": "A1_m10_R2_ad_e",
+                  "label": "e) Second-Hand-Möbel Flohmarkt"
+                },
+                {
+                  "id": "A1_m10_R2_ad_f",
+                  "label": "f) 1-Zimmer-Wohnung frei"
+                },
+                {
+                  "id": "A1_m10_R2_ad_g",
+                  "label": "g) Bio-Supermarkt Grünwelt"
+                },
+                {
+                  "id": "A1_m10_R2_ad_h",
+                  "label": "h) Umzugshelfer gesucht"
+                }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Anzeige c ist eine Wohngemeinschaft mit freiem WG-Zimmer für 380 Euro inklusive. Das ist ideal für Student Ali, der günstig mit anderen wohnen möchte."
+            },
+            {
+              "id": "A1_m10_R2_q4",
+              "type": "matching",
+              "questionText": "Familie Weber möchte ihr neues Sofa aus dem Möbelhaus liefern lassen.",
+              "matchingSources": [
+                {
+                  "id": "A1_m10_R2_ad_a",
+                  "label": "a) ALDI SÜD Wochenangebote"
+                },
+                {
+                  "id": "A1_m10_R2_ad_b",
+                  "label": "b) Möbelhaus Kaiser Schlussverkauf"
+                },
+                {
+                  "id": "A1_m10_R2_ad_c",
+                  "label": "c) WG-Zimmer gesucht"
+                },
+                {
+                  "id": "A1_m10_R2_ad_d",
+                  "label": "d) Wochenmarkt Bornheim"
+                },
+                {
+                  "id": "A1_m10_R2_ad_e",
+                  "label": "e) Second-Hand-Möbel Flohmarkt"
+                },
+                {
+                  "id": "A1_m10_R2_ad_f",
+                  "label": "f) 1-Zimmer-Wohnung frei"
+                },
+                {
+                  "id": "A1_m10_R2_ad_g",
+                  "label": "g) Bio-Supermarkt Grünwelt"
+                },
+                {
+                  "id": "A1_m10_R2_ad_h",
+                  "label": "h) Umzugshelfer gesucht"
+                }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Anzeige b ist das Möbelhaus Kaiser mit Sofas und Sesseln im Angebot sowie kostenloser Lieferung ab 500 Euro Einkauf. Das passt zu Familie Weber."
+            },
+            {
+              "id": "A1_m10_R2_q5",
+              "type": "matching",
+              "questionText": "Herr Lange möchte seine alte Wohnung verkaufen.",
+              "matchingSources": [
+                {
+                  "id": "A1_m10_R2_ad_a",
+                  "label": "a) ALDI SÜD Wochenangebote"
+                },
+                {
+                  "id": "A1_m10_R2_ad_b",
+                  "label": "b) Möbelhaus Kaiser Schlussverkauf"
+                },
+                {
+                  "id": "A1_m10_R2_ad_c",
+                  "label": "c) WG-Zimmer gesucht"
+                },
+                {
+                  "id": "A1_m10_R2_ad_d",
+                  "label": "d) Wochenmarkt Bornheim"
+                },
+                {
+                  "id": "A1_m10_R2_ad_e",
+                  "label": "e) Second-Hand-Möbel Flohmarkt"
+                },
+                {
+                  "id": "A1_m10_R2_ad_f",
+                  "label": "f) 1-Zimmer-Wohnung frei"
+                },
+                {
+                  "id": "A1_m10_R2_ad_g",
+                  "label": "g) Bio-Supermarkt Grünwelt"
+                },
+                {
+                  "id": "A1_m10_R2_ad_h",
+                  "label": "h) Umzugshelfer gesucht"
+                }
+              ],
+              "correctAnswer": "x",
+              "explanation": "Keine der Anzeigen handelt vom Verkauf einer Wohnung. Es gibt Mietangebote und WG-Zimmer, aber kein Angebot für den Wohnungsverkauf."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die Texte 1 bis 5. Sind die Sätze richtig oder falsch? Kreuzen Sie an.",
+          "instructionsTranslation": "Read texts 1 to 5. Are the sentences correct or incorrect? Mark the correct answer.",
+          "texts": [
+            {
+              "id": "A1_m10_R3_text1",
+              "type": "notice",
+              "content": "SUPERMARKT FRISCH & GUT\nAb sofort: Selbst-Scan-Kassen!\nScannen Sie Ihre Einkäufe selbst und zahlen Sie schnell und einfach.\nNur mit Kundenkarte möglich.\nWeitere Informationen an der Servicetheke."
+            },
+            {
+              "id": "A1_m10_R3_text2",
+              "type": "notice",
+              "content": "Liebe Mieter,\nbitte beachten Sie: Fahrräder dürfen nicht im Treppenhaus abgestellt werden. Nutzen Sie bitte den Fahrradkeller im Erdgeschoss. Schlüssel erhalten Sie bei Frau Sommer, Wohnung 1.\nDie Hausverwaltung"
+            },
+            {
+              "id": "A1_m10_R3_text3",
+              "type": "notice",
+              "content": "ACHTUNG!\nDieser Aufzug ist von Montag, 10. Juni bis Freitag, 14. Juni wegen Wartungsarbeiten außer Betrieb.\nWir bitten um Entschuldigung.\nDie Hausverwaltung"
+            },
+            {
+              "id": "A1_m10_R3_text4",
+              "type": "notice",
+              "content": "WOCHENMARKT — SONDERANGEBOT\nErdbeeren aus der Region: 2 kg für nur 3,50 Euro!\nNur solange der Vorrat reicht.\nJeden Samstag von 7 bis 13 Uhr auf dem Marktplatz."
+            },
+            {
+              "id": "A1_m10_R3_text5",
+              "type": "notice",
+              "content": "Möbelhaus Kaiser informiert:\nUnser Showroom ist ab sofort auch sonntags geöffnet!\nSonntag 12–18 Uhr — nur Besichtigung, kein Verkauf.\nShopping-Erlebnis für die ganze Familie."
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_m10_R3_q1",
+              "type": "true_false",
+              "questionText": "Man kann im Supermarkt ohne Kundenkarte selbst scannen.",
+              "relatedTextId": "A1_m10_R3_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Im Schild steht: 'Nur mit Kundenkarte möglich.' Man braucht also eine Kundenkarte — ohne Kundenkarte geht es nicht."
+            },
+            {
+              "id": "A1_m10_R3_q2",
+              "type": "true_false",
+              "questionText": "Mieter können ihre Fahrräder im Treppenhaus lassen.",
+              "relatedTextId": "A1_m10_R3_text2",
+              "correctAnswer": "falsch",
+              "explanation": "Der Aushang sagt klar: 'Fahrräder dürfen nicht im Treppenhaus abgestellt werden.' Es ist verboten."
+            },
+            {
+              "id": "A1_m10_R3_q3",
+              "type": "true_false",
+              "questionText": "Der Aufzug funktioniert am Mittwoch, 12. Juni nicht.",
+              "relatedTextId": "A1_m10_R3_text3",
+              "correctAnswer": "richtig",
+              "explanation": "Der Aufzug ist von Montag 10. bis Freitag 14. Juni außer Betrieb. Der Mittwoch, 12. Juni liegt in diesem Zeitraum — das ist richtig."
+            },
+            {
+              "id": "A1_m10_R3_q4",
+              "type": "true_false",
+              "questionText": "Man kann die Erdbeeren nur am Samstag kaufen.",
+              "relatedTextId": "A1_m10_R3_text4",
+              "correctAnswer": "richtig",
+              "explanation": "Im Schild steht: 'Jeden Samstag von 7 bis 13 Uhr auf dem Marktplatz.' Der Markt ist nur samstags — das ist richtig."
+            },
+            {
+              "id": "A1_m10_R3_q5",
+              "type": "true_false",
+              "questionText": "Man kann sonntags im Möbelhaus Kaiser Möbel kaufen.",
+              "relatedTextId": "A1_m10_R3_text5",
+              "correctAnswer": "falsch",
+              "explanation": "Der Hinweis sagt: 'nur Besichtigung, kein Verkauf.' Am Sonntag kann man sich Möbel anschauen, aber nicht kaufen."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 20,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "form_fill",
+          "instructions": "Frau Katja Brandt möchte eine Wohnung besichtigen. Füllen Sie das Formular für die Besichtigungsanmeldung aus. Schreiben Sie die Informationen aus dem Steckbrief in das Formular.",
+          "instructionsTranslation": "Mrs Katja Brandt would like to view an apartment. Fill in the viewing registration form. Write the information from the profile into the form.",
+          "formFields": [
+            {
+              "label": "Name",
+              "correctAnswer": "Katja Brandt",
+              "hint": "Vor- und Nachname der Interessentin"
+            },
+            {
+              "label": "Telefonnummer",
+              "correctAnswer": "0163 4455667",
+              "hint": "Handynummer für die Terminbestätigung"
+            },
+            {
+              "label": "Gewünschte Zimmerzahl",
+              "correctAnswer": "2 Zimmer",
+              "hint": "Wie viele Zimmer braucht Frau Brandt?"
+            },
+            {
+              "label": "Maximale Monatsmiete (warm)",
+              "correctAnswer": "750 Euro",
+              "hint": "Die Warmmiete inklusive Nebenkosten"
+            },
+            {
+              "label": "Einzugsdatum (gewünscht)",
+              "correctAnswer": "1. August",
+              "hint": "Ab wann möchte Frau Brandt einziehen?"
+            }
+          ],
+          "sampleAnswer": "Name: Katja Brandt\nTelefonnummer: 0163 4455667\nGewünschte Zimmerzahl: 2 Zimmer\nMaximale Monatsmiete (warm): 750 Euro\nEinzugsdatum (gewünscht): 1. August",
+          "scoringCriteria": [
+            {
+              "criterion": "Vollständigkeit",
+              "maxPoints": 5,
+              "description": "Alle fünf Felder sind ausgefüllt. Für jede korrekte Angabe gibt es einen Punkt."
+            },
+            {
+              "criterion": "Korrektheit",
+              "maxPoints": 5,
+              "description": "Die Angaben sind korrekt aus dem Steckbrief übertragen, gut lesbar und ohne sinnverfälschende Fehler."
+            }
+          ]
+        },
+        {
+          "taskNumber": 2,
+          "type": "short_message",
+          "instructions": "Sie möchten Ihren Freund / Ihre Freundin fragen, ob er/sie mit Ihnen zusammen einkaufen geht. Schreiben Sie eine Nachricht (30–40 Wörter). Schreiben Sie zu allen drei Punkten.",
+          "instructionsTranslation": "You would like to ask your friend if he/she will go shopping with you. Write a message (30–40 words). Write about all three points.",
+          "prompt": "- Wann und wo möchten Sie einkaufen?\n- Was brauchen Sie für Ihre neue Wohnung?\n- Warum soll Ihr Freund / Ihre Freundin mitkommen?",
+          "promptTranslation": "- When and where do you want to go shopping?\n- What do you need for your new apartment?\n- Why should your friend come along?",
+          "requiredPoints": [
+            "Wann und wo möchten Sie einkaufen?",
+            "Was brauchen Sie für Ihre neue Wohnung?",
+            "Warum soll Ihr Freund / Ihre Freundin mitkommen?"
+          ],
+          "wordCountMin": 30,
+          "wordCountMax": 40,
+          "sampleAnswer": "Hallo Lena!\n\nIch gehe am Samstag um 10 Uhr ins Möbelhaus Kaiser. Ich brauche noch einen Schrank und eine Lampe für meine neue Wohnung. Komm doch mit! Du hast so einen guten Geschmack.\n\nBis dann, Anna",
+          "scoringCriteria": [
+            {
+              "criterion": "Aufgabenerfüllung",
+              "maxPoints": 4,
+              "description": "Alle drei geforderten Punkte sind angesprochen. Die Nachricht ist klar und verständlich. Für jeden vollständig behandelten Punkt gibt es einen Punkt, plus einen für die Gesamtstimmigkeit."
+            },
+            {
+              "criterion": "Kommunikative Gestaltung",
+              "maxPoints": 4,
+              "description": "Die Nachricht hat eine passende Anrede und einen Abschluss. Der Text ist flüssig lesbar und der Ton ist freundlich und natürlich."
+            },
+            {
+              "criterion": "Formale Richtigkeit",
+              "maxPoints": 4,
+              "description": "Grammatik, Rechtschreibung und Zeichensetzung sind weitgehend korrekt. Einzelne kleine Fehler sind akzeptabel, wenn die Verständlichkeit nicht leidet."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 0,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "introduce",
+          "instructions": "Stellen Sie sich vor! Sprechen Sie über sich: Name, Herkunft, Wohnort, Beruf, Familie und Hobbys.",
+          "instructionsTranslation": "Introduce yourself! Talk about yourself: name, origin, place of residence, job, family, and hobbies.",
+          "prompt": "Sagen Sie Ihren Namen. Woher kommen Sie? Wo wohnen Sie jetzt? Was machen Sie beruflich? Wie ist Ihre Familie? Was sind Ihre Hobbys?",
+          "sampleResponse": "Hallo, mein Name ist Petra Nowak. Ich komme aus Polen, aus Krakau. Jetzt wohne ich in Frankfurt, in einer kleinen Wohnung im Stadtzentrum. Ich arbeite als Verkäuferin in einem Supermarkt. Ich bin verheiratet und habe einen Sohn, er heißt Marek und ist fünf Jahre alt. In meiner Freizeit gehe ich gern auf den Wochenmarkt und koche für meine Familie.",
+          "sampleAudioFile": "assets/audio/A1/mock10/speaking_part1_sample.mp3",
+          "evaluationTips": [
+            "Sprechen Sie laut und deutlich — der Prüfer muss Sie gut verstehen.",
+            "Benutzen Sie einfache, vollständige Sätze im Präsens.",
+            "Nennen Sie konkrete Details (echte Stadtnamen, Berufsbezeichnungen), nicht nur allgemeine Angaben.",
+            "Wenn Sie ein Wort nicht wissen, beschreiben Sie es auf Deutsch — Pausen vermeiden."
+          ],
+          "keyPhrases": [
+            "Mein Name ist ...",
+            "Ich komme aus ...",
+            "Ich wohne in ... / in einer Wohnung in ...",
+            "Ich arbeite als ...",
+            "Ich bin verheiratet / ledig / geschieden.",
+            "Mein Hobby ist ... / In meiner Freizeit ..."
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "picture_cards",
+          "instructions": "Sie bekommen drei Karten mit Bildern. Sagen Sie, was Sie auf den Bildern sehen. Was ist das? Wo benutzt man das?",
+          "instructionsTranslation": "You receive three cards with pictures. Say what you see in the pictures. What is it? Where do you use it?",
+          "prompt": "Schauen Sie sich die Bilder an. Sagen Sie für jedes Bild: Was ist das? Welche Farbe hat es? Wo findet man das — in der Wohnung oder im Geschäft? Was macht man damit?",
+          "promptImage": "assets/images/A1/mock10/speaking_part2_cards.png",
+          "sampleResponse": "Das erste Bild zeigt einen Stuhl. Er ist braun. Einen Stuhl benutzt man zu Hause, zum Beispiel am Esstisch. Man sitzt darauf. Das zweite Bild zeigt einen Kühlschrank. Er ist weiß und groß. Den Kühlschrank hat man in der Küche. Man lagert dort Lebensmittel, zum Beispiel Milch und Käse. Das dritte Bild zeigt eine Einkaufstasche. Sie ist rot und aus Stoff. Die Einkaufstasche nimmt man mit in den Supermarkt oder auf den Markt. Man trägt darin seine Einkäufe.",
+          "sampleAudioFile": "assets/audio/A1/mock10/speaking_part2_sample.mp3",
+          "evaluationTips": [
+            "Benennen Sie das Objekt zuerst klar: 'Das ist ein/eine ...'",
+            "Beschreiben Sie Farbe, Größe oder Material, wenn Sie die Wörter kennen.",
+            "Erklären Sie die Funktion in einem einfachen Satz: 'Man ... damit.'",
+            "Sprechen Sie alle drei Karten an — nicht nur eine oder zwei."
+          ],
+          "keyPhrases": [
+            "Das ist ein/eine ...",
+            "Er/Sie/Es ist ... (Farbe/Größe).",
+            "Man benutzt das in der Küche / im Wohnzimmer / im Supermarkt.",
+            "Man sitzt / legt / trägt ... damit.",
+            "Das findet man in der Wohnung / im Geschäft.",
+            "Das braucht man zum Einkaufen / zum Kochen / zum Schlafen."
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "und_du",
+          "instructions": "Sprechen Sie mit Ihrem Partner / Ihrer Partnerin. Sie bekommen drei Karten mit Themen. Fragen Sie und antworten Sie.",
+          "instructionsTranslation": "Talk with your partner. You receive three cards with topics. Ask questions and answer them.",
+          "prompt": "Thema 1: Wohnen — Wo wohnen Sie? Wie ist Ihre Wohnung?\nThema 2: Einkaufen — Wo kaufen Sie ein? Was kaufen Sie oft?\nThema 3: Lieblingsessen — Was essen Sie gern? Können Sie kochen?",
+          "sampleResponse": "Prüfer: Wo wohnen Sie?\nKandidat: Ich wohne in München, in einer Zweizimmerwohnung. Die Wohnung ist nicht groß, aber ich finde sie schön.\nPrüfer: Und du? Wo kaufst du ein?\nKandidat: Ich kaufe meistens im Supermarkt ein, aber am Wochenende gehe ich gern auf den Markt. Dort kaufe ich frisches Obst und Gemüse.\nPrüfer: Was ist dein Lieblingsessen?\nKandidat: Mein Lieblingsessen ist Pasta mit Tomatensauce. Das kann ich auch selbst kochen — es ist nicht schwer!",
+          "sampleAudioFile": "assets/audio/A1/mock10/speaking_part3_sample.mp3",
+          "evaluationTips": [
+            "Hören Sie genau zu und antworten Sie auf die Frage — nicht auf ein anderes Thema.",
+            "Geben Sie mehr als ein Wort: Benutzen Sie ganze Sätze und fügen Sie Details hinzu.",
+            "Stellen Sie auch Ihrem Partner eine Frage — der Dialog soll in beide Richtungen gehen.",
+            "Ruhig bleiben bei unbekannten Wörtern — beschreiben Sie auf Deutsch oder fragen Sie nach."
+          ],
+          "keyPhrases": [
+            "Ich wohne in ... / in einer Wohnung mit ... Zimmern.",
+            "Meine Wohnung ist groß / klein / hell / ruhig.",
+            "Ich kaufe ein im Supermarkt / auf dem Markt / im Bioladen.",
+            "Ich kaufe oft / manchmal / selten ...",
+            "Mein Lieblingsessen ist ...",
+            "Ich kann ... kochen / Ich koche gern ..."
+          ]
+        }
+      ]
+    }
   }
 }

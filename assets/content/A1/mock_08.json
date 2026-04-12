@@ -2,12 +2,719 @@
   "id": "A1_mock_08",
   "level": "A1",
   "title": "Übungstest 8",
-  "version": 0,
-  "_stub": true,
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören drei kurze Texte. Zu jedem Text gibt es eine Aufgabe. Kreuzen Sie die richtige Antwort an: a, b oder c. Sie hören jeden Text zweimal.",
+          "instructionsTranslation": "You will hear three short texts. There is one task for each text. Mark the correct answer: a, b or c. You will hear each text twice.",
+          "audioFile": "assets/audio/A1/mock08/listening_part1.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A1_m08_L1_q1",
+              "type": "mcq",
+              "questionText": "Was hat die Frau?",
+              "questionImage": "assets/images/A1/mock08/L1_q1.png",
+              "options": [
+                "a) Kopfschmerzen",
+                "b) Bauchschmerzen",
+                "c) Halsschmerzen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Frau sagt: 'Ich habe seit gestern Bauchschmerzen und kann nichts essen.' Kopfschmerzen und Halsschmerzen werden nicht erwähnt.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A1_m08_L1_q2",
+              "type": "mcq",
+              "questionText": "Wann hat die Arztpraxis geöffnet?",
+              "questionImage": "assets/images/A1/mock08/L1_q2.png",
+              "options": [
+                "a) Montag bis Freitag, 8 bis 18 Uhr",
+                "b) Montag bis Freitag, 8 bis 12 Uhr und 14 bis 17 Uhr",
+                "c) Montag bis Samstag, 9 bis 12 Uhr"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Ansage sagt: 'Unsere Sprechzeiten sind Montag bis Freitag von 8 bis 12 Uhr und von 14 bis 17 Uhr.' Samstag und Abendstunden sind falsch.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "A1_m08_L1_q3",
+              "type": "mcq",
+              "questionText": "Was kauft der Mann in der Apotheke?",
+              "questionImage": "assets/images/A1/mock08/L1_q3.png",
+              "options": [
+                "a) Ein Pflaster und eine Creme",
+                "b) Tabletten gegen Fieber",
+                "c) Hustensaft und Nasentropfen"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Apotheker sagt: 'Hier sind Ihr Hustensaft und die Nasentropfen.' Tabletten werden nicht gekauft, und ein Pflaster wird nicht erwähnt.",
+              "audioTimestamp": 15
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören einen Text. Zu dem Text gibt es fünf Aufgaben. Kreuzen Sie an: richtig oder falsch. Sie hören den Text zweimal.",
+          "instructionsTranslation": "You will hear one text. There are five tasks for the text. Mark: correct or incorrect. You will hear the text twice.",
+          "audioFile": "assets/audio/A1/mock08/listening_part2.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A1_m08_L2_q1",
+              "type": "true_false",
+              "questionText": "Der Arzt hat am Donnerstag keine Sprechstunde.",
+              "correctAnswer": "richtig",
+              "explanation": "Die Rezeptionistin sagt: 'Donnerstag ist Herr Dr. Meier nicht da. Er hat nur montags, dienstags, mittwochs und freitags Sprechstunde.'",
+              "audioTimestamp": 18
+            },
+            {
+              "id": "A1_m08_L2_q2",
+              "type": "true_false",
+              "questionText": "Frau Hoffmann hat einen Termin um 10:30 Uhr.",
+              "correctAnswer": "falsch",
+              "explanation": "Frau Hoffmann bekommt einen Termin um 14:00 Uhr, nicht um 10:30 Uhr. Die Rezeptionistin sagt: 'Ich habe noch etwas frei um 14 Uhr.'",
+              "audioTimestamp": 32
+            },
+            {
+              "id": "A1_m08_L2_q3",
+              "type": "true_false",
+              "questionText": "Frau Hoffmann soll ihre Krankenkassenkarte mitbringen.",
+              "correctAnswer": "richtig",
+              "explanation": "Die Rezeptionistin sagt am Ende: 'Bringen Sie bitte Ihre Krankenkassenkarte mit.' Das ist eine Standard-Anforderung beim Arztbesuch.",
+              "audioTimestamp": 48
+            },
+            {
+              "id": "A1_m08_L2_q4",
+              "type": "true_false",
+              "questionText": "Frau Hoffmann hat seit drei Tagen Fieber.",
+              "correctAnswer": "falsch",
+              "explanation": "Frau Hoffmann sagt: 'Ich habe seit gestern Abend Fieber' — das ist seit einem Tag, nicht seit drei Tagen.",
+              "audioTimestamp": 22
+            },
+            {
+              "id": "A1_m08_L2_q5",
+              "type": "true_false",
+              "questionText": "Die Arztpraxis ist in der Berliner Straße.",
+              "correctAnswer": "richtig",
+              "explanation": "Die Rezeptionistin bestätigt die Adresse: 'Wir sind in der Berliner Straße 12, zweites Obergeschoss.' Das stimmt überein.",
+              "audioTimestamp": 55
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören drei Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Kreuzen Sie die richtige Antwort an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear three conversations. There is one task for each conversation. Mark the correct answer: a, b or c. You will hear each text once.",
+          "audioFile": "assets/audio/A1/mock08/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A1_m08_L3_q1",
+              "type": "mcq",
+              "questionText": "Was soll Tobias essen?",
+              "options": [
+                "a) Viel Obst und Gemüse",
+                "b) Nur Suppe und Brot",
+                "c) Nichts, er soll fasten"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Arzt empfiehlt: 'Essen Sie viel Obst und Gemüse, trinken Sie viel Wasser, und vermeiden Sie Fett.' Fasten und nur Suppe werden nicht gesagt.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A1_m08_L3_q2",
+              "type": "mcq",
+              "questionText": "Was macht die Frau mit den Tabletten?",
+              "options": [
+                "a) Sie nimmt zwei Tabletten dreimal täglich.",
+                "b) Sie nimmt eine Tablette morgens und eine abends.",
+                "c) Sie nimmt drei Tabletten einmal täglich."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Apotheker erklärt: 'Nehmen Sie morgens eine Tablette und abends eine Tablette — also insgesamt zweimal täglich eine Tablette.'",
+              "audioTimestamp": 22
+            },
+            {
+              "id": "A1_m08_L3_q3",
+              "type": "mcq",
+              "questionText": "Wohin geht Lena nach der Arbeit?",
+              "options": [
+                "a) Zum Fitnessstudio",
+                "b) Zur Apotheke",
+                "c) Nach Hause zum Schlafen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Lena sagt: 'Ich muss noch schnell zur Apotheke — das Rezept vom Arzt.' Sie geht nicht ins Fitnessstudio oder direkt nach Hause.",
+              "audioTimestamp": 15
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 25,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie die zwei Texte. Zu jedem Text gibt es Aussagen. Kreuzen Sie an: richtig oder falsch.",
+          "instructionsTranslation": "Read the two texts. There are statements about each text. Cross: correct or incorrect.",
+          "texts": [
+            {
+              "id": "A1_m08_R1_text1",
+              "type": "email",
+              "content": "Betreff: Ihr Termin bei Dr. Schäfer\n\nSehr geehrte Frau Bauer,\n\nIch bestätige Ihren Termin bei Dr. Schäfer am Dienstag, den 15. März, um 9:30 Uhr. Bitte bringen Sie Ihre Krankenkassenkarte und alle Medikamente mit, die Sie regelmäßig nehmen. Die Praxis ist in der Gartenstraße 7, Erdgeschoss. Bitte kommen Sie fünf Minuten früher.\n\nBei Fragen rufen Sie uns an: 0421 / 88 55 33.\n\nMit freundlichen Grüßen\nDas Team der Praxis Dr. Schäfer",
+              "source": "E-Mail einer Arztpraxis"
+            },
+            {
+              "id": "A1_m08_R1_text2",
+              "type": "notice",
+              "content": "GESUNDHEITS-TIPP DES MONATS\n\nTrinken Sie jeden Tag mindestens 1,5 Liter Wasser!\n\nWasser ist sehr wichtig für den Körper. Es hilft bei Kopfschmerzen und macht die Haut schön. Viele Menschen trinken zu wenig. Kaffee und Alkohol zählen nicht — trinken Sie lieber Wasser, Tee oder Saft.\n\nIhr Apothekenteam der Stadt-Apotheke, Marktplatz 3",
+              "source": "Aushang einer Apotheke"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_m08_R1_q1",
+              "type": "true_false",
+              "questionText": "Der Termin bei Dr. Schäfer ist um 9:30 Uhr.",
+              "relatedTextId": "A1_m08_R1_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Die E-Mail sagt direkt: '…am Dienstag, den 15. März, um 9:30 Uhr.' Die Uhrzeit ist eindeutig angegeben."
+            },
+            {
+              "id": "A1_m08_R1_q2",
+              "type": "true_false",
+              "questionText": "Die Praxis ist im zweiten Obergeschoss.",
+              "relatedTextId": "A1_m08_R1_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Die E-Mail sagt: '…Erdgeschoss.' Zweites Obergeschoss ist falsch — die Praxis liegt im Erdgeschoss."
+            },
+            {
+              "id": "A1_m08_R1_q3",
+              "type": "true_false",
+              "questionText": "Frau Bauer soll ihre Medikamente mitbringen.",
+              "relatedTextId": "A1_m08_R1_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Die E-Mail sagt: 'Bitte bringen Sie … alle Medikamente mit, die Sie regelmäßig nehmen.' Das stimmt."
+            },
+            {
+              "id": "A1_m08_R1_q4",
+              "type": "true_false",
+              "questionText": "Man soll täglich mindestens zwei Liter Wasser trinken.",
+              "relatedTextId": "A1_m08_R1_text2",
+              "correctAnswer": "falsch",
+              "explanation": "Der Text empfiehlt 'mindestens 1,5 Liter', nicht zwei Liter. Die Zahl ist im Text klar angegeben."
+            },
+            {
+              "id": "A1_m08_R1_q5",
+              "type": "true_false",
+              "questionText": "Kaffee zählt nicht als Wasser für den täglichen Bedarf.",
+              "relatedTextId": "A1_m08_R1_text2",
+              "correctAnswer": "richtig",
+              "explanation": "Der Text sagt ausdrücklich: 'Kaffee und Alkohol zählen nicht.' Man soll lieber Wasser, Tee oder Saft trinken."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie die Anzeigen a bis h. Welche Anzeige passt zu welcher Situation? Für eine Situation gibt es keine passende Anzeige. Schreiben Sie dann den Buchstaben x.",
+          "instructionsTranslation": "Read advertisements a to h. Which advertisement matches which situation? For one situation there is no matching advertisement. Write the letter x.",
+          "texts": [
+            {
+              "id": "A1_m08_R2_ad_a",
+              "type": "ad",
+              "content": "STADTAPOTHEKE\nMarktplatz 3 · Tel. 0421 / 55 44 33\nGeöffnet: Mo–Fr 8–19 Uhr, Sa 9–13 Uhr\nWir beraten Sie gerne zu Medikamenten, Vitaminen und Nahrungsergänzungsmitteln.\nKostenlose Blutdruckmessung jeden Dienstag!"
+            },
+            {
+              "id": "A1_m08_R2_ad_b",
+              "type": "ad",
+              "content": "DR. MED. PETRA LANGE\nAllgemeinmedizin & Vorsorge\nNeupatientensprechstunde: Montag 10–12 Uhr\nTermine: 0421 / 33 22 11\nGartenstraße 14 · Wir sprechen auch Englisch und Türkisch."
+            },
+            {
+              "id": "A1_m08_R2_ad_c",
+              "type": "ad",
+              "content": "FIT & GESUND SPORTKURS\nBewegung für Rücken und Gelenke\nDienstags und Donnerstags 18:30 Uhr\nStadthalle Raum 5 · Kursgebühr: 8 € pro Einheit\nAnmeldung: sportverein-city.de"
+            },
+            {
+              "id": "A1_m08_R2_ad_d",
+              "type": "ad",
+              "content": "ERNÄHRUNGSBERATUNG\nSie möchten gesünder essen und abnehmen?\nIndividuelle Beratung mit Ernährungsplan\nDipl.-Ernährungswissenschaftlerin Maria Vogt\nTermine: 0176 / 44 55 66 · vogt-ernaehrung.de"
+            },
+            {
+              "id": "A1_m08_R2_ad_e",
+              "type": "ad",
+              "content": "KINDERARZTPRAXIS DR. BAUER\nPädiatrie & Vorsorgeuntersuchungen\nMontag–Freitag 8–12 Uhr\nNachmittag nach Vereinbarung\nRosenweg 9 · Tel. 0421 / 77 88 99"
+            },
+            {
+              "id": "A1_m08_R2_ad_f",
+              "type": "ad",
+              "content": "MASSAGE & WELLNESS\nKlassische Massage, Rückenmassage, Aromatherapie\nTermin nach Vereinbarung\nPreise ab 35 € / 45 Minuten\nWohlfühlzentrum Mitte, Hauptstraße 22 · Tel. 0421 / 11 22 33"
+            },
+            {
+              "id": "A1_m08_R2_ad_g",
+              "type": "ad",
+              "content": "ZAHNARZTPRAXIS DR. KLEIN\nZahnreinigung, Füllungen, Zahnspangen\nMo, Mi, Fr: 8–17 Uhr · Di, Do: 10–19 Uhr\nNachsorge und Schmerzbehandlung möglich\nBahnhofstraße 5 · 0421 / 66 77 88"
+            },
+            {
+              "id": "A1_m08_R2_ad_h",
+              "type": "ad",
+              "content": "ERSTE-HILFE-KURS\nFür Führerscheinbewerber und Interessierte\nJeden Samstag 9–13 Uhr\nDRK-Zentrum, Schillerstraße 3\nAnmeldung: 0421 / 99 00 11 · Kurs: 35 €"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_m08_R2_q1",
+              "type": "matching",
+              "questionText": "Mia ist sieben Jahre alt und hat Ohrenschmerzen. Ihre Mutter sucht einen Arzt für Kinder.",
+              "matchingSources": [
+                {
+                  "id": "A1_m08_R2_ad_a",
+                  "label": "a"
+                },
+                {
+                  "id": "A1_m08_R2_ad_b",
+                  "label": "b"
+                },
+                {
+                  "id": "A1_m08_R2_ad_c",
+                  "label": "c"
+                },
+                {
+                  "id": "A1_m08_R2_ad_d",
+                  "label": "d"
+                },
+                {
+                  "id": "A1_m08_R2_ad_e",
+                  "label": "e"
+                },
+                {
+                  "id": "A1_m08_R2_ad_f",
+                  "label": "f"
+                },
+                {
+                  "id": "A1_m08_R2_ad_g",
+                  "label": "g"
+                },
+                {
+                  "id": "A1_m08_R2_ad_h",
+                  "label": "h"
+                }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Anzeige e ist die 'Kinderarztpraxis Dr. Bauer' — speziell für Kinder (Pädiatrie). Mia braucht einen Kinderarzt, keinen Allgemeinmediziner oder Zahnarzt."
+            },
+            {
+              "id": "A1_m08_R2_q2",
+              "type": "matching",
+              "questionText": "Karl hat starke Rückenschmerzen und möchte Sport machen, um fit zu bleiben.",
+              "matchingSources": [
+                {
+                  "id": "A1_m08_R2_ad_a",
+                  "label": "a"
+                },
+                {
+                  "id": "A1_m08_R2_ad_b",
+                  "label": "b"
+                },
+                {
+                  "id": "A1_m08_R2_ad_c",
+                  "label": "c"
+                },
+                {
+                  "id": "A1_m08_R2_ad_d",
+                  "label": "d"
+                },
+                {
+                  "id": "A1_m08_R2_ad_e",
+                  "label": "e"
+                },
+                {
+                  "id": "A1_m08_R2_ad_f",
+                  "label": "f"
+                },
+                {
+                  "id": "A1_m08_R2_ad_g",
+                  "label": "g"
+                },
+                {
+                  "id": "A1_m08_R2_ad_h",
+                  "label": "h"
+                }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Anzeige c bietet einen 'Sportkurs' speziell für 'Rücken und Gelenke'. Das passt direkt zu Karls Rückenschmerzen und dem Wunsch, Sport zu treiben."
+            },
+            {
+              "id": "A1_m08_R2_q3",
+              "type": "matching",
+              "questionText": "Sandra möchte gesünder essen. Sie braucht professionelle Hilfe und einen persönlichen Ernährungsplan.",
+              "matchingSources": [
+                {
+                  "id": "A1_m08_R2_ad_a",
+                  "label": "a"
+                },
+                {
+                  "id": "A1_m08_R2_ad_b",
+                  "label": "b"
+                },
+                {
+                  "id": "A1_m08_R2_ad_c",
+                  "label": "c"
+                },
+                {
+                  "id": "A1_m08_R2_ad_d",
+                  "label": "d"
+                },
+                {
+                  "id": "A1_m08_R2_ad_e",
+                  "label": "e"
+                },
+                {
+                  "id": "A1_m08_R2_ad_f",
+                  "label": "f"
+                },
+                {
+                  "id": "A1_m08_R2_ad_g",
+                  "label": "g"
+                },
+                {
+                  "id": "A1_m08_R2_ad_h",
+                  "label": "h"
+                }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Anzeige d bietet 'Ernährungsberatung' mit 'individuellem Ernährungsplan' — genau das, was Sandra sucht. Die anderen Anzeigen bieten keine Ernährungsberatung."
+            },
+            {
+              "id": "A1_m08_R2_q4",
+              "type": "matching",
+              "questionText": "Herr Weber braucht eine neue Brille. Er sucht einen Optiker in der Nähe.",
+              "matchingSources": [
+                {
+                  "id": "A1_m08_R2_ad_a",
+                  "label": "a"
+                },
+                {
+                  "id": "A1_m08_R2_ad_b",
+                  "label": "b"
+                },
+                {
+                  "id": "A1_m08_R2_ad_c",
+                  "label": "c"
+                },
+                {
+                  "id": "A1_m08_R2_ad_d",
+                  "label": "d"
+                },
+                {
+                  "id": "A1_m08_R2_ad_e",
+                  "label": "e"
+                },
+                {
+                  "id": "A1_m08_R2_ad_f",
+                  "label": "f"
+                },
+                {
+                  "id": "A1_m08_R2_ad_g",
+                  "label": "g"
+                },
+                {
+                  "id": "A1_m08_R2_ad_h",
+                  "label": "h"
+                }
+              ],
+              "correctAnswer": "x",
+              "explanation": "Keine der acht Anzeigen ist von einem Optiker. Es gibt eine Apotheke (a), einen Arzt (b), Sportkurse (c), Ernährungsberatung (d), Kinderarzt (e), Massage (f), Zahnarzt (g) und Erste-Hilfe-Kurs (h) — aber keinen Optiker. Die Antwort ist x."
+            },
+            {
+              "id": "A1_m08_R2_q5",
+              "type": "matching",
+              "questionText": "Nina möchte einen Erste-Hilfe-Kurs besuchen. Sie braucht ihn für den Führerschein.",
+              "matchingSources": [
+                {
+                  "id": "A1_m08_R2_ad_a",
+                  "label": "a"
+                },
+                {
+                  "id": "A1_m08_R2_ad_b",
+                  "label": "b"
+                },
+                {
+                  "id": "A1_m08_R2_ad_c",
+                  "label": "c"
+                },
+                {
+                  "id": "A1_m08_R2_ad_d",
+                  "label": "d"
+                },
+                {
+                  "id": "A1_m08_R2_ad_e",
+                  "label": "e"
+                },
+                {
+                  "id": "A1_m08_R2_ad_f",
+                  "label": "f"
+                },
+                {
+                  "id": "A1_m08_R2_ad_g",
+                  "label": "g"
+                },
+                {
+                  "id": "A1_m08_R2_ad_h",
+                  "label": "h"
+                }
+              ],
+              "correctAnswer": "h",
+              "explanation": "Anzeige h ist der 'Erste-Hilfe-Kurs', der explizit 'für Führerscheinbewerber' angeboten wird — ein direkter Treffer für Ninas Situation."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die fünf Texte. Zu jedem Text gibt es eine Aussage. Kreuzen Sie an: richtig oder falsch.",
+          "instructionsTranslation": "Read the five texts. There is one statement about each text. Cross: correct or incorrect.",
+          "texts": [
+            {
+              "id": "A1_m08_R3_notice1",
+              "type": "notice",
+              "content": "APOTHEKE GEÖFFNET\nMontag–Freitag: 8:00–19:00 Uhr\nSamstag: 9:00–14:00 Uhr\nNotdienst: Telefon 0421 / 11 22 33",
+              "source": "Schild an einer Apotheke"
+            },
+            {
+              "id": "A1_m08_R3_notice2",
+              "type": "notice",
+              "content": "BITTE BEACHTEN!\nIn diesem Wartezimmer gilt ein striktes Handyverbot.\nBitte schalten Sie Ihr Handy aus oder auf lautlos.\nVielen Dank für Ihr Verständnis.",
+              "source": "Aushang in einer Arztpraxis"
+            },
+            {
+              "id": "A1_m08_R3_notice3",
+              "type": "notice",
+              "content": "ACHTUNG: KÜHLPFLICHTIG!\nDiese Medikamente müssen im Kühlschrank aufbewahrt werden (2–8 °C).\nNicht einfrieren!\nNach dem Öffnen innerhalb von 28 Tagen verwenden.",
+              "source": "Aufkleber auf einer Medikamentenschachtel"
+            },
+            {
+              "id": "A1_m08_R3_notice4",
+              "type": "notice",
+              "content": "KRANKMELDUNG\nWenn Sie krank sind und nicht zur Arbeit können:\n1. Rufen Sie so früh wie möglich an.\n2. Bringen Sie ab dem 3. Krankheitstag ein Attest vom Arzt.",
+              "source": "Hinweisschild in einem Büro"
+            },
+            {
+              "id": "A1_m08_R3_notice5",
+              "type": "notice",
+              "content": "FITNESSKURS FÜR SENIOREN\nSanfte Bewegung für mehr Lebensfreude!\nJeden Mittwoch, 10:00–11:00 Uhr\nKosten: 5 € pro Stunde\nAnmeldung im Büro, Zimmer 3",
+              "source": "Aushang im Seniorenzentrum"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_m08_R3_q1",
+              "type": "true_false",
+              "questionText": "Die Apotheke ist samstags bis 14 Uhr geöffnet.",
+              "relatedTextId": "A1_m08_R3_notice1",
+              "correctAnswer": "richtig",
+              "explanation": "Das Schild zeigt klar: 'Samstag: 9:00–14:00 Uhr'. Die Aussage stimmt exakt überein."
+            },
+            {
+              "id": "A1_m08_R3_q2",
+              "type": "true_false",
+              "questionText": "Im Wartezimmer kann man telefonieren.",
+              "relatedTextId": "A1_m08_R3_notice2",
+              "correctAnswer": "falsch",
+              "explanation": "Der Aushang sagt 'striktes Handyverbot' — man soll das Handy ausschalten oder auf lautlos stellen. Telefonieren ist ausdrücklich verboten."
+            },
+            {
+              "id": "A1_m08_R3_q3",
+              "type": "true_false",
+              "questionText": "Man darf die Medikamente einfrieren.",
+              "relatedTextId": "A1_m08_R3_notice3",
+              "correctAnswer": "falsch",
+              "explanation": "Der Aufkleber sagt ausdrücklich 'Nicht einfrieren!' Einfrieren ist verboten — das Medikament muss bei 2–8 °C im Kühlschrank aufbewahrt werden."
+            },
+            {
+              "id": "A1_m08_R3_q4",
+              "type": "true_false",
+              "questionText": "Ab dem dritten Krankheitstag braucht man ein Attest vom Arzt.",
+              "relatedTextId": "A1_m08_R3_notice4",
+              "correctAnswer": "richtig",
+              "explanation": "Das Schild sagt: 'Bringen Sie ab dem 3. Krankheitstag ein Attest vom Arzt.' Das stimmt mit der Aussage überein."
+            },
+            {
+              "id": "A1_m08_R3_q5",
+              "type": "true_false",
+              "questionText": "Der Fitnesskurs für Senioren findet zweimal pro Woche statt.",
+              "relatedTextId": "A1_m08_R3_notice5",
+              "correctAnswer": "falsch",
+              "explanation": "Der Aushang sagt 'Jeden Mittwoch' — also einmal pro Woche, nicht zweimal. Die Aussage ist falsch."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 20,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "form_fill",
+          "instructions": "Sie möchten sich in einer neuen Arztpraxis anmelden. Füllen Sie das Anmeldeformular aus.",
+          "instructionsTranslation": "You would like to register at a new doctor's surgery. Fill in the registration form.",
+          "formFields": [
+            {
+              "label": "Vorname und Nachname",
+              "correctAnswer": "Anna Müller",
+              "hint": "Schreiben Sie Ihren vollständigen Namen (Vorname + Nachname)."
+            },
+            {
+              "label": "Geburtsdatum",
+              "correctAnswer": "12.05.1990",
+              "hint": "Format: TT.MM.JJJJ (z.B. 01.03.1985)"
+            },
+            {
+              "label": "Krankenkasse",
+              "correctAnswer": "AOK Bayern",
+              "hint": "Name Ihrer Krankenkasse (z.B. TK, AOK, Barmer)"
+            },
+            {
+              "label": "Telefonnummer",
+              "correctAnswer": "0176 / 12 34 56 78",
+              "hint": "Ihre Handynummer oder Festnetznummer"
+            },
+            {
+              "label": "Grund des Besuchs",
+              "correctAnswer": "Halsweh und Husten seit drei Tagen",
+              "hint": "Beschreiben Sie kurz Ihre Beschwerden (z.B. Fieber, Bauchschmerzen)."
+            }
+          ],
+          "sampleAnswer": "Vorname und Nachname: Anna Müller\nGeburtsdatum: 12.05.1990\nKrankenkasse: AOK Bayern\nTelefonnummer: 0176 / 12 34 56 78\nGrund des Besuchs: Halsweh und Husten seit drei Tagen",
+          "scoringCriteria": [
+            {
+              "criterion": "Vollständigkeit",
+              "maxPoints": 5,
+              "description": "Alle fünf Felder sind ausgefüllt. Pro fehlendem Feld wird ein Punkt abgezogen."
+            },
+            {
+              "criterion": "Korrektheit",
+              "maxPoints": 5,
+              "description": "Die Angaben sind sachlich korrekt und im richtigen Format (z.B. Datumsformat, vollständiger Name). Pro fehlerhaftem Feld wird ein Punkt abgezogen."
+            }
+          ]
+        },
+        {
+          "taskNumber": 2,
+          "type": "short_message",
+          "instructions": "Schreiben Sie eine kurze Nachricht an Ihren Freund Jonas. Schreiben Sie 30–40 Wörter. Schreiben Sie zu diesen drei Punkten:",
+          "instructionsTranslation": "Write a short message to your friend Jonas. Write 30–40 words. Write about these three points:",
+          "prompt": "Sie waren beim Arzt. Schreiben Sie Jonas eine Nachricht.\n\n• Was hat der Arzt gesagt?\n• Was sollen Sie tun?\n• Können Sie am Wochenende kommen?",
+          "promptTranslation": "You have been to the doctor. Write Jonas a message.\n\n• What did the doctor say?\n• What should you do?\n• Can you come at the weekend?",
+          "requiredPoints": [
+            "Was der Arzt gesagt hat",
+            "Was Sie tun sollen (Medikamente/Ruhe etc.)",
+            "Information über das Wochenende"
+          ],
+          "wordCountMin": 30,
+          "wordCountMax": 40,
+          "sampleAnswer": "Hallo Jonas,\n\nich war heute beim Arzt. Er sagt, ich habe eine Erkältung. Ich soll viel schlafen und Tee trinken. Am Wochenende kann ich leider nicht kommen — ich muss zu Hause bleiben.\n\nLiebe Grüße,\nMaria",
+          "scoringCriteria": [
+            {
+              "criterion": "Aufgabenerfüllung",
+              "maxPoints": 4,
+              "description": "Alle drei Punkte werden angesprochen: Krankheitsgrund, Dauer der Abwesenheit und Bitte an einen Kollegen. Pro fehlendem Punkt wird ein Punkt abgezogen."
+            },
+            {
+              "criterion": "Kommunikative Gestaltung",
+              "maxPoints": 4,
+              "description": "Die Nachricht hat eine Anrede und einen Abschluss. Der Text ist kohärent und verständlich. Einfache Verbindungswörter werden benutzt (leider, und, aber)."
+            },
+            {
+              "criterion": "Formale Richtigkeit",
+              "maxPoints": 4,
+              "description": "Grammatik, Wortschatz und Orthografie auf A1-Niveau sind weitgehend korrekt. Kleine Fehler, die das Verständnis nicht behindern, werden toleriert."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 0,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "introduce",
+          "instructions": "Stellen Sie sich vor. Sprechen Sie über: Name, Alter, Land, Wohnort, Sprachen, Beruf oder Schule, Hobby.",
+          "instructionsTranslation": "Introduce yourself. Talk about: name, age, country, place of residence, languages, job or school, hobby.",
+          "prompt": "Hallo! Stellen Sie sich bitte vor. Wie heißen Sie? Woher kommen Sie? Wo wohnen Sie? Was machen Sie? Was ist Ihr Hobby?",
+          "sampleResponse": "Hallo! Ich heiße Ana Rodrigues. Ich komme aus Portugal, aber ich wohne jetzt in München. Ich bin 28 Jahre alt. Ich arbeite als Krankenpflegerin in einem Krankenhaus. In meiner Freizeit mache ich gerne Sport — ich gehe laufen und schwimmen. Ich lerne auch Deutsch, weil ich hier leben möchte.",
+          "sampleAudioFile": "assets/audio/A1/mock08/speaking_part1_sample.mp3",
+          "evaluationTips": [
+            "Sprechen Sie alle sieben Punkte an: Name, Alter, Land, Wohnort, Sprachen, Beruf und Hobby.",
+            "Sprechen Sie in vollständigen Sätzen — nicht nur einzelne Wörter.",
+            "Nutzen Sie einfache Verben: heißen, kommen aus, wohnen in, arbeiten als, machen.",
+            "Wenn Sie ein Wort nicht wissen, beschreiben Sie es einfach auf Deutsch."
+          ],
+          "keyPhrases": [
+            "Ich heiße …",
+            "Ich komme aus …",
+            "Ich wohne in …",
+            "Ich bin … Jahre alt.",
+            "Ich arbeite als … / Ich bin … von Beruf.",
+            "Mein Hobby ist … / Ich mache gerne …"
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "picture_cards",
+          "instructions": "Sie bekommen drei Karten mit Bildern. Sagen Sie, was Sie sehen. Was ist das? Was macht man damit? Wo kauft man das?",
+          "instructionsTranslation": "You receive three cards with pictures. Say what you see. What is it? What do you use it for? Where do you buy it?",
+          "prompt": "Schauen Sie auf die drei Bilder. Sagen Sie: Was sehen Sie? Was ist das? Was macht man damit?",
+          "promptImage": "assets/images/A1/mock08/speaking_part2_cards.png",
+          "sampleResponse": "Das erste Bild zeigt Tabletten. Man nimmt Tabletten, wenn man krank ist — zum Beispiel bei Fieber oder Kopfschmerzen. Man kauft sie in der Apotheke. Das zweite Bild zeigt ein Thermometer. Man benutzt ein Thermometer, um die Temperatur zu messen — wenn man Fieber hat. Das dritte Bild zeigt einen Arztkoffer. Den Arztkoffer hat der Arzt. Er bringt ihn mit, wenn er zum Patienten nach Hause kommt.",
+          "sampleAudioFile": "assets/audio/A1/mock08/speaking_part2_sample.mp3",
+          "evaluationTips": [
+            "Benennen Sie das Objekt auf jedem Bild direkt — 'Das ist ein/eine …'",
+            "Erklären Sie kurz, wozu man es benutzt — 'Man benutzt das für …' oder 'Das ist gut gegen …'",
+            "Nennen Sie den Artikel: die Tablette, das Thermometer, der Arztkoffer.",
+            "Sprechen Sie in kurzen, klaren Sätzen — komplizierte Sätze sind nicht nötig."
+          ],
+          "keyPhrases": [
+            "Das ist ein/eine …",
+            "Man benutzt das für …",
+            "Das kauft man in der Apotheke.",
+            "Das braucht man, wenn man krank ist.",
+            "Damit kann man … messen / nehmen / behandeln.",
+            "Das hat der Arzt / die Apothekerin."
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "und_du",
+          "instructions": "Sie bekommen drei Themenkarten. Für jede Karte stellt Ihnen Ihr Partner / Ihre Partnerin eine Frage. Antworten Sie und fragen Sie zurück.",
+          "instructionsTranslation": "You receive three topic cards. For each card your partner asks you a question. Answer and ask back.",
+          "prompt": "Karte 1: GESUNDHEIT — Wie oft sind Sie krank?\nKarte 2: ARZT — Gehen Sie oft zum Arzt?\nKarte 3: ESSEN — Was essen Sie, wenn Sie krank sind?",
+          "sampleResponse": "Karte 1 — Gesundheit:\nPrüfer: 'Wie oft sind Sie krank?'\nKandidat: 'Ich bin etwa zwei- oder dreimal im Jahr krank — meistens im Winter. Ich bekomme dann Erkältungen oder Grippe. Und Sie? Sind Sie oft krank?'\nPrüfer: 'Nein, ich bin selten krank.'\n\nKarte 2 — Arzt:\nPrüfer: 'Gehen Sie oft zum Arzt?'\nKandidat: 'Nicht so oft — nur wenn ich wirklich krank bin. Einmal im Jahr gehe ich zur Vorsorgeuntersuchung. Und Sie? Haben Sie einen Hausarzt hier?'\nPrüfer: 'Ja, ich gehe einmal im Jahr zum Check-up.'\n\nKarte 3 — Essen:\nPrüfer: 'Was essen Sie, wenn Sie krank sind?'\nKandidat: 'Wenn ich krank bin, esse ich Hühnersuppe — meine Mutter sagt, das hilft. Ich trinke auch viel Tee mit Honig. Und Sie? Was essen Sie, wenn Sie krank sind?'\nPrüfer: 'Ich esse auch Suppe und trinke viel Wasser.'",
+          "sampleAudioFile": "assets/audio/A1/mock08/speaking_part3_sample.mp3",
+          "evaluationTips": [
+            "Antworten Sie in vollständigen Sätzen — mindestens zwei bis drei Sätze pro Karte.",
+            "Fragen Sie immer zurück — das zeigt kommunikative Kompetenz und ist Teil der Aufgabe.",
+            "Benutzen Sie einfache Zeitangaben: oft, manchmal, selten, einmal im Jahr, im Winter.",
+            "Wenn Sie das Wort nicht kennen, beschreiben Sie die Situation: 'Ich bin krank — Kopf tut weh, Nase läuft.'"
+          ],
+          "keyPhrases": [
+            "Ich bin … (oft / manchmal / selten) krank.",
+            "Ich gehe zum Arzt, wenn … / nur wenn …",
+            "Einmal im Jahr gehe ich zur Vorsorge.",
+            "Wenn ich krank bin, esse / trinke ich …",
+            "Und Sie? / Und du?",
+            "Das hilft mir / Das ist gut gegen …"
+          ]
+        }
+      ]
+    }
   }
 }

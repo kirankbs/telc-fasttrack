@@ -2,12 +2,714 @@
   "id": "A1_mock_09",
   "level": "A1",
   "title": "Übungstest 9",
-  "version": 0,
-  "_stub": true,
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören drei kurze Texte. Zu jedem Text gibt es eine Aufgabe. Welches Bild passt? Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.",
+          "instructionsTranslation": "You will hear three short recordings. For each recording there is one task. Which picture matches? Mark: a, b, or c. You will hear each recording twice.",
+          "audioFile": "assets/audio/A1/mock09/listening_part1.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A1_m09_L1_q1",
+              "type": "mcq",
+              "questionText": "Wohin fährt der nächste Zug?",
+              "questionImage": "assets/images/A1/mock09/L1_q1.png",
+              "options": [
+                "a) nach Berlin",
+                "b) nach München",
+                "c) nach Hamburg"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Durchsage am Bahnhof sagt: 'Achtung auf Gleis 3. Der Intercity 582 fährt jetzt ab — Fahrziel München Hauptbahnhof.' Der Zug fährt nach München. Berlin und Hamburg werden in dieser Durchsage nicht erwähnt.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "A1_m09_L1_q2",
+              "type": "mcq",
+              "questionText": "Was kauft Herr Patel am Schalter?",
+              "questionImage": "assets/images/A1/mock09/L1_q2.png",
+              "options": [
+                "a) eine Monatskarte",
+                "b) eine Einzelfahrkarte",
+                "c) eine Tageskarte"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Im Gespräch am Fahrkartenschalter fragt der Mitarbeiter: 'Einzel- oder Tageskarte?' und Herr Patel antwortet: 'Eine Tageskarte, bitte — ich fahre heute mehrmals.' Er kauft also eine Tageskarte. Eine Monatskarte oder Einzelfahrkarte kauft er nicht.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A1_m09_L1_q3",
+              "type": "mcq",
+              "questionText": "Von welchem Steig fährt der Bus ab?",
+              "questionImage": "assets/images/A1/mock09/L1_q3.png",
+              "options": [
+                "a) von Steig 2",
+                "b) von Steig 5",
+                "c) von Steig 7"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Ansage im Busbahnhof sagt: 'Der Bus Linie 38 nach Flughafen fährt heute von Steig 2 ab — bitte beachten Sie die Änderung.' Der Bus fährt von Steig 2. Steig 5 und Steig 7 werden nicht für diesen Bus genannt.",
+              "audioTimestamp": 11
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören fünf kurze Texte. Zu jedem Text gibt es eine Aufgabe. Kreuzen Sie an: richtig oder falsch. Sie hören jeden Text zweimal.",
+          "instructionsTranslation": "You will hear five short recordings. For each recording there is one task. Mark: correct or incorrect. You will hear each recording twice.",
+          "audioFile": "assets/audio/A1/mock09/listening_part2.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A1_m09_L2_q1",
+              "type": "true_false",
+              "questionText": "Das Hotel liegt direkt am Bahnhof.",
+              "correctAnswer": "richtig",
+              "explanation": "Im Telefonat sagt die Rezeptionistin: 'Unser Hotel ist sehr leicht zu finden — wir liegen direkt neben dem Hauptbahnhof, Ausgang Süd.' Das Hotel liegt also direkt am Bahnhof. Die Aussage ist richtig.",
+              "audioTimestamp": 7
+            },
+            {
+              "id": "A1_m09_L2_q2",
+              "type": "true_false",
+              "questionText": "Der Flug nach Wien startet pünktlich.",
+              "correctAnswer": "falsch",
+              "explanation": "Die Durchsage am Flughafen sagt: 'Achtung für Passagiere des Fluges OS 231 nach Wien — dieser Flug verspätet sich um 45 Minuten. Der neue Abflug ist um 16:15 Uhr.' Der Flug startet also nicht pünktlich. Die Aussage ist falsch.",
+              "audioTimestamp": 5
+            },
+            {
+              "id": "A1_m09_L2_q3",
+              "type": "true_false",
+              "questionText": "Die Touristeninformation ist am Samstag geöffnet.",
+              "correctAnswer": "richtig",
+              "explanation": "Die Nachricht auf dem Anrufbeantworter der Touristeninformation sagt: 'Unsere Öffnungszeiten: Montag bis Freitag 9 bis 18 Uhr, Samstag 10 bis 14 Uhr.' Am Samstag ist die Touristeninformation von 10 bis 14 Uhr geöffnet. Die Aussage ist richtig.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A1_m09_L2_q4",
+              "type": "true_false",
+              "questionText": "Das Taxi kostet mehr als 20 Euro.",
+              "correctAnswer": "falsch",
+              "explanation": "Im Gespräch mit dem Taxifahrer sagt er: 'Das macht 17 Euro 50, bitte.' Die Fahrt kostet 17,50 Euro — also weniger als 20 Euro. Die Aussage ist falsch.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "A1_m09_L2_q5",
+              "type": "true_false",
+              "questionText": "Man braucht für die U-Bahn kein Ticket.",
+              "correctAnswer": "falsch",
+              "explanation": "Der Kontrolleur sagt: 'Bitte zeigen Sie mir Ihr Ticket.' Die Frau antwortet: 'Oh, ich habe vergessen, ein Ticket zu kaufen.' In der U-Bahn braucht man also ein Ticket. Die Aussage ist falsch.",
+              "audioTimestamp": 8
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören drei Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear three short conversations. For each conversation there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A1/mock09/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A1_m09_L3_q1",
+              "type": "mcq",
+              "questionText": "Wann kommt Anna in Frankfurt an?",
+              "options": [
+                "a) um 13:20 Uhr",
+                "b) um 14:05 Uhr",
+                "c) um 15:30 Uhr"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Im Gespräch sagt Anna zu ihrer Mutter: 'Mein Zug kommt um 14:05 Uhr in Frankfurt an.' Die Mutter fragt: 'Also um fünf nach zwei?' und Anna bestätigt. 13:20 Uhr ist die Abfahrtszeit in Berlin, 15:30 Uhr wurde nicht genannt.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "A1_m09_L3_q2",
+              "type": "mcq",
+              "questionText": "Wie kommt Herr Weber zum Flughafen?",
+              "options": [
+                "a) mit dem Taxi",
+                "b) mit dem Bus",
+                "c) mit der S-Bahn"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Im Gespräch mit dem Kollegen sagt Herr Weber: 'Ich nehme die S-Bahn — sie fährt direkt vom Hauptbahnhof zum Terminal 1, ohne Umsteigen.' Das Taxi war sein erster Gedanke, aber er entscheidet sich für die S-Bahn. Der Bus wird nicht erwähnt.",
+              "audioTimestamp": 15
+            },
+            {
+              "id": "A1_m09_L3_q3",
+              "type": "mcq",
+              "questionText": "Was möchte die Frau im Hotel?",
+              "options": [
+                "a) ein Zimmer für zwei Nächte",
+                "b) ein Zimmer für eine Nacht",
+                "c) ein Zimmer für drei Nächte"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Im Gespräch an der Hotelrezeption sagt die Frau: 'Ich möchte ein Zimmer reservieren, bitte — von Freitag bis Sonntag, also zwei Nächte.' Der Rezeptionist bestätigt: 'Zwei Nächte, sehr gern.' Eine oder drei Nächte werden nicht gebucht.",
+              "audioTimestamp": 10
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 25,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie die zwei Texte. Zu den Texten gibt es fünf Aufgaben. Kreuzen Sie an: richtig oder falsch.",
+          "instructionsTranslation": "Read the two texts. There are five tasks about the texts. Mark: correct or incorrect.",
+          "texts": [
+            {
+              "id": "A1_m09_R1_text1",
+              "type": "email",
+              "content": "Von: petra.hoffmann@email.de\nAn: lukas.braun@email.de\nBetreff: Unser Ausflug nach Köln\n\nHallo Lukas,\n\nich freue mich schon auf unseren Ausflug nach Köln! Ich habe die Zugtickets schon gekauft. Wir fahren am Samstag, den 22. April, um 9:15 Uhr vom Berliner Hauptbahnhof ab. In Köln kommen wir um 12:40 Uhr an.\n\nDas Hotel heißt Stadthotel am Dom und liegt direkt neben dem Kölner Dom. Ich habe zwei Einzelzimmer reserviert — sie kosten 65 Euro pro Nacht. Wir bleiben zwei Nächte.\n\nBitte bring deinen Reisepass oder Personalausweis mit — man braucht ihn für das Hotel.\n\nBis Samstag!\nPetra",
+              "source": "Persönliche E-Mail"
+            },
+            {
+              "id": "A1_m09_R1_text2",
+              "type": "notice",
+              "content": "BAHNHOF INFORMATION — KÖLN HAUPTBAHNHOF\n\nWillkommen in Köln!\n\nLinien in der Nähe:\n• U-Bahn: Linien 1, 7, 9 — Haltestelle Dom/Hauptbahnhof\n• Bus: Linie 132 zum Flughafen Köln/Bonn (ca. 30 Minuten)\n\nGepäckaufbewahrung: Öffnungszeiten 6:00 – 22:00 Uhr\nTouristinformation: Erdgeschoss, Ausgang West\nFahrradverleih: Vor dem Haupteingang",
+              "source": "Informationstafel Köln Hauptbahnhof"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_m09_R1_q1",
+              "type": "true_false",
+              "questionText": "Petra und Lukas fahren am Samstag nach Köln.",
+              "relatedTextId": "A1_m09_R1_text1",
+              "correctAnswer": "richtig",
+              "explanation": "In der E-Mail schreibt Petra: 'Wir fahren am Samstag, den 22. April, um 9:15 Uhr vom Berliner Hauptbahnhof ab.' Die Fahrt ist also am Samstag. Die Aussage ist richtig."
+            },
+            {
+              "id": "A1_m09_R1_q2",
+              "type": "true_false",
+              "questionText": "Das Hotelzimmer kostet 65 Euro pro Nacht.",
+              "relatedTextId": "A1_m09_R1_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Petra schreibt: 'Ich habe zwei Einzelzimmer reserviert — sie kosten 65 Euro pro Nacht.' Der Preis pro Zimmer und Nacht beträgt 65 Euro. Die Aussage ist richtig."
+            },
+            {
+              "id": "A1_m09_R1_q3",
+              "type": "true_false",
+              "questionText": "Lukas soll seinen Personalausweis zu Hause lassen.",
+              "relatedTextId": "A1_m09_R1_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Petra schreibt das Gegenteil: 'Bitte bring deinen Reisepass oder Personalausweis mit — man braucht ihn für das Hotel.' Lukas soll das Dokument mitbringen, nicht zu Hause lassen. Die Aussage ist falsch."
+            },
+            {
+              "id": "A1_m09_R1_q4",
+              "type": "true_false",
+              "questionText": "Die Gepäckaufbewahrung am Kölner Hauptbahnhof ist rund um die Uhr geöffnet.",
+              "relatedTextId": "A1_m09_R1_text2",
+              "correctAnswer": "falsch",
+              "explanation": "Das Informationsschild sagt: 'Gepäckaufbewahrung: Öffnungszeiten 6:00 – 22:00 Uhr.' Die Gepäckaufbewahrung ist nur von 6 bis 22 Uhr geöffnet, nicht 24 Stunden. Die Aussage ist falsch."
+            },
+            {
+              "id": "A1_m09_R1_q5",
+              "type": "true_false",
+              "questionText": "Man kann am Kölner Hauptbahnhof ein Fahrrad ausleihen.",
+              "relatedTextId": "A1_m09_R1_text2",
+              "correctAnswer": "richtig",
+              "explanation": "Das Informationsschild am Bahnhof sagt: 'Fahrradverleih: Vor dem Haupteingang.' Man kann also am Bahnhof ein Fahrrad mieten. Die Aussage ist richtig."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie die Anzeigen a–h und die Situationen 1–5. Welche Anzeige passt zu welcher Situation? Für eine Situation gibt es keine passende Anzeige. Schreiben Sie den richtigen Buchstaben (a–h).",
+          "instructionsTranslation": "Read the advertisements a–h and situations 1–5. Which advertisement matches which situation? For one situation there is no matching advertisement. Write the correct letter (a–h).",
+          "texts": [
+            {
+              "id": "A1_m09_R2_ad_a",
+              "type": "ad",
+              "content": "REISEBUS MÜNCHEN–WIEN\nTäglich 8:00 und 14:00 Uhr\nEinfache Fahrt: 29 €\nHin- und Rückfahrt: 49 €\nOnline buchen: busreise-mv.de"
+            },
+            {
+              "id": "A1_m09_R2_ad_b",
+              "type": "ad",
+              "content": "HOTEL GARNI SEEBLICK\nZimmer ab 55 € / Nacht\nFrühstück inklusive\nParkplatz kostenlos\nTel.: 08821 / 44 77 00\nwww.hotel-seeblick.de"
+            },
+            {
+              "id": "A1_m09_R2_ad_c",
+              "type": "ad",
+              "content": "TOURISTINFORMATION HEIDELBERG\nStadtrundgänge täglich 10 und 14 Uhr\nKarten und Broschüren kostenlos\nMarkusplatz 3, Mo–Sa 9–18 Uhr\ninfo@heidelberg-tourismus.de"
+            },
+            {
+              "id": "A1_m09_R2_ad_d",
+              "type": "ad",
+              "content": "TAXI SCHNELL & GÜNSTIG\n24 Stunden, 7 Tage die Woche\nFlughafen-Transfer ab 28 €\nGruppen-Taxen verfügbar\nRuf an: 0800 / 111 22 33"
+            },
+            {
+              "id": "A1_m09_R2_ad_e",
+              "type": "ad",
+              "content": "FAHRRADVERLEIH STADTMITTE\nStadträder und E-Bikes\nAb 8 € pro Tag\nHelmverleih kostenlos\nHauptstraße 14, täglich 8–20 Uhr"
+            },
+            {
+              "id": "A1_m09_R2_ad_f",
+              "type": "ad",
+              "content": "AUTOVERMIETUNG KAISER\nKleinwagen ab 39 € / Tag\nKeine Kilometerkosten\nFührerschein + Kreditkarte nötig\nFlughafenterminal 2, Ankunftshalle"
+            },
+            {
+              "id": "A1_m09_R2_ad_g",
+              "type": "ad",
+              "content": "GEPÄCKSERVICE REISEKLAR\nKofferaufbewahrung und -transport\nAbholung vom Hotel möglich\nGeöffnet 6:00–22:00 Uhr\nBahnhof Südseite, Raum 12"
+            },
+            {
+              "id": "A1_m09_R2_ad_h",
+              "type": "ad",
+              "content": "STADTFÜHRUNG PER BOOT\nRheinrundfahrt — 90 Minuten\nAbfahrt täglich 11:00 und 15:00 Uhr\nErwachsene 14 €, Kinder 7 €\nAnlegestelle am Alten Hafen"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_m09_R2_q1",
+              "type": "matching",
+              "questionText": "Frau Kim ist Touristin in Heidelberg und möchte Informationen über die Stadt und kostenlose Stadtpläne.",
+              "matchingSources": [
+                {
+                  "id": "A1_m09_R2_ad_a",
+                  "label": "a"
+                },
+                {
+                  "id": "A1_m09_R2_ad_b",
+                  "label": "b"
+                },
+                {
+                  "id": "A1_m09_R2_ad_c",
+                  "label": "c"
+                },
+                {
+                  "id": "A1_m09_R2_ad_d",
+                  "label": "d"
+                },
+                {
+                  "id": "A1_m09_R2_ad_e",
+                  "label": "e"
+                },
+                {
+                  "id": "A1_m09_R2_ad_f",
+                  "label": "f"
+                },
+                {
+                  "id": "A1_m09_R2_ad_g",
+                  "label": "g"
+                },
+                {
+                  "id": "A1_m09_R2_ad_h",
+                  "label": "h"
+                }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Anzeige c ist die Touristinformation Heidelberg. Sie bietet Karten und Broschüren kostenlos an und ist Montag bis Samstag geöffnet. Das passt genau zu Frau Kims Wunsch nach Stadtinformationen und kostenlosen Stadtplänen."
+            },
+            {
+              "id": "A1_m09_R2_q2",
+              "type": "matching",
+              "questionText": "Familie Bauer braucht nachts um 23 Uhr ein Fahrzeug zum Flughafen. Sie haben kein Auto.",
+              "matchingSources": [
+                {
+                  "id": "A1_m09_R2_ad_a",
+                  "label": "a"
+                },
+                {
+                  "id": "A1_m09_R2_ad_b",
+                  "label": "b"
+                },
+                {
+                  "id": "A1_m09_R2_ad_c",
+                  "label": "c"
+                },
+                {
+                  "id": "A1_m09_R2_ad_d",
+                  "label": "d"
+                },
+                {
+                  "id": "A1_m09_R2_ad_e",
+                  "label": "e"
+                },
+                {
+                  "id": "A1_m09_R2_ad_f",
+                  "label": "f"
+                },
+                {
+                  "id": "A1_m09_R2_ad_g",
+                  "label": "g"
+                },
+                {
+                  "id": "A1_m09_R2_ad_h",
+                  "label": "h"
+                }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Anzeige d ist der Taxidienst, der 24 Stunden an 7 Tagen die Woche verfügbar ist und Flughafen-Transfer anbietet. Der Bus (a) fährt nur tagsüber. Das Taxi ist die einzige Option, die nachts und zum Flughafen fährt."
+            },
+            {
+              "id": "A1_m09_R2_q3",
+              "type": "matching",
+              "questionText": "Herr Schulz möchte von München nach Wien fahren. Er sucht eine günstige Busverbindung.",
+              "matchingSources": [
+                {
+                  "id": "A1_m09_R2_ad_a",
+                  "label": "a"
+                },
+                {
+                  "id": "A1_m09_R2_ad_b",
+                  "label": "b"
+                },
+                {
+                  "id": "A1_m09_R2_ad_c",
+                  "label": "c"
+                },
+                {
+                  "id": "A1_m09_R2_ad_d",
+                  "label": "d"
+                },
+                {
+                  "id": "A1_m09_R2_ad_e",
+                  "label": "e"
+                },
+                {
+                  "id": "A1_m09_R2_ad_f",
+                  "label": "f"
+                },
+                {
+                  "id": "A1_m09_R2_ad_g",
+                  "label": "g"
+                },
+                {
+                  "id": "A1_m09_R2_ad_h",
+                  "label": "h"
+                }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Anzeige a ist der Reisebus München–Wien, der täglich zweimal fährt und eine einfache Fahrt für 29 Euro anbietet. Das ist eine günstige Busverbindung genau für diese Strecke. Das passt perfekt zu Herrn Schulz."
+            },
+            {
+              "id": "A1_m09_R2_q4",
+              "type": "matching",
+              "questionText": "Lena möchte ihre Koffer nicht mit ins Museum nehmen. Sie sucht jemanden, der sie kurz aufbewahrt.",
+              "matchingSources": [
+                {
+                  "id": "A1_m09_R2_ad_a",
+                  "label": "a"
+                },
+                {
+                  "id": "A1_m09_R2_ad_b",
+                  "label": "b"
+                },
+                {
+                  "id": "A1_m09_R2_ad_c",
+                  "label": "c"
+                },
+                {
+                  "id": "A1_m09_R2_ad_d",
+                  "label": "d"
+                },
+                {
+                  "id": "A1_m09_R2_ad_e",
+                  "label": "e"
+                },
+                {
+                  "id": "A1_m09_R2_ad_f",
+                  "label": "f"
+                },
+                {
+                  "id": "A1_m09_R2_ad_g",
+                  "label": "g"
+                },
+                {
+                  "id": "A1_m09_R2_ad_h",
+                  "label": "h"
+                }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Anzeige g ist der Gepäckservice Reiseklar mit Kofferaufbewahrung, geöffnet von 6 bis 22 Uhr am Bahnhof. Das ist genau das, was Lena braucht — jemanden, der ihre Koffer kurz aufbewahrt, während sie ins Museum geht."
+            },
+            {
+              "id": "A1_m09_R2_q5",
+              "type": "matching",
+              "questionText": "Tobias möchte sein altes Fahrrad verkaufen. Er sucht einen Käufer.",
+              "matchingSources": [
+                {
+                  "id": "A1_m09_R2_ad_a",
+                  "label": "a"
+                },
+                {
+                  "id": "A1_m09_R2_ad_b",
+                  "label": "b"
+                },
+                {
+                  "id": "A1_m09_R2_ad_c",
+                  "label": "c"
+                },
+                {
+                  "id": "A1_m09_R2_ad_d",
+                  "label": "d"
+                },
+                {
+                  "id": "A1_m09_R2_ad_e",
+                  "label": "e"
+                },
+                {
+                  "id": "A1_m09_R2_ad_f",
+                  "label": "f"
+                },
+                {
+                  "id": "A1_m09_R2_ad_g",
+                  "label": "g"
+                },
+                {
+                  "id": "A1_m09_R2_ad_h",
+                  "label": "h"
+                }
+              ],
+              "correctAnswer": "x",
+              "explanation": "Keine der acht Anzeigen bietet den Ankauf von Fahrrädern oder einen Verkaufsmarkt an. Anzeige e ist ein Fahrradverleih (Leihservice), kein Ankauf. Die Antwort ist x."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die Texte und die Aufgaben 1–5. Kreuzen Sie an: richtig oder falsch.",
+          "instructionsTranslation": "Read the texts and tasks 1–5. Mark: correct or incorrect.",
+          "texts": [
+            {
+              "id": "A1_m09_R3_notice1",
+              "type": "notice",
+              "content": "BAHNSTEIG 6 GESPERRT\nUmbauarbeiten bis 30. Juni.\nBitte benutzen Sie Bahnsteig 7.\nIhr Zug fährt planmäßig."
+            },
+            {
+              "id": "A1_m09_R3_notice2",
+              "type": "notice",
+              "content": "FLUGHAFEN-EXPRESS\nAbfahrt: Jede 20 Minuten\nReisezeit: ca. 25 Minuten\nTicket: 4,20 € (Einzelfahrt)\nKeine Reservierung nötig."
+            },
+            {
+              "id": "A1_m09_R3_notice3",
+              "type": "notice",
+              "content": "ACHTUNG!\nFahrräder im Bus nur außerhalb der Hauptverkehrszeiten erlaubt.\nHauptverkehrszeiten: Mo–Fr 7:00–9:00 und 16:00–18:30 Uhr"
+            },
+            {
+              "id": "A1_m09_R3_notice4",
+              "type": "notice",
+              "content": "HOTEL-SHUTTLE\nKostenloser Transfer vom Flughafen zum Hotel\nAbfahrt: 9:00, 12:00, 15:00, 18:00 Uhr\nAnmeldung an der Rezeption oder unter: 0511 / 882 30 00"
+            },
+            {
+              "id": "A1_m09_R3_notice5",
+              "type": "notice",
+              "content": "GEPÄCK AUFGEBEN\nMax. 2 Koffer pro Person\nMax. 23 kg pro Koffer\nHandgepäck: max. 8 kg\nBitte 90 Minuten vor Abflug am Schalter sein."
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_m09_R3_q1",
+              "type": "true_false",
+              "questionText": "Züge fahren auch während der Umbauarbeiten ab.",
+              "relatedTextId": "A1_m09_R3_notice1",
+              "correctAnswer": "richtig",
+              "explanation": "Das Schild sagt: 'Bitte benutzen Sie Bahnsteig 7. Ihr Zug fährt planmäßig.' Die Züge fahren weiterhin ab — nur von einem anderen Bahnsteig. Die Aussage ist richtig."
+            },
+            {
+              "id": "A1_m09_R3_q2",
+              "type": "true_false",
+              "questionText": "Man muss einen Platz im Flughafen-Express reservieren.",
+              "relatedTextId": "A1_m09_R3_notice2",
+              "correctAnswer": "falsch",
+              "explanation": "Das Schild sagt ausdrücklich: 'Keine Reservierung nötig.' Man kann einfach einsteigen und ein Ticket kaufen. Eine Reservierung ist nicht erforderlich. Die Aussage ist falsch."
+            },
+            {
+              "id": "A1_m09_R3_q3",
+              "type": "true_false",
+              "questionText": "Man kann samstags um 8 Uhr morgens sein Fahrrad in den Bus mitnehmen.",
+              "relatedTextId": "A1_m09_R3_notice3",
+              "correctAnswer": "richtig",
+              "explanation": "Das Schild zeigt, dass Fahrräder außerhalb der Hauptverkehrszeiten erlaubt sind. Die Hauptverkehrszeiten gelten nur Montag bis Freitag (Mo–Fr). Samstag ist kein Werktag, daher gilt die Einschränkung samstags nicht. Das Fahrrad ist erlaubt. Die Aussage ist richtig."
+            },
+            {
+              "id": "A1_m09_R3_q4",
+              "type": "true_false",
+              "questionText": "Der Hotel-Shuttle kostet Geld.",
+              "relatedTextId": "A1_m09_R3_notice4",
+              "correctAnswer": "falsch",
+              "explanation": "Das Schild sagt: 'Kostenloser Transfer vom Flughafen zum Hotel.' Der Shuttle-Service ist kostenlos. Die Aussage ist falsch."
+            },
+            {
+              "id": "A1_m09_R3_q5",
+              "type": "true_false",
+              "questionText": "Ein Koffer darf mehr als 23 Kilogramm wiegen.",
+              "relatedTextId": "A1_m09_R3_notice5",
+              "correctAnswer": "falsch",
+              "explanation": "Das Schild sagt: 'Max. 23 kg pro Koffer.' Das Maximum sind 23 Kilogramm — mehr ist nicht erlaubt. Ein Koffer darf also nicht mehr als 23 kg wiegen. Die Aussage ist falsch."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 20,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "form_fill",
+          "instructions": "Herr Ibrahim möchte ein Hotelzimmer reservieren. Lesen Sie das Formular und füllen Sie die fünf Lücken aus. Benutzen Sie die Informationen unten.\n\nAngaben: Vorname: Karim | Nachname: Ibrahim | Anreise: 15. Mai | Abreise: 18. Mai | Zimmerwunsch: Einzelzimmer, Nichtraucher | Telefon: 0162 / 778 44 55",
+          "instructionsTranslation": "Mr Ibrahim wants to reserve a hotel room. Read the form and fill in the five gaps using the information below.\n\nDetails: First name: Karim | Surname: Ibrahim | Arrival: 15 May | Departure: 18 May | Room preference: single room, non-smoking | Phone: 0162 / 778 44 55",
+          "formFields": [
+            {
+              "label": "Vorname",
+              "correctAnswer": "Karim",
+              "hint": "Erster Vorname des Gastes"
+            },
+            {
+              "label": "Nachname",
+              "correctAnswer": "Ibrahim",
+              "hint": "Familienname des Gastes"
+            },
+            {
+              "label": "Anreisedatum",
+              "correctAnswer": "15. Mai",
+              "hint": "Wann kommt der Gast an?"
+            },
+            {
+              "label": "Abreisedatum",
+              "correctAnswer": "18. Mai",
+              "hint": "Wann reist der Gast ab?"
+            },
+            {
+              "label": "Zimmerwunsch",
+              "correctAnswer": "Einzelzimmer, Nichtraucher",
+              "hint": "Welche Art Zimmer möchte der Gast?"
+            }
+          ],
+          "sampleAnswer": "Vorname: Karim\nNachname: Ibrahim\nAnreisedatum: 15. Mai\nAbreisedatum: 18. Mai\nZimmerwunsch: Einzelzimmer, Nichtraucher",
+          "scoringCriteria": [
+            {
+              "criterion": "Vollständigkeit",
+              "maxPoints": 5,
+              "description": "Alle fünf Felder sind ausgefüllt. Pro korrekt ausgefülltem Feld einen Punkt."
+            },
+            {
+              "criterion": "Korrektheit",
+              "maxPoints": 5,
+              "description": "Die Informationen entsprechen den Angaben aus der Aufgabenstellung. Daten sind plausibel und vollständig (Tag + Monat), der Zimmerwunsch ist klar benannt."
+            }
+          ]
+        },
+        {
+          "taskNumber": 2,
+          "type": "short_message",
+          "instructions": "Schreiben Sie eine kurze Nachricht an Ihre Freundin Sara. Schreiben Sie 30–40 Wörter. Schreiben Sie zu diesen drei Punkten:",
+          "instructionsTranslation": "Write a short message to your friend Sara. Write 30–40 words. Write about these three points:",
+          "prompt": "Schreiben Sie Sara eine Nachricht.\n\n• Wohin fahren Sie?\n• Wie fahren Sie dorthin?\n• Wann kommen Sie an?",
+          "promptTranslation": "Write Sara a message.\n\n• Where are you travelling to?\n• How are you travelling there?\n• When do you arrive?",
+          "requiredPoints": [
+            "Reiseziel — wohin fahren Sie?",
+            "Verkehrsmittel — wie fahren Sie? (z.B. Zug, Bus, Auto, Flugzeug)",
+            "Ankunftszeit — wann kommen Sie an?"
+          ],
+          "wordCountMin": 30,
+          "wordCountMax": 40,
+          "sampleAnswer": "Hallo Sara,\n\nIch fahre am Donnerstag nach Hamburg! Ich nehme den Zug um 10:30 Uhr vom Kölner Hauptbahnhof. Ich komme um 14:05 Uhr in Hamburg an. Können wir uns am Bahnhof treffen?\n\nLiebe Grüße,\nMaria",
+          "scoringCriteria": [
+            {
+              "criterion": "Aufgabenerfüllung",
+              "maxPoints": 4,
+              "description": "Alle drei Inhaltspunkte (Reiseziel, Verkehrsmittel, Ankunftszeit) sind angesprochen. Je vollständiger und klarer, desto mehr Punkte."
+            },
+            {
+              "criterion": "Kommunikative Gestaltung",
+              "maxPoints": 4,
+              "description": "Die Nachricht hat eine Anrede (z.B. 'Hallo Sara') und einen Abschluss (z.B. 'Liebe Grüße'). Der Text ist verständlich und fließt zusammen."
+            },
+            {
+              "criterion": "Formale Richtigkeit",
+              "maxPoints": 4,
+              "description": "Auf A1-Niveau werden einfache Fehler toleriert, solange der Text verständlich bleibt. Grundlegende Satzstruktur (Subjekt + Verb + Objekt) soll erkennbar sein."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 0,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "introduce",
+          "instructions": "Stellen Sie sich vor. Sagen Sie etwas über: Name, Alter, Herkunft, Beruf oder Hobby.",
+          "instructionsTranslation": "Introduce yourself. Say something about: name, age, where you are from, job or hobby.",
+          "prompt": "Guten Tag, mein Name ist ... Ich komme aus ... Ich bin ... Jahre alt. Ich arbeite als ... / Mein Hobby ist ...",
+          "sampleResponse": "Guten Tag, mein Name ist Yuna Park. Ich komme aus Südkorea, aus Seoul. Ich bin 26 Jahre alt. Ich studiere Architektur hier in Deutschland. In meiner Freizeit reise ich sehr gern — ich war schon in zehn europäischen Ländern.",
+          "sampleAudioFile": "assets/audio/A1/mock09/speaking_part1_sample.mp3",
+          "evaluationTips": [
+            "Nennen Sie alle vier Punkte: Name, Alter, Herkunft und Beruf oder Hobby. Fehlende Punkte reduzieren die Bewertung.",
+            "Sprechen Sie in vollständigen Sätzen — 'Ich heiße Yuna' ist besser als nur Ihren Namen zu sagen.",
+            "Kleine Grammatikfehler auf A1-Niveau sind normal. Verständlichkeit zählt mehr als Fehlerfreiheit.",
+            "Schauen Sie den Prüfer an und sprechen Sie laut und deutlich."
+          ],
+          "keyPhrases": [
+            "Mein Name ist ... / Ich heiße ...",
+            "Ich komme aus ...",
+            "Ich bin ... Jahre alt.",
+            "Ich studiere / arbeite als ...",
+            "Mein Hobby ist ...",
+            "In meiner Freizeit reise ich gern."
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "picture_cards",
+          "instructions": "Sie bekommen eine Bildkarte. Sagen Sie das Wort auf Deutsch. Der Prüfer fragt dann: 'Haben Sie das auch?' oder 'Fahren Sie damit?' Antworten Sie mit Ja oder Nein und einem kurzen Satz.",
+          "instructionsTranslation": "You receive a picture card. Say the word in German. The examiner then asks: 'Do you have that too?' or 'Do you travel by that?' Answer with yes or no and a short sentence.",
+          "prompt": "Bildkarte 1: Ein Koffer\nBildkarte 2: Ein Zug\nBildkarte 3: Eine Karte / ein Stadtplan\n\nDer Prüfer fragt nach jeder Karte:\n'Haben Sie einen Koffer?' / 'Fahren Sie oft mit dem Zug?' / 'Haben Sie einen Stadtplan?'",
+          "promptImage": "assets/images/A1/mock09/speaking_part2_cards.png",
+          "sampleResponse": "Karte 1: 'Das ist ein Koffer. Ja, ich habe einen Koffer. Er ist blau und sehr groß.'\nKarte 2: 'Das ist ein Zug. Ja, ich fahre oft mit dem Zug — ich habe eine Bahncard.'\nKarte 3: 'Das ist ein Stadtplan. Nein, ich habe keinen Stadtplan. Ich benutze mein Handy.'",
+          "sampleAudioFile": "assets/audio/A1/mock09/speaking_part2_sample.mp3",
+          "evaluationTips": [
+            "Nennen Sie das Objekt mit dem richtigen Artikel: 'Das ist ein Koffer.' Der Artikel ist ein wichtiger Teil des deutschen Nomens.",
+            "Antworten Sie auf die Prüferfrage mit einem vollständigen Satz, nicht nur 'Ja' oder 'Nein'.",
+            "Wenn Sie den genauen Artikel nicht wissen, sagen Sie trotzdem das Wort — eine Antwort ist besser als Schweigen.",
+            "Fügen Sie eine kurze Zusatzinformation hinzu ('Er ist neu.', 'Ich fahre oft damit.') — das zeigt sprachliche Initiative."
+          ],
+          "keyPhrases": [
+            "Das ist ein / eine ...",
+            "Ja, ich habe einen / eine / ein ...",
+            "Nein, ich habe keinen / keine / kein ...",
+            "Er / Sie / Es ist ...",
+            "Ich fahre oft mit dem Zug / Bus / Flugzeug.",
+            "Ich benutze mein Handy / die App."
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "und_du",
+          "instructions": "Sie bekommen eine Wortkarte mit einem Thema. Stellen Sie dem Prüfer eine Frage zu diesem Thema. Der Prüfer antwortet und fragt dann: 'Und du?' Antworten Sie auch.",
+          "instructionsTranslation": "You receive a word card with a topic. Ask the examiner a question on this topic. The examiner answers and then asks: 'And you?' Answer too.",
+          "prompt": "Wortkarte 1: Urlaub\nWortkarte 2: Verkehr\nWortkarte 3: Lieblingsstadt\n\nFormulieren Sie für jede Karte eine Frage an den Prüfer.",
+          "sampleResponse": "Karte 1 — Urlaub:\nKandidat: 'Wohin fahren Sie im Urlaub?'\nPrüfer: 'Ich fahre dieses Jahr nach Spanien. Und du?'\nKandidat: 'Ich fahre nach Italien — nach Rom. Ich möchte das Kolosseum sehen.'\n\nKarte 2 — Verkehr:\nKandidat: 'Wie fahren Sie zur Arbeit?'\nPrüfer: 'Ich fahre mit der U-Bahn. Und du?'\nKandidat: 'Ich fahre mit dem Fahrrad. Es ist schnell und günstig.'\n\nKarte 3 — Lieblingsstadt:\nKandidat: 'Was ist Ihre Lieblingsstadt?'\nPrüfer: 'Meine Lieblingsstadt ist Wien. Und du?'\nKandidat: 'Meine Lieblingsstadt ist Barcelona — das Wetter ist warm und die Stadt ist sehr schön.'",
+          "sampleAudioFile": "assets/audio/A1/mock09/speaking_part3_sample.mp3",
+          "evaluationTips": [
+            "Lesen Sie das Thema auf der Karte und formulieren Sie eine W-Frage: 'Urlaub' wird zu 'Wohin fahren Sie im Urlaub?'",
+            "Wenn der Prüfer zurückfragt ('Und du?'), antworten Sie mit einem vollständigen Satz und gern mit einer kurzen Begründung.",
+            "Verwenden Sie 'Sie' (formell) für den Prüfer, solange nicht anders gesagt.",
+            "Es ist normal, kurz nachzudenken. 'Moment, bitte...' ist kein Fehler und wirkt ruhig und kompetent."
+          ],
+          "keyPhrases": [
+            "Wohin fahren Sie im Urlaub?",
+            "Wie kommen Sie zur Arbeit / zum Bahnhof?",
+            "Was ist Ihre Lieblingsstadt?",
+            "Ich fahre nach ... / Ich fliege nach ...",
+            "Ich fahre mit dem Zug / Bus / Fahrrad / Auto.",
+            "Meine Lieblingsstadt ist ..."
+          ]
+        }
+      ]
+    }
   }
 }
