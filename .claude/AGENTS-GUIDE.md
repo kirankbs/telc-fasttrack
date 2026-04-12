@@ -34,7 +34,12 @@
 
 ---
 
-## The Team (10 agents)
+## The Team (13 agents)
+
+### Orchestration Layer — coordinate and sign off
+| Agent | Role | Model | When to use |
+|-------|------|-------|-------------|
+| `product-owner` | AC contracts + post-implementation sign-off | opus | Before any coding (write AC), after CI green (sign-off), to triage issues, or to query backlog |
 
 ### Research Layer — find what to build and why
 | Agent | Role | Model | When to use |
@@ -52,7 +57,9 @@
 ### Build Layer — create the product
 | Agent | Role | Model | When to use |
 |-------|------|-------|-------------|
-| `implementation-lead` | Staff Expo/RN mobile engineer | sonnet | Building features, implementing mock exam content, fixing bugs |
+| `implementation-lead` | Staff Expo/RN mobile engineer (web: Phase 2) | sonnet | Building features, implementing mock exam content, fixing bugs. Stays in CI loop, writes handoff. |
+| `ux-engineer` | Senior UX/Frontend engineer — responsive design | sonnet | scope:ux issues: exam interface, score reports, timer UX. Design-brief mode (called by PO) or implement mode. |
+| `visual-asset-designer` | SVG diagrams, React components, image-gen prompts | sonnet | Grammar diagrams, exam structure charts, level visualizations, score breakdown assets |
 | `audio-designer` | TTS specialist (Google Cloud WaveNet) | sonnet | SSML scripting, audio pipeline, audio coverage audits |
 
 ### Ops Layer — keep everything tight
@@ -60,16 +67,44 @@
 |-------|------|-------|-------------|
 | `spec-tracker` | Technical writer | sonnet | After any code change (auto in deep-work); bootstrap specs from scratch |
 | `exam-tester` | QA engineer + German learner dual persona | sonnet | After implementation; 10 content checks + TypeScript + Jest |
-| `product-designer` | UX + exam anxiety specialist | sonnet | New screens, gamification mechanics, score report, timer UX |
+| `product-designer` | UX + exam anxiety specialist | sonnet | New screens, gamification mechanics, score report, timer UX — design direction only |
+
+---
+
+## Orchestration Gate
+
+**Before any coding task:**
+1. Confirm GitHub issue exists and is In Progress on the project board
+2. `product-owner` writes AC as issue comment (if missing)
+3. Dispatch `ux-engineer` (for `scope:ux`) or `implementation-lead` (everything else)
+4. Wait for CI green + handoff file
+5. `product-owner` sign-off — BLOCKING before starting next item
+
+**The orchestrator never writes code directly.** Exception: user says "ad-hoc".
+
+---
+
+## Additional Triggers (new agents)
+
+| You say | Agent | What happens |
+|---------|-------|-------------|
+| "write AC for issue #N" | `product-owner` | Pre-implementation mode: writes acceptance contract + posts to issue |
+| "sign off on PR #N" | `product-owner` | Post-implementation mode: checks CI, runs gates, creates showcase file |
+| "refine issues" / "triage backlog" | `product-owner` | Refinement mode: labels + AC for all untracked issues |
+| "what's in the backlog?" | `product-owner` | Backlog query: reads project board, shows by priority with AC status |
+| "design UI for issue #N" | `ux-engineer` | Design-brief mode: writes visual AC for scope:ux issue |
+| "implement UX for issue #N" | `ux-engineer` | Implement mode: builds UI, stays in CI loop, writes handoff |
+| "create diagram for grammar topic X" | `visual-asset-designer` | Generate mode: creates SVG or React component |
+| "audit missing visuals" | `visual-asset-designer` | Audit mode: reports what visual assets are missing |
 
 ---
 
 ## Deep Work Session Flow
 
 ```
-STRATEGIZE → RESEARCH → DESIGN → IMPLEMENT + AUDIO → QUALITY GATE → TEST → REVIEW → RETROSPECT
-     ↑                                                                                        |
-     +----------------------------------------------------------------------------------------+
+ISSUE → PO AC → STRATEGIZE → RESEARCH → DESIGN → IMPLEMENT + AUDIO → QUALITY GATE → TEST → PO SIGN-OFF → RETROSPECT
+  ↑                                                                                                              |
+  +--------------------------------------------------------------------------------------------------------------+
 ```
 
 - **STRATEGIZE** (cycle 1 only): `content-strategist` reads roadmap, outputs prioritized build list

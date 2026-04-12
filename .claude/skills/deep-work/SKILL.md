@@ -69,10 +69,31 @@ All agents registered in `.claude/agents/`. Dispatch by name using the Agent too
 Each cycle follows this sequence. Run as many cycles as possible.
 
 ```
-STRATEGIZE → RESEARCH → DESIGN → IMPLEMENT + AUDIO → QUALITY GATE → TEST → REVIEW → RETROSPECT
-     ↑                                                                                        |
-     +----------------------------------------------------------------------------------------+
+ISSUE + AC → STRATEGIZE → RESEARCH → DESIGN → IMPLEMENT + AUDIO → QUALITY GATE → TEST → CI LOOP → PO SIGN-OFF → RETROSPECT
+      ↑                                                                                                                    |
+      +--------------------------------------------------------------------------------------------------------------------+
 ```
+
+---
+
+### Phase: ISSUE + AC (before every build cycle)
+
+Before dispatching any implementation work:
+
+1. **Confirm a GitHub issue exists** for each item to build. If not, create one:
+   ```bash
+   gh issue create --title "Title" --label "content,scope:content,P2"
+   gh project item-add <PROJECT_NUMBER> --owner kirankbs \
+     --url "https://github.com/kirankbs/telc-fasttrack/issues/N" --format json
+   ```
+
+2. **Confirm AC exists** on each issue:
+   ```bash
+   gh issue view N --json comments --jq '.comments[].body' | grep -q "Acceptance Criteria"
+   ```
+   If no AC → dispatch `product-owner` in pre-implementation mode. Do NOT dispatch implementation-lead without AC.
+
+3. **Move issue to In Progress** on the project board.
 
 ---
 
@@ -137,17 +158,19 @@ If the feature has significant UX implications (new screen, gamification mechani
 Dispatch two agents in parallel:
 
 1. **`implementation-lead`** as FOREGROUND with:
+   - The issue number and AC comment URL
    - The mock designs from DESIGN phase (full spec)
    - Files to create or modify
    - Instruction to read `src/types/exam.ts` and existing mocks first
    - Reminder: every question needs `explanation` field; audio references must follow path convention
+   - It will stay in CI loop and write handoff before returning — do not prompt it to finish early
 
 2. **`audio-designer`** as BACKGROUND with:
    - The voice assignment plan from DESIGN phase
    - `mode=generate-ssml` — create SSML scripts for the mock's listening section
    - Target mock IDs
 
-Wait for `implementation-lead` to complete before advancing to QUALITY GATE. Audio designer can finish during the gate — its output (SSML scripts) feeds the session report.
+Wait for `implementation-lead` to complete before advancing to QUALITY GATE. implementation-lead only returns when CI is green and the handoff file is written. Audio designer can finish during the gate.
 
 ---
 
@@ -203,6 +226,30 @@ Dispatch `exam-tester` with:
 
 Layer A (10 content checks) runs first. Layer A FAIL blocks Layer B.
 Report all failures with file paths and error messages. Do not suppress.
+
+---
+
+### Phase: PO SIGN-OFF (BLOCKING — after every PR)
+
+After implementation-lead returns with CI-green PR:
+
+Dispatch `product-owner` in sign-off mode:
+- `contract_path`: the AC contract for this issue
+- `pr_number`: the PR number from implementation-lead's handoff
+- `handoff`: path to implementation-lead's handoff file
+
+`product-owner` will:
+- Verify CI is green
+- Run exam-tester (Layer A + B) for content PRs
+- Check acceptance criteria
+- Route specialist reviewers (pedagogy-director, language-checker if content changed)
+- Create showcase file in `.planning/showcases/`
+- Post sign-off comment on issue
+- Move issue to Done on project board
+
+**BLOCKING: Do not start the next work item until PO sign-off is APPROVED.**
+
+If sign-off is PENDING: return to implementation-lead with the list of failing criteria. Fix, re-push, re-run sign-off.
 
 ---
 
