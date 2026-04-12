@@ -5,7 +5,7 @@ description: "Telc-FastTrack autonomous build sessions with a 10-agent virtual t
 
 # Telc-FastTrack — Deep Work
 
-Autonomous build sessions for the telc-fasttrack app. Orchestrates a 10-agent virtual team across research, quality, build, and ops layers to grow the mock exam library, build features, and improve content quality without requiring the user to be present.
+Autonomous build sessions for the telc-fasttrack app. Orchestrates a 13-agent virtual team across orchestration, research, quality, build, and ops layers to grow the mock exam library, build web features, and improve content quality without requiring the user to be present.
 
 ## Quick Reference
 
@@ -36,6 +36,11 @@ When the user says something matching a standalone trigger outside a `/deep-work
 
 All agents registered in `.claude/agents/`. Dispatch by name using the Agent tool.
 
+### Orchestration
+| Agent | Model | Job |
+|-------|-------|-----|
+| `product-owner` | opus | AC contracts before code, sign-off after code, issue triage, backlog queries |
+
 ### Research Layer
 | Agent | Model | Job |
 |-------|-------|-----|
@@ -52,14 +57,16 @@ All agents registered in `.claude/agents/`. Dispatch by name using the Agent too
 ### Build Layer
 | Agent | Model | Job |
 |-------|-------|-----|
-| `implementation-lead` | sonnet | Builds features, implements mock exam content, scaffolds screens/services/components. |
+| `implementation-lead` | sonnet | Fullstack build: 7-phase workflow with CI loop. Web-first, monorepo-aware. |
+| `ux-engineer` | sonnet | Responsive web UI, Tailwind CSS 4, WCAG 2.1 AA, visual hierarchy. Web scope only. |
 | `audio-designer` | sonnet | SSML scripting, WaveNet voice assignments, audio pipeline commands. |
+| `visual-asset-designer` | sonnet | SVG diagrams, React visual components, progress charts, exam structure visuals. |
 
 ### Ops Layer
 | Agent | Model | Job |
 |-------|-------|-----|
 | `spec-tracker` | sonnet | Bootstrap and sync `specs/` directory. Preserves UX rationale. |
-| `exam-tester` | sonnet | Layer A: 10 content checks. Layer B: TypeScript + Jest. Layer A blocks Layer B. |
+| `exam-tester` | sonnet | Layer A: 10 content checks. Layer B: TypeScript + tests. Layer A blocks Layer B. |
 | `product-designer` | sonnet | Timer UX, score reports, study plan, readiness gauge. Design direction only — no code. |
 
 ---
@@ -98,10 +105,10 @@ Dispatch `exam-researcher` in the BACKGROUND with:
 - Check `.planning/research/` for existing files at this level: if found, pass paths and investigate gaps only; if not found, do full 5-stream broad research
 
 While research runs in the background, explore the codebase:
-- Read `assets/content/{level}/` — understand current mock state
-- Read `src/types/exam.ts` — understand MockExam interface
-- Read `src/components/exam/` — understand existing question renderers
-- Read `src/services/scoringEngine.ts` — understand scoring logic if it exists
+- Read `apps/mobile/assets/content/{level}/` — understand current mock state
+- Read `packages/types/src/exam.ts` — understand MockExam interface
+- Read `apps/web/src/components/` — understand existing web components
+- Read `packages/core/src/scoring.ts` — understand scoring logic
 
 **Later cycles (targeted):**
 Only dispatch `exam-researcher` if RETROSPECT generated specific research questions. Pass with `mode=targeted`. If RETROSPECT produced no new questions, skip directly to DESIGN.
@@ -336,17 +343,27 @@ git push origin <branch>
 
 ## Project Context
 
-**Stack:** Expo SDK 52+ / React Native / TypeScript / expo-router / expo-sqlite / React Context + useReducer / react-native-reanimated
+**Stack:** pnpm monorepo + Turborepo. Web: Next.js 15 / React 19 / Tailwind CSS 4 (primary). Mobile: Expo SDK 54 / React Native 0.81 (secondary).
 
-**Content:** `assets/content/{level}/mock_XX.json` — MockExam interface from `src/types/exam.ts`
+**Shared packages:**
+- `@telc/types` — MockExam interfaces (`packages/types/src/exam.ts`)
+- `@telc/core` — scoring engine, SM-2, timer (`packages/core/src/`)
+- `@telc/config` — design tokens (`packages/config/src/theme.ts`)
+- `@telc/content` — exam catalog, validation (`packages/content/src/`)
 
-**Audio:** `assets/audio/{level}/mockXX/` — pre-generated MP3s via Google Cloud WaveNet
+**Web app:** `apps/web/` — Next.js 15 App Router, Tailwind CSS 4, responsive
 
-**Vocabulary:** `src/data/vocabulary/{level}_vocabulary.json`
+**Mobile app:** `apps/mobile/` — Expo SDK 54, expo-router, expo-sqlite
 
-**Grammar:** `src/data/grammar/{level}_grammar.json`
+**Content:** `apps/mobile/assets/content/{level}/mock_XX.json` — MockExam interface from `packages/types/src/exam.ts`
 
-**DB schema:** `src/services/database.ts` (8 tables: user_settings, user_levels, exam_attempts, question_responses, vocabulary, grammar_topics, study_sessions, streaks, bookmarks)
+**Audio:** `apps/mobile/assets/audio/{level}/mockXX/` — pre-generated MP3s via Google Cloud WaveNet
+
+**Vocabulary:** `apps/mobile/src/data/vocabulary/{level}_vocabulary.json`
+
+**Grammar:** `apps/mobile/src/data/grammar/{level}_grammar.json`
+
+**DB schema:** `apps/mobile/src/services/database.ts` (8 tables)
 
 **Mock exam ID format:** `A1_mock_01` through `A1_mock_10`
 
@@ -356,16 +373,20 @@ git push origin <branch>
 
 **Key planning files:**
 - `.planning/content-roadmap.md` — living priorities
-- `.planning/research/{level}-{topic}-{date}.md` — research output
+- `.planning/ACTIVITY-LOG.md` — append-only agent activity log
+- `.planning/research/` — research output from exam-researcher
 - `.planning/session-reports/` — historical session reports
 - `.planning/audio-prompts/` — SSML scripts
+- `.planning/handoffs/` — implementation completion notes
+- `.planning/showcases/` — product-owner sign-off records
 
 **Spec location:** `specs/` (bootstrapped by spec-tracker)
 
 **Test commands:**
 ```bash
-npx tsc --noEmit
-npx jest --no-cache --forceExit
+pnpm typecheck         # typecheck all packages
+pnpm test              # run all tests
+pnpm test:e2e          # Playwright E2E (when infrastructure exists)
 ```
 
 **Git workflow:** Never run `git add`, `git commit`, or `git push`. Always output the full command block for the user to execute.

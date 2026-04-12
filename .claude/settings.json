@@ -1,3 +1,26 @@
 {
-  "model": "opusplan"
+  "model": "opusplan",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '{\"hookSpecificOutput\": {\"hookEventName\": \"UserPromptSubmit\", \"additionalContext\": \"ORCHESTRATION GATE: Before touching any file, check — did the user say \\\"ad-hoc\\\" in this message? If not, you MUST dispatch implementation-lead. Directly editing .ts/.tsx/.json/.css/.md source files = protocol violation. EXEMPT (edit directly): .planning/ files, .claude/ files, CLAUDE.md, tooling config. Correct flow: 1) confirm GitHub issue in-progress on project board, 2) run product-owner for AC if missing, 3) dispatch implementation-lead (or ux-engineer for scope:ux) with issue number + AC + branch name. Only return when CI is green and handoff file is written.\"}}'"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "CMD=$(jq -r '.tool_input.command // empty' 2>/dev/null); if echo \"$CMD\" | grep -qE '(git push|gh pr create)'; then DIRTY=$(git status --porcelain 2>/dev/null | grep -E '^\\?\\?| M' | grep -E '(\\.planning/|\\.claude/|specs/)'); if [ -n \"$DIRTY\" ]; then printf '{\"hookSpecificOutput\":{\"hookEventName\":\"PreToolUse\",\"permissionDecision\":\"block\",\"permissionDecisionReason\":\"Planning artifacts not staged before push. Stage .planning/ .claude/ specs/ files first.\"}}'; fi; fi"
+          }
+        ]
+      }
+    ]
+  }
 }
