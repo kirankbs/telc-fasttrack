@@ -1,0 +1,201 @@
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören fünf kurze Texte. Zu jedem Text gibt es eine Aufgabe.
+      Kreuzen Sie an: richtig oder falsch.
+      Sie hören jeden Text zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Question 1: Der Zug nach München fährt um 14:30 Uhr ab. (FALSCH — fährt um 15:10) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Achtung, eine Durchsage auf Gleis sieben.
+      Der ICE siebenhundertvierundzwanzig nach München
+      fährt heute um fünfzehn Uhr zehn von Gleis sieben ab.
+      Bitte beachten Sie die Verspätung von vierzig Minuten.
+      Wir bitten um Ihr Verständnis.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Achtung, eine Durchsage auf Gleis sieben.
+      Der ICE siebenhundertvierundzwanzig nach München
+      fährt heute um fünfzehn Uhr zehn von Gleis sieben ab.
+      Bitte beachten Sie die Verspätung von vierzig Minuten.
+      Wir bitten um Ihr Verständnis.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 2: Die Bibliothek ist am Samstag geschlossen. (FALSCH — Sa 10-16 Uhr offen) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Willkommen bei der Stadtbibliothek. Unsere Öffnungszeiten:
+      Montag bis Freitag von neun bis neunzehn Uhr.
+      Samstag von zehn bis sechzehn Uhr.
+      Sonntag ist die Bibliothek geschlossen.
+      Für weitere Informationen besuchen Sie unsere Website.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Willkommen bei der Stadtbibliothek. Unsere Öffnungszeiten:
+      Montag bis Freitag von neun bis neunzehn Uhr.
+      Samstag von zehn bis sechzehn Uhr.
+      Sonntag ist die Bibliothek geschlossen.
+      Für weitere Informationen besuchen Sie unsere Website.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 3: Die Lehrerin kommt heute nicht in die Schule. (RICHTIG — Frau Wagner krank) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hallo, hier ist Frau Wagner.
+      Ich bin heute leider krank und kann nicht in die Schule kommen.
+      Der Unterricht für Klasse drei b fällt heute aus.
+      Bitte informieren Sie die Eltern.
+      Vielen Dank und auf Wiederhören.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hallo, hier ist Frau Wagner.
+      Ich bin heute leider krank und kann nicht in die Schule kommen.
+      Der Unterricht für Klasse drei b fällt heute aus.
+      Bitte informieren Sie die Eltern.
+      Vielen Dank und auf Wiederhören.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 4: Der Supermarkt hat heute bis 22 Uhr geöffnet. (RICHTIG) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Liebe Kundinnen und Kunden,
+      heute haben wir bis zweiundzwanzig Uhr für Sie geöffnet —
+      eine Stunde länger als gewöhnlich.
+      Nutzen Sie diese Gelegenheit für Ihre Einkäufe.
+      Wir freuen uns auf Ihren Besuch.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Liebe Kundinnen und Kunden,
+      heute haben wir bis zweiundzwanzig Uhr für Sie geöffnet —
+      eine Stunde länger als gewöhnlich.
+      Nutzen Sie diese Gelegenheit für Ihre Einkäufe.
+      Wir freuen uns auf Ihren Besuch.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 5: Das Konzert findet im Park statt. (FALSCH — in der Stadthalle) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Eine Ankündigung zum Sommerkonzert:
+      Das Sommerkonzert findet dieses Jahr leider nicht im Park statt,
+      sondern in der Stadthalle in der Beethovenstraße zwölf.
+      Einlass ist um achtzehn Uhr, Beginn um neunzehn Uhr.
+      Karten sind an der Abendkasse erhältlich.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Eine Ankündigung zum Sommerkonzert:
+      Das Sommerkonzert findet dieses Jahr leider nicht im Park statt,
+      sondern in der Stadthalle in der Beethovenstraße zwölf.
+      Einlass ist um achtzehn Uhr, Beginn um neunzehn Uhr.
+      Karten sind an der Abendkasse erhältlich.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

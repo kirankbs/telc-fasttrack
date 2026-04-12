@@ -1,0 +1,120 @@
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Teil 3.
+      <break time="1s"/>
+      Sie hören drei Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.
+      <break time="2s"/>
+    </prosody>
+  </voice>
+
+  <!-- Question 1: Maria ruft an um Termin zu vereinbaren -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Praxis Dr. Hoffmann, guten Tag!
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Tag. Hier ist Maria Sommer.
+      Ich möchte gern einen Termin machen —
+      für nächste Woche wenn möglich.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Natürlich, Frau Sommer. Wann passt es Ihnen?
+      Wir haben Dienstag um 14 Uhr oder Donnerstag um 9 Uhr.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Donnerstag um 9 Uhr ist perfekt, danke.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Gut, ich trage das ein. Bis Donnerstag, auf Wiederhören!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Question 2: Kurs in der Volkshochschule -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Entschuldigung, ich interessiere mich für den Sprachkurs Englisch.
+      Wo findet der Kurs statt?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Der Kurs findet hier bei uns in der Volkshochschule statt —
+      Zimmer 3 im Erdgeschoss.
+      Wir sind dienstags und donnerstags ab 18 Uhr.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Nicht online? Ich dachte, der Kurs wäre vielleicht online.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Nein, wir treffen uns persönlich. Das macht mehr Spaß, finden wir.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Question 3: Mann bestellt Wasser -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag! Was möchten Sie trinken?
+      Wir haben Orangensaft, Wasser, Bier, Wein...
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ich nehme nur ein Wasser, bitte — still.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Kein Orangensaft? Der ist heute frisch gepresst.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Nein danke, nur Wasser. Ich fahre noch Auto heute.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Natürlich, gerne. Ich bringe es sofort.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende des Hörtests.</prosody>
+  </voice>
+</speak>

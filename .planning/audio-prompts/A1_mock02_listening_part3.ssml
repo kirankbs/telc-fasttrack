@@ -1,0 +1,123 @@
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Teil 3.
+      <break time="1s"/>
+      Sie hören drei Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.
+      <break time="2s"/>
+    </prosody>
+  </voice>
+
+  <!-- Question 1: Anna am Samstag -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Hallo Anna! Was machst du eigentlich am Samstag?
+      Wir gehen ins Kino — kommst du mit?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Oh, das klingt schön, aber ich habe schon etwas vor.
+      Am Samstag fahre ich mit meiner Familie an den See —
+      wir machen einen Tagesausflug, wenn das Wetter gut ist.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das ist eine tolle Idee! Welcher See?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Zum Starnberger See — wir fahren morgens früh los.
+      Aber nächstes Wochenende gerne Kino!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Question 2: Mittagessen im Restaurant -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Entschuldigung, was kostet das Mittagsmenü?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Der Mittagstisch kostet 8 Euro 50 —
+      das ist Suppe und Hauptgericht.
+      Getränke sind extra.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Und was gibt es heute als Hauptgericht?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Heute haben wir Hähnchen mit Kartoffeln oder Pasta mit Tomatensoße.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Gut, ich nehme das Mittagsmenü bitte.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Question 3: Peter fährt nach Italien -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Peter, wohin fährst du dieses Jahr in den Urlaub?
+      Letztes Jahr warst du in Österreich, oder?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, genau. Aber dieses Jahr fahre ich nach Italien —
+      nach Rom und Florenz. Ich freue mich schon sehr!
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Oh, wie schön! Ich wollte eigentlich nach Spanien,
+      aber das klappt dieses Jahr nicht.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Spanien ist auch toll. Aber ich wollte schon immer die Museen in Florenz sehen.
+      Wir bleiben zwei Wochen.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Das klingt wunderbar. Viel Spaß!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende des Hörtests.</prosody>
+  </voice>
+</speak>

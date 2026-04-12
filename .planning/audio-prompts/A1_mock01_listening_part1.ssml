@@ -1,0 +1,164 @@
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 1. Sie hören drei kurze Texte. Zu jedem Text gibt es eine Aufgabe.
+      Welches Bild passt? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Question 1: Was kauft Frau Bauer im Supermarkt? -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hallo, ich bin Frau Bauer. Ich bin heute im Supermarkt.
+      Ich brauche Äpfel und Bananen für den Fruchtsalat.
+      Wo finde ich das Obst, bitte?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das Obst finden Sie dort drüben, in Gang drei.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Vielen Dank!</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Repeat instruction -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hallo, ich bin Frau Bauer. Ich bin heute im Supermarkt.
+      Ich brauche Äpfel und Bananen für den Fruchtsalat.
+      Wo finde ich das Obst, bitte?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das Obst finden Sie dort drüben, in Gang drei.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Vielen Dank!</prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 2: Wie ist das Wetter heute in Hamburg? -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Und jetzt der Wetterbericht für Norddeutschland.
+      In Hamburg regnet es heute den ganzen Tag.
+      Die Temperaturen liegen bei etwa zwölf Grad.
+      Nehmen Sie also Ihren Regenschirm mit!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Und jetzt der Wetterbericht für Norddeutschland.
+      In Hamburg regnet es heute den ganzen Tag.
+      Die Temperaturen liegen bei etwa zwölf Grad.
+      Nehmen Sie also Ihren Regenschirm mit!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 3: Wo ist das Kino? -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Entschuldigung, wo ist das Kino, bitte?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das Kino? Das ist direkt gegenüber der Post.
+      Sie sehen es, wenn Sie aus dem Postamt herausgehen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Gegenüber der Post. Okay, danke schön!
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Bitte sehr!</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Entschuldigung, wo ist das Kino, bitte?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das Kino? Das ist direkt gegenüber der Post.
+      Sie sehen es, wenn Sie aus dem Postamt herausgehen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Gegenüber der Post. Okay, danke schön!
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Bitte sehr!</prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 1.</prosody>
+  </voice>
+</speak>

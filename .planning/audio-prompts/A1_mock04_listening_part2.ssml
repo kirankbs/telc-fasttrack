@@ -1,0 +1,193 @@
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Teil 2.
+      <break time="1s"/>
+      Sie hören fünf kurze Texte. Zu jedem Text gibt es eine Aufgabe. Kreuzen Sie an: richtig oder falsch. Sie hören jeden Text zweimal.
+      <break time="2s"/>
+    </prosody>
+  </voice>
+
+  <!-- Question 1: Museum am Montag geschlossen -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Willkommen im Stadtmuseum.
+      Das Stadtmuseum ist dienstags bis sonntags von 10 bis 18 Uhr geöffnet.
+      Montag ist unser Ruhetag — wir sind dann geschlossen.
+      Der Eintritt kostet 6 Euro, ermäßigt 4 Euro.
+      Wir freuen uns auf Ihren Besuch!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Willkommen im Stadtmuseum.
+      Das Stadtmuseum ist dienstags bis sonntags von 10 bis 18 Uhr geöffnet.
+      Montag ist unser Ruhetag — wir sind dann geschlossen.
+      Der Eintritt kostet 6 Euro, ermäßigt 4 Euro.
+      Wir freuen uns auf Ihren Besuch!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 2: U-Bahn kommt in 8 Minuten -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Achtung an Bahnsteig 3.
+      Die nächste U2 Richtung Innenstadt kommt in 8 Minuten.
+      Bitte warten Sie hinter der Sicherheitslinie.
+      Nächste Station: Hauptbahnhof.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Achtung an Bahnsteig 3.
+      Die nächste U2 Richtung Innenstadt kommt in 8 Minuten.
+      Bitte warten Sie hinter der Sicherheitslinie.
+      Nächste Station: Hauptbahnhof.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 3: Treffen im Konferenzraum, nicht im Büro -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hallo, hier ist Sabine Lang.
+      Ich rufe wegen des Meetings am Donnerstag an.
+      Das Treffen findet nicht in meinem Büro statt,
+      sondern im Konferenzraum 2 im zweiten Stock.
+      Bitte sagen Sie das auch den anderen Kollegen.
+      Vielen Dank und bis Donnerstag!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hallo, hier ist Sabine Lang.
+      Ich rufe wegen des Meetings am Donnerstag an.
+      Das Treffen findet nicht in meinem Büro statt,
+      sondern im Konferenzraum 2 im zweiten Stock.
+      Bitte sagen Sie das auch den anderen Kollegen.
+      Vielen Dank und bis Donnerstag!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 4: Kleidungsgeschäft hat Ausverkauf -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Mode Müller — heute großer Ausverkauf!
+      Alles bis zu 50 Prozent reduziert, nur heute!
+      Jacken, Hosen, Kleider — alles muss raus!
+      Kommen Sie vorbei — wir haben bis 20 Uhr geöffnet.
+      Mode Müller in der Bahnhofstraße 12.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Mode Müller — heute großer Ausverkauf!
+      Alles bis zu 50 Prozent reduziert, nur heute!
+      Jacken, Hosen, Kleider — alles muss raus!
+      Kommen Sie vorbei — wir haben bis 20 Uhr geöffnet.
+      Mode Müller in der Bahnhofstraße 12.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 5: Bus 7 fährt am Sonntag mit reduziertem Fahrplan -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Informationen zur Buslinie 7.
+      Linie 7 fährt täglich, auch an Sonn- und Feiertagen —
+      jedoch mit reduziertem Fahrplan.
+      Am Sonntag fahren die Busse seltener,
+      alle 30 Minuten statt alle 15 Minuten.
+      Aktuelle Fahrpläne finden Sie an den Haltestellen.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Informationen zur Buslinie 7.
+      Linie 7 fährt täglich, auch an Sonn- und Feiertagen —
+      jedoch mit reduziertem Fahrplan.
+      Am Sonntag fahren die Busse seltener,
+      alle 30 Minuten statt alle 15 Minuten.
+      Aktuelle Fahrpläne finden Sie an den Haltestellen.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

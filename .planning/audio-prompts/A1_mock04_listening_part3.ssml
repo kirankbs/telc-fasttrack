@@ -1,0 +1,126 @@
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Teil 3.
+      <break time="1s"/>
+      Sie hören drei Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.
+      <break time="2s"/>
+    </prosody>
+  </voice>
+
+  <!-- Question 1: Sophie kann nicht zur Party, muss arbeiten -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Hallo Sophie! Freust du dich schon auf die Party am Samstag?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Oh, Tom, ich kann leider nicht kommen.
+      Ich muss am Samstag arbeiten —
+      mein Chef hat mich kurzfristig eingeplant.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das ist schade! Bist du krank oder so?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Nein, nein, mir geht es gut. Ich muss einfach arbeiten, leider.
+      Tut mir leid, sag den anderen bitte Hallo von mir.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Mach ich. Vielleicht beim nächsten Mal!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Question 2: Reservierung für 6 Personen -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Abend! Willkommen im Restaurant Zur Linde.
+      Haben Sie eine Reservierung?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, ich habe für 6 Personen reserviert — auf den Namen Müller.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Einen Moment bitte... Müller, 6 Personen — ja, ich habe es.
+      Bitte folgen Sie mir, Ihr Tisch ist dort hinten.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Danke schön. Wir sind noch nicht alle da, die anderen kommen gleich.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Kein Problem, nehmen Sie schon Platz!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Question 3: Frau kauft Tageskarte -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag! Was darf es sein?
+      Eine Einzelfahrt, eine Tageskarte oder eine Monatskarte?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Hm, was kostet die Monatskarte?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Die Monatskarte kostet 79 Euro.
+      Die Tageskarte ist 8 Euro 50 und die Einzelfahrt 3 Euro.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ich nehme eine Tageskarte bitte —
+      ich fahre heute den ganzen Tag in der Stadt.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Sehr gern. Das macht 8 Euro 50.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende des Hörtests.</prosody>
+  </voice>
+</speak>

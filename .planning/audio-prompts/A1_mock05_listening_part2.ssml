@@ -1,0 +1,189 @@
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Teil 2.
+      <break time="1s"/>
+      Sie hören fünf kurze Texte. Zu jedem Text gibt es eine Aufgabe. Kreuzen Sie an: richtig oder falsch. Sie hören jeden Text zweimal.
+      <break time="2s"/>
+    </prosody>
+  </voice>
+
+  <!-- Question 1: Yogakurs am Montag fällt aus -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Achtung, eine wichtige Mitteilung des Gemeindezentrums.
+      Der Yogakurs am Montagabend muss leider ausfallen.
+      Die Kursleiterin ist erkrankt.
+      Wir informieren Sie rechtzeitig über den neuen Termin.
+      Wir danken für Ihr Verständnis.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Achtung, eine wichtige Mitteilung des Gemeindezentrums.
+      Der Yogakurs am Montagabend muss leider ausfallen.
+      Die Kursleiterin ist erkrankt.
+      Wir informieren Sie rechtzeitig über den neuen Termin.
+      Wir danken für Ihr Verständnis.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 2: Neue Buslinie 42 fährt zum Bahnhof -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Gute Nachrichten für alle Fahrgäste!
+      Ab Montag gibt es die neue Buslinie 42.
+      Sie fährt vom Marktplatz direkt zum Hauptbahnhof.
+      Die Linie fährt täglich von 6 bis 22 Uhr, alle 20 Minuten.
+      Nutzen Sie das neue Angebot!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Gute Nachrichten für alle Fahrgäste!
+      Ab Montag gibt es die neue Buslinie 42.
+      Sie fährt vom Marktplatz direkt zum Hauptbahnhof.
+      Die Linie fährt täglich von 6 bis 22 Uhr, alle 20 Minuten.
+      Nutzen Sie das neue Angebot!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 3: Bibliothek am Montag geschlossen -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hier ist die Stadtbibliothek.
+      Bitte beachten Sie: Die Stadtbibliothek bleibt am Montag geschlossen.
+      Ab Dienstag sind wir wieder wie gewohnt von 10 bis 18 Uhr für Sie da.
+      Vielen Dank für Ihr Verständnis!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hier ist die Stadtbibliothek.
+      Bitte beachten Sie: Die Stadtbibliothek bleibt am Montag geschlossen.
+      Ab Dienstag sind wir wieder wie gewohnt von 10 bis 18 Uhr für Sie da.
+      Vielen Dank für Ihr Verständnis!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 4: Schwimmkurs beginnt um 15 Uhr -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Bitte beachten Sie folgende Änderung:
+      Der Schwimmkurs für Kinder beginnt heute um 15 Uhr,
+      nicht wie gewöhnlich um 14 Uhr.
+      Bitte bringen Sie Ihre Kinder entsprechend eine Stunde später.
+      Die Kursdauer bleibt gleich — 45 Minuten.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Bitte beachten Sie folgende Änderung:
+      Der Schwimmkurs für Kinder beginnt heute um 15 Uhr,
+      nicht wie gewöhnlich um 14 Uhr.
+      Bitte bringen Sie Ihre Kinder entsprechend eine Stunde später.
+      Die Kursdauer bleibt gleich — 45 Minuten.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 5: Parken am Wochenende kostenlos -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Gute Nachricht für alle Autofahrer:
+      Am Wochenende ist das Parken auf dem Marktparkplatz kostenlos.
+      Samstags und sonntags zahlen Sie nichts.
+      Werktags kostet das Parken 1 Euro 50 pro Stunde.
+      Wir wünschen einen angenehmen Aufenthalt in der Stadt!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Gute Nachricht für alle Autofahrer:
+      Am Wochenende ist das Parken auf dem Marktparkplatz kostenlos.
+      Samstags und sonntags zahlen Sie nichts.
+      Werktags kostet das Parken 1 Euro 50 pro Stunde.
+      Wir wünschen einen angenehmen Aufenthalt in der Stadt!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

@@ -1,0 +1,144 @@
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören drei Gespräche. Zu jedem Gespräch gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Question 1: Was möchte der Mann essen? (RICHTIG: c — Pizza) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Abend! Was darf es heute für Sie sein?
+      Ich empfehle die Tagessuppe — eine Tomatensuppe mit frischem Brot.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Danke, das klingt gut, aber ich nehme lieber die Pizza Margherita, bitte.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Sehr gerne. Eine Pizza Margherita. Möchten Sie etwas trinken dazu?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, ein Wasser, bitte.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Gerne. Einen Moment, bitte.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 2: Wie viel kostet das T-Shirt im Angebot? (RICHTIG: b — 18 Euro) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Entschuldigung, wie viel kostet dieses T-Shirt hier?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Das T-Shirt kostet achtzehn Euro, und das ist schon im Angebot —
+      normalerweise sind es fünfundzwanzig Euro.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Oh, das ist günstig! Haben Sie das auch in Blau?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, natürlich. Hier in Blau, Größe M. Soll ich es für Sie einpacken?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, ich nehme es. Danke!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 3: Wann treffen sich die zwei Freunde? (RICHTIG: b — Samstag um 19 Uhr) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hallo Jonas! Wir wollten uns diese Woche treffen. Wann passt es dir?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Hallo Lena! Freitag bin ich leider unterwegs. Können wir uns am Samstag treffen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, Samstag ist gut! Um achtzehn Uhr vielleicht?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Achtzehn Uhr ist ein bisschen früh für mich. Um neunzehn Uhr?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Super, neunzehn Uhr passt mir gut. Bis Samstag um neunzehn Uhr!
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Bis Samstag! Und Sonntag bin ich übrigens auch frei, falls du willst.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Nein, Samstag ist perfekt. Bis dann!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 3, und das Ende des Hörtests.</prosody>
+  </voice>
+</speak>

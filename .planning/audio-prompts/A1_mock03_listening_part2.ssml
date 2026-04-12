@@ -1,0 +1,187 @@
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Teil 2.
+      <break time="1s"/>
+      Sie hören fünf kurze Texte. Zu jedem Text gibt es eine Aufgabe. Kreuzen Sie an: richtig oder falsch. Sie hören jeden Text zweimal.
+      <break time="2s"/>
+    </prosody>
+  </voice>
+
+  <!-- Question 1: Deutschkurs nächsten Montag -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag! Hier ist das Sprachenzentrum.
+      Ihr Deutschkurs A1 beginnt nächsten Montag um 18 Uhr in Raum 12.
+      Bitte bringen Sie Stifte und ein Heft mit.
+      Wir freuen uns auf Sie!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag! Hier ist das Sprachenzentrum.
+      Ihr Deutschkurs A1 beginnt nächsten Montag um 18 Uhr in Raum 12.
+      Bitte bringen Sie Stifte und ein Heft mit.
+      Wir freuen uns auf Sie!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 2: Sporthalle am Wochenende geöffnet -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Sie haben die Sporthalle Mitte angerufen.
+      Unsere Halle ist montags bis sonntags von 8 bis 21 Uhr geöffnet —
+      auch am Wochenende und an Feiertagen.
+      Für Kurse und Hallenbelegung erreichen Sie uns unter dieser Nummer.
+      Wir freuen uns auf Ihren Besuch!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Sie haben die Sporthalle Mitte angerufen.
+      Unsere Halle ist montags bis sonntags von 8 bis 21 Uhr geöffnet —
+      auch am Wochenende und an Feiertagen.
+      Für Kurse und Hallenbelegung erreichen Sie uns unter dieser Nummer.
+      Wir freuen uns auf Ihren Besuch!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 3: Herr Richter kommt um 16:30 Uhr -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag, hier ist das Büro Müller.
+      Ich rufe wegen des Termins morgen an.
+      Herr Richter hat seinen Termin leider auf 16 Uhr 30 verschoben.
+      Er kann nicht um 15 Uhr kommen, es tut ihm leid.
+      Bitte rufen Sie zurück, falls das nicht passt.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag, hier ist das Büro Müller.
+      Ich rufe wegen des Termins morgen an.
+      Herr Richter hat seinen Termin leider auf 16 Uhr 30 verschoben.
+      Er kann nicht um 15 Uhr kommen, es tut ihm leid.
+      Bitte rufen Sie zurück, falls das nicht passt.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 4: Schwimmbad wegen Reinigung geschlossen -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Willkommen beim Hallenbad der Stadt.
+      Das Hallenbad ist heute wegen Reinigungsarbeiten geschlossen.
+      Wir öffnen wieder morgen um 7 Uhr.
+      Wir bitten um Ihr Verständnis und freuen uns auf Ihren Besuch morgen.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Willkommen beim Hallenbad der Stadt.
+      Das Hallenbad ist heute wegen Reinigungsarbeiten geschlossen.
+      Wir öffnen wieder morgen um 7 Uhr.
+      Wir bitten um Ihr Verständnis und freuen uns auf Ihren Besuch morgen.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 5: Bäckerei in der Hauptstraße -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Und jetzt eine Neuigkeit aus dem Viertel:
+      Die neue Bäckerei Sonnenschein hat in der Hauptstraße 45 geöffnet.
+      Frisches Brot und Brötchen gibt es täglich ab 6 Uhr morgens.
+      Die Bäckerei bietet auch Kuchen und Torten an.
+      Wir wünschen viel Erfolg!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Und jetzt eine Neuigkeit aus dem Viertel:
+      Die neue Bäckerei Sonnenschein hat in der Hauptstraße 45 geöffnet.
+      Frisches Brot und Brötchen gibt es täglich ab 6 Uhr morgens.
+      Die Bäckerei bietet auch Kuchen und Torten an.
+      Wir wünschen viel Erfolg!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

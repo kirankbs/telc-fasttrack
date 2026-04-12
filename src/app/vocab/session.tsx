@@ -4,14 +4,9 @@ import {
   Text,
   TouchableOpacity,
   ActivityIndicator,
-  ScrollView,
   StyleSheet,
+  Animated,
 } from 'react-native';
-import Animated, {
-  useSharedValue,
-  useAnimatedStyle,
-  withTiming,
-} from 'react-native-reanimated';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
@@ -86,24 +81,8 @@ export default function VocabSessionScreen() {
   const [cursor, setCursor] = useState(0);
   const [stats, setStats] = useState<SessionStats>({ totalSeen: 0, sumQuality: 0 });
 
-  // Card flip — rotateY 0 → 180 (front → back)
-  const flipProgress = useSharedValue(0);
-
-  const frontStyle = useAnimatedStyle(() => ({
-    transform: [{ rotateY: `${flipProgress.value}deg` }],
-    backfaceVisibility: 'hidden',
-  }));
-
-  const backStyle = useAnimatedStyle(() => ({
-    transform: [{ rotateY: `${flipProgress.value + 180}deg` }],
-    backfaceVisibility: 'hidden',
-  }));
-
-  // Progress bar width 0 → 1
-  const progressAnim = useSharedValue(0);
-  const progressBarStyle = useAnimatedStyle(() => ({
-    flex: progressAnim.value,
-  }));
+  // Progress bar — standard RN Animated (0 → 1 maps to 0% → 100% width)
+  const progressAnim = useRef(new Animated.Value(0)).current;
 
   // Lookup map: id → full VocabularyItem (for fields not in DB row)
   const vocabLookupRef = useRef<Map<number, VocabularyItem>>(
@@ -123,14 +102,13 @@ export default function VocabSessionScreen() {
       setQueue(cards);
       setCursor(0);
       setStats({ totalSeen: 0, sumQuality: 0 });
-      flipProgress.value = 0;
-      progressAnim.value = 0;
+      progressAnim.setValue(0);
       setPhase('front');
     } catch (err) {
       console.error('[VocabSession] load error:', err);
       setPhase('empty');
     }
-  }, [level, flipProgress, progressAnim]);
+  }, [level, progressAnim]);
 
   useEffect(() => {
     loadQueue();
@@ -147,7 +125,6 @@ export default function VocabSessionScreen() {
   }, [phase, cursor, queue]);
 
   function handleShowAnswer() {
-    flipProgress.value = withTiming(180, { duration: FLIP_DURATION });
     setPhase('back');
   }
 
@@ -193,15 +170,12 @@ export default function VocabSessionScreen() {
       setQueue(nextQueue);
       setCursor(nextCursor);
       setPhase('done');
-      progressAnim.value = withTiming(1, { duration: FLIP_DURATION });
+      Animated.timing(progressAnim, { toValue: 1, duration: FLIP_DURATION, useNativeDriver: false }).start();
       return;
     }
 
     const newProgress = nextCursor / nextQueue.length;
-    progressAnim.value = withTiming(newProgress, { duration: FLIP_DURATION });
-
-    // Reset flip for next card before showing it
-    flipProgress.value = withTiming(0, { duration: FLIP_DURATION });
+    Animated.timing(progressAnim, { toValue: newProgress, duration: FLIP_DURATION, useNativeDriver: false }).start();
 
     setQueue(nextQueue);
     setCursor(nextCursor);
@@ -300,41 +274,51 @@ export default function VocabSessionScreen() {
 
       {/* Progress bar */}
       <View style={styles.progressTrack}>
-        <Animated.View style={[styles.progressFill, progressBarStyle]} />
+        <Animated.View
+          style={[
+            styles.progressFill,
+            {
+              width: progressAnim.interpolate({
+                inputRange: [0, 1],
+                outputRange: ['0%', '100%'],
+              }),
+            },
+          ]}
+        />
       </View>
       <Text style={styles.progressPercent}>
         {Math.round((cursor / totalCards) * 100)}%
       </Text>
 
-      {/* Card flip container */}
+      {/* Card container — front/back toggled by phase */}
       <View style={styles.cardContainer}>
-        {/* Front face */}
-        <Animated.View style={[styles.card, styles.cardAbsolute, frontStyle]}>
-          <View style={styles.topicBadge}>
-            <Text style={styles.topicBadgeText}>{card.topic}</Text>
+        {phase === 'front' ? (
+          <View style={[styles.card, styles.cardAbsolute]}>
+            <View style={styles.topicBadge}>
+              <Text style={styles.topicBadgeText}>{card.topic}</Text>
+            </View>
+            <Text style={styles.germanWord}>{card.german}</Text>
+            {card.plural ? (
+              <Text style={styles.pluralText}>({card.plural})</Text>
+            ) : null}
+            <TouchableOpacity
+              style={styles.speakButton}
+              onPress={handleSpeak}
+              activeOpacity={0.75}
+            >
+              <MaterialCommunityIcons name="volume-high" size={20} color={colors.primaryLight} />
+              <Text style={styles.speakButtonText}>Aussprechen</Text>
+            </TouchableOpacity>
           </View>
-          <Text style={styles.germanWord}>{card.german}</Text>
-          {card.plural ? (
-            <Text style={styles.pluralText}>({card.plural})</Text>
-          ) : null}
-          <TouchableOpacity
-            style={styles.speakButton}
-            onPress={handleSpeak}
-            activeOpacity={0.75}
-          >
-            <MaterialCommunityIcons name="volume-high" size={20} color={colors.primaryLight} />
-            <Text style={styles.speakButtonText}>Aussprechen</Text>
-          </TouchableOpacity>
-        </Animated.View>
-
-        {/* Back face */}
-        <Animated.View style={[styles.card, styles.cardAbsolute, backStyle]}>
-          <Text style={styles.germanWordSmall}>{card.german}</Text>
-          <Text style={styles.englishWord}>{card.english}</Text>
-          {card.exampleSentence ? (
-            <Text style={styles.exampleSentence}>{card.exampleSentence}</Text>
-          ) : null}
-        </Animated.View>
+        ) : (
+          <View style={[styles.card, styles.cardAbsolute]}>
+            <Text style={styles.germanWordSmall}>{card.german}</Text>
+            <Text style={styles.englishWord}>{card.english}</Text>
+            {card.exampleSentence ? (
+              <Text style={styles.exampleSentence}>{card.exampleSentence}</Text>
+            ) : null}
+          </View>
+        )}
       </View>
 
       {/* Action area */}
@@ -426,12 +410,14 @@ const styles = StyleSheet.create({
     backgroundColor: colors.surfaceContainerHigh,
     borderRadius: borderRadius.full,
     overflow: 'hidden',
-    flexDirection: 'row',
   },
   progressFill: {
     height: 6,
     backgroundColor: colors.primaryLight,
     borderRadius: borderRadius.full,
+    position: 'absolute',
+    left: 0,
+    top: 0,
   },
   progressPercent: {
     fontSize: typography.fontSize.xs,

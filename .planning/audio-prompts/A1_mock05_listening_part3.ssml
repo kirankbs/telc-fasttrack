@@ -1,0 +1,131 @@
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Teil 3.
+      <break time="1s"/>
+      Sie hören drei Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.
+      <break time="2s"/>
+    </prosody>
+  </voice>
+
+  <!-- Question 1: Postamt nachmittags bis 18 Uhr -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag! Ich habe eine Frage zu Ihren Öffnungszeiten.
+      Bis wann sind Sie nachmittags geöffnet?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Tag! Nachmittags sind wir bis 18 Uhr für Sie da.
+      Morgens öffnen wir um 8 Uhr.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Also bis 18 Uhr — nicht bis 16 oder 17 Uhr?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Nein, wir machen erst um 18 Uhr zu. Montag bis Freitag.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Sehr gut, danke schön!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Question 2: Mann kauft zehn Briefmarken -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag! Was darf ich für Sie tun?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ich hätte gern zehn Briefmarken für Briefe im Inland.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Also zehn Briefmarken. Das macht 9 Euro.
+      Möchten Sie auch Briefumschläge?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Nein danke, nur die Briefmarken.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Bitte sehr, 10 Briefmarken. Noch etwas?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Nein, das ist alles. Vielen Dank!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Question 3: Recycling-Tag ist Donnerstag -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Entschuldigung, ich bin neu hier in der Straße.
+      Wann kommt die Papiertonne hier abgeholt?
+      Am Dienstag oder Mittwoch?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Weder noch — jeden Donnerstag morgen kommt die Abholung.
+      Stellen Sie die Tonne am Mittwochabend raus,
+      dann sind Sie auf der sicheren Seite.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ah, Donnerstag. Und was ist mit dem Restmüll — auch Donnerstag?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Nein, der Restmüll kommt montags.
+      Nur das Papier ist donnerstags.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Perfekt, vielen Dank für die Information!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende des Hörtests.</prosody>
+  </voice>
+</speak>

@@ -1,0 +1,189 @@
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Teil 2.
+      <break time="1s"/>
+      Sie hören fünf kurze Texte. Zu jedem Text gibt es eine Aufgabe. Kreuzen Sie an: richtig oder falsch. Sie hören jeden Text zweimal.
+      <break time="2s"/>
+    </prosody>
+  </voice>
+
+  <!-- Question 1: Fitnessstudio Öffnungszeiten -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Herzlich willkommen beim FitnessPoint.
+      Wir haben täglich von 7 bis 22 Uhr für Sie geöffnet —
+      auch an Wochenenden und Feiertagen.
+      Für Informationen und Mitgliedschaften rufen Sie uns gerne an.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Herzlich willkommen beim FitnessPoint.
+      Wir haben täglich von 7 bis 22 Uhr für Sie geöffnet —
+      auch an Wochenenden und Feiertagen.
+      Für Informationen und Mitgliedschaften rufen Sie uns gerne an.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 2: Zugverspätung Berlin -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Sehr geehrte Reisende, wir bitten um Ihre Aufmerksamkeit.
+      Der ICE 812 nach Berlin hat heute leider 25 Minuten Verspätung.
+      Planmäßige Abfahrt war 16 Uhr 10.
+      Die neue Abfahrtszeit ist 16 Uhr 35.
+      Wir entschuldigen uns für die Unannehmlichkeiten.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Sehr geehrte Reisende, wir bitten um Ihre Aufmerksamkeit.
+      Der ICE 812 nach Berlin hat heute leider 25 Minuten Verspätung.
+      Planmäßige Abfahrt war 16 Uhr 10.
+      Die neue Abfahrtszeit ist 16 Uhr 35.
+      Wir entschuldigen uns für die Unannehmlichkeiten.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 3: Arztpraxis Freitag -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Sie haben die Praxis Dr. Berger angerufen.
+      Unsere Praxis ist montags bis donnerstags von 8 bis 18 Uhr geöffnet.
+      Freitags sind wir nur bis 13 Uhr für Sie da.
+      Am Wochenende ist die Praxis geschlossen.
+      Für dringende Fälle wenden Sie sich bitte an den ärztlichen Bereitschaftsdienst.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Sie haben die Praxis Dr. Berger angerufen.
+      Unsere Praxis ist montags bis donnerstags von 8 bis 18 Uhr geöffnet.
+      Freitags sind wir nur bis 13 Uhr für Sie da.
+      Am Wochenende ist die Praxis geschlossen.
+      Für dringende Fälle wenden Sie sich bitte an den ärztlichen Bereitschaftsdienst.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 4: Konzert 19:30 Uhr -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Herzlich willkommen im Konzerthaus der Stadt.
+      Das Konzert heute Abend beginnt um 19 Uhr 30.
+      Bitte kommen Sie rechtzeitig und nehmen Sie Ihre Plätze ein.
+      Das Fotografieren während der Vorstellung ist leider nicht erlaubt.
+      Wir wünschen Ihnen einen schönen Abend.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Herzlich willkommen im Konzerthaus der Stadt.
+      Das Konzert heute Abend beginnt um 19 Uhr 30.
+      Bitte kommen Sie rechtzeitig und nehmen Sie Ihre Plätze ein.
+      Das Fotografieren während der Vorstellung ist leider nicht erlaubt.
+      Wir wünschen Ihnen einen schönen Abend.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 5: Supermarkt früher schließen -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Liebe Kundinnen und Kunden,
+      heute schließen wir ausnahmsweise um 18 Uhr —
+      das sind zwei Stunden früher als sonst.
+      Bitte achten Sie auf die Zeit und kommen Sie rechtzeitig zur Kasse.
+      Wir danken für Ihr Verständnis und freuen uns auf Ihren nächsten Besuch.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Liebe Kundinnen und Kunden,
+      heute schließen wir ausnahmsweise um 18 Uhr —
+      das sind zwei Stunden früher als sonst.
+      Bitte achten Sie auf die Zeit und kommen Sie rechtzeitig zur Kasse.
+      Wir danken für Ihr Verständnis und freuen uns auf Ihren nächsten Besuch.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

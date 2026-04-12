@@ -1,0 +1,147 @@
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hörtest. Teil 1.
+      <break time="1s"/>
+      Sie hören drei kurze Texte. Zu jedem Text gibt es eine Aufgabe. Welches Bild passt? Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.
+      <break time="2s"/>
+    </prosody>
+  </voice>
+
+  <!-- Question 1: Arzttermin Frau Neumann -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag, Frau Neumann.
+      Hier ist die Arztpraxis Schmidt.
+      Wir möchten Ihnen Ihren Termin bestätigen.
+      Sie haben einen Termin am Dienstag, dem 8., um 10 Uhr.
+      Bitte denken Sie daran, Ihre Krankenversicherungskarte mitzubringen.
+      Bis Dienstag — auf Wiederhören!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag, Frau Neumann.
+      Hier ist die Arztpraxis Schmidt.
+      Wir möchten Ihnen Ihren Termin bestätigen.
+      Sie haben einen Termin am Dienstag, dem 8., um 10 Uhr.
+      Bitte denken Sie daran, Ihre Krankenversicherungskarte mitzubringen.
+      Bis Dienstag — auf Wiederhören!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 2: Cafeteria Mittagessen -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Liebe Schülerinnen und Schüler,
+      in der Cafeteria gibt es heute Pasta mit grünem Salat.
+      Das kostet 3 Euro 50.
+      Das Angebot gilt von 12 bis 14 Uhr.
+      Wir wünschen guten Appetit!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Liebe Schülerinnen und Schüler,
+      in der Cafeteria gibt es heute Pasta mit grünem Salat.
+      Das kostet 3 Euro 50.
+      Das Angebot gilt von 12 bis 14 Uhr.
+      Wir wünschen guten Appetit!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 3: Frau bestellt im Café -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Tag! Was darf ich Ihnen bringen?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ich hätte gern einen Tee — Kamille, bitte —
+      und ein Stück Apfelkuchen.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Sehr gern. Möchten Sie auch Sahne zum Kuchen?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, gerne, danke.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Tag! Was darf ich Ihnen bringen?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ich hätte gern einen Tee — Kamille, bitte —
+      und ein Stück Apfelkuchen.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Sehr gern. Möchten Sie auch Sahne zum Kuchen?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, gerne, danke.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 1.</prosody>
+  </voice>
+</speak>
