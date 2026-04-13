@@ -15,13 +15,10 @@ jobs:
   e2e:
     name: E2E Tests
     runs-on: ubuntu-latest
-    timeout-minutes: 30
-    permissions:
-      deployments: read
-      contents: read
-      pull-requests: write
+    timeout-minutes: 15
     env:
       BYPASS_SECRET: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
+      HEAD_REF: ${{ github.head_ref }}
     steps:
       - uses: actions/checkout@v4
 
@@ -35,35 +32,24 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Get Vercel Preview URL
+      - name: Wait for Vercel Preview
         if: github.event_name == 'pull_request'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # Use PR head SHA — github.sha on pull_request is the merge commit,
-          # which Vercel does not create a deployment for.
-          COMMIT_SHA: ${{ github.event.pull_request.head.sha }}
         run: |
-          echo "Waiting for Vercel deployment for commit $COMMIT_SHA..."
+          PREVIEW_URL="https://telc-fasttrack-git-${HEAD_REF}-kirankbs.vercel.app"
+          echo "Waiting for preview: $PREVIEW_URL"
           for i in $(seq 1 30); do
-            if [ "$i" -eq 1 ]; then
-              echo "[debug] Raw deployments response:"
-              gh api "repos/${{ github.repository }}/deployments?sha=$COMMIT_SHA&environment=Preview" 2>&1 || true
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
+              -H "x-vercel-protection-bypass: $BYPASS_SECRET" \
+              "$PREVIEW_URL" 2>/dev/null || echo "000")
+            if [ "$STATUS" -ge 200 ] && [ "$STATUS" -lt 400 ]; then
+              echo "Preview is ready (HTTP $STATUS)"
+              echo "PLAYWRIGHT_TEST_BASE_URL=$PREVIEW_URL" >> "$GITHUB_ENV"
+              exit 0
             fi
-            DEPLOYMENT_ID=$(gh api "repos/${{ github.repository }}/deployments?sha=$COMMIT_SHA&environment=Preview" \
-              --jq '.[0].id // empty' 2>/dev/null || true)
-            if [ -n "$DEPLOYMENT_ID" ]; then
-              PREVIEW_URL=$(gh api "repos/${{ github.repository }}/deployments/$DEPLOYMENT_ID/statuses" \
-                --jq '.[0].environment_url // empty' 2>/dev/null || true)
-              if [ -n "$PREVIEW_URL" ] && [ "$PREVIEW_URL" != "null" ]; then
-                echo "Preview URL: $PREVIEW_URL"
-                echo "PLAYWRIGHT_TEST_BASE_URL=$PREVIEW_URL" >> "$GITHUB_ENV"
-                exit 0
-              fi
-            fi
-            echo "Attempt $i: deployment not ready — retrying in 10s..."
+            echo "Attempt $i: HTTP $STATUS — retrying in 10s..."
             sleep 10
           done
-          echo "Preview URL not available after 5 minutes"
+          echo "Preview not ready after 5 minutes"
           exit 1
 
       - name: Install Playwright browsers
@@ -88,3 +74,4 @@ jobs:
         uses: daun/playwright-report-summary@v3
         with:
           report-file: test-results.json
+          github-token: ${{ secrets.GITHUB_TOKEN }}
