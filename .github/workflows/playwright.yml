@@ -16,6 +16,10 @@ jobs:
     name: E2E Tests
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    permissions:
+      deployments: read
+      contents: read
+      pull-requests: write
     env:
       BYPASS_SECRET: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
     steps:
@@ -41,6 +45,10 @@ jobs:
         run: |
           echo "Waiting for Vercel deployment for commit $COMMIT_SHA..."
           for i in $(seq 1 30); do
+            if [ "$i" -eq 1 ]; then
+              echo "[debug] Raw deployments response:"
+              gh api "repos/${{ github.repository }}/deployments?sha=$COMMIT_SHA&environment=Preview" 2>&1 || true
+            fi
             DEPLOYMENT_ID=$(gh api "repos/${{ github.repository }}/deployments?sha=$COMMIT_SHA&environment=Preview" \
               --jq '.[0].id // empty' 2>/dev/null || true)
             if [ -n "$DEPLOYMENT_ID" ]; then
