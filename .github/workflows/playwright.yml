@@ -15,7 +15,11 @@ jobs:
   e2e:
     name: E2E Tests
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
+    permissions:
+      deployments: read
+      contents: read
+      pull-requests: write
     env:
       BYPASS_SECRET: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
     steps:
@@ -35,15 +39,21 @@ jobs:
         if: github.event_name == 'pull_request'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          COMMIT_SHA: ${{ github.sha }}
+          # Use PR head SHA — github.sha on pull_request is the merge commit,
+          # which Vercel does not create a deployment for.
+          COMMIT_SHA: ${{ github.event.pull_request.head.sha }}
         run: |
           echo "Waiting for Vercel deployment for commit $COMMIT_SHA..."
           for i in $(seq 1 30); do
+            if [ "$i" -eq 1 ]; then
+              echo "[debug] Raw deployments response:"
+              gh api "repos/${{ github.repository }}/deployments?sha=$COMMIT_SHA&environment=Preview" 2>&1 || true
+            fi
             DEPLOYMENT_ID=$(gh api "repos/${{ github.repository }}/deployments?sha=$COMMIT_SHA&environment=Preview" \
-              --jq '.[0].id // empty' 2>/dev/null)
+              --jq '.[0].id // empty' 2>/dev/null || true)
             if [ -n "$DEPLOYMENT_ID" ]; then
               PREVIEW_URL=$(gh api "repos/${{ github.repository }}/deployments/$DEPLOYMENT_ID/statuses" \
-                --jq '.[0].environment_url // empty' 2>/dev/null)
+                --jq '.[0].environment_url // empty' 2>/dev/null || true)
               if [ -n "$PREVIEW_URL" ] && [ "$PREVIEW_URL" != "null" ]; then
                 echo "Preview URL: $PREVIEW_URL"
                 echo "PLAYWRIGHT_TEST_BASE_URL=$PREVIEW_URL" >> "$GITHUB_ENV"
