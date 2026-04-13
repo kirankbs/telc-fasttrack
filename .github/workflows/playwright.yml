@@ -35,7 +35,9 @@ jobs:
         if: github.event_name == 'pull_request'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          COMMIT_SHA: ${{ github.sha }}
+          # Use PR head SHA — github.sha on pull_request is the merge commit,
+          # which Vercel does not create a deployment for.
+          COMMIT_SHA: ${{ github.event.pull_request.head.sha }}
         run: |
           echo "Waiting for Vercel deployment for commit $COMMIT_SHA..."
           for i in $(seq 1 30); do
