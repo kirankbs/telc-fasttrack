@@ -17,7 +17,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
-      HEAD_REF: ${{ github.head_ref }}
       BYPASS_SECRET: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
     steps:
       - uses: actions/checkout@v4
@@ -32,24 +31,29 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Wait for Vercel Preview
+      - name: Get Vercel Preview URL
         if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COMMIT_SHA: ${{ github.sha }}
         run: |
-          PREVIEW_URL="https://telc-fasttrack-git-${HEAD_REF}-kirankbs.vercel.app"
-          echo "Waiting for preview: $PREVIEW_URL"
+          echo "Waiting for Vercel deployment for commit $COMMIT_SHA..."
           for i in $(seq 1 30); do
-            STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
-              -H "x-vercel-protection-bypass: $BYPASS_SECRET" \
-              "$PREVIEW_URL" 2>/dev/null || echo "000")
-            if [ "$STATUS" -ge 200 ] && [ "$STATUS" -lt 400 ]; then
-              echo "Preview is ready (HTTP $STATUS)"
-              echo "PLAYWRIGHT_TEST_BASE_URL=$PREVIEW_URL" >> "$GITHUB_ENV"
-              exit 0
+            DEPLOYMENT_ID=$(gh api "repos/${{ github.repository }}/deployments?sha=$COMMIT_SHA&environment=Preview" \
+              --jq '.[0].id // empty' 2>/dev/null)
+            if [ -n "$DEPLOYMENT_ID" ]; then
+              PREVIEW_URL=$(gh api "repos/${{ github.repository }}/deployments/$DEPLOYMENT_ID/statuses" \
+                --jq '.[0].environment_url // empty' 2>/dev/null)
+              if [ -n "$PREVIEW_URL" ] && [ "$PREVIEW_URL" != "null" ]; then
+                echo "Preview URL: $PREVIEW_URL"
+                echo "PLAYWRIGHT_TEST_BASE_URL=$PREVIEW_URL" >> "$GITHUB_ENV"
+                exit 0
+              fi
             fi
-            echo "Attempt $i: HTTP $STATUS — retrying in 10s..."
+            echo "Attempt $i: deployment not ready — retrying in 10s..."
             sleep 10
           done
-          echo "Preview not ready after 5 minutes"
+          echo "Preview URL not available after 5 minutes"
           exit 1
 
       - name: Install Playwright browsers
