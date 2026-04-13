@@ -1,6 +1,8 @@
+import { notFound } from "next/navigation";
 import { LEVEL_CONFIG } from "@telc/config";
 import { SECTION_DURATIONS, formatTime } from "@telc/core";
 import type { Level } from "@telc/types";
+import { loadMockExam, parseMockId } from "@/lib/loadMockExam";
 
 export default async function MockExamDetailPage({
   params,
@@ -9,26 +11,23 @@ export default async function MockExamDetailPage({
 }) {
   const { mockId } = await params;
 
-  // Parse level and mock number from ID like "A1_mock_01"
-  const match = mockId.match(/^(A1|A2|B1|B2|C1)_mock_(\d+)$/);
-  if (!match) {
-    return (
-      <div className="py-12 text-center text-text-secondary">
-        Invalid mock exam ID: {mockId}
-      </div>
-    );
-  }
+  const parsed = parseMockId(mockId);
+  if (!parsed) notFound();
 
-  const level = match[1] as Level;
-  const mockNumber = parseInt(match[2], 10);
+  const { level: levelStr, mockNumber } = parsed;
+  const level = levelStr as Level;
   const cfg = LEVEL_CONFIG[level];
+
+  // Check if actual content exists for this mock
+  const exam = await loadMockExam(level, mockNumber);
+  const hasContent = exam !== null;
   const durations = SECTION_DURATIONS[level];
 
   const sections = [
-    { name: "Hören", key: "listening" as const, icon: "🎧" },
-    { name: "Lesen", key: "reading" as const, icon: "📖" },
-    { name: "Schreiben", key: "writing" as const, icon: "✍️" },
-    { name: "Sprechen", key: "speaking" as const, icon: "🗣️" },
+    { name: "Hören", key: "listening" as const, icon: "🎧", route: "listening" },
+    { name: "Lesen", key: "reading" as const, icon: "📖", route: "reading" },
+    { name: "Schreiben", key: "writing" as const, icon: "✍️", route: "writing" },
+    { name: "Sprechen", key: "speaking" as const, icon: "🗣️", route: "speaking" },
   ];
 
   return (
@@ -55,7 +54,7 @@ export default async function MockExamDetailPage({
       </a>
 
       {/* Header */}
-      <div className="rounded-xl border border-[#e0e0e0] bg-white p-6">
+      <div className="rounded-xl border border-border bg-white p-6">
         <div className="flex items-center gap-3">
           <span
             className="flex h-12 w-12 items-center justify-center rounded-full text-lg font-bold text-white"
@@ -72,20 +71,27 @@ export default async function MockExamDetailPage({
         </div>
 
         <div className="mt-4 rounded-lg bg-surface-container p-4 text-sm text-text-secondary">
-          Pass requirement: {cfg.passThreshold * 100}% in both the written and
-          oral sections.
+          Bestehensgrenze: {cfg.passThreshold * 100}% in schriftlicher und
+          mündlicher Prüfung.
         </div>
+
+        {!hasContent && (
+          <div className="mt-3 rounded-lg border border-warning bg-warning-light px-4 py-2 text-sm text-warning">
+            Inhalt noch nicht verfügbar — kommt bald.
+          </div>
+        )}
       </div>
 
       {/* Sections */}
       <div className="space-y-3">
-        <h2 className="text-lg font-semibold text-text-primary">Sections</h2>
+        <h2 className="text-lg font-semibold text-text-primary">Abschnitte</h2>
         {sections.map((section) => {
           const duration = durations[section.key];
+          const href = `/exam/${mockId}/${section.route}`;
           return (
             <div
               key={section.key}
-              className="flex items-center justify-between rounded-xl border border-[#e0e0e0] bg-white p-5"
+              className="flex items-center justify-between rounded-xl border border-border bg-white p-5"
             >
               <div className="flex items-center gap-3">
                 <span className="text-2xl" role="img" aria-hidden>
@@ -96,28 +102,42 @@ export default async function MockExamDetailPage({
                     {section.name}
                   </div>
                   <div className="text-sm text-text-secondary">
-                    {duration > 0 ? formatTime(duration) : "—"} minutes
+                    {duration > 0 ? `${Math.round(duration / 60)} Min.` : "—"}
                   </div>
                 </div>
               </div>
-              <button
-                className="rounded-lg px-4 py-2 text-sm font-medium text-white transition-colors hover:opacity-90"
-                style={{ backgroundColor: cfg.color }}
-              >
-                Start
-              </button>
+              {hasContent ? (
+                <a
+                  href={href}
+                  className="rounded-lg px-4 py-2 text-sm font-medium text-white transition-colors hover:opacity-90"
+                  style={{ backgroundColor: cfg.color }}
+                >
+                  Starten
+                </a>
+              ) : (
+                <span className="rounded-lg border border-border px-4 py-2 text-sm font-medium text-text-disabled">
+                  Bald
+                </span>
+              )}
             </div>
           );
         })}
       </div>
 
       {/* Start full exam */}
-      <button
-        className="w-full rounded-xl py-4 text-center text-lg font-semibold text-white transition-colors hover:opacity-90"
-        style={{ backgroundColor: cfg.color }}
-      >
-        Start Full Exam
-      </button>
+      {hasContent ? (
+        <a
+          href={`/exam/${mockId}/listening`}
+          className="block w-full rounded-xl py-4 text-center text-lg font-semibold text-white transition-colors hover:opacity-90"
+          style={{ backgroundColor: cfg.color }}
+        >
+          Vollständige Prüfung starten
+        </a>
+      ) : (
+        <div className="w-full rounded-xl py-4 text-center text-lg font-semibold text-text-disabled bg-surface-container">
+          Inhalt noch nicht verfügbar
+        </div>
+      )}
     </div>
   );
 }

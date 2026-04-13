@@ -50,6 +50,10 @@
   /* Streak */
   --color-streak-fire: #ff6d00;
   --color-streak-bg: #fff3e0;
+
+  /* Border */
+  --color-border: #e0e0e0;
+  --color-border-hover: #bdbdbd;
 }
 
 body {
