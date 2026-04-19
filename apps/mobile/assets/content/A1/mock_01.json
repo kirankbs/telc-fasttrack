@@ -174,7 +174,7 @@
             {
               "id": "A1_m01_R1_text2",
               "type": "email",
-              "content": "Von: arzt.praxis.weber@praxis.de\nAn: thomas.klein@email.de\nBetreff: Ihr Termin\n\nSehr geehrter Herr Klein,\n\nwir möchten Sie an Ihren Termin erinnern: Dienstag, 18. März, um 10:30 Uhr. Bitte kommen Sie fünf Minuten früher. Bringen Sie Ihre Krankenversicherungskarte mit. Wenn Sie den Termin nicht wahrnehmen können, rufen Sie uns bitte an: 040 / 775 88 33.\n\nMit freundlichen Grüßen,\nArztpraxis Dr. Weber",
+              "content": "Von: arzt.praxis.weber@praxis.de\nAn: thomas.klein@email.de\nBetreff: Ihr Termin\n\nSehr geehrter Herr Klein,\n\nwir möchten Sie an Ihren Termin erinnern: Dienstag, 18. März, um 10:30 Uhr. Bitte kommen Sie fünf Minuten früher. Bringen Sie Ihre Versichertenkarte mit. Wenn Sie den Termin absagen möchten, rufen Sie uns bitte an: 040 / 775 88 33.\n\nMit freundlichen Grüßen,\nArztpraxis Dr. Weber",
               "source": "E-Mail der Arztpraxis"
             }
           ],
@@ -214,10 +214,10 @@
             {
               "id": "A1_m01_R1_q5",
               "type": "true_false",
-              "questionText": "Herr Klein soll die Krankenversicherungskarte mitbringen.",
+              "questionText": "Herr Klein soll seine Versichertenkarte mitbringen.",
               "relatedTextId": "A1_m01_R1_text2",
               "correctAnswer": "richtig",
-              "explanation": "Die Praxis schreibt: 'Bringen Sie Ihre Krankenversicherungskarte mit.' Diese Aufforderung steht direkt im Text. Die Aussage ist richtig."
+              "explanation": "Die Praxis schreibt: 'Bringen Sie Ihre Versichertenkarte mit.' Diese Aufforderung steht direkt im Text. Die Aussage ist richtig."
             }
           ]
         },
@@ -378,7 +378,7 @@
             {
               "id": "A1_m01_R3_notice4",
               "type": "notice",
-              "content": "Parkplatz nur für Kunden.\nMaximal 2 Stunden.\nNicht-Kunden werden kostenpflichtig abgeschleppt."
+              "content": "Parkplatz nur für Kunden.\nMaximal 2 Stunden.\nAndere Autos werden abgeschleppt."
             },
             {
               "id": "A1_m01_R3_notice5",
@@ -417,7 +417,7 @@
               "questionText": "Alle Personen können hier drei Stunden parken.",
               "relatedTextId": "A1_m01_R3_notice4",
               "correctAnswer": "falsch",
-              "explanation": "Das Schild sagt: 'Parkplatz nur für Kunden. Maximal 2 Stunden.' Erstens: Nur Kunden dürfen hier parken, nicht alle Personen. Zweitens: Das Maximum sind 2 Stunden, nicht drei. Die Aussage ist in beiden Teilen falsch."
+              "explanation": "Das Schild sagt: 'Parkplatz nur für Kunden. Maximal 2 Stunden.' Nur Kunden dürfen hier parken, nicht alle Personen. Und das Maximum sind 2 Stunden, nicht drei. Die Aussage ist falsch."
             },
             {
               "id": "A1_m01_R3_q5",

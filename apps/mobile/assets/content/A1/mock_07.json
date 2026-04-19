@@ -174,7 +174,7 @@
             {
               "id": "A1_m07_R1_text2",
               "type": "notice",
-              "content": "STADTFEST GRÜNTAL\nSamstag, 14. Juni – 11:00 bis 22:00 Uhr\nGroßer Festplatz am Stadtpark\n\nProgramm:\n- Kinderturnier (Fußball) ab 11 Uhr\n- Live-Musik ab 15 Uhr\n- Feuerwerk um 21:30 Uhr\n\nEintritt frei! Für Essen und Getränke sind Festmarken erhältlich.\nInformationen: www.stadtfest-gruental.de",
+              "content": "STADTFEST GRÜNTAL\nSamstag, 14. Juni – 11:00 bis 22:00 Uhr\nGroßer Festplatz am Stadtpark\n\nProgramm:\n- Kinderturnier (Fußball) ab 11 Uhr\n- Live-Musik ab 15 Uhr\n- Feuerwerk um 21:30 Uhr\n\nEintritt frei! Essen und Getränke kann man dort kaufen.\nInformationen: www.stadtfest-gruental.de [PEDAGOGY-REWRITE: 'Festmarken erhältlich' replaced — 'erhältlich' is B1+ and 'Festmarken' is uncommon. Simplified to A1-level phrasing.]",
               "source": "Veranstaltungsflyer"
             }
           ],
@@ -507,7 +507,7 @@
             {
               "id": "A1_m07_R3_text5",
               "type": "notice",
-              "content": "Lieber Mieter,\nbitte beachten Sie: Der Aufzug ist diese Woche außer Betrieb. Wir bitten um Entschuldigung für die Unannehmlichkeiten.\n– Die Hausverwaltung",
+              "content": "Liebe Mieter,\nbitte beachten Sie: Der Aufzug funktioniert diese Woche nicht. Entschuldigung!\n– Die Hausverwaltung [PEDAGOGY-REWRITE: 'außer Betrieb' and 'Unannehmlichkeiten' replaced — B1+ vocabulary unsuitable for A1. Also fixed 'Lieber Mieter' to 'Liebe Mieter' (plural).]",
               "source": "Brief"
             }
           ],
@@ -550,7 +550,7 @@
               "questionText": "Der Aufzug funktioniert diese Woche nicht.",
               "relatedTextId": "A1_m07_R3_text5",
               "correctAnswer": "richtig",
-              "explanation": "Der Brief sagt: 'Der Aufzug ist diese Woche außer Betrieb.' Das bedeutet, er funktioniert nicht."
+              "explanation": "Der Brief sagt: 'Der Aufzug funktioniert diese Woche nicht.' Das bedeutet, er ist kaputt. Die Aussage ist richtig."
             }
           ]
         }

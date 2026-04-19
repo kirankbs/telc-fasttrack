@@ -174,7 +174,7 @@
             {
               "id": "A1_m02_R1_text2",
               "type": "ad",
-              "content": "STELLENANZEIGE\n\nWir suchen: Kellner/Kellnerin (Teilzeit)\nRestaurant Zur alten Post, München\n\nArbeitszeit: Dienstag bis Samstag, abends\nGehalt: 14 Euro pro Stunde\n\nVoraussetzungen:\n— gute Deutschkenntnisse\n— freundlich und zuverlässig\n— Erfahrung im Service erwünscht\n\nBewerbung an: info@altepost-muenchen.de",
+              "content": "JOB IM RESTAURANT\n\nWir suchen: Kellner/Kellnerin (Teilzeit)\nRestaurant Zur alten Post, München\n\nArbeitszeit: Dienstag bis Samstag, abends\nGehalt: 14 Euro pro Stunde\n\nWas ist wichtig:\n— gute Deutschkenntnisse\n— freundlich und pünktlich\n\nSchreiben Sie an: info@altepost-muenchen.de",
               "source": "Stellenanzeige"
             }
           ],
@@ -209,7 +209,7 @@
               "questionText": "Der Job im Restaurant ist eine Vollzeitstelle.",
               "relatedTextId": "A1_m02_R1_text2",
               "correctAnswer": "falsch",
-              "explanation": "In der Stellenanzeige steht: 'Kellner/Kellnerin (Teilzeit).' Es ist eine Teilzeitstelle, keine Vollzeitstelle. Die Aussage ist falsch."
+              "explanation": "Im Text steht: 'Kellner/Kellnerin (Teilzeit).' Es ist eine Teilzeitstelle, keine Vollzeitstelle. Die Aussage ist falsch."
             },
             {
               "id": "A1_m02_R1_q5",
@@ -217,7 +217,7 @@
               "questionText": "Man braucht für den Job gute Deutschkenntnisse.",
               "relatedTextId": "A1_m02_R1_text2",
               "correctAnswer": "richtig",
-              "explanation": "In der Anzeige steht unter Voraussetzungen: 'gute Deutschkenntnisse.' Diese sind also erforderlich. Die Aussage ist richtig."
+              "explanation": "Im Text steht unter 'Was ist wichtig': 'gute Deutschkenntnisse.' Man braucht also gute Deutschkenntnisse. Die Aussage ist richtig."
             }
           ]
         },
@@ -239,7 +239,7 @@
             {
               "id": "A1_m02_R2_ad_c",
               "type": "ad",
-              "content": "DR. MED. SABINE KELLER\nAllgemeinmedizin\nNeu in der Praxis? Termine online buchbar\nSprechstunde: Mo–Fr 8–12 Uhr\nHausbesuche auf Anfrage\nTel: 089 / 223 44 11"
+              "content": "DR. MED. SABINE KELLER\nÄrztin\nNeu in der Praxis? Termine online möglich\nSprechstunde: Mo–Fr 8–12 Uhr\nWir kommen auch zu Ihnen nach Hause\nTel: 089 / 223 44 11"
             },
             {
               "id": "A1_m02_R2_ad_d",
@@ -249,7 +249,7 @@
             {
               "id": "A1_m02_R2_ad_e",
               "type": "ad",
-              "content": "FERIENWOHNUNG ZU VERMIETEN\n3 Zimmer, vollmöbliert\nNahe Stadtmitte — ruhige Straße\nKurzmiete ab 1 Woche möglich\nKontakt: fewo-muenchen@email.de"
+              "content": "WOHNUNG FÜR URLAUB\n3 Zimmer, mit Möbeln\nNahe Stadtmitte — ruhige Straße\nAb 1 Woche möglich\nKontakt: fewo-muenchen@email.de"
             },
             {
               "id": "A1_m02_R2_ad_f",
@@ -317,7 +317,7 @@
                 {"id": "A1_m02_R2_ad_h", "label": "h"}
               ],
               "correctAnswer": "e",
-              "explanation": "Anzeige e bietet eine vollmöblierte Ferienwohnung zur Kurzmiete ab einer Woche. Familie Schulz sucht eine möblierte Wohnung für Urlaub — das passt perfekt."
+              "explanation": "Anzeige e bietet eine Wohnung für Urlaub mit Möbeln, ab einer Woche. Familie Schulz sucht eine möblierte Wohnung für Urlaub — das passt."
             },
             {
               "id": "A1_m02_R2_q4",

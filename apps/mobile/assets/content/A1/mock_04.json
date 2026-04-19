@@ -174,7 +174,7 @@
             {
               "id": "A1_m04_R1_text2",
               "type": "notice",
-              "content": "ABTEILUNG PERSONALWESEN\nHinweis für alle Mitarbeiter\n\nAb dem 1. Mai gilt eine neue Regelung:\nDas Büro ist montags bis freitags von 8 bis 17 Uhr geöffnet. Freitags schließen wir um 15 Uhr.\nBitte parken Sie Ihr Fahrrad nur im Fahrradkeller.\nDas Rauchen ist auf dem gesamten Firmengelände verboten.",
+              "content": "BÜRO — INFORMATION\nHinweis für alle Mitarbeiter\n\nAb dem 1. Mai ist neu:\nDas Büro ist montags bis freitags von 8 bis 17 Uhr geöffnet. Freitags schließen wir um 15 Uhr.\nBitte parken Sie Ihr Fahrrad nur im Fahrradkeller.\nDas Rauchen ist im ganzen Gebäude verboten.",
               "source": "Interne Mitteilung"
             }
           ],
@@ -214,10 +214,10 @@
             {
               "id": "A1_m04_R1_q5",
               "type": "true_false",
-              "questionText": "Auf dem Firmengelände darf man nicht rauchen.",
+              "questionText": "Im ganzen Gebäude darf man nicht rauchen.",
               "relatedTextId": "A1_m04_R1_text2",
               "correctAnswer": "richtig",
-              "explanation": "Im Text steht: 'Das Rauchen ist auf dem gesamten Firmengelände verboten.' Rauchen ist also nicht erlaubt. Die Aussage ist richtig."
+              "explanation": "Im Text steht: 'Das Rauchen ist im ganzen Gebäude verboten.' Rauchen ist also nicht erlaubt. Die Aussage ist richtig."
             }
           ]
         },
@@ -244,7 +244,7 @@
             {
               "id": "A1_m04_R2_ad_d",
               "type": "ad",
-              "content": "HAUSHALTSAUFLÖSUNG\nVerkaufe alles: Kühlschrank, Waschmaschine,\nSofa, Bett, Schränke\nNur Selbstabholung\nPreise auf Anfrage\nTel: 0172 / 889 44 33"
+              "content": "MÖBEL ZU VERKAUFEN\nKühlschrank, Waschmaschine,\nSofa, Bett, Schränke\nSie müssen die Möbel selbst abholen.\nPreise auf Anfrage\nTel: 0172 / 889 44 33"
             },
             {
               "id": "A1_m04_R2_ad_e",

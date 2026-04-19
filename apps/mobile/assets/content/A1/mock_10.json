@@ -150,7 +150,7 @@
                 "c) Sie hat keine Zeit."
               ],
               "correctAnswer": "c",
-              "explanation": "Die Frau sagt: 'Ich würde gerne auf den Markt gehen, aber heute habe ich wirklich keine Zeit.' Die richtige Antwort ist c.",
+              "explanation": "Die Frau sagt: 'Ich gehe heute nicht auf den Markt. Ich habe wirklich keine Zeit.' Die richtige Antwort ist c. [PEDAGOGY-REWRITE: Konjunktiv II 'würde' removed from A1 audio transcript — replaced with Präsens + Negation, which is within A1 grammar scope.]",
               "audioTimestamp": 64
             }
           ]
@@ -503,7 +503,7 @@
             {
               "id": "A1_m10_R3_text5",
               "type": "notice",
-              "content": "Möbelhaus Kaiser informiert:\nUnser Showroom ist ab sofort auch sonntags geöffnet!\nSonntag 12–18 Uhr — nur Besichtigung, kein Verkauf.\nShopping-Erlebnis für die ganze Familie."
+              "content": "Möbelhaus Kaiser informiert:\nUnser Geschäft ist ab sofort auch sonntags geöffnet!\nSonntag 12–18 Uhr — nur anschauen, kein Verkauf.\nKommen Sie mit der ganzen Familie! [PEDAGOGY-REWRITE: 'Showroom' (anglicism), 'Besichtigung' (B1), 'Shopping-Erlebnis' (anglicism + B1) replaced with A1-level vocabulary.]"
             }
           ],
           "questions": [
@@ -545,7 +545,7 @@
               "questionText": "Man kann sonntags im Möbelhaus Kaiser Möbel kaufen.",
               "relatedTextId": "A1_m10_R3_text5",
               "correctAnswer": "falsch",
-              "explanation": "Der Hinweis sagt: 'nur Besichtigung, kein Verkauf.' Am Sonntag kann man sich Möbel anschauen, aber nicht kaufen."
+              "explanation": "Im Schild steht: 'nur anschauen, kein Verkauf.' Am Sonntag kann man Möbel anschauen, aber nicht kaufen. Die Aussage ist falsch."
             }
           ]
         }
