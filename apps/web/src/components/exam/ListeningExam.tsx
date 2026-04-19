@@ -179,33 +179,67 @@ export function ListeningExam({ mockId, level, section }: ListeningExamProps) {
             <p className="mb-3 font-medium text-text-primary">
               {qi + 1}. {q.questionText}
             </p>
-            <div className="space-y-2">
-              {(q.options ?? []).map((opt) => {
-                const value = opt.split(')')[0].trim();
-                const selected = answers[q.id] === value;
-                return (
-                  <label
-                    key={opt}
-                    data-testid={`question-option-${q.id}-${value}`}
-                    className={`flex cursor-pointer items-center gap-3 rounded-lg border px-4 py-3 transition-colors ${
-                      selected
-                        ? 'border-brand-primary bg-brand-primary-surface'
-                        : 'border-border bg-white hover:border-border-hover'
-                    }`}
-                  >
-                    <input
-                      type="radio"
-                      name={q.id}
-                      value={value}
-                      checked={selected}
-                      onChange={() => handleAnswer(q.id, value)}
-                      className="accent-brand-primary"
-                    />
-                    <span className="text-sm text-text-primary">{opt}</span>
-                  </label>
-                );
-              })}
-            </div>
+
+            {q.type === 'true_false' && (
+              <div className="flex gap-3">
+                {['richtig', 'falsch'].map((opt) => {
+                  const selected = answers[q.id] === opt;
+                  return (
+                    <label
+                      key={opt}
+                      data-testid={`question-option-${q.id}-${opt}`}
+                      className={`flex cursor-pointer items-center gap-2 rounded-lg border px-5 py-2.5 transition-colors ${
+                        selected
+                          ? 'border-brand-primary bg-brand-primary-surface'
+                          : 'border-border bg-white hover:border-border-hover'
+                      }`}
+                    >
+                      <input
+                        type="radio"
+                        name={q.id}
+                        value={opt}
+                        checked={selected}
+                        onChange={() => handleAnswer(q.id, opt)}
+                        className="accent-brand-primary"
+                      />
+                      <span className="text-sm font-medium text-text-primary capitalize">
+                        {opt}
+                      </span>
+                    </label>
+                  );
+                })}
+              </div>
+            )}
+
+            {q.type === 'mcq' && (
+              <div className="space-y-2">
+                {(q.options ?? []).map((opt) => {
+                  const value = opt.split(')')[0].trim();
+                  const selected = answers[q.id] === value;
+                  return (
+                    <label
+                      key={opt}
+                      data-testid={`question-option-${q.id}-${value}`}
+                      className={`flex cursor-pointer items-center gap-3 rounded-lg border px-4 py-3 transition-colors ${
+                        selected
+                          ? 'border-brand-primary bg-brand-primary-surface'
+                          : 'border-border bg-white hover:border-border-hover'
+                      }`}
+                    >
+                      <input
+                        type="radio"
+                        name={q.id}
+                        value={value}
+                        checked={selected}
+                        onChange={() => handleAnswer(q.id, value)}
+                        className="accent-brand-primary"
+                      />
+                      <span className="text-sm text-text-primary">{opt}</span>
+                    </label>
+                  );
+                })}
+              </div>
+            )}
           </div>
         ))}
       </div>
