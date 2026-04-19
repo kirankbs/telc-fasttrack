@@ -362,7 +362,7 @@
             {
               "id": "A2_m08_R2_q2",
               "type": "true_false",
-              "questionText": "Vor zehn Jahren hat genauso viele Menschen die Vorsorge genutzt wie heute.",
+              "questionText": "Vor zehn Jahren haben genauso viele Menschen die Vorsorge genutzt wie heute.",
               "relatedTextId": "A2_m08_R2_text1",
               "correctAnswer": "falsch",
               "explanation": "Der Text sagt: 'Vor zehn Jahren war es nur die Hälfte.' Heute sind es 62 Prozent — die Zahl ist also gestiegen, nicht gleich geblieben. Die Aussage ist falsch."

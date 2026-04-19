@@ -56,7 +56,7 @@
             {
               "id": "A2_m09_L1_q4",
               "type": "mcq",
-              "questionText": "Was soll Pedro beim Reisebüro anrufen wegen?",
+              "questionText": "Warum soll Pedro beim Reisebüro anrufen?",
               "options": [
                 "a) um einen Reisepass zu beantragen",
                 "b) um sein Ticket zu bestätigen",
@@ -378,10 +378,10 @@
             {
               "id": "A2_m09_R2_q4",
               "type": "true_false",
-              "questionText": "Mehr als drei Viertel aller Fernzüge kamen im letzten Jahr pünktlich an.",
+              "questionText": "Fast alle Fernzüge kamen im letzten Jahr pünktlich an.",
               "relatedTextId": "A2_m09_R2_text1",
               "correctAnswer": "falsch",
-              "explanation": "Der Text sagt: 'nur 72 Prozent der Fernzüge kamen pünktlich an.' 72 Prozent sind weniger als drei Viertel (75 Prozent). Die Aussage ist falsch."
+              "explanation": "Der Text sagt: 'nur 72 Prozent der Fernzüge kamen pünktlich an.' Das bedeutet, dass fast ein Drittel nicht pünktlich war. Die Aussage ist falsch."
             },
             {
               "id": "A2_m09_R2_q5",
@@ -567,7 +567,7 @@
           ],
           "wordCountMin": 30,
           "wordCountMax": 50,
-          "sampleAnswer": "Hallo David,\nichbin gerade in Wien — das Wetter ist super, sonnig und warm! Gestern habe ich das Kunsthistorische Museum besucht, das war wirklich beeindruckend. Heute gehe ich eine Schiffstour auf der Donau machen. Hast du Lust, nächsten Sommer mitzukommen?\nViele Grüße, Ali",
+          "sampleAnswer": "Hallo David,\nich bin gerade in Wien — das Wetter ist super, sonnig und warm! Gestern habe ich das Kunsthistorische Museum besucht, das war wirklich beeindruckend. Heute gehe ich eine Schiffstour auf der Donau machen. Hast du Lust, nächsten Sommer mitzukommen?\nViele Grüße, Ali",
           "scoringCriteria": [
             {
               "criterion": "Inhalt",

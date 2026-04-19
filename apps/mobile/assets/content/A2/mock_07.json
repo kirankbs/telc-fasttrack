@@ -242,7 +242,7 @@
             {
               "id": "A2_m07_R1_text_a",
               "type": "ad",
-              "content": "ANZEIGE A — Bogenschießen für Anfänger\nHaben Sie Interesse an einem besonderen Hobby? Wir bieten Schnupperkurse im Bogenschießen an — kein Vorkenntnisse nötig! Jeden Samstag um 10 Uhr. Preis: 25 Euro inkl. Ausrüstung. Sportbogen-Verein, Feldweg 3."
+              "content": "ANZEIGE A — Bogenschießen für Anfänger\nHaben Sie Interesse an einem besonderen Hobby? Wir bieten Schnupperkurse im Bogenschießen an — keine Vorkenntnisse nötig! Jeden Samstag um 10 Uhr. Preis: 25 Euro inkl. Ausrüstung. Sportbogen-Verein, Feldweg 3."
             },
             {
               "id": "A2_m07_R1_text_b",
@@ -346,7 +346,7 @@
             {
               "id": "A2_m07_R2_text1",
               "type": "article",
-              "content": "Sport in der Freizeit: Was machen die Deutschen? Laut einer aktuellen Befragung ist Spazierengehen das beliebteste Freizeitaktivität in Deutschland — 62 Prozent der Erwachsenen gehen mindestens einmal pro Woche spazieren. An zweiter Stelle steht das Fahrradfahren mit 41 Prozent, gefolgt von Schwimmen (35 Prozent). Fußball ist vor allem bei Männern und Jugendlichen beliebt — nur 18 Prozent der Erwachsenen spielen regelmäßig. Interessant: Yoga und Pilates werden immer beliebter und haben in den letzten fünf Jahren stark zugenommen. Nur 12 Prozent der Deutschen treiben gar keinen Sport.",
+              "content": "Sport in der Freizeit: Was machen die Deutschen? Laut einer aktuellen Befragung ist Spazierengehen die beliebteste Freizeitaktivität in Deutschland — 62 Prozent der Erwachsenen gehen mindestens einmal pro Woche spazieren. An zweiter Stelle steht das Fahrradfahren mit 41 Prozent, gefolgt von Schwimmen (35 Prozent). Fußball ist vor allem bei Männern und Jugendlichen beliebt — nur 18 Prozent der Erwachsenen spielen regelmäßig. Interessant: Yoga und Pilates werden immer beliebter und haben in den letzten fünf Jahren stark zugenommen. Nur 12 Prozent der Deutschen treiben gar keinen Sport.",
               "source": "Sportmagazin, Januar 2026"
             }
           ],
@@ -506,12 +506,12 @@
             {
               "label": "Vorname",
               "correctAnswer": "Mia",
-              "hint": "Vorname der neuen Mitglied"
+              "hint": "Vorname des neuen Mitglieds"
             },
             {
               "label": "Nachname",
               "correctAnswer": "Schulz",
-              "hint": "Nachname der neuen Mitglied"
+              "hint": "Nachname des neuen Mitglieds"
             },
             {
               "label": "Geburtsdatum",
