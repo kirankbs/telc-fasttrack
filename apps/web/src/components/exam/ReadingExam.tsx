@@ -1,9 +1,10 @@
 'use client';
 
-import { useState, useCallback, useMemo } from 'react';
+import { useState, useCallback, useMemo, useEffect } from 'react';
 import { SECTION_DURATIONS, calculateSectionScore } from '@telc/core';
 import type { ReadingSection, ReadingPart, Level } from '@telc/types';
 import type { ExamPhase } from '@/lib/examTypes';
+import { saveSection } from '@/lib/examSession';
 import { ExamTimer } from './ExamTimer';
 import { SectionIntro } from './SectionIntro';
 import { QuestionResultRow } from './QuestionResultRow';
@@ -30,6 +31,16 @@ export function ReadingExam({ mockId, level, section }: ReadingExamProps) {
     () => (phase === 'submitted' ? calculateSectionScore(answers, section) : null),
     [phase, answers, section],
   );
+
+  useEffect(() => {
+    if (phase === 'submitted' && score) {
+      saveSection(mockId, level, 'reading', {
+        answers,
+        score,
+        submittedAt: new Date().toISOString(),
+      });
+    }
+  }, [phase, score, mockId, level, answers]);
 
   const allAnswered = useMemo(
     () => section.parts.every((p) => p.questions.every((q) => answers[q.id] !== undefined)),

@@ -3,6 +3,7 @@ import { LEVEL_CONFIG } from "@telc/config";
 import { SECTION_DURATIONS, formatTime } from "@telc/core";
 import type { Level } from "@telc/types";
 import { loadMockExam, parseMockId } from "@/lib/loadMockExam";
+import { SectionStatusBadge, SectionActionButton, ViewResultsLink } from "@/components/exam/SectionStatus";
 
 export default async function MockExamDetailPage({
   params,
@@ -98,8 +99,11 @@ export default async function MockExamDetailPage({
                   {section.icon}
                 </span>
                 <div>
-                  <div className="font-semibold text-text-primary">
+                  <div className="flex items-center font-semibold text-text-primary">
                     {section.name}
+                    {hasContent && (
+                      <SectionStatusBadge mockId={mockId} sectionKey={section.key} />
+                    )}
                   </div>
                   <div className="text-sm text-text-secondary">
                     {duration > 0 ? `${Math.round(duration / 60)} Min.` : "—"}
@@ -107,13 +111,12 @@ export default async function MockExamDetailPage({
                 </div>
               </div>
               {hasContent ? (
-                <a
+                <SectionActionButton
+                  mockId={mockId}
+                  sectionKey={section.key}
                   href={href}
-                  className="rounded-lg px-4 py-2 text-sm font-medium text-white transition-colors hover:opacity-90"
-                  style={{ backgroundColor: cfg.color }}
-                >
-                  Starten
-                </a>
+                  color={cfg.color}
+                />
               ) : (
                 <span className="rounded-lg border border-border px-4 py-2 text-sm font-medium text-text-disabled">
                   Bald
@@ -123,6 +126,9 @@ export default async function MockExamDetailPage({
           );
         })}
       </div>
+
+      {/* View results (shown when at least one section completed) */}
+      {hasContent && <ViewResultsLink mockId={mockId} />}
 
       {/* Start full exam */}
       {hasContent ? (

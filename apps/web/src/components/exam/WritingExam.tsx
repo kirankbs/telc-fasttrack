@@ -1,9 +1,11 @@
 'use client';
 
-import { useState, useCallback, useMemo } from 'react';
+import { useState, useCallback, useMemo, useEffect } from 'react';
 import { SECTION_DURATIONS } from '@telc/core';
+import type { SectionScore } from '@telc/core';
 import type { WritingSection, Level } from '@telc/types';
 import type { ExamPhase } from '@/lib/examTypes';
+import { saveSection } from '@/lib/examSession';
 import { ExamTimer } from './ExamTimer';
 import { SectionIntro } from './SectionIntro';
 
@@ -19,7 +21,34 @@ export function WritingExam({ mockId, level, section }: WritingExamProps) {
   const [taskAnswers, setTaskAnswers] = useState<Record<number, Record<string, string>>>({});
   const totalSeconds = SECTION_DURATIONS[level].writing;
 
+  const [selfAssessment, setSelfAssessment] = useState<number | null>(null);
   const handleExpire = useCallback(() => setPhase('submitted'), []);
+
+  const writingMax = useMemo(
+    () => section.tasks.reduce((sum, t) => sum + t.scoringCriteria.reduce((s, c) => s + c.maxPoints, 0), 0),
+    [section.tasks],
+  );
+
+  useEffect(() => {
+    if (phase === 'submitted') {
+      const score: SectionScore = selfAssessment !== null
+        ? {
+            earned: Math.round((selfAssessment / 100) * writingMax),
+            max: writingMax,
+            percentage: selfAssessment / 100,
+            passed: selfAssessment >= 60,
+          }
+        : { earned: 0, max: writingMax, percentage: 0, passed: false };
+
+      saveSection(mockId, level, 'writing', {
+        answers: {},
+        taskAnswers,
+        score,
+        submittedAt: new Date().toISOString(),
+        selfAssessment: selfAssessment ?? undefined,
+      });
+    }
+  }, [phase, selfAssessment, taskAnswers, mockId, level, writingMax]);
 
   const setFieldAnswer = (taskNum: number, field: string, value: string) => {
     setTaskAnswers((prev) => ({
@@ -48,6 +77,8 @@ export function WritingExam({ mockId, level, section }: WritingExamProps) {
         taskAnswers={taskAnswers}
         backHref={`/exam/${mockId}`}
         nextHref={`/exam/${mockId}/speaking`}
+        selfAssessment={selfAssessment}
+        onSelfAssessment={setSelfAssessment}
       />
     );
   }
@@ -176,11 +207,15 @@ function WritingResults({
   taskAnswers,
   backHref,
   nextHref,
+  selfAssessment,
+  onSelfAssessment,
 }: {
   section: WritingSection;
   taskAnswers: Record<number, Record<string, string>>;
   backHref: string;
   nextHref: string;
+  selfAssessment: number | null;
+  onSelfAssessment: (value: number) => void;
 }) {
   return (
     <div className="space-y-6">
@@ -191,6 +226,31 @@ function WritingResults({
           Schreibaufgaben werden von einem Prüfer bewertet. Vergleichen Sie Ihre Antworten mit
           den Musterlösungen unten.
         </p>
+      </div>
+
+      <div className="rounded-xl border border-border bg-white p-5 space-y-3">
+        <h3 className="font-semibold text-text-primary">Selbsteinschätzung</h3>
+        <p className="text-sm text-text-secondary">
+          Wie gut haben Sie Ihrer Meinung nach abgeschnitten? (0-100%)
+        </p>
+        <div className="flex items-center gap-4">
+          <input
+            data-testid="self-assessment-slider"
+            type="range"
+            min={0}
+            max={100}
+            step={5}
+            value={selfAssessment ?? 50}
+            onChange={(e) => onSelfAssessment(Number(e.target.value))}
+            className="flex-1 accent-brand-primary"
+          />
+          <span
+            data-testid="self-assessment-value"
+            className="w-14 text-center text-lg font-bold text-text-primary"
+          >
+            {selfAssessment !== null ? `${selfAssessment}%` : '—'}
+          </span>
+        </div>
       </div>
 
       {section.tasks.map((task) => {
