@@ -1,9 +1,11 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useMemo, useEffect } from 'react';
 import { SECTION_DURATIONS } from '@telc/core';
+import type { SectionScore } from '@telc/core';
 import type { SpeakingSection, Level } from '@telc/types';
 import type { ExamPhase } from '@/lib/examTypes';
+import { saveSection } from '@/lib/examSession';
 import { ExamTimer } from './ExamTimer';
 import { SectionIntro } from './SectionIntro';
 
@@ -17,7 +19,33 @@ export function SpeakingExam({ mockId, level, section }: SpeakingExamProps) {
   const [phase, setPhase] = useState<ExamPhase>('intro');
   const [currentPart, setCurrentPart] = useState(0);
   const [showSample, setShowSample] = useState<Record<number, boolean>>({});
+  const [selfAssessment, setSelfAssessment] = useState<number | null>(null);
   const totalSeconds = SECTION_DURATIONS[level].speaking;
+
+  const speakingMax = useMemo(
+    () => section.parts.length * 8,
+    [section.parts.length],
+  );
+
+  useEffect(() => {
+    if (phase === 'submitted') {
+      const score: SectionScore = selfAssessment !== null
+        ? {
+            earned: Math.round((selfAssessment / 100) * speakingMax),
+            max: speakingMax,
+            percentage: selfAssessment / 100,
+            passed: selfAssessment >= 60,
+          }
+        : { earned: 0, max: speakingMax, percentage: 0, passed: false };
+
+      saveSection(mockId, level, 'speaking', {
+        answers: {},
+        score,
+        submittedAt: new Date().toISOString(),
+        selfAssessment: selfAssessment ?? undefined,
+      });
+    }
+  }, [phase, selfAssessment, mockId, level, speakingMax]);
 
   const handleExpire = useCallback(() => setPhase('submitted'), []);
   const totalParts = section.parts.length;
@@ -55,6 +83,31 @@ export function SpeakingExam({ mockId, level, section }: SpeakingExamProps) {
           </p>
         </div>
 
+        <div className="rounded-xl border border-border bg-white p-5 space-y-3">
+          <h3 className="font-semibold text-text-primary">Selbsteinschätzung</h3>
+          <p className="text-sm text-text-secondary">
+            Wie gut haben Sie Ihrer Meinung nach abgeschnitten? (0-100%)
+          </p>
+          <div className="flex items-center gap-4">
+            <input
+              data-testid="self-assessment-slider"
+              type="range"
+              min={0}
+              max={100}
+              step={5}
+              value={selfAssessment ?? 50}
+              onChange={(e) => setSelfAssessment(Number(e.target.value))}
+              className="flex-1 accent-brand-primary"
+            />
+            <span
+              data-testid="self-assessment-value"
+              className="w-14 text-center text-lg font-bold text-text-primary"
+            >
+              {selfAssessment !== null ? `${selfAssessment}%` : '—'}
+            </span>
+          </div>
+        </div>
+
         <div className="space-y-4">
           {section.parts.map((p) => (
             <div
@@ -85,10 +138,11 @@ export function SpeakingExam({ mockId, level, section }: SpeakingExamProps) {
             Zur Prüfungsübersicht
           </a>
           <a
-            href={`/exam?level=${level}`}
+            data-testid="view-results-link"
+            href={`/exam/${mockId}/results`}
             className="flex-1 rounded-xl bg-brand-primary py-3 text-center text-sm font-semibold text-white hover:opacity-90"
           >
-            Alle Übungstests
+            Ergebnisse anzeigen
           </a>
         </div>
       </div>

@@ -1,9 +1,10 @@
 'use client';
 
-import { useState, useCallback, useMemo } from 'react';
+import { useState, useCallback, useMemo, useEffect } from 'react';
 import { SECTION_DURATIONS, calculateSectionScore } from '@telc/core';
 import type { ListeningSection, Level } from '@telc/types';
 import type { ExamPhase } from '@/lib/examTypes';
+import { saveSection } from '@/lib/examSession';
 import { ExamTimer } from './ExamTimer';
 import { SectionIntro } from './SectionIntro';
 import { QuestionResultRow } from './QuestionResultRow';
@@ -32,6 +33,16 @@ export function ListeningExam({ mockId, level, section }: ListeningExamProps) {
     () => (phase === 'submitted' ? calculateSectionScore(answers, section) : null),
     [phase, answers, section],
   );
+
+  useEffect(() => {
+    if (phase === 'submitted' && score) {
+      saveSection(mockId, level, 'listening', {
+        answers,
+        score,
+        submittedAt: new Date().toISOString(),
+      });
+    }
+  }, [phase, score, mockId, level, answers]);
 
   const allAnswered = useMemo(
     () => section.parts.every((p) => p.questions.every((q) => answers[q.id] !== undefined)),
