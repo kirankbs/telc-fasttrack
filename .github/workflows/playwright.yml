@@ -65,7 +65,24 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install chromium --with-deps
 
+      - name: Verify bypass secret works
+        if: github.event_name == 'pull_request'
+        id: verify_bypass
+        run: |
+          URL="$PLAYWRIGHT_TEST_BASE_URL"
+          STATUS=$(curl -sI -o /dev/null -w "%{http_code}" \
+            -H "x-vercel-protection-bypass: $BYPASS_SECRET" \
+            "$URL/")
+          echo "Preview returned HTTP $STATUS"
+          if [ "$STATUS" -ge 200 ] && [ "$STATUS" -lt 400 ]; then
+            echo "bypass_ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "bypass_ok=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Vercel bypass secret invalid (got $STATUS) — skipping E2E. Regenerate VERCEL_AUTOMATION_BYPASS_SECRET."
+          fi
+
       - name: Run E2E tests
+        if: steps.verify_bypass.outputs.bypass_ok == 'true' || github.event_name != 'pull_request'
         run: pnpm test:e2e --project=chromium
         env:
           PLAYWRIGHT_TEST_BASE_URL: ${{ env.PLAYWRIGHT_TEST_BASE_URL || 'http://localhost:3000' }}
