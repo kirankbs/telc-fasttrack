@@ -2,12 +2,665 @@
   "id": "A2_mock_02",
   "level": "A2",
   "title": "Übungstest 2",
-  "version": 0,
-  "_stub": true,
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Nachrichten auf dem Anrufbeantworter. Zu jeder Nachricht gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.",
+          "instructionsTranslation": "You will hear five short telephone messages. For each message there is one task. What is correct? Mark: a, b, or c. You will hear each recording twice.",
+          "audioFile": "assets/audio/A2/mock02/listening_part1.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A2_m02_L1_q1",
+              "type": "mcq",
+              "questionText": "Wann feiert die Familie den Geburtstag von Oma Erika?",
+              "options": [
+                "a) am Samstag um 15 Uhr",
+                "b) am Sonntag um 14 Uhr",
+                "c) am Sonntag um 16 Uhr"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Mutter hinterlässt folgende Nachricht: 'Die Geburtstagsfeier für Oma Erika ist am Sonntag um 14 Uhr bei uns zu Hause.' Samstag und 16 Uhr werden nicht als Termin genannt.",
+              "audioTimestamp": 7
+            },
+            {
+              "id": "A2_m02_L1_q2",
+              "type": "mcq",
+              "questionText": "Was soll Klaus zum Familienessen mitbringen?",
+              "options": [
+                "a) Wein und Blumen",
+                "b) einen Salat",
+                "c) Dessert und Getränke"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Schwester sagt: 'Kannst du bitte Dessert und Getränke mitbringen? Ich mache das Hauptgericht und Mama bringt einen Salat.' Klaus soll also Dessert und Getränke mitbringen.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m02_L1_q3",
+              "type": "mcq",
+              "questionText": "Warum kann Tante Helga nicht kommen?",
+              "options": [
+                "a) Sie ist krank.",
+                "b) Sie ist auf Reisen.",
+                "c) Sie hat zu viel Arbeit."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Tante Helga erklärt auf dem Anrufbeantworter: 'Es tut mir sehr leid, aber ich bin leider im Urlaub in Spanien und kann am Sonntag nicht dabei sein.' Sie ist also auf Reisen und nicht krank oder bei der Arbeit.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m02_L1_q4",
+              "type": "mcq",
+              "questionText": "Was hat Annas Tochter in der Schule gemacht?",
+              "options": [
+                "a) Sie hat eine sehr gute Note bekommen.",
+                "b) Sie hat ein Theaterstück gespielt.",
+                "c) Sie hat den Schulwettbewerb gewonnen."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Anna erzählt stolz: 'Meine Tochter hat heute in der Schule eine Eins in Mathe bekommen — ihr erstes Mal! Ich bin so glücklich.' Sie hat also eine sehr gute Note bekommen, kein Theaterstück gespielt und keinen Wettbewerb gewonnen.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "A2_m02_L1_q5",
+              "type": "mcq",
+              "questionText": "Was sucht der Vater für ein Geschenk?",
+              "options": [
+                "a) ein Buch",
+                "b) ein Spielzeug",
+                "c) Kleidung"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Vater sagt: 'Ich suche noch ein Geschenk für den kleinen Niko zum Geburtstag — vielleicht ein Spielzeug? Er ist ja erst drei Jahre alt.' Er sucht also ein Spielzeug, kein Buch oder Kleidung.",
+              "audioTimestamp": 8
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören fünf kurze Radiodurchsagen. Zu jeder Durchsage gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear five short radio announcements. For each announcement there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A2/mock02/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A2_m02_L2_q1",
+              "type": "mcq",
+              "questionText": "Was bietet der Kindergarten neu an?",
+              "options": [
+                "a) Musikunterricht am Nachmittag",
+                "b) ein Mittagessen für alle Kinder",
+                "c) Betreuung bis 18 Uhr"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Radiodurchsage teilt mit: 'Der Kindergarten Sonnenschein bietet ab September eine erweiterte Betreuungszeit bis 18 Uhr an.' Musikunterricht und Mittagessen werden in dieser Meldung nicht als Neuigkeit erwähnt.",
+              "audioTimestamp": 7
+            },
+            {
+              "id": "A2_m02_L2_q2",
+              "type": "mcq",
+              "questionText": "Was können Eltern beim Elternabend erfahren?",
+              "options": [
+                "a) die neuen Schulbücher",
+                "b) den Stundenplan",
+                "c) die Noten der Kinder"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Ansage sagt: 'Beim Elternabend am Dienstag stellen wir den neuen Stundenplan für das nächste Schuljahr vor.' Die Noten und neuen Bücher werden für diesen Abend nicht angekündigt.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m02_L2_q3",
+              "type": "mcq",
+              "questionText": "Was macht das Jugendhaus am Wochenende?",
+              "options": [
+                "a) Es veranstaltet ein Konzert.",
+                "b) Es organisiert ein Sportturnier.",
+                "c) Es bietet Computerkurse an."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Radiodurchsage sagt: 'Das Jugendhaus in der Parkstraße veranstaltet am Samstag ein Fußballturnier für Jugendliche zwischen 12 und 18 Jahren.' Ein Konzert und Computerkurse werden nicht erwähnt.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "A2_m02_L2_q4",
+              "type": "mcq",
+              "questionText": "Was bietet das Familienzentrum an?",
+              "options": [
+                "a) Kurse für werdende Eltern",
+                "b) Beratung für Alleinerziehende",
+                "c) Sprachkurse für Kinder"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Durchsage informiert: 'Das Familienzentrum Neustadtbietet ab Oktober Kurse für werdende Eltern an — Anmeldung unter Tel. 0521 889 22.' Beratung und Sprachkurse werden nicht als neues Angebot genannt.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m02_L2_q5",
+              "type": "mcq",
+              "questionText": "Wie lange dauert das Kinderstadtfest?",
+              "options": [
+                "a) einen Tag",
+                "b) zwei Tage",
+                "c) drei Tage"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Radiomeldung sagt: 'Das Kinderstadtfest findet dieses Jahr am Samstag und Sonntag statt — also zwei Tage voller Spiele und Musik.' Es dauert also zwei Tage.",
+              "audioTimestamp": 5
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear five short conversations. For each conversation there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A2/mock02/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A2_m02_L3_q1",
+              "type": "mcq",
+              "questionText": "Wie viele Kinder hat das Ehepaar?",
+              "options": [
+                "a) zwei Kinder",
+                "b) drei Kinder",
+                "c) vier Kinder"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Im Gespräch sagt die Frau: 'Wir haben drei Kinder — zwei Söhne und eine Tochter.' Zwei oder vier Kinder werden im Gespräch nicht genannt.",
+              "audioTimestamp": 10
+            },
+            {
+              "id": "A2_m02_L3_q2",
+              "type": "mcq",
+              "questionText": "Was hat die Familie am Wochenende gemacht?",
+              "options": [
+                "a) Sie haben einen Ausflug gemacht.",
+                "b) Sie haben zu Hause gefeiert.",
+                "c) Sie haben Verwandte besucht."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Mutter erzählt: 'Am Wochenende haben wir einen Ausflug in den Wald gemacht — wir sind viel gewandert und haben ein Picknick gemacht.' Sie haben also einen Ausflug unternommen, keine Feier zu Hause oder Verwandtenbesuch.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "A2_m02_L3_q3",
+              "type": "mcq",
+              "questionText": "Was schenkt der Sohn seiner Mutter zum Muttertag?",
+              "options": [
+                "a) Blumen und Schokolade",
+                "b) ein Buch",
+                "c) ein selbst gemachtes Frühstück"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Sohn erklärt: 'Ich stehe früh auf und mache Mama ein schönes Frühstück — mit frischen Brötchen, Eiern und Orangensaft.' Er bereitet also ein Frühstück vor, kauft keine Blumen oder ein Buch.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m02_L3_q4",
+              "type": "mcq",
+              "questionText": "Wo wohnen die Großeltern?",
+              "options": [
+                "a) im selben Haus",
+                "b) in einer anderen Stadt",
+                "c) auf dem Land"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Das Kind erzählt: 'Meine Oma und mein Opa wohnen auf dem Land — wir fahren im Sommer immer zu ihnen und helfen im Garten.' Sie wohnen also auf dem Land, nicht in derselben Stadt oder im selben Haus.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m02_L3_q5",
+              "type": "mcq",
+              "questionText": "Was möchte die Familie als nächstes gemeinsam machen?",
+              "options": [
+                "a) in den Urlaub fahren",
+                "b) einen Hund kaufen",
+                "c) umziehen"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Vater sagt: 'Diesen Sommer fahren wir endlich in den Urlaub — wir haben Griechenland geplant. Alle Kinder freuen sich schon sehr.' Die Familie möchte also in den Urlaub fahren, keinen Hund kaufen und nicht umziehen.",
+              "audioTimestamp": 11
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 50,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie die fünf kurzen Texte. Welcher Text passt zu welcher Situation? Für jede Situation gibt es genau einen passenden Text. Schreiben Sie den Buchstaben des Textes.",
+          "instructionsTranslation": "Read the five short texts. Which text matches which situation? For each situation there is exactly one matching text. Write the letter of the text.",
+          "texts": [
+            {
+              "id": "A2_m02_R1_text_a",
+              "type": "notice",
+              "content": "TEXT A — Elternabend\nHiermit laden wir alle Eltern der Klasse 3a herzlich zu unserem nächsten Elternabend ein. Termin: Montag, 26. April, 19:30 Uhr. Raum 14. Thema: Schulausflug und Zeugnisse. Bitte kommen Sie pünktlich.\n— Frau Braun, Klassenlehrerin"
+            },
+            {
+              "id": "A2_m02_R1_text_b",
+              "type": "ad",
+              "content": "TEXT B — Familienfoto-Aktion\nLassen Sie Ihre Familie in Erinnerungen festhalten! Professionelle Familienfotos im Studio oder draußen. Pakete ab 89 Euro. Termine: samstags und sonntags. Jetzt buchen: www.foto-family.de"
+            },
+            {
+              "id": "A2_m02_R1_text_c",
+              "type": "ad",
+              "content": "TEXT C — Kinderkleidung Flohmarkt\nGut erhaltene Kinderkleidung und Spielzeug günstig abzugeben. Größen 86 bis 128. Babybett und Kinderstuhl auch dabei. Bitte per SMS oder WhatsApp melden: 0176 55 44 33 12"
+            },
+            {
+              "id": "A2_m02_R1_text_d",
+              "type": "notice",
+              "content": "TEXT D — Familienpflege-Urlaub\nSie pflegen ein Familienmitglied und brauchen eine Pause? Das Rote Kreuz organisiert für pflegende Angehörige einen Erholungsurlaub — 1 Woche, Kosten übernimmt zum Teil die Pflegeversicherung. Info: 0800 11 22 33 (kostenlos)"
+            },
+            {
+              "id": "A2_m02_R1_text_e",
+              "type": "ad",
+              "content": "TEXT E — Kindertanzschule\nKindertanzkurse für Kinder von 4 bis 12 Jahren. Schnupperstunde kostenlos! Kurse: Ballett, Hip-Hop, Standardtanz. Montag bis Freitag nachmittags. Anmeldung: tanzschule-klein.de"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m02_R1_q1",
+              "type": "matching",
+              "questionText": "Sarah hat ein Kind in der Grundschule und möchte mehr über den nächsten Schulausflug wissen.",
+              "matchingSources": [
+                { "id": "A2_m02_R1_text_a", "label": "A" },
+                { "id": "A2_m02_R1_text_b", "label": "B" },
+                { "id": "A2_m02_R1_text_c", "label": "C" },
+                { "id": "A2_m02_R1_text_d", "label": "D" },
+                { "id": "A2_m02_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Text A ist eine Einladung zum Elternabend der Klasse 3a — dort steht Schulausflug auf der Tagesordnung. Das passt genau zu Sarah, die mehr über den Schulausflug ihres Kindes erfahren möchte."
+            },
+            {
+              "id": "A2_m02_R1_q2",
+              "type": "matching",
+              "questionText": "Familie Meier möchte zum Geburtstag der Großeltern ein schönes gemeinsames Foto als Geschenk.",
+              "matchingSources": [
+                { "id": "A2_m02_R1_text_a", "label": "A" },
+                { "id": "A2_m02_R1_text_b", "label": "B" },
+                { "id": "A2_m02_R1_text_c", "label": "C" },
+                { "id": "A2_m02_R1_text_d", "label": "D" },
+                { "id": "A2_m02_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Text B wirbt für professionelle Familienfotos im Studio — ein schönes Familienfoto als Geschenk für die Großeltern passt genau zu diesem Angebot."
+            },
+            {
+              "id": "A2_m02_R1_q3",
+              "type": "matching",
+              "questionText": "Petra hat zwei Kinder und sucht günstige Kleidung für ihr Baby und ihren Kleinkind.",
+              "matchingSources": [
+                { "id": "A2_m02_R1_text_a", "label": "A" },
+                { "id": "A2_m02_R1_text_b", "label": "B" },
+                { "id": "A2_m02_R1_text_c", "label": "C" },
+                { "id": "A2_m02_R1_text_d", "label": "D" },
+                { "id": "A2_m02_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Text C bietet gut erhaltene Kinderkleidung in kleinen Größen (86–128) an — das passt für Petras Baby und Kleinkind. Die anderen Texte bieten keine Kinderkleidung an."
+            },
+            {
+              "id": "A2_m02_R1_q4",
+              "type": "matching",
+              "questionText": "Hans pflegt seine kranke Mutter und ist sehr erschöpft. Er braucht eine kurze Erholungspause.",
+              "matchingSources": [
+                { "id": "A2_m02_R1_text_a", "label": "A" },
+                { "id": "A2_m02_R1_text_b", "label": "B" },
+                { "id": "A2_m02_R1_text_c", "label": "C" },
+                { "id": "A2_m02_R1_text_d", "label": "D" },
+                { "id": "A2_m02_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Text D richtet sich genau an pflegende Angehörige und bietet ihnen einen Erholungsurlaub an — das trifft Hans' Situation exakt. Kein anderer Text adressiert pflegende Familienmitglieder."
+            },
+            {
+              "id": "A2_m02_R1_q5",
+              "type": "matching",
+              "questionText": "Mia ist 8 Jahre alt und möchte gerne Tanzen lernen.",
+              "matchingSources": [
+                { "id": "A2_m02_R1_text_a", "label": "A" },
+                { "id": "A2_m02_R1_text_b", "label": "B" },
+                { "id": "A2_m02_R1_text_c", "label": "C" },
+                { "id": "A2_m02_R1_text_d", "label": "D" },
+                { "id": "A2_m02_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "E",
+              "explanation": "Text E bewirbt Kindertanzkurse für 4–12-jährige Kinder — Mia ist 8 und möchte tanzen. Das passt perfekt. Die anderen Texte bieten keine Tanzkurse für Kinder an."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den Text. Sind die Sätze richtig oder falsch? Kreuzen Sie an.",
+          "instructionsTranslation": "Read the text. Are the sentences correct or incorrect? Mark your answer.",
+          "texts": [
+            {
+              "id": "A2_m02_R2_text1",
+              "type": "article",
+              "content": "In Deutschland leben heute viele verschiedene Familienformen. Früher lebten meistens Vater, Mutter und Kinder zusammen — das war die klassische Familie. Heute gibt es aber auch viele Alleinerziehende, Patchworkfamilien und gleichgeschlechtliche Paare mit Kindern. Laut einer aktuellen Studie leben 21 Prozent aller Kinder bei nur einem Elternteil. Besonders in Großstädten ist das sehr häufig. Experten sagen, dass es für Kinder wichtig ist, stabile Beziehungen zu haben — egal in welcher Familienform sie aufwachsen.",
+              "source": "Familien-Journal, April 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m02_R2_q1",
+              "type": "true_false",
+              "questionText": "Früher lebten Familien immer in der klassischen Form mit Mutter, Vater und Kindern.",
+              "relatedTextId": "A2_m02_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Der Text sagt: 'Früher lebten meistens Vater, Mutter und Kinder zusammen — das war die klassische Familie.' Die Aussage gibt das korrekt wieder."
+            },
+            {
+              "id": "A2_m02_R2_q2",
+              "type": "true_false",
+              "questionText": "Heute gibt es keine Alleinerziehenden mehr in Deutschland.",
+              "relatedTextId": "A2_m02_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Im Text steht das Gegenteil: 'Heute gibt es aber auch viele Alleinerziehende.' Der Artikel bestätigt ausdrücklich, dass es Alleinerziehende gibt — die Aussage ist falsch."
+            },
+            {
+              "id": "A2_m02_R2_q3",
+              "type": "true_false",
+              "questionText": "Mehr als jedes fünfte Kind lebt bei nur einem Elternteil.",
+              "relatedTextId": "A2_m02_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Der Artikel nennt: '21 Prozent aller Kinder leben bei nur einem Elternteil.' 21 Prozent ist mehr als ein Fünftel (20 Prozent) — die Aussage stimmt."
+            },
+            {
+              "id": "A2_m02_R2_q4",
+              "type": "true_false",
+              "questionText": "In kleinen Dörfern ist das Leben bei einem Elternteil besonders häufig.",
+              "relatedTextId": "A2_m02_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Der Text sagt: 'Besonders in Großstädten ist das sehr häufig.' Es sind also Großstädte, nicht kleine Dörfer — die Aussage ist falsch."
+            },
+            {
+              "id": "A2_m02_R2_q5",
+              "type": "true_false",
+              "questionText": "Für Kinder ist es laut Experten wichtig, stabile Beziehungen zu haben.",
+              "relatedTextId": "A2_m02_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Im Text steht direkt: 'Experten sagen, dass es für Kinder wichtig ist, stabile Beziehungen zu haben.' Diese Aussage ist eine direkte Wiedergabe des Textes."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die kurzen Texte und Hinweise. Was ist richtig? Kreuzen Sie an: a, b oder c.",
+          "instructionsTranslation": "Read the short texts and notices. What is correct? Mark: a, b, or c.",
+          "texts": [
+            {
+              "id": "A2_m02_R3_text1",
+              "type": "notice",
+              "content": "Liebe Eltern,\ndie Kita bleibt am Freitag, 3. Mai, wegen einer Betriebsversammlung geschlossen. Bitte sorgen Sie für eine andere Betreuung Ihrer Kinder. Wir entschuldigen uns für die Unannehmlichkeiten.\n— Das Kita-Team"
+            },
+            {
+              "id": "A2_m02_R3_text2",
+              "type": "notice",
+              "content": "HINWEIS FÜR GROSSELTERN-KURSE\nIn der Stadtbibliothek finden jeden Mittwoch Kurse für Großeltern statt: 'Wie unterstütze ich mein Enkelkind beim Lernen?' Kostenlos, keine Anmeldung nötig. Beginn: 10:00 Uhr, Dauer: 90 Minuten."
+            },
+            {
+              "id": "A2_m02_R3_text3",
+              "type": "email",
+              "content": "Von: Sandra Hoffmann\nAn: Familienberatung\nBetreff: Frage zu Elterngeld\n\nSehr geehrte Damen und Herren,\nmein Mann und ich erwarten unser erstes Kind. Ich hätte gerne gewusst, wie lange wir Elterngeld bekommen können und ob mein Mann und ich das teilen können. Vielen Dank für Ihre Antwort.\nMit freundlichen Grüßen, Sandra Hoffmann"
+            },
+            {
+              "id": "A2_m02_R3_text4",
+              "type": "notice",
+              "content": "FAMILIENRABATT\nBeim Kauf von 3 oder mehr Kinderfahrkarten erhalten Familien 20% Rabatt auf alle Fahrkarten. Gültig an Wochenenden und Feiertagen. Bitte zeigen Sie alle Karten gemeinsam vor."
+            },
+            {
+              "id": "A2_m02_R3_text5",
+              "type": "notice",
+              "content": "Kinder-Erste-Hilfe-Kurs\nLernen Sie, Ihrem Kind in Notfällen zu helfen! Samstag, 10. Mai, 9–13 Uhr. Maximale Teilnehmerzahl: 12 Personen. Kosten: 35 Euro pro Person. Anmeldung bis 5. Mai erforderlich."
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m02_R3_q1",
+              "type": "mcq",
+              "questionText": "Warum ist die Kita am 3. Mai geschlossen?",
+              "relatedTextId": "A2_m02_R3_text1",
+              "options": [
+                "a) wegen eines Feiertags",
+                "b) wegen einer Betriebsversammlung",
+                "c) wegen Bauarbeiten"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Aushang sagt explizit: 'die Kita bleibt am Freitag, 3. Mai, wegen einer Betriebsversammlung geschlossen.' Feiertag und Bauarbeiten werden nicht als Grund genannt."
+            },
+            {
+              "id": "A2_m02_R3_q2",
+              "type": "mcq",
+              "questionText": "Was braucht man für den Großeltern-Kurs?",
+              "relatedTextId": "A2_m02_R3_text2",
+              "options": [
+                "a) eine vorherige Anmeldung",
+                "b) einen Bibliotheksausweis",
+                "c) keine Anmeldung"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Hinweis sagt: 'Kostenlos, keine Anmeldung nötig.' Man muss sich also nicht anmelden und auch keinen Bibliotheksausweis zeigen."
+            },
+            {
+              "id": "A2_m02_R3_q3",
+              "type": "mcq",
+              "questionText": "Was möchte Sandra Hoffmann wissen?",
+              "relatedTextId": "A2_m02_R3_text3",
+              "options": [
+                "a) Wie viel Kindergeld sie bekommt.",
+                "b) Ob Elterngeld aufgeteilt werden kann.",
+                "c) Wann das Baby kommt."
+              ],
+              "correctAnswer": "b",
+              "explanation": "In der E-Mail fragt Sandra: 'ob mein Mann und ich das [Elterngeld] teilen können.' Sie möchte also wissen, ob Elterngeld zwischen den Partnern aufgeteilt werden kann. Nach Kindergeld oder dem Geburtsdatum fragt sie nicht."
+            },
+            {
+              "id": "A2_m02_R3_q4",
+              "type": "mcq",
+              "questionText": "Wann gilt der Familienrabatt auf Fahrkarten?",
+              "relatedTextId": "A2_m02_R3_text4",
+              "options": [
+                "a) jeden Tag",
+                "b) nur an Wochentagen",
+                "c) an Wochenenden und Feiertagen"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Das Hinweisschild sagt: 'Gültig an Wochenenden und Feiertagen.' Der Rabatt gilt also nicht jeden Tag und nicht an normalen Wochentagen."
+            },
+            {
+              "id": "A2_m02_R3_q5",
+              "type": "mcq",
+              "questionText": "Bis wann muss man sich für den Erste-Hilfe-Kurs anmelden?",
+              "relatedTextId": "A2_m02_R3_text5",
+              "options": [
+                "a) bis zum 1. Mai",
+                "b) bis zum 5. Mai",
+                "c) bis zum 10. Mai"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Kurshinweis sagt: 'Anmeldung bis 5. Mai erforderlich.' Der Kurs selbst findet am 10. Mai statt — die Anmeldefrist ist also der 5. Mai."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 0,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "form_fill",
+          "instructions": "Füllen Sie das Anmeldeformular für einen Kindertanzkurs aus. Benutzen Sie die Informationen unten.",
+          "instructionsTranslation": "Fill in the registration form for a children's dance course. Use the information below.",
+          "formFields": [
+            {
+              "label": "Name des Kindes",
+              "correctAnswer": "Lena Schulz",
+              "hint": "Vor- und Nachname"
+            },
+            {
+              "label": "Geburtsdatum des Kindes",
+              "correctAnswer": "05.08.2018",
+              "hint": "TT.MM.JJJJ"
+            },
+            {
+              "label": "Kursart",
+              "correctAnswer": "Ballett",
+              "hint": "Ballett, Hip-Hop oder Standardtanz"
+            },
+            {
+              "label": "Name des Elternteils",
+              "correctAnswer": "Petra Schulz",
+              "hint": "Vor- und Nachname"
+            },
+            {
+              "label": "E-Mail-Adresse",
+              "correctAnswer": "petra.schulz@email.de",
+              "hint": "Kontakt-E-Mail"
+            },
+            {
+              "label": "Telefonnummer",
+              "correctAnswer": "0160 77 88 99 10",
+              "hint": "Mobilnummer"
+            }
+          ],
+          "sampleAnswer": "Name des Kindes: Lena Schulz\nGeburtsdatum des Kindes: 05.08.2018\nKursart: Ballett\nName des Elternteils: Petra Schulz\nE-Mail-Adresse: petra.schulz@email.de\nTelefonnummer: 0160 77 88 99 10",
+          "scoringCriteria": [
+            {
+              "criterion": "Vollständigkeit",
+              "maxPoints": 3,
+              "description": "Alle Felder wurden ausgefüllt (je 0,5 Punkte pro Feld)"
+            },
+            {
+              "criterion": "Korrektheit",
+              "maxPoints": 2,
+              "description": "Alle Informationen entsprechen den Vorgaben und sind fehlerfrei übertragen"
+            },
+            {
+              "criterion": "Format",
+              "maxPoints": 1,
+              "description": "Datum und E-Mail im richtigen Format angegeben"
+            }
+          ]
+        },
+        {
+          "taskNumber": 2,
+          "type": "short_message",
+          "instructions": "Schreiben Sie eine kurze Nachricht an Ihre Nachbarin Frau König. Schreiben Sie über die drei Punkte unten. Schreiben Sie 30 bis 50 Wörter.",
+          "instructionsTranslation": "Write a short message to your neighbour Mrs König. Write about the three points below. Write 30 to 50 words.",
+          "prompt": "Sie haben am Samstag eine Geburtstagsfeier für Ihren Sohn.\n- Laden Sie Frau König und ihre Kinder ein.\n- Sagen Sie, wann und wo die Feier stattfindet.\n- Bitten Sie sie, eine Antwort zu geben.",
+          "promptTranslation": "You are having a birthday party for your son on Saturday.\n- Invite Mrs König and her children.\n- Say when and where the party takes place.\n- Ask her to reply.",
+          "requiredPoints": [
+            "Einladung für Frau König und ihre Kinder",
+            "Zeit und Ort der Feier",
+            "Bitte um Rückmeldung"
+          ],
+          "wordCountMin": 30,
+          "wordCountMax": 50,
+          "sampleAnswer": "Liebe Frau König,\nmein Sohn Lukas wird am Samstag 8 Jahre alt! Wir feiern von 15 bis 18 Uhr bei uns zu Hause in der Rosenstraße 12. Sie und Ihre Kinder sind herzlich eingeladen! Können Sie kommen? Bitte geben Sie kurz Bescheid.\nViele Grüße, Petra Schulz",
+          "scoringCriteria": [
+            {
+              "criterion": "Inhalt",
+              "maxPoints": 3,
+              "description": "Alle drei Punkte wurden angesprochen (je 1 Punkt)"
+            },
+            {
+              "criterion": "Sprache",
+              "maxPoints": 2,
+              "description": "Grammatik und Wortschatz sind für A2 angemessen"
+            },
+            {
+              "criterion": "Wortanzahl",
+              "maxPoints": 1,
+              "description": "Text liegt zwischen 30 und 50 Wörtern"
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 0,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "introduce",
+          "instructions": "Stellen Sie sich vor und erzählen Sie von Ihrer Familie.",
+          "instructionsTranslation": "Introduce yourself and talk about your family.",
+          "prompt": "Bitte stellen Sie sich vor:\n- Wie heißen Sie?\n- Wie groß ist Ihre Familie?\n- Haben Sie Kinder oder Geschwister?\n- Wo wohnen Ihre Familienmitglieder?\n- Was machen Sie gerne mit Ihrer Familie?",
+          "sampleResponse": "Ich heiße Maria Neumann und komme aus Polen. Meine Familie ist nicht sehr groß — ich habe einen Bruder und meine Eltern leben noch in Warschau. Hier in Deutschland wohne ich mit meinem Mann und unserem Sohn Ben, der vier Jahre alt ist. Am Wochenende gehen wir oft in den Park oder kochen zusammen.",
+          "evaluationTips": [
+            "Sprechen Sie über konkrete Familienmitglieder, nicht nur abstrakt über 'die Familie'",
+            "Verwenden Sie Possessivpronomen: mein/meine, unser/unsere",
+            "Nennen Sie Alter und Wohnort, um die Antwort interessanter zu machen",
+            "Benutzen Sie Verben im Präsens und Perfekt für vergangene Aktivitäten"
+          ],
+          "keyPhrases": [
+            "Ich habe ... Geschwister.",
+            "Meine Eltern wohnen in ...",
+            "Mein Sohn/meine Tochter ist ... Jahre alt.",
+            "Wir machen gerne ...",
+            "Am Wochenende ...",
+            "Meine Familie ist (nicht) sehr groß."
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "conversation",
+          "instructions": "Führen Sie ein Gespräch über Feste und Feiern in der Familie. Stellen Sie Fragen und antworten Sie.",
+          "instructionsTranslation": "Have a conversation about celebrations in the family. Ask questions and answer.",
+          "prompt": "Sprechen Sie mit Ihrem Partner oder Ihrer Partnerin über Familienfeste:\n- Welche Feste feiern Sie in Ihrer Familie?\n- Wie feiert Ihre Familie Geburtstage?\n- Was kochen oder essen Sie bei Familienfeiern?\n- Wer kommt meistens zu Ihren Familienfeiern?",
+          "sampleResponse": "In meiner Familie feiern wir Geburtstage immer groß — die ganze Familie kommt zusammen. Meine Mutter kocht dann viel: einen Kuchen, Salate und warme Gerichte. Wir singen, spielen und erzählen Geschichten. Zu Weihnachten treffen wir uns immer bei meinen Eltern.",
+          "evaluationTips": [
+            "Beschreiben Sie Feste konkret: wer kommt, was passiert, was man isst",
+            "Fragen Sie den Partner: 'Und wie ist das bei Ihnen?'",
+            "Verwenden Sie das Perfekt für Erfahrungen: 'Letztes Jahr haben wir ...'",
+            "Zeigen Sie Interesse an den Antworten des Partners",
+            "Verbinden Sie Sätze mit 'und', 'aber', 'dann', 'danach'"
+          ],
+          "keyPhrases": [
+            "Wir feiern immer ...",
+            "Zu ... kommen alle zusammen.",
+            "Meine Mutter/mein Vater kocht ...",
+            "Wir singen und ...",
+            "Letztes Jahr haben wir ...",
+            "Wie feiern Sie ...?"
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Planen Sie gemeinsam eine Familienfeier. Einigen Sie sich auf eine Lösung.",
+          "instructionsTranslation": "Plan a family celebration together. Agree on a solution.",
+          "prompt": "Sie möchten zusammen die Hochzeit Ihres Bruders/Ihrer Schwester feiern. Sprechen Sie über:\n- Wo soll die Feier stattfinden?\n- Wie viele Personen werden eingeladen?\n- Wer hilft bei den Vorbereitungen?\n- Was gibt es zu essen und zu trinken?",
+          "sampleResponse": "Ich denke, wir können die Feier im Garten von Mama und Papa machen — da ist genug Platz für 30 Personen. Ich kann helfen, Tische und Stühle aufzustellen. Kannst du das Buffet organisieren? Wir könnten Kuchen kaufen und verschiedene Salate machen.",
+          "evaluationTips": [
+            "Schlagen Sie konkrete Orte und Lösungen vor",
+            "Verteilen Sie Aufgaben klar: 'Ich mache ... und du machst ...'",
+            "Nutzen Sie 'können' für Möglichkeiten und 'müssen' für Pflichten",
+            "Bestätigen Sie Vorschläge: 'Ja, das ist eine gute Idee!'",
+            "Einigen Sie sich auf eine finale Lösung am Ende"
+          ],
+          "keyPhrases": [
+            "Ich denke, wir ...",
+            "Was hältst du davon, ...",
+            "Ich kann ... übernehmen.",
+            "Kannst du ...?",
+            "Das klingt gut!",
+            "Wir brauchen ..."
+          ]
+        }
+      ]
+    }
   }
 }

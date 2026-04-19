@@ -2,12 +2,665 @@
   "id": "A2_mock_01",
   "level": "A2",
   "title": "Übungstest 1",
-  "version": 0,
-  "_stub": true,
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Nachrichten auf dem Anrufbeantworter. Zu jeder Nachricht gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.",
+          "instructionsTranslation": "You will hear five short telephone messages. For each message there is one task. What is correct? Mark: a, b, or c. You will hear each recording twice.",
+          "audioFile": "assets/audio/A2/mock01/listening_part1.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A2_m01_L1_q1",
+              "type": "mcq",
+              "questionText": "Wann soll Maria zum Arzt gehen?",
+              "options": [
+                "a) am Dienstag um 10 Uhr",
+                "b) am Mittwoch um 11 Uhr",
+                "c) am Donnerstag um 14 Uhr"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Arztpraxis hinterlässt auf dem Anrufbeantworter die Nachricht: 'Wir bestätigen Ihren Termin am Mittwoch um 11 Uhr.' Dienstag und Donnerstag werden nicht als Termin genannt — der Mittwochtermin ist korrekt.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m01_L1_q2",
+              "type": "mcq",
+              "questionText": "Was macht Thomas heute Abend nicht?",
+              "options": [
+                "a) Er kocht das Abendessen.",
+                "b) Er geht ins Fitnessstudio.",
+                "c) Er kauft im Supermarkt ein."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Thomas sagt auf dem Anrufbeantworter: 'Ich gehe heute Abend noch schnell ins Fitnessstudio und danach zum Supermarkt. Kannst du bitte das Abendessen kochen?' Er bittet jemand anderen zu kochen — er kocht also selbst nicht.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "A2_m01_L1_q3",
+              "type": "mcq",
+              "questionText": "Wo ist das Stadtfest?",
+              "options": [
+                "a) am Marktplatz",
+                "b) im Stadtpark",
+                "c) vor dem Rathaus"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Nachricht informiert: 'Das Stadtfest findet dieses Jahr vor dem Rathaus statt — der Marktplatz wird wegen Bauarbeiten leider nicht genutzt.' Das Stadtfest ist also vor dem Rathaus, nicht am Marktplatz oder im Park.",
+              "audioTimestamp": 10
+            },
+            {
+              "id": "A2_m01_L1_q4",
+              "type": "mcq",
+              "questionText": "Warum kommt Sandra zu spät?",
+              "options": [
+                "a) Der Bus hatte eine Verspätung.",
+                "b) Sie hat den Zug verpasst.",
+                "c) Sie findet keinen Parkplatz."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Sandra erklärt auf dem Anrufbeantworter: 'Entschuldigung, ich bin noch unterwegs — der Bus hat heute Verspätung wegen eines Unfalls auf der Hauptstraße.' Sie kommt also wegen des verspäteten Busses zu spät, nicht wegen des Zuges oder eines Parkplatzes.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m01_L1_q5",
+              "type": "mcq",
+              "questionText": "Was soll Julia mitbringen?",
+              "options": [
+                "a) eine Flasche Wein",
+                "b) einen Kuchen",
+                "c) Obst und Käse"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Freundin sagt: 'Für die Party am Samstag brauchen wir noch einen Kuchen — kannst du bitte einen mitbringen? Wein und Salat haben wir schon.' Julia soll also einen Kuchen mitbringen, keinen Wein und kein Obst.",
+              "audioTimestamp": 7
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören fünf kurze Radiodurchsagen. Zu jeder Durchsage gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear five short radio announcements. For each announcement there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A2/mock01/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A2_m01_L2_q1",
+              "type": "mcq",
+              "questionText": "Wie ist das Wetter am Wochenende?",
+              "options": [
+                "a) sonnig und warm",
+                "b) bewölkt und kühl",
+                "c) regnerisch und kalt"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Wetterbericht sagt: 'Am Wochenende bleibt es bewölkt und kühl — die Temperaturen erreichen nur 14 bis 16 Grad, Regen ist aber nicht erwartet.' Sonnig und regnerisch treffen also nicht zu.",
+              "audioTimestamp": 5
+            },
+            {
+              "id": "A2_m01_L2_q2",
+              "type": "mcq",
+              "questionText": "Wann ist die Stadtbücherei heute geschlossen?",
+              "options": [
+                "a) von 12 bis 14 Uhr",
+                "b) von 13 bis 15 Uhr",
+                "c) von 14 bis 16 Uhr"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Radiodurchsage informiert: 'Die Stadtbücherei ist heute wegen einer Personalversammlung von 12 bis 14 Uhr geschlossen und öffnet dann wieder.' Die anderen Zeiten werden nicht als Schließzeit genannt.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m01_L2_q3",
+              "type": "mcq",
+              "questionText": "Was ist im Sonderangebot?",
+              "options": [
+                "a) frisches Gemüse",
+                "b) Bio-Fleisch",
+                "c) Brot und Backwaren"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Radiowerbespot sagt: 'Heute im Sonderangebot beim Bäcker Schmidt: alle Brot- und Backwarensorten 20 Prozent günstiger.' Gemüse und Fleisch werden in diesem Angebot nicht erwähnt.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "A2_m01_L2_q4",
+              "type": "mcq",
+              "questionText": "Wo findet der Deutschkurs statt?",
+              "options": [
+                "a) in der Volkshochschule",
+                "b) im Kulturzentrum",
+                "c) in der Stadtbibliothek"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Durchsage teilt mit: 'Der neue Deutschkurs für Anfänger findet ab Montag im Kulturzentrum in der Bahnhofstraße statt — nicht wie ursprünglich geplant in der Volkshochschule.' Der Kurs ist also im Kulturzentrum.",
+              "audioTimestamp": 11
+            },
+            {
+              "id": "A2_m01_L2_q5",
+              "type": "mcq",
+              "questionText": "Wie viel kostet ein Einzelticket für das Schwimmbad?",
+              "options": [
+                "a) 3,50 Euro",
+                "b) 4,50 Euro",
+                "c) 5,00 Euro"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Radiodurchsage informiert: 'Das Hallenbad hat die Eintrittspreise angepasst — ein Einzelticket kostet jetzt 4,50 Euro, eine Zehnerkarte 38 Euro.' Der Einzelpreis ist also 4,50 Euro, nicht 3,50 oder 5,00 Euro.",
+              "audioTimestamp": 7
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear five short conversations. For each conversation there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A2/mock01/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A2_m01_L3_q1",
+              "type": "mcq",
+              "questionText": "Was hat die Frau gestern gemacht?",
+              "options": [
+                "a) Sie hat Sport gemacht.",
+                "b) Sie hat einen Film gesehen.",
+                "c) Sie hat Freunde besucht."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Im Gespräch sagt die Frau: 'Gestern habe ich alte Freunde aus der Schulzeit besucht — wir haben zusammen gegessen und viel geredet.' Sie hat also Freunde besucht, keinen Sport gemacht und keinen Film gesehen.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "A2_m01_L3_q2",
+              "type": "mcq",
+              "questionText": "Warum kauft der Mann kein neues Handy?",
+              "options": [
+                "a) Es ist zu teuer.",
+                "b) Er braucht kein neues.",
+                "c) Das Modell ist nicht vorrätig."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Mann sagt: 'Ich würde das neue Smartphone gerne kaufen, aber 650 Euro sind mir leider zu teuer.' Er möchte es also kaufen, kann es sich aber nicht leisten — das Gerät ist vorrätig und er bräuchte es schon.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m01_L3_q3",
+              "type": "mcq",
+              "questionText": "Wie fährt Anna zur Arbeit?",
+              "options": [
+                "a) mit dem Auto",
+                "b) mit dem Fahrrad",
+                "c) mit dem Bus"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Anna erklärt: 'Ich fahre jeden Tag mit dem Fahrrad zur Arbeit — das ist schneller als der Bus und ich spare Geld.' Sie nutzt also das Fahrrad, kein Auto und keinen Bus.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m01_L3_q4",
+              "type": "mcq",
+              "questionText": "Was möchte der Kunde im Restaurant?",
+              "options": [
+                "a) die Speisekarte",
+                "b) einen Tisch für zwei",
+                "c) die Rechnung"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Kellner fragt: 'Kann ich Ihnen helfen?' und der Kunde antwortet: 'Ja, ich hätte gerne die Rechnung, bitte — wir möchten zahlen.' Er fragt also nach der Rechnung, nicht nach einem Tisch oder der Karte.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "A2_m01_L3_q5",
+              "type": "mcq",
+              "questionText": "Wer hat die E-Mail geschrieben?",
+              "options": [
+                "a) der Chef",
+                "b) ein Kollege",
+                "c) ein Kunde"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Im Gespräch sagt die Frau: 'Ich habe gerade eine E-Mail von unserem Chef bekommen — er schreibt, dass das Meeting morgen um eine Stunde verschoben wird.' Die E-Mail kommt also vom Chef, nicht von einem Kollegen oder Kunden.",
+              "audioTimestamp": 10
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 50,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie die fünf Anzeigen. Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es genau eine passende Anzeige. Schreiben Sie den Buchstaben der Anzeige.",
+          "instructionsTranslation": "Read the five advertisements. Which advertisement matches which situation? For each situation there is exactly one matching advertisement. Write the letter of the advertisement.",
+          "texts": [
+            {
+              "id": "A2_m01_R1_text_a",
+              "type": "ad",
+              "content": "ANZEIGE A — Sprachkurs Deutsch\nDeutschkurse für alle Niveaus (A1–B2). Kleine Gruppen, maximal 8 Personen. Montag und Mittwoch, 18–20 Uhr. Preis: 120 Euro pro Monat. Info: Tel. 0521 334 55 66"
+            },
+            {
+              "id": "A2_m01_R1_text_b",
+              "type": "ad",
+              "content": "ANZEIGE B — Babysitter gesucht\nWir suchen eine zuverlässige Person für unsere zwei Kinder (4 und 7 Jahre). Samstag- und Sonntagabend, ca. 19–23 Uhr. Bezahlung: 12 Euro pro Stunde. Bitte melden bei Familie Becker, Tel. 0521 77 44 88"
+            },
+            {
+              "id": "A2_m01_R1_text_c",
+              "type": "ad",
+              "content": "ANZEIGE C — Fahrschule Müller\nAutoführerschein in 6 Wochen! Günstige Paketpreise. Flexible Fahrstunden auch am Wochenende. Anmeldung online: www.fahrschule-mueller.de oder Tel. 0521 889 00 11"
+            },
+            {
+              "id": "A2_m01_R1_text_d",
+              "type": "ad",
+              "content": "ANZEIGE D — Yoga für Anfänger\nEinsteigerkurs Yoga: jeden Dienstag und Donnerstag, 7:30–8:30 Uhr — direkt vor der Arbeit! Nur 8 Euro pro Einheit. Sportcenter am Markt, 1. Stock."
+            },
+            {
+              "id": "A2_m01_R1_text_e",
+              "type": "ad",
+              "content": "ANZEIGE E — Nachhilfe Mathematik\nSchüler der Klassen 5–10 aufgepasst! Erfahrene Lehrerin bietet Nachhilfe in Mathematik an. Einzel- und Gruppenstunden möglich. Preis: 25 Euro/Stunde (Einzel), 15 Euro/Stunde (Gruppe). Tel. 0177 345 67 89"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m01_R1_q1",
+              "type": "matching",
+              "questionText": "Reza ist vor Kurzem nach Deutschland gezogen und möchte besser Deutsch lernen.",
+              "matchingSources": [
+                { "id": "A2_m01_R1_text_a", "label": "A" },
+                { "id": "A2_m01_R1_text_b", "label": "B" },
+                { "id": "A2_m01_R1_text_c", "label": "C" },
+                { "id": "A2_m01_R1_text_d", "label": "D" },
+                { "id": "A2_m01_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Anzeige A bietet Deutschkurse für alle Niveaus an — genau das, was Reza als Neuankömmling in Deutschland braucht. Die anderen Anzeigen beziehen sich auf Babysitting, Fahrschule, Yoga und Nachhilfe in Mathe."
+            },
+            {
+              "id": "A2_m01_R1_q2",
+              "type": "matching",
+              "questionText": "Lena und Tim möchten am Samstagabend ausgehen. Sie brauchen jemanden, der auf ihre Kinder aufpasst.",
+              "matchingSources": [
+                { "id": "A2_m01_R1_text_a", "label": "A" },
+                { "id": "A2_m01_R1_text_b", "label": "B" },
+                { "id": "A2_m01_R1_text_c", "label": "C" },
+                { "id": "A2_m01_R1_text_d", "label": "D" },
+                { "id": "A2_m01_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Anzeige B sucht einen Babysitter für Samstag- und Sonntagabend — das trifft genau den Bedarf von Lena und Tim. Die anderen Anzeigen passen für diese Situation nicht."
+            },
+            {
+              "id": "A2_m01_R1_q3",
+              "type": "matching",
+              "questionText": "Marco ist 17 Jahre alt und möchte seinen Führerschein machen.",
+              "matchingSources": [
+                { "id": "A2_m01_R1_text_a", "label": "A" },
+                { "id": "A2_m01_R1_text_b", "label": "B" },
+                { "id": "A2_m01_R1_text_c", "label": "C" },
+                { "id": "A2_m01_R1_text_d", "label": "D" },
+                { "id": "A2_m01_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Anzeige C von der Fahrschule Müller richtet sich an Personen, die den Autoführerschein machen möchten — genau passend für Marco. Fahrschulkurse sind klar von Deutschkursen, Yoga oder Nachhilfe zu unterscheiden."
+            },
+            {
+              "id": "A2_m01_R1_q4",
+              "type": "matching",
+              "questionText": "Petra arbeitet von 9 bis 17 Uhr und möchte morgens Sport treiben, bevor sie ins Büro geht.",
+              "matchingSources": [
+                { "id": "A2_m01_R1_text_a", "label": "A" },
+                { "id": "A2_m01_R1_text_b", "label": "B" },
+                { "id": "A2_m01_R1_text_c", "label": "C" },
+                { "id": "A2_m01_R1_text_d", "label": "D" },
+                { "id": "A2_m01_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Anzeige D bietet einen Yoga-Kurs von 7:30 bis 8:30 Uhr an — also direkt vor der Arbeitszeit. Das passt ideal für Petra, die morgens vor dem Büro Sport machen möchte."
+            },
+            {
+              "id": "A2_m01_R1_q5",
+              "type": "matching",
+              "questionText": "Kevin ist in der 8. Klasse und hat in Mathe schlechte Noten bekommen.",
+              "matchingSources": [
+                { "id": "A2_m01_R1_text_a", "label": "A" },
+                { "id": "A2_m01_R1_text_b", "label": "B" },
+                { "id": "A2_m01_R1_text_c", "label": "C" },
+                { "id": "A2_m01_R1_text_d", "label": "D" },
+                { "id": "A2_m01_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "E",
+              "explanation": "Anzeige E bietet Mathenachhilfe für Schüler der Klassen 5–10 an — Kevin ist in der 8. Klasse und braucht genau das. Die anderen Anzeigen helfen Kevin bei seinen Schulnoten nicht."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den Zeitungsartikel. Sind die Sätze richtig oder falsch? Kreuzen Sie an.",
+          "instructionsTranslation": "Read the newspaper article. Are the sentences correct or incorrect? Mark your answer.",
+          "texts": [
+            {
+              "id": "A2_m01_R2_text1",
+              "type": "article",
+              "content": "Immer mehr Menschen in Deutschland nutzen das Fahrrad für den Weg zur Arbeit. Eine neue Studie zeigt, dass 28 Prozent der Berufstätigen in Städten täglich mit dem Fahrrad fahren — vor fünf Jahren waren es nur 18 Prozent. Viele Städte haben in den letzten Jahren neue Fahrradwege gebaut, und das hilft. Die meisten Radfahrer sagen, dass sie Zeit sparen und sich dabei fit halten. Aber es gibt auch Probleme: Im Winter fahren viele Menschen doch mit dem Auto oder dem Bus, weil die Straßen rutschig sein können. Experten empfehlen, das ganze Jahr Rad zu fahren und die richtige Kleidung zu tragen.",
+              "source": "Allgemeine Zeitung, April 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m01_R2_q1",
+              "type": "true_false",
+              "questionText": "Mehr als ein Viertel der Berufstätigen in Städten fährt täglich mit dem Rad zur Arbeit.",
+              "relatedTextId": "A2_m01_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Im Artikel steht: '28 Prozent der Berufstätigen in Städten fahren täglich mit dem Fahrrad.' 28 Prozent ist mehr als ein Viertel (25 Prozent) — die Aussage ist also richtig."
+            },
+            {
+              "id": "A2_m01_R2_q2",
+              "type": "true_false",
+              "questionText": "Vor fünf Jahren haben genauso viele Menschen das Rad benutzt wie heute.",
+              "relatedTextId": "A2_m01_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Der Text sagt: 'vor fünf Jahren waren es nur 18 Prozent.' Heute sind es 28 Prozent — die Zahl hat also zugenommen, nicht gleich geblieben. Die Aussage ist falsch."
+            },
+            {
+              "id": "A2_m01_R2_q3",
+              "type": "true_false",
+              "questionText": "Viele Städte haben neue Fahrradwege gebaut.",
+              "relatedTextId": "A2_m01_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Im Artikel steht direkt: 'Viele Städte haben in den letzten Jahren neue Fahrradwege gebaut.' Diese Aussage wird im Text explizit bestätigt."
+            },
+            {
+              "id": "A2_m01_R2_q4",
+              "type": "true_false",
+              "questionText": "Im Winter fahren alle Radfahrer weiterhin mit dem Fahrrad.",
+              "relatedTextId": "A2_m01_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Der Text erklärt: 'Im Winter fahren viele Menschen doch mit dem Auto oder dem Bus, weil die Straßen rutschig sein können.' Nicht alle fahren also im Winter Rad — die Aussage ist falsch."
+            },
+            {
+              "id": "A2_m01_R2_q5",
+              "type": "true_false",
+              "questionText": "Experten raten, nur im Sommer Fahrrad zu fahren.",
+              "relatedTextId": "A2_m01_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Im Artikel steht das Gegenteil: 'Experten empfehlen, das ganze Jahr Rad zu fahren.' Sie empfehlen also Radfahren das ganze Jahr, nicht nur im Sommer — die Aussage ist falsch."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die Hinweisschilder und kurzen Texte. Was ist richtig? Kreuzen Sie an: a, b oder c.",
+          "instructionsTranslation": "Read the notices and short texts. What is correct? Mark: a, b, or c.",
+          "texts": [
+            {
+              "id": "A2_m01_R3_text1",
+              "type": "notice",
+              "content": "ACHTUNG!\nDas Schwimmbad ist vom 15. bis 28. März wegen Renovierungsarbeiten geschlossen. Ab 29. März wieder geöffnet. Wir bitten um Ihr Verständnis.\n— Das Team des Stadtbads"
+            },
+            {
+              "id": "A2_m01_R3_text2",
+              "type": "notice",
+              "content": "Liebe Mieter,\nbitte beachten Sie: Ab nächsten Montag wird der Fahrstuhl im Haus repariert. Die Reparatur dauert voraussichtlich 3 Tage. Bitte benutzen Sie in dieser Zeit die Treppe.\n— Ihre Hausverwaltung"
+            },
+            {
+              "id": "A2_m01_R3_text3",
+              "type": "notice",
+              "content": "HINWEIS\nDiese Bibliothek bietet seit Januar kostenlose E-Books für alle Mitglieder an. Fragen Sie an der Information nach Ihrer persönlichen Zugangsnummer."
+            },
+            {
+              "id": "A2_m01_R3_text4",
+              "type": "notice",
+              "content": "CAFÉ ANNA — Außer-Haus-Service\nAlle Speisen und Getränke können Sie auch zum Mitnehmen bestellen. Bitte bestellen Sie mindestens 30 Minuten vor Abholung telefonisch unter 0521 456 78 90."
+            },
+            {
+              "id": "A2_m01_R3_text5",
+              "type": "notice",
+              "content": "Parkplatz nur für Kunden!\nNicht-Kunden werden kostenpflichtig abgeschleppt. Maximale Parkzeit: 2 Stunden."
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m01_R3_q1",
+              "type": "mcq",
+              "questionText": "Das Schwimmbad ist geschlossen, weil ...",
+              "relatedTextId": "A2_m01_R3_text1",
+              "options": [
+                "a) es einen Unfall gegeben hat.",
+                "b) Renovierungsarbeiten stattfinden.",
+                "c) es den ganzen März geschlossen bleibt."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Schild erklärt die Schließung 'wegen Renovierungsarbeiten'. Es gibt keinen Hinweis auf einen Unfall, und das Bad ist nur vom 15. bis 28. März zu — nicht den ganzen Monat."
+            },
+            {
+              "id": "A2_m01_R3_q2",
+              "type": "mcq",
+              "questionText": "Was sollen die Mieter während der Fahrstuhlreparatur tun?",
+              "relatedTextId": "A2_m01_R3_text2",
+              "options": [
+                "a) den Hausmeister anrufen",
+                "b) die Treppe benutzen",
+                "c) auf die Reparatur warten"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Aushang der Hausverwaltung sagt explizit: 'Bitte benutzen Sie in dieser Zeit die Treppe.' Die Mieter sollen also die Treppe nehmen, nicht anrufen oder passiv warten."
+            },
+            {
+              "id": "A2_m01_R3_q3",
+              "type": "mcq",
+              "questionText": "Was bietet die Bibliothek ihren Mitgliedern an?",
+              "relatedTextId": "A2_m01_R3_text3",
+              "options": [
+                "a) kostenlose Bücher zum Ausleihen",
+                "b) kostenlose E-Books",
+                "c) kostenlose Computerkurse"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Hinweis sagt: 'Diese Bibliothek bietet seit Januar kostenlose E-Books für alle Mitglieder an.' Physische Bücher und Computerkurse werden in diesem Hinweis nicht erwähnt."
+            },
+            {
+              "id": "A2_m01_R3_q4",
+              "type": "mcq",
+              "questionText": "Wie kann man beim Café Anna etwas zum Mitnehmen bestellen?",
+              "relatedTextId": "A2_m01_R3_text4",
+              "options": [
+                "a) direkt im Café",
+                "b) per E-Mail",
+                "c) telefonisch"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Das Hinweisschild des Cafés sagt: 'Bitte bestellen Sie mindestens 30 Minuten vor Abholung telefonisch.' Die Außer-Haus-Bestellung erfolgt also per Telefon, nicht direkt vor Ort oder per E-Mail."
+            },
+            {
+              "id": "A2_m01_R3_q5",
+              "type": "mcq",
+              "questionText": "Wer darf auf diesem Parkplatz parken?",
+              "relatedTextId": "A2_m01_R3_text5",
+              "options": [
+                "a) alle Personen, die maximal 2 Stunden bleiben",
+                "b) nur Kunden",
+                "c) Kunden und Anwohner"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Schild sagt klar: 'Parkplatz nur für Kunden!' Nicht-Kunden werden abgeschleppt — die Zeitbegrenzung von 2 Stunden gilt nur für Kunden. Anwohner werden überhaupt nicht erwähnt."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 0,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "form_fill",
+          "instructions": "Füllen Sie das Anmeldeformular für einen Fitnesskurs aus. Benutzen Sie die Informationen unten.",
+          "instructionsTranslation": "Fill in the registration form for a fitness course. Use the information below.",
+          "formFields": [
+            {
+              "label": "Vorname",
+              "correctAnswer": "Jonas",
+              "hint": "Vorname des Teilnehmers"
+            },
+            {
+              "label": "Nachname",
+              "correctAnswer": "Weber",
+              "hint": "Nachname des Teilnehmers"
+            },
+            {
+              "label": "Geburtsdatum",
+              "correctAnswer": "12.03.1990",
+              "hint": "TT.MM.JJJJ"
+            },
+            {
+              "label": "Kursname",
+              "correctAnswer": "Bauch-Beine-Po",
+              "hint": "Name des gewünschten Kurses"
+            },
+            {
+              "label": "Kurszeit",
+              "correctAnswer": "Dienstag 19:00 Uhr",
+              "hint": "Wochentag und Uhrzeit"
+            },
+            {
+              "label": "Telefonnummer",
+              "correctAnswer": "0172 456 78 90",
+              "hint": "Handynummer"
+            }
+          ],
+          "sampleAnswer": "Vorname: Jonas\nNachname: Weber\nGeburtsdatum: 12.03.1990\nKursname: Bauch-Beine-Po\nKurszeit: Dienstag 19:00 Uhr\nTelefonnummer: 0172 456 78 90",
+          "scoringCriteria": [
+            {
+              "criterion": "Vollständigkeit",
+              "maxPoints": 3,
+              "description": "Alle Pflichtfelder wurden ausgefüllt (je 0,5 Punkte pro Feld)"
+            },
+            {
+              "criterion": "Korrektheit",
+              "maxPoints": 2,
+              "description": "Informationen entsprechen den Aufgabenvorgaben und sind korrekt übertragen"
+            },
+            {
+              "criterion": "Format",
+              "maxPoints": 1,
+              "description": "Datum im richtigen Format, Uhrzeit korrekt angegeben"
+            }
+          ]
+        },
+        {
+          "taskNumber": 2,
+          "type": "short_message",
+          "instructions": "Schreiben Sie eine kurze Nachricht an Ihren Kollegen Stefan. Schreiben Sie über die drei Punkte unten. Schreiben Sie 30 bis 50 Wörter.",
+          "instructionsTranslation": "Write a short message to your colleague Stefan. Write about the three points below. Write 30 to 50 words.",
+          "prompt": "Sie waren krank und konnten nicht zur Arbeit kommen.\n- Erklären Sie, dass Sie krank waren.\n- Sagen Sie, dass Sie morgen wieder zur Arbeit kommen.\n- Bitten Sie ihn, Ihnen die Unterlagen vom Meeting zu schicken.",
+          "promptTranslation": "You were sick and could not come to work.\n- Explain that you were ill.\n- Say that you will come back to work tomorrow.\n- Ask him to send you the documents from the meeting.",
+          "requiredPoints": [
+            "Erklärung der Krankheit",
+            "Ankündigung der Rückkehr morgen",
+            "Bitte um die Meeting-Unterlagen"
+          ],
+          "wordCountMin": 30,
+          "wordCountMax": 50,
+          "sampleAnswer": "Hallo Stefan,\nleider war ich diese Woche krank und konnte nicht zur Arbeit kommen. Es tut mir leid! Morgen komme ich aber wieder ins Büro. Kannst du mir bitte die Unterlagen vom Meeting schicken? Das wäre sehr nett.\nViele Grüße, Jonas",
+          "scoringCriteria": [
+            {
+              "criterion": "Inhalt",
+              "maxPoints": 3,
+              "description": "Alle drei Punkte wurden angesprochen (je 1 Punkt pro Inhaltspunkt)"
+            },
+            {
+              "criterion": "Sprache",
+              "maxPoints": 2,
+              "description": "Grammatik und Wortschatz sind weitgehend korrekt und für A2 angemessen"
+            },
+            {
+              "criterion": "Wortanzahl",
+              "maxPoints": 1,
+              "description": "Text liegt zwischen 30 und 50 Wörtern"
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 0,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "introduce",
+          "instructions": "Stellen Sie sich kurz vor. Sprechen Sie über sich: Name, Herkunft, Wohnort, Beruf und Hobbys.",
+          "instructionsTranslation": "Introduce yourself briefly. Talk about yourself: name, origin, place of residence, job, and hobbies.",
+          "prompt": "Bitte stellen Sie sich vor:\n- Wie heißen Sie?\n- Woher kommen Sie?\n- Wo wohnen Sie jetzt?\n- Was machen Sie beruflich?\n- Was machen Sie in Ihrer Freizeit?",
+          "sampleResponse": "Hallo, ich heiße Jonas Weber und komme aus der Schweiz. Seit zwei Jahren wohne ich in Frankfurt. Ich arbeite als Grafiker in einer kleinen Werbeagentur. In meiner Freizeit treibe ich gerne Sport — besonders Fahrradfahren und Schwimmen. Außerdem koche ich sehr gerne.",
+          "evaluationTips": [
+            "Sprechen Sie in vollständigen Sätzen, nicht nur einzelnen Wörtern",
+            "Verwenden Sie einfache Verbindungswörter wie 'und', 'aber', 'auch'",
+            "Achten Sie auf die richtige Verbkonjugation (ich komme, ich wohne, ich arbeite)",
+            "Eine kurze, klare Vorstellung ist besser als ein langer, fehlerreicher Text"
+          ],
+          "keyPhrases": [
+            "Ich heiße ...",
+            "Ich komme aus ...",
+            "Seit ... Jahren wohne ich in ...",
+            "Ich arbeite als ...",
+            "In meiner Freizeit ...",
+            "Ich interessiere mich für ..."
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "conversation",
+          "instructions": "Führen Sie ein Gespräch über den Alltag. Stellen Sie Fragen und antworten Sie auf die Fragen Ihres Gesprächspartners.",
+          "instructionsTranslation": "Have a conversation about everyday life. Ask questions and answer your conversation partner's questions.",
+          "prompt": "Sprechen Sie mit Ihrem Partner oder Ihrer Partnerin über den Alltag:\n- Wie sieht Ihr typischer Tagesablauf aus?\n- Wann stehen Sie auf und wann gehen Sie schlafen?\n- Was essen und trinken Sie normalerweise zum Frühstück?\n- Wie kommen Sie zur Arbeit oder zur Schule?",
+          "sampleResponse": "Normalerweise stehe ich um 7 Uhr auf. Zum Frühstück esse ich Brot mit Käse und trinke Kaffee. Dann fahre ich mit dem Fahrrad zur Arbeit — das dauert ungefähr 20 Minuten. Abends koche ich meistens selbst und gehe gegen 23 Uhr ins Bett.",
+          "evaluationTips": [
+            "Antworten Sie nicht nur mit 'Ja' oder 'Nein', sondern mit vollständigen Sätzen",
+            "Stellen Sie auch selbst Fragen an den Partner",
+            "Verwenden Sie Zeitangaben wie 'morgens', 'abends', 'um 7 Uhr'",
+            "Verben im Präsens korrekt konjugieren",
+            "Beschreiben Sie Gewohnheiten mit 'normalerweise', 'meistens', 'manchmal'"
+          ],
+          "keyPhrases": [
+            "Normalerweise ...",
+            "Meistens ...",
+            "Um ... Uhr ...",
+            "Ich stehe ... auf.",
+            "Zum Frühstück esse/trinke ich ...",
+            "Wie ist das bei Ihnen?"
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Planen Sie etwas gemeinsam mit Ihrem Partner oder Ihrer Partnerin. Einigen Sie sich auf eine Lösung.",
+          "instructionsTranslation": "Plan something together with your partner. Agree on a solution.",
+          "prompt": "Sie und Ihr Partner/Ihre Partnerin möchten zusammen eine kleine Feier für einen Freund organisieren. Sprechen Sie über:\n- Wann und wo soll die Feier stattfinden?\n- Wie viele Personen werden kommen?\n- Was soll es zu essen und zu trinken geben?\n- Wer bringt was mit?",
+          "sampleResponse": "Ich schlage vor, die Feier am Samstagnachmittag bei mir zu Hause zu machen. Wir können etwa zehn Personen einladen. Ich koche ein paar Salate und backe einen Kuchen. Kannst du Getränke mitbringen? Und vielleicht kann Maria die Chips und Snacks kaufen.",
+          "evaluationTips": [
+            "Machen Sie konkrete Vorschläge mit 'Ich schlage vor ...' oder 'Was hältst du von ...'",
+            "Reagieren Sie auf Vorschläge des Partners positiv oder mit einer Alternative",
+            "Einigen Sie sich am Ende auf eine gemeinsame Lösung",
+            "Verwenden Sie Modalverben: 'können', 'müssen', 'wollen'",
+            "Sprechen Sie laut und deutlich, auch wenn Sie unsicher sind"
+          ],
+          "keyPhrases": [
+            "Ich schlage vor, ...",
+            "Was hältst du von ...?",
+            "Das ist eine gute Idee.",
+            "Ich kann ... mitbringen.",
+            "Können wir ... machen?",
+            "Einverstanden!"
+          ]
+        }
+      ]
+    }
   }
 }
