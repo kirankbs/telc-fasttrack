@@ -2,12 +2,665 @@
   "id": "A2_mock_03",
   "level": "A2",
   "title": "Übungstest 3",
-  "version": 0,
-  "_stub": true,
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Nachrichten auf dem Anrufbeantworter. Zu jeder Nachricht gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.",
+          "instructionsTranslation": "You will hear five short telephone messages. For each message there is one task. What is correct? Mark: a, b, or c. You will hear each recording twice.",
+          "audioFile": "assets/audio/A2/mock03/listening_part1.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A2_m03_L1_q1",
+              "type": "mcq",
+              "questionText": "Wann kann Herr Berger die Wohnung besichtigen?",
+              "options": [
+                "a) am Montag um 17 Uhr",
+                "b) am Dienstag um 16 Uhr",
+                "c) am Mittwoch um 18 Uhr"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Vermieterin hinterlässt die Nachricht: 'Sie können die Wohnung am Dienstag um 16 Uhr besichtigen.' Montag und Mittwoch werden nicht als mögliche Termine genannt.",
+              "audioTimestamp": 7
+            },
+            {
+              "id": "A2_m03_L1_q2",
+              "type": "mcq",
+              "questionText": "Was ist das Problem mit der Heizung?",
+              "options": [
+                "a) Sie ist kaputt.",
+                "b) Sie ist zu laut.",
+                "c) Sie ist zu teuer."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Mieter sagt auf dem Anrufbeantworter: 'Unsere Heizung ist seit gestern kaputt — die Wohnung ist sehr kalt. Können Sie bitte so schnell wie möglich kommen?' Die Heizung ist also defekt.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m03_L1_q3",
+              "type": "mcq",
+              "questionText": "Was hat der Umzugsservice für Samstag angeboten?",
+              "options": [
+                "a) zwei Männer und einen kleinen Transporter",
+                "b) drei Männer und einen großen Lastwagen",
+                "c) zwei Männer und einen großen Lastwagen"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Umzugsservice sagt: 'Für Samstag können wir Ihnen zwei Männer und einen großen Lastwagen anbieten.' Drei Männer und kleiner Transporter werden nicht als Angebot genannt.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m03_L1_q4",
+              "type": "mcq",
+              "questionText": "Wie viel beträgt die Kaution für die neue Wohnung?",
+              "options": [
+                "a) 800 Euro",
+                "b) 1.200 Euro",
+                "c) 1.500 Euro"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Vermieterin erklärt: 'Die Kaution beträgt drei Monatsmieten — das sind 1.200 Euro, die Sie vor dem Einzug zahlen müssen.' 800 und 1.500 Euro werden nicht als Kautionshöhe genannt.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "A2_m03_L1_q5",
+              "type": "mcq",
+              "questionText": "Was macht der Handwerker am Donnerstag?",
+              "options": [
+                "a) Er repariert das Fenster.",
+                "b) Er installiert eine neue Badewanne.",
+                "c) Er streicht die Wände."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Handwerker sagt in seiner Nachricht: 'Ich komme am Donnerstag und repariere das kaputte Fenster im Wohnzimmer.' Von Badewanne und Wände streichen ist keine Rede.",
+              "audioTimestamp": 7
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören fünf kurze Radiodurchsagen. Zu jeder Durchsage gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear five short radio announcements. For each announcement there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A2/mock03/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A2_m03_L2_q1",
+              "type": "mcq",
+              "questionText": "Was können Mieter in der Stadt kostenlos bekommen?",
+              "options": [
+                "a) eine Beratung bei Mietproblemen",
+                "b) Hilfe beim Umziehen",
+                "c) günstige Wohnungen"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Radiodurchsage informiert: 'Die Stadt bietet ab sofort eine kostenlose Mieterberatung für Probleme mit Vermietern oder Mietverträgen an.' Hilfe beim Umzug und günstige Wohnungen werden nicht erwähnt.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m03_L2_q2",
+              "type": "mcq",
+              "questionText": "Welche neuen Wohnungen werden in der Stadt gebaut?",
+              "options": [
+                "a) Luxuswohnungen im Stadtzentrum",
+                "b) günstige Sozialwohnungen",
+                "c) Studentenwohnheime"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Meldung sagt: 'Die Stadtverwaltung plant den Bau von 500 neuen günstigen Sozialwohnungen bis 2028.' Von Luxuswohnungen oder Studentenwohnheimen ist nicht die Rede.",
+              "audioTimestamp": 7
+            },
+            {
+              "id": "A2_m03_L2_q3",
+              "type": "mcq",
+              "questionText": "Was bietet das Einrichtungshaus am Wochenende an?",
+              "options": [
+                "a) kostenlose Lieferung für alle Möbel",
+                "b) 30 Prozent Rabatt auf Küchenmöbel",
+                "c) einen Ausverkauf mit bis zu 50 Prozent"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Das Einrichtungshaus bewirbt: 'Am Wochenende großer Ausverkauf — bis zu 50 Prozent auf alle Möbel und Heimtextilien.' Kostenlose Lieferung und Küchen-Rabatt werden nicht als Angebot genannt.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "A2_m03_L2_q4",
+              "type": "mcq",
+              "questionText": "Wo findet der Wohnungsmarkt statt?",
+              "options": [
+                "a) in der Stadthalle",
+                "b) im Messegelände",
+                "c) im Stadtpark"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Durchsage sagt: 'Der diesjährige Wohnungsmarkt findet vom 5. bis 7. Mai im Messegelände statt.' Stadthalle und Stadtpark werden nicht als Veranstaltungsort genannt.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m03_L2_q5",
+              "type": "mcq",
+              "questionText": "Welche Regel gilt ab sofort im Wohngebiet?",
+              "options": [
+                "a) Lärmverbot ab 21 Uhr",
+                "b) kein Parken auf den Bürgersteigen",
+                "c) Mülltrennung ist Pflicht"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Radiomeldung informiert: 'Im Wohngebiet Nordpark gilt ab sofort: kein Parken auf Bürgersteigen — Verstöße werden mit einem Bußgeld geahndet.' Lärmverbot und Mülltrennung werden in dieser Meldung nicht thematisiert.",
+              "audioTimestamp": 7
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear five short conversations. For each conversation there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A2/mock03/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A2_m03_L3_q1",
+              "type": "mcq",
+              "questionText": "Wie groß ist die Wohnung?",
+              "options": [
+                "a) 55 Quadratmeter",
+                "b) 68 Quadratmeter",
+                "c) 75 Quadratmeter"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Vermieter sagt im Gespräch: 'Die Wohnung hat 68 Quadratmeter — Wohnzimmer, zwei Schlafzimmer, Küche und Bad.' 55 und 75 Quadratmeter werden nicht als Wohnungsgröße genannt.",
+              "audioTimestamp": 10
+            },
+            {
+              "id": "A2_m03_L3_q2",
+              "type": "mcq",
+              "questionText": "Was gefällt dem Interessenten an der Wohnung nicht?",
+              "options": [
+                "a) der Preis",
+                "b) die Lage",
+                "c) der fehlende Balkon"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Interessent sagt: 'Der Preis ist okay und die Lage ist super — aber leider hat die Wohnung keinen Balkon, das ist mir wichtig.' Er bemängelt also den fehlenden Balkon.",
+              "audioTimestamp": 11
+            },
+            {
+              "id": "A2_m03_L3_q3",
+              "type": "mcq",
+              "questionText": "Was müssen die Nachbarn beim Einzug beachten?",
+              "options": [
+                "a) Sie müssen den Hausmeister informieren.",
+                "b) Sie dürfen nur bis 18 Uhr lärmen.",
+                "c) Sie müssen den Fahrstuhl benutzen."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die ältere Nachbarin erklärt: 'Wenn Sie einziehen, müssen Sie vorher den Hausmeister informieren — er muss den Fahrstuhl reservieren und den Eingang freihalten.' Der Hausmeister ist also zu informieren.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m03_L3_q4",
+              "type": "mcq",
+              "questionText": "Was ist im Mietpreis inbegriffen?",
+              "options": [
+                "a) Strom und Heizung",
+                "b) nur Heizung",
+                "c) Heizung und Wasser"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Vermieter erklärt: 'Die Miete ist 750 Euro warm — das bedeutet, Heizung und Wasser sind inklusive. Strom müssen Sie selbst zahlen.' Im Mietpreis sind also Heizung und Wasser, aber kein Strom.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m03_L3_q5",
+              "type": "mcq",
+              "questionText": "Warum zieht das Paar um?",
+              "options": [
+                "a) Die alte Wohnung ist zu klein geworden.",
+                "b) Die Miete ist zu teuer.",
+                "c) Das Haus wird abgerissen."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Frau erklärt: 'Wir haben jetzt zwei Kinder und die alte Wohnung hat nur zwei Zimmer — das reicht nicht mehr.' Sie ziehen also um, weil die Wohnung zu klein ist, nicht wegen des Preises oder Abrisses.",
+              "audioTimestamp": 12
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 50,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie die fünf Wohnungsanzeigen. Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es genau eine passende Anzeige. Schreiben Sie den Buchstaben der Anzeige.",
+          "instructionsTranslation": "Read the five apartment advertisements. Which advertisement matches which situation? For each situation there is exactly one matching advertisement. Write the letter of the advertisement.",
+          "texts": [
+            {
+              "id": "A2_m03_R1_text_a",
+              "type": "ad",
+              "content": "ANZEIGE A — WG-Zimmer frei\nSchönes möbliertes Zimmer in 3er-WG, 18 m², zentrale Lage. Miete: 480 Euro inkl. Nebenkosten. Für Studenten oder Auszubildende. Ab sofort frei. Tel. 0521 66 77 88"
+            },
+            {
+              "id": "A2_m03_R1_text_b",
+              "type": "ad",
+              "content": "ANZEIGE B — Familienhaus zu vermieten\n5-Zimmer-Haus mit Garten, 140 m², ruhige Wohnlage. Keller und Garage vorhanden. Haustiere erlaubt. Miete: 1.450 Euro kalt. Besichtigung nach Vereinbarung: 0521 44 33 22"
+            },
+            {
+              "id": "A2_m03_R1_text_c",
+              "type": "ad",
+              "content": "ANZEIGE C — Senioren-Apartment\nBarrierefreies 2-Zimmer-Apartment, 52 m², Erdgeschoss. Aufzug vorhanden. Nahe Einkaufszentrum und Arztpraxis. Seniorengerechte Ausstattung. Miete: 680 Euro warm. Tel. 0521 55 11 44"
+            },
+            {
+              "id": "A2_m03_R1_text_d",
+              "type": "ad",
+              "content": "ANZEIGE D — Büro zu vermieten\nModernes Büro, 45 m², 2. Etage, Aufzug. Klimaanlage, Internetzugang, Parkplatz inklusive. Ideal für Selbstständige oder kleine Unternehmen. Miete: 750 Euro. Infos: 0521 99 88 77"
+            },
+            {
+              "id": "A2_m03_R1_text_e",
+              "type": "ad",
+              "content": "ANZEIGE E — Ferienwohnung kurzfristig\n3-Zimmer-Ferienwohnung, 70 m², komplett ausgestattet. Wohnküche, 2 Schlafzimmer, Balkon. Ab 65 Euro pro Nacht, min. 3 Nächte. Online buchen: www.fewo-am-see.de"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m03_R1_q1",
+              "type": "matching",
+              "questionText": "Kenji ist Student und sucht ein günstiges möbliertes Zimmer in der Stadtmitte.",
+              "matchingSources": [
+                { "id": "A2_m03_R1_text_a", "label": "A" },
+                { "id": "A2_m03_R1_text_b", "label": "B" },
+                { "id": "A2_m03_R1_text_c", "label": "C" },
+                { "id": "A2_m03_R1_text_d", "label": "D" },
+                { "id": "A2_m03_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Anzeige A bietet ein möbliertes WG-Zimmer in zentraler Lage speziell für Studenten oder Auszubildende an — genau das, was Kenji sucht. Die anderen Anzeigen passen für einen Studenten nicht."
+            },
+            {
+              "id": "A2_m03_R1_q2",
+              "type": "matching",
+              "questionText": "Familie Braun mit drei Kindern und einem Hund sucht ein Haus mit Garten.",
+              "matchingSources": [
+                { "id": "A2_m03_R1_text_a", "label": "A" },
+                { "id": "A2_m03_R1_text_b", "label": "B" },
+                { "id": "A2_m03_R1_text_c", "label": "C" },
+                { "id": "A2_m03_R1_text_d", "label": "D" },
+                { "id": "A2_m03_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Anzeige B ist ein Haus mit Garten, das auch Haustiere erlaubt — das ist ideal für Familie Braun mit Kindern und Hund. Die anderen Anzeigen bieten weder Garten noch Haustiererlaubnis."
+            },
+            {
+              "id": "A2_m03_R1_q3",
+              "type": "matching",
+              "questionText": "Frau Wagner ist 78 Jahre alt und braucht eine Wohnung ohne Treppen, nah an Ärzten und Einkaufsmöglichkeiten.",
+              "matchingSources": [
+                { "id": "A2_m03_R1_text_a", "label": "A" },
+                { "id": "A2_m03_R1_text_b", "label": "B" },
+                { "id": "A2_m03_R1_text_c", "label": "C" },
+                { "id": "A2_m03_R1_text_d", "label": "D" },
+                { "id": "A2_m03_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Anzeige C bietet ein barrierefreies Erdgeschoss-Apartment nahe Arztpraxis und Einkaufszentrum an — perfekt für die ältere Frau Wagner. 'Barrierefrei' bedeutet keine Treppen."
+            },
+            {
+              "id": "A2_m03_R1_q4",
+              "type": "matching",
+              "questionText": "Herr Fischer ist selbstständiger Grafiker und braucht ein Büro mit Internetanschluss und Parkplatz.",
+              "matchingSources": [
+                { "id": "A2_m03_R1_text_a", "label": "A" },
+                { "id": "A2_m03_R1_text_b", "label": "B" },
+                { "id": "A2_m03_R1_text_c", "label": "C" },
+                { "id": "A2_m03_R1_text_d", "label": "D" },
+                { "id": "A2_m03_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Anzeige D bietet ein modernes Büro mit Internetzugang und Parkplatz an, ideal für Selbstständige — das passt genau für Herrn Fischer. Die anderen Anzeigen sind Wohnungen oder Ferienwohnungen."
+            },
+            {
+              "id": "A2_m03_R1_q5",
+              "type": "matching",
+              "questionText": "Maria und ihr Partner möchten nächsten Monat eine Woche Urlaub machen und suchen eine vollausgestattete Unterkunft.",
+              "matchingSources": [
+                { "id": "A2_m03_R1_text_a", "label": "A" },
+                { "id": "A2_m03_R1_text_b", "label": "B" },
+                { "id": "A2_m03_R1_text_c", "label": "C" },
+                { "id": "A2_m03_R1_text_d", "label": "D" },
+                { "id": "A2_m03_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "E",
+              "explanation": "Anzeige E ist eine komplett ausgestattete Ferienwohnung für Kurzaufenthalte — perfekt für Marias Urlaubswoche. Es ist die einzige Anzeige, die für eine kurzfristige Urlaubsunterkunft gedacht ist."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den Text. Sind die Sätze richtig oder falsch? Kreuzen Sie an.",
+          "instructionsTranslation": "Read the text. Are the sentences correct or incorrect? Mark your answer.",
+          "texts": [
+            {
+              "id": "A2_m03_R2_text1",
+              "type": "article",
+              "content": "In deutschen Städten wird Wohnen immer teurer. Die Mieten sind in den letzten zehn Jahren in vielen Großstädten um mehr als 50 Prozent gestiegen. Besonders in München, Frankfurt und Hamburg ist es sehr schwer, eine bezahlbare Wohnung zu finden. Viele Menschen müssen deshalb in die Umgebung der Städte ziehen, wo die Mieten noch günstiger sind. Für junge Leute ist das besonders schwer — sie verdienen am Anfang wenig Geld und können sich teure Wohnungen nicht leisten. Die Stadtregierungen versuchen, mit dem Bau von Sozialwohnungen zu helfen, aber das reicht noch nicht.",
+              "source": "Wohnreport Deutschland, April 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m03_R2_q1",
+              "type": "true_false",
+              "questionText": "Die Mieten in Großstädten sind in zehn Jahren um die Hälfte gestiegen.",
+              "relatedTextId": "A2_m03_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Im Text steht: 'Die Mieten sind in vielen Großstädten um mehr als 50 Prozent gestiegen.' Mehr als 50 Prozent bedeutet mehr als die Hälfte — die Aussage ist inhaltlich korrekt."
+            },
+            {
+              "id": "A2_m03_R2_q2",
+              "type": "true_false",
+              "questionText": "In München und Hamburg ist es besonders leicht, eine günstige Wohnung zu finden.",
+              "relatedTextId": "A2_m03_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Der Text sagt das Gegenteil: 'Besonders in München, Frankfurt und Hamburg ist es sehr schwer, eine bezahlbare Wohnung zu finden.' Das Wort 'schwer' widerspricht 'leicht' — die Aussage ist falsch."
+            },
+            {
+              "id": "A2_m03_R2_q3",
+              "type": "true_false",
+              "questionText": "Manche Menschen ziehen in die Umgebung der Stadt, weil die Mieten dort günstiger sind.",
+              "relatedTextId": "A2_m03_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Der Artikel erklärt: 'Viele Menschen müssen deshalb in die Umgebung der Städte ziehen, wo die Mieten noch günstiger sind.' Die Aussage gibt das direkt korrekt wieder."
+            },
+            {
+              "id": "A2_m03_R2_q4",
+              "type": "true_false",
+              "questionText": "Für ältere Menschen ist das Wohnungsproblem besonders schwer.",
+              "relatedTextId": "A2_m03_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Der Text spricht von 'jungen Leuten', nicht von älteren Menschen: 'Für junge Leute ist das besonders schwer.' Der Artikel erwähnt ältere Menschen nicht als besonders betroffene Gruppe."
+            },
+            {
+              "id": "A2_m03_R2_q5",
+              "type": "true_false",
+              "questionText": "Die Städte versuchen, das Wohnungsproblem durch Sozialwohnungen zu lösen.",
+              "relatedTextId": "A2_m03_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Im Text steht: 'Die Stadtregierungen versuchen, mit dem Bau von Sozialwohnungen zu helfen.' Die Städte versuchen es also — auch wenn es laut Text noch nicht genug ist."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die kurzen Texte und Hinweise. Was ist richtig? Kreuzen Sie an: a, b oder c.",
+          "instructionsTranslation": "Read the short texts and notices. What is correct? Mark: a, b, or c.",
+          "texts": [
+            {
+              "id": "A2_m03_R3_text1",
+              "type": "notice",
+              "content": "HAUSORDNUNG — Wichtige Regeln\n1. Ruhezeiten: 22:00–7:00 Uhr und 13:00–15:00 Uhr (Mittagsruhe)\n2. Müll bitte in die richtigen Tonnen — Gelber Sack, Papiertonne, Restmüll\n3. Fahrräder nur im Keller, nicht im Treppenhaus\n4. Haustiere: bitte vorher den Vermieter fragen"
+            },
+            {
+              "id": "A2_m03_R3_text2",
+              "type": "notice",
+              "content": "Liebe Hausbewohner,\ndie Gemeinschaftswaschmaschinen im Keller werden am Mittwoch, 15. und Donnerstag, 16. Mai, gewartet. Bitte planen Sie Ihre Wäsche entsprechend ein.\n— Die Hausverwaltung"
+            },
+            {
+              "id": "A2_m03_R3_text3",
+              "type": "email",
+              "content": "Von: Anna Berger\nAn: Vermieter Herr Sommer\nBetreff: Reparatur Wasserhahn\n\nSehr geehrter Herr Sommer,\nseit einer Woche tropft der Wasserhahn in der Küche. Ich habe versucht, das Problem selbst zu lösen, aber es geht nicht. Könnten Sie bitte einen Handwerker schicken? Ich bin täglich ab 17 Uhr zu Hause.\nMit freundlichen Grüßen, Anna Berger"
+            },
+            {
+              "id": "A2_m03_R3_text4",
+              "type": "notice",
+              "content": "UMZUGSHILFE GESUCHT\nWir suchen 2–3 hilfsbereite Menschen für unseren Umzug am Samstag, 24. Mai, ab 9 Uhr. Im Gegenzug gibt es Mittagessen und Getränke für alle Helfer! Melden Sie sich bitte bei Tom: 0176 33 44 55 66"
+            },
+            {
+              "id": "A2_m03_R3_text5",
+              "type": "notice",
+              "content": "ACHTUNG — Kellerräume\nBitte denken Sie daran: Kellerräume dürfen nicht als Schlafzimmer oder Wohnräume benutzt werden. Das ist aus Sicherheitsgründen verboten. Verstöße werden dem Ordnungsamt gemeldet."
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m03_R3_q1",
+              "type": "mcq",
+              "questionText": "Wann ist laut Hausordnung Ruhezeit am Mittag?",
+              "relatedTextId": "A2_m03_R3_text1",
+              "options": [
+                "a) von 12 bis 14 Uhr",
+                "b) von 13 bis 15 Uhr",
+                "c) von 14 bis 16 Uhr"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Hausordnung nennt als Mittagsruhe explizit '13:00–15:00 Uhr'. 12 bis 14 und 14 bis 16 Uhr entsprechen nicht der angegebenen Mittagsruhe."
+            },
+            {
+              "id": "A2_m03_R3_q2",
+              "type": "mcq",
+              "questionText": "Wann können die Bewohner die Waschmaschinen im Keller nicht benutzen?",
+              "relatedTextId": "A2_m03_R3_text2",
+              "options": [
+                "a) am Dienstag und Mittwoch",
+                "b) am Mittwoch und Donnerstag",
+                "c) am Donnerstag und Freitag"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Aushang sagt: 'die Gemeinschaftswaschmaschinen werden am Mittwoch, 15. und Donnerstag, 16. Mai, gewartet.' Die Maschinen sind also am Mittwoch und Donnerstag außer Betrieb."
+            },
+            {
+              "id": "A2_m03_R3_q3",
+              "type": "mcq",
+              "questionText": "Was ist das Problem in Anna Bergers Wohnung?",
+              "relatedTextId": "A2_m03_R3_text3",
+              "options": [
+                "a) Die Heizung funktioniert nicht.",
+                "b) Der Wasserhahn tropft.",
+                "c) Das Fenster ist kaputt."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Anna schreibt in ihrer E-Mail: 'seit einer Woche tropft der Wasserhahn in der Küche.' Sie bittet um einen Handwerker für den Wasserhahn — Heizung und Fenster werden nicht erwähnt."
+            },
+            {
+              "id": "A2_m03_R3_q4",
+              "type": "mcq",
+              "questionText": "Was bekommen die Umzugshelfer als Dankeschön?",
+              "relatedTextId": "A2_m03_R3_text4",
+              "options": [
+                "a) Geld",
+                "b) Mittagessen und Getränke",
+                "c) ein Abendessen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Aushängeschreiben sagt: 'Im Gegenzug gibt es Mittagessen und Getränke für alle Helfer.' Es wird kein Geld gezahlt und auch kein Abendessen angeboten."
+            },
+            {
+              "id": "A2_m03_R3_q5",
+              "type": "mcq",
+              "questionText": "Was darf man im Keller laut dem Hinweisschild nicht tun?",
+              "relatedTextId": "A2_m03_R3_text5",
+              "options": [
+                "a) Fahrräder abstellen",
+                "b) schlafen oder wohnen",
+                "c) Kartons lagern"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Schild sagt: 'Kellerräume dürfen nicht als Schlafzimmer oder Wohnräume benutzt werden.' Schlafen und Wohnen im Keller ist also verboten — Fahrräder und Kartons werden nicht erwähnt."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 0,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "form_fill",
+          "instructions": "Füllen Sie das Wohnungsanfrage-Formular aus. Benutzen Sie die Informationen unten.",
+          "instructionsTranslation": "Fill in the apartment inquiry form. Use the information below.",
+          "formFields": [
+            {
+              "label": "Name",
+              "correctAnswer": "Sophie Braun",
+              "hint": "Vor- und Nachname"
+            },
+            {
+              "label": "Aktuelle Adresse",
+              "correctAnswer": "Berliner Straße 45, 33602 Bielefeld",
+              "hint": "Straße, PLZ, Stadt"
+            },
+            {
+              "label": "Gewünschte Zimmerzahl",
+              "correctAnswer": "3 Zimmer",
+              "hint": "Anzahl der Zimmer"
+            },
+            {
+              "label": "Maximale Miete pro Monat",
+              "correctAnswer": "900 Euro",
+              "hint": "Warm- oder Kaltmiete"
+            },
+            {
+              "label": "Gewünschter Einzugstermin",
+              "correctAnswer": "01.06.2026",
+              "hint": "TT.MM.JJJJ"
+            },
+            {
+              "label": "Besondere Wünsche",
+              "correctAnswer": "Balkon und Keller",
+              "hint": "z. B. Balkon, Garten, Garage"
+            }
+          ],
+          "sampleAnswer": "Name: Sophie Braun\nAktuelle Adresse: Berliner Straße 45, 33602 Bielefeld\nGewünschte Zimmerzahl: 3 Zimmer\nMaximale Miete pro Monat: 900 Euro\nGewünschter Einzugstermin: 01.06.2026\nBesondere Wünsche: Balkon und Keller",
+          "scoringCriteria": [
+            {
+              "criterion": "Vollständigkeit",
+              "maxPoints": 3,
+              "description": "Alle Felder wurden ausgefüllt (je 0,5 Punkte pro Feld)"
+            },
+            {
+              "criterion": "Korrektheit",
+              "maxPoints": 2,
+              "description": "Alle Informationen entsprechen den Vorgaben und sind korrekt eingetragen"
+            },
+            {
+              "criterion": "Format",
+              "maxPoints": 1,
+              "description": "Datum und Adresse in korrektem Format angegeben"
+            }
+          ]
+        },
+        {
+          "taskNumber": 2,
+          "type": "short_message",
+          "instructions": "Schreiben Sie eine kurze E-Mail an Ihren Vermieter Herrn Mayer. Schreiben Sie über die drei Punkte unten. Schreiben Sie 30 bis 50 Wörter.",
+          "instructionsTranslation": "Write a short email to your landlord Mr Mayer. Write about the three points below. Write 30 to 50 words.",
+          "prompt": "Das Badezimmer in Ihrer Wohnung hat ein Problem.\n- Beschreiben Sie das Problem (z. B. das Wasser ist kalt, die Dusche ist kaputt).\n- Bitten Sie ihn, einen Handwerker zu schicken.\n- Nennen Sie, wann Sie zu Hause sind.",
+          "promptTranslation": "The bathroom in your apartment has a problem.\n- Describe the problem (e.g. the water is cold, the shower is broken).\n- Ask him to send a repair person.\n- Say when you are at home.",
+          "requiredPoints": [
+            "Beschreibung des Problems im Bad",
+            "Bitte um einen Handwerker",
+            "Angabe der Verfügbarkeit"
+          ],
+          "wordCountMin": 30,
+          "wordCountMax": 50,
+          "sampleAnswer": "Sehr geehrter Herr Mayer,\nleider habe ich ein Problem in meinem Badezimmer: Die Dusche ist seit drei Tagen kaputt und das Wasser ist nur kalt. Könnten Sie bitte so schnell wie möglich einen Handwerker schicken? Ich bin montags bis freitags ab 18 Uhr zu Hause.\nMit freundlichen Grüßen, Sophie Braun",
+          "scoringCriteria": [
+            {
+              "criterion": "Inhalt",
+              "maxPoints": 3,
+              "description": "Alle drei Punkte wurden angesprochen (je 1 Punkt)"
+            },
+            {
+              "criterion": "Sprache",
+              "maxPoints": 2,
+              "description": "Grammatik und Wortschatz sind für A2 angemessen; formelle Anrede korrekt"
+            },
+            {
+              "criterion": "Wortanzahl",
+              "maxPoints": 1,
+              "description": "Text liegt zwischen 30 und 50 Wörtern"
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 0,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "introduce",
+          "instructions": "Stellen Sie sich vor und erzählen Sie, wo und wie Sie wohnen.",
+          "instructionsTranslation": "Introduce yourself and talk about where and how you live.",
+          "prompt": "Bitte stellen Sie sich vor:\n- Wie heißen Sie und woher kommen Sie?\n- Wo wohnen Sie?\n- Wie ist Ihre Wohnung oder Ihr Haus?\n- Was mögen Sie an Ihrer Wohnung?\n- Was fehlt Ihnen?",
+          "sampleResponse": "Mein Name ist David Kim und ich komme aus Südkorea. Jetzt wohne ich seit einem Jahr in einer 2-Zimmer-Wohnung in Bielefeld, im 3. Stockwerk. Die Wohnung ist hell und ruhig — das gefällt mir sehr. Aber leider habe ich keinen Balkon, und das vermisse ich.",
+          "evaluationTips": [
+            "Beschreiben Sie Ihre Wohnsituation konkret: Größe, Lage, Stockwerk",
+            "Nennen Sie positive und negative Aspekte",
+            "Verwenden Sie Adjektive: groß, klein, hell, dunkel, ruhig, laut",
+            "Verknüpfen Sie Sätze: 'aber', 'leider', 'zum Glück'"
+          ],
+          "keyPhrases": [
+            "Ich wohne in einer ... -Zimmer-Wohnung.",
+            "Die Wohnung ist im ... Stock.",
+            "Sie ist ... (groß/klein/hell/ruhig).",
+            "Ich mag ..., aber leider ...",
+            "Was mir fehlt, ist ...",
+            "Zum Glück habe ich ..."
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "conversation",
+          "instructions": "Führen Sie ein Gespräch über das Thema Wohnen. Stellen Sie Fragen und antworten Sie.",
+          "instructionsTranslation": "Have a conversation about the topic of housing. Ask questions and answer.",
+          "prompt": "Sprechen Sie mit Ihrem Partner oder Ihrer Partnerin über Wohnen:\n- In welchem Teil der Stadt wohnen Sie?\n- Was sind die Vor- und Nachteile Ihrer Wohngegend?\n- Wie sind Ihre Nachbarn?\n- Würden Sie lieber in einem Haus oder einer Wohnung leben?",
+          "sampleResponse": "Ich wohne in der Stadtmitte — das ist sehr praktisch, weil alles nah ist: Geschäfte, Restaurants und die S-Bahn. Aber manchmal ist es ein bisschen laut. Meine Nachbarn sind nett, wir grüßen uns immer. Ich würde lieber in einem Haus mit Garten wohnen, aber das ist in der Stadtmitte zu teuer.",
+          "evaluationTips": [
+            "Nennen Sie konkrete Vor- und Nachteile Ihrer Wohngegend",
+            "Sprechen Sie über Nachbarn und das Nachbarschaftsleben",
+            "Verwenden Sie 'weil' für Begründungen",
+            "Fragen Sie den Partner: 'Und wo wohnen Sie? Wie ist das bei Ihnen?'",
+            "Benutzen Sie Komparativ für Vergleiche: 'größer', 'ruhiger', 'günstiger'"
+          ],
+          "keyPhrases": [
+            "Ich wohne in ..., weil ...",
+            "Der Vorteil ist ..., aber der Nachteil ist ...",
+            "Meine Nachbarn sind ...",
+            "Ich würde lieber ... wohnen.",
+            "Das ist praktisch, weil ...",
+            "Wie sind Ihre Nachbarn?"
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Planen Sie gemeinsam einen Umzug. Einigen Sie sich auf eine Lösung.",
+          "instructionsTranslation": "Plan a move together. Agree on a solution.",
+          "prompt": "Sie und Ihr Partner/Ihre Partnerin möchten zusammen in eine neue Wohnung umziehen. Sprechen Sie über:\n- Was für eine Wohnung suchen Sie?\n- Wie viel Miete können Sie zusammen bezahlen?\n- Was ist Ihnen besonders wichtig?\n- Wie wollen Sie den Umzug organisieren?",
+          "sampleResponse": "Ich denke, wir brauchen mindestens drei Zimmer — ein Wohnzimmer und je ein Schlafzimmer für uns beide. Die Miete sollte nicht mehr als 1.000 Euro warm kosten. Mir ist wichtig, dass die Wohnung hell ist und nah an der U-Bahn liegt. Für den Umzug könnten wir Freunde fragen oder eine Umzugsfirma nehmen.",
+          "evaluationTips": [
+            "Besprechen Sie konkrete Anforderungen: Zimmeranzahl, Preis, Lage",
+            "Fragen Sie nach den Prioritäten des Partners: 'Was ist dir wichtig?'",
+            "Machen Sie Kompromissvorschläge, wenn ihr euch nicht einig seid",
+            "Benutzen Sie 'müssen', 'sollen', 'möchten' für Anforderungen",
+            "Einigen Sie sich auf einen konkreten Plan am Ende"
+          ],
+          "keyPhrases": [
+            "Ich denke, wir brauchen ...",
+            "Die Miete sollte nicht mehr als ... kosten.",
+            "Mir ist wichtig, dass ...",
+            "Was ist dir am wichtigsten?",
+            "Wir könnten ... oder ...",
+            "Einverstanden, dann machen wir ..."
+          ]
+        }
+      ]
+    }
   }
 }
