@@ -2,12 +2,663 @@
   "id": "A2_mock_10",
   "level": "A2",
   "title": "Übungstest 10",
-  "version": 0,
-  "_stub": true,
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Nachrichten auf dem Anrufbeantworter. Zu jeder Nachricht gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.",
+          "instructionsTranslation": "You will hear five short telephone messages. For each message there is one task. What is correct? Mark: a, b, or c. You will hear each recording twice.",
+          "audioFile": "assets/audio/A2/mock10/listening_part1.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A2_m10_L1_q1",
+              "type": "mcq",
+              "questionText": "Wann kann Frau Dietrich ihr Paket abholen?",
+              "options": [
+                "a) morgen ab 9 Uhr",
+                "b) heute nach 16 Uhr",
+                "c) übermorgen ab 10 Uhr"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Nachricht des Paketservices lautet: 'Ihr Paket liegt bereit und kann heute ab 16 Uhr in unserer Filiale abgeholt werden.' Morgen und übermorgen werden nicht als Abholzeitpunkt genannt.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m10_L1_q2",
+              "type": "mcq",
+              "questionText": "Warum ruft das Modegeschäft an?",
+              "options": [
+                "a) Das bestellte Kleid ist angekommen.",
+                "b) Das bestellte Kleid ist nicht mehr vorrätig.",
+                "c) Der Preis für das Kleid hat sich geändert."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Das Geschäft meldet auf dem Anrufbeantworter: 'Wir freuen uns, Ihnen mitteilen zu können, dass Ihr bestelltes Kleid angekommen ist und zur Abholung bereit steht.' Das Kleid ist also da.",
+              "audioTimestamp": 7
+            },
+            {
+              "id": "A2_m10_L1_q3",
+              "type": "mcq",
+              "questionText": "Was möchte der Kunde vom Kundenservice wissen?",
+              "options": [
+                "a) wie er eine Bestellung stornieren kann",
+                "b) wie er einen Umtausch machen kann",
+                "c) wann sein Paket ankommt"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Kunde sagt: 'Ich habe eine Jacke gekauft, aber sie passt nicht — ich würde sie gerne umtauschen. Können Sie mir sagen, wie das geht?' Er fragt also nach dem Umtausch, nicht nach Stornierung oder Lieferstatus.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m10_L1_q4",
+              "type": "mcq",
+              "questionText": "Welche Größe hat die Frau bestellt?",
+              "options": [
+                "a) Größe 38",
+                "b) Größe 40",
+                "c) Größe 42"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Frau erklärt im Online-Shop-Kundenservice: 'Ich habe Größe 40 bestellt, aber bekommen habe ich Größe 38.' Sie hat also Größe 40 bestellt, nicht 38 oder 42.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m10_L1_q5",
+              "type": "mcq",
+              "questionText": "Wann ist das Sonderangebot im Supermarkt zu Ende?",
+              "options": [
+                "a) am Donnerstag",
+                "b) am Samstag",
+                "c) am Sonntag"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Supermarkt-Durchsage informiert: 'Unser Sonderangebot auf alle Weine gilt noch bis Samstag.' Das Angebot endet also am Samstag, nicht am Donnerstag oder Sonntag.",
+              "audioTimestamp": 6
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören fünf kurze Radiodurchsagen. Zu jeder Durchsage gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear five short radio announcements. For each announcement there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A2/mock10/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A2_m10_L2_q1",
+              "type": "mcq",
+              "questionText": "Wann hat das neue Einkaufszentrum geöffnet?",
+              "options": [
+                "a) montags bis samstags von 9 bis 21 Uhr",
+                "b) täglich von 10 bis 20 Uhr",
+                "c) montags bis freitags von 9 bis 20 Uhr"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Radiodurchsage des Einkaufszentrums informiert: 'Wir sind für Sie montags bis samstags von 9 bis 21 Uhr geöffnet.' Die anderen Zeiten treffen nicht zu.",
+              "audioTimestamp": 7
+            },
+            {
+              "id": "A2_m10_L2_q2",
+              "type": "mcq",
+              "questionText": "Was gibt es bei dem Online-Shop im Angebot?",
+              "options": [
+                "a) 20 Prozent Rabatt auf alle Schuhe",
+                "b) kostenlosen Versand bei Bestellungen über 50 Euro",
+                "c) gratis Geschenkverpackung"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Werbespot sagt: 'Diese Woche bei uns: kostenloser Versand für alle Bestellungen ab 50 Euro.' Schuhrabatte und Geschenkverpackung werden nicht als Angebot genannt.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "A2_m10_L2_q3",
+              "type": "mcq",
+              "questionText": "Warum ist das Kaufhaus am Montag geschlossen?",
+              "options": [
+                "a) wegen eines Feiertags",
+                "b) wegen Umbauarbeiten",
+                "c) wegen einer Betriebsfeier"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Durchsage erklärt: 'Unser Kaufhaus bleibt am kommenden Montag wegen unserer jährlichen Betriebsfeier geschlossen.' Feiertag und Umbau werden nicht als Grund genannt.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m10_L2_q4",
+              "type": "mcq",
+              "questionText": "Wo findet der Flohmarkt statt?",
+              "options": [
+                "a) im Stadtpark",
+                "b) auf dem Marktplatz",
+                "c) vor dem Rathaus"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Ankündigung sagt: 'Der große Frühjahrsflohmarkt findet diesen Sonntag auf dem Marktplatz statt — über 200 Anbieter erwarten Sie.' Park und Rathaus werden nicht als Veranstaltungsort genannt.",
+              "audioTimestamp": 5
+            },
+            {
+              "id": "A2_m10_L2_q5",
+              "type": "mcq",
+              "questionText": "Welches Produkt ist heute im Supermarkt reduziert?",
+              "options": [
+                "a) frisches Obst",
+                "b) Milchprodukte",
+                "c) Tiefkühlpizzen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Supermarkt-Durchsage informiert: 'Heute im Angebot: alle Milchprodukte 30 Prozent günstiger — Joghurt, Käse, Butter und Quark.' Obst und Tiefkühlpizzen werden nicht reduziert.",
+              "audioTimestamp": 7
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear five short conversations. For each conversation there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A2/mock10/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A2_m10_L3_q1",
+              "type": "mcq",
+              "questionText": "Was möchte die Kundin umtauschen?",
+              "options": [
+                "a) eine Bluse",
+                "b) ein Paar Schuhe",
+                "c) eine Hose"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Kundin sagt zur Verkäuferin: 'Ich möchte diese Schuhe umtauschen — sie sind leider eine Nummer zu klein.' Sie tauscht also Schuhe, keine Bluse und keine Hose.",
+              "audioTimestamp": 11
+            },
+            {
+              "id": "A2_m10_L3_q2",
+              "type": "mcq",
+              "questionText": "Wie zahlt der Kunde?",
+              "options": [
+                "a) bar",
+                "b) mit Kreditkarte",
+                "c) mit EC-Karte"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Kassierer fragt: 'Möchten Sie bar oder mit Karte zahlen?' und der Kunde antwortet: 'Mit EC-Karte, bitte.' Er zahlt also mit EC-Karte, weder bar noch mit Kreditkarte.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m10_L3_q3",
+              "type": "mcq",
+              "questionText": "Was sucht der Mann im Supermarkt?",
+              "options": [
+                "a) den Eingang",
+                "b) die Backwaren-Abteilung",
+                "c) die Kasse"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Mann fragt eine Mitarbeiterin: 'Entschuldigung, wo finde ich die Backwaren — Brot und Brötchen?' Er sucht also die Backwaren-Abteilung, nicht den Eingang oder die Kasse.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m10_L3_q4",
+              "type": "mcq",
+              "questionText": "Was hat die Frau am Kleid nicht gefallen?",
+              "options": [
+                "a) die Farbe",
+                "b) der Preis",
+                "c) die Passform"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Frau erklärt ihrer Freundin: 'Das Kleid war sehr schön geschnitten und auch nicht teuer — aber die Farbe hat mir überhaupt nicht gefallen.' Preis und Passform waren also kein Problem.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "A2_m10_L3_q5",
+              "type": "mcq",
+              "questionText": "Was empfiehlt der Verkäufer dem Kunden?",
+              "options": [
+                "a) das Modell online zu bestellen",
+                "b) in einer anderen Filiale nachzufragen",
+                "c) nächste Woche wiederzukommen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Verkäufer sagt: 'Das Modell haben wir leider nicht mehr hier — aber unsere Filiale in der Karlstraße sollte es noch vorrätig haben. Rufen Sie dort am besten kurz an.' Er empfiehlt also die andere Filiale, nicht Online-Bestellung oder Wiederkommen.",
+              "audioTimestamp": 10
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 50,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie die fünf Anzeigen. Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es genau eine passende Anzeige. Schreiben Sie den Buchstaben der Anzeige.",
+          "instructionsTranslation": "Read the five advertisements. Which advertisement matches which situation? For each situation there is exactly one matching advertisement. Write the letter of the advertisement.",
+          "texts": [
+            {
+              "id": "A2_m10_R1_text_a",
+              "type": "ad",
+              "content": "ANZEIGE A — Secondhand-Boutique Chic\nGut erhaltene Markenkleidung zu fairen Preisen. Auch Ankauf von Markenkleidung. Mo–Sa 10–18 Uhr. Schillerstraße 14."
+            },
+            {
+              "id": "A2_m10_R1_text_b",
+              "type": "ad",
+              "content": "ANZEIGE B — Schuh-Outlet\nAlle Herbst- und Winterschuhe 40–60% reduziert! Große Auswahl in allen Größen (35–48). Solange der Vorrat reicht. Gewerbegebiet Nord, Halle 3."
+            },
+            {
+              "id": "A2_m10_R1_text_c",
+              "type": "ad",
+              "content": "ANZEIGE C — Lebensmittel-Lieferservice Frisch\nFrisches Obst und Gemüse, direkt vom Bauernhof zu Ihnen nach Hause. Bestellung bis 18 Uhr — Lieferung am nächsten Morgen. Mindestbestellwert: 20 Euro. www.frisch-geliefert.de"
+            },
+            {
+              "id": "A2_m10_R1_text_d",
+              "type": "ad",
+              "content": "ANZEIGE D — Elektronikmesse\nDie größte Elektronikmesse der Region! Smartphones, Laptops, Haushaltsgeräte — alles unter einem Dach. Nur dieses Wochenende, Sa–So 10–18 Uhr. Messezentrum."
+            },
+            {
+              "id": "A2_m10_R1_text_e",
+              "type": "ad",
+              "content": "ANZEIGE E — Änderungsschneiderei Nähfix\nWir kürzen, ändern und reparieren Ihre Kleidung. Schnell und günstig. Auch Reißverschlüsse und Knöpfe. Mo–Fr 9–18 Uhr, Sa 9–13 Uhr. Marktgasse 7."
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m10_R1_q1",
+              "type": "matching",
+              "questionText": "Petra hat eine neue Hose gekauft, aber sie ist zu lang. Sie braucht jemanden, der sie kürzt.",
+              "matchingSources": [
+                { "id": "A2_m10_R1_text_a", "label": "A" },
+                { "id": "A2_m10_R1_text_b", "label": "B" },
+                { "id": "A2_m10_R1_text_c", "label": "C" },
+                { "id": "A2_m10_R1_text_d", "label": "D" },
+                { "id": "A2_m10_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "E",
+              "explanation": "Anzeige E ist eine Änderungsschneiderei, die Kleidung kürzt und ändert — genau das, was Petra für ihre zu lange Hose braucht."
+            },
+            {
+              "id": "A2_m10_R1_q2",
+              "type": "matching",
+              "questionText": "Georg möchte ein neues Laptop kaufen und verschiedene Modelle direkt vergleichen.",
+              "matchingSources": [
+                { "id": "A2_m10_R1_text_a", "label": "A" },
+                { "id": "A2_m10_R1_text_b", "label": "B" },
+                { "id": "A2_m10_R1_text_c", "label": "C" },
+                { "id": "A2_m10_R1_text_d", "label": "D" },
+                { "id": "A2_m10_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Anzeige D ist eine Elektronikmesse mit Laptops und anderen Geräten — ideal für Georg, der verschiedene Modelle vor Ort vergleichen möchte."
+            },
+            {
+              "id": "A2_m10_R1_q3",
+              "type": "matching",
+              "questionText": "Familie Richter möchte immer frisches Gemüse haben, hat aber keine Zeit, zum Markt zu gehen.",
+              "matchingSources": [
+                { "id": "A2_m10_R1_text_a", "label": "A" },
+                { "id": "A2_m10_R1_text_b", "label": "B" },
+                { "id": "A2_m10_R1_text_c", "label": "C" },
+                { "id": "A2_m10_R1_text_d", "label": "D" },
+                { "id": "A2_m10_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Anzeige C liefert frisches Obst und Gemüse direkt nach Hause — perfekt für Familie Richter, die keine Zeit für den Markt hat."
+            },
+            {
+              "id": "A2_m10_R1_q4",
+              "type": "matching",
+              "questionText": "Lars sucht günstige Winterschuhe in Größe 44 und hat ein begrenztes Budget.",
+              "matchingSources": [
+                { "id": "A2_m10_R1_text_a", "label": "A" },
+                { "id": "A2_m10_R1_text_b", "label": "B" },
+                { "id": "A2_m10_R1_text_c", "label": "C" },
+                { "id": "A2_m10_R1_text_d", "label": "D" },
+                { "id": "A2_m10_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Anzeige B bietet Winterschuhe mit 40-60% Rabatt in allen Größen bis 48 an — genau das, was Lars mit kleinem Budget und Größe 44 sucht."
+            },
+            {
+              "id": "A2_m10_R1_q5",
+              "type": "matching",
+              "questionText": "Nina hat einige gut erhaltene Markenkleider, die sie nicht mehr trägt, und möchte sie verkaufen.",
+              "matchingSources": [
+                { "id": "A2_m10_R1_text_a", "label": "A" },
+                { "id": "A2_m10_R1_text_b", "label": "B" },
+                { "id": "A2_m10_R1_text_c", "label": "C" },
+                { "id": "A2_m10_R1_text_d", "label": "D" },
+                { "id": "A2_m10_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Anzeige A kauft Markenkleidung an und verkauft gut erhaltene Kleidung — Nina kann dort ihre Markenkleider verkaufen."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den Zeitungsartikel. Sind die Sätze richtig oder falsch? Kreuzen Sie an.",
+          "instructionsTranslation": "Read the newspaper article. Are the sentences correct or incorrect? Mark your answer.",
+          "texts": [
+            {
+              "id": "A2_m10_R2_text1",
+              "type": "article",
+              "content": "Online-Shopping wird in Deutschland immer beliebter. Laut einer aktuellen Studie kaufen 74 Prozent der Deutschen mindestens einmal im Monat online ein — vor fünf Jahren waren es nur 55 Prozent. Besonders beliebt sind Kleidung, Elektronik und Bücher. Ein wichtiger Grund für den Boom: Die meisten Online-Shops bieten kostenlose Rücksendungen an. Trotzdem haben viele Kunden Bedenken wegen des Datenschutzes. Und auch der stationäre Handel leidet: In vielen Innenstädten stehen immer mehr Geschäfte leer. Experten empfehlen lokalen Händlern, auch einen Online-Shop zu eröffnen, um konkurrenzfähig zu bleiben.",
+              "source": "Wirtschaftsblatt, April 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m10_R2_q1",
+              "type": "true_false",
+              "questionText": "Heute kaufen mehr als zwei Drittel der Deutschen regelmäßig online ein.",
+              "relatedTextId": "A2_m10_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Im Artikel steht: '74 Prozent der Deutschen kaufen mindestens einmal im Monat online ein.' 74 Prozent sind mehr als zwei Drittel (66,7 Prozent). Die Aussage ist richtig."
+            },
+            {
+              "id": "A2_m10_R2_q2",
+              "type": "true_false",
+              "questionText": "Vor fünf Jahren haben mehr als 60 Prozent online eingekauft.",
+              "relatedTextId": "A2_m10_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Der Text sagt: 'vor fünf Jahren waren es nur 55 Prozent.' Das ist weniger als 60 Prozent. Die Aussage ist falsch."
+            },
+            {
+              "id": "A2_m10_R2_q3",
+              "type": "true_false",
+              "questionText": "Kostenlose Rücksendungen sind ein wichtiger Grund für den Online-Shopping-Boom.",
+              "relatedTextId": "A2_m10_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Im Artikel steht direkt: 'Ein wichtiger Grund für den Boom: Die meisten Online-Shops bieten kostenlose Rücksendungen an.' Die Aussage ist richtig."
+            },
+            {
+              "id": "A2_m10_R2_q4",
+              "type": "true_false",
+              "questionText": "Alle Kunden haben Vertrauen in den Datenschutz beim Online-Shopping.",
+              "relatedTextId": "A2_m10_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Der Text sagt: 'viele Kunden haben Bedenken wegen des Datenschutzes.' Nicht alle haben Vertrauen — viele haben Bedenken. Die Aussage ist falsch."
+            },
+            {
+              "id": "A2_m10_R2_q5",
+              "type": "true_false",
+              "questionText": "Experten empfehlen lokalen Geschäften, auch online zu verkaufen.",
+              "relatedTextId": "A2_m10_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Im Artikel steht: 'Experten empfehlen lokalen Händlern, auch einen Online-Shop zu eröffnen.' Die Aussage ist richtig."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die Hinweisschilder und kurzen Texte. Was ist richtig? Kreuzen Sie an: a, b oder c.",
+          "instructionsTranslation": "Read the notices and short texts. What is correct? Mark: a, b, or c.",
+          "texts": [
+            {
+              "id": "A2_m10_R3_text1",
+              "type": "notice",
+              "content": "UMTAUSCH UND RÜCKGABE\nUmtausch oder Rückgabe nur mit Kassenbon innerhalb von 14 Tagen. Reduzierte Ware ist vom Umtausch ausgeschlossen.\n— Modehaus Klein"
+            },
+            {
+              "id": "A2_m10_R3_text2",
+              "type": "notice",
+              "content": "ACHTUNG — Taschenkontrollen!\nZur Verhinderung von Ladendiebstahl behalten wir uns vor, Taschen und Rucksäcke beim Verlassen des Geschäfts zu kontrollieren. Vielen Dank für Ihr Verständnis."
+            },
+            {
+              "id": "A2_m10_R3_text3",
+              "type": "notice",
+              "content": "Liebe Kunden,\nWegen Inventur ist unser Geschäft am Dienstag, den 14. Mai von 18 bis 20 Uhr geschlossen. Ab 20 Uhr sind wir wieder für Sie da.\n— Ihr Team von Elektro-Brandt"
+            },
+            {
+              "id": "A2_m10_R3_text4",
+              "type": "notice",
+              "content": "KASSENBONS\nBitte heben Sie Ihren Kassenbon auf. Er gilt als Garantienachweis für alle Elektrogeräte. Ohne Kassenbon kann keine Garantieleistung in Anspruch genommen werden."
+            },
+            {
+              "id": "A2_m10_R3_text5",
+              "type": "notice",
+              "content": "Parkhaus — Kunden des Einkaufscenters\nDie ersten 2 Stunden Parken sind kostenlos mit Einkauf über 10 Euro (Stempelkarte an der Kasse). Jede weitere Stunde: 1,50 Euro."
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m10_R3_q1",
+              "type": "mcq",
+              "questionText": "Was braucht man für einen Umtausch im Modehaus Klein?",
+              "relatedTextId": "A2_m10_R3_text1",
+              "options": [
+                "a) nur den Personalausweis",
+                "b) den Kassenbon",
+                "c) nichts Besonderes"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Schild sagt: 'Umtausch oder Rückgabe nur mit Kassenbon.' Man braucht also den Kassenbon — kein Ausweis und nicht ohne Nachweis."
+            },
+            {
+              "id": "A2_m10_R3_q2",
+              "type": "mcq",
+              "questionText": "Warum dürfen Mitarbeiter beim Verlassen Taschen kontrollieren?",
+              "relatedTextId": "A2_m10_R3_text2",
+              "options": [
+                "a) um gefährliche Gegenstände zu finden",
+                "b) um Ladendiebstahl zu verhindern",
+                "c) weil es eine neue gesetzliche Pflicht ist"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Schild erklärt: 'Zur Verhinderung von Ladendiebstahl behalten wir uns vor, Taschen zu kontrollieren.' Der Grund ist also Ladendiebstahlprävention."
+            },
+            {
+              "id": "A2_m10_R3_q3",
+              "type": "mcq",
+              "questionText": "Wann ist Elektro-Brandt am 14. Mai geschlossen?",
+              "relatedTextId": "A2_m10_R3_text3",
+              "options": [
+                "a) den ganzen Tag",
+                "b) von 18 bis 20 Uhr",
+                "c) ab 20 Uhr"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Schild sagt: 'am Dienstag, den 14. Mai von 18 bis 20 Uhr geschlossen.' Nur diese zwei Stunden sind geschlossen — nicht den ganzen Tag und nicht ab 20 Uhr."
+            },
+            {
+              "id": "A2_m10_R3_q4",
+              "type": "mcq",
+              "questionText": "Wofür braucht man den Kassenbon laut dem Hinweis?",
+              "relatedTextId": "A2_m10_R3_text4",
+              "options": [
+                "a) für eine Rückgabe",
+                "b) für eine Garantieleistung",
+                "c) für eine Beschwerde"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Schild erklärt: 'Er gilt als Garantienachweis für alle Elektrogeräte. Ohne Kassenbon kann keine Garantieleistung in Anspruch genommen werden.' Der Bon ist also für die Garantie wichtig."
+            },
+            {
+              "id": "A2_m10_R3_q5",
+              "type": "mcq",
+              "questionText": "Wie bekommt man kostenloses Parken im Parkhaus?",
+              "relatedTextId": "A2_m10_R3_text5",
+              "options": [
+                "a) wenn man mehr als 2 Stunden einkauft",
+                "b) wenn man für mehr als 10 Euro einkauft und sich die Stempelkarte geben lässt",
+                "c) wenn man mehr als 2 Stunden im Einkaufszentrum bleibt"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Schild sagt: 'Die ersten 2 Stunden kostenlos mit Einkauf über 10 Euro (Stempelkarte an der Kasse).' Man muss also mindestens 10 Euro kaufen und sich die Stempelkarte an der Kasse abstempeln lassen."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 0,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "form_fill",
+          "instructions": "Füllen Sie das Rückgabeformular für einen Online-Shop aus. Benutzen Sie die Informationen unten.",
+          "instructionsTranslation": "Fill in the returns form for an online shop. Use the information below.",
+          "formFields": [
+            {
+              "label": "Vorname",
+              "correctAnswer": "Nina",
+              "hint": "Vorname der Kundin"
+            },
+            {
+              "label": "Nachname",
+              "correctAnswer": "Bergmann",
+              "hint": "Nachname der Kundin"
+            },
+            {
+              "label": "Bestellnummer",
+              "correctAnswer": "DE-2026-45781",
+              "hint": "Nummer der Bestellung"
+            },
+            {
+              "label": "Artikel",
+              "correctAnswer": "Winterjacke blau, Größe M",
+              "hint": "Name und Beschreibung des Artikels"
+            },
+            {
+              "label": "Rückgabegrund",
+              "correctAnswer": "Größe passt nicht",
+              "hint": "Warum wird der Artikel zurückgeschickt?"
+            },
+            {
+              "label": "E-Mail",
+              "correctAnswer": "nina.bergmann@email.de",
+              "hint": "E-Mail-Adresse für die Bestätigung"
+            }
+          ],
+          "sampleAnswer": "Vorname: Nina\nNachname: Bergmann\nBestellnummer: DE-2026-45781\nArtikel: Winterjacke blau, Größe M\nRückgabegrund: Größe passt nicht\nE-Mail: nina.bergmann@email.de",
+          "scoringCriteria": [
+            {
+              "criterion": "Vollständigkeit",
+              "maxPoints": 3,
+              "description": "Alle Pflichtfelder wurden ausgefüllt (je 0,5 Punkte pro Feld)"
+            },
+            {
+              "criterion": "Korrektheit",
+              "maxPoints": 2,
+              "description": "Informationen entsprechen den Aufgabenvorgaben und sind korrekt übertragen"
+            },
+            {
+              "criterion": "Format",
+              "maxPoints": 1,
+              "description": "Bestellnummer und E-Mail korrekt angegeben"
+            }
+          ]
+        },
+        {
+          "taskNumber": 2,
+          "type": "short_message",
+          "instructions": "Schreiben Sie eine kurze Nachricht an den Kundenservice eines Online-Shops. Schreiben Sie über die drei Punkte unten. Schreiben Sie 30 bis 50 Wörter.",
+          "instructionsTranslation": "Write a short message to an online shop's customer service. Write about the three points below. Write 30 to 50 words.",
+          "prompt": "Sie haben einen Pullover online bestellt, aber ein falsches Produkt bekommen.\n- Erklären Sie das Problem.\n- Sagen Sie, was Sie sich wünschen (Umtausch oder Geld zurück).\n- Fragen Sie, wie Sie das Paket zurückschicken können.",
+          "promptTranslation": "You ordered a jumper online but received the wrong item.\n- Explain the problem.\n- Say what you want (exchange or refund).\n- Ask how you can return the parcel.",
+          "requiredPoints": [
+            "Erklärung des falschen Artikels",
+            "Wunsch nach Umtausch oder Erstattung",
+            "Frage zur Rücksendung"
+          ],
+          "wordCountMin": 30,
+          "wordCountMax": 50,
+          "sampleAnswer": "Sehr geehrte Damen und Herren,\nIch habe letzte Woche einen blauen Pullover (Bestellnr. 45781) bestellt, aber ein falsches Produkt erhalten. Ich möchte bitte den richtigen Artikel bekommen. Können Sie mir erklären, wie ich das falsche Paket zurückschicken kann?\nMit freundlichen Grüßen, Nina Bergmann",
+          "scoringCriteria": [
+            {
+              "criterion": "Inhalt",
+              "maxPoints": 3,
+              "description": "Alle drei Punkte wurden angesprochen (je 1 Punkt pro Inhaltspunkt)"
+            },
+            {
+              "criterion": "Sprache",
+              "maxPoints": 2,
+              "description": "Grammatik und Wortschatz sind weitgehend korrekt und für A2 angemessen"
+            },
+            {
+              "criterion": "Wortanzahl",
+              "maxPoints": 1,
+              "description": "Text liegt zwischen 30 und 50 Wörtern"
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 0,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "introduce",
+          "instructions": "Stellen Sie sich kurz vor. Sprechen Sie über sich: Name, Herkunft, Wohnort, Beruf und Hobbys.",
+          "instructionsTranslation": "Introduce yourself briefly. Talk about yourself: name, origin, place of residence, job, and hobbies.",
+          "prompt": "Bitte stellen Sie sich vor:\n- Wie heißen Sie?\n- Woher kommen Sie?\n- Wo wohnen Sie jetzt?\n- Was machen Sie beruflich?\n- Was machen Sie in Ihrer Freizeit?",
+          "sampleResponse": "Guten Tag, mein Name ist Nina Bergmann und ich komme aus Polen. Ich wohne seit zwei Jahren in Köln und arbeite als Verkäuferin in einem Modegeschäft. Ich mag meinen Beruf, weil ich gerne mit Menschen arbeite. In der Freizeit gehe ich oft shoppen und treffe mich mit Freunden.",
+          "evaluationTips": [
+            "Sprechen Sie in vollständigen Sätzen, nicht nur einzelnen Wörtern",
+            "Verwenden Sie einfache Verbindungswörter wie 'und', 'aber', 'auch'",
+            "Achten Sie auf die richtige Verbkonjugation",
+            "Eine kurze, klare Vorstellung ist besser als ein langer, fehlerreicher Text"
+          ],
+          "keyPhrases": [
+            "Mein Name ist ...",
+            "Ich komme aus ...",
+            "Ich wohne seit ... Jahren in ...",
+            "Ich arbeite als ...",
+            "In meiner Freizeit ...",
+            "Ich mag ..., weil ..."
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "conversation",
+          "instructions": "Führen Sie ein Gespräch über Einkaufen. Stellen Sie Fragen und antworten Sie auf die Fragen Ihres Gesprächspartners.",
+          "instructionsTranslation": "Have a conversation about shopping. Ask questions and answer your conversation partner's questions.",
+          "prompt": "Sprechen Sie mit Ihrem Partner oder Ihrer Partnerin über Einkaufen:\n- Gehen Sie lieber in Geschäfte oder kaufen Sie online ein?\n- Was kaufen Sie am häufigsten?\n- Haben Sie schon einmal etwas umgetauscht?\n- Was ist Ihnen beim Einkaufen wichtig?",
+          "sampleResponse": "Ich kaufe am liebsten online ein — es ist bequemer und man kann gut vergleichen. Kleider kaufe ich aber lieber im Geschäft, weil ich sie anprobieren möchte. Ja, ich habe schon oft Sachen umgetauscht, weil die Größe nicht gepasst hat. Am wichtigsten ist mir der Preis und die Qualität.",
+          "evaluationTips": [
+            "Antworten Sie nicht nur mit 'Ja' oder 'Nein', sondern mit vollständigen Sätzen",
+            "Stellen Sie auch selbst Fragen an den Partner",
+            "Begründen Sie Ihre Meinung mit 'weil' oder 'denn'",
+            "Vergleichen Sie: 'lieber ... als ...', 'mehr ... als ...'"
+          ],
+          "keyPhrases": [
+            "Ich kaufe lieber ...",
+            "Am wichtigsten ist mir ...",
+            "Ich finde ..., weil ...",
+            "Hast du/Haben Sie schon einmal ...?",
+            "Ich vergleiche immer ...",
+            "Das ist mir zu teuer/günstig."
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Planen Sie etwas gemeinsam mit Ihrem Partner oder Ihrer Partnerin. Einigen Sie sich auf eine Lösung.",
+          "instructionsTranslation": "Plan something together with your partner. Agree on a solution.",
+          "prompt": "Sie möchten zusammen mit Ihrem Partner/Ihrer Partnerin Geburtstagsgeschenke für einen gemeinsamen Freund kaufen. Sprechen Sie über:\n- Was kauft ihr?\n- Wo kauft ihr das Geschenk?\n- Wie viel Geld gebt ihr zusammen aus?\n- Wann und wo trefft ihr euch zum Einkaufen?",
+          "sampleResponse": "Ich schlage vor, ihm einen neuen Rucksack zu kaufen — er braucht dringend einen neuen. Im Sportgeschäft am Marktplatz gibt es gute Qualität für faire Preise. Wir könnten zusammen maximal 60 Euro ausgeben — 30 Euro pro Person. Hast du am Samstag um 11 Uhr Zeit, gemeinsam hinzugehen?",
+          "evaluationTips": [
+            "Machen Sie konkrete Vorschläge mit 'Ich schlage vor ...' oder 'Was hältst du von ...'",
+            "Einigen Sie sich auf ein Budget",
+            "Reagieren Sie auf Vorschläge positiv oder mit Alternativen",
+            "Vereinbaren Sie einen konkreten Termin"
+          ],
+          "keyPhrases": [
+            "Ich schlage vor, ... zu kaufen.",
+            "Was hältst du von ...?",
+            "Wir könnten zusammen ... Euro ausgeben.",
+            "Das klingt gut!",
+            "Hast du am ... Zeit?",
+            "Einverstanden!"
+          ]
+        }
+      ]
+    }
   }
 }
