@@ -2,12 +2,663 @@
   "id": "A2_mock_09",
   "level": "A2",
   "title": "Übungstest 9",
-  "version": 0,
-  "_stub": true,
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Nachrichten auf dem Anrufbeantworter. Zu jeder Nachricht gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.",
+          "instructionsTranslation": "You will hear five short telephone messages. For each message there is one task. What is correct? Mark: a, b, or c. You will hear each recording twice.",
+          "audioFile": "assets/audio/A2/mock09/listening_part1.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A2_m09_L1_q1",
+              "type": "mcq",
+              "questionText": "Auf welchem Gleis fährt der Zug nach Hamburg ab?",
+              "options": [
+                "a) Gleis 4",
+                "b) Gleis 7",
+                "c) Gleis 12"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Bahnhofsdurchsage sagt: 'Der ICE nach Hamburg fährt heute ausnahmsweise auf Gleis 7 ab — bitte beachten Sie die Änderung.' Gleis 4 und 12 werden nicht als Abfahrtsgleis genannt.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m09_L1_q2",
+              "type": "mcq",
+              "questionText": "Was hat das Hotel für Frau Nowak reserviert?",
+              "options": [
+                "a) ein Einzelzimmer für zwei Nächte",
+                "b) ein Doppelzimmer für drei Nächte",
+                "c) ein Einzelzimmer für drei Nächte"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Das Hotel bestätigt auf dem Anrufbeantworter: 'Wir haben für Sie ein Einzelzimmer für drei Nächte reserviert, vom 12. bis 15. Juli.' Ein Doppelzimmer und zwei Nächte werden nicht genannt.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m09_L1_q3",
+              "type": "mcq",
+              "questionText": "Warum hat sich der Abflug verzögert?",
+              "options": [
+                "a) wegen schlechten Wetters",
+                "b) wegen technischer Probleme",
+                "c) wegen eines Streiks"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Flughafen-Durchsage teilt mit: 'Aufgrund technischer Probleme am Flugzeug verschiebt sich der Abflug um eine Stunde.' Wetter und Streik werden als Ursache nicht genannt.",
+              "audioTimestamp": 7
+            },
+            {
+              "id": "A2_m09_L1_q4",
+              "type": "mcq",
+              "questionText": "Was soll Pedro beim Reisebüro anrufen wegen?",
+              "options": [
+                "a) um einen Reisepass zu beantragen",
+                "b) um sein Ticket zu bestätigen",
+                "c) um eine Hotelbuchung zu ändern"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Nachricht des Reisebüros lautet: 'Herr Pedro, bitte rufen Sie uns an — das Hotel in Rom hat leider keinen Platz mehr und wir müssen Ihre Buchung ändern.' Es geht um die Hotelbuchung, nicht um Ticket oder Pass.",
+              "audioTimestamp": 10
+            },
+            {
+              "id": "A2_m09_L1_q5",
+              "type": "mcq",
+              "questionText": "Welchen Bus soll Claudia nehmen, um zum Hauptbahnhof zu kommen?",
+              "options": [
+                "a) Linie 14",
+                "b) Linie 22",
+                "c) Linie 38"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Freundin erklärt: 'Nimm die Linie 22 vom Marktplatz — die fährt direkt zum Hauptbahnhof.' Linie 14 und 38 werden nicht empfohlen.",
+              "audioTimestamp": 8
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören fünf kurze Radiodurchsagen. Zu jeder Durchsage gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear five short radio announcements. For each announcement there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A2/mock09/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A2_m09_L2_q1",
+              "type": "mcq",
+              "questionText": "Welche Straße ist wegen Bauarbeiten gesperrt?",
+              "options": [
+                "a) die Hauptstraße",
+                "b) die Bahnhofstraße",
+                "c) die Ringstraße"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Verkehrsbericht meldet: 'Die Ringstraße ist ab heute wegen Fahrbahnarbeiten bis Ende des Monats gesperrt. Bitte nutzen Sie die Umleitung über die Westallee.' Haupt- und Bahnhofstraße sind nicht gesperrt.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "A2_m09_L2_q2",
+              "type": "mcq",
+              "questionText": "Was kostet eine Bahnfahrt nach Berlin mit der Sparcard?",
+              "options": [
+                "a) 19 Euro",
+                "b) 29 Euro",
+                "c) 39 Euro"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Werbespot informiert: 'Mit unserer Sparcard fahren Sie nach Berlin schon ab 29 Euro.' 19 und 39 Euro werden nicht als Sparpreis genannt.",
+              "audioTimestamp": 5
+            },
+            {
+              "id": "A2_m09_L2_q3",
+              "type": "mcq",
+              "questionText": "Wann öffnet das neue Touristenbüro am Marktplatz?",
+              "options": [
+                "a) am Montag",
+                "b) am Mittwoch",
+                "c) am Freitag"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Radiomeldung sagt: 'Das neue Tourist-Information-Büro am Marktplatz öffnet am kommenden Montag.' Mittwoch und Freitag werden nicht als Eröffnungstag genannt.",
+              "audioTimestamp": 7
+            },
+            {
+              "id": "A2_m09_L2_q4",
+              "type": "mcq",
+              "questionText": "Womit wirbt das Reisebüro?",
+              "options": [
+                "a) mit günstigen Flügen nach Spanien",
+                "b) mit Pauschalreisen in die Türkei",
+                "c) mit Kreuzfahrten im Mittelmeer"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Werbespot sagt: 'Buchen Sie jetzt Ihre Pauschalreise in die Türkei — zwei Wochen All-inclusive ab 599 Euro.' Spanien und Kreuzfahrten werden nicht beworben.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m09_L2_q5",
+              "type": "mcq",
+              "questionText": "Welches Verkehrsmittel wird bei der Stadtführung benutzt?",
+              "options": [
+                "a) ein Fahrrad",
+                "b) ein Bus",
+                "c) eine Straßenbahn"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Ankündigung sagt: 'Unsere Stadtführung per Fahrrad startet jeden Samstag um 10 Uhr am Hauptbahnhof — Fahrräder werden gestellt.' Die Führung ist per Fahrrad, kein Bus und keine Bahn.",
+              "audioTimestamp": 9
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear five short conversations. For each conversation there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A2/mock09/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A2_m09_L3_q1",
+              "type": "mcq",
+              "questionText": "Wo übernachtet die Familie?",
+              "options": [
+                "a) in einem Hotel",
+                "b) in einer Ferienwohnung",
+                "c) bei Verwandten"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Mann sagt: 'Wir haben eine schöne Ferienwohnung direkt am See gemietet — viel günstiger als ein Hotel und mehr Platz für die Kinder.' Sie wohnen also in einer Ferienwohnung, nicht im Hotel oder bei Verwandten.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "A2_m09_L3_q2",
+              "type": "mcq",
+              "questionText": "Was vergisst die Frau einzupacken?",
+              "options": [
+                "a) ihren Reisepass",
+                "b) ihre Sonnencreme",
+                "c) ihr Ladegerät"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Frau sagt: 'Oh nein — ich habe mein Ladegerät für das Handy vergessen!' Reisepass und Sonnencreme werden nicht als vergessene Gegenstände erwähnt.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m09_L3_q3",
+              "type": "mcq",
+              "questionText": "Wie kommt der Tourist zum Schloss?",
+              "options": [
+                "a) zu Fuß, etwa 15 Minuten",
+                "b) mit dem Bus, Linie 3",
+                "c) mit dem Taxi, etwa 10 Minuten"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Passant erklärt dem Touristen: 'Das Schloss ist zu Fuß etwa 15 Minuten von hier — gehen Sie die Hauptstraße entlang und dann links.' Bus und Taxi werden nicht empfohlen.",
+              "audioTimestamp": 10
+            },
+            {
+              "id": "A2_m09_L3_q4",
+              "type": "mcq",
+              "questionText": "Was hat dem Mann an seiner Reise am besten gefallen?",
+              "options": [
+                "a) das Essen im Restaurant",
+                "b) das Museum",
+                "c) der Strand"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Mann erzählt: 'Am meisten hat mir der Strand gefallen — das Wasser war so klar und warm!' Restaurant und Museum werden nicht als Highlight erwähnt.",
+              "audioTimestamp": 11
+            },
+            {
+              "id": "A2_m09_L3_q5",
+              "type": "mcq",
+              "questionText": "Was macht die Frau am Bahnschalter?",
+              "options": [
+                "a) Sie kauft ein Ticket.",
+                "b) Sie fragt nach dem Abfahrtsgleis.",
+                "c) Sie gibt ein Ticket zurück."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Frau sagt zum Mitarbeiter: 'Ich möchte dieses Ticket zurückgeben — meine Pläne haben sich geändert und ich kann leider nicht fahren.' Sie gibt also ein Ticket zurück, kauft keines und fragt nicht nach dem Gleis.",
+              "audioTimestamp": 10
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 50,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie die fünf Anzeigen. Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es genau eine passende Anzeige. Schreiben Sie den Buchstaben der Anzeige.",
+          "instructionsTranslation": "Read the five advertisements. Which advertisement matches which situation? For each situation there is exactly one matching advertisement. Write the letter of the advertisement.",
+          "texts": [
+            {
+              "id": "A2_m09_R1_text_a",
+              "type": "ad",
+              "content": "ANZEIGE A — Reisebüro Sonnenschein\nGünstige Gruppenreisen ab 10 Personen. Wir organisieren alles: Fahrt, Hotel, Programm. Sonderpreise für Schulklassen und Vereine. Tel. 0411 778 99 00"
+            },
+            {
+              "id": "A2_m09_R1_text_b",
+              "type": "ad",
+              "content": "ANZEIGE B — Gepäckaufbewahrung Bahnhof\nLassen Sie Ihr Gepäck bei uns! Sicher und günstig. Täglich 6–22 Uhr geöffnet. 3 Euro pro Stück und Tag. Am Bahnhofseingang, Schalter 4."
+            },
+            {
+              "id": "A2_m09_R1_text_c",
+              "type": "ad",
+              "content": "ANZEIGE C — CityHostel Zentrum\nGünstiges Hostel im Stadtzentrum. Mehrbettzimmer ab 18 Euro/Nacht. Einzelzimmer ab 35 Euro/Nacht. Frühstück inklusive. WLAN gratis. Online buchen: www.cityhostel-zentrum.de"
+            },
+            {
+              "id": "A2_m09_R1_text_d",
+              "type": "ad",
+              "content": "ANZEIGE D — Mietwagen-Zentrale\nAuto mieten leicht gemacht! Kompaktwagen ab 28 Euro/Tag. Mindestalter 21 Jahre, Führerschein mind. 2 Jahre. Buchung online oder Tel. 0411 234 56 78"
+            },
+            {
+              "id": "A2_m09_R1_text_e",
+              "type": "ad",
+              "content": "ANZEIGE E — Reiseführer-App Entdecken\nAlle Sehenswürdigkeiten immer dabei! Karten, Touren, Empfehlungen — auch offline nutzbar. Kostenloser Download. Über 200 Städte weltweit."
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m09_R1_q1",
+              "type": "matching",
+              "questionText": "Julia reist allein und sucht eine günstige Übernachtungsmöglichkeit im Stadtzentrum.",
+              "matchingSources": [
+                { "id": "A2_m09_R1_text_a", "label": "A" },
+                { "id": "A2_m09_R1_text_b", "label": "B" },
+                { "id": "A2_m09_R1_text_c", "label": "C" },
+                { "id": "A2_m09_R1_text_d", "label": "D" },
+                { "id": "A2_m09_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Anzeige C ist ein günstiges Hostel im Stadtzentrum mit Einzelzimmern und Frühstück — genau das, was Julia als Alleinreisende sucht."
+            },
+            {
+              "id": "A2_m09_R1_q2",
+              "type": "matching",
+              "questionText": "Michael kommt am Bahnhof an, hat noch 4 Stunden bis zu seiner Weiterfahrt und möchte seinen schweren Koffer nicht überall mitschleppen.",
+              "matchingSources": [
+                { "id": "A2_m09_R1_text_a", "label": "A" },
+                { "id": "A2_m09_R1_text_b", "label": "B" },
+                { "id": "A2_m09_R1_text_c", "label": "C" },
+                { "id": "A2_m09_R1_text_d", "label": "D" },
+                { "id": "A2_m09_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Anzeige B bietet Gepäckaufbewahrung direkt am Bahnhof an — perfekt für Michael, der seinen Koffer für ein paar Stunden sicher abgeben möchte."
+            },
+            {
+              "id": "A2_m09_R1_q3",
+              "type": "matching",
+              "questionText": "Anna ist neu in der Stadt und möchte Sehenswürdigkeiten entdecken, auch wenn sie kein Internet hat.",
+              "matchingSources": [
+                { "id": "A2_m09_R1_text_a", "label": "A" },
+                { "id": "A2_m09_R1_text_b", "label": "B" },
+                { "id": "A2_m09_R1_text_c", "label": "C" },
+                { "id": "A2_m09_R1_text_d", "label": "D" },
+                { "id": "A2_m09_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "E",
+              "explanation": "Anzeige E ist eine Reiseführer-App, die auch offline nutzbar ist — ideal für Anna, die Sehenswürdigkeiten auch ohne Internetverbindung erkunden möchte."
+            },
+            {
+              "id": "A2_m09_R1_q4",
+              "type": "matching",
+              "questionText": "Das Sportverein-Team aus 15 Personen möchte gemeinsam eine Wochenendreise machen und sucht eine Komplettlösung.",
+              "matchingSources": [
+                { "id": "A2_m09_R1_text_a", "label": "A" },
+                { "id": "A2_m09_R1_text_b", "label": "B" },
+                { "id": "A2_m09_R1_text_c", "label": "C" },
+                { "id": "A2_m09_R1_text_d", "label": "D" },
+                { "id": "A2_m09_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Anzeige A bietet Gruppenreisen ab 10 Personen mit Sonderpreisen für Vereine an — die perfekte Lösung für das 15-köpfige Sportverein-Team."
+            },
+            {
+              "id": "A2_m09_R1_q5",
+              "type": "matching",
+              "questionText": "Lars (23 Jahre, seit 3 Jahren im Besitz eines Führerscheins) möchte eine Woche lang flexibel durch Süddeutschland reisen.",
+              "matchingSources": [
+                { "id": "A2_m09_R1_text_a", "label": "A" },
+                { "id": "A2_m09_R1_text_b", "label": "B" },
+                { "id": "A2_m09_R1_text_c", "label": "C" },
+                { "id": "A2_m09_R1_text_d", "label": "D" },
+                { "id": "A2_m09_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Anzeige D vermietet Autos ab 21 Jahren mit mindestens 2 Jahren Führerscheinbesitz — Lars erfüllt beide Bedingungen und kann flexibel reisen."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den Zeitungsartikel. Sind die Sätze richtig oder falsch? Kreuzen Sie an.",
+          "instructionsTranslation": "Read the newspaper article. Are the sentences correct or incorrect? Mark your answer.",
+          "texts": [
+            {
+              "id": "A2_m09_R2_text1",
+              "type": "article",
+              "content": "Reisen mit der Bahn wird in Deutschland immer beliebter. Im letzten Jahr haben 1,8 Milliarden Menschen die Deutsche Bahn benutzt — ein neuer Rekord. Besonders junge Menschen zwischen 18 und 30 Jahren fahren lieber Zug als Auto. Als Hauptgründe nennen sie den Komfort und den geringeren CO2-Ausstoß. Die Bahn hat auch in ihre Infrastruktur investiert: In vielen Zügen gibt es jetzt kostenloses WLAN, und die Zahl der Hochgeschwindigkeitsstrecken wächst. Trotzdem bleibt Pünktlichkeit ein Problem — nur 72 Prozent der Fernzüge kamen im vergangenen Jahr pünktlich an.",
+              "source": "Reisemagazin, Februar 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m09_R2_q1",
+              "type": "true_false",
+              "questionText": "Im letzten Jahr wurde ein neuer Fahrgastrekord bei der Bahn erzielt.",
+              "relatedTextId": "A2_m09_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Im Artikel steht: '1,8 Milliarden Menschen die Deutsche Bahn benutzt — ein neuer Rekord.' Die Aussage ist also richtig."
+            },
+            {
+              "id": "A2_m09_R2_q2",
+              "type": "true_false",
+              "questionText": "Ältere Menschen fahren am häufigsten mit der Bahn.",
+              "relatedTextId": "A2_m09_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Der Text sagt: 'Besonders junge Menschen zwischen 18 und 30 Jahren fahren lieber Zug als Auto.' Es sind junge, nicht ältere Menschen. Die Aussage ist falsch."
+            },
+            {
+              "id": "A2_m09_R2_q3",
+              "type": "true_false",
+              "questionText": "WLAN ist in vielen Zügen jetzt kostenlos verfügbar.",
+              "relatedTextId": "A2_m09_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Im Artikel steht direkt: 'In vielen Zügen gibt es jetzt kostenloses WLAN.' Die Aussage ist richtig."
+            },
+            {
+              "id": "A2_m09_R2_q4",
+              "type": "true_false",
+              "questionText": "Mehr als drei Viertel aller Fernzüge kamen im letzten Jahr pünktlich an.",
+              "relatedTextId": "A2_m09_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Der Text sagt: 'nur 72 Prozent der Fernzüge kamen pünktlich an.' 72 Prozent sind weniger als drei Viertel (75 Prozent). Die Aussage ist falsch."
+            },
+            {
+              "id": "A2_m09_R2_q5",
+              "type": "true_false",
+              "questionText": "Junge Menschen nennen Komfort und Umweltfreundlichkeit als Gründe fürs Bahnfahren.",
+              "relatedTextId": "A2_m09_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Im Artikel steht: 'Als Hauptgründe nennen sie den Komfort und den geringeren CO2-Ausstoß.' Geringerer CO2-Ausstoß entspricht Umweltfreundlichkeit. Die Aussage ist richtig."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die Hinweisschilder und kurzen Texte. Was ist richtig? Kreuzen Sie an: a, b oder c.",
+          "instructionsTranslation": "Read the notices and short texts. What is correct? Mark: a, b, or c.",
+          "texts": [
+            {
+              "id": "A2_m09_R3_text1",
+              "type": "notice",
+              "content": "BAHNSTEIG 5 — GESPERRT\nWegen Renovierungsarbeiten ist Bahnsteig 5 bis Ende August gesperrt. Züge von Gleis 5 fahren übergangsweise von Gleis 9 ab."
+            },
+            {
+              "id": "A2_m09_R3_text2",
+              "type": "notice",
+              "content": "Hotel Bergblick — Check-in und Check-out\nCheck-in: ab 15:00 Uhr\nCheck-out: bis 11:00 Uhr\nFrüheres Einchecken auf Anfrage möglich (Aufpreis: 15 Euro). Koffer können ab 9 Uhr aufbewahrt werden."
+            },
+            {
+              "id": "A2_m09_R3_text3",
+              "type": "notice",
+              "content": "TOURISTENBÜRO\nStadtführungen täglich um 10:00 und 14:00 Uhr. Treffpunkt: Vor dem Rathaus.\nErwachsene: 8 Euro, Kinder (bis 12 Jahre): kostenlos.\nAnmeldung empfohlen, aber nicht Pflicht."
+            },
+            {
+              "id": "A2_m09_R3_text4",
+              "type": "notice",
+              "content": "ACHTUNG — Reisende nach Wien!\nAufgrund von Bauarbeiten fährt der Zug heute nur bis Salzburg. Bitte steigen Sie in Salzburg in den Schienenersatzverkehr um. Der Bus fährt direkt vom Bahnhofsvorplatz ab."
+            },
+            {
+              "id": "A2_m09_R3_text5",
+              "type": "notice",
+              "content": "Mietwagen-Rückgabe\nBitte geben Sie das Fahrzeug mit vollem Tank zurück. Bei Rückgabe ohne vollen Tank berechnen wir 2,50 Euro pro Liter Tankgebühr.\nRückgabe 24/7 möglich — Schlüssel in den Briefkasten."
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m09_R3_q1",
+              "type": "mcq",
+              "questionText": "Von welchem Gleis fahren die Züge ab, die normalerweise von Gleis 5 abfahren?",
+              "relatedTextId": "A2_m09_R3_text1",
+              "options": [
+                "a) von Gleis 3",
+                "b) von Gleis 7",
+                "c) von Gleis 9"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Das Schild erklärt: 'Züge von Gleis 5 fahren übergangsweise von Gleis 9 ab.' Gleis 3 und 7 werden nicht als Ausweichgleis genannt."
+            },
+            {
+              "id": "A2_m09_R3_q2",
+              "type": "mcq",
+              "questionText": "Was kostet frühes Einchecken im Hotel Bergblick?",
+              "relatedTextId": "A2_m09_R3_text2",
+              "options": [
+                "a) Es ist kostenlos.",
+                "b) Es kostet 15 Euro.",
+                "c) Es ist nicht möglich."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Hotelschild sagt: 'Früheres Einchecken auf Anfrage möglich (Aufpreis: 15 Euro).' Es kostet also 15 Euro und ist nicht kostenlos."
+            },
+            {
+              "id": "A2_m09_R3_q3",
+              "type": "mcq",
+              "questionText": "Was kostet eine Stadtführung für eine Familie mit zwei Kindern (8 und 11 Jahre) und zwei Erwachsenen?",
+              "relatedTextId": "A2_m09_R3_text3",
+              "options": [
+                "a) 16 Euro",
+                "b) 24 Euro",
+                "c) 32 Euro"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Das Touristenbüro-Schild sagt: Erwachsene 8 Euro, Kinder bis 12 Jahre kostenlos. Zwei Erwachsene kosten also 2 x 8 = 16 Euro. Die zwei Kinder (8 und 11 Jahre) sind kostenlos."
+            },
+            {
+              "id": "A2_m09_R3_q4",
+              "type": "mcq",
+              "questionText": "Was sollen Reisende nach Wien heute in Salzburg tun?",
+              "relatedTextId": "A2_m09_R3_text4",
+              "options": [
+                "a) auf den nächsten Zug warten",
+                "b) in den Schienenersatzbus umsteigen",
+                "c) ein neues Ticket kaufen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Hinweis erklärt: 'Bitte steigen Sie in Salzburg in den Schienenersatzverkehr um. Der Bus fährt direkt vom Bahnhofsvorplatz ab.' Reisende sollen also in den Bus umsteigen."
+            },
+            {
+              "id": "A2_m09_R3_q5",
+              "type": "mcq",
+              "questionText": "Was passiert, wenn man einen Mietwagen nicht mit vollem Tank zurückgibt?",
+              "relatedTextId": "A2_m09_R3_text5",
+              "options": [
+                "a) Man muss eine Strafe zahlen.",
+                "b) Man zahlt 2,50 Euro pro Liter.",
+                "c) Man kann das Auto nicht zurückgeben."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Schild sagt klar: 'berechnen wir 2,50 Euro pro Liter Tankgebühr.' Es ist eine Tankgebühr, keine allgemeine Strafe, und die Rückgabe ist trotzdem möglich."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 0,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "form_fill",
+          "instructions": "Füllen Sie das Buchungsformular für ein Hotelzimmer aus. Benutzen Sie die Informationen unten.",
+          "instructionsTranslation": "Fill in the booking form for a hotel room. Use the information below.",
+          "formFields": [
+            {
+              "label": "Vorname",
+              "correctAnswer": "Ali",
+              "hint": "Vorname des Gastes"
+            },
+            {
+              "label": "Nachname",
+              "correctAnswer": "Yilmaz",
+              "hint": "Nachname des Gastes"
+            },
+            {
+              "label": "Anreisedatum",
+              "correctAnswer": "18.08.2026",
+              "hint": "TT.MM.JJJJ"
+            },
+            {
+              "label": "Abreisedatum",
+              "correctAnswer": "22.08.2026",
+              "hint": "TT.MM.JJJJ"
+            },
+            {
+              "label": "Zimmertyp",
+              "correctAnswer": "Doppelzimmer",
+              "hint": "Art des Zimmers"
+            },
+            {
+              "label": "Telefonnummer",
+              "correctAnswer": "0151 890 12 34",
+              "hint": "Handynummer"
+            }
+          ],
+          "sampleAnswer": "Vorname: Ali\nNachname: Yilmaz\nAnreisedatum: 18.08.2026\nAbreisedatum: 22.08.2026\nZimmertyp: Doppelzimmer\nTelefonnummer: 0151 890 12 34",
+          "scoringCriteria": [
+            {
+              "criterion": "Vollständigkeit",
+              "maxPoints": 3,
+              "description": "Alle Pflichtfelder wurden ausgefüllt (je 0,5 Punkte pro Feld)"
+            },
+            {
+              "criterion": "Korrektheit",
+              "maxPoints": 2,
+              "description": "Informationen entsprechen den Aufgabenvorgaben und sind korrekt übertragen"
+            },
+            {
+              "criterion": "Format",
+              "maxPoints": 1,
+              "description": "Daten im richtigen Format angegeben"
+            }
+          ]
+        },
+        {
+          "taskNumber": 2,
+          "type": "short_message",
+          "instructions": "Schreiben Sie eine kurze Nachricht an Ihren Freund David. Schreiben Sie über die drei Punkte unten. Schreiben Sie 30 bis 50 Wörter.",
+          "instructionsTranslation": "Write a short message to your friend David. Write about the three points below. Write 30 to 50 words.",
+          "prompt": "Sie sind gerade im Urlaub in einer anderen Stadt.\n- Sagen Sie, wo Sie sind und wie das Wetter ist.\n- Beschreiben Sie kurz, was Sie gestern gemacht haben.\n- Fragen Sie, ob David nächsten Sommer mitkommen möchte.",
+          "promptTranslation": "You are currently on holiday in another city.\n- Say where you are and what the weather is like.\n- Briefly describe what you did yesterday.\n- Ask whether David would like to come along next summer.",
+          "requiredPoints": [
+            "Ort und Wetter",
+            "Aktivität vom Vortag",
+            "Einladung für nächsten Sommer"
+          ],
+          "wordCountMin": 30,
+          "wordCountMax": 50,
+          "sampleAnswer": "Hallo David,\nichbin gerade in Wien — das Wetter ist super, sonnig und warm! Gestern habe ich das Kunsthistorische Museum besucht, das war wirklich beeindruckend. Heute gehe ich eine Schiffstour auf der Donau machen. Hast du Lust, nächsten Sommer mitzukommen?\nViele Grüße, Ali",
+          "scoringCriteria": [
+            {
+              "criterion": "Inhalt",
+              "maxPoints": 3,
+              "description": "Alle drei Punkte wurden angesprochen (je 1 Punkt pro Inhaltspunkt)"
+            },
+            {
+              "criterion": "Sprache",
+              "maxPoints": 2,
+              "description": "Grammatik und Wortschatz sind weitgehend korrekt und für A2 angemessen"
+            },
+            {
+              "criterion": "Wortanzahl",
+              "maxPoints": 1,
+              "description": "Text liegt zwischen 30 und 50 Wörtern"
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 0,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "introduce",
+          "instructions": "Stellen Sie sich kurz vor. Sprechen Sie über sich: Name, Herkunft, Wohnort, Beruf und Hobbys.",
+          "instructionsTranslation": "Introduce yourself briefly. Talk about yourself: name, origin, place of residence, job, and hobbies.",
+          "prompt": "Bitte stellen Sie sich vor:\n- Wie heißen Sie?\n- Woher kommen Sie?\n- Wo wohnen Sie jetzt?\n- Was machen Sie beruflich?\n- Was machen Sie in Ihrer Freizeit?",
+          "sampleResponse": "Guten Tag, mein Name ist Ali Yilmaz. Ich komme aus der Türkei und lebe seit vier Jahren in Hamburg. Ich arbeite als Busfahrer. In meiner Freizeit reise ich sehr gerne — ich bin schon in 15 europäischen Ländern gewesen. Außerdem interessiere ich mich für Fotografie.",
+          "evaluationTips": [
+            "Sprechen Sie in vollständigen Sätzen, nicht nur einzelnen Wörtern",
+            "Verwenden Sie einfache Verbindungswörter wie 'und', 'aber', 'auch'",
+            "Achten Sie auf die richtige Verbkonjugation",
+            "Eine kurze, klare Vorstellung ist besser als ein langer, fehlerreicher Text"
+          ],
+          "keyPhrases": [
+            "Mein Name ist ...",
+            "Ich komme aus ...",
+            "Ich lebe seit ... Jahren in ...",
+            "Ich arbeite als ...",
+            "In meiner Freizeit ...",
+            "Ich bin schon ... gewesen."
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "conversation",
+          "instructions": "Führen Sie ein Gespräch über Reisen. Stellen Sie Fragen und antworten Sie auf die Fragen Ihres Gesprächspartners.",
+          "instructionsTranslation": "Have a conversation about travel. Ask questions and answer your conversation partner's questions.",
+          "prompt": "Sprechen Sie mit Ihrem Partner oder Ihrer Partnerin über Reisen:\n- Wohin sind Sie zuletzt gereist?\n- Wie sind Sie gereist — mit dem Zug, Auto oder Flugzeug?\n- Wo haben Sie übernachtet?\n- Was hat Ihnen am besten gefallen?",
+          "sampleResponse": "Letzten Sommer bin ich nach Prag gefahren — mit dem Zug, das war sehr komfortabel. Ich habe in einem kleinen Hostel im Stadtzentrum gewohnt. Am besten hat mir die Altstadt gefallen, besonders der Wenzelsplatz und die Karlsbrücke. Das Essen dort war auch sehr gut und günstig.",
+          "evaluationTips": [
+            "Erzählen Sie von konkreten Erlebnissen im Perfekt",
+            "Stellen Sie auch selbst Fragen an den Partner",
+            "Verwenden Sie Zeitangaben wie 'letzten Sommer', 'vor zwei Wochen'",
+            "Beschreiben Sie mit Adjektiven: schön, interessant, günstig"
+          ],
+          "keyPhrases": [
+            "Ich bin nach ... gefahren/geflogen.",
+            "Ich habe in ... übernachtet.",
+            "Am besten hat mir ... gefallen.",
+            "Das war sehr ...",
+            "Ich empfehle ...",
+            "Wohin reisen Sie gerne?"
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Planen Sie etwas gemeinsam mit Ihrem Partner oder Ihrer Partnerin. Einigen Sie sich auf eine Lösung.",
+          "instructionsTranslation": "Plan something together with your partner. Agree on a solution.",
+          "prompt": "Sie möchten gemeinsam mit Ihrem Partner/Ihrer Partnerin ein Wochenende in einer anderen Stadt verbringen. Sprechen Sie über:\n- Wohin möchtet ihr fahren?\n- Wie kommt ihr dorthin?\n- Wo übernachtet ihr?\n- Was möchtet ihr dort sehen und machen?",
+          "sampleResponse": "Ich würde gerne nach Dresden fahren — ich war noch nie dort. Wir könnten den Zug nehmen, das ist am bequemsten. Für die Unterkunft schlage ich ein Hotel im Zentrum vor. Dort gibt es die Semperoper und das Grüne Gewölbe — das würde ich gerne besichtigen. Hast du andere Ideen?",
+          "evaluationTips": [
+            "Machen Sie konkrete Vorschläge mit 'Ich würde gerne ...' oder 'Wir könnten ...'",
+            "Reagieren Sie auf Vorschläge des Partners positiv oder mit einer Alternative",
+            "Einigen Sie sich am Ende auf eine gemeinsame Lösung",
+            "Verwenden Sie Konjunktiv II: 'würde', 'könnte', 'hätte'"
+          ],
+          "keyPhrases": [
+            "Ich würde gerne nach ... fahren.",
+            "Wir könnten ... nehmen.",
+            "Ich schlage ... vor.",
+            "Das klingt gut!",
+            "Was hältst du von ...?",
+            "Einverstanden!"
+          ]
+        }
+      ]
+    }
   }
 }

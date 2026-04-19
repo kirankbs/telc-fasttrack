@@ -2,12 +2,663 @@
   "id": "A2_mock_08",
   "level": "A2",
   "title": "Übungstest 8",
-  "version": 0,
-  "_stub": true,
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Nachrichten auf dem Anrufbeantworter. Zu jeder Nachricht gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.",
+          "instructionsTranslation": "You will hear five short telephone messages. For each message there is one task. What is correct? Mark: a, b, or c. You will hear each recording twice.",
+          "audioFile": "assets/audio/A2/mock08/listening_part1.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A2_m08_L1_q1",
+              "type": "mcq",
+              "questionText": "Wann hat Dr. Hoffmann einen Termin frei?",
+              "options": [
+                "a) am Montag um 9 Uhr",
+                "b) am Dienstag um 14 Uhr",
+                "c) am Mittwoch um 11 Uhr"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Arztpraxis hinterlässt die Nachricht: 'Wir haben für Sie einen Termin bei Dr. Hoffmann am Dienstag um 14 Uhr.' Montag und Mittwoch werden nicht als freie Termine genannt.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m08_L1_q2",
+              "type": "mcq",
+              "questionText": "Was soll Herr Baumann in die Apotheke mitbringen?",
+              "options": [
+                "a) seinen Personalausweis",
+                "b) seine Krankenversicherungskarte",
+                "c) das Rezept vom Arzt"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Apotheke teilt mit: 'Ihr Medikament ist fertig. Bitte bringen Sie das Rezept vom Arzt mit, wenn Sie es abholen.' Ausweis und Krankenkassenkarte werden nicht erwähnt.",
+              "audioTimestamp": 7
+            },
+            {
+              "id": "A2_m08_L1_q3",
+              "type": "mcq",
+              "questionText": "Warum kann Frau Klein nicht zur Arbeit kommen?",
+              "options": [
+                "a) Sie hat einen Arzttermin.",
+                "b) Sie ist krank.",
+                "c) Sie muss ein Kind zur Schule bringen."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Frau Klein sagt auf dem Anrufbeantworter: 'Ich rufe an, weil ich heute krank bin und leider nicht kommen kann. Ich habe hohes Fieber.' Sie ist also selbst krank — kein Arzttermin, kein Kind.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m08_L1_q4",
+              "type": "mcq",
+              "questionText": "Was empfiehlt die Krankenkasse?",
+              "options": [
+                "a) eine Impfung gegen Grippe",
+                "b) einen Vorsorgecheck beim Zahnarzt",
+                "c) mehr Sport zu treiben"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Nachricht der Krankenkasse lautet: 'Wir empfehlen unseren Versicherten die kostenlose Grippeimpfung. Fragen Sie Ihren Hausarzt danach.' Zahnarzt und Sport werden in dieser Nachricht nicht empfohlen.",
+              "audioTimestamp": 11
+            },
+            {
+              "id": "A2_m08_L1_q5",
+              "type": "mcq",
+              "questionText": "Wie lange soll der Patient die Tabletten nehmen?",
+              "options": [
+                "a) drei Tage",
+                "b) fünf Tage",
+                "c) eine Woche"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Arzt sagt auf dem Anrufbeantworter: 'Nehmen Sie die Tabletten bitte eine Woche lang, morgens und abends je eine.' Drei und fünf Tage werden nicht genannt.",
+              "audioTimestamp": 8
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören fünf kurze Radiodurchsagen. Zu jeder Durchsage gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear five short radio announcements. For each announcement there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A2/mock08/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A2_m08_L2_q1",
+              "type": "mcq",
+              "questionText": "Was kostet die neue Sportbrille im Sonderangebot?",
+              "options": [
+                "a) 49 Euro",
+                "b) 59 Euro",
+                "c) 69 Euro"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Werbespot informiert: 'Diese Woche im Angebot: unsere Sportbrille für nur 59 Euro — statt normalerweise 79 Euro.' 49 und 69 Euro werden nicht als Angebotspreis genannt.",
+              "audioTimestamp": 5
+            },
+            {
+              "id": "A2_m08_L2_q2",
+              "type": "mcq",
+              "questionText": "Wann hat das Gesundheitszentrum am Samstag geöffnet?",
+              "options": [
+                "a) von 8 bis 13 Uhr",
+                "b) von 9 bis 14 Uhr",
+                "c) von 10 bis 15 Uhr"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Durchsage informiert: 'Das Gesundheitszentrum ist samstags von 8 bis 13 Uhr für Sie da.' Die anderen Zeiten treffen nicht zu.",
+              "audioTimestamp": 7
+            },
+            {
+              "id": "A2_m08_L2_q3",
+              "type": "mcq",
+              "questionText": "Wofür wirbt die Radiodurchsage?",
+              "options": [
+                "a) für einen Sportkurs",
+                "b) für ein neues Krankenhaus",
+                "c) für eine Ernährungsberatung"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Durchsage sagt: 'Unsere Ernährungsberatung hilft Ihnen, gesünder zu essen. Vereinbaren Sie jetzt Ihren ersten Termin kostenlos.' Es geht also um Ernährungsberatung, nicht um Sport oder ein Krankenhaus.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m08_L2_q4",
+              "type": "mcq",
+              "questionText": "Wo findet der Erste-Hilfe-Kurs statt?",
+              "options": [
+                "a) im Krankenhaus",
+                "b) im Gemeindehaus",
+                "c) in der Schule"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Radiodurchsage teilt mit: 'Der nächste Erste-Hilfe-Kurs findet am Freitagabend im Gemeindehaus statt.' Krankenhaus und Schule werden als Ort nicht genannt.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m08_L2_q5",
+              "type": "mcq",
+              "questionText": "Wie lange dauert der neue Yoga-Kurs?",
+              "options": [
+                "a) 45 Minuten",
+                "b) 60 Minuten",
+                "c) 90 Minuten"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Ankündigung sagt: 'Unser neuer Yoga-Kurs dauert jeweils 60 Minuten und findet dienstags statt.' 45 und 90 Minuten werden nicht als Kursdauer genannt.",
+              "audioTimestamp": 6
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear five short conversations. For each conversation there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A2/mock08/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A2_m08_L3_q1",
+              "type": "mcq",
+              "questionText": "Was hat der Mann beim Arzt gehört?",
+              "options": [
+                "a) Er muss eine Diät machen.",
+                "b) Er ist gesund.",
+                "c) Er braucht eine Operation."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Mann erklärt seiner Frau: 'Der Arzt hat gesagt, ich esse zu viel Fett und Zucker — ich soll eine Diät machen.' Er ist also nicht gesund und braucht keine Operation.",
+              "audioTimestamp": 13
+            },
+            {
+              "id": "A2_m08_L3_q2",
+              "type": "mcq",
+              "questionText": "Was kauft die Frau in der Apotheke?",
+              "options": [
+                "a) Hustensaft und Nasenspray",
+                "b) Kopfschmerztabletten",
+                "c) Vitamin C Tabletten"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Frau sagt zur Apothekerin: 'Ich brauche bitte Hustensaft und Nasenspray — mein Kind ist erkältet.' Sie kauft also Hustensaft und Nasenspray, keine Kopfschmerzmittel oder Vitamine.",
+              "audioTimestamp": 10
+            },
+            {
+              "id": "A2_m08_L3_q3",
+              "type": "mcq",
+              "questionText": "Warum geht der Junge nicht in die Schule?",
+              "options": [
+                "a) Er hat Bauchweh.",
+                "b) Er hat Zahnschmerzen.",
+                "c) Er hat sich das Bein gebrochen."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Mutter erklärt der Lehrerin: 'Mein Sohn kommt heute nicht, er hat starke Bauchschmerzen.' Zahnschmerzen und ein gebrochenes Bein werden nicht erwähnt.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m08_L3_q4",
+              "type": "mcq",
+              "questionText": "Was soll die Patientin laut Arzt tun?",
+              "options": [
+                "a) viel schlafen und Tee trinken",
+                "b) Sport machen und viel essen",
+                "c) eine Woche ins Krankenhaus gehen"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Arzt sagt: 'Sie haben eine leichte Erkältung. Am besten bleiben Sie zu Hause, schlafen Sie viel und trinken Sie Tee und Wasser.' Sport, Essen und Krankenhausaufenthalt werden nicht empfohlen.",
+              "audioTimestamp": 11
+            },
+            {
+              "id": "A2_m08_L3_q5",
+              "type": "mcq",
+              "questionText": "Worüber sprechen die zwei Frauen?",
+              "options": [
+                "a) über einen neuen Arzt im Ort",
+                "b) über die Öffnungszeiten der Apotheke",
+                "c) über die Kosten einer Krankenversicherung"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die erste Frau sagt: 'Hast du schon gehört? Es gibt jetzt einen neuen Hausarzt in der Stadtmitte — er soll sehr gut sein.' Sie sprechen also über einen neuen Arzt, nicht über Apothekenzeiten oder Versicherungskosten.",
+              "audioTimestamp": 10
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 50,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie die fünf Anzeigen. Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es genau eine passende Anzeige. Schreiben Sie den Buchstaben der Anzeige.",
+          "instructionsTranslation": "Read the five advertisements. Which advertisement matches which situation? For each situation there is exactly one matching advertisement. Write the letter of the advertisement.",
+          "texts": [
+            {
+              "id": "A2_m08_R1_text_a",
+              "type": "ad",
+              "content": "ANZEIGE A — Physiotherapie am Markt\nBehandlung bei Rücken- und Gelenkschmerzen. Termin auch kurzfristig möglich. Kassenärztliche Zulassung. Mo–Fr 8–18 Uhr, Sa 9–13 Uhr. Tel. 0231 44 55 66"
+            },
+            {
+              "id": "A2_m08_R1_text_b",
+              "type": "ad",
+              "content": "ANZEIGE B — Stadtapotheke\nImpfberatung kostenlos! Wir informieren Sie über alle empfohlenen Reise- und Schutzimpfungen. Keine Voranmeldung nötig. Täglich 8–20 Uhr geöffnet."
+            },
+            {
+              "id": "A2_m08_R1_text_c",
+              "type": "ad",
+              "content": "ANZEIGE C — Diätberatung Neu\nSie möchten abnehmen, aber wissen nicht wie? Unsere Ernährungsexpertin erstellt für Sie einen persönlichen Ernährungsplan. Erster Termin kostenlos. 0176 789 00 12"
+            },
+            {
+              "id": "A2_m08_R1_text_d",
+              "type": "ad",
+              "content": "ANZEIGE D — Augenarztpraxis Dr. Steinberg\nSehtest und Brillenanpassung — jetzt online Termin buchen! Alle Kassen. Sprechzeiten: Di, Do, Fr 9–17 Uhr. www.augenarzt-steinberg.de"
+            },
+            {
+              "id": "A2_m08_R1_text_e",
+              "type": "ad",
+              "content": "ANZEIGE E — Sportkurs Rücken Fit\nSanfter Rückengymnastik-Kurs für Einsteiger. Jeden Montag 18–19 Uhr im Sportzentrum West. Nur 8 Euro pro Einheit. Anmeldung: info@sportzentrum-west.de"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m08_R1_q1",
+              "type": "matching",
+              "questionText": "Lena trägt seit Jahren eine Brille, aber seit Kurzem sieht sie damit nicht mehr so gut. Sie braucht einen neuen Sehtest.",
+              "matchingSources": [
+                { "id": "A2_m08_R1_text_a", "label": "A" },
+                { "id": "A2_m08_R1_text_b", "label": "B" },
+                { "id": "A2_m08_R1_text_c", "label": "C" },
+                { "id": "A2_m08_R1_text_d", "label": "D" },
+                { "id": "A2_m08_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Anzeige D ist eine Augenarztpraxis, die Sehtests und Brillenanpassung anbietet — genau was Lena braucht. Die anderen Anzeigen passen nicht zu diesem Bedarf."
+            },
+            {
+              "id": "A2_m08_R1_q2",
+              "type": "matching",
+              "questionText": "Klaus arbeitet viel am Computer und hat immer öfter Rückenschmerzen. Er möchte einen sanften Kurs ausprobieren.",
+              "matchingSources": [
+                { "id": "A2_m08_R1_text_a", "label": "A" },
+                { "id": "A2_m08_R1_text_b", "label": "B" },
+                { "id": "A2_m08_R1_text_c", "label": "C" },
+                { "id": "A2_m08_R1_text_d", "label": "D" },
+                { "id": "A2_m08_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "E",
+              "explanation": "Anzeige E bietet einen sanften Rückengymnastik-Kurs für Einsteiger an — ideal für Klaus mit Rückenschmerzen durch langes Sitzen. Anzeige A wäre Behandlung, kein Kurs."
+            },
+            {
+              "id": "A2_m08_R1_q3",
+              "type": "matching",
+              "questionText": "Maria möchte im Sommer nach Südamerika reisen und braucht Informationen, welche Impfungen sie benötigt.",
+              "matchingSources": [
+                { "id": "A2_m08_R1_text_a", "label": "A" },
+                { "id": "A2_m08_R1_text_b", "label": "B" },
+                { "id": "A2_m08_R1_text_c", "label": "C" },
+                { "id": "A2_m08_R1_text_d", "label": "D" },
+                { "id": "A2_m08_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Anzeige B bietet kostenlose Impfberatung an, auch zu Reiseimpfungen — genau was Maria vor ihrer Südamerika-Reise braucht. Keine Voranmeldung nötig."
+            },
+            {
+              "id": "A2_m08_R1_q4",
+              "type": "matching",
+              "questionText": "Thomas hat nach einem Sportunfall starke Knieschmerzen und braucht professionelle Behandlung.",
+              "matchingSources": [
+                { "id": "A2_m08_R1_text_a", "label": "A" },
+                { "id": "A2_m08_R1_text_b", "label": "B" },
+                { "id": "A2_m08_R1_text_c", "label": "C" },
+                { "id": "A2_m08_R1_text_d", "label": "D" },
+                { "id": "A2_m08_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Anzeige A ist eine Physiotherapie-Praxis für Gelenk- und Rückenschmerzen mit kassenärztlicher Zulassung — die richtige Anlaufstelle für Thomas nach seinem Knieunfall."
+            },
+            {
+              "id": "A2_m08_R1_q5",
+              "type": "matching",
+              "questionText": "Sandra möchte ein paar Kilo abnehmen, weiß aber nicht, wie sie ihre Ernährung ändern soll.",
+              "matchingSources": [
+                { "id": "A2_m08_R1_text_a", "label": "A" },
+                { "id": "A2_m08_R1_text_b", "label": "B" },
+                { "id": "A2_m08_R1_text_c", "label": "C" },
+                { "id": "A2_m08_R1_text_d", "label": "D" },
+                { "id": "A2_m08_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Anzeige C bietet Diät- und Ernährungsberatung mit persönlichem Ernährungsplan an — ideal für Sandra. Der erste Termin ist kostenlos."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den Zeitungsartikel. Sind die Sätze richtig oder falsch? Kreuzen Sie an.",
+          "instructionsTranslation": "Read the newspaper article. Are the sentences correct or incorrect? Mark your answer.",
+          "texts": [
+            {
+              "id": "A2_m08_R2_text1",
+              "type": "article",
+              "content": "Immer mehr Deutsche gehen regelmäßig zur Vorsorgeuntersuchung. Laut einer aktuellen Studie nutzen 62 Prozent der Erwachsenen die kostenlosen Angebote ihrer Krankenkasse. Vor zehn Jahren war es nur die Hälfte. Besonders beliebt ist der Gesundheits-Check-up, den jeder ab 35 Jahren alle drei Jahre kostenlos machen lassen kann. Viele Menschen warten aber immer noch zu lange, bevor sie zum Arzt gehen. Experten betonen, dass frühe Diagnosen viele Krankheiten deutlich besser behandelbar machen. Wer Symptome wie anhaltenden Husten, Müdigkeit oder unklare Schmerzen hat, sollte nicht zögern, einen Arzt aufzusuchen.",
+              "source": "Gesundheitsmagazin Deutschland, März 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m08_R2_q1",
+              "type": "true_false",
+              "questionText": "Mehr als die Hälfte der Erwachsenen nutzt heute die kostenlosen Krankenkassenangebote.",
+              "relatedTextId": "A2_m08_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Im Artikel steht: '62 Prozent der Erwachsenen nutzen die kostenlosen Angebote ihrer Krankenkasse.' 62 Prozent ist mehr als die Hälfte — die Aussage ist richtig."
+            },
+            {
+              "id": "A2_m08_R2_q2",
+              "type": "true_false",
+              "questionText": "Vor zehn Jahren hat genauso viele Menschen die Vorsorge genutzt wie heute.",
+              "relatedTextId": "A2_m08_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Der Text sagt: 'Vor zehn Jahren war es nur die Hälfte.' Heute sind es 62 Prozent — die Zahl ist also gestiegen, nicht gleich geblieben. Die Aussage ist falsch."
+            },
+            {
+              "id": "A2_m08_R2_q3",
+              "type": "true_false",
+              "questionText": "Den kostenlosen Gesundheits-Check-up kann man ab 35 Jahren alle zwei Jahre machen.",
+              "relatedTextId": "A2_m08_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Im Artikel steht: 'alle drei Jahre kostenlos.' Es ist alle drei Jahre, nicht alle zwei Jahre — die Aussage ist falsch."
+            },
+            {
+              "id": "A2_m08_R2_q4",
+              "type": "true_false",
+              "questionText": "Laut Experten helfen frühe Diagnosen dabei, Krankheiten besser zu behandeln.",
+              "relatedTextId": "A2_m08_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Der Text sagt direkt: 'frühe Diagnosen viele Krankheiten deutlich besser behandelbar machen.' Die Aussage ist richtig."
+            },
+            {
+              "id": "A2_m08_R2_q5",
+              "type": "true_false",
+              "questionText": "Wer Symptome hat, soll sofort ins Krankenhaus gehen.",
+              "relatedTextId": "A2_m08_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Im Artikel steht: 'sollte nicht zögern, einen Arzt aufzusuchen' — also zum Arzt gehen, nicht zwingend ins Krankenhaus. Die Aussage ist deshalb falsch."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die Hinweisschilder und kurzen Texte. Was ist richtig? Kreuzen Sie an: a, b oder c.",
+          "instructionsTranslation": "Read the notices and short texts. What is correct? Mark: a, b, or c.",
+          "texts": [
+            {
+              "id": "A2_m08_R3_text1",
+              "type": "notice",
+              "content": "ARZTPRAXIS DR. SCHÄFER\nDie Praxis ist vom 24. bis 28. Juli wegen Urlaub geschlossen. In dringenden Fällen wenden Sie sich bitte an die ärztliche Bereitschaftspraxis, Tel. 116 117."
+            },
+            {
+              "id": "A2_m08_R3_text2",
+              "type": "notice",
+              "content": "Liebe Patienten,\nBitte bringen Sie zu jedem Termin Ihre Krankenkassenkarte und einen gültigen Ausweis mit. Ohne diese Dokumente können wir Sie leider nicht behandeln.\n— Praxisteam"
+            },
+            {
+              "id": "A2_m08_R3_text3",
+              "type": "notice",
+              "content": "HINWEIS APOTHEKE\nRezeptpflichtige Medikamente können nur gegen Vorlage eines ärztlichen Rezepts abgegeben werden. Rezepte sind 28 Tage gültig."
+            },
+            {
+              "id": "A2_m08_R3_text4",
+              "type": "notice",
+              "content": "Krankengymnastik — Abgesagte Termine\nBitte sagen Sie Ihren Termin mindestens 24 Stunden vorher ab, wenn Sie nicht kommen können. Bei kurzfristiger Absage berechnen wir die Behandlungskosten."
+            },
+            {
+              "id": "A2_m08_R3_text5",
+              "type": "notice",
+              "content": "WARTEZEIT\nHeute beträgt die Wartezeit ca. 45 Minuten. Wir bitten um Ihr Verständnis.\nSie können auch telefonisch einen Termin vereinbaren: 0231 567 89 00"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m08_R3_q1",
+              "type": "mcq",
+              "questionText": "Was sollen Patienten tun, wenn die Praxis Dr. Schäfer geschlossen ist und sie dringend Hilfe brauchen?",
+              "relatedTextId": "A2_m08_R3_text1",
+              "options": [
+                "a) ins nächste Krankenhaus fahren",
+                "b) die Bereitschaftspraxis anrufen",
+                "c) einen Termin für nach dem Urlaub buchen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Schild sagt: 'In dringenden Fällen wenden Sie sich bitte an die ärztliche Bereitschaftspraxis, Tel. 116 117.' Patienten sollen also die Bereitschaftspraxis kontaktieren, nicht ins Krankenhaus fahren."
+            },
+            {
+              "id": "A2_m08_R3_q2",
+              "type": "mcq",
+              "questionText": "Was passiert, wenn ein Patient keinen Ausweis zum Termin mitbringt?",
+              "relatedTextId": "A2_m08_R3_text2",
+              "options": [
+                "a) Er kann trotzdem behandelt werden.",
+                "b) Er muss eine Gebühr zahlen.",
+                "c) Er kann nicht behandelt werden."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Das Praxisschild sagt klar: 'Ohne diese Dokumente können wir Sie leider nicht behandeln.' Es gibt keine Behandlung ohne Krankenkassenkarte und Ausweis."
+            },
+            {
+              "id": "A2_m08_R3_q3",
+              "type": "mcq",
+              "questionText": "Wie lange ist ein ärztliches Rezept in der Apotheke gültig?",
+              "relatedTextId": "A2_m08_R3_text3",
+              "options": [
+                "a) 14 Tage",
+                "b) 21 Tage",
+                "c) 28 Tage"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Hinweis der Apotheke sagt: 'Rezepte sind 28 Tage gültig.' 14 und 21 Tage werden nicht als Gültigkeitsdauer genannt."
+            },
+            {
+              "id": "A2_m08_R3_q4",
+              "type": "mcq",
+              "questionText": "Was passiert, wenn man einen Krankengymnastik-Termin zu spät absagt?",
+              "relatedTextId": "A2_m08_R3_text4",
+              "options": [
+                "a) Man bekommt eine Verwarnung.",
+                "b) Man zahlt die Behandlungskosten.",
+                "c) Man kann keinen neuen Termin vereinbaren."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Schild erklärt: 'Bei kurzfristiger Absage berechnen wir die Behandlungskosten.' Bei zu später Absage fallen also Kosten an — keine Verwarnung, kein Terminverbot."
+            },
+            {
+              "id": "A2_m08_R3_q5",
+              "type": "mcq",
+              "questionText": "Wie kann man vermeiden, lange im Wartezimmer zu warten?",
+              "relatedTextId": "A2_m08_R3_text5",
+              "options": [
+                "a) früher kommen",
+                "b) telefonisch einen Termin vereinbaren",
+                "c) online anmelden"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Schild empfiehlt: 'Sie können auch telefonisch einen Termin vereinbaren.' Das ist der vorgeschlagene Weg, um Wartezeit zu vermeiden. Online-Anmeldung wird nicht erwähnt."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 0,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "form_fill",
+          "instructions": "Füllen Sie das Anmeldeformular für die Arztpraxis aus. Benutzen Sie die Informationen unten.",
+          "instructionsTranslation": "Fill in the registration form for the doctor's practice. Use the information below.",
+          "formFields": [
+            {
+              "label": "Vorname",
+              "correctAnswer": "Hana",
+              "hint": "Vorname der Patientin"
+            },
+            {
+              "label": "Nachname",
+              "correctAnswer": "Körner",
+              "hint": "Nachname der Patientin"
+            },
+            {
+              "label": "Geburtsdatum",
+              "correctAnswer": "05.09.1988",
+              "hint": "TT.MM.JJJJ"
+            },
+            {
+              "label": "Krankenkasse",
+              "correctAnswer": "AOK Bayern",
+              "hint": "Name der Krankenkasse"
+            },
+            {
+              "label": "Telefonnummer",
+              "correctAnswer": "0176 234 56 78",
+              "hint": "Handynummer"
+            },
+            {
+              "label": "Beschwerden",
+              "correctAnswer": "Halsschmerzen und Fieber",
+              "hint": "Aktuelle Beschwerden"
+            }
+          ],
+          "sampleAnswer": "Vorname: Hana\nNachname: Körner\nGeburtsdatum: 05.09.1988\nKrankenkasse: AOK Bayern\nTelefonnummer: 0176 234 56 78\nBeschwerden: Halsschmerzen und Fieber",
+          "scoringCriteria": [
+            {
+              "criterion": "Vollständigkeit",
+              "maxPoints": 3,
+              "description": "Alle Pflichtfelder wurden ausgefüllt (je 0,5 Punkte pro Feld)"
+            },
+            {
+              "criterion": "Korrektheit",
+              "maxPoints": 2,
+              "description": "Informationen entsprechen den Aufgabenvorgaben und sind korrekt übertragen"
+            },
+            {
+              "criterion": "Format",
+              "maxPoints": 1,
+              "description": "Datum im richtigen Format, Name korrekt geschrieben"
+            }
+          ]
+        },
+        {
+          "taskNumber": 2,
+          "type": "short_message",
+          "instructions": "Schreiben Sie eine kurze Nachricht an Ihre Nachbarin Frau Wagner. Schreiben Sie über die drei Punkte unten. Schreiben Sie 30 bis 50 Wörter.",
+          "instructionsTranslation": "Write a short message to your neighbour Mrs Wagner. Write about the three points below. Write 30 to 50 words.",
+          "prompt": "Sie waren im Krankenhaus und konnten Frau Wagner nicht besuchen.\n- Erklären Sie, warum Sie nicht da waren.\n- Sagen Sie, wie es Ihnen jetzt geht.\n- Fragen Sie, ob Sie sich bald treffen können.",
+          "promptTranslation": "You were in hospital and could not visit Mrs Wagner.\n- Explain why you were not there.\n- Say how you are now.\n- Ask whether you can meet soon.",
+          "requiredPoints": [
+            "Erklärung des Krankenhausaufenthalts",
+            "Auskunft über aktuelles Befinden",
+            "Bitte um ein baldiges Treffen"
+          ],
+          "wordCountMin": 30,
+          "wordCountMax": 50,
+          "sampleAnswer": "Liebe Frau Wagner,\nleider war ich letzte Woche im Krankenhaus wegen einer Operation und konnte nicht vorbeikommen. Jetzt geht es mir zum Glück schon viel besser! Ich erhole mich zu Hause. Haben Sie nächste Woche Zeit, auf einen Kaffee zu kommen?\nHerzliche Grüße, Hana",
+          "scoringCriteria": [
+            {
+              "criterion": "Inhalt",
+              "maxPoints": 3,
+              "description": "Alle drei Punkte wurden angesprochen (je 1 Punkt pro Inhaltspunkt)"
+            },
+            {
+              "criterion": "Sprache",
+              "maxPoints": 2,
+              "description": "Grammatik und Wortschatz sind weitgehend korrekt und für A2 angemessen"
+            },
+            {
+              "criterion": "Wortanzahl",
+              "maxPoints": 1,
+              "description": "Text liegt zwischen 30 und 50 Wörtern"
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 0,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "introduce",
+          "instructions": "Stellen Sie sich kurz vor. Sprechen Sie über sich: Name, Herkunft, Wohnort, Beruf und Hobbys.",
+          "instructionsTranslation": "Introduce yourself briefly. Talk about yourself: name, origin, place of residence, job, and hobbies.",
+          "prompt": "Bitte stellen Sie sich vor:\n- Wie heißen Sie?\n- Woher kommen Sie?\n- Wo wohnen Sie jetzt?\n- Was machen Sie beruflich?\n- Was machen Sie in Ihrer Freizeit?",
+          "sampleResponse": "Hallo, ich heiße Hana Körner und komme aus Tschechien. Seit drei Jahren lebe ich in München. Ich arbeite als Krankenpflegerin in einem Krankenhaus. Das ist manchmal anstrengend, aber ich mag meinen Beruf sehr. In der Freizeit mache ich gerne Yoga und treffe mich mit Freunden.",
+          "evaluationTips": [
+            "Sprechen Sie in vollständigen Sätzen, nicht nur einzelnen Wörtern",
+            "Verwenden Sie einfache Verbindungswörter wie 'und', 'aber', 'auch'",
+            "Achten Sie auf die richtige Verbkonjugation",
+            "Eine kurze, klare Vorstellung ist besser als ein langer, fehlerreicher Text"
+          ],
+          "keyPhrases": [
+            "Ich heiße ...",
+            "Ich komme aus ...",
+            "Seit ... Jahren wohne/lebe ich in ...",
+            "Ich arbeite als ...",
+            "In meiner Freizeit ...",
+            "Das gefällt mir, weil ..."
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "conversation",
+          "instructions": "Führen Sie ein Gespräch über Gesundheit und Wohlbefinden. Stellen Sie Fragen und antworten Sie auf die Fragen Ihres Gesprächspartners.",
+          "instructionsTranslation": "Have a conversation about health and wellbeing. Ask questions and answer your conversation partner's questions.",
+          "prompt": "Sprechen Sie mit Ihrem Partner oder Ihrer Partnerin über Gesundheit:\n- Wie bleiben Sie gesund?\n- Treiben Sie Sport? Wenn ja, welchen?\n- Was essen und trinken Sie für Ihre Gesundheit?\n- Gehen Sie regelmäßig zum Arzt?",
+          "sampleResponse": "Ich versuche, jeden Tag mindestens eine halbe Stunde spazieren zu gehen. Ich esse viel Gemüse und Obst und trinke wenig Alkohol. Zweimal pro Woche mache ich Yoga. Zum Arzt gehe ich einmal im Jahr zur Vorsorge — meistens bin ich zum Glück gesund.",
+          "evaluationTips": [
+            "Antworten Sie nicht nur mit 'Ja' oder 'Nein', sondern mit vollständigen Sätzen",
+            "Stellen Sie auch selbst Fragen an den Partner",
+            "Verwenden Sie Zeitangaben wie 'täglich', 'zweimal pro Woche', 'manchmal'",
+            "Beschreiben Sie Gewohnheiten mit 'normalerweise', 'meistens', 'manchmal'"
+          ],
+          "keyPhrases": [
+            "Ich achte auf ...",
+            "Ich esse/trinke ...",
+            "Ich treibe ... Sport.",
+            "Einmal im Jahr gehe ich ...",
+            "Das ist wichtig für meine Gesundheit.",
+            "Wie ist das bei Ihnen?"
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Planen Sie etwas gemeinsam mit Ihrem Partner oder Ihrer Partnerin. Einigen Sie sich auf eine Lösung.",
+          "instructionsTranslation": "Plan something together with your partner. Agree on a solution.",
+          "prompt": "Ihr Kollege ist krank. Sie möchten ihm gemeinsam etwas bringen. Sprechen Sie über:\n- Was bringt man einem kranken Menschen mit?\n- Wann könnt ihr vorbeigehen?\n- Wer bringt was mit?\n- Wie lange bleibt ihr?",
+          "sampleResponse": "Ich schlage vor, heute Nachmittag vorbeizugehen — so gegen 16 Uhr. Ich kann eine Suppe kochen und mitbringen. Kannst du vielleicht Tee und Obst kaufen? Wir sollten nicht zu lange bleiben, vielleicht nur eine halbe Stunde, damit er sich ausruhen kann.",
+          "evaluationTips": [
+            "Machen Sie konkrete Vorschläge mit 'Ich schlage vor ...' oder 'Was hältst du von ...'",
+            "Reagieren Sie auf Vorschläge des Partners positiv oder mit einer Alternative",
+            "Einigen Sie sich am Ende auf eine gemeinsame Lösung",
+            "Verwenden Sie Modalverben: 'können', 'sollen', 'wollen'"
+          ],
+          "keyPhrases": [
+            "Ich schlage vor, ...",
+            "Was hältst du davon?",
+            "Das ist eine gute Idee.",
+            "Ich kann ... mitbringen.",
+            "Wir sollten nicht zu lange bleiben.",
+            "Einverstanden!"
+          ]
+        }
+      ]
+    }
   }
 }
