@@ -1,9 +1,9 @@
+// Re-export pure timer logic from @telc/core.
+// The React hook (useExamTimer) stays here since it depends on React state.
 import { SECTION_DURATIONS, createTimerState, tickTimer, formatTime } from '@telc/core';
 import type { TimerState } from '@telc/core';
 import { colors } from '../utils/theme';
 
-// Re-export pure timer logic from @telc/core.
-// The React hook (useExamTimer) stays here since it depends on React state.
 export { SECTION_DURATIONS, createTimerState, tickTimer, formatTime };
 export type { TimerState };
 

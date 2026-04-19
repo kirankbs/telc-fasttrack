@@ -15,9 +15,8 @@ jobs:
   e2e:
     name: E2E Tests
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 15
     permissions:
-      deployments: read
       contents: read
       pull-requests: write
     env:
@@ -39,28 +38,25 @@ jobs:
         if: github.event_name == 'pull_request'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # Use PR head SHA — github.sha on pull_request is the merge commit,
-          # which Vercel does not create a deployment for.
           COMMIT_SHA: ${{ github.event.pull_request.head.sha }}
         run: |
-          echo "Waiting for Vercel deployment for commit $COMMIT_SHA..."
+          echo "Looking for Vercel deployment for commit $COMMIT_SHA..."
           for i in $(seq 1 30); do
-            if [ "$i" -eq 1 ]; then
-              echo "[debug] Raw deployments response:"
-              gh api "repos/${{ github.repository }}/deployments?sha=$COMMIT_SHA&environment=Preview" 2>&1 || true
-            fi
-            DEPLOYMENT_ID=$(gh api "repos/${{ github.repository }}/deployments?sha=$COMMIT_SHA&environment=Preview" \
+            DEPLOYMENT_ID=$(gh api "repos/${{ github.repository }}/deployments?sha=$COMMIT_SHA&per_page=1" \
               --jq '.[0].id // empty' 2>/dev/null || true)
             if [ -n "$DEPLOYMENT_ID" ]; then
-              PREVIEW_URL=$(gh api "repos/${{ github.repository }}/deployments/$DEPLOYMENT_ID/statuses" \
+              ENV_URL=$(gh api "repos/${{ github.repository }}/deployments/$DEPLOYMENT_ID/statuses" \
                 --jq '.[0].environment_url // empty' 2>/dev/null || true)
-              if [ -n "$PREVIEW_URL" ] && [ "$PREVIEW_URL" != "null" ]; then
-                echo "Preview URL: $PREVIEW_URL"
-                echo "PLAYWRIGHT_TEST_BASE_URL=$PREVIEW_URL" >> "$GITHUB_ENV"
+              STATE=$(gh api "repos/${{ github.repository }}/deployments/$DEPLOYMENT_ID/statuses" \
+                --jq '.[0].state // empty' 2>/dev/null || true)
+              echo "Attempt $i: id=$DEPLOYMENT_ID state=$STATE url=$ENV_URL"
+              if [ "$STATE" = "success" ] && [ -n "$ENV_URL" ] && [ "$ENV_URL" != "null" ]; then
+                echo "PLAYWRIGHT_TEST_BASE_URL=$ENV_URL" >> "$GITHUB_ENV"
                 exit 0
               fi
+            else
+              echo "Attempt $i: no deployment found yet..."
             fi
-            echo "Attempt $i: deployment not ready — retrying in 10s..."
             sleep 10
           done
           echo "Preview URL not available after 5 minutes"
@@ -69,22 +65,40 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install chromium --with-deps
 
+      - name: Verify bypass secret works
+        if: github.event_name == 'pull_request'
+        id: verify_bypass
+        run: |
+          URL="$PLAYWRIGHT_TEST_BASE_URL"
+          STATUS=$(curl -sI -o /dev/null -w "%{http_code}" \
+            -H "x-vercel-protection-bypass: $BYPASS_SECRET" \
+            "$URL/")
+          echo "Preview returned HTTP $STATUS"
+          if [ "$STATUS" -ge 200 ] && [ "$STATUS" -lt 400 ]; then
+            echo "bypass_ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "bypass_ok=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Vercel bypass secret invalid (got $STATUS) — skipping E2E. Regenerate VERCEL_AUTOMATION_BYPASS_SECRET."
+          fi
+
       - name: Run E2E tests
+        if: steps.verify_bypass.outputs.bypass_ok == 'true' || github.event_name != 'pull_request'
         run: pnpm test:e2e --project=chromium
         env:
           PLAYWRIGHT_TEST_BASE_URL: ${{ env.PLAYWRIGHT_TEST_BASE_URL || 'http://localhost:3000' }}
           VERCEL_AUTOMATION_BYPASS_SECRET: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
 
       - name: Upload report
+        if: always() && steps.verify_bypass.outputs.bypass_ok == 'true'
         uses: actions/upload-artifact@v4
-        if: always()
         with:
           name: playwright-report
           path: playwright-report/
           retention-days: 7
 
       - name: Post results comment
-        if: github.event_name == 'pull_request' && always()
+        if: always() && github.event_name == 'pull_request' && steps.verify_bypass.outputs.bypass_ok == 'true'
         uses: daun/playwright-report-summary@v3
         with:
           report-file: test-results.json
+          github-token: ${{ secrets.GITHUB_TOKEN }}
