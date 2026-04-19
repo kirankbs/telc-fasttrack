@@ -1,0 +1,146 @@
+<!--
+  A2 Mock 02 — Hören Teil 3: Kurze Gespräche (5 Dialoge, playCount=1)
+  Theme: Familie — Kinderzahl, Ausflug, Muttertag, Großeltern, Urlaub
+  Voices:
+    Narrator / instructions : de-DE-Wavenet-C (female, clear)
+    Female speaker          : de-DE-Wavenet-A (female, slightly younger)
+    Male speaker            : de-DE-Wavenet-B (male, neutral)
+  Rate: "medium" for dialogues, "slow" for instructions
+  Structure: each dialogue played ONCE only.
+-->
+<speak>
+  <break time="3s"/>
+
+  <!-- Teil 3 instructions -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören fünf kurze Gespräche.
+      Zu jedem Gespräch gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text einmal.
+    </prosody>
+    <break time="3s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Wie viele Kinder hat das Ehepaar? Correct: b) drei Kinder -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Entschuldigung, haben Sie Kinder?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">
+      Ja, wir haben drei Kinder — zwei Söhne und eine Tochter.
+      Die Jungs sind sieben und neun, und unsere Tochter ist fünf.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Oh, eine schöne große Familie!</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Ja, es ist viel, aber wir lieben es.</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 2: Was hat die Familie am Wochenende gemacht? Correct: a) Ausflug gemacht -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Wie war euer Wochenende?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">
+      Sehr schön! Am Wochenende haben wir einen Ausflug in den Wald gemacht.
+      Wir sind viel gewandert und haben ein Picknick gemacht. Die Kinder haben es geliebt.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Habt ihr auch Verwandte besucht oder zu Hause gefeiert?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Nein, nur der Ausflug. Das war genug Programm für uns!</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 3: Was schenkt der Sohn seiner Mutter zum Muttertag? Correct: c) ein selbst gemachtes Frühstück -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Was schenkst du Mama zum Muttertag?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ich stehe früh auf und mache ihr ein schönes Frühstück —
+      mit frischen Brötchen, Eiern und Orangensaft.
+      Das ist persönlicher als Blumen kaufen.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Das ist eine wirklich nette Idee!</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 4: Wo wohnen die Großeltern? Correct: c) auf dem Land -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Siehst du deine Großeltern oft?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Im Sommer immer. Meine Oma und mein Opa wohnen auf dem Land.
+      Wir fahren dann zu ihnen und helfen im Garten.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Wohnen sie weit weg?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ungefähr eine Stunde mit dem Auto. Nicht zu weit.</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 5: Was möchte die Familie als nächstes gemeinsam machen? Correct: a) in den Urlaub fahren -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Was plant ihr als Familie als nächstes?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Diesen Sommer fahren wir endlich in den Urlaub — wir haben Griechenland geplant.
+      Alle Kinder freuen sich schon sehr darauf.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Wie schön! Griechenland ist wunderschön.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, wir waren noch nie dort. Das wird toll werden.</prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>

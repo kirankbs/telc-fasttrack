@@ -1,0 +1,221 @@
+<!-- A1_mock07_listening_part1.ssml
+     Narrator / Announcer  : de-DE-Wavenet-C (female, consistent with A1 mock series)
+     Male speaker           : de-DE-Wavenet-B (male, warm)
+     Theme: Leisure time — cinema, cycling, concert
+     playCount: 2 — every dialog block is played twice with a repeat cue between plays.
+     MCQ answers:
+       q1: c) ins Kino (die Frau geht mit ihrer Freundin ins Kino)
+       q2: b) Er fährt Fahrrad. (jeden Sonntag im Stadtpark)
+       q3: a) um 19 Uhr (der Mann sagt "um 19 Uhr")
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 1. Sie hören drei kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe.
+      Kreuzen Sie die richtige Antwort an: a, b oder c.
+      Sie hören jeden Text zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Question 1: Wohin geht die Frau am Samstag? Answer: c) ins Kino -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Was machst du eigentlich am Samstag?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Am Samstag gehe ich mit meiner Freundin ins Kino. Der neue Film läuft schon seit einer Woche.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Welcher Film ist das?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Eine Komödie. Ich weiß nicht mehr wie er heißt, aber er soll sehr lustig sein!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Was machst du eigentlich am Samstag?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Am Samstag gehe ich mit meiner Freundin ins Kino. Der neue Film läuft schon seit einer Woche.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Welcher Film ist das?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Eine Komödie. Ich weiß nicht mehr wie er heißt, aber er soll sehr lustig sein!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 2: Was macht der Mann in seiner Freizeit? Answer: b) Er fährt Fahrrad. -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Machst du Sport in deiner Freizeit?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, ich fahre jeden Sonntag Fahrrad, meistens zwei Stunden im Stadtpark.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Das ist schön! Und spielst du auch Fußball oder Tennis?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Nein, nur Fahrradfahren. Das macht mir am meisten Spaß.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Machst du Sport in deiner Freizeit?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, ich fahre jeden Sonntag Fahrrad, meistens zwei Stunden im Stadtpark.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Das ist schön! Und spielst du auch Fußball oder Tennis?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Nein, nur Fahrradfahren. Das macht mir am meisten Spaß.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 3: Wann beginnt das Konzert? Answer: a) um 19 Uhr -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Wann fängt das Konzert heute Abend an?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Um neunzehn Uhr. Aber wir sollten um achtzehn Uhr dreißig dort sein, damit wir gute Plätze bekommen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Gut, dann fahren wir um achtzehn Uhr los?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, das reicht. Die Halle ist nicht weit von hier.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Wann fängt das Konzert heute Abend an?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Um neunzehn Uhr. Aber wir sollten um achtzehn Uhr dreißig dort sein, damit wir gute Plätze bekommen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Gut, dann fahren wir um achtzehn Uhr los?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, das reicht. Die Halle ist nicht weit von hier.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 1.</prosody>
+  </voice>
+</speak>

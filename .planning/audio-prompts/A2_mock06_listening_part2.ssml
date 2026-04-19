@@ -1,0 +1,108 @@
+<!--
+  A2 Mock 06 — Hören Teil 2
+  Theme: Arbeit (Radiodurchsagen zum Arbeitsmarkt)
+  playCount: 1 — each announcement played once only
+
+  Voice roles:
+    de-DE-Wavenet-B  — Narrator (instructions)
+    de-DE-Wavenet-C  — Female radio presenter / announcer
+    de-DE-Wavenet-D  — Male radio presenter / announcer
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören fünf kurze Radiodurchsagen.
+      Zu jeder Durchsage gibt es eine Aufgabe. Was ist richtig?
+      Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Worum geht es in der Radionachricht über den Arbeitsmarkt? Correct: b) Es gibt mehr Stellen für Fachkräfte. -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Neue Zahlen zeigen: Der Fachkräftemangel in Deutschland wächst.
+      Unternehmen suchen dringend qualifizierte Mitarbeiter, vor allem in der IT und im Gesundheitsbereich.
+      Experten empfehlen mehr Ausbildungsplätze und bessere Weiterbildungsmöglichkeiten.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 2: Was bietet das Jobcenter jetzt an? Correct: c) Bewerbungstraining und Jobvermittlung -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Eine gute Nachricht für alle Arbeitssuchenden:
+      Das Jobcenter bietet ab sofort kostenloses Bewerbungstraining und individuelle Jobvermittlung an.
+      Interessierte können sich direkt beim Jobcenter anmelden. Die Angebote starten nächsten Montag.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 3: Was hat die Studie über Homeoffice herausgefunden? Correct: b) Die meisten Arbeitnehmer wollen mehr Homeoffice. -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Eine neue Studie zeigt: Achtundsechzig Prozent der deutschen Arbeitnehmer wünschen sich mehr Homeoffice-Tage.
+      Besonders beliebt ist die Mischung aus Büro und Heimarbeit.
+      Viele Unternehmen reagieren bereits auf diesen Wunsch.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 4: Wie viele Stunden arbeiten Deutsche pro Woche im Durchschnitt? Correct: a) 38 Stunden -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Wussten Sie das? Deutsche arbeiten im Durchschnitt achtunddreißig Stunden pro Woche.
+      Das ist weniger als der EU-Durchschnitt von vierzig Stunden.
+      Dennoch zählt Deutschland zu den produktivsten Ländern in Europa.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 5: Was lernt man in dem Kurs, der im Radio beworben wird? Correct: b) wie man sich richtig bewirbt -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Sie suchen eine neue Stelle und wissen nicht, wie Sie anfangen sollen?
+      In unserem Bewerbungskurs lernen Sie, wie Sie überzeugend Bewerbungen schreiben
+      und im Vorstellungsgespräch punkten.
+      Informationen und Anmeldung unter www.karriere-aktiv.de.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

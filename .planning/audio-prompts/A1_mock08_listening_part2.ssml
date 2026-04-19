@@ -1,0 +1,182 @@
+<!-- A1_mock08_listening_part2.ssml
+     Narrator / Announcer  : de-DE-Wavenet-C (female, consistent with A1 mock series)
+     Male speaker           : de-DE-Wavenet-B (male, warm) — patient (Frau Hoffmann's husband / male patient)
+     Female speaker 2       : de-DE-Wavenet-C — Rezeptionistin
+     Note: Frau Hoffmann is the patient, voiced by the narrator voice in the caller role;
+           the receptionist is also female — to keep it natural, Frau Hoffmann uses de-DE-Wavenet-C
+           and the receptionist introduces herself distinctly within the same voice.
+           Because GCP SSML cannot switch prosody mid-voice-tag cleanly for same-voice dual roles,
+           the patient is kept as Wavenet-C and the receptionist as Wavenet-B (male receptionist is
+           plausible) to maintain audio distinction.
+     Theme: Making a doctor's appointment — opening times, fever, appointment time, health card, address
+     playCount: 2 — the full conversation is played twice.
+     True/False answers:
+       q1: richtig (Dr. Meier has no Thursday appointment)
+       q2: falsch  (appointment is 14:00, not 10:30)
+       q3: richtig (bring Krankenkassenkarte)
+       q4: falsch  (fever since yesterday evening, not three days)
+       q5: richtig (Berliner Straße 12, second floor)
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören einen Text. Zu dem Text gibt es fünf Aufgaben.
+      Kreuzen Sie an: richtig oder falsch.
+      Sie hören den Text zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Praxis Dr. Meier, guten Morgen. Was kann ich für Sie tun?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Morgen. Mein Name ist Hoffmann. Ich habe seit gestern Abend Fieber und möchte einen Termin.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Frau Hoffmann, tut mir leid. Haben Sie Fieber seit gestern Abend?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, genau — seit gestern Abend. Kann ich noch heute kommen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Heute ist Donnerstag — Herr Dr. Meier ist donnerstags nicht da.
+      Er hat nur montags, dienstags, mittwochs und freitags Sprechstunde.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Oh, das wusste ich nicht. Geht es morgen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Morgen — Freitag — ja. Ich habe noch etwas frei um vierzehn Uhr. Passt das?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, vierzehn Uhr ist gut. Danke.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Sehr gut. Bringen Sie bitte Ihre Krankenkassenkarte mit.
+      Wir sind in der Berliner Straße zwölf, zweites Obergeschoss.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Berliner Straße zwölf, zweites Obergeschoss — alles klar. Bis morgen!
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Auf Wiederhören, Frau Hoffmann. Gute Besserung!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Praxis Dr. Meier, guten Morgen. Was kann ich für Sie tun?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Morgen. Mein Name ist Hoffmann. Ich habe seit gestern Abend Fieber und möchte einen Termin.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Frau Hoffmann, tut mir leid. Haben Sie Fieber seit gestern Abend?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, genau — seit gestern Abend. Kann ich noch heute kommen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Heute ist Donnerstag — Herr Dr. Meier ist donnerstags nicht da.
+      Er hat nur montags, dienstags, mittwochs und freitags Sprechstunde.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Oh, das wusste ich nicht. Geht es morgen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Morgen — Freitag — ja. Ich habe noch etwas frei um vierzehn Uhr. Passt das?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, vierzehn Uhr ist gut. Danke.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Sehr gut. Bringen Sie bitte Ihre Krankenkassenkarte mit.
+      Wir sind in der Berliner Straße zwölf, zweites Obergeschoss.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Berliner Straße zwölf, zweites Obergeschoss — alles klar. Bis morgen!
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Auf Wiederhören, Frau Hoffmann. Gute Besserung!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

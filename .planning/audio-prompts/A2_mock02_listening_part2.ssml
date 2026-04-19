@@ -1,0 +1,107 @@
+<!--
+  A2 Mock 02 — Hören Teil 2: Radiodurchsagen (5 Meldungen, playCount=1)
+  Theme: Familie & Kinder — Kindergarten, Schule, Jugendhaus, Familienzentrum, Stadtfest
+  Voices:
+    Narrator / instructions : de-DE-Wavenet-C (female, clear)
+    Radio announcer         : de-DE-Wavenet-B (male, neutral — professional broadcast tone)
+  Rate: "medium" for announcements, "slow" for instructions
+  Structure: each announcement played ONCE only.
+-->
+<speak>
+  <break time="3s"/>
+
+  <!-- Teil 2 instructions -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören fünf kurze Radiodurchsagen.
+      Zu jeder Durchsage gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text einmal.
+    </prosody>
+    <break time="3s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Was bietet der Kindergarten neu an? Correct: c) Betreuung bis 18 Uhr -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Eine Information für Eltern in unserer Stadt:
+      Der Kindergarten Sonnenschein bietet ab September eine erweiterte Betreuungszeit bis 18 Uhr an.
+      Anmeldungen nimmt die Kindergartenleitung ab sofort entgegen.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 2: Was können Eltern beim Elternabend erfahren? Correct: b) den Stundenplan -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ein Hinweis der Grundschule Nordstadt:
+      Beim Elternabend am Dienstag stellen wir den neuen Stundenplan für das nächste Schuljahr vor.
+      Alle Eltern der Klassen 1 bis 4 sind herzlich eingeladen. Beginn: 19 Uhr.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 3: Was macht das Jugendhaus am Wochenende? Correct: b) Es organisiert ein Sportturnier. -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das Jugendhaus in der Parkstraße veranstaltet am Samstag ein Fußballturnier
+      für Jugendliche zwischen 12 und 18 Jahren.
+      Anmeldung noch bis Freitag möglich. Eintritt frei!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 4: Was bietet das Familienzentrum an? Correct: a) Kurse für werdende Eltern -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das Familienzentrum Neustadt bietet ab Oktober Kurse für werdende Eltern an.
+      In acht Abenden lernen Sie alles rund ums Thema Geburt und Baby.
+      Anmeldung unter Telefon 0521 889 22.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 5: Wie lange dauert das Kinderstadtfest? Correct: b) zwei Tage -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das Kinderstadtfest findet dieses Jahr am Samstag und Sonntag statt —
+      also zwei Tage voller Spiele, Musik und Spaß für die ganze Familie.
+      Der Eintritt ist kostenlos. Wir sehen uns auf dem Festplatz!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

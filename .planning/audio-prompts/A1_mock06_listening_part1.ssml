@@ -1,0 +1,241 @@
+<!-- A1_mock06_listening_part1.ssml
+     Narrator / Announcer  : de-DE-Wavenet-C (female, consistent with A1 mock series)
+     Male speaker           : de-DE-Wavenet-B (male, warm)
+     Theme: Work / Office life
+     playCount: 2 — every dialog block is played twice with a repeat cue between plays.
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 1. Sie hören drei kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe.
+      Kreuzen Sie die richtige Antwort an: a, b oder c.
+      Sie hören jeden Text zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Question 1: Wann beginnt Herr Meyers Arbeit heute? Answer: b) Um 8:30 Uhr ("halb neun") -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Morgen, Herr Meyer! Sie kommen heute früher als sonst.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, ich fange heute um halb neun an. Normalerweise komme ich um neun Uhr.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ah, wegen des Meetings?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Genau. Es beginnt um acht Uhr dreißig und ich möchte pünktlich sein.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Morgen, Herr Meyer! Sie kommen heute früher als sonst.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, ich fange heute um halb neun an. Normalerweise komme ich um neun Uhr.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ah, wegen des Meetings?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Genau. Es beginnt um acht Uhr dreißig und ich möchte pünktlich sein.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 2: Was kauft die Frau im Supermarkt für das Büro? Answer: a) Kaffee und Zucker -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Hallo! Gehst du heute in den Supermarkt?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, ich kaufe schnell etwas für das Büro.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Was brauchst du denn?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ich kaufe Kaffee und Zucker für das Büro. Die Kollegen trinken immer so viel Kaffee!
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das stimmt! Danke schön.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Hallo! Gehst du heute in den Supermarkt?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, ich kaufe schnell etwas für das Büro.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Was brauchst du denn?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ich kaufe Kaffee und Zucker für das Büro. Die Kollegen trinken immer so viel Kaffee!
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das stimmt! Danke schön.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 3: Wo arbeitet Frau Klein? Answer: c) In einem Büro -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Entschuldigung, sind Sie neu hier in der Gegend?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, ich bin letzte Woche hergezogen. Mein Name ist Klein, Sandra Klein.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Schön! Was machen Sie beruflich?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ich arbeite in einem Büro in der Stadtmitte. Ich bin Bürokauffrau.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Oh, das ist praktisch. Willkommen in der Nachbarschaft!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Entschuldigung, sind Sie neu hier in der Gegend?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, ich bin letzte Woche hergezogen. Mein Name ist Klein, Sandra Klein.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Schön! Was machen Sie beruflich?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ich arbeite in einem Büro in der Stadtmitte. Ich bin Bürokauffrau.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Oh, das ist praktisch. Willkommen in der Nachbarschaft!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 1.</prosody>
+  </voice>
+</speak>

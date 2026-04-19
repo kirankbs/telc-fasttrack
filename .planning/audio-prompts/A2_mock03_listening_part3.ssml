@@ -1,0 +1,143 @@
+<!--
+  A2 Mock 03 — Hören Teil 3: Kurze Gespräche (5 Dialoge, playCount=1)
+  Theme: Wohnen — Wohnungsgröße, Balkon, Einzug, Mietpreis, Umzugsgrund
+  Voices:
+    Narrator / instructions : de-DE-Wavenet-C (female, clear)
+    Female speaker          : de-DE-Wavenet-A (female, slightly younger)
+    Male speaker            : de-DE-Wavenet-B (male, neutral)
+  Rate: "medium" for dialogues, "slow" for instructions
+  Structure: each dialogue played ONCE only.
+-->
+<speak>
+  <break time="3s"/>
+
+  <!-- Teil 3 instructions -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören fünf kurze Gespräche.
+      Zu jedem Gespräch gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text einmal.
+    </prosody>
+    <break time="3s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Wie groß ist die Wohnung? Correct: b) 68 Quadratmeter -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Wie groß ist die Wohnung genau?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Die Wohnung hat 68 Quadratmeter — Wohnzimmer, zwei Schlafzimmer, Küche und Bad.
+      Die Räume sind alle gut geschnitten.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Und das für wie viel Miete?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">750 Euro warm. Das ist fair für die Lage.</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 2: Was gefällt dem Interessenten an der Wohnung nicht? Correct: c) der fehlende Balkon -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Wie finden Sie die Wohnung? Hat sie alles, was Sie brauchen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">
+      Der Preis ist okay und die Lage ist super.
+      Aber leider hat die Wohnung keinen Balkon — das ist mir eigentlich wichtig.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Das stimmt leider. Dafür ist die Küche sehr groß.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Ich muss noch mal nachdenken. Danke für die Besichtigung.</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 3: Was müssen die Nachbarn beim Einzug beachten? Correct: a) den Hausmeister informieren -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Wir ziehen nächste Woche ein. Gibt es etwas zu beachten?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, wenn Sie einziehen, müssen Sie vorher den Hausmeister informieren.
+      Er muss den Fahrstuhl reservieren und den Eingang freihalten.
+      Das ist wichtig, damit der Umzug reibungslos läuft.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Ah, das wussten wir nicht. Danke für den Hinweis!</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 4: Was ist im Mietpreis inbegriffen? Correct: c) Heizung und Wasser -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Was ist in der Miete von 750 Euro inbegriffen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das ist die Warmmiete. Heizung und Wasser sind also inklusive.
+      Den Strom müssen Sie selbst zahlen — das kommt noch extra.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Okay, also Heizung und Wasser ja, Strom nein. Verstanden.</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 5: Warum zieht das Paar um? Correct: a) Die alte Wohnung ist zu klein geworden. -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Warum sucht ihr eigentlich eine neue Wohnung?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">
+      Wir haben jetzt zwei Kinder und die alte Wohnung hat nur zwei Zimmer — das reicht nicht mehr.
+      Wir brauchen mindestens drei Zimmer.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Die Miete ist also kein Problem?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Nein, wirklich nicht. Es ist einfach zu eng für unsere Familie.</prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>

@@ -1,0 +1,257 @@
+<!-- A1_mock09_listening_part2.ssml
+     Narrator / Announcer  : de-DE-Wavenet-C (female, consistent with A1 mock series)
+     Male speaker           : de-DE-Wavenet-B (male, warm) — announcements, taxi driver, ticket inspector
+     Theme: Travel announcements — hotel location, flight delay, tourist info hours, taxi fare, U-Bahn ticket
+     playCount: 2 — each short text is played twice individually.
+     True/False answers:
+       q1: richtig (hotel directly next to Hauptbahnhof, Ausgang Süd)
+       q2: falsch  (flight OS 231 delayed 45 min, not on time)
+       q3: richtig (tourist info open Saturday 10–14)
+       q4: falsch  (taxi costs 17.50 Euro, not more than 20)
+       q5: falsch  (ticket inspector asks for ticket — you need one)
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören fünf kurze Texte. Zu jedem Text gibt es eine Aufgabe.
+      Kreuzen Sie an: richtig oder falsch.
+      Sie hören jeden Text zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Question 1: Das Hotel liegt direkt am Bahnhof. RICHTIG -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hotel Stadtmitte, guten Tag. Was kann ich für Sie tun?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Tag. Wie finde ich Ihr Hotel?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Unser Hotel ist sehr leicht zu finden — wir liegen direkt neben dem Hauptbahnhof, Ausgang Süd. Sie können es nicht verfehlen.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hotel Stadtmitte, guten Tag. Was kann ich für Sie tun?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Tag. Wie finde ich Ihr Hotel?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Unser Hotel ist sehr leicht zu finden — wir liegen direkt neben dem Hauptbahnhof, Ausgang Süd. Sie können es nicht verfehlen.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 2: Der Flug nach Wien startet pünktlich. FALSCH -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Achtung für Passagiere des Fluges OS zweihunderteinunddreißig nach Wien —
+      dieser Flug verspätet sich um fünfundvierzig Minuten.
+      Der neue Abflug ist um sechzehn Uhr fünfzehn, Gate B siebenundzwanzig.
+      Wir bitten um Ihr Verständnis.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Achtung für Passagiere des Fluges OS zweihunderteinunddreißig nach Wien —
+      dieser Flug verspätet sich um fünfundvierzig Minuten.
+      Der neue Abflug ist um sechzehn Uhr fünfzehn, Gate B siebenundzwanzig.
+      Wir bitten um Ihr Verständnis.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 3: Die Touristeninformation ist am Samstag geöffnet. RICHTIG -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Herzlich willkommen bei der Touristeninformation Köln. Sie haben den Anrufbeantworter erreicht.
+      Unsere Öffnungszeiten: Montag bis Freitag neun bis achtzehn Uhr, Samstag zehn bis vierzehn Uhr.
+      Sonntags ist die Touristeninformation geschlossen. Auf Wiederhören.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Herzlich willkommen bei der Touristeninformation Köln. Sie haben den Anrufbeantworter erreicht.
+      Unsere Öffnungszeiten: Montag bis Freitag neun bis achtzehn Uhr, Samstag zehn bis vierzehn Uhr.
+      Sonntags ist die Touristeninformation geschlossen. Auf Wiederhören.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 4: Das Taxi kostet mehr als 20 Euro. FALSCH -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      So, wir sind da. Das Hotel Stadtmitte. Das macht siebzehn Euro fünfzig, bitte.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hier sind zwanzig Euro. Den Rest als Trinkgeld.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Vielen Dank! Schönen Aufenthalt!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      So, wir sind da. Das Hotel Stadtmitte. Das macht siebzehn Euro fünfzig, bitte.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hier sind zwanzig Euro. Den Rest als Trinkgeld.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Vielen Dank! Schönen Aufenthalt!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 5: Man braucht für die U-Bahn kein Ticket. FALSCH -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Fahrscheinkontrolle. Bitte zeigen Sie mir Ihr Ticket.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Oh! Ich habe vergessen, ein Ticket zu kaufen. Tut mir leid.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das ist leider ein Problem. In der U-Bahn braucht man immer ein gültiges Ticket.
+      Ich muss Ihre Personalien aufnehmen.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Fahrscheinkontrolle. Bitte zeigen Sie mir Ihr Ticket.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Oh! Ich habe vergessen, ein Ticket zu kaufen. Tut mir leid.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das ist leider ein Problem. In der U-Bahn braucht man immer ein gültiges Ticket.
+      Ich muss Ihre Personalien aufnehmen.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

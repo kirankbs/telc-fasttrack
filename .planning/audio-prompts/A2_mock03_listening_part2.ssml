@@ -1,0 +1,109 @@
+<!--
+  A2 Mock 03 — Hören Teil 2: Radiodurchsagen (5 Meldungen, playCount=1)
+  Theme: Wohnen — Mieterberatung, Sozialwohnungen, Einrichtungshaus, Wohnungsmarkt, Parkverbot
+  Voices:
+    Narrator / instructions : de-DE-Wavenet-C (female, clear)
+    Radio announcer         : de-DE-Wavenet-B (male, neutral — professional broadcast tone)
+  Rate: "medium" for announcements, "slow" for instructions
+  Structure: each announcement played ONCE only.
+-->
+<speak>
+  <break time="3s"/>
+
+  <!-- Teil 2 instructions -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören fünf kurze Radiodurchsagen.
+      Zu jeder Durchsage gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text einmal.
+    </prosody>
+    <break time="3s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Was können Mieter in der Stadt kostenlos bekommen? Correct: a) Beratung bei Mietproblemen -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ein Angebot der Stadtverwaltung:
+      Die Stadt bietet ab sofort eine kostenlose Mieterberatung
+      für Probleme mit Vermietern oder Mietverträgen an.
+      Termine können Sie unter der Nummer 0521 100 200 vereinbaren.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 2: Welche neuen Wohnungen werden in der Stadt gebaut? Correct: b) günstige Sozialwohnungen -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Eine Meldung aus dem Stadtrat:
+      Die Stadtverwaltung plant den Bau von 500 neuen günstigen Sozialwohnungen bis 2028.
+      Damit soll die Wohnsituation für Menschen mit niedrigem Einkommen verbessert werden.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 3: Was bietet das Einrichtungshaus am Wochenende an? Correct: c) Ausverkauf bis zu 50 Prozent -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Werbung vom Möbelhaus Raumwelt:
+      Am Wochenende großer Ausverkauf — bis zu 50 Prozent Rabatt auf alle Möbel und Heimtextilien!
+      Samstag und Sonntag, von 9 bis 20 Uhr. Kommen Sie vorbei und sparen Sie.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 4: Wo findet der Wohnungsmarkt statt? Correct: b) im Messegelände -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Der diesjährige Wohnungsmarkt findet vom 5. bis 7. Mai im Messegelände statt.
+      Über 80 Aussteller zeigen Wohnungen, Häuser und Mietangebote.
+      Der Eintritt beträgt 5 Euro pro Person.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 5: Welche Regel gilt ab sofort im Wohngebiet? Correct: b) kein Parken auf den Bürgersteigen -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Eine wichtige Information für Bewohner des Wohngebiets Nordpark:
+      Ab sofort gilt: kein Parken auf Bürgersteigen!
+      Verstöße werden mit einem Bußgeld von 55 Euro geahndet.
+      Bitte nutzen Sie die vorhandenen Parkplätze.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

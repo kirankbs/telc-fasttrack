@@ -1,0 +1,183 @@
+<!-- A1_mock06_listening_part2.ssml
+     Narrator / Announcer  : de-DE-Wavenet-C (female, consistent with A1 mock series)
+     Male speaker           : de-DE-Wavenet-B (male, warm) — plays Peter / Kollege
+     Theme: Workplace conversation — office hours, sick boss, lunch, early start
+     playCount: 2 — the entire conversation is played twice.
+     True/False answers:
+       q1: falsch  (Peter says 2 years, not 3)
+       q2: richtig (office Mon–Fri open confirmed)
+       q3: richtig (boss is sick, not coming in)
+       q4: falsch  (lunch starts halb eins = 12:30, not 13:00)
+       q5: richtig (Peter says he'll come at 7 tomorrow)
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören ein Gespräch. Zu dem Gespräch gibt es fünf Aufgaben.
+      Kreuzen Sie an: richtig oder falsch.
+      Sie hören den Text zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Morgen! Sie sind neu hier, oder? Ich bin die Rezeptionistin, Frau Lorenz.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Morgen, Frau Lorenz. Ja, ich heiße Peter Schreiber. Ich arbeite seit zwei Jahren hier in der Firma.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ah, ich bin erst seit einem Monat hier! Wann hat das Büro geöffnet?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das Büro ist von Montag bis Freitag von acht bis siebzehn Uhr geöffnet.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Danke. Und — wo ist der Chef heute? Sein Büro ist leer.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Der Chef ist heute krank. Er kommt nicht ins Büro. Frau Braun vertritt ihn.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Oh, das wusste ich nicht. Und wann ist Mittagspause?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Die Mittagspause beginnt um halb eins — also um zwölf Uhr dreißig. Danach arbeiten wir bis fünf.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Alles klar. Kommen Sie morgen auch so früh?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Morgen komme ich früher, um sieben Uhr. Ich habe viel zu erledigen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Fleißig! Dann bis morgen, Herr Schreiber.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Bis morgen, Frau Lorenz!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Morgen! Sie sind neu hier, oder? Ich bin die Rezeptionistin, Frau Lorenz.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Morgen, Frau Lorenz. Ja, ich heiße Peter Schreiber. Ich arbeite seit zwei Jahren hier in der Firma.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ah, ich bin erst seit einem Monat hier! Wann hat das Büro geöffnet?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das Büro ist von Montag bis Freitag von acht bis siebzehn Uhr geöffnet.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Danke. Und — wo ist der Chef heute? Sein Büro ist leer.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Der Chef ist heute krank. Er kommt nicht ins Büro. Frau Braun vertritt ihn.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Oh, das wusste ich nicht. Und wann ist Mittagspause?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Die Mittagspause beginnt um halb eins — also um zwölf Uhr dreißig. Danach arbeiten wir bis fünf.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Alles klar. Kommen Sie morgen auch so früh?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Morgen komme ich früher, um sieben Uhr. Ich habe viel zu erledigen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Fleißig! Dann bis morgen, Herr Schreiber.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Bis morgen, Frau Lorenz!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

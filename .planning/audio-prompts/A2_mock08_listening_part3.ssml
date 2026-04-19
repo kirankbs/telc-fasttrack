@@ -1,0 +1,160 @@
+<!--
+  A2 Mock 08 — Hören Teil 3
+  Theme: Gesundheit (kurze Gespräche beim Arzt, in der Apotheke, über Krankheiten)
+  playCount: 1 — each conversation played once only
+
+  Voice roles:
+    de-DE-Wavenet-B  — Narrator (instructions)
+    de-DE-Wavenet-C  — Female speaker (primary: patient, wife, mother)
+    de-DE-Wavenet-D  — Male speaker (primary: patient, husband, doctor)
+    de-DE-Wavenet-A  — Female speaker (secondary: pharmacist, neighbour)
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören fünf kurze Gespräche.
+      Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig?
+      Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Was hat der Mann beim Arzt gehört? Correct: a) Er muss eine Diät machen. -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Na, wie war der Arzttermin? Alles in Ordnung?</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Nicht ganz. Der Arzt hat gesagt, ich esse zu viel Fett und Zucker.
+      Ich soll eine Diät machen und mehr Gemüse essen. Und weniger Fleisch.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das ist nicht so schlimm. Ich kann dir beim Kochen helfen — gesund kann auch lecker sein.</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">Na gut, lass es uns versuchen. Aber bitte kein Tofu!</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 2: Was kauft die Frau in der Apotheke? Correct: a) Hustensaft und Nasenspray -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Guten Tag. Ich brauche bitte Hustensaft und Nasenspray — mein Kind ist erkältet.</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Wie alt ist Ihr Kind?</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Sechs Jahre.</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">
+      Dann empfehle ich diesen Hustensaft hier — der ist für Kinder. Und das Nasenspray ist für alle Altersgruppen geeignet.
+      Dreimal täglich, je zwei Sprühstöße.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Danke schön. Was kostet das zusammen?</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 3: Warum geht der Junge nicht in die Schule? Correct: a) Er hat Bauchweh. -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Guten Morgen, hier ist die Grundschule Westend. Ist Tim heute krank?</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, guten Morgen. Mein Sohn kommt heute leider nicht — er hat starke Bauchschmerzen seit heute Nacht.
+      Ich habe schon einen Arzttermin für heute Mittag.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Gut, danke für die Information. Gute Besserung!</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 4: Was soll die Patientin laut Arzt tun? Correct: a) viel schlafen und Tee trinken -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Sie haben eine leichte Erkältung, aber nichts Schlimmes.
+      Am besten bleiben Sie zwei bis drei Tage zu Hause, schlafen Sie viel
+      und trinken Sie viel Tee und Wasser. Kein Sport diese Woche.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Brauche ich Medikamente?</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Nicht unbedingt. Wenn Sie Kopfschmerzen haben, können Sie normale Schmerztabletten nehmen.
+      Aber Ruhe ist das Wichtigste.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 5: Worüber sprechen die zwei Frauen? Correct: a) über einen neuen Arzt im Ort -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Hast du schon gehört? Es gibt jetzt einen neuen Hausarzt in der Stadtmitte — er soll sehr gut sein.</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Ja, meine Nachbarin war schon bei ihm. Sie war sehr zufrieden. Er nimmt sich viel Zeit für die Patienten.</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich suche gerade einen neuen Arzt. Vielleicht rufe ich dort mal an.</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Gute Idee. Die Praxis heißt Dr. Schreiber — in der Gartenstraße.</prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>

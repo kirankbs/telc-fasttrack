@@ -1,0 +1,108 @@
+<!--
+  A2 Mock 07 — Hören Teil 2
+  Theme: Freizeit (Radiodurchsagen über Freizeitangebote)
+  playCount: 1 — each announcement played once only
+
+  Voice roles:
+    de-DE-Wavenet-B  — Narrator (instructions)
+    de-DE-Wavenet-C  — Female radio presenter
+    de-DE-Wavenet-D  — Male radio presenter
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören fünf kurze Radiodurchsagen.
+      Zu jeder Durchsage gibt es eine Aufgabe. Was ist richtig?
+      Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Was findet am Wochenende im Stadtpark statt? Correct: c) ein Flohmarkt -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ein Tipp fürs Wochenende: Am Samstag und Sonntag findet im Stadtpark der große Frühjahrsflohmarkt statt.
+      Über zweihundert Anbieter verkaufen dort Kleidung, Bücher, Möbel und vieles mehr.
+      Der Eintritt ist kostenlos. Öffnungszeiten: neun bis achtzehn Uhr.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 2: Was bietet die neue Sportstätte an? Correct: b) Fitnessstudio und Kursangebote -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Neu in unserer Stadt: Das FitPlus in der Hansastraße bietet modernste Geräte im Fitnessstudio
+      sowie über dreißig verschiedene Kurse — von Yoga bis Zumba.
+      Das erste Training ist kostenlos. Einfach vorbeikommen und ausprobieren.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 3: Was kostet der Eintritt ins Schwimmbad für Kinder? Correct: a) 2,50 Euro -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Das Stadtbad hat ab sofort neue Eintrittspreise.
+      Erwachsene zahlen fünf Euro, Kinder bis vierzehn Jahre zahlen nur zwei Euro fünfzig.
+      Familien mit zwei Kindern bekommen eine Tageskarte für zehn Euro.
+      Das Bad ist täglich von sieben bis zwanzig Uhr geöffnet.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 4: Was empfiehlt der Radiosprecher für das Wochenende? Correct: b) einen Ausflug in die Natur -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Bei diesem herrlichen Frühlingswetter empfehle ich einen Ausflug ins Grüne.
+      Die Wälder rund um die Stadt laden zum Wandern ein — und die Luft ist wirklich frisch.
+      Also: raus aus dem Haus und die Natur genießen!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 5: Welcher Film läuft diese Woche im Kino besonders erfolgreich? Correct: c) ein Animationsfilm für Kinder -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Und nun zur Kinoseite: Der neue Animationsfilm "Waldgeister" ist diese Woche der Kassenschlager.
+      Ideal für die ganze Familie — Kinder lieben die bunten Figuren und die lustige Geschichte.
+      Karten gibt es an der Kinokasse oder online. Viel Spaß!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

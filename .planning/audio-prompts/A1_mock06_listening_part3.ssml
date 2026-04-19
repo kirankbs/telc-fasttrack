@@ -1,0 +1,146 @@
+<!-- A1_mock06_listening_part3.ssml
+     Narrator / Announcer  : de-DE-Wavenet-C (female, consistent with A1 mock series)
+     Male speaker           : de-DE-Wavenet-B (male, warm)
+     Theme: Office problems / appointments / job enquiry
+     playCount: 1 — each dialog is played once only.
+     MCQ answers:
+       q1: a) Der Drucker hat kein Papier.
+       q2: b) Um 14:00 Uhr
+       q3: b) Er hat eine Frage zur Stelle.
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören drei kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Question 1: Was ist das Problem mit dem Drucker? Answer: a) Der Drucker hat kein Papier. -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Entschuldigung, der Drucker hier druckt nicht. Weißt du, was das Problem ist?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Moment, ich schaue mal. Ach so — der Drucker druckt nicht, er hat kein Papier mehr.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Kein Papier? Wo liegt das Papier?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Im Schrank, dort hinten. Ich hole es schnell.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 2: Wann hat Frau Hoffmann heute einen Termin? Answer: b) Um 14:00 Uhr -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Tag, ich suche Frau Hoffmann. Ist sie heute im Büro?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, Frau Hoffmann ist heute da. Haben Sie einen Termin?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, ich habe einen Termin bei ihr — um vierzehn Uhr nachmittags.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Gut. Ihr Name, bitte?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Mein Name ist Berger, Klaus Berger.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Danke, Herr Berger. Bitte nehmen Sie Platz. Frau Hoffmann kommt gleich.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 3: Warum ruft der Mann an? Answer: b) Er hat eine Frage zur Stelle. -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Stadtwerke Nord, guten Tag. Was kann ich für Sie tun?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Tag. Mein Name ist Vogel. Ich habe eine Frage zu der Stelle, die Sie ausgeschrieben haben.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Natürlich, gern. Welche Stelle meinen Sie?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Die Stelle als Bürokaufmann. Ich habe die Anzeige online gesehen und wollte fragen, ob man sich auch per Post bewerben kann.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, natürlich. Sie können Ihre Bewerbung per E-Mail oder per Post schicken. Beides ist möglich.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Vielen Dank für die Auskunft!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 3, und das Ende des Hörtests.</prosody>
+  </voice>
+</speak>

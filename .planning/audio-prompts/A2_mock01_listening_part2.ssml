@@ -1,0 +1,111 @@
+<!--
+  A2 Mock 01 — Hören Teil 2: Radiodurchsagen (5 Meldungen, playCount=1)
+  Voices:
+    Narrator / instructions : de-DE-Wavenet-C (female, clear)
+    Radio announcer         : de-DE-Wavenet-B (male, neutral — professional broadcast tone)
+  Rate: "medium" for announcements, "slow" for instructions
+  Structure: each announcement played ONCE only.
+  Pauses: 2s between announcements.
+-->
+<speak>
+  <break time="3s"/>
+
+  <!-- Teil 2 instructions -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören fünf kurze Radiodurchsagen.
+      Zu jeder Durchsage gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text einmal.
+    </prosody>
+    <break time="3s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Wie ist das Wetter am Wochenende? Correct: b) bewölkt und kühl -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Und nun der Wetterbericht für unser Sendegebiet.
+      Am Wochenende bleibt es bewölkt und kühl.
+      Die Temperaturen erreichen nur 14 bis 16 Grad.
+      Regen ist aber nicht erwartet. Für Spaziergänge ziehen Sie sich warm an.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 2: Wann ist die Stadtbücherei heute geschlossen? Correct: a) von 12 bis 14 Uhr -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ein Hinweis für alle Leserinnen und Leser:
+      Die Stadtbücherei ist heute wegen einer Personalversammlung von 12 bis 14 Uhr geschlossen
+      und öffnet dann wieder für Sie.
+      Wir bitten um Ihr Verständnis.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 3: Was ist im Sonderangebot? Correct: c) Brot und Backwaren -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Eine Werbemitteilung vom Bäcker Schmidt in der Hauptstraße:
+      Heute im Sonderangebot — alle Brot- und Backwarensorten 20 Prozent günstiger!
+      Kommen Sie vorbei — solange der Vorrat reicht.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 4: Wo findet der Deutschkurs statt? Correct: b) im Kulturzentrum -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Wichtige Information für alle Sprachinteressierten:
+      Der neue Deutschkurs für Anfänger findet ab Montag im Kulturzentrum in der Bahnhofstraße statt —
+      nicht wie ursprünglich geplant in der Volkshochschule.
+      Anmeldung ist noch möglich.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 5: Wie viel kostet ein Einzelticket für das Schwimmbad? Correct: b) 4,50 Euro -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das Hallenbad informiert über neue Eintrittspreise.
+      Ab sofort kostet ein Einzelticket vier Euro fünfzig.
+      Eine Zehnerkarte ist für 38 Euro erhältlich.
+      Kinder bis zwölf Jahre zahlen die Hälfte.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

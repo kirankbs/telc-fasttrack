@@ -1,0 +1,124 @@
+<!-- A1_mock08_listening_part3.ssml
+     Narrator / Announcer  : de-DE-Wavenet-C (female, consistent with A1 mock series)
+     Male speaker           : de-DE-Wavenet-B (male, warm) — doctor, pharmacist
+     Theme: Health advice, tablet instructions, after-work plans
+     playCount: 1 — each dialog played once only.
+     MCQ answers:
+       q1: a) Viel Obst und Gemüse (doctor's dietary advice)
+       q2: b) Eine Tablette morgens und eine abends
+       q3: b) Zur Apotheke (Lena has a prescription to fill)
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören drei Gespräche. Zu jedem Gespräch gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Question 1: Was soll Tobias essen? Answer: a) Viel Obst und Gemüse -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Tobias, ich habe die Ergebnisse. Alles in Ordnung, aber Sie sollten besser essen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Was soll ich denn essen, Herr Doktor?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Essen Sie viel Obst und Gemüse, trinken Sie viel Wasser, und vermeiden Sie Fett.
+      Das ist das Wichtigste.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Alles klar, Doktor. Das werde ich versuchen.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 2: Was macht die Frau mit den Tabletten? Answer: b) Eine Tablette morgens und eine abends -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Entschuldigung, wie nehme ich diese Tabletten ein?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Nehmen Sie morgens eine Tablette und abends eine Tablette —
+      also insgesamt zweimal täglich eine Tablette. Am besten nach dem Essen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Also eine morgens und eine abends. Das ist klar. Danke schön!
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Bitte sehr. Gute Besserung!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 3: Wohin geht Lena nach der Arbeit? Answer: b) Zur Apotheke -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Lena, gehst du heute noch ins Fitnessstudio nach der Arbeit?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Nein, heute nicht. Ich muss noch schnell zur Apotheke — ich habe ein Rezept vom Arzt.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Bist du krank?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ein bisschen. Nur Erkältung. Morgen bin ich sicher wieder fit.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 3, und das Ende des Hörtests.</prosody>
+  </voice>
+</speak>

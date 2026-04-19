@@ -1,0 +1,141 @@
+<!-- A1_mock09_listening_part3.ssml
+     Narrator / Announcer  : de-DE-Wavenet-C (female, consistent with A1 mock series)
+     Male speaker           : de-DE-Wavenet-B (male, warm) — Herr Weber, receptionist
+     Theme: Travel — train arrival time, getting to airport, hotel check-in duration
+     playCount: 1 — each dialog played once only.
+     MCQ answers:
+       q1: b) um 14:05 Uhr (Anna's train arrives at "vierzehn Uhr fünf")
+       q2: c) mit der S-Bahn (Herr Weber decides: "direkt vom Hauptbahnhof zum Terminal 1")
+       q3: a) ein Zimmer für zwei Nächte (Freitag bis Sonntag = zwei Nächte)
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören drei Gespräche. Zu jedem Gespräch gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Question 1: Wann kommt Anna in Frankfurt an? Answer: b) um 14:05 Uhr -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hallo Mama! Ich fahre gerade los.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Schön! Wann kommst du in Frankfurt an?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Mein Zug kommt um vierzehn Uhr fünf in Frankfurt an. Ich bin um dreizehn Uhr zwanzig in Berlin abgefahren.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Also um fünf nach zwei? Dann hole ich dich ab!
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, genau! Bis gleich, Mama.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 2: Wie kommt Herr Weber zum Flughafen? Answer: c) mit der S-Bahn -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Herr Weber, wie fahren Sie zum Flughafen morgen? Nehmen Sie ein Taxi?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ich dachte zuerst an ein Taxi, aber das ist zu teuer. Ich nehme die S-Bahn —
+      sie fährt direkt vom Hauptbahnhof zum Terminal eins, ohne Umsteigen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Das ist wirklich praktisch. Und wie lange dauert die Fahrt?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ungefähr fünfzehn Minuten. Sehr bequem.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 3: Was möchte die Frau im Hotel? Answer: a) ein Zimmer für zwei Nächte -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag. Ich möchte ein Zimmer reservieren, bitte.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Gerne. Für wie viele Nächte?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Von Freitag bis Sonntag — also zwei Nächte.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Zwei Nächte, sehr gern. Einzel- oder Doppelzimmer?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Einzelzimmer, bitte.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Wir haben ein schönes Einzelzimmer frei. Auf welchen Namen, bitte?
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 3, und das Ende des Hörtests.</prosody>
+  </voice>
+</speak>

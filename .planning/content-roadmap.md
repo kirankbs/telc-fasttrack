@@ -1,19 +1,21 @@
 # Content Roadmap — Telc-FastTrack
-> Last updated: 2026-04-10 | Maintained by `content-strategist`
+> Last updated: 2026-04-19 | Maintained by `content-strategist`
 
 ---
 
 ## Current State
 
-| Level | Mocks (complete) | Target | Vocab Words | Target | Grammar Topics | Audio Files | Priority |
-|-------|-----------------|--------|-------------|--------|----------------|-------------|----------|
-| **A1** | **10** | 10 | **650** | 650 | **12** | 0 | **Active — shippable pending boot test + audio** |
-| A2 | 0 | 10 | 0 | 1,300 | 0 | 0 | Blocked — boot test gate |
-| B1 | 0 | 10 | 0 | 2,400 | 0 | 0 | — |
-| B2 | 0 | 10 | 0 | 4,000 | 0 | 0 | — |
-| C1 | 0 | 10 | 0 | 6,000 | 0 | 0 | — |
+| Level | Mocks (complete) | Target | Vocab Words | Target | Grammar Topics | Audio Files | Status |
+|-------|-----------------|--------|-------------|--------|----------------|-------------|--------|
+| **A1** | **10** | 10 | **650** | 650 | **12** | **15 MP3s** | Active — mocks 06-10 audio in-flight |
+| **A2** | **10** | 10 | **800** | 1,300 | **15** | 0 | Active — audio in-flight this session |
+| B1 | 10 (stubs) | 10 | 0 | 2,400 | 0 | 0 | Unaudited stubs — no real content |
+| B2 | 10 (stubs) | 10 | 0 | 4,000 | 0 | 0 | Unaudited stubs — no real content |
+| C1 | 10 (stubs) | 10 | 0 | 6,000 | 0 | 0 | Unaudited stubs — no real content |
 
-**A1 gate status:** All content thresholds met — 10/10 mocks, 650/650 vocab, 12 grammar topics. Remaining gates: boot test (device/sim) + audio generation (GCP credentials required). A2 blocked on boot test passing.
+**Critical finding:** B1, B2, C1 JSON files exist on disk but carry `_stub: true` with empty `sections[]`. They are scaffolding placeholders — zero content. Do not count them as complete mocks.
+
+**A2 vocab gap:** 800/1,300 words merged. 500-word gap remains before A2 vocab target is met.
 
 ---
 
@@ -21,134 +23,143 @@
 
 ### Mock Exams
 
-| Mock | Hören | Lesen | Schreiben | Sprechen | Audio | Pedagogy | Status |
-|------|-------|-------|-----------|----------|-------|----------|--------|
-| mock_01 | 11q | 15q | full content | full content | — | Reviewed | Built — awaiting audio |
-| mock_02 | 11q | 15q | full content | full content | — | Reviewed | Built — awaiting audio |
-| mock_03 | 11q | 15q | full content | full content | — | Reviewed | Built — awaiting audio |
-| mock_04 | 11q | 15q | full content | full content | — | Reviewed | Built — awaiting audio |
-| mock_05 | 11q | 15q | full content | full content | — | Reviewed | Built — awaiting audio |
-| mock_06 | full | full | full content | full content | — | Pending | Built today — awaiting pedagogy review |
-| mock_07 | full | full | full content | full content | — | Pending | Built today — awaiting pedagogy review |
-| mock_08 | full | full | full content | full content | — | Pending | Built today — awaiting pedagogy review |
-| mock_09 | full | full | full content | full content | — | Pending | Built today — awaiting pedagogy review |
-| mock_10 | full | full | full content | full content | — | Pending | Built today — awaiting pedagogy review |
+| Mock | Hören | Lesen | Schreiben | Sprechen | SSML | Audio (MP3) | Pedagogy | Status |
+|------|-------|-------|-----------|----------|------|-------------|----------|--------|
+| mock_01 | 11q | 15q | full | full | Parts 1-3 | Parts 1-3 | Reviewed | Complete — audio live |
+| mock_02 | 11q | 15q | full | full | Parts 1-3 | Parts 1-3 | Reviewed | Complete — audio live |
+| mock_03 | 11q | 15q | full | full | Parts 1-3 | Parts 1-3 | Reviewed | Complete — audio live |
+| mock_04 | 11q | 15q | full | full | Parts 1-3 | Parts 1-3 | Reviewed | Complete — audio live |
+| mock_05 | 11q | 15q | full | full | Parts 1-3 | Parts 1-3 | Reviewed | Complete — audio live |
+| mock_06 | full | full | full | full | Parts 1-2 only | — | Pending | Audio in-flight (this session) |
+| mock_07 | full | full | full | full | — | — | Pending | SSML not started |
+| mock_08 | full | full | full | full | — | — | Pending | SSML not started |
+| mock_09 | full | full | full | full | — | — | Pending | SSML not started |
+| mock_10 | full | full | full | full | — | — | Pending | SSML not started |
 
-**Worktree:** Mocks 06-10 live in `.worktrees/a1-mocks-6-10/` — not yet merged to main.
+### Audio Pipeline — A1
 
-### Audio Pipeline
+| Asset | State |
+|-------|-------|
+| Mocks 01-05 SSML (15 files) | Complete |
+| Mocks 01-05 MP3s (15 files) | Rendered — shipped in PR #33 |
+| Mock 06 SSML (parts 1-2 of 3) | Partial — part 3 missing |
+| Mocks 07-10 SSML | Not started |
+| Mocks 06-10 MP3s | In-flight (dispatched this session) |
 
-| Asset | State | Location |
-|-------|-------|----------|
-| mock_01 listening SSML (3 parts) | Scripts written — not yet rendered | `.planning/audio-prompts/A1_mock01_listening_part{1,2,3}.ssml` |
-| mock_02-10 SSML | Not started | — |
-| All MP3s | 0 generated | — |
+### Vocabulary — A1 (target met)
 
-Blocking factor: GCP credentials (user-held). Unblocked work is writing remaining SSML scripts.
+| Metric | Count | Target | Coverage |
+|--------|-------|--------|----------|
+| Total words | 650 | 650 | 100% |
+| Grammar topics | 12 | 12 | 100% |
 
-### Placeholder Images Required
-
-| Mock | Section | Slots | State |
-|------|---------|-------|-------|
-| mock_01 | Listening Part 1 | 6 images | Missing |
-| mock_01 | Speaking Part 2 | 5 picture cards | Missing |
-
-These are the only visual gaps known. Affects render completeness for mock_01 only.
-
-### Vocabulary Coverage (Goethe A1 Wortliste — target met)
-
-| Topic Area | Count | Target | Coverage |
-|-----------|-------|--------|----------|
-| Arbeit/Beruf | 30 | 30 | 100% |
-| Ausbildung | 25 | 25 | 100% |
-| Einkaufen | 30 | 30 | 100% |
-| Freizeit/Unterhaltung | 30 | 30 | 100% |
-| Kommunikation | 25 | 25 | 100% |
-| Körper/Gesundheit | 30 | 30 | 100% |
-| Menge/Maß | 25 | 25 | 100% |
-| Ort/Raum | 30 | 30 | 100% |
-| Persönliche Angaben | 40 | 40 | 100% |
-| Persönliche Beziehungen | 35 | 35 | 100% |
-| Politik/Gesellschaft | 25 | 25 | 100% |
-| Reisen/Verkehr | 35 | 35 | 100% |
-| Sprache/Schrift | 25 | 25 | 100% |
-| Umwelt | 25 | 25 | 100% |
-| Verpflegung | 35 | 35 | 100% |
-| Wohnung | 35 | 35 | 100% |
-| Zeit | 35 | 35 | 100% |
-| Öffentliche/private Dienstleistungen | 25 | 25 | 100% |
-| **Total** | **650** | **650** | **100%** |
-
-Expanded from 430 to 650 words this session. Goethe A1 Wortliste target met.
-
-### Grammar Topics (12 topics — all complete)
-
-| Topic | Exercises | Status |
-|-------|-----------|--------|
-| Präsens — regelmäßige Verben | 5 | Done |
-| Präsens — sein und haben | 4 | Done |
-| Grundwortstellung (SVO) | 4 | Done |
-| W-Fragen | 4 | Done |
-| Ja/Nein-Fragen | 4 | Done |
-| Artikel — bestimmt und unbestimmt | 5 | Done |
-| Negation — nicht und kein | 4 | Done |
-| Modalverben — können und möchten | 5 | Done |
-| Trennbare Verben | 4 | Done |
-| Possessivartikel — mein und dein | 4 | Done |
-| Imperativ — Sie-Form | 4 | Done |
-| Präpositionen mit Dativ — Ortsangaben | 5 | Done |
-
-P2 grammar (Akkusativ, Perfekt mit haben, Perfekt mit sein) deferred — not in A1 shippable scope.
+P2 grammar (Akkusativ, Perfekt mit haben, Perfekt mit sein) deferred — not blocking A1 launch.
 
 ---
 
-## P0 Sprint — Immediate (device or GCP required)
+## A2 Section Coverage
 
-These are the only remaining gates before A1 is shippable. No content work unblocks them — they need environment access.
+### Mock Exams
 
-| # | Item | Owner | Effort | Gate |
-|---|------|-------|--------|------|
-| 1 | Boot test — run on device/simulator, click through all 5 tabs and a full mock exam session | User | 30m | Unblocks A2 content start |
-| 2 | Commit and merge `boot-test-fixes` worktree | User | 10m | useAudioPlayer fix + mockId null-checks land on main |
-| 3 | Commit and merge `a1-mocks-6-10` worktree | User | 10m | Mocks 06-10 land on main |
-| 4 | Audio generation — run GCP TTS on 3 existing SSML scripts for mock_01 | User | 20m | First audio in app; validates pipeline for mocks 02-10 |
+| Mock | Hören | Lesen | Schreiben | Sprechen | SSML | Audio (MP3) | Pedagogy | Status |
+|------|-------|-------|-----------|----------|------|-------------|----------|--------|
+| mock_01 | full | full | full | full | Part 1 only | — | Pending | Audio in-flight |
+| mock_02 | full | full | full | full | — | — | Pending | SSML not started |
+| mock_03 | full | full | full | full | — | — | Pending | SSML not started |
+| mock_04 | full | full | full | full | — | — | Pending | SSML not started |
+| mock_05 | full | full | full | full | — | — | Pending | SSML not started |
+| mock_06 | full | full | full | full | Part 1 only | — | Pending | Audio in-flight |
+| mock_07 | full | full | full | full | — | — | Pending | SSML not started |
+| mock_08 | full | full | full | full | — | — | Pending | SSML not started |
+| mock_09 | full | full | full | full | — | — | Pending | SSML not started |
+| mock_10 | full | full | full | full | — | — | Pending | SSML not started |
 
-## P1 Sprint — After boot test passes
+### Audio Pipeline — A2
 
-| # | Item | Effort | Rationale | Score |
-|---|------|--------|-----------|-------|
-| 5 | Pedagogy review: mocks 06-10 | 2h | Built today, not yet reviewed. 5 mocks × 4 sections = 20 section reviews. Required before these mocks go live. | 88 |
-| 6 | Write SSML scripts for mock_01 images: Listening Part 1 (6 images) + Speaking Part 2 (5 cards) | 45m | Placeholder images block visual completeness on the first mock a user sees. Needed for polish milestone. | 74 |
-| 7 | Write SSML scripts for mocks 02-05 listening | 1h | Once mock_01 GCP pipeline validated, batch the rest. Scripts can be written device-free. | 72 |
-| 8 | A2 content planning: scope vocab list + first 2 mocks outline | 1h | Unblocks A2 start post-boot-test. A2 adds Sprachbausteine section — schema already supports it at B1+, verify for A2. | 65 |
+All 10 mocks lack audio. SSML exists for mock_01 part 1 and mock_06 part 1 only. Full SSML authoring + GCP render pass required.
 
-## P2 Backlog
+### Vocabulary — A2 (gap remaining)
 
-| # | Item | Notes |
-|---|------|-------|
-| 9 | Generate audio for mocks 02-10 listening (when scripts exist) | Batch GCP job — run after mock_01 pipeline is validated |
-| 10 | Placeholder images for mocks 02-10 speaking/listening | Lower priority than mock_01; affects render polish only |
-| 11 | Akkusativ grammar topic (4-5 exercises) | Only missing A1 grammar topic from full scope |
-| 12 | Perfekt mit haben + mit sein | Completes A1 grammar; not blocking for launch |
-| 13 | A2 mock content (10 mocks, 1,300 vocab) | After boot test passes and A2 scope is defined |
+| Metric | Count | Target | Gap |
+|--------|-------|--------|-----|
+| Total words | 800 | 1,300 | 500 words |
+| Grammar topics | 15 | ~20 | Unscoped |
+
+A2 grammar topics count (15) is ahead of what was planned. Vocab gap of 500 words is the primary A2 content debt outside audio.
+
+---
+
+## B1 / B2 / C1 — Stub State
+
+All three levels have 10 JSON files per level on disk. Every file carries `_stub: true` with an empty `sections` array. These are route/catalog scaffolds only.
+
+| Level | Mock Files | Content | Vocab | Grammar | Audio | Needed Before Real Work |
+|-------|-----------|---------|-------|---------|-------|------------------------|
+| B1 | 10 (stubs) | 0 sections | 0 | 0 | 0 | Pedagogy scoping, section spec, vocab list |
+| B2 | 10 (stubs) | 0 sections | 0 | 0 | 0 | Same |
+| C1 | 10 (stubs) | 0 sections | 0 | 0 | 0 | Same |
+
+B1+ adds Sprachbausteine (cloze) as a 5th section. Schema support needs verification before content is authored.
+
+---
+
+## Next Up — Top 3 Items for Next Deep-Work Session
+
+Scored on: Exam Coverage (40%) + Content Quality Gap (35%) + Production Readiness (25%).
+A1 2x multiplier no longer applies — A1 content is complete.
+
+### 1. A2 Audio — Full SSML authoring + GCP render pass (Score: 91)
+
+**Why first:** A2 has 10 complete, structurally valid mocks with zero audio. The listening sections are unplayable. The audio player component is built and validated on A1 — infrastructure is ready. This is a pure content execution task with no unknowns. Completing it makes A2 a shippable level.
+
+- Coverage gap: 10/10 mocks have no audio (high weight)
+- Quality gap: Listening section is broken UX without audio
+- Readiness: Audio player, GCP pipeline, and SSML format all validated on A1
+
+Action: Author SSML for all A2 mocks (30 files: 3 parts x 10 mocks), batch-render via GCP WaveNet, ship as single PR.
+
+### 2. A2 Vocabulary — 500-word gap to target (Score: 74)
+
+**Why second:** 800/1,300 words means the spaced-repetition deck covers ~62% of the A2 Goethe list. Users studying A2 hit missing words quickly. Vocab is self-contained, no infrastructure dependency, and directly improves practice session quality before audio is even needed.
+
+- Coverage gap: 38% of target vocab missing
+- Quality gap: Deck holes hurt retention for users already using A2 mocks
+- Readiness: Vocab JSON schema and spaced-repetition engine are fully built
+
+Action: Fill the remaining 500 A2 words against the Goethe A2 Wortliste. One PR, one JSON file.
+
+### 3. A2 Pedagogy Review — All 10 mocks (Score: 68)
+
+**Why third:** A2 mocks were merged without a pedagogy-director review pass (A1 mocks 01-05 had one; 06-10 did not either — both levels have this debt). Before promoting A2 as a tested-ready level, question quality, distractor validity, and difficulty calibration need a sign-off. This is the last gate before A2 can be called shippable.
+
+- Coverage: 0/10 mocks reviewed
+- Quality gap: No validation that questions map to A2 CEFR descriptors
+- Readiness: UI is ready; this is human review work, not build work
+
+Action: Schedule pedagogy-director session. 10 mocks x 4 sections = 40 section reviews. Estimated 3-4h.
 
 ---
 
 ## Strategic Rules
 
-1. **A1 content is done.** Do not add more A1 content — fill audio and images instead. Content resources go to A2 planning.
-2. **Boot test is the single critical path item.** Nothing else gates A2 start more directly.
-3. **Pedagogy review on 06-10 is parallel work.** Can happen before or after boot test — does not depend on device access.
-4. **Audio pipeline: write scripts now, generate later.** Never block SSML authoring on GCP credentials.
-5. **A2 adds Sprachbausteine — verify before building.** This section exists at B1+ in the schema; confirm whether A2 in the telc spec uses it before writing content.
+1. **A1 is shippable pending audio for mocks 06-10.** Do not touch A1 content.
+2. **A2 audio is the highest-leverage task next session.** Infrastructure is proven. This is execution, not exploration.
+3. **B1/B2/C1 stubs are not content.** Do not reference them as "10 mocks built" — they are empty scaffolds.
+4. **Vocab and audio are parallel workstreams.** Neither blocks the other.
+5. **Pedagogy review can happen async.** It does not block audio generation or vocab fill.
+6. **Never start B1 content before A2 audio and vocab gap are closed.** Complete levels beat partial coverage across all levels.
 
 ---
 
-## Session History
+## Session History (recent)
 
-| Date | Built | Notes |
-|------|-------|-------|
-| pre-2026-04-03 | Project scaffolding, services, UI shell | Initial setup |
-| 2026-04-03 | A1 mocks 01-05 (all 4 sections full), vocab 430 words, grammar 12 topics, full exam flow UI | Roadmap was stale — showed 0 mocks |
-| 2026-04-09 | Roadmap full refresh | Discovered writing/speaking sections empty in mocks 01-05; stubs 06-10 completely empty |
-| 2026-04-10 | A1 mocks 06-10 (all 4 sections, complete content), vocab 430 → 650 words, SSML scripts for mock_01 listening parts 1-3, boot-test code fixes (useAudioPlayer hook rules + mockId null-checks) | All A1 content thresholds met. Two worktrees pending merge. Boot test + audio remain the only shippable gates. |
+| Date | Built | PRs |
+|------|-------|-----|
+| pre-2026-04-10 | A1 mocks 01-10, vocab 650 words, grammar 12 topics, boot-test fixes | Multiple |
+| 2026-04-10 | A1 SSML for mocks 01-05 (15 scripts) | — |
+| 2026-04-13 | Audio player component (web) | #34 |
+| 2026-04-13 | A1 MP3s for mocks 01-05 (GCP WaveNet, 15 files) | #33 |
+| 2026-04-13 | A2 mocks 08-10 | #30 |
+| 2026-04-13 | A2 vocab (800 words), A2 grammar (15 topics) | #27, #28 |
+| 2026-04-13 | A2 mocks 01-07 across multiple PRs | #21, #22, #23, #25, #26, #29, #31, #32 |
+| 2026-04-19 | A1 mocks 06-10 audio in-flight; A2 audio in-flight | This session |

@@ -1,0 +1,202 @@
+<!--
+  A2 Mock 06 — Hören Teil 1
+  Theme: Arbeit (Anrufbeantworter-Nachrichten)
+  playCount: 2 — each message repeated with "Sie hören den Text jetzt noch einmal."
+
+  Voice roles:
+    de-DE-Wavenet-B  — Narrator (instructions, repeat prompts)
+    de-DE-Wavenet-C  — Female callers / speakers
+    de-DE-Wavenet-D  — Male callers / speakers
+
+  Rate: instructions = slow, dialogue = medium (A2: 0.90 natural equiv.)
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">
+      Hören, Teil 1. Sie hören fünf kurze Nachrichten auf dem Anrufbeantworter.
+      Zu jeder Nachricht gibt es eine Aufgabe. Was ist richtig?
+      Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Wann soll Frau Koch zum Vorstellungsgespräch kommen? Correct: b) am Donnerstag um 10 Uhr -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Guten Tag, Frau Koch. Hier ist Firma Müller und Partner.
+      Wir haben Ihre Bewerbung erhalten und möchten Sie gerne kennenlernen.
+      Wir laden Sie ein zu einem Vorstellungsgespräch am Donnerstag, den zweiundzwanzigsten Mai, um zehn Uhr.
+      Bitte bestätigen Sie den Termin telefonisch bis morgen Mittag.
+      Unsere Nummer ist null-zwei-eins-eins, drei-vier-fünf-sechs.
+      Wir freuen uns auf Sie.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Guten Tag, Frau Koch. Hier ist Firma Müller und Partner.
+      Wir haben Ihre Bewerbung erhalten und möchten Sie gerne kennenlernen.
+      Wir laden Sie ein zu einem Vorstellungsgespräch am Donnerstag, den zweiundzwanzigsten Mai, um zehn Uhr.
+      Bitte bestätigen Sie den Termin telefonisch bis morgen Mittag.
+      Unsere Nummer ist null-zwei-eins-eins, drei-vier-fünf-sechs.
+      Wir freuen uns auf Sie.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Aufgabe 2: Was soll Herr Braun für das Meeting vorbereiten? Correct: a) eine Präsentation -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Herr Braun, hier spricht Ihr Chef, Herr Wagner.
+      Ich rufe wegen des Meetings morgen früh an.
+      Könnten Sie bitte für das Meeting eine kurze Präsentation über die Verkaufszahlen der letzten drei Monate vorbereiten?
+      Etwa zehn Minuten reichen aus.
+      Danke schön und bis morgen.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Herr Braun, hier spricht Ihr Chef, Herr Wagner.
+      Ich rufe wegen des Meetings morgen früh an.
+      Könnten Sie bitte für das Meeting eine kurze Präsentation über die Verkaufszahlen der letzten drei Monate vorbereiten?
+      Etwa zehn Minuten reichen aus.
+      Danke schön und bis morgen.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Aufgabe 3: Warum ruft die Kollegin an? Correct: b) Sie ist krank und kommt nicht. -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hallo, hier ist Sandra. Ich rufe an, weil ich leider krank bin und heute nicht ins Büro kommen kann.
+      Ich habe Fieber und muss zu Hause bleiben.
+      Kannst du bitte dem Chef Bescheid sagen?
+      Ich melde mich morgen wieder. Danke und tschüss.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hallo, hier ist Sandra. Ich rufe an, weil ich leider krank bin und heute nicht ins Büro kommen kann.
+      Ich habe Fieber und muss zu Hause bleiben.
+      Kannst du bitte dem Chef Bescheid sagen?
+      Ich melde mich morgen wieder. Danke und tschüss.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Aufgabe 4: Was hat sich bei der Arbeitsstelle geändert? Correct: a) Die Arbeitszeiten haben sich geändert. -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Morgen, hier ist eine Information der Personalabteilung.
+      Wir möchten Sie darüber informieren, dass ab dem ersten Juli neue Arbeitszeiten in unserer Abteilung gelten.
+      Die Kernarbeitszeit ist dann von neun bis sechzehn Uhr.
+      Weitere Informationen erhalten Sie per E-Mail. Guten Tag.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Morgen, hier ist eine Information der Personalabteilung.
+      Wir möchten Sie darüber informieren, dass ab dem ersten Juli neue Arbeitszeiten in unserer Abteilung gelten.
+      Die Kernarbeitszeit ist dann von neun bis sechzehn Uhr.
+      Weitere Informationen erhalten Sie per E-Mail. Guten Tag.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Aufgabe 5: Wofür braucht Sven eine Bestätigung? Correct: c) für seine neue Wohnung -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Hallo, hier ist Sven Hartmann. Ich rufe dringend an.
+      Ich brauche eine Arbeitsbestätigung von der Firma.
+      Mein neuer Vermieter möchte einen Nachweis, dass ich berufstätig bin, bevor er mir die Wohnung gibt.
+      Könnten Sie mir das Dokument bitte bis Freitag schicken?
+      Vielen Dank im Voraus.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Hallo, hier ist Sven Hartmann. Ich rufe dringend an.
+      Ich brauche eine Arbeitsbestätigung von der Firma.
+      Mein neuer Vermieter möchte einen Nachweis, dass ich berufstätig bin, bevor er mir die Wohnung gibt.
+      Könnten Sie mir das Dokument bitte bis Freitag schicken?
+      Vielen Dank im Voraus.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Das ist das Ende von Teil 1.</prosody>
+  </voice>
+</speak>
