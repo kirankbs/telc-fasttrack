@@ -8,6 +8,7 @@ import { saveSection } from '@/lib/examSession';
 import { ExamTimer } from './ExamTimer';
 import { SectionIntro } from './SectionIntro';
 import { QuestionResultRow } from './QuestionResultRow';
+import { AudioPlayer } from './AudioPlayer';
 
 interface ListeningExamProps {
   mockId: string;
@@ -169,20 +170,15 @@ export function ListeningExam({ mockId, level, section }: ListeningExamProps) {
         )}
       </div>
 
-      <div className="flex items-center gap-3 rounded-lg border border-border bg-surface-container p-4">
-        <div className="flex h-10 w-10 items-center justify-center rounded-full bg-brand-primary text-white">
-          <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M8 5v14l11-7z" />
-          </svg>
-        </div>
-        <div>
-          <p className="text-sm font-medium text-text-primary">Audio</p>
-          <p className="text-xs text-text-secondary">
-            {part.audioFile ?? 'Audiodatei nicht verfügbar'} · {part.playCount}× abspielen
-          </p>
-        </div>
-        <span className="ml-auto text-xs text-text-disabled">[Vorschau]</span>
-      </div>
+      <AudioPlayer
+        key={`audio-part-${part.partNumber}`}
+        audioFile={part.audioFile}
+        playCount={part.playCount}
+        transcript={
+          part.audioTranscript ??
+          [part.instructions, ...part.questions.map((q) => q.questionText)].join('. ')
+        }
+      />
 
       <div className="space-y-4">
         {part.questions.map((q, qi) => (

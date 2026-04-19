@@ -26,6 +26,7 @@ export interface ListeningPart {
   instructions: string;
   instructionsTranslation: string;
   audioFile: string;
+  audioTranscript?: string;
   playCount: number;
   questions: ListeningQuestion[];
 }
