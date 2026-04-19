@@ -1,0 +1,152 @@
+<!--
+  A2 Mock 06 — Hören Teil 3
+  Theme: Arbeit (kurze Gespräche über Beruf und Arbeitsleben)
+  playCount: 1 — each conversation played once only
+
+  Voice roles:
+    de-DE-Wavenet-B  — Narrator (instructions) / male speaker in dialogues
+    de-DE-Wavenet-C  — Female speaker (primary)
+    de-DE-Wavenet-D  — Male speaker (primary)
+    de-DE-Wavenet-A  — Female speaker (secondary, e.g. colleague)
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören fünf kurze Gespräche.
+      Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig?
+      Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Was macht die Frau beruflich? Correct: c) Sie ist selbstständig. -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">Was machst du eigentlich beruflich, Lisa? Arbeitest du noch bei der Bank?</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Nein, das habe ich vor zwei Jahren aufgehört.
+      Ich habe meine eigene kleine Firma gegründet — ich bin also selbstständig und arbeite von zu Hause.
+      Das ist viel besser für mich.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">Oh, interessant! Und was machst du genau?</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich biete Übersetzungen und Sprachkurse online an.</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 2: Warum ist der Mann mit seiner Arbeit unzufrieden? Correct: b) Er hat zu viel Stress. -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Du siehst müde aus. Alles gut bei der Arbeit?</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Ehrlich gesagt, nein. Der Stress ist einfach zu viel.
+      Ich arbeite fünfzig Stunden die Woche, nehme Arbeit mit nach Hause und habe kaum noch Freizeit.
+      Ich überlege, die Stelle zu wechseln.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Das klingt wirklich schwer. Du solltest mit dem Chef darüber sprechen.</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 3: Was hat die Frau in ihrer neuen Stelle besonders gut gefunden? Correct: c) die netten Kollegen -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">Wie ist deine neue Stelle? Gefällt es dir dort?</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, sehr! Was mich wirklich überrascht hat: Die Kollegen sind alle so freundlich und hilfsbereit.
+      Das ist für mich das Wichtigste bei der Arbeit.
+      Das Gehalt ist auch okay, aber die Atmosphäre — die ist einfach toll.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">Das ist wirklich schön. Du hattest bei der alten Stelle ja so schlechte Erfahrungen gemacht.</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 4: Was hat Herr Engel bei der Bewerbung falsch gemacht? Correct: a) Er hat seinen Lebenslauf nicht mitgeschickt. -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag, Herr Engel. Ich habe Ihre Bewerbung erhalten, aber leider fehlt der Lebenslauf.
+      Ohne Lebenslauf können wir Ihre Bewerbung nicht bearbeiten.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">Oh nein, das tut mir sehr leid! Ich schicke ihn sofort nach.</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Gut. Bitte per E-Mail bis morgen früh. Dann können wir weitermachen.</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 5: Wann beginnt der neue Mitarbeiter mit der Arbeit? Correct: b) am ersten des nächsten Monats -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Herzlichen Glückwunsch, Herr Bauer! Wir freuen uns, Sie ab dem ersten des nächsten Monats in unserem Team willkommen zu heißen.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Vielen Dank! Das freut mich sehr. Soll ich schon vorher vorbeikommen?</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Nein, das ist nicht nötig. Wir schicken Ihnen alle Informationen per Post.
+      Ihr erster Arbeitstag ist offiziell der erste.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>

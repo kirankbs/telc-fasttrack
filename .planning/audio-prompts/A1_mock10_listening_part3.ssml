@@ -1,0 +1,125 @@
+<!-- A1_mock10_listening_part3.ssml
+     Narrator / Announcer  : de-DE-Wavenet-C (female, consistent with A1 mock series)
+     Male speaker           : de-DE-Wavenet-B (male, warm) — man furnishing new flat, shop announcement
+     Theme: New flat furnishings, furniture shop hours, market visit
+     playCount: 1 — each dialog played once only.
+     MCQ answers:
+       q1: a) Einen Schrank ("Bett und Tisch habe ich schon, aber ich brauche noch einen Schrank")
+       q2: a) Von Montag bis Samstag, 9 bis 19 Uhr
+       q3: c) Sie hat keine Zeit ("heute habe ich wirklich keine Zeit")
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören drei Gespräche. Zu jedem Gespräch gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Question 1: Was braucht der Mann für seine neue Wohnung noch? Answer: a) Einen Schrank -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Wie ist die neue Wohnung? Hast du schon alles?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Fast. Bett und Tisch habe ich schon, aber ich brauche noch einen Schrank.
+      Meine Kleidung liegt überall auf dem Boden!
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Dann geh ins Möbelhaus! Die haben gerade ein Angebot.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Gute Idee. Ich fahre heute noch hin.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 2: Wann ist das Möbelgeschäft geöffnet? Answer: a) Montag bis Samstag, 9 bis 19 Uhr -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Möbelhaus Richter, guten Tag.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Tag. Ich wollte fragen, wann Sie geöffnet haben.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Unser Geschäft ist Montag bis Samstag von neun bis neunzehn Uhr für Sie geöffnet.
+      Sonntags sind wir leider geschlossen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Montag bis Samstag, neun bis neunzehn Uhr — perfekt. Danke!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 3: Warum geht die Frau nicht auf den Markt? Answer: c) Sie hat keine Zeit. -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Gehst du heute noch auf den Wochenmarkt? Der geht bis dreizehn Uhr.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ich würde gerne auf den Markt gehen, aber heute habe ich wirklich keine Zeit.
+      Ich muss noch so viel erledigen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Schade. Soll ich etwas für dich mitbringen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Das wäre nett! Wenn du Tomaten siehst, nimm bitte ein Kilo mit. Danke!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 3, und das Ende des Hörtests.</prosody>
+  </voice>
+</speak>

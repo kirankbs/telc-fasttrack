@@ -1,0 +1,192 @@
+<!--
+  A2 Mock 07 — Hören Teil 1
+  Theme: Freizeit (Anrufbeantworter-Nachrichten über Freizeitaktivitäten)
+  playCount: 2 — each message repeated with "Sie hören den Text jetzt noch einmal."
+
+  Voice roles:
+    de-DE-Wavenet-B  — Narrator (instructions, repeat prompts)
+    de-DE-Wavenet-C  — Female callers
+    de-DE-Wavenet-D  — Male callers
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">
+      Hören, Teil 1. Sie hören fünf kurze Nachrichten auf dem Anrufbeantworter.
+      Zu jeder Nachricht gibt es eine Aufgabe. Was ist richtig?
+      Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Was macht Jan am Samstagnachmittag? Correct: a) Er spielt Fußball. -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Hey, hier ist Jan. Ich kann heute leider nicht kommen — tut mir leid.
+      Ich habe Samstagnachmittag immer Fußballtraining mit meiner Mannschaft.
+      Das hatte ich ganz vergessen.
+      Können wir uns vielleicht am Sonntag treffen? Ruf mich zurück!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Hey, hier ist Jan. Ich kann heute leider nicht kommen — tut mir leid.
+      Ich habe Samstagnachmittag immer Fußballtraining mit meiner Mannschaft.
+      Das hatte ich ganz vergessen.
+      Können wir uns vielleicht am Sonntag treffen? Ruf mich zurück!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Aufgabe 2: Wohin möchte Nina am Wochenende fahren? Correct: b) in die Berge -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hallo, hier ist Nina! Ich rufe kurz an wegen dem Wochenende.
+      Hast du Lust, mit mir in die Berge zu fahren? Das Wetter soll wirklich schön sein
+      und ich möchte unbedingt wandern gehen.
+      Ich kenne da einen tollen Weg. Meld dich einfach!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hallo, hier ist Nina! Ich rufe kurz an wegen dem Wochenende.
+      Hast du Lust, mit mir in die Berge zu fahren? Das Wetter soll wirklich schön sein
+      und ich möchte unbedingt wandern gehen.
+      Ich kenne da einen tollen Weg. Meld dich einfach!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Aufgabe 3: Was hat der Sportverein abgesagt? Correct: c) das Turnier am Wochenende -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Guten Tag, hier ist der TSV Nordstadt. Wir haben eine wichtige Mitteilung für alle Mitglieder.
+      Wir müssen das Turnier am Wochenende leider absagen.
+      Der Sportplatz ist wegen Renovierungsarbeiten gesperrt.
+      Das nächste Turnier findet dann in vier Wochen statt. Vielen Dank für Ihr Verständnis.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Guten Tag, hier ist der TSV Nordstadt. Wir haben eine wichtige Mitteilung für alle Mitglieder.
+      Wir müssen das Turnier am Wochenende leider absagen.
+      Der Sportplatz ist wegen Renovierungsarbeiten gesperrt.
+      Das nächste Turnier findet dann in vier Wochen statt. Vielen Dank für Ihr Verständnis.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Aufgabe 4: Was schenkt Lukas seinem Freund zum Geburtstag? Correct: a) Konzertkarten -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Hey, alles Gute zum Geburtstag! Hier ist Lukas.
+      Ich habe für deinen Geburtstag zwei Konzertkarten für das Rockkonzert am Freitagabend besorgt — wir gehen zusammen hin!
+      Ich hoffe, du hast keine anderen Pläne.
+      Ruf mich an, damit wir uns verabreden können. Bis bald!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Hey, alles Gute zum Geburtstag! Hier ist Lukas.
+      Ich habe für deinen Geburtstag zwei Konzertkarten für das Rockkonzert am Freitagabend besorgt — wir gehen zusammen hin!
+      Ich hoffe, du hast keine anderen Pläne.
+      Ruf mich an, damit wir uns verabreden können. Bis bald!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Aufgabe 5: Wann ist das nächste Treffen des Lesekreises? Correct: a) am Dienstag um 19 Uhr -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hallo, hier ist Maria vom Lesekreis. Ich rufe kurz an, um daran zu erinnern:
+      Das nächste Treffen unseres Lesekreises findet wie immer am Dienstagabend um neunzehn Uhr statt.
+      Wir besprechen diesmal die letzten drei Kapitel. Bitte bring das Buch mit!
+      Tschüss und bis Dienstag.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hallo, hier ist Maria vom Lesekreis. Ich rufe kurz an, um daran zu erinnern:
+      Das nächste Treffen unseres Lesekreises findet wie immer am Dienstagabend um neunzehn Uhr statt.
+      Wir besprechen diesmal die letzten drei Kapitel. Bitte bring das Buch mit!
+      Tschüss und bis Dienstag.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Das ist das Ende von Teil 1.</prosody>
+  </voice>
+</speak>

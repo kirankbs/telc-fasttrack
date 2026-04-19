@@ -1,0 +1,209 @@
+<!-- A1_mock10_listening_part2.ssml
+     Narrator / Announcer  : de-DE-Wavenet-C (female, consistent with A1 mock series)
+     Male speaker           : de-DE-Wavenet-B (male, warm) — prospective tenant asking questions
+     Female speaker 2       : de-DE-Wavenet-C — landlady (Vermieterin) describing the flat
+     Note: same voice distinction as mock08 part2 — tenant = Wavenet-B, landlady = Wavenet-C
+     Theme: Flat rental — number of rooms, rent, kitchen, floor, parking
+     playCount: 2 — the full conversation is played twice.
+     True/False answers:
+       q1: falsch  (one bedroom, not two)
+       q2: richtig (Kaltmiete 650 Euro)
+       q3: richtig (Einbauküche mit Herd und Kühlschrank)
+       q4: falsch  (second floor, not third)
+       q5: richtig (parking space in the courtyard)
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören einen Text. Lesen Sie die Aufgaben 1 bis 5.
+      Kreuzen Sie an: richtig oder falsch.
+      Sie hören den Text zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Tag, Frau Hartmann. Ich rufe wegen der Wohnung an, die Sie vermieten.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag! Ja, gerne. Was möchten Sie wissen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Wie viele Zimmer hat die Wohnung?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Die Wohnung hat ein Schlafzimmer, ein Wohnzimmer, eine Küche und ein Bad.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Und wie hoch ist die Miete?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Die Kaltmiete beträgt sechshundertfünfzig Euro pro Monat. Dazu kommen noch Nebenkosten.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ist eine Küche dabei?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, die Küche ist eine Einbauküche mit Herd und Kühlschrank. Sehr praktisch.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      In welchem Stock liegt die Wohnung?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Die Wohnung liegt im zweiten Stock. Es gibt keinen Aufzug, aber die Treppe ist breit.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Und gibt es einen Parkplatz?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, im Hof gibt es einen Parkplatz, den Sie mitbenutzen können. Das ist inklusive.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das klingt sehr gut. Kann ich die Wohnung besichtigen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Natürlich! Wann passt es Ihnen?
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Tag, Frau Hartmann. Ich rufe wegen der Wohnung an, die Sie vermieten.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag! Ja, gerne. Was möchten Sie wissen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Wie viele Zimmer hat die Wohnung?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Die Wohnung hat ein Schlafzimmer, ein Wohnzimmer, eine Küche und ein Bad.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Und wie hoch ist die Miete?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Die Kaltmiete beträgt sechshundertfünfzig Euro pro Monat. Dazu kommen noch Nebenkosten.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ist eine Küche dabei?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, die Küche ist eine Einbauküche mit Herd und Kühlschrank. Sehr praktisch.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      In welchem Stock liegt die Wohnung?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Die Wohnung liegt im zweiten Stock. Es gibt keinen Aufzug, aber die Treppe ist breit.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Und gibt es einen Parkplatz?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, im Hof gibt es einen Parkplatz, den Sie mitbenutzen können. Das ist inklusive.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das klingt sehr gut. Kann ich die Wohnung besichtigen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Natürlich! Wann passt es Ihnen?
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

@@ -1,0 +1,69 @@
+<!-- A1_mock07_listening_part2.ssml
+     Narrator / Announcer  : de-DE-Wavenet-C (female, consistent with A1 mock series)
+     Male speaker           : de-DE-Wavenet-B (male, warm) — radio-style announcement voice
+     Theme: Sports club / Sportverein Stadtmitte — opening times, children, pool, yoga, registration
+     playCount: 2 — the announcement is played twice.
+     True/False answers:
+       q1: falsch  (club is open Mon–Fri, not closed Monday)
+       q2: richtig (children up to 12 free of charge)
+       q3: falsch  (Hallenbad weekend hours 8–20, not until 22)
+       q4: richtig (yoga for beginners offered Tue+Thu at 18:00)
+       q5: falsch  (can register online or in person at reception)
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören einen Text. Lesen Sie die Aufgaben 1 bis 5.
+      Kreuzen Sie an: richtig oder falsch.
+      Sie hören den Text zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Herzlich willkommen beim Sportverein Stadtmitte!
+      Wir sind der größte Sportverein in unserer Region und freuen uns auf Ihren Besuch.
+      Der Sportverein Stadtmitte ist montags bis freitags von neun bis einundzwanzig Uhr geöffnet.
+      Am Wochenende haben wir von zehn bis achtzehn Uhr auf.
+      Kinder bis zwölf Jahre können kostenlos mitmachen — sie brauchen kein Ticket.
+      Unser Hallenbad ist am Samstag und Sonntag von acht bis zwanzig Uhr geöffnet.
+      Wir bieten auch Yoga für Anfänger an — dienstags und donnerstags um achtzehn Uhr.
+      Der Kurs ist sehr beliebt — melden Sie sich bald an!
+      Sie können sich online oder persönlich an unserer Rezeption anmelden.
+      Wir freuen uns auf Sie!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Herzlich willkommen beim Sportverein Stadtmitte!
+      Wir sind der größte Sportverein in unserer Region und freuen uns auf Ihren Besuch.
+      Der Sportverein Stadtmitte ist montags bis freitags von neun bis einundzwanzig Uhr geöffnet.
+      Am Wochenende haben wir von zehn bis achtzehn Uhr auf.
+      Kinder bis zwölf Jahre können kostenlos mitmachen — sie brauchen kein Ticket.
+      Unser Hallenbad ist am Samstag und Sonntag von acht bis zwanzig Uhr geöffnet.
+      Wir bieten auch Yoga für Anfänger an — dienstags und donnerstags um achtzehn Uhr.
+      Der Kurs ist sehr beliebt — melden Sie sich bald an!
+      Sie können sich online oder persönlich an unserer Rezeption anmelden.
+      Wir freuen uns auf Sie!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

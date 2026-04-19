@@ -1,0 +1,181 @@
+<!-- A1_mock09_listening_part1.ssml
+     Narrator / Announcer  : de-DE-Wavenet-C (female, consistent with A1 mock series)
+     Male speaker           : de-DE-Wavenet-B (male, warm) — ticket office staff, bus announcement
+     Theme: Public transport — train destination, ticket type, bus platform
+     playCount: 2 — every dialog block is played twice with a repeat cue between plays.
+     MCQ answers:
+       q1: b) nach München (Intercity 582 fährt nach München Hauptbahnhof)
+       q2: c) eine Tageskarte (Herr Patel: "ich fahre heute mehrmals")
+       q3: a) von Steig 2 (Ansage: "bitte beachten Sie die Änderung")
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 1. Sie hören drei kurze Texte. Zu jedem Text gibt es eine Aufgabe.
+      Welches Bild passt? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Question 1: Wohin fährt der nächste Zug? Answer: b) nach München -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Achtung auf Gleis drei. Der Intercity fünfhundertzweiundachtzig fährt jetzt ab —
+      Fahrziel München Hauptbahnhof. Bitte einsteigen und Türen schließen.
+      Nächster Halt: Nürnberg Hauptbahnhof.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Achtung auf Gleis drei. Der Intercity fünfhundertzweiundachtzig fährt jetzt ab —
+      Fahrziel München Hauptbahnhof. Bitte einsteigen und Türen schließen.
+      Nächster Halt: Nürnberg Hauptbahnhof.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 2: Was kauft Herr Patel am Schalter? Answer: c) eine Tageskarte -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag! Was darf es sein?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Tag. Ich möchte ein Ticket, bitte.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Einzel- oder Tageskarte?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Eine Tageskarte, bitte — ich fahre heute mehrmals hin und her.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Das macht sieben Euro zwanzig, bitte.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Hier bitte. Danke!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag! Was darf es sein?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Tag. Ich möchte ein Ticket, bitte.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Einzel- oder Tageskarte?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Eine Tageskarte, bitte — ich fahre heute mehrmals hin und her.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Das macht sieben Euro zwanzig, bitte.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Hier bitte. Danke!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 3: Von welchem Steig fährt der Bus ab? Answer: a) von Steig 2 -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Achtung, eine Durchsage für Fahrgäste der Linie achtunddreißig zum Flughafen.
+      Der Bus Linie achtunddreißig nach Flughafen fährt heute von Steig zwei ab —
+      bitte beachten Sie die Änderung. Planmäßige Abfahrt ist um dreizehn Uhr fünfzehn.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Achtung, eine Durchsage für Fahrgäste der Linie achtunddreißig zum Flughafen.
+      Der Bus Linie achtunddreißig nach Flughafen fährt heute von Steig zwei ab —
+      bitte beachten Sie die Änderung. Planmäßige Abfahrt ist um dreizehn Uhr fünfzehn.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 1.</prosody>
+  </voice>
+</speak>

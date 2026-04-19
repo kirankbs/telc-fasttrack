@@ -1,0 +1,201 @@
+<!--
+  A2 Mock 02 — Hören Teil 1: Anrufbeantworter (5 Nachrichten, playCount=2)
+  Theme: Familie — Geburtstag, Familienessen, Reise, Schule, Geschenk
+  Voices:
+    Narrator / instructions : de-DE-Wavenet-C (female, clear)
+    Caller voice (female)   : de-DE-Wavenet-A (female, slightly younger)
+    Caller voice (male)     : de-DE-Wavenet-B (male, neutral)
+  Rate: "medium" for messages (~0.90), "slow" for instructions
+  Structure: each message played twice with "Sie hören die Nachricht noch einmal." between plays.
+-->
+<speak>
+  <break time="3s"/>
+
+  <!-- Teil 1 instructions -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 1. Sie hören fünf kurze Nachrichten auf dem Anrufbeantworter.
+      Zu jeder Nachricht gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text zweimal.
+    </prosody>
+    <break time="3s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Wann feiert die Familie den Geburtstag von Oma Erika? Correct: b) Sonntag um 14 Uhr -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">
+      Hallo, hier ist Mama. Ich wollte kurz Bescheid geben:
+      Die Geburtstagsfeier für Oma Erika ist am Sonntag um 14 Uhr bei uns zu Hause.
+      Bitte kommt pünktlich — Oma freut sich schon sehr!
+      Bis dann, tschüss!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören die Nachricht noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">
+      Hallo, hier ist Mama. Ich wollte kurz Bescheid geben:
+      Die Geburtstagsfeier für Oma Erika ist am Sonntag um 14 Uhr bei uns zu Hause.
+      Bitte kommt pünktlich — Oma freut sich schon sehr!
+      Bis dann, tschüss!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 2: Was soll Klaus zum Familienessen mitbringen? Correct: c) Dessert und Getränke -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">
+      Klaus, hier ist deine Schwester. Für das Familienessen am Sonntag:
+      Kannst du bitte Dessert und Getränke mitbringen?
+      Ich mache das Hauptgericht und Mama bringt einen Salat.
+      Also: Dessert und Getränke — vergiss es nicht! Bis Sonntag!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören die Nachricht noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">
+      Klaus, hier ist deine Schwester. Für das Familienessen am Sonntag:
+      Kannst du bitte Dessert und Getränke mitbringen?
+      Ich mache das Hauptgericht und Mama bringt einen Salat.
+      Also: Dessert und Getränke — vergiss es nicht! Bis Sonntag!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 3: Warum kann Tante Helga nicht kommen? Correct: b) Sie ist auf Reisen. -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">
+      Hallo, hier ist Helga. Es tut mir sehr leid,
+      aber ich bin leider im Urlaub in Spanien und kann am Sonntag nicht dabei sein.
+      Ich denke an Erika und wünsche ihr alles Gute zum Geburtstag!
+      Bis bald, liebe Grüße!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören die Nachricht noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">
+      Hallo, hier ist Helga. Es tut mir sehr leid,
+      aber ich bin leider im Urlaub in Spanien und kann am Sonntag nicht dabei sein.
+      Ich denke an Erika und wünsche ihr alles Gute zum Geburtstag!
+      Bis bald, liebe Grüße!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 4: Was hat Annas Tochter in der Schule gemacht? Correct: a) Eine sehr gute Note bekommen. -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">
+      Hallo, hier ist Anna. Ich muss dir etwas Tolles erzählen!
+      Meine Tochter hat heute in der Schule eine Eins in Mathe bekommen — ihr erstes Mal!
+      Ich bin so glücklich und so stolz auf sie.
+      Ruf mich zurück, wenn du Zeit hast! Tschüss!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören die Nachricht noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">
+      Hallo, hier ist Anna. Ich muss dir etwas Tolles erzählen!
+      Meine Tochter hat heute in der Schule eine Eins in Mathe bekommen — ihr erstes Mal!
+      Ich bin so glücklich und so stolz auf sie.
+      Ruf mich zurück, wenn du Zeit hast! Tschüss!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 5: Was sucht der Vater für ein Geschenk? Correct: b) ein Spielzeug -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Hallo, hier ist Papa. Ich suche noch ein Geschenk für den kleinen Niko zum Geburtstag.
+      Vielleicht ein Spielzeug? Er ist ja erst drei Jahre alt.
+      Hast du eine Idee? Ruf mich bitte kurz zurück. Danke, tschüss!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören die Nachricht noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Hallo, hier ist Papa. Ich suche noch ein Geschenk für den kleinen Niko zum Geburtstag.
+      Vielleicht ein Spielzeug? Er ist ja erst drei Jahre alt.
+      Hast du eine Idee? Ruf mich bitte kurz zurück. Danke, tschüss!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 1.</prosody>
+  </voice>
+</speak>

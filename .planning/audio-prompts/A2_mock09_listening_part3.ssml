@@ -1,0 +1,160 @@
+<!--
+  A2 Mock 09 — Hören Teil 3
+  Theme: Reisen (kurze Gespräche am Bahnhof, im Urlaub, beim Touristen-Info)
+  playCount: 1 — each conversation played once only
+
+  Voice roles:
+    de-DE-Wavenet-B  — Narrator (instructions)
+    de-DE-Wavenet-C  — Female speaker (primary: tourist, wife, passenger)
+    de-DE-Wavenet-D  — Male speaker (primary: tourist, husband, local)
+    de-DE-Wavenet-A  — Female speaker (secondary: hotel staff, ticket clerk)
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören fünf kurze Gespräche.
+      Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig?
+      Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Wo übernachtet die Familie? Correct: b) in einer Ferienwohnung -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Wo schlafen wir eigentlich dieses Jahr im Urlaub? Wieder im Hotel?</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Nein, diesmal habe ich etwas anderes gebucht.
+      Wir haben eine schöne Ferienwohnung direkt am See gemietet — viel günstiger als ein Hotel
+      und mehr Platz für die Kinder. Wir können auch selbst kochen.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das klingt wunderbar! Wie viele Zimmer hat die Wohnung?</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">Drei Zimmer, eine Küche und eine Terrasse mit Seeblick.</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 2: Was vergisst die Frau einzupacken? Correct: c) ihr Ladegerät -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">Bist du fertig? Das Taxi kommt in zehn Minuten.</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Fast — ich packe noch schnell die letzten Sachen... oh nein!</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">Was ist los?</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich habe mein Ladegerät für das Handy vergessen! Es liegt noch am Schreibtisch.</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">Dann hol es schnell — wir haben noch ein paar Minuten.</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 3: Wie kommt der Tourist zum Schloss? Correct: a) zu Fuß, etwa 15 Minuten -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">Entschuldigung, wie komme ich am besten zum Schloss?</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Das Schloss ist zu Fuß etwa fünfzehn Minuten von hier.
+      Gehen Sie diese Straße geradeaus, dann an der Kirche links, und Sie sehen es schon.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">Zu Fuß also. Gut, das mache ich. Vielen Dank!</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Gern! Das Schloss ist wirklich schön — genießen Sie Ihren Besuch.</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 4: Was hat dem Mann an seiner Reise am besten gefallen? Correct: c) der Strand -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Wie war deine Reise nach Kroatien? Was hat dir am besten gefallen?</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Am meisten hat mir der Strand gefallen — das Wasser war so klar und warm!
+      Ich war jeden Tag schwimmen. Das Restaurant war auch gut, aber der Strand war das Beste.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Das klingt traumhaft. Ich möchte nächstes Jahr auch dorthin fahren.</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 5: Was macht die Frau am Bahnschalter? Correct: c) Sie gibt ein Ticket zurück. -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag. Ich möchte dieses Ticket zurückgeben.
+      Meine Pläne haben sich leider geändert und ich kann die Reise nicht mehr machen.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Kein Problem. Darf ich das Ticket sehen?
+      Sie erhalten das Geld zurück, minus einer Bearbeitungsgebühr von zwei Euro.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das ist in Ordnung. Danke schön.</prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>

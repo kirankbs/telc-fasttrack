@@ -1,0 +1,194 @@
+<!--
+  A2 Mock 10 — Hören Teil 1
+  Theme: Einkaufen (Anrufbeantworter-Nachrichten rund ums Einkaufen und Bestellungen)
+  playCount: 2 — each message repeated with "Sie hören den Text jetzt noch einmal."
+
+  Voice roles:
+    de-DE-Wavenet-B  — Narrator (instructions, repeat prompts)
+    de-DE-Wavenet-C  — Female callers / shop staff
+    de-DE-Wavenet-D  — Male callers / customer service
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">
+      Hören, Teil 1. Sie hören fünf kurze Nachrichten auf dem Anrufbeantworter.
+      Zu jeder Nachricht gibt es eine Aufgabe. Was ist richtig?
+      Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Wann kann Frau Dietrich ihr Paket abholen? Correct: b) heute nach 16 Uhr -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Guten Tag, Frau Dietrich. Hier ist der Paketservice Schnell und Sicher.
+      Ihr Paket ist angekommen und liegt in unserer Filiale bereit.
+      Sie können es heute ab sechzehn Uhr abholen.
+      Die Filiale hat bis zwanzig Uhr geöffnet. Bitte bringen Sie Ihren Ausweis mit.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Guten Tag, Frau Dietrich. Hier ist der Paketservice Schnell und Sicher.
+      Ihr Paket ist angekommen und liegt in unserer Filiale bereit.
+      Sie können es heute ab sechzehn Uhr abholen.
+      Die Filiale hat bis zwanzig Uhr geöffnet. Bitte bringen Sie Ihren Ausweis mit.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Aufgabe 2: Warum ruft das Modegeschäft an? Correct: a) Das bestellte Kleid ist angekommen. -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag, hier ist das Modehaus Elegance.
+      Wir freuen uns, Ihnen mitteilen zu können, dass Ihr bestelltes Kleid heute angekommen ist
+      und zur Abholung bereit steht.
+      Unsere Öffnungszeiten sind Montag bis Samstag, zehn bis neunzehn Uhr.
+      Wir freuen uns auf Ihren Besuch!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag, hier ist das Modehaus Elegance.
+      Wir freuen uns, Ihnen mitteilen zu können, dass Ihr bestelltes Kleid heute angekommen ist
+      und zur Abholung bereit steht.
+      Unsere Öffnungszeiten sind Montag bis Samstag, zehn bis neunzehn Uhr.
+      Wir freuen uns auf Ihren Besuch!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Aufgabe 3: Was möchte der Kunde vom Kundenservice wissen? Correct: b) wie er einen Umtausch machen kann -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Hallo, hier ist ein Kunde. Ich habe letzte Woche bei Ihnen online eine Jacke gekauft,
+      aber sie passt leider nicht — sie ist zu groß.
+      Ich würde sie gerne umtauschen. Können Sie mir bitte sagen, wie das funktioniert?
+      Meine Bestellnummer ist sieben-vier-zwei-acht-null. Bitte rufen Sie mich zurück. Danke.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Hallo, hier ist ein Kunde. Ich habe letzte Woche bei Ihnen online eine Jacke gekauft,
+      aber sie passt leider nicht — sie ist zu groß.
+      Ich würde sie gerne umtauschen. Können Sie mir bitte sagen, wie das funktioniert?
+      Meine Bestellnummer ist sieben-vier-zwei-acht-null. Bitte rufen Sie mich zurück. Danke.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Aufgabe 4: Welche Größe hat die Frau bestellt? Correct: b) Größe 40 -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag, ich rufe an wegen meiner Bestellung.
+      Ich habe Größe vierzig bestellt, aber im Paket war Größe achtunddreißig.
+      Das ist eine falsche Lieferung. Ich brauche wirklich Größe vierzig.
+      Können Sie das bitte so schnell wie möglich korrigieren?
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag, ich rufe an wegen meiner Bestellung.
+      Ich habe Größe vierzig bestellt, aber im Paket war Größe achtunddreißig.
+      Das ist eine falsche Lieferung. Ich brauche wirklich Größe vierzig.
+      Können Sie das bitte so schnell wie möglich korrigieren?
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Aufgabe 5: Wann ist das Sonderangebot im Supermarkt zu Ende? Correct: b) am Samstag -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Liebe Kundinnen und Kunden, eine kurze Information:
+      Unser Sonderangebot auf alle Weine und Sekte gilt noch bis Samstag.
+      Bis zu dreißig Prozent Rabatt auf ausgewählte Flaschen.
+      Ab Sonntag gelten wieder die normalen Preise. Nutzen Sie das Angebot!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Liebe Kundinnen und Kunden, eine kurze Information:
+      Unser Sonderangebot auf alle Weine und Sekte gilt noch bis Samstag.
+      Bis zu dreißig Prozent Rabatt auf ausgewählte Flaschen.
+      Ab Sonntag gelten wieder die normalen Preise. Nutzen Sie das Angebot!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Das ist das Ende von Teil 1.</prosody>
+  </voice>
+</speak>

@@ -1,0 +1,109 @@
+<!--
+  A2 Mock 10 — Hören Teil 2
+  Theme: Einkaufen (Radiodurchsagen über Geschäfte, Angebote, Einkaufsmöglichkeiten)
+  playCount: 1 — each announcement played once only
+
+  Voice roles:
+    de-DE-Wavenet-B  — Narrator (instructions)
+    de-DE-Wavenet-C  — Female radio presenter / shop announcer
+    de-DE-Wavenet-D  — Male radio presenter / shop announcer
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören fünf kurze Radiodurchsagen.
+      Zu jeder Durchsage gibt es eine Aufgabe. Was ist richtig?
+      Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Wann hat das neue Einkaufszentrum geöffnet? Correct: a) montags bis samstags von 9 bis 21 Uhr -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Das neue CityCenter lädt Sie ein! Über hundert Geschäfte, Restaurants und ein Kino — alles unter einem Dach.
+      Wir sind für Sie montags bis samstags von neun bis einundzwanzig Uhr geöffnet.
+      Parkhaus mit tausend Plätzen direkt am Gebäude. Wir freuen uns auf Sie!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 2: Was gibt es bei dem Online-Shop im Angebot? Correct: b) kostenlosen Versand bei Bestellungen über 50 Euro -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Shoppen Sie bequem von zu Hause! Diese Woche bei ModeOnline:
+      Kostenloser Versand für alle Bestellungen ab fünfzig Euro.
+      Einfach in den Warenkorb legen und bestellen — der Versand wird automatisch kostenlos.
+      Besuchen Sie uns auf modeOnline.de.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 3: Warum ist das Kaufhaus am Montag geschlossen? Correct: c) wegen einer Betriebsfeier -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Ein Hinweis für unsere Kundinnen und Kunden: Unser Kaufhaus bleibt am kommenden Montag geschlossen.
+      Wir feiern unser jährliches Betriebsfest mit dem ganzen Team.
+      Ab Dienstag sind wir wieder wie gewohnt für Sie da. Vielen Dank für Ihr Verständnis!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 4: Wo findet der Flohmarkt statt? Correct: b) auf dem Marktplatz -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Tipp für den Sonntag: Der große Frühjahrsflohmarkt findet diesen Sonntag auf dem Marktplatz statt.
+      Über zweihundert Anbieter verkaufen Kleidung, Möbel, Bücher und Antiquitäten.
+      Eintritt frei — von acht bis sechzehn Uhr. Kommen Sie vorbei und stöbern Sie!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 5: Welches Produkt ist heute im Supermarkt reduziert? Correct: b) Milchprodukte -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Guten Tag, liebe Kundinnen und Kunden des Frischmarkt.
+      Heute im Angebot: alle Milchprodukte dreißig Prozent günstiger —
+      Joghurt, Käse, Butter und Quark aus der Region.
+      Das Angebot gilt nur heute, solange der Vorrat reicht. Guten Appetit!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

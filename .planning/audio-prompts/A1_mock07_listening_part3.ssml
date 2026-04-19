@@ -1,0 +1,140 @@
+<!-- A1_mock07_listening_part3.ssml
+     Narrator / Announcer  : de-DE-Wavenet-C (female, consistent with A1 mock series)
+     Male speaker           : de-DE-Wavenet-B (male, warm)
+     Theme: Sport shop, training schedule, meeting place
+     playCount: 1 — each dialog played once only.
+     MCQ answers:
+       q1: b) eine Schwimmbrille (Frau fragt nach Schwimmbrillen, kauft eine)
+       q2: c) dreimal (Lukas: Montag, Mittwoch, Freitag)
+       q3: c) im Park (Anna und Tobias verabreden sich am Haupteingang des Parks)
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören drei Gespräche. Zu jedem Gespräch gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Question 1: Was kauft die Frau im Sportgeschäft? Answer: b) eine Schwimmbrille -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag! Kann ich Ihnen helfen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, gerne. Haben Sie Schwimmbrillen? Ich brauche eine für das Training.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Natürlich, hier haben wir verschiedene Modelle. Diese hier ist sehr beliebt beim Training.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Die sieht gut aus. Wie viel kostet sie?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Zwölf Euro neunzig. Soll ich sie einpacken?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, die nehme ich. Danke!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 2: Wie oft trainiert Lukas pro Woche? Answer: c) dreimal -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Lukas, wie oft trainierst du eigentlich pro Woche?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ich trainiere dreimal pro Woche: Montag, Mittwoch und Freitag.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Wow, das ist viel! Wie lange trainierst du dann?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Meistens eine Stunde, manchmal auch eineinhalb Stunden.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 3: Wo treffen sich die Freunde am Sonntag? Answer: c) im Park -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Tobias, wir wollen uns am Sonntag treffen. Wo sollen wir uns treffen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Vielleicht im Café oder am Bahnhof?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Treffen wir uns lieber im Park, am Haupteingang um elf Uhr?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, gerne! Im Park ist schön, wenn das Wetter gut ist.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Gut, dann also Sonntag, elf Uhr, am Haupteingang. Bis dann!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 3, und das Ende des Hörtests.</prosody>
+  </voice>
+</speak>

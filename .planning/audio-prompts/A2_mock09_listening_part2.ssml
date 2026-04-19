@@ -1,0 +1,110 @@
+<!--
+  A2 Mock 09 — Hören Teil 2
+  Theme: Reisen (Radiodurchsagen über Verkehr, Reiseangebote, Tourismus)
+  playCount: 1 — each announcement played once only
+
+  Voice roles:
+    de-DE-Wavenet-B  — Narrator (instructions)
+    de-DE-Wavenet-C  — Female radio presenter / advertiser
+    de-DE-Wavenet-D  — Male radio presenter / advertiser
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören fünf kurze Radiodurchsagen.
+      Zu jeder Durchsage gibt es eine Aufgabe. Was ist richtig?
+      Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Welche Straße ist wegen Bauarbeiten gesperrt? Correct: c) die Ringstraße -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Aktuelle Verkehrsmeldung: Die Ringstraße ist ab heute wegen Fahrbahnarbeiten bis Ende des Monats gesperrt.
+      Bitte nutzen Sie die Umleitung über die Westallee und die Parkstraße.
+      Planen Sie mehr Zeit ein — es kann zu Verzögerungen kommen.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 2: Was kostet eine Bahnfahrt nach Berlin mit der Sparcard? Correct: b) 29 Euro -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Reisen Sie günstig mit der Bahn! Mit unserer Sparcard fahren Sie nach Berlin schon ab neunundzwanzig Euro.
+      Das Angebot gilt für Fahrten von Montag bis Donnerstag.
+      Jetzt buchen auf bahn.de — Tickets sind begrenzt verfügbar.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 3: Wann öffnet das neue Touristenbüro am Marktplatz? Correct: a) am Montag -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Gute Nachrichten für Touristen und Einheimische:
+      Das neue Tourist-Information-Büro am Marktplatz öffnet am kommenden Montag seine Türen.
+      Dort finden Sie Stadtpläne, Veranstaltungshinweise und persönliche Beratung auf Deutsch und Englisch.
+      Öffnungszeiten: täglich von neun bis achtzehn Uhr.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 4: Womit wirbt das Reisebüro? Correct: b) mit Pauschalreisen in die Türkei -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Urlaub gefällig? Buchen Sie jetzt Ihre Pauschalreise in die Türkei!
+      Zwei Wochen All-inclusive ab fünfhundertneunundneunzig Euro pro Person.
+      Hotel direkt am Strand, Flug inklusive. Angebot gültig bis Ende des Monats.
+      Ihr Reisebüro Traumurlaub — wir beraten Sie gerne.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 5: Welches Verkehrsmittel wird bei der Stadtführung benutzt? Correct: a) ein Fahrrad -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Entdecken Sie unsere Stadt auf zwei Rädern!
+      Unsere Stadtführung per Fahrrad startet jeden Samstag um zehn Uhr am Hauptbahnhof.
+      Fahrräder und Helme werden gestellt — Sie brauchen nichts mitzubringen.
+      Die Tour dauert etwa drei Stunden und kostet zwölf Euro. Anmeldung erforderlich.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

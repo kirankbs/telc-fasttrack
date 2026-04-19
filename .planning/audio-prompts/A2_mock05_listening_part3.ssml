@@ -1,0 +1,148 @@
+<!--
+  A2 Mock 05 — Hören Teil 3: Kurze Gespräche (5 Dialoge, playCount=1)
+  Theme: Gesundheit & Behörden — Arztbesuch, Terminkonflikt, Amt vergessen, Wartezeit, Verabredung
+  Voices:
+    Narrator / instructions : de-DE-Wavenet-C (female, clear)
+    Female speaker          : de-DE-Wavenet-A (female, slightly younger)
+    Male speaker            : de-DE-Wavenet-B (male, neutral)
+  Rate: "medium" for dialogues, "slow" for instructions
+  Structure: each dialogue played ONCE only.
+-->
+<speak>
+  <break time="3s"/>
+
+  <!-- Teil 3 instructions -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören fünf kurze Gespräche.
+      Zu jedem Gespräch gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text einmal.
+    </prosody>
+    <break time="3s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Was möchte die Frau vom Arzt? Correct: c) eine Krankmeldung -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Guten Morgen! Was kann ich für Sie tun?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">
+      Guten Morgen, Herr Doktor. Ich bin seit gestern krank und kann nicht arbeiten.
+      Ich brauche eine Krankmeldung für meinen Arbeitgeber.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Natürlich. Haben Sie auch Schmerzen oder nur Erkältungssymptome?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Hauptsächlich Erkältung — Halsschmerzen und Fieber.</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 2: Warum kann Herr Bauer den Termin nicht annehmen? Correct: b) Er hat schon einen anderen Termin. -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Herr Bauer, passt Ihnen Dienstag um 14 Uhr?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Den Dienstagtermin kann ich leider nicht nehmen.
+      Ich habe an dem Tag schon eine Besprechung mit einem Kunden.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Kein Problem. Wie wäre es mit Donnerstag?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Donnerstag passt perfekt. Danke!</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 3: Was hat die Frau beim Amt vergessen? Correct: b) eine Kopie ihres Reisepasses -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ich schaue kurz Ihre Unterlagen durch...
+      Alles ist vollständig — aber wir brauchen noch eine Kopie Ihres Reisepasses.
+      Die haben Sie heute leider nicht dabei.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Oh, das tut mir leid. Ich habe ihn vergessen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Kein Problem. Schicken Sie uns die Kopie per E-Mail und wir bearbeiten es dann.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Das mache ich heute noch. Danke für Ihr Verständnis.</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 4: Wie lange muss der Mann auf seinen Termin warten? Correct: b) etwa 20 Minuten -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Entschuldigung, ich habe einen Termin um 11 Uhr beim Doktor.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">
+      Ja, ich sehe Sie hier. Der Arzt hat noch einen Patienten.
+      Bitte nehmen Sie Platz — das dauert ungefähr 20 Minuten.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">In Ordnung, danke. Ich warte.</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 5: Was vereinbaren die zwei Personen? Correct: b) ein Telefonat morgen Vormittag -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Haben Sie noch Fragen zu den Unterlagen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, noch ein paar Kleinigkeiten. Können wir das morgen besprechen?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">
+      Natürlich. Dann rufe ich Sie morgen Vormittag noch einmal an,
+      um die Details zu besprechen. Passt 10 Uhr?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, 10 Uhr ist gut. Ich freue mich auf Ihren Anruf.</prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>

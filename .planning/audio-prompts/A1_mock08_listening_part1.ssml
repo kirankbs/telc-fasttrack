@@ -1,0 +1,195 @@
+<!-- A1_mock08_listening_part1.ssml
+     Narrator / Announcer  : de-DE-Wavenet-C (female, consistent with A1 mock series)
+     Male speaker           : de-DE-Wavenet-B (male, warm) — doctor, pharmacist, male patient
+     Theme: Health — symptoms, doctor's office hours, pharmacy
+     playCount: 2 — every dialog block is played twice with a repeat cue between plays.
+     MCQ answers:
+       q1: b) Bauchschmerzen (die Frau sagt "seit gestern Bauchschmerzen")
+       q2: b) Montag bis Freitag, 8 bis 12 Uhr und 14 bis 17 Uhr
+       q3: c) Hustensaft und Nasentropfen
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 1. Sie hören drei kurze Texte. Zu jedem Text gibt es eine Aufgabe.
+      Kreuzen Sie die richtige Antwort an: a, b oder c.
+      Sie hören jeden Text zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Question 1: Was hat die Frau? Answer: b) Bauchschmerzen -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Tag. Was kann ich für Sie tun?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag, Herr Doktor. Ich habe seit gestern Bauchschmerzen und kann nichts essen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Haben Sie auch Fieber oder Halsschmerzen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Nein, nur die Bauchschmerzen. Ich fühle mich sehr schwach.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Tag. Was kann ich für Sie tun?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag, Herr Doktor. Ich habe seit gestern Bauchschmerzen und kann nichts essen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Haben Sie auch Fieber oder Halsschmerzen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Nein, nur die Bauchschmerzen. Ich fühle mich sehr schwach.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 2: Wann hat die Arztpraxis geöffnet? Answer: b) Mo–Fr, 8–12 und 14–17 Uhr -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Willkommen in der Praxis Dr. Meier. Sie haben den Anrufbeantworter erreicht.
+      Unsere Sprechzeiten sind Montag bis Freitag von acht bis zwölf Uhr
+      und von vierzehn bis siebzehn Uhr.
+      Samstags und sonntags ist die Praxis geschlossen.
+      Für Termine rufen Sie bitte in den Sprechzeiten an. Auf Wiederhören.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Willkommen in der Praxis Dr. Meier. Sie haben den Anrufbeantworter erreicht.
+      Unsere Sprechzeiten sind Montag bis Freitag von acht bis zwölf Uhr
+      und von vierzehn bis siebzehn Uhr.
+      Samstags und sonntags ist die Praxis geschlossen.
+      Für Termine rufen Sie bitte in den Sprechzeiten an. Auf Wiederhören.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 3: Was kauft der Mann in der Apotheke? Answer: c) Hustensaft und Nasentropfen -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Tag! Ich habe ein Rezept vom Arzt.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Moment bitte. Ja, ich sehe es hier. Einen Augenblick.
+      Hier sind Ihr Hustensaft und die Nasentropfen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Danke schön. Wie nehme ich das ein?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Den Hustensaft dreimal täglich, einen Teelöffel. Die Nasentropfen zweimal täglich, drei Tropfen pro Nase.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Tag! Ich habe ein Rezept vom Arzt.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Moment bitte. Ja, ich sehe es hier. Einen Augenblick.
+      Hier sind Ihr Hustensaft und die Nasentropfen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Danke schön. Wie nehme ich das ein?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Den Hustensaft dreimal täglich, einen Teelöffel. Die Nasentropfen zweimal täglich, drei Tropfen pro Nase.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 1.</prosody>
+  </voice>
+</speak>

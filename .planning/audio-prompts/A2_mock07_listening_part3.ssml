@@ -1,0 +1,162 @@
+<!--
+  A2 Mock 07 — Hören Teil 3
+  Theme: Freizeit (kurze Gespräche über Hobbys und Freizeitpläne)
+  playCount: 1 — each conversation played once only
+
+  Voice roles:
+    de-DE-Wavenet-B  — Narrator (instructions)
+    de-DE-Wavenet-C  — Female speaker (primary)
+    de-DE-Wavenet-D  — Male speaker (primary)
+    de-DE-Wavenet-A  — Female speaker (secondary)
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören fünf kurze Gespräche.
+      Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig?
+      Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Was machen die zwei Freunde am Sonntagvormittag? Correct: b) Sie machen eine Radtour. -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Was machen wir denn Sonntagvormittag? Ins Fitnessstudio?</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Nein, das wäre mir zu langweilig bei dem schönen Wetter.
+      Lass uns lieber eine Radtour entlang des Flusses machen — ich zeige dir die schöne Strecke.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Gute Idee! Dann machen wir das. Um wie viel Uhr treffen wir uns?</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">Um zehn Uhr an der Brücke. Bring Wasser und einen kleinen Snack mit.</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 2: Warum kann die Frau nicht ins Konzert gehen? Correct: a) Die Karten sind ausverkauft. -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">Kommst du auch zum Konzert am Freitag? Ich habe mir eine Karte gekauft.</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ich wollte auch gehen, aber als ich die Karten kaufen wollte, waren sie schon alle ausverkauft.
+      Das war so schade — ich liebe diese Band.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">Oh nein! Vielleicht gibt es noch Karten an der Abendkasse.</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das habe ich auch schon gedacht. Ich versuche es mal.</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 3: Was hat der Mann gestern Abend gemacht? Correct: c) Er hat ein Buch gelesen. -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Was hast du gestern Abend gemacht? Warst du beim Sportverein?</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">
+      Nein, gestern Abend war ich einfach gemütlich zu Hause und habe stundenlang gelesen.
+      Ich lese gerade einen Krimi und kann nicht aufhören — der ist wirklich spannend.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="medium">Oh, ich lese auch gerne. Wie heißt das Buch?</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">Der Schatten im Norden. Ich gebe es dir, wenn ich fertig bin.</prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 4: Welches Hobby interessiert die Frau neu? Correct: a) Fotografie -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Weißt du was — ich habe letztes Wochenende an einem Fotokurs teilgenommen.
+      Das hat mich wirklich begeistert. Ich glaube, Fotografie wird mein neues Hobby!
+    </prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">Echt? Ich dachte, du interessierst dich für Töpfern oder so etwas.</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Nein, das ist mir zu langsam. Mit der Kamera kann ich draußen sein und die Welt entdecken.
+      Das gefällt mir viel besser.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <!-- Aufgabe 5: Was wollen die zwei Personen zusammen planen? Correct: b) einen Spieleabend -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hey, ich habe eine Idee. Lass uns einen Spieleabend organisieren!
+      Ich habe so viele neue Brettspiele und wir könnten alle Freunde einladen.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">Super Idee! Wann denn? Ich bin am nächsten Samstag frei.</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Perfekt. Dann bei mir, ab sieben Uhr. Ich schreibe allen eine Nachricht.</prosody>
+  </voice>
+  <break time="1s"/>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="medium">Ich bringe Getränke mit. Das wird schön!</prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="slow">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>

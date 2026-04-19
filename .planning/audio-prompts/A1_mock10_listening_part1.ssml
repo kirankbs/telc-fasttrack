@@ -1,0 +1,191 @@
+<!-- A1_mock10_listening_part1.ssml
+     Narrator / Announcer  : de-DE-Wavenet-C (female, consistent with A1 mock series)
+     Male speaker           : de-DE-Wavenet-B (male, warm) — market vendor, shop assistant
+     Theme: Food shopping — supermarket, market stall prices, Wochenmarkt location
+     playCount: 2 — every dialog block is played twice with a repeat cue between plays.
+     MCQ answers:
+       q1: b) Äpfel und Käse (die Frau sagt "Brot haben wir noch")
+       q2: b) 1,99 Euro (der Verkäufer: "ein Euro neunundneunzig")
+       q3: c) Auf dem Marktplatz (Durchsage: "jeden Samstag auf dem Marktplatz")
+-->
+<speak>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 1. Sie hören drei kurze Texte. Zu jedem Text gibt es eine Aufgabe.
+      Kreuzen Sie die richtige Antwort an: a, b oder c.
+      Sie hören jeden Text zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Question 1: Was kauft die Frau im Supermarkt? Answer: b) Äpfel und Käse -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Was brauchen wir noch? Soll ich kurz in den Supermarkt gehen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, bitte. Ich brauche Äpfel und Käse. Brot haben wir noch.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Also Äpfel und Käse. Welchen Käse soll ich kaufen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Den normalen Gouda, das reicht. Und bitte einen Kilo Äpfel.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Was brauchen wir noch? Soll ich kurz in den Supermarkt gehen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, bitte. Ich brauche Äpfel und Käse. Brot haben wir noch.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Also Äpfel und Käse. Welchen Käse soll ich kaufen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Den normalen Gouda, das reicht. Und bitte einen Kilo Äpfel.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 2: Wie viel kostet das Kilo Tomaten? Answer: b) 1,99 Euro -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Entschuldigung, was kosten die Tomaten hier?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das Kilo Tomaten kostet heute ein Euro neunundneunzig. Das ist unser Tagesangebot.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Oh, das ist günstig! Dann nehme ich zwei Kilo.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Sehr gerne. Das macht drei Euro achtundneunzig zusammen.
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Entschuldigung, was kosten die Tomaten hier?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das Kilo Tomaten kostet heute ein Euro neunundneunzig. Das ist unser Tagesangebot.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Oh, das ist günstig! Dann nehme ich zwei Kilo.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Sehr gerne. Das macht drei Euro achtundneunzig zusammen.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <!-- Question 3: Wo ist der Wochenmarkt? Answer: c) Auf dem Marktplatz -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- First play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Liebe Bürgerinnen und Bürger, eine Information der Stadtverwaltung:
+      Der Wochenmarkt findet jeden Samstag auf dem Marktplatz statt —
+      von acht bis dreizehn Uhr. Frisches Gemüse, Obst, Brot und mehr.
+      Wir freuen uns auf Ihren Besuch!
+    </prosody>
+  </voice>
+
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören den Text jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+
+  <!-- Second play -->
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Liebe Bürgerinnen und Bürger, eine Information der Stadtverwaltung:
+      Der Wochenmarkt findet jeden Samstag auf dem Marktplatz statt —
+      von acht bis dreizehn Uhr. Frisches Gemüse, Obst, Brot und mehr.
+      Wir freuen uns auf Ihren Besuch!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 1.</prosody>
+  </voice>
+</speak>
