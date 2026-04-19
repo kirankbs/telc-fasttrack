@@ -2,12 +2,663 @@
   "id": "A2_mock_04",
   "level": "A2",
   "title": "Übungstest 4",
-  "version": 0,
-  "_stub": true,
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Nachrichten auf dem Anrufbeantworter. Zu jeder Nachricht gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.",
+          "instructionsTranslation": "You will hear five short telephone messages. For each message there is one task. What is correct? Mark: a, b, or c. You will hear each recording twice.",
+          "audioFile": "assets/audio/A2/mock04/listening_part1.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A2_m04_L1_q1",
+              "type": "mcq",
+              "questionText": "Was hat das Restaurant am Dienstagabend nicht mehr vorrätig?",
+              "options": [
+                "a) die Tagessuppe",
+                "b) das Lammgericht",
+                "c) den Obstkuchen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Anrufbeantworter des Restaurants sagt: 'Unser Lammgericht ist heute Abend leider ausverkauft — wir empfehlen stattdessen das Fischgericht.' Die Suppe und der Kuchen sind noch verfügbar.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m04_L1_q2",
+              "type": "mcq",
+              "questionText": "Warum ruft Frau Brenner an?",
+              "options": [
+                "a) Sie möchte einen Tisch reservieren.",
+                "b) Sie fragt nach den Öffnungszeiten.",
+                "c) Sie möchte eine Bestellung stornieren."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Frau Brenner sagt: 'Guten Tag, ich möchte gerne einen Tisch für vier Personen für Freitagabend reservieren.' Sie ruft also wegen einer Reservierung an, nicht wegen Öffnungszeiten oder einer Stornierung.",
+              "audioTimestamp": 7
+            },
+            {
+              "id": "A2_m04_L1_q3",
+              "type": "mcq",
+              "questionText": "Was soll Kai auf dem Markt kaufen?",
+              "options": [
+                "a) Tomaten und Paprika",
+                "b) Kartoffeln und Zwiebeln",
+                "c) Äpfel und Birnen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Nachricht sagt: 'Kai, könntest du bitte auf dem Markt Kartoffeln und Zwiebeln kaufen? Ich mache heute Abend einen Eintopf.' Tomaten und Obst werden in dieser Nachricht nicht erwähnt.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "A2_m04_L1_q4",
+              "type": "mcq",
+              "questionText": "Wann ist die Pizzeria geöffnet?",
+              "options": [
+                "a) täglich von 11 bis 22 Uhr",
+                "b) dienstags bis sonntags von 12 bis 23 Uhr",
+                "c) montags bis samstags von 11 bis 23 Uhr"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Anrufbeantworter der Pizzeria sagt: 'Unsere Öffnungszeiten sind dienstags bis sonntags von 12 bis 23 Uhr — montags haben wir Ruhetag.' Die anderen Zeiten stimmen nicht.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m04_L1_q5",
+              "type": "mcq",
+              "questionText": "Was hat Mia beim Kochen falsch gemacht?",
+              "options": [
+                "a) Sie hat zu viel Salz genommen.",
+                "b) Sie hat das Fleisch zu lange gebraten.",
+                "c) Sie hat die Nudeln vergessen."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Mia erklärt auf dem Anrufbeantworter: 'Ich habe das Rezept ausprobiert, aber der Eintopf ist viel zu salzig — ich glaube, ich habe zu viel Salz genommen.' Das Fleisch und die Nudeln sind kein Problem.",
+              "audioTimestamp": 8
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören fünf kurze Radiodurchsagen. Zu jeder Durchsage gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear five short radio announcements. For each announcement there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A2/mock04/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A2_m04_L2_q1",
+              "type": "mcq",
+              "questionText": "Was ist heute im Supermarkt reduziert?",
+              "options": [
+                "a) alle Milchprodukte",
+                "b) frisches Obst und Gemüse",
+                "c) Fleisch und Wurst"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Radiowerbung sagt: 'Nur heute: alle Milchprodukte 30 Prozent günstiger — Joghurt, Käse, Butter und mehr.' Obst, Gemüse und Fleisch sind nicht im Angebot.",
+              "audioTimestamp": 5
+            },
+            {
+              "id": "A2_m04_L2_q2",
+              "type": "mcq",
+              "questionText": "Worum geht es in der Radiosendung über Ernährung?",
+              "options": [
+                "a) Tipps für vegetarische Ernährung",
+                "b) gesundes Frühstück für Kinder",
+                "c) neue Diätmethoden"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Radiomoderator kündigt an: 'In unserer nächsten Sendung sprechen wir über gesundes Frühstück für Kinder — was sollten sie morgens essen?' Es geht also um Kinderfrühstück.",
+              "audioTimestamp": 7
+            },
+            {
+              "id": "A2_m04_L2_q3",
+              "type": "mcq",
+              "questionText": "Wann findet das internationale Streetfood-Festival statt?",
+              "options": [
+                "a) am kommenden Wochenende",
+                "b) in zwei Wochen",
+                "c) nächsten Monat"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Radiodurchsage sagt: 'Das internationale Streetfood-Festival findet dieses Wochenende auf dem Marktplatz statt — mit Gerichten aus über 20 Ländern.' Es ist also am kommenden Wochenende.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "A2_m04_L2_q4",
+              "type": "mcq",
+              "questionText": "Was empfiehlt der Ernährungsexperte im Radio?",
+              "options": [
+                "a) jeden Tag Fisch zu essen",
+                "b) mehr Wasser zu trinken",
+                "c) kein Fleisch mehr zu essen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Experte sagt: 'Meine wichtigste Empfehlung: trinken Sie mindestens zwei Liter Wasser pro Tag — die meisten Menschen trinken viel zu wenig.' Er empfiehlt mehr Wasser, nicht täglichen Fisch oder Fleischverzicht.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m04_L2_q5",
+              "type": "mcq",
+              "questionText": "Wo kann man das neue Kochbuch kaufen?",
+              "options": [
+                "a) nur im Internet",
+                "b) in allen Buchhandlungen",
+                "c) im Supermarkt und online"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Radioanzeige informiert: 'Das neue Kochbuch von Chefkoch Bauer ist ab sofort in allen Buchhandlungen erhältlich.' Es ist in Buchhandlungen, nicht im Supermarkt oder nur online.",
+              "audioTimestamp": 5
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear five short conversations. For each conversation there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A2/mock04/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A2_m04_L3_q1",
+              "type": "mcq",
+              "questionText": "Was möchte der Gast im Restaurant nicht essen?",
+              "options": [
+                "a) Meeresfrüchte",
+                "b) scharfes Essen",
+                "c) Fleisch"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Gast erklärt dem Kellner: 'Ich bin Vegetarier und esse kein Fleisch — können Sie mir etwas Vegetarisches empfehlen?' Er meidet also Fleisch, nicht Meeresfrüchte oder Scharfes.",
+              "audioTimestamp": 10
+            },
+            {
+              "id": "A2_m04_L3_q2",
+              "type": "mcq",
+              "questionText": "Was wollen die zwei Freunde heute Abend kochen?",
+              "options": [
+                "a) Pasta mit Tomatensoße",
+                "b) Gemüsesuppe",
+                "c) Hähnchen mit Reis"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Im Gespräch sagt die Freundin: 'Lass uns heute Pasta machen — ich habe noch Tomaten und Knoblauch da, das reicht für eine gute Soße.' Sie kochen also Pasta mit Tomatensoße.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m04_L3_q3",
+              "type": "mcq",
+              "questionText": "Warum geht Herr Fischer nicht in die Kantine?",
+              "options": [
+                "a) Das Essen schmeckt ihm nicht.",
+                "b) Die Kantine ist zu teuer.",
+                "c) Die Kantine ist heute geschlossen."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Herr Fischer sagt: 'Ich gehe seit Monaten nicht mehr in die Kantine — ein Mittagessen kostet dort über acht Euro, das ist mir zu viel.' Er geht wegen der Preise nicht hin.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m04_L3_q4",
+              "type": "mcq",
+              "questionText": "Was braucht die Frau noch für das Rezept?",
+              "options": [
+                "a) Mehl und Eier",
+                "b) Butter und Zucker",
+                "c) Milch und Backpulver"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Frau sagt: 'Mehl und Eier habe ich, Butter und Zucker auch — aber ich brauche noch Milch und Backpulver für den Kuchen.' Sie braucht also Milch und Backpulver.",
+              "audioTimestamp": 7
+            },
+            {
+              "id": "A2_m04_L3_q5",
+              "type": "mcq",
+              "questionText": "Wie findet der Mann das neue Restaurant?",
+              "options": [
+                "a) sehr gut — er will wieder hingehen",
+                "b) in Ordnung — aber zu teuer",
+                "c) nicht gut — das Essen war kalt"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Mann schwärmt: 'Das neue griechische Restaurant ist wirklich ausgezeichnet — das Essen war frisch und lecker, und der Service war super. Wir gehen nächste Woche wieder hin.' Er ist sehr zufrieden.",
+              "audioTimestamp": 11
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 25,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie die fünf Anzeigen. Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es genau eine passende Anzeige. Schreiben Sie den Buchstaben der Anzeige.",
+          "instructionsTranslation": "Read the five advertisements. Which advertisement matches which situation? For each situation there is exactly one matching advertisement. Write the letter of the advertisement.",
+          "texts": [
+            {
+              "id": "A2_m04_R1_text_a",
+              "type": "ad",
+              "content": "ANZEIGE A — Kochkurs für Anfänger\nSie können nicht kochen? Kein Problem! Unsere Kochkurse für Anfänger beginnen am 5. Mai. 6 Abende, je 3 Stunden. Wir kochen gemeinsam einfache internationale Gerichte. Preis: 85 Euro inkl. Zutaten. VHS Stadtmitte, Tel. 0521 112 33 44"
+            },
+            {
+              "id": "A2_m04_R1_text_b",
+              "type": "ad",
+              "content": "ANZEIGE B — Biokiste nach Hause\nFrisches Biogemüse und Obst direkt vom Bauernhof zu Ihnen nach Hause! Wöchentliche Lieferung, Preis ab 18 Euro pro Kiste. Kein Vertrag, jederzeit kündbar. Bestellen Sie unter: www.gruene-kiste.de"
+            },
+            {
+              "id": "A2_m04_R1_text_c",
+              "type": "ad",
+              "content": "ANZEIGE C — Restaurant Zur Alten Mühle\nFamilienrestaurant mit gemütlicher Atmosphäre. Hausgemachte Küche, täglich wechselnde Mittagsgerichte (7,90 – 10,50 €). Kinderteller und vegetarische Gerichte vorhanden. Mo–Sa 11–22 Uhr. Reservierung: 0521 567 89 10"
+            },
+            {
+              "id": "A2_m04_R1_text_d",
+              "type": "ad",
+              "content": "ANZEIGE D — Catering Service Müller\nSie planen eine Feier oder ein Bürofest? Wir liefern frisches Buffet für 10 bis 200 Personen. Kalte und warme Speisen, individuelle Menüplanung. Angebot anfordern: catering@mueller-events.de"
+            },
+            {
+              "id": "A2_m04_R1_text_e",
+              "type": "ad",
+              "content": "ANZEIGE E — Rezepte-App FoodBox\nÜber 5.000 Rezepte für jeden Geschmack! Filtere nach Zutaten, die du schon hast. Einkaufslisten-Funktion inklusive. Kostenlos in App Store und Google Play. Jetzt herunterladen!"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m04_R1_q1",
+              "type": "matching",
+              "questionText": "Leon möchte kochen lernen, hat aber noch nie selbst gekocht.",
+              "matchingSources": [
+                { "id": "A2_m04_R1_text_a", "label": "A" },
+                { "id": "A2_m04_R1_text_b", "label": "B" },
+                { "id": "A2_m04_R1_text_c", "label": "C" },
+                { "id": "A2_m04_R1_text_d", "label": "D" },
+                { "id": "A2_m04_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Anzeige A bietet einen Kochkurs speziell für Anfänger an — genau richtig für Leon, der noch nie gekocht hat. Die anderen Anzeigen bieten Lieferservice, Restaurant, Catering oder eine App an."
+            },
+            {
+              "id": "A2_m04_R1_q2",
+              "type": "matching",
+              "questionText": "Familie Bauer möchte mit den Kindern essen gehen und sucht ein Lokal mit Kinderteller.",
+              "matchingSources": [
+                { "id": "A2_m04_R1_text_a", "label": "A" },
+                { "id": "A2_m04_R1_text_b", "label": "B" },
+                { "id": "A2_m04_R1_text_c", "label": "C" },
+                { "id": "A2_m04_R1_text_d", "label": "D" },
+                { "id": "A2_m04_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Anzeige C erwähnt explizit 'Kinderteller' und beschreibt sich als Familienrestaurant — ideal für Familie Bauer mit Kindern."
+            },
+            {
+              "id": "A2_m04_R1_q3",
+              "type": "matching",
+              "questionText": "Petra möchte nicht immer in den Supermarkt fahren und sucht frisches Gemüse per Lieferung.",
+              "matchingSources": [
+                { "id": "A2_m04_R1_text_a", "label": "A" },
+                { "id": "A2_m04_R1_text_b", "label": "B" },
+                { "id": "A2_m04_R1_text_c", "label": "C" },
+                { "id": "A2_m04_R1_text_d", "label": "D" },
+                { "id": "A2_m04_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Anzeige B liefert frisches Bio-Gemüse und Obst direkt nach Hause — genau das, was Petra sucht. Kein Vertrag und wöchentliche Lieferung machen es flexibel."
+            },
+            {
+              "id": "A2_m04_R1_q4",
+              "type": "matching",
+              "questionText": "Die Firma Wagner plant eine Betriebsfeier mit 50 Mitarbeitern und braucht Essen für alle.",
+              "matchingSources": [
+                { "id": "A2_m04_R1_text_a", "label": "A" },
+                { "id": "A2_m04_R1_text_b", "label": "B" },
+                { "id": "A2_m04_R1_text_c", "label": "C" },
+                { "id": "A2_m04_R1_text_d", "label": "D" },
+                { "id": "A2_m04_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Anzeige D bietet Catering für Feiern und Bürofeste für bis zu 200 Personen an — perfekt für die Betriebsfeier der Firma Wagner."
+            },
+            {
+              "id": "A2_m04_R1_q5",
+              "type": "matching",
+              "questionText": "Sarah hat verschiedene Zutaten zu Hause und sucht Ideen, was sie damit kochen kann.",
+              "matchingSources": [
+                { "id": "A2_m04_R1_text_a", "label": "A" },
+                { "id": "A2_m04_R1_text_b", "label": "B" },
+                { "id": "A2_m04_R1_text_c", "label": "C" },
+                { "id": "A2_m04_R1_text_d", "label": "D" },
+                { "id": "A2_m04_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "E",
+              "explanation": "Anzeige E beschreibt eine App, bei der man nach Zutaten filtern kann, die man schon hat — das ist genau, was Sarah braucht."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den Zeitungsartikel. Sind die Sätze richtig oder falsch? Kreuzen Sie an.",
+          "instructionsTranslation": "Read the newspaper article. Are the sentences correct or incorrect? Mark your answer.",
+          "texts": [
+            {
+              "id": "A2_m04_R2_text1",
+              "type": "article",
+              "content": "Immer mehr Deutsche kochen zu Hause — aber viele brauchen dabei Hilfe. Kochkurse sind in den letzten Jahren sehr beliebt geworden: In Deutschland gibt es heute über 8.000 Kochschulen und Kurse, dreimal so viele wie vor zehn Jahren. Die meisten Teilnehmer sind zwischen 25 und 45 Jahren alt. Beliebt sind vor allem Kurse für asiatische und italienische Küche. Experten sagen, dass viele Menschen durch das Kochen Stress abbauen können. Allerdings haben viele Berufstätige wenig Zeit: Eine Umfrage zeigt, dass 42 Prozent der Deutschen unter der Woche weniger als 30 Minuten täglich fürs Kochen haben.",
+              "source": "Tagesspiegel, März 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m04_R2_q1",
+              "type": "true_false",
+              "questionText": "Die Zahl der Kochkurse in Deutschland hat sich in den letzten zehn Jahren vervierfacht.",
+              "relatedTextId": "A2_m04_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Der Text sagt: 'dreimal so viele wie vor zehn Jahren.' Verdreifacht, nicht vervierfacht — die Aussage ist daher falsch."
+            },
+            {
+              "id": "A2_m04_R2_q2",
+              "type": "true_false",
+              "questionText": "Die meisten Teilnehmer bei Kochkursen sind jünger als 50 Jahre.",
+              "relatedTextId": "A2_m04_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Der Artikel sagt: 'Die meisten Teilnehmer sind zwischen 25 und 45 Jahren alt.' 25–45 ist deutlich unter 50 — die Aussage ist richtig."
+            },
+            {
+              "id": "A2_m04_R2_q3",
+              "type": "true_false",
+              "questionText": "Kurse für chinesische Küche sind am beliebtesten.",
+              "relatedTextId": "A2_m04_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Im Text steht: 'Beliebt sind vor allem Kurse für asiatische und italienische Küche.' Chinesisch wird nicht separat genannt — die Aussage ist zu spezifisch und daher falsch."
+            },
+            {
+              "id": "A2_m04_R2_q4",
+              "type": "true_false",
+              "questionText": "Kochen kann laut Experten beim Stressabbau helfen.",
+              "relatedTextId": "A2_m04_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Der Artikel schreibt: 'Experten sagen, dass viele Menschen durch das Kochen Stress abbauen können.' Diese Aussage wird direkt im Text bestätigt."
+            },
+            {
+              "id": "A2_m04_R2_q5",
+              "type": "true_false",
+              "questionText": "Mehr als die Hälfte der Deutschen kocht unter der Woche weniger als 30 Minuten täglich.",
+              "relatedTextId": "A2_m04_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Der Text sagt: '42 Prozent der Deutschen haben weniger als 30 Minuten.' 42 Prozent ist weniger als die Hälfte (50 Prozent) — die Aussage ist falsch."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die Hinweisschilder und kurzen Texte. Was ist richtig? Kreuzen Sie an: a, b oder c.",
+          "instructionsTranslation": "Read the notices and short texts. What is correct? Mark: a, b, or c.",
+          "texts": [
+            {
+              "id": "A2_m04_R3_text1",
+              "type": "notice",
+              "content": "BITTE BEACHTEN\nDieses Restaurant ist ein Cashless-Betrieb. Wir akzeptieren keine Barzahlung. Bezahlung nur mit EC-Karte oder Kreditkarte. Danke für Ihr Verständnis."
+            },
+            {
+              "id": "A2_m04_R3_text2",
+              "type": "notice",
+              "content": "Liebe Gäste,\nunsere Küche schließt täglich um 21:30 Uhr. Letzte Bestellung bitte bis 21:15 Uhr. Getränke können bis 22:30 Uhr bestellt werden.\n— Das Team des Café Central"
+            },
+            {
+              "id": "A2_m04_R3_text3",
+              "type": "notice",
+              "content": "HINWEIS FÜR ALLERGIKER\nIn unserer Küche werden Nüsse, Gluten und Milchprodukte verarbeitet. Bitte sprechen Sie unsere Mitarbeiter an, wenn Sie Lebensmittelallergien haben."
+            },
+            {
+              "id": "A2_m04_R3_text4",
+              "type": "notice",
+              "content": "Frisches Brot täglich ab 6:30 Uhr\nUnsere Bäckerei bäckt jeden Morgen frisch. Vorbestellungen für Feiern und Familienfeste ab 5 kg möglich. Tel. 0521 234 56 78"
+            },
+            {
+              "id": "A2_m04_R3_text5",
+              "type": "notice",
+              "content": "MITTAGSTISCH\nMontag bis Freitag, 11:30 – 14:00 Uhr\n2-Gang-Menü: 9,50 €\n3-Gang-Menü: 12,80 €\nGetränk nicht inbegriffen"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m04_R3_q1",
+              "type": "mcq",
+              "questionText": "Wie kann man in diesem Restaurant bezahlen?",
+              "relatedTextId": "A2_m04_R3_text1",
+              "options": [
+                "a) nur mit Bargeld",
+                "b) mit Karte oder Bargeld",
+                "c) nur mit Karte"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Das Schild sagt: 'Wir akzeptieren keine Barzahlung — nur EC-Karte oder Kreditkarte.' Man kann also nur mit Karte bezahlen."
+            },
+            {
+              "id": "A2_m04_R3_q2",
+              "type": "mcq",
+              "questionText": "Wann muss man im Café Central spätestens das Essen bestellen?",
+              "relatedTextId": "A2_m04_R3_text2",
+              "options": [
+                "a) bis 21:30 Uhr",
+                "b) bis 21:15 Uhr",
+                "c) bis 22:30 Uhr"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Hinweis sagt: 'Letzte Bestellung bitte bis 21:15 Uhr.' Die Küche schließt um 21:30 Uhr, aber die letzte Bestellung muss 15 Minuten früher aufgegeben werden."
+            },
+            {
+              "id": "A2_m04_R3_q3",
+              "type": "mcq",
+              "questionText": "Was sollen Gäste mit Allergien tun?",
+              "relatedTextId": "A2_m04_R3_text3",
+              "options": [
+                "a) ein anderes Restaurant suchen",
+                "b) die Mitarbeiter ansprechen",
+                "c) die Website besuchen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Hinweis sagt: 'Bitte sprechen Sie unsere Mitarbeiter an, wenn Sie Lebensmittelallergien haben.' Gäste sollen also mit dem Personal reden."
+            },
+            {
+              "id": "A2_m04_R3_q4",
+              "type": "mcq",
+              "questionText": "Ab wann ist das frische Brot in der Bäckerei erhältlich?",
+              "relatedTextId": "A2_m04_R3_text4",
+              "options": [
+                "a) ab 6:00 Uhr",
+                "b) ab 6:30 Uhr",
+                "c) ab 7:00 Uhr"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Schild sagt klar: 'Frisches Brot täglich ab 6:30 Uhr.' Das ist die Öffnungszeit der Bäckerei am Morgen."
+            },
+            {
+              "id": "A2_m04_R3_q5",
+              "type": "mcq",
+              "questionText": "Was kostet ein 3-Gang-Mittagsmenü?",
+              "relatedTextId": "A2_m04_R3_text5",
+              "options": [
+                "a) 9,50 Euro",
+                "b) 12,80 Euro",
+                "c) 14,50 Euro"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Laut dem Mittagstisch-Schild kostet das 3-Gang-Menü 12,80 Euro. Das 2-Gang-Menü kostet 9,50 Euro. 14,50 Euro wird nicht erwähnt."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 20,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "form_fill",
+          "instructions": "Füllen Sie das Anmeldeformular für einen Kochkurs aus. Benutzen Sie die Informationen unten.",
+          "instructionsTranslation": "Fill in the registration form for a cooking course. Use the information below.",
+          "formFields": [
+            {
+              "label": "Vorname",
+              "correctAnswer": "Lena",
+              "hint": "Vorname der Teilnehmerin"
+            },
+            {
+              "label": "Nachname",
+              "correctAnswer": "Hoffmann",
+              "hint": "Nachname der Teilnehmerin"
+            },
+            {
+              "label": "Geburtsdatum",
+              "correctAnswer": "22.07.1988",
+              "hint": "TT.MM.JJJJ"
+            },
+            {
+              "label": "Kursname",
+              "correctAnswer": "Italienisch kochen für Anfänger",
+              "hint": "Name des gewünschten Kurses"
+            },
+            {
+              "label": "Kursdatum",
+              "correctAnswer": "ab 10. Juni",
+              "hint": "Startdatum des Kurses"
+            },
+            {
+              "label": "E-Mail",
+              "correctAnswer": "l.hoffmann@email.de",
+              "hint": "E-Mail-Adresse"
+            }
+          ],
+          "sampleAnswer": "Vorname: Lena\nNachname: Hoffmann\nGeburtsdatum: 22.07.1988\nKursname: Italienisch kochen für Anfänger\nKursdatum: ab 10. Juni\nE-Mail: l.hoffmann@email.de",
+          "scoringCriteria": [
+            {
+              "criterion": "Vollständigkeit",
+              "maxPoints": 3,
+              "description": "Alle Pflichtfelder wurden ausgefüllt (je 0,5 Punkte pro Feld)"
+            },
+            {
+              "criterion": "Korrektheit",
+              "maxPoints": 2,
+              "description": "Informationen entsprechen den Aufgabenvorgaben und sind korrekt übertragen"
+            },
+            {
+              "criterion": "Format",
+              "maxPoints": 1,
+              "description": "Datum im richtigen Format, E-Mail korrekt geschrieben"
+            }
+          ]
+        },
+        {
+          "taskNumber": 2,
+          "type": "short_message",
+          "instructions": "Schreiben Sie eine kurze Nachricht an Ihre Freundin Anna. Schreiben Sie über die drei Punkte unten. Schreiben Sie 30 bis 50 Wörter.",
+          "instructionsTranslation": "Write a short message to your friend Anna. Write about the three points below. Write 30 to 50 words.",
+          "prompt": "Sie haben gestern in einem neuen Restaurant gegessen.\n- Sagen Sie, wie das Restaurant heißt und wo es ist.\n- Beschreiben Sie, was Sie gegessen haben.\n- Empfehlen Sie das Restaurant oder nicht — und warum.",
+          "promptTranslation": "You ate at a new restaurant yesterday.\n- Say what the restaurant is called and where it is.\n- Describe what you ate.\n- Recommend the restaurant or not — and why.",
+          "requiredPoints": [
+            "Name und Ort des Restaurants",
+            "Beschreibung des Essens",
+            "Empfehlung mit Begründung"
+          ],
+          "wordCountMin": 30,
+          "wordCountMax": 50,
+          "sampleAnswer": "Hallo Anna,\nich war gestern im Restaurant Bella Italia in der Hauptstraße. Ich habe Spaghetti Bolognese gegessen — sehr lecker und frisch! Das Essen war toll und gar nicht teuer. Ich empfehle es dir sehr! Gehen wir bald zusammen hin?\nViele Grüße, Lena",
+          "scoringCriteria": [
+            {
+              "criterion": "Inhalt",
+              "maxPoints": 3,
+              "description": "Alle drei Punkte wurden angesprochen (je 1 Punkt pro Inhaltspunkt)"
+            },
+            {
+              "criterion": "Sprache",
+              "maxPoints": 2,
+              "description": "Grammatik und Wortschatz sind weitgehend korrekt und für A2 angemessen"
+            },
+            {
+              "criterion": "Wortanzahl",
+              "maxPoints": 1,
+              "description": "Text liegt zwischen 30 und 50 Wörtern"
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 0,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "introduce",
+          "instructions": "Stellen Sie sich kurz vor. Sprechen Sie über sich: Name, Herkunft, Wohnort, Beruf und Hobbys.",
+          "instructionsTranslation": "Introduce yourself briefly. Talk about yourself: name, origin, place of residence, job, and hobbies.",
+          "prompt": "Bitte stellen Sie sich vor:\n- Wie heißen Sie?\n- Woher kommen Sie?\n- Wo wohnen Sie jetzt?\n- Was machen Sie beruflich?\n- Was machen Sie in Ihrer Freizeit?",
+          "sampleResponse": "Guten Tag, mein Name ist Lena Hoffmann. Ich komme aus Österreich und wohne seit drei Jahren in München. Ich arbeite als Krankenschwester in einem Krankenhaus. In meiner Freizeit koche ich sehr gerne — ich probiere immer neue Rezepte aus. Außerdem gehe ich gern ins Kino.",
+          "evaluationTips": [
+            "Sprechen Sie in vollständigen Sätzen",
+            "Verwenden Sie einfache Verbindungswörter wie 'und', 'aber', 'auch'",
+            "Achten Sie auf die richtige Verbkonjugation",
+            "Eine klare, strukturierte Vorstellung zeigt gute Sprachkompetenz"
+          ],
+          "keyPhrases": [
+            "Mein Name ist ...",
+            "Ich komme aus ...",
+            "Seit ... Jahren wohne ich in ...",
+            "Ich arbeite als ...",
+            "In meiner Freizeit ...",
+            "Ich koche gerne ..."
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "conversation",
+          "instructions": "Sprechen Sie mit Ihrem Partner oder Ihrer Partnerin über Essen und Ernährung.",
+          "instructionsTranslation": "Talk with your partner about food and eating habits.",
+          "prompt": "Sprechen Sie mit Ihrem Partner oder Ihrer Partnerin über das Thema Essen:\n- Was essen Sie besonders gerne?\n- Kochen Sie selbst oder gehen Sie oft essen?\n- Gibt es Lebensmittel, die Sie nicht mögen oder nicht essen?\n- Was essen Sie typischerweise zum Abendessen?",
+          "sampleResponse": "Ich esse sehr gerne italienische Küche — besonders Pizza und Pasta. Ich koche meistens selbst, weil es günstiger ist. Aber am Wochenende gehe ich manchmal mit Freunden essen. Ich mag keine Pilze — ich finde sie nicht lecker. Zum Abendessen esse ich oft Salat oder ein einfaches Gericht.",
+          "evaluationTips": [
+            "Antworten Sie nicht nur mit 'Ja' oder 'Nein'",
+            "Benutzen Sie Adjektive wie 'lecker', 'gesund', 'frisch'",
+            "Stellen Sie auch selbst Fragen an den Partner",
+            "Verbinden Sie Sätze mit 'weil', 'aber', 'und'"
+          ],
+          "keyPhrases": [
+            "Ich esse gerne ...",
+            "Ich koche selbst ...",
+            "Am liebsten mag ich ...",
+            "Ich esse kein/keine ..., weil ...",
+            "Zum Abendessen esse ich meistens ...",
+            "Wie ist das bei Ihnen?"
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Planen Sie gemeinsam mit Ihrem Partner oder Ihrer Partnerin eine Grillparty.",
+          "instructionsTranslation": "Plan a barbecue party together with your partner.",
+          "prompt": "Sie und Ihr Partner oder Ihre Partnerin möchten am Samstag eine Grillparty organisieren. Sprechen Sie über:\n- Was soll gegrillt werden?\n- Was sollen die Gäste mitbringen?\n- Was trinkt man auf der Party?\n- Wer macht den Einkauf?",
+          "sampleResponse": "Ich schlage vor, Hähnchen und Würstchen zu grillen. Für Vegetarier können wir auch Gemüse grillen. Die Gäste können Salate mitbringen. Ich kaufe die Getränke — Limonade, Wasser und Bier. Kannst du bitte das Fleisch und das Gemüse besorgen?",
+          "evaluationTips": [
+            "Machen Sie konkrete Vorschläge",
+            "Reagieren Sie auf die Ideen des Partners",
+            "Einigen Sie sich auf einen Plan",
+            "Nutzen Sie 'Ich schlage vor...', 'Was hältst du von...', 'Einverstanden'"
+          ],
+          "keyPhrases": [
+            "Ich schlage vor, ... zu grillen.",
+            "Was hältst du von ...?",
+            "Ich kaufe ...",
+            "Kannst du ... mitbringen?",
+            "Einverstanden / Gute Idee!",
+            "Für Vegetarier ..."
+          ]
+        }
+      ]
+    }
   }
 }

@@ -2,12 +2,661 @@
   "id": "A2_mock_06",
   "level": "A2",
   "title": "Übungstest 6",
-  "version": 0,
-  "_stub": true,
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Nachrichten auf dem Anrufbeantworter. Zu jeder Nachricht gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.",
+          "instructionsTranslation": "You will hear five short telephone messages. For each message there is one task. What is correct? Mark: a, b, or c. You will hear each recording twice.",
+          "audioFile": "assets/audio/A2/mock06/listening_part1.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A2_m06_L1_q1",
+              "type": "mcq",
+              "questionText": "Wann soll Frau Koch zum Vorstellungsgespräch kommen?",
+              "options": [
+                "a) am Dienstag um 9 Uhr",
+                "b) am Donnerstag um 10 Uhr",
+                "c) am Freitag um 14 Uhr"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Firma hinterlässt: 'Wir laden Sie ein zu einem Vorstellungsgespräch am Donnerstag, den 22. Mai, um 10 Uhr.' Dienstag und Freitag werden nicht genannt.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m06_L1_q2",
+              "type": "mcq",
+              "questionText": "Was soll Herr Braun für das Meeting vorbereiten?",
+              "options": [
+                "a) eine Präsentation",
+                "b) einen Bericht",
+                "c) eine Liste mit Fragen"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Chef sagt: 'Herr Braun, könnten Sie bitte für das Meeting morgen eine kurze Präsentation über die Verkaufszahlen vorbereiten?' Er soll also eine Präsentation machen.",
+              "audioTimestamp": 7
+            },
+            {
+              "id": "A2_m06_L1_q3",
+              "type": "mcq",
+              "questionText": "Warum ruft die Kollegin an?",
+              "options": [
+                "a) Sie wird heute zu spät kommen.",
+                "b) Sie ist krank und kommt nicht.",
+                "c) Sie fragt nach dem Besprechungsraum."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Kollegin erklärt: 'Ich bin leider krank und kann heute nicht ins Büro kommen — kannst du bitte dem Chef Bescheid sagen?' Sie kommt also gar nicht.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m06_L1_q4",
+              "type": "mcq",
+              "questionText": "Was hat sich bei der Arbeitsstelle geändert?",
+              "options": [
+                "a) Die Arbeitszeiten haben sich geändert.",
+                "b) Es gibt einen neuen Chef.",
+                "c) Die Firma zieht um."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Nachricht informiert: 'Ab dem 1. Juli gelten neue Arbeitszeiten in unserer Abteilung — die Kernarbeitszeit ist jetzt von 9 bis 16 Uhr.' Die Arbeitszeiten ändern sich.",
+              "audioTimestamp": 10
+            },
+            {
+              "id": "A2_m06_L1_q5",
+              "type": "mcq",
+              "questionText": "Wofür braucht Sven eine Bestätigung?",
+              "options": [
+                "a) für seinen Urlaub",
+                "b) für ein Stipendium",
+                "c) für seine neue Wohnung"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Sven sagt: 'Ich brauche dringend eine Arbeitsbestätigung — mein neuer Vermieter möchte einen Nachweis, dass ich berufstätig bin.' Er braucht es für die neue Wohnung.",
+              "audioTimestamp": 8
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören fünf kurze Radiodurchsagen. Zu jeder Durchsage gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear five short radio announcements. For each announcement there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A2/mock06/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A2_m06_L2_q1",
+              "type": "mcq",
+              "questionText": "Worum geht es in der Radionachricht über den Arbeitsmarkt?",
+              "options": [
+                "a) Die Arbeitslosigkeit ist gestiegen.",
+                "b) Es gibt mehr Stellen für Fachkräfte.",
+                "c) Viele Firmen schließen ihre Büros."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Radionachricht sagt: 'Neue Zahlen zeigen: Der Fachkräftemangel in Deutschland wächst — Unternehmen suchen dringend qualifizierte Mitarbeiter in der IT und im Gesundheitsbereich.' Mehr Stellen, keine Entlassungen.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "A2_m06_L2_q2",
+              "type": "mcq",
+              "questionText": "Was bietet das Jobcenter jetzt an?",
+              "options": [
+                "a) kostenlose Deutschkurse",
+                "b) Beratung für Selbstständige",
+                "c) Bewerbungstraining und Jobvermittlung"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Durchsage erklärt: 'Das Jobcenter bietet ab sofort kostenloses Bewerbungstraining und individuelle Jobvermittlung für alle Arbeitssuchenden an.' Deutschkurse und Selbstständigenberatung werden nicht erwähnt.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m06_L2_q3",
+              "type": "mcq",
+              "questionText": "Was hat die Studie über Homeoffice herausgefunden?",
+              "options": [
+                "a) Homeoffice macht unproduktiv.",
+                "b) Die meisten Arbeitnehmer wollen mehr Homeoffice.",
+                "c) Homeoffice ist nur für junge Mitarbeiter geeignet."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Radiobericht fasst zusammen: 'Eine neue Studie zeigt: 68 Prozent der deutschen Arbeitnehmer wünschen sich mehr Homeoffice-Tage.' Die Mehrheit will also mehr Homeoffice.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m06_L2_q4",
+              "type": "mcq",
+              "questionText": "Wie viele Stunden arbeiten Deutsche pro Woche im Durchschnitt?",
+              "options": [
+                "a) 38 Stunden",
+                "b) 40 Stunden",
+                "c) 42 Stunden"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Radiosendung sagt: 'Deutsche arbeiten im Durchschnitt 38 Stunden pro Woche — das ist weniger als der EU-Durchschnitt von 40 Stunden.' Es sind also 38 Stunden.",
+              "audioTimestamp": 5
+            },
+            {
+              "id": "A2_m06_L2_q5",
+              "type": "mcq",
+              "questionText": "Was lernt man in dem Kurs, der im Radio beworben wird?",
+              "options": [
+                "a) wie man Excel benutzt",
+                "b) wie man sich richtig bewirbt",
+                "c) wie man ein Unternehmen gründet"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Radioreklame sagt: 'In unserem Bewerbungskurs lernen Sie, wie Sie überzeugend Bewerbungen schreiben und im Vorstellungsgespräch punkten.' Es geht um das Bewerben.",
+              "audioTimestamp": 7
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear five short conversations. For each conversation there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A2/mock06/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A2_m06_L3_q1",
+              "type": "mcq",
+              "questionText": "Was macht die Frau beruflich?",
+              "options": [
+                "a) Sie ist Lehrerin.",
+                "b) Sie arbeitet im Büro.",
+                "c) Sie ist selbstständig."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Frau sagt im Gespräch: 'Ich habe vor zwei Jahren meine eigene kleine Firma gegründet — ich bin also selbstständig und arbeite von zu Hause.' Sie ist selbstständig.",
+              "audioTimestamp": 10
+            },
+            {
+              "id": "A2_m06_L3_q2",
+              "type": "mcq",
+              "questionText": "Warum ist der Mann mit seiner Arbeit unzufrieden?",
+              "options": [
+                "a) Er verdient zu wenig.",
+                "b) Er hat zu viel Stress.",
+                "c) Er hat keine Kollegen."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Mann klagt: 'Der Stress ist einfach zu viel — ich arbeite 50 Stunden die Woche, nehme Arbeit mit nach Hause und habe kaum noch Freizeit.' Er leidet unter dem Stress.",
+              "audioTimestamp": 11
+            },
+            {
+              "id": "A2_m06_L3_q3",
+              "type": "mcq",
+              "questionText": "Was hat die Frau in ihrer neuen Stelle besonders gut gefunden?",
+              "options": [
+                "a) das gute Gehalt",
+                "b) die flexiblen Arbeitszeiten",
+                "c) die netten Kollegen"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Frau sagt: 'Was mich wirklich überrascht hat: Die Kollegen sind alle so freundlich und hilfsbereit. Das ist für mich das Wichtigste bei der Arbeit.' Sie schätzt die Kollegen am meisten.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m06_L3_q4",
+              "type": "mcq",
+              "questionText": "Was hat Herr Engel bei der Bewerbung falsch gemacht?",
+              "options": [
+                "a) Er hat seinen Lebenslauf nicht mitgeschickt.",
+                "b) Er hat die falsche E-Mail-Adresse benutzt.",
+                "c) Er hat zu spät geantwortet."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Berater erklärt: 'Herr Engel, in Ihrer Bewerbung fehlt leider der Lebenslauf — ohne Lebenslauf können wir die Bewerbung nicht bearbeiten.' Er hat den Lebenslauf vergessen.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m06_L3_q5",
+              "type": "mcq",
+              "questionText": "Wann beginnt der neue Mitarbeiter mit der Arbeit?",
+              "options": [
+                "a) sofort, also diese Woche",
+                "b) am ersten des nächsten Monats",
+                "c) nach der Kündigung bei der alten Stelle"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Chef sagt: 'Wir freuen uns, Sie ab dem ersten des nächsten Monats in unserem Team willkommen zu heißen.' Der neue Mitarbeiter beginnt also am Monatsersten.",
+              "audioTimestamp": 7
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 25,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie die fünf Anzeigen. Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es genau eine passende Anzeige. Schreiben Sie den Buchstaben der Anzeige.",
+          "instructionsTranslation": "Read the five advertisements. Which advertisement matches which situation? For each situation there is exactly one matching advertisement. Write the letter of the advertisement.",
+          "texts": [
+            {
+              "id": "A2_m06_R1_text_a",
+              "type": "ad",
+              "content": "ANZEIGE A — Stellenanzeige: Verkäufer/in\nWir suchen ab sofort eine/n Verkäufer/in für unser Modegeschäft in der Innenstadt. Teilzeit möglich (20–30 Std./Woche). Erfahrung erwünscht. Bewerbung an: jobs@mode-schmidt.de"
+            },
+            {
+              "id": "A2_m06_R1_text_b",
+              "type": "ad",
+              "content": "ANZEIGE B — Bewerbungscoaching\nSie suchen eine neue Stelle? Wir helfen Ihnen! Professionelles Coaching für Ihren Lebenslauf, Ihr Anschreiben und das Vorstellungsgespräch. Erste Beratung kostenlos. Tel. 0521 678 90 12"
+            },
+            {
+              "id": "A2_m06_R1_text_c",
+              "type": "ad",
+              "content": "ANZEIGE C — Weiterbildung: Buchführung\nGrundkurs Buchführung für Quereinsteiger und Wiedereinsteiger. 10 Abende, dienstags und donnerstags 18–20:30 Uhr. Zertifikat nach Abschluss. Preis: 195 Euro. IHK Bielefeld."
+            },
+            {
+              "id": "A2_m06_R1_text_d",
+              "type": "ad",
+              "content": "ANZEIGE D — Stellenanzeige: Bürohilfe\nKleine Steuerkanzlei sucht Bürohilfe für 15 Std./Woche. Aufgaben: Post sortieren, Telefon, Ablage. Keine Vorkenntnisse nötig. Arbeitszeit: Mo, Mi, Fr, 9–14 Uhr. Bitte per Post bewerben."
+            },
+            {
+              "id": "A2_m06_R1_text_e",
+              "type": "ad",
+              "content": "ANZEIGE E — Zeitarbeitsfirma Flexwork\nSchnell in den Job! Wir vermitteln Arbeitsplätze in Lager, Produktion und Logistik — auch kurzfristig. Keine langen Wartezeiten. Einfach vorbeikommen: Bahnhofstr. 22, Mo–Fr 8–17 Uhr."
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m06_R1_q1",
+              "type": "matching",
+              "questionText": "Sandra sucht einen Teilzeitjob und hat schon Erfahrung im Verkauf.",
+              "matchingSources": [
+                { "id": "A2_m06_R1_text_a", "label": "A" },
+                { "id": "A2_m06_R1_text_b", "label": "B" },
+                { "id": "A2_m06_R1_text_c", "label": "C" },
+                { "id": "A2_m06_R1_text_d", "label": "D" },
+                { "id": "A2_m06_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Anzeige A sucht eine Verkäuferin in Teilzeit (20–30 Std.) mit Erfahrung — genau passend für Sandra."
+            },
+            {
+              "id": "A2_m06_R1_q2",
+              "type": "matching",
+              "questionText": "Tom hat nach zwei Jahren Pause seinen Job verloren und weiß nicht, wie er sich am besten bewirbt.",
+              "matchingSources": [
+                { "id": "A2_m06_R1_text_a", "label": "A" },
+                { "id": "A2_m06_R1_text_b", "label": "B" },
+                { "id": "A2_m06_R1_text_c", "label": "C" },
+                { "id": "A2_m06_R1_text_d", "label": "D" },
+                { "id": "A2_m06_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Anzeige B bietet Bewerbungscoaching für Lebenslauf und Vorstellungsgespräch an — genau das, was Tom nach seiner Pause braucht."
+            },
+            {
+              "id": "A2_m06_R1_q3",
+              "type": "matching",
+              "questionText": "Nina möchte in der Buchhaltung arbeiten, hat aber noch keine Ausbildung in diesem Bereich.",
+              "matchingSources": [
+                { "id": "A2_m06_R1_text_a", "label": "A" },
+                { "id": "A2_m06_R1_text_b", "label": "B" },
+                { "id": "A2_m06_R1_text_c", "label": "C" },
+                { "id": "A2_m06_R1_text_d", "label": "D" },
+                { "id": "A2_m06_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Anzeige C bietet einen Buchführungskurs für Quereinsteiger an — ideal für Nina, die keine Vorkenntnisse hat."
+            },
+            {
+              "id": "A2_m06_R1_q4",
+              "type": "matching",
+              "questionText": "Frau Körner sucht einen kleinen Job ohne besondere Qualifikationen, nur morgens.",
+              "matchingSources": [
+                { "id": "A2_m06_R1_text_a", "label": "A" },
+                { "id": "A2_m06_R1_text_b", "label": "B" },
+                { "id": "A2_m06_R1_text_c", "label": "C" },
+                { "id": "A2_m06_R1_text_d", "label": "D" },
+                { "id": "A2_m06_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Anzeige D sucht Bürohilfe ohne Vorkenntnisse, nur 15 Std./Woche, morgens (9–14 Uhr) — passend für Frau Körner."
+            },
+            {
+              "id": "A2_m06_R1_q5",
+              "type": "matching",
+              "questionText": "Dmitri braucht sofort Arbeit und ist bereit, in Lager oder Produktion zu arbeiten.",
+              "matchingSources": [
+                { "id": "A2_m06_R1_text_a", "label": "A" },
+                { "id": "A2_m06_R1_text_b", "label": "B" },
+                { "id": "A2_m06_R1_text_c", "label": "C" },
+                { "id": "A2_m06_R1_text_d", "label": "D" },
+                { "id": "A2_m06_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "E",
+              "explanation": "Anzeige E vermittelt kurzfristig Jobs in Lager, Produktion und Logistik — genau das, was Dmitri sucht."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den Zeitungsartikel. Sind die Sätze richtig oder falsch? Kreuzen Sie an.",
+          "instructionsTranslation": "Read the newspaper article. Are the sentences correct or incorrect? Mark your answer.",
+          "texts": [
+            {
+              "id": "A2_m06_R2_text1",
+              "type": "article",
+              "content": "Homeoffice in Deutschland: Trend oder Standard? Vor einigen Jahren arbeiteten nur wenige Deutsche regelmäßig von zu Hause. Heute ist das anders: Eine aktuelle Studie zeigt, dass 34 Prozent der Beschäftigten mindestens zwei Tage pro Woche im Homeoffice arbeiten. Vor allem junge Berufstätige zwischen 25 und 35 Jahren schätzen die Flexibilität. Aber nicht alle sind begeistert: 28 Prozent sagen, sie fühlen sich im Homeoffice weniger produktiv als im Büro. Arbeitgeber und Arbeitnehmer sind sich meistens einig: Ein Mix aus Büro und Homeoffice ist am besten. Sogenanntes 'hybrides Arbeiten' wird von 72 Prozent der Befragten bevorzugt.",
+              "source": "Wirtschaftsblatt, Februar 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m06_R2_q1",
+              "type": "true_false",
+              "questionText": "Mehr als ein Drittel der deutschen Arbeitnehmer arbeitet mindestens zweimal pro Woche von zu Hause.",
+              "relatedTextId": "A2_m06_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Der Text sagt: '34 Prozent der Beschäftigten arbeiten mindestens zwei Tage im Homeoffice.' 34 Prozent ist etwas mehr als ein Drittel (33%) — die Aussage ist richtig."
+            },
+            {
+              "id": "A2_m06_R2_q2",
+              "type": "true_false",
+              "questionText": "Ältere Berufstätige über 50 schätzen Homeoffice am meisten.",
+              "relatedTextId": "A2_m06_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Der Artikel sagt: 'Vor allem junge Berufstätige zwischen 25 und 35 Jahren schätzen die Flexibilität.' Es sind junge, nicht ältere Arbeitnehmer."
+            },
+            {
+              "id": "A2_m06_R2_q3",
+              "type": "true_false",
+              "questionText": "Fast ein Drittel der Befragten fühlt sich zu Hause weniger produktiv.",
+              "relatedTextId": "A2_m06_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Der Text sagt: '28 Prozent sagen, sie fühlen sich im Homeoffice weniger produktiv.' 28 Prozent ist knapp unter einem Drittel — die Aussage 'fast ein Drittel' ist sinngemäß korrekt."
+            },
+            {
+              "id": "A2_m06_R2_q4",
+              "type": "true_false",
+              "questionText": "Arbeitgeber und Arbeitnehmer sind sich beim Thema Homeoffice selten einig.",
+              "relatedTextId": "A2_m06_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Der Artikel sagt: 'Arbeitgeber und Arbeitnehmer sind sich meistens einig.' Das Gegenteil von 'selten einig' — die Aussage ist falsch."
+            },
+            {
+              "id": "A2_m06_R2_q5",
+              "type": "true_false",
+              "questionText": "Die Mehrheit der Befragten bevorzugt eine Kombination aus Büro und Homeoffice.",
+              "relatedTextId": "A2_m06_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Der Text sagt: 'hybrides Arbeiten wird von 72 Prozent der Befragten bevorzugt.' 72 Prozent ist eindeutig die Mehrheit — die Aussage ist richtig."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die Hinweisschilder und kurzen Texte. Was ist richtig? Kreuzen Sie an: a, b oder c.",
+          "instructionsTranslation": "Read the notices and short texts. What is correct? Mark: a, b, or c.",
+          "texts": [
+            {
+              "id": "A2_m06_R3_text1",
+              "type": "notice",
+              "content": "AUSHANG — Betriebsversammlung\nAm Donnerstag, 20. Juni, findet um 15:00 Uhr eine Betriebsversammlung statt. Alle Mitarbeiter sind verpflichtet teilzunehmen. Ort: Konferenzraum 3, Erdgeschoss. Dauer: ca. 1 Stunde."
+            },
+            {
+              "id": "A2_m06_R3_text2",
+              "type": "notice",
+              "content": "HINWEIS: Urlaubsanträge\nUrlaub muss mindestens 4 Wochen im Voraus beantragt werden. Formulare gibt es beim Sekretariat oder im Intranet. Genehmigung durch den direkten Vorgesetzten erforderlich."
+            },
+            {
+              "id": "A2_m06_R3_text3",
+              "type": "notice",
+              "content": "Kantinenöffnungszeiten\nMontag bis Freitag: 7:30 – 14:30 Uhr\nSamstag und Sonntag: geschlossen\nWarm Mittagessen: 11:30 – 13:30 Uhr\nFrühstück wird bis 9:30 Uhr serviert."
+            },
+            {
+              "id": "A2_m06_R3_text4",
+              "type": "notice",
+              "content": "IT-SICHERHEIT\nBitte verwenden Sie auf dienstlichen Computern keine privaten USB-Sticks. Passwörter regelmäßig ändern (alle 90 Tage). Bei technischen Problemen IT-Helpdesk anrufen: Durchwahl 555."
+            },
+            {
+              "id": "A2_m06_R3_text5",
+              "type": "notice",
+              "content": "Parkplatzbelegung ab 1. Juli\nDie Parkplätze vor dem Gebäude sind ab dem 1. Juli reserviert. Mitarbeiter müssen einen Parkausweis beantragen. Formulare im Sekretariat, Zimmer 104."
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m06_R3_q1",
+              "type": "mcq",
+              "questionText": "Wer muss an der Betriebsversammlung teilnehmen?",
+              "relatedTextId": "A2_m06_R3_text1",
+              "options": [
+                "a) nur das Management",
+                "b) nur wer möchte",
+                "c) alle Mitarbeiter"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Aushang sagt: 'Alle Mitarbeiter sind verpflichtet teilzunehmen.' Es ist also Pflicht für alle."
+            },
+            {
+              "id": "A2_m06_R3_q2",
+              "type": "mcq",
+              "questionText": "Wie lange vorher muss man Urlaub beantragen?",
+              "relatedTextId": "A2_m06_R3_text2",
+              "options": [
+                "a) eine Woche vorher",
+                "b) zwei Wochen vorher",
+                "c) vier Wochen vorher"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Hinweis sagt klar: 'Urlaub muss mindestens 4 Wochen im Voraus beantragt werden.' Das sind vier Wochen."
+            },
+            {
+              "id": "A2_m06_R3_q3",
+              "type": "mcq",
+              "questionText": "Bis wann kann man in der Kantine frühstücken?",
+              "relatedTextId": "A2_m06_R3_text3",
+              "options": [
+                "a) bis 9:00 Uhr",
+                "b) bis 9:30 Uhr",
+                "c) bis 11:30 Uhr"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Laut dem Schild wird 'Frühstück ... bis 9:30 Uhr serviert.' Die Kantine öffnet um 7:30 Uhr, aber das Frühstück endet um 9:30 Uhr."
+            },
+            {
+              "id": "A2_m06_R3_q4",
+              "type": "mcq",
+              "questionText": "Was sollen Mitarbeiter bei IT-Problemen tun?",
+              "relatedTextId": "A2_m06_R3_text4",
+              "options": [
+                "a) eine E-Mail schreiben",
+                "b) die Durchwahl 555 anrufen",
+                "c) ins Büro 104 gehen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der IT-Hinweis sagt: 'Bei technischen Problemen IT-Helpdesk anrufen: Durchwahl 555.' Man soll also anrufen, nicht schreiben oder hingehen."
+            },
+            {
+              "id": "A2_m06_R3_q5",
+              "type": "mcq",
+              "questionText": "Wo bekommt man das Formular für den Parkausweis?",
+              "relatedTextId": "A2_m06_R3_text5",
+              "options": [
+                "a) online im Intranet",
+                "b) im Sekretariat, Zimmer 104",
+                "c) beim IT-Helpdesk"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Schild sagt: 'Formulare im Sekretariat, Zimmer 104.' Man holt das Formular also im Sekretariat."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 20,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "form_fill",
+          "instructions": "Füllen Sie das Bewerbungsformular für eine Stelle aus. Benutzen Sie die Informationen unten.",
+          "instructionsTranslation": "Fill in the job application form. Use the information below.",
+          "formFields": [
+            {
+              "label": "Vorname",
+              "correctAnswer": "Kai",
+              "hint": "Vorname des Bewerbers"
+            },
+            {
+              "label": "Nachname",
+              "correctAnswer": "Bergmann",
+              "hint": "Nachname des Bewerbers"
+            },
+            {
+              "label": "Geburtsdatum",
+              "correctAnswer": "14.09.1992",
+              "hint": "TT.MM.JJJJ"
+            },
+            {
+              "label": "Stelle",
+              "correctAnswer": "Lagerist/in",
+              "hint": "Bezeichnung der Stelle"
+            },
+            {
+              "label": "Verfügbar ab",
+              "correctAnswer": "sofort",
+              "hint": "Frühestmöglicher Eintrittstermin"
+            },
+            {
+              "label": "Telefonnummer",
+              "correctAnswer": "0163 789 01 23",
+              "hint": "Handynummer"
+            }
+          ],
+          "sampleAnswer": "Vorname: Kai\nNachname: Bergmann\nGeburtsdatum: 14.09.1992\nStelle: Lagerist/in\nVerfügbar ab: sofort\nTelefonnummer: 0163 789 01 23",
+          "scoringCriteria": [
+            {
+              "criterion": "Vollständigkeit",
+              "maxPoints": 3,
+              "description": "Alle Pflichtfelder wurden ausgefüllt (je 0,5 Punkte pro Feld)"
+            },
+            {
+              "criterion": "Korrektheit",
+              "maxPoints": 2,
+              "description": "Informationen entsprechen den Aufgabenvorgaben und sind korrekt übertragen"
+            },
+            {
+              "criterion": "Format",
+              "maxPoints": 1,
+              "description": "Datum im richtigen Format, Telefonnummer korrekt"
+            }
+          ]
+        },
+        {
+          "taskNumber": 2,
+          "type": "short_message",
+          "instructions": "Schreiben Sie eine kurze Nachricht an Ihren Kollegen Peter. Schreiben Sie über die drei Punkte unten. Schreiben Sie 30 bis 50 Wörter.",
+          "instructionsTranslation": "Write a short message to your colleague Peter. Write about the three points below. Write 30 to 50 words.",
+          "prompt": "Sie haben erfahren, dass es in Ihrem Büro ab nächster Woche neue Arbeitszeiten gibt.\n- Informieren Sie Peter über die neuen Arbeitszeiten.\n- Sagen Sie, was Sie davon halten.\n- Fragen Sie, ob er schon davon weiß.",
+          "promptTranslation": "You have learned that your office will have new working hours starting next week.\n- Inform Peter about the new working hours.\n- Tell him what you think about it.\n- Ask if he already knows.",
+          "requiredPoints": [
+            "Information über neue Arbeitszeiten",
+            "Eigene Meinung dazu",
+            "Frage, ob Peter es schon weiß"
+          ],
+          "wordCountMin": 30,
+          "wordCountMax": 50,
+          "sampleAnswer": "Hallo Peter,\nhast du schon gehört? Ab nächster Woche haben wir neue Arbeitszeiten — wir fangen um 8 Uhr an statt um 9 Uhr. Ich finde das nicht so toll, weil ich jetzt früher aufstehen muss. Weißt du schon davon?\nViele Grüße, Kai",
+          "scoringCriteria": [
+            {
+              "criterion": "Inhalt",
+              "maxPoints": 3,
+              "description": "Alle drei Punkte wurden angesprochen (je 1 Punkt pro Inhaltspunkt)"
+            },
+            {
+              "criterion": "Sprache",
+              "maxPoints": 2,
+              "description": "Grammatik und Wortschatz sind weitgehend korrekt und für A2 angemessen"
+            },
+            {
+              "criterion": "Wortanzahl",
+              "maxPoints": 1,
+              "description": "Text liegt zwischen 30 und 50 Wörtern"
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 0,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "introduce",
+          "instructions": "Stellen Sie sich kurz vor. Sprechen Sie über sich: Name, Herkunft, Wohnort, Beruf und Hobbys.",
+          "instructionsTranslation": "Introduce yourself briefly. Talk about yourself: name, origin, place of residence, job, and hobbies.",
+          "prompt": "Bitte stellen Sie sich vor:\n- Wie heißen Sie?\n- Woher kommen Sie?\n- Wo wohnen Sie jetzt?\n- Was machen Sie beruflich?\n- Was machen Sie in Ihrer Freizeit?",
+          "sampleResponse": "Guten Tag, ich heiße Kai Bergmann. Ich komme aus Köln und wohne jetzt seit einem Jahr in Berlin. Ich arbeite zurzeit im Lager bei einer Logistikfirma. Das ist körperliche Arbeit, aber ich mag sie. In meiner Freizeit fahre ich gern Fahrrad und spiele Schach.",
+          "evaluationTips": [
+            "Sprechen Sie in vollständigen Sätzen",
+            "Erklären Sie Ihren Beruf kurz",
+            "Verwenden Sie 'und', 'aber', 'weil' um Sätze zu verbinden",
+            "Sprechen Sie deutlich und nicht zu schnell"
+          ],
+          "keyPhrases": [
+            "Ich heiße ...",
+            "Ich komme aus ...",
+            "Ich wohne seit ... in ...",
+            "Ich arbeite als / bei ...",
+            "In meiner Freizeit ..."
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "conversation",
+          "instructions": "Sprechen Sie mit Ihrem Partner oder Ihrer Partnerin über Arbeit und Beruf.",
+          "instructionsTranslation": "Talk with your partner about work and career.",
+          "prompt": "Sprechen Sie mit Ihrem Partner oder Ihrer Partnerin über das Thema Arbeit:\n- Was ist Ihr Beruf?\n- Was gefällt Ihnen an Ihrer Arbeit?\n- Was gefällt Ihnen nicht?\n- Wo möchten Sie in fünf Jahren arbeiten?",
+          "sampleResponse": "Ich arbeite als Lagerist in einer Logistikfirma. Mir gefällt, dass ich viel Bewegung habe und nicht den ganzen Tag sitzen muss. Was mir nicht so gut gefällt, sind die frühen Anfangszeiten — ich fange um 6 Uhr an. In fünf Jahren möchte ich vielleicht Vorarbeiter werden.",
+          "evaluationTips": [
+            "Verwenden Sie 'mir gefällt', 'ich mag', 'ich finde'",
+            "Antworten Sie mit vollständigen Sätzen",
+            "Stellen Sie auch Fragen an den Partner",
+            "Benutzen Sie Zukunftsform: 'Ich möchte ... werden'"
+          ],
+          "keyPhrases": [
+            "Ich arbeite als ...",
+            "Mir gefällt ..., weil ...",
+            "Was mir nicht so gut gefällt, ist ...",
+            "In fünf Jahren möchte ich ...",
+            "Und was machen Sie beruflich?"
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Planen Sie gemeinsam mit Ihrem Partner oder Ihrer Partnerin eine Überraschungsfeier für einen Kollegen.",
+          "instructionsTranslation": "Plan a surprise party for a colleague together with your partner.",
+          "prompt": "Ein Kollege hört auf zu arbeiten und geht in Rente. Sie und Ihr Partner oder Ihre Partnerin möchten eine kleine Abschiedsfeier für ihn organisieren. Sprechen Sie über:\n- Wann und wo soll die Feier stattfinden?\n- Was soll es zu essen und trinken geben?\n- Welche anderen Kollegen werden eingeladen?\n- Wer macht was für die Feier?",
+          "sampleResponse": "Ich schlage vor, die Feier am letzten Arbeitstag, also am Freitag, in unserem Pausenraum zu machen — nach der Arbeit. Ich bringe Kuchen und Wein mit. Kannst du alle Kollegen aus unserer Abteilung einladen? Vielleicht könnten wir auch gemeinsam ein kleines Geschenk kaufen.",
+          "evaluationTips": [
+            "Machen Sie Vorschläge mit 'Ich schlage vor...'",
+            "Verteilen Sie Aufgaben: 'Ich mache X, du machst Y'",
+            "Reagieren Sie auf Vorschläge des Partners",
+            "Benutzen Sie 'könnten', 'sollten', 'wollen'"
+          ],
+          "keyPhrases": [
+            "Ich schlage vor, ...",
+            "Ich bringe ... mit.",
+            "Kannst du ... einladen?",
+            "Was hältst du davon?",
+            "Gute Idee! / Einverstanden.",
+            "Vielleicht könnten wir ..."
+          ]
+        }
+      ]
+    }
   }
 }
