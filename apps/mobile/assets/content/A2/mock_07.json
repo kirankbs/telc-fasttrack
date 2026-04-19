@@ -2,12 +2,663 @@
   "id": "A2_mock_07",
   "level": "A2",
   "title": "Übungstest 7",
-  "version": 0,
-  "_stub": true,
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Nachrichten auf dem Anrufbeantworter. Zu jeder Nachricht gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.",
+          "instructionsTranslation": "You will hear five short telephone messages. For each message there is one task. What is correct? Mark: a, b, or c. You will hear each recording twice.",
+          "audioFile": "assets/audio/A2/mock07/listening_part1.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A2_m07_L1_q1",
+              "type": "mcq",
+              "questionText": "Was macht Jan am Samstagnachmittag?",
+              "options": [
+                "a) Er spielt Fußball.",
+                "b) Er geht schwimmen.",
+                "c) Er bleibt zu Hause."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Jan sagt auf dem Anrufbeantworter: 'Ich kann heute leider nicht kommen — ich habe Samstagnachmittag immer Fußballtraining mit meiner Mannschaft.' Er spielt also Fußball.",
+              "audioTimestamp": 7
+            },
+            {
+              "id": "A2_m07_L1_q2",
+              "type": "mcq",
+              "questionText": "Wohin möchte Nina am Wochenende fahren?",
+              "options": [
+                "a) an den See",
+                "b) in die Berge",
+                "c) in die Stadt"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Nina fragt: 'Hast du Lust, am Wochenende mit mir in die Berge zu fahren? Das Wetter soll schön sein und ich möchte wandern gehen.' Sie will in die Berge.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m07_L1_q3",
+              "type": "mcq",
+              "questionText": "Was hat der Sportverein abgesagt?",
+              "options": [
+                "a) das Sommerfest",
+                "b) das Training am Donnerstag",
+                "c) das Turnier am Wochenende"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Sportverein hinterlässt die Nachricht: 'Wir müssen das Turnier am Wochenende leider absagen — der Sportplatz ist wegen Renovierung gesperrt.' Das Turnier ist abgesagt.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m07_L1_q4",
+              "type": "mcq",
+              "questionText": "Was schenkt Lukas seinem Freund zum Geburtstag?",
+              "options": [
+                "a) Konzertkarten",
+                "b) ein Buch",
+                "c) eine Kinokarte"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Lukas sagt: 'Ich habe für deinen Geburtstag zwei Konzertkarten für das Rockkonzert am Freitagabend besorgt — wir gehen zusammen hin!' Es sind Konzertkarten.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m07_L1_q5",
+              "type": "mcq",
+              "questionText": "Wann ist das nächste Treffen des Lesekreises?",
+              "options": [
+                "a) am Dienstag um 19 Uhr",
+                "b) am Mittwoch um 18 Uhr",
+                "c) am Donnerstag um 20 Uhr"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Nachricht sagt: 'Das nächste Treffen unseres Lesekreises findet wie immer am Dienstagabend um 19 Uhr statt.' Mittwoch und Donnerstag werden nicht erwähnt.",
+              "audioTimestamp": 6
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören fünf kurze Radiodurchsagen. Zu jeder Durchsage gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear five short radio announcements. For each announcement there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A2/mock07/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A2_m07_L2_q1",
+              "type": "mcq",
+              "questionText": "Was findet am Wochenende im Stadtpark statt?",
+              "options": [
+                "a) ein Konzert",
+                "b) ein Sportfest",
+                "c) ein Flohmarkt"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Radiodurchsage kündigt an: 'Am Samstag und Sonntag findet im Stadtpark der große Frühjahrsflohmarkt statt — über 200 Anbieter.' Es ist ein Flohmarkt.",
+              "audioTimestamp": 5
+            },
+            {
+              "id": "A2_m07_L2_q2",
+              "type": "mcq",
+              "questionText": "Was bietet die neue Sportstätte an?",
+              "options": [
+                "a) nur Schwimmbad und Sauna",
+                "b) Fitnessstudio und Kursangebote",
+                "c) Tennisplätze und eine Laufbahn"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Radioanzeige sagt: 'Das neue FitPlus in der Hansastraße bietet modernste Geräte im Fitnessstudio sowie über 30 verschiedene Kurse — von Yoga bis Zumba.' Es gibt Fitnessstudio und Kurse.",
+              "audioTimestamp": 7
+            },
+            {
+              "id": "A2_m07_L2_q3",
+              "type": "mcq",
+              "questionText": "Was kostet der Eintritt ins Schwimmbad für Kinder?",
+              "options": [
+                "a) 2,50 Euro",
+                "b) 3,00 Euro",
+                "c) kostenlos"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Radiodurchsage informiert: 'Kinder bis 14 Jahre zahlen nur 2,50 Euro Eintritt — Erwachsene 5,00 Euro.' Kinder zahlen also 2,50 Euro.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "A2_m07_L2_q4",
+              "type": "mcq",
+              "questionText": "Was empfiehlt der Radiosprecher für das Wochenende?",
+              "options": [
+                "a) drinnen bleiben wegen Regen",
+                "b) einen Ausflug in die Natur",
+                "c) ins Kino gehen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Sprecher sagt: 'Bei diesem herrlichen Wetter empfehle ich einen Ausflug ins Grüne — die Wälder rund um die Stadt laden zum Wandern ein.' Er empfiehlt einen Ausflug in die Natur.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m07_L2_q5",
+              "type": "mcq",
+              "questionText": "Welcher Film läuft diese Woche im Kino besonders erfolgreich?",
+              "options": [
+                "a) ein deutsches Drama",
+                "b) ein amerikanischer Actionfilm",
+                "c) ein Animationsfilm für Kinder"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Kinovorschau sagt: 'Der neue Animationsfilm 'Waldgeister' ist diese Woche der Kassenschlager — ideal für die ganze Familie.' Es ist ein Animationsfilm für Kinder.",
+              "audioTimestamp": 5
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear five short conversations. For each conversation there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A2/mock07/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A2_m07_L3_q1",
+              "type": "mcq",
+              "questionText": "Was machen die zwei Freunde am Sonntagvormittag?",
+              "options": [
+                "a) Sie gehen ins Fitnessstudio.",
+                "b) Sie machen eine Radtour.",
+                "c) Sie gehen in den Wald spazieren."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Im Gespräch einigen sich die Freunde: 'Dann machen wir Sonntagvormittag eine Radtour entlang des Flusses — ich zeige dir die schöne Strecke.' Sie machen eine Radtour.",
+              "audioTimestamp": 10
+            },
+            {
+              "id": "A2_m07_L3_q2",
+              "type": "mcq",
+              "questionText": "Warum kann die Frau nicht ins Konzert gehen?",
+              "options": [
+                "a) Die Karten sind ausverkauft.",
+                "b) Sie hat keine Zeit.",
+                "c) Das Konzert ist zu teuer."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Frau sagt enttäuscht: 'Ich wollte auch zu dem Konzert, aber als ich die Karten kaufen wollte, waren sie schon alle ausverkauft.' Die Karten sind ausverkauft.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m07_L3_q3",
+              "type": "mcq",
+              "questionText": "Was hat der Mann gestern Abend gemacht?",
+              "options": [
+                "a) Er hat ferngesehen.",
+                "b) Er hat Freunde besucht.",
+                "c) Er hat ein Buch gelesen."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Mann erklärt: 'Gestern Abend war ich gemütlich zu Hause und habe stundenlang gelesen — ich lese gerade einen Krimi und kann nicht aufhören.' Er hat ein Buch gelesen.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m07_L3_q4",
+              "type": "mcq",
+              "questionText": "Welches Hobby interessiert die Frau neu?",
+              "options": [
+                "a) Fotografie",
+                "b) Töpfern",
+                "c) Aquarellmalen"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Frau sagt begeistert: 'Ich habe letztes Wochenende an einem Fotokurs teilgenommen — das hat mich wirklich begeistert. Ich glaube, Fotografie wird mein neues Hobby!' Sie interessiert sich für Fotografie.",
+              "audioTimestamp": 11
+            },
+            {
+              "id": "A2_m07_L3_q5",
+              "type": "mcq",
+              "questionText": "Was wollen die zwei Personen zusammen planen?",
+              "options": [
+                "a) eine Reise",
+                "b) einen Spieleabend",
+                "c) eine Sportveranstaltung"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Am Ende des Gesprächs sagt die Frau: 'Lass uns einen Spieleabend organisieren — ich habe so viele neue Brettspiele und wir könnten alle Freunde einladen.' Sie planen einen Spieleabend.",
+              "audioTimestamp": 12
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 25,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie die fünf Anzeigen. Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es genau eine passende Anzeige. Schreiben Sie den Buchstaben der Anzeige.",
+          "instructionsTranslation": "Read the five advertisements. Which advertisement matches which situation? For each situation there is exactly one matching advertisement. Write the letter of the advertisement.",
+          "texts": [
+            {
+              "id": "A2_m07_R1_text_a",
+              "type": "ad",
+              "content": "ANZEIGE A — Bogenschießen für Anfänger\nHaben Sie Interesse an einem besonderen Hobby? Wir bieten Schnupperkurse im Bogenschießen an — kein Vorkenntnisse nötig! Jeden Samstag um 10 Uhr. Preis: 25 Euro inkl. Ausrüstung. Sportbogen-Verein, Feldweg 3."
+            },
+            {
+              "id": "A2_m07_R1_text_b",
+              "type": "ad",
+              "content": "ANZEIGE B — Stadtbibliothek: Leseclub für Erwachsene\nSie lesen gerne? Kommen Sie zu unserem monatlichen Leseclub! Wir treffen uns jeden ersten Montag im Monat um 19 Uhr. Aktuelles Buch: 'Der Sommergarten'. Anmeldung: bibliothek@stadtmitte.de"
+            },
+            {
+              "id": "A2_m07_R1_text_c",
+              "type": "ad",
+              "content": "ANZEIGE C — Wandergruppe sucht Mitglieder\nWir wandern jeden Sonntag in der Umgebung — leichte bis mittlere Touren. Wir suchen neue Mitglieder! Treffpunkt: 9 Uhr am Hauptbahnhof. Familien und Einzelpersonen willkommen. Mehr Infos: www.wandern-bielefeld.de"
+            },
+            {
+              "id": "A2_m07_R1_text_d",
+              "type": "ad",
+              "content": "ANZEIGE D — Konzerttickets: Stadtorchester\nDas Stadtorchester spielt am 15. und 16. Juni im Konzertsaal. Programm: Beethoven und Brahms. Karten ab 18 Euro. Online buchen: www.stadtorchester-tickets.de oder an der Abendkasse."
+            },
+            {
+              "id": "A2_m07_R1_text_e",
+              "type": "ad",
+              "content": "ANZEIGE E — Kreativkurs: Töpfern\nEntdecken Sie die Freude am Töpfern! Kurs für Anfänger und Fortgeschrittene. 8 Abende, mittwochs 18–21 Uhr. Preis: 120 Euro inkl. Material. Anmeldung bis 30. Mai. Kunstschule am See."
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m07_R1_q1",
+              "type": "matching",
+              "questionText": "Paul möchte ein ungewöhnliches Hobby ausprobieren und hat noch keine Erfahrung damit.",
+              "matchingSources": [
+                { "id": "A2_m07_R1_text_a", "label": "A" },
+                { "id": "A2_m07_R1_text_b", "label": "B" },
+                { "id": "A2_m07_R1_text_c", "label": "C" },
+                { "id": "A2_m07_R1_text_d", "label": "D" },
+                { "id": "A2_m07_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Anzeige A bietet Bogenschießen-Schnupperkurse für Anfänger ohne Vorkenntnisse an — ein ungewöhnliches Hobby, das Paul ausprobieren kann."
+            },
+            {
+              "id": "A2_m07_R1_q2",
+              "type": "matching",
+              "questionText": "Elena liest sehr gerne und möchte andere Menschen treffen, die das auch tun.",
+              "matchingSources": [
+                { "id": "A2_m07_R1_text_a", "label": "A" },
+                { "id": "A2_m07_R1_text_b", "label": "B" },
+                { "id": "A2_m07_R1_text_c", "label": "C" },
+                { "id": "A2_m07_R1_text_d", "label": "D" },
+                { "id": "A2_m07_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Anzeige B ist ein Leseclub für Erwachsene, die gerne lesen — Elena kann dort gleichgesinnte Menschen treffen."
+            },
+            {
+              "id": "A2_m07_R1_q3",
+              "type": "matching",
+              "questionText": "Familie Wagner möchte am Wochenende gemeinsam in der Natur aktiv sein.",
+              "matchingSources": [
+                { "id": "A2_m07_R1_text_a", "label": "A" },
+                { "id": "A2_m07_R1_text_b", "label": "B" },
+                { "id": "A2_m07_R1_text_c", "label": "C" },
+                { "id": "A2_m07_R1_text_d", "label": "D" },
+                { "id": "A2_m07_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Anzeige C ist eine Wandergruppe, die sonntags wandert, und Familien sind ausdrücklich willkommen — ideal für Familie Wagner."
+            },
+            {
+              "id": "A2_m07_R1_q4",
+              "type": "matching",
+              "questionText": "Herr Müller möchte am Abend klassische Musik live erleben.",
+              "matchingSources": [
+                { "id": "A2_m07_R1_text_a", "label": "A" },
+                { "id": "A2_m07_R1_text_b", "label": "B" },
+                { "id": "A2_m07_R1_text_c", "label": "C" },
+                { "id": "A2_m07_R1_text_d", "label": "D" },
+                { "id": "A2_m07_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Anzeige D bietet Konzerttickets für das Stadtorchester mit klassischer Musik (Beethoven und Brahms) an — perfekt für Herrn Müller."
+            },
+            {
+              "id": "A2_m07_R1_q5",
+              "type": "matching",
+              "questionText": "Clara möchte etwas Kreatives mit den Händen machen und ist bereit, dafür regelmäßig abends zu kommen.",
+              "matchingSources": [
+                { "id": "A2_m07_R1_text_a", "label": "A" },
+                { "id": "A2_m07_R1_text_b", "label": "B" },
+                { "id": "A2_m07_R1_text_c", "label": "C" },
+                { "id": "A2_m07_R1_text_d", "label": "D" },
+                { "id": "A2_m07_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "E",
+              "explanation": "Anzeige E bietet einen Töpferkurs an Abenden (mittwochs) an — ein kreatives Handwerk, das Clara regelmäßig abends ausüben kann."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den Zeitungsartikel. Sind die Sätze richtig oder falsch? Kreuzen Sie an.",
+          "instructionsTranslation": "Read the newspaper article. Are the sentences correct or incorrect? Mark your answer.",
+          "texts": [
+            {
+              "id": "A2_m07_R2_text1",
+              "type": "article",
+              "content": "Sport in der Freizeit: Was machen die Deutschen? Laut einer aktuellen Befragung ist Spazierengehen das beliebteste Freizeitaktivität in Deutschland — 62 Prozent der Erwachsenen gehen mindestens einmal pro Woche spazieren. An zweiter Stelle steht das Fahrradfahren mit 41 Prozent, gefolgt von Schwimmen (35 Prozent). Fußball ist vor allem bei Männern und Jugendlichen beliebt — nur 18 Prozent der Erwachsenen spielen regelmäßig. Interessant: Yoga und Pilates werden immer beliebter und haben in den letzten fünf Jahren stark zugenommen. Nur 12 Prozent der Deutschen treiben gar keinen Sport.",
+              "source": "Sportmagazin, Januar 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m07_R2_q1",
+              "type": "true_false",
+              "questionText": "Mehr als die Hälfte der deutschen Erwachsenen geht jede Woche spazieren.",
+              "relatedTextId": "A2_m07_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Der Text sagt: '62 Prozent der Erwachsenen gehen mindestens einmal pro Woche spazieren.' 62 Prozent ist mehr als die Hälfte (50 Prozent) — richtig."
+            },
+            {
+              "id": "A2_m07_R2_q2",
+              "type": "true_false",
+              "questionText": "Fahrradfahren ist beliebter als Schwimmen.",
+              "relatedTextId": "A2_m07_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Der Artikel nennt Fahrradfahren (41%) an zweiter Stelle, vor Schwimmen (35%). 41 > 35 — Fahrradfahren ist beliebter."
+            },
+            {
+              "id": "A2_m07_R2_q3",
+              "type": "true_false",
+              "questionText": "Fast jeder zweite Deutsche spielt regelmäßig Fußball.",
+              "relatedTextId": "A2_m07_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Der Text sagt: 'Nur 18 Prozent der Erwachsenen spielen regelmäßig Fußball.' 18 Prozent ist weit von jedem zweiten (50 Prozent) entfernt — die Aussage ist falsch."
+            },
+            {
+              "id": "A2_m07_R2_q4",
+              "type": "true_false",
+              "questionText": "Yoga und Pilates sind seit einigen Jahren immer populärer geworden.",
+              "relatedTextId": "A2_m07_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Der Artikel sagt: 'Yoga und Pilates werden immer beliebter und haben in den letzten fünf Jahren stark zugenommen.' Die Aussage ist korrekt."
+            },
+            {
+              "id": "A2_m07_R2_q5",
+              "type": "true_false",
+              "questionText": "Ungefähr jeder achte Deutsche macht überhaupt keinen Sport.",
+              "relatedTextId": "A2_m07_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Der Text sagt: 'Nur 12 Prozent der Deutschen treiben gar keinen Sport.' 12 Prozent entspricht ungefähr jedem Achten (12,5%) — die Aussage ist sinngemäß richtig."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die Hinweisschilder und kurzen Texte. Was ist richtig? Kreuzen Sie an: a, b oder c.",
+          "instructionsTranslation": "Read the notices and short texts. What is correct? Mark: a, b, or c.",
+          "texts": [
+            {
+              "id": "A2_m07_R3_text1",
+              "type": "notice",
+              "content": "STADTBAD — Sommersaison\nAb 1. Juni täglich geöffnet von 9:00 – 20:00 Uhr. Letzter Einlass um 19:00 Uhr. An Feiertagen geschlossen. Eintritt Erwachsene: 5,00 €, Kinder (bis 14 J.): 2,50 €, Familienkarte (2 Erw. + 2 Kinder): 14,00 €"
+            },
+            {
+              "id": "A2_m07_R3_text2",
+              "type": "notice",
+              "content": "Tennisclub Rot-Weiß\nPlatzreservierung nur für Mitglieder. Nichtmitglieder können Plätze nur mit einem Mitglied zusammen buchen. Gästegebühr: 5 Euro pro Person und Stunde. Reservierung: Tel. 0521 111 22 33"
+            },
+            {
+              "id": "A2_m07_R3_text3",
+              "type": "notice",
+              "content": "KINOPREIS-AKTION\nDienstags und mittwochs: alle Filme nur 6,00 Euro! (Normaler Preis: 10,00 Euro)\nPopcorn und Getränke nicht im Preis inbegriffen. Gilt nicht für 3D-Filme und Sondervorstellungen."
+            },
+            {
+              "id": "A2_m07_R3_text4",
+              "type": "notice",
+              "content": "Wanderweg gesperrt!\nDer Wanderweg 'Heideblick' ist bis zum 30. September wegen Forstarbeiten gesperrt. Bitte benutzen Sie den Ausweichweg über den Waldparkplatz. Vielen Dank für Ihr Verständnis.\n— Forstverwaltung"
+            },
+            {
+              "id": "A2_m07_R3_text5",
+              "type": "notice",
+              "content": "FITNESSSTUDIO — Hinweis für neue Mitglieder\nIhre Mitgliedschaft beginnt automatisch am Tag der Anmeldung. Kündigung nur schriftlich und mit 4 Wochen Frist zum Monatsende. Mindestlaufzeit: 6 Monate."
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m07_R3_q1",
+              "type": "mcq",
+              "questionText": "Wann ist der letzte Einlass ins Stadtbad?",
+              "relatedTextId": "A2_m07_R3_text1",
+              "options": [
+                "a) um 19:00 Uhr",
+                "b) um 20:00 Uhr",
+                "c) das Bad schließt bereits um 18:00 Uhr"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Das Schild sagt: 'Letzter Einlass um 19:00 Uhr.' Das Bad schließt um 20 Uhr, aber man kommt letztmalig um 19 Uhr rein."
+            },
+            {
+              "id": "A2_m07_R3_q2",
+              "type": "mcq",
+              "questionText": "Was kostet es, als Gast mit einem Mitglied Tennis zu spielen?",
+              "relatedTextId": "A2_m07_R3_text2",
+              "options": [
+                "a) nichts — Gäste spielen kostenlos",
+                "b) 5 Euro pro Person und Stunde",
+                "c) 10 Euro für den ganzen Tag"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Schild sagt: 'Gästegebühr: 5 Euro pro Person und Stunde.' Gäste spielen nicht kostenlos und zahlen stundenweise."
+            },
+            {
+              "id": "A2_m07_R3_q3",
+              "type": "mcq",
+              "questionText": "Wann gilt der günstige Kinopreis von 6 Euro?",
+              "relatedTextId": "A2_m07_R3_text3",
+              "options": [
+                "a) täglich",
+                "b) nur dienstags und mittwochs",
+                "c) am Wochenende"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Schild sagt: 'Dienstags und mittwochs: alle Filme nur 6,00 Euro!' Der Rabattpreis gilt nur an diesen zwei Wochentagen."
+            },
+            {
+              "id": "A2_m07_R3_q4",
+              "type": "mcq",
+              "questionText": "Warum ist der Wanderweg 'Heideblick' gesperrt?",
+              "relatedTextId": "A2_m07_R3_text4",
+              "options": [
+                "a) wegen schlechten Wetters",
+                "b) wegen Forstarbeiten",
+                "c) wegen eines Unfalls"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Schild erklärt: 'Der Wanderweg ist bis zum 30. September wegen Forstarbeiten gesperrt.' Forstarbeiten sind der Grund."
+            },
+            {
+              "id": "A2_m07_R3_q5",
+              "type": "mcq",
+              "questionText": "Wie lange muss ein Fitnessmitglied mindestens Mitglied bleiben?",
+              "relatedTextId": "A2_m07_R3_text5",
+              "options": [
+                "a) 3 Monate",
+                "b) 6 Monate",
+                "c) 12 Monate"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Schild sagt: 'Mindestlaufzeit: 6 Monate.' Man muss also mindestens 6 Monate Mitglied bleiben."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 20,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "form_fill",
+          "instructions": "Füllen Sie das Anmeldeformular für einen Sportverein aus. Benutzen Sie die Informationen unten.",
+          "instructionsTranslation": "Fill in the registration form for a sports club. Use the information below.",
+          "formFields": [
+            {
+              "label": "Vorname",
+              "correctAnswer": "Mia",
+              "hint": "Vorname der neuen Mitglied"
+            },
+            {
+              "label": "Nachname",
+              "correctAnswer": "Schulz",
+              "hint": "Nachname der neuen Mitglied"
+            },
+            {
+              "label": "Geburtsdatum",
+              "correctAnswer": "30.04.1995",
+              "hint": "TT.MM.JJJJ"
+            },
+            {
+              "label": "Sportart",
+              "correctAnswer": "Tennis",
+              "hint": "Welchen Sport möchten Sie ausüben?"
+            },
+            {
+              "label": "Mitgliedschaft ab",
+              "correctAnswer": "01.06.",
+              "hint": "Datum des Eintritts (TT.MM.)"
+            },
+            {
+              "label": "E-Mail",
+              "correctAnswer": "mia.schulz@mail.de",
+              "hint": "E-Mail-Adresse"
+            }
+          ],
+          "sampleAnswer": "Vorname: Mia\nNachname: Schulz\nGeburtsdatum: 30.04.1995\nSportart: Tennis\nMitgliedschaft ab: 01.06.\nE-Mail: mia.schulz@mail.de",
+          "scoringCriteria": [
+            {
+              "criterion": "Vollständigkeit",
+              "maxPoints": 3,
+              "description": "Alle Pflichtfelder wurden ausgefüllt (je 0,5 Punkte pro Feld)"
+            },
+            {
+              "criterion": "Korrektheit",
+              "maxPoints": 2,
+              "description": "Informationen entsprechen den Aufgabenvorgaben und sind korrekt übertragen"
+            },
+            {
+              "criterion": "Format",
+              "maxPoints": 1,
+              "description": "Datum im richtigen Format, E-Mail korrekt"
+            }
+          ]
+        },
+        {
+          "taskNumber": 2,
+          "type": "short_message",
+          "instructions": "Schreiben Sie eine kurze Nachricht an Ihre Freundin Clara. Schreiben Sie über die drei Punkte unten. Schreiben Sie 30 bis 50 Wörter.",
+          "instructionsTranslation": "Write a short message to your friend Clara. Write about the three points below. Write 30 to 50 words.",
+          "prompt": "Sie haben am Wochenende etwas Schönes in Ihrer Freizeit gemacht.\n- Beschreiben Sie, was Sie gemacht haben.\n- Sagen Sie, wie es war.\n- Laden Sie Clara ein, das nächste Mal mitzukommen.",
+          "promptTranslation": "You did something nice in your free time at the weekend.\n- Describe what you did.\n- Say how it was.\n- Invite Clara to come along next time.",
+          "requiredPoints": [
+            "Beschreibung der Freizeitaktivität",
+            "Bewertung des Erlebnisses",
+            "Einladung an Clara"
+          ],
+          "wordCountMin": 30,
+          "wordCountMax": 50,
+          "sampleAnswer": "Hallo Clara,\ndieses Wochenende war ich mit einer Gruppe wandern — wir waren im Teutoburger Wald. Es war wirklich wunderschön und nicht zu anstrengend! Das nächste Mal kommen wir wieder, am 12. Juni. Hast du Lust mitzukommen? Es würde mich sehr freuen!\nViele Grüße, Mia",
+          "scoringCriteria": [
+            {
+              "criterion": "Inhalt",
+              "maxPoints": 3,
+              "description": "Alle drei Punkte wurden angesprochen (je 1 Punkt pro Inhaltspunkt)"
+            },
+            {
+              "criterion": "Sprache",
+              "maxPoints": 2,
+              "description": "Grammatik und Wortschatz sind weitgehend korrekt und für A2 angemessen"
+            },
+            {
+              "criterion": "Wortanzahl",
+              "maxPoints": 1,
+              "description": "Text liegt zwischen 30 und 50 Wörtern"
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 0,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "introduce",
+          "instructions": "Stellen Sie sich kurz vor. Sprechen Sie über sich: Name, Herkunft, Wohnort, Beruf und Hobbys.",
+          "instructionsTranslation": "Introduce yourself briefly. Talk about yourself: name, origin, place of residence, job, and hobbies.",
+          "prompt": "Bitte stellen Sie sich vor:\n- Wie heißen Sie?\n- Woher kommen Sie?\n- Wo wohnen Sie jetzt?\n- Was machen Sie beruflich?\n- Was machen Sie in Ihrer Freizeit?",
+          "sampleResponse": "Guten Tag, ich heiße Mia Schulz. Ich komme aus Österreich, aus Salzburg. Seit zwei Jahren wohne ich in Bielefeld. Ich arbeite als Physiotherapeutin. In meiner Freizeit spiele ich Tennis, mache Yoga und gehe gerne wandern. Sport ist mir sehr wichtig.",
+          "evaluationTips": [
+            "Sprechen Sie in vollständigen Sätzen",
+            "Nennen Sie mehrere Hobbys, wenn möglich",
+            "Verbinden Sie Sätze mit 'und', 'auch', 'außerdem'",
+            "Erklären Sie kurz, warum Ihnen etwas wichtig ist"
+          ],
+          "keyPhrases": [
+            "Ich heiße ...",
+            "Ich komme aus ...",
+            "Seit ... wohne ich in ...",
+            "Ich arbeite als ...",
+            "In meiner Freizeit ...",
+            "Sport ist mir wichtig, weil ..."
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "conversation",
+          "instructions": "Sprechen Sie mit Ihrem Partner oder Ihrer Partnerin über Freizeit und Hobbys.",
+          "instructionsTranslation": "Talk with your partner about leisure time and hobbies.",
+          "prompt": "Sprechen Sie mit Ihrem Partner oder Ihrer Partnerin über das Thema Freizeit:\n- Was machen Sie in Ihrer Freizeit am liebsten?\n- Treiben Sie Sport? Welchen?\n- Gehen Sie manchmal ins Kino, ins Theater oder zu Konzerten?\n- Was möchten Sie in Zukunft gerne ausprobieren?",
+          "sampleResponse": "Am liebsten bin ich in meiner Freizeit draußen — ich wandere oder fahre Fahrrad. Tennis spiele ich auch sehr gerne. Ins Kino gehe ich manchmal, aber nicht oft — ich schaue lieber Serien zu Hause. In Zukunft möchte ich gerne surfen lernen, das finde ich sehr interessant.",
+          "evaluationTips": [
+            "Nutzen Sie 'am liebsten', 'gerne', 'manchmal', 'selten'",
+            "Begründen Sie Ihre Meinungen mit 'weil' oder 'denn'",
+            "Stellen Sie dem Partner Fragen zurück",
+            "Benutzen Sie 'in Zukunft möchte ich ...'"
+          ],
+          "keyPhrases": [
+            "Am liebsten ...",
+            "Ich mache gerne ...",
+            "Manchmal gehe ich ...",
+            "Ich finde ... interessant / langweilig",
+            "In Zukunft möchte ich ...",
+            "Was machst du in deiner Freizeit?"
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Planen Sie gemeinsam mit Ihrem Partner oder Ihrer Partnerin einen freien Tag.",
+          "instructionsTranslation": "Plan a free day together with your partner.",
+          "prompt": "Sie und Ihr Partner oder Ihre Partnerin haben morgen einen freien Tag. Planen Sie den Tag zusammen. Sprechen Sie über:\n- Was möchten Sie vormittags machen?\n- Wo essen Sie zu Mittag?\n- Was ist der Plan für den Nachmittag?\n- Wie endet der Abend?",
+          "sampleResponse": "Ich schlage vor, vormittags eine Runde im Park zu laufen oder Fahrrad zu fahren — das Wetter soll schön sein. Zum Mittagessen könnten wir ins Café am Marktplatz gehen. Nachmittags würde ich gerne ins Kino gehen, und abends können wir bei mir zu Hause einen Film schauen und etwas essen.",
+          "evaluationTips": [
+            "Machen Sie Vorschläge für verschiedene Tageszeiten",
+            "Reagieren Sie auf die Ideen des Partners",
+            "Nutzen Sie 'könnte', 'würde', 'schlage vor'",
+            "Einigen Sie sich auf einen konkreten Plan"
+          ],
+          "keyPhrases": [
+            "Ich schlage vor, ...",
+            "Wir könnten ...",
+            "Ich würde gerne ...",
+            "Was hältst du von ...?",
+            "Einverstanden! / Das klingt gut!",
+            "Für den Abend schlage ich vor ..."
+          ]
+        }
+      ]
+    }
   }
 }

@@ -2,12 +2,660 @@
   "id": "A2_mock_05",
   "level": "A2",
   "title": "Übungstest 5",
-  "version": 0,
-  "_stub": true,
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Nachrichten auf dem Anrufbeantworter. Zu jeder Nachricht gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.",
+          "instructionsTranslation": "You will hear five short telephone messages. For each message there is one task. What is correct? Mark: a, b, or c. You will hear each recording twice.",
+          "audioFile": "assets/audio/A2/mock05/listening_part1.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "A2_m05_L1_q1",
+              "type": "mcq",
+              "questionText": "Wann ist der Zahnarzttermin für Herrn Keller?",
+              "options": [
+                "a) am Montag um 9 Uhr",
+                "b) am Dienstag um 10:30 Uhr",
+                "c) am Mittwoch um 14 Uhr"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Zahnarztpraxis hinterlässt die Nachricht: 'Wir bestätigen Ihren Termin, Herr Keller, am Dienstag um 10:30 Uhr.' Montag und Mittwoch werden nicht als Termin genannt.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m05_L1_q2",
+              "type": "mcq",
+              "questionText": "Warum muss Frau Meier ihren Termin absagen?",
+              "options": [
+                "a) Sie ist krank.",
+                "b) Sie hat keine Zeit.",
+                "c) Sie muss arbeiten."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Frau Meier sagt auf dem Anrufbeantworter: 'Leider muss ich unseren Termin morgen absagen — ich bin leider krank und kann das Haus nicht verlassen.' Sie ist also krank.",
+              "audioTimestamp": 7
+            },
+            {
+              "id": "A2_m05_L1_q3",
+              "type": "mcq",
+              "questionText": "Wann kann Herr Schmidt zum Amt kommen?",
+              "options": [
+                "a) nur vormittags",
+                "b) nachmittags bis 16 Uhr",
+                "c) donnerstags auch abends"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Das Bürgeramt erklärt: 'Unsere Öffnungszeiten: Mo–Mi 8–16 Uhr, Do 8–18 Uhr. Donnerstags sind wir also auch abends erreichbar.' Herr Schmidt kann donnerstags abends kommen.",
+              "audioTimestamp": 10
+            },
+            {
+              "id": "A2_m05_L1_q4",
+              "type": "mcq",
+              "questionText": "Was soll Lara für das Elterngespräch mitbringen?",
+              "options": [
+                "a) das Zeugnis ihres Kindes",
+                "b) einen Ausweis",
+                "c) das Anmeldeformular"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Lehrerin sagt: 'Bitte bringen Sie beim Elterngespräch am Donnerstag das aktuelle Zeugnis Ihres Kindes mit.' Ausweis und Formular werden nicht erwähnt.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m05_L1_q5",
+              "type": "mcq",
+              "questionText": "Was möchte Herr Wagner vom Termin wissen?",
+              "options": [
+                "a) ob der Termin noch frei ist",
+                "b) wie lange der Termin dauert",
+                "c) wo der Termin stattfindet"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Herr Wagner fragt auf dem Anrufbeantworter: 'Ich möchte wissen, wie lange das Gespräch ungefähr dauert — ich muss danach noch einen anderen Termin wahrnehmen.' Er fragt also nach der Dauer.",
+              "audioTimestamp": 7
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören fünf kurze Radiodurchsagen. Zu jeder Durchsage gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear five short radio announcements. For each announcement there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A2/mock05/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A2_m05_L2_q1",
+              "type": "mcq",
+              "questionText": "Was sagt das Radio über die Arztpraxis?",
+              "options": [
+                "a) Sie macht eine Woche Urlaub.",
+                "b) Sie zieht in neue Räume um.",
+                "c) Sie hat eine neue Telefonnummer."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Durchsage informiert: 'Die Praxis Dr. Berger zieht ab dem 1. Juni in neue Räume in der Gartenstraße 12 um.' Es ist ein Umzug, kein Urlaub und keine neue Nummer.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "A2_m05_L2_q2",
+              "type": "mcq",
+              "questionText": "Was können Bürger jetzt online machen?",
+              "options": [
+                "a) einen neuen Ausweis beantragen",
+                "b) Termine beim Bürgeramt buchen",
+                "c) Dokumente herunterladen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Radiodurchsage sagt: 'Neu: Termine beim Bürgeramt können jetzt bequem online gebucht werden unter www.stadt-bielefeld.de.' Ausweise und Dokumente sind nicht das Thema.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "A2_m05_L2_q3",
+              "type": "mcq",
+              "questionText": "Was wird im Rathaus ab nächster Woche repariert?",
+              "options": [
+                "a) die Heizung",
+                "b) das Dach",
+                "c) die Aufzüge"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Durchsage sagt: 'Im Rathaus werden ab Montag die Aufzüge renoviert — bitte benutzen Sie die Treppen. Die Reparatur dauert etwa zwei Wochen.' Es geht um die Aufzüge.",
+              "audioTimestamp": 7
+            },
+            {
+              "id": "A2_m05_L2_q4",
+              "type": "mcq",
+              "questionText": "Wann kann man in der neuen Schule anrufen?",
+              "options": [
+                "a) montags bis freitags von 8 bis 16 Uhr",
+                "b) nur montags und mittwochs",
+                "c) täglich von 9 bis 12 Uhr"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Schule informiert: 'Unser Sekretariat ist erreichbar von Montag bis Freitag, 8 bis 16 Uhr.' Die anderen Zeiten stimmen nicht mit der Durchsage überein.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m05_L2_q5",
+              "type": "mcq",
+              "questionText": "Wofür braucht man laut Radio einen Termin?",
+              "options": [
+                "a) für die Anmeldung beim Einwohnermeldeamt",
+                "b) für den Führerschein",
+                "c) für die Krankenkassenkarte"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Durchsage sagt: 'Für die An- und Ummeldung beim Einwohnermeldeamt ist ab sofort ein Termin erforderlich — Walk-ins sind nicht mehr möglich.' Es geht um das Einwohnermeldeamt.",
+              "audioTimestamp": 6
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text einmal.",
+          "instructionsTranslation": "You will hear five short conversations. For each conversation there is one task. What is correct? Mark: a, b, or c. You will hear each recording once.",
+          "audioFile": "assets/audio/A2/mock05/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "A2_m05_L3_q1",
+              "type": "mcq",
+              "questionText": "Was möchte die Frau vom Arzt?",
+              "options": [
+                "a) eine Überweisung zum Spezialisten",
+                "b) ein neues Rezept",
+                "c) eine Krankmeldung"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Im Gespräch sagt die Frau: 'Ich bin seit gestern krank und kann nicht arbeiten — ich brauche eine Krankmeldung für meinen Arbeitgeber.' Sie braucht also eine Krankmeldung.",
+              "audioTimestamp": 11
+            },
+            {
+              "id": "A2_m05_L3_q2",
+              "type": "mcq",
+              "questionText": "Warum kann Herr Bauer den Termin nicht annehmen?",
+              "options": [
+                "a) Er ist an dem Tag im Urlaub.",
+                "b) Er hat schon einen anderen Termin.",
+                "c) Der Termin ist zu früh am Morgen."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Herr Bauer sagt: 'Den Dienstagtermin kann ich leider nicht nehmen — ich habe an dem Tag schon eine Besprechung.' Er hat einen Konflikt mit einem anderen Termin.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "A2_m05_L3_q3",
+              "type": "mcq",
+              "questionText": "Was hat die Frau beim Amt vergessen?",
+              "options": [
+                "a) ihre Unterschrift auf dem Formular",
+                "b) eine Kopie ihres Reisepasses",
+                "c) ihr Geld für die Gebühr"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Beamte erklärt: 'Alles ist vollständig — aber wir brauchen noch eine Kopie Ihres Reisepasses. Die haben Sie heute leider nicht dabei.' Die Frau hat die Reisepasskopie vergessen.",
+              "audioTimestamp": 10
+            },
+            {
+              "id": "A2_m05_L3_q4",
+              "type": "mcq",
+              "questionText": "Wie lange muss der Mann auf seinen Termin warten?",
+              "options": [
+                "a) etwa 10 Minuten",
+                "b) etwa 20 Minuten",
+                "c) etwa eine Stunde"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Sprechstundenhilfe sagt: 'Der Arzt hat noch einen Patienten — bitte nehmen Sie Platz, das dauert ungefähr 20 Minuten.' Der Mann muss also etwa 20 Minuten warten.",
+              "audioTimestamp": 7
+            },
+            {
+              "id": "A2_m05_L3_q5",
+              "type": "mcq",
+              "questionText": "Was vereinbaren die zwei Personen?",
+              "options": [
+                "a) ein Treffen nächste Woche",
+                "b) ein Telefonat morgen Vormittag",
+                "c) eine E-Mail mit weiteren Infos"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Am Ende des Gesprächs sagt die Frau: 'Dann rufe ich Sie morgen Vormittag noch einmal an, um die Details zu besprechen.' Sie vereinbaren also ein Telefonat am nächsten Morgen.",
+              "audioTimestamp": 12
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 25,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie die fünf Anzeigen. Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es genau eine passende Anzeige. Schreiben Sie den Buchstaben der Anzeige.",
+          "instructionsTranslation": "Read the five advertisements. Which advertisement matches which situation? For each situation there is exactly one matching advertisement. Write the letter of the advertisement.",
+          "texts": [
+            {
+              "id": "A2_m05_R1_text_a",
+              "type": "ad",
+              "content": "ANZEIGE A — Online-Terminbuchung\nSparen Sie Zeit! Buchen Sie Ihren Arzttermin jetzt ganz einfach online — 24 Stunden am Tag, 7 Tage die Woche. Kein Warten in der Warteschleife. Registrieren Sie sich unter: www.docdirekt.de"
+            },
+            {
+              "id": "A2_m05_R1_text_b",
+              "type": "ad",
+              "content": "ANZEIGE B — Deutschkurs für Eltern\nIhr Kind kommt in eine deutsche Schule? Wir helfen Ihnen, die Schulsprache zu verstehen! Intensivkurs für Eltern: montags und donnerstags, 14–16 Uhr. 8 Wochen. Preis: 60 Euro. VHS Nordstadt."
+            },
+            {
+              "id": "A2_m05_R1_text_c",
+              "type": "ad",
+              "content": "ANZEIGE C — Bürgerservice Formularservice\nAlle wichtigen Formulare für Behördengänge als PDF zum Download. Ausweis, Ummeldung, KFZ-Zulassung und mehr. Komplett kostenlos. www.buergerservice-formulare.de"
+            },
+            {
+              "id": "A2_m05_R1_text_d",
+              "type": "ad",
+              "content": "ANZEIGE D — Terminkalender App PlanIt\nOrganisieren Sie Ihren Alltag mit PlanIt! Termine verwalten, Erinnerungen setzen, Kalender mit Familie teilen. Kostenlos für iOS und Android. Jetzt herunterladen."
+            },
+            {
+              "id": "A2_m05_R1_text_e",
+              "type": "ad",
+              "content": "ANZEIGE E — Beratung für Neubürger\nNeu in der Stadt? Wir beraten Sie bei Behördengängen, Anmeldung, Schule und Arbeit — auf Arabisch, Türkisch, Russisch und Englisch. Kostenlos. Beratungszentrum Mitte, Kirchstraße 5."
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m05_R1_q1",
+              "type": "matching",
+              "questionText": "Ahmed möchte nicht lange am Telefon warten und sucht einen schnelleren Weg, einen Arzttermin zu machen.",
+              "matchingSources": [
+                { "id": "A2_m05_R1_text_a", "label": "A" },
+                { "id": "A2_m05_R1_text_b", "label": "B" },
+                { "id": "A2_m05_R1_text_c", "label": "C" },
+                { "id": "A2_m05_R1_text_d", "label": "D" },
+                { "id": "A2_m05_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Anzeige A bietet Online-Terminbuchung für Arzttermine an, ohne Warteschleife — genau das, was Ahmed sucht."
+            },
+            {
+              "id": "A2_m05_R1_q2",
+              "type": "matching",
+              "questionText": "Familie Yilmaz ist neu in Deutschland. Die Eltern verstehen die Briefe von der Schule nicht.",
+              "matchingSources": [
+                { "id": "A2_m05_R1_text_a", "label": "A" },
+                { "id": "A2_m05_R1_text_b", "label": "B" },
+                { "id": "A2_m05_R1_text_c", "label": "C" },
+                { "id": "A2_m05_R1_text_d", "label": "D" },
+                { "id": "A2_m05_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Anzeige B bietet einen Deutschkurs für Eltern mit schulpflichtigen Kindern an, damit sie die Schulsprache verstehen können — genau passend für Familie Yilmaz."
+            },
+            {
+              "id": "A2_m05_R1_q3",
+              "type": "matching",
+              "questionText": "Herr Chen möchte sich ummelden, weiß aber nicht, welches Formular er braucht.",
+              "matchingSources": [
+                { "id": "A2_m05_R1_text_a", "label": "A" },
+                { "id": "A2_m05_R1_text_b", "label": "B" },
+                { "id": "A2_m05_R1_text_c", "label": "C" },
+                { "id": "A2_m05_R1_text_d", "label": "D" },
+                { "id": "A2_m05_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Anzeige C bietet kostenlose PDF-Formulare für Behördengänge inkl. Ummeldung an — Herr Chen findet dort das richtige Formular."
+            },
+            {
+              "id": "A2_m05_R1_q4",
+              "type": "matching",
+              "questionText": "Maria hat viele Termine und verliert leicht den Überblick. Sie sucht eine digitale Lösung.",
+              "matchingSources": [
+                { "id": "A2_m05_R1_text_a", "label": "A" },
+                { "id": "A2_m05_R1_text_b", "label": "B" },
+                { "id": "A2_m05_R1_text_c", "label": "C" },
+                { "id": "A2_m05_R1_text_d", "label": "D" },
+                { "id": "A2_m05_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Anzeige D ist eine App zur Terminverwaltung mit Erinnerungsfunktion — das hilft Maria, den Überblick über ihre Termine zu behalten."
+            },
+            {
+              "id": "A2_m05_R1_q5",
+              "type": "matching",
+              "questionText": "Frau Petrov ist vor Kurzem aus Russland gekommen und braucht Hilfe bei Behördengängen.",
+              "matchingSources": [
+                { "id": "A2_m05_R1_text_a", "label": "A" },
+                { "id": "A2_m05_R1_text_b", "label": "B" },
+                { "id": "A2_m05_R1_text_c", "label": "C" },
+                { "id": "A2_m05_R1_text_d", "label": "D" },
+                { "id": "A2_m05_R1_text_e", "label": "E" }
+              ],
+              "correctAnswer": "E",
+              "explanation": "Anzeige E bietet kostenlose Beratung für Neubürger auf Russisch an — Frau Petrov bekommt dort Hilfe bei Behördengängen in ihrer Muttersprache."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den Zeitungsartikel. Sind die Sätze richtig oder falsch? Kreuzen Sie an.",
+          "instructionsTranslation": "Read the newspaper article. Are the sentences correct or incorrect? Mark your answer.",
+          "texts": [
+            {
+              "id": "A2_m05_R2_text1",
+              "type": "article",
+              "content": "Arzttermine in Deutschland: Warten gehört dazu — aber wie lange ist normal? Laut einer aktuellen Umfrage warten Patienten in Deutschland durchschnittlich 21 Tage auf einen Facharzttermin. Bei Allgemeinärzten ist es schneller: Hier bekommt man meistens innerhalb von drei Tagen einen Termin. Viele Patienten nutzen mittlerweile Online-Buchungssysteme — fast 40 Prozent buchen ihren Termin nicht mehr telefonisch. Kassenärzte müssen gesetzlich innerhalb von vier Wochen einen Termin anbieten. Wer schneller zum Arzt möchte, zahlt oft privat oder nutzt die Terminservicestelle der Kassenärztlichen Vereinigung.",
+              "source": "Gesundheitsmagazin, April 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m05_R2_q1",
+              "type": "true_false",
+              "questionText": "Auf einen Facharzttermin muss man im Durchschnitt über drei Wochen warten.",
+              "relatedTextId": "A2_m05_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Der Text sagt: 'Patienten warten durchschnittlich 21 Tage auf einen Facharzttermin.' 21 Tage sind genau drei Wochen — die Aussage 'über drei Wochen' ist also nicht korrekt. Genau drei Wochen."
+            },
+            {
+              "id": "A2_m05_R2_q2",
+              "type": "true_false",
+              "questionText": "Beim Allgemeinarzt bekommt man normalerweise schneller einen Termin als beim Facharzt.",
+              "relatedTextId": "A2_m05_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Der Artikel erklärt: 'Bei Allgemeinärzten bekommt man meistens innerhalb von drei Tagen einen Termin.' Drei Tage ist deutlich kürzer als 21 Tage beim Facharzt — die Aussage ist richtig."
+            },
+            {
+              "id": "A2_m05_R2_q3",
+              "type": "true_false",
+              "questionText": "Die meisten Deutschen buchen Arzttermine noch telefonisch.",
+              "relatedTextId": "A2_m05_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Der Text sagt: 'Fast 40 Prozent buchen ihren Termin nicht mehr telefonisch.' Das bedeutet, dass 60 Prozent noch telefonisch buchen — die Mehrheit, aber der Satz ist irreführend angesichts des wachsenden Online-Trends."
+            },
+            {
+              "id": "A2_m05_R2_q4",
+              "type": "true_false",
+              "questionText": "Kassenärzte sind gesetzlich verpflichtet, innerhalb von vier Wochen einen Termin anzubieten.",
+              "relatedTextId": "A2_m05_R2_text1",
+              "correctAnswer": "richtig",
+              "explanation": "Der Artikel sagt direkt: 'Kassenärzte müssen gesetzlich innerhalb von vier Wochen einen Termin anbieten.' Diese Aussage stimmt genau mit dem Text überein."
+            },
+            {
+              "id": "A2_m05_R2_q5",
+              "type": "true_false",
+              "questionText": "Privatpatienten müssen immer länger auf Termine warten als Kassenpatienten.",
+              "relatedTextId": "A2_m05_R2_text1",
+              "correctAnswer": "falsch",
+              "explanation": "Der Text sagt das Gegenteil: 'Wer schneller zum Arzt möchte, zahlt oft privat.' Privatpatienten bekommen tendenziell schneller Termine, nicht langsamer."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die Hinweisschilder und kurzen Texte. Was ist richtig? Kreuzen Sie an: a, b oder c.",
+          "instructionsTranslation": "Read the notices and short texts. What is correct? Mark: a, b, or c.",
+          "texts": [
+            {
+              "id": "A2_m05_R3_text1",
+              "type": "notice",
+              "content": "PRAXIS DR. SCHNEIDER\nSprechstunden:\nMo, Di, Do: 8:00 – 12:00 und 14:00 – 17:00 Uhr\nMi, Fr: 8:00 – 12:00 Uhr\nTermine nur nach Vereinbarung. Tel. 0521 345 67 89"
+            },
+            {
+              "id": "A2_m05_R3_text2",
+              "type": "notice",
+              "content": "WICHTIGE INFORMATION\nDas Bürgeramt ist bis zum 30. April wegen Umbauarbeiten geschlossen. Ab 2. Mai steht Ihnen das renovierte Büro in der Kirchstraße 3 zur Verfügung. Termine können weiterhin online gebucht werden."
+            },
+            {
+              "id": "A2_m05_R3_text3",
+              "type": "notice",
+              "content": "BITTE BEACHTEN\nFür Ihren Termin bei uns bringen Sie bitte mit:\n• Krankenversicherungskarte\n• Überweisung (falls vorhanden)\n• Liste der aktuellen Medikamente\nOhne Krankenversicherungskarte können wir Sie leider nicht behandeln."
+            },
+            {
+              "id": "A2_m05_R3_text4",
+              "type": "notice",
+              "content": "Elternsprechtag\nDienstag, 14. Mai, 16:00 – 19:30 Uhr\nBitte melden Sie sich bis zum 10. Mai über das Online-Portal oder beim Sekretariat an. Ohne Anmeldung kein Gespräch möglich."
+            },
+            {
+              "id": "A2_m05_R3_text5",
+              "type": "notice",
+              "content": "TERMINABSAGE\nBitte sagen Sie einen Termin mindestens 24 Stunden vorher ab, damit wir andere Patienten einladen können. Kurzfristige Absagen ohne triftigen Grund können in Rechnung gestellt werden."
+            }
+          ],
+          "questions": [
+            {
+              "id": "A2_m05_R3_q1",
+              "type": "mcq",
+              "questionText": "An welchen Tagen hat die Praxis Dr. Schneider nachmittags geöffnet?",
+              "relatedTextId": "A2_m05_R3_text1",
+              "options": [
+                "a) montags, dienstags und donnerstags",
+                "b) montags bis freitags",
+                "c) mittwochs und freitags"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Laut dem Schild hat die Praxis nachmittags (14–17 Uhr) an Mo, Di und Do geöffnet. Mi und Fr nur vormittags."
+            },
+            {
+              "id": "A2_m05_R3_q2",
+              "type": "mcq",
+              "questionText": "Wo ist das Bürgeramt ab dem 2. Mai?",
+              "relatedTextId": "A2_m05_R3_text2",
+              "options": [
+                "a) am alten Standort",
+                "b) in der Kirchstraße 3",
+                "c) noch online"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Information sagt: 'Ab 2. Mai steht Ihnen das renovierte Büro in der Kirchstraße 3 zur Verfügung.' Das Büro ist also in der Kirchstraße 3."
+            },
+            {
+              "id": "A2_m05_R3_q3",
+              "type": "mcq",
+              "questionText": "Was passiert ohne Krankenversicherungskarte beim Arzt?",
+              "relatedTextId": "A2_m05_R3_text3",
+              "options": [
+                "a) Man zahlt bar.",
+                "b) Man kann nicht behandelt werden.",
+                "c) Man bekommt einen neuen Termin."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Schild sagt eindeutig: 'Ohne Krankenversicherungskarte können wir Sie leider nicht behandeln.' Man wird also nicht behandelt."
+            },
+            {
+              "id": "A2_m05_R3_q4",
+              "type": "mcq",
+              "questionText": "Bis wann muss man sich für den Elternsprechtag anmelden?",
+              "relatedTextId": "A2_m05_R3_text4",
+              "options": [
+                "a) bis zum 14. Mai",
+                "b) bis zum 10. Mai",
+                "c) bis zum 7. Mai"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Hinweis sagt: 'Bitte melden Sie sich bis zum 10. Mai ... an.' Der Sprechtag ist am 14. Mai, aber die Anmeldefrist ist der 10. Mai."
+            },
+            {
+              "id": "A2_m05_R3_q5",
+              "type": "mcq",
+              "questionText": "Was kann passieren, wenn man einen Termin zu kurzfristig absagt?",
+              "relatedTextId": "A2_m05_R3_text5",
+              "options": [
+                "a) Man bekommt keinen neuen Termin.",
+                "b) Man muss eine Gebühr zahlen.",
+                "c) Man wird aus der Kartei gelöscht."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Das Schild warnt: 'Kurzfristige Absagen ohne triftigen Grund können in Rechnung gestellt werden.' Das bedeutet, man muss möglicherweise zahlen."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 20,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "form_fill",
+          "instructions": "Füllen Sie das Anmeldeformular für einen Arzttermin aus. Benutzen Sie die Informationen unten.",
+          "instructionsTranslation": "Fill in the appointment form for a doctor's visit. Use the information below.",
+          "formFields": [
+            {
+              "label": "Vorname",
+              "correctAnswer": "Tobias",
+              "hint": "Vorname des Patienten"
+            },
+            {
+              "label": "Nachname",
+              "correctAnswer": "Richter",
+              "hint": "Nachname des Patienten"
+            },
+            {
+              "label": "Geburtsdatum",
+              "correctAnswer": "05.11.1985",
+              "hint": "TT.MM.JJJJ"
+            },
+            {
+              "label": "Krankenkasse",
+              "correctAnswer": "AOK",
+              "hint": "Name der Krankenkasse"
+            },
+            {
+              "label": "Gewünschter Termin",
+              "correctAnswer": "Donnerstag nachmittags",
+              "hint": "Wochentag und Tageszeit"
+            },
+            {
+              "label": "Beschwerden",
+              "correctAnswer": "Rückenschmerzen",
+              "hint": "Kurze Beschreibung des Problems"
+            }
+          ],
+          "sampleAnswer": "Vorname: Tobias\nNachname: Richter\nGeburtsdatum: 05.11.1985\nKrankenkasse: AOK\nGewünschter Termin: Donnerstag nachmittags\nBeschwerden: Rückenschmerzen",
+          "scoringCriteria": [
+            {
+              "criterion": "Vollständigkeit",
+              "maxPoints": 3,
+              "description": "Alle Pflichtfelder wurden ausgefüllt (je 0,5 Punkte pro Feld)"
+            },
+            {
+              "criterion": "Korrektheit",
+              "maxPoints": 2,
+              "description": "Informationen entsprechen den Aufgabenvorgaben und sind korrekt übertragen"
+            },
+            {
+              "criterion": "Format",
+              "maxPoints": 1,
+              "description": "Datum im richtigen Format, Beschwerden verständlich formuliert"
+            }
+          ]
+        },
+        {
+          "taskNumber": 2,
+          "type": "short_message",
+          "instructions": "Schreiben Sie eine kurze Nachricht an Ihren Freund Max. Schreiben Sie über die drei Punkte unten. Schreiben Sie 30 bis 50 Wörter.",
+          "instructionsTranslation": "Write a short message to your friend Max. Write about the three points below. Write 30 to 50 words.",
+          "prompt": "Sie müssen einen gemeinsamen Termin absagen.\n- Erklären Sie, warum Sie den Termin absagen müssen.\n- Entschuldigen Sie sich.\n- Schlagen Sie einen neuen Termin vor.",
+          "promptTranslation": "You have to cancel a shared appointment.\n- Explain why you have to cancel.\n- Apologize.\n- Suggest a new appointment.",
+          "requiredPoints": [
+            "Begründung für die Absage",
+            "Entschuldigung",
+            "Vorschlag für einen neuen Termin"
+          ],
+          "wordCountMin": 30,
+          "wordCountMax": 50,
+          "sampleAnswer": "Hallo Max,\nleider muss ich unser Treffen am Freitag absagen — ich habe plötzlich einen wichtigen Arzttermin bekommen. Es tut mir wirklich leid! Können wir uns stattdessen nächste Woche Mittwoch treffen? Das würde mir gut passen.\nViele Grüße, Tobias",
+          "scoringCriteria": [
+            {
+              "criterion": "Inhalt",
+              "maxPoints": 3,
+              "description": "Alle drei Punkte wurden angesprochen (je 1 Punkt pro Inhaltspunkt)"
+            },
+            {
+              "criterion": "Sprache",
+              "maxPoints": 2,
+              "description": "Grammatik und Wortschatz sind weitgehend korrekt und für A2 angemessen"
+            },
+            {
+              "criterion": "Wortanzahl",
+              "maxPoints": 1,
+              "description": "Text liegt zwischen 30 und 50 Wörtern"
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 0,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "introduce",
+          "instructions": "Stellen Sie sich kurz vor. Sprechen Sie über sich: Name, Herkunft, Wohnort, Beruf und Hobbys.",
+          "instructionsTranslation": "Introduce yourself briefly. Talk about yourself: name, origin, place of residence, job, and hobbies.",
+          "prompt": "Bitte stellen Sie sich vor:\n- Wie heißen Sie?\n- Woher kommen Sie?\n- Wo wohnen Sie jetzt?\n- Was machen Sie beruflich?\n- Was machen Sie in Ihrer Freizeit?",
+          "sampleResponse": "Guten Tag, ich heiße Tobias Richter. Ich komme aus der Schweiz, aus Zürich. Seit einem Jahr wohne ich in Hamburg. Ich arbeite als Informatiker in einer Softwarefirma. In meiner Freizeit spiele ich Fußball und lese gerne Bücher.",
+          "evaluationTips": [
+            "Sprechen Sie in vollständigen Sätzen",
+            "Achten Sie auf die richtige Verbkonjugation",
+            "Verwenden Sie Verbindungswörter wie 'und', 'aber', 'auch'",
+            "Eine klare Struktur macht die Vorstellung verständlicher"
+          ],
+          "keyPhrases": [
+            "Ich heiße ...",
+            "Ich komme aus ...",
+            "Seit ... wohne ich in ...",
+            "Ich arbeite als ...",
+            "In meiner Freizeit ..."
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "conversation",
+          "instructions": "Sprechen Sie mit Ihrem Partner oder Ihrer Partnerin über Termine und Planung.",
+          "instructionsTranslation": "Talk with your partner about appointments and planning.",
+          "prompt": "Sprechen Sie mit Ihrem Partner oder Ihrer Partnerin über das Thema Termine:\n- Wie organisieren Sie Ihre Termine?\n- Haben Sie oft viele Termine?\n- Was machen Sie, wenn Sie einen Termin vergessen?\n- Wie vereinbaren Sie normalerweise Termine — telefonisch oder online?",
+          "sampleResponse": "Ich habe meistens ziemlich viele Termine — für die Arbeit, den Arzt und private Verabredungen. Ich benutze eine App auf dem Handy, um alles zu organisieren. Wenn ich einen Termin vergesse, entschuldige ich mich sofort. Arzttermine vereinbare ich lieber telefonisch, private Verabredungen schreibe ich per WhatsApp.",
+          "evaluationTips": [
+            "Antworten Sie mit vollständigen Sätzen",
+            "Benutzen Sie Wörter wie 'meistens', 'manchmal', 'selten'",
+            "Stellen Sie dem Partner auch Fragen",
+            "Erklären Sie mit 'weil' oder 'deshalb'"
+          ],
+          "keyPhrases": [
+            "Ich organisiere meine Termine mit ...",
+            "Meistens vereinbare ich Termine ...",
+            "Wenn ich einen Termin vergesse, ...",
+            "Ich benutze eine App / einen Kalender ...",
+            "Wie ist das bei Ihnen?"
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Planen Sie gemeinsam mit Ihrem Partner oder Ihrer Partnerin einen Arztbesuch.",
+          "instructionsTranslation": "Plan a doctor's visit together with your partner.",
+          "prompt": "Sie und Ihr Partner oder Ihre Partnerin möchten zusammen für eine ältere Nachbarin einen Arzttermin organisieren. Sprechen Sie über:\n- Bei welchem Arzt soll sie hin?\n- Wer ruft an und macht den Termin?\n- Wer begleitet sie zum Arzt?\n- Was soll sie zum Termin mitbringen?",
+          "sampleResponse": "Ich denke, sie sollte zuerst zum Allgemeinarzt gehen. Ich kann morgen früh anrufen und einen Termin für nächste Woche machen. Kannst du sie zum Arzt begleiten? Sie braucht ihre Krankenversicherungskarte und vielleicht eine Liste ihrer Medikamente.",
+          "evaluationTips": [
+            "Machen Sie konkrete Vorschläge",
+            "Reagieren Sie auf die Ideen des Partners",
+            "Benutzen Sie 'sollen', 'können', 'müssen'",
+            "Einigen Sie sich gemeinsam auf eine Lösung"
+          ],
+          "keyPhrases": [
+            "Ich denke, sie soll ...",
+            "Ich kann ... anrufen.",
+            "Kannst du ... begleiten?",
+            "Sie braucht ...",
+            "Einverstanden / Gute Idee!"
+          ]
+        }
+      ]
+    }
   }
 }
