@@ -1,1 +1,707 @@
-[]
+[
+  {
+    "id": 1,
+    "level": "A2",
+    "topic": "Perfekt mit haben und sein",
+    "explanation": "Das Perfekt wird aus dem Hilfsverb (haben oder sein) und dem Partizip II gebildet. Die meisten Verben bilden das Perfekt mit haben. Bewegungsverben (fahren, gehen, fliegen) und Zustandsveränderungen (aufwachen, einschlafen, werden) nehmen sein. Auch bleiben und sein selbst nehmen sein. Das Partizip II steht am Satzende.",
+    "examples": [
+      "Ich habe gestern Fußball gespielt.",
+      "Wir haben ein gutes Restaurant gefunden.",
+      "Sie ist um 7 Uhr aufgestanden.",
+      "Er ist mit dem Zug nach Hamburg gefahren.",
+      "Hast du das Buch gelesen?",
+      "Die Kinder sind früh eingeschlafen."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Wir ___ gestern ins Kino ___ (gehen).",
+        "correctAnswer": "sind gegangen",
+        "explanation": "'gehen' ist ein Bewegungsverb → Perfekt mit sein. Partizip II: gegangen."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Ich ___ das Buch schon ___ (lesen).",
+        "correctAnswer": "habe gelesen",
+        "explanation": "'lesen' nimmt haben als Hilfsverb. Partizip II: gelesen (unregelmäßig)."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "correctAnswer": "Er hat einen Brief geschrieben.",
+        "explanation": "'schreiben' bildet das Perfekt mit haben. Partizip II: geschrieben."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Sie ___ letzte Woche in Berlin ___ (bleiben).",
+        "correctAnswer": "ist geblieben",
+        "explanation": "'bleiben' gehört zur sein-Gruppe. Partizip II: geblieben."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Was passt? Das Baby ___ um 20 Uhr ___ (einschlafen).",
+        "correctAnswer": "ist eingeschlafen",
+        "explanation": "'einschlafen' ist eine Zustandsveränderung → sein. Partizip II von trennbaren Verben: ein-ge-schlafen."
+      }
+    ],
+    "orderIndex": 1
+  },
+  {
+    "id": 2,
+    "level": "A2",
+    "topic": "Trennbare Verben",
+    "explanation": "Trennbare Verben haben ein Präfix, das im Hauptsatz vom Verbstamm getrennt wird und ans Satzende wandert. Häufige trennbare Präfixe: an-, auf-, aus-, ein-, mit-, nach-, vor-, zu-, ab-. Im Infinitiv und in Nebensätzen bleibt das Verb zusammen. Im Partizip II wird -ge- zwischen Präfix und Stamm eingefügt.",
+    "examples": [
+      "Der Unterricht fängt um 9 Uhr an.",
+      "Ich rufe dich morgen an.",
+      "Wann stehst du normalerweise auf?",
+      "Er zieht sich schnell an.",
+      "Wir kaufen im Supermarkt ein.",
+      "Sie hat das Licht ausgemacht."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Der Film ___ um 20 Uhr ___ (anfangen).",
+        "correctAnswer": "fängt an",
+        "explanation": "'anfangen' ist trennbar: fängt (Stamm mit Umlaut) + an (Präfix ans Ende)."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Wir ___ heute Abend ___ (ausgehen).",
+        "correctAnswer": "gehen aus",
+        "explanation": "'ausgehen' trennt zu: gehen + aus."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "correctAnswer": "Ich rufe dich morgen an.",
+        "explanation": "Bei 'anrufen' wandert 'an' ans Satzende. 'Ich anrufe dich' ist falsch."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Sie hat gestern lange ___ (einschlafen — Partizip II).",
+        "correctAnswer": "eingeschlafen",
+        "explanation": "Partizip II trennbarer Verben: Präfix + ge + Stamm = eingeschlafen."
+      },
+      {
+        "type": "reorder",
+        "prompt": "kauft / Sie / Supermarkt / im / ein",
+        "correctAnswer": "Sie kauft im Supermarkt ein.",
+        "explanation": "Subjekt, Verb (kauft), Ergänzungen, Präfix (ein) ans Ende."
+      }
+    ],
+    "orderIndex": 2
+  },
+  {
+    "id": 3,
+    "level": "A2",
+    "topic": "Nebensätze mit weil",
+    "explanation": "Kausale Nebensätze mit 'weil' geben den Grund an. Das konjugierte Verb steht am Ende des Nebensatzes (Verbendstellung). Der Nebensatz wird durch ein Komma vom Hauptsatz getrennt. 'Weil' kann am Satzanfang oder nach dem Hauptsatz stehen. Achtung: Nach 'weil' kein Hauptsatz, sondern Nebensatzkonstruktion — Verb muss ans Ende.",
+    "examples": [
+      "Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte.",
+      "Weil das Wetter schlecht ist, bleiben wir zu Hause.",
+      "Er kommt nicht, weil er krank ist.",
+      "Wir nehmen den Bus, weil das Auto kaputt ist.",
+      "Sie ist müde, weil sie wenig geschlafen hat.",
+      "Weil ich Hunger habe, esse ich jetzt."
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "prompt": "weil / ich / habe / Hunger",
+        "correctAnswer": "weil ich Hunger habe",
+        "explanation": "Im weil-Satz steht das Verb (habe) am Ende."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Er bleibt zu Hause, weil er ___ (sein) krank.",
+        "correctAnswer": "krank ist",
+        "explanation": "Im Nebensatz mit weil: Adjektiv/Nomen zuerst, Verb (ist) ans Ende."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist grammatisch korrekt?",
+        "correctAnswer": "Ich lerne Deutsch, weil ich Deutschland mag.",
+        "explanation": "Im weil-Satz steht das Verb (mag) am Ende des Nebensatzes."
+      },
+      {
+        "type": "reorder",
+        "prompt": "weil / müde / sie / ist / sehr",
+        "correctAnswer": "weil sie sehr müde ist",
+        "explanation": "Subjekt + Adverb + Adjektiv + Verb ans Ende."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Wir fahren mit dem Zug, ___ das Auto kaputt ist.",
+        "correctAnswer": "weil",
+        "explanation": "'weil' leitet den Grund-Nebensatz ein und schickt das Verb ans Ende."
+      }
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": 4,
+    "level": "A2",
+    "topic": "Nebensätze mit dass",
+    "explanation": "Dass-Sätze sind Inhaltssätze — sie füllen die Objektstelle im Hauptsatz. Das konjugierte Verb steht auch hier am Ende (Verbendstellung). Typische Einleitungen: Ich denke, dass... / Ich hoffe, dass... / Er sagt, dass... / Ich weiß, dass... Nach Ausdrücken wie 'Es freut mich' oder 'Es ist wichtig' folgt oft ein dass-Satz.",
+    "examples": [
+      "Ich denke, dass Deutsch schwer ist.",
+      "Er sagt, dass er morgen kommt.",
+      "Wir hoffen, dass das Wetter besser wird.",
+      "Sie weiß, dass du krank bist.",
+      "Es ist wichtig, dass man viel übt.",
+      "Ich glaube, dass er Recht hat."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich hoffe, ___ du bald gesund bist.",
+        "correctAnswer": "dass",
+        "explanation": "'dass' leitet den Inhaltssatz ein. Das Verb (bist) steht am Ende."
+      },
+      {
+        "type": "reorder",
+        "prompt": "Er / sagt / morgen / kommt / dass / er",
+        "correctAnswer": "Er sagt, dass er morgen kommt.",
+        "explanation": "Hauptsatz + Komma + dass + Subjekt + Adverb + Verb."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "correctAnswer": "Ich weiß, dass er heute arbeitet.",
+        "explanation": "Im dass-Satz steht das Verb (arbeitet) am Ende. 'dass er arbeitet heute' ist falsch."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Es ist schön, ___ du hier ___ (sein).",
+        "correctAnswer": "dass du hier bist",
+        "explanation": "Vollständiger dass-Satz: dass + Subjekt + Adverb + Verb (bist) am Ende."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Was passt? Wir glauben, ___ das Team gewinnt.",
+        "correctAnswer": "dass",
+        "explanation": "Nach 'glauben' folgt ein dass-Satz mit Verbendstellung."
+      }
+    ],
+    "orderIndex": 4
+  },
+  {
+    "id": 5,
+    "level": "A2",
+    "topic": "Komparativ und Superlativ",
+    "explanation": "Adjektive und Adverbien werden gesteigert, um Vergleiche anzustellen. Komparativ: Grundform + -er (schnell → schneller). Superlativ attributiv: am + Grundform + -sten (am schnellsten) oder der/die/das + Grundform + -ste. Einsilbige Adjektive mit a, o, u nehmen meistens Umlaut: alt → älter, jung → jünger, groß → größer. Unregelmäßig: gut → besser → am besten; viel → mehr → am meisten; gern → lieber → am liebsten.",
+    "examples": [
+      "Berlin ist größer als München.",
+      "Das ist das billigste Restaurant in der Stadt.",
+      "Mein Bruder ist älter als ich.",
+      "Welches Auto fährt am schnellsten?",
+      "Ich lese lieber Bücher als Zeitungen.",
+      "Sie spricht am besten Englisch in der Klasse."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Mein Vater ist ___ (alt → Komparativ) als meine Mutter.",
+        "correctAnswer": "älter",
+        "explanation": "'alt' nimmt Umlaut im Komparativ: alt → älter."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Das ist das ___ (günstig → Superlativ) Hotel in der Stadt.",
+        "correctAnswer": "günstigste",
+        "explanation": "Superlativ attributiv: Grundform + -ste mit bestimmtem Artikel."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Form ist korrekt: 'gut' im Komparativ?",
+        "correctAnswer": "besser",
+        "explanation": "'gut' ist unregelmäßig: gut – besser – am besten."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Sie läuft am ___ (schnell → Superlativ).",
+        "correctAnswer": "schnellsten",
+        "explanation": "Superlativ adverbial: am + Grundform + -sten = am schnellsten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Was ist die Superlativform von 'viel'?",
+        "correctAnswer": "am meisten",
+        "explanation": "'viel' ist unregelmäßig: viel – mehr – am meisten."
+      }
+    ],
+    "orderIndex": 5
+  },
+  {
+    "id": 6,
+    "level": "A2",
+    "topic": "Dativ — Artikel und Pronomen",
+    "explanation": "Der Dativ markiert das indirekte Objekt (Wem?). Die Artikel ändern sich: der → dem, die → der, das → dem, die (Plural) → den (+ n-Endung am Nomen falls möglich). Unbestimmte Artikel: ein → einem, eine → einer, ein → einem. Personalpronomen im Dativ: mir, dir, ihm, ihr, ihm, uns, euch, ihnen/Ihnen. Viele Verben verlangen den Dativ: helfen, geben, sagen, schenken, zeigen, danken.",
+    "examples": [
+      "Ich gebe dem Lehrer das Buch.",
+      "Kannst du der Frau helfen?",
+      "Er schenkt seiner Mutter Blumen.",
+      "Wir danken Ihnen für die Hilfe.",
+      "Ich zeige dir die Wohnung.",
+      "Sie hilft dem Kind."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich helfe ___ (der Mann) mit dem Gepäck.",
+        "correctAnswer": "dem Mann",
+        "explanation": "Maskulinum im Dativ: der → dem."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Er gibt ___ (seine Schwester) ein Geschenk.",
+        "correctAnswer": "seiner Schwester",
+        "explanation": "Femininum mit Possessivartikel im Dativ: seine → seiner."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Form ist korrekt? 'Kannst du ___ Kind helfen?'",
+        "correctAnswer": "dem",
+        "explanation": "Neutrum (das Kind) im Dativ: das → dem."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Sie schreibt ___ (ich) eine E-Mail.",
+        "correctAnswer": "mir",
+        "explanation": "Personalpronomen ich → mir im Dativ."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt? 'Ich danke ___.'",
+        "correctAnswer": "Ich danke Ihnen.",
+        "explanation": "'danken' regiert den Dativ. 'Ihnen' ist die höfliche Dativform."
+      }
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": 7,
+    "level": "A2",
+    "topic": "Wechselpräpositionen (Akkusativ und Dativ)",
+    "explanation": "Neun Präpositionen können Akkusativ oder Dativ verlangen: an, auf, hinter, in, neben, über, unter, vor, zwischen. Faustregel: Wo? → Dativ (Lage/Zustand). Wohin? → Akkusativ (Bewegung/Richtung). Merkhilfe: 'Er hängt das Bild an die Wand.' (Akkusativ, Bewegung) vs. 'Das Bild hängt an der Wand.' (Dativ, Lage).",
+    "examples": [
+      "Das Buch liegt auf dem Tisch. (Dativ — Wo?)",
+      "Leg das Buch auf den Tisch. (Akkusativ — Wohin?)",
+      "Die Kinder spielen im Garten. (Dativ — Wo?)",
+      "Wir gehen in den Supermarkt. (Akkusativ — Wohin?)",
+      "Das Bild hängt an der Wand. (Dativ — Wo?)",
+      "Sie hängt das Bild an die Wand. (Akkusativ — Wohin?)"
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Die Katze schläft ___ ___ Bett. (in, Dativ — Wo?)",
+        "correctAnswer": "im",
+        "explanation": "Lage → Dativ. in + dem = im. Das Bett → neutrum, Dativ: dem Bett."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Er legt das Heft ___ ___ Tisch. (auf, Akkusativ — Wohin?)",
+        "correctAnswer": "auf den",
+        "explanation": "Bewegung → Akkusativ. der Tisch → Akkusativ: den Tisch."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wo sind die Kinder? Sie spielen ___ Garten.",
+        "correctAnswer": "im",
+        "explanation": "'Wo?' fragt nach Lage → Dativ. in + dem = im."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wohin gehst du? — Ich gehe ___ Kino.",
+        "correctAnswer": "ins",
+        "explanation": "'Wohin?' fragt nach Richtung → Akkusativ. in + das = ins."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Sie stellt die Flasche ___ ___ Kühlschrank. (in, Akkusativ — Wohin?)",
+        "correctAnswer": "in den",
+        "explanation": "Bewegung → Akkusativ. der Kühlschrank → Akkusativ: den Kühlschrank."
+      }
+    ],
+    "orderIndex": 7
+  },
+  {
+    "id": 8,
+    "level": "A2",
+    "topic": "Reflexive Verben",
+    "explanation": "Reflexive Verben haben ein Reflexivpronomen, das sich auf das Subjekt zurückbezieht. Im Akkusativ: mich, dich, sich, uns, euch, sich. Im Dativ: mir, dir, sich, uns, euch, sich. Echte reflexive Verben können nur reflexiv verwendet werden (sich beeilen, sich freuen). Bei anderen Verben zeigt das Reflexivpronomen an, dass Subjekt und Objekt identisch sind (sich waschen = sich selbst waschen).",
+    "examples": [
+      "Ich wasche mich jeden Morgen.",
+      "Er freut sich auf den Urlaub.",
+      "Wir treffen uns um 18 Uhr.",
+      "Du beeilst dich zu viel.",
+      "Sie zieht sich warm an.",
+      "Habt ihr euch gut erholt?"
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich freue ___ auf das Wochenende.",
+        "correctAnswer": "mich",
+        "explanation": "'sich freuen' ist reflexiv. Akkusativ: ich → mich."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Wir treffen ___ morgen Abend.",
+        "correctAnswer": "uns",
+        "explanation": "Akkusativ Reflexivpronomen für wir: uns."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Er wäscht ___. Welche Form ist korrekt?",
+        "correctAnswer": "sich",
+        "explanation": "3. Person Singular: Akkusativ-Reflexivpronomen ist 'sich'."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Beeil ___, sonst verpassen wir den Bus!",
+        "correctAnswer": "dich",
+        "explanation": "'sich beeilen' → du → dich. Imperative bleibt 'dich'."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "correctAnswer": "Sie erholt sich gut.",
+        "explanation": "'sich erholen' ist reflexiv. 3. Person Singular: sich."
+      }
+    ],
+    "orderIndex": 8
+  },
+  {
+    "id": 9,
+    "level": "A2",
+    "topic": "Konjunktionen: aber, oder, denn",
+    "explanation": "Koordinierende Konjunktionen verbinden zwei Hauptsätze oder Satzteile. Nach aber, oder und denn folgt normale Hauptsatzwortstellung (Verb an zweiter Stelle). Sie stehen immer auf Position 0 — sie verschieben die Wortstellung nicht. 'Aber' drückt Gegensatz aus. 'Oder' drückt Alternative aus. 'Denn' gibt den Grund an (ähnlich wie weil, aber mit Hauptsatzwortstellung).",
+    "examples": [
+      "Ich möchte kommen, aber ich habe keine Zeit.",
+      "Möchtest du Tee oder Kaffee?",
+      "Er bleibt zu Hause, denn er ist krank.",
+      "Das Wetter ist kalt, aber wir gehen spazieren.",
+      "Du kannst den Bus nehmen oder mit dem Fahrrad fahren.",
+      "Sie lernt viel, denn sie hat morgen eine Prüfung."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich bin müde, ___ ich gehe trotzdem ins Gym.",
+        "correctAnswer": "aber",
+        "explanation": "'aber' drückt einen Gegensatz aus."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Kommst du mit ___ bleibst du zu Hause?",
+        "correctAnswer": "oder",
+        "explanation": "'oder' drückt eine Alternative aus."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Konjunktion passt? 'Er isst nichts, ___ er hat keinen Hunger.'",
+        "correctAnswer": "denn",
+        "explanation": "'denn' gibt den Grund an und behält Hauptsatzwortstellung — das Verb bleibt an 2. Stelle."
+      },
+      {
+        "type": "reorder",
+        "prompt": "ich / arbeite / viel / denn / Geld / brauche / ich",
+        "correctAnswer": "Ich brauche Geld, denn ich arbeite viel.",
+        "explanation": "Zwei Hauptsätze mit 'denn'. Verb bleibt jeweils an 2. Stelle."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Das Restaurant ist teuer, ___ das Essen ist sehr gut.",
+        "correctAnswer": "aber",
+        "explanation": "'aber' verbindet zwei kontrastierende Hauptsätze."
+      }
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": 10,
+    "level": "A2",
+    "topic": "Imperativ",
+    "explanation": "Der Imperativ drückt Aufforderungen, Bitten und Befehle aus. Es gibt drei Imperativformen: du (2. Person Singular): Verbstamm (ohne -st). Ihr (2. Person Plural): Verbstamm + -t. Sie (Höflichkeitsform): Infinitiv + Sie. Verben mit Stammvokalwechsel e→i(e) behalten diesen Wechsel: nehmen → Nimm! Verben auf -d/-t/-m/-n + Konsonant fügen -e an: atme!, öffne!",
+    "examples": [
+      "Komm bitte her! (du)",
+      "Kommt bitte rein! (ihr)",
+      "Kommen Sie bitte herein! (Sie)",
+      "Lies die Anleitung! (du — e→ie Wechsel)",
+      "Öffnet das Fenster! (ihr)",
+      "Hören Sie bitte zu! (Sie)"
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "___ (du, gehen) sofort nach Hause!",
+        "correctAnswer": "Geh",
+        "explanation": "Imperativ du: Verbstamm 'geh' ohne Endung."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ (ihr, schreiben) eure Namen auf das Blatt!",
+        "correctAnswer": "Schreibt",
+        "explanation": "Imperativ ihr: Verbstamm 'schreib' + -t = schreibt."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wie lautet der Imperativ von 'nehmen' (du-Form)?",
+        "correctAnswer": "Nimm!",
+        "explanation": "'nehmen' hat Stammvokalwechsel e→i. du-Imperativ: Nimm! (kein -e)."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ (Sie, sprechen) bitte langsamer!",
+        "correctAnswer": "Sprechen Sie",
+        "explanation": "Höflicher Imperativ: Infinitiv (Sprechen) + Sie."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist ein korrekter Imperativ (ihr-Form)?",
+        "correctAnswer": "Macht das Fenster zu!",
+        "explanation": "Imperativ ihr von 'zumachen': Stamm 'mach' + -t, Präfix 'zu' ans Ende."
+      }
+    ],
+    "orderIndex": 10
+  },
+  {
+    "id": 11,
+    "level": "A2",
+    "topic": "Possessivartikel im Dativ",
+    "explanation": "Possessivartikel (mein, dein, sein, ihr, unser, euer, ihr/Ihr) nehmen im Dativ die gleichen Endungen wie der unbestimmte Artikel: maskulinum → -em, femininum → -er, neutrum → -em, Plural → -en. Beispiel: mein (Nominativ) → meinem (Dativ Maskulinum/Neutrum) / meiner (Dativ Femininum). 'euer' verliert vor Endungen das zweite -e: eurem, eurer.",
+    "examples": [
+      "Ich helfe meinem Vater.",
+      "Er dankt seiner Mutter.",
+      "Wir fahren mit unserem Auto.",
+      "Sie erzählt ihrem Kind eine Geschichte.",
+      "Ich schreibe mit meinem Stift.",
+      "Kannst du deiner Freundin helfen?"
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich helfe ___ (mein) Bruder beim Umzug.",
+        "correctAnswer": "meinem",
+        "explanation": "Maskulinum im Dativ: mein → meinem."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Er fährt mit ___ (sein) neuen Fahrrad.",
+        "correctAnswer": "seinem",
+        "explanation": "Neutrum im Dativ: sein → seinem."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Form ist korrekt? 'Sie dankt ___ Lehrerin.'",
+        "correctAnswer": "ihrer",
+        "explanation": "Femininum im Dativ: ihr → ihrer."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Wir besuchen ___ (unser) Großeltern am Wochenende.",
+        "correctAnswer": "unseren",
+        "explanation": "Plural im Dativ: unser → unseren."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "correctAnswer": "Er spielt mit seinem Hund.",
+        "explanation": "Maskulinum (der Hund) im Dativ: sein → seinem."
+      }
+    ],
+    "orderIndex": 11
+  },
+  {
+    "id": 12,
+    "level": "A2",
+    "topic": "Modalverben im Präteritum",
+    "explanation": "Modalverben (können, müssen, wollen, sollen, dürfen, mögen) werden in der Vergangenheit meist im Präteritum verwendet, nicht im Perfekt — auch in der gesprochenen Sprache. Die Formen verlieren den Umlaut: konnte, musste, wollte, sollte, durfte, mochte. Endungen folgen dem schwachen Muster: ich/er/sie/es ohne Endung, du +st, wir/sie/Sie +en, ihr +t.",
+    "examples": [
+      "Ich konnte gestern nicht schlafen.",
+      "Er musste früh aufstehen.",
+      "Wir wollten ins Kino gehen, aber es war ausverkauft.",
+      "Du durftest nicht rauchen.",
+      "Sie sollte um 10 Uhr dort sein.",
+      "Als Kind mochte ich kein Gemüse."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Er ___ (müssen) gestern sehr früh aufstehen.",
+        "correctAnswer": "musste",
+        "explanation": "Präteritum von müssen: ich/er musste (kein Umlaut, schwache Endung)."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Wir ___ (wollen) ins Theater gehen, aber wir hatten keine Karten.",
+        "correctAnswer": "wollten",
+        "explanation": "Präteritum von wollen: wir wollten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Form ist korrekt? 'Als Kind ___ ich kein Gemüse essen.'",
+        "correctAnswer": "wollte",
+        "explanation": "Präteritum von wollen: ich wollte."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Du ___ (dürfen) nicht so laut sein.",
+        "correctAnswer": "durftest",
+        "explanation": "Präteritum von dürfen: du durftest."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Was ist die Präteritumform von 'können' (3. Person Singular)?",
+        "correctAnswer": "konnte",
+        "explanation": "Präteritum von können: er/sie/es konnte — kein Umlaut, keine zusätzliche Endung."
+      }
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": 13,
+    "level": "A2",
+    "topic": "Zeitadverbien und Satzstellung",
+    "explanation": "Zeitadverbien geben an, wann etwas passiert. Häufige Zeitadverbien: gestern, heute, morgen, jetzt, dann, danach, später, vorher, manchmal, oft, immer, nie, schon, noch, bereits. Im Deutschen gilt die Reihenfolge temporal – kausal – modal – lokal (TeKaMoLo) für Angaben im Mittelfeld. Wenn ein Zeitadverb an den Satzanfang gestellt wird (Topikalisierung), rückt das Subjekt hinter das Verb (Inversion).",
+    "examples": [
+      "Ich gehe morgen ins Kino.",
+      "Morgen gehe ich ins Kino.",
+      "Wir essen manchmal im Restaurant.",
+      "Er ist gestern nach Berlin gefahren.",
+      "Dann haben wir Kaffee getrunken.",
+      "Ich habe das noch nicht gemacht."
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "prompt": "ins Kino / gehe / Morgen / ich",
+        "correctAnswer": "Morgen gehe ich ins Kino.",
+        "explanation": "Zeitadverb vorne → Inversion: Verb (gehe) an 2. Stelle, Subjekt (ich) danach."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Ich habe das ___ nicht gemacht. (noch/schon — verneinend)",
+        "correctAnswer": "noch",
+        "explanation": "'noch nicht' = etwas ist bis jetzt nicht passiert (und wird erwartet)."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Reihenfolge ist korrekt?",
+        "correctAnswer": "Sie fährt morgen mit dem Zug nach Berlin.",
+        "explanation": "TeKaMoLo: temporal (morgen) → modal (mit dem Zug) → lokal (nach Berlin)."
+      },
+      {
+        "type": "reorder",
+        "prompt": "spät / Er / gestern / nach Hause / gekommen / ist",
+        "correctAnswer": "Er ist gestern spät nach Hause gekommen.",
+        "explanation": "Perfekt: Hilfsverb (ist) an 2. Stelle, Partizip ans Ende."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Ich bin ___ in Deutschland. (= seit einer Weile)",
+        "correctAnswer": "schon",
+        "explanation": "'schon' drückt aus, dass etwas bereits der Fall ist."
+      }
+    ],
+    "orderIndex": 13
+  },
+  {
+    "id": 14,
+    "level": "A2",
+    "topic": "Adjektivdeklination nach bestimmtem Artikel",
+    "explanation": "Nach dem bestimmten Artikel (der, die, das, die) endet das Adjektiv im Nominativ Singular auf -e (alle Genera) und im Akkusativ Maskulinum auf -en. In allen anderen Fällen endet es auf -en. Merkregel: Wenn der Artikel schon das Genus markiert (der, die, das), braucht das Adjektiv nur noch die schwache Endung -e oder -en.",
+    "examples": [
+      "Der alte Mann arbeitet hier.",
+      "Die neue Lehrerin ist nett.",
+      "Das kleine Kind schläft.",
+      "Ich kenne den alten Mann.",
+      "Er kauft die rote Jacke.",
+      "Wir trinken das kalte Wasser."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Der ___ (groß) Baum steht im Garten.",
+        "correctAnswer": "große",
+        "explanation": "Maskulinum, Nominativ, nach bestimmtem Artikel: -e Endung."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Ich sehe die ___ (schön) Frau.",
+        "correctAnswer": "schöne",
+        "explanation": "Femininum, Akkusativ, nach bestimmtem Artikel: -e Endung."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Form ist korrekt? 'Er mag das ___ Buch.'",
+        "correctAnswer": "interessante",
+        "explanation": "Neutrum, Akkusativ, nach bestimmtem Artikel: -e Endung."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Wir besuchen den ___ (alt) Freund.",
+        "correctAnswer": "alten",
+        "explanation": "Maskulinum, Akkusativ, nach bestimmtem Artikel: -en Endung."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "correctAnswer": "Die junge Frau liest ein Buch.",
+        "explanation": "Femininum, Nominativ, nach bestimmtem Artikel: -e Endung (jung → junge)."
+      }
+    ],
+    "orderIndex": 14
+  },
+  {
+    "id": 15,
+    "level": "A2",
+    "topic": "Pronomen im Akkusativ und Dativ",
+    "explanation": "Personalpronomen ändern ihre Form je nach Kasus. Akkusativ (Wen? Was?): mich, dich, ihn, sie, es, uns, euch, sie/Sie. Dativ (Wem?): mir, dir, ihm, ihr, ihm, uns, euch, ihnen/Ihnen. Wenn beide Objekte im Satz vorkommen, steht das Dativobjekt vor dem Akkusativobjekt — außer wenn das Akkusativobjekt ein Pronomen ist: dann steht das Akkusativpronomen zuerst.",
+    "examples": [
+      "Ich sehe ihn jeden Tag.",
+      "Kannst du mir helfen?",
+      "Er gibt ihr das Buch.",
+      "Sie fragt dich nach dem Weg.",
+      "Wir besuchen euch nächste Woche.",
+      "Ich zeige es dir."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich sehe ___ (er) im Park.",
+        "correctAnswer": "ihn",
+        "explanation": "Akkusativ: er → ihn."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Kannst du ___ (ich) helfen?",
+        "correctAnswer": "mir",
+        "explanation": "'helfen' regiert den Dativ. ich → mir."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Er gibt ___ das Buch. (sie — eine Frau)",
+        "correctAnswer": "ihr",
+        "explanation": "Dativ von sie (Singular): ihr."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Ich zeige ___ (du) die Stadt.",
+        "correctAnswer": "dir",
+        "explanation": "'zeigen' hat zwei Objekte. 'dir' ist Dativ von du."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "correctAnswer": "Sie ruft ihn jeden Abend an.",
+        "explanation": "Akkusativ von er: ihn. 'anrufen' verlangt den Akkusativ."
+      }
+    ],
+    "orderIndex": 15
+  }
+]
