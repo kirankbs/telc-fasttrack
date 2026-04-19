@@ -60,3 +60,56 @@ test.describe('Listening MCQ answer selection and part tab progress', () => {
     await expect(page.getByTestId('section-nav-prev')).toBeDisabled();
   });
 });
+
+test.describe('Listening Part 2 true_false rendering and submission', () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto(`/exam/${MOCK}/listening`);
+    await page.getByTestId('section-start-btn').click();
+    await page.getByTestId('section-nav-next').click();
+    await expect(page.getByTestId('part-tab-2')).toHaveClass(/bg-brand-primary/);
+  });
+
+  test('Part 2 renders richtig/falsch buttons instead of MCQ options', async ({ page }) => {
+    await expect(page.getByTestId('question-option-A1_m01_L2_q1-richtig')).toBeVisible();
+    await expect(page.getByTestId('question-option-A1_m01_L2_q1-falsch')).toBeVisible();
+  });
+
+  test('selecting richtig applies selected styling, falsch stays neutral', async ({ page }) => {
+    const richtig = page.getByTestId('question-option-A1_m01_L2_q1-richtig');
+    const falsch = page.getByTestId('question-option-A1_m01_L2_q1-falsch');
+
+    await richtig.click();
+    await expect(richtig).toHaveClass(/border-brand-primary/);
+    await expect(richtig).toHaveClass(/bg-brand-primary-surface/);
+    await expect(falsch).not.toHaveClass(/border-brand-primary/);
+  });
+
+  test('answering all parts enables submit and shows results', async ({ page }) => {
+    // Answer Part 1 MCQ questions first
+    await page.getByTestId('part-tab-1').click();
+    for (const qId of ['A1_m01_L1_q1', 'A1_m01_L1_q2', 'A1_m01_L1_q3']) {
+      await page.getByTestId(`question-option-${qId}-a`).click();
+    }
+
+    // Answer Part 2 true_false questions
+    await page.getByTestId('part-tab-2').click();
+    for (const qId of ['A1_m01_L2_q1', 'A1_m01_L2_q2', 'A1_m01_L2_q3', 'A1_m01_L2_q4', 'A1_m01_L2_q5']) {
+      await page.getByTestId(`question-option-${qId}-richtig`).click();
+    }
+
+    // Answer Part 3 MCQ questions
+    await page.getByTestId('section-nav-next').click();
+    for (const qId of ['A1_m01_L3_q1', 'A1_m01_L3_q2', 'A1_m01_L3_q3']) {
+      await page.getByTestId(`question-option-${qId}-a`).click();
+    }
+
+    // Submit
+    const submitBtn = page.getByTestId('submit-btn');
+    await expect(submitBtn).not.toBeDisabled();
+    await submitBtn.click();
+
+    // Results screen shows score
+    await expect(page.getByText(/Bestanden|Nicht bestanden/)).toBeVisible();
+    await expect(page.getByTestId('next-section-link')).toBeVisible();
+  });
+});
