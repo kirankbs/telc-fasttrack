@@ -1,55 +1,24 @@
-import { LEVEL_CONFIG } from "@telc/config";
-import type { Level } from "@telc/types";
+import { LEVEL_CONFIG } from '@telc/config';
+import type { Level } from '@telc/types';
+import { loadGrammar } from '@/lib/loadGrammar';
+import { GrammarPageClient } from './GrammarPageClient';
 
-const levels: Level[] = ["A1", "A2", "B1", "B2", "C1"];
+const levels: Level[] = ['A1', 'A2', 'B1', 'B2', 'C1'];
 
-export default function GrammarPage() {
-  return (
-    <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-bold text-text-primary">Grammar</h1>
-        <p className="mt-1 text-sm text-text-secondary">
-          Key grammar topics with explanations, examples, and exercises.
-        </p>
-      </div>
+export default async function GrammarPage() {
+  const topicsByLevel: Record<string, Awaited<ReturnType<typeof loadGrammar>>> = {};
 
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {levels.map((level) => {
-          const cfg = LEVEL_CONFIG[level];
-          return (
-            <div
-              key={level}
-              className="rounded-xl border border-[#e0e0e0] bg-white p-6"
-            >
-              <div className="flex items-center gap-3">
-                <span
-                  className="flex h-10 w-10 items-center justify-center rounded-full text-sm font-bold text-white"
-                  style={{ backgroundColor: cfg.color }}
-                >
-                  {level}
-                </span>
-                <div>
-                  <div className="font-semibold text-text-primary">
-                    {level} Grammar
-                  </div>
-                  <div className="text-xs text-text-secondary">
-                    {level === "A1" ? "Topics available" : "Coming soon"}
-                  </div>
-                </div>
-              </div>
-              <div className="mt-4">
-                <button
-                  className="w-full rounded-lg px-4 py-2.5 text-sm font-medium text-white transition-colors hover:opacity-90 disabled:opacity-50"
-                  style={{ backgroundColor: cfg.color }}
-                  disabled={level !== "A1"}
-                >
-                  {level === "A1" ? "Browse Topics" : "Coming Soon"}
-                </button>
-              </div>
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
+  for (const level of levels) {
+    topicsByLevel[level] = await loadGrammar(level);
+  }
+
+  const levelConfigs = levels.map((level) => ({
+    level,
+    color: LEVEL_CONFIG[level].color,
+    label: LEVEL_CONFIG[level].label,
+    topicCount: topicsByLevel[level].length,
+    topics: topicsByLevel[level],
+  }));
+
+  return <GrammarPageClient levels={levelConfigs} />;
 }
