@@ -108,7 +108,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 8,
@@ -123,7 +124,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 9,
@@ -538,7 +540,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 35,
@@ -601,7 +604,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 39,
@@ -664,7 +668,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 43,
@@ -679,7 +684,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 44,
@@ -758,7 +764,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 49,
@@ -789,7 +796,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 51,
@@ -884,7 +892,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 57,
@@ -1043,7 +1052,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 67,
@@ -1058,7 +1068,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 68,
@@ -1073,7 +1084,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 69,
@@ -1088,7 +1100,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 70,
@@ -1103,7 +1116,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 71,
@@ -1118,7 +1132,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 72,
@@ -1133,7 +1148,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 73,
@@ -1148,7 +1164,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 74,
@@ -1163,7 +1180,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 75,
@@ -1178,7 +1196,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 76,
@@ -1193,7 +1212,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 77,
@@ -1208,7 +1228,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 78,
@@ -1223,7 +1244,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 79,
@@ -1238,7 +1260,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 80,
@@ -1253,7 +1276,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 81,
@@ -1380,7 +1404,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 89,
@@ -1395,7 +1420,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 90,
@@ -1538,7 +1564,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 99,
@@ -1553,7 +1580,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 100,
@@ -1584,7 +1612,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 102,
@@ -1615,7 +1644,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 104,
@@ -1630,7 +1660,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 105,
@@ -1645,7 +1676,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 106,
@@ -1660,7 +1692,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 107,
@@ -1675,7 +1708,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 108,
@@ -1690,7 +1724,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 109,
@@ -1769,7 +1804,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 114,
@@ -1816,7 +1852,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 117,
@@ -1863,7 +1900,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 120,
@@ -1878,7 +1916,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 121,
@@ -1893,7 +1932,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 122,
@@ -1908,7 +1948,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 123,
@@ -1923,7 +1964,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 124,
@@ -1938,7 +1980,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 125,
@@ -1953,7 +1996,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 126,
@@ -1984,7 +2028,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 128,
@@ -1999,7 +2044,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 129,
@@ -2094,7 +2140,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 135,
@@ -2189,7 +2236,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 141,
@@ -2204,7 +2252,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 142,
@@ -2251,7 +2300,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 145,
@@ -2266,7 +2316,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 146,
@@ -2297,7 +2348,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 148,
@@ -2312,7 +2364,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 149,
@@ -2327,7 +2380,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 150,
@@ -2342,7 +2396,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 151,
@@ -2357,7 +2412,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 152,
@@ -3652,7 +3708,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 243,
@@ -4227,7 +4284,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 279,
@@ -4290,7 +4348,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 283,
@@ -4417,7 +4476,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 291,
@@ -4432,7 +4492,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 292,
@@ -4543,7 +4604,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 299,
@@ -4670,7 +4732,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 307,
@@ -4685,7 +4748,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 308,
@@ -4764,7 +4828,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 313,
@@ -5003,7 +5068,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 328,
@@ -5034,7 +5100,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 330,
@@ -5049,7 +5116,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 331,
@@ -5064,7 +5132,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 332,
@@ -5079,7 +5148,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 333,
@@ -5094,7 +5164,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 334,
@@ -5109,7 +5180,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 335,
@@ -5396,7 +5468,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 353,
@@ -5411,7 +5484,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 354,
@@ -5426,7 +5500,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 355,
@@ -5441,7 +5516,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 356,
@@ -5456,7 +5532,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 357,
@@ -5503,7 +5580,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 360,
@@ -5582,7 +5660,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 365,
@@ -5613,7 +5692,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 367,
@@ -5660,7 +5740,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 370,
@@ -5739,7 +5820,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 375,
@@ -5994,7 +6076,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 391,
@@ -6009,7 +6092,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 392,
@@ -6216,7 +6300,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 405,
@@ -7057,7 +7142,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 465,
@@ -7072,7 +7158,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 466,
@@ -7103,7 +7190,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 468,
@@ -7118,7 +7206,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 469,
@@ -7181,7 +7270,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 473,
@@ -7276,7 +7366,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 479,
@@ -7515,7 +7606,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 494,
@@ -7562,7 +7654,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 497,
@@ -7833,7 +7926,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 514,
@@ -7992,7 +8086,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 524,
@@ -8247,7 +8342,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 540,
@@ -8582,7 +8678,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 561,
@@ -8629,7 +8726,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 564,
@@ -8644,7 +8742,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 565,
@@ -8723,7 +8822,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 570,
@@ -8754,7 +8854,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 572,
@@ -8769,7 +8870,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 573,
@@ -9104,7 +9206,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 594,
@@ -9119,7 +9222,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 595,
@@ -9262,7 +9366,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 604,
@@ -9293,7 +9398,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 606,
@@ -9356,7 +9462,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 610,
@@ -9371,7 +9478,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 611,
@@ -9386,7 +9494,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 612,
@@ -9433,7 +9542,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 615,
@@ -9464,7 +9574,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 617,
@@ -9479,7 +9590,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 618,
@@ -9494,7 +9606,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 619,
@@ -9509,7 +9622,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 620,
@@ -9588,7 +9702,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 625,
@@ -9603,7 +9718,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 626,
@@ -9618,7 +9734,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 627,
@@ -9633,7 +9750,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 628,
@@ -9648,7 +9766,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 629,
@@ -9679,7 +9798,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 631,
@@ -9694,7 +9814,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 632,
@@ -9709,7 +9830,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 633,
@@ -9804,7 +9926,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 639,
@@ -10625,7 +10748,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 695,
@@ -10656,7 +10780,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 697,
@@ -10831,7 +10956,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 708,
@@ -10878,7 +11004,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 711,
@@ -10909,7 +11036,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 713,
@@ -10940,7 +11068,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 715,
@@ -10955,7 +11084,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 716,
@@ -10970,7 +11100,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 717,
@@ -11097,7 +11228,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 725,
@@ -11112,7 +11244,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 726,
@@ -11127,7 +11260,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 727,
@@ -11142,7 +11276,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 728,
@@ -11253,7 +11388,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 735,
@@ -11284,7 +11420,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 737,
@@ -11299,7 +11436,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 738,
@@ -11458,7 +11596,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 748,
@@ -11967,7 +12106,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 783,
@@ -11982,7 +12122,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 784,
@@ -12125,7 +12266,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 793,
@@ -12140,7 +12282,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 794,
@@ -12603,7 +12746,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 823,
@@ -13194,7 +13338,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 860,
@@ -13209,7 +13354,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 861,
@@ -13256,7 +13402,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 864,
@@ -13319,7 +13466,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 868,
@@ -13334,7 +13482,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 869,
@@ -13365,7 +13514,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 871,
@@ -13380,7 +13530,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 872,
@@ -13395,7 +13546,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 873,
@@ -13410,7 +13562,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 874,
@@ -13457,7 +13610,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 877,
@@ -13472,7 +13626,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 878,
@@ -13503,7 +13658,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 880,
@@ -13694,7 +13850,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 892,
@@ -13709,7 +13866,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 893,
@@ -13724,7 +13882,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 894,
@@ -13899,7 +14058,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 905,
@@ -13946,7 +14106,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 908,
@@ -13977,7 +14138,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 910,
@@ -13992,7 +14154,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 911,
@@ -14007,7 +14170,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 912,
@@ -14022,7 +14186,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 913,
@@ -14069,7 +14234,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 916,
@@ -14084,7 +14250,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 917,
@@ -14099,7 +14266,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 918,
@@ -14130,7 +14298,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 920,
@@ -14145,7 +14314,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 921,
@@ -14160,7 +14330,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 922,
@@ -14191,7 +14362,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 924,
@@ -14222,7 +14394,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 926,
@@ -15003,7 +15176,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 981,
@@ -15162,7 +15336,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 991,
@@ -15177,7 +15352,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 992,
@@ -15192,7 +15368,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 993,
@@ -15239,7 +15416,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 996,
@@ -15318,7 +15496,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1001,
@@ -15333,7 +15512,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1002,
@@ -15348,7 +15528,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1003,
@@ -15363,7 +15544,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1004,
@@ -15378,7 +15560,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1005,
@@ -15409,7 +15592,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1007,
@@ -15424,7 +15608,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1008,
@@ -15439,7 +15624,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1009,
@@ -15454,7 +15640,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1010,
@@ -15469,7 +15656,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1011,
@@ -15596,7 +15784,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1019,
@@ -15611,7 +15800,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1020,
@@ -15626,7 +15816,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1021,
@@ -15641,7 +15832,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1022,
@@ -15688,7 +15880,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1025,
@@ -15703,7 +15896,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1026,
@@ -15718,7 +15912,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1027,
@@ -15733,7 +15928,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1028,
@@ -15748,7 +15944,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1029,
@@ -15763,7 +15960,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1030,
@@ -15778,7 +15976,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1031,
@@ -15809,7 +16008,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1033,
@@ -15824,7 +16024,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1034,
@@ -15839,7 +16040,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1035,
@@ -15854,7 +16056,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1036,
@@ -15869,7 +16072,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1037,
@@ -15884,7 +16088,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1038,
@@ -15899,7 +16104,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1039,
@@ -15914,7 +16120,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1040,
@@ -15945,7 +16152,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1042,
@@ -15960,7 +16168,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1043,
@@ -15975,7 +16184,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1044,
@@ -15990,7 +16200,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1045,
@@ -16005,7 +16216,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1046,
@@ -16020,7 +16232,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1047,
@@ -16035,7 +16248,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1048,
@@ -16050,7 +16264,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1049,
@@ -16065,7 +16280,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1050,
@@ -16080,7 +16296,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1051,
@@ -16095,7 +16312,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1052,
@@ -16494,7 +16712,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1077,
@@ -16509,7 +16728,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1078,
@@ -16524,7 +16744,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1079,
@@ -16747,7 +16968,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1093,
@@ -17066,7 +17288,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1113,
@@ -17273,7 +17496,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1126,
@@ -17304,7 +17528,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1128,
@@ -17607,7 +17832,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1147,
@@ -17622,7 +17848,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1148,
@@ -17637,7 +17864,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1149,
@@ -17780,7 +18008,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1158,
@@ -18577,7 +18806,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1214,
@@ -18592,7 +18822,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1215,
@@ -18623,7 +18854,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1217,
@@ -18638,7 +18870,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1218,
@@ -18653,7 +18886,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1219,
@@ -18748,7 +18982,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1225,
@@ -18811,7 +19046,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1229,
@@ -18970,7 +19206,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1239,
@@ -18985,7 +19222,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1240,
@@ -19000,7 +19238,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1241,
@@ -19031,7 +19270,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1243,
@@ -19046,7 +19286,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1244,
@@ -19215,7 +19456,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1256,
@@ -19230,7 +19472,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1257,
@@ -19261,7 +19504,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1259,
@@ -19276,7 +19520,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1260,
@@ -19307,7 +19552,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1262,
@@ -19338,7 +19584,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1264,
@@ -19353,7 +19600,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1265,
@@ -19496,7 +19744,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1274,
@@ -19575,7 +19824,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1279,
@@ -19590,7 +19840,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1280,
@@ -19605,7 +19856,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1281,
@@ -19652,7 +19904,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1284,
@@ -19667,7 +19920,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1285,
@@ -19730,7 +19984,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1289,
@@ -19761,7 +20016,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1291,
@@ -19776,7 +20032,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1292,
@@ -19807,7 +20064,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1294,
@@ -19822,7 +20080,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1295,
@@ -19837,7 +20096,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1296,
@@ -19852,7 +20112,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1297,
@@ -19867,7 +20128,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1298,
@@ -19882,7 +20144,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1299,
@@ -19913,7 +20176,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1301,
@@ -19976,7 +20240,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1305,
@@ -20007,7 +20272,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1307,
@@ -20022,7 +20288,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1308,
@@ -20037,7 +20304,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1309,
@@ -20052,7 +20320,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1310,
@@ -20067,7 +20336,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1311,
@@ -20098,7 +20368,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1313,
@@ -20113,7 +20384,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1314,
@@ -20128,7 +20400,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1315,
@@ -20143,7 +20416,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1316,
@@ -20206,7 +20480,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1320,
@@ -20221,7 +20496,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1321,
@@ -20236,7 +20512,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1322,
@@ -20251,7 +20528,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1323,
@@ -20266,7 +20544,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1324,
@@ -20281,7 +20560,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1325,
@@ -20344,7 +20624,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1329,
@@ -20359,7 +20640,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1330,
@@ -20374,7 +20656,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1331,
@@ -20389,7 +20672,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1332,
@@ -20404,7 +20688,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1333,
@@ -20451,7 +20736,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1336,
@@ -20466,7 +20752,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1337,
@@ -20513,7 +20800,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1340,
@@ -20528,7 +20816,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1341,
@@ -20543,7 +20832,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1342,
@@ -20558,7 +20848,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1343,
@@ -20573,7 +20864,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1344,
@@ -20652,7 +20944,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1349,
@@ -20667,7 +20960,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1350,
@@ -20714,7 +21008,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1353,
@@ -20745,7 +21040,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1355,
@@ -20776,7 +21072,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1357,
@@ -20823,7 +21120,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1360,
@@ -20870,7 +21168,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1363,
@@ -21639,7 +21938,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1417,
@@ -21654,7 +21954,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1418,
@@ -21669,7 +21970,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1419,
@@ -21732,7 +22034,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1423,
@@ -21747,7 +22050,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1424,
@@ -21762,7 +22066,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1425,
@@ -21825,7 +22130,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1429,
@@ -21840,7 +22146,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1430,
@@ -21855,7 +22162,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1431,
@@ -21870,7 +22178,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1432,
@@ -21933,7 +22242,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1436,
@@ -21948,7 +22258,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1437,
@@ -21963,7 +22274,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1438,
@@ -22410,7 +22722,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1466,
@@ -22537,7 +22850,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1474,
@@ -23272,7 +23586,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1520,
@@ -23655,7 +23970,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1544,
@@ -23910,7 +24226,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1560,
@@ -24769,7 +25086,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1619,
@@ -24816,7 +25134,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1622,
@@ -24895,7 +25214,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1627,
@@ -24926,7 +25246,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1629,
@@ -24941,7 +25262,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1630,
@@ -24956,7 +25278,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1631,
@@ -24971,7 +25294,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1632,
@@ -25082,7 +25406,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1639,
@@ -25097,7 +25422,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1640,
@@ -25112,7 +25438,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1641,
@@ -25143,7 +25470,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1643,
@@ -25158,7 +25486,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1644,
@@ -25173,7 +25502,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1645,
@@ -25188,7 +25518,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1646,
@@ -25203,7 +25534,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1647,
@@ -25234,7 +25566,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1649,
@@ -25537,7 +25870,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1668,
@@ -25552,7 +25886,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1669,
@@ -25567,7 +25902,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1670,
@@ -25598,7 +25934,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1672,
@@ -25613,7 +25950,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1673,
@@ -25628,7 +25966,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1674,
@@ -25643,7 +25982,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1675,
@@ -25674,7 +26014,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1677,
@@ -25721,7 +26062,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1680,
@@ -25896,7 +26238,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1691,
@@ -25991,7 +26334,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1697,
@@ -26070,7 +26414,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1702,
@@ -26309,7 +26654,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1717,
@@ -26404,7 +26750,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1723,
@@ -26419,7 +26766,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1724,
@@ -26434,7 +26782,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1725,
@@ -26465,7 +26814,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1727,
@@ -26528,7 +26878,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1731,
@@ -27097,7 +27448,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1771,
@@ -27112,7 +27464,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1772,
@@ -27143,7 +27496,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1774,
@@ -27158,7 +27512,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1775,
@@ -27205,7 +27560,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1778,
@@ -27316,7 +27672,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1785,
@@ -27411,7 +27768,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1791,
@@ -27426,7 +27784,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1792,
@@ -27441,7 +27800,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1793,
@@ -27456,7 +27816,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1794,
@@ -27487,7 +27848,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1796,
@@ -27502,7 +27864,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1797,
@@ -27597,7 +27960,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1803,
@@ -27644,7 +28008,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1806,
@@ -27659,7 +28024,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1807,
@@ -27674,7 +28040,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1808,
@@ -27833,7 +28200,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1818,
@@ -28040,7 +28408,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1831,
@@ -28055,7 +28424,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1832,
@@ -28070,7 +28440,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1833,
@@ -28085,7 +28456,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1834,
@@ -28116,7 +28488,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1836,
@@ -28131,7 +28504,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1837,
@@ -28146,7 +28520,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1838,
@@ -28209,7 +28584,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1842,
@@ -28224,7 +28600,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1843,
@@ -28303,7 +28680,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1848,
@@ -28318,7 +28696,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1849,
@@ -28333,7 +28712,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1850,
@@ -28364,7 +28744,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1852,
@@ -28379,7 +28760,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1853,
@@ -28394,7 +28776,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1854,
@@ -28409,7 +28792,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1855,
@@ -28424,7 +28808,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1856,
@@ -28439,7 +28824,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1857,
@@ -28454,7 +28840,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1858,
@@ -28469,7 +28856,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1859,
@@ -28516,7 +28904,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1862,
@@ -28579,7 +28968,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1866,
@@ -28594,7 +28984,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1867,
@@ -28609,7 +29000,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1868,
@@ -28624,7 +29016,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1869,
@@ -28639,7 +29032,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1870,
@@ -28654,7 +29048,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1871,
@@ -28701,7 +29096,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1874,
@@ -28716,7 +29112,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1875,
@@ -28747,7 +29144,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1877,
@@ -28874,7 +29272,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1885,
@@ -28889,7 +29288,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1886,
@@ -28968,7 +29368,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1891,
@@ -28983,7 +29384,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1892,
@@ -29030,7 +29432,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1895,
@@ -29045,7 +29448,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1896,
@@ -29092,7 +29496,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1899,
@@ -29107,7 +29512,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1900,
@@ -29122,7 +29528,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1901,
@@ -29137,7 +29544,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1902,
@@ -29152,7 +29560,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1903,
@@ -29167,7 +29576,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1904,
@@ -29214,7 +29624,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1907,
@@ -29229,7 +29640,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1908,
@@ -29244,7 +29656,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1909,
@@ -29259,7 +29672,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1910,
@@ -29306,7 +29720,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1913,
@@ -29321,7 +29736,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1914,
@@ -29336,7 +29752,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1915,
@@ -29367,7 +29784,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1917,
@@ -29382,7 +29800,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1918,
@@ -29397,7 +29816,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1919,
@@ -29412,7 +29832,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1920,
@@ -29443,7 +29864,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1922,
@@ -29458,7 +29880,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1923,
@@ -29473,7 +29896,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1924,
@@ -29520,7 +29944,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1927,
@@ -29535,7 +29960,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1928,
@@ -29550,7 +29976,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1929,
@@ -29613,7 +30040,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1933,
@@ -29628,7 +30056,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1934,
@@ -29691,7 +30120,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1938,
@@ -29706,7 +30136,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1939,
@@ -29753,7 +30184,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1942,
@@ -29768,7 +30200,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1943,
@@ -29831,7 +30264,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 1947,
@@ -29862,7 +30296,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1949,
@@ -29877,7 +30312,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1950,
@@ -29892,7 +30328,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1951,
@@ -29987,7 +30424,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1957,
@@ -30516,7 +30954,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 1994,
@@ -30531,7 +30970,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 1995,
@@ -30658,7 +31098,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2003,
@@ -30753,7 +31194,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2009,
@@ -30768,7 +31210,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2010,
@@ -30783,7 +31226,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2011,
@@ -30830,7 +31274,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2014,
@@ -30845,7 +31290,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2015,
@@ -30892,7 +31338,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2018,
@@ -31019,7 +31466,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2026,
@@ -31034,7 +31482,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2027,
@@ -31097,7 +31546,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2031,
@@ -31112,7 +31562,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2032,
@@ -31127,7 +31578,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2033,
@@ -31142,7 +31594,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2034,
@@ -31157,7 +31610,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2035,
@@ -31172,7 +31626,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2036,
@@ -31187,7 +31642,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2037,
@@ -31202,7 +31658,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2038,
@@ -31217,7 +31674,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2039,
@@ -31232,7 +31690,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2040,
@@ -31263,7 +31722,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2042,
@@ -31454,7 +31914,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2054,
@@ -31469,7 +31930,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2055,
@@ -31484,7 +31946,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2056,
@@ -31579,7 +32042,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2062,
@@ -31594,7 +32058,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2063,
@@ -31625,7 +32090,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2065,
@@ -31640,7 +32106,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2066,
@@ -31655,7 +32122,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2067,
@@ -31734,7 +32202,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2072,
@@ -31829,7 +32298,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2078,
@@ -32324,7 +32794,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2109,
@@ -32355,7 +32826,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2111,
@@ -32370,7 +32842,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2112,
@@ -32385,7 +32858,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2113,
@@ -32400,7 +32874,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2114,
@@ -32415,7 +32890,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2115,
@@ -32430,7 +32906,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2116,
@@ -32445,7 +32922,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2117,
@@ -32460,7 +32938,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2118,
@@ -32475,7 +32954,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2119,
@@ -32506,7 +32986,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2121,
@@ -32697,7 +33178,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2133,
@@ -32712,7 +33194,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2134,
@@ -32759,7 +33242,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2137,
@@ -32774,7 +33258,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2138,
@@ -32933,7 +33418,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2148,
@@ -32948,7 +33434,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2149,
@@ -32963,7 +33450,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2150,
@@ -32978,7 +33466,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2151,
@@ -32993,7 +33482,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2152,
@@ -33024,7 +33514,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2154,
@@ -33039,7 +33530,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2155,
@@ -33054,7 +33546,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2156,
@@ -33069,7 +33562,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2157,
@@ -33084,7 +33578,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2158,
@@ -33099,7 +33594,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2159,
@@ -33114,7 +33610,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2160,
@@ -33129,7 +33626,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2161,
@@ -33160,7 +33658,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2163,
@@ -33319,7 +33818,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2173,
@@ -33366,7 +33866,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2176,
@@ -33381,7 +33882,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2177,
@@ -33396,7 +33898,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2178,
@@ -33443,7 +33946,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2181,
@@ -33458,7 +33962,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2182,
@@ -33489,7 +33994,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2184,
@@ -33536,7 +34042,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2187,
@@ -33583,7 +34090,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2190,
@@ -33646,7 +34154,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2194,
@@ -33693,7 +34202,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2197,
@@ -34348,7 +34858,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2243,
@@ -34363,7 +34874,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2244,
@@ -34394,7 +34906,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2246,
@@ -34473,7 +34986,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2251,
@@ -34488,7 +35002,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2252,
@@ -34503,7 +35018,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2253,
@@ -34534,7 +35050,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2255,
@@ -34581,7 +35098,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2258,
@@ -34644,7 +35162,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2262,
@@ -34659,7 +35178,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2263,
@@ -34674,7 +35194,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2264,
@@ -34689,7 +35210,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2265,
@@ -34720,7 +35242,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2267,
@@ -34783,7 +35306,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2271,
@@ -34894,7 +35418,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2278,
@@ -35053,7 +35578,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2288,
@@ -35116,7 +35642,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2292,
@@ -35131,7 +35658,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2293,
@@ -35498,7 +36026,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2316,
@@ -35897,7 +36426,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2341,
@@ -35928,7 +36458,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2343,
@@ -35943,7 +36474,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2344,
@@ -35958,7 +36490,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2345,
@@ -36037,7 +36570,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2350,
@@ -36084,7 +36618,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2353,
@@ -36163,7 +36698,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2358,
@@ -36194,7 +36730,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2360,
@@ -36209,7 +36746,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2361,
@@ -36224,7 +36762,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2362,
@@ -36239,7 +36778,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2363,
@@ -36318,7 +36858,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2368,
@@ -36333,7 +36874,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2369,
@@ -36348,7 +36890,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2370,
@@ -36379,7 +36922,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2372,
@@ -36426,7 +36970,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2375,
@@ -36521,7 +37066,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2381,
@@ -37198,7 +37744,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2428,
@@ -37213,7 +37760,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2429,
@@ -37228,7 +37776,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2430,
@@ -37291,7 +37840,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2434,
@@ -37418,7 +37968,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2442,
@@ -37513,7 +38064,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2448,
@@ -37528,7 +38080,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2449,
@@ -37543,7 +38096,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2450,
@@ -37558,7 +38112,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2451,
@@ -37605,7 +38160,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2454,
@@ -37908,7 +38464,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2473,
@@ -37971,7 +38528,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2477,
@@ -37986,7 +38544,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2478,
@@ -38081,7 +38640,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2484,
@@ -38096,7 +38656,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2485,
@@ -38111,7 +38672,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2486,
@@ -38126,7 +38688,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2487,
@@ -38221,7 +38784,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2493,
@@ -38236,7 +38800,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2494,
@@ -38363,7 +38928,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2502,
@@ -38490,7 +39056,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2510,
@@ -38553,7 +39120,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2514,
@@ -38568,7 +39136,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2515,
@@ -38695,7 +39264,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2523,
@@ -38726,7 +39296,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2525,
@@ -38789,7 +39360,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2529,
@@ -38964,7 +39536,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2540,
@@ -39011,7 +39584,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2543,
@@ -39042,7 +39616,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2545,
@@ -39073,7 +39648,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2547,
@@ -39088,7 +39664,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2548,
@@ -39167,7 +39744,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2553,
@@ -39198,7 +39776,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2555,
@@ -39213,7 +39792,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2556,
@@ -39244,7 +39824,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2558,
@@ -39339,7 +39920,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2564,
@@ -39402,7 +39984,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2568,
@@ -39449,7 +40032,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2571,
@@ -39512,7 +40096,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2575,
@@ -39575,7 +40160,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2579,
@@ -39638,7 +40224,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2583,
@@ -39717,7 +40304,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2588,
@@ -40036,7 +40624,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2608,
@@ -40243,7 +40832,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2621,
@@ -40258,7 +40848,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2622,
@@ -40369,7 +40960,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2629,
@@ -40432,7 +41024,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2633,
@@ -40463,7 +41056,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2635,
@@ -40478,7 +41072,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2636,
@@ -40493,7 +41088,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2637,
@@ -40524,7 +41120,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2639,
@@ -40667,7 +41264,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2648,
@@ -40730,7 +41328,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2652,
@@ -40745,7 +41344,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2653,
@@ -40824,7 +41424,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2658,
@@ -41063,7 +41664,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2673,
@@ -41158,7 +41760,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2679,
@@ -41205,7 +41808,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2682,
@@ -41236,7 +41840,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2684,
@@ -41363,7 +41968,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2692,
@@ -41538,7 +42144,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2703,
@@ -41729,7 +42336,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2715,
@@ -42128,7 +42736,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2740,
@@ -42479,7 +43088,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2762,
@@ -42590,7 +43200,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2769,
@@ -42621,7 +43232,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2771,
@@ -42716,7 +43328,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2777,
@@ -42731,7 +43344,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2778,
@@ -42778,7 +43392,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2781,
@@ -42793,7 +43408,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2782,
@@ -42808,7 +43424,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2783,
@@ -42823,7 +43440,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2784,
@@ -42838,7 +43456,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2785,
@@ -42869,7 +43488,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2787,
@@ -42932,7 +43552,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2791,
@@ -42979,7 +43600,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2794,
@@ -43042,7 +43664,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2798,
@@ -43057,7 +43680,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2799,
@@ -43088,7 +43712,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2801,
@@ -43231,7 +43856,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2810,
@@ -43246,7 +43872,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2811,
@@ -43293,7 +43920,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2814,
@@ -43308,7 +43936,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2815,
@@ -43323,7 +43952,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2816,
@@ -43354,7 +43984,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2818,
@@ -43481,7 +44112,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2826,
@@ -43512,7 +44144,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2828,
@@ -43623,7 +44256,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2835,
@@ -43702,7 +44336,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2840,
@@ -43781,7 +44416,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2845,
@@ -43812,7 +44448,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2847,
@@ -43827,7 +44464,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2848,
@@ -43842,7 +44480,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2849,
@@ -43873,7 +44512,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2851,
@@ -43952,7 +44592,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2856,
@@ -43983,7 +44624,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2858,
@@ -43998,7 +44640,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2859,
@@ -44013,7 +44656,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2860,
@@ -44044,7 +44688,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2862,
@@ -44059,7 +44704,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2863,
@@ -44090,7 +44736,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2865,
@@ -44105,7 +44752,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2866,
@@ -44136,7 +44784,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2868,
@@ -44183,7 +44832,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2871,
@@ -44198,7 +44848,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2872,
@@ -44245,7 +44896,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2875,
@@ -44292,7 +44944,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2878,
@@ -44307,7 +44960,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2879,
@@ -44322,7 +44976,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2880,
@@ -44337,7 +44992,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2881,
@@ -44352,7 +45008,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2882,
@@ -44383,7 +45040,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2884,
@@ -44478,7 +45136,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2890,
@@ -44525,7 +45184,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2893,
@@ -44716,7 +45376,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2905,
@@ -44843,7 +45504,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2913,
@@ -44890,7 +45552,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2916,
@@ -44905,7 +45568,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2917,
@@ -45016,7 +45680,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2924,
@@ -45031,7 +45696,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2925,
@@ -45062,7 +45728,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2927,
@@ -45141,7 +45808,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2932,
@@ -45156,7 +45824,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2933,
@@ -45379,7 +46048,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2947,
@@ -45426,7 +46096,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2950,
@@ -45441,7 +46112,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2951,
@@ -45520,7 +46192,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2956,
@@ -45535,7 +46208,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 2957,
@@ -45582,7 +46256,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 2960,
@@ -45853,7 +46528,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2977,
@@ -45868,7 +46544,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 2978,
@@ -46283,7 +46960,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3004,
@@ -46298,7 +46976,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3005,
@@ -46329,7 +47008,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3007,
@@ -46344,7 +47024,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3008,
@@ -46439,7 +47120,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3014,
@@ -46470,7 +47152,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3016,
@@ -46501,7 +47184,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3018,
@@ -46532,7 +47216,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3020,
@@ -46563,7 +47248,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3022,
@@ -46610,7 +47296,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3025,
@@ -46641,7 +47328,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3027,
@@ -46752,7 +47440,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3034,
@@ -46767,7 +47456,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3035,
@@ -46798,7 +47488,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3037,
@@ -46813,7 +47504,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3038,
@@ -46860,7 +47552,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3041,
@@ -47019,7 +47712,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3051,
@@ -47098,7 +47792,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3056,
@@ -47145,7 +47840,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3059,
@@ -47192,7 +47888,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3062,
@@ -47255,7 +47952,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3066,
@@ -47302,7 +48000,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3069,
@@ -47333,7 +48032,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3071,
@@ -47348,7 +48048,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3072,
@@ -47379,7 +48080,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3074,
@@ -47426,7 +48128,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3077,
@@ -47473,7 +48176,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3080,
@@ -47488,7 +48192,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3081,
@@ -47503,7 +48208,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3082,
@@ -47534,7 +48240,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3084,
@@ -47549,7 +48256,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3085,
@@ -47580,7 +48288,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3087,
@@ -47595,7 +48304,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3088,
@@ -47610,7 +48320,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3089,
@@ -47785,7 +48496,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3100,
@@ -47800,7 +48512,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3101,
@@ -47943,7 +48656,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3110,
@@ -47974,7 +48688,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3112,
@@ -48005,7 +48720,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3114,
@@ -48020,7 +48736,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3115,
@@ -48035,7 +48752,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3116,
@@ -48370,7 +49088,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3137,
@@ -48385,7 +49104,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3138,
@@ -48432,7 +49152,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3141,
@@ -48447,7 +49168,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3142,
@@ -48462,7 +49184,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3143,
@@ -48477,7 +49200,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3144,
@@ -48492,7 +49216,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3145,
@@ -48587,7 +49312,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3151,
@@ -48666,7 +49392,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3156,
@@ -48729,7 +49456,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3160,
@@ -48792,7 +49520,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3164,
@@ -48839,7 +49568,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3167,
@@ -48854,7 +49584,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3168,
@@ -49125,7 +49856,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3185,
@@ -49172,7 +49904,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3188,
@@ -49299,7 +50032,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3196,
@@ -49314,7 +50048,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3197,
@@ -49361,7 +50096,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3200,
@@ -49392,7 +50128,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3202,
@@ -49551,7 +50288,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3212,
@@ -49566,7 +50304,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3213,
@@ -50225,7 +50964,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3259,
@@ -50304,7 +51044,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3264,
@@ -50319,7 +51060,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3265,
@@ -50334,7 +51076,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3266,
@@ -50397,7 +51140,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3270,
@@ -50476,7 +51220,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3275,
@@ -50507,7 +51252,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3277,
@@ -50650,7 +51396,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3286,
@@ -50697,7 +51444,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3289,
@@ -50776,7 +51524,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3294,
@@ -50791,7 +51540,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3295,
@@ -50806,7 +51556,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3296,
@@ -50837,7 +51588,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3298,
@@ -50852,7 +51604,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3299,
@@ -50867,7 +51620,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3300,
@@ -50930,7 +51684,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3304,
@@ -51025,7 +51780,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3310,
@@ -51040,7 +51796,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3311,
@@ -51183,7 +51940,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3320,
@@ -51246,7 +52004,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3324,
@@ -51261,7 +52020,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3325,
@@ -51548,7 +52308,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3343,
@@ -51659,7 +52420,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3350,
@@ -51834,7 +52596,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3361,
@@ -52153,7 +52916,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3381,
@@ -52168,7 +52932,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3382,
@@ -52215,7 +52980,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3385,
@@ -52278,7 +53044,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3389,
@@ -52341,7 +53108,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3393,
@@ -52436,7 +53204,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3399,
@@ -52515,7 +53284,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3404,
@@ -52546,7 +53316,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3406,
@@ -52657,7 +53428,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3413,
@@ -52672,7 +53444,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3414,
@@ -52687,7 +53460,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3415,
@@ -52734,7 +53508,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3418,
@@ -52957,7 +53732,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3432,
@@ -52972,7 +53748,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3433,
@@ -52987,7 +53764,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3434,
@@ -53002,7 +53780,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3435,
@@ -53145,7 +53924,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3444,
@@ -53160,7 +53940,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3445,
@@ -53175,7 +53956,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3446,
@@ -53366,7 +54148,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3458,
@@ -53381,7 +54164,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3459,
@@ -53444,7 +54228,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3463,
@@ -53507,7 +54292,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3467,
@@ -53554,7 +54340,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3470,
@@ -53569,7 +54356,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3471,
@@ -53696,7 +54484,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3479,
@@ -53727,7 +54516,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3481,
@@ -53918,7 +54708,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3493,
@@ -54661,7 +55452,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3546,
@@ -54724,7 +55516,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3550,
@@ -54755,7 +55548,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3552,
@@ -54866,7 +55660,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3559,
@@ -54881,7 +55676,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3560,
@@ -54896,7 +55692,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3561,
@@ -54943,7 +55740,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3564,
@@ -55070,7 +55868,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3572,
@@ -55149,7 +55948,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3577,
@@ -55180,7 +55980,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3579,
@@ -55339,7 +56140,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3589,
@@ -55466,7 +56268,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3597,
@@ -55577,7 +56380,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3604,
@@ -55624,7 +56428,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3607,
@@ -55671,7 +56476,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3610,
@@ -55686,7 +56492,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3611,
@@ -55717,7 +56524,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3613,
@@ -55732,7 +56540,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3614,
@@ -55763,7 +56572,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3616,
@@ -55778,7 +56588,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3617,
@@ -55809,7 +56620,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3619,
@@ -55872,7 +56684,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3623,
@@ -55935,7 +56748,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3627,
@@ -55998,7 +56812,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3631,
@@ -56077,7 +56892,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3636,
@@ -56332,7 +57148,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3652,
@@ -56491,7 +57308,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3662,
@@ -56538,7 +57356,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3665,
@@ -56585,7 +57404,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3668,
@@ -56664,7 +57484,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3673,
@@ -56679,7 +57500,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3674,
@@ -56790,7 +57612,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3681,
@@ -56805,7 +57628,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3682,
@@ -56836,7 +57660,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3684,
@@ -56867,7 +57692,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3686,
@@ -57902,7 +58728,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3759,
@@ -57981,7 +58808,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3764,
@@ -58092,7 +58920,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3771,
@@ -58107,7 +58936,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3772,
@@ -58122,7 +58952,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3773,
@@ -58137,7 +58968,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3774,
@@ -58152,7 +58984,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3775,
@@ -58167,7 +59000,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3776,
@@ -58198,7 +59032,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3778,
@@ -58213,7 +59048,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3779,
@@ -58228,7 +59064,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3780,
@@ -58243,7 +59080,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3781,
@@ -58258,7 +59096,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3782,
@@ -58273,7 +59112,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3783,
@@ -58288,7 +59128,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3784,
@@ -58303,7 +59144,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3785,
@@ -58334,7 +59176,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3787,
@@ -58397,7 +59240,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3791,
@@ -58428,7 +59272,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3793,
@@ -58443,7 +59288,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3794,
@@ -58506,7 +59352,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3798,
@@ -58665,7 +59512,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3808,
@@ -58696,7 +59544,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3810,
@@ -58711,7 +59560,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3811,
@@ -58726,7 +59576,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3812,
@@ -58757,7 +59608,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3814,
@@ -58852,7 +59704,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3820,
@@ -58947,7 +59800,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3826,
@@ -58962,7 +59816,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3827,
@@ -59073,7 +59928,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3834,
@@ -59088,7 +59944,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3835,
@@ -59167,7 +60024,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3840,
@@ -59182,7 +60040,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3841,
@@ -59197,7 +60056,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3842,
@@ -59212,7 +60072,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3843,
@@ -59227,7 +60088,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3844,
@@ -59258,7 +60120,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3846,
@@ -59337,7 +60200,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3851,
@@ -59352,7 +60216,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3852,
@@ -59415,7 +60280,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3856,
@@ -59430,7 +60296,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3857,
@@ -59445,7 +60312,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3858,
@@ -59460,7 +60328,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3859,
@@ -59475,7 +60344,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3860,
@@ -59490,7 +60360,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3861,
@@ -59505,7 +60376,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3862,
@@ -59520,7 +60392,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3863,
@@ -59535,7 +60408,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3864,
@@ -59550,7 +60424,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3865,
@@ -59661,7 +60536,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3872,
@@ -59676,7 +60552,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3873,
@@ -59771,7 +60648,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3879,
@@ -59818,7 +60696,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3882,
@@ -59849,7 +60728,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3884,
@@ -59976,7 +60856,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3892,
@@ -59991,7 +60872,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3893,
@@ -60006,7 +60888,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3894,
@@ -60101,7 +60984,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "das"
+    "article": "das",
+    "plural": null
   },
   {
     "id": 3900,
@@ -60116,7 +61000,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3901,
@@ -60147,7 +61032,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3903,
@@ -60290,7 +61176,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3912,
@@ -60337,7 +61224,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3915,
@@ -61004,7 +61892,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3962,
@@ -61035,7 +61924,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3964,
@@ -61146,7 +62036,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3971,
@@ -61177,7 +62068,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3973,
@@ -61192,7 +62084,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3974,
@@ -61207,7 +62100,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3975,
@@ -61238,7 +62132,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3977,
@@ -61317,7 +62212,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3982,
@@ -61380,7 +62276,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3986,
@@ -61395,7 +62292,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3987,
@@ -61554,7 +62452,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 3997,
@@ -61569,7 +62468,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3998,
@@ -61584,7 +62484,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "der"
+    "article": "der",
+    "plural": null
   },
   {
     "id": 3999,
@@ -61615,7 +62516,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 4001,
@@ -61662,7 +62564,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 4004,
@@ -61757,7 +62660,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 4010,
@@ -61772,7 +62676,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 4011,
@@ -61803,7 +62708,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 4013,
@@ -61818,7 +62724,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 4014,
@@ -61849,7 +62756,8 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   },
   {
     "id": 4016,
@@ -61864,6 +62772,7 @@
     "repetitions": 0,
     "nextReviewDate": null,
     "lastReviewedAt": null,
-    "article": "die"
+    "article": "die",
+    "plural": null
   }
 ]
