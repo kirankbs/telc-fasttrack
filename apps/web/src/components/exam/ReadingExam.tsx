@@ -110,10 +110,14 @@ export function ReadingExam({ mockId, level, section }: ReadingExamProps) {
           </a>
           <a
             data-testid="next-section-link"
-            href={`/exam/${mockId}/writing`}
+            href={
+              level === 'B1' || level === 'B2'
+                ? `/exam/${mockId}/sprachbausteine`
+                : `/exam/${mockId}/writing`
+            }
             className="flex-1 rounded-xl bg-brand-primary py-3 text-center text-sm font-semibold text-white hover:opacity-90"
           >
-            Weiter: Schreiben
+            {level === 'B1' || level === 'B2' ? 'Weiter: Sprachbausteine' : 'Weiter: Schreiben'}
           </a>
         </div>
       </div>

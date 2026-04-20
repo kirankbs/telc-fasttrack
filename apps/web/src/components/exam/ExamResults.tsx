@@ -15,6 +15,12 @@ interface ExamResultsProps {
 const SECTION_META = [
   { key: 'listening' as const, label: 'Hören', icon: '🎧', aggregate: 'written' as const },
   { key: 'reading' as const, label: 'Lesen', icon: '📖', aggregate: 'written' as const },
+  {
+    key: 'sprachbausteine' as const,
+    label: 'Sprachbausteine',
+    icon: '🧩',
+    aggregate: 'written' as const,
+  },
   { key: 'writing' as const, label: 'Schreiben', icon: '✍️', aggregate: 'written' as const },
   { key: 'speaking' as const, label: 'Sprechen', icon: '🗣️', aggregate: 'oral' as const },
 ] as const;
@@ -263,15 +269,21 @@ export function ExamResults({ mockId, level, mockNumber }: ExamResultsProps) {
       {/* Per-section scores */}
       <div className="space-y-3">
         <h2 className="text-lg font-semibold text-text-primary">Abschnitte</h2>
-        {SECTION_META.map((meta) => (
-          <SectionScoreCard
-            key={meta.key}
-            label={meta.label}
-            icon={meta.icon}
-            result={session.sections[meta.key]}
-            isHumanGraded={meta.key === 'writing' || meta.key === 'speaking'}
-          />
-        ))}
+        {SECTION_META
+          // Only show Sprachbausteine row if the exam actually has it (i.e. session
+          // already recorded a result). A1/A2/C1 don't have this section.
+          .filter(
+            (meta) => meta.key !== 'sprachbausteine' || !!session.sections.sprachbausteine,
+          )
+          .map((meta) => (
+            <SectionScoreCard
+              key={meta.key}
+              label={meta.label}
+              icon={meta.icon}
+              result={session.sections[meta.key]}
+              isHumanGraded={meta.key === 'writing' || meta.key === 'speaking'}
+            />
+          ))}
       </div>
 
       {/* Actions */}

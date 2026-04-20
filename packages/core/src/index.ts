@@ -1,6 +1,7 @@
 export {
   calculateSectionScore,
   calculateExamScore,
+  scoreSprachbausteine,
   getReadinessLevel,
   formatScore,
 } from './scoring';
