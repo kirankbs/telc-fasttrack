@@ -30,7 +30,9 @@ test.describe('1a — Hören section flow', () => {
 
     // Part 1 MCQ answers can be selected
     await page.getByTestId(`question-option-${L_PARTS[1][0]}-a`).click();
-    await expect(page.getByTestId(`question-option-${L_PARTS[1][0]}-a`)).toHaveClass(/border-brand-primary/);
+    await expect(
+      page.getByTestId(`question-option-${L_PARTS[1][0]}-a`),
+    ).toHaveAttribute('data-state', 'selected');
 
     // Part 2 has true_false questions without rendered radio options in this component —
     // expire the timer to auto-submit (mirrors telc exam behavior on time-out)

@@ -1,14 +1,17 @@
 'use client';
 
 import { useState, useCallback, useMemo, useEffect } from 'react';
+import { Headphones } from 'lucide-react';
 import { SECTION_DURATIONS, calculateSectionScore } from '@fastrack/core';
 import type { ListeningSection, Level } from '@fastrack/types';
 import type { ExamPhase } from '@/lib/examTypes';
 import { saveSection } from '@/lib/examSession';
-import { ExamTimer } from './ExamTimer';
+import { ExamRunnerHeader } from './ExamRunnerHeader';
 import { SectionIntro } from './SectionIntro';
 import { QuestionResultRow } from './QuestionResultRow';
 import { AudioPlayer } from './AudioPlayer';
+import { AnswerOption } from './AnswerOption';
+import { ExamSubmitButton } from './ExamSubmitButton';
 
 interface ListeningExamProps {
   mockId: string;
@@ -50,15 +53,18 @@ export function ListeningExam({ mockId, level, section }: ListeningExamProps) {
     [section.parts, answers],
   );
 
+  const totalQuestions = section.parts.reduce((n, p) => n + p.questions.length, 0);
+  const answeredCount = Object.keys(answers).length;
+  const progress = totalQuestions > 0 ? answeredCount / totalQuestions : 0;
+
   const part = section.parts[currentPart];
   const totalParts = section.parts.length;
-  const totalQuestions = section.parts.reduce((n, p) => n + p.questions.length, 0);
 
   if (phase === 'intro') {
     return (
       <SectionIntro
         title="Hören"
-        icon="🎧"
+        Icon={Headphones}
         totalSeconds={totalSeconds}
         description={`${totalParts} Teile · ${totalQuestions} Aufgaben`}
         onStart={handleStart}
@@ -72,7 +78,7 @@ export function ListeningExam({ mockId, level, section }: ListeningExamProps) {
       <div className="space-y-6">
         <div
           className={`rounded-xl border-2 p-6 text-center ${
-            score.passed ? 'border-pass bg-pass-light' : 'border-fail bg-fail-light'
+            score.passed ? 'border-pass bg-pass-surface' : 'border-fail bg-fail-surface'
           }`}
         >
           <div className={`text-4xl font-bold ${score.passed ? 'text-pass' : 'text-fail'}`}>
@@ -116,7 +122,7 @@ export function ListeningExam({ mockId, level, section }: ListeningExamProps) {
           <a
             data-testid="next-section-link"
             href={`/exam/${mockId}/reading`}
-            className="flex-1 rounded-xl bg-brand-primary py-3 text-center text-sm font-semibold text-white hover:opacity-90"
+            className="flex-1 rounded-xl bg-brand-600 py-3 text-center text-sm font-semibold text-white hover:bg-brand-700"
           >
             Weiter: Lesen
           </a>
@@ -126,159 +132,141 @@ export function ListeningExam({ mockId, level, section }: ListeningExamProps) {
   }
 
   return (
-    <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-xl font-bold text-text-primary">Hören</h1>
-          <p className="text-sm text-text-secondary">
-            Teil {currentPart + 1} von {totalParts}
-          </p>
-        </div>
-        <ExamTimer
-          totalSeconds={totalSeconds}
-          isRunning={phase === 'active'}
-          onExpire={handleExpire}
-        />
-      </div>
-
-      <div className="flex gap-2">
-        {section.parts.map((p, i) => {
-          const partDone = p.questions.every((q) => answers[q.id] !== undefined);
-          return (
-            <button
-              key={p.partNumber}
-              data-testid={`part-tab-${p.partNumber}`}
-              onClick={() => setCurrentPart(i)}
-              className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
-                i === currentPart
-                  ? 'bg-brand-primary text-white'
-                  : partDone
-                    ? 'bg-success-light text-success'
-                    : 'border border-border bg-white text-text-secondary hover:border-border-hover'
-              }`}
-            >
-              Teil {p.partNumber}
-            </button>
-          );
-        })}
-      </div>
-
-      <div className="rounded-lg border border-border bg-white p-4">
-        <p className="text-sm font-medium text-text-primary">{part.instructions}</p>
-        {part.instructionsTranslation && (
-          <p className="mt-1 text-xs text-text-secondary">{part.instructionsTranslation}</p>
-        )}
-      </div>
-
-      <AudioPlayer
-        key={`audio-part-${part.partNumber}`}
-        audioFile={part.audioFile}
-        playCount={part.playCount}
-        transcript={
-          part.audioTranscript ??
-          [part.instructions, ...part.questions.map((q) => q.questionText)].join('. ')
-        }
+    <div>
+      <ExamRunnerHeader
+        sectionName="Hören"
+        partLabel={`Teil ${currentPart + 1}`}
+        totalSeconds={totalSeconds}
+        isRunning={phase === 'active'}
+        onExpire={handleExpire}
+        exitHref={`/exam/${mockId}`}
+        level={level}
+        progress={progress}
       />
 
-      <div className="space-y-4">
-        {part.questions.map((q, qi) => (
-          <div key={q.id} className="rounded-xl border border-border bg-white p-5">
-            <p className="mb-3 font-medium text-text-primary">
-              {qi + 1}. {q.questionText}
-            </p>
+      <div className="space-y-6">
+        <div className="flex gap-2">
+          {section.parts.map((p, i) => {
+            const partDone = p.questions.every((q) => answers[q.id] !== undefined);
+            return (
+              <button
+                key={p.partNumber}
+                data-testid={`part-tab-${p.partNumber}`}
+                onClick={() => setCurrentPart(i)}
+                className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
+                  i === currentPart
+                    ? 'bg-brand-600 text-white'
+                    : partDone
+                      ? 'bg-pass-surface text-pass'
+                      : 'border border-border bg-white text-text-secondary hover:border-border-hover'
+                }`}
+              >
+                Teil {p.partNumber}
+              </button>
+            );
+          })}
+        </div>
 
-            {q.type === 'true_false' && (
-              <div className="flex gap-3">
-                {['richtig', 'falsch'].map((opt) => {
-                  const selected = answers[q.id] === opt;
-                  return (
-                    <label
-                      key={opt}
-                      data-testid={`question-option-${q.id}-${opt}`}
-                      className={`flex cursor-pointer items-center gap-2 rounded-lg border px-5 py-2.5 transition-colors ${
-                        selected
-                          ? 'border-brand-primary bg-brand-primary-surface'
-                          : 'border-border bg-white hover:border-border-hover'
-                      }`}
-                    >
-                      <input
-                        type="radio"
-                        name={q.id}
-                        value={opt}
-                        checked={selected}
-                        onChange={() => handleAnswer(q.id, opt)}
-                        className="accent-brand-primary"
-                      />
-                      <span className="text-sm font-medium text-text-primary capitalize">
-                        {opt}
-                      </span>
-                    </label>
-                  );
-                })}
-              </div>
-            )}
+        <div className="rounded-lg border border-border bg-white p-4">
+          <p className="text-sm font-medium text-text-primary">{part.instructions}</p>
+          {part.instructionsTranslation && (
+            <p className="mt-1 text-xs text-text-secondary">{part.instructionsTranslation}</p>
+          )}
+        </div>
 
-            {q.type === 'mcq' && (
-              <div className="space-y-2">
-                {(q.options ?? []).map((opt) => {
-                  const value = opt.split(')')[0].trim();
-                  const selected = answers[q.id] === value;
-                  return (
-                    <label
+        <AudioPlayer
+          key={`audio-part-${part.partNumber}`}
+          audioFile={part.audioFile}
+          playCount={part.playCount}
+          transcript={
+            part.audioTranscript ??
+            [part.instructions, ...part.questions.map((q) => q.questionText)].join('. ')
+          }
+        />
+
+        <div className="space-y-4">
+          {part.questions.map((q, qi) => (
+            <div key={q.id} className="rounded-xl border border-border bg-white p-5">
+              <p className="mb-3 font-medium text-text-primary">
+                {qi + 1}. {q.questionText}
+              </p>
+
+              {q.type === 'true_false' && (
+                <div className="space-y-2">
+                  {['richtig', 'falsch'].map((opt) => (
+                    <AnswerOption
                       key={opt}
-                      data-testid={`question-option-${q.id}-${value}`}
-                      className={`flex cursor-pointer items-center gap-3 rounded-lg border px-4 py-3 transition-colors ${
-                        selected
-                          ? 'border-brand-primary bg-brand-primary-surface'
-                          : 'border-border bg-white hover:border-border-hover'
-                      }`}
+                      name={q.id}
+                      value={opt}
+                      selected={answers[q.id] === opt}
+                      onChange={(v) => handleAnswer(q.id, v)}
+                      testId={`question-option-${q.id}-${opt}`}
                     >
-                      <input
-                        type="radio"
+                      <span className="capitalize">{opt}</span>
+                    </AnswerOption>
+                  ))}
+                </div>
+              )}
+
+              {q.type === 'mcq' && (
+                <div className="space-y-2">
+                  {(q.options ?? []).map((opt) => {
+                    const value = opt.split(')')[0].trim();
+                    return (
+                      <AnswerOption
+                        key={opt}
                         name={q.id}
                         value={value}
-                        checked={selected}
-                        onChange={() => handleAnswer(q.id, value)}
-                        className="accent-brand-primary"
-                      />
-                      <span className="text-sm text-text-primary">{opt}</span>
-                    </label>
-                  );
-                })}
-              </div>
-            )}
-          </div>
-        ))}
-      </div>
+                        selected={answers[q.id] === value}
+                        onChange={(v) => handleAnswer(q.id, v)}
+                        testId={`question-option-${q.id}-${value}`}
+                      >
+                        {opt}
+                      </AnswerOption>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
 
-      <div className="flex items-center justify-between pt-2">
-        <button
-          data-testid="section-nav-prev"
-          onClick={() => setCurrentPart((p) => Math.max(0, p - 1))}
-          disabled={currentPart === 0}
-          className="rounded-lg border border-border px-4 py-2 text-sm font-medium text-text-secondary disabled:opacity-40 hover:border-border-hover"
-        >
-          Zurück
-        </button>
-        {currentPart < totalParts - 1 ? (
+        <div className="flex items-center justify-between pt-2">
           <button
-            data-testid="section-nav-next"
-            onClick={() => setCurrentPart((p) => p + 1)}
-            className="rounded-lg bg-brand-primary px-4 py-2 text-sm font-medium text-white hover:opacity-90"
+            data-testid="section-nav-prev"
+            onClick={() => setCurrentPart((p) => Math.max(0, p - 1))}
+            disabled={currentPart === 0}
+            className="rounded-lg border border-border px-4 py-2 text-sm font-medium text-text-secondary disabled:opacity-40 hover:border-border-hover"
           >
-            Nächster Teil
+            Zurück
           </button>
-        ) : (
-          <button
-            data-testid="submit-btn"
-            onClick={handleSubmit}
-            disabled={!allAnswered}
-            className="rounded-lg bg-brand-primary px-6 py-2 text-sm font-semibold text-white disabled:opacity-50 hover:opacity-90"
-          >
-            Abgeben
-          </button>
-        )}
+          {currentPart < totalParts - 1 ? (
+            <button
+              data-testid="section-nav-next"
+              onClick={() => setCurrentPart((p) => p + 1)}
+              className="rounded-lg bg-brand-600 px-4 py-2 text-sm font-medium text-white hover:bg-brand-700"
+            >
+              Nächster Teil
+            </button>
+          ) : (
+            <ExamSubmitButtonInline disabled={!allAnswered} onClick={handleSubmit} />
+          )}
+        </div>
       </div>
+    </div>
+  );
+}
+
+function ExamSubmitButtonInline({
+  disabled,
+  onClick,
+}: {
+  disabled: boolean;
+  onClick: () => void;
+}) {
+  return (
+    <div className="flex-1 pl-3">
+      <ExamSubmitButton disabled={disabled} onClick={onClick} label="Antworten abgeben" />
     </div>
   );
 }

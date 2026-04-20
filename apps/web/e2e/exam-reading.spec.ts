@@ -16,12 +16,12 @@ test.describe('Reading question type rendering', () => {
     await expect(falsch).toBeVisible();
 
     await richtig.click();
-    await expect(richtig).toHaveClass(/border-brand-primary/);
-    await expect(falsch).not.toHaveClass(/border-brand-primary/);
+    await expect(richtig).toHaveAttribute('data-state', 'selected');
+    await expect(falsch).not.toHaveAttribute('data-state', 'selected');
 
     await falsch.click();
-    await expect(falsch).toHaveClass(/border-brand-primary/);
-    await expect(richtig).not.toHaveClass(/border-brand-primary/);
+    await expect(falsch).toHaveAttribute('data-state', 'selected');
+    await expect(richtig).not.toHaveAttribute('data-state', 'selected');
   });
 
   test('Part 2 — matching: tiles a–h visible; clicking marks selection', async ({ page }) => {
@@ -35,7 +35,7 @@ test.describe('Reading question type rendering', () => {
     // Click tile 'b' for first matching question
     const opt = page.getByTestId('question-option-A1_m01_R2_q1-b');
     await opt.click();
-    await expect(opt).toHaveClass(/border-brand-primary/);
+    await expect(opt).toHaveAttribute('data-state', 'selected');
   });
 
   test('Part 3 — true/false same pattern as Part 1', async ({ page }) => {
@@ -45,11 +45,11 @@ test.describe('Reading question type rendering', () => {
     const falsch = page.getByTestId('question-option-A1_m01_R3_q1-falsch');
 
     await richtig.click();
-    await expect(richtig).toHaveClass(/border-brand-primary/);
+    await expect(richtig).toHaveAttribute('data-state', 'selected');
 
     await falsch.click();
-    await expect(falsch).toHaveClass(/border-brand-primary/);
-    await expect(richtig).not.toHaveClass(/border-brand-primary/);
+    await expect(falsch).toHaveAttribute('data-state', 'selected');
+    await expect(richtig).not.toHaveAttribute('data-state', 'selected');
   });
 
   test('submit stays disabled until all 15 questions answered', async ({ page }) => {

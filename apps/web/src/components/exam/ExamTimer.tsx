@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import { Clock } from 'lucide-react';
 import { formatTime } from '@fastrack/core';
 
 interface ExamTimerProps {
@@ -9,18 +10,24 @@ interface ExamTimerProps {
   onExpire?: () => void;
 }
 
+/**
+ * Exam-wide countdown timer.
+ *
+ * Ethics gate — the timer never turns red. The expired state uses the same
+ * amber warning palette as the <5-min state. A red timer at 0:00 triggers
+ * panic; we surface the state change through text only (`Zeit abgelaufen`).
+ * See `.planning/design-system/tokens.md` §Timer for the rationale.
+ */
 export function ExamTimer({ totalSeconds, isRunning, onExpire }: ExamTimerProps) {
   const [remaining, setRemaining] = useState(totalSeconds);
   const isExpired = remaining <= 0;
-  const isWarning = !isExpired && remaining <= 5 * 60;
+  const isWarning = remaining <= 5 * 60;
 
-  // Capture latest onExpire without re-triggering the interval effect
   const onExpireRef = useRef(onExpire);
   useEffect(() => {
     onExpireRef.current = onExpire;
   }, [onExpire]);
 
-  // Guard so onExpire fires at most once per timer session
   const expiredFiredRef = useRef(false);
 
   useEffect(() => {
@@ -49,28 +56,20 @@ export function ExamTimer({ totalSeconds, isRunning, onExpire }: ExamTimerProps)
     return () => clearInterval(id);
   }, [isRunning, isExpired]);
 
+  // Warning and expired share the same amber treatment — no red, ever.
+  const toneClass = isWarning
+    ? 'bg-warning-surface text-warning'
+    : 'bg-surface-container text-text-secondary';
+
   return (
     <div
       data-testid="exam-timer"
-      className={`flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-mono font-semibold tabular-nums ${
-        isExpired
-          ? 'bg-error-light text-error'
-          : isWarning
-            ? 'bg-warning-light text-warning'
-            : 'bg-surface-container text-timer-normal'
-      }`}
+      role="timer"
+      aria-live="polite"
+      className={`inline-flex items-center gap-1.5 rounded-md px-2.5 py-1 text-sm font-mono font-semibold tabular-nums ${toneClass}`}
     >
-      <svg
-        className="h-4 w-4 shrink-0"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        strokeWidth={2}
-      >
-        <circle cx="12" cy="12" r="10" />
-        <path d="M12 6v6l4 2" />
-      </svg>
-      {isExpired ? 'Time up' : formatTime(remaining)}
+      <Clock className="h-3 w-3 shrink-0" strokeWidth={2} aria-hidden="true" />
+      <span>{isExpired ? 'Zeit abgelaufen' : formatTime(remaining)}</span>
     </div>
   );
 }

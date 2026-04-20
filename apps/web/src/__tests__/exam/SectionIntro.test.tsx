@@ -1,6 +1,7 @@
 import { describe, it, expect, vi } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
+import { Headphones, FileText, Pencil, Mic } from 'lucide-react';
 import { SectionIntro } from '../../components/exam/SectionIntro';
 
 describe('SectionIntro', () => {
@@ -8,23 +9,24 @@ describe('SectionIntro', () => {
     render(
       <SectionIntro
         title="Hören"
-        icon="🎧"
+        Icon={Headphones}
         totalSeconds={1200}
         description="3 Teile · 18 Aufgaben"
         onStart={() => {}}
       />,
     );
 
-    expect(screen.getByText('🎧')).toBeTruthy();
     expect(screen.getByText('Hören')).toBeTruthy();
     expect(screen.getByText('3 Teile · 18 Aufgaben')).toBeTruthy();
+    // lucide renders an <svg> with class lucide-headphones
+    expect(document.querySelector('.lucide-headphones')).toBeTruthy();
   });
 
   it('shows time in minutes', () => {
     render(
       <SectionIntro
         title="Lesen"
-        icon="📖"
+        Icon={FileText}
         totalSeconds={1500}
         description="3 Teile"
         onStart={() => {}}
@@ -39,7 +41,7 @@ describe('SectionIntro', () => {
     render(
       <SectionIntro
         title="Schreiben"
-        icon="✍️"
+        Icon={Pencil}
         totalSeconds={1200}
         description="2 Aufgaben"
         onStart={onStart}
@@ -54,7 +56,7 @@ describe('SectionIntro', () => {
     render(
       <SectionIntro
         title="Sprechen"
-        icon="🗣️"
+        Icon={Mic}
         totalSeconds={900}
         description="3 Aufgaben"
         extraInfo="Vorbereitungszeit: 20 Minuten"
@@ -69,7 +71,7 @@ describe('SectionIntro', () => {
     render(
       <SectionIntro
         title="Test"
-        icon="📝"
+        Icon={FileText}
         totalSeconds={0}
         description="0 Aufgaben"
         onStart={() => {}}

@@ -5,8 +5,7 @@ const MOCK = 'A1_mock_01';
 const LISTENING_TOTAL_S = 20 * 60;
 
 test.describe('Timer warning threshold and expiry', () => {
-  test('neutral → warning at 5 min remaining → auto-submit on expiry', async ({ page }) => {
-    // Install fake clock BEFORE navigation so browser timers are intercepted from page load
+  test('neutral -> warning amber at 5 min -> NEVER red on expiry', async ({ page }) => {
     await page.clock.install({ time: Date.now() });
     await page.goto(`/exam/${MOCK}/listening`);
     await page.getByTestId('section-start-btn').click();
@@ -14,26 +13,28 @@ test.describe('Timer warning threshold and expiry', () => {
     const timer = page.getByTestId('exam-timer');
     await expect(timer).toBeVisible();
 
-    // Neutral state initially (well above 300s remaining)
-    await expect(timer).not.toHaveClass(/bg-warning-light/);
-    await expect(timer).not.toHaveClass(/bg-error-light/);
+    // Default tone at start — no warning, no red.
+    await expect(timer).not.toHaveClass(/bg-warning-surface/);
+    await expect(timer).not.toHaveClass(/bg-error/);
+    await expect(timer).not.toHaveClass(/bg-fail/);
 
-    // Advance to 899s elapsed → 301s remaining (1s before warning threshold)
+    // 301s remaining (one tick before warning threshold)
     await page.clock.runFor((LISTENING_TOTAL_S - 301) * 1000);
-    await expect(timer).not.toHaveClass(/bg-warning-light/);
+    await expect(timer).not.toHaveClass(/bg-warning-surface/);
 
-    // Run 1 more second → 300s remaining; warning styling kicks in
+    // 300s -> warning amber kicks in
     await page.clock.runFor(1000);
-    await expect(timer).toHaveClass(/bg-warning-light/);
+    await expect(timer).toHaveClass(/bg-warning-surface/);
     await expect(timer).toHaveClass(/text-warning/);
-    await expect(timer).not.toHaveClass(/bg-error-light/);
+    // Ethics gate: must never be red, anywhere.
+    await expect(timer).not.toHaveClass(/bg-error/);
+    await expect(timer).not.toHaveClass(/bg-fail/);
+    await expect(timer).not.toHaveClass(/text-error/);
+    await expect(timer).not.toHaveClass(/text-fail/);
 
-    // Run remaining 300s → timer hits 0; component calls onExpire → auto-submits
-    // The timer briefly shows bg-error-light before the parent unmounts it on submit,
-    // so assert the final state via the results screen instead.
+    // Run down to 0 -> auto-submit flips to the results screen.
     await page.clock.runFor(300 * 1000);
 
-    // Results screen rendered — auto-submit fired without user clicking submit-btn
     await expect(page.getByText(/\d+\/11/)).toBeVisible();
   });
 });

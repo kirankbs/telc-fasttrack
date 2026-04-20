@@ -1,13 +1,16 @@
 'use client';
 
 import { useState, useCallback, useMemo, useEffect } from 'react';
+import { FileText } from 'lucide-react';
 import { SECTION_DURATIONS, calculateSectionScore } from '@fastrack/core';
 import type { ReadingSection, ReadingPart, Level } from '@fastrack/types';
 import type { ExamPhase } from '@/lib/examTypes';
 import { saveSection } from '@/lib/examSession';
-import { ExamTimer } from './ExamTimer';
+import { ExamRunnerHeader } from './ExamRunnerHeader';
 import { SectionIntro } from './SectionIntro';
 import { QuestionResultRow } from './QuestionResultRow';
+import { AnswerOption } from './AnswerOption';
+import { ExamSubmitButton } from './ExamSubmitButton';
 
 interface ReadingExamProps {
   mockId: string;
@@ -47,15 +50,18 @@ export function ReadingExam({ mockId, level, section }: ReadingExamProps) {
     [section.parts, answers],
   );
 
+  const totalQuestions = section.parts.reduce((n, p) => n + p.questions.length, 0);
+  const answeredCount = Object.keys(answers).length;
+  const progress = totalQuestions > 0 ? answeredCount / totalQuestions : 0;
+
   const part = section.parts[currentPart];
   const totalParts = section.parts.length;
-  const totalQuestions = section.parts.reduce((n, p) => n + p.questions.length, 0);
 
   if (phase === 'intro') {
     return (
       <SectionIntro
         title="Lesen"
-        icon="📖"
+        Icon={FileText}
         totalSeconds={totalSeconds}
         description={`${totalParts} Teile · ${totalQuestions} Aufgaben`}
         extraInfo="Lesen Sie die Texte sorgfältig."
@@ -70,7 +76,7 @@ export function ReadingExam({ mockId, level, section }: ReadingExamProps) {
       <div className="space-y-6">
         <div
           className={`rounded-xl border-2 p-6 text-center ${
-            score.passed ? 'border-pass bg-pass-light' : 'border-fail bg-fail-light'
+            score.passed ? 'border-pass bg-pass-surface' : 'border-fail bg-fail-surface'
           }`}
         >
           <div className={`text-4xl font-bold ${score.passed ? 'text-pass' : 'text-fail'}`}>
@@ -115,7 +121,7 @@ export function ReadingExam({ mockId, level, section }: ReadingExamProps) {
                 ? `/exam/${mockId}/sprachbausteine`
                 : `/exam/${mockId}/writing`
             }
-            className="flex-1 rounded-xl bg-brand-primary py-3 text-center text-sm font-semibold text-white hover:opacity-90"
+            className="flex-1 rounded-xl bg-brand-600 py-3 text-center text-sm font-semibold text-white hover:bg-brand-700"
           >
             {level === 'B1' || level === 'B2' ? 'Weiter: Sprachbausteine' : 'Weiter: Schreiben'}
           </a>
@@ -125,72 +131,70 @@ export function ReadingExam({ mockId, level, section }: ReadingExamProps) {
   }
 
   return (
-    <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-xl font-bold text-text-primary">Lesen</h1>
-          <p className="text-sm text-text-secondary">
-            Teil {currentPart + 1} von {totalParts}
-          </p>
+    <div>
+      <ExamRunnerHeader
+        sectionName="Lesen"
+        partLabel={`Teil ${currentPart + 1}`}
+        totalSeconds={totalSeconds}
+        isRunning={phase === 'active'}
+        onExpire={handleExpire}
+        exitHref={`/exam/${mockId}`}
+        level={level}
+        progress={progress}
+      />
+
+      <div className="space-y-6">
+        <div className="flex gap-2">
+          {section.parts.map((p, i) => {
+            const done = p.questions.every((q) => answers[q.id] !== undefined);
+            return (
+              <button
+                key={p.partNumber}
+                data-testid={`part-tab-${p.partNumber}`}
+                onClick={() => setCurrentPart(i)}
+                className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
+                  i === currentPart
+                    ? 'bg-brand-600 text-white'
+                    : done
+                      ? 'bg-pass-surface text-pass'
+                      : 'border border-border bg-white text-text-secondary hover:border-border-hover'
+                }`}
+              >
+                Teil {p.partNumber}
+              </button>
+            );
+          })}
         </div>
-        <ExamTimer
-          totalSeconds={totalSeconds}
-          isRunning={phase === 'active'}
-          onExpire={handleExpire}
-        />
-      </div>
 
-      <div className="flex gap-2">
-        {section.parts.map((p, i) => {
-          const done = p.questions.every((q) => answers[q.id] !== undefined);
-          return (
+        <PartView part={part} answers={answers} onAnswer={handleAnswer} />
+
+        <div className="flex items-center justify-between gap-3 pt-2">
+          <button
+            data-testid="section-nav-prev"
+            onClick={() => setCurrentPart((p) => Math.max(0, p - 1))}
+            disabled={currentPart === 0}
+            className="rounded-lg border border-border px-4 py-2 text-sm font-medium text-text-secondary disabled:opacity-40 hover:border-border-hover"
+          >
+            Zurück
+          </button>
+          {currentPart < totalParts - 1 ? (
             <button
-              key={p.partNumber}
-              data-testid={`part-tab-${p.partNumber}`}
-              onClick={() => setCurrentPart(i)}
-              className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
-                i === currentPart
-                  ? 'bg-brand-primary text-white'
-                  : done
-                    ? 'bg-success-light text-success'
-                    : 'border border-border bg-white text-text-secondary hover:border-border-hover'
-              }`}
+              data-testid="section-nav-next"
+              onClick={() => setCurrentPart((p) => p + 1)}
+              className="rounded-lg bg-brand-600 px-4 py-2 text-sm font-medium text-white hover:bg-brand-700"
             >
-              Teil {p.partNumber}
+              Nächster Teil
             </button>
-          );
-        })}
-      </div>
-
-      <PartView part={part} answers={answers} onAnswer={handleAnswer} />
-
-      <div className="flex items-center justify-between pt-2">
-        <button
-          data-testid="section-nav-prev"
-          onClick={() => setCurrentPart((p) => Math.max(0, p - 1))}
-          disabled={currentPart === 0}
-          className="rounded-lg border border-border px-4 py-2 text-sm font-medium text-text-secondary disabled:opacity-40 hover:border-border-hover"
-        >
-          Zurück
-        </button>
-        {currentPart < totalParts - 1 ? (
-          <button
-            data-testid="section-nav-next"
-            onClick={() => setCurrentPart((p) => p + 1)}
-            className="rounded-lg bg-brand-primary px-4 py-2 text-sm font-medium text-white hover:opacity-90"
-          >
-            Nächster Teil
-          </button>
-        ) : (
-          <button
-            data-testid="submit-btn"
-            onClick={() => setPhase('submitted')}
-            disabled={!allAnswered}
-            className="rounded-lg bg-brand-primary px-6 py-2 text-sm font-semibold text-white disabled:opacity-50 hover:opacity-90"
-          >
-            Abgeben
-          </button>
-        )}
+          ) : (
+            <div className="flex-1 pl-3">
+              <ExamSubmitButton
+                disabled={!allAnswered}
+                onClick={() => setPhase('submitted')}
+                label="Antworten abgeben"
+              />
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
@@ -224,7 +228,7 @@ function PartView({
             .map((text) => (
               <div key={text.id} className="rounded-xl border border-border bg-white p-5">
                 {text.source && (
-                  <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-text-disabled">
+                  <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-text-tertiary">
                     {text.source}
                   </p>
                 )}
@@ -242,7 +246,7 @@ function PartView({
             .filter((t) => t.type === 'ad')
             .map((ad, i) => (
               <div key={ad.id} className="rounded-xl border border-border bg-surface-container p-4">
-                <span className="mb-2 inline-block rounded bg-brand-primary px-2 py-0.5 text-xs font-bold text-white">
+                <span className="mb-2 inline-block rounded bg-brand-600 px-2 py-0.5 text-xs font-bold text-white">
                   {String.fromCharCode(97 + i)}
                 </span>
                 <pre className="whitespace-pre-wrap font-sans text-sm text-text-primary">
@@ -261,62 +265,36 @@ function PartView({
             </p>
 
             {qType === 'true_false' && (
-              <div className="flex gap-3">
-                {['richtig', 'falsch'].map((opt) => {
-                  const selected = answers[q.id] === opt;
-                  return (
-                    <label
-                      key={opt}
-                      data-testid={`question-option-${q.id}-${opt}`}
-                      className={`flex cursor-pointer items-center gap-2 rounded-lg border px-5 py-2.5 transition-colors ${
-                        selected
-                          ? 'border-brand-primary bg-brand-primary-surface'
-                          : 'border-border bg-white hover:border-border-hover'
-                      }`}
-                    >
-                      <input
-                        type="radio"
-                        name={q.id}
-                        value={opt}
-                        checked={selected}
-                        onChange={() => onAnswer(q.id, opt)}
-                        className="accent-brand-primary"
-                      />
-                      <span className="text-sm font-medium text-text-primary capitalize">
-                        {opt}
-                      </span>
-                    </label>
-                  );
-                })}
+              <div className="space-y-2">
+                {['richtig', 'falsch'].map((opt) => (
+                  <AnswerOption
+                    key={opt}
+                    name={q.id}
+                    value={opt}
+                    selected={answers[q.id] === opt}
+                    onChange={(v) => onAnswer(q.id, v)}
+                    testId={`question-option-${q.id}-${opt}`}
+                  >
+                    <span className="capitalize">{opt}</span>
+                  </AnswerOption>
+                ))}
               </div>
             )}
 
             {qType === 'matching' && q.matchingSources && (
-              <div className="flex flex-wrap gap-2">
-                {q.matchingSources.map((src) => {
-                  const selected = answers[q.id] === src.label;
-                  return (
-                    <label
-                      key={src.id}
-                      data-testid={`question-option-${q.id}-${src.label}`}
-                      className={`flex cursor-pointer items-center gap-2 rounded-lg border px-4 py-2 transition-colors ${
-                        selected
-                          ? 'border-brand-primary bg-brand-primary-surface'
-                          : 'border-border bg-white hover:border-border-hover'
-                      }`}
-                    >
-                      <input
-                        type="radio"
-                        name={q.id}
-                        value={src.label}
-                        checked={selected}
-                        onChange={() => onAnswer(q.id, src.label)}
-                        className="accent-brand-primary"
-                      />
-                      <span className="text-sm font-bold text-text-primary">{src.label}</span>
-                    </label>
-                  );
-                })}
+              <div className="space-y-2">
+                {q.matchingSources.map((src) => (
+                  <AnswerOption
+                    key={src.id}
+                    name={q.id}
+                    value={src.label}
+                    selected={answers[q.id] === src.label}
+                    onChange={(v) => onAnswer(q.id, v)}
+                    testId={`question-option-${q.id}-${src.label}`}
+                  >
+                    <span className="font-bold">{src.label}</span>
+                  </AnswerOption>
+                ))}
               </div>
             )}
 
@@ -324,27 +302,17 @@ function PartView({
               <div className="space-y-2">
                 {q.options.map((opt) => {
                   const value = opt.split(')')[0].trim();
-                  const selected = answers[q.id] === value;
                   return (
-                    <label
+                    <AnswerOption
                       key={opt}
-                      data-testid={`question-option-${q.id}-${value}`}
-                      className={`flex cursor-pointer items-center gap-3 rounded-lg border px-4 py-3 transition-colors ${
-                        selected
-                          ? 'border-brand-primary bg-brand-primary-surface'
-                          : 'border-border bg-white hover:border-border-hover'
-                      }`}
+                      name={q.id}
+                      value={value}
+                      selected={answers[q.id] === value}
+                      onChange={(v) => onAnswer(q.id, v)}
+                      testId={`question-option-${q.id}-${value}`}
                     >
-                      <input
-                        type="radio"
-                        name={q.id}
-                        value={value}
-                        checked={selected}
-                        onChange={() => onAnswer(q.id, value)}
-                        className="accent-brand-primary"
-                      />
-                      <span className="text-sm text-text-primary">{opt}</span>
-                    </label>
+                      {opt}
+                    </AnswerOption>
                   );
                 })}
               </div>

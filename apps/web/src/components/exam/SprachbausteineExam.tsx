@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useCallback, useMemo, useEffect } from 'react';
+import { Puzzle } from 'lucide-react';
 import { SECTION_DURATIONS, scoreSprachbausteine } from '@fastrack/core';
 import type {
   SprachbausteineSection,
@@ -10,8 +11,9 @@ import type {
 } from '@fastrack/types';
 import type { ExamPhase } from '@/lib/examTypes';
 import { saveSection } from '@/lib/examSession';
-import { ExamTimer } from './ExamTimer';
+import { ExamRunnerHeader } from './ExamRunnerHeader';
 import { SectionIntro } from './SectionIntro';
+import { ExamSubmitButton } from './ExamSubmitButton';
 
 interface SprachbausteineExamProps {
   mockId: string;
@@ -129,7 +131,7 @@ export function SprachbausteineExam({ mockId, level, section }: SprachbausteineE
     return (
       <SectionIntro
         title="Sprachbausteine"
-        icon="🧩"
+        Icon={Puzzle}
         totalSeconds={totalSeconds}
         description={`${totalParts} Teile · ${totalQuestions} Lücken`}
         extraInfo="Wählen Sie für jede Lücke die passende Antwort."
@@ -150,22 +152,23 @@ export function SprachbausteineExam({ mockId, level, section }: SprachbausteineE
     );
   }
 
-  return (
-    <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-xl font-bold text-text-primary">Sprachbausteine</h1>
-          <p className="text-sm text-text-secondary">
-            Teil {currentPart + 1} von {totalParts}
-          </p>
-        </div>
-        <ExamTimer
-          totalSeconds={totalSeconds}
-          isRunning={phase === 'active'}
-          onExpire={handleExpire}
-        />
-      </div>
+  const answeredCount = Object.keys(answers).length;
+  const progress = totalQuestions > 0 ? answeredCount / totalQuestions : 0;
 
+  return (
+    <div>
+      <ExamRunnerHeader
+        sectionName="Sprachbausteine"
+        partLabel={`Teil ${currentPart + 1} von ${totalParts}`}
+        totalSeconds={totalSeconds}
+        isRunning={phase === 'active'}
+        onExpire={handleExpire}
+        exitHref={`/exam/${mockId}`}
+        level={level}
+        progress={progress}
+      />
+
+      <div className="space-y-6">
       <div className="flex gap-2">
         {section.parts.map((p, i) => {
           const done = p.questions.every(
@@ -178,9 +181,9 @@ export function SprachbausteineExam({ mockId, level, section }: SprachbausteineE
               onClick={() => setCurrentPart(i)}
               className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
                 i === currentPart
-                  ? 'bg-brand-primary text-white'
+                  ? 'bg-brand-600 text-white'
                   : done
-                    ? 'bg-success-light text-success'
+                    ? 'bg-pass-surface text-pass'
                     : 'border border-border bg-white text-text-secondary hover:border-border-hover'
               }`}
             >
@@ -205,20 +208,20 @@ export function SprachbausteineExam({ mockId, level, section }: SprachbausteineE
           <button
             data-testid="section-nav-next"
             onClick={() => setCurrentPart((p) => p + 1)}
-            className="rounded-lg bg-brand-primary px-4 py-2 text-sm font-medium text-white hover:opacity-90"
+            className="rounded-lg bg-brand-600 px-4 py-2 text-sm font-medium text-white hover:bg-brand-700"
           >
             Nächster Teil
           </button>
         ) : (
-          <button
-            data-testid="submit-btn"
-            onClick={() => setPhase('submitted')}
-            disabled={!allAnswered}
-            className="rounded-lg bg-brand-primary px-6 py-2 text-sm font-semibold text-white disabled:opacity-50 hover:opacity-90"
-          >
-            Abgeben
-          </button>
+          <div className="flex-1 pl-3">
+            <ExamSubmitButton
+              disabled={!allAnswered}
+              onClick={() => setPhase('submitted')}
+              label="Antworten abgeben"
+            />
+          </div>
         )}
+      </div>
       </div>
     </div>
   );

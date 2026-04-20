@@ -131,9 +131,11 @@ describe('ListeningExam question type rendering', () => {
     const falsch = screen.getByTestId('question-option-tf1-falsch');
 
     await userEvent.click(richtig);
-    expect(richtig.className).toContain('border-brand-primary');
-    expect(richtig.className).toContain('bg-brand-primary-surface');
-    expect(falsch.className).not.toContain('border-brand-primary');
+    // Selection uses a 4px LEFT accent bar — not a full brand-filled background.
+    expect(richtig.getAttribute('data-state')).toBe('selected');
+    expect(richtig.className).toContain('border-l-brand-500');
+    expect(richtig.className).toContain('bg-surface-container');
+    expect(falsch.getAttribute('data-state')).toBe('default');
   });
 
   it('switching between part tabs renders correct UI per type', async () => {
