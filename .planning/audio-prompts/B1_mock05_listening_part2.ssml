@@ -1,0 +1,136 @@
+<speak>
+  <!-- B1 Mock 05 — Teil 2 (10 True/False, radio report, playCount=1) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Moderatorin: de-DE-Wavenet-C (female) rate="medium" -->
+  <!-- Gast: de-DE-Wavenet-B (male) rate="medium" -->
+  <!-- Topic: Digitalisierung im deutschen Bildungssystem -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören einen Radiobericht. Entscheiden Sie, ob die folgenden zehn Aussagen
+      richtig oder falsch sind. Sie hören den Text nur einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Herzlich willkommen zu "Bildung heute" auf NDR Info, ich bin Marie Scholz.
+      Unser Thema heute ist die Digitalisierung an deutschen Schulen. Wo stehen wir,
+      was fehlt noch, und was läuft gut? Zu Gast ist Erziehungswissenschaftler
+      Prof. Dr. Gerhard Lüftner aus Hannover. Schönen guten Abend.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Abend. Ein wichtiges Thema, das mich seit Jahren beschäftigt.
+      Die Digitalisierung der deutschen Schulen ist leider im internationalen Vergleich
+      deutlich im Rückstand. Das zeigen uns verschiedene Studien, unter anderem der
+      jährliche PISA-Bericht.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Was sind die größten Probleme?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      An erster Stelle steht die Infrastruktur. Viele Schulen in ländlichen Gebieten
+      haben noch immer keine stabile Internetverbindung. Ohne zuverlässiges WLAN
+      lässt sich keine digitale Unterrichtsstunde vernünftig durchführen.
+      Auch fehlt es an modernen Endgeräten – Tablets oder Laptops – für alle Schülerinnen und Schüler.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Investiert der Staat nicht genug in diese Infrastruktur?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Mit dem sogenannten Digitalpakt Schule hat der Bund fünf Milliarden Euro bereitgestellt.
+      Das klingt nach viel, aber die Verteilung auf alle Schulen ergibt im Durchschnitt
+      relativ wenig pro Einrichtung. Und ein großes Problem ist: Das Geld wird nicht immer abgerufen,
+      weil die Schulen oft keine Zeit und kein Personal für die Antragsstellung haben.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Spielt die Lehrerausbildung auch eine Rolle?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Eine ganz entscheidende. Viele Lehrerinnen und Lehrer haben im Studium kaum etwas
+      über digitale Didaktik gelernt. Sie wissen, wie man ein Smartboard einschaltet,
+      aber nicht, wie man damit wirklich guten Unterricht macht.
+      Da fehlt es an Weiterbildungsangeboten und vor allem an Zeit, diese zu nutzen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Gibt es auch positive Beispiele?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, durchaus. Einige Bundesländer, besonders im Norden und im Süden,
+      haben sehr gute Pilotprojekte gestartet. Schulen, die mit digitalen Lehrmitteln
+      sehr bewusst umgehen, zeigen, dass Schüler motivierter und die Lernergebnisse
+      messbar besser werden. Das sind echte Erfolgsgeschichten.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Was muss als nächstes passieren?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Wir brauchen eine bundeseinheitliche Strategie statt des bisherigen Flickenteppichs.
+      Und wir brauchen Koordinatoren an den Schulen – Personen, die sich ausschließlich
+      um die digitale Infrastruktur kümmern und die Lehrkräfte unterstützen.
+      Das gibt es in anderen Ländern schon seit Jahren. Es funktioniert.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Vielen Dank, Professor Lüftner, für diese einordnenden Worte.
+      Wenn Sie Erfahrungen aus dem Schulalltag teilen möchten, schreiben Sie uns –
+      die Adresse finden Sie auf unserer Webseite. Das war "Bildung heute". Auf Wiederhören.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

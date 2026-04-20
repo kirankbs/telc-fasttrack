@@ -1,0 +1,91 @@
+<speak>
+  <!-- B1 Mock 03 — Teil 1 (5 True/False, playCount=1) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Speakers: de-DE-Wavenet-B (male), de-DE-Wavenet-C (female) rate="medium" -->
+  <!-- Topics: Stadtfest, Kursabsage, Friseur, Nachricht an Mitbewohner, Supermarkt-Ansage -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 1. Sie hören fünf kurze Texte. Entscheiden Sie bei jedem Text:
+      Ist die Aussage richtig oder falsch? Sie hören jeden Text nur einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Stadtfest — findet wegen Regen nicht statt, wird verschoben (falsch: nicht abgesagt, verschoben) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Liebe Bürgerinnen und Bürger, aufgrund des anhaltenden Regens muss das Stadtfest
+      dieses Wochenende leider verschoben werden. Es findet nun am übernächsten Wochenende statt.
+      Die Veranstaltung ist nicht abgesagt, sondern nur verlegt. Wir freuen uns auf Ihr Kommen!
+    </prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Aufgabe 2: Kochkurs — der Kurs ist ausgebucht, keine Anmeldungen mehr möglich (richtig) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Willkommen beim Kulturzentrum Weststadt. Unser Kochkurs Italienisch für Anfänger,
+      der am 15. Oktober beginnt, ist leider vollständig ausgebucht.
+      Für die Warteliste können Sie uns eine E-Mail schicken. Alle anderen Kurse
+      haben noch freie Plätze.
+    </prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Aufgabe 3: Friseur-Ansage — Termin nicht am Freitag, sondern Samstag frei (falsch) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Hier ist der Friseursalon Haarmonie. Sie haben einen Termin für Freitag, den 18. Oktober angefragt.
+      Leider ist Freitag dieser Woche vollständig besetzt. Wir hätten aber noch einen Platz
+      am Samstag um 11 Uhr frei. Rufen Sie uns gerne zurück.
+    </prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Aufgabe 4: Mitbewohner — bittet darum, dass die Post mitgenommen wird (richtig) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hey, ich bin's Kira. Ich bin heute Morgen früh losgefahren und vergesse immer
+      etwas zu sagen. Könntest du heute Nachmittag den Brief aus unserem Briefkasten mitnehmen?
+      Das ist ein eingeschriebener Brief für mich. Ich hole ihn morgen früh ab. Danke!
+    </prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Aufgabe 5: Supermarkt — Sonderangebot nur heute gültig (richtig) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Liebe Kundinnen und Kunden, wir möchten Sie auf unsere heutigen Tagesangebote aufmerksam machen.
+      Nur heute erhalten Sie frisches Lachsfilet aus Norwegen zum halben Preis – nur 6 Euro 99 pro 200 Gramm.
+      Dieses Angebot gilt ausschließlich heute und nur solange der Vorrat reicht.
+    </prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 1.</prosody>
+  </voice>
+</speak>

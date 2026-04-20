@@ -1,0 +1,211 @@
+<speak>
+  <!-- B1 Mock 10 — Teil 3 (5 MCQ short dialogues, playCount=2) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Female: de-DE-Wavenet-C, Male: de-DE-Wavenet-B rate="medium" -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jedes Gespräch zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Gespräch 1: Optiker — Frau holt Brille ab, Gläser sind zu stark, neue werden gemacht (correct: b) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Guten Morgen, ich komme wegen meiner Brille. Ich habe sie letzte Woche abgeholt, aber sie passt irgendwie nicht richtig.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Oh, das tut mir leid. Was genau stimmt nicht?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich bekomme Kopfschmerzen, und alles wirkt etwas verzerrt. Ich glaube, die Stärke stimmt nicht.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Dann machen wir eine neue Messung. Wenn die Gläser tatsächlich nicht korrekt sind, ersetzen wir sie natürlich kostenlos. Das kann vorkommen.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Guten Morgen, ich komme wegen meiner Brille. Ich habe sie letzte Woche abgeholt, aber sie passt irgendwie nicht richtig.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Oh, das tut mir leid. Was genau stimmt nicht?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich bekomme Kopfschmerzen, und alles wirkt etwas verzerrt. Ich glaube, die Stärke stimmt nicht.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Dann machen wir eine neue Messung. Wenn die Gläser tatsächlich nicht korrekt sind, ersetzen wir sie natürlich kostenlos. Das kann vorkommen.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 2: Kaufhaus — Mann sucht Krawatte als Geschenk, Beratung empfiehlt Seidenkrawatte (correct: a) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ich suche eine Krawatte als Geschenk für meinen Vater. Er arbeitet in einer Bank.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Für ein konservatives Arbeitsumfeld wie eine Bank empfehle ich eine klassische Seidenkrawatte in Dunkelblau oder Bordeaux. Die ist immer passend und elegant.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Und was kostet so eine Seidenkrawatte?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Wir haben gute Qualität ab 45 Euro. Wenn es eine Designerkrawatte sein soll, beginnt das ab 90 Euro aufwärts.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Dann nehme ich die für 45 Euro in Dunkelblau.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ich suche eine Krawatte als Geschenk für meinen Vater. Er arbeitet in einer Bank.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Für ein konservatives Arbeitsumfeld wie eine Bank empfehle ich eine klassische Seidenkrawatte in Dunkelblau oder Bordeaux. Die ist immer passend und elegant.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Und was kostet so eine Seidenkrawatte?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Wir haben gute Qualität ab 45 Euro. Wenn es eine Designerkrawatte sein soll, beginnt das ab 90 Euro aufwärts.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Dann nehme ich die für 45 Euro in Dunkelblau.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 3: WG-Zimmer-Besichtigung — Zimmer ist hell aber laut wegen Straße (correct: c) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das Zimmer ist sehr schön und hell. Wie ist das hier mit Lärm?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ich muss ehrlich sein: Die Straße davor ist tagsüber recht laut, weil es eine Hauptstraße ist. Abends wird es ruhiger, aber morgens ab 7 Uhr kann der Verkehr schon störend sein.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das ist ein Problem für mich, ich schlafe gerne lang. Gibt es ein anderes freies Zimmer im Haus?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Im Hinterhaus gibt es noch ein Zimmer, das ist ruhiger, aber leider auch kleiner und dunkler.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das Zimmer ist sehr schön und hell. Wie ist das hier mit Lärm?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ich muss ehrlich sein: Die Straße davor ist tagsüber recht laut, weil es eine Hauptstraße ist. Abends wird es ruhiger, aber morgens ab 7 Uhr kann der Verkehr schon störend sein.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das ist ein Problem für mich, ich schlafe gerne lang. Gibt es ein anderes freies Zimmer im Haus?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Im Hinterhaus gibt es noch ein Zimmer, das ist ruhiger, aber leider auch kleiner und dunkler.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 4: Verein — Vorsitzender erklärt, dass Mitglieder online abstimmen können (correct: b) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Kann ich bei der Mitgliederversammlung per Vollmacht abstimmen lassen? Ich kann leider nicht persönlich kommen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Dieses Jahr ist es sogar noch einfacher. Wir haben ein Online-Voting eingerichtet. Sie bekommen vorher per E-Mail einen Link und können direkt abstimmen, ohne kommen zu müssen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Oh, das ist praktisch. Und ist das auch sicher?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ja, jedes Mitglied bekommt einen individuellen Code. Doppelabstimmungen sind technisch ausgeschlossen.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Kann ich bei der Mitgliederversammlung per Vollmacht abstimmen lassen? Ich kann leider nicht persönlich kommen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Dieses Jahr ist es sogar noch einfacher. Wir haben ein Online-Voting eingerichtet. Sie bekommen vorher per E-Mail einen Link und können direkt abstimmen, ohne kommen zu müssen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Oh, das ist praktisch. Und ist das auch sicher?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ja, jedes Mitglied bekommt einen individuellen Code. Doppelabstimmungen sind technisch ausgeschlossen.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 5: Arbeitssuche — Frau erklärt dem Berater, dass sie Halbzeit arbeiten möchte wegen Kind (correct: a) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich möchte gerne wieder in den Beruf einsteigen, aber ich kann nur halbtags arbeiten.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Kein Problem. Was ist der Grund für die Teilzeit?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich habe ein kleines Kind, das ich nachmittags betreuen muss. Morgens geht es in die Kita, bis 13 Uhr.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Das verstehe ich. In Ihrem Bereich als Buchhalterin gibt es tatsächlich einige Stellen mit flexiblen Arbeitszeiten. Ich schaue gleich, was wir aktuell in unserem System haben.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das wäre wunderbar. Ich bin auch bereit, gelegentlich ins Homeoffice zu wechseln, falls nötig.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich möchte gerne wieder in den Beruf einsteigen, aber ich kann nur halbtags arbeiten.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Kein Problem. Was ist der Grund für die Teilzeit?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich habe ein kleines Kind, das ich nachmittags betreuen muss. Morgens geht es in die Kita, bis 13 Uhr.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Das verstehe ich. In Ihrem Bereich als Buchhalterin gibt es tatsächlich einige Stellen mit flexiblen Arbeitszeiten. Ich schaue gleich, was wir aktuell in unserem System haben.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das wäre wunderbar. Ich bin auch bereit, gelegentlich ins Homeoffice zu wechseln, falls nötig.</prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>

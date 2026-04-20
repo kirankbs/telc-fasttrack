@@ -1,0 +1,134 @@
+<speak>
+  <!-- B1 Mock 02 — Teil 2 (10 True/False, radio report, playCount=1) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Moderatorin: de-DE-Wavenet-C (female) rate="medium" -->
+  <!-- Gast/Experte: de-DE-Wavenet-B (male) rate="medium" -->
+  <!-- Topic: Ehrenamt in Deutschland -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören einen Radiobericht. Entscheiden Sie, ob die folgenden zehn Aussagen
+      richtig oder falsch sind. Sie hören den Text nur einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Abend bei Radio Brücke, ich bin Petra Sommer. Heute abend beschäftigen wir uns
+      mit einem wichtigen gesellschaftlichen Thema: dem Ehrenamt in Deutschland.
+      Wie viele Menschen engagieren sich freiwillig, und warum tun sie das?
+      Dazu habe ich Herrn Dr. Klaus Reuter vom Zentrum für Bürgerengagement im Studio.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Abend. Das Ehrenamt hat in Deutschland eine sehr lange Tradition.
+      Heute sind es laut dem aktuellen Freiwilligensurvey rund 28 Millionen Menschen,
+      die sich in ihrer Freizeit unentgeltlich für andere engagieren. Das entspricht
+      etwa 40 Prozent der erwachsenen Bevölkerung.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Das ist eine beeindruckende Zahl. In welchen Bereichen sind die Menschen vor allem aktiv?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Die meisten Ehrenamtlichen engagieren sich im Sport – das ist mit Abstand der beliebteste Bereich.
+      Danach kommen Kirche und Religion sowie soziale Dienste für ältere oder hilfsbedürftige Menschen.
+      Kultur und Bildung spielen ebenfalls eine wichtige Rolle.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Gibt es Unterschiede zwischen Altersgruppen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, sehr deutlich. Interessanterweise sind es nicht die Rentner, die am meisten mitmachen,
+      sondern Menschen zwischen 30 und 49 Jahren. Sie übernehmen oft organisatorische Aufgaben
+      und bringen ihre Berufskompetenzen ein. Jüngere unter 25 engagieren sich zwar auch,
+      aber oft nur kurzfristig für einzelne Projekte.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Warum machen die Menschen das? Was motiviert sie?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Die Hauptmotivation ist der Wunsch, etwas Sinnvolles zu tun und anderen zu helfen.
+      Aber auch soziale Kontakte spielen eine große Rolle – viele sagen, sie haben durch
+      das Ehrenamt neue Freunde gefunden. Finanzielle Entlohnung ist dagegen für die
+      wenigsten ein Grund.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Gibt es auch Herausforderungen oder Probleme im Ehrenamt?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Durchaus. Viele Vereine klagen darüber, dass es immer schwieriger wird, Menschen
+      zu finden, die langfristige Verpflichtungen übernehmen. Die Menschen heute
+      möchten flexibler sein und sich nicht für Jahre binden. Das ist ein echter
+      Wandel im Vergleich zu früheren Generationen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Was würden Sie Menschen empfehlen, die sich engagieren möchten?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Einfach anfangen! Es gibt so viele Möglichkeiten. Schauen Sie auf die Website
+      Ihrer Stadt oder gemeinde – die meisten haben eine zentrale Ehrenamtsbörse.
+      Sie müssen keine großen Verpflichtungen eingehen. Manchmal reicht es,
+      einmal im Monat ein paar Stunden zu helfen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Wunderbar, vielen Dank, Herr Dr. Reuter. Nach der Werbepause hören wir mehr
+      über konkrete lokale Projekte in unserer Region. Bleiben Sie dran bei Radio Brücke.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

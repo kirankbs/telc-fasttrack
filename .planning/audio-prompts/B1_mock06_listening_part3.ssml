@@ -1,0 +1,199 @@
+<speak>
+  <!-- B1 Mock 06 — Teil 3 (5 MCQ short dialogues, playCount=2) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Female: de-DE-Wavenet-C, Male: de-DE-Wavenet-B rate="medium" -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jedes Gespräch zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Gespräch 1: Telefon-Reklamation — Gerät ist kaputt, Garantie abgelaufen, Reparatur teurer als Neukauf (correct: c) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Guten Tag, ich habe hier ein Smartphone, das nicht mehr startet. Das ist erst 18 Monate alt.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Lassen Sie mich das ansehen. Hm, das Display ist gebrochen und es gibt Feuchtigkeitsschäden. Das ist leider nicht unter die Garantie abgedeckt.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Was kostet dann die Reparatur?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Die Reparatur würde rund 280 Euro kosten. Das neue Modell bekommen Sie hier aber schon für 230 Euro. Ehrlich gesagt würde ich Ihnen eher zum Neukauf raten.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Guten Tag, ich habe hier ein Smartphone, das nicht mehr startet. Das ist erst 18 Monate alt.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Lassen Sie mich das ansehen. Hm, das Display ist gebrochen und es gibt Feuchtigkeitsschäden. Das ist leider nicht unter die Garantie abgedeckt.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Was kostet dann die Reparatur?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Die Reparatur würde rund 280 Euro kosten. Das neue Modell bekommen Sie hier aber schon für 230 Euro. Ehrlich gesagt würde ich Ihnen eher zum Neukauf raten.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 2: Sprachkurs-Anmeldung — Intensivkurs, tägliche Unterricht, 4 Wochen (correct: b) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Guten Morgen, ich möchte mein Englisch aufbessern. Was bieten Sie an?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Wir haben Wochendkurse, die einmal pro Woche stattfinden, und Intensivkurse mit täglich vier Stunden Unterricht. Wie schnell möchten Sie Fortschritte machen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich habe nur vier Wochen Zeit. Welcher Kurs ist dann besser?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Für vier Wochen empfehle ich definitiv den Intensivkurs. Bei täglichem Unterricht machen Sie erheblich schnellere Fortschritte.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Guten Morgen, ich möchte mein Englisch aufbessern. Was bieten Sie an?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Wir haben Wochendkurse, die einmal pro Woche stattfinden, und Intensivkurse mit täglich vier Stunden Unterricht. Wie schnell möchten Sie Fortschritte machen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich habe nur vier Wochen Zeit. Welcher Kurs ist dann besser?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Für vier Wochen empfehle ich definitiv den Intensivkurs. Bei täglichem Unterricht machen Sie erheblich schnellere Fortschritte.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 3: Camping — Platz ausgebucht, Stellplatz mit Strom nur mit Jahresticket (correct: a) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Guten Tag, haben Sie noch Stellplätze für ein Wohnmobil, mit Stromanschluss?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Für diese Woche sind leider alle Plätze mit Strom vergeben. Wir haben noch zwei einfache Plätze ohne Strom frei.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Und gibt es andere Campingplätze in der Nähe, die Sie empfehlen können?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Der Campingplatz Seeblick, etwa 10 Kilometer weiter, hat oft noch Plätze. Dort können Sie direkt anrufen.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Guten Tag, haben Sie noch Stellplätze für ein Wohnmobil, mit Stromanschluss?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Für diese Woche sind leider alle Plätze mit Strom vergeben. Wir haben noch zwei einfache Plätze ohne Strom frei.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Und gibt es andere Campingplätze in der Nähe, die Sie empfehlen können?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Der Campingplatz Seeblick, etwa 10 Kilometer weiter, hat oft noch Plätze. Dort können Sie direkt anrufen.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 4: Kollegen über Fortbildung — eine ist kostenlos für Mitglieder (correct: b) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Hast du die E-Mail über die Fortbildungen gesehen? Ich überlege, ob ich mich für eine anmelden soll.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, ich habe sie gelesen. Einige kosten Geld, aber die Fortbildung zu Projektmanagement ist kostenlos, wenn man Mitglied im Berufsverband ist.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich bin Mitglied. Das klingt interessant. Wann findet die statt?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Am dritten November, online. Das Webinar dauert den ganzen Vormittag.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Hast du die E-Mail über die Fortbildungen gesehen? Ich überlege, ob ich mich für eine anmelden soll.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, ich habe sie gelesen. Einige kosten Geld, aber die Fortbildung zu Projektmanagement ist kostenlos, wenn man Mitglied im Berufsverband ist.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich bin Mitglied. Das klingt interessant. Wann findet die statt?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Am dritten November, online. Das Webinar dauert den ganzen Vormittag.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 5: Supermarkt Beschwerde — Kassiererin erklärt, dass Rabattmarken nicht mehr gültig sind (correct: c) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich habe hier drei Rabattmarken. Kann ich die jetzt einlösen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Darf ich mal sehen? Oh, diese Marken sind leider schon abgelaufen. Das Gültigkeitsdatum war der 30. September, und heute haben wir den 5. Oktober.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das wusste ich nicht. Gibt es keine Möglichkeit, sie trotzdem zu verwenden?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Leider nein, ich darf abgelaufene Marken nicht annehmen. Das ist leider eine klare Vorgabe von der Geschäftsführung. Es tut mir leid.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich habe hier drei Rabattmarken. Kann ich die jetzt einlösen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Darf ich mal sehen? Oh, diese Marken sind leider schon abgelaufen. Das Gültigkeitsdatum war der 30. September, und heute haben wir den 5. Oktober.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das wusste ich nicht. Gibt es keine Möglichkeit, sie trotzdem zu verwenden?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Leider nein, ich darf abgelaufene Marken nicht annehmen. Das ist leider eine klare Vorgabe von der Geschäftsführung. Es tut mir leid.</prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>

@@ -1,0 +1,132 @@
+<speak>
+  <!-- B1 Mock 03 — Teil 2 (10 True/False, radio interview, playCount=1) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Moderatorin: de-DE-Wavenet-C (female) rate="medium" -->
+  <!-- Gast: de-DE-Wavenet-B (male) rate="medium" -->
+  <!-- Topic: Vegetarische und vegane Ernährung in Deutschland -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören einen Radiobericht. Entscheiden Sie, ob die folgenden zehn Aussagen
+      richtig oder falsch sind. Sie hören den Text nur einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Herzlich willkommen zu unserem Gesundheitsmagazin auf WDR 5, ich bin Claudia Bernd.
+      Heute geht es um das Thema vegetarische und vegane Ernährung. Wie hat sich das in Deutschland entwickelt,
+      und was sind die Vor- und Nachteile? Dazu begrüße ich Ernährungswissenschaftler Prof. Dr. Henning Sachs.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Tag. Ja, das Thema ist wirklich in der Mitte der Gesellschaft angekommen.
+      Laut einer aktuellen Studie bezeichnen sich heute fast 10 Prozent der Deutschen als Vegetarier,
+      das ist ein deutlicher Anstieg im Vergleich zu vor zehn Jahren, als es noch unter 5 Prozent waren.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Und wie viele Menschen sind Veganer?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Der Anteil der Veganer liegt bei etwa 2 bis 3 Prozent. Das ist weniger als oft berichtet,
+      aber trotzdem bemerkenswert. Die vegane Ernährung hat in den letzten Jahren deutlich
+      an Sichtbarkeit gewonnen, auch in Supermärkten und Restaurants.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Was sind die gesundheitlichen Vorteile?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Eine gut geplante pflanzliche Ernährung kann das Risiko für Herzerkrankungen,
+      Typ-2-Diabetes und bestimmte Krebsarten senken. Vegetarier haben im Durchschnitt
+      einen niedrigeren Body-Mass-Index als Fleischesser. Aber das ist kein Selbstläufer –
+      man muss schon auf eine ausgewogene Ernährung achten.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Gibt es auch Risiken?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, vor allem bei der veganen Ernährung. Vitamin B12 findet sich praktisch nur in tierischen Produkten,
+      und ein Mangel kann zu ernsthaften neurologischen Problemen führen. Veganer sollten dieses Vitamin
+      unbedingt als Nahrungsergänzungsmittel einnehmen. Auch Eisen, Kalzium und Omega-3-Fettsäuren
+      erfordern besondere Aufmerksamkeit.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ist pflanzliche Ernährung wirklich besser für die Umwelt?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Im Großen und Ganzen ja. Die Tierhaltung ist für einen erheblichen Teil der globalen Treibhausgasemissionen verantwortlich.
+      Aber auch hier ist es nicht so einfach: Avocados aus Übersee oder Mandelmilch aus Kalifornien
+      haben einen größeren CO2-Fußabdruck als regionale Produkte. Regional und saisonal ist oft
+      wichtiger als rein pflanzlich.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Was empfehlen Sie Einsteigern?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Nicht alles auf einmal ändern. Fangen Sie vielleicht mit einem fleischlosen Tag pro Woche an.
+      Sogenannte Flexitarier, die gelegentlich Fleisch essen, aber hauptsächlich pflanzlich ernähren,
+      tun schon sehr viel für ihre Gesundheit und die Umwelt. Man muss kein strenger Veganer sein,
+      um eine positive Wirkung zu erzielen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Vielen Dank, Professor Sachs. Das ist wirklich aufschlussreich. Nach der Pause sprechen wir
+      mit einer Köchin, die vegane Rezepte für Einsteiger vorstellt. Bleiben Sie dabei!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

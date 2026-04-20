@@ -1,0 +1,205 @@
+<speak>
+  <!-- B1 Mock 02 — Teil 3 (5 MCQ short dialogues, playCount=2) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Female: de-DE-Wavenet-C, Male: de-DE-Wavenet-B rate="medium" -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jedes Gespräch zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Gespräch 1: Arztpraxis — Patientin bittet um Termin für Impfung (correct: b - Impftermin) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Guten Morgen, Praxis Dr. Müller, was kann ich für Sie tun?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Guten Morgen. Ich war letzten Monat wegen Rückenschmerzen bei Ihnen. Ich wollte eigentlich fragen, ob ich auch für eine Grippeimpfung vorbeikommen kann.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Natürlich, für die Impfung brauchen Sie einen kurzen Termin. Wir hätten nächsten Dienstag um 9:30 Uhr frei.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Das passt prima. Ich komme dann am Dienstag.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Guten Morgen, Praxis Dr. Müller, was kann ich für Sie tun?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Guten Morgen. Ich war letzten Monat wegen Rückenschmerzen bei Ihnen. Ich wollte eigentlich fragen, ob ich auch für eine Grippeimpfung vorbeikommen kann.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Natürlich, für die Impfung brauchen Sie einen kurzen Termin. Wir hätten nächsten Dienstag um 9:30 Uhr frei.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Das passt prima. Ich komme dann am Dienstag.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 2: Bahnhof — Frau fragt nach dem richtigen Gleis (correct: a - Gleis 4) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Entschuldigung, ich suche den Zug nach Köln. Welches Gleis ist das?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Der Zug nach Köln fährt von Gleis 4 ab. Aber schauen Sie auf die Anzeigetafel – manchmal wechselt das Gleis kurzfristig.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ah, Gleis 4, danke. Und wissen Sie, ob der Zug pünktlich ist?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Soweit ich weiß schon. Auf der Tafel steht nichts von Verspätung.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Entschuldigung, ich suche den Zug nach Köln. Welches Gleis ist das?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Der Zug nach Köln fährt von Gleis 4 ab. Aber schauen Sie auf die Anzeigetafel – manchmal wechselt das Gleis kurzfristig.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ah, Gleis 4, danke. Und wissen Sie, ob der Zug pünktlich ist?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Soweit ich weiß schon. Auf der Tafel steht nichts von Verspätung.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 3: Restaurant — Paar kann nicht bezahlen, weil Kartenterminal defekt ist (correct: c) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Können wir bitte zahlen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Natürlich. Das macht zusammen 47 Euro 60. Möchten Sie mit Karte zahlen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, mit EC-Karte bitte.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Oh, leider funktioniert unser Kartenterminal gerade nicht. Es tut mir sehr leid – ist eine Barzahlung möglich?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Hm, ich glaube, ich habe noch Bargeld. Einen Moment bitte.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Können wir bitte zahlen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Natürlich. Das macht zusammen 47 Euro 60. Möchten Sie mit Karte zahlen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, mit EC-Karte bitte.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Oh, leider funktioniert unser Kartenterminal gerade nicht. Es tut mir sehr leid – ist eine Barzahlung möglich?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Hm, ich glaube, ich habe noch Bargeld. Einen Moment bitte.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 4: Kollegen — Frau fragt nach Firmenparkplatz, der ab nächster Woche für Besucher reserviert ist (correct: b) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Hast du die E-Mail von der Geschäftsführung gelesen? Über den Parkplatz?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, die Hälfte der Stellplätze wird ab nächster Woche für Kundenbesuche reserviert. Wir Mitarbeiter müssen dann das Parkhaus nebenan nutzen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das Parkhaus kostet aber Geld. Übernimmt die Firma das?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">In der E-Mail stand nichts davon. Das müssen wir wohl selbst bezahlen, leider.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Hast du die E-Mail von der Geschäftsführung gelesen? Über den Parkplatz?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, die Hälfte der Stellplätze wird ab nächster Woche für Kundenbesuche reserviert. Wir Mitarbeiter müssen dann das Parkhaus nebenan nutzen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das Parkhaus kostet aber Geld. Übernimmt die Firma das?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">In der E-Mail stand nichts davon. Das müssen wir wohl selbst bezahlen, leider.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 5: Reisebüro — Kundin bucht Urlaub nach Griechenland, will All-inclusive (correct: a) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich möchte gerne Urlaub machen. Am liebsten Griechenland, zwei Wochen im August.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Wunderbar. Haben Sie eine Präferenz für das Verpflegungsangebot? Nur Frühstück, Halbpension oder All-inclusive?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Am liebsten All-inclusive. Dann muss ich mir um nichts mehr kümmern und weiß genau, was ich ausgebe.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Sehr gute Wahl. Ich zeige Ihnen hier einige Angebote auf Kreta und Rhodos, die sehr beliebt sind.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich möchte gerne Urlaub machen. Am liebsten Griechenland, zwei Wochen im August.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Wunderbar. Haben Sie eine Präferenz für das Verpflegungsangebot? Nur Frühstück, Halbpension oder All-inclusive?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Am liebsten All-inclusive. Dann muss ich mir um nichts mehr kümmern und weiß genau, was ich ausgebe.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Sehr gute Wahl. Ich zeige Ihnen hier einige Angebote auf Kreta und Rhodos, die sehr beliebt sind.</prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>

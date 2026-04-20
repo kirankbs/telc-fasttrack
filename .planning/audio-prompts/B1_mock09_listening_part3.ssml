@@ -1,0 +1,223 @@
+<speak>
+  <!-- B1 Mock 09 — Teil 3 (5 MCQ short dialogues, playCount=2) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Female: de-DE-Wavenet-C, Male: de-DE-Wavenet-B rate="medium" -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jedes Gespräch zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Gespräch 1: Supermarkt-Rückgabe — Artikel ohne Kassenbon, nur Umtausch möglich (correct: b) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ich möchte diese Hose zurückgeben. Sie passt leider nicht.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Haben Sie den Kassenbon dabei?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Nein, den habe ich leider nicht mehr gefunden.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ohne Kassenbon kann ich leider kein Geld zurückgeben. Ich kann Ihnen aber einen Umtauschbon ausstellen, damit können Sie sich etwas Gleichwertiges aussuchen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Okay, dann nehme ich den Umtauschbon.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ich möchte diese Hose zurückgeben. Sie passt leider nicht.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Haben Sie den Kassenbon dabei?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Nein, den habe ich leider nicht mehr gefunden.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ohne Kassenbon kann ich leider kein Geld zurückgeben. Ich kann Ihnen aber einen Umtauschbon ausstellen, damit können Sie sich etwas Gleichwertiges aussuchen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Okay, dann nehme ich den Umtauschbon.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 2: Freunde — planen Geburtstagsfeier, einigen sich auf Restaurantbesuch (correct: c) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Was machen wir für Peters Geburtstag? Ich dachte an eine große Party bei mir zu Hause.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Eine Party ist schön, aber wir sind ja nur zu siebt. Was hältst du davon, einfach zusammen essen zu gehen? Dann hat niemand Aufwand mit Vorbereitung und Putzen danach.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Guter Punkt. Peter mag das neue italienische Restaurant sehr. Was denkst du?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Das klingt perfekt. Dann reserviere ich dort einen Tisch für sieben Personen. Freitagabend?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ja, Freitag ist gut. Mach das!</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Was machen wir für Peters Geburtstag? Ich dachte an eine große Party bei mir zu Hause.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Eine Party ist schön, aber wir sind ja nur zu siebt. Was hältst du davon, einfach zusammen essen zu gehen? Dann hat niemand Aufwand mit Vorbereitung und Putzen danach.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Guter Punkt. Peter mag das neue italienische Restaurant sehr. Was denkst du?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Das klingt perfekt. Dann reserviere ich dort einen Tisch für sieben Personen. Freitagabend?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ja, Freitag ist gut. Mach das!</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 3: Notruf — Frau schildert Unfall, Rettung kommt in 8 Minuten (correct: a) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Hier ist ein Unfall passiert! Ein Fahrradfahrer wurde angefahren, er liegt auf der Straße!</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Bleiben Sie ruhig. Wo genau sind Sie?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">In der Bahnhofstraße, Ecke Lindenweg. Der Mann ist bei Bewusstsein, aber sein Bein sieht schlimm aus.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Gut. Rühren Sie ihn nicht an. Der Rettungswagen ist in ungefähr acht Minuten bei Ihnen. Können Sie in der Nähe bleiben?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ja, ich bleibe hier.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Hier ist ein Unfall passiert! Ein Fahrradfahrer wurde angefahren, er liegt auf der Straße!</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Bleiben Sie ruhig. Wo genau sind Sie?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">In der Bahnhofstraße, Ecke Lindenweg. Der Mann ist bei Bewusstsein, aber sein Bein sieht schlimm aus.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Gut. Rühren Sie ihn nicht an. Der Rettungswagen ist in ungefähr acht Minuten bei Ihnen. Können Sie in der Nähe bleiben?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ja, ich bleibe hier.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 4: Hochschule — Student fragt nach Praktikumsanerkennung (correct: b - nur wenn Praktikum mindestens 8 Wochen) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ich habe letzten Sommer ein Praktikum gemacht. Kann das für mein Studium anerkannt werden?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das hängt von der Länge ab. Praktika werden nur anerkannt, wenn sie mindestens acht Wochen gedauert haben. War das bei Ihnen der Fall?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, ich war zehn Wochen dort. Ich bringe Ihnen die Bescheinigung mit.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Gut. Bringen Sie bitte außerdem eine kurze Beschreibung der Tätigkeiten. Das reiche ich dann beim Prüfungsamt ein.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ich habe letzten Sommer ein Praktikum gemacht. Kann das für mein Studium anerkannt werden?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das hängt von der Länge ab. Praktika werden nur anerkannt, wenn sie mindestens acht Wochen gedauert haben. War das bei Ihnen der Fall?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, ich war zehn Wochen dort. Ich bringe Ihnen die Bescheinigung mit.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Gut. Bringen Sie bitte außerdem eine kurze Beschreibung der Tätigkeiten. Das reiche ich dann beim Prüfungsamt ein.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 5: Telefonat — Frau möchte einen Handwerker beauftragen, aber erst nach Kostenvoranschlag (correct: c) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Guten Tag, ich habe ein Problem mit meiner Heizung. Können Sie das reparieren?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, das ist kein Problem. Ich würde nächste Woche vorbeikommen und mir das anschauen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Können Sie mir vorher sagen, was das ungefähr kostet?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Das kann ich erst sagen, wenn ich mir die Heizung angesehen habe. Ich erstelle Ihnen dann vor Ort einen kostenlosen Kostenvoranschlag. Erst dann entscheiden Sie, ob ich anfange.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Gut, so machen wir das. Wann genau nächste Woche?</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Guten Tag, ich habe ein Problem mit meiner Heizung. Können Sie das reparieren?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, das ist kein Problem. Ich würde nächste Woche vorbeikommen und mir das anschauen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Können Sie mir vorher sagen, was das ungefähr kostet?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Das kann ich erst sagen, wenn ich mir die Heizung angesehen habe. Ich erstelle Ihnen dann vor Ort einen kostenlosen Kostenvoranschlag. Erst dann entscheiden Sie, ob ich anfange.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Gut, so machen wir das. Wann genau nächste Woche?</prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>

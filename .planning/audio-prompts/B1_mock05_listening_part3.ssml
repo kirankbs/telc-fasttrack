@@ -1,0 +1,205 @@
+<speak>
+  <!-- B1 Mock 05 — Teil 3 (5 MCQ short dialogues, playCount=2) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Female: de-DE-Wavenet-C, Male: de-DE-Wavenet-B rate="medium" -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jedes Gespräch zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Gespräch 1: Hotel — Gast möchte verlängern, Zimmer ist aber belegt, Alternative angeboten (correct: b) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Guten Morgen. Ich möchte meinen Aufenthalt gerne um zwei Nächte verlängern. Ist das möglich?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Leider ist Ihr Zimmer für morgen schon reserviert. Wir könnten Ihnen aber ein gleichwertiges Zimmer in der nächsten Etage anbieten, falls das für Sie in Ordnung ist.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, das ist mir egal, welches Zimmer. Hauptsache ich kann bleiben.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Wunderbar, ich ändere das gleich für Sie. Der Preis bleibt der gleiche.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Guten Morgen. Ich möchte meinen Aufenthalt gerne um zwei Nächte verlängern. Ist das möglich?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Leider ist Ihr Zimmer für morgen schon reserviert. Wir könnten Ihnen aber ein gleichwertiges Zimmer in der nächsten Etage anbieten, falls das für Sie in Ordnung ist.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, das ist mir egal, welches Zimmer. Hauptsache ich kann bleiben.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Wunderbar, ich ändere das gleich für Sie. Der Preis bleibt der gleiche.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 2: Einkaufszentrum — Frau fragt wo Fundbüro ist, muss Portemonnaie abholen (correct: a) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Entschuldigung, gibt es hier ein Fundbüro? Ich glaube, ich habe mein Portemonnaie verloren.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, das Fundbüro befindet sich im Erdgeschoss, neben dem Kundendienst. Das ist direkt beim Haupteingang links.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Oh prima, danke! Ich hoffe, es wurde abgegeben.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Wir hatten heute schon einige Abgaben. Schauen Sie am besten direkt nach.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Entschuldigung, gibt es hier ein Fundbüro? Ich glaube, ich habe mein Portemonnaie verloren.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, das Fundbüro befindet sich im Erdgeschoss, neben dem Kundendienst. Das ist direkt beim Haupteingang links.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Oh prima, danke! Ich hoffe, es wurde abgegeben.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Wir hatten heute schon einige Abgaben. Schauen Sie am besten direkt nach.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 3: Wohnungssuche — Makler sagt, Wohnung ist zu groß für WG, Vermieter lehnt WG ab (correct: c) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ich interessiere mich für die Dreizimmerwohnung. Ich würde gerne mit zwei Freunden eine WG gründen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das ist leider ein Problem. Der Eigentümer vermietet die Wohnung grundsätzlich nicht an Wohngemeinschaften. Er bevorzugt Familien oder Einzelpersonen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Kann man da gar nichts machen? Wir sind alle Berufstätige mit festen Einkommen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich verstehe, aber der Vermieter ist da sehr bestimmt. Leider können wir daran nichts ändern. Soll ich Ihnen andere Wohnungen zeigen, die für WGs geeignet sind?</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ich interessiere mich für die Dreizimmerwohnung. Ich würde gerne mit zwei Freunden eine WG gründen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das ist leider ein Problem. Der Eigentümer vermietet die Wohnung grundsätzlich nicht an Wohngemeinschaften. Er bevorzugt Familien oder Einzelpersonen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Kann man da gar nichts machen? Wir sind alle Berufstätige mit festen Einkommen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich verstehe, aber der Vermieter ist da sehr bestimmt. Leider können wir daran nichts ändern. Soll ich Ihnen andere Wohnungen zeigen, die für WGs geeignet sind?</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 4: Bibliothek — Buch bereits ausgeliehen, Vormerken möglich, Wartezeit 2 Wochen (correct: b) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich suche das Buch "Der Vorleser" von Bernhard Schlink. Haben Sie es?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Einen Moment... Das Buch ist gerade ausgeliehen. Ich kann es aber gerne für Sie vormerken. Die voraussichtliche Wartezeit beträgt etwa zwei Wochen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Zwei Wochen ist in Ordnung. Wie werde ich dann benachrichtigt?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Per E-Mail oder SMS, ganz wie Sie möchten. Dafür brauche ich Ihren Bibliotheksausweis.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich suche das Buch "Der Vorleser" von Bernhard Schlink. Haben Sie es?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Einen Moment... Das Buch ist gerade ausgeliehen. Ich kann es aber gerne für Sie vormerken. Die voraussichtliche Wartezeit beträgt etwa zwei Wochen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Zwei Wochen ist in Ordnung. Wie werde ich dann benachrichtigt?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Per E-Mail oder SMS, ganz wie Sie möchten. Dafür brauche ich Ihren Bibliotheksausweis.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 5: Freunde — planen eine Wanderung, einer hat schlechte Schuhe, leiht sich welche (correct: a) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich freue mich schon auf die Wanderung am Samstag. Wie lange ist die Strecke?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Etwa 15 Kilometer, aber mit schönen Aussichten. Hast du gute Wanderschuhe?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ehrlich gesagt nicht. Ich habe nur normale Turnschuhe. Meinst du, das geht?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Bei 15 Kilometern und dem unebenen Gelände? Ich würde dir meine alten Wanderschuhe leihen, die passen dir bestimmt. Wir haben doch die gleiche Größe.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Oh super, das wäre toll! Danke dir.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich freue mich schon auf die Wanderung am Samstag. Wie lange ist die Strecke?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Etwa 15 Kilometer, aber mit schönen Aussichten. Hast du gute Wanderschuhe?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ehrlich gesagt nicht. Ich habe nur normale Turnschuhe. Meinst du, das geht?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Bei 15 Kilometern und dem unebenen Gelände? Ich würde dir meine alten Wanderschuhe leihen, die passen dir bestimmt. Wir haben doch die gleiche Größe.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Oh super, das wäre toll! Danke dir.</prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>

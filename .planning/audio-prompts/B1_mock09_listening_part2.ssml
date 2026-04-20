@@ -1,0 +1,136 @@
+<speak>
+  <!-- B1 Mock 09 — Teil 2 (10 True/False, radio report, playCount=1) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Moderator: de-DE-Wavenet-B (male) rate="medium" -->
+  <!-- Gästin: de-DE-Wavenet-C (female) rate="medium" -->
+  <!-- Topic: Altersarmut in Deutschland -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören einen Radiobericht. Entscheiden Sie, ob die folgenden zehn Aussagen
+      richtig oder falsch sind. Sie hören den Text nur einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Herzlich willkommen bei "Sozial und Fair" auf WDR 2, ich bin Andreas Fuchs.
+      Heute ein Thema, das in der öffentlichen Debatte oft zu kurz kommt: Altersarmut.
+      Immer mehr Rentner in Deutschland können von ihrer Rente kaum leben.
+      Ich spreche darüber mit Soziologin Dr. Iris Baumann von der Freien Universität Berlin.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag. Das Thema ist leider ernster als viele denken.
+      Heute gelten rund 18 Prozent der über 65-Jährigen in Deutschland als armutsgefährdet.
+      Das sind fast drei Millionen Menschen. Die Tendenz ist steigend.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Welche Gruppen sind besonders betroffen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Am stärksten betroffen sind alleinstehende Frauen, besonders wenn sie lange Phasen
+      der Teilzeitarbeit oder Kindererziehung hatten. Auch Migrantinnen und Migranten,
+      die erst spät nach Deutschland gekommen sind, haben oft sehr niedrige Rentenansprüche.
+      Und Menschen mit niedrigem Bildungsabschluss sind überproportional gefährdet.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Wie funktioniert das deutsche Rentensystem in diesem Zusammenhang?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Das deutsche Rentensystem basiert auf dem Prinzip: Wer mehr einzahlt, bekommt mehr.
+      Das klingt fair, begünstigt aber Menschen mit gut bezahlter Vollzeitstelle.
+      Wer sein Arbeitsleben lang wenig verdient hat, bekommt eine kleine Rente.
+      Die Grundrente, die 2021 eingeführt wurde, hilft, aber sie reicht vielen nicht.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Was bedeutet Altersarmut im Alltag konkret?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Es bedeutet, dass Menschen zwischen Essen, Medikamenten und Heizung wählen müssen.
+      Viele können sich keine Hobbys oder sozialen Aktivitäten leisten.
+      Kulturelles Leben, Arztbesuche ohne Zuzahlung, Urlaub – das ist für viele schlicht nicht drin.
+      Das führt auch zu sozialer Isolation und hat ernste gesundheitliche Folgen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Gibt es politische Lösungsansätze?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, verschiedene. Eine höhere gesetzliche Rente für alle, eine stärkere Beteiligung
+      von Unternehmen an der Altersvorsorge, und eine bessere staatliche Unterstützung
+      für Kindererziehungszeiten in der Rente. All das wird diskutiert,
+      aber eine große Rentenreform lässt auf sich warten.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Was können junge Menschen heute tun, um im Alter nicht arm zu sein?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Frühzeitig privat vorsorgen, das ist wichtig. Aber man darf das nicht als individuelle Lösung
+      für ein strukturelles Problem verkaufen. Wer wenig verdient, kann nicht viel sparen.
+      Deshalb brauchen wir auch politische Maßnahmen, die nicht nur denjenigen helfen,
+      die sich privat absichern können.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Vielen Dank, Frau Dr. Baumann, für diesen aufschlussreichen Einblick.
+      Informationen zum Thema Grundrente und staatliche Hilfen für Rentner
+      finden Sie auf der Webseite des Bundesministeriums für Arbeit und Soziales.
+      Auf Wiederhören!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

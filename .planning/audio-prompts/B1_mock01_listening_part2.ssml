@@ -1,0 +1,119 @@
+<speak>
+  <!-- B1 Mock 01 — Teil 2 (10 True/False, radio report, playCount=1) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Moderatorin: de-DE-Wavenet-C (female) rate="medium" -->
+  <!-- Experte/Sprecher: de-DE-Wavenet-B (male) rate="medium" -->
+  <!-- No repeat — Teil 2 plays ONCE at B1 -->
+  <!-- Topic: Homeoffice in Deutschland -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören einen Radiobericht. Entscheiden Sie, ob die folgenden zehn Aussagen
+      richtig oder falsch sind. Sie hören den Text nur einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Radio report begins -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Willkommen bei Deutschlandfunk Alltag, ich bin Jana Hofmann.
+      Heute sprechen wir über das Homeoffice – wie es den Alltag vieler Berufstätiger
+      in Deutschland verändert hat. Dazu haben wir eine Studie vorliegen und eine Expertin im Studio.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Laut der aktuellen Umfrage des Instituts für Arbeitsforschung liegt der Anteil der Beschäftigten
+      im Homeoffice mit 24 Prozent deutlich höher als noch vor fünf Jahren, als es nur etwa 12 Prozent waren.
+      Die Pandemie hat hier einen dauerhaften Wandel ausgelöst, der in vielen Branchen nicht mehr rückgängig gemacht wird.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Unsere heutige Gästin, Dr. Anna Lorenz, untersucht am Institut für Arbeitsmedizin
+      die Zusammenhänge zwischen Arbeit und Gesundheit. Frau Dr. Lorenz, was zeigt Ihre Forschung?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, danke. Natürlich gibt es Vorteile, aber wir sehen auch Risiken –
+      viele Beschäftigte klagen über Rückenschmerzen, weil sie keinen ergonomischen Arbeitsplatz
+      zu Hause haben. Und dazu kommt das Gefühl der sozialen Isolation, das besonders
+      ältere Mitarbeiter und überraschenderweise auch jüngere Angestellte beschreibt.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Zahlen Unternehmen denn für eine bessere Ausstattung?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Leider nein, das ist ein großes Problem. Nur eine Minderheit der Unternehmen übernimmt
+      die Kosten für einen ordentlichen Bürostuhl zu Hause. Die meisten Beschäftigten sitzen
+      auf dem Küchenstuhl oder dem Sofa, was langfristig zu Beschwerden führt.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Was vermissen die Mitarbeiter am meisten?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Gerade jüngere Angestellte berichten, dass ihnen die Gespräche in der Kaffeeküche
+      und der direkte Austausch mit Kollegen sehr fehlen. Das ist nicht zu unterschätzen –
+      informelle Kommunikation ist wichtig für das Wohlbefinden und die Kreativität im Team.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Haben Sie praktische Empfehlungen für unsere Hörerinnen und Hörer?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Auf jeden Fall. Mehr als acht Stunden durchgehend vor dem Bildschirm sollten Sie vermeiden,
+      auch wenn es verlockend ist, noch schnell weiterzuarbeiten.
+      Stehen Sie jede Stunde kurz auf, machen Sie ein paar Schritte –
+      regelmäßige Pausen und Bewegung sind die beste Prävention gegen Rückenschmerzen und Erschöpfung.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Vielen Dank, Frau Dr. Lorenz, für diese wichtigen Einblicke.
+      Wenn Sie mehr erfahren möchten, besuchen Sie unsere Webseite –
+      dort finden Sie weiterführende Informationen zum Thema Homeoffice und Gesundheit.
+      Das war Deutschlandfunk Alltag. Einen schönen Tag noch!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

@@ -1,0 +1,136 @@
+<speak>
+  <!-- B1 Mock 04 — Teil 2 (10 True/False, radio interview, playCount=1) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Moderator: de-DE-Wavenet-B (male) rate="medium" -->
+  <!-- Gästin: de-DE-Wavenet-C (female) rate="medium" -->
+  <!-- Topic: Klimawandel und Alltagsverhalten -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören einen Radiobericht. Entscheiden Sie, ob die folgenden zehn Aussagen
+      richtig oder falsch sind. Sie hören den Text nur einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Willkommen bei "Heute und Morgen" auf Bayern 2, ich bin Felix Gruber.
+      Unser heutiges Thema: Klimawandel im Alltag. Was kann jeder Einzelne wirklich tun?
+      Ich spreche darüber mit der Klimaforscherin Dr. Sarah Wendland von der Universität Freiburg.
+      Herzlich willkommen, Frau Dr. Wendland.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag, ich freue mich über die Einladung.
+      Klimawandel ist ein Thema, das uns alle angeht, und es ist gut, dass wir heute darüber reden.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Frau Dr. Wendland, welche Alltagsgewohnheiten belasten das Klima am stärksten?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Die drei größten Faktoren im Privathaushalt sind Mobilität, Ernährung und Wohnen.
+      Fliegen hat den größten CO2-Fußabdruck pro Kilometer, aber Autofahren summiert sich
+      für die meisten Menschen im Jahr mehr auf. Heizung und Stromverbrauch im Haus
+      machen ebenfalls einen sehr großen Teil der persönlichen Emissionen aus.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Viele Menschen glauben, ihr individuelles Verhalten spielt keine Rolle.
+      Was sagen Sie dazu?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Das ist ein weit verbreiteter Irrtum. Natürlich brauchen wir systemische Veränderungen,
+      aber das Verhalten der Einzelnen sendet wichtige Marktsignale. Wenn viele Menschen
+      weniger Fleisch essen, verändert sich das Angebot der Supermärkte.
+      Wenn viele Bahn fahren statt Auto, investieren Verkehrsunternehmen in mehr Verbindungen.
+      Beides gehört zusammen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ist ein Solarmodul auf dem Dach wirklich eine relevante Maßnahme?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ja, definitiv. Wer Strom selbst produziert und die Heizung damit betreibt,
+      spart erhebliche Mengen CO2. Allerdings ist die Installation teuer und nicht für jeden möglich.
+      Der Wechsel zu einem Ökostromtarif ist viel einfacher und hat sofort Wirkung.
+      Das kostet nur wenig mehr und ist innerhalb von wenigen Minuten erledigt.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Und was ist mit Flugreisen? Muss man ganz darauf verzichten?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ich sage nicht, dass man nie mehr fliegen darf. Aber wenn man einmal im Jahr
+      weniger fliegt und stattdessen mit dem Zug nach Europa fährt, ist das schon sehr wirksam.
+      Das Flugzeug emittiert ungefähr zehn Mal mehr CO2 pro Kilometer als die Bahn.
+      Das ist ein enormer Unterschied.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Haben Sie abschließend einen konkreten Tipp?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Fangen Sie mit einer Sache an, die wirklich Spaß macht. Vielleicht mit dem Fahrrad
+      zur Arbeit statt mit dem Auto. Oder versuchen Sie, eine Woche fleischlos zu kochen.
+      Wenn das zur Gewohnheit wird, entsteht ganz natürlich Lust auf den nächsten Schritt.
+      Klimaschutz muss sich nicht wie Verzicht anfühlen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Sehr motivierend, vielen Dank, Frau Dr. Wendland.
+      Auf unserer Webseite finden Sie einen persönlichen CO2-Rechner,
+      mit dem Sie Ihren eigenen Fußabdruck berechnen können. Bis bald bei "Heute und Morgen".
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>
