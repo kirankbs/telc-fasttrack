@@ -354,10 +354,10 @@
             {
               "id": "A2_m06_R2_q1",
               "type": "true_false",
-              "questionText": "Mehr als ein Drittel der deutschen Arbeitnehmer arbeitet mindestens zweimal pro Woche von zu Hause.",
+              "questionText": "Viele deutsche Arbeitnehmer arbeiten mindestens zweimal pro Woche von zu Hause.",
               "relatedTextId": "A2_m06_R2_text1",
               "correctAnswer": "richtig",
-              "explanation": "Der Text sagt: '34 Prozent der Beschäftigten arbeiten mindestens zwei Tage im Homeoffice.' 34 Prozent ist etwas mehr als ein Drittel (33%) — die Aussage ist richtig."
+              "explanation": "Der Text sagt: '34 Prozent der Beschäftigten arbeiten mindestens zwei Tage im Homeoffice.' 34 Prozent ist ein großer Anteil — die Aussage ist richtig. [PEDAGOGY-REWRITE: Vorherige Frage testete '34% vs ein Drittel'-Unterscheidung. Zu feingranular fuer A2. Vereinfacht auf Hauptaussage-Verstaendnis.]"
             },
             {
               "id": "A2_m06_R2_q2",
@@ -370,10 +370,10 @@
             {
               "id": "A2_m06_R2_q3",
               "type": "true_false",
-              "questionText": "Fast ein Drittel der Befragten fühlt sich zu Hause weniger produktiv.",
+              "questionText": "Einige Beschäftigte fühlen sich zu Hause weniger produktiv als im Büro.",
               "relatedTextId": "A2_m06_R2_text1",
               "correctAnswer": "richtig",
-              "explanation": "Der Text sagt: '28 Prozent sagen, sie fühlen sich im Homeoffice weniger produktiv.' 28 Prozent ist knapp unter einem Drittel — die Aussage 'fast ein Drittel' ist sinngemäß korrekt."
+              "explanation": "Der Text sagt: '28 Prozent sagen, sie fühlen sich im Homeoffice weniger produktiv als im Büro.' Es gibt also einige, die sich weniger produktiv fühlen — die Aussage ist richtig. [PEDAGOGY-REWRITE: '28% vs fast ein Drittel' ist zu feingranulare Quantifizierer-Unterscheidung fuer A2.]"
             },
             {
               "id": "A2_m06_R2_q4",

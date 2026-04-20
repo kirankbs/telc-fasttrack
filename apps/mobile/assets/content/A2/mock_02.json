@@ -137,7 +137,7 @@
                 "c) Sprachkurse für Kinder"
               ],
               "correctAnswer": "a",
-              "explanation": "Die Durchsage informiert: 'Das Familienzentrum Neustadtbietet ab Oktober Kurse für werdende Eltern an — Anmeldung unter Tel. 0521 889 22.' Beratung und Sprachkurse werden nicht als neues Angebot genannt.",
+              "explanation": "Die Durchsage informiert: 'Das Familienzentrum Neustadt bietet ab Oktober Kurse für werdende Eltern an — Anmeldung unter Tel. 0521 889 22.' Beratung und Sprachkurse werden nicht als neues Angebot genannt.",
               "audioTimestamp": 8
             },
             {
@@ -297,7 +297,7 @@
             {
               "id": "A2_m02_R1_q3",
               "type": "matching",
-              "questionText": "Petra hat zwei Kinder und sucht günstige Kleidung für ihr Baby und ihren Kleinkind.",
+              "questionText": "Petra hat zwei Kinder und sucht günstige Kleidung für ihr Baby und ihr Kleinkind.",
               "matchingSources": [
                 { "id": "A2_m02_R1_text_a", "label": "A" },
                 { "id": "A2_m02_R1_text_b", "label": "B" },
@@ -306,7 +306,7 @@
                 { "id": "A2_m02_R1_text_e", "label": "E" }
               ],
               "correctAnswer": "C",
-              "explanation": "Text C bietet gut erhaltene Kinderkleidung in kleinen Größen (86–128) an — das passt für Petras Baby und Kleinkind. Die anderen Texte bieten keine Kinderkleidung an."
+              "explanation": "[PEDAGOGY-REWRITE] Grammatikfehler in der Aufgabenstellung korrigiert: 'ihren Kleinkind' → 'ihr Kleinkind' (Kleinkind ist Neutrum). Text C bietet gut erhaltene Kinderkleidung in kleinen Größen (86–128) an — das passt für Petras Baby und Kleinkind. Die anderen Texte bieten keine Kinderkleidung an."
             },
             {
               "id": "A2_m02_R1_q4",
@@ -354,10 +354,10 @@
             {
               "id": "A2_m02_R2_q1",
               "type": "true_false",
-              "questionText": "Früher lebten Familien immer in der klassischen Form mit Mutter, Vater und Kindern.",
+              "questionText": "Früher lebten Familien meistens in der klassischen Form mit Mutter, Vater und Kindern.",
               "relatedTextId": "A2_m02_R2_text1",
               "correctAnswer": "richtig",
-              "explanation": "Der Text sagt: 'Früher lebten meistens Vater, Mutter und Kinder zusammen — das war die klassische Familie.' Die Aussage gibt das korrekt wieder."
+              "explanation": "[PEDAGOGY-REWRITE] Original verwendete 'immer' statt 'meistens' — das widersprach dem Text ('meistens') und machte die korrekte Antwort 'richtig' falsch. Korrigiert: Der Text sagt: 'Früher lebten meistens Vater, Mutter und Kinder zusammen — das war die klassische Familie.' Die Aussage gibt das jetzt korrekt wieder."
             },
             {
               "id": "A2_m02_R2_q2",

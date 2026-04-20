@@ -356,8 +356,8 @@
               "type": "true_false",
               "questionText": "Auf einen Facharzttermin muss man im Durchschnitt über drei Wochen warten.",
               "relatedTextId": "A2_m05_R2_text1",
-              "correctAnswer": "richtig",
-              "explanation": "Der Text sagt: 'Patienten warten durchschnittlich 21 Tage auf einen Facharzttermin.' 21 Tage sind genau drei Wochen — die Aussage 'über drei Wochen' ist also nicht korrekt. Genau drei Wochen."
+              "correctAnswer": "falsch",
+              "explanation": "Der Text sagt: 'Patienten warten durchschnittlich 21 Tage auf einen Facharzttermin.' 21 Tage sind genau drei Wochen, nicht über drei Wochen — die Aussage ist daher falsch. [PEDAGOGY-REWRITE: correctAnswer war 'richtig', aber 21 Tage = exakt 3 Wochen, nicht 'über 3 Wochen'. Erklärung widersprach bereits dem correctAnswer.]"
             },
             {
               "id": "A2_m05_R2_q2",
@@ -372,8 +372,8 @@
               "type": "true_false",
               "questionText": "Die meisten Deutschen buchen Arzttermine noch telefonisch.",
               "relatedTextId": "A2_m05_R2_text1",
-              "correctAnswer": "falsch",
-              "explanation": "Der Text sagt: 'Fast 40 Prozent buchen ihren Termin nicht mehr telefonisch.' Das bedeutet, dass 60 Prozent noch telefonisch buchen — die Mehrheit, aber der Satz ist irreführend angesichts des wachsenden Online-Trends."
+              "correctAnswer": "richtig",
+              "explanation": "Der Text sagt: 'Fast 40 Prozent buchen ihren Termin nicht mehr telefonisch.' Das bedeutet, dass etwa 60 Prozent noch telefonisch buchen. 60 Prozent ist die Mehrheit — also buchen die meisten Deutschen tatsächlich noch telefonisch. Die Aussage ist richtig. [PEDAGOGY-REWRITE: correctAnswer war 'falsch', aber 60% = 'die meisten'. Die eigene Erklärung bestätigte bereits, dass die Mehrheit telefonisch bucht.]"
             },
             {
               "id": "A2_m05_R2_q4",

@@ -354,10 +354,10 @@
             {
               "id": "A2_m03_R2_q1",
               "type": "true_false",
-              "questionText": "Die Mieten in Großstädten sind in zehn Jahren um die Hälfte gestiegen.",
+              "questionText": "Die Mieten in Großstädten sind in zehn Jahren stark gestiegen.",
               "relatedTextId": "A2_m03_R2_text1",
               "correctAnswer": "richtig",
-              "explanation": "Im Text steht: 'Die Mieten sind in vielen Großstädten um mehr als 50 Prozent gestiegen.' Mehr als 50 Prozent bedeutet mehr als die Hälfte — die Aussage ist inhaltlich korrekt."
+              "explanation": "[PEDAGOGY-REWRITE] Original fragte 'um die Hälfte gestiegen', aber der Text sagt 'um mehr als 50 Prozent' — die Unterscheidung zwischen 'genau die Hälfte' und 'mehr als die Hälfte' ist auf A2 unfair und führt zu Ambiguität. Vereinfacht: Der Text bestätigt, dass die Mieten 'um mehr als 50 Prozent gestiegen' sind — das ist eindeutig ein starker Anstieg."
             },
             {
               "id": "A2_m03_R2_q2",

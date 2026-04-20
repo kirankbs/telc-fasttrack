@@ -362,10 +362,10 @@
             {
               "id": "A2_m10_R2_q2",
               "type": "true_false",
-              "questionText": "Vor fünf Jahren haben mehr als 60 Prozent online eingekauft.",
+              "questionText": "Vor fünf Jahren haben schon die meisten Deutschen online eingekauft.",
               "relatedTextId": "A2_m10_R2_text1",
               "correctAnswer": "falsch",
-              "explanation": "Der Text sagt: 'vor fünf Jahren waren es nur 55 Prozent.' Das ist weniger als 60 Prozent. Die Aussage ist falsch."
+              "explanation": "Der Text sagt: 'vor fünf Jahren waren es nur 55 Prozent.' Etwas mehr als die Hälfte ist nicht 'die meisten'. Die Aussage ist falsch."
             },
             {
               "id": "A2_m10_R2_q3",

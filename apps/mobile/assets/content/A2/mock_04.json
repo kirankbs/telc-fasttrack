@@ -370,10 +370,10 @@
             {
               "id": "A2_m04_R2_q3",
               "type": "true_false",
-              "questionText": "Kurse für chinesische Küche sind am beliebtesten.",
+              "questionText": "Kochkurse für französische Küche sind am beliebtesten.",
               "relatedTextId": "A2_m04_R2_text1",
               "correctAnswer": "falsch",
-              "explanation": "Im Text steht: 'Beliebt sind vor allem Kurse für asiatische und italienische Küche.' Chinesisch wird nicht separat genannt — die Aussage ist zu spezifisch und daher falsch."
+              "explanation": "Im Text steht: 'Beliebt sind vor allem Kurse für asiatische und italienische Küche.' Französische Küche wird nicht erwähnt — die Aussage ist falsch. [PEDAGOGY-REWRITE: 'chinesisch vs asiatisch' war mehrdeutig, da chinesisch eine Unterkategorie von asiatisch ist. Ersetzt durch 'französisch', das klar nicht im Text steht.]"
             },
             {
               "id": "A2_m04_R2_q4",
@@ -386,10 +386,10 @@
             {
               "id": "A2_m04_R2_q5",
               "type": "true_false",
-              "questionText": "Mehr als die Hälfte der Deutschen kocht unter der Woche weniger als 30 Minuten täglich.",
+              "questionText": "Alle Deutschen kochen unter der Woche weniger als 30 Minuten täglich.",
               "relatedTextId": "A2_m04_R2_text1",
               "correctAnswer": "falsch",
-              "explanation": "Der Text sagt: '42 Prozent der Deutschen haben weniger als 30 Minuten.' 42 Prozent ist weniger als die Hälfte (50 Prozent) — die Aussage ist falsch."
+              "explanation": "Der Text sagt: '42 Prozent der Deutschen haben weniger als 30 Minuten.' Es sind also nicht alle, sondern nur ein Teil — die Aussage ist falsch. [PEDAGOGY-REWRITE: Vorherige Frage testete '50% vs 42%'-Unterscheidung, was zu feingranular fuer A2 ist. Vereinfacht auf klaren Hauptaussage-Test.]"
             }
           ]
         },
