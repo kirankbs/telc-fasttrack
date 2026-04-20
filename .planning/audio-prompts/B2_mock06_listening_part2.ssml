@@ -1,0 +1,192 @@
+<speak>
+  <!-- B2 Mock 06 — Teil 2 (10 True/False, playCount=1) -->
+  <!-- Moderator: de-DE-Wavenet-E (male) — interviewer -->
+  <!-- Expert Dr. Bergmann: de-DE-Wavenet-F (female) — Mobilitätsforscherin -->
+  <!-- B2 spec: natural speed 1.0x, continuous interview, no item-level pauses, played ONCE -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Hörverstehen, Teil 2. Sie hören ein Interview zum Thema Verkehrswende und nachhaltige Mobilität.
+      Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind.
+      Sie hören das Interview nur einmal.
+    </prosody>
+    <break time="10s"/>
+  </voice>
+
+  <!-- Intro and speaker presentation -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Guten Tag, liebe Hörerinnen und Hörer. In unserer heutigen Sendung sprechen wir über
+      die Verkehrswende in Deutschland – zwischen Bahn-Boom, Carsharing und den Debatten um
+      Overtourism. Unser Gast heute ist Dr. Anna Bergmann, Mobilitätsforscherin am
+      Wuppertal Institut für Klima, Umwelt, Energie. Herzlich willkommen, Frau Dr. Bergmann.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Vielen Dank, ich freue mich, hier zu sein.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q2 context: Bahn-Marktanteile -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Frau Dr. Bergmann, wir hören immer wieder vom sogenannten Bahn-Boom. Was sagen Ihre Zahlen?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Also, der Begriff Boom ist vielleicht etwas groß, aber unsere aktuellen Erhebungen zeigen,
+      dass die Bahn bei innerdeutschen Strecken in den vergangenen drei Jahren rund elf
+      Prozentpunkte dazugewonnen hat. Das ist ein Sprung, den wir so nicht erwartet hatten.
+      Besonders auf Verbindungen wie Berlin-München oder Frankfurt-Köln liegt die Bahn
+      inzwischen vor dem Flugzeug.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q3: elektrische Kurzstreckenflieger -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Gleichzeitig werden elektrische Kurzstreckenflieger als nächster großer Schritt gehandelt.
+      Sehen Sie darin eine ernsthafte Alternative?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Elektrische Kurzstreckenflieger klingen zwar attraktiv, aber man darf nicht vergessen:
+      die Technologie ist bislang weder marktreif noch skaliert. Ich sehe in der Schiene für
+      Strecken unter tausend Kilometern die einzige realistische Option. Da könnte ich mir
+      vorstellen, dass die Bahn auch im europäischen Maßstab stark zulegt – wenn die Grenzen
+      nicht mehr jede dritte Strecke zerreißen.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q4: Carsharing-Reichweite -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Eine aktuelle Studie des Verkehrsclubs Deutschland zeigt, dass Carsharing-Angebote in
+      den fünfzehn größten deutschen Städten weiterhin an Reichweite gewinnen.
+      Wie ordnen Sie das ein?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Das deckt sich mit unseren Daten. In den Ballungsräumen wächst Carsharing seit Jahren
+      kontinuierlich. Aber – und das ist entscheidend – Carsharing entfaltet seinen
+      klimafreundlichen Effekt nur dann, wenn es nahtlos mit Bus, Bahn und Fahrrad verzahnt ist.
+      Ein reines Parallelangebot bringt kaum etwas. Wer Carsharing nutzt, um das Zweitauto zu
+      ersetzen, reduziert CO2 erheblich. Wer es ergänzend zum eigenen Wagen nutzt, eben nicht.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q6: Overtourism auch in Deutschland -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Lassen Sie uns auf den Tourismus wechseln. Overtourism – ist das ein rein südeuropäisches
+      Phänomen?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Man hört oft, Overtourism sei ein rein südeuropäisches Phänomen – das stimmt so pauschal
+      nicht. Auch deutsche Ziele wie Heidelberg, Rothenburg oder die Sächsische Schweiz geraten
+      zunehmend an ihre Kapazitätsgrenzen. Das ist übrigens nicht nur ein Stadtproblem – auch
+      empfindliche Naturräume leiden unter der Verdichtung von Tagestouristen.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q7: Reisebusgruppen-Regelung -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Was empfehlen Sie betroffenen Kommunen? Sollten Reisebusgruppen einfach aus Innenstädten
+      verbannt werden?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Nein, das wäre zu schlicht. Sinnvoller als pauschale Verbote sind zeitfensterbasierte
+      Zugangsregeln und ausgewiesene Ankunftsparkplätze außerhalb der historischen Altstadt.
+      Die Besucher kommen weiterhin, werden aber gestaffelt und gelenkt. Das erhöht die
+      Aufenthaltsqualität für alle – auch für die Reisenden selbst.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q8: Deutschland-Ticket -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Stichwort öffentlicher Nahverkehr: Das Deutschland-Ticket – viele nennen es noch das
+      neunundvierzig-Euro-Ticket, auch wenn es längst teurer geworden ist. Was haben Sie
+      beobachtet?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Das Deutschland-Ticket hat im Regionalverkehr zu einem messbaren Anstieg der Fahrgastzahlen
+      geführt – bei uns zeigen die Daten ein Plus von zwölf Prozent gegenüber dem Vorjahr.
+      Besonders Berufspendlerinnen und Berufspendler in mittelgroßen Städten nutzen das Ticket
+      inzwischen regelmäßig. Eine seltene Erfolgsgeschichte in der deutschen Verkehrspolitik.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q9: Pendlerpauschale -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Manche fordern, die Pendlerpauschale für Autofahrer sofort abzuschaffen.
+      Wie sehen Sie das?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Die Pendlerpauschale in ihrer jetzigen Form setzt nach wie vor Anreize für das Auto –
+      das müsste längerfristig reformiert, nicht abgeschafft werden. Eine Abschaffung von heute
+      auf morgen würde viele Menschen in ländlichen Regionen finanziell hart treffen, ohne dass
+      es dort überhaupt Alternativen gäbe. Erst die Infrastruktur, dann die Finanzierungsregeln.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q10: Abschluss — Alltagsentscheidungen -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Zum Schluss: Wenn Sie einen Satz an unsere Hörerinnen und Hörer mitgeben müssten – was
+      wäre das?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Letzten Endes entsteht die Verkehrswende im Alltag – in den Entscheidungen jedes Einzelnen,
+      ergänzt durch einen klugen politischen Rahmen. Nur auf Regulierung zu setzen wäre naiv.
+      Aber auch nur auf individuelles Verhalten zu setzen wäre unfair. Es braucht beides – und
+      zwar gleichzeitig.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Frau Dr. Bergmann, ich danke Ihnen sehr für das Gespräch. Mehr zu diesem Thema finden Sie
+      auf unserer Website.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Danke Ihnen.
+    </prosody>
+  </voice>
+  <break time="2s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Ende von Teil 2. Bitte übertragen Sie Ihre Antworten auf den Antwortbogen.
+    </prosody>
+  </voice>
+</speak>

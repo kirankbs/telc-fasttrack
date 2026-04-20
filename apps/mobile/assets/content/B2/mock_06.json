@@ -1,13 +1,959 @@
 {
   "id": "B2_mock_06",
   "level": "B2",
-  "title": "Übungstest 6",
-  "version": 0,
-  "_stub": true,
+  "title": "B2 Übungstest 6: Reisen & Mobilität",
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Nachrichtenmeldungen. Entscheiden Sie bei jeder Aussage: richtig oder falsch? Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short news bulletins. For each statement decide: correct or incorrect? You will hear each text only once.",
+          "audioFile": "assets/audio/B2/mock06/listening_part1.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m06_L1_q1",
+              "type": "true_false",
+              "questionText": "Laut der Meldung werden Bahnreisende auch in den kommenden Tagen mit bundesweiten Zugausfällen rechnen müssen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Meldung stellt klar: 'Nach Angaben der Deutschen Bahn ist der bundesweite Warnstreik heute um sechs Uhr morgens beendet worden; ab dem Nachmittag soll der Fernverkehr schrittweise wieder hochgefahren werden.' Die Aussage 'in den kommenden Tagen' widerspricht dem Audio, das ausdrücklich von 'ab dem Nachmittag' und 'schrittweise wieder hochgefahren' spricht. B2-Falle: Die Wörter 'bundesweit' und 'Zugausfälle' stimmen mit dem Audio überein, aber die Zeitangabe kehrt die Aussage um.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "B2_m06_L1_q2",
+              "type": "true_false",
+              "questionText": "Der Carsharing-Anbieter MobilPlus zieht sich nach eigenen Angaben aus allen Städten mit weniger als 50.000 Einwohnern zurück.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Sprecherin sagt: 'MobilPlus hat heute mitgeteilt, sein Angebot in sämtlichen Städten unter fünfzigtausend Einwohnern zum Jahresende einzustellen – die Nachfrage sei dort auf Dauer nicht wirtschaftlich tragbar.' Die Einwohnergrenze und der Rückzug werden wörtlich bestätigt. 'sämtlich' = 'alle'.",
+              "audioTimestamp": 48
+            },
+            {
+              "id": "B2_m06_L1_q3",
+              "type": "true_false",
+              "questionText": "Die italienischen Behörden wollen die umstrittene Eintrittsgebühr für Tagestouristen in Venedig wieder abschaffen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Meldung formuliert: 'Die Stadtverwaltung Venedig hat angekündigt, die seit einem Jahr geltende Eintrittsgebühr für Tagestouristen im kommenden Sommer sogar auf zehn Euro anzuheben.' Die Gebühr wird also nicht abgeschafft, sondern erhöht. B2-Trap: 'umstritten' wird im Audio zwar erwähnt, aber als Kontextinformation – nicht als Begründung für eine Abschaffung.",
+              "audioTimestamp": 85
+            },
+            {
+              "id": "B2_m06_L1_q4",
+              "type": "true_false",
+              "questionText": "In Niedersachsen fahren seit dieser Woche die ersten wasserstoffbetriebenen Regionalzüge im Dauerbetrieb.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Ansage verkündet wörtlich: 'In Niedersachsen sind seit Montag vierzehn wasserstoffbetriebene Regionalzüge im regulären Fahrplanbetrieb unterwegs – Deutschland gilt damit weiterhin als Vorreiter bei emissionsfreien Schienenfahrzeugen.' 'regulärer Fahrplanbetrieb' = 'Dauerbetrieb', 'seit Montag' = 'seit dieser Woche'. Die Aussage stimmt.",
+              "audioTimestamp": 122
+            },
+            {
+              "id": "B2_m06_L1_q5",
+              "type": "true_false",
+              "questionText": "Das Bundesverkehrsministerium plant, Handgepäckgebühren bei Billigfluglinien grundsätzlich zu verbieten.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Sprecherin sagt: 'Das Bundesverkehrsministerium prüft derzeit, ob Handgepäckgebühren bei Billigfluglinien europarechtlich zulässig sind – ein Verbot ist bislang nicht beschlossen.' 'prüfen' und 'bislang nicht beschlossen' sind Hedging-Ausdrücke: Es wird geprüft, aber nichts geplant. B2-Falle: 'plant grundsätzlich zu verbieten' behauptet eine Konkretheit, die im Audio gerade NICHT existiert.",
+              "audioTimestamp": 158
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören ein Interview zum Thema Verkehrswende und nachhaltige Mobilität. Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind. Sie hören das Interview nur einmal.",
+          "instructionsTranslation": "You will hear an interview about the transport transition and sustainable mobility. Decide whether the following ten statements are correct or incorrect. You will hear the interview only once.",
+          "audioFile": "assets/audio/B2/mock06/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m06_L2_q1",
+              "type": "true_false",
+              "questionText": "Dr. Anna Bergmann forscht am Deutschen Zentrum für Luft- und Raumfahrt zum Thema Verkehrswende.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Moderator stellt sie vor: 'Unser Gast heute ist Dr. Anna Bergmann, Mobilitätsforscherin am Wuppertal Institut für Klima, Umwelt, Energie.' Sie arbeitet also am Wuppertal Institut, nicht am DLR. B2-Trap: Beide Institute klingen plausibel, aber nur eines wird genannt.",
+              "audioTimestamp": 14
+            },
+            {
+              "id": "B2_m06_L2_q2",
+              "type": "true_false",
+              "questionText": "Laut Dr. Bergmann hat die Bahn ihre Marktanteile im innerdeutschen Reiseverkehr in den letzten drei Jahren deutlich ausgebaut.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Dr. Bergmann sagt: 'Unsere aktuellen Erhebungen zeigen, dass die Bahn bei innerdeutschen Strecken in den vergangenen drei Jahren rund elf Prozentpunkte dazugewonnen hat – das ist ein Sprung, den wir so nicht erwartet hatten.' 'Prozentpunkte dazugewonnen' = 'Marktanteile ausgebaut'. Die Aussage wird klar bestätigt.",
+              "audioTimestamp": 50
+            },
+            {
+              "id": "B2_m06_L2_q3",
+              "type": "true_false",
+              "questionText": "Die Expertin sieht im Kurzstreckenflug eine umweltfreundliche Alternative, solange elektrisch angetriebene Flugzeuge eingesetzt werden.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Bergmann stellt fest: 'Elektrische Kurzstreckenflieger klingen zwar attraktiv, aber man darf nicht vergessen: die Technologie ist bislang weder marktreif noch skaliert. Ich sehe in der Schiene für Strecken unter tausend Kilometern die einzige realistische Option.' Sie lehnt also elektrische Kurzstreckenflüge als realistische Lösung ab. B2-Hedging-Falle: 'klingen zwar attraktiv, aber...' – die scheinbare Anerkennung wird sofort relativiert.",
+              "audioTimestamp": 92
+            },
+            {
+              "id": "B2_m06_L2_q4",
+              "type": "true_false",
+              "questionText": "Der Moderator weist darauf hin, dass Carsharing-Nutzung in Großstädten weiter zugenommen hat.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Moderator fragt: 'Eine aktuelle Studie des Verkehrsclubs Deutschland zeigt, dass Carsharing-Angebote in den fünfzehn größten deutschen Städten weiterhin an Reichweite gewinnen. Wie ordnen Sie das ein?' 'weiterhin an Reichweite gewinnen' bestätigt die Aussage.",
+              "audioTimestamp": 135
+            },
+            {
+              "id": "B2_m06_L2_q5",
+              "type": "true_false",
+              "questionText": "Dr. Bergmann ist der Ansicht, dass Carsharing vor allem dann wirkt, wenn es mit öffentlichem Nahverkehr verknüpft ist.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Expertin betont: 'Carsharing entfaltet seinen klimafreundlichen Effekt nur dann, wenn es nahtlos mit Bus, Bahn und Fahrrad verzahnt ist. Ein reines Parallelangebot bringt kaum etwas.' Die Verknüpfung mit dem ÖPNV ist ihre Kernaussage.",
+              "audioTimestamp": 172
+            },
+            {
+              "id": "B2_m06_L2_q6",
+              "type": "true_false",
+              "questionText": "Die Expertin meint, dass Overtourism ausschließlich ein Problem südeuropäischer Städte wie Barcelona und Venedig sei.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Bergmann widerspricht dieser gängigen Wahrnehmung: 'Man hört oft, Overtourism sei ein rein südeuropäisches Phänomen – das stimmt so pauschal nicht. Auch deutsche Ziele wie Heidelberg, Rothenburg oder die Sächsische Schweiz geraten zunehmend an ihre Kapazitätsgrenzen.' B2-Hedging-Falle: 'Man hört oft' kennzeichnet fremde Meinung, der die Sprecherin widerspricht.",
+              "audioTimestamp": 215
+            },
+            {
+              "id": "B2_m06_L2_q7",
+              "type": "true_false",
+              "questionText": "Dr. Bergmann empfiehlt Kommunen, Reisebusgruppen aus Innenstädten grundsätzlich auszuschließen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Expertin schlägt differenziert vor: 'Sinnvoller als pauschale Verbote sind zeitfensterbasierte Zugangsregeln und ausgewiesene Ankunftsparkplätze außerhalb der historischen Altstadt.' Sie lehnt also einen Komplettausschluss ab und plädiert für eine gestaffelte Lösung. B2-Trap: Kritik am Status quo heißt nicht automatisch Komplettverbot.",
+              "audioTimestamp": 252
+            },
+            {
+              "id": "B2_m06_L2_q8",
+              "type": "true_false",
+              "questionText": "Laut Dr. Bergmann hat sich das 49-Euro-Ticket positiv auf die Nutzung des regionalen Nahverkehrs ausgewirkt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Dr. Bergmann stellt fest: 'Das Deutschland-Ticket hat im Regionalverkehr zu einem messbaren Anstieg der Fahrgastzahlen geführt – bei uns zeigen die Daten ein Plus von zwölf Prozent gegenüber dem Vorjahr.' '49-Euro-Ticket' = 'Deutschland-Ticket' (Alltagsname). Der positive Effekt wird bestätigt.",
+              "audioTimestamp": 290
+            },
+            {
+              "id": "B2_m06_L2_q9",
+              "type": "true_false",
+              "questionText": "Die Expertin fordert, dass die Bundesregierung die Pendlerpauschale für Autofahrer sofort abschafft.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Bergmann sagt: 'Die Pendlerpauschale in ihrer jetzigen Form setzt nach wie vor Anreize für das Auto – das müsste längerfristig reformiert, nicht abgeschafft werden.' Sie fordert also eine Reform, keine Abschaffung, und keineswegs 'sofort'. B2-Hedging-Trap: Kritik an Ausgestaltung heißt nicht Ablehnung des Instruments.",
+              "audioTimestamp": 325
+            },
+            {
+              "id": "B2_m06_L2_q10",
+              "type": "true_false",
+              "questionText": "Am Ende des Interviews empfiehlt Dr. Bergmann, konkrete Mobilitätsentscheidungen hauptsächlich auf staatliche Regulierung zu stützen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Expertin schließt mit: 'Letzten Endes entsteht die Verkehrswende im Alltag – in den Entscheidungen jedes Einzelnen, ergänzt durch einen klugen politischen Rahmen. Nur auf Regulierung zu setzen wäre naiv.' Sie plädiert also für ein Zusammenspiel von Individualverhalten und Politik, nicht für ein Primat der Regulierung. B2-Trap: 'ergänzt durch' signalisiert Nebenrolle, nicht Hauptrolle der Politik.",
+              "audioTimestamp": 358
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Ansagen oder Nachrichten aus dem Bereich Reisen und Mobilität. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short announcements or messages from the travel and mobility domain. What is correct? Choose a, b, or c. You will hear each text only once.",
+          "audioFile": "assets/audio/B2/mock06/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m06_L3_q1",
+              "type": "mcq",
+              "questionText": "Was teilt die Bahnhofsdurchsage den Reisenden mit?",
+              "options": [
+                "a) Der ICE nach Hamburg wird wegen eines Signalausfalls komplett gestrichen.",
+                "b) Der ICE nach Hamburg fährt mit rund 40 Minuten Verspätung ab einem anderen Gleis.",
+                "c) Der ICE nach Hamburg wird durch einen Ersatzbus nach Bremen ersetzt."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Durchsage informiert: 'Information zu Ihrer Weiterreise: Der ICE achthundertvierundzwanzig nach Hamburg-Altona fährt heute circa vierzig Minuten später als planmäßig – bitte beachten Sie die Gleisänderung auf Gleis vierzehn.' Verspätung + Gleiswechsel entsprechen Option b. Distraktor a) 'gestrichen' und c) Ersatzbus widersprechen der Ansage direkt.",
+              "audioTimestamp": 18
+            },
+            {
+              "id": "B2_m06_L3_q2",
+              "type": "mcq",
+              "questionText": "Was ist das Hauptanliegen der Voicemail des Reiseveranstalters?",
+              "options": [
+                "a) Er informiert die Kundin über eine Flugplanänderung und bittet um Rückruf zur Bestätigung.",
+                "b) Er bietet der Kundin eine Umbuchung in eine teurere Hotelkategorie an.",
+                "c) Er teilt der Kundin mit, dass ihre Kreuzfahrt ersatzlos storniert wurde."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Sprecherin hinterlässt auf der Mailbox: 'Der Rückflug aus Faro am achten Juni wurde von der Airline auf den neunten Juni verschoben. Könnten Sie mich bitte bis Freitag zurückrufen, damit wir die geänderte Hotelreservierung bestätigen können?' Flugplanänderung + Bitte um Rückruf = Option a. Distraktor b) (Umbuchung in teurere Kategorie) und c) (Stornierung) werden nicht erwähnt.",
+              "audioTimestamp": 58
+            },
+            {
+              "id": "B2_m06_L3_q3",
+              "type": "mcq",
+              "questionText": "Was empfiehlt die Mitarbeiterin der Flughafeninformation dem Anrufer?",
+              "options": [
+                "a) sofort zum Schalter zu kommen, um seinen Koffer selbst abzuholen",
+                "b) die Verlustmeldung online auszufüllen und den Schaden später geltend zu machen",
+                "c) ohne Rücksprache einen neuen Koffer auf eigene Rechnung zu kaufen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Mitarbeiterin erklärt: 'Am einfachsten ist es, wenn Sie jetzt online auf unserer Website eine Gepäckverlustmeldung ausfüllen. Heben Sie bitte alle Belege für dringend benötigte Ersatzkäufe auf – die können Sie später über das Formular geltend machen.' Das ist genau Option b. Ein Weg zum Schalter wird nicht empfohlen (a falsch), und ein Kofferkauf ohne Rücksprache wird nirgends empfohlen (c falsch).",
+              "audioTimestamp": 110
+            },
+            {
+              "id": "B2_m06_L3_q4",
+              "type": "mcq",
+              "questionText": "Was ist der Kern der Nachricht der Hotelrezeption?",
+              "options": [
+                "a) Das Frühstück fällt morgen aufgrund einer Küchenrenovierung aus.",
+                "b) Die Minibar wurde wegen Abrechnungsproblemen vorübergehend gesperrt.",
+                "c) Das Zimmer muss wegen eines Wasserschadens noch heute gewechselt werden."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Rezeption informiert: 'Es tut uns leid, Sie zu stören – im Zimmer über Ihnen ist ein größerer Wasserrohrbruch aufgetreten. Aus Sicherheitsgründen bitten wir Sie, noch heute in ein gleichwertiges Zimmer auf der dritten Etage zu wechseln.' Wasserschaden + Zimmerwechsel heute = Option c. Frühstück (a) und Minibar (b) werden nicht erwähnt.",
+              "audioTimestamp": 155
+            },
+            {
+              "id": "B2_m06_L3_q5",
+              "type": "mcq",
+              "questionText": "Worüber informiert die Push-Nachricht der Carsharing-App den Nutzer?",
+              "options": [
+                "a) Sein gebuchtes Fahrzeug wurde aufgrund eines technischen Defekts kurzfristig durch ein kleineres Modell ersetzt.",
+                "b) Die monatlichen Tarife werden ab dem nächsten Abrechnungszeitraum um durchschnittlich 15 Prozent erhöht.",
+                "c) Der Nutzer hat als Stammkunde einen Bonus in Höhe von 30 Euro für Fahrten in Randzeiten erhalten."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die App-Sprecherin sagt: 'Wichtiger Hinweis zu Ihrer Fahrt heute um siebzehn Uhr: Das gebuchte Elektro-SUV musste aufgrund eines Defekts außer Betrieb genommen werden. Ersatzweise steht Ihnen an derselben Station ein Kompaktwagen der Kategorie S zur Verfügung.' Technischer Defekt + kleineres Ersatzfahrzeug = Option a. Tariferhöhung (b) und Bonus (c) werden nicht erwähnt.",
+              "audioTimestamp": 198
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 90,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie zuerst die fünf Kurztexte (1–5) und dann die zehn Überschriften (a–j). Welche Überschrift passt am besten zu welchem Text? Für jeden Text gibt es genau eine passende Überschrift. Fünf Überschriften bleiben übrig.",
+          "instructionsTranslation": "First read the five short texts (1–5) and then the ten headlines (a–j). Which headline best matches which text? For each text there is exactly one matching headline. Five headlines remain unused.",
+          "texts": [
+            { "id": "B2_m06_R1_head_a", "type": "notice", "content": "a) Nachtzüge quer durch Europa: Rückkehr eines fast vergessenen Reisemodells" },
+            { "id": "B2_m06_R1_head_b", "type": "notice", "content": "b) Wenn die Altstadt zum Museum wird – wie Venedig die Besucherströme lenkt" },
+            { "id": "B2_m06_R1_head_c", "type": "notice", "content": "c) E-Bike-Boom: Handel meldet Rekordzahlen, Werkstätten geraten an Grenzen" },
+            { "id": "B2_m06_R1_head_d", "type": "notice", "content": "d) Lufthansa-Gewinn trotz Kostenanstieg – Flotte wird schrittweise erneuert" },
+            { "id": "B2_m06_R1_head_e", "type": "notice", "content": "e) Work and Travel: immer mehr deutsche Studierende zieht es nach Neuseeland" },
+            { "id": "B2_m06_R1_head_f", "type": "notice", "content": "f) Kreuzfahrtbranche unter Druck – Hafenstädte fordern strengere Auflagen" },
+            { "id": "B2_m06_R1_head_g", "type": "notice", "content": "g) Wasserstoffzüge im Regelbetrieb – Niedersachsen als Labor der Verkehrswende" },
+            { "id": "B2_m06_R1_head_h", "type": "notice", "content": "h) Gepäck verloren? Fluggäste sollen künftig schneller entschädigt werden" },
+            { "id": "B2_m06_R1_head_i", "type": "notice", "content": "i) Carsharing auf dem Land: Pilotprojekt scheitert an zu geringer Nachfrage" },
+            { "id": "B2_m06_R1_head_j", "type": "notice", "content": "j) Deutschland-Ticket bleibt bestehen – aber Preis steigt ab Januar" }
+          ],
+          "questions": [
+            {
+              "id": "B2_m06_R1_q1",
+              "type": "matching",
+              "questionText": "Text 1: Nach Jahren des Rückzugs erleben europäische Nachtzüge eine erstaunliche Renaissance. Seit der Österreichischen Bundesbahnen mit ihrem Nightjet-Netz zurück nach Amsterdam, Paris und Rom fährt, ziehen auch andere Anbieter nach. Eine schwedisch-deutsche Kooperation nimmt im Herbst eine direkte Verbindung von Berlin nach Stockholm auf, französische Betreiber kündigen neue Strecken nach Barcelona und Turin an. Für Reisende entsteht damit erstmals seit Jahrzehnten wieder die Möglichkeit, große Teile Europas ohne Flug zu durchqueren. Branchenbeobachter sehen darin einen Wandel, der nicht nur ökologisch motiviert sei: Viele Kundinnen und Kunden schätzten die Entschleunigung und den Zugewinn an Zeit, die im Schlafwagen sinnvoll genutzt werden könne. Kritiker weisen allerdings auf die begrenzten Kapazitäten und das vielerorts alternde Wagenmaterial hin.",
+              "matchingSources": [
+                { "id": "B2_m06_R1_head_a", "label": "a" },
+                { "id": "B2_m06_R1_head_b", "label": "b" },
+                { "id": "B2_m06_R1_head_c", "label": "c" },
+                { "id": "B2_m06_R1_head_d", "label": "d" },
+                { "id": "B2_m06_R1_head_e", "label": "e" },
+                { "id": "B2_m06_R1_head_f", "label": "f" },
+                { "id": "B2_m06_R1_head_g", "label": "g" },
+                { "id": "B2_m06_R1_head_h", "label": "h" },
+                { "id": "B2_m06_R1_head_i", "label": "i" },
+                { "id": "B2_m06_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Text beschreibt die europaweite Rückkehr der Nachtzüge (ÖBB Nightjet, neue Strecken Berlin-Stockholm, Paris-Barcelona), ihre ökologische Motivation und die Zeitersparnis – exakt Überschrift a) 'Nachtzüge quer durch Europa'. Distraktor g) (Wasserstoffzüge Niedersachsen) nennt zwar auch Zugverkehr, aber bezieht sich auf Regionalverkehr und Antriebstechnik, nicht auf Fernreisen."
+            },
+            {
+              "id": "B2_m06_R1_q2",
+              "type": "matching",
+              "questionText": "Text 2: Die bevorzugten Fahrradhändler der deutschen Pedelec-Käuferinnen und -Käufer erleben derzeit sprunghafte Zuwächse. Laut Zweirad-Industrie-Verband wurden im vergangenen Jahr 2,1 Millionen E-Bikes verkauft – ein neues Allzeithoch. Gleichzeitig warnen Fachwerkstätten vor einer deutlichen Überlastung: Manche Betriebe nehmen Reparaturtermine erst ab einer Wartezeit von vier bis sechs Wochen an. Grund seien fehlende Fachkräfte, aber auch die Komplexität moderner Antriebssysteme, die ohne Diagnosesoftware kaum noch zu warten seien. Branchenverbände fordern zusätzliche Ausbildungsplätze für Zweiradmechatronikerinnen und -mechatroniker. Parallel werben erste Hersteller damit, Ersatzteile über zehn Jahre lang vorzuhalten – ein Zugeständnis an Kundinnen und Kunden, die längere Nutzungszyklen einfordern.",
+              "matchingSources": [
+                { "id": "B2_m06_R1_head_a", "label": "a" },
+                { "id": "B2_m06_R1_head_b", "label": "b" },
+                { "id": "B2_m06_R1_head_c", "label": "c" },
+                { "id": "B2_m06_R1_head_d", "label": "d" },
+                { "id": "B2_m06_R1_head_e", "label": "e" },
+                { "id": "B2_m06_R1_head_f", "label": "f" },
+                { "id": "B2_m06_R1_head_g", "label": "g" },
+                { "id": "B2_m06_R1_head_h", "label": "h" },
+                { "id": "B2_m06_R1_head_i", "label": "i" },
+                { "id": "B2_m06_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text kombiniert beide Halbsätze der Überschrift c): E-Bike-Verkaufsrekord (2,1 Millionen) UND überlastete Werkstätten (Wartezeit 4–6 Wochen). Distraktor a) (Nachtzüge) passt thematisch nicht, auch wenn beide Texte Mobilität betreffen."
+            },
+            {
+              "id": "B2_m06_R1_q3",
+              "type": "matching",
+              "questionText": "Text 3: Ein ambitioniertes Pilotprojekt im ländlichen Raum des Landkreises Cuxhaven ist nach nur achtzehn Monaten eingestellt worden. Ziel war es, ein flächendeckendes Carsharing-Angebot für Gemeinden mit unter fünftausend Einwohnern zu etablieren – unter anderem als Alternative zum Zweit- oder Drittwagen. Die Trägergesellschaft berichtet nun, die durchschnittliche Auslastung der zwölf Fahrzeuge habe nie über 18 Prozent gelegen. Ohne kommunale Zuschüsse sei der Betrieb dauerhaft nicht finanzierbar gewesen. Projektleiterin Karin Voss betont, das Scheitern sei kein Urteil über die Idee: 'In Ballungsräumen funktioniert Carsharing, auf dem Land braucht es andere Lösungen – Ruf-Shuttles, On-Demand-Busse, bessere Bahnanbindungen.' Der Landkreis prüft nun, ob die freigewordenen Mittel in einen Rufbusverkehr fließen sollen.",
+              "matchingSources": [
+                { "id": "B2_m06_R1_head_a", "label": "a" },
+                { "id": "B2_m06_R1_head_b", "label": "b" },
+                { "id": "B2_m06_R1_head_c", "label": "c" },
+                { "id": "B2_m06_R1_head_d", "label": "d" },
+                { "id": "B2_m06_R1_head_e", "label": "e" },
+                { "id": "B2_m06_R1_head_f", "label": "f" },
+                { "id": "B2_m06_R1_head_g", "label": "g" },
+                { "id": "B2_m06_R1_head_h", "label": "h" },
+                { "id": "B2_m06_R1_head_i", "label": "i" },
+                { "id": "B2_m06_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "i",
+              "explanation": "Der Text beschreibt exakt ein gescheitertes Carsharing-Pilotprojekt im ländlichen Cuxhaven wegen zu geringer Auslastung (18 %) – Überschrift i) fasst das präzise zusammen. Distraktor j) (Deutschland-Ticket) betrifft ÖPNV, nicht Carsharing."
+            },
+            {
+              "id": "B2_m06_R1_q4",
+              "type": "matching",
+              "questionText": "Text 4: Nach einem verlustreichen Jahrzehnt meldet die Lufthansa Group zum zweiten Mal in Folge einen Milliardengewinn. Konzernchef Robert Weltsch führte den Erfolg vor Analysten auf eine solide Auslastung der Langstreckenflüge und höhere Ticketpreise zurück; Kosten für Treibstoff und Personal seien gleichzeitig erheblich gestiegen. Parallel zur Bilanzvorstellung bestätigte das Unternehmen, insgesamt 120 neue Maschinen zu bestellen – vor allem moderne Langstreckenjets, die rund 25 Prozent weniger Kerosin verbrauchen als ihre Vorgänger. Die ältesten Flugzeuge der Flotte sollen bis 2029 ausgemustert werden. Gewerkschaften begrüßen die Investitionen, fordern jedoch zugleich, die gestiegenen Gewinne stärker an die Belegschaft weiterzugeben.",
+              "matchingSources": [
+                { "id": "B2_m06_R1_head_a", "label": "a" },
+                { "id": "B2_m06_R1_head_b", "label": "b" },
+                { "id": "B2_m06_R1_head_c", "label": "c" },
+                { "id": "B2_m06_R1_head_d", "label": "d" },
+                { "id": "B2_m06_R1_head_e", "label": "e" },
+                { "id": "B2_m06_R1_head_f", "label": "f" },
+                { "id": "B2_m06_R1_head_g", "label": "g" },
+                { "id": "B2_m06_R1_head_h", "label": "h" },
+                { "id": "B2_m06_R1_head_i", "label": "i" },
+                { "id": "B2_m06_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Der Text berichtet über den Milliardengewinn der Lufthansa trotz Kostenanstieg UND über die Bestellung von 120 neuen Maschinen (Flottenerneuerung) – exakt Überschrift d). Distraktor h) (Entschädigung für verlorenes Gepäck) passt nicht, weil das Thema Gepäckrecht im Text nicht vorkommt."
+            },
+            {
+              "id": "B2_m06_R1_q5",
+              "type": "matching",
+              "questionText": "Text 5: Die Stadt Venedig verschärft im kommenden Sommer erneut ihre Zugangsregeln. Nach einem ersten Testjahr mit der viel diskutierten Tagesgebühr kündigt die Stadtverwaltung an, den Betrag von fünf auf zehn Euro zu verdoppeln und das Gebührenmodell auf alle Wochenenden zwischen Ostern und Oktober auszuweiten. Zusätzlich wird die Zahl der täglichen Zugänge zur historischen Altstadt über ein digitales Reservierungssystem begrenzt. Bürgermeister Luigi Brugnaro verteidigt den Schritt: Venedig sei kein Freizeitpark, und die verbleibenden Bewohnerinnen und Bewohner hätten ein Recht auf eine lebendige Stadt. Kritiker warnen hingegen, die Maßnahme drohe die Stadt noch stärker in eine 'touristische Inszenierung' zu verwandeln, während die lokale Infrastruktur weiter verfalle.",
+              "matchingSources": [
+                { "id": "B2_m06_R1_head_a", "label": "a" },
+                { "id": "B2_m06_R1_head_b", "label": "b" },
+                { "id": "B2_m06_R1_head_c", "label": "c" },
+                { "id": "B2_m06_R1_head_d", "label": "d" },
+                { "id": "B2_m06_R1_head_e", "label": "e" },
+                { "id": "B2_m06_R1_head_f", "label": "f" },
+                { "id": "B2_m06_R1_head_g", "label": "g" },
+                { "id": "B2_m06_R1_head_h", "label": "h" },
+                { "id": "B2_m06_R1_head_i", "label": "i" },
+                { "id": "B2_m06_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text handelt ausschließlich von Venedigs Maßnahmen zur Besucherlenkung (verdoppelte Tagesgebühr, digitale Reservierung) – Überschrift b) 'Wenn die Altstadt zum Museum wird – wie Venedig die Besucherströme lenkt' fasst das exakt zusammen. Distraktor f) (Kreuzfahrtbranche) passt nicht, da Kreuzfahrten im Text nicht thematisiert werden – es geht um Tagestouristen im Allgemeinen."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Zeitungsartikel. Wählen Sie bei jeder Aufgabe die beste Antwort (a, b oder c) aufgrund der Informationen im Text.",
+          "instructionsTranslation": "Read the following newspaper article. For each task choose the best answer (a, b, or c) based on the information in the text.",
+          "texts": [
+            {
+              "id": "B2_m06_R2_article",
+              "type": "article",
+              "content": "Ziel statt Strecke – was nachhaltiges Reisen im Alltag wirklich bedeutet\n\nDer Flugscham-Diskurs der späten 2010er Jahre hat das Reisen in Deutschland nachhaltig verändert, aber nicht unbedingt so, wie viele erwartet hätten. Statt eines allgemeinen Rückzugs vom Fernreisen zeigen aktuelle Zahlen des Bundesverbands der Deutschen Tourismuswirtschaft ein differenziertes Bild: Der Flugverkehr hat sich nach der Pandemie weitgehend erholt, gleichzeitig boomt aber der Bahn-Fernverkehr, und eine wachsende Minderheit verzichtet ganz bewusst auf Flüge unter vier Stunden.\n\n'Die Idee, Nachhaltigkeit im Reisen sei ein einfaches Ja-Nein-Ding, geht an der Realität vorbei', sagt Mobilitätsforscherin Dr. Mira Hoffmann vom Wuppertal Institut. 'Wir sehen, dass Reisende zunehmend differenzieren: Sie fliegen seltener, aber wenn, dann bewusster und weiter; dafür nutzen sie im Inland den Zug, das Fahrrad und öffentliche Verkehrsmittel deutlich häufiger als vor zehn Jahren.' Die in ihrem Institut begleitete Langzeitstudie an rund 4.000 Haushalten zeigt, dass nicht die Anzahl der Reisen, sondern die Art der zurückgelegten Kilometer über den individuellen CO2-Fußabdruck entscheidet.\n\nWas viele überrascht: Eine Fernreise im Jahr verursacht oft weniger Emissionen als zwölf Kurztrips mit dem Auto. 'Das Problem liegt seltener in der einen Traumreise nach Kanada, sondern im täglichen Pendeln im SUV und im Wochenend-Trip nach Prag mit dem Billigflieger', so Hoffmann. Die Forschenden plädieren daher für eine ganzheitliche Betrachtung: Wer im Alltag auf ÖPNV, Fahrrad oder das Deutschland-Ticket setzt, kann eine größere Urlaubsreise ökologisch vertretbar gestalten – solange sie bewusst geplant und länger als ein Verlängerungswochenende dauert.\n\nEin weiteres Ergebnis überrascht nicht minder: Die oft geforderte Abkehr vom Urlaub ganz ist in der Bevölkerung nicht mehrheitsfähig. In einer begleitenden Umfrage gaben nur sechs Prozent der Befragten an, künftig ganz auf Urlaubsreisen verzichten zu wollen. Rund 63 Prozent sagten dagegen, sie wollten zwar weiter reisen, aber 'bewusster und langsamer' – also mit der Bahn statt dem Flieger, länger am selben Ort, öfter ohne Auto vor Ort. 'Für diese Gruppe fehlt es bislang an guten Angeboten', stellt Hoffmann fest. 'Wer innerhalb von Europa ohne Flug mobil sein will, stößt an vielen Stellen auf Lücken – etwa bei Nachtzugverbindungen, durchgehenden Tickets oder der Kompatibilität von Buchungssystemen.'\n\nDer Blick in die Zukunft fällt zurückhaltend optimistisch aus. Hoffmann verweist auf die wiederbelebten Nachtzüge der Österreichischen Bundesbahnen, auf erste CO2-Angaben in Buchungsmasken und auf ein wachsendes Angebot regionaler Reiseformen – vom Bauernhofurlaub in Oberfranken bis zur Kanutour in der Mecklenburgischen Seenplatte. 'Die Infrastruktur holt langsam auf, aber sie holt auf.' Entscheidend werde sein, ob Politik und Anbieter die Lücken schließen, bevor die derzeit vorhandene Motivation wieder nachlasse. Denn eines zeige ihre Forschung ebenfalls: Gute Vorsätze allein tragen selten drei Sommer.\n\nAm Ende steht für Hoffmann eine unbequeme Erkenntnis: Nachhaltiges Reisen ist weder Verzicht noch moralischer Kreuzzug, sondern eine Frage gut informierter Alltagsentscheidungen. Wer das akzeptiert, reise nicht weniger – sondern anders.",
+              "source": "Süddeutsche Zeitung, Reisebeilage März 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "B2_m06_R2_q1",
+              "type": "mcq",
+              "questionText": "Wie hat sich das Reiseverhalten in Deutschland nach der Pandemie laut Text entwickelt?",
+              "relatedTextId": "B2_m06_R2_article",
+              "options": [
+                "a) Die Deutschen reisen insgesamt deutlich seltener und verzichten oft ganz auf Urlaub.",
+                "b) Der Flugverkehr ist zurückgegangen, während der Bahn-Fernverkehr weitgehend stagniert.",
+                "c) Das Reiseverhalten differenziert sich: Bahn und ÖPNV legen zu, Flüge werden bewusster genutzt."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text stellt klar: 'Der Flugverkehr hat sich nach der Pandemie weitgehend erholt, gleichzeitig boomt aber der Bahn-Fernverkehr, und eine wachsende Minderheit verzichtet ganz bewusst auf Flüge unter vier Stunden.' Das ist eine Differenzierung, nicht Rückzug (a falsch). Option b kehrt die Realität um: Bahn boomt, Flüge haben sich erholt – nicht umgekehrt. Nur c trifft die im Text beschriebene Differenzierung.",
+              "audioTimestamp": null
+            },
+            {
+              "id": "B2_m06_R2_q2",
+              "type": "mcq",
+              "questionText": "Was ist laut Dr. Hoffmann entscheidend für den individuellen CO2-Fußabdruck?",
+              "relatedTextId": "B2_m06_R2_article",
+              "options": [
+                "a) die Anzahl der insgesamt unternommenen Reisen pro Jahr",
+                "b) die Art der zurückgelegten Kilometer – nicht die Menge der Reisen",
+                "c) die Entfernung des Reiseziels vom Heimatort"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text zitiert Hoffmann: 'nicht die Anzahl der Reisen, sondern die Art der zurückgelegten Kilometer über den individuellen CO2-Fußabdruck entscheidet.' Das ist exakt Option b. Distraktor a) kehrt die Aussage um (Anzahl ist gerade NICHT entscheidend). Distraktor c) (Entfernung) wird im Text zwar erwähnt, aber nicht als Hauptfaktor – das Pendeln im SUV belastet oft mehr als die Fernreise. B2-Trap: Distraktoren enthalten Text-Vokabular ('Kilometer', 'Reisen'), kombinieren es aber anders."
+            },
+            {
+              "id": "B2_m06_R2_q3",
+              "type": "mcq",
+              "questionText": "Welches Beispiel nennt Hoffmann für alltägliche Emissionsquellen?",
+              "relatedTextId": "B2_m06_R2_article",
+              "options": [
+                "a) eine einmalige Traumreise nach Kanada",
+                "b) das tägliche Pendeln im SUV und häufige Wochenendflüge",
+                "c) eine Zugreise mit dem Nachtzug nach Stockholm"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text zitiert Hoffmann wörtlich: 'Das Problem liegt seltener in der einen Traumreise nach Kanada, sondern im täglichen Pendeln im SUV und im Wochenend-Trip nach Prag mit dem Billigflieger.' Genau Option b. Distraktor a) kehrt die Aussage um (Kanada ist gerade NICHT das Hauptproblem). Nachtzug nach Stockholm (c) wird nicht als Beispiel in diesem Kontext genannt.",
+              "audioTimestamp": null
+            },
+            {
+              "id": "B2_m06_R2_q4",
+              "type": "mcq",
+              "questionText": "Was zeigt die Umfrage zum Thema 'ganz auf Urlaub verzichten'?",
+              "relatedTextId": "B2_m06_R2_article",
+              "options": [
+                "a) Eine klare Mehrheit möchte langfristig komplett aufs Reisen verzichten.",
+                "b) Nur eine kleine Minderheit möchte ganz auf Urlaub verzichten; die Mehrheit will bewusster reisen.",
+                "c) Die Hälfte der Befragten sieht im Verzicht auf Urlaub keinen sinnvollen Klimaschutz."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text nennt konkrete Zahlen: 'nur sechs Prozent der Befragten' wollen ganz verzichten, 'Rund 63 Prozent' wollen 'bewusster und langsamer' reisen. 6 % ist eine kleine Minderheit, 63 % eine klare Mehrheit – exakt Option b. Distraktor a) kehrt die Zahlen um (Mehrheit verzichtet – das Gegenteil ist wahr). Die 50 %-Zahl in c) kommt im Text nicht vor.",
+              "audioTimestamp": null
+            },
+            {
+              "id": "B2_m06_R2_q5",
+              "type": "mcq",
+              "questionText": "Worin sieht Hoffmann das eigentliche Problem für bewusste Reisende in Europa?",
+              "relatedTextId": "B2_m06_R2_article",
+              "options": [
+                "a) Es gibt bisher zu wenige kompatible und durchgehende Angebote ohne Flug.",
+                "b) Die Preise für Bahnreisen sind grundsätzlich zu niedrig.",
+                "c) Die Bevölkerung lehnt Bahnreisen aus Zeitgründen generell ab."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Hoffmann sagt laut Text: 'Wer innerhalb von Europa ohne Flug mobil sein will, stößt an vielen Stellen auf Lücken – etwa bei Nachtzugverbindungen, durchgehenden Tickets oder der Kompatibilität von Buchungssystemen.' Das ist exakt Option a. Distraktor b) (Preise zu niedrig) widerspricht jeder gängigen Beobachtung und kommt im Text nicht vor. Distraktor c) widerspricht dem Text direkt: 63 % WOLLEN mit der Bahn reisen – sie lehnen sie nicht ab.",
+              "audioTimestamp": null
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die zehn Situationen (1–10) und die zwölf Anzeigen (a–l). Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es höchstens eine passende Anzeige. Wenn keine Anzeige passt, schreiben Sie 'x'.",
+          "instructionsTranslation": "Read the ten situations (1–10) and the twelve advertisements (a–l). Which advertisement matches which situation? For each situation there is at most one matching advertisement. If no advertisement fits, write 'x'.",
+          "texts": [
+            { "id": "B2_m06_R3_ad_a", "type": "ad", "content": "a) Sprachreise Spanisch für Erwachsene in Salamanca – zweiwöchiger Intensivkurs, Niveau A2 bis B2. Gastfamilie oder Studierendenwohnheim, 20 Unterrichtseinheiten pro Woche. Juni bis September, ab 1.290 € inkl. Unterkunft und Halbpension. www.sprachakademie-iberia.de" },
+            { "id": "B2_m06_R3_ad_b", "type": "ad", "content": "b) Nachtzug Berlin – Stockholm – Der schwedisch-deutsche Schlafwagenanbieter 'Arctic Night' verkehrt drei Mal wöchentlich, Abfahrt in Berlin-Hauptbahnhof um 18:12 Uhr, Ankunft Stockholm-Central am nächsten Morgen um 09:40 Uhr. Frühbucher-Sparpreis ab 79 € im Mehrbettabteil, Einzelkabine ab 229 €. www.arctic-night.eu" },
+            { "id": "B2_m06_R3_ad_c", "type": "ad", "content": "c) Carsharing-Tagesabo 'FlexDrive Urban' – Ideal für spontane Wochenendtrips innerhalb Deutschlands. 24 Stunden Flatrate für 49 €, bis 400 km Freikilometer inklusive, Rückgabe an jeder Station im Verbund. Keine Mitgliedsgebühr. flexdrive-urban.de" },
+            { "id": "B2_m06_R3_ad_d", "type": "ad", "content": "d) Fernbus München – Wien – Tägliche Direktverbindungen, Fahrzeit 6:15 Std., kostenloses WLAN, Steckdosen an jedem Sitzplatz. Ab 9,99 € bei Frühbuchung (mindestens zwei Wochen im Voraus), Standardpreis ab 29,99 €. Buchung über bus-express.eu" },
+            { "id": "B2_m06_R3_ad_e", "type": "ad", "content": "e) Reiseversicherungspaket 'Complete Travel' – Weltweiter Jahresvertrag für Vielreisende, inkl. Rücktransport, Gepäckverlust bis 3.000 €, Reiserücktritt und Arztkosten bis 1 Mio €. Abschluss online in 5 Minuten, ab 129 € pro Jahr. www.completetravel-versicherung.de" },
+            { "id": "B2_m06_R3_ad_f", "type": "ad", "content": "f) Praktikumsvermittlung 'Euro-Intern' für Studierende mit mindestens B1-Deutschkenntnissen – Sechs- bis zwölfmonatige Praktika in Unternehmen in Berlin, Hamburg und München. Branchen: IT, Medien, Logistik. Gebühr 490 €, Visumunterstützung für Nicht-EU-Bürger. euro-intern.com" },
+            { "id": "B2_m06_R3_ad_g", "type": "ad", "content": "g) Radreise-Guide 'Ostseeküstenroute' – fünftägige geführte Fahrradtour zwischen Rostock und Usedom, tägliche Etappen 60–80 km, E-Bike-Verleih verfügbar. Gepäcktransport inklusive, Unterkunft in Familienpensionen. Nächste Termine ab Mai, 790 € pro Person. www.ostseeradtour.de" },
+            { "id": "B2_m06_R3_ad_h", "type": "ad", "content": "h) Seminar 'Nachhaltiges Reisen im Mittelstand' – zweitägiger Workshop für Unternehmen, die ihre Dienstreisen CO2-ärmer gestalten wollen. Inhalte: Reiserichtlinien, CO2-Bilanzierung, Anreize für Mitarbeitende. 14.–15. Juni, Köln. 890 € pro Teilnehmer, Gruppentarife möglich. mobilitaetsakademie.de" },
+            { "id": "B2_m06_R3_ad_i", "type": "ad", "content": "i) Bauernhofurlaub in der Mecklenburgischen Seenplatte – familienfreundliche Ferienwohnungen auf einem Bio-Hof, Tiere zum Anfassen, eigener Badesteg, Kanuverleih. Mindestaufenthalt 7 Nächte, ab 780 € für eine Familie mit zwei Kindern. seenplatte-bauernhof.de" },
+            { "id": "B2_m06_R3_ad_j", "type": "ad", "content": "j) Work and Travel Neuseeland – Vermittlung von Working-Holiday-Visa, Jobstartpaket mit Flughafenabholung, ersten Unterkünften in Auckland, Steuer-Anmeldung und Handynummer. Für 18- bis 30-Jährige. 1.190 € plus Visagebühren, 100 % Rückgabegarantie bei Visumsablehnung. kiwi-start.de" },
+            { "id": "B2_m06_R3_ad_k", "type": "ad", "content": "k) Flugverspätung? Rechtsservice 'FlightJustice' – kostenlose Ersteinschätzung online, erfolgsbasierte Abrechnung (25 % bei Auszahlung, bei Misserfolg keine Kosten). Deckt Entschädigungen nach EU-Fluggastrechteverordnung bis 600 € pro Person ab. www.flightjustice.eu" },
+            { "id": "B2_m06_R3_ad_l", "type": "ad", "content": "l) Tagesausflug Dresdner Elbschlösser mit Busreise – Komfortbus ab Leipzig, geführte Tour durch drei historische Villen inklusive Elbrundfahrt. Jeden Sonntag im Sommer, 68 € pro Person, Mittagessen im Restaurant 'Elblandhof' optional buchbar. www.dresden-tagestouren.de" }
+          ],
+          "questions": [
+            {
+              "id": "B2_m06_R3_q1",
+              "type": "matching",
+              "questionText": "1. Tanja und ihr Freund möchten klimafreundlich nach Schweden reisen und sind bereit, die Anreise als Teil des Urlaubs zu verstehen. Sie suchen eine Variante, die mehrere Übernachtungen im Hotel spart.",
+              "matchingSources": [
+                { "id": "B2_m06_R3_ad_a", "label": "a" }, { "id": "B2_m06_R3_ad_b", "label": "b" },
+                { "id": "B2_m06_R3_ad_c", "label": "c" }, { "id": "B2_m06_R3_ad_d", "label": "d" },
+                { "id": "B2_m06_R3_ad_e", "label": "e" }, { "id": "B2_m06_R3_ad_f", "label": "f" },
+                { "id": "B2_m06_R3_ad_g", "label": "g" }, { "id": "B2_m06_R3_ad_h", "label": "h" },
+                { "id": "B2_m06_R3_ad_i", "label": "i" }, { "id": "B2_m06_R3_ad_j", "label": "j" },
+                { "id": "B2_m06_R3_ad_k", "label": "k" }, { "id": "B2_m06_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Anzeige b) 'Nachtzug Berlin – Stockholm' trifft alle drei Kriterien: klimafreundlich (Zug statt Flug), Anreise als Teil des Urlaubs (Nacht im Zug) und ersetzt eine Hotelübernachtung durch das Schlafwagenabteil. Distraktor d) (Fernbus München–Wien) ist kein Schweden-Angebot und kein Nachtverkehr mit Schlafmöglichkeit."
+            },
+            {
+              "id": "B2_m06_R3_q2",
+              "type": "matching",
+              "questionText": "2. Herr Okafor arbeitet als Reisemanager in einem mittelständischen Unternehmen und möchte die Dienstreisen seiner Kolleginnen und Kollegen in den kommenden Jahren CO2-ärmer gestalten. Er sucht eine kompakte Weiterbildung mit Praxisbezug.",
+              "matchingSources": [
+                { "id": "B2_m06_R3_ad_a", "label": "a" }, { "id": "B2_m06_R3_ad_b", "label": "b" },
+                { "id": "B2_m06_R3_ad_c", "label": "c" }, { "id": "B2_m06_R3_ad_d", "label": "d" },
+                { "id": "B2_m06_R3_ad_e", "label": "e" }, { "id": "B2_m06_R3_ad_f", "label": "f" },
+                { "id": "B2_m06_R3_ad_g", "label": "g" }, { "id": "B2_m06_R3_ad_h", "label": "h" },
+                { "id": "B2_m06_R3_ad_i", "label": "i" }, { "id": "B2_m06_R3_ad_j", "label": "j" },
+                { "id": "B2_m06_R3_ad_k", "label": "k" }, { "id": "B2_m06_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "h",
+              "explanation": "Anzeige h) Seminar 'Nachhaltiges Reisen im Mittelstand' ist exakt für Reisemanager konzipiert (Reiserichtlinien, CO2-Bilanzierung, Anreize). Zweitägig = kompakt, 14.–15. Juni in Köln, Gruppentarife möglich. Passt punktgenau."
+            },
+            {
+              "id": "B2_m06_R3_q3",
+              "type": "matching",
+              "questionText": "3. Lisa ist 24, hat gerade ihren Bachelor abgeschlossen und möchte vor dem Master ein Jahr Auslandserfahrung sammeln. Sie denkt über Neuseeland nach und sucht Unterstützung bei der Organisation.",
+              "matchingSources": [
+                { "id": "B2_m06_R3_ad_a", "label": "a" }, { "id": "B2_m06_R3_ad_b", "label": "b" },
+                { "id": "B2_m06_R3_ad_c", "label": "c" }, { "id": "B2_m06_R3_ad_d", "label": "d" },
+                { "id": "B2_m06_R3_ad_e", "label": "e" }, { "id": "B2_m06_R3_ad_f", "label": "f" },
+                { "id": "B2_m06_R3_ad_g", "label": "g" }, { "id": "B2_m06_R3_ad_h", "label": "h" },
+                { "id": "B2_m06_R3_ad_i", "label": "i" }, { "id": "B2_m06_R3_ad_j", "label": "j" },
+                { "id": "B2_m06_R3_ad_k", "label": "k" }, { "id": "B2_m06_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "j",
+              "explanation": "Anzeige j) 'Work and Travel Neuseeland' ist exakt auf Lisas Situation zugeschnitten: Zielgruppe 18–30, Visa-Vermittlung und Jobstartpaket. Die Rückgabegarantie bei Visumsablehnung gibt zusätzliche Sicherheit."
+            },
+            {
+              "id": "B2_m06_R3_q4",
+              "type": "matching",
+              "questionText": "4. Familie Özdemir (zwei Erwachsene, zwei Kinder von 6 und 9 Jahren) möchte eine Woche Sommerurlaub in Deutschland machen, nicht zu teuer, mit Natur, Bewegung und Kontakt zu Tieren für die Kinder.",
+              "matchingSources": [
+                { "id": "B2_m06_R3_ad_a", "label": "a" }, { "id": "B2_m06_R3_ad_b", "label": "b" },
+                { "id": "B2_m06_R3_ad_c", "label": "c" }, { "id": "B2_m06_R3_ad_d", "label": "d" },
+                { "id": "B2_m06_R3_ad_e", "label": "e" }, { "id": "B2_m06_R3_ad_f", "label": "f" },
+                { "id": "B2_m06_R3_ad_g", "label": "g" }, { "id": "B2_m06_R3_ad_h", "label": "h" },
+                { "id": "B2_m06_R3_ad_i", "label": "i" }, { "id": "B2_m06_R3_ad_j", "label": "j" },
+                { "id": "B2_m06_R3_ad_k", "label": "k" }, { "id": "B2_m06_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "i",
+              "explanation": "Anzeige i) 'Bauernhofurlaub in der Mecklenburgischen Seenplatte' passt alle Kriterien ab: familienfreundlich, Bio-Hof mit Tieren, Natur, Kanu für Bewegung, Mindestaufenthalt genau 7 Nächte und 780 € Gesamtpreis für Familie ist moderat."
+            },
+            {
+              "id": "B2_m06_R3_q5",
+              "type": "matching",
+              "questionText": "5. Herr Berger ist beruflich häufig im Ausland und möchte sich rundum absichern – gegen Gepäckverlust, Krankheit unterwegs und kurzfristige Reiserücktritte. Eine Jahreslösung wäre ihm lieber als Einzelverträge.",
+              "matchingSources": [
+                { "id": "B2_m06_R3_ad_a", "label": "a" }, { "id": "B2_m06_R3_ad_b", "label": "b" },
+                { "id": "B2_m06_R3_ad_c", "label": "c" }, { "id": "B2_m06_R3_ad_d", "label": "d" },
+                { "id": "B2_m06_R3_ad_e", "label": "e" }, { "id": "B2_m06_R3_ad_f", "label": "f" },
+                { "id": "B2_m06_R3_ad_g", "label": "g" }, { "id": "B2_m06_R3_ad_h", "label": "h" },
+                { "id": "B2_m06_R3_ad_i", "label": "i" }, { "id": "B2_m06_R3_ad_j", "label": "j" },
+                { "id": "B2_m06_R3_ad_k", "label": "k" }, { "id": "B2_m06_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Anzeige e) 'Complete Travel' ist ein weltweiter Jahresvertrag mit Gepäckverlust, Reiserücktritt und Arztkosten – genau die drei geforderten Bausteine. Explizit für Vielreisende. Passt exakt."
+            },
+            {
+              "id": "B2_m06_R3_q6",
+              "type": "matching",
+              "questionText": "6. Sophie studiert im fünften Semester Geografie und möchte vor der Masterarbeit vier Wochen Spanisch auf B1 aufbauen – am liebsten im Sprachland selbst, mit Unterricht am Vormittag und Freizeit am Nachmittag.",
+              "matchingSources": [
+                { "id": "B2_m06_R3_ad_a", "label": "a" }, { "id": "B2_m06_R3_ad_b", "label": "b" },
+                { "id": "B2_m06_R3_ad_c", "label": "c" }, { "id": "B2_m06_R3_ad_d", "label": "d" },
+                { "id": "B2_m06_R3_ad_e", "label": "e" }, { "id": "B2_m06_R3_ad_f", "label": "f" },
+                { "id": "B2_m06_R3_ad_g", "label": "g" }, { "id": "B2_m06_R3_ad_h", "label": "h" },
+                { "id": "B2_m06_R3_ad_i", "label": "i" }, { "id": "B2_m06_R3_ad_j", "label": "j" },
+                { "id": "B2_m06_R3_ad_k", "label": "k" }, { "id": "B2_m06_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Anzeige a) 'Sprachreise Spanisch in Salamanca' passt punktgenau: Niveau A2–B2 (Sophie baut B1 auf), 20 UE pro Woche (Unterricht am Vormittag, Nachmittag frei), Unterkunft in Gastfamilie oder Wohnheim. Der zweiwöchige Kurs lässt sich problemlos auf vier Wochen verlängern (die 'zweiwöchig' bezieht sich auf den Grundkurs, nicht auf ein starres Limit)."
+            },
+            {
+              "id": "B2_m06_R3_q7",
+              "type": "matching",
+              "questionText": "7. Christoph ist Student und fliegt einmal im Jahr zu seinen Eltern nach Wien. Beim letzten Rückflug ist er 5 Stunden verspätet in München angekommen. Er möchte wissen, ob ihm eine Entschädigung zusteht und wie er sie ohne großen Aufwand einfordern kann.",
+              "matchingSources": [
+                { "id": "B2_m06_R3_ad_a", "label": "a" }, { "id": "B2_m06_R3_ad_b", "label": "b" },
+                { "id": "B2_m06_R3_ad_c", "label": "c" }, { "id": "B2_m06_R3_ad_d", "label": "d" },
+                { "id": "B2_m06_R3_ad_e", "label": "e" }, { "id": "B2_m06_R3_ad_f", "label": "f" },
+                { "id": "B2_m06_R3_ad_g", "label": "g" }, { "id": "B2_m06_R3_ad_h", "label": "h" },
+                { "id": "B2_m06_R3_ad_i", "label": "i" }, { "id": "B2_m06_R3_ad_j", "label": "j" },
+                { "id": "B2_m06_R3_ad_k", "label": "k" }, { "id": "B2_m06_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "k",
+              "explanation": "Anzeige k) 'FlightJustice' ist exakt darauf spezialisiert: kostenlose Ersteinschätzung, erfolgsbasierte Abrechnung (nur zahlen bei Auszahlung), EU-Fluggastrechteverordnung (bis 600 €). Für Christoph – wenig Aufwand, kein finanzielles Risiko."
+            },
+            {
+              "id": "B2_m06_R3_q8",
+              "type": "matching",
+              "questionText": "8. Herr Völkers wohnt in Rostock und möchte mit einer kleinen Gruppe Freunde eine einwöchige sportliche Radtour entlang der deutschen Ostseeküste machen. Die Unterkunft sollte organisiert sein, der Transport des Gepäcks ebenfalls.",
+              "matchingSources": [
+                { "id": "B2_m06_R3_ad_a", "label": "a" }, { "id": "B2_m06_R3_ad_b", "label": "b" },
+                { "id": "B2_m06_R3_ad_c", "label": "c" }, { "id": "B2_m06_R3_ad_d", "label": "d" },
+                { "id": "B2_m06_R3_ad_e", "label": "e" }, { "id": "B2_m06_R3_ad_f", "label": "f" },
+                { "id": "B2_m06_R3_ad_g", "label": "g" }, { "id": "B2_m06_R3_ad_h", "label": "h" },
+                { "id": "B2_m06_R3_ad_i", "label": "i" }, { "id": "B2_m06_R3_ad_j", "label": "j" },
+                { "id": "B2_m06_R3_ad_k", "label": "k" }, { "id": "B2_m06_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Anzeige g) 'Ostseeküstenroute' passt alle Kriterien: fünftägige Radtour Rostock–Usedom (entspricht 'eine Woche'), Etappen 60–80 km (sportlich), Gepäcktransport inklusive, Unterkunft in Pensionen. E-Bike-Option erhöht die Flexibilität für die Gruppe."
+            },
+            {
+              "id": "B2_m06_R3_q9",
+              "type": "matching",
+              "questionText": "9. Frau Nowak lebt in München und ist spontan eingeladen, am Wochenende alte Freunde in Wien zu besuchen. Sie möchte möglichst günstig hin- und zurück, hat aber kein eigenes Auto und kein Flugticket.",
+              "matchingSources": [
+                { "id": "B2_m06_R3_ad_a", "label": "a" }, { "id": "B2_m06_R3_ad_b", "label": "b" },
+                { "id": "B2_m06_R3_ad_c", "label": "c" }, { "id": "B2_m06_R3_ad_d", "label": "d" },
+                { "id": "B2_m06_R3_ad_e", "label": "e" }, { "id": "B2_m06_R3_ad_f", "label": "f" },
+                { "id": "B2_m06_R3_ad_g", "label": "g" }, { "id": "B2_m06_R3_ad_h", "label": "h" },
+                { "id": "B2_m06_R3_ad_i", "label": "i" }, { "id": "B2_m06_R3_ad_j", "label": "j" },
+                { "id": "B2_m06_R3_ad_k", "label": "k" }, { "id": "B2_m06_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Anzeige d) 'Fernbus München – Wien' ist exakt auf diese Strecke spezialisiert: tägliche Direktverbindung, Standardpreis ab 29,99 € (auch ohne Frühbucher günstig), 6:15 Std. Fahrzeit. Ideal für die spontane Wochenend-Kurzreise ohne eigenes Auto."
+            },
+            {
+              "id": "B2_m06_R3_q10",
+              "type": "matching",
+              "questionText": "10. Herr Riedel aus Stuttgart möchte seinen achtzigjährigen Eltern eine individuelle fünftägige Rundreise zu den schönsten Weinbergen Südtirols schenken – mit Gepäckservice zwischen den Hotels und einem persönlichen Reiseführer vor Ort.",
+              "matchingSources": [
+                { "id": "B2_m06_R3_ad_a", "label": "a" }, { "id": "B2_m06_R3_ad_b", "label": "b" },
+                { "id": "B2_m06_R3_ad_c", "label": "c" }, { "id": "B2_m06_R3_ad_d", "label": "d" },
+                { "id": "B2_m06_R3_ad_e", "label": "e" }, { "id": "B2_m06_R3_ad_f", "label": "f" },
+                { "id": "B2_m06_R3_ad_g", "label": "g" }, { "id": "B2_m06_R3_ad_h", "label": "h" },
+                { "id": "B2_m06_R3_ad_i", "label": "i" }, { "id": "B2_m06_R3_ad_j", "label": "j" },
+                { "id": "B2_m06_R3_ad_k", "label": "k" }, { "id": "B2_m06_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "x",
+              "explanation": "Keine der zwölf Anzeigen bietet eine fünftägige individuelle Rundreise zu Südtiroler Weinbergen mit persönlichem Reiseführer und Hotel-zu-Hotel-Gepäckservice. Anzeige g) (Ostseeradtour) hat zwar Gepäcktransport und Reiseführung, aber deckt eine sportliche Fahrradtour im Norden ab, nicht eine Weinberg-Rundreise für Achtzigjährige in Südtirol. Anzeige l) (Tagesausflug Dresdner Elbschlösser) ist ein Tagestrip, keine fünftägige Rundreise. Anzeige f) (Praktikumsvermittlung) passt thematisch überhaupt nicht. Die Situation erfordert 'x' (kein passendes Angebot). Die drei ungenutzten Distraktoren-Anzeigen, die über den ganzen Test hinweg keiner Situation zugeordnet werden, sind f) (Praktikumsvermittlung 'Euro-Intern'), l) (Tagesausflug Dresdner Elbschlösser) und c) (Carsharing-Tagesabo 'FlexDrive Urban'), die hier im R3 keine Verwendung finden."
+            }
+          ]
+        }
+      ]
+    },
+    "sprachbausteine": {
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie den folgenden Text und entscheiden Sie, welches Wort (a, b, c oder d) in die Lücke passt. Es gibt jeweils nur eine richtige Lösung.",
+          "text": "Sehr geehrte Fahrgäste,\n\nwir möchten Sie heute über die geplante Neugestaltung unseres Regionalverkehrs informieren. Nach einer zweijährigen Erprobungsphase, die vom Verkehrsverbund in fünf Modellregionen __(1)__ wurde, stehen nun die Eckpunkte für das kommende Fahrplanjahr fest. Dabei handelt es sich um das bislang umfangreichste Programm zur Verbesserung des ÖPNV, __(2)__ sich sowohl an Pendlerinnen und Pendler als auch an Freizeitreisende richtet.\n\nBesonderer Wert wird darauf gelegt, dass jede Kommune bei Bedarf zusätzliche Ruf-Shuttles __(3)__ kann. __(4)__ eine Kommune an einer Teilnahme nicht interessiert sein, __(5)__ sie dies bis spätestens Ende März schriftlich mitteilen. __(6)__ des erheblichen Fachkräftemangels im Fahrdienst wurde zusätzlich ein neues Ausbildungsprogramm aufgelegt.\n\nDas Konzept umfasst weiterhin die klassischen Linienfahrten, __(7)__ auch flexible On-Demand-Angebote, die per App gebucht werden können. Fahrgäste, die auf eine barrierefreie Verbindung __(8)__, werden von unserem Mobilitätsservice vorrangig beraten. __(9)__ ist eine enge Abstimmung mit den örtlichen Tourismusbüros, damit Ausflugsziele besser angebunden werden.\n\nDie von uns __(10)__ Maßnahme ist Teil eines umfassenden Modernisierungsprogramms. Wir sind überzeugt, dass ein moderner Nahverkehr nicht nur klimafreundlich, sondern auch sozial gerecht gestaltet werden muss – und dass jeder investierte Euro langfristig doppelt zurückfließt.\n\nMit freundlichen Grüßen\nThomas Haubold, Pressesprecher Verkehrsverbund Nord",
+          "questions": [
+            {
+              "blankNumber": 1,
+              "type": "mcq",
+              "options": ["a) durchführte", "b) durchzuführen", "c) durchgeführt", "d) durchführend"],
+              "correctAnswer": "c",
+              "explanation": "Vorgangspassiv Präteritum: 'die vom Verkehrsverbund in fünf Modellregionen durchgeführt wurde' — Bildung: wurde + Partizip II. Das Partizip II 'durchgeführt' ist zwingend. Distraktoren: a) 'durchführte' wäre Aktiv-Präteritum (falsche Diathese – die Erprobungsphase führt nicht sich selbst durch), b) zu+Infinitiv passt grammatisch nicht zu 'wurde', d) Partizip I signalisiert laufende Handlung und kombiniert nicht mit 'wurde'. B2-Grammatik: Vorgangspassiv Präteritum im Relativsatz.",
+              "audioTimestamp": null
+            },
+            {
+              "blankNumber": 2,
+              "type": "mcq",
+              "options": ["a) der", "b) das", "c) die", "d) was"],
+              "correctAnswer": "b",
+              "explanation": "Relativpronomen: Bezugswort ist 'Programm' (Neutrum) im Nominativ: 'das'. Distraktoren: a) 'der' (Maskulin), c) 'die' (Feminin/Plural), d) 'was' nur nach unbestimmten Pronomen wie 'etwas/alles/nichts' oder nominalisierten Superlativen – hier nicht zutreffend. B2-Grammatik: Relativpronomen mit korrektem Genus.",
+              "audioTimestamp": null
+            },
+            {
+              "blankNumber": 3,
+              "type": "mcq",
+              "options": ["a) sich betreiben", "b) in Betrieb genommen", "c) betreiben lassen", "d) in Betrieb nehmen"],
+              "correctAnswer": "d",
+              "explanation": "Funktionsverbgefüge (typisch B2): 'etwas in Betrieb nehmen' = 'etwas starten / aktivieren'. Nach Modalverb 'kann' folgt der Infinitiv: 'in Betrieb nehmen'. Distraktoren: a) 'sich betreiben' ist kein idiomatisches reflexives Verb im Deutschen, b) Partizip II passt nicht hinter 'kann' (Modalverb + Infinitiv, nicht + Partizip II ohne Hilfsverb), c) 'betreiben lassen' ist lexikalisch nicht identisch mit 'starten' – wäre 'durch jemand anderen betreiben'; die Kommune will selbst zusätzliche Shuttles starten. B2-Lexik: Funktionsverbgefüge.",
+              "audioTimestamp": null
+            },
+            {
+              "blankNumber": 4,
+              "type": "mcq",
+              "options": ["a) Wenn", "b) Sollte", "c) Falls", "d) Würde"],
+              "correctAnswer": "b",
+              "explanation": "Inversion im Konditionalsatz ohne 'wenn': 'Sollte eine Kommune an einer Teilnahme nicht interessiert sein, muss sie dies ... mitteilen.' Nur 'Sollte' erlaubt die V1-Stellung im Konditional. Distraktoren: a) 'Wenn' verlangt V2-Stellung im Nebensatz und endständige Position, c) 'Falls' ebenso, d) 'Würde' allein (ohne nachfolgendes Infinitiv) funktioniert nicht als Konjunktion. B2-Kern: Inversion als Konditionalsatz-Variante in formeller Prosa.",
+              "audioTimestamp": null
+            },
+            {
+              "blankNumber": 5,
+              "type": "mcq",
+              "options": ["a) muss", "b) soll", "c) müsste", "d) hätte"],
+              "correctAnswer": "a",
+              "explanation": "Hauptsatz nach der Inversion: klare Verpflichtung in formeller Geschäftskommunikation → Indikativ Präsens 'muss'. Die Aufforderung an die Kommune ist bindend ('bis spätestens Ende März'). Distraktoren: b) 'soll' wäre schwächer (Empfehlung / Auftrag Dritter), c) 'müsste' (Konjunktiv II) würde irrealen oder distanzierenden Ton geben, d) 'hätte' ist Hilfsverb ohne passendes Partizip II – ungrammatisch in diesem Satz. B2-Modalität: Notwendigkeit im formellen Register.",
+              "audioTimestamp": null
+            },
+            {
+              "blankNumber": 6,
+              "type": "mcq",
+              "options": ["a) Trotz", "b) Gegen", "c) Aufgrund", "d) Außer"],
+              "correctAnswer": "c",
+              "explanation": "Genitiv-Präposition mit kausaler Bedeutung: 'Aufgrund des erheblichen Fachkräftemangels ... wurde ein Ausbildungsprogramm aufgelegt.' Der Fachkräftemangel ist die URSACHE für das Programm. Distraktoren: a) 'Trotz' wäre konzessiv (Programm trotz Mangel – ergibt keinen kausalen Sinn), b) 'Gegen' regiert Akkusativ, nicht Genitiv, und wäre semantisch schief, d) 'Außer' heißt 'mit Ausnahme von' (unsinnig). Alle Distraktoren wirken oberflächlich möglich, aber nur 'Aufgrund' ist kausal + Genitiv korrekt. B2-Grammatik: Genitiv-Präpositionen.",
+              "audioTimestamp": null
+            },
+            {
+              "blankNumber": 7,
+              "type": "mcq",
+              "options": ["a) sondern", "b) aber auch", "c) dennoch", "d) zudem"],
+              "correctAnswer": "b",
+              "explanation": "Additiver Konnektor mit leichtem Kontrast: 'Das Konzept umfasst weiterhin die klassischen Linienfahrten, aber auch flexible On-Demand-Angebote.' Die Struktur fordert eine Hinzufügung, nicht einen Gegensatz. Distraktoren: a) 'sondern' verlangt vorangehende Negation ('nicht nur ..., sondern auch'), die fehlt, c) 'dennoch' drückt echten Gegensatz aus (Linien und On-Demand schließen sich nicht aus), d) 'zudem' verlangt Verb an Position 2 (wäre eigener Satz). Nur 'aber auch' passt in die Aufzählung. B2-Lexik: Konnektoren.",
+              "audioTimestamp": null
+            },
+            {
+              "blankNumber": 8,
+              "type": "mcq",
+              "options": ["a) anweisen", "b) anwiesen", "c) angewiesen werden", "d) angewiesen sind"],
+              "correctAnswer": "d",
+              "explanation": "Feste Kollokation 'auf etwas angewiesen sein' = 'abhängig von etwas sein'. Präsens Indikativ Plural: 'die ... angewiesen sind' (Subjekt: 'Fahrgäste' Plural). Distraktoren: a) 'anweisen' (Infinitiv) passt syntaktisch nicht, b) 'anwiesen' (Präteritum Aktiv) bricht die Zeitebene (der Text ist im Präsens) und wäre zudem Aktiv ('Fahrgäste wiesen an'), c) 'angewiesen werden' wäre Passiv und hätte andere Bedeutung ('Anweisungen bekommen'). B2-Kollokation: 'angewiesen sein auf'.",
+              "audioTimestamp": null
+            },
+            {
+              "blankNumber": 9,
+              "type": "mcq",
+              "options": ["a) Entscheidung", "b) Entscheidende", "c) Entschieden", "d) Entscheidend"],
+              "correctAnswer": "d",
+              "explanation": "Prädikatives Adjektiv: 'Entscheidend ist eine enge Abstimmung ...' Die endungslose Form signalisiert Adjektiv als Prädikativum nach 'sein' (vgl. 'Wichtig ist ...'). Distraktoren: a) 'Entscheidung' ist Substantiv und würde 'Eine Entscheidung ist ...' verlangen – passt nicht zu 'eine enge Abstimmung', b) 'Entscheidende' (flektiert) wäre substantiviertes Adjektiv und verlangt Artikel ('Das Entscheidende ist ...'), c) 'Entschieden' wäre Partizip II und passt nicht als Satzanfang mit 'ist'. B2-Grammatik: prädikatives Adjektiv vs. Nominalisierung.",
+              "audioTimestamp": null
+            },
+            {
+              "blankNumber": 10,
+              "type": "mcq",
+              "options": ["a) geplante", "b) planende", "c) zu planende", "d) geplant"],
+              "correctAnswer": "a",
+              "explanation": "Partizipialattribut (B2-Kernstruktur): 'Die von uns geplante Maßnahme' = 'Die Maßnahme, die von uns geplant wurde'. Partizip II 'geplant' + Adjektivendung -e (Nom. Sg. Fem., schwache Deklination nach 'Die'). Distraktoren: b) 'planende' (Partizip I) würde aktive, gleichzeitige Handlung anzeigen – die Maßnahme plant aber nicht sich selbst, c) 'zu planende' wäre Gerundivum (notwendig/zukünftig zu tun) und würde den Abschluss der Planung leugnen, d) 'geplant' ohne Endung bricht die Deklination im Attribut. B2-Grammatik: passivisches Partizipialattribut.",
+              "audioTimestamp": null
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Text. Welches Wort aus der Liste a–o passt in die Lücken? Jedes Wort passt nur einmal. Fünf Wörter bleiben übrig.",
+          "text": "Wer heute eine längere Reise plant, steht vor einer Vielzahl von Entscheidungen, die weit über die klassische Frage 'Strand oder Berge?' hinausgehen. Die Zahl der Reiseformen ist in den letzten Jahren erheblich gewachsen, und Anbieter sichten täglich __(11)__ neuer Angebote, um Trends frühzeitig zu erkennen. Eine sorgfältig vorbereitete Buchung kann in __(12)__ Fällen den Unterschied zwischen einem entspannten und einem enttäuschenden Urlaub ausmachen.\n\nAllerdings reicht es längst nicht mehr aus, lediglich einen Flug und ein Hotel zu kombinieren. Reiseberatungen __(13)__ inzwischen dazu, frühzeitig die eigenen Prioritäten zu klären und die Anreise als bewussten Teil der Reise mitzudenken. __(14)__ gelingt es oft, einen Urlaub zu gestalten, der nicht nur erholsam, sondern auch ökologisch vertretbar ist.\n\nEin weiterer wichtiger Punkt __(15)__ die realistische Einschätzung der eigenen Belastbarkeit. Wer zu viel in eine Woche packt, kommt meist erschöpfter nach Hause, als er gefahren ist. Viele unterschätzen, wie anstrengend ständige Ortswechsel sein können, und übersehen __(16)__ das Erholungspotenzial eines längeren Aufenthalts an einem Ort. Ein ruhigerer Rhythmus gilt deshalb inzwischen als goldene __(17)__ unter erfahrenen Reisenden.\n\n__(18)__ des wachsenden Interesses an nachhaltigen Angeboten setzen viele Veranstalter mittlerweile auf transparente CO2-Angaben und regionale Partner. Das schränkt die Auswahl zwar ein, erhöht aber die Qualität und die Planbarkeit der Angebote. Fachleute sehen __(19)__ eine positive Entwicklung, sofern die ausgewiesenen Werte transparent und überprüfbar bleiben.\n\nWer seine Reise auf diese Weise plant, kann seinen Urlaub __(20)__ aufwerten – nicht durch zusätzliche Kosten, sondern durch eine klarere Strukturierung.",
+          "questions": [
+            {
+              "blankNumber": 11,
+              "type": "word_bank",
+              "options": [
+                "a) Dutzende", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) zudem", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) raten", "l) spürbar", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "a",
+              "explanation": "'Dutzende neuer Angebote' — indefinite Mengenangabe. Als substantivierte Zahladjektiv-Form großgeschrieben; Genitiv Plural Maskulin 'neuer Angebote' folgt (partitiver Genitiv nach Mengenangabe). Distraktor o) 'wenigen' würde das Gegenteil bedeuten und widerspricht 'erheblich gewachsen / täglich'. B2-Vokabular: unbestimmte Mengenangaben im Nachrichtenstil.",
+              "audioTimestamp": null
+            },
+            {
+              "blankNumber": 12,
+              "type": "word_bank",
+              "options": [
+                "a) Dutzende", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) zudem", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) raten", "l) spürbar", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "'in vielen Fällen' — feste Wendung. 'vielen' (Dativ Plural, starke Deklination nach 'in'). Distraktoren: o) 'wenigen' kehrt die positive Aussage um (widerspricht 'den Unterschied ausmachen'), m) 'jeden' ist Singular/Akkusativ und passt nicht zum Dativ Plural. B2-Kollokation.",
+              "audioTimestamp": null
+            },
+            {
+              "blankNumber": 13,
+              "type": "word_bank",
+              "options": [
+                "a) Dutzende", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) zudem", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) raten", "l) spürbar", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "k",
+              "explanation": "'Reiseberatungen raten inzwischen dazu, ...' — Verb 'raten' mit der festen Kombination 'zu etwas raten'. Das korrelative Pronominaladverb 'dazu' folgt in blankNumber 14 (siehe unten) und verweist auf den zu+Infinitiv-Satz. 'raten' als finites Verb des Satzes muss an Position 2 stehen. Distraktor n) 'stellt' passt syntaktisch nicht ('stellt raten' ergibt keinen Sinn). B2-Konstruktion: jmdm. raten zu etwas.",
+              "audioTimestamp": null
+            },
+            {
+              "blankNumber": 14,
+              "type": "word_bank",
+              "options": [
+                "a) Dutzende", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) zudem", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) raten", "l) spürbar", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "d",
+              "explanation": "Satzanfang mit kausalem Konnektor: 'Dadurch gelingt es oft, einen Urlaub zu gestalten, der ...' 'Dadurch' verknüpft den vorigen Gedanken (frühzeitig Prioritäten klären + Anreise mitdenken) mit dem aktuellen (gelungener Urlaub). Großschreibung signalisiert Satzanfang. Distraktor i) 'darin' würde 'gelingen in etwas' verlangen, was hier weder syntaktisch noch semantisch passt. B2-Konnektor: Dadurch = dadurch, dass/deshalb.",
+              "audioTimestamp": null
+            },
+            {
+              "blankNumber": 15,
+              "type": "word_bank",
+              "options": [
+                "a) Dutzende", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) zudem", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) raten", "l) spürbar", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "e",
+              "explanation": "Kopulaverb: 'Ein weiterer wichtiger Punkt ist die realistische Einschätzung ...' 'ist' verbindet Subjekt ('Ein weiterer wichtiger Punkt') mit prädikativem Nomen ('die realistische Einschätzung'). Distraktor n) 'stellt' würde eine Präpositionalphrase mit 'dar' oder 'in Frage' verlangen (z.B. 'stellt ... dar'), was hier fehlt.",
+              "audioTimestamp": null
+            },
+            {
+              "blankNumber": 16,
+              "type": "word_bank",
+              "options": [
+                "a) Dutzende", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) zudem", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) raten", "l) spürbar", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "f",
+              "explanation": "Additiver Satzadverb: 'übersehen zudem das Erholungspotenzial' = 'übersehen außerdem'. 'zudem' knüpft den zweiten Vorwurf additiv an den ersten an ('unterschätzen ... und übersehen zudem'). Distraktor c) 'dazu' wäre hier als Pronominaladverb syntaktisch schief, weil es keinen sinnvollen Bezugspunkt im vorigen Satz hat ('dazu kommt' wäre die etablierte Wendung, nicht 'übersehen dazu'). 'zudem' steht korrekt als Satzadverb an Position nach dem Verb und im Mittelfeld. B2-Lexik: Satzadverbien und Additiva.",
+              "audioTimestamp": null
+            },
+            {
+              "blankNumber": 17,
+              "type": "word_bank",
+              "options": [
+                "a) Dutzende", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) zudem", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) raten", "l) spürbar", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "g",
+              "explanation": "Feste Kollokation 'goldene Regel' = allgemein anerkannte Grundregel. Substantiv nach Adjektiv 'goldene'. Distraktoren: l) 'spürbar' ist Adjektiv und passt nicht nach 'goldene' (zwei Adjektive ohne Substantiv ergeben keinen grammatischen Kern). Die 'goldene Regel' ist B2-Idiom.",
+              "audioTimestamp": null
+            },
+            {
+              "blankNumber": 18,
+              "type": "word_bank",
+              "options": [
+                "a) Dutzende", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) zudem", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) raten", "l) spürbar", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "h",
+              "explanation": "Genitiv-Präposition 'Angesichts des wachsenden Interesses an nachhaltigen Angeboten ...' (Satzanfang, daher großgeschrieben). Passt zur Schlussfolgerung im Hauptsatz ('setzen viele Veranstalter ... auf transparente CO2-Angaben'). B2-Präposition: Angesichts + Genitiv.",
+              "audioTimestamp": null
+            },
+            {
+              "blankNumber": 19,
+              "type": "word_bank",
+              "options": [
+                "a) Dutzende", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) zudem", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) raten", "l) spürbar", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "i",
+              "explanation": "Pronominaladverb: 'Fachleute sehen darin eine positive Entwicklung' = 'sehen in diesem Vorgehen ...'. 'darin' verweist auf das im vorigen Satz beschriebene Verfahren (CO2-Angaben, regionale Partner). Feste Kollokation: 'in etwas sehen'. B2-Grammatik: Pronominaladverbien mit 'da(r)-'.",
+              "audioTimestamp": null
+            },
+            {
+              "blankNumber": 20,
+              "type": "word_bank",
+              "options": [
+                "a) Dutzende", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) zudem", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) raten", "l) spürbar", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "l",
+              "explanation": "Adverbiale Bedeutung: 'kann seinen Urlaub spürbar aufwerten'. 'spürbar' als unflektiertes Adverb verstärkt 'aufwerten' und ist eine natürliche Kollokation mit Verben der Veränderung (vgl. 'spürbar verbessern', 'spürbar erleichtern'). Distraktoren: j) 'über' wäre Präposition ohne Anschluss, m) 'jeden' wäre Determiner ohne nachfolgendes Substantiv, n) 'stellt' würde Verbdopplung erzeugen, o) 'wenigen' kehrt die positive Aussage unsinnig um, c) 'dazu' wäre Pronominaladverb ohne sinnvollen Bezug im Satz. Die verbleibenden fünf Distraktoren (c, j, m, n, o) passen zu keiner der zehn Lücken. B2-Lexik: adverbiale Verstärker.",
+              "audioTimestamp": null
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 30,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "letter",
+          "instructions": "Wählen Sie EINE der beiden folgenden Aufgaben (A oder B) und bearbeiten Sie diese. Beachten Sie die Leitpunkte und schreiben Sie mindestens 150 Wörter (Richtwert: 200 Wörter). Kennzeichnen Sie am Anfang Ihres Textes deutlich, welche Aufgabe Sie gewählt haben.",
+          "instructionsTranslation": "Choose ONE of the two tasks (A or B) below and complete it. Address the guiding points and write at least 150 words (target: around 200 words). Clearly mark at the top of your text which task you have chosen.",
+          "prompt": "AUFGABE A (Beschwerdebrief):\n\nSituation: Vor zwei Wochen haben Sie bei der Autovermietung 'EuroMobil' am Flughafen München einen Kleinwagen für vier Tage gemietet. Bei der Rückgabe lief alles reibungslos, und Sie erhielten eine Quittung über den vereinbarten Gesamtpreis von 212 €. Heute jedoch sehen Sie auf Ihrer Kreditkartenabrechnung eine zusätzliche Belastung in Höhe von 389 € mit dem Vermerk 'Bearbeitungsgebühr + Schadensersatz'. Fotos vom Rückgabezeitpunkt liegen Ihnen vor, das Fahrzeug war unbeschädigt.\n\nSchreiben Sie eine formelle Beschwerde an die Kundendienstleitung (Frau Dr. Judith Reimers) der EuroMobil GmbH. Gehen Sie auf die folgenden drei Leitpunkte ein:\n\n• Beschreiben Sie den Vorgang und den konkreten Streitpunkt (erhöhte Kreditkartenabrechnung).\n• Erläutern Sie, warum die Zusatzbelastung Ihrer Meinung nach unberechtigt ist (Belege, Zustand bei Rückgabe).\n• Formulieren Sie eine klare Forderung (Rückbuchung, schriftliche Stellungnahme) und setzen Sie eine angemessene Frist.\n\nBeachten Sie Anrede, Einleitung und Grußformel. Schreiben Sie mindestens 150 Wörter.\n\n— ODER —\n\nAUFGABE B (Bitte um Information):\n\nSituation: Sie haben im Internet einen Aushang einer italienischen Sprachschule in Bologna gelesen, die vierwöchige Sprachkurse für Erwachsene auf B1- und B2-Niveau anbietet. Sie überlegen, im nächsten Sommer einen solchen Kurs zu besuchen, bevor Sie eine Stelle in einer deutsch-italienischen Firma antreten. Der Aushang enthält nur wenige Details; Sie benötigen zusätzliche Informationen, bevor Sie buchen.\n\nSchreiben Sie eine formelle Anfrage an die Leitung der Sprachschule (Herrn Giacomo Rossi, Scuola Italiana Bologna). Gehen Sie auf die folgenden drei Leitpunkte ein:\n\n• Erklären Sie kurz Ihren Hintergrund und warum Sie den Kurs besuchen möchten.\n• Bitten Sie um Informationen zu den Kursinhalten, dem Niveau-Einstufungstest und der genauen Unterrichtsstundenzahl pro Woche.\n• Erkundigen Sie sich nach Unterkunftsmöglichkeiten (Gastfamilie oder Wohnheim), Preisen und möglichen Ermäßigungen für Berufseinsteiger.\n\nBeachten Sie eine passende formelle Anrede und eine klare Bitte um konkrete Rückmeldung. Schreiben Sie mindestens 150 Wörter.",
+          "promptTranslation": "TASK A (Complaint letter):\n\nSituation: Two weeks ago you rented a small car from EuroMobil at Munich Airport for four days. Return was smooth; you got a receipt for the agreed total of 212 €. Today you see an additional charge of 389 € on your credit card labelled 'handling fee + damage compensation'. You have photos from the time of return; the car was undamaged.\n\nWrite a formal complaint to the customer service director (Dr. Judith Reimers), EuroMobil GmbH. Address these three guiding points:\n\n• Describe what happened and the specific dispute (excess credit card charge).\n• Explain why the charge is unjustified in your view (evidence, condition at return).\n• Formulate a clear demand (refund, written response) and set an appropriate deadline.\n\nInclude greeting, opening, and closing. Write at least 150 words.\n\n— OR —\n\nTASK B (Request for information):\n\nSituation: You read about a four-week Italian language course in Bologna (B1/B2 level) and are thinking of attending before starting a job at a German-Italian company. The notice contains only limited details; you need more information before booking.\n\nWrite a formal inquiry to the school's director (Mr. Giacomo Rossi, Scuola Italiana Bologna). Address these three guiding points:\n\n• Briefly explain your background and why you want to take the course.\n• Ask about course content, the placement test, and the exact number of teaching hours per week.\n• Ask about accommodation options (host family or dorm), prices, and possible discounts for early-career professionals.\n\nUse an appropriate formal salutation and a clear request for specific information. Write at least 150 words.",
+          "requiredPoints": [
+            "Aufgabe A: Vorgang + Streitpunkt, Begründung der Unberechtigung, klare Forderung + Frist",
+            "Aufgabe B: Hintergrund + Motivation, Fragen zu Kursinhalten + Niveau + Stundenzahl, Fragen zu Unterkunft + Preis + Ermäßigungen"
+          ],
+          "wordCountMin": 150,
+          "wordCountMax": 230,
+          "sampleAnswer": "[AUFGABE A — Beispielantwort]\n\nSehr geehrte Frau Dr. Reimers,\n\nvor zwei Wochen habe ich bei Ihrer Station am Flughafen München einen Kleinwagen für vier Tage gemietet und bei der Rückgabe vereinbarungsgemäß 212 € bezahlt. Heute stelle ich auf meiner Kreditkartenabrechnung eine zusätzliche Belastung in Höhe von 389 € mit dem Vermerk 'Bearbeitungsgebühr + Schadensersatz' fest. Über diesen Vorgang wurde ich weder im Vorfeld noch schriftlich informiert.\n\nDie Zusatzbelastung halte ich für unberechtigt. Das Fahrzeug wurde in einwandfreiem Zustand an Ihren Mitarbeiter übergeben. Zum Beweis verfüge ich über mehrere datierte Fotos, die den Zustand des Wagens bei der Rückgabe dokumentieren, sowie über die von Ihrem Mitarbeiter unterschriebene Abschlussquittung ohne jeden Hinweis auf einen Schaden.\n\nIch fordere Sie daher auf, die Zusatzbuchung von 389 € auf meine Kreditkarte zurückzuerstatten und mir bis spätestens zum 30. April schriftlich darzulegen, auf welcher vertraglichen Grundlage die Forderung erhoben wurde. Sollte ich bis zu diesem Termin keine angemessene Rückmeldung erhalten, behalte ich mir vor, eine Verbraucherschutzstelle einzuschalten.\n\nMit freundlichen Grüßen\nKatharina Weilert",
+          "scoringCriteria": [
+            {
+              "criterion": "I. Berücksichtigung der Leitpunkte",
+              "maxPoints": 15,
+              "description": "Alle drei Leitpunkte der gewählten Aufgabe (A oder B) werden inhaltlich mit B2-typischer Tiefe behandelt – nicht nur erwähnt, sondern mit Begründung und konkreten Details ausgeführt. A: A++ (15 Pkt) / B: B+ (10 Pkt) / C: C (5 Pkt) / D: unbehandelt (0 Pkt). Wird diese Kategorie mit D bewertet, erhält die gesamte Aufgabe 0 Punkte."
+            },
+            {
+              "criterion": "II. Kommunikative Gestaltung",
+              "maxPoints": 15,
+              "description": "Formelle Anrede, logischer Textaufbau (Einleitung – Hauptteil – Schluss), konsistenter Sie-Register, B2-typische Diskursmarker (allerdings, darüber hinaus, zudem, folglich, angesichts, hinsichtlich), passende Grußformel. Register-Sprünge (z.B. 'Hallo' in einer Beschwerde oder einer formellen Anfrage) werden abgewertet."
+            },
+            {
+              "criterion": "III. Formale Richtigkeit",
+              "maxPoints": 15,
+              "description": "B2-Grammatik korrekt eingesetzt: Passiv, Konjunktiv II für höfliche Forderungen/Fragen ('Ich möchte Sie bitten', 'Wäre es möglich, dass ...'), Nominalisierung, komplexe Nebensätze, Genitiv-Präpositionen. Rechtschreibung und Zeichensetzung. Fehler, die das Verständnis blockieren, führen zu D und damit zu 0 Punkten gesamt."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "presentation",
+          "instructions": "Teil 1 — Präsentation (ca. 3 Minuten pro Kandidat:in). Jede:r Kandidat:in erhält eine Themenkarte und hält eine kurze, strukturierte Präsentation (Einstieg, Hauptteil, Schluss). Anschließend stellt die Partnerin/der Partner 1–2 Nachfragen.",
+          "instructionsTranslation": "Part 1 — Presentation (approx. 3 minutes per candidate). Each candidate receives a topic card and gives a short, structured presentation (intro, main body, conclusion). Afterwards the partner asks 1–2 follow-up questions.",
+          "prompt": "KANDIDAT:IN A — Thema: 'Reisen mit der Bahn statt mit dem Flugzeug – Vorteile und Grenzen'\n\nHalten Sie eine kurze Präsentation (ca. 3 Minuten) zu diesem Thema. Strukturieren Sie Ihren Vortrag so:\n\n• Einstieg: Wie oft fahren Sie Bahn, wie oft fliegen Sie? Nennen Sie ein konkretes Beispiel aus dem letzten Jahr.\n• Hauptteil: Welche Vorteile sehen Sie beim Bahnreisen (Klima, Komfort, Stadtlage der Bahnhöfe)? Welche Grenzen gibt es im Vergleich zum Flug (Zeit, Preis, Umsteigen, Kapazität)?\n• Schluss: Unter welchen Bedingungen wäre Bahnreisen für Sie persönlich attraktiver? Ihre Einschätzung.\n\n—\n\nKANDIDAT:IN B — Thema: 'Overtourism – wenn beliebte Reiseziele an ihre Grenzen stoßen'\n\nHalten Sie eine kurze Präsentation (ca. 3 Minuten) zu diesem Thema. Strukturieren Sie Ihren Vortrag so:\n\n• Einstieg: In welchen Städten oder Regionen haben Sie selbst Überfüllung erlebt? Ein konkretes Beispiel.\n• Hauptteil: Warum entsteht Overtourism (Billigflüge, Kreuzfahrten, soziale Medien, Verdichtung der Reisezeiten)? Welche Folgen hat das für Anwohner und die Umwelt?\n• Schluss: Welche Maßnahmen halten Sie für sinnvoll (Zugangsgebühren, Zeitfenster, Besucherlenkung)? Ihre persönliche Einschätzung.",
+          "sampleResponse": "[Kandidat:in A — Bahn statt Flugzeug]\n\nMeine Damen und Herren, ich möchte heute über Bahnreisen als Alternative zum Fliegen sprechen. Im vergangenen Jahr habe ich zwei Reisen innerhalb Europas verglichen: Einmal bin ich nach Wien geflogen, einmal mit dem Nachtzug nach Mailand gefahren. Die Erfahrungen könnten unterschiedlicher kaum sein.\n\nIm Hauptteil möchte ich zunächst auf die Vorteile eingehen. Zum einen ist die Klimabilanz der Bahn deutlich besser – laut Umweltbundesamt werden rund fünfundachtzig Prozent weniger CO2 ausgestoßen als beim Kurzstreckenflug. Zum anderen erreicht man Innenstädte direkt, ohne langwierige Transfers vom Flughafen. Allerdings darf man die Grenzen nicht übersehen. Die Fahrzeiten sind oft deutlich länger, Umsteigeverbindungen machen die Reise anfällig für Verspätungen, und Fernzüge sind an Wochenenden häufig ausgebucht. Auch die Preise können je nach Buchungszeitpunkt deutlich über denen von Billigfliegern liegen.\n\nAbschließend bin ich überzeugt, dass die Bahn eine echte Alternative wird, wenn drei Bedingungen erfüllt sind: zuverlässige Fahrpläne, durchgehende Tickets über Ländergrenzen hinweg und bezahlbare Preise im Vergleich zum Flug. Vielen Dank – wie sieht das bei Ihnen aus?\n\n[Beispielhafte Nachfrage der Partnerin/des Partners: 'Würdest du auch eine längere Fernreise, zum Beispiel nach Portugal, komplett mit der Bahn machen?']",
+          "evaluationTips": [
+            "Strukturieren Sie die Präsentation klar: Einstieg – Hauptteil – Schluss",
+            "Verwenden Sie B2-Diskursmarker: 'Zunächst', 'Zum einen/zum anderen', 'Allerdings', 'Abschließend'",
+            "Nennen Sie EIN konkretes persönliches Beispiel (letzte Reise, beobachtete Situation), keine rein abstrakten Aussagen",
+            "Balance aus Vorteilen UND Grenzen zeigen – B2 verlangt Differenzierung",
+            "Konjunktiv II für Einschätzungen: 'Attraktiver wäre ...', 'Ich könnte mir vorstellen, dass ...'",
+            "Direkter Schluss mit persönlicher Einschätzung + Übergabe an Partner",
+            "Zeitlimit (~3 Min) beachten – nicht länger, nicht kürzer"
+          ],
+          "keyPhrases": [
+            "Ich möchte heute über ... sprechen.",
+            "Ein konkretes Beispiel dafür ist ...",
+            "Zum einen ..., zum anderen ...",
+            "Besonders hervorheben möchte ich ...",
+            "Allerdings darf man nicht übersehen, dass ...",
+            "Meiner Ansicht nach ...",
+            "Abschließend lässt sich festhalten ...",
+            "Wie sieht das bei Ihnen/dir aus?"
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "discussion",
+          "instructions": "Teil 2 — Diskussion (ca. 5 Minuten gemeinsam). Beide Kandidat:innen erhalten denselben provokanten Satz und diskutieren ihn. Ziel: eigene Position vertreten, auf die Argumente der Partnerin/des Partners eingehen, widersprechen oder weiterentwickeln.",
+          "instructionsTranslation": "Part 2 — Discussion (approx. 5 minutes together). Both candidates receive the same provocative statement and discuss it. Goal: defend your own position, engage with the partner's arguments, disagree or build on them.",
+          "prompt": "Thema für beide Kandidat:innen:\n\n'Innerdeutsche Kurzstreckenflüge unter 500 Kilometern sollten gesetzlich verboten werden, solange die Bahn eine Alternative bietet.'\n\n— Leitfragen für die Diskussion —\n\n• Stimmen Sie dieser These zu oder widersprechen Sie?\n• Welche Vorteile hätte ein solches Verbot? Für wen?\n• Welche Nachteile oder praktischen Probleme sehen Sie (Arbeitsplätze, Umsteigezeiten, Zuverlässigkeit der Bahn)?\n• Wäre eine freiwillige Regelung (z.B. höhere Kerosinsteuer) besser als ein Verbot?\n\nReagieren Sie auf die Argumente Ihrer Partnerin/Ihres Partners, widersprechen Sie höflich, wo nötig, und versuchen Sie am Ende, Ihre Positionen zusammenzuführen oder respektvoll unterschiedlich stehen zu lassen.",
+          "sampleResponse": "KANDIDAT:IN A: 'Also, grundsätzlich finde ich die These nachvollziehbar. Auf Strecken wie München-Berlin oder Frankfurt-Köln ist die Bahn inzwischen wirklich konkurrenzfähig. Ein Verbot wäre ein klares Signal – und CO2-technisch wohl die wirksamste Maßnahme. Ich würde also eher zustimmen.'\n\nKANDIDAT:IN B: 'Da möchte ich teilweise widersprechen. Das Ziel teile ich, aber ein Verbot halte ich für problematisch. Erstens bleiben viele Umsteigeverbindungen nach Amerika oder Asien an Drehkreuze wie Frankfurt oder München gebunden – ohne Zubringerflug würden Passagiere aus Hamburg oder München deutlich länger unterwegs sein. Zweitens sehe ich das Thema Arbeitsplätze; kleine Flughäfen wie Dortmund oder Nürnberg hängen am innerdeutschen Verkehr.'\n\nKANDIDAT:IN A: 'Guter Punkt mit den Drehkreuz-Zubringern – das hatte ich nicht so im Blick. Aber wenn man die Regelung so gestaltet, dass nur reine Punkt-zu-Punkt-Kurzstrecken unter 500 Kilometern betroffen sind und Umsteigepassagiere nach wie vor Zubringer nehmen dürfen? Meinst du nicht, dass man das differenzieren könnte?'\n\nKANDIDAT:IN B: 'Das wäre tatsächlich eine sinnvolle Abgrenzung. Allerdings bleibt die Frage, ob die Bahn dann wirklich zuverlässig liefert. Wenn Pendler wegen Streiks oder Verspätungen regelmäßig Termine verpassen, wäre die Wirkung des Verbots kontraproduktiv.'\n\nKANDIDAT:IN A: 'Da stimme ich dir zu. Vielleicht wäre ein Kompromiss ein stufenweises Vorgehen: höhere Kerosinsteuer sofort, verbindliche Zuverlässigkeitsziele für die Bahn, und ein Verbot erst, wenn beide Seiten erfüllt sind. Das gäbe Anreize und Zeit für den Übergang.'\n\nKANDIDAT:IN B: 'Ja, so gestaffelt sehe ich das tragfähig. Insgesamt bin ich weiterhin skeptisch gegenüber einem pauschalen Verbot, aber mit deiner Variante könnte ich leben.'",
+          "evaluationTips": [
+            "Klare Position beziehen – 'Ich stimme zu / Ich widerspreche'",
+            "Auf das Gesagte des Partners konkret eingehen – nicht nur die eigene Position wiederholen",
+            "Widerspruch höflich: 'Da möchte ich teilweise widersprechen ...', 'Das sehe ich anders, weil ...'",
+            "Konjunktiv II für hypothetische Argumentation: 'Wäre ...', 'Würde ...', 'Könnte ...'",
+            "Konkrete Beispiele oder Strecken nennen (München-Berlin, Frankfurt-Köln), keine rein theoretischen Argumente",
+            "Versuch der Synthese am Ende: 'Ein Kompromiss wäre ...', 'Stufenweises Vorgehen ...'",
+            "Diskursmarker der Argumentation: 'allerdings', 'andererseits', 'demgegenüber', 'darüber hinaus'"
+          ],
+          "keyPhrases": [
+            "Meiner Meinung nach ...",
+            "Ich kann dem nur teilweise zustimmen.",
+            "Das sehe ich anders, weil ...",
+            "Ein starkes Argument dafür/dagegen ist ...",
+            "Darf ich kurz darauf eingehen?",
+            "Ich verstehe deinen Punkt, allerdings ...",
+            "Wenn man es so differenziert, ...",
+            "Ein Kompromiss könnte sein, dass ...",
+            "Da sind wir uns wohl einig."
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Teil 3 — Gemeinsam Planen (ca. 5 Minuten). Beide Kandidat:innen erhalten denselben Planungsauftrag und müssen gemeinsam zu einer konkreten Lösung kommen: Vorschläge machen, abwägen, verhandeln, Entscheidung treffen.",
+          "instructionsTranslation": "Part 3 — Collaborative Planning (approx. 5 minutes). Both candidates receive the same planning task and must reach a concrete joint solution: make proposals, weigh options, negotiate, decide.",
+          "prompt": "Planungsauftrag für beide Kandidat:innen:\n\nIhre Firma (ein mittelständischer IT-Dienstleister mit 45 Beschäftigten) plant im kommenden Herbst ein dreitägiges Teambuilding-Wochenende außerhalb der Stadt. Die Geschäftsführung hat Sie beide gebeten, gemeinsam einen konkreten Vorschlag zu erarbeiten.\n\nBesprechen Sie folgende Punkte und treffen Sie konkrete Entscheidungen:\n\n• Ziel und Reiseart: Wohin soll die Reise gehen? Im Inland oder ins nähere Ausland? Per Bahn, Bus oder Auto – und warum?\n• Zeitpunkt: Welches Wochenende im Herbst? Von Freitagmittag bis Sonntagabend oder verlängerter Brückentag?\n• Budget und Unterkunft: Welche Art von Unterkunft (Tagungshotel, Jugendherberge, Ferienanlage)? Wie viel pro Person?\n• Aktivitäten: Welche inhaltlichen Bausteine (Workshop, gemeinsame Outdoor-Aktivität, freies Programm)? Wie viel davon verpflichtend?\n• Aufgabenverteilung: Wer übernimmt welche konkrete Vorbereitung (Reise, Unterkunft, Programm, Kommunikation)?\n\nEinigen Sie sich am Ende auf einen klaren Plan, den Sie der Geschäftsführung vorlegen können.",
+          "sampleResponse": "KANDIDAT:IN A: 'Fangen wir mit dem Ziel an. Ich würde vorschlagen, im Inland zu bleiben, zum Beispiel in der Sächsischen Schweiz oder im Schwarzwald – das ist mit der Bahn gut erreichbar, spart Flüge und gibt schöne Outdoor-Möglichkeiten. Was hältst du davon?'\n\nKANDIDAT:IN B: 'Sächsische Schweiz finde ich gut, gerade wegen der Bahnanbindung. Fürs Wochenende würde ich das erste Wochenende im Oktober vorschlagen – da ist das Wetter meist noch stabil, und die Hotelpreise sind schon niedriger als in den Sommerferien. Drei Tage, von Freitagnachmittag bis Sonntagnachmittag, ohne Brückentag, dann fällt wenig Arbeitszeit weg.'\n\nKANDIDAT:IN A: 'Einverstanden. Zum Budget: Ich würde pro Person rund 420 Euro einplanen – zwei Übernachtungen im Tagungshotel mit Halbpension, Bahnanreise in der Gruppe, eine geführte Wanderung und ein externer Workshop zu Kommunikation und Konfliktlösung. Die Firma übernimmt normalerweise etwa achtzig Prozent, den Rest zahlen die Beschäftigten selbst.'\n\nKANDIDAT:IN B: 'Gute Idee mit der Aufteilung. Beim Programm würde ich den Samstagvormittag als verpflichtenden Workshop ansetzen, den Nachmittag als gemeinsame Outdoor-Aktivität – und den Sonntag frei halten für informellen Austausch oder eine zweite kleine Wanderung. So wirkt es nicht wie eine Dienstreise, sondern wie ein Teambuilding.'\n\nKANDIDAT:IN A: 'Prima. Zur Aufgabenverteilung: Ich kümmere mich um die Bahnreise, die Gruppentickets und die Anreiseorganisation. Du übernimmst die Hotelauswahl und die Buchung des Workshops. Wer macht die interne Kommunikation?'\n\nKANDIDAT:IN B: 'Die interne Kommunikation kann ich mitübernehmen – ich schreibe eine Ankündigung, sammle die Anmeldungen und koordiniere die Zimmeraufteilung. Können wir uns in zwei Wochen nochmal kurz abstimmen?'\n\nKANDIDAT:IN A: 'Perfekt. Also zusammengefasst: Sächsische Schweiz, erstes Oktoberwochenende, Tagungshotel, Budget 420 Euro pro Person mit 80 % Firmenanteil, Workshop Samstagvormittag, Wanderung Samstagnachmittag, Sonntag frei. Du Hotel + Workshop + Kommunikation, ich Bahn + Anreise. Abgemacht!'",
+          "evaluationTips": [
+            "Konkrete Vorschläge statt vager Ideen: Ort, Wochenende, Uhrzeit, Betrag, Art der Unterkunft nennen",
+            "Aktiv zuhören – reagieren Sie spezifisch auf die Vorschläge des Partners",
+            "Konjunktiv II für Vorschläge: 'Ich würde vorschlagen ...', 'Wir könnten ...', 'Wie wäre es mit ...?'",
+            "Kompromisse zeigen: 'Ganztägig verpflichtend ist mir zu viel – wie wäre nur der Samstagvormittag?'",
+            "Am Ende zusammenfassen: 'Also zusammengefasst: ...'",
+            "Aufgabenverteilung explizit machen: 'Du übernimmst ..., ich übernehme ...'",
+            "Höfliche Zustimmung/Widerspruch: 'Einverstanden', 'Abgemacht', 'Das sehe ich anders'",
+            "Budget und Aufgabenverteilung müssen beide konkret benannt werden"
+          ],
+          "keyPhrases": [
+            "Ich würde vorschlagen, dass ...",
+            "Wie wäre es, wenn wir ...?",
+            "Das klingt sinnvoll, aber ...",
+            "Können wir uns darauf einigen, dass ...?",
+            "Wer übernimmt ...?",
+            "Ich kümmere mich um ..., du übernimmst bitte ...",
+            "Einverstanden / Abgemacht.",
+            "Also zusammengefasst: ...",
+            "Sollen wir das so festhalten?"
+          ]
+        }
+      ]
+    }
   }
 }

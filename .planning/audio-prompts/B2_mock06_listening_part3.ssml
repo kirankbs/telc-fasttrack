@@ -1,0 +1,103 @@
+<speak>
+  <!-- B2 Mock 06 — Teil 3 (5 MCQ, playCount=1) -->
+  <!-- Narrator: de-DE-Wavenet-C (female, neutral) — announcer voice -->
+  <!-- Five different speakers per announcement: rotate through Wavenet A/B/D/E/F -->
+  <!-- B2 spec: natural speed 1.0x, 5s pauses between items, played ONCE -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Hörverstehen, Teil 3. Sie hören fünf kurze Ansagen oder Nachrichten aus dem Bereich
+      Reisen und Mobilität. Was ist richtig? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text nur einmal.
+    </prosody>
+    <break time="10s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Bahnhofsdurchsage — ICE verspätet + Gleiswechsel -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Achtung, eine Information zu Ihrer Weiterreise. Der ICE achthundertvierundzwanzig nach
+      Hamburg-Altona, planmäßige Abfahrt zehn Uhr siebzehn, fährt heute circa vierzig Minuten
+      später als planmäßig. Bitte beachten Sie die Gleisänderung auf Gleis vierzehn. Wir
+      bedauern die Unannehmlichkeiten.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 2: Voicemail Reiseveranstalter — Flugplanänderung Faro -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Guten Tag, Frau Weber, hier ist Inga Sommer von Sunlight Reisen. Ich rufe wegen Ihrer
+      Buchung nach Portugal an: Der Rückflug aus Faro am achten Juni wurde von der Airline auf
+      den neunten Juni verschoben. Könnten Sie mich bitte bis Freitag zurückrufen, damit wir
+      die geänderte Hotelreservierung bestätigen können? Sie erreichen mich unter der bekannten
+      Büronummer. Vielen Dank.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 3: Flughafen — Gepäckverlust — online ausfüllen -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Herr Müller, so wie ich das am Telefon sehe, ist Ihr Koffer tatsächlich noch nicht in
+      München eingetroffen. Am einfachsten ist es, wenn Sie jetzt online auf unserer Website
+      eine Gepäckverlustmeldung ausfüllen – das geht deutlich schneller als persönlich am
+      Schalter. Heben Sie bitte alle Belege für dringend benötigte Ersatzkäufe auf – die können
+      Sie später über das Formular geltend machen. Wir melden uns, sobald der Koffer da ist.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 4: Hotelrezeption — Wasserschaden — Zimmerwechsel -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Hier spricht die Rezeption, guten Abend, Frau Gerlach. Es tut uns leid, Sie zu stören –
+      im Zimmer über Ihnen ist ein größerer Wasserrohrbruch aufgetreten, und auch Ihre Decke
+      ist leicht betroffen. Aus Sicherheitsgründen bitten wir Sie, noch heute in ein
+      gleichwertiges Zimmer auf der dritten Etage zu wechseln. Unsere Kolleginnen helfen Ihnen
+      gerne beim Umzug. Wir entschuldigen uns vielmals für die Unannehmlichkeiten.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 5: Carsharing-App — Ersatzfahrzeug kleiner -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Hallo Martin, eine wichtige Information zu deiner Buchung bei FlexDrive. Wichtiger Hinweis
+      zu deiner Fahrt heute um siebzehn Uhr: Das gebuchte Elektro-SUV musste aufgrund eines
+      Defekts außer Betrieb genommen werden. Ersatzweise steht dir an derselben Station ein
+      Kompaktwagen der Kategorie S zur Verfügung. Der Aufpreis entfällt selbstverständlich.
+      Du findest die geänderte Buchung in der App unter Meine Fahrten.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Ende von Teil 3. Bitte übertragen Sie Ihre Antworten auf den Antwortbogen.
+      Dies ist das Ende des Hörverstehen-Tests.
+    </prosody>
+  </voice>
+</speak>
