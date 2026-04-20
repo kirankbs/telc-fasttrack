@@ -223,8 +223,8 @@
         },
         {
           "partNumber": 2,
-          "instructions": "Lesen Sie die Anzeigen a–h und die Situationen 1–5. Welche Anzeige passt zu welcher Situation? Für drei Situationen gibt es keine passende Anzeige. Schreiben Sie den richtigen Buchstaben (a–h).",
-          "instructionsTranslation": "Read the advertisements a–h and situations 1–5. Which advertisement matches which situation? For three situations there is no matching advertisement. Write the correct letter (a–h).",
+          "instructions": "Lesen Sie die Anzeigen a–h und die Situationen 1–5. Welche Anzeige passt zu welcher Situation? Für eine Situation gibt es keine passende Anzeige. Schreiben Sie den richtigen Buchstaben (a–h).",
+          "instructionsTranslation": "Read the advertisements a–h and situations 1–5. Which advertisement matches which situation? For one situation there is no matching advertisement. Write the correct letter (a–h).",
           "texts": [
             {
               "id": "A1_m05_R2_ad_a",
@@ -244,7 +244,7 @@
             {
               "id": "A1_m05_R2_ad_d",
               "type": "ad",
-              "content": "GARTENGRUNDSTÜCKE ZU MIETEN\nStadtgarten Bockenheim\nParzellen 30 m² – 60 m²\nWasser und Strom vorhanden\nAnfragen: stadtgarten-bockenheim@email.de"
+              "content": "GARTEN ZU MIETEN\nStadtgarten Bockenheim\nKleine Gärten: 30 m² – 60 m²\nWasser und Strom vorhanden\nAnfragen: stadtgarten-bockenheim@email.de"
             },
             {
               "id": "A1_m05_R2_ad_e",
@@ -334,7 +334,7 @@
                 {"id": "A1_m05_R2_ad_h", "label": "h"}
               ],
               "correctAnswer": "d",
-              "explanation": "Anzeige d bietet Gartengrundstücke zur Miete im Stadtgarten Bockenheim an — mit Wasser und Strom. Frau Schneider möchte selbst etwas anbauen. Ein eigenes Gartengrundstück ist dafür ideal."
+              "explanation": "Anzeige d bietet kleine Gärten zur Miete im Stadtgarten Bockenheim an — mit Wasser und Strom. Frau Schneider möchte selbst Gemüse und Blumen anbauen. Ein eigener Garten ist dafür ideal."
             },
             {
               "id": "A1_m05_R2_q5",
@@ -378,7 +378,7 @@
             {
               "id": "A1_m05_R3_notice4",
               "type": "notice",
-              "content": "WERTSTOFFCONTAINER\nPapier → blauer Container\nGlas → grüner Container\nPlastik → gelber Container\nBitte richtig sortieren!"
+              "content": "MÜLL TRENNEN\nPapier → blauer Container\nGlas → grüner Container\nPlastik → gelber Container\nBitte richtig sortieren!"
             },
             {
               "id": "A1_m05_R3_notice5",

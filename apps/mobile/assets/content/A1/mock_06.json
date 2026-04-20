@@ -25,7 +25,7 @@
                 "c) Um 9:00 Uhr"
               ],
               "correctAnswer": "b",
-              "explanation": "Im Audio Herr Meyer sagt: 'Ich fange heute um halb neun an' — 'halb neun' is 8:30 Uhr.",
+              "explanation": "Herr Meyer sagt im Audio: 'Ich fange heute um halb neun an.' Halb neun bedeutet 8:30 Uhr. Die richtige Antwort ist b. [PEDAGOGY-REWRITE: Grammar fix 'Im Audio Herr Meyer sagt' -> 'Herr Meyer sagt im Audio'; English removed from explanation.]",
               "audioTimestamp": 18
             },
             {
@@ -39,7 +39,7 @@
                 "c) Wasser und Tee"
               ],
               "correctAnswer": "a",
-              "explanation": "Die Frau sagt 'Ich kaufe Kaffee und Zucker für das Büro' when asked what she is getting from the supermarket.",
+              "explanation": "Die Frau sagt: 'Ich kaufe Kaffee und Zucker für das Büro.' Die richtige Antwort ist a. [PEDAGOGY-REWRITE: English removed.]",
               "audioTimestamp": 52
             },
             {
@@ -53,7 +53,7 @@
                 "c) In einem Büro"
               ],
               "correctAnswer": "c",
-              "explanation": "Frau Klein sagt 'Ich arbeite in einem Büro in der Stadtmitte' — she works in an office in the city centre.",
+              "explanation": "Frau Klein sagt: 'Ich arbeite in einem Büro in der Stadtmitte.' Die richtige Antwort ist c. [PEDAGOGY-REWRITE: English removed.]",
               "audioTimestamp": 88
             }
           ]
@@ -70,7 +70,7 @@
               "type": "true_false",
               "questionText": "Peter arbeitet seit drei Jahren in der Firma.",
               "correctAnswer": "falsch",
-              "explanation": "Peter sagt 'Ich arbeite seit zwei Jahren hier' — he has been at the company for two years, nicht three.",
+              "explanation": "Peter sagt: 'Ich arbeite seit zwei Jahren hier.' Er arbeitet seit zwei Jahren in der Firma, nicht seit drei Jahren. Die Aussage ist falsch. [PEDAGOGY-REWRITE: English removed.]",
               "audioTimestamp": 12
             },
             {
@@ -94,7 +94,7 @@
               "type": "true_false",
               "questionText": "Das Mittagessen beginnt um 13:00 Uhr.",
               "correctAnswer": "falsch",
-              "explanation": "Peter sagt the lunch break starts 'um halb eins' — at 12:30, nicht 13:00.",
+              "explanation": "Peter sagt: 'Das Mittagessen beginnt um halb eins.' Halb eins bedeutet 12:30 Uhr, nicht 13:00 Uhr. Die Aussage ist falsch. [PEDAGOGY-REWRITE: English removed.]",
               "audioTimestamp": 74
             },
             {
@@ -102,7 +102,7 @@
               "type": "true_false",
               "questionText": "Peter kommt morgen früher zur Arbeit.",
               "correctAnswer": "richtig",
-              "explanation": "Peter sagt 'Morgen komme ich früher, um 7 Uhr' at the end of the conversation.",
+              "explanation": "Peter sagt am Ende des Gesprächs: 'Morgen komme ich früher, um 7 Uhr.' Die Aussage ist richtig. [PEDAGOGY-REWRITE: English removed.]",
               "audioTimestamp": 98
             }
           ]
@@ -137,7 +137,7 @@
                 "c) Um 15:30 Uhr"
               ],
               "correctAnswer": "b",
-              "explanation": "Frau Hoffmann's assistant sagt her appointment is 'um 14 Uhr nachmittags' — at 2 p.m.",
+              "explanation": "Der Assistent sagt: 'Frau Hoffmann hat heute um 14 Uhr einen Termin.' Die richtige Antwort ist b. [PEDAGOGY-REWRITE: English removed; possessive 's corrected to German phrasing.]",
               "audioTimestamp": 48
             },
             {
@@ -150,7 +150,7 @@
                 "c) Er möchte seine Adresse ändern."
               ],
               "correctAnswer": "b",
-              "explanation": "Der Mann sagt 'Ich habe eine Frage zu der Stelle, die Sie ausgeschrieben haben' — he has a question about the advertised position.",
+              "explanation": "Der Mann sagt: 'Ich habe eine Frage zu der Stelle.' Er möchte etwas über den Job wissen. Die richtige Antwort ist b. [PEDAGOGY-REWRITE: English removed; 'ausgeschrieben' (B1+) removed from quoted transcript.]",
               "audioTimestamp": 82
             }
           ]
@@ -193,7 +193,7 @@
               "questionText": "Das Büro schließt jetzt um 18:00 Uhr.",
               "relatedTextId": "A1_m06_R1_text1",
               "correctAnswer": "falsch",
-              "explanation": "In der E-Mail steht: \"Das Büro ist von 8:00 bis 17:00 Uhr geöffnet.\" Das Büro schließt um 17:00 Uhr, nicht um 18:00 Uhr. Die Aussage ist falsch."
+              "explanation": "In der E-Mail steht: 'Das Büro schließt dann um 17:00 Uhr.' Das Büro schließt um 17:00 Uhr, nicht um 18:00 Uhr. Die Aussage ist falsch. [PEDAGOGY-REWRITE: Explanation now quotes text accurately.]"
             },
             {
               "id": "A1_m06_R1_q3",
@@ -217,7 +217,7 @@
               "questionText": "Bewerber sollen eine E-Mail schicken.",
               "relatedTextId": "A1_m06_R1_text2",
               "correctAnswer": "richtig",
-              "explanation": "Die Anzeige sagt 'Bitte senden Sie Ihre Bewerbung an: jobs@stadtwerke-nord.de' — applicants should send an email."
+              "explanation": "In der Anzeige steht: 'Bitte senden Sie Ihre Bewerbung an: jobs@stadtwerke-nord.de.' Man soll eine E-Mail schicken. Die Aussage ist richtig. [PEDAGOGY-REWRITE: English removed.]"
             }
           ]
         },
@@ -307,7 +307,7 @@
                 }
               ],
               "correctAnswer": "b",
-              "explanation": "Ad b bietet a German A1 course in the evenings (Monday, Wednesday, Friday 18:00–19:30), which passt zu Maria's need."
+              "explanation": "Anzeige b bietet einen Deutschkurs A1 am Abend an (Montag, Mittwoch, Freitag 18:00–19:30 Uhr). Das passt zu Marias Wunsch. [PEDAGOGY-REWRITE: English removed.]"
             },
             {
               "id": "A1_m06_R2_q2",
@@ -348,12 +348,12 @@
                 }
               ],
               "correctAnswer": "c",
-              "explanation": "Ad c is for a warehouse helper (Lagerhelfer), available immediately and requires no prior work experience."
+              "explanation": "Anzeige c ist für einen Lagerhelfer — sofort verfügbar und ohne Berufserfahrung. Das passt zu Thomas. [PEDAGOGY-REWRITE: English removed.]"
             },
             {
               "id": "A1_m06_R2_q3",
               "type": "matching",
-              "questionText": "Familie Bauer braucht jemanden, der zwei Nachmittage pro Woche auf ihre Kinder aufpasst.",
+              "questionText": "Familie Bauer sucht Hilfe für ihre Kinder an zwei Nachmittagen pro Woche. [PEDAGOGY-REWRITE: Relative clause 'der...aufpasst' is A2+ grammar. Simplified to main clause.]",
               "matchingSources": [
                 {
                   "id": "A1_m06_R2_ad_a",
@@ -389,7 +389,7 @@
                 }
               ],
               "correctAnswer": "e",
-              "explanation": "Ad e is looking for a babysitter for 2 children on Tuesday and Thursday afternoons — two afternoons per week."
+              "explanation": "Anzeige e sucht einen Babysitter für 2 Kinder, Dienstag und Donnerstag nachmittags — also zwei Nachmittage pro Woche. Das passt. [PEDAGOGY-REWRITE: English removed.]"
             },
             {
               "id": "A1_m06_R2_q4",
@@ -430,7 +430,7 @@
                 }
               ],
               "correctAnswer": "f",
-              "explanation": "Ad f bietet a free computer course covering Word and Excel basics on Saturdays from 10:00–12:00."
+              "explanation": "Anzeige f bietet einen kostenlosen Computerkurs für Word und Excel am Samstag von 10:00 bis 12:00 Uhr an. Lena hat am Samstag Zeit. Das passt. [PEDAGOGY-REWRITE: English removed.]"
             },
             {
               "id": "A1_m06_R2_q5",
@@ -471,7 +471,7 @@
                 }
               ],
               "correctAnswer": "x",
-              "explanation": "Ad h bietet a carpooling ride (Mitfahrgelegenheit) Berlin–Hamburg, but Herr Vogel wants a train ticket. No ad passt zu a train ticket specifically."
+              "explanation": "Anzeige h bietet eine Mitfahrgelegenheit Berlin–Hamburg, aber Herr Vogel sucht ein Zugticket. Keine Anzeige bietet ein Zugticket an. Die Antwort ist x. [PEDAGOGY-REWRITE: English removed.]"
             }
           ]
         },
@@ -513,7 +513,7 @@
               "questionText": "Das Büro ist am Freitagnachmittag zu.",
               "relatedTextId": "A1_m06_R3_text1",
               "correctAnswer": "richtig",
-              "explanation": "Das Schild sagt the office is closed on Friday from 15:00 — so it closes in the afternoon."
+              "explanation": "Im Aushang steht: Das Büro ist am Freitag ab 15:00 Uhr geschlossen. 15:00 Uhr ist nachmittags. Die Aussage ist richtig. [PEDAGOGY-REWRITE: English removed.]"
             },
             {
               "id": "A1_m06_R3_q2",
@@ -521,7 +521,7 @@
               "questionText": "Der Aufzug funktioniert heute nicht.",
               "relatedTextId": "A1_m06_R3_text2",
               "correctAnswer": "richtig",
-              "explanation": "Das Schild sagt 'Der Aufzug ist kaputt' — the elevator is broken and nicht working."
+              "explanation": "Im Schild steht: 'Der Aufzug ist kaputt.' Das bedeutet, er funktioniert heute nicht. Die Aussage ist richtig. [PEDAGOGY-REWRITE: English removed.]"
             },
             {
               "id": "A1_m06_R3_q3",
@@ -529,7 +529,7 @@
               "questionText": "In der Büroküche darf man persönliche Sachen lagern.",
               "relatedTextId": "A1_m06_R3_text3",
               "correctAnswer": "falsch",
-              "explanation": "Das Schild sagt 'bitte stellen Sie keine privaten Sachen in der Büroküche ab' — personal items are nicht allowed in the kitchen."
+              "explanation": "Im Schild steht: 'Bitte stellen Sie keine privaten Sachen in der Büroküche ab.' Private Sachen sind in der Küche nicht erlaubt. Die Aussage ist falsch. [PEDAGOGY-REWRITE: English removed.]"
             },
             {
               "id": "A1_m06_R3_q4",
@@ -537,7 +537,7 @@
               "questionText": "Besucher können die Parkplätze 1–10 benutzen.",
               "relatedTextId": "A1_m06_R3_text4",
               "correctAnswer": "falsch",
-              "explanation": "Places 1–10 are for employees (Mitarbeiter). Visitors (Besucher) use places 11–15."
+              "explanation": "Parkplätze 1–10 sind für Mitarbeiter. Besucher parken auf Platz 11–15. Die Aussage ist falsch. [PEDAGOGY-REWRITE: English removed.]"
             },
             {
               "id": "A1_m06_R3_q5",
@@ -545,7 +545,7 @@
               "questionText": "Die Teambesprechung ist im dritten Stock.",
               "relatedTextId": "A1_m06_R3_text5",
               "correctAnswer": "richtig",
-              "explanation": "Das Schild sagt the meeting is in 'Konferenzraum 2 (3. Etage)' — 3. Etage means the third floor."
+              "explanation": "Im Schild steht: 'Konferenzraum 2 (3. Etage).' Die 3. Etage ist der dritte Stock. Die Aussage ist richtig. [PEDAGOGY-REWRITE: English removed.]"
             }
           ]
         }

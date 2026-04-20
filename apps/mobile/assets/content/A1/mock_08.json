@@ -168,7 +168,7 @@
             {
               "id": "A1_m08_R1_text1",
               "type": "email",
-              "content": "Betreff: Ihr Termin bei Dr. Schäfer\n\nSehr geehrte Frau Bauer,\n\nIch bestätige Ihren Termin bei Dr. Schäfer am Dienstag, den 15. März, um 9:30 Uhr. Bitte bringen Sie Ihre Krankenkassenkarte und alle Medikamente mit, die Sie regelmäßig nehmen. Die Praxis ist in der Gartenstraße 7, Erdgeschoss. Bitte kommen Sie fünf Minuten früher.\n\nBei Fragen rufen Sie uns an: 0421 / 88 55 33.\n\nMit freundlichen Grüßen\nDas Team der Praxis Dr. Schäfer",
+              "content": "Betreff: Ihr Termin bei Dr. Schäfer\n\nSehr geehrte Frau Bauer,\n\nich bestätige Ihren Termin bei Dr. Schäfer am Dienstag, den 15. März, um 9:30 Uhr. Bitte bringen Sie Ihre Krankenkassenkarte und Ihre Medikamente mit. Die Praxis ist in der Gartenstraße 7, Erdgeschoss. Bitte kommen Sie fünf Minuten früher.\n\nBei Fragen rufen Sie uns an: 0421 / 88 55 33.\n\nMit freundlichen Grüßen\nDas Team der Praxis Dr. Schäfer [PEDAGOGY-REWRITE: 'Ich' -> 'ich' (capitalization error after salutation); relative clause 'die Sie regelmäßig nehmen' (A2+ grammar + 'regelmäßig' is B1) simplified.]",
               "source": "E-Mail einer Arztpraxis"
             },
             {
@@ -201,7 +201,7 @@
               "questionText": "Frau Bauer soll ihre Medikamente mitbringen.",
               "relatedTextId": "A1_m08_R1_text1",
               "correctAnswer": "richtig",
-              "explanation": "Die E-Mail sagt: 'Bitte bringen Sie … alle Medikamente mit, die Sie regelmäßig nehmen.' Das stimmt."
+              "explanation": "In der E-Mail steht: 'Bitte bringen Sie Ihre Krankenkassenkarte und Ihre Medikamente mit.' Frau Bauer soll ihre Medikamente mitbringen. Die Aussage ist richtig."
             },
             {
               "id": "A1_m08_R1_q4",
@@ -239,12 +239,12 @@
             {
               "id": "A1_m08_R2_ad_c",
               "type": "ad",
-              "content": "FIT & GESUND SPORTKURS\nBewegung für Rücken und Gelenke\nDienstags und Donnerstags 18:30 Uhr\nStadthalle Raum 5 · Kursgebühr: 8 € pro Einheit\nAnmeldung: sportverein-city.de"
+              "content": "FIT & GESUND SPORTKURS\nBewegung für den Rücken\nDienstags und Donnerstags 18:30 Uhr\nStadthalle Raum 5 · Kosten: 8 € pro Stunde\nAnmeldung: sportverein-city.de [PEDAGOGY-REWRITE: 'Gelenke' (B1) removed; 'Kursgebühr' (B1) -> 'Kosten'; 'Einheit' -> 'Stunde'.]"
             },
             {
               "id": "A1_m08_R2_ad_d",
               "type": "ad",
-              "content": "ERNÄHRUNGSBERATUNG\nSie möchten gesünder essen und abnehmen?\nIndividuelle Beratung mit Ernährungsplan\nDipl.-Ernährungswissenschaftlerin Maria Vogt\nTermine: 0176 / 44 55 66 · vogt-ernaehrung.de"
+              "content": "ERNÄHRUNGSBERATUNG\nSie möchten gesünder essen?\nPersönliche Beratung mit Ernährungsplan\nFrau Maria Vogt, Ernährungsberaterin\nTermine: 0176 / 44 55 66 · vogt-ernaehrung.de [PEDAGOGY-REWRITE: 'Dipl.-Ernährungswissenschaftlerin' (B2+) replaced with 'Ernährungsberaterin'; 'abnehmen' removed as marginally above A1; 'Individuelle' -> 'Persönliche'.]"
             },
             {
               "id": "A1_m08_R2_ad_e",
@@ -348,7 +348,7 @@
                 }
               ],
               "correctAnswer": "c",
-              "explanation": "Anzeige c bietet einen 'Sportkurs' speziell für 'Rücken und Gelenke'. Das passt direkt zu Karls Rückenschmerzen und dem Wunsch, Sport zu treiben."
+              "explanation": "Anzeige c bietet einen Sportkurs für den Rücken an. Das passt zu Karls Rückenschmerzen und seinem Wunsch, Sport zu machen."
             },
             {
               "id": "A1_m08_R2_q3",
@@ -495,7 +495,7 @@
             {
               "id": "A1_m08_R3_notice3",
               "type": "notice",
-              "content": "ACHTUNG: KÜHLPFLICHTIG!\nDiese Medikamente müssen im Kühlschrank aufbewahrt werden (2–8 °C).\nNicht einfrieren!\nNach dem Öffnen innerhalb von 28 Tagen verwenden.",
+              "content": "ACHTUNG: KÜHL LAGERN!\nDiese Medikamente bitte im Kühlschrank lagern (2–8 °C).\nNicht einfrieren!\nNach dem Öffnen: 28 Tage haltbar. [PEDAGOGY-REWRITE: 'Kühlpflichtig' (B1+), 'aufbewahrt' (B1), 'innerhalb' (B1), 'verwenden' (B1) replaced with simpler A1/A2 vocabulary.]",
               "source": "Aufkleber auf einer Medikamentenschachtel"
             },
             {
@@ -534,7 +534,7 @@
               "questionText": "Man darf die Medikamente einfrieren.",
               "relatedTextId": "A1_m08_R3_notice3",
               "correctAnswer": "falsch",
-              "explanation": "Der Aufkleber sagt ausdrücklich 'Nicht einfrieren!' Einfrieren ist verboten — das Medikament muss bei 2–8 °C im Kühlschrank aufbewahrt werden."
+              "explanation": "Auf dem Schild steht: 'Nicht einfrieren!' Man darf die Medikamente nicht einfrieren. Die Aussage ist falsch."
             },
             {
               "id": "A1_m08_R3_q4",
