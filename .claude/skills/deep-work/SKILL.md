@@ -1,11 +1,11 @@
 ---
 name: deep-work
-description: "Telc-FastTrack autonomous build sessions with a 10-agent virtual team. Triggers on: \"deep work\", \"autonomous mode\", \"build something\", \"work while I'm away\", \"I'm going to sleep\", \"work autonomously\", \"research and build\", \"keep working\", \"unattended\", \"run overnight\". Also responds to standalone agent triggers: \"research exam format\", \"research vocabulary gaps\", \"what should we build next\", \"update content roadmap\", \"review mock exam\", \"validate mock\", \"build mock\", \"implement feature\", \"generate audio\", \"audit audio\", \"update specs\", \"sync specs\", \"run compliance check\", \"check language\", \"run full test\", \"review UX\", \"design feature\"."
+description: "Fastrack Deutsch autonomous build sessions with a 10-agent virtual team. Triggers on: \"deep work\", \"autonomous mode\", \"build something\", \"work while I'm away\", \"I'm going to sleep\", \"work autonomously\", \"research and build\", \"keep working\", \"unattended\", \"run overnight\". Also responds to standalone agent triggers: \"research exam format\", \"research vocabulary gaps\", \"what should we build next\", \"update content roadmap\", \"review mock exam\", \"validate mock\", \"build mock\", \"implement feature\", \"generate audio\", \"audit audio\", \"update specs\", \"sync specs\", \"run compliance check\", \"check language\", \"run full test\", \"review UX\", \"design feature\"."
 ---
 
-# Telc-FastTrack — Deep Work
+# Fastrack Deutsch — Deep Work
 
-Autonomous build sessions for the telc-fasttrack app. Orchestrates a 13-agent virtual team across orchestration, research, quality, build, and ops layers to grow the mock exam library, build web features, and improve content quality without requiring the user to be present.
+Autonomous build sessions for the fastrack-deutsch app. Orchestrates a 13-agent virtual team across orchestration, research, quality, build, and ops layers to grow the mock exam library, build web features, and improve content quality without requiring the user to be present.
 
 ## Quick Reference
 
@@ -346,10 +346,10 @@ git push origin <branch>
 **Stack:** pnpm monorepo + Turborepo. Web: Next.js 15 / React 19 / Tailwind CSS 4 (primary). Mobile: Expo SDK 54 / React Native 0.81 (secondary).
 
 **Shared packages:**
-- `@telc/types` — MockExam interfaces (`packages/types/src/exam.ts`)
-- `@telc/core` — scoring engine, SM-2, timer (`packages/core/src/`)
-- `@telc/config` — design tokens (`packages/config/src/theme.ts`)
-- `@telc/content` — exam catalog, validation (`packages/content/src/`)
+- `@fastrack/types` — MockExam interfaces (`packages/types/src/exam.ts`)
+- `@fastrack/core` — scoring engine, SM-2, timer (`packages/core/src/`)
+- `@fastrack/config` — design tokens (`packages/config/src/theme.ts`)
+- `@fastrack/content` — exam catalog, validation (`packages/content/src/`)
 
 **Web app:** `apps/web/` — Next.js 15 App Router, Tailwind CSS 4, responsive
 
