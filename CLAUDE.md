@@ -1,4 +1,4 @@
-# Telc-FastTrack
+# Fastrack Deutsch
 
 German exam prep app for telc A1 through C1. "Spend X hours. Pass telc."
 
@@ -11,10 +11,10 @@ apps/
   web/      — Next.js 15 App Router, Tailwind CSS 4, responsive (primary)
   mobile/   — Expo SDK 54, React Native 0.81, expo-router 6
 packages/
-  types/    — @telc/types: MockExam interfaces, all shared TypeScript types
-  core/     — @telc/core: scoring engine, spaced repetition (SM-2), timer
-  config/   — @telc/config: design tokens (colors, typography, spacing)
-  content/  — @telc/content: exam catalog, validation, content metadata
+  types/    — @fastrack/types: MockExam interfaces, all shared TypeScript types
+  core/     — @fastrack/core: scoring engine, spaced repetition (SM-2), timer
+  config/   — @fastrack/config: design tokens (colors, typography, spacing)
+  content/  — @fastrack/content: exam catalog, validation, content metadata
 ```
 
 ## Stack
@@ -49,15 +49,15 @@ pnpm build                # build all packages
 | `apps/web/src/app/layout.tsx` | Web app root layout |
 | `apps/mobile/src/app/_layout.tsx` | Mobile app root layout (5 bottom tabs) |
 | `apps/mobile/src/services/database.ts` | SQLite schema + migration support |
-| `telc-fasttrack-implementation-plan.md` | Full requirements doc |
+| `fastrack-deutsch-implementation-plan.md` | Full requirements doc |
 
 ## Shared Packages
 
 All apps import shared logic via `workspace:*` protocol:
-- **Types:** `import type { MockExam } from '@telc/types'`
-- **Core:** `import { calculateExamScore } from '@telc/core'`
-- **Config:** `import { colors, LEVEL_CONFIG } from '@telc/config'`
-- **Content:** `import { getMocksForLevel } from '@telc/content'`
+- **Types:** `import type { MockExam } from '@fastrack/types'`
+- **Core:** `import { calculateExamScore } from '@fastrack/core'`
+- **Config:** `import { colors, LEVEL_CONFIG } from '@fastrack/config'`
+- **Content:** `import { getMocksForLevel } from '@fastrack/content'`
 
 Mobile app has thin re-export shims in `apps/mobile/src/{types,utils,services}/` so existing relative imports still resolve.
 

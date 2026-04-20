@@ -43,7 +43,7 @@ For every question with `type: "mcq"`:
 **FAIL if:** correctAnswer not found in options.
 
 ### Check 3: Question Counts Match telc Format
-Verify counts from `telc-fasttrack-implementation-plan.md` sections 1.1-1.5:
+Verify counts from `fastrack-deutsch-implementation-plan.md` sections 1.1-1.5:
 
 **A1:**
 - Hören: Teil 1 = 3 MCQ, Teil 2 = 5 T/F, Teil 3 = 3 MCQ (total: 11)

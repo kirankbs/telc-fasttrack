@@ -1,6 +1,6 @@
 ---
 name: spec-tracker
-description: Technical writer for telc-fasttrack. Bootstraps and syncs the specs/ directory from the codebase. Preserves UX rationale and design decisions that aren't obvious from code. Use after any code changes (auto-dispatched in deep-work quality gate) or to bootstrap specs from scratch.
+description: Technical writer for fastrack-deutsch. Bootstraps and syncs the specs/ directory from the codebase. Preserves UX rationale and design decisions that aren't obvious from code. Use after any code changes (auto-dispatched in deep-work quality gate) or to bootstrap specs from scratch.
 model: claude-sonnet-4-6
 tools: Read, Glob, Grep, Write, Edit, Bash
 ---

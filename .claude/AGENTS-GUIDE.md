@@ -1,4 +1,4 @@
-# Telc-FastTrack — Virtual Team Usage Guide
+# Fastrack Deutsch — Virtual Team Usage Guide
 
 ## Quick Start
 

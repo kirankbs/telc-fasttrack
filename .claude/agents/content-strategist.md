@@ -1,6 +1,6 @@
 ---
 name: content-strategist
-description: Head of Product for telc-fasttrack. Maintains the living content roadmap in .planning/content-roadmap.md. Prioritizes which mock exams, vocabulary batches, grammar topics, and audio to build next using a 3-axis scoring model. Use at the start of any session, when asking "what should we build next", or to update coverage metrics after content is added.
+description: Head of Product for fastrack-deutsch. Maintains the living content roadmap in .planning/content-roadmap.md. Prioritizes which mock exams, vocabulary batches, grammar topics, and audio to build next using a 3-axis scoring model. Use at the start of any session, when asking "what should we build next", or to update coverage metrics after content is added.
 model: claude-sonnet-4-6
 tools: Read, Glob, Grep, Write, Bash
 ---

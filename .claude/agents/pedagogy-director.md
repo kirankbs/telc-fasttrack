@@ -77,7 +77,7 @@ For each mock exam you review, assess these dimensions and score each 1-5:
 - Writing tasks must specify the correct word count range
 - Speaking tasks must reflect the correct telc format for the level
 
-**Reference:** `telc-fasttrack-implementation-plan.md` sections 1.1-1.5
+**Reference:** `fastrack-deutsch-implementation-plan.md` sections 1.1-1.5
 
 **FAIL triggers:**
 - Wrong question count for any part

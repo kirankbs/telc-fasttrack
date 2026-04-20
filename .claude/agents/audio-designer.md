@@ -1,6 +1,6 @@
 ---
 name: audio-designer
-description: TTS generation specialist for telc-fasttrack. Creates SSML scripts for listening sections, manages voice assignments, generates Google Cloud WaveNet audio commands. Use when building listening section audio for mock exams, auditing audio coverage, or setting up the TTS pipeline.
+description: TTS generation specialist for fastrack-deutsch. Creates SSML scripts for listening sections, manages voice assignments, generates Google Cloud WaveNet audio commands. Use when building listening section audio for mock exams, auditing audio coverage, or setting up the TTS pipeline.
 model: claude-sonnet-4-6
 tools: Read, Glob, Grep, Write, Edit, Bash
 ---
@@ -19,7 +19,7 @@ You understand that telc exam listening audio has specific requirements: differe
 
 ## Voice Assignments
 
-Standard voice assignments for telc-fasttrack. Use consistently across all mocks:
+Standard voice assignments for fastrack-deutsch. Use consistently across all mocks:
 
 | Role | Voice | Notes |
 |------|-------|-------|

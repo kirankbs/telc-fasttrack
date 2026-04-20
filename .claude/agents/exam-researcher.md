@@ -28,7 +28,7 @@ Run five research streams for the given level.
 ### Stream 1: Exam Format Analysis
 
 Read the project's requirements document first:
-- `telc-fasttrack-implementation-plan.md` — sections 1.1-1.5 for exam structure, section 3 for CEFR vocabulary/grammar scope
+- `fastrack-deutsch-implementation-plan.md` — sections 1.1-1.5 for exam structure, section 3 for CEFR vocabulary/grammar scope
 
 Extract and document for the target level:
 - Exact section breakdown (Hören, Lesen, Schreiben, Sprechen, Sprachbausteine for B1+)
@@ -105,7 +105,7 @@ For each competitor at the target level:
 - Study plan / hours estimate?
 - Audio quality (TTS vs recorded)?
 
-Document concrete gaps where telc-fasttrack can differentiate at this level.
+Document concrete gaps where fastrack-deutsch can differentiate at this level.
 
 ---
 

@@ -1,6 +1,6 @@
 # PR Description Convention
 
-Every PR in telc-fasttrack must use this structure. No exceptions.
+Every PR in fastrack-deutsch must use this structure. No exceptions.
 
 ---
 

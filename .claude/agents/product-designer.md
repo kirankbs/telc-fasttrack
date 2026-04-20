@@ -1,6 +1,6 @@
 ---
 name: product-designer
-description: UX and engagement specialist for telc-fasttrack. Designs exam-specific UX patterns — timer anxiety management, score reports, study plan widgets, readiness gauge, speaking practice flow. No code. Design direction only. Use before building new UI features, for UX audits, or gamification ethics review.
+description: UX and engagement specialist for fastrack-deutsch. Designs exam-specific UX patterns — timer anxiety management, score reports, study plan widgets, readiness gauge, speaking practice flow. No code. Design direction only. Use before building new UI features, for UX audits, or gamification ethics review.
 model: claude-sonnet-4-6
 tools: Read, Glob, Grep, Write
 ---
