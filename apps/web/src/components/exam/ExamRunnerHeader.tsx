@@ -39,6 +39,9 @@ export function ExamRunnerHeader({
 
   return (
     <div className="-mx-4 mb-6 border-b border-border bg-white sm:mx-0 sm:rounded-t-xl">
+      {/* Visually-hidden section heading — gives screen readers a proper
+          landmark to announce and keeps the role=heading contract for e2e. */}
+      <h1 className="sr-only">{sectionName}</h1>
       <div className="flex h-14 items-center justify-between gap-4 px-4">
         <button
           type="button"

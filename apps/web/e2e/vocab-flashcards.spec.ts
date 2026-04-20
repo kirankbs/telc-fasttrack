@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Vocabulary flashcard session', () => {
-  test('completes a 3-card session and reaches the end screen with honest stats', async ({
+  test('completes a full session and reaches the end screen with honest stats', async ({
     page,
   }) => {
     await page.goto('/vocab');
@@ -11,7 +11,8 @@ test.describe('Vocabulary flashcard session', () => {
     await page.getByTestId('start-review').click();
 
     // Progress label lives in the breadcrumb row, not on the card
-    await expect(page.getByTestId('card-progress')).toBeVisible();
+    const progress = page.getByTestId('card-progress');
+    await expect(progress).toBeVisible();
 
     // Flip hint is visible on the first card
     await expect(page.getByTestId('flashcard-flip-hint')).toBeVisible();
@@ -24,13 +25,24 @@ test.describe('Vocabulary flashcard session', () => {
     await expect(page.getByTestId('grade-2')).toHaveText('Noch lernen');
     await expect(page.getByTestId('grade-4')).toHaveText('Gewusst');
 
-    // Burn through three cards
+    // First card: grade known, then confirm the hint is gone for the rest.
     await page.getByTestId('grade-4').click();
     await expect(page.getByTestId('flashcard-flip-hint')).not.toBeVisible();
-    await page.getByTestId('flip-button').click();
-    await page.getByTestId('grade-2').click();
-    await page.getByTestId('flip-button').click();
-    await page.getByTestId('grade-4').click();
+
+    // Read the session size from the progress label ("Karte 1 von N") and
+    // burn through the remaining N-1 cards. The session size is hardcoded
+    // in FlashcardSession.tsx, but reading it from the DOM keeps the test
+    // resilient to future tweaks.
+    const match = (await progress.textContent())?.match(/von\s+(\d+)/);
+    const sessionSize = match ? Number(match[1]) : 20;
+    expect(sessionSize).toBeGreaterThan(1);
+
+    for (let i = 1; i < sessionSize; i++) {
+      await page.getByTestId('flip-button').click();
+      // Alternate grades so the summary has both "sicher" and "zum Wiederholen" buckets.
+      const testid = i % 2 === 0 ? 'grade-4' : 'grade-2';
+      await page.getByTestId(testid).click();
+    }
 
     // End of session — 3 honest stats, no percent, no confetti
     const summary = page.getByTestId('session-summary');
