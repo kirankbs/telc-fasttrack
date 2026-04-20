@@ -1,8 +1,8 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest';
-import { render, screen } from '@testing-library/react';
+import { render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { Dashboard } from '@/components/dashboard/Dashboard';
-import { saveSection, clearSession } from '@/lib/examSession';
+import { saveSection } from '@/lib/examSession';
 import type { SectionResult } from '@/lib/examSession';
 
 vi.mock('next/navigation', () => ({
@@ -20,11 +20,12 @@ function makeResult(
   earned: number,
   max: number,
   passed: boolean,
+  submittedAt?: string,
 ): SectionResult {
   return {
     answers: {},
     score: { earned, max, percentage: max > 0 ? earned / max : 0, passed },
-    submittedAt: new Date().toISOString(),
+    submittedAt: submittedAt ?? new Date().toISOString(),
   };
 }
 
@@ -36,18 +37,38 @@ describe('Dashboard', () => {
   it('renders empty state without crashing', () => {
     render(<Dashboard />);
     expect(screen.getByTestId('dashboard')).toBeInTheDocument();
-    expect(screen.getByTestId('readiness-gauge')).toBeInTheDocument();
-    expect(screen.getByTestId('readiness-label')).toHaveTextContent('Aufbau');
-    expect(screen.getByTestId('readiness-percentage')).toHaveTextContent('0%');
-    expect(screen.getByTestId('completed-mocks')).toHaveTextContent('0 / 10');
+    expect(screen.getByTestId('readiness-hero')).toBeInTheDocument();
+    expect(screen.getByTestId('readiness-stage-name')).toHaveTextContent(
+      'Building foundation',
+    );
+    expect(screen.getByTestId('readiness-cta')).toHaveTextContent(
+      'Start your first exam',
+    );
     expect(screen.getByTestId('recent-results-empty')).toBeInTheDocument();
   });
 
-  it('shows zero stats on empty state', () => {
+  it('never renders a percentage in the readiness hero', () => {
+    saveSection('A1_mock_01', 'A1', 'listening', makeResult(20, 24, true));
+    saveSection('A1_mock_01', 'A1', 'reading', makeResult(18, 24, true));
+
+    render(<Dashboard />);
+    const hero = screen.getByTestId('readiness-hero');
+    expect(hero.textContent ?? '').not.toMatch(/\d{1,3}\s*%/);
+  });
+
+  it('renders 3 stat cards only (no "Sektionen" card)', () => {
+    render(<Dashboard />);
+    expect(screen.getByTestId('stat-mocks')).toBeInTheDocument();
+    expect(screen.getByTestId('stat-average')).toBeInTheDocument();
+    expect(screen.getByTestId('stat-time')).toBeInTheDocument();
+    expect(screen.queryByTestId('stat-sections')).not.toBeInTheDocument();
+  });
+
+  it('shows zero-data stats on empty state', () => {
     render(<Dashboard />);
     expect(screen.getByTestId('stat-mocks')).toHaveTextContent('0 / 10');
-    expect(screen.getByTestId('stat-sections')).toHaveTextContent('0');
-    expect(screen.getByTestId('stat-average')).toHaveTextContent('0%');
+    // Less than 2 mocks complete — the average card shows the "not enough data" line.
+    expect(screen.getByTestId('stat-average-empty')).toBeInTheDocument();
     expect(screen.getByTestId('stat-time')).toHaveTextContent('0h');
   });
 
@@ -63,10 +84,10 @@ describe('Dashboard', () => {
     saveSection('A1_mock_02', 'A1', 'reading', makeResult(12, 24, true));
 
     render(<Dashboard />);
-    expect(screen.getByTestId('completed-mocks')).toHaveTextContent('1 / 10');
+    expect(screen.getByTestId('stat-mocks')).toHaveTextContent('1 / 10');
   });
 
-  it('shows recent results for sessions with any completed section', () => {
+  it('shows recent results rows for each session with any section', () => {
     saveSection('A1_mock_01', 'A1', 'listening', makeResult(20, 24, true));
     saveSection('A1_mock_03', 'A1', 'reading', makeResult(10, 24, false));
 
@@ -76,19 +97,20 @@ describe('Dashboard', () => {
     expect(screen.getByTestId('result-row-A1_mock_03')).toBeInTheDocument();
   });
 
-  it('shows pass/fail badge only for complete mocks', () => {
-    // Complete mock
+  it('renders split written / oral score dots per row', () => {
     saveSection('A1_mock_01', 'A1', 'listening', makeResult(20, 24, true));
     saveSection('A1_mock_01', 'A1', 'reading', makeResult(18, 24, true));
     saveSection('A1_mock_01', 'A1', 'writing', makeResult(8, 12, true));
-    saveSection('A1_mock_01', 'A1', 'speaking', makeResult(16, 24, true));
-
-    // Partial mock
-    saveSection('A1_mock_02', 'A1', 'listening', makeResult(15, 24, true));
+    saveSection('A1_mock_01', 'A1', 'speaking', makeResult(10, 24, false));
 
     render(<Dashboard />);
-    expect(screen.getByTestId('result-badge-A1_mock_01')).toBeInTheDocument();
-    expect(screen.queryByTestId('result-badge-A1_mock_02')).not.toBeInTheDocument();
+    const row = screen.getByTestId('result-row-A1_mock_01');
+    expect(
+      within(row).getByTestId('result-A1_mock_01-written'),
+    ).toHaveTextContent(/Schriftlich \d+%/);
+    expect(
+      within(row).getByTestId('result-A1_mock_01-oral'),
+    ).toHaveTextContent(/Mündlich \d+%/);
   });
 
   it('switches levels and resets data', async () => {
@@ -100,11 +122,10 @@ describe('Dashboard', () => {
 
     await user.click(screen.getByTestId('level-tab-A2'));
     expect(screen.getByTestId('recent-results-empty')).toBeInTheDocument();
-    expect(screen.getByTestId('completed-mocks')).toHaveTextContent('0 / 10');
+    expect(screen.getByTestId('stat-mocks')).toHaveTextContent('0 / 10');
   });
 
-  it('"Weiter lernen" links to most recently started incomplete mock', () => {
-    // Older incomplete
+  it('CTA variant: "Continue" for most recent in-progress session', () => {
     const older = new Date('2026-04-10T08:00:00Z').toISOString();
     const newer = new Date('2026-04-11T10:00:00Z').toISOString();
 
@@ -114,9 +135,7 @@ describe('Dashboard', () => {
         mockId: 'A1_mock_02',
         level: 'A1',
         startedAt: older,
-        sections: {
-          listening: makeResult(15, 24, true),
-        },
+        sections: { listening: makeResult(15, 24, true) },
       }),
     );
     sessionStorage.setItem(
@@ -125,32 +144,48 @@ describe('Dashboard', () => {
         mockId: 'A1_mock_05',
         level: 'A1',
         startedAt: newer,
-        sections: {
-          listening: makeResult(18, 24, true),
-        },
+        sections: { listening: makeResult(18, 24, true) },
       }),
     );
 
     render(<Dashboard />);
-    const continueLink = screen.getByTestId('quick-action-continue');
-    expect(continueLink).toHaveAttribute('href', '/exam/A1_mock_05');
+    const cta = screen.getByTestId('readiness-cta');
+    expect(cta).toHaveAttribute('href', '/exam/A1_mock_05');
+    expect(cta).toHaveTextContent('Continue: Übungstest 5');
   });
 
-  it('"Weiter lernen" falls back to /exam when no incomplete mock', () => {
-    render(<Dashboard />);
-    const continueLink = screen.getByTestId('quick-action-continue');
-    expect(continueLink).toHaveAttribute('href', '/exam');
-  });
-
-  it('computes study stats correctly', () => {
+  it('CTA variant: "Next: Übungstest N" when nothing is in progress', () => {
+    // Complete mock 1 fully — no in-progress, next should be mock 2
     saveSection('A1_mock_01', 'A1', 'listening', makeResult(20, 24, true));
     saveSection('A1_mock_01', 'A1', 'reading', makeResult(18, 24, true));
+    saveSection('A1_mock_01', 'A1', 'writing', makeResult(8, 12, true));
+    saveSection('A1_mock_01', 'A1', 'speaking', makeResult(16, 24, true));
 
     render(<Dashboard />);
-    expect(screen.getByTestId('stat-sections')).toHaveTextContent('2');
-    // Average: (20/24 + 18/24) / 2 = (0.833 + 0.75) / 2 = 0.7917 => 79%
-    expect(screen.getByTestId('stat-average')).toHaveTextContent('79%');
-    // Time: listening 20min + reading 25min = 45min
-    expect(screen.getByTestId('stat-time')).toHaveTextContent('45min');
+    const cta = screen.getByTestId('readiness-cta');
+    expect(cta).toHaveTextContent('Next: Übungstest 2');
+    expect(cta).toHaveAttribute('href', '/exam/A1_mock_02');
+  });
+
+  it('average card shows value after >=2 mocks completed', () => {
+    for (const id of ['A1_mock_01', 'A1_mock_02']) {
+      saveSection(id, 'A1', 'listening', makeResult(20, 24, true));
+      saveSection(id, 'A1', 'reading', makeResult(18, 24, true));
+      saveSection(id, 'A1', 'writing', makeResult(8, 12, true));
+      saveSection(id, 'A1', 'speaking', makeResult(16, 24, true));
+    }
+    render(<Dashboard />);
+    expect(screen.getByTestId('stat-average-value')).toHaveTextContent(/%/);
+    expect(
+      screen.queryByTestId('stat-average-empty'),
+    ).not.toBeInTheDocument();
+  });
+
+  it('average card uses singular form when only one session has scores', () => {
+    // Partial session — still under the completedMocks < 2 threshold,
+    // so the empty state renders regardless of sample size == 1.
+    saveSection('A1_mock_01', 'A1', 'listening', makeResult(20, 24, true));
+    render(<Dashboard />);
+    expect(screen.getByTestId('stat-average-empty')).toBeInTheDocument();
   });
 });

@@ -12,13 +12,19 @@ import {
   isSessionComplete,
 } from '@/lib/examSession';
 import type { ExamSessionState } from '@/lib/examSession';
-import { ReadinessGauge } from './ReadinessGauge';
-import { QuickActions } from './QuickActions';
+import { ReadinessHero } from './ReadinessHero';
 import { RecentResults } from './RecentResults';
 import { StudyStats } from './StudyStats';
+import { LEVEL_SOLID_BG, LEVEL_TEXT } from './levelClasses';
 
 const LEVELS: Level[] = ['A1', 'A2', 'B1', 'B2', 'C1'];
-const SECTION_KEYS = ['listening', 'reading', 'writing', 'speaking'] as const;
+const ALL_SECTION_KEYS = [
+  'listening',
+  'reading',
+  'sprachbausteine',
+  'writing',
+  'speaking',
+] as const;
 
 function computeDashboardData(level: Level) {
   const mocks = getMocksForLevel(level);
@@ -33,21 +39,24 @@ function computeDashboardData(level: Level) {
 
   const completedMocks = sessions.filter((s) => isSessionComplete(s)).length;
 
-  let totalSectionsCompleted = 0;
   let totalScore = 0;
   let scoredSections = 0;
   let estimatedMinutes = 0;
 
-  const durations = SECTION_DURATIONS[level];
+  const durations = SECTION_DURATIONS[level] as Partial<
+    Record<(typeof ALL_SECTION_KEYS)[number], number>
+  >;
 
   for (const session of sessions) {
-    for (const key of SECTION_KEYS) {
+    for (const key of ALL_SECTION_KEYS) {
       const section = session.sections[key];
       if (section != null) {
-        totalSectionsCompleted++;
         totalScore += section.score.percentage;
         scoredSections++;
-        estimatedMinutes += Math.round(durations[key] / 60);
+        const dur = durations[key];
+        if (typeof dur === 'number') {
+          estimatedMinutes += Math.round(dur / 60);
+        }
       }
     }
   }
@@ -55,8 +64,7 @@ function computeDashboardData(level: Level) {
   const averageScore = scoredSections > 0 ? totalScore / scoredSections : 0;
   const readiness = getReadinessLevel(averageScore);
 
-  // "Weiter lernen" — find the most recently started incomplete mock
-  let continueHref = '/exam';
+  // In-progress session = started but not all 4 required sections complete.
   const incompleteSessions = sessions
     .filter((s) => !isSessionComplete(s))
     .sort(
@@ -64,11 +72,36 @@ function computeDashboardData(level: Level) {
         new Date(b.startedAt).getTime() - new Date(a.startedAt).getTime(),
     );
 
-  if (incompleteSessions.length > 0) {
-    continueHref = `/exam/${incompleteSessions[0].mockId}`;
+  const hasInProgress = incompleteSessions.length > 0;
+
+  // CTA mock number:
+  //   1. In-progress → resume that one
+  //   2. Otherwise → first mock number not yet started
+  //   3. If all started → 1
+  let ctaMockNumber = 1;
+  let continueHref = '/exam';
+
+  if (hasInProgress) {
+    const s = incompleteSessions[0];
+    ctaMockNumber = mocks.find((m) => m.id === s.mockId)?.mockNumber ?? 1;
+    continueHref = `/exam/${s.mockId}`;
+  } else {
+    const startedIds = new Set(sessions.map((s) => s.mockId));
+    const nextMock = mocks.find((m) => !startedIds.has(m.id));
+    if (nextMock) {
+      ctaMockNumber = nextMock.mockNumber;
+      continueHref = `/exam/${nextMock.id}`;
+    } else {
+      // all started & complete — loop back to first for review
+      ctaMockNumber = 1;
+      continueHref = mocks[0] ? `/exam/${mocks[0].id}` : '/exam';
+    }
   }
 
-  // Sort recent results by startedAt descending
+  // Week grid — Mon..Sun booleans for current week (local time).
+  const studiedDays = computeStudiedDays(sessions);
+
+  // Recent results sort
   const sortedSessions = [...sessions].sort(
     (a, b) =>
       new Date(b.startedAt).getTime() - new Date(a.startedAt).getTime(),
@@ -78,12 +111,56 @@ function computeDashboardData(level: Level) {
     sessions: sortedSessions,
     completedMocks,
     totalMocks: mocks.length,
-    totalSectionsCompleted,
     averageScore,
+    averageSampleSize: sessions.length,
     estimatedMinutes,
     readiness,
     continueHref,
+    ctaMockNumber,
+    hasInProgress,
+    studiedDays,
   };
+}
+
+/**
+ * Derive Mon..Sun booleans for the user's current week from every section's
+ * `submittedAt`. Falls back silently if dates are unparsable.
+ */
+function computeStudiedDays(sessions: ExamSessionState[]): boolean[] {
+  const days = [false, false, false, false, false, false, false];
+  const { monday, nextMonday } = getCurrentWeekBounds();
+
+  for (const s of sessions) {
+    for (const key of ALL_SECTION_KEYS) {
+      const sec = s.sections[key];
+      if (!sec?.submittedAt) continue;
+      const t = new Date(sec.submittedAt).getTime();
+      if (!Number.isFinite(t)) continue;
+      if (t < monday.getTime() || t >= nextMonday.getTime()) continue;
+      const dow = dayOfWeekMonFirst(new Date(t));
+      days[dow] = true;
+    }
+  }
+  return days;
+}
+
+function getCurrentWeekBounds(now: Date = new Date()): {
+  monday: Date;
+  nextMonday: Date;
+} {
+  const monday = new Date(now);
+  monday.setHours(0, 0, 0, 0);
+  const jsDow = monday.getDay(); // 0=Sun..6=Sat
+  const delta = jsDow === 0 ? -6 : 1 - jsDow; // roll back to Monday
+  monday.setDate(monday.getDate() + delta);
+  const nextMonday = new Date(monday);
+  nextMonday.setDate(nextMonday.getDate() + 7);
+  return { monday, nextMonday };
+}
+
+function dayOfWeekMonFirst(d: Date): number {
+  const js = d.getDay(); // 0=Sun
+  return js === 0 ? 6 : js - 1;
 }
 
 export function Dashboard() {
@@ -97,21 +174,26 @@ export function Dashboard() {
   return (
     <div data-testid="dashboard" className="space-y-6">
       {/* Level tabs */}
-      <div data-testid="level-tabs" className="flex gap-2">
+      <div data-testid="level-tabs" className="flex flex-wrap gap-2">
         {LEVELS.map((level) => {
           const cfg = LEVEL_CONFIG[level];
           const isActive = level === selectedLevel;
+          const activeBg = LEVEL_SOLID_BG[level];
+          const inactiveText = LEVEL_TEXT[level];
+          void cfg;
           return (
             <button
               key={level}
+              type="button"
               data-testid={`level-tab-${level}`}
+              data-active={isActive}
+              aria-pressed={isActive}
               onClick={() => setSelectedLevel(level)}
-              className={`rounded-full px-4 py-2 text-sm font-semibold transition-colors ${
+              className={`inline-flex h-11 min-h-11 items-center rounded-full px-4 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 ${
                 isActive
-                  ? 'text-white'
-                  : 'border border-border bg-white text-text-secondary hover:bg-surface-container'
+                  ? `${activeBg} text-white`
+                  : `border border-border bg-surface ${inactiveText} hover:bg-surface-container`
               }`}
-              style={isActive ? { backgroundColor: cfg.color } : undefined}
             >
               {level}
             </button>
@@ -119,37 +201,30 @@ export function Dashboard() {
         })}
       </div>
 
-      {/* Top row: readiness + stats */}
-      <div className="grid gap-6 lg:grid-cols-2">
-        <ReadinessGauge level={data.readiness} percentage={data.averageScore} />
-        <div className="flex flex-col justify-center rounded-xl border border-border bg-white p-6">
-          <div className="text-sm text-text-secondary">Übungstests</div>
-          <div
-            data-testid="completed-mocks"
-            className="mt-1 text-3xl font-bold text-text-primary"
-          >
-            {data.completedMocks} / {data.totalMocks}
-          </div>
-          <div className="mt-1 text-sm text-text-secondary">
-            Übungstests abgeschlossen
-          </div>
-        </div>
-      </div>
-
-      {/* Quick actions */}
-      <QuickActions continueHref={data.continueHref} />
-
-      {/* Study stats */}
-      <StudyStats
+      {/* Hero row — replaces ReadinessGauge + mock counter + QuickActions CTA */}
+      <ReadinessHero
+        activeLevel={selectedLevel}
+        readiness={data.readiness}
         completedMocks={data.completedMocks}
         totalMocks={data.totalMocks}
-        sectionsCompleted={data.totalSectionsCompleted}
+        continueHref={data.continueHref}
+        ctaMockNumber={data.ctaMockNumber}
+        hasInProgress={data.hasInProgress}
+      />
+
+      {/* Stats row — 3 cards */}
+      <StudyStats
+        activeLevel={selectedLevel}
+        completedMocks={data.completedMocks}
+        totalMocks={data.totalMocks}
         averageScore={data.averageScore}
+        averageSampleSize={data.averageSampleSize}
         estimatedMinutes={data.estimatedMinutes}
+        studiedDays={data.studiedDays}
       />
 
       {/* Recent results */}
-      <RecentResults sessions={data.sessions} />
+      <RecentResults sessions={data.sessions} activeLevel={selectedLevel} />
     </div>
   );
 }
