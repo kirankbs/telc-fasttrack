@@ -1,13 +1,936 @@
 {
   "id": "B2_mock_02",
   "level": "B2",
-  "title": "Übungstest 2",
-  "version": 0,
-  "_stub": true,
+  "title": "B2 Übungstest 2: Bildung & Studium",
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Nachrichtenmeldungen aus dem Bildungsbereich. Entscheiden Sie bei jeder Aussage: richtig oder falsch? Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short news bulletins from the education sector. For each statement decide: correct or incorrect? You will hear each text only once.",
+          "audioFile": "assets/audio/B2/mock02/listening_part1.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m02_L1_q1",
+              "type": "true_false",
+              "questionText": "Laut der Meldung planen die Kultusminister, das Abitur ab dem nächsten Schuljahr bundesweit zu vereinheitlichen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Meldung sagt: 'Die Kultusministerkonferenz hat sich lediglich auf einen gemeinsamen Aufgabenpool für zentrale Prüfungsfächer verständigt – eine vollständige Vereinheitlichung des Abiturs bleibt vorerst ausgeschlossen.' 'vorerst ausgeschlossen' bedeutet: nicht geplant. Die Behauptung einer bundesweiten Vereinheitlichung ab dem nächsten Schuljahr ist daher falsch. B2-Falle: Das Wort 'lediglich' signalisiert eine Einschränkung, die den Eindruck einer umfassenden Reform sofort relativiert.",
+              "audioTimestamp": 13
+            },
+            {
+              "id": "B2_m02_L1_q2",
+              "type": "true_false",
+              "questionText": "Die Zahl der Studienanfängerinnen und -anfänger in dualen Studiengängen ist im vergangenen Wintersemester weiter gestiegen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Sprecherin berichtet: 'Im vergangenen Wintersemester schrieben sich rund acht Prozent mehr junge Menschen in ein duales Studium ein – ein anhaltender Aufwärtstrend.' 'acht Prozent mehr' und 'anhaltender Aufwärtstrend' bestätigen die Steigerung. Die Aussage ist korrekt.",
+              "audioTimestamp": 46
+            },
+            {
+              "id": "B2_m02_L1_q3",
+              "type": "true_false",
+              "questionText": "Das Bundesbildungsministerium will die BAföG-Sätze im kommenden Herbst um zehn Prozent erhöhen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Meldung differenziert: 'Das Ministerium plant zwar eine Anpassung der BAföG-Sätze, bleibt mit fünf Prozent aber deutlich unter den Forderungen der Studierendenverbände, die eine Erhöhung um mindestens zehn Prozent verlangen.' Geplant sind fünf Prozent, nicht zehn. B2-Trap: Die Zahl zehn Prozent kommt im Audio vor, aber nur als Forderung der Verbände, nicht als Ministeriumsplan.",
+              "audioTimestamp": 82
+            },
+            {
+              "id": "B2_m02_L1_q4",
+              "type": "true_false",
+              "questionText": "Eine neue Studie der Universität Leipzig warnt vor einem Rückgang der Lesekompetenz bei Grundschulkindern.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Im Audio heißt es wörtlich: 'Eine heute veröffentlichte Studie des Erziehungswissenschaftlichen Instituts der Universität Leipzig dokumentiert einen besorgniserregenden Rückgang der Lesekompetenz in den dritten und vierten Klassen.' Der Rückgang wird eindeutig bestätigt; das Adjektiv 'besorgniserregend' unterstreicht den Warnton.",
+              "audioTimestamp": 118
+            },
+            {
+              "id": "B2_m02_L1_q5",
+              "type": "true_false",
+              "questionText": "Die Technische Universität München hat angekündigt, ihre Präsenzpflicht für Vorlesungen wieder einzuführen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Meldung sagt: 'Die TU München hält trotz Kritik einzelner Professoren an ihrem hybriden Vorlesungsmodell fest; eine Rückkehr zur vollständigen Präsenzpflicht ist nicht vorgesehen.' 'hält fest' und 'nicht vorgesehen' machen klar: keine Wiedereinführung. B2-Trap: Die Erwartung einer konservativen Rolle rückwärts wird nicht bestätigt – im Gegenteil.",
+              "audioTimestamp": 156
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören ein Interview zum Thema Hochschulreform und digitale Lehre. Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind. Sie hören das Interview nur einmal.",
+          "instructionsTranslation": "You will hear an interview on university reform and digital teaching. Decide whether the following ten statements are correct or incorrect. You will hear the interview only once.",
+          "audioFile": "assets/audio/B2/mock02/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m02_L2_q1",
+              "type": "true_false",
+              "questionText": "Prof. Hartmann arbeitet am Zentrum für Hochschulforschung in Hannover.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Moderator stellt ihn vor: 'Unser heutiger Gast ist Professor Stefan Hartmann, Direktor des Deutschen Zentrums für Hochschulforschung in Hannover.' Die Aussage wird wörtlich bestätigt; 'Deutsches Zentrum' im Original und 'Zentrum' im Item sind semantisch äquivalent.",
+              "audioTimestamp": 14
+            },
+            {
+              "id": "B2_m02_L2_q2",
+              "type": "true_false",
+              "questionText": "Laut Prof. Hartmann sind deutsche Universitäten bei der Digitalisierung inzwischen international führend.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Hartmann sagt: 'Trotz deutlicher Fortschritte bleiben wir im internationalen Vergleich ein solides Mittelfeld – wirklich führend sind nach wie vor Estland, die Niederlande und einige asiatische Hochschulen.' 'solides Mittelfeld' und 'nach wie vor' signalisieren: nicht führend. B2-Hedging-Falle: 'deutliche Fortschritte' klingt positiv, wird aber sofort mit 'Mittelfeld' eingeordnet.",
+              "audioTimestamp": 48
+            },
+            {
+              "id": "B2_m02_L2_q3",
+              "type": "true_false",
+              "questionText": "Prof. Hartmann meint, dass reine Online-Vorlesungen die Studienabbruchquote senken.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Experte stellt fest: 'Reine Online-Formate – und das widerspricht einer verbreiteten Annahme – führen in unseren Daten eher zu einer höheren Abbruchquote, gerade in den ersten beiden Semestern.' 'widerspricht einer verbreiteten Annahme' markiert bewusst einen Gegensatz zur Erwartung. B2-Trap: Item wiederholt genau die 'verbreitete Annahme', die der Experte ablehnt.",
+              "audioTimestamp": 92
+            },
+            {
+              "id": "B2_m02_L2_q4",
+              "type": "true_false",
+              "questionText": "Der Moderator erwähnt, dass manche Professoren digitalen Prüfungsformaten skeptisch gegenüberstehen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Moderator formuliert: 'Aus vielen Fachbereichen hören wir aber auch kritische Stimmen – gerade ältere Kolleginnen und Kollegen stehen digitalen Prüfungen nach wie vor skeptisch gegenüber.' Die Aussage ist inhaltlich identisch mit dem Item.",
+              "audioTimestamp": 138
+            },
+            {
+              "id": "B2_m02_L2_q5",
+              "type": "true_false",
+              "questionText": "Prof. Hartmann hält Blended-Learning-Formate für die didaktisch sinnvollste Lösung.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Hartmann sagt klar: 'Meiner Überzeugung nach sind hybride Formate – also eine überlegte Kombination aus Präsenz und Online – didaktisch den reinen Einzellösungen überlegen.' 'didaktisch überlegen' bestätigt die Aussage direkt.",
+              "audioTimestamp": 178
+            },
+            {
+              "id": "B2_m02_L2_q6",
+              "type": "true_false",
+              "questionText": "Die Expertenkommission empfiehlt, die Regelstudienzeit bundesweit zu verkürzen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Hartmann berichtet: 'Die Kommission hat sich ausdrücklich gegen eine weitere Verkürzung der Regelstudienzeit ausgesprochen und stattdessen mehr Flexibilität bei den Modulformen empfohlen.' 'ausdrücklich gegen' ist das Gegenteil von 'empfehlen'. B2-Hedging-Trap: Das Item wiederholt eine Forderung, die die Kommission bewusst zurückweist.",
+              "audioTimestamp": 218
+            },
+            {
+              "id": "B2_m02_L2_q7",
+              "type": "true_false",
+              "questionText": "Laut Prof. Hartmann studieren immer mehr Berufstätige berufsbegleitend.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Experte verweist auf Zahlen: 'Wir sehen in den letzten fünf Jahren einen kontinuierlichen Zuwachs bei berufsbegleitenden Studiengängen – mittlerweile sind es über fünfzehn Prozent aller Studierenden.' Die Aussage ist damit klar bestätigt.",
+              "audioTimestamp": 258
+            },
+            {
+              "id": "B2_m02_L2_q8",
+              "type": "true_false",
+              "questionText": "Prof. Hartmann fordert, das BAföG komplett durch Studienkredite zu ersetzen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Experte sagt: 'Ein Ersatz des BAföG durch Kredite käme für mich nicht in Frage – wir brauchen beide Säulen, und zwar nicht gegeneinander, sondern ergänzend.' 'käme nicht in Frage' drückt Ablehnung aus. B2-Trap: 'Kredite' werden erwähnt, aber nur als ergänzend, nicht als Ersatz.",
+              "audioTimestamp": 298
+            },
+            {
+              "id": "B2_m02_L2_q9",
+              "type": "true_false",
+              "questionText": "Hartmann hält die derzeitigen BAföG-Sätze für ausreichend.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Experte sagt: 'Die aktuellen Sätze liegen deutlich unter der Armutsgrenze – hier besteht dringender Anpassungsbedarf.' 'dringender Anpassungsbedarf' bedeutet: nicht ausreichend. Die Aussage ist daher falsch.",
+              "audioTimestamp": 325
+            },
+            {
+              "id": "B2_m02_L2_q10",
+              "type": "true_false",
+              "questionText": "Am Ende des Interviews kündigt Prof. Hartmann eine Tagung zur digitalen Lehre in Hamburg an.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Am Ende verweist Hartmann auf: 'Weitere Daten finden Interessierte in unserem jährlichen Bildungsbericht, der kommende Woche erscheint.' Ein Bildungsbericht wird angekündigt, keine Tagung. Hamburg wird gar nicht erwähnt. B2-Trap: Der Prompt mischt ein falsches Stichwort (Hamburg) mit einer plausiblen Schlusskonvention.",
+              "audioTimestamp": 358
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Ansagen oder Nachrichten aus dem Hochschul- und Bildungsalltag. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short announcements or messages from university and education daily life. What is correct? Choose a, b, or c. You will hear each text only once.",
+          "audioFile": "assets/audio/B2/mock02/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m02_L3_q1",
+              "type": "mcq",
+              "questionText": "Worüber informiert die Ansage am Eingang der Universitätsbibliothek?",
+              "options": [
+                "a) Die Bibliothek schließt ab kommender Woche dauerhaft samstags.",
+                "b) Der Zugang zum Lesesaal ist wegen Umbaus zeitweise eingeschränkt.",
+                "c) Die elektronischen Zeitschriften sind wegen einer Störung nicht verfügbar."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Ansage lautet: 'Aufgrund dringender Sanierungsarbeiten bleibt der große Lesesaal im zweiten Obergeschoss bis voraussichtlich Mitte Mai nur eingeschränkt zugänglich.' Das entspricht exakt Option b (Zugang zeitweise eingeschränkt). Distraktor a) nennt Samstagsschließung, die nicht erwähnt wird; c) betrifft elektronische Zeitschriften – auch nicht im Audio. B2-Trap: Das Wort 'zugänglich' ist die paraphrasierte Form von 'eingeschränkt' im Item.",
+              "audioTimestamp": 20
+            },
+            {
+              "id": "B2_m02_L3_q2",
+              "type": "mcq",
+              "questionText": "Was teilt das Prüfungsamt den Studierenden per Mailbox mit?",
+              "options": [
+                "a) Die Anmeldefrist für Klausuren wurde um eine Woche verlängert.",
+                "b) Es gibt ab sofort keine Nachholklausuren mehr im laufenden Semester.",
+                "c) Alle schriftlichen Prüfungen finden künftig ausschließlich digital statt."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Nachricht informiert: 'Wegen technischer Probleme im Online-Portal wird die Anmeldefrist für sämtliche Klausuren des Sommersemesters einmalig um sieben Tage verlängert.' 'sieben Tage' = eine Woche; das entspricht Option a. Distraktor b) erwähnt Nachholklausuren, die nicht thematisiert werden. c) stellt eine Totalumstellung in Aussicht, die nicht angekündigt wird.",
+              "audioTimestamp": 62
+            },
+            {
+              "id": "B2_m02_L3_q3",
+              "type": "mcq",
+              "questionText": "Was empfiehlt die Studienberaterin dem Anrufer?",
+              "options": [
+                "a) das Studienfach sofort zu wechseln",
+                "b) zunächst ein Urlaubssemester einzulegen und nachzudenken",
+                "c) seine Studienfinanzierung durch einen Nebenjob zu verbessern"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Beraterin rät: 'Bevor Sie eine endgültige Entscheidung treffen, würde ich Ihnen raten, zunächst ein Urlaubssemester zu beantragen – so gewinnen Sie Zeit, ohne Ihren Studienplatz zu verlieren.' Das ist präzise Option b. Distraktor a) wird sogar ausdrücklich zurückgestellt ('bevor Sie ... endgültige Entscheidung'). c) kommt nicht vor. B2-Feinheit: 'Urlaubssemester beantragen' ist B2-Fachwortschatz aus Domain 7 Ausbildung/Weiterbildung.",
+              "audioTimestamp": 105
+            },
+            {
+              "id": "B2_m02_L3_q4",
+              "type": "mcq",
+              "questionText": "Was ist das Hauptanliegen der Voicemail an das Akademische Auslandsamt?",
+              "options": [
+                "a) Der Student bittet um Verlängerung seines Erasmus-Auslandssemesters.",
+                "b) Der Student teilt mit, dass er sein Auslandssemester abbricht.",
+                "c) Der Student fordert eine vollständige Rückerstattung der Erasmus-Stipendienrate."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Student sagt: 'Ich würde gern mein Erasmus-Semester um weitere drei Monate verlängern, da mein Forschungsprojekt länger dauert als geplant, und bitte Sie, mir das entsprechende Antragsformular zuzusenden.' Das ist klar Option a. Distraktor b) kehrt das Anliegen um (Verlängerung statt Abbruch); c) wird nicht genannt.",
+              "audioTimestamp": 148
+            },
+            {
+              "id": "B2_m02_L3_q5",
+              "type": "mcq",
+              "questionText": "Worüber informiert die Ansage im Hörsaalgebäude?",
+              "options": [
+                "a) Die Vorlesung von Prof. Schneider beginnt heute dreißig Minuten später.",
+                "b) Die heutige Vorlesung fällt wegen Krankheit der Dozentin aus.",
+                "c) Die Vorlesung wird in einen anderen Hörsaal verlegt."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Ansage sagt: 'Liebe Studierende, die heutige Vorlesung in Statistik III findet ausnahmsweise nicht wie gewohnt in Hörsaal B, sondern in Hörsaal E im Erdgeschoss statt.' Das ist eindeutig eine Raumverlegung = Option c. Distraktor a) nennt eine Verspätung, die nicht erwähnt wird; b) eine Absage, die ebenfalls nicht angekündigt wird. B2-Trap: Das Wort 'ausnahmsweise' ist der Schlüssel zum Perspektivwechsel (nicht Zeit, sondern Ort).",
+              "audioTimestamp": 192
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 90,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie zuerst die fünf Kurztexte (1–5) und dann die zehn Überschriften (a–j). Welche Überschrift passt am besten zu welchem Text? Für jeden Text gibt es genau eine passende Überschrift. Fünf Überschriften bleiben übrig.",
+          "instructionsTranslation": "First read the five short texts (1–5) and then the ten headlines (a–j). Which headline best matches which text? For each text there is exactly one matching headline. Five headlines remain unused.",
+          "texts": [
+            { "id": "B2_m02_R1_head_a", "type": "notice", "content": "a) BAföG-Reform: Studierendenverbände zeigen sich enttäuscht" },
+            { "id": "B2_m02_R1_head_b", "type": "notice", "content": "b) Digitale Lehre an deutschen Hochschulen – wo sie funktioniert und wo nicht" },
+            { "id": "B2_m02_R1_head_c", "type": "notice", "content": "c) Hochschulabschluss zahlt sich weiterhin aus – neue Gehaltsstudie" },
+            { "id": "B2_m02_R1_head_d", "type": "notice", "content": "d) Duales Studium auf Rekordniveau – Handwerkskammern ziehen mit" },
+            { "id": "B2_m02_R1_head_e", "type": "notice", "content": "e) Pisa-Ergebnisse: deutsche Schulen verlieren erneut Boden" },
+            { "id": "B2_m02_R1_head_f", "type": "notice", "content": "f) Zwischen Anspruch und Alltag: Lehrkräfte am Rand der Belastungsgrenze" },
+            { "id": "B2_m02_R1_head_g", "type": "notice", "content": "g) Seniorenuni boomt – wenn Lernen im Ruhestand zur Leidenschaft wird" },
+            { "id": "B2_m02_R1_head_h", "type": "notice", "content": "h) Elite-Unis: Harvard & Co. werben um deutsche Spitzenforschende" },
+            { "id": "B2_m02_R1_head_i", "type": "notice", "content": "i) Schulbauten vor dem Kollaps – Kommunen schlagen Alarm" },
+            { "id": "B2_m02_R1_head_j", "type": "notice", "content": "j) Erasmus mit Familie: junge Eltern entdecken das Auslandssemester" }
+          ],
+          "questions": [
+            {
+              "id": "B2_m02_R1_q1",
+              "type": "matching",
+              "questionText": "Text 1: Eine aktuelle Erhebung des Instituts der deutschen Wirtschaft zeigt, dass Hochschulabsolventinnen und -absolventen auch fünf Jahre nach dem Abschluss im Durchschnitt deutlich mehr verdienen als Beschäftigte mit rein beruflicher Ausbildung. Die Lohnlücke liegt bei rund sechsundzwanzig Prozent und hat sich in den vergangenen zehn Jahren kaum verändert. Besonders ausgeprägt ist der Effekt in den MINT-Fächern und in wirtschaftsnahen Studiengängen. Die Autoren warnen allerdings vor vorschnellen Schlüssen: In einzelnen geisteswissenschaftlichen Fächern bleibt das Gehalt auch langfristig unter dem von gut qualifizierten Fachkräften.",
+              "matchingSources": [
+                { "id": "B2_m02_R1_head_a", "label": "a" },
+                { "id": "B2_m02_R1_head_b", "label": "b" },
+                { "id": "B2_m02_R1_head_c", "label": "c" },
+                { "id": "B2_m02_R1_head_d", "label": "d" },
+                { "id": "B2_m02_R1_head_e", "label": "e" },
+                { "id": "B2_m02_R1_head_f", "label": "f" },
+                { "id": "B2_m02_R1_head_g", "label": "g" },
+                { "id": "B2_m02_R1_head_h", "label": "h" },
+                { "id": "B2_m02_R1_head_i", "label": "i" },
+                { "id": "B2_m02_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text dokumentiert den langfristigen Gehaltsvorteil des Hochschulabschlusses gegenüber der Berufsausbildung – das ist inhaltlich deckungsgleich mit Überschrift c). Distraktor h) (Harvard wirbt um Forschende) nennt zwar Karriere, aber keine Gehaltsstatistik. Distraktor d) (duales Studium) fokussiert auf ein Modell, das im Text gerade NICHT Gegenstand ist."
+            },
+            {
+              "id": "B2_m02_R1_q2",
+              "type": "matching",
+              "questionText": "Text 2: Seit Beginn dieses Semesters bieten mehrere Universitäten in Nordrhein-Westfalen grundlegend neue Online-Module an, in denen Studierende einzelne Vorlesungsinhalte in eigenem Tempo erarbeiten können. Gleichzeitig zeigen Rückmeldungen aus den Fakultäten ein gemischtes Bild: In den Naturwissenschaften kommen die Videoformate sehr gut an, weil sie das wiederholte Anschauen komplexer Herleitungen ermöglichen. In den Kulturwissenschaften hingegen vermissen viele Lernende den direkten Austausch, und Seminargruppen brechen häufiger auseinander. Hochschulleitungen betonen, dass es nicht um einen Ersatz der Präsenzlehre gehe, sondern um eine gezielte Ergänzung.",
+              "matchingSources": [
+                { "id": "B2_m02_R1_head_a", "label": "a" },
+                { "id": "B2_m02_R1_head_b", "label": "b" },
+                { "id": "B2_m02_R1_head_c", "label": "c" },
+                { "id": "B2_m02_R1_head_d", "label": "d" },
+                { "id": "B2_m02_R1_head_e", "label": "e" },
+                { "id": "B2_m02_R1_head_f", "label": "f" },
+                { "id": "B2_m02_R1_head_g", "label": "g" },
+                { "id": "B2_m02_R1_head_h", "label": "h" },
+                { "id": "B2_m02_R1_head_i", "label": "i" },
+                { "id": "B2_m02_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text kontrastiert, wo digitale Lehre gut funktioniert (MINT) und wo sie scheitert (Kulturwissenschaften) – exakt die Aussage von Überschrift b) 'wo sie funktioniert und wo nicht'. Distraktor e) (Pisa) beschäftigt sich mit Schulen, nicht Hochschulen. Distraktor h) passt nicht, da keine Eliteuniversitäten thematisiert werden."
+            },
+            {
+              "id": "B2_m02_R1_q3",
+              "type": "matching",
+              "questionText": "Text 3: Immer mehr Handwerksbetriebe arbeiten inzwischen mit Hochschulen zusammen, um ihren Nachwuchs sowohl praktisch als auch akademisch auszubilden. Die Handwerkskammer Rhein-Main meldet für das laufende Studienjahr einen Zuwachs um vierzig Prozent bei dualen Bachelor-Studiengängen in Zusammenarbeit mit regionalen Hochschulen – vom Bauingenieurwesen bis zur Lebensmitteltechnologie. Die Kombination aus bezahlter Ausbildung, fachlicher Tiefe und garantierter Übernahme nach dem Abschluss wird gerade von Abiturientinnen und Abiturienten zunehmend nachgefragt. Kritiker warnen allerdings vor einer Überlastung der Betriebe, die Ausbildung und Studienbegleitung gleichzeitig leisten sollen.",
+              "matchingSources": [
+                { "id": "B2_m02_R1_head_a", "label": "a" },
+                { "id": "B2_m02_R1_head_b", "label": "b" },
+                { "id": "B2_m02_R1_head_c", "label": "c" },
+                { "id": "B2_m02_R1_head_d", "label": "d" },
+                { "id": "B2_m02_R1_head_e", "label": "e" },
+                { "id": "B2_m02_R1_head_f", "label": "f" },
+                { "id": "B2_m02_R1_head_g", "label": "g" },
+                { "id": "B2_m02_R1_head_h", "label": "h" },
+                { "id": "B2_m02_R1_head_i", "label": "i" },
+                { "id": "B2_m02_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Der Text thematisiert explizit den Boom des dualen Studiums zusammen mit den Handwerkskammern – deckungsgleich mit Überschrift d). Distraktor c) (Gehaltsstudie) passt nicht, weil hier kein Gehaltsvergleich erfolgt. Distraktor b) (digitale Lehre) berührt ein ganz anderes Thema."
+            },
+            {
+              "id": "B2_m02_R1_q4",
+              "type": "matching",
+              "questionText": "Text 4: Die Gewerkschaft Erziehung und Wissenschaft schlägt Alarm: Laut einer aktuellen Umfrage unter mehr als fünftausend Lehrerinnen und Lehrern leiden inzwischen mehr als sechzig Prozent unter dauerhafter Erschöpfung, jeder fünfte Befragte spricht von konkreten Burnout-Symptomen. Gründe sind nach GEW-Angaben zunehmende Aufgabenvielfalt – von Digitalisierung über Inklusion bis zu Sprachförderung – bei gleichzeitig stagnierenden Personalressourcen. Die Politik müsse dringend gegensteuern, etwa durch zusätzliche Verwaltungsstellen an Schulen, verlässliche Entlastung im Unterricht und feste Zeitbudgets für Elterngespräche. Ansonsten drohe ein weiterer Abgang erfahrener Fachkräfte.",
+              "matchingSources": [
+                { "id": "B2_m02_R1_head_a", "label": "a" },
+                { "id": "B2_m02_R1_head_b", "label": "b" },
+                { "id": "B2_m02_R1_head_c", "label": "c" },
+                { "id": "B2_m02_R1_head_d", "label": "d" },
+                { "id": "B2_m02_R1_head_e", "label": "e" },
+                { "id": "B2_m02_R1_head_f", "label": "f" },
+                { "id": "B2_m02_R1_head_g", "label": "g" },
+                { "id": "B2_m02_R1_head_h", "label": "h" },
+                { "id": "B2_m02_R1_head_i", "label": "i" },
+                { "id": "B2_m02_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Der Text beschreibt präzise die Belastungssituation der Lehrkräfte – Zwischen Anspruch (hohe Aufgabenvielfalt) und Alltag (Erschöpfung, Burnout) = Überschrift f). Distraktor i) (Schulbauten) fokussiert Infrastruktur, aber der Text nennt explizit Personal und Aufgaben, nicht Gebäude. Distraktor e) (Pisa) betrifft Schülerleistungen, nicht Lehrkräfte."
+            },
+            {
+              "id": "B2_m02_R1_q5",
+              "type": "matching",
+              "questionText": "Text 5: Die Seniorenuniversitäten in deutschen Großstädten verzeichnen seit mehreren Jahren steigende Anmeldezahlen. An der Freien Universität Berlin haben sich für das laufende Semester fast dreitausend Gasthörende über sechzig eingeschrieben – ein neuer Rekord. Die Angebote reichen von Philosophie und Kunstgeschichte bis zu Quantenphysik für Fortgeschrittene. Viele der Teilnehmerinnen und Teilnehmer berichten, sie hätten in ihrem Berufsleben nicht die Zeit für eigene intellektuelle Interessen gehabt und wollten diese nun nachholen. Die Universitäten profitieren ihrerseits von einem engagierten, disziplinierten Publikum und ergänzenden Teilnahmegebühren.",
+              "matchingSources": [
+                { "id": "B2_m02_R1_head_a", "label": "a" },
+                { "id": "B2_m02_R1_head_b", "label": "b" },
+                { "id": "B2_m02_R1_head_c", "label": "c" },
+                { "id": "B2_m02_R1_head_d", "label": "d" },
+                { "id": "B2_m02_R1_head_e", "label": "e" },
+                { "id": "B2_m02_R1_head_f", "label": "f" },
+                { "id": "B2_m02_R1_head_g", "label": "g" },
+                { "id": "B2_m02_R1_head_h", "label": "h" },
+                { "id": "B2_m02_R1_head_i", "label": "i" },
+                { "id": "B2_m02_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Der Text beschreibt steigende Anmeldezahlen bei Seniorenuniversitäten und die Begeisterung der Gasthörenden – das entspricht genau Überschrift g) 'Seniorenuni boomt – wenn Lernen im Ruhestand zur Leidenschaft wird'. Die übrigen Distraktoren (a, e, h, i, j) thematisieren BAföG, Pisa, Spitzenforschung, Schulbauten und Erasmus – alles nicht einschlägig."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Zeitungsartikel. Wählen Sie bei jeder Aufgabe die beste Antwort (a, b oder c) aufgrund der Informationen im Text.",
+          "instructionsTranslation": "Read the following newspaper article. For each task choose the best answer (a, b, or c) based on the information in the text.",
+          "texts": [
+            {
+              "id": "B2_m02_R2_article",
+              "type": "article",
+              "content": "Lebenslanges Lernen – vom Schlagwort zum Bildungsmodell\n\nKaum ein bildungspolitischer Begriff wird in Deutschland so häufig beschworen – und zugleich so wenig konkret gefüllt – wie 'lebenslanges Lernen'. Seit rund zwei Jahrzehnten verweisen Ministerien, Gewerkschaften und Unternehmensverbände darauf, dass berufliches Wissen heute eine kürzere Haltbarkeit habe als früher und dass Beschäftigte gerade angesichts der digitalen Transformation ihre Qualifikationen ständig erweitern müssten. Dennoch zeigt eine neue Studie des Deutschen Instituts für Erwachsenenbildung in Bonn, dass die Kluft zwischen Anspruch und Praxis weiterhin groß ist.\n\nNur etwa die Hälfte der Beschäftigten in Deutschland nimmt im Lauf eines Jahres an irgendeiner Form von Weiterbildung teil. Besonders deutlich ist die Lücke bei Beschäftigten in kleinen Betrieben, bei gering qualifizierten Arbeitskräften und bei Frauen in Familienphasen. 'Gerade die Menschen, die am meisten von Weiterbildung profitieren würden, erreichen wir am schlechtesten', sagt Projektleiterin Dr. Claudia Neumann. Ein zentrales Problem sei die Freistellung durch den Arbeitgeber: Wer sich in der Freizeit weiterbilde, falle erfahrungsgemäß schneller aus dem Kurs heraus als jemand, dessen Fortbildung als Arbeitszeit gelte.\n\nInteressant ist, was laut der Studie tatsächlich funktioniert. Am erfolgreichsten sind Programme, die betriebsnah aufgesetzt sind – das heißt: Fortbildungen, deren Inhalte direkt in die nächsten Projekte einfließen, deren Zeitbudget vom Arbeitgeber verbindlich zugesagt ist und deren Abschluss im Unternehmen sichtbar gemacht wird. Rein selbstgesteuerte Online-Kurse, so attraktiv sie auf den ersten Blick erscheinen, haben in der untersuchten Stichprobe deutlich geringere Erfolgsquoten. 'Ohne soziale Einbindung, ohne Feedback, ohne eine verpflichtende Struktur bleibt Selbststudium in den meisten Fällen Stückwerk', erklärt Neumann.\n\nZugleich warnt die Studie vor einer zunehmenden Polarisierung. Während hoch qualifizierte Angestellte mehrfach im Jahr an Weiterbildungen teilnehmen – häufig auf Kosten des Arbeitgebers –, bleiben An- und Ungelernte weitgehend außen vor. Die Folge sei ein sich verfestigender Bildungsvorsprung der ohnehin Privilegierten. Politische Instrumente wie die Bildungsprämie oder der neue Weiterbildungsbonus reichten bei weitem nicht aus, um diese Kluft zu schließen. Nötig seien, so Neumann, verbindliche Anrechnungssysteme, damit erworbene Qualifikationen auch zwischen Unternehmen und Branchen anerkannt werden.\n\nBlickt man in die Zukunft, so dürften drei Entwicklungen an Bedeutung gewinnen: eine stärkere Vernetzung von Betrieb und Hochschule – etwa über modulare Zertifikate, die im Beruf erworben und später zu einem Bachelor- oder Masterabschluss ausgebaut werden können; zweitens flexible Lernzeitkonten, auf denen Beschäftigte ähnlich wie beim Urlaub Stunden ansparen; und drittens bundesweit einheitliche Nachweisformate, die den Arbeitgeberwechsel nicht zur Bildungsbremse werden lassen. 'Lebenslanges Lernen wird nur dann vom Schlagwort zum Bildungsmodell', fasst Neumann zusammen, 'wenn wir den Übergängen zwischen Erwerbstätigkeit, Weiterbildung und Studium endlich eine verbindliche Infrastruktur geben.'",
+              "source": "Süddeutsche Zeitung, Bildungsbeilage April 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "B2_m02_R2_q1",
+              "type": "mcq",
+              "questionText": "Wie beurteilt Dr. Neumann die bisherige Umsetzung des Konzepts 'lebenslanges Lernen'?",
+              "relatedTextId": "B2_m02_R2_article",
+              "options": [
+                "a) Das Konzept ist in der Praxis weitgehend umgesetzt.",
+                "b) Es besteht nach wie vor eine deutliche Lücke zwischen Anspruch und Realität.",
+                "c) Das Thema wird in Deutschland inzwischen kaum noch diskutiert."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text stellt fest: 'Dennoch zeigt eine neue Studie ... dass die Kluft zwischen Anspruch und Praxis weiterhin groß ist.' Dr. Neumann selbst sagt: 'Gerade die Menschen, die am meisten von Weiterbildung profitieren würden, erreichen wir am schlechtesten.' Das ist deutlich Option b. Option a widerspricht dem Text (Lücke groß). Option c widerspricht dem einleitenden Satz, dass der Begriff 'so häufig beschworen' wird."
+            },
+            {
+              "id": "B2_m02_R2_q2",
+              "type": "mcq",
+              "questionText": "Welche Gruppen erreicht laut Studie die Weiterbildung bisher am schlechtesten?",
+              "relatedTextId": "B2_m02_R2_article",
+              "options": [
+                "a) Führungskräfte in Großunternehmen und selbständige Akademiker",
+                "b) Studierende kurz vor dem Hochschulabschluss",
+                "c) Beschäftigte in kleinen Betrieben, gering qualifizierte Arbeitskräfte und Frauen in Familienphasen"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text benennt wörtlich: 'Besonders deutlich ist die Lücke bei Beschäftigten in kleinen Betrieben, bei gering qualifizierten Arbeitskräften und bei Frauen in Familienphasen.' Das ist Option c. Distraktor a) kehrt die Aussage um – Führungskräfte nehmen laut Text sogar mehrfach teil. Distraktor b) (Studierende) wird im Text gar nicht behandelt."
+            },
+            {
+              "id": "B2_m02_R2_q3",
+              "type": "mcq",
+              "questionText": "Welche Weiterbildungsform ist laut Studie am erfolgreichsten?",
+              "relatedTextId": "B2_m02_R2_article",
+              "options": [
+                "a) reine Online-Kurse, die Beschäftigte selbst in ihrer Freizeit absolvieren",
+                "b) betriebsnahe Programme, deren Ergebnisse direkt in die Arbeit einfließen",
+                "c) mehrjährige akademische Abendstudiengänge an privaten Hochschulen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text sagt: 'Am erfolgreichsten sind Programme, die betriebsnah aufgesetzt sind – das heißt: Fortbildungen, deren Inhalte direkt in die nächsten Projekte einfließen.' Das ist präzise Option b. Option a widerspricht dem Text direkt ('deutlich geringere Erfolgsquoten'). Option c wird gar nicht diskutiert. B2-Trap: Option a enthält Stichwörter aus dem Text (Online, selbst), kehrt aber die Bewertung um."
+            },
+            {
+              "id": "B2_m02_R2_q4",
+              "type": "mcq",
+              "questionText": "Was sagt der Text über die Wirkung aktueller Förderinstrumente wie Bildungsprämie und Weiterbildungsbonus?",
+              "relatedTextId": "B2_m02_R2_article",
+              "options": [
+                "a) Sie haben die Kluft zwischen den Qualifikationsgruppen bereits spürbar verringert.",
+                "b) Sie sind zwar hilfreich, reichen aber bei weitem nicht aus, um die Polarisierung zu stoppen.",
+                "c) Sie werden kommendes Jahr komplett abgeschafft und durch Steuervergünstigungen ersetzt."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text schreibt: 'Politische Instrumente wie die Bildungsprämie oder der neue Weiterbildungsbonus reichten bei weitem nicht aus, um diese Kluft zu schließen.' Das ist genau Option b. Option a widerspricht der Aussage. Option c ist frei erfunden – keine Abschaffung wird erwähnt. B2-Trap: Option b übernimmt wörtlich die Formulierung 'reichen nicht aus', nur scheinbare Bestätigung macht die Antwort richtig."
+            },
+            {
+              "id": "B2_m02_R2_q5",
+              "type": "mcq",
+              "questionText": "Welche drei Entwicklungen sieht Dr. Neumann für die Zukunft als besonders wichtig?",
+              "relatedTextId": "B2_m02_R2_article",
+              "options": [
+                "a) höhere Studiengebühren, mehr Präsenzpflicht und schärfere Prüfungen",
+                "b) modulare Zertifikate, flexible Lernzeitkonten und einheitliche Nachweisformate",
+                "c) Abschaffung des BAföG, Ausbau der dualen Ausbildung und verpflichtende Auslandssemester"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text listet drei konkrete Entwicklungen auf: 'modulare Zertifikate ... flexible Lernzeitkonten ... bundesweit einheitliche Nachweisformate.' Das ist präzise Option b. Option a und c sind im Text nicht vorhanden – Studiengebühren werden gar nicht erwähnt, und BAföG-Abschaffung widerspricht der grundsätzlichen Ausrichtung des Textes auf bessere Übergänge und Anerkennung."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die zehn Situationen (1–10) und die zwölf Anzeigen (a–l). Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es höchstens eine passende Anzeige. Zwei Anzeigen bleiben übrig. Wenn keine Anzeige passt, schreiben Sie 'x'.",
+          "instructionsTranslation": "Read the ten situations (1–10) and the twelve advertisements (a–l). Which advertisement matches which situation? For each situation there is at most one matching advertisement. Two advertisements remain unused. If no advertisement fits, write 'x'.",
+          "texts": [
+            { "id": "B2_m02_R3_ad_a", "type": "ad", "content": "a) Studienberatung der TU Dresden – kostenlose Einzeltermine für Unentschlossene, Studienzweifler und Wechselkandidat:innen. Auch online. Termine montags bis donnerstags. beratung@tu-dresden.de" },
+            { "id": "B2_m02_R3_ad_b", "type": "ad", "content": "b) Stipendium der Heinrich-Böll-Stiftung für Masterstudierende mit sozialem Engagement – Stipendienhöhe 934 € monatlich plus Büchergeld. Bewerbungsschluss: 1. Juli. Voraussetzung: durchschnittliche Abschlussnote 2,0 oder besser. www.boell.de/stipendium" },
+            { "id": "B2_m02_R3_ad_c", "type": "ad", "content": "c) Duales Studium Wirtschaftsinformatik (Bachelor of Science) – sieben Semester, Partnerunternehmen in Frankfurt, Stuttgart und München. Ausbildungsvergütung ab 1.400 €. Studienbeginn Oktober. karriere@dualestudium-wi.de" },
+            { "id": "B2_m02_R3_ad_d", "type": "ad", "content": "d) Online-Crashkurs 'Wissenschaftliches Schreiben' – vier Wochen, wöchentliche Live-Sitzungen und individuelles Textfeedback. 199 €. Ideal für Bachelor- und Masterarbeiten. kurse@schreibwerkstatt.de" },
+            { "id": "B2_m02_R3_ad_e", "type": "ad", "content": "e) Sprachkurs 'Deutsch für Mediziner C1' – zwölf Wochen, Intensivkurs in Berlin, Vorbereitung auf die Fachsprachenprüfung der Ärztekammer. 780 €. Nächster Start: 5. Mai. medi-deutsch.de" },
+            { "id": "B2_m02_R3_ad_f", "type": "ad", "content": "f) Elternzeit-Stipendium der Hans-Böckler-Stiftung – für Studierende mit Kind, monatlich bis zu 400 € Kinderzuschlag, zusätzlich zur Studienförderung. Antrag jederzeit möglich. www.boeckler.de/familie" },
+            { "id": "B2_m02_R3_ad_g", "type": "ad", "content": "g) Erasmus-Auslandssemester an der Universität Lund (Schweden) – Bewerbungsfrist 15. März, englischsprachige Programme in Wirtschaft, Sozialwissenschaften und Umwelttechnik. auslandsamt@uni-hamburg.de" },
+            { "id": "B2_m02_R3_ad_h", "type": "ad", "content": "h) Nachhilfeportal 'StudiLern' – geprüfte Tutor:innen für alle Studienfächer, online und in Präsenz. Einzelstunden ab 18 €, Gruppensessions ab 9 € pro Person. Kostenlose Probestunde. www.studilern.de" },
+            { "id": "B2_m02_R3_ad_i", "type": "ad", "content": "i) Promotionsprogramm 'Digital Society' – strukturiertes dreijähriges Promotionsstudium an der Humboldt-Universität Berlin. Vollzeitstelle mit Gehalt TV-L 13, 65 %. Bewerbungsfrist: 30. April. digitalsociety@hu-berlin.de" },
+            { "id": "B2_m02_R3_ad_j", "type": "ad", "content": "j) Volkshochschule Köln: Kurs 'Grundkenntnisse Statistik für Nichtmathematiker:innen' – zehn Abende, dienstags 18.30–20.00 Uhr. 95 €. Für Geistes- und Sozialwissenschaftler:innen mit Statistikangst geeignet. vhs-koeln.de" },
+            { "id": "B2_m02_R3_ad_k", "type": "ad", "content": "k) Seniorenakademie der Universität Heidelberg – Gasthörer:innenprogramm ab 60 Jahren, volles Vorlesungsangebot aller Fakultäten. Semestergebühr 80 €. Anmeldung laufend möglich. seniorenakademie@uni-heidelberg.de" },
+            { "id": "B2_m02_R3_ad_l", "type": "ad", "content": "l) Bildungsurlaub nach dem Hessischen Bildungsurlaubsgesetz – einwöchiger Kompaktkurs 'Künstliche Intelligenz im Arbeitsalltag' mit Freistellung durch den Arbeitgeber. 490 €. Nächste Termine: Juni und September. bildungsurlaub-hessen.de" }
+          ],
+          "questions": [
+            {
+              "id": "B2_m02_R3_q1",
+              "type": "matching",
+              "questionText": "1. Lara hat nach drei Semestern Chemie gemerkt, dass das Fach doch nicht zu ihr passt. Sie möchte sich beraten lassen, ob und in welches Fach sie wechseln sollte, ohne gleich exmatrikuliert zu werden.",
+              "matchingSources": [
+                { "id": "B2_m02_R3_ad_a", "label": "a" }, { "id": "B2_m02_R3_ad_b", "label": "b" },
+                { "id": "B2_m02_R3_ad_c", "label": "c" }, { "id": "B2_m02_R3_ad_d", "label": "d" },
+                { "id": "B2_m02_R3_ad_e", "label": "e" }, { "id": "B2_m02_R3_ad_f", "label": "f" },
+                { "id": "B2_m02_R3_ad_g", "label": "g" }, { "id": "B2_m02_R3_ad_h", "label": "h" },
+                { "id": "B2_m02_R3_ad_i", "label": "i" }, { "id": "B2_m02_R3_ad_j", "label": "j" },
+                { "id": "B2_m02_R3_ad_k", "label": "k" }, { "id": "B2_m02_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Anzeige a) Studienberatung der TU Dresden richtet sich explizit an 'Studienzweifler und Wechselkandidat:innen' und bietet kostenlose Einzeltermine – genau das braucht Lara. Distraktor h) (Nachhilfe) löst ihr Problem nicht; sie zweifelt am Fach, nicht am Stoff."
+            },
+            {
+              "id": "B2_m02_R3_q2",
+              "type": "matching",
+              "questionText": "2. Herr Yildirim arbeitet seit zehn Jahren als Buchhalter und möchte sein Abitur nachholen, um danach berufsbegleitend BWL zu studieren. Er braucht eine Fördermöglichkeit, die mit seinem Familieneinkommen kompatibel ist.",
+              "matchingSources": [
+                { "id": "B2_m02_R3_ad_a", "label": "a" }, { "id": "B2_m02_R3_ad_b", "label": "b" },
+                { "id": "B2_m02_R3_ad_c", "label": "c" }, { "id": "B2_m02_R3_ad_d", "label": "d" },
+                { "id": "B2_m02_R3_ad_e", "label": "e" }, { "id": "B2_m02_R3_ad_f", "label": "f" },
+                { "id": "B2_m02_R3_ad_g", "label": "g" }, { "id": "B2_m02_R3_ad_h", "label": "h" },
+                { "id": "B2_m02_R3_ad_i", "label": "i" }, { "id": "B2_m02_R3_ad_j", "label": "j" },
+                { "id": "B2_m02_R3_ad_k", "label": "k" }, { "id": "B2_m02_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "x",
+              "explanation": "Keine Anzeige passt: Herr Yildirim sucht zuerst einen Weg zum Abitur – nicht Stipendium für Master wie in Anzeige b) (Böll-Stipendium) und f) (Elternzeit-Stipendium), nicht Auslandssemester wie g) (Erasmus Lund), nicht Promotion wie i) (Digital Society) – und danach ein berufsbegleitendes Studium; das duale Studium in Anzeige c) ist nicht berufsbegleitend, sondern Erstausbildung für junge Auszubildende, und h) (StudiLern-Nachhilfeportal) löst kein Qualifikationsproblem. Die Antwort lautet daher 'x'. Die drei in der Aufgabe ungenutzt bleibenden Anzeigen sind b) (Böll-Stipendium Master), c) (duales Studium Wirtschaftsinformatik) und h) (StudiLern-Nachhilfeportal) – jeweils an andere Zielgruppen gerichtet als Herr Yildirim."
+            },
+            {
+              "id": "B2_m02_R3_q3",
+              "type": "matching",
+              "questionText": "3. Frau Bergström, Doktorandin, steht kurz vor der Abgabe ihrer Dissertation und möchte sich noch einmal professionell Feedback zum wissenschaftlichen Schreibstil holen, bevor sie das Manuskript einreicht.",
+              "matchingSources": [
+                { "id": "B2_m02_R3_ad_a", "label": "a" }, { "id": "B2_m02_R3_ad_b", "label": "b" },
+                { "id": "B2_m02_R3_ad_c", "label": "c" }, { "id": "B2_m02_R3_ad_d", "label": "d" },
+                { "id": "B2_m02_R3_ad_e", "label": "e" }, { "id": "B2_m02_R3_ad_f", "label": "f" },
+                { "id": "B2_m02_R3_ad_g", "label": "g" }, { "id": "B2_m02_R3_ad_h", "label": "h" },
+                { "id": "B2_m02_R3_ad_i", "label": "i" }, { "id": "B2_m02_R3_ad_j", "label": "j" },
+                { "id": "B2_m02_R3_ad_k", "label": "k" }, { "id": "B2_m02_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Anzeige d) 'Wissenschaftliches Schreiben' bietet genau das: vierwöchiger Kurs mit individuellem Textfeedback, ideal für Abschlussarbeiten – auch Dissertationen. Distraktor h) (Nachhilfe) fokussiert auf Stoff, nicht auf Schreibstil."
+            },
+            {
+              "id": "B2_m02_R3_q4",
+              "type": "matching",
+              "questionText": "4. Jakob studiert im dritten Semester BWL und findet, dass ihm bei empirischen Forschungsmethoden das Statistikwissen fehlt. Er sucht einen niedrigschwelligen, günstigen Abendkurs.",
+              "matchingSources": [
+                { "id": "B2_m02_R3_ad_a", "label": "a" }, { "id": "B2_m02_R3_ad_b", "label": "b" },
+                { "id": "B2_m02_R3_ad_c", "label": "c" }, { "id": "B2_m02_R3_ad_d", "label": "d" },
+                { "id": "B2_m02_R3_ad_e", "label": "e" }, { "id": "B2_m02_R3_ad_f", "label": "f" },
+                { "id": "B2_m02_R3_ad_g", "label": "g" }, { "id": "B2_m02_R3_ad_h", "label": "h" },
+                { "id": "B2_m02_R3_ad_i", "label": "i" }, { "id": "B2_m02_R3_ad_j", "label": "j" },
+                { "id": "B2_m02_R3_ad_k", "label": "k" }, { "id": "B2_m02_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "j",
+              "explanation": "Anzeige j) VHS Köln 'Grundkenntnisse Statistik für Nichtmathematiker:innen' passt perfekt: zehn Abendtermine, niedrigschwellig, günstig (95 €), ausdrücklich für Nicht-Statistiker:innen. BWL-Studierende sind genau Zielgruppe."
+            },
+            {
+              "id": "B2_m02_R3_q5",
+              "type": "matching",
+              "questionText": "5. Sina hat gerade den Masterabschluss in Umweltwissenschaften gemacht und möchte sich nun ein englischsprachiges Auslandssemester im Umweltbereich sichern – idealerweise in Skandinavien.",
+              "matchingSources": [
+                { "id": "B2_m02_R3_ad_a", "label": "a" }, { "id": "B2_m02_R3_ad_b", "label": "b" },
+                { "id": "B2_m02_R3_ad_c", "label": "c" }, { "id": "B2_m02_R3_ad_d", "label": "d" },
+                { "id": "B2_m02_R3_ad_e", "label": "e" }, { "id": "B2_m02_R3_ad_f", "label": "f" },
+                { "id": "B2_m02_R3_ad_g", "label": "g" }, { "id": "B2_m02_R3_ad_h", "label": "h" },
+                { "id": "B2_m02_R3_ad_i", "label": "i" }, { "id": "B2_m02_R3_ad_j", "label": "j" },
+                { "id": "B2_m02_R3_ad_k", "label": "k" }, { "id": "B2_m02_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Anzeige g) Erasmus Lund (Schweden = Skandinavien) mit englischsprachigen Programmen in Umwelttechnik – deckt Ziellandregion, Sprache und Fachrichtung exakt ab. Andere Stipendien (b, f) sind keine Auslandsprogramme."
+            },
+            {
+              "id": "B2_m02_R3_q6",
+              "type": "matching",
+              "questionText": "6. Herr Voss arbeitet als Angestellter in einem IT-Unternehmen in Wiesbaden. Sein Arbeitgeber ermutigt ihn, Bildungsurlaub zu nehmen, um sich zum Thema KI fortzubilden.",
+              "matchingSources": [
+                { "id": "B2_m02_R3_ad_a", "label": "a" }, { "id": "B2_m02_R3_ad_b", "label": "b" },
+                { "id": "B2_m02_R3_ad_c", "label": "c" }, { "id": "B2_m02_R3_ad_d", "label": "d" },
+                { "id": "B2_m02_R3_ad_e", "label": "e" }, { "id": "B2_m02_R3_ad_f", "label": "f" },
+                { "id": "B2_m02_R3_ad_g", "label": "g" }, { "id": "B2_m02_R3_ad_h", "label": "h" },
+                { "id": "B2_m02_R3_ad_i", "label": "i" }, { "id": "B2_m02_R3_ad_j", "label": "j" },
+                { "id": "B2_m02_R3_ad_k", "label": "k" }, { "id": "B2_m02_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "l",
+              "explanation": "Anzeige l) 'Bildungsurlaub nach dem Hessischen Bildungsurlaubsgesetz' mit Kompaktkurs 'KI im Arbeitsalltag' passt exakt: Wiesbaden = Hessen, das Gesetz gilt, und Thema KI ist deckungsgleich."
+            },
+            {
+              "id": "B2_m02_R3_q7",
+              "type": "matching",
+              "questionText": "7. Frau Kovač kommt aus Kroatien, arbeitet als Internistin und bereitet sich auf die deutsche Fachsprachenprüfung der Landesärztekammer vor, um ihre Approbation zu erhalten.",
+              "matchingSources": [
+                { "id": "B2_m02_R3_ad_a", "label": "a" }, { "id": "B2_m02_R3_ad_b", "label": "b" },
+                { "id": "B2_m02_R3_ad_c", "label": "c" }, { "id": "B2_m02_R3_ad_d", "label": "d" },
+                { "id": "B2_m02_R3_ad_e", "label": "e" }, { "id": "B2_m02_R3_ad_f", "label": "f" },
+                { "id": "B2_m02_R3_ad_g", "label": "g" }, { "id": "B2_m02_R3_ad_h", "label": "h" },
+                { "id": "B2_m02_R3_ad_i", "label": "i" }, { "id": "B2_m02_R3_ad_j", "label": "j" },
+                { "id": "B2_m02_R3_ad_k", "label": "k" }, { "id": "B2_m02_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Anzeige e) 'Deutsch für Mediziner C1' ist explizit die Vorbereitung auf die Fachsprachenprüfung der Ärztekammer – passt eins zu eins zu Frau Kovačs Bedarf."
+            },
+            {
+              "id": "B2_m02_R3_q8",
+              "type": "matching",
+              "questionText": "8. Tim studiert im dritten Mastersemester Soziologie und promoviert ab dem Wintersemester. Er sucht eine strukturierte Promotionsstelle mit bezahltem Vertrag.",
+              "matchingSources": [
+                { "id": "B2_m02_R3_ad_a", "label": "a" }, { "id": "B2_m02_R3_ad_b", "label": "b" },
+                { "id": "B2_m02_R3_ad_c", "label": "c" }, { "id": "B2_m02_R3_ad_d", "label": "d" },
+                { "id": "B2_m02_R3_ad_e", "label": "e" }, { "id": "B2_m02_R3_ad_f", "label": "f" },
+                { "id": "B2_m02_R3_ad_g", "label": "g" }, { "id": "B2_m02_R3_ad_h", "label": "h" },
+                { "id": "B2_m02_R3_ad_i", "label": "i" }, { "id": "B2_m02_R3_ad_j", "label": "j" },
+                { "id": "B2_m02_R3_ad_k", "label": "k" }, { "id": "B2_m02_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "i",
+              "explanation": "Anzeige i) Promotionsprogramm 'Digital Society' bietet strukturierte Promotion mit Vollzeitstelle, Bezahlung nach TV-L – passt zu Tims Plan. Die Fachrichtung 'Digital Society' ist für Soziolog:innen einschlägig."
+            },
+            {
+              "id": "B2_m02_R3_q9",
+              "type": "matching",
+              "questionText": "9. Frau Reinhardt, 68 Jahre alt, ehemalige Lehrerin, möchte nach der Rente regelmäßig an Vorlesungen teilnehmen – am liebsten ein breites Angebot aus Geistes- und Naturwissenschaften.",
+              "matchingSources": [
+                { "id": "B2_m02_R3_ad_a", "label": "a" }, { "id": "B2_m02_R3_ad_b", "label": "b" },
+                { "id": "B2_m02_R3_ad_c", "label": "c" }, { "id": "B2_m02_R3_ad_d", "label": "d" },
+                { "id": "B2_m02_R3_ad_e", "label": "e" }, { "id": "B2_m02_R3_ad_f", "label": "f" },
+                { "id": "B2_m02_R3_ad_g", "label": "g" }, { "id": "B2_m02_R3_ad_h", "label": "h" },
+                { "id": "B2_m02_R3_ad_i", "label": "i" }, { "id": "B2_m02_R3_ad_j", "label": "j" },
+                { "id": "B2_m02_R3_ad_k", "label": "k" }, { "id": "B2_m02_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "k",
+              "explanation": "Anzeige k) Seniorenakademie Heidelberg – ab 60 Jahren, volles Vorlesungsangebot aller Fakultäten – deckt Frau Reinhardts Wunsch nach Breite und Alterseignung perfekt ab."
+            },
+            {
+              "id": "B2_m02_R3_q10",
+              "type": "matching",
+              "questionText": "10. Anna ist im zweiten Mastersemester und bringt im Sommer ihr erstes Kind zur Welt. Sie sucht eine finanzielle Unterstützung, die die Situation junger studierender Eltern berücksichtigt.",
+              "matchingSources": [
+                { "id": "B2_m02_R3_ad_a", "label": "a" }, { "id": "B2_m02_R3_ad_b", "label": "b" },
+                { "id": "B2_m02_R3_ad_c", "label": "c" }, { "id": "B2_m02_R3_ad_d", "label": "d" },
+                { "id": "B2_m02_R3_ad_e", "label": "e" }, { "id": "B2_m02_R3_ad_f", "label": "f" },
+                { "id": "B2_m02_R3_ad_g", "label": "g" }, { "id": "B2_m02_R3_ad_h", "label": "h" },
+                { "id": "B2_m02_R3_ad_i", "label": "i" }, { "id": "B2_m02_R3_ad_j", "label": "j" },
+                { "id": "B2_m02_R3_ad_k", "label": "k" }, { "id": "B2_m02_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Anzeige f) Elternzeit-Stipendium der Hans-Böckler-Stiftung bietet einen Kinderzuschlag für Studierende mit Kind – deckt Annas Bedarf ab. Distraktor b) (Böll) setzt dagegen sozialpolitisches Engagement voraus und kein Kinderkriterium."
+            }
+          ]
+        }
+      ]
+    },
+    "sprachbausteine": {
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie den folgenden Text und entscheiden Sie, welches Wort (a, b, c oder d) in die Lücke passt. Es gibt jeweils nur eine richtige Lösung.",
+          "text": "Sehr geehrte Studierende,\n\nauch im kommenden Semester möchten wir Sie darüber informieren, welche Veränderungen im Lehrangebot vorgesehen sind. Die Reformen, die vom Akademischen Senat im vergangenen Wintersemester __(1)__ wurden, treten nun schrittweise in Kraft. Neu ist das Modul 'Digitale Kompetenzen', __(2)__ sich sowohl an Erstsemester als auch an fortgeschrittene Studierende richtet.\n\nJede eingeschriebene Person kann pro Semester bis zu drei zusätzliche Wahlmodule __(3)__. Sollten aus organisatorischen Gründen im Einzelfall nicht alle Wünsche berücksichtigt werden können, __(4)__ die Studienberatung Alternativvorschläge rechtzeitig zu. __(5)__ der knappen Raumressourcen bitten wir um Verständnis für unvermeidbare Einschränkungen bei besonders nachgefragten Kursen.\n\nNeben klassischen Präsenzvorlesungen stehen __(6)__ digitale Selbstlernformate bereit, die Sie im eigenen Tempo nutzen können. Studierende, die während des Semesters ein Auslandssemester __(7)__, werden gebeten, sich bis spätestens zum 15. Mai beim Akademischen Auslandsamt zu melden. __(8)__ ist der frühzeitige Austausch mit Ihren Prüfungsausschüssen, damit die im Ausland erbrachten Leistungen reibungslos anerkannt werden können.\n\nDie vom Präsidium __(9)__ Entlastungsmaßnahmen für Studierende mit Kindern bleiben auch in diesem Semester uneingeschränkt bestehen. Die Hochschulleitung ist überzeugt, __(10)__ in frühzeitige Qualifizierung investierte Euro mehrfach zurückfließt – durch motivierte Absolventinnen und Absolventen, stabile Studienverläufe und eine verbesserte internationale Sichtbarkeit unserer Universität.\n\nMit freundlichen Grüßen\nProf. Dr. Christian Berger, Vizepräsident Lehre",
+          "questions": [
+            {
+              "blankNumber": 1,
+              "type": "mcq",
+              "options": ["a) beschlossen", "b) beschloss", "c) zu beschließen", "d) beschließend"],
+              "correctAnswer": "a",
+              "explanation": "Vorgangspassiv Präteritum: 'die ... beschlossen wurden' — Bildung: wurde/n + Partizip II. Das Partizip II 'beschlossen' ist grammatisch zwingend. Distraktoren: b) 'beschloss' wäre Aktiv-Präteritum (falsche Diathese und falsches Subjekt), c) zu+Infinitiv passt nicht zum finiten Hilfsverb 'wurden', d) Partizip I signalisiert laufende Handlung und kombiniert nicht mit 'wurden' im Passiv. B2-Grammatik: Vorgangspassiv Präteritum."
+            },
+            {
+              "blankNumber": 2,
+              "type": "mcq",
+              "options": ["a) der", "b) das", "c) die", "d) was"],
+              "correctAnswer": "b",
+              "explanation": "Relativsatz: 'ein Modul, das sich ... richtet.' Das Relativpronomen bezieht sich auf 'Modul' (Neutrum) im Nominativ: 'das'. Distraktoren: a) 'der' = Maskulinum, c) 'die' = Femininum/Plural, d) 'was' nur nach unbestimmten Pronomen ('etwas, alles, nichts') oder substantivierten Nominalisierungen ('das Beste'). Hier verlangt 'Modul' (n) das Relativpronomen 'das'."
+            },
+            {
+              "blankNumber": 3,
+              "type": "mcq",
+              "options": ["a) belegen", "b) belegt", "c) belegen lassen", "d) sich belegen"],
+              "correctAnswer": "a",
+              "explanation": "Modalverb-Konstruktion: 'kann ... Module belegen.' Nach Modalverb 'kann' folgt der Infinitiv des Vollverbs. 'belegen' = ein Modul/Fach ist die B2-Studienkollokation. Distraktoren: b) Partizip II 'belegt' passt nicht zu 'kann' (Modal + Infinitiv, nicht Modal + Partizip ohne Hilfsverb), c) 'belegen lassen' wäre reflexiv-kausativ und sinnverändernd (andere Person belegt für mich), d) 'sich belegen' ist kein idiomatisches Verb im Deutschen."
+            },
+            {
+              "blankNumber": 4,
+              "type": "mcq",
+              "options": ["a) schickt", "b) soll", "c) würde", "d) hätte"],
+              "correctAnswer": "a",
+              "explanation": "Inversion nach vorangestelltem Konditionalsatz ohne 'wenn': 'Sollten ... nicht berücksichtigt werden können, schickt die Studienberatung ... zu.' Verb an Position 2 nach dem Komma, Indikativ Präsens. 'schickt' ist das Vollverb (trennbar 'zuschicken' → 'schickt ... zu'). Distraktoren: b) 'soll' wäre als Modalverb schwächer und verlangt zusätzlich einen Infinitiv, c) 'würde' wäre Konjunktiv II ohne Partizip unvollständig, d) 'hätte' formal falsch (Hilfsverb, aber ohne Partizip II sinnlos). B2-Grammatik: Inversion + Präpositionalgefüge + trennbares Verb."
+            },
+            {
+              "blankNumber": 5,
+              "type": "mcq",
+              "options": ["a) Ohne", "b) Trotz", "c) Angesichts", "d) Statt"],
+              "correctAnswer": "c",
+              "explanation": "Genitiv-Präposition mit passender Semantik: 'Angesichts der knappen Raumressourcen' = 'in Anbetracht, im Hinblick auf' – betont die Ursache der Einschränkung. Distraktoren: a) 'Ohne' wäre Akkusativ (nicht Genitiv-Konstruktion) und ergibt logisch 'ohne knappe Ressourcen' – gegenteilige Aussage, b) 'Trotz' würde bedeuten, dass trotz knapper Ressourcen KEINE Einschränkungen nötig wären – logischer Widerspruch zum Folgesatz, d) 'Statt' erzeugt keinen sinnvollen Kontext ('statt der Ressourcen'). Nur 'Angesichts' trägt die konzessiv-kausale Bedeutung. B2-Präposition mit Genitiv."
+            },
+            {
+              "blankNumber": 6,
+              "type": "mcq",
+              "options": ["a) jedoch", "b) auch", "c) sowohl", "d) kaum"],
+              "correctAnswer": "b",
+              "explanation": "Additiver Konnektor: 'stehen neben ... auch digitale Selbstlernformate bereit.' Die Struktur 'neben X ... auch Y' markiert eine hinzugefügte Option. Distraktoren: a) 'jedoch' drückt Gegensatz aus (passt nicht, die beiden Formate schließen sich nicht aus), c) 'sowohl' verlangt 'als auch' in Kombination – ohne Korrelat ungrammatisch, d) 'kaum' ist Negationsadverb und kehrt die Aussage unsinnig um (es würde behaupten, digitale Formate seien kaum verfügbar)."
+            },
+            {
+              "blankNumber": 7,
+              "type": "mcq",
+              "options": ["a) planen", "b) zu planen", "c) planten", "d) geplant"],
+              "correctAnswer": "a",
+              "explanation": "Relativsatz mit Präsens-Indikativ: 'Studierende, die ... ein Auslandssemester planen, werden gebeten ...' Das Verb kongruiert mit Subjekt 'Studierende' (Plural, Präsens). Distraktoren: b) Infinitiv mit zu passt nicht in den Relativsatz, c) Präteritum bricht die Zeitebene (der gesamte Brief ist im Präsens), d) Partizip II 'geplant' allein ohne Hilfsverb ist im finiten Satz syntaktisch unmöglich."
+            },
+            {
+              "blankNumber": 8,
+              "type": "mcq",
+              "options": ["a) Wichtig", "b) Wichtigkeit", "c) Wichtige", "d) Gewichtigt"],
+              "correctAnswer": "a",
+              "explanation": "Prädikatives Adjektiv: 'Wichtig ist der frühzeitige Austausch ...' Die endungslose Form signalisiert, dass das Adjektiv als Prädikativum nach 'sein' steht (vgl. 'Wichtig ist ...', 'Entscheidend ist ...'). Distraktoren: b) 'Wichtigkeit' ist Substantiv und würde 'Die Wichtigkeit ist ...' verlangen, c) 'Wichtige' mit Endung wäre substantivierte Form und passt nur mit Artikel ('Das Wichtige ist ...'), d) 'Gewichtigt' wäre Partizip II und ergibt hier keinen sinnvollen Satzanfang. B2-Grammatik: Adjektiv als Prädikativum."
+            },
+            {
+              "blankNumber": 9,
+              "type": "mcq",
+              "options": ["a) beschlossenen", "b) beschließenden", "c) zu beschließenden", "d) beschlossen"],
+              "correctAnswer": "a",
+              "explanation": "Partizipialattribut als B2-Kernthema: 'Die vom Präsidium beschlossenen Entlastungsmaßnahmen' = 'Die Entlastungsmaßnahmen, die vom Präsidium beschlossen wurden'. Partizip II 'beschlossen' + Adjektivendung -en (Nom. Pl. schwache Deklination nach 'Die'). Distraktoren: b) 'beschließenden' (Partizip I) würde eine laufende Handlung anzeigen (die Maßnahmen beschließen sich nicht selbst), c) 'zu beschließenden' wäre Gerundivum (zukünftig/notwendig zu tun – widerspricht dem Fakt, dass sie schon gelten), d) 'beschlossen' ohne Endung bricht die attributive Deklination. Passivisches Partizipialattribut mit korrekter Endung."
+            },
+            {
+              "blankNumber": 10,
+              "type": "mcq",
+              "options": ["a) dass jeder", "b) dass jedem", "c) dass alle", "d) dass man"],
+              "correctAnswer": "a",
+              "explanation": "Subjekt des dass-Satzes im Nominativ: 'dass jeder investierte Euro ... zurückfließt'. 'jeder' (Nom. Sg. Mask.) als Subjekt zu 'zurückfließt' (Singular-Verb). Distraktoren: b) 'jedem' wäre Dativ – für Subjektposition falsch, c) 'dass alle ... zurückfließt' würde Subjekt-Verb-Inkongruenz erzeugen (Plural-Subjekt + Singular-Verb), d) 'dass man ... zurückfließt' ist grammatisch möglich, aber semantisch unsinnig ('man' als Subjekt von 'zurückfließen' wäre absurd, da 'Euro' die gemeinte Geldeinheit sein muss). B2-Grammatik: Subjektkasus + Kongruenz im Nebensatz."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Text. Welches Wort aus der Liste a–o passt in die Lücken? Jedes Wort passt nur einmal. Fünf Wörter bleiben übrig.",
+          "text": "Wer heute ein Studium aufnimmt, stellt sich nicht nur die Frage nach dem Fach, sondern zunehmend auch nach der Finanzierung. Die Belastung durch Miete, Energiekosten und Lehrmaterialien ist für viele Studierende in den vergangenen Jahren __(11)__ geworden, sodass nebenher gejobbt werden muss. Mehrere Sozialverbände warnen davor, dass __(12)__ junge Menschen aus finanziellen Gründen an einen Studienabbruch denken.\n\nZwar gibt es weiterhin das BAföG, das klassische Instrument der staatlichen Förderung, doch die Nachfrage nach privaten Ergänzungen nimmt zu. Finanzberatungen für Studierende raten __(13)__, möglichst früh einen realistischen Kostenplan aufzustellen und unterschiedliche Quellen zu prüfen. __(14)__ entsteht häufig ein ausgewogenes Gesamtkonzept aus staatlicher Förderung, Werkstudentenstelle und gegebenenfalls einem Studienkredit.\n\nEin weiterer wichtiger Aspekt __(15)__ die Stipendienlandschaft. Viele Studierende wissen gar nicht, dass neben den Begabtenförderungswerken auch kleinere regionale Stiftungen ansprechbar sind. Wer sich mit seinem bisherigen Engagement realistisch darstellt, erhöht __(16)__ seine Chancen auf ein Stipendium. Umgekehrt führt übertriebene Bescheidenheit dazu, dass vorhandenes Potenzial in den Auswahlgremien gar nicht erst erkannt wird. Eine präzise, belegte Selbstdarstellung gilt deshalb als goldene __(17)__.\n\n__(18)__ der gestiegenen Finanzierungslücke gibt es inzwischen Anlaufstellen, die Studierende individuell beraten. Fachleute sehen __(19)__ eine sinnvolle Ergänzung zu den klassischen Beratungsangeboten der Hochschulen, sofern die Unabhängigkeit der Beratenden gewahrt bleibt.\n\nWer seine Studienfinanzierung auf diese Weise plant, kann spätere Engpässe __(20)__ vermeiden. Eine durchdachte Finanzierung ist keine lästige Formalität, sondern die Grundlage für ein erfolgreiches Studium ohne finanziellen Dauerdruck.",
+          "questions": [
+            {
+              "blankNumber": 11,
+              "type": "word_bank",
+              "options": [
+                "a) spürbar", "b) viele", "c) dazu", "d) Auf diese Weise", "e) ist",
+                "f) darauf", "g) Regel", "h) Trotz", "i) darin", "j) weitgehend",
+                "k) mit", "l) wesentlich", "m) jeden", "n) stellt", "o) wenig"
+              ],
+              "correctAnswer": "a",
+              "explanation": "'Die Belastung ... ist ... spürbar geworden' — 'spürbar' als prädikatives Adjektiv nach 'ist ... geworden' (= 'is now perceptible / has become noticeable'). Distraktoren: o) 'wenig' ('wenig geworden') widerspricht dem Folgesatz 'sodass nebenher gejobbt werden muss' und kehrt die Aussage um, l) 'wesentlich geworden' ist semantisch unvollständig – 'wesentlich' als Adjektiv braucht einen Bezugspunkt ('wesentlich teurer', 'wesentlich höher'), allein nach 'geworden' ist es im Deutschen nicht gebräuchlich. Nur 'spürbar' ist als Prädikatsadjektiv nach 'ist ... geworden' im Sinn von 'bemerkbar/fühlbar' idiomatisch fest. B2-Vokabular: Kollokation 'spürbar werden'."
+            },
+            {
+              "blankNumber": 12,
+              "type": "word_bank",
+              "options": [
+                "a) spürbar", "b) viele", "c) dazu", "d) Auf diese Weise", "e) ist",
+                "f) darauf", "g) Regel", "h) Trotz", "i) darin", "j) weitgehend",
+                "k) mit", "l) wesentlich", "m) jeden", "n) stellt", "o) wenig"
+              ],
+              "correctAnswer": "b",
+              "explanation": "'dass viele junge Menschen ... denken' — 'viele' (Nom. Pl., starke Deklination, endungslos) als Subjekt-Determiner im dass-Satz. 'viele junge Menschen denken' ist die natürliche Konstruktion. Distraktoren: o) 'wenig' wäre unüblich vor einem Pluralnomen (man sagt 'wenige' dekliniert, nicht 'wenig') und kehrt zudem die Aussage um; m) 'jeden' wäre Sg. Akkusativ und erzeugt Kongruenz-Bruch mit dem Pluralverb 'denken'. Nur 'viele' passt in Form und Bedeutung."
+            },
+            {
+              "blankNumber": 13,
+              "type": "word_bank",
+              "options": [
+                "a) spürbar", "b) viele", "c) dazu", "d) Auf diese Weise", "e) ist",
+                "f) darauf", "g) Regel", "h) Trotz", "i) darin", "j) weitgehend",
+                "k) mit", "l) wesentlich", "m) jeden", "n) stellt", "o) wenig"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Feste Kombination: 'jemandem raten zu etwas' → korrelatives Pronominaladverb 'dazu' verweist auf den nachfolgenden zu+Infinitiv-Satz: 'raten dazu, ... aufzustellen und ... zu prüfen'. Distraktor f) 'darauf' verlangt 'raten auf' – das ist keine deutsche Kollokation (es heißt 'aufmerksam machen auf', nicht 'raten auf'). i) 'darin' verweist auf 'in etwas' – passt hier nicht. Pronominaladverb-Kenntnisse sind B2-Kern."
+            },
+            {
+              "blankNumber": 14,
+              "type": "word_bank",
+              "options": [
+                "a) spürbar", "b) viele", "c) dazu", "d) Auf diese Weise", "e) ist",
+                "f) darauf", "g) Regel", "h) Trotz", "i) darin", "j) weitgehend",
+                "k) mit", "l) wesentlich", "m) jeden", "n) stellt", "o) wenig"
+              ],
+              "correctAnswer": "d",
+              "explanation": "Satzanfang + anaphorischer Konnektor: 'Auf diese Weise entsteht ... ein ausgewogenes Gesamtkonzept.' 'Auf diese Weise' verweist auf das zuvor empfohlene Vorgehen (Kostenplan aufstellen, Quellen prüfen) und markiert die Art und Weise der Erreichung. Im Wortbank wird ein komplexer Anfangskonnektor getestet, der bei B2 zum Diskursmarkerrepertoire gehört."
+            },
+            {
+              "blankNumber": 15,
+              "type": "word_bank",
+              "options": [
+                "a) spürbar", "b) viele", "c) dazu", "d) Auf diese Weise", "e) ist",
+                "f) darauf", "g) Regel", "h) Trotz", "i) darin", "j) weitgehend",
+                "k) mit", "l) wesentlich", "m) jeden", "n) stellt", "o) wenig"
+              ],
+              "correctAnswer": "e",
+              "explanation": "Kopulaverb: 'Ein weiterer wichtiger Aspekt ist die Stipendienlandschaft.' 'ist' verbindet Subjekt mit prädikativem Nomen. Distraktor n) 'stellt' würde 'stellt ... dar' verlangen und trennbar konstruiert sein müssen – im Text fehlt die Verbpartikel; außerdem ist 'stellt' für eine andere Lücke mit natürlicher Kollokation reserviert."
+            },
+            {
+              "blankNumber": 16,
+              "type": "word_bank",
+              "options": [
+                "a) spürbar", "b) viele", "c) dazu", "d) Auf diese Weise", "e) ist",
+                "f) darauf", "g) Regel", "h) Trotz", "i) darin", "j) weitgehend",
+                "k) mit", "l) wesentlich", "m) jeden", "n) stellt", "o) wenig"
+              ],
+              "correctAnswer": "l",
+              "explanation": "Adverbiale Funktion: 'erhöht ... wesentlich seine Chancen' — 'wesentlich' als unflektiertes Adverb verstärkt das Verb 'erhöhen' und bildet eine natürliche Kollokation (vgl. 'wesentlich verbessern', 'wesentlich beitragen'). Distraktoren: a) 'spürbar' ist schon in Lücke 11 verbraucht, o) 'wenig' würde die positive Aussage unsinnig umkehren, j) 'weitgehend' passt semantisch nicht ('weitgehend erhöhen' ist unüblich, 'weitgehend' modifiziert eher Zustände, nicht Verben der Steigerung)."
+            },
+            {
+              "blankNumber": 17,
+              "type": "word_bank",
+              "options": [
+                "a) spürbar", "b) viele", "c) dazu", "d) Auf diese Weise", "e) ist",
+                "f) darauf", "g) Regel", "h) Trotz", "i) darin", "j) weitgehend",
+                "k) mit", "l) wesentlich", "m) jeden", "n) stellt", "o) wenig"
+              ],
+              "correctAnswer": "g",
+              "explanation": "Feste Kollokation: 'goldene Regel' = allgemein anerkannte Grundregel. Substantiv nach Adjektiv 'goldene' (attributiv flektiert). Die Verbindung 'als goldene Regel' ist eine idiomatische B2-Phrase. Distraktoren wie l) 'wesentlich' (Adjektiv, aber semantisch nicht passend – 'als goldene wesentlich' wäre doppeltes Adjektiv) und andere Optionen passen nicht in die Determiner-Slot nach 'goldene'."
+            },
+            {
+              "blankNumber": 18,
+              "type": "word_bank",
+              "options": [
+                "a) spürbar", "b) viele", "c) dazu", "d) Auf diese Weise", "e) ist",
+                "f) darauf", "g) Regel", "h) Trotz", "i) darin", "j) weitgehend",
+                "k) mit", "l) wesentlich", "m) jeden", "n) stellt", "o) wenig"
+              ],
+              "correctAnswer": "h",
+              "explanation": "Genitiv-Präposition 'Trotz der gestiegenen Finanzierungslücke' — konzessive Präposition, großgeschrieben als Satzanfang. Sinn: 'obwohl die Lücke gestiegen ist, gibt es inzwischen Anlaufstellen.' Der Folgesatz beschreibt etwas Positives, das trotz des negativen Zustands existiert – klassische konzessive Logik. B2-Präposition mit Genitiv. Hinweis: Mock_01 verwendete 'Angesichts' doppelt (SB T1+T2); hier in Mock_02 wird in T1 'Angesichts' getestet und in T2 die andere Genitiv-Präposition 'Trotz', um lexikalische Vielfalt zu gewährleisten."
+            },
+            {
+              "blankNumber": 19,
+              "type": "word_bank",
+              "options": [
+                "a) spürbar", "b) viele", "c) dazu", "d) Auf diese Weise", "e) ist",
+                "f) darauf", "g) Regel", "h) Trotz", "i) darin", "j) weitgehend",
+                "k) mit", "l) wesentlich", "m) jeden", "n) stellt", "o) wenig"
+              ],
+              "correctAnswer": "i",
+              "explanation": "Pronominaladverb: 'sehen darin eine sinnvolle Ergänzung' = 'sehen in diesen Anlaufstellen/in diesem Angebot ...'. 'darin' verweist anaphorisch auf die zuvor beschriebenen Anlaufstellen. Die Verbkollokation 'sehen in etwas' ist eine feste B2-Wendung (X als Y interpretieren). Distraktor f) 'darauf' wäre möglich bei 'sehen auf etwas' (= auf etwas schauen), aber das ist hier weder Kollokation noch Bedeutung."
+            },
+            {
+              "blankNumber": 20,
+              "type": "word_bank",
+              "options": [
+                "a) spürbar", "b) viele", "c) dazu", "d) Auf diese Weise", "e) ist",
+                "f) darauf", "g) Regel", "h) Trotz", "i) darin", "j) weitgehend",
+                "k) mit", "l) wesentlich", "m) jeden", "n) stellt", "o) wenig"
+              ],
+              "correctAnswer": "j",
+              "explanation": "Adverbiale Funktion: 'kann ... Engpässe weitgehend vermeiden' — 'weitgehend' als unflektiertes Adverb bedeutet 'zu einem großen Teil, fast vollständig'. Die Kollokation 'weitgehend vermeiden' ist eine typische B2-Formel in sach-/berichtsorientierter Sprache. Distraktoren: o) 'wenig' kehrt die positive Aussage um, k) 'mit' wäre Präposition ohne Objekt, m) 'jeden' wäre Determiner ohne Substantiv, n) 'stellt' würde Verbdopplung erzeugen, f) 'darauf' ergibt syntaktisch keinen Sinn. Die verbleibenden fünf Distraktoren (f, k, m, n, o) passen zu keiner Lücke im Text."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 30,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "letter",
+          "instructions": "Wählen Sie EINE der beiden folgenden Aufgaben (A oder B) und bearbeiten Sie diese. Beachten Sie die Leitpunkte und schreiben Sie mindestens 150 Wörter (Richtwert: 200 Wörter). Kennzeichnen Sie am Anfang Ihres Textes deutlich, welche Aufgabe Sie gewählt haben.",
+          "instructionsTranslation": "Choose ONE of the two tasks (A or B) below and complete it. Address the guiding points and write at least 150 words (target: around 200 words). Clearly mark at the top of your text which task you have chosen.",
+          "prompt": "AUFGABE A (Bitte um Information):\n\nSituation: Sie planen ab dem kommenden Wintersemester einen berufsbegleitenden Masterstudiengang. In einer Bildungszeitschrift haben Sie eine Anzeige der 'Fernhochschule Rhein-Ruhr' zu deren Master 'Digital Business Management' gesehen, die sich dem Gedanken nach für Ihre Situation eignen würde. Bevor Sie sich bewerben, möchten Sie vom Studierendensekretariat mehrere Informationen einholen.\n\nSchreiben Sie eine formelle Anfrage an Frau Dr. Michaela Hansen, Leiterin des Studierendensekretariats der Fernhochschule Rhein-Ruhr. Gehen Sie auf die folgenden drei Leitpunkte ein:\n\n• Erläutern Sie kurz Ihre persönliche und berufliche Situation (warum Sie sich interessieren).\n• Stellen Sie mindestens drei konkrete Fragen (z. B. zu Studiengebühren, Anerkennung früherer Leistungen, Präsenzphasen, Prüfungsformaten, Fördermöglichkeiten).\n• Bitten Sie höflich um eine Informationsbroschüre oder einen individuellen Beratungstermin und nennen Sie einen Zeitraum, in dem Sie erreichbar sind.\n\nBeachten Sie Anrede, Einleitung und Grußformel. Schreiben Sie mindestens 150 Wörter.\n\n— ODER —\n\nAUFGABE B (Stellungnahme):\n\nSituation: In der überregionalen Wochenzeitung 'Bildung heute' ist ein Leitartikel unter dem Titel 'Schafft das BAföG ab – es kommt bei den Falschen an' erschienen. Der Autor behauptet darin, das staatliche BAföG sei ineffizient, erreiche nicht die wirklich Bedürftigen und sollte durch ein System aus privaten Bildungskrediten und gezielten Stiftungsstipendien ersetzt werden. Sie wollen auf diesen Artikel mit einem Leserbrief antworten.\n\nSchreiben Sie einen Leserbrief an die Redaktion (Frau Dr. Ulrike Sommer, Redaktion 'Bildung heute'). Gehen Sie auf die folgenden drei Leitpunkte ein:\n\n• Nehmen Sie Stellung zu der zentralen These des Artikels – stimmen Sie zu oder widersprechen Sie?\n• Nennen Sie mindestens zwei konkrete Argumente oder Beispiele aus Ihrer eigenen Erfahrung oder Beobachtung.\n• Machen Sie einen konstruktiven Vorschlag, wie die staatliche Studienfinanzierung fairer und zielgenauer gestaltet werden könnte.\n\nBeachten Sie eine passende semi-formelle Anrede und eine sachliche Argumentation. Schreiben Sie mindestens 150 Wörter.",
+          "promptTranslation": "TASK A (Request for information):\n\nSituation: You are planning to start a part-time Master's programme next winter semester. You saw an ad in an educational magazine for Rhein-Ruhr Distance University's 'Digital Business Management' Master's, which looks suitable for your situation. Before you apply you want to gather information from the Student Office.\n\nWrite a formal inquiry to Dr. Michaela Hansen, head of the Student Office. Address these three guiding points:\n\n• Briefly explain your personal and professional situation (why you are interested).\n• Ask at least three concrete questions (e.g. about tuition fees, recognition of prior learning, on-site attendance, examination formats, funding options).\n• Politely request an information brochure or an individual counselling appointment, and suggest a period when you are reachable.\n\nInclude greeting, opening, and closing. Write at least 150 words.\n\n— OR —\n\nTASK B (Opinion piece):\n\nSituation: A national weekly magazine has published an editorial titled 'Abolish BAföG – it reaches the wrong people'. The author claims that the state student aid system is inefficient, fails to reach the truly needy, and should be replaced by private education loans and targeted foundation scholarships. You want to respond with a letter to the editor.\n\nWrite a letter to the editor (Dr. Ulrike Sommer, 'Bildung heute'). Address these three guiding points:\n\n• State your position on the main thesis – agree or disagree.\n• Give at least two concrete arguments or examples from your own experience or observation.\n• Make a constructive proposal for how state study financing could be made fairer and more targeted.\n\nUse an appropriate semi-formal salutation and factual reasoning. Write at least 150 words.",
+          "requiredPoints": [
+            "Aufgabe A: Situation/Motivation schildern, drei konkrete Fragen, Bitte um Broschüre/Beratungstermin mit Zeitraum",
+            "Aufgabe B: Positionsbezug zur These, zwei eigene Argumente/Beispiele, konstruktiver Vorschlag zur Reform"
+          ],
+          "wordCountMin": 150,
+          "wordCountMax": 230,
+          "sampleAnswer": "[AUFGABE A — Beispielantwort]\n\nSehr geehrte Frau Dr. Hansen,\n\nmit großem Interesse habe ich die Anzeige Ihrer Hochschule zum Masterstudiengang 'Digital Business Management' gelesen. Derzeit arbeite ich seit fünf Jahren als Projektmanagerin in einem mittelständischen IT-Unternehmen und möchte mich berufsbegleitend wissenschaftlich weiterqualifizieren, um künftig im Bereich digitale Geschäftsmodelle eine erweiterte Verantwortung zu übernehmen.\n\nBevor ich mich offiziell bewerbe, bitte ich Sie um einige Auskünfte. Erstens würde ich gern erfahren, wie hoch die Studiengebühren insgesamt sind und ob eine Finanzierung in monatlichen Raten möglich ist. Zweitens interessiert mich, inwieweit berufliche Erfahrung und bereits absolvierte Zertifikate auf einzelne Module angerechnet werden können. Darüber hinaus wäre es für mich hilfreich zu wissen, wie umfangreich die Präsenzphasen sind und welche Prüfungsformate üblicherweise angewandt werden.\n\nFalls möglich, bitte ich Sie, mir eine aktuelle Informationsbroschüre zuzusenden oder einen kurzen Beratungstermin anzubieten. In den kommenden zwei Wochen bin ich werktags zwischen 17 und 19 Uhr gut erreichbar.\n\nIch danke Ihnen bereits vorab für Ihre Mühe und freue mich auf Ihre Rückmeldung.\n\nMit freundlichen Grüßen\nJulia Sommerfeld\n\n— — —\n\n[AUFGABE B — Beispielantwort]\n\nSehr geehrte Frau Dr. Sommer,\n\nmit großem Interesse, aber auch mit deutlicher Skepsis habe ich Ihren Leitartikel 'Schafft das BAföG ab' gelesen. Der These, das BAföG sei pauschal ineffizient und sollte ersatzlos abgeschafft werden, möchte ich entschieden widersprechen.\n\nZum einen zeigt meine eigene Erfahrung im Umfeld: Ohne das BAföG hätte ich mein erstes Studium als Arbeiterkind niemals ohne hohe Verschuldung beginnen können. Zum anderen belegen aktuelle Studien des Deutschen Studentenwerks, dass der Anteil Studierender aus Nichtakademikerfamilien in den Jahren, in denen die BAföG-Sätze angepasst wurden, messbar gestiegen ist. Private Kredite würden gerade jene abschrecken, die ohnehin risikoscheu in finanzielle Entscheidungen gehen.\n\nStatt das Instrument abzuschaffen, sollte man es gezielter ausgestalten: regelmäßige Anpassungen der Fördersätze an die Lebenshaltungskosten, ein erweiterter Anspruch für Teilzeitstudierende und Eltern sowie eine einfachere Antragsprüfung durch das Studentenwerk. Nur so bleibt das BAföG das, was es ursprünglich sein sollte – ein Bildungsrecht, kein Almosen.\n\nMit freundlichen Grüßen\nMarkus Lehner",
+          "scoringCriteria": [
+            {
+              "criterion": "I. Berücksichtigung der Leitpunkte",
+              "maxPoints": 15,
+              "description": "Alle drei Leitpunkte der gewählten Aufgabe (A oder B) werden inhaltlich mit B2-typischer Tiefe behandelt – nicht nur erwähnt, sondern mit Begründung und konkreten Details ausgeführt. A: A++ (15 Pkt) / B: B+ (10 Pkt) / C: C (5 Pkt) / D: unbehandelt (0 Pkt). Wird diese Kategorie mit D bewertet, erhält die gesamte Aufgabe 0 Punkte."
+            },
+            {
+              "criterion": "II. Kommunikative Gestaltung",
+              "maxPoints": 15,
+              "description": "Formelle/semi-formelle Anrede, logischer Textaufbau (Einleitung – Hauptteil – Schluss), konsistenter Sie-Register, B2-typische Diskursmarker (darüber hinaus, im Übrigen, folglich, angesichts, hinsichtlich, zum einen ... zum anderen), passende Grußformel. Register-Sprünge (z.B. 'Hallo' in formeller Anfrage) werden abgewertet."
+            },
+            {
+              "criterion": "III. Formale Richtigkeit",
+              "maxPoints": 15,
+              "description": "B2-Grammatik korrekt eingesetzt: Passiv, Konjunktiv II für höfliche Bitten ('Ich würde gern erfahren', 'Es wäre hilfreich'), Nominalisierung, komplexe Nebensätze, Genitiv-Präpositionen. Rechtschreibung und Zeichensetzung. Fehler, die das Verständnis blockieren, führen zu D und damit zu 0 Punkten gesamt."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "presentation",
+          "instructions": "Teil 1 — Präsentation (ca. 3 Minuten pro Kandidat:in). Jede:r Kandidat:in erhält eine Themenkarte und hält eine kurze, strukturierte Präsentation (Einstieg, Hauptteil, Schluss). Anschließend stellt die Partnerin/der Partner 1–2 Nachfragen.",
+          "instructionsTranslation": "Part 1 — Presentation (approx. 3 minutes per candidate). Each candidate receives a topic card and gives a short, structured presentation (intro, main body, conclusion). Afterwards the partner asks 1–2 follow-up questions.",
+          "prompt": "KANDIDAT:IN A — Thema: 'Lebenslanges Lernen – notwendiger Anspruch oder Überforderung?'\n\nHalten Sie eine kurze Präsentation (ca. 3 Minuten) zu diesem Thema. Strukturieren Sie Ihren Vortrag so:\n\n• Einstieg: Was verstehen Sie unter 'lebenslangem Lernen'? Ein konkretes Beispiel aus Ihrem Umfeld.\n• Hauptteil: Welche Vorteile bringt lebenslanges Lernen – für Einzelne und für die Gesellschaft? Welche Herausforderungen sehen Sie (Zeit, Kosten, Motivation, Zugang)?\n• Schluss: Wer sollte lebenslanges Lernen finanzieren und organisieren – Einzelne, Arbeitgeber oder Staat? Ihre persönliche Einschätzung.\n\n—\n\nKANDIDAT:IN B — Thema: 'Duales Studium oder klassisches Hochschulstudium – was lohnt sich heute?'\n\nHalten Sie eine kurze Präsentation (ca. 3 Minuten) zu diesem Thema. Strukturieren Sie Ihren Vortrag so:\n\n• Einstieg: Was unterscheidet das duale Studium vom klassischen Hochschulstudium? Ein Beispiel aus Ihrem Umfeld.\n• Hauptteil: Welche Stärken und Schwächen haben beide Modelle (Praxisbezug, akademische Tiefe, Finanzierung, Karrierechancen)?\n• Schluss: Für wen eignet sich welches Modell? Ihre Einschätzung – auch mit Blick auf Ihre eigene oder die Ausbildungsentscheidung junger Menschen in Ihrem Umfeld.",
+          "sampleResponse": "[Kandidat:in A — Lebenslanges Lernen]\n\nMeine Damen und Herren, ich möchte heute über lebenslanges Lernen sprechen – ein Begriff, der inzwischen überall zu hören ist. Unter lebenslangem Lernen verstehe ich die Bereitschaft und die Möglichkeit, auch nach dem formalen Bildungsabschluss systematisch neue Kompetenzen zu erwerben. Ein konkretes Beispiel aus meinem Umfeld: Mein Onkel, gelernter Buchhalter, absolviert gerade mit sechzig eine Weiterbildung zum Datenschutzbeauftragten.\n\nIm Hauptteil möchte ich auf Chancen und Grenzen eingehen. Für Einzelne eröffnet lebenslanges Lernen neue Karrierewege, stärkt die persönliche Unabhängigkeit und verringert die Angst vor Veränderung. Für die Gesellschaft ist es angesichts der demografischen Entwicklung sogar existenziell, weil wir immer länger erwerbstätig sind. Allerdings darf man die Herausforderungen nicht unterschätzen. Weiterbildung kostet Zeit, Geld und innere Energie. Gerade Eltern kleiner Kinder oder Beschäftigte im Schichtdienst kommen schnell an ihre Grenzen.\n\nAbschließend bin ich überzeugt, dass die Verantwortung dreigeteilt werden sollte: Der Staat schafft den Rahmen über Bildungsurlaub und Förderung, die Arbeitgeber stellen Zeit und Finanzierung zur Verfügung, und die Einzelnen bringen Eigeninitiative mit. Nur so wird aus dem Schlagwort gelebte Realität. Vielen Dank – was denken Sie dazu?\n\n[Beispielhafte Nachfrage der Partnerin/des Partners: 'Welche Rolle spielt für dich persönlich digitale Weiterbildung im Alltag?']",
+          "evaluationTips": [
+            "Strukturieren Sie die Präsentation klar: Einstieg – Hauptteil – Schluss",
+            "Verwenden Sie B2-Diskursmarker: 'Zunächst', 'Darüber hinaus', 'Allerdings', 'Abschließend', 'Angesichts'",
+            "Nennen Sie EIN konkretes Beispiel (aus Familie/Beruf/Studium), keine rein abstrakten Aussagen",
+            "Balance aus Chancen UND Herausforderungen zeigen – B2 verlangt Differenzierung",
+            "Konjunktiv II für Einschätzungen: 'Ich könnte mir vorstellen, dass ...', 'Sinnvoll wäre ...'",
+            "Direkter Schluss mit persönlicher Einschätzung + Übergabe an Partner:in",
+            "Zeitlimit (~3 Min) beachten – nicht länger, nicht kürzer"
+          ],
+          "keyPhrases": [
+            "Ich möchte heute über ... sprechen.",
+            "Unter ... verstehe ich ...",
+            "Ein konkretes Beispiel aus meinem Umfeld ist ...",
+            "Einerseits ..., andererseits ...",
+            "Besonders hervorheben möchte ich ...",
+            "Allerdings darf man nicht übersehen, dass ...",
+            "Meiner Ansicht nach ...",
+            "Abschließend lässt sich festhalten ...",
+            "Was denken Sie / denkst du dazu?"
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "discussion",
+          "instructions": "Teil 2 — Diskussion (ca. 5 Minuten gemeinsam). Beide Kandidat:innen erhalten denselben provokanten Satz und diskutieren ihn. Ziel: eigene Position vertreten, auf die Argumente der Partnerin/des Partners eingehen, widersprechen oder weiterentwickeln.",
+          "instructionsTranslation": "Part 2 — Discussion (approx. 5 minutes together). Both candidates receive the same provocative statement and discuss it. Goal: defend your own position, engage with the partner's arguments, disagree or build on them.",
+          "prompt": "Thema für beide Kandidat:innen:\n\n'An Hochschulen sollte die Präsenzpflicht für alle Veranstaltungen grundsätzlich abgeschafft werden – wer lernen will, lernt auch ohne Zwang.'\n\n— Leitfragen für die Diskussion —\n\n• Stimmen Sie dieser These zu oder widersprechen Sie?\n• Welche Vorteile hätte eine vollständige Abschaffung der Präsenzpflicht? Für wen?\n• Welche Nachteile oder praktischen Probleme sehen Sie (z. B. für Erstsemester, Lehrende, Seminarqualität)?\n• Wären Sie selbst bereit, komplett ohne Präsenz zu studieren? Warum (nicht)?\n\nReagieren Sie auf die Argumente Ihrer Partnerin/Ihres Partners, widersprechen Sie höflich, wo nötig, und versuchen Sie am Ende, Ihre Positionen zusammenzuführen oder respektvoll unterschiedlich stehen zu lassen.",
+          "sampleResponse": "KANDIDAT:IN A: 'Ich finde die These zunächst sympathisch. Wenn jemand den Stoff in eigenem Tempo besser versteht, zwingt man ihn mit einer Anwesenheitspflicht in ineffiziente Formate. Deshalb würde ich tendenziell zustimmen.'\n\nKANDIDAT:IN B: 'Da möchte ich teilweise widersprechen. Ich sehe zwar den Freiheitsgedanken, aber gerade Erstsemester brauchen nach meiner Einschätzung Struktur und den Austausch mit Kommiliton:innen. Ohne Präsenz steigt die Abbruchquote – das zeigen auch aktuelle Studien.'\n\nKANDIDAT:IN A: 'Das ist ein starkes Argument. Allerdings ließe sich das Problem ja über gezielte Einführungsveranstaltungen lösen, statt über pauschale Anwesenheitspflicht. In höheren Semestern kann man den Leuten doch Verantwortung zutrauen, oder?'\n\nKANDIDAT:IN B: 'Guter Punkt – eine gestufte Lösung finde ich tatsächlich überzeugender. Dann bleibt allerdings die Frage nach Seminaren mit starker Diskussionskultur: Philosophie oder Sozialwissenschaften leben vom Austausch. Ganz ohne Präsenz bricht da die didaktische Qualität zusammen.'\n\nKANDIDAT:IN A: 'Das stimmt. Vielleicht wäre ein fachspezifischer Ansatz sinnvoll – Vorlesungen und Übungen werden hybrid, Seminare mit Diskussionscharakter bleiben in Präsenz.'\n\nKANDIDAT:IN B: 'Ja, das klingt nach einem realistischen Kompromiss. Ich würde also sagen: keine pauschale Abschaffung, aber eine differenzierte Lockerung – das unterstütze ich.'",
+          "evaluationTips": [
+            "Klare Position beziehen – 'Ich stimme zu / Ich widerspreche / Ich bin unentschlossen'",
+            "Auf das Gesagte des Partners konkret eingehen – nicht nur die eigene Position wiederholen",
+            "Widerspruch höflich: 'Da möchte ich teilweise widersprechen ...', 'Das sehe ich anders, weil ...'",
+            "Konjunktiv II für hypothetische Argumentation: 'Wäre ...', 'Würde ...', 'Könnte ...', 'Ließe sich ...'",
+            "Konkrete Beispiele oder Fächer/Studiengänge nennen, keine rein theoretischen Argumente",
+            "Versuch der Synthese am Ende: 'Ein möglicher Kompromiss wäre ...', 'Fachspezifisch differenziert ...'",
+            "Diskursmarker der Argumentation: 'allerdings', 'andererseits', 'demgegenüber', 'darüber hinaus'"
+          ],
+          "keyPhrases": [
+            "Meiner Meinung nach ...",
+            "Ich kann dem nur teilweise zustimmen.",
+            "Das sehe ich anders, weil ...",
+            "Ein starkes Argument dafür/dagegen ist ...",
+            "Darf ich kurz darauf eingehen?",
+            "Ich verstehe deinen Punkt, allerdings ...",
+            "Wenn man es so betrachtet, ...",
+            "Ein Kompromiss könnte sein, dass ...",
+            "Da sind wir uns wohl einig."
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Teil 3 — Gemeinsam Planen (ca. 5 Minuten). Beide Kandidat:innen erhalten denselben Planungsauftrag und müssen gemeinsam zu einer konkreten Lösung kommen: Vorschläge machen, abwägen, verhandeln, Entscheidung treffen.",
+          "instructionsTranslation": "Part 3 — Collaborative Planning (approx. 5 minutes). Both candidates receive the same planning task and must reach a concrete joint solution: make proposals, weigh options, negotiate, decide.",
+          "prompt": "Planungsauftrag für beide Kandidat:innen:\n\nSie sind beide im Fachschaftsrat Ihres Studiengangs aktiv. Die Studiendekanin hat Sie gebeten, gemeinsam einen Informationstag für Abiturient:innen zu organisieren, die sich für Ihr Studienfach interessieren.\n\nBesprechen Sie folgende Punkte und treffen Sie konkrete Entscheidungen:\n\n• Zeitpunkt: Wann genau soll der Infotag stattfinden? Ein Samstag oder Werktag? Vormittag, Nachmittag, ganztägig?\n• Ort: Welche Räume werden benötigt? Soll es auch eine Laborführung oder einen Campus-Rundgang geben?\n• Budget: Wie viel sind Sie bereit auszugeben (Flyer, Catering, Give-aways)? Wie teilen Sie die Ausgaben auf?\n• Programm: Welche Inhalte sollen enthalten sein (Begrüßung, Einblick in Vorlesungen, Gespräche mit Studierenden, Studienberatung, Tag der offenen Labore)?\n• Aufgabenverteilung: Wer übernimmt welche konkrete Vorbereitung bis zum Infotag?\n\nEinigen Sie sich am Ende auf einen klaren Plan.",
+          "sampleResponse": "KANDIDAT:IN A: 'Fangen wir mit dem Zeitpunkt an. Ich würde vorschlagen, den Infotag an einem Samstag im März zu machen, von zehn bis vierzehn Uhr – damit auch Schüler:innen aus anderen Städten anreisen können. Was hältst du davon?'\n\nKANDIDAT:IN B: 'Samstagsvormittag finde ich gut, aber vier Stunden sind ein bisschen knapp, wenn wir eine Laborführung einbauen wollen. Wie wäre zehn bis fünfzehn Uhr, inklusive Mittagssnack?'\n\nKANDIDAT:IN A: 'Okay, einverstanden – zehn bis fünfzehn Uhr. Zum Ort: Ich würde die Begrüßung im großen Hörsaal machen und anschließend in drei Gruppen durchs Gebäude gehen – zwei Labore plus Bibliothek. Das verteilt die Last auf mehrere Räume.'\n\nKANDIDAT:IN B: 'Einverstanden. Zum Budget: Sollten wir dreihundert Euro beantragen? Zweihundert für Catering und Flyer, hundert für kleine Give-aways mit dem Fachschaftslogo. Die Fachschaft übernimmt traditionell die Hälfte, die Studiendekanin den Rest.'\n\nKANDIDAT:IN A: 'Gute Idee mit dem Give-away. Zum Programm würde ich vorschlagen: kurze Begrüßung durch die Studiendekanin, Einblick in eine Beispielvorlesung, Panel mit drei Studierenden aus verschiedenen Semestern, dann Laborführung und zum Abschluss offene Studienberatung.'\n\nKANDIDAT:IN B: 'Prima, dann übernehme ich die Laborabsprachen mit den beiden Professoren und die Catering-Bestellung. Kannst du das Panel koordinieren und die Flyer entwerfen?'\n\nKANDIDAT:IN A: 'Perfekt. Also zusammengefasst: Samstag im März, zehn bis fünfzehn Uhr, Begrüßung im Hörsaal, drei Labore plus Bibliothek, dreihundert Euro Budget, du machst Labore und Catering, ich kümmere mich um Panel und Flyer. Treffen wir uns Freitag nochmal zur Abstimmung?'\n\nKANDIDAT:IN B: 'Abgemacht!'",
+          "evaluationTips": [
+            "Konkrete Vorschläge statt vager Ideen: Datum, Uhrzeit, Ort, Betrag nennen",
+            "Aktiv zuhören – reagieren Sie spezifisch auf die Vorschläge des Partners",
+            "Konjunktiv II für Vorschläge: 'Ich würde vorschlagen ...', 'Wir könnten ...', 'Wie wäre es mit ...?'",
+            "Kompromisse zeigen: 'Vier Stunden sind zu knapp – wie wäre eine Stunde länger?'",
+            "Am Ende zusammenfassen: 'Also zusammengefasst: ...'",
+            "Aufgabenverteilung explizit machen: 'Du übernimmst ..., ich übernehme ...'",
+            "Höfliche Zustimmung/Widerspruch: 'Einverstanden', 'Abgemacht', 'Das sehe ich anders'",
+            "Budget und Aufgabenverteilung müssen beide konkret benannt werden"
+          ],
+          "keyPhrases": [
+            "Ich würde vorschlagen, dass ...",
+            "Wie wäre es, wenn wir ...?",
+            "Das klingt sinnvoll, aber ...",
+            "Können wir uns darauf einigen, dass ...?",
+            "Wer übernimmt ...?",
+            "Ich kümmere mich um ..., du übernimmst bitte ...",
+            "Einverstanden / Abgemacht.",
+            "Also zusammengefasst: ...",
+            "Sollen wir das so festhalten?"
+          ]
+        }
+      ]
+    }
   }
 }

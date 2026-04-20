@@ -1,0 +1,98 @@
+<speak>
+  <!-- B2 Mock 02 — Teil 1 (5 True/False, playCount=1) -->
+  <!-- Theme: Bildung & Studium — news bulletins on schools, universities, BAföG -->
+  <!-- Narrator: de-DE-Wavenet-C (female, neutral) — announcer voice -->
+  <!-- News speakers rotate: de-DE-Wavenet-B (male), de-DE-Wavenet-A (female), de-DE-Wavenet-D (male) -->
+  <!-- B2 spec: natural speed 1.0x, no pedagogical slowing, played ONCE -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Hörverstehen, Teil 1. Sie hören fünf kurze Nachrichtenmeldungen aus dem Bildungsbereich.
+      Entscheiden Sie bei jeder Aussage: richtig oder falsch?
+      Sie hören jeden Text nur einmal.
+    </prosody>
+    <break time="10s"/>
+  </voice>
+
+  <!-- Aufgabe 1: KMK Abitur-Aufgabenpool -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Nach ihrer zweitägigen Tagung in Berlin hat die Kultusministerkonferenz neue Eckpunkte für
+      das zentrale Abitur vorgestellt. Die Kultusministerkonferenz hat sich lediglich auf einen
+      gemeinsamen Aufgabenpool für zentrale Prüfungsfächer verständigt – eine vollständige
+      Vereinheitlichung des Abiturs bleibt vorerst ausgeschlossen. Kritik kommt von den
+      Lehrerverbänden, die seit Jahren auf bundesweite Standards drängen.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 2: duales Studium Anstieg -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Das Bundesinstitut für Berufsbildung meldet eine weiter wachsende Nachfrage nach dualen
+      Studiengängen. Im vergangenen Wintersemester schrieben sich rund acht Prozent mehr junge
+      Menschen in ein duales Studium ein – ein anhaltender Aufwärtstrend. Besonders gefragt sind
+      Studiengänge in Technik, Wirtschaftsinformatik und Pflegemanagement.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 3: BAföG-Erhöhung -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Das Bundesbildungsministerium hat am Mittwoch seine Pläne zur Anpassung des BAföG vorgestellt.
+      Das Ministerium plant zwar eine Anpassung der BAföG-Sätze, bleibt mit fünf Prozent aber
+      deutlich unter den Forderungen der Studierendenverbände, die eine Erhöhung um mindestens
+      zehn Prozent verlangen. Die neue Regelung soll zum Herbst in Kraft treten.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 4: Leipzig-Studie Lesekompetenz -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Eine heute veröffentlichte Studie des Erziehungswissenschaftlichen Instituts der Universität
+      Leipzig dokumentiert einen besorgniserregenden Rückgang der Lesekompetenz in den dritten und
+      vierten Klassen. Die Autoren führen dies auf einen hohen Anteil an Bildschirmzeit in der
+      frühen Kindheit sowie auf Personalmangel an Grundschulen zurück.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 5: TU München Hybridmodell -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Die Technische Universität München hat sich klar zu ihrem hybriden Vorlesungsmodell bekannt.
+      Die TU München hält trotz Kritik einzelner Professoren an ihrem hybriden Vorlesungsmodell
+      fest; eine Rückkehr zur vollständigen Präsenzpflicht ist nicht vorgesehen. Das Präsidium
+      verweist auf positive Rückmeldungen aus der Studierendenschaft.
+    </prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Das ist das Ende von Teil 1.</prosody>
+  </voice>
+</speak>

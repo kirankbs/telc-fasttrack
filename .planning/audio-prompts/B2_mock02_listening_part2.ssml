@@ -1,0 +1,144 @@
+<speak>
+  <!-- B2 Mock 02 — Teil 2 (10 True/False, playCount=1) -->
+  <!-- Interview: Moderator de-DE-Wavenet-C (female) + Prof. Hartmann de-DE-Wavenet-B (male) -->
+  <!-- Continuous conversational flow, no item-level pauses during interview -->
+  <!-- B2 spec: natural speed 1.0x, no pedagogical slowing, played ONCE -->
+  <!-- Approx. 4:30–5:00 min total -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Hörverstehen, Teil 2. Sie hören ein Interview zum Thema Hochschulreform und digitale Lehre.
+      Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind.
+      Sie hören das Interview nur einmal.
+    </prosody>
+    <break time="10s"/>
+  </voice>
+
+  <!-- Begin continuous interview -->
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Einen guten Tag und herzlich willkommen zum Bildungsgespräch am Mittwoch.
+      Unser heutiger Gast ist Professor Stefan Hartmann, Direktor des Deutschen Zentrums für
+      Hochschulforschung in Hannover. Herr Hartmann, wo stehen deutsche Hochschulen bei der
+      Digitalisierung der Lehre im internationalen Vergleich?
+    </prosody>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Schönen guten Tag. Trotz deutlicher Fortschritte bleiben wir im internationalen Vergleich
+      ein solides Mittelfeld – wirklich führend sind nach wie vor Estland, die Niederlande und
+      einige asiatische Hochschulen. Deutschland hat die Pandemiezeit gut genutzt, aber der
+      Abstand zu den Spitzenreitern ist noch groß.
+    </prosody>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Viele Hochschulen setzen inzwischen stark auf reine Online-Vorlesungen.
+      Senkt das nicht die Studienabbruchquote?
+    </prosody>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Reine Online-Formate – und das widerspricht einer verbreiteten Annahme – führen in unseren
+      Daten eher zu einer höheren Abbruchquote, gerade in den ersten beiden Semestern. Neue
+      Studierende brauchen soziale Einbindung, und die lässt sich am Bildschirm eben nicht
+      ausreichend herstellen.
+    </prosody>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Aus vielen Fachbereichen hören wir aber auch kritische Stimmen – gerade ältere Kolleginnen
+      und Kollegen stehen digitalen Prüfungen nach wie vor skeptisch gegenüber. Wie gehen Sie mit
+      diesem Widerstand um?
+    </prosody>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Das verstehe ich. Vieles hängt von der Qualität der Formate ab. Meiner Überzeugung nach
+      sind hybride Formate – also eine überlegte Kombination aus Präsenz und Online – didaktisch
+      den reinen Einzellösungen überlegen. Die Angst vor dem Prüfungsbetrug ist real, aber sie
+      lässt sich technisch beherrschen.
+    </prosody>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Zuletzt hat die Hochschulrektorenkonferenz eine Expertenkommission eingesetzt.
+      Welche Empfehlungen sind dabei herausgekommen?
+    </prosody>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Die Kommission hat sich ausdrücklich gegen eine weitere Verkürzung der Regelstudienzeit
+      ausgesprochen und stattdessen mehr Flexibilität bei den Modulformen empfohlen. Die Idee
+      ist, dass Studierende individueller entscheiden können, wann sie welche Teile belegen.
+    </prosody>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Ein spannendes Thema ist auch das berufsbegleitende Studium.
+      Wird dieses Angebot inzwischen stärker genutzt?
+    </prosody>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Absolut. Wir sehen in den letzten fünf Jahren einen kontinuierlichen Zuwachs bei
+      berufsbegleitenden Studiengängen – mittlerweile sind es über fünfzehn Prozent aller
+      Studierenden. Der Wunsch nach Qualifizierung im Job ist ungebrochen, und die Hochschulen
+      reagieren darauf mit modularen Angeboten.
+    </prosody>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Stichwort Finanzierung: Manche Kommentatoren fordern, das BAföG durch Studienkredite zu
+      ersetzen. Unterstützen Sie diese Forderung?
+    </prosody>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Ein Ersatz des BAföG durch Kredite käme für mich nicht in Frage – wir brauchen beide
+      Säulen, und zwar nicht gegeneinander, sondern ergänzend. Die aktuellen Sätze liegen
+      deutlich unter der Armutsgrenze – hier besteht dringender Anpassungsbedarf. Ohne eine
+      spürbare Erhöhung verlieren wir Talente aus einkommensschwächeren Familien.
+    </prosody>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Herr Hartmann, vielen Dank für diese Einblicke.
+      Wo können unsere Hörerinnen und Hörer mehr zu den Zahlen und Analysen erfahren?
+    </prosody>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Weitere Daten finden Interessierte in unserem jährlichen Bildungsbericht, der kommende
+      Woche erscheint. Wir stellen ihn auf unserer Website zum freien Download bereit.
+    </prosody>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Vielen Dank, Herr Professor Hartmann, für das Gespräch. Ihnen einen schönen Tag.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>
