@@ -1,0 +1,133 @@
+<speak>
+  <!-- B1 Mock 10 — Teil 2 (10 True/False, radio interview, playCount=1) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Moderatorin: de-DE-Wavenet-C (female) rate="medium" -->
+  <!-- Gast: de-DE-Wavenet-B (male) rate="medium" -->
+  <!-- Topic: Tourismus und seine Auswirkungen auf beliebte Reiseziele -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören einen Radiobericht. Entscheiden Sie, ob die folgenden zehn Aussagen
+      richtig oder falsch sind. Sie hören den Text nur einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Abend und willkommen zu "Reise und Welt" auf Bayern 3, ich bin Clara Hoffmann.
+      Heute geht es um ein Phänomen, das immer mehr Diskussion auslöst: Overtourism.
+      Was bedeutet es, wenn zu viele Touristen an einen Ort strömen?
+      Unser Gast ist Tourismuswissenschaftler Prof. Dr. Bernd Schramm aus Salzburg.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Abend. Overtourism bedeutet, dass ein Reiseziel so viele Besucher anzieht,
+      dass die Infrastruktur und die Lebensqualität der lokalen Bevölkerung darunter leiden.
+      Venedig, Barcelona oder Dubrovnik sind bekannte Beispiele.
+      Aber auch weniger bekannte Orte wie Hallstatt in Österreich sind mittlerweile betroffen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Was sind die konkreten Probleme für die Einwohner?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Die Mietpreise steigen dramatisch, weil Wohnungen zu Ferienwohnungen für Touristen umgebaut werden.
+      Die Straßen sind überfüllt, Supermärkte und lokale Dienstleistungen sind auf Touristen ausgerichtet,
+      nicht auf die Bedürfnisse der Einwohner.
+      Und der Lärmpegel steigt, besonders nachts. Das verdrängt die ursprüngliche Bevölkerung.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Welche Maßnahmen ergreifen Städte dagegen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Barcelona hat eine Obergrenze für Ferienwohnungen eingeführt.
+      Venedig verlangt an bestimmten Tagen Eintrittsgebühren für Tagesbesucher.
+      Dubrovnik hat die Zahl der Kreuzfahrtschiffe im Hafen stark begrenzt.
+      Das sind mutige Maßnahmen, die zeigen, dass es politischen Willen braucht.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ist der Tourismus denn nicht wichtig für die Wirtschaft dieser Orte?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Absolut, das ist das Dilemma. In manchen Städten macht der Tourismus über 30 Prozent des Stadteinkommens aus.
+      Man kann ihn nicht einfach abstellen. Es geht darum, eine gesunde Balance zu finden.
+      Sanfter Tourismus, der auf Qualität statt Quantität setzt, ist das Ziel.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Können Touristen selbst etwas beitragen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, sehr viel sogar. Meiden Sie Hauptsaison und entdecken Sie Orte außerhalb der bekannten Hotspots.
+      Buchen Sie lokale Unterkünfte statt Hotelketten. Essen Sie in Restaurants, die von Einheimischen besucht werden.
+      Und respektieren Sie lokale Regeln und Gewohnheiten. Reisen ist ein Privileg – das sollte man sich bewusst machen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Was ist Ihrer Einschätzung nach der wichtigste Schritt für die Zukunft?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Eine verbindliche internationale Regulierung von Ferienwohnungsplattformen.
+      Diese Plattformen verdienen viel, tragen aber wenig zur lokalen Wirtschaft bei
+      und treiben die Mieten hoch. Hier brauchen wir klare Regeln auf europäischer Ebene.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Vielen Dank, Prof. Dr. Schramm, für diesen wichtigen Beitrag.
+      Reisetipps für weniger überlaufene Ziele finden Sie auf unserer Webseite.
+      Gute Nacht und gute Reise!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

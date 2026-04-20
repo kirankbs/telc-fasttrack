@@ -1,0 +1,92 @@
+<speak>
+  <!-- B1 Mock 01 — Teil 1 (5 True/False, playCount=1) -->
+  <!-- Narrator/Announcer: de-DE-Wavenet-C (female, neutral) rate="slow" -->
+  <!-- Speaker voices: de-DE-Wavenet-B (male), de-DE-Wavenet-C (female) rate="medium" -->
+  <!-- No repeat — Teil 1 plays ONCE at B1 -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 1. Sie hören fünf kurze Texte. Entscheiden Sie bei jedem Text:
+      Ist die Aussage richtig oder falsch? Sie hören jeden Text nur einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Bahnhofsdurchsage — Zug nach Hamburg verspätet -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Achtung auf Gleis sieben. Der ICE 506 nach Hamburg Hauptbahnhof verspätet sich voraussichtlich um 25 Minuten.
+      Wir bitten alle Reisenden um Verständnis. Der neue voraussichtliche Abfahrtszeitpunkt ist 14 Uhr 37.
+    </prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Aufgabe 2: Anrufbeantworter — Frau Berger bittet Mann einzukaufen -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Hallo Schatz, ich bin's, Anna. Du, könntest du heute Abend noch schnell zum Supermarkt gehen?
+      Wir brauchen Milch und Brot für morgen. Ich schaffe es nicht mehr, der Termin zieht sich länger hin.
+      Danke, bis später!
+    </prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Aufgabe 3: Arztpraxis-Ansage — nur vormittags nächste Woche -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Willkommen bei der Arztpraxis Dr. Steinberg. Aufgrund einer Fortbildung ist unsere Praxis
+      nächste Woche ausschließlich von 8 bis 12 Uhr für Sie da.
+      Für dringende Fälle erreichen Sie uns unter der Notaufnahme des Stadtkrankenhauses.
+      Wir danken Ihnen für Ihr Verständnis.
+    </prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Aufgabe 4: Kollege — kann nicht an Teambesprechung teilnehmen -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Hey, hier ist Markus. Ich wollte kurz Bescheid geben:
+      Leider schaffe ich es am Freitag nicht ins Büro – ich habe einen wichtigen Termin beim Zahnarzt,
+      den ich schon seit Wochen verschoben habe. Die Teambesprechung muss ohne mich stattfinden.
+      Schickt mir bitte das Protokoll?
+    </prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Aufgabe 5: Paketdienst — Lieferung morgen 10–14 Uhr -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Tag, hier ist eine automatische Nachricht Ihres Paketdienstes.
+      Ihr Paket mit der Sendungsnummer 4-7-2-9 erreicht Sie morgen voraussichtlich
+      in einem Zeitfenster von 10 bis 14 Uhr. Bitte stellen Sie sicher, dass jemand
+      zu Hause ist oder hinterlegen Sie eine Abstellgenehmigung.
+    </prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 1.</prosody>
+  </voice>
+</speak>

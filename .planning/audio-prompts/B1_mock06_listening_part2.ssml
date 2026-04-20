@@ -1,0 +1,132 @@
+<speak>
+  <!-- B1 Mock 06 — Teil 2 (10 True/False, radio report, playCount=1) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Moderator: de-DE-Wavenet-B (male) rate="medium" -->
+  <!-- Gästin: de-DE-Wavenet-C (female) rate="medium" -->
+  <!-- Topic: Gesundheit und Schlaf -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören einen Radiobericht. Entscheiden Sie, ob die folgenden zehn Aussagen
+      richtig oder falsch sind. Sie hören den Text nur einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Abend, Sie hören "Gesund leben" auf MDR, ich bin Stefan Haas.
+      Schlafen wir gut genug? Und was passiert, wenn wir dauerhaft zu wenig schlafen?
+      Dazu habe ich heute Schlafmedizinerin Dr. Vera Kaminski im Studio.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Abend. Schlaf ist tatsächlich eines der unterschätztesten Gesundheitsthemen.
+      Wir wissen aus Studien, dass fast ein Drittel der erwachsenen Bevölkerung in Deutschland
+      regelmäßig zu wenig schläft – also unter sieben Stunden pro Nacht.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Wie viel Schlaf brauchen wir denn eigentlich?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Für die meisten Erwachsenen empfehlen Fachgesellschaften sieben bis neun Stunden.
+      Das ist individuell verschieden – manche kommen mit sieben gut aus,
+      andere brauchen neun, um sich erholt zu fühlen. Wichtig ist die Qualität,
+      nicht nur die Menge.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Was passiert konkret, wenn wir chronisch zu wenig schlafen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Die Folgen sind vielfältig. Kurzfristig sinkt die Konzentrationsfähigkeit,
+      die Stimmung leidet und das Immunsystem wird schwächer.
+      Langfristig steigt das Risiko für Herzerkrankungen, Diabetes und sogar Demenz erheblich.
+      Schlafmangel ist also kein Luxusproblem, sondern ein echtes Gesundheitsrisiko.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Viele Menschen schlafen schlecht, nicht wegen Zeitmangels, sondern wegen Schlafstörungen.
+      Wie häufig sind die?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Sehr häufig. Etwa 15 Prozent der Bevölkerung leiden unter einer klinisch relevanten Schlafstörung.
+      Die häufigste Form ist die Ein- und Durchschlafstörung, medizinisch Insomnie genannt.
+      Frauen sind häufiger betroffen als Männer, besonders in den Wechseljahren.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Was hilft denn, wenn man schlecht schläft?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Als erstes empfehle ich immer eine gute Schlafhygiene: feste Schlafzeiten,
+      ein kühles und dunkles Zimmer, kein Bildschirm kurz vor dem Schlafengehen.
+      Schlaftabletten sollten wirklich nur kurzfristig und nach ärztlicher Beratung
+      genommen werden – sie behandeln die Symptome, nicht die Ursache.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Und was ist mit dem bekannten Ratschlag, tagsüber ein Nickerchen zu machen?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ein kurzes Nickerchen von 20 Minuten kann durchaus helfen und die Leistungsfähigkeit steigern.
+      Aber wer Probleme mit dem Nachtschlaf hat, sollte tagsüber nicht länger als 20 bis 30 Minuten schlafen.
+      Sonst verschlechtert sich der Nachtschlaf weiter, und man kommt in einen Teufelskreis.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Vielen Dank, Frau Dr. Kaminski. Auf unserer Website finden Sie außerdem einen
+      Selbsttest für Schlafstörungen. Einen erholsamen Abend an alle Zuhörerinnen und Zuhörer!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

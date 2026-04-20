@@ -1,0 +1,207 @@
+<speak>
+  <!-- B1 Mock 01 — Teil 3 (5 MCQ short dialogues, playCount=2) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Female speaker: de-DE-Wavenet-C rate="medium" -->
+  <!-- Male speaker: de-DE-Wavenet-B rate="medium" -->
+  <!-- Each conversation plays TWICE -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jedes Gespräch zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Gespräch 1: Autowerkstatt — Frau fragt ob Wagen abholbereit ist (correct: b) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Guten Tag, hier ist Schmidt. Ich wollte nur kurz nachfragen, ob mein Wagen schon fertig ist und ich ihn heute noch abholen kann.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Guten Tag, Frau Schmidt. Ja, wir haben die Inspektion gerade abgeschlossen. Sie können das Fahrzeug ab 16 Uhr abholen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Wunderbar, vielen Dank. Bis nachher dann.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Guten Tag, hier ist Schmidt. Ich wollte nur kurz nachfragen, ob mein Wagen schon fertig ist und ich ihn heute noch abholen kann.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Guten Tag, Frau Schmidt. Ja, wir haben die Inspektion gerade abgeschlossen. Sie können das Fahrzeug ab 16 Uhr abholen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Wunderbar, vielen Dank. Bis nachher dann.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 2: Zwei Freundinnen — verschieben Treffen auf nächste Woche (correct: c) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Lisa, hast du Samstag Zeit? Ich dachte, wir könnten ins Kino gehen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Samstag geht leider nicht, ich habe schon was. Und Sonntag bin ich auch verplant.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Okay, dann lass uns das einfach auf nächste Woche verschieben – da passt es uns beiden besser.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, gute Idee. Nächste Woche Mittwoch vielleicht?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Passt mir gut. Abgemacht!</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Lisa, hast du Samstag Zeit? Ich dachte, wir könnten ins Kino gehen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Samstag geht leider nicht, ich habe schon was. Und Sonntag bin ich auch verplant.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Okay, dann lass uns das einfach auf nächste Woche verschieben – da passt es uns beiden besser.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, gute Idee. Nächste Woche Mittwoch vielleicht?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Passt mir gut. Abgemacht!</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 3: Elektronikgeschäft — Mitarbeiter empfiehlt mittelpreisiges Modell mit gutem Akku (correct: b) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich suche ein Laptop für die Arbeit. Was würden Sie mir empfehlen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Wir haben hier eine gute Auswahl. Das teuerste Modell kostet 1.200 Euro, aber das ist für die meisten Nutzer überdimensioniert. Und das günstigste im Sonderangebot hat eine sehr kurze Akkulaufzeit.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich brauche hauptsächlich gute Akkulaufzeit, weil ich viel unterwegs bin.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Für Ihre Zwecke würde ich Ihnen dieses Gerät für 549 Euro empfehlen – Preis und Akkulaufzeit passen einfach hervorragend zusammen. Über zwölf Stunden Laufzeit, das ist im Mittelpreissegment sehr gut.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das klingt gut. Ich nehme es.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich suche ein Laptop für die Arbeit. Was würden Sie mir empfehlen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Wir haben hier eine gute Auswahl. Das teuerste Modell kostet 1.200 Euro, aber das ist für die meisten Nutzer überdimensioniert. Und das günstigste im Sonderangebot hat eine sehr kurze Akkulaufzeit.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich brauche hauptsächlich gute Akkulaufzeit, weil ich viel unterwegs bin.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Für Ihre Zwecke würde ich Ihnen dieses Gerät für 549 Euro empfehlen – Preis und Akkulaufzeit passen einfach hervorragend zusammen. Über zwölf Stunden Laufzeit, das ist im Mittelpreissegment sehr gut.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das klingt gut. Ich nehme es.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 4: Vater-Sohn — Vater wartet auf wichtigen Anruf vom Chef (correct: c) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Papa, kannst du mich jetzt gleich zum Flughafen bringen? Mein Flug geht in zwei Stunden.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ich warte noch auf einen dringenden Anruf von meinem Chef – sobald das erledigt ist, bringe ich dich selbstverständlich zum Flughafen. Das kann nicht mehr lange dauern.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Okay, aber bitte nicht zu lange, ich brauche noch Zeit zum Einchecken.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Keine Sorge, wir schaffen das noch gut.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Papa, kannst du mich jetzt gleich zum Flughafen bringen? Mein Flug geht in zwei Stunden.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ich warte noch auf einen dringenden Anruf von meinem Chef – sobald das erledigt ist, bringe ich dich selbstverständlich zum Flughafen. Das kann nicht mehr lange dauern.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Okay, aber bitte nicht zu lange, ich brauche noch Zeit zum Einchecken.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Keine Sorge, wir schaffen das noch gut.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 5: Studentin — langer Weg zur Uni ist das Hauptproblem (correct: b) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Wie gefällt dir die neue Wohnung?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Die Wohnung an sich ist wunderbar und auch bezahlbar, wirklich. Aber ich brauche morgens über eine Stunde zur Uni – das nervt wirklich. Jeden Tag fast eineinhalb Stunden hin und zurück.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Das ist wirklich lang. Hast du keine Wohnung näher an der Uni gefunden?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Die waren alle zu teuer. Naja, ich hoffe, ich gewöhne mich daran.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Wie gefällt dir die neue Wohnung?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Die Wohnung an sich ist wunderbar und auch bezahlbar, wirklich. Aber ich brauche morgens über eine Stunde zur Uni – das nervt wirklich. Jeden Tag fast eineinhalb Stunden hin und zurück.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Das ist wirklich lang. Hast du keine Wohnung näher an der Uni gefunden?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Die waren alle zu teuer. Naja, ich hoffe, ich gewöhne mich daran.</prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>

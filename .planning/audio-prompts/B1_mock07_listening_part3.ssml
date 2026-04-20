@@ -1,0 +1,205 @@
+<speak>
+  <!-- B1 Mock 07 — Teil 3 (5 MCQ short dialogues, playCount=2) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Female: de-DE-Wavenet-C, Male: de-DE-Wavenet-B rate="medium" -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jedes Gespräch zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Gespräch 1: Reisebüro — Kundschaft möchte nach Thailand, Agent schlägt Bali vor wegen Preis (correct: b) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Wir möchten in diesem Winter nach Südostasien. Thailand ist unser Wunsch.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Thailand ist wunderbar. Allerdings sind die Flüge im Dezember sehr teuer, fast 1.400 Euro pro Person. Hätten Sie Interesse an Bali? Das ist ähnliche Entfernung, ähnliches Klima, aber deutlich günstiger – etwa 900 Euro.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Bali klingt auch interessant. Ich wusste nicht, dass es so viel günstiger ist.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Wir können Ihnen beide Optionen zeigen. Soll ich Angebote für beide Ziele heraussuchen?</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Wir möchten in diesem Winter nach Südostasien. Thailand ist unser Wunsch.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Thailand ist wunderbar. Allerdings sind die Flüge im Dezember sehr teuer, fast 1.400 Euro pro Person. Hätten Sie Interesse an Bali? Das ist ähnliche Entfernung, ähnliches Klima, aber deutlich günstiger – etwa 900 Euro.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Bali klingt auch interessant. Ich wusste nicht, dass es so viel günstiger ist.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Wir können Ihnen beide Optionen zeigen. Soll ich Angebote für beide Ziele heraussuchen?</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 2: Fahrschule — Schüler hat Prüfung nicht bestanden, muss nochmal üben (correct: a) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Wie ist die Prüfung gelaufen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Leider nicht gut. Ich bin durchgefallen. Beim Einparken habe ich einen schwerwiegenden Fehler gemacht und dann bei der Vorfahrt auch noch gezögert.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das ist schade, aber kein Weltuntergang. Wir üben das Einparken und die Vorfahrtsregeln nochmal gezielt, dann klappt es beim nächsten Versuch bestimmt.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Wann kann ich die Prüfung wiederholen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Frühestens nach vier Wochen. Ich melde Sie für den nächsten Termin an.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Wie ist die Prüfung gelaufen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Leider nicht gut. Ich bin durchgefallen. Beim Einparken habe ich einen schwerwiegenden Fehler gemacht und dann bei der Vorfahrt auch noch gezögert.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das ist schade, aber kein Weltuntergang. Wir üben das Einparken und die Vorfahrtsregeln nochmal gezielt, dann klappt es beim nächsten Versuch bestimmt.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Wann kann ich die Prüfung wiederholen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Frühestens nach vier Wochen. Ich melde Sie für den nächsten Termin an.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 3: Nachbarn — Frau bittet um Erlaubnis, Balkon renovieren zu dürfen (correct: c - muss Hausverwaltung fragen) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich wollte meinen Balkon neu streichen. Ist das okay so?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Das liegt nicht in meiner Entscheidung. Sie müssen die Hausverwaltung fragen, denn der Balkon gilt als Gemeinschaftseigentum. Besonders wenn Sie die Farbe ändern möchten.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Oh, das wusste ich nicht. Ich dachte, mein Balkon gehört zu meiner Wohnung.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Der Innenraum des Balkons gehört Ihnen, aber die Außenstruktur und das Erscheinungsbild sind Sache der Gemeinschaft. Rufen Sie einfach bei der Hausverwaltung an.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich wollte meinen Balkon neu streichen. Ist das okay so?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Das liegt nicht in meiner Entscheidung. Sie müssen die Hausverwaltung fragen, denn der Balkon gilt als Gemeinschaftseigentum. Besonders wenn Sie die Farbe ändern möchten.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Oh, das wusste ich nicht. Ich dachte, mein Balkon gehört zu meiner Wohnung.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Der Innenraum des Balkons gehört Ihnen, aber die Außenstruktur und das Erscheinungsbild sind Sache der Gemeinschaft. Rufen Sie einfach bei der Hausverwaltung an.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 4: Café — Student fragt ob WLAN-Passwort gültig ist (correct: a - neues Passwort) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Entschuldigung, ich kann mich nicht mit dem WLAN verbinden. Ist das Passwort noch dasselbe?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Oh, wir haben das Passwort letzte Woche geändert. Das neue lautet: Kaffee2026, alles klein, kein Leerzeichen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Danke! Und funktioniert das auch für alle Geräte?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ja, das Gäste-WLAN ist für alle Geräte. Bei Problemen helfe ich gerne.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Entschuldigung, ich kann mich nicht mit dem WLAN verbinden. Ist das Passwort noch dasselbe?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Oh, wir haben das Passwort letzte Woche geändert. Das neue lautet: Kaffee2026, alles klein, kein Leerzeichen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Danke! Und funktioniert das auch für alle Geräte?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ja, das Gäste-WLAN ist für alle Geräte. Bei Problemen helfe ich gerne.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 5: Telefoninterview Stelle — Bewerberin fragt ob Stelle noch frei ist (correct: b - sie sollen sich schriftlich bewerben) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Guten Tag, ich habe Ihre Stellenanzeige für den Bürokaufmann gesehen. Ist die Stelle noch frei?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, wir haben die Stelle noch nicht besetzt. Allerdings nehmen wir keine telefonischen Bewerbungen an. Bitte senden Sie uns Ihre Unterlagen per E-Mail – die Adresse steht in der Anzeige.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Alles klar. Bis wann soll ich die Bewerbung schicken?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Am besten bis Ende dieser Woche. Wir starten die Gespräche schon nächste Woche.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Guten Tag, ich habe Ihre Stellenanzeige für den Bürokaufmann gesehen. Ist die Stelle noch frei?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, wir haben die Stelle noch nicht besetzt. Allerdings nehmen wir keine telefonischen Bewerbungen an. Bitte senden Sie uns Ihre Unterlagen per E-Mail – die Adresse steht in der Anzeige.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Alles klar. Bis wann soll ich die Bewerbung schicken?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Am besten bis Ende dieser Woche. Wir starten die Gespräche schon nächste Woche.</prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>

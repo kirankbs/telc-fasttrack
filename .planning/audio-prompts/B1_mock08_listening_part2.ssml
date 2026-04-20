@@ -1,0 +1,135 @@
+<speak>
+  <!-- B1 Mock 08 — Teil 2 (10 True/False, radio report, playCount=1) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Moderatorin: de-DE-Wavenet-C (female) rate="medium" -->
+  <!-- Gast: de-DE-Wavenet-B (male) rate="medium" -->
+  <!-- Topic: Öffentlicher Nahverkehr und Mobilität der Zukunft -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören einen Radiobericht. Entscheiden Sie, ob die folgenden zehn Aussagen
+      richtig oder falsch sind. Sie hören den Text nur einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Morgen bei Deutschlandfunk, hier ist Monika Breuer.
+      Heute in der Sendung: Wie entwickelt sich der öffentliche Nahverkehr in Deutschland?
+      Wird die Bahn wirklich zur Alternative fürs Auto?
+      Ich spreche darüber mit Mobilitätsexperte Dipl.-Ing. Rudolf Pfeiffer.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Morgen. Die Frage ist berechtigt, denn der Nahverkehr steht vor enormen Herausforderungen.
+      Einerseits wächst die Nachfrage – das Deutschlandticket für 49 Euro hat gezeigt,
+      wie viele Menschen bereit sind, öffentliche Verkehrsmittel zu nutzen,
+      wenn der Preis stimmt.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Was hat das Deutschlandticket konkret bewirkt?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      In den ersten Monaten nach der Einführung hat die Bahnnutzung um fast 25 Prozent zugenommen.
+      Viele Menschen haben ihr Monatsticket durch das Deutschlandticket ersetzt.
+      Aber es hat auch neue Nutzer gewonnen, die vorher ausschließlich Auto gefahren sind.
+      Das ist eine bemerkenswerte Verschiebung.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Aber die Pünktlichkeit der Deutschen Bahn ist berüchtigt. Verbessert sich das?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das ist das Kernproblem. Im letzten Jahr kam nur jeder zweite Fernzug pünktlich an.
+      Das ist eine Pünktlichkeitsrate von unter 60 Prozent – ein historischer Tiefstand.
+      Der Grund liegt vor allem im veralteten Streckennetz, das dringend saniert werden muss.
+      Dafür hat die Bahn ein milliardenschweres Programm aufgelegt, aber es wird Jahre dauern.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Was ist mit der Infrastruktur auf dem Land?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das ist die andere große Baustelle. Viele ländliche Strecken wurden in den 1990er Jahren stillgelegt.
+      Jetzt versucht man, einige davon wiederzubeleben.
+      Aber der Bau von Schienen ist extrem teuer und dauert sehr lange.
+      Für die Übergangszeit setzen viele Regionen auf Rufbusse oder Fahrgemeinschaften.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Welche Rolle spielt das autonome Fahren in der Zukunft des Nahverkehrs?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das ist ein spannendes Feld. Autonome Kleinbusse werden bereits in einigen Städten getestet.
+      Allerdings sind wir noch weit von einem flächendeckenden Einsatz entfernt.
+      Sicherheitstechnisch ist noch viel zu klären, und die rechtlichen Rahmenbedingungen
+      müssen in Deutschland noch geschaffen werden.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Was würden Sie politisch fordern?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Mehr Investitionen in die Schiene und eine klare Priorisierung des Schienenverkehrs
+      gegenüber dem Straßenbau. Im Ausland, zum Beispiel in der Schweiz oder in Japan,
+      sieht man, was möglich ist, wenn man den Nahverkehr konsequent fördert.
+      Das funktioniert. Wir müssen dort hinschauen und lernen.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Vielen Dank, Herr Pfeiffer. Das ist wirklich ein Thema, das uns alle betrifft.
+      Nach der Musik kommen wir zu den lokalen Nachrichten. Bis gleich.
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

@@ -1,0 +1,199 @@
+<speak>
+  <!-- B1 Mock 03 — Teil 3 (5 MCQ short dialogues, playCount=2) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Female: de-DE-Wavenet-C, Male: de-DE-Wavenet-B rate="medium" -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jedes Gespräch zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Gespräch 1: Post — Paket kann nicht zugestellt werden, weil niemand zu Hause war (correct: b) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Guten Tag, ich habe einen Benachrichtigungszettel bekommen. Mein Paket soll hier sein?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Guten Tag. Ja, der Zusteller war gestern bei Ihnen, aber leider war niemand zu Hause. Das Paket liegt jetzt hier bei uns in der Poststelle. Haben Sie den Zettel dabei?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ja, hier ist er. Wie lange liegt das Paket hier?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Es wird sieben Werktage für Sie aufbewahrt. Danach geht es zurück an den Absender.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Guten Tag, ich habe einen Benachrichtigungszettel bekommen. Mein Paket soll hier sein?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Guten Tag. Ja, der Zusteller war gestern bei Ihnen, aber leider war niemand zu Hause. Das Paket liegt jetzt hier bei uns in der Poststelle. Haben Sie den Zettel dabei?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ja, hier ist er. Wie lange liegt das Paket hier?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Es wird sieben Werktage für Sie aufbewahrt. Danach geht es zurück an den Absender.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 2: Sprachschule — Kurs Spanisch B2 ist voll, Anmeldung für C1 empfohlen (correct: c) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ich würde gerne den Spanischkurs auf B2-Niveau belegen. Gibt es noch freie Plätze?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Oh, der B2-Kurs ist leider schon ausgebucht. Wir haben einen neuen Kurs auf C1-Niveau, der noch Plätze hat. Welches Niveau haben Sie gerade?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ich habe das B2-Zertifikat schon. Dann wäre C1 wohl die richtige Wahl.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Genau, ich würde Ihnen den C1-Kurs sehr empfehlen. Der beginnt nächste Woche Montag.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ich würde gerne den Spanischkurs auf B2-Niveau belegen. Gibt es noch freie Plätze?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Oh, der B2-Kurs ist leider schon ausgebucht. Wir haben einen neuen Kurs auf C1-Niveau, der noch Plätze hat. Welches Niveau haben Sie gerade?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ich habe das B2-Zertifikat schon. Dann wäre C1 wohl die richtige Wahl.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Genau, ich würde Ihnen den C1-Kurs sehr empfehlen. Der beginnt nächste Woche Montag.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 3: Apotheke — Medikament muss bestellt werden, fertig morgen (correct: a) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Guten Tag, ich habe hier ein Rezept. Können Sie mir das Medikament geben?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Einen Moment bitte. Ich schaue nach… leider haben wir das gerade nicht vorrätig. Ich muss es bestellen. Es wäre morgen früh da, wenn ich jetzt bestelle.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Morgen? Ich brauche es eigentlich heute noch.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ich verstehe. Leider kann ich es Ihnen erst morgen geben. Ich kann auch in einer anderen Apotheke in der Nähe nachfragen, ob die es vorrätig haben.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Guten Tag, ich habe hier ein Rezept. Können Sie mir das Medikament geben?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Einen Moment bitte. Ich schaue nach… leider haben wir das gerade nicht vorrätig. Ich muss es bestellen. Es wäre morgen früh da, wenn ich jetzt bestelle.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Morgen? Ich brauche es eigentlich heute noch.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ich verstehe. Leider kann ich es Ihnen erst morgen geben. Ich kann auch in einer anderen Apotheke in der Nähe nachfragen, ob die es vorrätig haben.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 4: Büro — Mann fragt Kollegin nach dem Drucker, der in der 3. Etage steht (correct: b) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Entschuldige, weißt du, wo der Farbdrucker ist? Ich finde ihn nicht auf dieser Etage.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Der Farbdrucker? Der steht in der dritten Etage, im Raum 3B. Du musst die Treppe rauf, dann ist es das erste Zimmer links.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Dritte Etage, Raum 3B, alles klar. Und hat man da Zugang, oder braucht man einen Code?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Nein, der Raum ist offen. Einfach reingehen.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Entschuldige, weißt du, wo der Farbdrucker ist? Ich finde ihn nicht auf dieser Etage.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Der Farbdrucker? Der steht in der dritten Etage, im Raum 3B. Du musst die Treppe rauf, dann ist es das erste Zimmer links.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Dritte Etage, Raum 3B, alles klar. Und hat man da Zugang, oder braucht man einen Code?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Nein, der Raum ist offen. Einfach reingehen.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 5: Mietvertrag — Vermieter erklärt, dass Haustiere erlaubt sind, aber nur kleine (correct: c) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich habe eine Frage zum Mietvertrag. Ich habe eine Katze. Darf ich die in die Wohnung mitnehmen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, kleine Haustiere wie Katzen und Hunde bis zu einem bestimmten Gewicht sind erlaubt. Aber ich bitte Sie, vorher kurz eine schriftliche Genehmigung bei mir einzuholen. Das ist nur eine Formalität.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Kein Problem. Und Hunde auch? Ich frage für eine Freundin.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Kleine Hunde ja, aber bitte mit meiner schriftlichen Genehmigung. Große Hunde leider nicht – das ist im Mietvertrag so geregelt.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich habe eine Frage zum Mietvertrag. Ich habe eine Katze. Darf ich die in die Wohnung mitnehmen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, kleine Haustiere wie Katzen und Hunde bis zu einem bestimmten Gewicht sind erlaubt. Aber ich bitte Sie, vorher kurz eine schriftliche Genehmigung bei mir einzuholen. Das ist nur eine Formalität.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Kein Problem. Und Hunde auch? Ich frage für eine Freundin.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Kleine Hunde ja, aber bitte mit meiner schriftlichen Genehmigung. Große Hunde leider nicht – das ist im Mietvertrag so geregelt.</prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>

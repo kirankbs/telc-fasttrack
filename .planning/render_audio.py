@@ -45,6 +45,18 @@ for mock_num in [f"{n:02d}" for n in range(1, 11)]:
             "out_file": f"{AUDIO_BASE}/A2/mock{mock_num}/listening_part{part}.mp3",
             "speaking_rate": 0.90,
         })
+# B1 mocks 01-10
+for mock_num in [f"{n:02d}" for n in range(1, 11)]:
+    for part in [1, 2, 3]:
+        TARGETS.append({
+            "level": "B1",
+            "mock": f"mock{mock_num}",
+            "part": part,
+            "ssml_file": f"{SSML_DIR}/B1_mock{mock_num}_listening_part{part}.ssml",
+            "out_dir": f"{AUDIO_BASE}/B1/mock{mock_num}",
+            "out_file": f"{AUDIO_BASE}/B1/mock{mock_num}/listening_part{part}.mp3",
+            "speaking_rate": 0.95,
+        })
 
 
 def get_access_token() -> str:

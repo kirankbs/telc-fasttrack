@@ -1,0 +1,199 @@
+<speak>
+  <!-- B1 Mock 04 — Teil 3 (5 MCQ short dialogues, playCount=2) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Female: de-DE-Wavenet-C, Male: de-DE-Wavenet-B rate="medium" -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jedes Gespräch zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Gespräch 1: Jobcenter — Frau erklärt, dass man die Unterlagen persönlich abgeben muss (correct: b) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Guten Tag, ich möchte Arbeitslosengeld beantragen. Kann ich die Unterlagen per Post schicken?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Für die erste Antragstellung müssen Sie persönlich vorbeikommen. Die Unterlagen können wir nicht per Post annehmen, da wir Ihren Ausweis im Original sehen müssen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Verstehe. Muss ich dann einen Termin machen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ja, bitte vereinbaren Sie vorher einen Termin über unsere Hotline oder online. Ohne Termin kann es sehr lange Wartezeiten geben.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Guten Tag, ich möchte Arbeitslosengeld beantragen. Kann ich die Unterlagen per Post schicken?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Für die erste Antragstellung müssen Sie persönlich vorbeikommen. Die Unterlagen können wir nicht per Post annehmen, da wir Ihren Ausweis im Original sehen müssen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Verstehe. Muss ich dann einen Termin machen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ja, bitte vereinbaren Sie vorher einen Termin über unsere Hotline oder online. Ohne Termin kann es sehr lange Wartezeiten geben.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 2: Schule — Elternteil fragt warum Kind nicht am Ausflug teilnehmen kann (correct: a - krank) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Guten Morgen, Herr Decker. Ich wollte kurz fragen, warum mein Sohn Leo nicht am Schulausflug teilnehmen kann?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Guten Morgen, Frau Maier. Leo hat leider zu viele unentschuldigte Fehlstunden in letzter Zeit. Das ist eine schulische Konsequenz, die wir leider umsetzen müssen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Aber Leo war krank! Ich habe jedes Mal ein Attest gebracht.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ich schaue das nach. Wenn alle Atteste vorliegen, sind die Fehlstunden entschuldigt und Leo darf selbstverständlich mitfahren. Bitte kommen Sie kurz ins Büro.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Guten Morgen, Herr Decker. Ich wollte kurz fragen, warum mein Sohn Leo nicht am Schulausflug teilnehmen kann?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Guten Morgen, Frau Maier. Leo hat leider zu viele unentschuldigte Fehlstunden in letzter Zeit. Das ist eine schulische Konsequenz, die wir leider umsetzen müssen.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Aber Leo war krank! Ich habe jedes Mal ein Attest gebracht.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ich schaue das nach. Wenn alle Atteste vorliegen, sind die Fehlstunden entschuldigt und Leo darf selbstverständlich mitfahren. Bitte kommen Sie kurz ins Büro.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 3: Café — Kellner erklärt, dass Tagesgericht Kartoffeln statt Reis enthält (correct: c) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Was ist denn heute das Tagesgericht?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Wir haben heute Hähnchen in Tomatensoße. Auf der Speisekarte steht noch Reis dazu, aber wir haben heute Kartoffeln als Beilage, da der Reislieferant nicht pünktlich war.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Kein Problem, Kartoffeln passen auch gut. Ich nehme das Tagesgericht.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Sehr gerne. Trinken Sie etwas dazu?</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Was ist denn heute das Tagesgericht?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Wir haben heute Hähnchen in Tomatensoße. Auf der Speisekarte steht noch Reis dazu, aber wir haben heute Kartoffeln als Beilage, da der Reislieferant nicht pünktlich war.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Kein Problem, Kartoffeln passen auch gut. Ich nehme das Tagesgericht.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Sehr gerne. Trinken Sie etwas dazu?</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 4: Sportstudio — Vertrag läuft automatisch weiter, Kündigung muss 3 Monate vorher sein (correct: b) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich möchte meine Mitgliedschaft kündigen. Wie lange ist die Kündigungsfrist?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Sie haben eine Mindestlaufzeit von einem Jahr, und die Kündigungsfrist beträgt drei Monate zum Ende der Vertragslaufzeit. Läuft der Vertrag ab und Sie kündigen nicht, verlängert er sich automatisch um ein weiteres Jahr.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Und muss die Kündigung schriftlich erfolgen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, bitte per Brief oder per E-Mail. Eine mündliche Kündigung ist leider nicht möglich.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich möchte meine Mitgliedschaft kündigen. Wie lange ist die Kündigungsfrist?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Sie haben eine Mindestlaufzeit von einem Jahr, und die Kündigungsfrist beträgt drei Monate zum Ende der Vertragslaufzeit. Läuft der Vertrag ab und Sie kündigen nicht, verlängert er sich automatisch um ein weiteres Jahr.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Und muss die Kündigung schriftlich erfolgen?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, bitte per Brief oder per E-Mail. Eine mündliche Kündigung ist leider nicht möglich.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 5: Nachbarn — Frau erklärt, dass sie umzieht und die Wohnung aufgibt (correct: a) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Frau Neumann, ich sehe, Sie haben Umzugskartons draußen stehen. Ziehen Sie weg?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ja, leider. Ich habe eine Stelle in Stuttgart bekommen und ziehe nächsten Monat dorthin. Die Wohnung hier war wunderschön, aber der neue Job ist eine tolle Chance.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Das verstehe ich gut. Wir werden Sie wirklich vermissen. Herzlichen Glückwunsch zur Stelle!</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Danke, das ist sehr nett. Ich hoffe, die neuen Nachbarn sind genauso freundlich wie Sie!</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Frau Neumann, ich sehe, Sie haben Umzugskartons draußen stehen. Ziehen Sie weg?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ja, leider. Ich habe eine Stelle in Stuttgart bekommen und ziehe nächsten Monat dorthin. Die Wohnung hier war wunderschön, aber der neue Job ist eine tolle Chance.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Das verstehe ich gut. Wir werden Sie wirklich vermissen. Herzlichen Glückwunsch zur Stelle!</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Danke, das ist sehr nett. Ich hoffe, die neuen Nachbarn sind genauso freundlich wie Sie!</prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>

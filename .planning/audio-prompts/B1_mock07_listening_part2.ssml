@@ -1,0 +1,135 @@
+<speak>
+  <!-- B1 Mock 07 — Teil 2 (10 True/False, radio interview, playCount=1) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Moderatorin: de-DE-Wavenet-C (female) rate="medium" -->
+  <!-- Gast: de-DE-Wavenet-B (male) rate="medium" -->
+  <!-- Topic: Wohnen in der Stadt vs. auf dem Land -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 2. Sie hören einen Radiobericht. Entscheiden Sie, ob die folgenden zehn Aussagen
+      richtig oder falsch sind. Sie hören den Text nur einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Willkommen zu "Leben und Wohnen" auf SWR1, ich bin Katja Riemer.
+      Stadt oder Land – wo wohnt man besser? Das ist eine Frage, die immer mehr Deutsche beschäftigt,
+      besonders seit der Pandemie. Ich spreche heute mit Stadtforscher Dr. Jürgen Meister
+      vom Institut für Raumplanung in Stuttgart.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Guten Tag. Ja, dieses Thema hat in den letzten Jahren enorm an Bedeutung gewonnen.
+      Seit 2020 beobachten wir eine deutliche Bewegung weg von den Großstädten.
+      Besonders junge Familien verlassen Städte wie München, Frankfurt oder Hamburg
+      und ziehen in die ländlichen Regionen rund um die Städte.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Was sind die Hauptgründe für diesen Trend?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      An erster Stelle stehen die hohen Miet- und Immobilienpreise in den Großstädten.
+      Eine Dreizimmerwohnung in München kostet inzwischen durchschnittlich über 2.000 Euro kalt.
+      Das können sich viele Familien schlicht nicht leisten.
+      Auf dem Land bekommt man für denselben Preis oft ein ganzes Haus mit Garten.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Welche Nachteile hat das Landleben?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Der größte Nachteil ist die schlechtere Infrastruktur. Auf dem Land fehlen oft Ärzte,
+      besonders Fachärzte. Schulen sind manchmal weit entfernt. Der öffentliche Nahverkehr
+      ist häufig unzureichend, was die Abhängigkeit vom Auto erhöht.
+      Das ist besonders für Menschen ohne Auto ein echtes Problem.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Können Homeoffice-Möglichkeiten diesen Trend verstärken?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ganz definitiv. Wer zwei oder drei Tage in der Woche von zu Hause arbeiten kann,
+      braucht nicht mehr in der Nähe des Büros zu wohnen. Das hat viele Möglichkeiten eröffnet.
+      Allerdings: Wenn das Homeoffice wieder eingeschränkt wird, sehen wir oft eine Rückkehr
+      in die Stadt, weil der Pendelweg dann zu lang wird.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Gibt es Maßnahmen, die ländliche Regionen attraktiver machen könnten?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Ja, viele. Breitbandausbau für schnelles Internet ist essenziell.
+      Dann brauchen wir bessere Zugverbindungen und mehr Ärzte auf dem Land.
+      Einige Bundesländer bieten inzwischen finanzielle Anreize für Ärzte,
+      die sich in unterversorgten Regionen niederlassen. Das zeigt erste Wirkung.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Vielen Dank, Dr. Meister. Abschließend: Wo wohnen Sie selbst?
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das ist eine gute Frage. Ich wohne seit zehn Jahren in einem kleinen Ort
+      30 Kilometer von Stuttgart entfernt. Mit dem Zug bin ich in 35 Minuten im Büro.
+      Für mich persönlich ist das die beste Lösung – ruhig wohnen und trotzdem nah an der Stadt.
+    </prosody>
+    <break time="1s"/>
+  </voice>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Ein schönes Schlussbild. Danke für das Gespräch. Für alle Hörer:
+      Auf unserer Website haben wir einen Vergleichsrechner "Stadt versus Land" verlinkt.
+      Tschüs und bis nächste Woche!
+    </prosody>
+  </voice>
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

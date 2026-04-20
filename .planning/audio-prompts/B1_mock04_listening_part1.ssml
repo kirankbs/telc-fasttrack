@@ -1,0 +1,93 @@
+<speak>
+  <!-- B1 Mock 04 — Teil 1 (5 True/False, playCount=1) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Speakers: de-DE-Wavenet-B (male), de-DE-Wavenet-C (female) rate="medium" -->
+  <!-- Topics: Theatervorstellung, Jobabsage, Museum, Nachricht von Freund, Busansage -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 1. Sie hören fünf kurze Texte. Entscheiden Sie bei jedem Text:
+      Ist die Aussage richtig oder falsch? Sie hören jeden Text nur einmal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Theater — Vorstellung am Samstag ausverkauft, Karten für Sonntag verfügbar (falsch: ausverkauft bezieht sich auf Samstag) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Willkommen bei der Kartenhotline des Stadttheaters. Die Vorstellung "Der Hauptmann von Köpenick"
+      am Samstag, den 22. November ist leider vollständig ausverkauft. Für die Sonntagsvorstellung
+      um 19 Uhr haben wir noch Restkarten in den Kategorien B und C. Bitte buchen Sie online
+      oder rufen Sie werktags zwischen 10 und 18 Uhr zurück.
+    </prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Aufgabe 2: Stellenangebot — Bewerber erhält Absage, soll sich auf andere Stelle bewerben (richtig) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">
+      Guten Tag, Herr Wagner, hier ist Petra Klein von der Personalabteilung. Leider müssen wir Ihnen
+      mitteilen, dass wir uns für einen anderen Bewerber entschieden haben. Wir haben Ihre Unterlagen
+      aber sehr gerne gelesen und möchten Sie ermutigen, sich auf unsere anderen offenen Stellen
+      in der Logistikabteilung zu bewerben. Die Stellenangebote finden Sie auf unserer Website.
+    </prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Aufgabe 3: Museum — Montagsöffnung aufgehoben, jetzt dienstags bis sonntags (richtig) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Das Stadtmuseum Altenhain informiert: Ab dem 1. November gelten neue Öffnungszeiten.
+      Das Museum ist von Dienstag bis Sonntag von 10 bis 17 Uhr geöffnet.
+      Montags bleibt das Museum geschlossen. Der Eintritt am Donnerstag ist für alle Besucher frei.
+    </prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Aufgabe 4: Nachricht von Freund — kommt eine Stunde später, weil Bahn Verspätung hat (richtig) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Hey, ich bin's Tobias. Die Bahn hat gerade enorme Verspätung, mindestens eine Stunde.
+      Ich komme also erst gegen 20 Uhr an, nicht um 19 Uhr wie geplant. Bestell schon mal was
+      zu trinken für mich, ja? Bis gleich!
+    </prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Aufgabe 5: Busansage — Linie 7 wird wegen Bauarbeiten umgeleitet, hält nicht am Marktplatz (richtig) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">
+      Achtung, wichtige Information für Fahrgäste der Linie 7. Wegen Straßenbauarbeiten
+      in der Innenstadt wird die Linie 7 ab morgen für zwei Wochen umgeleitet.
+      Der Halt am Marktplatz entfällt in dieser Zeit. Bitte nutzen Sie als Alternative
+      die Haltestelle Rathausstraße, die sich 300 Meter vom Marktplatz befindet.
+    </prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 1.</prosody>
+  </voice>
+</speak>

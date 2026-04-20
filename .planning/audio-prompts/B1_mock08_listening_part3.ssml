@@ -1,0 +1,199 @@
+<speak>
+  <!-- B1 Mock 08 — Teil 3 (5 MCQ short dialogues, playCount=2) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) rate="slow" -->
+  <!-- Female: de-DE-Wavenet-C, Male: de-DE-Wavenet-B rate="medium" -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">
+      Hören, Teil 3. Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe.
+      Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jedes Gespräch zweimal.
+    </prosody>
+    <break time="2s"/>
+  </voice>
+
+  <!-- Gespräch 1: Krankenhaus — Patient fragt nach Entlassung, Arzt sagt noch 2 Tage (correct: b) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Herr Doktor, wann darf ich nach Hause? Ich fühle mich eigentlich schon viel besser.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das freut mich. Aber wir möchten Sie noch zwei weitere Tage zur Beobachtung hier behalten. Nach der Operation ist es wichtig, dass wir sicherstellen, dass keine Komplikationen auftreten.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Zwei Tage? Dann wäre das Donnerstag?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Genau, wenn alles gut geht, können Sie Donnerstag nach Hause. Aber bitte tun Sie in den ersten zwei Wochen nach der Entlassung nichts Schweres.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Herr Doktor, wann darf ich nach Hause? Ich fühle mich eigentlich schon viel besser.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Das freut mich. Aber wir möchten Sie noch zwei weitere Tage zur Beobachtung hier behalten. Nach der Operation ist es wichtig, dass wir sicherstellen, dass keine Komplikationen auftreten.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Zwei Tage? Dann wäre das Donnerstag?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Genau, wenn alles gut geht, können Sie Donnerstag nach Hause. Aber bitte tun Sie in den ersten zwei Wochen nach der Entlassung nichts Schweres.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 2: Büro — Frau fragt welches Formular für Reisekostenabrechnung (correct: a - Formular R7) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Entschuldigung, ich muss eine Reisekostenabrechnung einreichen. Welches Formular brauche ich dafür?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Das ist das Formular R7. Sie finden es im Intranet unter "Verwaltung" und dann "Formulare". Laden Sie es runter, füllen Sie es aus und schicken Sie es unterschrieben an die Buchhaltung.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Und brauche ich Originalbelege dazu?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, bitte Originalquittungen oder zumindest eingescannte Kopien. Ohne Belege können wir leider nicht erstatten.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Entschuldigung, ich muss eine Reisekostenabrechnung einreichen. Welches Formular brauche ich dafür?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Das ist das Formular R7. Sie finden es im Intranet unter "Verwaltung" und dann "Formulare". Laden Sie es runter, füllen Sie es aus und schicken Sie es unterschrieben an die Buchhaltung.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Und brauche ich Originalbelege dazu?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Ja, bitte Originalquittungen oder zumindest eingescannte Kopien. Ohne Belege können wir leider nicht erstatten.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 3: Markt — Frau kauft Käse, bekommt 100g mehr, Händler korrigiert Preis (correct: c) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich hätte gerne 200 Gramm von dem Bergkäse, bitte.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Einen Moment... so, das sind 300 Gramm geworden. Ist das in Ordnung, oder soll ich etwas abschneiden?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">300 Gramm ist auch gut. Was kostet das dann?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Der Käse kostet 18 Euro pro Kilo, also macht das für 300 Gramm 5 Euro 40. Darf ich ihn einpacken?</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ich hätte gerne 200 Gramm von dem Bergkäse, bitte.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Einen Moment... so, das sind 300 Gramm geworden. Ist das in Ordnung, oder soll ich etwas abschneiden?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">300 Gramm ist auch gut. Was kostet das dann?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Der Käse kostet 18 Euro pro Kilo, also macht das für 300 Gramm 5 Euro 40. Darf ich ihn einpacken?</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 4: Eltern-Lehrer — Tochter ist gut in Mathe, aber Deutsch braucht Verbesserung (correct: b) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Wie läuft es bei meiner Tochter Laura so in der Schule?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">In Mathematik ist Laura wirklich sehr stark, eine der besten in der Klasse. In Deutsch hingegen hat sie noch etwas Nachholbedarf, besonders beim schriftlichen Ausdruck.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Was können wir zu Hause tun?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Regelmäßiges Lesen hilft enorm. Vielleicht 20 bis 30 Minuten täglich. Und wenn Sie möchten, kann ich Ihnen ein paar Buchempfehlungen für ihr Alter mitgeben.</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Wie läuft es bei meiner Tochter Laura so in der Schule?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">In Mathematik ist Laura wirklich sehr stark, eine der besten in der Klasse. In Deutsch hingegen hat sie noch etwas Nachholbedarf, besonders beim schriftlichen Ausdruck.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Was können wir zu Hause tun?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Regelmäßiges Lesen hilft enorm. Vielleicht 20 bis 30 Minuten täglich. Und wenn Sie möchten, kann ich Ihnen ein paar Buchempfehlungen für ihr Alter mitgeben.</prosody>
+  </voice>
+  <break time="2s"/>
+
+  <!-- Gespräch 5: Straße — Mann fragt nach Weg zur Universität (correct: a - geradeaus, dann links) -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Gespräch 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Entschuldigung, können Sie mir sagen, wie ich zur Technischen Universität komme?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ja, natürlich. Gehen Sie diese Straße etwa 300 Meter geradeaus bis zur großen Kreuzung. Dann biegen Sie links ab in die Universitätsallee. Nach 200 Metern sehen Sie das Hauptgebäude auf der rechten Seite.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Also geradeaus und dann links?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Genau. Und wenn Sie sich unsicher sind, gibt es auf dem Weg ein blaues Schild mit der Aufschrift "TU".</prosody>
+  </voice>
+  <break time="2s"/>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Sie hören das Gespräch jetzt noch einmal.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Entschuldigung, können Sie mir sagen, wie ich zur Technischen Universität komme?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Ja, natürlich. Gehen Sie diese Straße etwa 300 Meter geradeaus bis zur großen Kreuzung. Dann biegen Sie links ab in die Universitätsallee. Nach 200 Metern sehen Sie das Hauptgebäude auf der rechten Seite.</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="medium">Also geradeaus und dann links?</prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="medium">Genau. Und wenn Sie sich unsicher sind, gibt es auf dem Weg ein blaues Schild mit der Aufschrift "TU".</prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="slow">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>
