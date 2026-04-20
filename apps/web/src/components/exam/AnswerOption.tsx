@@ -1,6 +1,6 @@
 'use client';
 
-import type { ReactNode } from 'react';
+import type { PropsWithChildren } from 'react';
 import { Check, X } from 'lucide-react';
 
 type AnswerState =
@@ -10,12 +10,11 @@ type AnswerState =
   | 'wrong'
   | 'correctUnselected';
 
-interface AnswerOptionProps {
+type AnswerOptionProps = PropsWithChildren<{
   name: string;
   value: string;
   selected: boolean;
   onChange: (value: string) => void;
-  children: ReactNode;
   testId?: string;
   /** Post-submit state override. Leave undefined during active phase. */
   review?: {
@@ -23,7 +22,7 @@ interface AnswerOptionProps {
     userPicked: boolean;
   };
   disabled?: boolean;
-}
+}>;
 
 /**
  * Shared exam answer option. Selection uses a 4px left accent bar rather than
