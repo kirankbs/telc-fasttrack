@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
-import { calculateSectionScore } from '@telc/core';
-import type { ListeningSection } from '@telc/types';
+import { calculateSectionScore } from '@fastrack/core';
+import type { ListeningSection } from '@fastrack/types';
 
 function makeSection(questions: { id: string; correctAnswer: string }[]): ListeningSection {
   return {

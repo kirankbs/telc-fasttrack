@@ -1,7 +1,7 @@
-// Re-export pure timer logic from @telc/core.
+// Re-export pure timer logic from @fastrack/core.
 // The React hook (useExamTimer) stays here since it depends on React state.
-import { SECTION_DURATIONS, createTimerState, tickTimer, formatTime } from '@telc/core';
-import type { TimerState } from '@telc/core';
+import { SECTION_DURATIONS, createTimerState, tickTimer, formatTime } from '@fastrack/core';
+import type { TimerState } from '@fastrack/core';
 import { colors } from '../utils/theme';
 
 export { SECTION_DURATIONS, createTimerState, tickTimer, formatTime };

@@ -119,8 +119,8 @@ export default function HomeScreen() {
       {/* Header */}
       <View style={styles.header}>
         <View>
-          <Text style={styles.appTitle}>Telc FastTrack</Text>
-          <Text style={styles.appSubtitle}>German exam prep</Text>
+          <Text style={styles.appTitle}>Fastrack Deutsch</Text>
+          <Text style={styles.appSubtitle}>telc exam prep</Text>
         </View>
         <View style={[styles.levelBadge, { backgroundColor: levelColor }]}>
           <Text style={styles.levelBadgeText}>{level}</Text>

@@ -1,11 +1,11 @@
 {
-  "name": "telc-fasttrack",
+  "name": "fastrack-deutsch",
   "private": true,
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "dev:web": "turbo run dev --filter=@telc/web",
-    "dev:mobile": "turbo run dev --filter=@telc/mobile",
+    "dev:web": "turbo run dev --filter=@fastrack/web",
+    "dev:mobile": "turbo run dev --filter=@fastrack/mobile",
     "lint": "turbo run lint",
     "typecheck": "turbo run typecheck",
     "test": "turbo run test",

@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { formatTime } from '@telc/core';
+import { formatTime } from '@fastrack/core';
 
 interface ExamTimerProps {
   totalSeconds: number;

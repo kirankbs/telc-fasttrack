@@ -1,4 +1,4 @@
-import type { MockExam } from '@telc/types';
+import type { MockExam } from '@fastrack/types';
 
 export function getMockId(level: string, mockNumber: number): string {
   const padded = String(mockNumber).padStart(2, '0');

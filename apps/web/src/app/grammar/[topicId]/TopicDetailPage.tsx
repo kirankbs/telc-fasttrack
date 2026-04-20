@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import type { GrammarTopic } from '@telc/types';
+import type { GrammarTopic } from '@fastrack/types';
 import { TopicDetail } from '@/components/grammar/TopicDetail';
 import { ExercisePlayer } from '@/components/grammar/ExercisePlayer';
 

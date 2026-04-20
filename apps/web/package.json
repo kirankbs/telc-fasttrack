@@ -1,5 +1,5 @@
 {
-  "name": "@telc/web",
+  "name": "@fastrack/web",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -13,10 +13,10 @@
     "clean": "rm -rf .next .turbo node_modules"
   },
   "dependencies": {
-    "@telc/config": "workspace:*",
-    "@telc/content": "workspace:*",
-    "@telc/core": "workspace:*",
-    "@telc/types": "workspace:*",
+    "@fastrack/config": "workspace:*",
+    "@fastrack/content": "workspace:*",
+    "@fastrack/core": "workspace:*",
+    "@fastrack/types": "workspace:*",
     "next": "^15.3.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"

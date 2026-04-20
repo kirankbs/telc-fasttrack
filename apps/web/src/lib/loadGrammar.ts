@@ -1,6 +1,6 @@
 import { readFile } from 'fs/promises';
 import path from 'path';
-import type { GrammarTopic } from '@telc/types';
+import type { GrammarTopic } from '@fastrack/types';
 
 const GRAMMAR_DIR =
   process.env.GRAMMAR_DIR ??

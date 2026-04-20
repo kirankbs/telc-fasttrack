@@ -2,9 +2,15 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "telc FastTrack — German Exam Prep",
+  title: "Fastrack Deutsch — German Exam Prep",
   description:
-    "Spend X hours. Pass telc. Practice mock exams, vocabulary, and grammar for telc A1 through C1.",
+    "Spend X hours. Pass the telc exam. Practice mock exams, vocabulary, and grammar for telc A1 through C1.",
+  openGraph: {
+    title: "Fastrack Deutsch — German Exam Prep",
+    description:
+      "Spend X hours. Pass the telc exam. Practice mock exams, vocabulary, and grammar for telc A1 through C1.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -32,9 +38,9 @@ function NavHeader() {
     <header className="sticky top-0 z-50 border-b border-[#e0e0e0] bg-white/95 backdrop-blur-sm">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <a href="/" className="flex items-center gap-2">
-          <span className="text-2xl font-bold text-brand-primary">telc</span>
+          <span className="text-2xl font-bold text-brand-primary">Fastrack</span>
           <span className="text-lg font-medium text-text-secondary">
-            FastTrack
+            Deutsch
           </span>
         </a>
 
@@ -80,7 +86,7 @@ function Footer() {
   return (
     <footer className="border-t border-[#e0e0e0] bg-white py-6">
       <div className="mx-auto max-w-7xl px-4 text-center text-sm text-text-secondary sm:px-6 lg:px-8">
-        telc FastTrack — German exam prep. Offline-first, content-driven.
+        Fastrack Deutsch — telc exam prep. Offline-first, content-driven.
       </div>
     </footer>
   );

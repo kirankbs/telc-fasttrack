@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useCallback, useMemo, useRef } from 'react';
-import { calculateNextReview, getQualityLabel } from '@telc/core';
-import type { SM2Result } from '@telc/core';
+import { calculateNextReview, getQualityLabel } from '@fastrack/core';
+import type { SM2Result } from '@fastrack/core';
 import type { VocabularyWord } from '@/lib/loadVocabulary';
 import { FlashCard } from './FlashCard';
 

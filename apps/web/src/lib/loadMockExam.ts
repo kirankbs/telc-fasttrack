@@ -1,8 +1,8 @@
 import { readFile } from 'fs/promises';
 import path from 'path';
 import { notFound } from 'next/navigation';
-import { validateMockExam } from '@telc/content';
-import type { MockExam } from '@telc/types';
+import { validateMockExam } from '@fastrack/content';
+import type { MockExam } from '@fastrack/types';
 
 // process.cwd() = apps/web/ when Next.js runs; ../mobile resolves to apps/mobile/
 const CONTENT_DIR =

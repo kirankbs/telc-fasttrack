@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import type { GrammarTopic } from '@telc/types';
+import type { GrammarTopic } from '@fastrack/types';
 
 interface TopicCardProps {
   topic: GrammarTopic;

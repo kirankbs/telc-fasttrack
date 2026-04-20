@@ -1,4 +1,4 @@
-import type { Level } from '@telc/types';
+import type { Level } from '@fastrack/types';
 
 export interface MockExamEntry {
   id: string;

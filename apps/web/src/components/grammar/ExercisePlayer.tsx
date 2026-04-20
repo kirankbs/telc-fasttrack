@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useCallback, useMemo } from 'react';
-import type { GrammarExercise } from '@telc/types';
+import type { GrammarExercise } from '@fastrack/types';
 
 interface ExercisePlayerProps {
   exercises: GrammarExercise[];

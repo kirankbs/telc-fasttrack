@@ -1,5 +1,5 @@
-import type { MockExam } from '@telc/types';
-import { getMockId, validateMockExam } from '@telc/content';
+import type { MockExam } from '@fastrack/types';
+import { getMockId, validateMockExam } from '@fastrack/content';
 
 // Static asset map — dynamic require() is not supported by Metro bundler.
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

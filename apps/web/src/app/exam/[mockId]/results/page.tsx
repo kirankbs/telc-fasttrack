@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import { parseMockId } from '@/lib/loadMockExam';
-import type { Level } from '@telc/types';
+import type { Level } from '@fastrack/types';
 import { ExamResults } from '@/components/exam/ExamResults';
 
 export default async function ResultsPage({

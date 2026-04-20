@@ -1,9 +1,9 @@
 'use client';
 
 import { useState, useCallback, useMemo, useEffect } from 'react';
-import { SECTION_DURATIONS } from '@telc/core';
-import type { SectionScore } from '@telc/core';
-import type { WritingSection, Level } from '@telc/types';
+import { SECTION_DURATIONS } from '@fastrack/core';
+import type { SectionScore } from '@fastrack/core';
+import type { WritingSection, Level } from '@fastrack/types';
 import type { ExamPhase } from '@/lib/examTypes';
 import { saveSection } from '@/lib/examSession';
 import { ExamTimer } from './ExamTimer';

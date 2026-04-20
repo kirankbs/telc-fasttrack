@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import { TopicCard } from '../../components/grammar/TopicCard';
-import type { GrammarTopic } from '@telc/types';
+import type { GrammarTopic } from '@fastrack/types';
 
 const mockTopic: GrammarTopic = {
   id: 1,

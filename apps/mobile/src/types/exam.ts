@@ -1,4 +1,4 @@
-// Re-export all types from the shared @telc/types package.
+// Re-export all types from the shared @fastrack/types package.
 // Existing relative imports throughout the mobile app resolve here.
 export type {
   Level,
@@ -25,4 +25,4 @@ export type {
   GrammarExercise,
   ExamAttempt,
   UserProgress,
-} from '@telc/types';
+} from '@fastrack/types';

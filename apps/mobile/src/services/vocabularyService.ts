@@ -1,6 +1,6 @@
 import { getDatabase } from './database';
-import type { VocabularyItem } from '@telc/types';
-import type { SM2Result } from '@telc/core';
+import type { VocabularyItem } from '@fastrack/types';
+import type { SM2Result } from '@fastrack/core';
 
 export async function seedVocabularyIfEmpty(
   level: string,

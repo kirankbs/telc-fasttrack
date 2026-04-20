@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import type { Level, GrammarTopic } from '@telc/types';
+import type { Level, GrammarTopic } from '@fastrack/types';
 import { TopicCard } from '@/components/grammar/TopicCard';
 
 interface LevelConfig {

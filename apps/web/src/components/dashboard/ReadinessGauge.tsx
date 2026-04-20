@@ -1,6 +1,6 @@
 'use client';
 
-import type { ReadinessLevel } from '@telc/core';
+import type { ReadinessLevel } from '@fastrack/core';
 
 const READINESS_LABELS: Record<ReadinessLevel, string> = {
   building: 'Aufbau',
