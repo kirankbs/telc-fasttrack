@@ -598,8 +598,8 @@
       {
         "type": "reorder",
         "prompt": "nichts / gibt / es / beklagen / zu / was",
-        "correctAnswer": "Es gibt nichts, was zu beklagen wäre.",
-        "explanation": "Nach 'nichts' steht das Relativwort 'was'. (Alternative Lösung: 'Es gibt nichts, was zu beklagen ist.')"
+        "correctAnswer": "Es gibt nichts, was zu beklagen ist.",
+        "explanation": "Nach 'nichts' steht das Relativwort 'was'; Verb steht am Ende des Relativsatzes."
       }
     ],
     "orderIndex": 11
@@ -762,7 +762,7 @@
       },
       {
         "type": "reorder",
-        "prompt": "alte / schöne / mein / Haus / großes / hat / Garten",
+        "prompt": "mein / altes / Haus / hat / einen / schönen / großen / Garten",
         "correctAnswer": "Mein altes Haus hat einen schönen großen Garten.",
         "explanation": "Mein altes (gemischt, Neutrum) Haus; einen schönen großen Garten (gemischt, Akk. Mask.)."
       }
@@ -1202,9 +1202,9 @@
       },
       {
         "type": "reorder",
-        "prompt": "sind / Fragen / zu / vielen / die / klärenden",
-        "correctAnswer": "Die zu klärenden Fragen sind viele.",
-        "explanation": "Gerundivum-Attribut zwischen Artikel und Nomen: die zu klärenden Fragen."
+        "prompt": "zu / die / klärenden / Fragen / sind / noch / offen",
+        "correctAnswer": "Die zu klärenden Fragen sind noch offen.",
+        "explanation": "Gerundivum-Attribut (zu + Partizip Präsens + Adjektivendung) steht zwischen Artikel und Nomen: die zu klärenden Fragen = die Fragen, die geklärt werden müssen."
       }
     ],
     "orderIndex": 22
