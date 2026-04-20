@@ -71,7 +71,7 @@ export function calculateSectionScore(
   return makeSectionScore(earned, max);
 }
 
-function scoreSprachbausteine(
+export function scoreSprachbausteine(
   userAnswers: Record<string, string>,
   section: SprachbausteineSection
 ): SectionScore {

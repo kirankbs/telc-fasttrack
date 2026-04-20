@@ -16,6 +16,7 @@ export interface ExamSessionState {
   sections: {
     listening?: SectionResult;
     reading?: SectionResult;
+    sprachbausteine?: SectionResult;
     writing?: SectionResult;
     speaking?: SectionResult;
   };

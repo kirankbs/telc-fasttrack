@@ -8,7 +8,7 @@ export function SectionStatusBadge({
   sectionKey,
 }: {
   mockId: string;
-  sectionKey: 'listening' | 'reading' | 'writing' | 'speaking';
+  sectionKey: 'listening' | 'reading' | 'sprachbausteine' | 'writing' | 'speaking';
 }) {
   const [done, setDone] = useState(false);
 
@@ -39,7 +39,7 @@ export function SectionActionButton({
   color,
 }: {
   mockId: string;
-  sectionKey: 'listening' | 'reading' | 'writing' | 'speaking';
+  sectionKey: 'listening' | 'reading' | 'sprachbausteine' | 'writing' | 'speaking';
   href: string;
   color: string;
 }) {

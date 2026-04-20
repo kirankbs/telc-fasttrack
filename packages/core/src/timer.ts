@@ -21,13 +21,15 @@ export const SECTION_DURATIONS = {
   },
   B1: {
     listening: 30 * 60,
-    reading: 90 * 60,
+    reading: 75 * 60,
+    sprachbausteine: 15 * 60,
     writing: 30 * 60,
     speaking: 15 * 60,
   },
   B2: {
     listening: 20 * 60,
-    reading: 90 * 60,
+    reading: 70 * 60,
+    sprachbausteine: 20 * 60,
     writing: 30 * 60,
     speaking: 15 * 60,
   },

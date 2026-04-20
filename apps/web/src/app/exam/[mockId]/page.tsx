@@ -24,9 +24,21 @@ export default async function MockExamDetailPage({
   const hasContent = exam !== null;
   const durations = SECTION_DURATIONS[level];
 
+  const hasSprachbausteine = Boolean(exam?.sections.sprachbausteine);
+
   const sections = [
     { name: "Hören", key: "listening" as const, icon: "🎧", route: "listening" },
     { name: "Lesen", key: "reading" as const, icon: "📖", route: "reading" },
+    ...(hasSprachbausteine
+      ? [
+          {
+            name: "Sprachbausteine",
+            key: "sprachbausteine" as const,
+            icon: "🧩",
+            route: "sprachbausteine",
+          },
+        ]
+      : []),
     { name: "Schreiben", key: "writing" as const, icon: "✍️", route: "writing" },
     { name: "Sprechen", key: "speaking" as const, icon: "🗣️", route: "speaking" },
   ];
@@ -87,7 +99,8 @@ export default async function MockExamDetailPage({
       <div className="space-y-3">
         <h2 className="text-lg font-semibold text-text-primary">Abschnitte</h2>
         {sections.map((section) => {
-          const duration = durations[section.key];
+          const duration =
+            (durations as Record<string, number | undefined>)[section.key] ?? 0;
           const href = `/exam/${mockId}/${section.route}`;
           return (
             <div
