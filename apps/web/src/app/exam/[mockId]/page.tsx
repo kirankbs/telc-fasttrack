@@ -1,9 +1,11 @@
 import { notFound } from "next/navigation";
+import { ArrowLeft } from "lucide-react";
 import { LEVEL_CONFIG } from "@fastrack/config";
-import { SECTION_DURATIONS, formatTime } from "@fastrack/core";
+import { SECTION_DURATIONS } from "@fastrack/core";
 import type { Level } from "@fastrack/types";
 import { loadMockExam, parseMockId } from "@/lib/loadMockExam";
-import { SectionStatusBadge, SectionActionButton, ViewResultsLink } from "@/components/exam/SectionStatus";
+import { SectionHub, type HubSection } from "@/components/exam/SectionHub";
+import { ViewResultsLink } from "@/components/exam/SectionStatus";
 
 export default async function MockExamDetailPage({
   params,
@@ -19,54 +21,62 @@ export default async function MockExamDetailPage({
   const level = levelStr as Level;
   const cfg = LEVEL_CONFIG[level];
 
-  // Check if actual content exists for this mock
   const exam = await loadMockExam(level, mockNumber);
   const hasContent = exam !== null;
-  const durations = SECTION_DURATIONS[level];
-
+  const durations = SECTION_DURATIONS[level] as Record<string, number | undefined>;
   const hasSprachbausteine = Boolean(exam?.sections.sprachbausteine);
 
-  const sections = [
-    { name: "Hören", key: "listening" as const, icon: "🎧", route: "listening" },
-    { name: "Lesen", key: "reading" as const, icon: "📖", route: "reading" },
+  const written: HubSection[] = [
+    {
+      key: "listening",
+      name: "Hören",
+      route: "listening",
+      durationSec: durations.listening ?? 0,
+    },
+    {
+      key: "reading",
+      name: "Lesen",
+      route: "reading",
+      durationSec: durations.reading ?? 0,
+    },
     ...(hasSprachbausteine
       ? [
           {
-            name: "Sprachbausteine",
             key: "sprachbausteine" as const,
-            icon: "🧩",
+            name: "Sprachbausteine",
             route: "sprachbausteine",
+            durationSec: durations.sprachbausteine ?? 0,
           },
         ]
       : []),
-    { name: "Schreiben", key: "writing" as const, icon: "✍️", route: "writing" },
-    { name: "Sprechen", key: "speaking" as const, icon: "🗣️", route: "speaking" },
+    {
+      key: "writing",
+      name: "Schreiben",
+      route: "writing",
+      durationSec: durations.writing ?? 0,
+    },
+  ];
+
+  const oral: HubSection[] = [
+    {
+      key: "speaking",
+      name: "Sprechen",
+      route: "speaking",
+      durationSec: durations.speaking ?? 0,
+    },
   ];
 
   return (
     <div className="mx-auto max-w-3xl space-y-6">
-      {/* Back link */}
       <a
         href={`/exam?level=${level}`}
-        className="inline-flex items-center gap-1 text-sm text-text-secondary hover:text-brand-primary"
+        className="inline-flex items-center gap-1.5 text-sm text-text-secondary transition-colors hover:text-text-primary"
       >
-        <svg
-          className="h-4 w-4"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          strokeWidth={2}
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M15 19l-7-7 7-7"
-          />
-        </svg>
-        Back to {level} exams
+        <ArrowLeft className="h-4 w-4" strokeWidth={1.75} aria-hidden />
+        Zurück zu {level}-Übungstests
       </a>
 
-      {/* Header */}
+      {/* Exam header */}
       <div className="rounded-xl border border-border bg-white p-6">
         <div className="flex items-center gap-3">
           <span
@@ -83,80 +93,22 @@ export default async function MockExamDetailPage({
           </div>
         </div>
 
-        <div className="mt-4 rounded-lg bg-surface-container p-4 text-sm text-text-secondary">
-          Bestehensgrenze: {cfg.passThreshold * 100}% in schriftlicher und
-          mündlicher Prüfung.
-        </div>
-
         {!hasContent && (
-          <div className="mt-3 rounded-lg border border-warning bg-warning-light px-4 py-2 text-sm text-warning">
+          <div className="mt-4 rounded-lg border border-warning bg-warning-surface px-4 py-2 text-sm text-warning">
             Inhalt noch nicht verfügbar — kommt bald.
           </div>
         )}
       </div>
 
-      {/* Sections */}
-      <div className="space-y-3">
-        <h2 className="text-lg font-semibold text-text-primary">Abschnitte</h2>
-        {sections.map((section) => {
-          const duration =
-            (durations as Record<string, number | undefined>)[section.key] ?? 0;
-          const href = `/exam/${mockId}/${section.route}`;
-          return (
-            <div
-              key={section.key}
-              className="flex items-center justify-between rounded-xl border border-border bg-white p-5"
-            >
-              <div className="flex items-center gap-3">
-                <span className="text-2xl" role="img" aria-hidden>
-                  {section.icon}
-                </span>
-                <div>
-                  <div className="flex items-center font-semibold text-text-primary">
-                    {section.name}
-                    {hasContent && (
-                      <SectionStatusBadge mockId={mockId} sectionKey={section.key} />
-                    )}
-                  </div>
-                  <div className="text-sm text-text-secondary">
-                    {duration > 0 ? `${Math.round(duration / 60)} Min.` : "—"}
-                  </div>
-                </div>
-              </div>
-              {hasContent ? (
-                <SectionActionButton
-                  mockId={mockId}
-                  sectionKey={section.key}
-                  href={href}
-                  color={cfg.color}
-                />
-              ) : (
-                <span className="rounded-lg border border-border px-4 py-2 text-sm font-medium text-text-disabled">
-                  Bald
-                </span>
-              )}
-            </div>
-          );
-        })}
-      </div>
+      <SectionHub
+        mockId={mockId}
+        level={level}
+        written={written}
+        oral={oral}
+        hasContent={hasContent}
+      />
 
-      {/* View results (shown when at least one section completed) */}
       {hasContent && <ViewResultsLink mockId={mockId} />}
-
-      {/* Start full exam */}
-      {hasContent ? (
-        <a
-          href={`/exam/${mockId}/listening`}
-          className="block w-full rounded-xl py-4 text-center text-lg font-semibold text-white transition-colors hover:opacity-90"
-          style={{ backgroundColor: cfg.color }}
-        >
-          Vollständige Prüfung starten
-        </a>
-      ) : (
-        <div className="w-full rounded-xl py-4 text-center text-lg font-semibold text-text-disabled bg-surface-container">
-          Inhalt noch nicht verfügbar
-        </div>
-      )}
     </div>
   );
 }

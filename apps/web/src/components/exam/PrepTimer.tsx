@@ -65,11 +65,9 @@ export function PrepTimer({ totalSeconds }: PrepTimerProps) {
           data-testid="prep-timer-clock"
           aria-live="polite"
           className={`rounded-lg px-3 py-1.5 text-sm font-mono font-semibold tabular-nums ${
-            expired
-              ? 'bg-fail-light text-fail'
-              : warning
-                ? 'bg-warning-light text-warning'
-                : 'bg-surface-container text-text-primary'
+            expired || warning
+              ? 'bg-warning-surface text-warning'
+              : 'bg-surface-container text-text-primary'
           }`}
         >
           {expired ? 'Zeit vorbei' : formatTime(remaining)}

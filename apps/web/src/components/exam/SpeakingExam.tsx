@@ -1,15 +1,17 @@
 'use client';
 
 import { useState, useCallback, useMemo, useEffect } from 'react';
+import { Mic } from 'lucide-react';
 import { SECTION_DURATIONS } from '@fastrack/core';
 import type { SectionScore } from '@fastrack/core';
 import type { SpeakingSection, Level } from '@fastrack/types';
 import type { ExamPhase } from '@/lib/examTypes';
 import { saveSection } from '@/lib/examSession';
-import { ExamTimer } from './ExamTimer';
+import { ExamRunnerHeader } from './ExamRunnerHeader';
 import { SectionIntro } from './SectionIntro';
 import { SpeakingRecorder } from './SpeakingRecorder';
 import { PrepTimer } from './PrepTimer';
+import { ExamSubmitButton } from './ExamSubmitButton';
 
 interface SpeakingExamProps {
   mockId: string;
@@ -62,7 +64,7 @@ export function SpeakingExam({ mockId, level, section }: SpeakingExamProps) {
     return (
       <SectionIntro
         title="Sprechen"
-        icon="🗣️"
+        Icon={Mic}
         totalSeconds={totalSeconds}
         description={`${totalParts} Aufgaben`}
         extraInfo={
@@ -78,7 +80,9 @@ export function SpeakingExam({ mockId, level, section }: SpeakingExamProps) {
     return (
       <div className="space-y-6">
         <div className="rounded-xl border border-border bg-white p-6 text-center">
-          <div className="text-4xl">🗣️</div>
+          <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-surface-container">
+            <Mic className="h-6 w-6 text-text-secondary" strokeWidth={1.75} aria-hidden />
+          </div>
           <h2 className="mt-3 text-xl font-bold text-text-primary">Sprechen abgeschlossen</h2>
           <p className="mt-1 text-sm text-text-secondary">
             Der Sprechen-Abschnitt wird von einem Prüfer bewertet.
@@ -151,22 +155,22 @@ export function SpeakingExam({ mockId, level, section }: SpeakingExamProps) {
     );
   }
 
-  return (
-    <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-xl font-bold text-text-primary">Sprechen</h1>
-          <p className="text-sm text-text-secondary">
-            Aufgabe {currentPart + 1} von {totalParts}
-          </p>
-        </div>
-        <ExamTimer
-          totalSeconds={totalSeconds}
-          isRunning={phase === 'active'}
-          onExpire={handleExpire}
-        />
-      </div>
+  const progress = totalParts > 0 ? (currentPart + 1) / totalParts : 0;
 
+  return (
+    <div>
+      <ExamRunnerHeader
+        sectionName="Sprechen"
+        partLabel={`Aufgabe ${currentPart + 1} von ${totalParts}`}
+        totalSeconds={totalSeconds}
+        isRunning={phase === 'active'}
+        onExpire={handleExpire}
+        exitHref={`/exam/${mockId}`}
+        level={level}
+        progress={progress}
+      />
+
+      <div className="space-y-6">
       {section.prepTimeMinutes > 0 && (
         <PrepTimer totalSeconds={section.prepTimeMinutes * 60} />
       )}
@@ -292,19 +296,19 @@ export function SpeakingExam({ mockId, level, section }: SpeakingExamProps) {
           <button
             data-testid="section-nav-next"
             onClick={() => setCurrentPart((p) => p + 1)}
-            className="rounded-lg bg-brand-primary px-4 py-2 text-sm font-medium text-white hover:opacity-90"
+            className="rounded-lg bg-brand-600 px-4 py-2 text-sm font-medium text-white hover:bg-brand-700"
           >
             Nächste Aufgabe
           </button>
         ) : (
-          <button
-            data-testid="submit-btn"
-            onClick={() => setPhase('submitted')}
-            className="rounded-lg bg-brand-primary px-6 py-2 text-sm font-semibold text-white hover:opacity-90"
-          >
-            Abschnitt abschließen
-          </button>
+          <div className="flex-1 pl-3">
+            <ExamSubmitButton
+              onClick={() => setPhase('submitted')}
+              label="Abschnitt abschließen"
+            />
+          </div>
         )}
+      </div>
       </div>
     </div>
   );

@@ -1,13 +1,15 @@
 'use client';
 
 import { useState, useCallback, useMemo, useEffect } from 'react';
+import { Pencil } from 'lucide-react';
 import { SECTION_DURATIONS } from '@fastrack/core';
 import type { SectionScore } from '@fastrack/core';
 import type { WritingSection, Level } from '@fastrack/types';
 import type { ExamPhase } from '@/lib/examTypes';
 import { saveSection } from '@/lib/examSession';
-import { ExamTimer } from './ExamTimer';
+import { ExamRunnerHeader } from './ExamRunnerHeader';
 import { SectionIntro } from './SectionIntro';
+import { ExamSubmitButton } from './ExamSubmitButton';
 
 interface WritingExamProps {
   mockId: string;
@@ -61,7 +63,7 @@ export function WritingExam({ mockId, level, section }: WritingExamProps) {
     return (
       <SectionIntro
         title="Schreiben"
-        icon="✍️"
+        Icon={Pencil}
         totalSeconds={totalSeconds}
         description={`${section.tasks.length} Aufgabe${section.tasks.length !== 1 ? 'n' : ''}`}
         extraInfo="Schreiben Sie vollständige, korrekte Antworten."
@@ -83,37 +85,41 @@ export function WritingExam({ mockId, level, section }: WritingExamProps) {
     );
   }
 
+  const totalTasks = section.tasks.length;
+  const tasksTouched = Object.keys(taskAnswers).length;
+  const progress = totalTasks > 0 ? tasksTouched / totalTasks : 0;
+
   return (
-    <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <h1 className="text-xl font-bold text-text-primary">Schreiben</h1>
-        <ExamTimer
-          totalSeconds={totalSeconds}
-          isRunning={phase === 'active'}
-          onExpire={handleExpire}
+    <div>
+      <ExamRunnerHeader
+        sectionName="Schreiben"
+        totalSeconds={totalSeconds}
+        isRunning={phase === 'active'}
+        onExpire={handleExpire}
+        exitHref={`/exam/${mockId}`}
+        level={level}
+        progress={progress}
+      />
+
+      <div className="space-y-6">
+        {section.tasks.map((task) => {
+          const fields = taskAnswers[task.taskNumber] ?? {};
+
+          return (
+            <TaskCard
+              key={task.taskNumber}
+              task={task}
+              fields={fields}
+              onFieldChange={(field, value) => setFieldAnswer(task.taskNumber, field, value)}
+            />
+          );
+        })}
+
+        <ExamSubmitButton
+          onClick={() => setPhase('submitted')}
+          label="Aufgaben abgeben"
         />
       </div>
-
-      {section.tasks.map((task) => {
-        const fields = taskAnswers[task.taskNumber] ?? {};
-
-        return (
-          <TaskCard
-            key={task.taskNumber}
-            task={task}
-            fields={fields}
-            onFieldChange={(field, value) => setFieldAnswer(task.taskNumber, field, value)}
-          />
-        );
-      })}
-
-      <button
-        data-testid="submit-btn"
-        onClick={() => setPhase('submitted')}
-        className="w-full rounded-xl bg-brand-primary py-4 text-sm font-semibold text-white hover:opacity-90"
-      >
-        Aufgaben abgeben
-      </button>
     </div>
   );
 }

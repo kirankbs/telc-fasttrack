@@ -79,7 +79,7 @@ export function ViewResultsLink({ mockId }: { mockId: string }) {
     <a
       data-testid="view-results-link"
       href={`/exam/${mockId}/results`}
-      className="block w-full rounded-xl border-2 border-brand-primary py-4 text-center text-lg font-semibold text-brand-primary transition-colors hover:bg-brand-primary hover:text-white"
+      className="block w-full rounded-xl border-2 border-brand-600 py-4 text-center text-base font-semibold text-brand-600 transition-colors hover:bg-brand-600 hover:text-white"
     >
       Ergebnisse anzeigen
     </a>
