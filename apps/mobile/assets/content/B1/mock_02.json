@@ -1,13 +1,920 @@
 {
   "id": "B1_mock_02",
   "level": "B1",
-  "title": "Übungstest 2",
-  "version": 0,
-  "_stub": true,
+  "title": "B1 Übungstest 2: Beruf",
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 30,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Texte. Entscheiden Sie bei jedem Text: Ist die Aussage richtig oder falsch? Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short texts. For each text, decide: Is the statement correct or incorrect? You will hear each text only once.",
+          "audioFile": "assets/audio/B1/mock02/listening_part1.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B1_m02_L1_q1",
+              "type": "true_false",
+              "questionText": "Herr Weber bittet seine Kollegin, heute länger im Büro zu bleiben.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Auf dem Anrufbeantworter sagt Herr Weber: 'Frau Klein, ich kann heute leider nicht mehr ins Büro kommen – könnten Sie das Angebot für Herrn Vogel bitte bis morgen früh fertig machen?' Er bittet sie um eine fertige Unterlage, nicht um Überstunden oder ein längeres Bleiben.",
+              "audioTimestamp": 10
+            },
+            {
+              "id": "B1_m02_L1_q2",
+              "type": "true_false",
+              "questionText": "Die Krankmeldung gilt bis einschließlich Freitag.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Mitarbeiterin sagt ihrem Chef am Telefon: 'Der Arzt hat mich bis Freitag krankgeschrieben. Am Montag bin ich wieder im Büro.' Die Krankmeldung endet also am Freitag – die Aussage ist richtig.",
+              "audioTimestamp": 14
+            },
+            {
+              "id": "B1_m02_L1_q3",
+              "type": "true_false",
+              "questionText": "Das Bewerbungsgespräch wurde auf einen anderen Tag verschoben.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Personalabteilung informiert per Telefon: 'Leider muss ich Ihnen den Termin am Dienstag absagen – wir schlagen Ihnen stattdessen Donnerstag, 10 Uhr, vor.' Der Termin wird also verschoben – die Aussage ist richtig.",
+              "audioTimestamp": 11
+            },
+            {
+              "id": "B1_m02_L1_q4",
+              "type": "true_false",
+              "questionText": "Der Kurs zur Weiterbildung findet ausschließlich online statt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Durchsage lautet: 'Der Kurs wird zum Teil online, zum Teil in unserem Seminarraum angeboten.' Es handelt sich also um ein Mischformat, nicht um einen reinen Online-Kurs.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "B1_m02_L1_q5",
+              "type": "true_false",
+              "questionText": "Die Teambesprechung beginnt heute fünfzehn Minuten später als geplant.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Assistentin gibt bekannt: 'Liebe Kolleginnen und Kollegen, unser Meeting verschiebt sich um eine Viertelstunde – wir starten um 10:15 Uhr statt 10:00 Uhr.' Fünfzehn Minuten später ist also korrekt.",
+              "audioTimestamp": 9
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören einen Radiobericht. Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind. Sie hören den Text nur einmal.",
+          "instructionsTranslation": "You will hear a radio report. Decide whether the following ten statements are correct or incorrect. You will hear the text only once.",
+          "audioFile": "assets/audio/B1/mock02/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B1_m02_L2_q1",
+              "type": "true_false",
+              "questionText": "Die Sendung handelt vom Berufswechsel im mittleren Alter.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Moderatorin leitet ein: 'In unserer heutigen Sendung geht es um einen Trend, der immer häufiger wird – Menschen, die zwischen 40 und 55 noch einmal beruflich neu anfangen.' Das Thema ist damit klar.",
+              "audioTimestamp": 8
+            },
+            {
+              "id": "B1_m02_L2_q2",
+              "type": "true_false",
+              "questionText": "Laut einer Umfrage haben im letzten Jahr nur wenige Deutsche den Beruf gewechselt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Reporter berichtet: 'Eine Umfrage zeigt, dass fast jeder fünfte Arbeitnehmer im letzten Jahr seinen Beruf gewechselt hat.' Jeder Fünfte ist kein kleiner Anteil – die Aussage ist falsch.",
+              "audioTimestamp": 35
+            },
+            {
+              "id": "B1_m02_L2_q3",
+              "type": "true_false",
+              "questionText": "Der Experte Herr Fischer arbeitet bei einer Berufsberatung.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Moderatorin stellt ihn vor: 'Unser Gast, Herr Jonas Fischer, ist seit über zehn Jahren Berufsberater bei der Agentur für Arbeit in Köln.' Die Aussage passt genau.",
+              "audioTimestamp": 58
+            },
+            {
+              "id": "B1_m02_L2_q4",
+              "type": "true_false",
+              "questionText": "Der häufigste Grund für einen Berufswechsel ist laut Herrn Fischer ein höheres Gehalt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Herr Fischer sagt: 'Erstaunlicherweise steht das Gehalt nicht an erster Stelle – viele wünschen sich mehr Sinn in ihrer Arbeit und ein besseres Betriebsklima.' Gehalt ist also nicht der Hauptgrund.",
+              "audioTimestamp": 82
+            },
+            {
+              "id": "B1_m02_L2_q5",
+              "type": "true_false",
+              "questionText": "Ein schlechtes Verhältnis zum Vorgesetzten kann ein Grund für einen Wechsel sein.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Herr Fischer erklärt: 'In unseren Gesprächen hören wir oft, dass die Beziehung zum Chef der entscheidende Auslöser war – wer sich nicht wertgeschätzt fühlt, kündigt irgendwann.' Das stimmt mit der Aussage überein.",
+              "audioTimestamp": 102
+            },
+            {
+              "id": "B1_m02_L2_q6",
+              "type": "true_false",
+              "questionText": "Frau Richter, eine Gesprächspartnerin, hat aus dem Bankwesen in die Pflege gewechselt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Frau Richter erzählt: 'Nach fünfzehn Jahren in einer Bank habe ich umgeschult – heute arbeite ich als Altenpflegerin und bin endlich zufrieden.' Der Wechsel von Bank zu Pflege ist genau genannt.",
+              "audioTimestamp": 125
+            },
+            {
+              "id": "B1_m02_L2_q7",
+              "type": "true_false",
+              "questionText": "Frau Richter verdient in ihrem neuen Beruf deutlich mehr als vorher.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Frau Richter sagt offen: 'Natürlich verdiene ich jetzt weniger, aber ich gehe jeden Morgen gerne zur Arbeit – das ist mir wichtiger als das Geld.' Sie verdient also weniger, nicht mehr.",
+              "audioTimestamp": 148
+            },
+            {
+              "id": "B1_m02_L2_q8",
+              "type": "true_false",
+              "questionText": "Der Experte empfiehlt, vor einem Wechsel unbedingt ein Praktikum zu machen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Herr Fischer rät: 'Bevor Sie kündigen, sollten Sie ein Praktikum oder zumindest eine Schnuppertage im neuen Beruf machen – das erspart Ihnen böse Überraschungen.' Der Tipp zum Praktikum ist eindeutig.",
+              "audioTimestamp": 168
+            },
+            {
+              "id": "B1_m02_L2_q9",
+              "type": "true_false",
+              "questionText": "Die Agentur für Arbeit bietet auch finanzielle Unterstützung für Umschulungen an.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Herr Fischer erwähnt: 'In vielen Fällen übernimmt die Agentur für Arbeit einen Teil der Kosten einer Umschulung – das wissen die wenigsten.' Das entspricht der Aussage.",
+              "audioTimestamp": 185
+            },
+            {
+              "id": "B1_m02_L2_q10",
+              "type": "true_false",
+              "questionText": "Am Ende nennt die Moderatorin eine Telefonnummer für weitere Informationen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Moderatorin schließt mit: 'Mehr zu diesem Thema finden Sie auf unserer Internetseite unter beruf-neu.de.' Sie verweist also auf eine Webseite, nicht auf eine Telefonnummer.",
+              "audioTimestamp": 205
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jedes Gespräch zweimal.",
+          "instructionsTranslation": "You will hear five short conversations. For each conversation there is one task. What is correct? Mark: a, b, or c. You will hear each conversation twice.",
+          "audioFile": "assets/audio/B1/mock02/listening_part3.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "B1_m02_L3_q1",
+              "type": "mcq",
+              "questionText": "Warum ruft die Bewerberin bei der Firma an?",
+              "options": [
+                "a) Sie möchte den Termin ihres Vorstellungsgesprächs verschieben.",
+                "b) Sie möchte sich nach dem Stand ihrer Bewerbung erkundigen.",
+                "c) Sie möchte eine weitere Unterlage nachreichen."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Bewerberin sagt: 'Ich hatte mich vor drei Wochen auf die Stelle als Projektassistentin beworben und wollte nachfragen, ob es schon einen Zwischenstand gibt.' Sie erkundigt sich also nach dem Stand. Termin und Unterlagen werden nicht erwähnt.",
+              "audioTimestamp": 16
+            },
+            {
+              "id": "B1_m02_L3_q2",
+              "type": "mcq",
+              "questionText": "Worauf einigen sich die beiden Kollegen am Ende?",
+              "options": [
+                "a) Sie tauschen ihre Dienste am Wochenende.",
+                "b) Sie arbeiten beide am Sonntag.",
+                "c) Sie sprechen zuerst mit dem Teamleiter."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Nach längerer Diskussion sagt Anna: 'Ich glaube, wir sollten das lieber erst mit dem Teamleiter abstimmen, bevor wir etwas entscheiden.' Tobias stimmt zu. Ein Tausch oder gemeinsames Arbeiten wird überlegt, aber nicht beschlossen.",
+              "audioTimestamp": 55
+            },
+            {
+              "id": "B1_m02_L3_q3",
+              "type": "mcq",
+              "questionText": "Was rät der Personalberater dem Mann im Gespräch?",
+              "options": [
+                "a) sofort zu kündigen und eine Pause zu machen",
+                "b) eine Weiterbildung im aktuellen Unternehmen zu beantragen",
+                "c) sich parallel bei anderen Firmen zu bewerben"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Berater sagt: 'Bevor Sie kündigen, sprechen Sie doch mit Ihrer Chefin über eine Fortbildung im Haus – das ist oft der schnellste Weg, neue Aufgaben zu bekommen.' Er empfiehlt also die Weiterbildung im Unternehmen. Kündigen rät er ausdrücklich ab.",
+              "audioTimestamp": 92
+            },
+            {
+              "id": "B1_m02_L3_q4",
+              "type": "mcq",
+              "questionText": "Warum möchte die Angestellte im Homeoffice arbeiten?",
+              "options": [
+                "a) Sie hat einen langen Weg zur Arbeit.",
+                "b) Sie muss sich um ein krankes Kind kümmern.",
+                "c) Sie fühlt sich im Büro zu häufig gestört."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Angestellte erklärt: 'Im Großraumbüro werde ich ständig unterbrochen – zu Hause komme ich in zwei Stunden weiter als hier an einem ganzen Tag.' Der Grund ist also die Konzentration. Weg und Kind werden nicht genannt.",
+              "audioTimestamp": 125
+            },
+            {
+              "id": "B1_m02_L3_q5",
+              "type": "mcq",
+              "questionText": "Was ist für die Mitarbeiterin bei der Gehaltsverhandlung am wichtigsten?",
+              "options": [
+                "a) ein höheres Grundgehalt",
+                "b) zusätzliche Urlaubstage",
+                "c) flexible Arbeitszeiten"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Mitarbeiterin sagt am Ende: 'Wenn ich ehrlich bin, sind mir Gleitzeit und die Möglichkeit, früher zu gehen, wichtiger als die 200 Euro mehr im Monat.' Flexible Arbeitszeiten stehen also an erster Stelle.",
+              "audioTimestamp": 160
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 60,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie zuerst die fünf Situationen (1–5) und dann die acht Überschriften (a–h). Welche Überschrift passt zu welcher Situation? Für jede Situation gibt es genau eine passende Überschrift. Drei Überschriften bleiben übrig.",
+          "instructionsTranslation": "First read the five situations (1–5) and then the eight headlines (a–h). Which headline matches which situation? For each situation there is exactly one matching headline. Three headlines remain unused.",
+          "texts": [
+            { "id": "B1_m02_R1_head_a", "type": "notice", "content": "a) Jobmesse 'Karriere kompakt' – über 80 Unternehmen stellen sich am Samstag vor" },
+            { "id": "B1_m02_R1_head_b", "type": "notice", "content": "b) Kostenloser Workshop: Bewerbungsunterlagen professionell erstellen" },
+            { "id": "B1_m02_R1_head_c", "type": "notice", "content": "c) Neue Kita am Firmengelände – Betreuungsplätze für Mitarbeiterkinder ab Herbst" },
+            { "id": "B1_m02_R1_head_d", "type": "notice", "content": "d) Rückenschule für Büroangestellte – 10 Abende ab kommenden Montag" },
+            { "id": "B1_m02_R1_head_e", "type": "notice", "content": "e) Gewerkschaftsberatung zum Thema Überstunden und Zeitausgleich – Sprechstunde donnerstags" },
+            { "id": "B1_m02_R1_head_f", "type": "notice", "content": "f) Sommerfest der Firma – alle Mitarbeiter mit Familie herzlich eingeladen" },
+            { "id": "B1_m02_R1_head_g", "type": "notice", "content": "g) Online-Seminar 'Englisch im Beruf' – für Berufstätige mit Grundkenntnissen, abends" },
+            { "id": "B1_m02_R1_head_h", "type": "notice", "content": "h) Betriebsarzt bietet kostenlose Grippeimpfung an – Anmeldung im Personalbüro" }
+          ],
+          "questions": [
+            {
+              "id": "B1_m02_R1_q1",
+              "type": "matching",
+              "questionText": "1. Ramona beendet im Sommer ihr Studium und weiß noch nicht genau, in welche Branche sie gehen möchte. Sie hätte gern die Möglichkeit, an einem Tag viele verschiedene Firmen kennenzulernen.",
+              "matchingSources": [
+                { "id": "B1_m02_R1_head_a", "label": "a" },
+                { "id": "B1_m02_R1_head_b", "label": "b" },
+                { "id": "B1_m02_R1_head_c", "label": "c" },
+                { "id": "B1_m02_R1_head_d", "label": "d" },
+                { "id": "B1_m02_R1_head_e", "label": "e" },
+                { "id": "B1_m02_R1_head_f", "label": "f" },
+                { "id": "B1_m02_R1_head_g", "label": "g" },
+                { "id": "B1_m02_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Überschrift a) Jobmesse mit 80 Unternehmen an einem Samstag ist genau der Rahmen, den Ramona sucht: viele Arbeitgeber gleichzeitig kennenlernen. Die übrigen Angebote richten sich an bereits Beschäftigte oder an einen engeren Themenkreis."
+            },
+            {
+              "id": "B1_m02_R1_q2",
+              "type": "matching",
+              "questionText": "2. Herr Nowak hat sich schon mehrfach beworben, bekommt aber selten eine Einladung. Ein Freund meint, seine Unterlagen seien nicht mehr zeitgemäß. Er sucht kostenlose Hilfe, um Lebenslauf und Anschreiben zu verbessern.",
+              "matchingSources": [
+                { "id": "B1_m02_R1_head_a", "label": "a" },
+                { "id": "B1_m02_R1_head_b", "label": "b" },
+                { "id": "B1_m02_R1_head_c", "label": "c" },
+                { "id": "B1_m02_R1_head_d", "label": "d" },
+                { "id": "B1_m02_R1_head_e", "label": "e" },
+                { "id": "B1_m02_R1_head_f", "label": "f" },
+                { "id": "B1_m02_R1_head_g", "label": "g" },
+                { "id": "B1_m02_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Überschrift b) bietet einen kostenlosen Workshop zu professionellen Bewerbungsunterlagen – genau das, was Herr Nowak für Lebenslauf und Anschreiben braucht. Keine andere Anzeige passt zum Thema Bewerbung."
+            },
+            {
+              "id": "B1_m02_R1_q3",
+              "type": "matching",
+              "questionText": "3. Frau Lindemann arbeitet seit Jahren im Rechnungswesen und hat in letzter Zeit häufig Überstunden gemacht, die ihr Arbeitgeber weder auszahlt noch als freie Tage anrechnen will. Sie möchte sich informieren, welche Rechte sie hat.",
+              "matchingSources": [
+                { "id": "B1_m02_R1_head_a", "label": "a" },
+                { "id": "B1_m02_R1_head_b", "label": "b" },
+                { "id": "B1_m02_R1_head_c", "label": "c" },
+                { "id": "B1_m02_R1_head_d", "label": "d" },
+                { "id": "B1_m02_R1_head_e", "label": "e" },
+                { "id": "B1_m02_R1_head_f", "label": "f" },
+                { "id": "B1_m02_R1_head_g", "label": "g" },
+                { "id": "B1_m02_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Überschrift e) bietet eine Gewerkschaftsberatung zum Thema Überstunden und Zeitausgleich – die passende Anlaufstelle für Frau Lindemann. Die anderen Angebote haben keinen rechtlichen oder arbeitsrechtlichen Bezug."
+            },
+            {
+              "id": "B1_m02_R1_q4",
+              "type": "matching",
+              "questionText": "4. Tarek sitzt jeden Tag acht Stunden am Schreibtisch und klagt seit Monaten über Rückenschmerzen. Sein Hausarzt hat ihm empfohlen, regelmäßig gezielte Übungen unter Anleitung zu machen.",
+              "matchingSources": [
+                { "id": "B1_m02_R1_head_a", "label": "a" },
+                { "id": "B1_m02_R1_head_b", "label": "b" },
+                { "id": "B1_m02_R1_head_c", "label": "c" },
+                { "id": "B1_m02_R1_head_d", "label": "d" },
+                { "id": "B1_m02_R1_head_e", "label": "e" },
+                { "id": "B1_m02_R1_head_f", "label": "f" },
+                { "id": "B1_m02_R1_head_g", "label": "g" },
+                { "id": "B1_m02_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Überschrift d) 'Rückenschule für Büroangestellte' richtet sich direkt an Menschen wie Tarek mit Rückenproblemen durch Schreibtischarbeit. Die anderen Kurse oder Angebote haben keinen gesundheitlichen Fokus auf den Rücken."
+            },
+            {
+              "id": "B1_m02_R1_q5",
+              "type": "matching",
+              "questionText": "5. Frau Aslan wird in zwei Monaten in eine internationale Firma wechseln. Dort wird viel auf Englisch kommuniziert. Sie hat zwar Schulenglisch, möchte aber dringend ihre beruflichen Sprachkenntnisse auffrischen – am liebsten nach Feierabend und von zu Hause aus.",
+              "matchingSources": [
+                { "id": "B1_m02_R1_head_a", "label": "a" },
+                { "id": "B1_m02_R1_head_b", "label": "b" },
+                { "id": "B1_m02_R1_head_c", "label": "c" },
+                { "id": "B1_m02_R1_head_d", "label": "d" },
+                { "id": "B1_m02_R1_head_e", "label": "e" },
+                { "id": "B1_m02_R1_head_f", "label": "f" },
+                { "id": "B1_m02_R1_head_g", "label": "g" },
+                { "id": "B1_m02_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Überschrift g) beschreibt genau ein Online-Seminar 'Englisch im Beruf' für Berufstätige mit Grundkenntnissen am Abend. Das passt exakt zu Frau Aslans Wunsch nach beruflichem Englisch von zu Hause aus. Anzeigen c), f) und h) bleiben als Distraktoren übrig."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den Zeitungsartikel. Was ist richtig? Kreuzen Sie an: a, b oder c.",
+          "instructionsTranslation": "Read the newspaper article. What is correct? Mark: a, b, or c.",
+          "texts": [
+            {
+              "id": "B1_m02_R2_article",
+              "type": "article",
+              "content": "Zurück ins Büro? Warum viele Firmen vom reinen Homeoffice abrücken\n\nNoch vor wenigen Jahren galt das Homeoffice als Modell der Zukunft. Unternehmen hofften auf zufriedenere Mitarbeiter, geringere Mietkosten und eine bessere Vereinbarkeit von Familie und Beruf. Eine aktuelle Auswertung des Instituts für Arbeitsforschung in Nürnberg zeigt nun jedoch: Rund zwei Drittel der großen deutschen Firmen haben in den letzten zwölf Monaten ihre Regeln wieder verschärft. Mitarbeiter sollen mindestens drei Tage pro Woche im Büro sein – manche Unternehmen verlangen sogar vier.\n\nDie Gründe sind vielfältig. Vor allem Führungskräfte berichten, dass die Zusammenarbeit im Team leidet, wenn sich die Kollegen nur noch über Video-Calls sehen. Kreative Projekte entstünden seltener, kurze Absprachen in der Kaffeeküche fielen weg. 'Ein Großteil der Ideen, die später wirklich Geld bringen, entsteht eben nicht in einer Besprechung, sondern auf dem Flur', erklärt Daniela Brenner, Personalchefin eines Maschinenbauunternehmens aus Stuttgart.\n\nGleichzeitig spüren viele Beschäftigte, dass sich die Trennung zwischen Arbeit und Privatleben zu Hause oft verwischt. Wer morgens am Küchentisch anfängt, macht abends oft dort weiter. Pausen werden seltener eingelegt, und auch die Bewegung kommt zu kurz. Eine Umfrage unter 1.200 Beschäftigten ergab, dass sich jeder Dritte nach reinem Homeoffice sozial isoliert fühlt.\n\nExperten warnen jedoch davor, das Pendel jetzt vollständig zurückzudrehen. Wer seinen Mitarbeitern gar keine Flexibilität mehr lasse, riskiere Kündigungen – gerade gut ausgebildete Fachkräfte erwarten heute die Möglichkeit, zumindest an ein oder zwei Tagen von zu Hause zu arbeiten. Die Lösung liegt also in der Mitte. 'Hybrid ist kein Kompromiss, sondern ein eigenes Modell', sagt Arbeitspsychologe Thomas Klemm. Entscheidend sei, klare Regeln aufzustellen: feste Tage im Büro, gemeinsame Kernzeiten und technische Lösungen, die Zusammenarbeit erleichtern. Nur so gelinge es, die Vorteile beider Welten zu verbinden und Nachteile zu vermeiden.",
+              "source": "Süddeutsche Wochenschau, April 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "B1_m02_R2_q1",
+              "type": "mcq",
+              "questionText": "Was ist das zentrale Ergebnis der Nürnberger Auswertung?",
+              "relatedTextId": "B1_m02_R2_article",
+              "options": [
+                "a) Immer mehr Firmen verbieten das Homeoffice komplett.",
+                "b) Die meisten großen Firmen verlangen wieder mehr Präsenz im Büro.",
+                "c) Die Zahl der Homeoffice-Tage ist im letzten Jahr gestiegen."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Im Text steht: 'Rund zwei Drittel der großen deutschen Firmen haben in den letzten zwölf Monaten ihre Regeln wieder verschärft. Mitarbeiter sollen mindestens drei Tage pro Woche im Büro sein.' Das entspricht genau Option b. 'Komplett verbieten' (a) steht nirgends; die Homeoffice-Zeit ist gesunken, nicht gestiegen (c)."
+            },
+            {
+              "id": "B1_m02_R2_q2",
+              "type": "mcq",
+              "questionText": "Welchen Nachteil nennen Führungskräfte am reinen Homeoffice?",
+              "relatedTextId": "B1_m02_R2_article",
+              "options": [
+                "a) Mitarbeiter arbeiten langsamer als im Büro.",
+                "b) Die Stromkosten zu Hause sind zu hoch.",
+                "c) Spontane Absprachen und kreative Ideen gehen verloren."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text zitiert Frau Brenner: 'Ein Großteil der Ideen ... entsteht eben nicht in einer Besprechung, sondern auf dem Flur.' Kurze Absprachen in der Kaffeeküche fielen weg. Das entspricht Option c. Option a und b werden im Text nicht angesprochen."
+            },
+            {
+              "id": "B1_m02_R2_q3",
+              "type": "mcq",
+              "questionText": "Was berichtet die Umfrage über Beschäftigte im reinen Homeoffice?",
+              "relatedTextId": "B1_m02_R2_article",
+              "options": [
+                "a) Viele vermischen Arbeit und Freizeit und fühlen sich isoliert.",
+                "b) Die meisten wünschen sich eine höhere Bezahlung.",
+                "c) Nur wenige machen mehr Pausen als im Büro."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Text schreibt: 'Wer morgens am Küchentisch anfängt, macht abends oft dort weiter' und 'jeder Dritte fühlt sich nach reinem Homeoffice sozial isoliert.' Das ist Option a. Bezahlung (b) wird nicht genannt; zu Pausen heißt es, sie würden seltener eingelegt – nicht mehr gemacht."
+            },
+            {
+              "id": "B1_m02_R2_q4",
+              "type": "mcq",
+              "questionText": "Wovor warnen die Experten?",
+              "relatedTextId": "B1_m02_R2_article",
+              "options": [
+                "a) davor, jede Flexibilität zu streichen, weil sonst Fachkräfte kündigen",
+                "b) davor, die Mitarbeiter zu stark zu kontrollieren",
+                "c) davor, die Gehälter im Homeoffice zu senken"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Im Text steht wörtlich: 'Wer seinen Mitarbeitern gar keine Flexibilität mehr lasse, riskiere Kündigungen – gerade gut ausgebildete Fachkräfte erwarten heute die Möglichkeit, zumindest an ein oder zwei Tagen von zu Hause zu arbeiten.' Das ist Option a. Kontrolle und Gehaltssenkung werden nicht genannt."
+            },
+            {
+              "id": "B1_m02_R2_q5",
+              "type": "mcq",
+              "questionText": "Was empfiehlt der Arbeitspsychologe Thomas Klemm?",
+              "relatedTextId": "B1_m02_R2_article",
+              "options": [
+                "a) möglichst schnell wieder zum klassischen Büroalltag zurückzukehren",
+                "b) feste Bürotage und gemeinsame Kernzeiten festzulegen",
+                "c) jedem Mitarbeiter selbst zu überlassen, wann er ins Büro kommt"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Herr Klemm wird zitiert: 'Entscheidend sei, klare Regeln aufzustellen: feste Tage im Büro, gemeinsame Kernzeiten und technische Lösungen.' Das ist Option b. Ein vollständiger Rückzug (a) und völlige Freiheit (c) widersprechen seiner Aussage, dass Hybrid kein Kompromiss, sondern ein eigenes Modell mit Regeln sei."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie lesen zehn Situationen (1–10) und zwölf kurze Anzeigen (a–l). Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es genau eine passende Anzeige. Zwei Anzeigen bleiben übrig. Wenn keine Anzeige passt, schreiben Sie 'x'.",
+          "instructionsTranslation": "You read ten situations (1–10) and twelve short advertisements (a–l). Which advertisement matches which situation? For each situation there is exactly one matching advertisement. Two advertisements remain unused. If no advertisement fits, write 'x'.",
+          "texts": [
+            { "id": "B1_m02_R3_ad_a", "type": "ad", "content": "a) STELLE ALS TEAMASSISTENZ – mittelständisches IT-Unternehmen in Hamburg sucht engagierte Teamassistenz (Vollzeit, ab sofort). Erfahrung mit MS Office, gute Deutsch- und Englischkenntnisse. Bewerbung: karriere@it-hamburg.de" },
+            { "id": "B1_m02_R3_ad_b", "type": "ad", "content": "b) Ausbildung zur Pflegefachkraft – staatlich anerkannter Pflegedienst bietet 3-jährige Ausbildung mit Ausbildungsvergütung ab 1.100 €/Monat. Start jederzeit möglich. Tel. 040 221 80 50" },
+            { "id": "B1_m02_R3_ad_c", "type": "ad", "content": "c) Minijob: Frühaufsteher gesucht – Bäckerei in der Altstadt sucht Verkaufshilfe von 5:30 bis 8:30 Uhr, Mo–Fr. 538 €/Monat. Kontakt: Frau Seidel, 0157 334 22 78" },
+            { "id": "B1_m02_R3_ad_d", "type": "ad", "content": "d) Weiterbildung 'Projektmanagement (IHK)' – 8 Wochenenden, insgesamt 240 Stunden. Zertifikatsabschluss. Nächster Start: Mai, Kursgebühr 2.300 € (Bildungsgutschein möglich). www.ihk-weiterbildung.de" },
+            { "id": "B1_m02_R3_ad_e", "type": "ad", "content": "e) Babysitter gesucht – Familie mit zwei Kindern (4 und 7) sucht zuverlässige Betreuung 2x pro Woche nach der Schule (15–18 Uhr). 13 €/Stunde. kontakt@familie-richter.de" },
+            { "id": "B1_m02_R3_ad_f", "type": "ad", "content": "f) Büro-Coworking Space 'WerkHalle' – flexible Arbeitsplätze im Zentrum, ab 180 €/Monat inkl. Kaffee, Drucker, Meetingraum. Probetag kostenlos. www.werkhalle.de" },
+            { "id": "B1_m02_R3_ad_g", "type": "ad", "content": "g) Bewerbungsfoto vom Profi – Termin innerhalb einer Woche. Retusche inklusive, 5 digitale Fotos in hoher Qualität, 79 €. Studio Lichtblick, Termin online buchen." },
+            { "id": "B1_m02_R3_ad_h", "type": "ad", "content": "h) Berufliche Neuorientierung mit 40+ – Coaching in sechs Einzelsitzungen, 90 Min. je Sitzung, 120 €/Sitzung. Erste Sitzung kostenlos. Zertifizierte Beraterin. info@neue-wege-coaching.de" },
+            { "id": "B1_m02_R3_ad_i", "type": "ad", "content": "i) Duales Studium 'Wirtschaftsinformatik' – Praxispartner in Stuttgart sucht Studienanfänger für Herbst. Monatliche Vergütung, Studiengebühren werden übernommen. bewerbung@dualcampus.de" },
+            { "id": "B1_m02_R3_ad_j", "type": "ad", "content": "j) Honorarkraft 'Deutsch als Fremdsprache' – Volkshochschule sucht erfahrene Lehrkraft für B1-Kurse, abends 2x pro Woche. 35 €/Stunde. bewerbung@vhs-mitte.de" },
+            { "id": "B1_m02_R3_ad_k", "type": "ad", "content": "k) Praktikum im Marketing – junge Agentur bietet Praktikantenstelle für 3 Monate, 600 €/Monat, flexible Startzeit. Gute Englischkenntnisse erwünscht. praktika@mediavie.de" },
+            { "id": "B1_m02_R3_ad_l", "type": "ad", "content": "l) Steuerberater Herr Klausen – Beratung für Selbstständige und Kleinunternehmer. Erstgespräch 50 €. Termine auch abends. Telefon 0211 440 77 20" }
+          ],
+          "questions": [
+            {
+              "id": "B1_m02_R3_q1",
+              "type": "matching",
+              "questionText": "1. Lena hat gerade ihr Abitur gemacht und möchte unbedingt im IT-Bereich arbeiten, aber parallel auch studieren. Sie braucht eine Lösung, bei der beides kombiniert ist.",
+              "matchingSources": [
+                { "id": "B1_m02_R3_ad_a", "label": "a" }, { "id": "B1_m02_R3_ad_b", "label": "b" },
+                { "id": "B1_m02_R3_ad_c", "label": "c" }, { "id": "B1_m02_R3_ad_d", "label": "d" },
+                { "id": "B1_m02_R3_ad_e", "label": "e" }, { "id": "B1_m02_R3_ad_f", "label": "f" },
+                { "id": "B1_m02_R3_ad_g", "label": "g" }, { "id": "B1_m02_R3_ad_h", "label": "h" },
+                { "id": "B1_m02_R3_ad_i", "label": "i" }, { "id": "B1_m02_R3_ad_j", "label": "j" },
+                { "id": "B1_m02_R3_ad_k", "label": "k" }, { "id": "B1_m02_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "i",
+              "explanation": "Anzeige i) 'Duales Studium Wirtschaftsinformatik' verbindet Studium und Arbeit in einer Firma – genau das, was Lena braucht. Keine andere Anzeige kombiniert beides."
+            },
+            {
+              "id": "B1_m02_R3_q2",
+              "type": "matching",
+              "questionText": "2. Herr Walker ist 47 Jahre alt, als IT-Entwickler seit vielen Jahren unglücklich und überlegt, beruflich noch einmal etwas völlig Neues zu beginnen. Er sucht eine persönliche Begleitung, die ihm bei der Neuorientierung hilft.",
+              "matchingSources": [
+                { "id": "B1_m02_R3_ad_a", "label": "a" }, { "id": "B1_m02_R3_ad_b", "label": "b" },
+                { "id": "B1_m02_R3_ad_c", "label": "c" }, { "id": "B1_m02_R3_ad_d", "label": "d" },
+                { "id": "B1_m02_R3_ad_e", "label": "e" }, { "id": "B1_m02_R3_ad_f", "label": "f" },
+                { "id": "B1_m02_R3_ad_g", "label": "g" }, { "id": "B1_m02_R3_ad_h", "label": "h" },
+                { "id": "B1_m02_R3_ad_i", "label": "i" }, { "id": "B1_m02_R3_ad_j", "label": "j" },
+                { "id": "B1_m02_R3_ad_k", "label": "k" }, { "id": "B1_m02_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "h",
+              "explanation": "Anzeige h) 'Berufliche Neuorientierung mit 40+' bietet genau ein Coaching in Einzelsitzungen an – passend zu Herrn Walkers Wunsch nach persönlicher Begleitung bei beruflicher Neuorientierung."
+            },
+            {
+              "id": "B1_m02_R3_q3",
+              "type": "matching",
+              "questionText": "3. Studentin Marie sucht einen Nebenjob, den sie vor ihren Vorlesungen am frühen Morgen ausüben kann. Am Nachmittag hat sie keine Zeit.",
+              "matchingSources": [
+                { "id": "B1_m02_R3_ad_a", "label": "a" }, { "id": "B1_m02_R3_ad_b", "label": "b" },
+                { "id": "B1_m02_R3_ad_c", "label": "c" }, { "id": "B1_m02_R3_ad_d", "label": "d" },
+                { "id": "B1_m02_R3_ad_e", "label": "e" }, { "id": "B1_m02_R3_ad_f", "label": "f" },
+                { "id": "B1_m02_R3_ad_g", "label": "g" }, { "id": "B1_m02_R3_ad_h", "label": "h" },
+                { "id": "B1_m02_R3_ad_i", "label": "i" }, { "id": "B1_m02_R3_ad_j", "label": "j" },
+                { "id": "B1_m02_R3_ad_k", "label": "k" }, { "id": "B1_m02_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Anzeige c) sucht Minijobber in der Bäckerei von 5:30 bis 8:30 Uhr – genau die frühen Morgenstunden, in denen Marie arbeiten könnte. Anzeige e) (Babysitter nach der Schule) würde den Nachmittag verlangen und fällt damit weg."
+            },
+            {
+              "id": "B1_m02_R3_q4",
+              "type": "matching",
+              "questionText": "4. Herr Balaban führt seit einem Jahr ein kleines Café und möchte vor seiner ersten Steuererklärung mit jemandem sprechen, der sich mit Selbstständigen auskennt.",
+              "matchingSources": [
+                { "id": "B1_m02_R3_ad_a", "label": "a" }, { "id": "B1_m02_R3_ad_b", "label": "b" },
+                { "id": "B1_m02_R3_ad_c", "label": "c" }, { "id": "B1_m02_R3_ad_d", "label": "d" },
+                { "id": "B1_m02_R3_ad_e", "label": "e" }, { "id": "B1_m02_R3_ad_f", "label": "f" },
+                { "id": "B1_m02_R3_ad_g", "label": "g" }, { "id": "B1_m02_R3_ad_h", "label": "h" },
+                { "id": "B1_m02_R3_ad_i", "label": "i" }, { "id": "B1_m02_R3_ad_j", "label": "j" },
+                { "id": "B1_m02_R3_ad_k", "label": "k" }, { "id": "B1_m02_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "l",
+              "explanation": "Anzeige l) Steuerberater Klausen berät speziell Selbstständige und Kleinunternehmer – genau das, was Herr Balaban für seine erste Steuererklärung braucht."
+            },
+            {
+              "id": "B1_m02_R3_q5",
+              "type": "matching",
+              "questionText": "5. Anja ist ausgebildete Deutschlehrerin und möchte abends nebenberuflich unterrichten, um zusätzliches Geld zu verdienen. Sie unterrichtet seit Jahren B1-Niveau.",
+              "matchingSources": [
+                { "id": "B1_m02_R3_ad_a", "label": "a" }, { "id": "B1_m02_R3_ad_b", "label": "b" },
+                { "id": "B1_m02_R3_ad_c", "label": "c" }, { "id": "B1_m02_R3_ad_d", "label": "d" },
+                { "id": "B1_m02_R3_ad_e", "label": "e" }, { "id": "B1_m02_R3_ad_f", "label": "f" },
+                { "id": "B1_m02_R3_ad_g", "label": "g" }, { "id": "B1_m02_R3_ad_h", "label": "h" },
+                { "id": "B1_m02_R3_ad_i", "label": "i" }, { "id": "B1_m02_R3_ad_j", "label": "j" },
+                { "id": "B1_m02_R3_ad_k", "label": "k" }, { "id": "B1_m02_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "j",
+              "explanation": "Anzeige j) sucht eine Honorarkraft für DaF/B1-Kurse am Abend – ideal für Anja als erfahrene Deutschlehrerin mit Wunsch nach Nebenjob am Abend."
+            },
+            {
+              "id": "B1_m02_R3_q6",
+              "type": "matching",
+              "questionText": "6. Herr Demir ist seit Jahren im Büro tätig und möchte seine Karriere voranbringen. Er sucht eine berufsbegleitende Weiterbildung mit anerkanntem Abschluss im Projektmanagement.",
+              "matchingSources": [
+                { "id": "B1_m02_R3_ad_a", "label": "a" }, { "id": "B1_m02_R3_ad_b", "label": "b" },
+                { "id": "B1_m02_R3_ad_c", "label": "c" }, { "id": "B1_m02_R3_ad_d", "label": "d" },
+                { "id": "B1_m02_R3_ad_e", "label": "e" }, { "id": "B1_m02_R3_ad_f", "label": "f" },
+                { "id": "B1_m02_R3_ad_g", "label": "g" }, { "id": "B1_m02_R3_ad_h", "label": "h" },
+                { "id": "B1_m02_R3_ad_i", "label": "i" }, { "id": "B1_m02_R3_ad_j", "label": "j" },
+                { "id": "B1_m02_R3_ad_k", "label": "k" }, { "id": "B1_m02_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Anzeige d) 'Weiterbildung Projektmanagement (IHK)' an 8 Wochenenden mit Zertifikat ist die passende berufsbegleitende Option für Herrn Demir."
+            },
+            {
+              "id": "B1_m02_R3_q7",
+              "type": "matching",
+              "questionText": "7. Lisa bewirbt sich in den kommenden Wochen auf mehrere Stellen und möchte ihre alten Bewerbungsbilder durch professionelle Aufnahmen ersetzen.",
+              "matchingSources": [
+                { "id": "B1_m02_R3_ad_a", "label": "a" }, { "id": "B1_m02_R3_ad_b", "label": "b" },
+                { "id": "B1_m02_R3_ad_c", "label": "c" }, { "id": "B1_m02_R3_ad_d", "label": "d" },
+                { "id": "B1_m02_R3_ad_e", "label": "e" }, { "id": "B1_m02_R3_ad_f", "label": "f" },
+                { "id": "B1_m02_R3_ad_g", "label": "g" }, { "id": "B1_m02_R3_ad_h", "label": "h" },
+                { "id": "B1_m02_R3_ad_i", "label": "i" }, { "id": "B1_m02_R3_ad_j", "label": "j" },
+                { "id": "B1_m02_R3_ad_k", "label": "k" }, { "id": "B1_m02_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Anzeige g) 'Bewerbungsfoto vom Profi' mit Termin innerhalb einer Woche und mehreren digitalen Aufnahmen passt exakt zu Lisas Bedarf."
+            },
+            {
+              "id": "B1_m02_R3_q8",
+              "type": "matching",
+              "questionText": "8. Patrick hat gerade sein Studium abgeschlossen und möchte erste Berufserfahrung im Marketing sammeln, ist aber noch flexibel, wann er startet.",
+              "matchingSources": [
+                { "id": "B1_m02_R3_ad_a", "label": "a" }, { "id": "B1_m02_R3_ad_b", "label": "b" },
+                { "id": "B1_m02_R3_ad_c", "label": "c" }, { "id": "B1_m02_R3_ad_d", "label": "d" },
+                { "id": "B1_m02_R3_ad_e", "label": "e" }, { "id": "B1_m02_R3_ad_f", "label": "f" },
+                { "id": "B1_m02_R3_ad_g", "label": "g" }, { "id": "B1_m02_R3_ad_h", "label": "h" },
+                { "id": "B1_m02_R3_ad_i", "label": "i" }, { "id": "B1_m02_R3_ad_j", "label": "j" },
+                { "id": "B1_m02_R3_ad_k", "label": "k" }, { "id": "B1_m02_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "k",
+              "explanation": "Anzeige k) ist ein Praktikum im Marketing, 3 Monate, flexibler Start – genau der Einstieg, den Patrick sucht."
+            },
+            {
+              "id": "B1_m02_R3_q9",
+              "type": "matching",
+              "questionText": "9. Frau Bergmann arbeitet selbstständig als Grafikerin. Zu Hause wird sie ständig abgelenkt und sucht einen bezahlbaren Arbeitsplatz außerhalb der eigenen Wohnung, an dem sie flexibel arbeiten kann.",
+              "matchingSources": [
+                { "id": "B1_m02_R3_ad_a", "label": "a" }, { "id": "B1_m02_R3_ad_b", "label": "b" },
+                { "id": "B1_m02_R3_ad_c", "label": "c" }, { "id": "B1_m02_R3_ad_d", "label": "d" },
+                { "id": "B1_m02_R3_ad_e", "label": "e" }, { "id": "B1_m02_R3_ad_f", "label": "f" },
+                { "id": "B1_m02_R3_ad_g", "label": "g" }, { "id": "B1_m02_R3_ad_h", "label": "h" },
+                { "id": "B1_m02_R3_ad_i", "label": "i" }, { "id": "B1_m02_R3_ad_j", "label": "j" },
+                { "id": "B1_m02_R3_ad_k", "label": "k" }, { "id": "B1_m02_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Anzeige f) 'Büro-Coworking Space WerkHalle' bietet flexible Arbeitsplätze ab 180 €/Monat – ideal für Frau Bergmann, die außerhalb der Wohnung arbeiten möchte."
+            },
+            {
+              "id": "B1_m02_R3_q10",
+              "type": "matching",
+              "questionText": "10. Ahmed hat eine Ausbildung als Krankenpfleger in seinem Heimatland gemacht, ist gerade in Deutschland angekommen und sucht hier eine Ausbildung, damit sein Abschluss anerkannt wird.",
+              "matchingSources": [
+                { "id": "B1_m02_R3_ad_a", "label": "a" }, { "id": "B1_m02_R3_ad_b", "label": "b" },
+                { "id": "B1_m02_R3_ad_c", "label": "c" }, { "id": "B1_m02_R3_ad_d", "label": "d" },
+                { "id": "B1_m02_R3_ad_e", "label": "e" }, { "id": "B1_m02_R3_ad_f", "label": "f" },
+                { "id": "B1_m02_R3_ad_g", "label": "g" }, { "id": "B1_m02_R3_ad_h", "label": "h" },
+                { "id": "B1_m02_R3_ad_i", "label": "i" }, { "id": "B1_m02_R3_ad_j", "label": "j" },
+                { "id": "B1_m02_R3_ad_k", "label": "k" }, { "id": "B1_m02_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Anzeige b) bietet eine 3-jährige staatlich anerkannte Ausbildung zur Pflegefachkraft mit Vergütung an – genau der Weg, den Ahmed braucht. Anzeige a) (Teamassistenz) und e) (Babysitter) bleiben als Distraktoren übrig."
+            }
+          ]
+        }
+      ]
+    },
+    "sprachbausteine": {
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie den folgenden Text und entscheiden Sie, welches Wort (a, b oder c) in die Lücke passt. Es gibt jeweils nur eine richtige Lösung.",
+          "text": "Lieber Jonas,\n\nwie geht es dir? Ich wollte dir schon lange schreiben, aber in den letzten Wochen war richtig viel los. Seit zwei Monaten arbeite ich jetzt __(1)__ einer kleinen Ingenieurfirma im Süden der Stadt, und ich bin wirklich erleichtert, __(2)__ ich nach der langen Bewerbungsphase endlich angekommen bin. Mein Chef, __(3)__ mich damals eingestellt hat, ist ein ruhiger und sehr fairer Mensch. __(4)__ der Anfang nicht einfach war, fühle ich mich heute schon wie ein Teil des Teams.\n\nLetzte Woche haben wir einen großen Auftrag erfolgreich abgeschlossen. Die Präsentation __(5)__ am Donnerstag sogar vom Geschäftsführer selbst gehalten, was uns alle stolz gemacht hat. Wenn ich schon mehr Routine __(6)__, würde ich mich wohl selbst um eigene Kunden bewerben. Aber das dauert wohl noch eine Weile.\n\nAm Wochenende treffe ich mich oft mit Kolleginnen __(7)__ Sport – meistens Laufen im Park. Wir __(8)__ am Samstag zusammen ins Fitnessstudio gegangen, und danach haben wir noch lange geplaudert. Übrigens hoffe ich sehr, dass du mich bald mal besuchen kommst – ich würde mich riesig __(9)__ freuen! Hast du eigentlich schon gehört, dass Tim und Nina geheiratet haben? Nina hat mir erzählt, sie hätten __(10)__ schönsten Tag ihres Lebens gehabt.\n\nIch freue mich auf deine Nachricht.\n\nViele Grüße,\nLina",
+          "questions": [
+            {
+              "blankNumber": 1,
+              "type": "mcq",
+              "options": ["a) in", "b) an", "c) bei"],
+              "correctAnswer": "c",
+              "explanation": "Bei Arbeitgebern/Firmen verwendet man 'bei' + Dativ: 'bei einer Firma arbeiten'. 'in' ist möglich bei Stadt oder Gebäude, aber nicht bei Firmennamen. 'an' gehört zu Institutionen wie 'an der Universität'."
+            },
+            {
+              "blankNumber": 2,
+              "type": "mcq",
+              "options": ["a) weil", "b) dass", "c) wenn"],
+              "correctAnswer": "b",
+              "explanation": "Nach 'erleichtert sein' folgt ein dass-Satz, der den Inhalt der Erleichterung angibt. 'weil' gäbe einen Grund an (hier unpassend, da die Aussage keine Begründung ist). 'wenn' leitet eine Bedingung ein und passt nicht."
+            },
+            {
+              "blankNumber": 3,
+              "type": "mcq",
+              "options": ["a) der", "b) den", "c) dem"],
+              "correctAnswer": "a",
+              "explanation": "Relativsatz: 'Mein Chef, der mich eingestellt hat'. Das Relativpronomen bezieht sich auf 'Chef' (Maskulinum) und ist Subjekt im Relativsatz – also Nominativ 'der'. 'den' wäre Akkusativ, 'dem' Dativ."
+            },
+            {
+              "blankNumber": 4,
+              "type": "mcq",
+              "options": ["a) Obwohl", "b) Weil", "c) Trotzdem"],
+              "correctAnswer": "a",
+              "explanation": "Gegensatz zwischen 'nicht einfach' und 'fühle mich wie ein Teil des Teams' → konzessiver Nebensatz mit 'obwohl'. 'weil' gäbe einen Grund an (unlogisch). 'trotzdem' ist ein Adverb (Hauptsatzstellung, Verb auf Position 2), aber hier steht das Verb am Ende – also muss es eine Subjunktion sein."
+            },
+            {
+              "blankNumber": 5,
+              "type": "mcq",
+              "options": ["a) hat", "b) wurde", "c) war"],
+              "correctAnswer": "b",
+              "explanation": "Vorgangspassiv Präteritum: 'Die Präsentation wurde gehalten.' 'hat' wäre Aktiv ('hat gehalten'), aber das Subjekt 'Präsentation' führt die Handlung nicht aus. 'war gehalten' wäre Zustandspassiv – grammatisch hier nicht korrekt."
+            },
+            {
+              "blankNumber": 6,
+              "type": "mcq",
+              "options": ["a) habe", "b) hätte", "c) hatte"],
+              "correctAnswer": "b",
+              "explanation": "Irreale Bedingung im Konjunktiv II: 'Wenn ich mehr Routine hätte, würde ich ...' Der Hauptsatz mit 'würde' verlangt im Wenn-Satz ebenfalls Konjunktiv II ('hätte'). 'habe' (Indikativ) und 'hatte' (Präteritum) passen nicht."
+            },
+            {
+              "blankNumber": 7,
+              "type": "mcq",
+              "options": ["a) zu", "b) auf", "c) zum"],
+              "correctAnswer": "c",
+              "explanation": "Feste Wendung: 'zum Sport gehen' (zu + dem = zum, Dativ). 'zu' allein braucht immer einen Artikel. 'auf Sport gehen' gibt es im Standarddeutsch nicht."
+            },
+            {
+              "blankNumber": 8,
+              "type": "mcq",
+              "options": ["a) haben", "b) sind", "c) waren"],
+              "correctAnswer": "b",
+              "explanation": "Perfekt von 'gehen' mit Hilfsverb 'sein': 'Wir sind ... gegangen.' Bewegungsverben nehmen 'sein'. 'haben' ist falsch. 'waren' wäre Präteritum, passt aber nicht zum Partizip 'gegangen'."
+            },
+            {
+              "blankNumber": 9,
+              "type": "mcq",
+              "options": ["a) mich", "b) mir", "c) für mich"],
+              "correctAnswer": "a",
+              "explanation": "'sich freuen' ist reflexiv mit Akkusativ: 'Ich freue mich.' 'mir' (Dativ) gehört zu anderen Verben (sich etwas wünschen). 'für mich' ist kein Reflexivpronomen."
+            },
+            {
+              "blankNumber": 10,
+              "type": "mcq",
+              "options": ["a) der", "b) dem", "c) den"],
+              "correctAnswer": "c",
+              "explanation": "'den schönsten Tag' ist Akkusativobjekt von 'haben' (Maskulinum): 'den'. 'der' wäre Nominativ, 'dem' Dativ. Die starke Adjektivendung '-sten' bestätigt Akkusativ Maskulinum."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Text. Welches Wort aus der Liste a–o passt in die Lücken? Jedes Wort passt nur einmal. Fünf Wörter bleiben übrig.",
+          "text": "Liebe Nadja,\n\nvielen __(11)__ für deine letzte E-Mail! Ich hatte nicht damit gerechnet, so schnell etwas von dir zu hören. Wie du weißt, habe ich vor einem halben Jahr die Stelle gewechselt. Der Anfang war ziemlich anstrengend, aber __(12)__ habe ich mich gut eingearbeitet.\n\nMein neuer Chef ist sehr freundlich, nur die Deadlines sind manchmal schwer einzuhalten. Wir haben im letzten Monat intensiv darüber __(13)__ und uns auf eine neue Planung geeinigt. Seitdem __(14)__ es deutlich besser. Ich habe weniger Stress und kann meine Aufgaben pünktlich erledigen.\n\nAußerdem bin ich jetzt __(15)__ ein neues Team zuständig, das direkt mit Kunden aus Österreich arbeitet. __(16)__ der letzten Woche habe ich zum ersten Mal allein ein Kundengespräch geführt – es hat gut geklappt, und ich war am Ende richtig stolz auf mich.\n\nNur eines nervt mich gerade: Die Firma hat die Gehälter dieses Jahr leider nicht __(17)__. Ich hatte fest __(18)__ eine kleine Erhöhung gehofft, weil ich viel mehr Verantwortung übernommen habe. Aber der Chef meint, nächstes Jahr sehe die Lage __(19)__ besser aus.\n\nMelde dich bald, ich vermisse dich! __(20)__ können wir uns ja im Frühling mal ein Wochenende in Prag gönnen.\n\nLiebe Grüße,\nSimon",
+          "questions": [
+            {
+              "blankNumber": 11,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) läuft", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) hoffentlich", "j) Vielleicht",
+                "k) besten", "l) entschieden", "m) bleibt", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die feste Briefformel 'Vielen Dank für deine E-Mail' verlangt 'Dank' nach 'vielen'. Distraktor k) 'besten' passt grammatisch ('besten Dank' wäre möglich), aber der Text liefert 'vielen', das direkt zu 'Dank' führt."
+            },
+            {
+              "blankNumber": 12,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) läuft", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) hoffentlich", "j) Vielleicht",
+                "k) besten", "l) entschieden", "m) bleibt", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "b",
+              "explanation": "'Der Anfang war anstrengend, aber inzwischen habe ich mich gut eingearbeitet.' 'inzwischen' bedeutet 'mittlerweile' – ein zeitlicher Gegensatz zum Anfang. 'damit' (Zweck) oder 'hoffentlich' (Wunsch) passen hier nicht."
+            },
+            {
+              "blankNumber": 13,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) läuft", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) hoffentlich", "j) Vielleicht",
+                "k) besten", "l) entschieden", "m) bleibt", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "c",
+              "explanation": "'Wir haben intensiv darüber gesprochen' – Verb+Präposition 'sprechen über'. Das Partizip II 'gesprochen' schließt das Perfekt ab. 'entschieden' würde 'über etwas entscheiden' erlauben, ist aber inhaltlich schwächer: Gespräch führt zu einer Einigung, nicht stumme Entscheidung."
+            },
+            {
+              "blankNumber": 14,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) läuft", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) hoffentlich", "j) Vielleicht",
+                "k) besten", "l) entschieden", "m) bleibt", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "d",
+              "explanation": "'Seitdem läuft es deutlich besser' – 'es läuft' ist eine idiomatische Wendung für 'es funktioniert gut, es klappt'. Distraktor m) 'bleibt' passt semantisch nicht (beschreibt keine Verbesserung)."
+            },
+            {
+              "blankNumber": 15,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) läuft", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) hoffentlich", "j) Vielleicht",
+                "k) besten", "l) entschieden", "m) bleibt", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "e",
+              "explanation": "Feste Kombination 'zuständig sein für + Akkusativ'. 'für' ist obligatorisch. 'auf' oder 'durch' bilden mit 'zuständig' keine Struktur."
+            },
+            {
+              "blankNumber": 16,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) läuft", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) hoffentlich", "j) Vielleicht",
+                "k) besten", "l) entschieden", "m) bleibt", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "f",
+              "explanation": "Zeitangabe am Satzanfang: 'In der letzten Woche ...'. 'in' + Dativ mit Zeitspanne (während). Die Großschreibung ('In') zeigt den Satzanfang."
+            },
+            {
+              "blankNumber": 17,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) läuft", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) hoffentlich", "j) Vielleicht",
+                "k) besten", "l) entschieden", "m) bleibt", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "g",
+              "explanation": "'Gehälter erhöhen' ist die Standardkollokation (increase salaries). Partizip II 'erhöht' vervollständigt das Perfekt. 'entschieden' wäre grammatisch möglich ('hat ... entschieden'), aber inhaltlich unpassend."
+            },
+            {
+              "blankNumber": 18,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) läuft", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) hoffentlich", "j) Vielleicht",
+                "k) besten", "l) entschieden", "m) bleibt", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "h",
+              "explanation": "Verb+Präposition: 'hoffen auf + Akkusativ' ('auf eine Erhöhung hoffen'). 'für' würde zu anderen Verben passen ('sich bedanken für'). 'durch' ist hier nicht idiomatisch."
+            },
+            {
+              "blankNumber": 19,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) läuft", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) hoffentlich", "j) Vielleicht",
+                "k) besten", "l) entschieden", "m) bleibt", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "i",
+              "explanation": "'Nächstes Jahr sehe die Lage hoffentlich besser aus' – das Adverb 'hoffentlich' drückt Hoffnung aus, passt zum Kontext, dass der Chef die Zukunft positiv darstellt. 'Vielleicht' wäre semantisch ähnlich, aber großgeschrieben und steht meist am Satzanfang; im Satzinneren funktioniert 'hoffentlich' besser."
+            },
+            {
+              "blankNumber": 20,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) läuft", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) hoffentlich", "j) Vielleicht",
+                "k) besten", "l) entschieden", "m) bleibt", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "j",
+              "explanation": "Satzanfang mit Modaladverb: 'Vielleicht können wir uns ...' Die Großschreibung zeigt Satzanfang. Übrig bleiben k), l), m), n), o) als Distraktoren."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 30,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "letter",
+          "instructions": "Sie arbeiten seit einem halben Jahr in einer neuen Firma. Ihr Chef hat Ihnen vor Kurzem eine berufliche Weiterbildung vorgeschlagen. Schreiben Sie eine E-Mail an Ihren Chef, Herrn Hoffmann. Gehen Sie auf alle vier Punkte unten ein. Achten Sie auf eine passende Anrede und einen passenden Gruß. Schreiben Sie ca. 150 Wörter.",
+          "instructionsTranslation": "You have been working at a new company for six months. Your boss recently suggested a professional training course. Write an email to your boss, Mr. Hoffmann. Address all four points below. Pay attention to appropriate greeting and closing. Write approximately 150 words.",
+          "prompt": "Situation: Ihr Chef, Herr Hoffmann, hat Ihnen vorgeschlagen, an einer dreitägigen Weiterbildung zum Thema Projektmanagement teilzunehmen. Sie finden das Angebot sehr interessant und möchten gerne mitmachen.\n\nSchreiben Sie eine E-Mail an Herrn Hoffmann. Gehen Sie auf die folgenden vier Punkte ein:\n\n- Dank: Bedanken Sie sich für das Angebot.\n- Begründung: Erklären Sie, warum die Weiterbildung für Ihre Arbeit sinnvoll ist.\n- Frage: Fragen Sie, ob Sie während der drei Tage von Ihren Aufgaben freigestellt werden.\n- Organisation: Schlagen Sie vor, wie Ihre Vertretung während Ihrer Abwesenheit geregelt werden kann.\n\nVergessen Sie nicht Anrede, Einleitung und Grußformel. Schreiben Sie ca. 150 Wörter.",
+          "promptTranslation": "Situation: Your boss, Mr. Hoffmann, has suggested that you attend a three-day training course on project management. You find the offer very interesting and would like to participate.\n\nWrite an email to Mr. Hoffmann. Address these four points:\n\n- Thanks: Thank him for the offer.\n- Reason: Explain why the training is useful for your work.\n- Question: Ask whether you will be released from your duties during the three days.\n- Organization: Suggest how your replacement can be arranged during your absence.\n\nDon't forget greeting, introduction, and closing. Write approximately 150 words.",
+          "requiredPoints": [
+            "Dank für das Weiterbildungsangebot",
+            "Begründung, warum die Weiterbildung sinnvoll ist",
+            "Frage nach Freistellung während der drei Tage",
+            "Vorschlag zur Vertretung während der Abwesenheit"
+          ],
+          "wordCountMin": 130,
+          "wordCountMax": 170,
+          "sampleAnswer": "Sehr geehrter Herr Hoffmann,\n\nvielen Dank für Ihr Angebot, an der dreitägigen Weiterbildung zum Thema Projektmanagement teilzunehmen. Über Ihren Vorschlag habe ich mich sehr gefreut und möchte die Möglichkeit gerne wahrnehmen.\n\nDa ich in den letzten Monaten immer öfter kleinere Projekte selbstständig betreue, wäre eine strukturierte Einführung in moderne Methoden sehr hilfreich für meine tägliche Arbeit. Ich könnte die neuen Kenntnisse direkt in unserem Team anwenden und würde die Kollegen gern an meinen Erfahrungen teilhaben lassen.\n\nIch hätte allerdings zwei Fragen: Ist es möglich, dass ich während dieser drei Tage komplett von meinen regulären Aufgaben freigestellt werde? Außerdem würde ich gerne mit Ihnen besprechen, wie meine Vertretung geregelt wird. Mein Vorschlag wäre, dass Frau Bruckner meine laufenden Kundenanfragen übernimmt – wir arbeiten ohnehin häufig zusammen.\n\nÜber eine kurze Rückmeldung würde ich mich sehr freuen.\n\nMit freundlichen Grüßen\nAlex Müller",
+          "scoringCriteria": [
+            {
+              "criterion": "I. Inhaltliche Vollständigkeit",
+              "maxPoints": 15,
+              "description": "Alle vier Leitpunkte (Dank, Begründung, Frage zur Freistellung, Vorschlag zur Vertretung) sind klar behandelt. Wird einer dieser Punkte als nicht bearbeitet bewertet (D), erhält der gesamte Text 0 Punkte."
+            },
+            {
+              "criterion": "II. Kommunikative Gestaltung",
+              "maxPoints": 15,
+              "description": "Angemessene formelle Anrede ('Sehr geehrter Herr Hoffmann'), klare Einleitung, Verwendung passender Konnektoren (außerdem, allerdings, da), formelle Grußformel, sinnvolle Absatzstruktur."
+            },
+            {
+              "criterion": "III. Formale Richtigkeit",
+              "maxPoints": 15,
+              "description": "Grammatik, Rechtschreibung und Wortwahl auf B1-Niveau. Verbformen (Perfekt, Konjunktiv II für höfliche Bitten), Satzstellung in Nebensätzen, Kasus nach Präpositionen. Schwerwiegende Grammatikfehler, die das Verständnis blockieren, führen zu D (und damit 0 Punkten für den gesamten Text)."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "introduce",
+          "instructions": "Stellen Sie sich Ihrem Gesprächspartner/Ihrer Gesprächspartnerin vor. Sprechen Sie über sich: Name, Herkunft, Wohnort, Familie, Beruf oder Ausbildung, Hobbys und Sprachen. Stellen Sie anschließend Ihrem Partner/Ihrer Partnerin mindestens zwei Fragen.",
+          "instructionsTranslation": "Introduce yourself to your conversation partner. Talk about: name, origin, place of residence, family, work or education, hobbies, and languages. Afterwards ask your partner at least two questions.",
+          "prompt": "Bitte stellen Sie sich Ihrem Partner / Ihrer Partnerin vor. Sprechen Sie u.a. über:\n- Ihren Namen und Ihre Herkunft\n- Ihren aktuellen Wohnort und seit wann Sie dort leben\n- Ihre Familie\n- Ihren Beruf oder Ihr Studium\n- Ihre Hobbys und Interessen\n- Die Sprachen, die Sie sprechen\n\nStellen Sie danach Ihrem Partner / Ihrer Partnerin mindestens zwei Fragen, um mehr über sie/ihn zu erfahren. Vorbereitungszeit: 20 Minuten für die gesamte mündliche Prüfung.",
+          "sampleResponse": "Hallo, mein Name ist Maria Kovac, und ursprünglich komme ich aus Zagreb in Kroatien. Ich lebe seit fünf Jahren in Köln, weil ich hier eine Stelle als Buchhalterin bei einer mittelständischen Baufirma gefunden habe. Meine Familie ist gemischt: Mein Mann ist Deutscher, wir haben eine kleine Tochter, die drei Jahre alt ist und bald in den Kindergarten geht. Meine Eltern leben weiterhin in Zagreb, und ich besuche sie zwei- bis dreimal im Jahr. Beruflich arbeite ich jetzt seit acht Jahren in der Buchhaltung und übernehme seit einem Jahr auch kleinere Projekte in der Personalabteilung – das macht mir richtig Spaß. In meiner Freizeit lese ich gern Krimis und gehe zweimal pro Woche ins Schwimmbad. Außerdem koche ich leidenschaftlich gerne. Sprachlich: Muttersprache Kroatisch, dazu Deutsch, Englisch und etwas Italienisch. Und wie ist das bei dir? Woher kommst du, und was machst du beruflich?",
+          "evaluationTips": [
+            "Strukturieren Sie Ihre Vorstellung – beginnen Sie nicht mit Hobbys, sondern mit Name und Herkunft",
+            "Verwenden Sie Nebensätze mit 'weil', 'wo', 'der/die' – das zeigt B1-Niveau",
+            "Sprechen Sie in Absätzen: ein Gedanke pro Thema, nicht alles in einem langen Satz",
+            "Stellen Sie echte Fragen – keine Ja/Nein-Fragen, sondern W-Fragen, die zu einem Gespräch einladen",
+            "Nennen Sie konkrete Details (Stadt, Jahre, Beruf), keine abstrakten Angaben",
+            "Reagieren Sie auf die Antworten Ihres Partners: 'Das finde ich interessant – erzähl mehr.'"
+          ],
+          "keyPhrases": [
+            "Mein Name ist ... und ich komme aus ...",
+            "Seit ... Jahren lebe ich in ...",
+            "Beruflich bin ich ... / Ich arbeite als ...",
+            "In meiner Freizeit ... / Ich interessiere mich besonders für ...",
+            "Neben Deutsch spreche ich ...",
+            "Und du – woher kommst du?",
+            "Was machst du eigentlich beruflich?"
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "discussion",
+          "instructions": "Sie erhalten einen kurzen Text zum Thema. Fassen Sie den Inhalt für Ihren Partner zusammen, beantworten Sie die drei Leitfragen, und tauschen Sie Ihre Meinung mit dem Partner aus.",
+          "instructionsTranslation": "You receive a short text on the topic. Summarize the content for your partner, answer the three guiding questions, and exchange your opinions with your partner.",
+          "prompt": "Thema: Weiterbildung im Beruf\n\nLesen Sie den folgenden kurzen Text:\n\n'Immer mehr Arbeitnehmer in Deutschland nehmen an Weiterbildungen teil. Eine aktuelle Studie zeigt: Fast die Hälfte aller Beschäftigten besucht mindestens einmal pro Jahr einen beruflichen Kurs oder ein Seminar. Viele machen das in ihrer Freizeit, andere werden vom Arbeitgeber freigestellt. Experten sind sich einig: Wer heute beruflich erfolgreich sein will, muss lebenslang lernen.'\n\nLeitfragen:\n1. Fassen Sie kurz den Inhalt des Textes zusammen (in 2–3 Sätzen).\n2. Haben Sie schon einmal an einer beruflichen Weiterbildung teilgenommen? Wenn ja, welche – und was hat Ihnen besonders gefallen oder gefehlt?\n3. Sollte Weiterbildung in der Arbeitszeit stattfinden oder in der Freizeit der Mitarbeiter? Begründen Sie Ihre Meinung.\n\nSprechen Sie mit Ihrem Partner/Ihrer Partnerin über das Thema – fragen Sie auch nach seiner/ihrer Meinung.",
+          "sampleResponse": "Im Text steht, dass fast jeder zweite Arbeitnehmer in Deutschland einmal pro Jahr eine Weiterbildung macht. Manche nutzen ihre Freizeit dafür, andere werden von der Firma freigestellt. Die Experten meinen, dass lebenslanges Lernen heute wichtig ist.\n\nIch habe letztes Jahr an einem Kurs 'Excel für Fortgeschrittene' teilgenommen. Das war ein zweitägiges Seminar bei einem externen Anbieter – mein Chef hat mich freigestellt und die Kosten übernommen. Der Kurs war sehr praktisch, ich kann heute meine Tabellen viel schneller erstellen. Gefehlt hat mir allerdings etwas: Es gab kaum Zeit, eigene Fragen zu besprechen.\n\nMeiner Meinung nach sollte Weiterbildung in der Arbeitszeit stattfinden. Es handelt sich ja um eine Investition, von der die Firma direkt profitiert. Wer sich in der Freizeit weiterbildet, opfert Zeit mit Familie oder Hobbys. Natürlich können kleine Online-Kurse auch abends funktionieren, aber längere Seminare gehören aus meiner Sicht in den Arbeitsalltag. Wie siehst du das – findest du es fair, wenn Kollegen am Wochenende für den Beruf lernen?",
+          "evaluationTips": [
+            "Beginnen Sie mit einer klaren Zusammenfassung, bevor Sie Ihre Meinung nennen",
+            "Nennen Sie konkrete Beispiele aus Ihrem eigenen Arbeitsalltag, keine allgemeinen Aussagen",
+            "Verwenden Sie Meinungsformulierungen: 'Meiner Meinung nach ...', 'Ich finde, dass ...', 'Aus meiner Sicht ...'",
+            "Gliedern Sie Vor- und Nachteile klar: 'Einerseits ..., andererseits ...'",
+            "Stellen Sie dem Partner mindestens eine inhaltliche Rückfrage",
+            "Benutzen Sie Konnektoren wie 'allerdings', 'außerdem', 'trotzdem', 'deshalb' – das wertet die Antwort auf"
+          ],
+          "keyPhrases": [
+            "Im Text geht es um ...",
+            "Der Text berichtet, dass ...",
+            "Meiner Meinung nach ...",
+            "Ich finde es wichtig, dass ...",
+            "Ein Vorteil/Nachteil ist, dass ...",
+            "Einerseits ... andererseits ...",
+            "Wie siehst du das?",
+            "Hast du ähnliche Erfahrungen gemacht?"
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Sie sollen mit Ihrem Partner gemeinsam etwas planen. Machen Sie Vorschläge, reagieren Sie auf die Ideen Ihres Partners und einigen Sie sich am Ende auf eine gemeinsame Lösung.",
+          "instructionsTranslation": "You are going to plan something together with your partner. Make suggestions, respond to your partner's ideas, and agree on a joint solution at the end.",
+          "prompt": "Ihre Kollegin Frau Bergmann verlässt nach fünfzehn Jahren die Firma und wechselt zu einem anderen Arbeitgeber. Sie möchten mit Ihrem Partner/Ihrer Partnerin gemeinsam eine Abschiedsfeier für sie im Büro organisieren.\n\nBesprechen Sie bitte folgende Punkte und kommen Sie zu einer gemeinsamen Entscheidung:\n\n- Wann und wo soll die Feier stattfinden (letzter Arbeitstag, Mittagspause, nach Feierabend)?\n- Wen laden Sie aus dem Kollegenkreis ein?\n- Was soll es zu essen und zu trinken geben? Wer kümmert sich um den Einkauf?\n- Welches gemeinsame Abschiedsgeschenk schlagen Sie vor?\n- Wer hält eine kleine Rede, und wer kümmert sich um die Dekoration?\n\nMachen Sie Vorschläge, gehen Sie auf die Vorschläge Ihres Partners ein und einigen Sie sich am Ende.",
+          "sampleResponse": "Also, ich würde vorschlagen, dass wir die Feier am Freitag, den 30. Mai, nach Feierabend organisieren – das ist ihr letzter Arbeitstag, und viele Kollegen haben am Wochenende dann frei. Was hältst du davon, im großen Besprechungsraum zu feiern? Der ist gemütlich und groß genug.\n\nIch denke, wir sollten das komplette Team plus ein paar enge Kollegen aus anderen Abteilungen einladen, insgesamt vielleicht 18 bis 20 Personen. Außerdem würde ich ihren früheren Chef dazunehmen – sie haben lange zusammengearbeitet.\n\nFür das Essen schlage ich ein kleines Buffet vor: belegte Brötchen, Salate und Obst. Ich könnte beim Catering-Service um die Ecke bestellen – macht das für dich Sinn? Und bei den Getränken teilen wir uns: Du übernimmst Wasser und Säfte, ich besorge einen guten Sekt für den Anstoß.\n\nAls Geschenk würde ich einen Gutschein für ein Wellness-Wochenende vorschlagen, alle Kollegen können dafür etwas in einen Umschlag legen. Ich hätte auch eine Karte bestellt, die jeder unterschreiben kann.\n\nLetzter Punkt: Hältst du die Rede? Du kennst sie ja am längsten. Ich würde dann die Dekoration übernehmen – ein paar Blumen und eine Fotowand mit Bildern aus ihrer Zeit hier. Einverstanden?",
+          "evaluationTips": [
+            "Sprechen Sie nicht nur, sondern hören Sie auch aktiv zu – reagieren Sie auf die Vorschläge Ihres Partners",
+            "Machen Sie Vorschläge mit Konjunktiv II ('Ich würde vorschlagen ...', 'Wir könnten ...') – das wirkt höflich",
+            "Begründen Sie Ihre Vorschläge kurz: 'weil', 'damit', 'denn'",
+            "Einigen Sie sich am Ende wirklich – ein 'Das machen wir so, einverstanden?' zeigt Abschluss",
+            "Vermeiden Sie Monologe – lassen Sie dem Partner Raum für eigene Ideen",
+            "Verwenden Sie Modalverben: 'sollten wir', 'können wir', 'müssen wir' – das zeigt Planungssprache",
+            "Fassen Sie am Ende die wichtigsten Entscheidungen kurz zusammen"
+          ],
+          "keyPhrases": [
+            "Ich würde vorschlagen, dass ...",
+            "Was hältst du davon, wenn ...?",
+            "Wir könnten ... machen.",
+            "Das ist eine gute Idee, aber ...",
+            "Alternativ könnten wir auch ...",
+            "Wer übernimmt ...?",
+            "Ich kann ... / Du bringst ... mit, okay?",
+            "Einverstanden!",
+            "Dann halten wir fest: ..."
+          ]
+        }
+      ]
+    }
   }
 }
