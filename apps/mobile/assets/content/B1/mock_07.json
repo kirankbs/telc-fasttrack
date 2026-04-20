@@ -1,13 +1,959 @@
 {
   "id": "B1_mock_07",
   "level": "B1",
-  "title": "Übungstest 7",
-  "version": 0,
-  "_stub": true,
+  "title": "B1 Übungstest 7: Kultur",
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 30,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Texte. Entscheiden Sie bei jedem Text: Ist die Aussage richtig oder falsch? Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short texts. For each text, decide: Is the statement correct or incorrect? You will hear each text only once.",
+          "audioFile": "assets/audio/B1/mock07/listening_part1.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B1_m07_L1_q1",
+              "type": "true_false",
+              "questionText": "Die Museumsnacht findet in diesem Jahr zum ersten Mal statt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Durchsage sagt: 'Auch dieses Jahr laden wir Sie wieder zur Langen Nacht der Museen ein – zum bereits neunten Mal in unserer Stadt.' Die Veranstaltung findet also nicht zum ersten Mal statt.",
+              "audioTimestamp": 10
+            },
+            {
+              "id": "B1_m07_L1_q2",
+              "type": "true_false",
+              "questionText": "Frau Becker sagt ihren Theaterbesuch am Donnerstag ab.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Auf dem Anrufbeantworter sagt Frau Becker: 'Ich schaffe es leider am Donnerstag doch nicht ins Theater – mein Sohn ist krank, und ich muss zu Hause bleiben.' Sie sagt also eindeutig ab.",
+              "audioTimestamp": 11
+            },
+            {
+              "id": "B1_m07_L1_q3",
+              "type": "true_false",
+              "questionText": "Der Bücherflohmarkt im Park beginnt schon um neun Uhr morgens.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Ansage lautet: 'Der große Bücherflohmarkt im Stadtpark öffnet am Samstag um elf Uhr vormittags – Anmeldung für eigene Stände ab zehn Uhr.' Neun Uhr ist also falsch.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "B1_m07_L1_q4",
+              "type": "true_false",
+              "questionText": "Der Kollege lädt zu einer Ausstellungseröffnung im Büro ein.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Kollege sagt: 'Meine Freundin stellt ab Freitag in einer kleinen Galerie am Marktplatz aus – kommst du mit zur Eröffnung?' Die Ausstellung ist in einer Galerie, nicht im Büro.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "B1_m07_L1_q5",
+              "type": "true_false",
+              "questionText": "Die Musikschule bietet einen neuen Gitarrenkurs für Anfänger an.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die automatische Ansage informiert: 'Ab März startet an unserer Musikschule ein neuer Gitarrenkurs für Anfänger – acht Termine am Mittwochabend.' Die Aussage ist damit richtig.",
+              "audioTimestamp": 8
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören einen Radiobericht. Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind. Sie hören den Text nur einmal.",
+          "instructionsTranslation": "You will hear a radio report. Decide whether the following ten statements are correct or incorrect. You will hear the text only once.",
+          "audioFile": "assets/audio/B1/mock07/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B1_m07_L2_q1",
+              "type": "true_false",
+              "questionText": "Die Sendung beschäftigt sich mit Straßenkunst in deutschen Großstädten.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Moderatorin leitet ein: 'Heute sprechen wir über Straßenkunst – und darüber, wie sich das Stadtbild vieler deutscher Großstädte in den letzten Jahren dadurch verändert hat.' Das ist das zentrale Thema.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "B1_m07_L2_q2",
+              "type": "true_false",
+              "questionText": "Laut dem Bericht gibt es heute weniger legale Flächen für Street Art als vor zehn Jahren.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Sprecher sagt: 'Die Zahl der legalen Flächen für Street Art hat sich in den letzten zehn Jahren fast verdoppelt.' Es gibt also mehr, nicht weniger Flächen.",
+              "audioTimestamp": 30
+            },
+            {
+              "id": "B1_m07_L2_q3",
+              "type": "true_false",
+              "questionText": "Der Gast Herr Dr. Behrendt arbeitet an der Kunsthochschule Berlin.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Moderatorin stellt ihn vor: 'Mit uns im Studio ist Dr. Felix Behrendt von der Kunsthochschule Berlin, wo er seit vielen Jahren zur Geschichte urbaner Kunst forscht.' Die Aussage trifft zu.",
+              "audioTimestamp": 52
+            },
+            {
+              "id": "B1_m07_L2_q4",
+              "type": "true_false",
+              "questionText": "Dr. Behrendt findet, dass Street Art grundsätzlich nur ein Problem für die Städte ist.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Behrendt sagt: 'Natürlich gibt es illegale Schmierereien, die stören, aber viele Werke machen Stadtteile lebendiger und bunter.' Er sieht also beide Seiten, nicht nur Probleme.",
+              "audioTimestamp": 78
+            },
+            {
+              "id": "B1_m07_L2_q5",
+              "type": "true_false",
+              "questionText": "In Leipzig gibt es geführte Touren zu bekannten Wandbildern.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Bericht erwähnt: 'In Leipzig kann man mittlerweile geführte Touren buchen, die zu den bekanntesten Wandbildern der Stadt führen.' Die Aussage stimmt genau.",
+              "audioTimestamp": 95
+            },
+            {
+              "id": "B1_m07_L2_q6",
+              "type": "true_false",
+              "questionText": "Laut Dr. Behrendt arbeiten die meisten Künstler anonym und zeigen ihre Namen nie.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Behrendt sagt: 'Früher war Anonymität üblich, aber heute treten viele Künstler öffentlich auf und stellen sogar in Galerien aus.' Die Mehrheit arbeitet also nicht mehr anonym.",
+              "audioTimestamp": 118
+            },
+            {
+              "id": "B1_m07_L2_q7",
+              "type": "true_false",
+              "questionText": "Besonders junge Frauen interessieren sich laut Studie für die Kunstform.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Im Interview heißt es: 'Eine aktuelle Studie zeigt, dass gerade junge Frauen zwischen 18 und 30 sich stark für diese Kunstform interessieren.' Die Aussage trifft zu.",
+              "audioTimestamp": 138
+            },
+            {
+              "id": "B1_m07_L2_q8",
+              "type": "true_false",
+              "questionText": "Dr. Behrendt empfiehlt, unerlaubt an privaten Häusern zu malen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Behrendt warnt ausdrücklich: 'Bitte suchen Sie immer eine legale Fläche – alles andere kann hohe Strafen nach sich ziehen.' Er empfiehlt also genau das Gegenteil.",
+              "audioTimestamp": 160
+            },
+            {
+              "id": "B1_m07_L2_q9",
+              "type": "true_false",
+              "questionText": "Manche Städte bieten Workshops für Jugendliche an.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Sprecher nennt: 'Viele Städte bieten inzwischen kostenlose Workshops an, in denen Jugendliche das Sprühen mit der Dose lernen können.' Das passt zur Aussage.",
+              "audioTimestamp": 178
+            },
+            {
+              "id": "B1_m07_L2_q10",
+              "type": "true_false",
+              "questionText": "Am Ende nennt die Moderatorin eine Telefonnummer für Zuhörer.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Moderatorin schließt mit: 'Mehr Informationen finden Sie auf unserer Webseite – dort haben wir auch eine Liste mit Projekten in Ihrer Nähe.' Eine Telefonnummer wird nicht genannt.",
+              "audioTimestamp": 200
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jedes Gespräch zweimal.",
+          "instructionsTranslation": "You will hear five short conversations. For each conversation there is one task. What is correct? Mark: a, b, or c. You will hear each conversation twice.",
+          "audioFile": "assets/audio/B1/mock07/listening_part3.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "B1_m07_L3_q1",
+              "type": "mcq",
+              "questionText": "Warum ruft die Frau im Theater an?",
+              "options": [
+                "a) Sie möchte reservierte Karten auf einen anderen Termin umbuchen.",
+                "b) Sie möchte wissen, ob ihre reservierten Karten schon bezahlt sind.",
+                "c) Sie möchte zwei Karten für 'Der Besuch der alten Dame' kaufen."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Frau erklärt: 'Ich habe Karten für Freitag reserviert, aber wir können leider nicht kommen – wäre es möglich, auf die Vorstellung am Sonntag zu wechseln?' Sie möchte also umbuchen. Der Kauf und die Bezahlung sind nicht das Thema.",
+              "audioTimestamp": 16
+            },
+            {
+              "id": "B1_m07_L3_q2",
+              "type": "mcq",
+              "questionText": "Worauf einigen sich die beiden Freunde am Ende?",
+              "options": [
+                "a) Sie besuchen am Samstag die Kunstausstellung im Museum.",
+                "b) Sie gehen am Sonntag zusammen zum Straßenfest.",
+                "c) Sie sehen sich am Freitagabend einen Film in der Kinemathek an."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Am Schluss sagt Tim: 'Gut, dann lass uns einfach am Sonntag zum Straßenfest gehen – das Wetter soll ja super werden.' Die Ausstellung und das Kino werden zwar diskutiert, aber wegen voller Terminkalender bzw. Preis verworfen.",
+              "audioTimestamp": 50
+            },
+            {
+              "id": "B1_m07_L3_q3",
+              "type": "mcq",
+              "questionText": "Was empfiehlt der Mitarbeiter dem Besucher im Buchladen?",
+              "options": [
+                "a) die gerade erschienene Neuauflage des Krimis von Schirach",
+                "b) einen leichteren Roman aus dem Taschenbuchregal",
+                "c) ein Hörbuch für die lange Zugfahrt nach Hamburg"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Mitarbeiter sagt: 'Wenn Sie ohnehin vier Stunden im Zug sitzen, würde ich Ihnen wirklich ein Hörbuch empfehlen – das ist entspannter als Lesen im vollen Abteil.' Er empfiehlt also das Hörbuch. Der Krimi und das Taschenbuch werden zwar erwähnt, aber nicht empfohlen.",
+              "audioTimestamp": 88
+            },
+            {
+              "id": "B1_m07_L3_q4",
+              "type": "mcq",
+              "questionText": "Warum möchte die Mutter ihre Tochter nicht sofort zum Konzert fahren?",
+              "options": [
+                "a) Das Auto ist gerade in der Werkstatt.",
+                "b) Sie muss vorher selbst noch ein wichtiges Treffen wahrnehmen.",
+                "c) Sie möchte, dass die Tochter mit der S-Bahn fährt, weil es schneller ist."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Mutter erklärt: 'Ich habe um sieben noch einen Elternabend in der Schule – sobald ich damit fertig bin, hole ich dich und fahre dich hin.' Ihr Treffen ist also der Grund. Das Auto und die S-Bahn werden nicht erwähnt.",
+              "audioTimestamp": 125
+            },
+            {
+              "id": "B1_m07_L3_q5",
+              "type": "mcq",
+              "questionText": "Was ist das größte Problem des Schülers mit seinem neuen Musikunterricht?",
+              "options": [
+                "a) Der Unterricht beginnt ihm zu früh am Morgen.",
+                "b) Die Lehrerin spielt ein anderes Instrument als er gewünscht hat.",
+                "c) Der Weg zur Musikschule dauert sehr lange."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Schüler sagt: 'Die Lehrerin ist super, und das Klavier macht mir Spaß – aber mit dem Bus brauche ich über eine Stunde hin und eine Stunde zurück, das nervt.' Der lange Weg ist also das Hauptproblem. Die Lehrerin und das Instrument findet er gut.",
+              "audioTimestamp": 160
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 60,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie zuerst die fünf Situationen (1–5) und dann die acht Überschriften (a–h). Welche Überschrift passt zu welcher Situation? Für jede Situation gibt es genau eine passende Überschrift. Drei Überschriften bleiben übrig.",
+          "instructionsTranslation": "First read the five situations (1–5) and then the eight headlines (a–h). Which headline matches which situation? For each situation there is exactly one matching headline. Three headlines remain unused.",
+          "texts": [
+            { "id": "B1_m07_R1_head_a", "type": "notice", "content": "a) Literatur zum Mitnehmen – Offene Bücherschränke jetzt in zehn Stadtteilen" },
+            { "id": "B1_m07_R1_head_b", "type": "notice", "content": "b) Lange Nacht der Museen – 42 Häuser öffnen bis ein Uhr nachts" },
+            { "id": "B1_m07_R1_head_c", "type": "notice", "content": "c) Neue Musikschule eröffnet: Schnupperstunden für alle Altersgruppen" },
+            { "id": "B1_m07_R1_head_d", "type": "notice", "content": "d) Straßenfest Marktplatz – drei Bühnen, Essen aus aller Welt, Eintritt frei" },
+            { "id": "B1_m07_R1_head_e", "type": "notice", "content": "e) Theaterwerkstatt für Jugendliche – Anmeldung für das Sommerprojekt bis 30. April" },
+            { "id": "B1_m07_R1_head_f", "type": "notice", "content": "f) Kinoreihe Klassiker am Mittwoch – kostenlos mit Bibliotheksausweis" },
+            { "id": "B1_m07_R1_head_g", "type": "notice", "content": "g) Graffiti-Workshop im Jugendzentrum – legales Sprühen an der großen Wand" },
+            { "id": "B1_m07_R1_head_h", "type": "notice", "content": "h) Orchesterkonzert in der Stadthalle – Tschaikowsky und Dvořák, Karten ab 12 €" }
+          ],
+          "questions": [
+            {
+              "id": "B1_m07_R1_q1",
+              "type": "matching",
+              "questionText": "1. Lukas ist 15 Jahre alt und träumt davon, einmal auf einer Bühne zu stehen. Er möchte in den Sommerferien in einer Gruppe mit anderen Jugendlichen ein Theaterstück erarbeiten.",
+              "matchingSources": [
+                { "id": "B1_m07_R1_head_a", "label": "a" },
+                { "id": "B1_m07_R1_head_b", "label": "b" },
+                { "id": "B1_m07_R1_head_c", "label": "c" },
+                { "id": "B1_m07_R1_head_d", "label": "d" },
+                { "id": "B1_m07_R1_head_e", "label": "e" },
+                { "id": "B1_m07_R1_head_f", "label": "f" },
+                { "id": "B1_m07_R1_head_g", "label": "g" },
+                { "id": "B1_m07_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Überschrift e) kündigt eine Theaterwerkstatt mit einem Sommerprojekt für Jugendliche an – genau das Format, das Lukas sucht. Die anderen Angebote richten sich nicht speziell an jugendliche Bühnenbegeisterte.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m07_R1_q2",
+              "type": "matching",
+              "questionText": "2. Frau Schneider hat als Kind gerne Klavier gespielt und möchte mit 56 wieder anfangen. Sie sucht eine Einrichtung, bei der sie zuerst unverbindlich reinschnuppern kann.",
+              "matchingSources": [
+                { "id": "B1_m07_R1_head_a", "label": "a" },
+                { "id": "B1_m07_R1_head_b", "label": "b" },
+                { "id": "B1_m07_R1_head_c", "label": "c" },
+                { "id": "B1_m07_R1_head_d", "label": "d" },
+                { "id": "B1_m07_R1_head_e", "label": "e" },
+                { "id": "B1_m07_R1_head_f", "label": "f" },
+                { "id": "B1_m07_R1_head_g", "label": "g" },
+                { "id": "B1_m07_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Überschrift c) beschreibt eine neue Musikschule mit Schnupperstunden für alle Altersgruppen – genau Frau Schneiders Wunsch. Das Orchesterkonzert (h) ist ein einmaliger Besuch, keine Schnupperstunde.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m07_R1_q3",
+              "type": "matching",
+              "questionText": "3. Familie Kowalski plant einen gemeinsamen Samstagabend. Sie möchten viele verschiedene Museen an einem Abend besuchen und gerne noch spät unterwegs sein.",
+              "matchingSources": [
+                { "id": "B1_m07_R1_head_a", "label": "a" },
+                { "id": "B1_m07_R1_head_b", "label": "b" },
+                { "id": "B1_m07_R1_head_c", "label": "c" },
+                { "id": "B1_m07_R1_head_d", "label": "d" },
+                { "id": "B1_m07_R1_head_e", "label": "e" },
+                { "id": "B1_m07_R1_head_f", "label": "f" },
+                { "id": "B1_m07_R1_head_g", "label": "g" },
+                { "id": "B1_m07_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Überschrift b) – die Lange Nacht der Museen – öffnet 42 Häuser bis ein Uhr nachts. Genau die Kombination aus vielen Museen und später Uhrzeit, die Familie Kowalski sucht.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m07_R1_q4",
+              "type": "matching",
+              "questionText": "4. Mehmet ist 17 und sprüht seit einigen Monaten heimlich Bilder. Er möchte endlich legal und unter Anleitung üben, ohne Ärger mit der Polizei zu bekommen.",
+              "matchingSources": [
+                { "id": "B1_m07_R1_head_a", "label": "a" },
+                { "id": "B1_m07_R1_head_b", "label": "b" },
+                { "id": "B1_m07_R1_head_c", "label": "c" },
+                { "id": "B1_m07_R1_head_d", "label": "d" },
+                { "id": "B1_m07_R1_head_e", "label": "e" },
+                { "id": "B1_m07_R1_head_f", "label": "f" },
+                { "id": "B1_m07_R1_head_g", "label": "g" },
+                { "id": "B1_m07_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Überschrift g) kündigt einen Graffiti-Workshop im Jugendzentrum mit legalem Sprühen an einer Wand an – genau Mehmets Bedarf nach angeleitetem und erlaubtem Üben.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m07_R1_q5",
+              "type": "matching",
+              "questionText": "5. Herr Ahmadi liest gerne Romane, hat aber gerade wenig Geld. Er sucht eine unkomplizierte Möglichkeit, in seinem Viertel an Bücher zu kommen, ohne dafür zu bezahlen.",
+              "matchingSources": [
+                { "id": "B1_m07_R1_head_a", "label": "a" },
+                { "id": "B1_m07_R1_head_b", "label": "b" },
+                { "id": "B1_m07_R1_head_c", "label": "c" },
+                { "id": "B1_m07_R1_head_d", "label": "d" },
+                { "id": "B1_m07_R1_head_e", "label": "e" },
+                { "id": "B1_m07_R1_head_f", "label": "f" },
+                { "id": "B1_m07_R1_head_g", "label": "g" },
+                { "id": "B1_m07_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Überschrift a) beschreibt offene Bücherschränke in zehn Stadtteilen – dort kann Herr Ahmadi kostenlos Bücher mitnehmen. Die anderen Angebote betreffen keine Bücher oder kosten Geld.",
+              "pointValue": 5
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den Zeitungsartikel. Was ist richtig? Kreuzen Sie an: a, b oder c.",
+          "instructionsTranslation": "Read the newspaper article. What is correct? Mark: a, b, or c.",
+          "texts": [
+            {
+              "id": "B1_m07_R2_article",
+              "type": "article",
+              "content": "Kultur vor der Haustür – Warum Straßenfeste wieder beliebter werden\n\nEine aktuelle Untersuchung des Instituts für Stadtforschung in Dortmund zeigt, dass Straßenfeste in deutschen Städten so beliebt sind wie seit vielen Jahren nicht mehr. Im vergangenen Sommer besuchten rund 35 Prozent der Erwachsenen mindestens ein solches Fest in ihrem Viertel – vor fünf Jahren lag der Wert noch bei 22 Prozent. Gleichzeitig ist die Zahl der Feste selbst deutlich gestiegen: Allein in Köln wurden im vergangenen Jahr 180 solche Veranstaltungen angemeldet.\n\nBesonders auffällig ist, dass die Besucher heute viel bunter gemischt sind als früher. 'Wir sehen junge Familien, Studenten und ältere Nachbarn gemeinsam am Tisch sitzen – das war vor zehn Jahren selten', erklärt Studienleiterin Dr. Miriam Kranz. Viele Feste werden mittlerweile von Anwohnerinitiativen organisiert, die auch Musikgruppen aus dem Stadtteil einladen und regionale Spezialitäten anbieten. 'Die Leute wollen ihre Nachbarn kennenlernen und gleichzeitig etwas erleben, ohne weit zu fahren', so Dr. Kranz.\n\nDie positiven Seiten sind offensichtlich: Straßenfeste stärken den Zusammenhalt, bringen Geld in die kleinen Geschäfte der Umgebung und bieten eine Bühne für junge Künstler. Allerdings gibt es auch Kritik. Anwohner klagen gelegentlich über Lärm bis spät in die Nacht, und nach dem Fest bleibt oft viel Müll zurück. Einige Vereine berichten zudem, dass die Suche nach Helfern immer schwieriger wird. 'Ohne freiwillige Hände läuft so ein Fest nicht', sagt Dr. Kranz. 'Deshalb brauchen wir neue Modelle, um Menschen fürs Mitmachen zu gewinnen.'\n\nTrotz der Herausforderungen sieht die Forscherin die Entwicklung positiv. Sie empfiehlt drei einfache Schritte: Fangen Sie mit einem kleinen Fest an, holen Sie früh die Nachbarn mit ins Boot, und sprechen Sie rechtzeitig mit dem Ordnungsamt über Genehmigungen. Wer diese Hinweise beachtet, hat laut Umfrage eine sehr gute Chance, auch im nächsten Jahr wieder ein erfolgreiches Fest zu feiern – und mit ihm ein Stück gelebter Nachbarschaft.",
+              "source": "Ruhr-Nachrichten, März 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "B1_m07_R2_q1",
+              "type": "mcq",
+              "questionText": "Was ist das zentrale Ergebnis der Untersuchung aus Dortmund?",
+              "relatedTextId": "B1_m07_R2_article",
+              "options": [
+                "a) Straßenfeste finden fast ausschließlich in Großstädten statt.",
+                "b) Der Anteil der Erwachsenen, die ein Straßenfest besuchen, ist deutlich gestiegen.",
+                "c) Die Zahl der Straßenfeste in Köln ist im letzten Jahr stark zurückgegangen."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text sagt: 'Im vergangenen Sommer besuchten rund 35 Prozent der Erwachsenen mindestens ein solches Fest – vor fünf Jahren lag der Wert noch bei 22 Prozent.' Die Zahl ist also deutlich gestiegen. Die Kölner Zahl ist ebenfalls hoch (180), widerspricht Option c.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m07_R2_q2",
+              "type": "mcq",
+              "questionText": "Wer besucht die Feste laut Dr. Kranz heute?",
+              "relatedTextId": "B1_m07_R2_article",
+              "options": [
+                "a) überwiegend ältere Menschen aus der Umgebung",
+                "b) junge Familien, Studenten und ältere Nachbarn gemeinsam",
+                "c) hauptsächlich Touristen aus dem Ausland"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Dr. Kranz wird zitiert: 'Wir sehen junge Familien, Studenten und ältere Nachbarn gemeinsam am Tisch sitzen.' Das ist wörtlich die gemischte Gruppe aus Option b. Touristen werden nicht erwähnt.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m07_R2_q3",
+              "type": "mcq",
+              "questionText": "Welche Kritik an Straßenfesten wird im Text genannt?",
+              "relatedTextId": "B1_m07_R2_article",
+              "options": [
+                "a) die hohen Eintrittspreise für Besucher",
+                "b) Lärm bis spät in die Nacht und viel Müll nach dem Fest",
+                "c) fehlende Sicherheitskräfte auf den Straßen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text nennt konkret: 'Anwohner klagen gelegentlich über Lärm bis spät in die Nacht, und nach dem Fest bleibt oft viel Müll zurück.' Eintrittspreise (der Text spricht nicht davon) und Sicherheit werden nicht thematisiert.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m07_R2_q4",
+              "type": "mcq",
+              "questionText": "Worin sehen die Vereine laut Text ein wachsendes Problem?",
+              "relatedTextId": "B1_m07_R2_article",
+              "options": [
+                "a) Sie finden immer weniger Freiwillige, die mithelfen.",
+                "b) Sie dürfen keine Musik mehr auf der Straße spielen lassen.",
+                "c) Sie müssen jedes Fest zweimal beim Ordnungsamt anmelden."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Text sagt wörtlich: 'Einige Vereine berichten zudem, dass die Suche nach Helfern immer schwieriger wird.' Dr. Kranz bekräftigt: 'Ohne freiwillige Hände läuft so ein Fest nicht.' Option a trifft damit genau.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m07_R2_q5",
+              "type": "mcq",
+              "questionText": "Welche Empfehlung gibt Dr. Kranz ausdrücklich?",
+              "relatedTextId": "B1_m07_R2_article",
+              "options": [
+                "a) mit einem großen Fest zu beginnen, um schnell Aufmerksamkeit zu gewinnen",
+                "b) die Nachbarn erst nach dem Antrag beim Ordnungsamt zu informieren",
+                "c) klein anzufangen und die Nachbarn früh einzubeziehen"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die drei Empfehlungen des Textes lauten wörtlich: 'Fangen Sie mit einem kleinen Fest an, holen Sie früh die Nachbarn mit ins Boot ...' Option a widerspricht dem Rat, klein zu starten; Option b widerspricht dem Hinweis, die Nachbarn früh einzubeziehen.",
+              "pointValue": 5
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie lesen zehn Situationen (1–10) und zwölf kurze Anzeigen (a–l). Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es genau eine passende Anzeige. Zwei Anzeigen bleiben übrig. Wenn keine Anzeige passt, schreiben Sie 'x'.",
+          "instructionsTranslation": "You read ten situations (1–10) and twelve short advertisements (a–l). Which advertisement matches which situation? For each situation there is exactly one matching advertisement. Two advertisements remain unused. If no advertisement fits, write 'x'.",
+          "texts": [
+            { "id": "B1_m07_R3_ad_a", "type": "ad", "content": "a) Chor 'Stimmen der Südstadt' sucht neue Mitglieder – Alter egal, keine Vorkenntnisse nötig. Probe mittwochs 19–21 Uhr im Gemeindehaus. kontakt@stimmen-suedstadt.de" },
+            { "id": "B1_m07_R3_ad_b", "type": "ad", "content": "b) Theater am Ring – Abokarten für die Saison 2026/27. Sechs Vorstellungen nach Wahl, 20 % Rabatt, auch für Studenten. www.theater-am-ring.de" },
+            { "id": "B1_m07_R3_ad_c", "type": "ad", "content": "c) Gemeinsam Geige üben gesucht – Hobby-Musikerin (Mittelstufe) sucht Partnerin für regelmäßiges Zusammenspiel. Freitagabends bei mir zu Hause. lina.meier@mail.de" },
+            { "id": "B1_m07_R3_ad_d", "type": "ad", "content": "d) Kunstkurs Aquarell für Anfänger – 10 Termine, samstags 10–13 Uhr. 180 € inklusive Material. Volkshochschule Dortmund, Anmeldung bis 15. März." },
+            { "id": "B1_m07_R3_ad_e", "type": "ad", "content": "e) Gebrauchte Klavierpartituren zu verschenken – Klassik und Pop, ca. 40 Hefte. Abholung in Bonn-Beuel. leo.berger@mail.de" },
+            { "id": "B1_m07_R3_ad_f", "type": "ad", "content": "f) Kino-Verein 'Lichtspiel' zeigt Kinderfilme – Jeden Sonntag 15 Uhr, Eintritt 2 € für Kinder, Erwachsene frei. Programm: www.lichtspiel-kino.de" },
+            { "id": "B1_m07_R3_ad_g", "type": "ad", "content": "g) Lesekreis Zeitgenössische Literatur – Neue Leser willkommen. Wir lesen ein Buch pro Monat und treffen uns sonntagnachmittags. Vorkenntnisse nicht nötig. lesekreis@buchcafe.de" },
+            { "id": "B1_m07_R3_ad_h", "type": "ad", "content": "h) Tanzschule Moreno – Salsa für Anfängerpaare, 8 Termine am Freitagabend. 120 € pro Person. Probestunde am 1. März kostenlos. www.tanzschule-moreno.de" },
+            { "id": "B1_m07_R3_ad_i", "type": "ad", "content": "i) Street-Art-Stadtführung – Jeden Samstag 14 Uhr, Treffpunkt Hauptbahnhof. Zwei Stunden, 12 € pro Person, nach Anmeldung. kontakt@stadt-art-tour.de" },
+            { "id": "B1_m07_R3_ad_j", "type": "ad", "content": "j) Schreibwerkstatt für Jugendliche ab 14 Jahren – Vier Samstage im April, Thema: Kurzgeschichten. 25 € gesamt. Anmeldung: stadtbibliothek@leipzig.de" },
+            { "id": "B1_m07_R3_ad_k", "type": "ad", "content": "k) Kinderflohmarkt im Stadtpark – Spielzeug, Bücher, Kleidung. Samstag 10–15 Uhr, eigene Decke mitbringen. Anmeldung für Stände: marktbuero@stadt.de" },
+            { "id": "B1_m07_R3_ad_l", "type": "ad", "content": "l) Musikinstrumente günstig ausleihen – Gitarre, Geige, Flöte ab 15 € pro Monat. Musikhaus Klang, Eichenstraße 4. Persönliche Beratung vor Ort." }
+          ],
+          "questions": [
+            {
+              "id": "B1_m07_R3_q1",
+              "type": "matching",
+              "questionText": "1. Herr Özdemir ist gerade in Rente gegangen und möchte endlich etwas Neues ausprobieren. Er singt oft unter der Dusche und hätte Lust, in einer Gruppe zu singen – ohne Prüfung und ohne Vorkenntnisse.",
+              "matchingSources": [
+                { "id": "B1_m07_R3_ad_a", "label": "a" }, { "id": "B1_m07_R3_ad_b", "label": "b" },
+                { "id": "B1_m07_R3_ad_c", "label": "c" }, { "id": "B1_m07_R3_ad_d", "label": "d" },
+                { "id": "B1_m07_R3_ad_e", "label": "e" }, { "id": "B1_m07_R3_ad_f", "label": "f" },
+                { "id": "B1_m07_R3_ad_g", "label": "g" }, { "id": "B1_m07_R3_ad_h", "label": "h" },
+                { "id": "B1_m07_R3_ad_i", "label": "i" }, { "id": "B1_m07_R3_ad_j", "label": "j" },
+                { "id": "B1_m07_R3_ad_k", "label": "k" }, { "id": "B1_m07_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Anzeige a) lädt den Chor 'Stimmen der Südstadt' ein – Alter egal, keine Vorkenntnisse. Das passt exakt zu Herrn Özdemirs Wunsch.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m07_R3_q2",
+              "type": "matching",
+              "questionText": "2. Sophie studiert und liebt Theater, aber regelmäßiges Geld dafür ist knapp. Sie hätte gerne ein günstiges Angebot mit mehreren Vorstellungen pro Saison.",
+              "matchingSources": [
+                { "id": "B1_m07_R3_ad_a", "label": "a" }, { "id": "B1_m07_R3_ad_b", "label": "b" },
+                { "id": "B1_m07_R3_ad_c", "label": "c" }, { "id": "B1_m07_R3_ad_d", "label": "d" },
+                { "id": "B1_m07_R3_ad_e", "label": "e" }, { "id": "B1_m07_R3_ad_f", "label": "f" },
+                { "id": "B1_m07_R3_ad_g", "label": "g" }, { "id": "B1_m07_R3_ad_h", "label": "h" },
+                { "id": "B1_m07_R3_ad_i", "label": "i" }, { "id": "B1_m07_R3_ad_j", "label": "j" },
+                { "id": "B1_m07_R3_ad_k", "label": "k" }, { "id": "B1_m07_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Anzeige b) bietet Theater-Abokarten mit Studentenrabatt und sechs Vorstellungen – genau das, was Sophie sucht.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m07_R3_q3",
+              "type": "matching",
+              "questionText": "3. Frau Linke lernt seit zwei Jahren Aquarellmalerei aus Büchern und möchte endlich in einer Gruppe mit Anleitung üben. Samstagvormittag passt ihr zeitlich am besten.",
+              "matchingSources": [
+                { "id": "B1_m07_R3_ad_a", "label": "a" }, { "id": "B1_m07_R3_ad_b", "label": "b" },
+                { "id": "B1_m07_R3_ad_c", "label": "c" }, { "id": "B1_m07_R3_ad_d", "label": "d" },
+                { "id": "B1_m07_R3_ad_e", "label": "e" }, { "id": "B1_m07_R3_ad_f", "label": "f" },
+                { "id": "B1_m07_R3_ad_g", "label": "g" }, { "id": "B1_m07_R3_ad_h", "label": "h" },
+                { "id": "B1_m07_R3_ad_i", "label": "i" }, { "id": "B1_m07_R3_ad_j", "label": "j" },
+                { "id": "B1_m07_R3_ad_k", "label": "k" }, { "id": "B1_m07_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Anzeige d) bietet einen Aquarell-Anfängerkurs an zehn Samstagen von 10 bis 13 Uhr. Das passt ideal zu Frau Linkes Zeit und Niveau.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m07_R3_q4",
+              "type": "matching",
+              "questionText": "4. Tarek ist 16 Jahre alt und schreibt in seinem Tagebuch viele kleine Geschichten. Er würde gerne mit anderen Jugendlichen an seinen Texten arbeiten.",
+              "matchingSources": [
+                { "id": "B1_m07_R3_ad_a", "label": "a" }, { "id": "B1_m07_R3_ad_b", "label": "b" },
+                { "id": "B1_m07_R3_ad_c", "label": "c" }, { "id": "B1_m07_R3_ad_d", "label": "d" },
+                { "id": "B1_m07_R3_ad_e", "label": "e" }, { "id": "B1_m07_R3_ad_f", "label": "f" },
+                { "id": "B1_m07_R3_ad_g", "label": "g" }, { "id": "B1_m07_R3_ad_h", "label": "h" },
+                { "id": "B1_m07_R3_ad_i", "label": "i" }, { "id": "B1_m07_R3_ad_j", "label": "j" },
+                { "id": "B1_m07_R3_ad_k", "label": "k" }, { "id": "B1_m07_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "j",
+              "explanation": "Anzeige j) kündigt eine Schreibwerkstatt für Jugendliche ab 14 zum Thema Kurzgeschichten an – genau Tareks Interesse und Alter.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m07_R3_q5",
+              "type": "matching",
+              "questionText": "5. Familie Schulz möchte ihren sechsjährigen Sohn am Sonntag in einen altersgerechten Film mitnehmen. Besonders wichtig ist ihnen, dass das Angebot auch für den Geldbeutel erschwinglich ist.",
+              "matchingSources": [
+                { "id": "B1_m07_R3_ad_a", "label": "a" }, { "id": "B1_m07_R3_ad_b", "label": "b" },
+                { "id": "B1_m07_R3_ad_c", "label": "c" }, { "id": "B1_m07_R3_ad_d", "label": "d" },
+                { "id": "B1_m07_R3_ad_e", "label": "e" }, { "id": "B1_m07_R3_ad_f", "label": "f" },
+                { "id": "B1_m07_R3_ad_g", "label": "g" }, { "id": "B1_m07_R3_ad_h", "label": "h" },
+                { "id": "B1_m07_R3_ad_i", "label": "i" }, { "id": "B1_m07_R3_ad_j", "label": "j" },
+                { "id": "B1_m07_R3_ad_k", "label": "k" }, { "id": "B1_m07_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Anzeige f) ist ein Kinderfilm-Angebot des Kino-Vereins am Sonntag um 15 Uhr, Kinder zahlen nur 2 €, Erwachsene frei – ideal für Familie Schulz.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m07_R3_q6",
+              "type": "matching",
+              "questionText": "6. Maria und Pietro sind seit Kurzem ein Paar und möchten zusammen etwas Neues lernen. Beide haben noch nie getanzt, möchten aber regelmäßig als Paar in einen Kurs gehen.",
+              "matchingSources": [
+                { "id": "B1_m07_R3_ad_a", "label": "a" }, { "id": "B1_m07_R3_ad_b", "label": "b" },
+                { "id": "B1_m07_R3_ad_c", "label": "c" }, { "id": "B1_m07_R3_ad_d", "label": "d" },
+                { "id": "B1_m07_R3_ad_e", "label": "e" }, { "id": "B1_m07_R3_ad_f", "label": "f" },
+                { "id": "B1_m07_R3_ad_g", "label": "g" }, { "id": "B1_m07_R3_ad_h", "label": "h" },
+                { "id": "B1_m07_R3_ad_i", "label": "i" }, { "id": "B1_m07_R3_ad_j", "label": "j" },
+                { "id": "B1_m07_R3_ad_k", "label": "k" }, { "id": "B1_m07_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "h",
+              "explanation": "Anzeige h) ist ein Salsa-Kurs für Anfängerpaare mit kostenloser Probestunde. Das passt genau zu Marias und Pietros Wunsch.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m07_R3_q7",
+              "type": "matching",
+              "questionText": "7. Herr Köhler wohnt erst seit drei Monaten in der Stadt und hat gelesen, dass viele berühmte Wandbilder in seinem Viertel sind. Er möchte sich die wichtigsten Werke mit einem Experten ansehen.",
+              "matchingSources": [
+                { "id": "B1_m07_R3_ad_a", "label": "a" }, { "id": "B1_m07_R3_ad_b", "label": "b" },
+                { "id": "B1_m07_R3_ad_c", "label": "c" }, { "id": "B1_m07_R3_ad_d", "label": "d" },
+                { "id": "B1_m07_R3_ad_e", "label": "e" }, { "id": "B1_m07_R3_ad_f", "label": "f" },
+                { "id": "B1_m07_R3_ad_g", "label": "g" }, { "id": "B1_m07_R3_ad_h", "label": "h" },
+                { "id": "B1_m07_R3_ad_i", "label": "i" }, { "id": "B1_m07_R3_ad_j", "label": "j" },
+                { "id": "B1_m07_R3_ad_k", "label": "k" }, { "id": "B1_m07_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "i",
+              "explanation": "Anzeige i) bietet eine Street-Art-Stadtführung mit Experten – genau das, was Herr Köhler sucht, um Wandbilder zu entdecken.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m07_R3_q8",
+              "type": "matching",
+              "questionText": "8. Hanna liest sehr gerne neue Romane und möchte sich mit anderen Lesern austauschen. Sie hat nur am Sonntag Zeit und möchte keine Prüfung oder Kosten.",
+              "matchingSources": [
+                { "id": "B1_m07_R3_ad_a", "label": "a" }, { "id": "B1_m07_R3_ad_b", "label": "b" },
+                { "id": "B1_m07_R3_ad_c", "label": "c" }, { "id": "B1_m07_R3_ad_d", "label": "d" },
+                { "id": "B1_m07_R3_ad_e", "label": "e" }, { "id": "B1_m07_R3_ad_f", "label": "f" },
+                { "id": "B1_m07_R3_ad_g", "label": "g" }, { "id": "B1_m07_R3_ad_h", "label": "h" },
+                { "id": "B1_m07_R3_ad_i", "label": "i" }, { "id": "B1_m07_R3_ad_j", "label": "j" },
+                { "id": "B1_m07_R3_ad_k", "label": "k" }, { "id": "B1_m07_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Anzeige g) beschreibt einen Lesekreis für zeitgenössische Literatur, der sich sonntagnachmittags trifft – ohne Vorkenntnisse. Das passt perfekt zu Hanna.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m07_R3_q9",
+              "type": "matching",
+              "questionText": "9. Sarah spielt seit einem Jahr Geige in der Musikschule, aber übt allein oft ungern. Sie sucht eine andere Spielerin auf ähnlichem Niveau für regelmäßiges Zusammenspiel zu Hause.",
+              "matchingSources": [
+                { "id": "B1_m07_R3_ad_a", "label": "a" }, { "id": "B1_m07_R3_ad_b", "label": "b" },
+                { "id": "B1_m07_R3_ad_c", "label": "c" }, { "id": "B1_m07_R3_ad_d", "label": "d" },
+                { "id": "B1_m07_R3_ad_e", "label": "e" }, { "id": "B1_m07_R3_ad_f", "label": "f" },
+                { "id": "B1_m07_R3_ad_g", "label": "g" }, { "id": "B1_m07_R3_ad_h", "label": "h" },
+                { "id": "B1_m07_R3_ad_i", "label": "i" }, { "id": "B1_m07_R3_ad_j", "label": "j" },
+                { "id": "B1_m07_R3_ad_k", "label": "k" }, { "id": "B1_m07_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Anzeige c) ist genau das Spiegelbild: Eine Hobby-Musikerin auf Mittelstufen-Niveau sucht eine Partnerin zum regelmäßigen Zusammenspiel. Sarah könnte darauf antworten.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m07_R3_q10",
+              "type": "matching",
+              "questionText": "10. Familie Bauer möchte ihrem zehnjährigen Sohn eine Gitarre für ein halbes Jahr geben, ohne gleich eine neue zu kaufen. Eine günstige Leihmöglichkeit mit Beratung wäre ideal.",
+              "matchingSources": [
+                { "id": "B1_m07_R3_ad_a", "label": "a" }, { "id": "B1_m07_R3_ad_b", "label": "b" },
+                { "id": "B1_m07_R3_ad_c", "label": "c" }, { "id": "B1_m07_R3_ad_d", "label": "d" },
+                { "id": "B1_m07_R3_ad_e", "label": "e" }, { "id": "B1_m07_R3_ad_f", "label": "f" },
+                { "id": "B1_m07_R3_ad_g", "label": "g" }, { "id": "B1_m07_R3_ad_h", "label": "h" },
+                { "id": "B1_m07_R3_ad_i", "label": "i" }, { "id": "B1_m07_R3_ad_j", "label": "j" },
+                { "id": "B1_m07_R3_ad_k", "label": "k" }, { "id": "B1_m07_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "l",
+              "explanation": "Anzeige l) bietet Musikinstrumente ab 15 € pro Monat mit persönlicher Beratung an. Übrig bleiben e) (Partituren zu verschenken) und k) (Kinderflohmarkt) als Distraktoren.",
+              "pointValue": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    "sprachbausteine": {
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie den folgenden Text und entscheiden Sie, welches Wort (a, b oder c) in die Lücke passt. Es gibt jeweils nur eine richtige Lösung.",
+          "text": "Liebe Marlene,\n\nwie geht es dir? Ich wollte dir unbedingt von meinem neuen Hobby erzählen. Seit zwei Monaten singe ich jetzt __(1)__ einem kleinen Chor in der Nachbarschaft, und ich bin wirklich froh, __(2)__ ich damals den Schritt gewagt habe. Unsere Chorleiterin, __(3)__ alle sehr mögen, ist eine sehr geduldige und humorvolle Frau. __(4)__ ich am Anfang kaum einen Ton getroffen habe, habe ich inzwischen richtig Spaß daran.\n\nLetzten Samstag haben wir unser erstes kleines Konzert gegeben. Die Stücke __(5)__ am Nachmittag in einer Kirche aufgeführt, und unsere Familien haben kräftig applaudiert. Wenn ich schon mehr Erfahrung __(6)__, würde ich mich auch zu einem Solo trauen – aber das kommt vielleicht nächstes Jahr.\n\nAm Wochenende gehe ich übrigens mit zwei Sängerinnen aus dem Chor oft __(7)__ Kino oder ins Theater. Letzten Freitag __(8)__ wir zusammen in einer Vorstellung gewesen, die mich wirklich berührt hat. Hoffentlich schaffst du es bald, mich zu besuchen – ich würde mich so sehr __(9)__ freuen! Übrigens: Ich habe zufällig deinen Nachbarn Philipp im Theater getroffen. Er hat erzählt, dass er gerade __(10)__ beeindruckendsten Urlaub seines Lebens in Italien erlebt hat.\n\nIch freue mich auf deine Antwort.\n\nLiebe Grüße,\nFranziska",
+          "questions": [
+            {
+              "blankNumber": 1,
+              "type": "mcq",
+              "options": ["a) in", "b) an", "c) bei"],
+              "correctAnswer": "a",
+              "explanation": "Die feste Wendung lautet 'in einem Chor singen' (in + Dativ). Das ist die idiomatische Verbindung für die Mitgliedschaft in einer musikalischen Gruppe. 'an einem Chor' ist unüblich; 'bei einem Chor' würde eher für das Mitwirken bei einer bestimmten Firma/Institution verwendet, nicht für das eigentliche Singen.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 2,
+              "type": "mcq",
+              "options": ["a) weil", "b) dass", "c) ob"],
+              "correctAnswer": "b",
+              "explanation": "Der Hauptsatz 'Ich bin froh, ...' verlangt einen dass-Satz als Ergänzung ('froh sein, dass ...'). 'weil' würde einen Grund einleiten, was hier unpassend ist. 'ob' leitet eine indirekte Frage ein und passt nicht.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 3,
+              "type": "mcq",
+              "options": ["a) der", "b) den", "c) die"],
+              "correctAnswer": "c",
+              "explanation": "Relativsatz: 'Unsere Chorleiterin, die alle sehr mögen'. Das Relativpronomen bezieht sich auf 'Chorleiterin' (Femininum) und ist direktes Objekt von 'mögen' → Akkusativ Femininum: 'die'. 'der' wäre Maskulinum, 'den' Akkusativ Maskulinum.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 4,
+              "type": "mcq",
+              "options": ["a) Obwohl", "b) Weil", "c) Deshalb"],
+              "correctAnswer": "a",
+              "explanation": "Gegensatz zwischen 'kaum einen Ton getroffen' und 'richtig Spaß' → konzessiv 'obwohl' (Verb am Ende). 'weil' wäre ein Grund (unlogisch). 'deshalb' verlangt Hauptsatzstellung (Verb an Position 2), aber das Verb steht hier am Ende.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 5,
+              "type": "mcq",
+              "options": ["a) haben", "b) wurden", "c) waren"],
+              "correctAnswer": "b",
+              "explanation": "Passiv Präteritum, Plural: 'Die Stücke wurden aufgeführt.' Das Subjekt ('Die Stücke') wird nicht selbst aktiv – das ist typisches Vorgangspassiv. 'haben' würde Aktiv-Perfekt verlangen, 'waren' Zustandspassiv.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 6,
+              "type": "mcq",
+              "options": ["a) hätte", "b) habe", "c) hatte"],
+              "correctAnswer": "a",
+              "explanation": "Irreale Bedingung: 'Wenn ich mehr Erfahrung hätte, würde ich ...' → Konjunktiv II 'hätte'. 'habe' (Indikativ Präsens) und 'hatte' (Präteritum) passen nicht zur 'würde'-Form im Hauptsatz.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 7,
+              "type": "mcq",
+              "options": ["a) in", "b) ins", "c) zum"],
+              "correctAnswer": "b",
+              "explanation": "Richtung mit Verschmelzung: 'ins Kino gehen' (in + das = ins, Akkusativ). 'in' ohne Artikel ist unvollständig, 'zum' (zu + dem) passt grammatisch nicht zu 'Kino' (Neutrum → das Kino).",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 8,
+              "type": "mcq",
+              "options": ["a) haben", "b) waren", "c) sind"],
+              "correctAnswer": "c",
+              "explanation": "Perfekt von 'sein' bildet man mit 'sein': 'Wir sind gewesen'. 'haben' ist falsch, weil 'sein' als Vollverb 'sein' als Hilfsverb nimmt. 'waren' wäre Präteritum – passt nicht zum Partizip 'gewesen'.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 9,
+              "type": "mcq",
+              "options": ["a) mir", "b) für mich", "c) mich"],
+              "correctAnswer": "c",
+              "explanation": "Das reflexive Verb 'sich freuen' verlangt ein Reflexivpronomen im Akkusativ: 'ich freue mich'. 'mir' (Dativ) passt bei anderen Verben wie 'sich etwas wünschen'. 'für mich' ist kein Reflexivpronomen.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 10,
+              "type": "mcq",
+              "options": ["a) das", "b) dem", "c) den"],
+              "correctAnswer": "c",
+              "explanation": "'den beeindruckendsten Urlaub' – direktes Objekt von 'erlebt' (Akkusativ Maskulinum): 'den'. Die Adjektivendung '-sten' bestätigt die starke Deklination im Akkusativ Maskulinum. 'das' wäre Neutrum, 'dem' Dativ.",
+              "pointValue": 1.5
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Text. Welches Wort aus der Liste a–o passt in die Lücken? Jedes Wort passt nur einmal. Fünf Wörter bleiben übrig.",
+          "text": "Liebe Franziska,\n\nvielen __(11)__ für deinen wunderbaren Brief! Ich habe mich so gefreut, endlich wieder von dir zu hören. Wie du weißt, bin ich vor vier Monaten in eine neue Stadt gezogen und hatte am Anfang kaum Freunde hier. __(12)__ habe ich mich in den Kulturkreis unseres Stadtteils eingelebt und fühle mich richtig wohl.\n\nMit meinen neuen Bekannten habe ich schon viel über Kunst und Musik __(13)__ – wir tauschen oft Buchtipps aus. Das gemeinsame Reden __(14)__ wirklich gut und hilft mir, meine Deutschkenntnisse weiter zu verbessern. Einmal pro Monat gehen wir zusammen in eine Ausstellung.\n\nIm Kulturkreis bin ich inzwischen __(15)__ die Öffentlichkeitsarbeit mitverantwortlich – ich schreibe kurze Ankündigungen für den Newsletter und poste sie in unseren sozialen Medien. __(16)__ der letzten Woche hat sogar eine Lokalzeitung unseren Verein besucht und einen kleinen Bericht geschrieben. Das war ein toller Moment.\n\nNur eine Sache macht mir gerade Sorgen: Die Stadt hat die Miete für unsere Veranstaltungsräume leider __(17)__. Ich hatte mich schon __(18)__ einen großen Sommerabend mit Livemusik gefreut, aber jetzt müssen wir vielleicht __(19)__ einen kleineren Raum umziehen. Die anderen und ich denken gerade über Lösungen nach.\n\nKomm mich doch bald mal besuchen! __(20)__ können wir zusammen ins Museum gehen und danach in einem schönen Café frühstücken.\n\nLiebe Grüße,\nNiklas",
+          "questions": [
+            {
+              "blankNumber": 11,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) Mittlerweile", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) vielleicht", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) in", "o) damit"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Standardformel 'vielen Dank' am Briefanfang – 'vielen' verlangt direkt 'Dank'. Distraktor k) 'herzlichen' würde ebenfalls zu 'Dank' passen, aber 'vielen' steht schon und lässt nur 'Dank' ohne weiteres Adjektiv zu.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 12,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) Mittlerweile", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) vielleicht", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) in", "o) damit"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Temporales Adverb 'Mittlerweile' beschreibt den Wandel vom Anfang bis jetzt. Das passt zum Kontext 'am Anfang kaum Freunde – jetzt wohl'. Großschreibung, weil am Satzanfang.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 13,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) Mittlerweile", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) vielleicht", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) in", "o) damit"
+              ],
+              "correctAnswer": "c",
+              "explanation": "'Ich habe viel über Kunst und Musik gesprochen' – Perfekt von 'sprechen über'. Distraktor l) 'nachgedacht' verlangt zwar auch 'über', passt aber schlechter zum kommunikativen Austausch mit 'Bekannten'.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 14,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) Mittlerweile", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) vielleicht", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) in", "o) damit"
+              ],
+              "correctAnswer": "d",
+              "explanation": "'Das gemeinsame Reden funktioniert gut' – idiomatisch für 'es klappt, läuft'. Subjekt in 3. Person Singular verlangt 'funktioniert'. Distraktor m) 'reicht' bedeutet 'genug sein' und passt inhaltlich nicht.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 15,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) Mittlerweile", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) vielleicht", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) in", "o) damit"
+              ],
+              "correctAnswer": "e",
+              "explanation": "Feste Kombination 'zuständig / verantwortlich sein für + Akkusativ': 'für die Öffentlichkeitsarbeit mitverantwortlich'. 'in' würde eine andere Bedeutung haben (Lokalität).",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 16,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) Mittlerweile", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) vielleicht", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) in", "o) damit"
+              ],
+              "correctAnswer": "f",
+              "explanation": "Zeitangabe 'In der letzten Woche' mit Dativ. 'In' am Satzanfang, deshalb großgeschrieben. Distraktor n) 'in' (kleingeschrieben) wäre im Satzinneren korrekt, hier aber nicht.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 17,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) Mittlerweile", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) vielleicht", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) in", "o) damit"
+              ],
+              "correctAnswer": "g",
+              "explanation": "'Die Stadt hat die Miete erhöht' – das übliche Kollokat. Partizip II 'erhöht' schließt das Perfekt ab.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 18,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) Mittlerweile", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) vielleicht", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) in", "o) damit"
+              ],
+              "correctAnswer": "h",
+              "explanation": "Feste Verb+Präposition 'sich freuen auf + Akkusativ' (Vorfreude auf Zukünftiges). 'Ich hatte mich auf einen großen Sommerabend gefreut.'",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 19,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) Mittlerweile", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) vielleicht", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) in", "o) damit"
+              ],
+              "correctAnswer": "n",
+              "explanation": "Bewegung / Richtung mit Akkusativ: 'in einen kleineren Raum umziehen'. 'in' (kleingeschrieben, mitten im Satz) ist die richtige Präposition für das Ziel.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 20,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) Mittlerweile", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) vielleicht", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) in", "o) damit"
+              ],
+              "correctAnswer": "j",
+              "explanation": "Satzanfang 'Dann können wir ...' – zeitliche Verknüpfung an den vorherigen Satz ('Komm mich besuchen'). Großschreibung am Satzanfang. Übrig bleiben i) vielleicht, k) herzlichen, l) nachgedacht, m) reicht, o) damit als Distraktoren.",
+              "pointValue": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 30,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "letter",
+          "instructions": "Eine Freundin, Sabrina, arbeitet ehrenamtlich im Kulturverein Ihrer Stadt. Der Verein plant im Juni ein großes Straßenfest und sucht Helfer. Sabrina hat Sie per E-Mail gefragt, ob Sie dabei sein möchten. Schreiben Sie eine Antwort-E-Mail an Sabrina. Gehen Sie auf alle vier Punkte unten ein. Achten Sie auf eine passende Anrede und einen passenden Gruß. Schreiben Sie ca. 150 Wörter.",
+          "instructionsTranslation": "A friend, Sabrina, volunteers at the cultural association in your city. The association is planning a big street festival in June and is looking for helpers. Sabrina has asked you by email if you want to join. Write a reply email to Sabrina. Address all four points below. Pay attention to appropriate greeting and closing. Write approximately 150 words.",
+          "prompt": "Situation: Ihre Freundin Sabrina arbeitet im Kulturverein und organisiert ein Straßenfest im Juni. Sie hat Sie gefragt, ob Sie beim Fest mithelfen möchten.\n\nSchreiben Sie eine E-Mail an Sabrina. Gehen Sie auf die folgenden vier Punkte ein:\n\n- Zusage: Bestätigen Sie, dass Sie gerne mithelfen möchten.\n- Aufgabe: Welche Aufgabe würden Sie übernehmen (z.B. Essen, Musik, Information) und warum?\n- Zeit: Wann und wie lange können Sie am Fest-Tag da sein?\n- Vorschlag: Machen Sie einen eigenen Vorschlag für das Programm (z.B. eine Vorstellungsrunde, eine kleine Lesung, einen Flohmarkt).\n\nVergessen Sie nicht Anrede, Einleitung und Grußformel. Schreiben Sie ca. 150 Wörter.",
+          "promptTranslation": "Situation: Your friend Sabrina works at the cultural association and is organizing a street festival in June. She has asked if you would like to help out at the festival.\n\nWrite an email to Sabrina. Address these four points:\n\n- Acceptance: Confirm that you would like to help.\n- Task: Which task would you take on (e.g. food, music, information) and why?\n- Time: When and for how long can you be there on the day of the festival?\n- Suggestion: Make your own suggestion for the program (e.g. an introduction round, a short reading, a flea market).\n\nDon't forget greeting, introduction, and closing. Write approximately 150 words.",
+          "requiredPoints": [
+            "Zusage zur Teilnahme am Straßenfest",
+            "Konkrete Aufgabe mit kurzer Begründung",
+            "Angabe von Tag und Zeitraum der Verfügbarkeit",
+            "Eigener Programmvorschlag für das Fest"
+          ],
+          "wordCountMin": 130,
+          "wordCountMax": 170,
+          "sampleAnswer": "Liebe Sabrina,\n\nvielen Dank für deine liebe Nachricht und die Einladung, beim Straßenfest im Juni mitzumachen. Ich freue mich sehr, dass du an mich gedacht hast, und möchte dir gerne zusagen.\n\nAm liebsten würde ich die Info-Theke am Eingang übernehmen. Ich spreche gerne mit Menschen, und in meinem alten Nebenjob habe ich oft Besucher empfangen. So könnte ich dabei helfen, Fragen zu beantworten und das Programm zu erklären.\n\nAm Samstag, dem 14. Juni, kann ich ab 13 Uhr da sein und bis zum Ende um circa 22 Uhr bleiben. Wenn ihr vorher einen Aufbau plant, würde ich auch gerne eine Stunde früher kommen.\n\nAls Idee für das Programm möchte ich eine kleine Lesung von Texten aus unserem Stadtteil vorschlagen. Vielleicht lesen drei Nachbarn je einen kurzen Text – das passt gut zum Thema Kultur vor Ort.\n\nMeld dich gerne, wenn du weitere Aufgaben für mich hast.\n\nLiebe Grüße\nPatrick",
+          "scoringCriteria": [
+            {
+              "criterion": "I. Inhaltliche Vollständigkeit",
+              "maxPoints": 15,
+              "description": "Alle vier Leitpunkte (Zusage, Aufgabe, Zeit, eigener Vorschlag) sind klar behandelt. Wird einer dieser Punkte als nicht bearbeitet bewertet (D), erhält der gesamte Text 0 Punkte."
+            },
+            {
+              "criterion": "II. Kommunikative Gestaltung",
+              "maxPoints": 15,
+              "description": "Angemessene Anrede ('Liebe Sabrina' – informell, weil es sich um eine Freundin handelt), logische Einleitung mit Bezug auf die empfangene Anfrage, passende Konnektoren (am liebsten, außerdem, wenn), informelle Grußformel, sinnvolle Absatzstruktur."
+            },
+            {
+              "criterion": "III. Formale Richtigkeit",
+              "maxPoints": 15,
+              "description": "Grammatik, Rechtschreibung und Wortwahl auf B1-Niveau. Korrekte Verbformen (Perfekt, Konjunktiv II für höfliche Vorschläge), Satzstellung in Nebensätzen, Kasus nach Präpositionen. Schwere Grammatikfehler, die das Verständnis blockieren, führen zu D (und damit 0 Punkten für den gesamten Text)."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "introduce",
+          "instructions": "Stellen Sie sich Ihrem Gesprächspartner/Ihrer Gesprächspartnerin vor. Sprechen Sie über sich: Name, Herkunft, Wohnort, Familie, Beruf oder Ausbildung, Hobbys und Sprachen. Stellen Sie anschließend Ihrem Partner/Ihrer Partnerin mindestens zwei Fragen.",
+          "instructionsTranslation": "Introduce yourself to your conversation partner. Talk about: name, origin, place of residence, family, work or education, hobbies, and languages. Afterwards ask your partner at least two questions.",
+          "prompt": "Bitte stellen Sie sich Ihrem Partner / Ihrer Partnerin vor. Sprechen Sie u.a. über:\n- Ihren Namen und Ihre Herkunft\n- Ihren aktuellen Wohnort und seit wann Sie dort leben\n- Ihre Familie\n- Ihren Beruf oder Ihr Studium\n- Ihre Hobbys und Interessen\n- Die Sprachen, die Sie sprechen\n\nStellen Sie danach Ihrem Partner / Ihrer Partnerin mindestens zwei Fragen, um mehr über sie/ihn zu erfahren. Vorbereitungszeit: 20 Minuten für die gesamte mündliche Prüfung.",
+          "sampleResponse": "Guten Tag, mein Name ist Patrick Weber, und ich komme ursprünglich aus einer kleinen Stadt am Bodensee. Seit fünf Jahren lebe ich in Köln, wo ich nach dem Studium eine Stelle im Kulturamt der Stadt gefunden habe. Meine Partnerin und ich wohnen zusammen in einem Altbau, und ich habe noch zwei Schwestern, die beide in München leben. In meiner Freizeit gehe ich gerne ins Theater und besuche Ausstellungen – letzte Woche war ich in einer schönen Fotografie-Ausstellung. Außerdem spiele ich seit drei Jahren Klavier, aber nur für mich selbst. Neben Deutsch spreche ich Englisch ziemlich flüssig und lerne gerade Italienisch, weil wir oft Urlaub in der Toskana machen. Und wie ist das bei dir? Woher kommst du ursprünglich, und was führt dich nach Köln?",
+          "evaluationTips": [
+            "Strukturieren Sie Ihre Vorstellung: Name, Herkunft, Wohnort, Familie, Beruf, Hobbys",
+            "Verwenden Sie Nebensätze mit 'weil', 'der/die', 'wo' – das zeigt B1-Niveau",
+            "Nennen Sie konkrete Details (Stadt, Jahre, Berufsbezeichnung)",
+            "Stellen Sie W-Fragen, keine Ja/Nein-Fragen",
+            "Reagieren Sie auf die Antworten Ihres Partners mit kurzen Kommentaren",
+            "Verbinden Sie Themen: 'Ich spiele Klavier, aber nur für mich – warum eigentlich, fragen mich viele.'"
+          ],
+          "keyPhrases": [
+            "Mein Name ist ... und ich komme aus ...",
+            "Seit ... Jahren wohne ich in ...",
+            "Beruflich arbeite ich als ... / Ich studiere ...",
+            "In meiner Freizeit ...",
+            "Neben Deutsch spreche ich ...",
+            "Und wie ist das bei dir/Ihnen?",
+            "Darf ich dich/Sie etwas fragen?"
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "discussion",
+          "instructions": "Sie erhalten einen kurzen Text zum Thema. Fassen Sie den Inhalt für Ihren Partner zusammen, beantworten Sie die drei Leitfragen, und tauschen Sie Ihre Meinung mit dem Partner aus.",
+          "instructionsTranslation": "You receive a short text on the topic. Summarize the content for your partner, answer the three guiding questions, and exchange your opinions with your partner.",
+          "prompt": "Thema: Kultur im Alltag\n\nLesen Sie den folgenden kurzen Text:\n\n'Eine aktuelle Umfrage zeigt: Nur rund 28 Prozent der Deutschen besuchen mindestens einmal im Monat eine kulturelle Veranstaltung wie Theater, Konzert oder Museum. Viele sagen, dass Kulturangebote zu teuer oder zu weit entfernt seien. Gleichzeitig wächst das Interesse an kostenlosen Formaten wie Straßenfesten oder offenen Bücherschränken stark.'\n\nLeitfragen:\n1. Fassen Sie kurz den Inhalt des Textes zusammen (in 2–3 Sätzen).\n2. Welche kulturellen Angebote nutzen Sie persönlich, und warum?\n3. Was sollte Ihrer Meinung nach getan werden, damit mehr Menschen Kulturangebote nutzen?\n\nSprechen Sie mit Ihrem Partner/Ihrer Partnerin über das Thema – fragen Sie auch nach seiner/ihrer Meinung.",
+          "sampleResponse": "Der Text berichtet, dass nur etwa 28 Prozent der Deutschen regelmäßig kulturelle Veranstaltungen besuchen. Viele finden die Angebote zu teuer oder zu weit entfernt. Gleichzeitig steigt aber das Interesse an kostenlosen Formaten wie Straßenfesten.\n\nIch gehe selbst etwa einmal im Monat ins Theater, am liebsten in kleinere Bühnen mit günstigen Karten. Außerdem besuche ich Ausstellungen in der Stadtbibliothek, die kostenlos sind. Für große Opernabende ist mir der Preis meistens zu hoch.\n\nMeiner Meinung nach sollten Städte mehr kostenlose Angebote fördern – zum Beispiel Konzerte im Park oder günstige Abos für junge Leute. Einerseits ist Kultur eine wichtige Bereicherung für alle, andererseits dürfen nicht nur wohlhabende Menschen dabei sein. Ich finde auch, dass Schulen früh mit Ausflügen ins Museum beginnen sollten, damit Kinder lernen, Kultur als etwas Normales zu sehen. Wie siehst du das? Gehst du oft ins Museum oder Theater?",
+          "evaluationTips": [
+            "Beginnen Sie mit einer Zusammenfassung in 2–3 Sätzen, bevor Sie Ihre Meinung äußern",
+            "Nennen Sie konkrete Beispiele aus Ihrem Leben (welches Theater, welche Ausstellung)",
+            "Verwenden Sie Meinungsformulierungen: 'Meiner Meinung nach ...', 'Ich finde, dass ...'",
+            "Gliedern Sie Vor- und Nachteile: 'Einerseits ..., andererseits ...'",
+            "Stellen Sie dem Partner eine offene Rückfrage",
+            "Benutzen Sie Konnektoren wie 'allerdings', 'außerdem', 'deshalb'"
+          ],
+          "keyPhrases": [
+            "Im Text geht es um ...",
+            "Der Text berichtet, dass ...",
+            "Meiner Meinung nach ...",
+            "Ich finde es wichtig, dass ...",
+            "Einerseits ... andererseits ...",
+            "Ein Vorteil/Nachteil ist, dass ...",
+            "Wie siehst du das?",
+            "Stimmst du mir da zu?"
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Sie sollen mit Ihrem Partner gemeinsam etwas planen. Machen Sie Vorschläge, reagieren Sie auf die Ideen Ihres Partners und einigen Sie sich am Ende auf eine gemeinsame Lösung.",
+          "instructionsTranslation": "You are going to plan something together with your partner. Make suggestions, respond to your partner's ideas, and agree on a joint solution at the end.",
+          "prompt": "Ihre Firma möchte einen gemeinsamen Kulturabend für alle Mitarbeiterinnen und Mitarbeiter organisieren. Sie und Ihr Partner / Ihre Partnerin sollen diesen Abend gemeinsam planen.\n\nBesprechen Sie bitte folgende Punkte und kommen Sie zu einer gemeinsamen Entscheidung:\n\n- Wann und wo soll der Abend stattfinden?\n- Welche Kulturaktivität wählen Sie (Theater, Konzert, Museum, Lesung, Kochabend mit Musik)?\n- Wie viele Kolleginnen und Kollegen werden ungefähr kommen? Wie laden Sie ein?\n- Was soll es zu essen und zu trinken geben?\n- Wer übernimmt welche Aufgabe (Buchung, Einladung, Einkauf)?\n\nMachen Sie Vorschläge, gehen Sie auf die Vorschläge Ihres Partners ein und einigen Sie sich am Ende.",
+          "sampleResponse": "Also, ich würde vorschlagen, dass wir den Kulturabend an einem Freitag Ende Mai machen, zum Beispiel am 30. Mai ab 18 Uhr. Was hältst du davon? Der Tag liegt gut, weil am nächsten Morgen niemand früh zur Arbeit muss.\n\nAls Kulturaktivität schlage ich einen Besuch im Stadttheater vor. Es gibt dort gerade ein bekanntes Stück, und wir bekommen als Gruppe bestimmt einen Rabatt. Danach könnten wir in ein nahes Restaurant gehen. Ich denke, etwa 20 Kolleginnen und Kollegen werden kommen – wir laden am besten per Rundmail ein, damit alle die Information gleichzeitig bekommen.\n\nZum Essen würde ich ein kleines Menü im Restaurant buchen, drei Gänge mit einer vegetarischen Option. Für Getränke teilen wir: jeder bezahlt selbst, was er trinkt. So bleibt es fair.\n\nBei den Aufgaben schlage ich vor: Ich kümmere mich um die Theaterkarten und die Einladung. Könntest du das Restaurant reservieren und die Rückmeldungen sammeln? Dann haben wir alles gut aufgeteilt. Einverstanden? Prima, dann halten wir es so fest.",
+          "evaluationTips": [
+            "Hören Sie aktiv zu und reagieren Sie konkret auf die Vorschläge Ihres Partners",
+            "Machen Sie Vorschläge mit Konjunktiv II ('Ich würde vorschlagen ...', 'Wir könnten ...')",
+            "Begründen Sie Vorschläge kurz mit 'weil' oder 'damit'",
+            "Einigen Sie sich klar am Ende: 'Einverstanden?' oder 'Dann halten wir das so fest.'",
+            "Teilen Sie Aufgaben explizit auf – wer macht was",
+            "Fassen Sie am Ende die wichtigsten Entscheidungen kurz zusammen"
+          ],
+          "keyPhrases": [
+            "Ich würde vorschlagen, dass ...",
+            "Was hältst du davon, wenn ...?",
+            "Wir könnten zum Beispiel ...",
+            "Das ist eine gute Idee, aber ...",
+            "Alternativ könnten wir auch ...",
+            "Wer übernimmt ...?",
+            "Ich kümmere mich um ..., kannst du ...?",
+            "Einverstanden!",
+            "Dann halten wir fest: ..."
+          ]
+        }
+      ]
+    }
   }
 }

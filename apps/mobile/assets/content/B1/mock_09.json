@@ -1,13 +1,959 @@
 {
   "id": "B1_mock_09",
   "level": "B1",
-  "title": "Übungstest 9",
-  "version": 0,
-  "_stub": true,
+  "title": "B1 Übungstest 9: Reisen",
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 30,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Texte. Entscheiden Sie bei jedem Text: Ist die Aussage richtig oder falsch? Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short texts. For each text, decide: Is the statement correct or incorrect? You will hear each text only once.",
+          "audioFile": "assets/audio/B1/mock09/listening_part1.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B1_m09_L1_q1",
+              "type": "true_false",
+              "questionText": "Der ICE nach Berlin fährt heute pünktlich ab Gleis 7.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Durchsage kündigt an: 'Der ICE 905 nach Berlin fährt heute ausnahmsweise von Gleis 11 ab – wir bitten um Ihr Verständnis.' Gleis 7 ist also falsch.",
+              "audioTimestamp": 10
+            },
+            {
+              "id": "B1_m09_L1_q2",
+              "type": "true_false",
+              "questionText": "Frau Haller bittet ihren Sohn, ihr Reisepass aus der Schublade zu holen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Auf dem Anrufbeantworter sagt Frau Haller: 'Leo, kannst du mir bitte meinen Reisepass aus der oberen Schublade im Flur holen? Ich habe ihn doch glatt vergessen.' Die Aussage stimmt.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "B1_m09_L1_q3",
+              "type": "true_false",
+              "questionText": "Das Reisebüro empfiehlt, die Reise erst im Dezember zu buchen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Ansage lautet: 'Wer seinen Sommerurlaub günstig buchen möchte, sollte jetzt zugreifen – im Juni werden die Preise deutlich steigen.' Also jetzt, nicht im Dezember.",
+              "audioTimestamp": 10
+            },
+            {
+              "id": "B1_m09_L1_q4",
+              "type": "true_false",
+              "questionText": "Der Kollege lädt zu einem gemeinsamen Wochenendausflug ein.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Kollege sagt: 'Hättest du Lust, am Samstag zu einer kleinen Wanderung in die Berge zu fahren? Meine Frau und ich freuen uns, wenn du mitkommst.' Das ist eine Einladung zu einem Ausflug.",
+              "audioTimestamp": 11
+            },
+            {
+              "id": "B1_m09_L1_q5",
+              "type": "true_false",
+              "questionText": "Der Flug aus Rom ist heute um 30 Minuten verspätet.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Flughafenansage lautet: 'Der Flug LH 245 aus Rom ist voraussichtlich mit 45 Minuten Verspätung zu erwarten.' 45, nicht 30 Minuten – also falsch.",
+              "audioTimestamp": 9
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören einen Radiobericht. Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind. Sie hören den Text nur einmal.",
+          "instructionsTranslation": "You will hear a radio report. Decide whether the following ten statements are correct or incorrect. You will hear the text only once.",
+          "audioFile": "assets/audio/B1/mock09/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B1_m09_L2_q1",
+              "type": "true_false",
+              "questionText": "Die Sendung beschäftigt sich mit dem Thema nachhaltiges Reisen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Moderatorin leitet ein: 'Heute sprechen wir über nachhaltiges Reisen – wie wir die Welt entdecken und gleichzeitig die Umwelt schützen können.' Das ist das Thema.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "B1_m09_L2_q2",
+              "type": "true_false",
+              "questionText": "Laut Studie reisen die Deutschen heute seltener als vor fünf Jahren.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Sprecher sagt: 'Die Zahl der Urlaubsreisen hat in den letzten Jahren wieder deutlich zugenommen – etwa 15 Prozent mehr als vor fünf Jahren.' Mehr, nicht weniger – also falsch.",
+              "audioTimestamp": 30
+            },
+            {
+              "id": "B1_m09_L2_q3",
+              "type": "true_false",
+              "questionText": "Herr Dr. Wagner forscht zum Thema Tourismus und Umwelt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Moderatorin stellt ihn vor: 'Mit uns im Studio ist Dr. Jürgen Wagner von der Uni Freiburg, wo er seit vielen Jahren zum Zusammenhang von Tourismus und Umwelt forscht.' Die Aussage trifft zu.",
+              "audioTimestamp": 52
+            },
+            {
+              "id": "B1_m09_L2_q4",
+              "type": "true_false",
+              "questionText": "Laut Dr. Wagner verursachen Flugreisen besonders viel CO₂.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Dr. Wagner sagt: 'Ein einziger Flug nach Mallorca und zurück verursacht so viel CO₂ wie ein halbes Jahr Autofahren – das überrascht viele.' Die Aussage stimmt.",
+              "audioTimestamp": 75
+            },
+            {
+              "id": "B1_m09_L2_q5",
+              "type": "true_false",
+              "questionText": "Die Mehrheit der jungen Deutschen legt keinen Wert auf nachhaltiges Reisen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Im Bericht heißt es: 'Gerade junge Menschen unter 30 achten immer stärker darauf, nachhaltig zu reisen – für rund 60 Prozent ist das wichtig.' Die Mehrheit legt also Wert darauf.",
+              "audioTimestamp": 95
+            },
+            {
+              "id": "B1_m09_L2_q6",
+              "type": "true_false",
+              "questionText": "Dr. Wagner empfiehlt, innerhalb Europas öfter mit dem Zug zu fahren.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Dr. Wagner sagt: 'Für Strecken bis etwa 1.000 Kilometer ist der Zug oft die bessere Wahl – bequem, günstig und deutlich klimafreundlicher.' Die Aussage trifft zu.",
+              "audioTimestamp": 118
+            },
+            {
+              "id": "B1_m09_L2_q7",
+              "type": "true_false",
+              "questionText": "Camping-Urlaub ist in Deutschland laut Bericht seit Corona weniger beliebt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Sprecher nennt: 'Campingplätze sind seit Corona voller denn je – rund 30 Prozent mehr Buchungen als vor der Pandemie.' Mehr, nicht weniger beliebt.",
+              "audioTimestamp": 140
+            },
+            {
+              "id": "B1_m09_L2_q8",
+              "type": "true_false",
+              "questionText": "Dr. Wagner rät, grundsätzlich nur noch zu Fuß zu reisen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Wagner sagt: 'Man muss nicht aufs Reisen verzichten – aber bewusster wählen, wie und wohin man fährt.' Niemand soll nur noch zu Fuß reisen – die Aussage ist übertrieben.",
+              "audioTimestamp": 160
+            },
+            {
+              "id": "B1_m09_L2_q9",
+              "type": "true_false",
+              "questionText": "Urlaub in der eigenen Region wird als umweltfreundliche Alternative genannt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Bericht erwähnt: 'Immer mehr Menschen entdecken ihre eigene Region als Reiseziel – das ist günstig, spontan und klimafreundlich.' Die Aussage trifft zu.",
+              "audioTimestamp": 178
+            },
+            {
+              "id": "B1_m09_L2_q10",
+              "type": "true_false",
+              "questionText": "Am Ende der Sendung wird eine Hotline mit Reisetipps angegeben.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Moderatorin schließt mit: 'Mehr konkrete Reisetipps finden Sie auf unserer Webseite.' Eine Hotline wird nicht erwähnt.",
+              "audioTimestamp": 198
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jedes Gespräch zweimal.",
+          "instructionsTranslation": "You will hear five short conversations. For each conversation there is one task. What is correct? Mark: a, b, or c. You will hear each conversation twice.",
+          "audioFile": "assets/audio/B1/mock09/listening_part3.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "B1_m09_L3_q1",
+              "type": "mcq",
+              "questionText": "Warum ruft die Frau im Reisebüro an?",
+              "options": [
+                "a) Sie möchte ihre bereits gebuchte Reise stornieren.",
+                "b) Sie möchte wissen, ob ihr Hotel in Italien auch Vegetarier-Essen anbietet.",
+                "c) Sie möchte ein zusätzliches Zimmer für ihre Eltern buchen."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Frau sagt: 'Wir haben schon gebucht, aber meine Eltern wollen doch mitkommen – können Sie noch ein Doppelzimmer im gleichen Hotel dazubuchen?' Sie fragt also nach einer Zusatzbuchung. Stornieren und Essen werden nicht erwähnt.",
+              "audioTimestamp": 17
+            },
+            {
+              "id": "B1_m09_L3_q2",
+              "type": "mcq",
+              "questionText": "Worauf einigen sich die beiden Freundinnen am Ende?",
+              "options": [
+                "a) Sie fliegen zusammen im Juni nach Barcelona.",
+                "b) Sie machen eine Woche Camping-Urlaub in Österreich.",
+                "c) Sie fahren mit dem Zug zu einer Städtereise nach Prag."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Am Schluss sagt Anja: 'Okay, dann nehmen wir den Zug nach Prag – das ist bezahlbar, und wir haben drei Tage in der Stadt.' Flug nach Barcelona (zu teuer) und Camping (Regenwetter) werden verworfen.",
+              "audioTimestamp": 50
+            },
+            {
+              "id": "B1_m09_L3_q3",
+              "type": "mcq",
+              "questionText": "Was empfiehlt der Reiseberater dem Kunden?",
+              "options": [
+                "a) eine Zugreise entlang der Mosel mit drei Zwischenstopps",
+                "b) einen individuell geplanten Städte-Trip nach Wien",
+                "c) eine Pauschalreise nach Mallorca für eine Woche"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Berater sagt: 'Wenn Sie die Landschaft genießen möchten und keine Lust auf Flughäfen haben, passt die Zugreise entlang der Mosel perfekt – drei Stationen, überall kleine Hotels.' Die anderen Optionen werden zwar erwähnt, aber nicht empfohlen.",
+              "audioTimestamp": 88
+            },
+            {
+              "id": "B1_m09_L3_q4",
+              "type": "mcq",
+              "questionText": "Warum möchte der Mann die Reise um eine Woche verschieben?",
+              "options": [
+                "a) Er hat seinen Pass verloren und muss einen neuen beantragen.",
+                "b) Seine Tochter hat Prüfung, und er möchte sie dabei unterstützen.",
+                "c) Er hat seinen Arbeitgeber noch nicht nach Urlaub gefragt."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Mann erklärt: 'Meine Tochter schreibt in der Woche ihre Abschlussprüfung – ich möchte sie unbedingt dabei unterstützen und danach entspannt in den Urlaub fahren.' Das ist der Grund. Pass und Arbeitgeber werden nicht erwähnt.",
+              "audioTimestamp": 122
+            },
+            {
+              "id": "B1_m09_L3_q5",
+              "type": "mcq",
+              "questionText": "Was ist das größte Problem des Paares mit ihrem Hotel?",
+              "options": [
+                "a) Das Zimmer liegt direkt an einer lauten Straße.",
+                "b) Das Frühstücksbuffet ist für den Preis zu klein.",
+                "c) Der Pool ist wegen Renovierung geschlossen."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Frau sagt: 'Das Hotel ist wirklich schön, aber unser Zimmer liegt an der Hauptstraße – wir hören die ganze Nacht Autos.' Der Lärm ist das Hauptproblem. Frühstück und Pool werden zwar erwähnt, sind aber nicht kritisch.",
+              "audioTimestamp": 160
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 60,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie zuerst die fünf Situationen (1–5) und dann die acht Überschriften (a–h). Welche Überschrift passt zu welcher Situation? Für jede Situation gibt es genau eine passende Überschrift. Drei Überschriften bleiben übrig.",
+          "instructionsTranslation": "First read the five situations (1–5) and then the eight headlines (a–h). Which headline matches which situation? For each situation there is exactly one matching headline. Three headlines remain unused.",
+          "texts": [
+            { "id": "B1_m09_R1_head_a", "type": "notice", "content": "a) Bahnhof-Aktion: 15 Prozent Rabatt auf alle ICE-Tickets in dieser Woche" },
+            { "id": "B1_m09_R1_head_b", "type": "notice", "content": "b) Neue Fernbus-Linie Hamburg–Prag startet ab 1. Juni" },
+            { "id": "B1_m09_R1_head_c", "type": "notice", "content": "c) Work-and-Travel-Infoabend für Schulabgänger – Dienstag 19 Uhr, Jugendzentrum" },
+            { "id": "B1_m09_R1_head_d", "type": "notice", "content": "d) Wochenend-Pauschale im Wellnesshotel Alpenblick – zwei Nächte, Frühstück, Sauna" },
+            { "id": "B1_m09_R1_head_e", "type": "notice", "content": "e) Camping-Tage: große Sommer-Ausstellung mit Zelten, Caravans und Zubehör" },
+            { "id": "B1_m09_R1_head_f", "type": "notice", "content": "f) Urlaub auf dem Bauernhof – neue Familien-Angebote in Bayern" },
+            { "id": "B1_m09_R1_head_g", "type": "notice", "content": "g) Städtereise-Spezial: drei Tage Wien inklusive Musical-Ticket" },
+            { "id": "B1_m09_R1_head_h", "type": "notice", "content": "h) Reisemedizin-Sprechstunde: Impfberatung vor Fernreisen, Termine online" }
+          ],
+          "questions": [
+            {
+              "id": "B1_m09_R1_q1",
+              "type": "matching",
+              "questionText": "1. Paul ist 18 und hat gerade sein Abitur bestanden. Bevor er mit dem Studium anfängt, möchte er ein halbes Jahr im Ausland arbeiten und reisen. Er sucht Informationen dazu.",
+              "matchingSources": [
+                { "id": "B1_m09_R1_head_a", "label": "a" },
+                { "id": "B1_m09_R1_head_b", "label": "b" },
+                { "id": "B1_m09_R1_head_c", "label": "c" },
+                { "id": "B1_m09_R1_head_d", "label": "d" },
+                { "id": "B1_m09_R1_head_e", "label": "e" },
+                { "id": "B1_m09_R1_head_f", "label": "f" },
+                { "id": "B1_m09_R1_head_g", "label": "g" },
+                { "id": "B1_m09_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Überschrift c) kündigt einen Work-and-Travel-Infoabend für Schulabgänger an – genau das Format und die Zielgruppe für Paul. Die anderen Überschriften betreffen keine Infoveranstaltung zu Arbeiten im Ausland.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m09_R1_q2",
+              "type": "matching",
+              "questionText": "2. Familie Schmidt möchte mit ihren zwei Kindern (5 und 8 Jahre) eine Woche Urlaub auf dem Land machen. Die Kinder sollen Tiere sehen und im Freien spielen können.",
+              "matchingSources": [
+                { "id": "B1_m09_R1_head_a", "label": "a" },
+                { "id": "B1_m09_R1_head_b", "label": "b" },
+                { "id": "B1_m09_R1_head_c", "label": "c" },
+                { "id": "B1_m09_R1_head_d", "label": "d" },
+                { "id": "B1_m09_R1_head_e", "label": "e" },
+                { "id": "B1_m09_R1_head_f", "label": "f" },
+                { "id": "B1_m09_R1_head_g", "label": "g" },
+                { "id": "B1_m09_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Überschrift f) beschreibt Urlaub auf dem Bauernhof mit Familien-Angeboten in Bayern – ideal für Kinder, die Tiere und Natur erleben wollen.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m09_R1_q3",
+              "type": "matching",
+              "questionText": "3. Frau Keller und ihr Mann möchten zum Hochzeitstag ein entspanntes Wochenende zu zweit verbringen, inklusive Massage und gutem Frühstück.",
+              "matchingSources": [
+                { "id": "B1_m09_R1_head_a", "label": "a" },
+                { "id": "B1_m09_R1_head_b", "label": "b" },
+                { "id": "B1_m09_R1_head_c", "label": "c" },
+                { "id": "B1_m09_R1_head_d", "label": "d" },
+                { "id": "B1_m09_R1_head_e", "label": "e" },
+                { "id": "B1_m09_R1_head_f", "label": "f" },
+                { "id": "B1_m09_R1_head_g", "label": "g" },
+                { "id": "B1_m09_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Überschrift d) bietet eine Wochenend-Pauschale im Wellnesshotel mit Frühstück und Sauna – perfekt für den romantischen Kurzurlaub.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m09_R1_q4",
+              "type": "matching",
+              "questionText": "4. Herr Ngoma fährt beruflich oft nach Hamburg und nutzt dafür den Zug. Er möchte einen günstigen Deal für seine nächste Reise.",
+              "matchingSources": [
+                { "id": "B1_m09_R1_head_a", "label": "a" },
+                { "id": "B1_m09_R1_head_b", "label": "b" },
+                { "id": "B1_m09_R1_head_c", "label": "c" },
+                { "id": "B1_m09_R1_head_d", "label": "d" },
+                { "id": "B1_m09_R1_head_e", "label": "e" },
+                { "id": "B1_m09_R1_head_f", "label": "f" },
+                { "id": "B1_m09_R1_head_g", "label": "g" },
+                { "id": "B1_m09_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Überschrift a) kündigt 15 Prozent Rabatt auf ICE-Tickets an – genau der Deal, den Herr Ngoma sucht.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m09_R1_q5",
+              "type": "matching",
+              "questionText": "5. Frau Berger plant eine Reise nach Thailand und möchte vorher klären, welche Impfungen sie braucht.",
+              "matchingSources": [
+                { "id": "B1_m09_R1_head_a", "label": "a" },
+                { "id": "B1_m09_R1_head_b", "label": "b" },
+                { "id": "B1_m09_R1_head_c", "label": "c" },
+                { "id": "B1_m09_R1_head_d", "label": "d" },
+                { "id": "B1_m09_R1_head_e", "label": "e" },
+                { "id": "B1_m09_R1_head_f", "label": "f" },
+                { "id": "B1_m09_R1_head_g", "label": "g" },
+                { "id": "B1_m09_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "h",
+              "explanation": "Überschrift h) bietet eine Reisemedizin-Sprechstunde mit Impfberatung für Fernreisen – exakt das, was Frau Berger vor ihrer Thailand-Reise benötigt.",
+              "pointValue": 5
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den Zeitungsartikel. Was ist richtig? Kreuzen Sie an: a, b oder c.",
+          "instructionsTranslation": "Read the newspaper article. What is correct? Mark: a, b, or c.",
+          "texts": [
+            {
+              "id": "B1_m09_R2_article",
+              "type": "article",
+              "content": "Camping-Boom in Deutschland – Warum immer mehr Familien zum Zelt greifen\n\nEine aktuelle Untersuchung des Deutschen Tourismus-Instituts in Berlin zeigt, dass Camping in den letzten Jahren zum beliebtesten Urlaubstrend geworden ist. Rund 38 Prozent der befragten Familien geben an, im vergangenen Sommer mindestens eine Nacht auf einem Campingplatz übernachtet zu haben. Vor fünf Jahren lag dieser Wert noch bei 22 Prozent. Besonders auffällig: Ein großer Teil der neuen Camper hat vorher nie in einem Zelt geschlafen.\n\n'Viele Menschen haben während der Pandemie entdeckt, wie schön Natur vor der Haustür sein kann', erklärt Studienleiterin Dr. Lena Fischer. 'Camping ist günstiger als Hotelurlaub, man ist flexibel, und die Kinder sind sofort beschäftigt.' Die Plätze selbst haben sich stark verändert. Neben klassischen Zeltwiesen gibt es heute moderne Holzhäuschen, Sanitäranlagen mit warmen Duschen und sogar WLAN an fast jedem Platz. Manche Betreiber bieten kleine Kochkurse, Yoga am Morgen oder Kinoabende unter freiem Himmel an.\n\nDie positiven Seiten sind klar. Trotzdem gibt es auch Probleme. 'Viele Plätze sind in der Hauptsaison überfüllt, und die Preise steigen spürbar', räumt Dr. Fischer ein. Wer spontan fährt, findet oft nur noch teure Stellplätze oder muss weit ausweichen. Außerdem gibt es Streit um Lärm: Nicht jeder Gast hält sich an die Ruhezeiten, besonders in den Sommermonaten. Einige Betreiber denken deshalb über getrennte Bereiche für Familien und junge Gäste nach.\n\nTrotz der Herausforderungen empfiehlt Dr. Fischer drei einfache Schritte: Buchen Sie Ihren Wunschplatz am besten schon im März, packen Sie nur das Nötigste ein – die meisten Vergesslichkeiten lassen sich vor Ort kaufen –, und sprechen Sie mit anderen Gästen. Die größten Camping-Freundschaften entstehen, so Dr. Fischer, an der gemeinsamen Spüle. Wer diese Hinweise beachtet, hat sehr gute Chancen auf einen entspannten und bezahlbaren Urlaub mit Geschichten, die man noch Jahre später erzählt.",
+              "source": "Der Tagesspiegel, April 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "B1_m09_R2_q1",
+              "type": "mcq",
+              "questionText": "Was ist das zentrale Ergebnis der Studie aus Berlin?",
+              "relatedTextId": "B1_m09_R2_article",
+              "options": [
+                "a) Familien bevorzugen heute klar Hotelurlaube vor Campingplätzen.",
+                "b) Camping ist laut Studie nur in Süddeutschland beliebt geworden.",
+                "c) Die Zahl der Campenden unter Familien hat sich in fünf Jahren fast verdoppelt."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text sagt: 'Rund 38 Prozent ... Vor fünf Jahren lag dieser Wert noch bei 22 Prozent.' Das ist fast eine Verdopplung (Option c). Option a widerspricht dem Text, Option b kommt nicht vor.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m09_R2_q2",
+              "type": "mcq",
+              "questionText": "Was nennt Dr. Fischer als Grund für den Camping-Boom?",
+              "relatedTextId": "B1_m09_R2_article",
+              "options": [
+                "a) Die Menschen haben während der Pandemie die Natur vor der Haustür entdeckt.",
+                "b) Viele Hotels sind in den letzten Jahren geschlossen worden.",
+                "c) Campingplätze sind grundsätzlich teurer geworden als Pauschalreisen."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Dr. Fischer wird zitiert: 'Viele Menschen haben während der Pandemie entdeckt, wie schön Natur vor der Haustür sein kann.' Das ist wörtlich Option a. Option b steht nicht im Text, c widerspricht ihm (Camping ist günstiger).",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m09_R2_q3",
+              "type": "mcq",
+              "questionText": "Welches Problem wird im Text ausdrücklich genannt?",
+              "relatedTextId": "B1_m09_R2_article",
+              "options": [
+                "a) Die neuen Sanitäranlagen funktionieren oft nicht richtig.",
+                "b) Es gibt kein WLAN mehr auf den meisten Plätzen.",
+                "c) Viele Plätze sind in der Hauptsaison überfüllt und teurer geworden."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text sagt: 'Viele Plätze sind in der Hauptsaison überfüllt, und die Preise steigen spürbar.' Das ist Option c. Die anderen Optionen widersprechen dem Text.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m09_R2_q4",
+              "type": "mcq",
+              "questionText": "Worüber denken einige Campingplatz-Betreiber nach?",
+              "relatedTextId": "B1_m09_R2_article",
+              "options": [
+                "a) die Ruhezeiten komplett abzuschaffen",
+                "b) getrennte Bereiche für Familien und jüngere Gäste einzurichten",
+                "c) nur noch Paare ohne Kinder aufzunehmen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text sagt: 'Einige Betreiber denken deshalb über getrennte Bereiche für Familien und junge Gäste nach.' Das ist exakt Option b.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m09_R2_q5",
+              "type": "mcq",
+              "questionText": "Welche konkrete Empfehlung gibt Dr. Fischer?",
+              "relatedTextId": "B1_m09_R2_article",
+              "options": [
+                "a) Buchen Sie Ihren Wunschplatz möglichst spät, weil dann die Preise sinken.",
+                "b) Buchen Sie Ihren Wunschplatz schon im März.",
+                "c) Fahren Sie ohne feste Buchung los und suchen Sie vor Ort."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text listet als ersten Tipp wörtlich: 'Buchen Sie Ihren Wunschplatz am besten schon im März.' Option a widerspricht dem Text, Option c ebenso (spontane Fahrer finden nur teure Plätze).",
+              "pointValue": 5
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie lesen zehn Situationen (1–10) und zwölf kurze Anzeigen (a–l). Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es genau eine passende Anzeige. Zwei Anzeigen bleiben übrig. Wenn keine Anzeige passt, schreiben Sie 'x'.",
+          "instructionsTranslation": "You read ten situations (1–10) and twelve short advertisements (a–l). Which advertisement matches which situation? For each situation there is exactly one matching advertisement. Two advertisements remain unused. If no advertisement fits, write 'x'.",
+          "texts": [
+            { "id": "B1_m09_R3_ad_a", "type": "ad", "content": "a) Ferienwohnung an der Ostsee – 60 m², zwei Schlafzimmer, 50 Meter zum Strand. Ab 95 € pro Nacht, auch kurze Aufenthalte. kontakt@nordseewinkel.de" },
+            { "id": "B1_m09_R3_ad_b", "type": "ad", "content": "b) Mitfahrgelegenheit München–Berlin jeden Freitag 16 Uhr. 25 € pro Person, nur Nichtraucher. Meldet euch bei Tim: 0151 447 22 81" },
+            { "id": "B1_m09_R3_ad_c", "type": "ad", "content": "c) Fahrradverleih 'Radlust' – Trekkingräder ab 12 €/Tag, E-Bikes 25 €/Tag. Wochenpreise auf Anfrage. Bahnhofstraße 5, Heidelberg." },
+            { "id": "B1_m09_R3_ad_d", "type": "ad", "content": "d) Sprachreise für Studenten – Drei Wochen Barcelona mit Spanisch-Intensivkurs und Gastfamilie. 1.450 €. Juli und August. www.lingua-travel.de" },
+            { "id": "B1_m09_R3_ad_e", "type": "ad", "content": "e) Gebrauchtes Wanderzelt (3-Personen) zu verkaufen – gut erhalten, 80 € VB. Abholung in Köln-Süd. pia_w@mail.de" },
+            { "id": "B1_m09_R3_ad_f", "type": "ad", "content": "f) Reise-Gruppe 50+ – Geführte Busrundreisen durch Italien und Frankreich. Kleine Gruppen, deutschsprachige Leitung. www.seniorreisen-aktiv.de" },
+            { "id": "B1_m09_R3_ad_g", "type": "ad", "content": "g) Haustiersitter gesucht – Familie fährt zwei Wochen weg und sucht liebevolle Betreuung für Katze. 15 €/Tag, Füttern und kurzer Besuch. Tel. 030 552 67 90" },
+            { "id": "B1_m09_R3_ad_h", "type": "ad", "content": "h) Boots-Tour auf dem Rhein – 3 Stunden mit Kaffee und Kuchen, 35 € pro Person. Abfahrt täglich 14 Uhr ab Bingen. www.rhein-boot.de" },
+            { "id": "B1_m09_R3_ad_i", "type": "ad", "content": "i) Ferienhaus in Südtirol – Familienfreundlich, Bergblick, Spielgeräte im Garten. 4 Personen ab 120 € pro Nacht, mind. 3 Nächte. www.huette-suedtirol.de" },
+            { "id": "B1_m09_R3_ad_j", "type": "ad", "content": "j) Work-and-Travel Neuseeland – Beratung und Visum-Hilfe in unserem Büro. Erste Beratung kostenlos, Termine flexibel. info@wat-beratung.de" },
+            { "id": "B1_m09_R3_ad_k", "type": "ad", "content": "k) Flug nach Mallorca – Last-Minute ab 89 € pro Person. Rückflug in 7 Tagen, keine Umbuchung möglich. www.flug-schnell.de" },
+            { "id": "B1_m09_R3_ad_l", "type": "ad", "content": "l) Camping-Platz 'Waldruh' – Ruhige Lage am See, Familienbereich extra, Mietzelte verfügbar. Ab 22 €/Nacht, Strom gegen Aufpreis. www.waldruh-camping.de" }
+          ],
+          "questions": [
+            {
+              "id": "B1_m09_R3_q1",
+              "type": "matching",
+              "questionText": "1. Herr Meier möchte zwei Wochen nach Bali fliegen. Seine Katze soll in der Zeit zu Hause bleiben, aber täglich kurz versorgt werden.",
+              "matchingSources": [
+                { "id": "B1_m09_R3_ad_a", "label": "a" }, { "id": "B1_m09_R3_ad_b", "label": "b" },
+                { "id": "B1_m09_R3_ad_c", "label": "c" }, { "id": "B1_m09_R3_ad_d", "label": "d" },
+                { "id": "B1_m09_R3_ad_e", "label": "e" }, { "id": "B1_m09_R3_ad_f", "label": "f" },
+                { "id": "B1_m09_R3_ad_g", "label": "g" }, { "id": "B1_m09_R3_ad_h", "label": "h" },
+                { "id": "B1_m09_R3_ad_i", "label": "i" }, { "id": "B1_m09_R3_ad_j", "label": "j" },
+                { "id": "B1_m09_R3_ad_k", "label": "k" }, { "id": "B1_m09_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Anzeige g) sucht einen Haustiersitter für eine Katze, der füttert und kurz vorbeikommt – genau Herrn Meiers Bedarf.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m09_R3_q2",
+              "type": "matching",
+              "questionText": "2. Maria studiert und möchte in den Semesterferien drei Wochen Spanisch lernen und gleichzeitig eine Stadt im Süden entdecken.",
+              "matchingSources": [
+                { "id": "B1_m09_R3_ad_a", "label": "a" }, { "id": "B1_m09_R3_ad_b", "label": "b" },
+                { "id": "B1_m09_R3_ad_c", "label": "c" }, { "id": "B1_m09_R3_ad_d", "label": "d" },
+                { "id": "B1_m09_R3_ad_e", "label": "e" }, { "id": "B1_m09_R3_ad_f", "label": "f" },
+                { "id": "B1_m09_R3_ad_g", "label": "g" }, { "id": "B1_m09_R3_ad_h", "label": "h" },
+                { "id": "B1_m09_R3_ad_i", "label": "i" }, { "id": "B1_m09_R3_ad_j", "label": "j" },
+                { "id": "B1_m09_R3_ad_k", "label": "k" }, { "id": "B1_m09_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Anzeige d) bietet eine dreiwöchige Sprachreise nach Barcelona mit Intensivkurs – genau das, was Maria sucht.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m09_R3_q3",
+              "type": "matching",
+              "questionText": "3. Frau Brandt möchte im Sommer eine Woche an der Ostsee verbringen, ganz spontan und auch für nur ein paar Nächte.",
+              "matchingSources": [
+                { "id": "B1_m09_R3_ad_a", "label": "a" }, { "id": "B1_m09_R3_ad_b", "label": "b" },
+                { "id": "B1_m09_R3_ad_c", "label": "c" }, { "id": "B1_m09_R3_ad_d", "label": "d" },
+                { "id": "B1_m09_R3_ad_e", "label": "e" }, { "id": "B1_m09_R3_ad_f", "label": "f" },
+                { "id": "B1_m09_R3_ad_g", "label": "g" }, { "id": "B1_m09_R3_ad_h", "label": "h" },
+                { "id": "B1_m09_R3_ad_i", "label": "i" }, { "id": "B1_m09_R3_ad_j", "label": "j" },
+                { "id": "B1_m09_R3_ad_k", "label": "k" }, { "id": "B1_m09_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Anzeige a) bietet eine Ferienwohnung an der Ostsee, auch für kurze Aufenthalte. Genau Frau Brandts Wunsch.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m09_R3_q4",
+              "type": "matching",
+              "questionText": "4. Herr Schulze ist 62 Jahre alt und reist am liebsten in Gruppen mit deutscher Reiseleitung. Er würde gerne Italien und Frankreich per Bus entdecken.",
+              "matchingSources": [
+                { "id": "B1_m09_R3_ad_a", "label": "a" }, { "id": "B1_m09_R3_ad_b", "label": "b" },
+                { "id": "B1_m09_R3_ad_c", "label": "c" }, { "id": "B1_m09_R3_ad_d", "label": "d" },
+                { "id": "B1_m09_R3_ad_e", "label": "e" }, { "id": "B1_m09_R3_ad_f", "label": "f" },
+                { "id": "B1_m09_R3_ad_g", "label": "g" }, { "id": "B1_m09_R3_ad_h", "label": "h" },
+                { "id": "B1_m09_R3_ad_i", "label": "i" }, { "id": "B1_m09_R3_ad_j", "label": "j" },
+                { "id": "B1_m09_R3_ad_k", "label": "k" }, { "id": "B1_m09_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Anzeige f) bietet geführte Busrundreisen 50+ durch Italien und Frankreich mit deutschsprachiger Leitung – ideal für Herrn Schulze.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m09_R3_q5",
+              "type": "matching",
+              "questionText": "5. Lea möchte im Urlaub in Heidelberg drei Tage lang ein Rad leihen, um die Gegend entlang des Neckars zu erkunden.",
+              "matchingSources": [
+                { "id": "B1_m09_R3_ad_a", "label": "a" }, { "id": "B1_m09_R3_ad_b", "label": "b" },
+                { "id": "B1_m09_R3_ad_c", "label": "c" }, { "id": "B1_m09_R3_ad_d", "label": "d" },
+                { "id": "B1_m09_R3_ad_e", "label": "e" }, { "id": "B1_m09_R3_ad_f", "label": "f" },
+                { "id": "B1_m09_R3_ad_g", "label": "g" }, { "id": "B1_m09_R3_ad_h", "label": "h" },
+                { "id": "B1_m09_R3_ad_i", "label": "i" }, { "id": "B1_m09_R3_ad_j", "label": "j" },
+                { "id": "B1_m09_R3_ad_k", "label": "k" }, { "id": "B1_m09_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Anzeige c) bietet einen Fahrradverleih in Heidelberg mit Tages- und Wochenpreisen – perfekt für Lea.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m09_R3_q6",
+              "type": "matching",
+              "questionText": "6. Familie Kaya plant eine Woche Sommerurlaub mit zwei kleinen Kindern in den Bergen. Sie möchten ein Haus mit Spielmöglichkeiten für die Kleinen.",
+              "matchingSources": [
+                { "id": "B1_m09_R3_ad_a", "label": "a" }, { "id": "B1_m09_R3_ad_b", "label": "b" },
+                { "id": "B1_m09_R3_ad_c", "label": "c" }, { "id": "B1_m09_R3_ad_d", "label": "d" },
+                { "id": "B1_m09_R3_ad_e", "label": "e" }, { "id": "B1_m09_R3_ad_f", "label": "f" },
+                { "id": "B1_m09_R3_ad_g", "label": "g" }, { "id": "B1_m09_R3_ad_h", "label": "h" },
+                { "id": "B1_m09_R3_ad_i", "label": "i" }, { "id": "B1_m09_R3_ad_j", "label": "j" },
+                { "id": "B1_m09_R3_ad_k", "label": "k" }, { "id": "B1_m09_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "i",
+              "explanation": "Anzeige i) bietet ein Ferienhaus in Südtirol mit Bergblick und Spielgeräten im Garten – genau das, was Familie Kaya sucht.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m09_R3_q7",
+              "type": "matching",
+              "questionText": "7. Herr Bauer hat letztes Jahr in Berlin studiert und sucht günstige und regelmäßige Fahrgelegenheiten nach München, um seine Eltern zu besuchen.",
+              "matchingSources": [
+                { "id": "B1_m09_R3_ad_a", "label": "a" }, { "id": "B1_m09_R3_ad_b", "label": "b" },
+                { "id": "B1_m09_R3_ad_c", "label": "c" }, { "id": "B1_m09_R3_ad_d", "label": "d" },
+                { "id": "B1_m09_R3_ad_e", "label": "e" }, { "id": "B1_m09_R3_ad_f", "label": "f" },
+                { "id": "B1_m09_R3_ad_g", "label": "g" }, { "id": "B1_m09_R3_ad_h", "label": "h" },
+                { "id": "B1_m09_R3_ad_i", "label": "i" }, { "id": "B1_m09_R3_ad_j", "label": "j" },
+                { "id": "B1_m09_R3_ad_k", "label": "k" }, { "id": "B1_m09_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Anzeige b) bietet eine regelmäßige Mitfahrgelegenheit München–Berlin (Freitag) für 25 € – ideal für Herrn Bauers wiederkehrende Fahrten.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m09_R3_q8",
+              "type": "matching",
+              "questionText": "8. Frau Özdemir möchte nach dem Abitur ein halbes Jahr in Neuseeland arbeiten. Sie braucht Hilfe beim Visum und eine Beratung.",
+              "matchingSources": [
+                { "id": "B1_m09_R3_ad_a", "label": "a" }, { "id": "B1_m09_R3_ad_b", "label": "b" },
+                { "id": "B1_m09_R3_ad_c", "label": "c" }, { "id": "B1_m09_R3_ad_d", "label": "d" },
+                { "id": "B1_m09_R3_ad_e", "label": "e" }, { "id": "B1_m09_R3_ad_f", "label": "f" },
+                { "id": "B1_m09_R3_ad_g", "label": "g" }, { "id": "B1_m09_R3_ad_h", "label": "h" },
+                { "id": "B1_m09_R3_ad_i", "label": "i" }, { "id": "B1_m09_R3_ad_j", "label": "j" },
+                { "id": "B1_m09_R3_ad_k", "label": "k" }, { "id": "B1_m09_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "j",
+              "explanation": "Anzeige j) bietet Work-and-Travel-Beratung für Neuseeland inklusive Visum-Hilfe – exakt Frau Özdemirs Bedarf.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m09_R3_q9",
+              "type": "matching",
+              "questionText": "9. Familie Berger möchte im Sommerurlaub auf einem ruhigen Campingplatz am See stehen, am liebsten ohne eigenes Zelt mitschleppen zu müssen.",
+              "matchingSources": [
+                { "id": "B1_m09_R3_ad_a", "label": "a" }, { "id": "B1_m09_R3_ad_b", "label": "b" },
+                { "id": "B1_m09_R3_ad_c", "label": "c" }, { "id": "B1_m09_R3_ad_d", "label": "d" },
+                { "id": "B1_m09_R3_ad_e", "label": "e" }, { "id": "B1_m09_R3_ad_f", "label": "f" },
+                { "id": "B1_m09_R3_ad_g", "label": "g" }, { "id": "B1_m09_R3_ad_h", "label": "h" },
+                { "id": "B1_m09_R3_ad_i", "label": "i" }, { "id": "B1_m09_R3_ad_j", "label": "j" },
+                { "id": "B1_m09_R3_ad_k", "label": "k" }, { "id": "B1_m09_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "l",
+              "explanation": "Anzeige l) beschreibt den Campingplatz 'Waldruh' am See mit Familienbereich und Mietzelten – perfekt für Familie Berger.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m09_R3_q10",
+              "type": "matching",
+              "questionText": "10. Opa und Oma Fischer möchten ihren Enkeln zum Geburtstag einen halbtägigen Ausflug auf dem Rhein schenken, inklusive Kaffee und Kuchen.",
+              "matchingSources": [
+                { "id": "B1_m09_R3_ad_a", "label": "a" }, { "id": "B1_m09_R3_ad_b", "label": "b" },
+                { "id": "B1_m09_R3_ad_c", "label": "c" }, { "id": "B1_m09_R3_ad_d", "label": "d" },
+                { "id": "B1_m09_R3_ad_e", "label": "e" }, { "id": "B1_m09_R3_ad_f", "label": "f" },
+                { "id": "B1_m09_R3_ad_g", "label": "g" }, { "id": "B1_m09_R3_ad_h", "label": "h" },
+                { "id": "B1_m09_R3_ad_i", "label": "i" }, { "id": "B1_m09_R3_ad_j", "label": "j" },
+                { "id": "B1_m09_R3_ad_k", "label": "k" }, { "id": "B1_m09_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "h",
+              "explanation": "Anzeige h) bietet eine dreistündige Boots-Tour auf dem Rhein mit Kaffee und Kuchen – exakt das Geschenk, das die Großeltern suchen. Übrig bleiben e) (Zeltverkauf) und k) (Last-Minute-Flug) als Distraktoren.",
+              "pointValue": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    "sprachbausteine": {
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie den folgenden Text und entscheiden Sie, welches Wort (a, b oder c) in die Lücke passt. Es gibt jeweils nur eine richtige Lösung.",
+          "text": "Lieber Stefan,\n\nwie geht es dir? Ich muss dir unbedingt von meiner letzten Reise erzählen. Seit drei Wochen bin ich zurück __(1)__ einem Monat in Portugal, und ich bin wirklich froh, __(2)__ ich mich damals für dieses Land entschieden habe. Mein Reisepartner, __(3)__ ich erst vor Ort kennengelernt habe, war eine wunderbare Begleitung. __(4)__ wir anfangs nicht dieselbe Sprache gesprochen haben, haben wir uns super verstanden.\n\nIn Lissabon haben wir viel erlebt. Unser Hostel __(5)__ von einer netten Familie geführt, und die Gastgeber haben uns viele Tipps gegeben. Wenn ich mehr Urlaubstage __(6)__, würde ich unbedingt noch einmal zurückfliegen – vielleicht im nächsten Herbst.\n\nAm Wochenende gehe ich übrigens oft mit meiner Schwester __(7)__ Fahrradausflug ins Umland. Letzten Sonntag __(8)__ wir bis zu einem kleinen See gefahren und haben dort gepicknickt. Hoffentlich schaffst du es bald, mich zu besuchen – ich würde mich wirklich __(9)__ freuen! Übrigens: Bei der Rückfahrt habe ich im Zug deinen Cousin Matthias getroffen. Er hat mir erzählt, dass er gerade __(10)__ längsten Urlaub seines Lebens plant.\n\nIch freue mich auf deine Antwort.\n\nLiebe Grüße,\nPaula",
+          "questions": [
+            {
+              "blankNumber": 1,
+              "type": "mcq",
+              "options": ["a) nach", "b) von", "c) seit"],
+              "correctAnswer": "b",
+              "explanation": "Die feste Verbindung 'zurück von' + Dativ bezeichnet die Rückkehr aus einer Reise: 'Ich bin zurück von einem Monat in Portugal.' 'nach' würde Ziel/Richtung ausdrücken, 'seit' eine Zeitdauer.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 2,
+              "type": "mcq",
+              "options": ["a) ob", "b) dass", "c) weil"],
+              "correctAnswer": "b",
+              "explanation": "Der Hauptsatz 'Ich bin froh, ...' verlangt einen dass-Satz. 'ob' ist indirekte Frage, 'weil' ein Grundsatz.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 3,
+              "type": "mcq",
+              "options": ["a) den", "b) der", "c) dem"],
+              "correctAnswer": "a",
+              "explanation": "Relativsatz: 'Mein Reisepartner, den ich kennengelernt habe'. Das Relativpronomen bezieht sich auf 'Reisepartner' (Maskulinum) und ist direktes Objekt → Akkusativ Maskulinum: 'den'.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 4,
+              "type": "mcq",
+              "options": ["a) Obwohl", "b) Weil", "c) Trotzdem"],
+              "correctAnswer": "a",
+              "explanation": "Gegensatz zwischen 'nicht dieselbe Sprache' und 'super verstanden' → konzessiv 'obwohl' (Verb am Ende). 'weil' wäre ein Grund, 'trotzdem' verlangt Hauptsatzstellung.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 5,
+              "type": "mcq",
+              "options": ["a) wurde", "b) hat", "c) war"],
+              "correctAnswer": "a",
+              "explanation": "Passiv Präteritum: 'Das Hostel wurde geführt.' Das Subjekt ('Das Hostel') führt die Handlung nicht selbst aus. 'hat' wäre Aktiv-Perfekt, 'war' Zustandspassiv.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 6,
+              "type": "mcq",
+              "options": ["a) habe", "b) hätte", "c) hatte"],
+              "correctAnswer": "b",
+              "explanation": "Irreale Bedingung 'Wenn ich mehr Urlaubstage hätte, würde ich ...' → Konjunktiv II 'hätte'. Die Indikativ-Formen passen nicht zur 'würde'-Form.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 7,
+              "type": "mcq",
+              "options": ["a) zum", "b) auf", "c) zu"],
+              "correctAnswer": "a",
+              "explanation": "Feste Wendung: 'zum Fahrradausflug gehen/fahren' (zu + dem = zum, Dativ). 'auf' passt nicht, 'zu' ohne Artikel ist unvollständig.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 8,
+              "type": "mcq",
+              "options": ["a) waren", "b) sind", "c) haben"],
+              "correctAnswer": "b",
+              "explanation": "Perfekt von 'fahren' (Bewegung) mit 'sein': 'Wir sind gefahren'. 'haben' ist falsch bei Bewegungsverben, 'waren' wäre Präteritum.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 9,
+              "type": "mcq",
+              "options": ["a) für mich", "b) mir", "c) mich"],
+              "correctAnswer": "c",
+              "explanation": "Reflexives Verb 'sich freuen' + Akkusativ: 'ich freue mich'. 'mir' wäre Dativ, 'für mich' ist kein Reflexivpronomen.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 10,
+              "type": "mcq",
+              "options": ["a) dem", "b) das", "c) den"],
+              "correctAnswer": "c",
+              "explanation": "'den längsten Urlaub' – direktes Objekt von 'plant' (Akkusativ Maskulinum): 'den'. Die Adjektivendung '-sten' bestätigt die starke Deklination. 'das' wäre Neutrum, 'dem' Dativ.",
+              "pointValue": 1.5
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Text. Welches Wort aus der Liste a–o passt in die Lücken? Jedes Wort passt nur einmal. Fünf Wörter bleiben übrig.",
+          "text": "Liebe Paula,\n\nvielen __(11)__ für deine wunderbare Urlaubspost – sie hat mich in die Ferne geträumt! Ich muss dir auch gleich etwas erzählen: Ich war vor zwei Wochen zum ersten Mal alleine unterwegs, einen Zugausflug nach Kopenhagen. Am Anfang war ich ziemlich nervös, aber __(12)__ fühle ich mich richtig bereit für weitere Touren.\n\nIm Zug habe ich lange mit einer älteren Dame __(13)__, die schon die halbe Welt gesehen hat. Sie war eine echte Inspiration – und das Gespräch __(14)__ die Zeit wie im Flug vorübergehen. In Kopenhagen selbst bin ich einfach zu Fuß losgezogen und habe überall Fotos gemacht.\n\nFür die Übernachtung habe ich mich entschieden __(15)__ ein kleines Hostel in der Altstadt. __(16)__ meiner zweiten Nacht gab es dort sogar einen offenen Kochabend – ich habe mit Leuten aus Kanada und Japan gekocht, das war großartig.\n\nNur eines ärgert mich: Meine Fluggesellschaft hat die Preise für den Rückflug im nächsten Monat leider __(17)__. Ich hatte mich schon __(18)__ einen zweiten Trip gefreut, aber jetzt überlege ich __(19)__ doch, lieber mit dem Zug zu fahren. Das dauert länger, aber ich sehe unterwegs mehr und zahle weniger.\n\nKomm mich doch bald einmal besuchen! __(20)__ können wir zusammen eine kleine Tagestour planen und in meinem Lieblingscafé frühstücken.\n\nLiebe Grüße,\nStefan",
+          "questions": [
+            {
+              "blankNumber": 11,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) ließ", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) ernsthaft", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) an", "o) damit"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Standardformel 'vielen Dank' am Briefanfang – 'vielen' verlangt direkt 'Dank'. Distraktor k) 'herzlichen' passt ebenfalls zu 'Dank', aber 'vielen' steht schon und lässt nur 'Dank' ohne weiteres Adjektiv zu.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 12,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) ließ", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) ernsthaft", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) an", "o) damit"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Temporales Adverb 'inzwischen' – beschreibt den Wandel vom nervösen Anfang bis jetzt. 'damit' wäre Finalkonnektor und passt nicht.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 13,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) ließ", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) ernsthaft", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) an", "o) damit"
+              ],
+              "correctAnswer": "c",
+              "explanation": "'Ich habe mit der Dame gesprochen' – Perfekt von 'sprechen mit'. Distraktor l) 'nachgedacht' verlangt 'über' und passt nicht zu 'mit einer Dame'.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 14,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) ließ", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) ernsthaft", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) an", "o) damit"
+              ],
+              "correctAnswer": "d",
+              "explanation": "'Das Gespräch ließ die Zeit vorübergehen' – feste Konstruktion mit 'lassen' (Präteritum). Das Verb 'lassen' steht am Satzende ist 'vorübergehen'. Kein anderes Wort passt grammatisch an diese Position.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 15,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) ließ", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) ernsthaft", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) an", "o) damit"
+              ],
+              "correctAnswer": "e",
+              "explanation": "Feste Verb+Präposition 'sich entscheiden für + Akkusativ': 'Ich habe mich entschieden für ein Hostel'. 'an' oder 'auf' passen hier nicht.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 16,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) ließ", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) ernsthaft", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) an", "o) damit"
+              ],
+              "correctAnswer": "f",
+              "explanation": "Zeitangabe 'In meiner zweiten Nacht' mit Dativ. 'In' am Satzanfang, deshalb großgeschrieben.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 17,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) ließ", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) ernsthaft", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) an", "o) damit"
+              ],
+              "correctAnswer": "g",
+              "explanation": "'Die Fluggesellschaft hat die Preise erhöht' – übliches Kollokat 'Preise erhöhen'. Partizip II 'erhöht' schließt das Perfekt ab.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 18,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) ließ", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) ernsthaft", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) an", "o) damit"
+              ],
+              "correctAnswer": "h",
+              "explanation": "Feste Verb+Präposition 'sich freuen auf + Akkusativ' (Vorfreude). 'Ich hatte mich auf einen zweiten Trip gefreut.'",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 19,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) ließ", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) ernsthaft", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) an", "o) damit"
+              ],
+              "correctAnswer": "i",
+              "explanation": "Adverb 'ernsthaft' passt: 'Ich überlege ernsthaft' (Intensivierung der Überlegung). Kein anderes Adverb passt an diese Stelle.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 20,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) ließ", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) ernsthaft", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) an", "o) damit"
+              ],
+              "correctAnswer": "j",
+              "explanation": "Satzanfang 'Dann können wir ...' – zeitliche Verknüpfung. Großschreibung am Satzanfang. Übrig bleiben k) herzlichen, l) nachgedacht, m) reicht, n) an, o) damit als Distraktoren.",
+              "pointValue": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 30,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "letter",
+          "instructions": "Sie haben eine Reise für eine Wanderwoche in den Alpen gebucht. Leider müssen Sie die Reise kurzfristig absagen. Schreiben Sie eine E-Mail an den Reiseveranstalter. Gehen Sie auf alle vier Punkte unten ein. Achten Sie auf eine passende Anrede und einen passenden Gruß. Schreiben Sie ca. 150 Wörter.",
+          "instructionsTranslation": "You have booked a trip for a hiking week in the Alps. Unfortunately, you have to cancel the trip on short notice. Write an email to the tour operator. Address all four points below. Pay attention to appropriate greeting and closing. Write approximately 150 words.",
+          "prompt": "Situation: Sie haben bei der Firma 'Alpen-Aktiv' eine Wanderwoche in den Alpen gebucht, die in drei Wochen startet. Sie müssen leider absagen.\n\nSchreiben Sie eine E-Mail an den Reiseveranstalter. Gehen Sie auf die folgenden vier Punkte ein:\n\n- Grund: Warum müssen Sie die Reise absagen?\n- Rückfrage Kosten: Fragen Sie, ob Sie die bezahlte Anzahlung zurückbekommen oder ob ein anderer Termin möglich wäre.\n- Alternative: Schlagen Sie einen Ersatztermin vor (z.B. im Herbst).\n- Rückfrage Versicherung: Fragen Sie, ob Ihre Reiserücktrittsversicherung hilft oder was Sie dafür tun müssten.\n\nVergessen Sie nicht Anrede, Einleitung und Grußformel. Schreiben Sie ca. 150 Wörter.",
+          "promptTranslation": "Situation: You booked a hiking week in the Alps with the company 'Alpen-Aktiv', which starts in three weeks. You have to cancel.\n\nWrite an email to the tour operator. Address these four points:\n\n- Reason: Why do you have to cancel the trip?\n- Question about costs: Ask whether you get your deposit back or if another date would be possible.\n- Alternative: Suggest a replacement date (e.g. in autumn).\n- Question about insurance: Ask whether your travel cancellation insurance helps or what you would need to do.\n\nDon't forget greeting, introduction, and closing. Write approximately 150 words.",
+          "requiredPoints": [
+            "Grund für die Absage der Reise",
+            "Rückfrage zu Anzahlung / alternativem Termin",
+            "Vorschlag für einen Ersatztermin",
+            "Rückfrage zur Reiserücktrittsversicherung"
+          ],
+          "wordCountMin": 130,
+          "wordCountMax": 170,
+          "sampleAnswer": "Sehr geehrte Damen und Herren,\n\nvor zwei Monaten habe ich bei Ihnen die Wanderwoche 'Alpenblick Classic' vom 10. bis 17. Juni gebucht. Leider muss ich Ihnen heute mitteilen, dass ich die Reise absagen muss.\n\nLetzte Woche habe ich mir beim Laufen das Knie verletzt. Mein Arzt hat mir geraten, die nächsten zwei Monate auf Wandern und lange Wege zu verzichten. Unter diesen Umständen ist die gebuchte Reise für mich leider nicht machbar.\n\nMeine erste Frage ist: Gibt es eine Möglichkeit, den bereits gezahlten Betrag auf einen späteren Termin zu übertragen? Ich würde mich sehr freuen, wenn ich die Wanderwoche im Herbst, zum Beispiel Anfang September, nachholen könnte. Das Wetter ist dann auch noch angenehm.\n\nAußerdem habe ich eine Reiserücktrittsversicherung abgeschlossen. Können Sie mir bitte kurz schreiben, welche Unterlagen ich Ihnen schicken muss, damit die Versicherung die Kosten übernimmt?\n\nVielen Dank für Ihr Verständnis und Ihre Rückmeldung.\n\nMit freundlichen Grüßen\nSophie Keller",
+          "scoringCriteria": [
+            {
+              "criterion": "I. Inhaltliche Vollständigkeit",
+              "maxPoints": 15,
+              "description": "Alle vier Leitpunkte (Grund, Kosten/Termin, Ersatztermin, Versicherung) sind klar behandelt. Wird einer dieser Punkte als nicht bearbeitet bewertet (D), erhält der gesamte Text 0 Punkte."
+            },
+            {
+              "criterion": "II. Kommunikative Gestaltung",
+              "maxPoints": 15,
+              "description": "Formelle Anrede ('Sehr geehrte Damen und Herren'), klare Einleitung mit Referenz auf die gebuchte Reise, passende Konnektoren (leider, außerdem, zum Beispiel), formelle Grußformel, sinnvolle Absatzstruktur."
+            },
+            {
+              "criterion": "III. Formale Richtigkeit",
+              "maxPoints": 15,
+              "description": "Grammatik, Rechtschreibung und Wortwahl auf B1-Niveau. Korrekte Verbformen (Perfekt, Konjunktiv II für höfliche Bitten), Satzstellung in Nebensätzen, Kasus nach Präpositionen. Schwere Grammatikfehler, die das Verständnis blockieren, führen zu D (und damit 0 Punkten für den gesamten Text)."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "introduce",
+          "instructions": "Stellen Sie sich Ihrem Gesprächspartner/Ihrer Gesprächspartnerin vor. Sprechen Sie über sich: Name, Herkunft, Wohnort, Familie, Beruf oder Ausbildung, Hobbys und Sprachen. Stellen Sie anschließend Ihrem Partner/Ihrer Partnerin mindestens zwei Fragen.",
+          "instructionsTranslation": "Introduce yourself to your conversation partner. Talk about: name, origin, place of residence, family, work or education, hobbies, and languages. Afterwards ask your partner at least two questions.",
+          "prompt": "Bitte stellen Sie sich Ihrem Partner / Ihrer Partnerin vor. Sprechen Sie u.a. über:\n- Ihren Namen und Ihre Herkunft\n- Ihren aktuellen Wohnort und seit wann Sie dort leben\n- Ihre Familie\n- Ihren Beruf oder Ihr Studium\n- Ihre Hobbys und Interessen\n- Die Sprachen, die Sie sprechen\n\nStellen Sie danach Ihrem Partner / Ihrer Partnerin mindestens zwei Fragen, um mehr über sie/ihn zu erfahren. Vorbereitungszeit: 20 Minuten für die gesamte mündliche Prüfung.",
+          "sampleResponse": "Guten Tag, mein Name ist Sophie Keller, und ich komme ursprünglich aus Dresden. Seit sechs Jahren wohne ich in Stuttgart, wo ich in einem Reisebüro arbeite und Kundinnen bei Reiseplanungen unterstütze. Meine Familie lebt noch in Dresden – meine Eltern, meine Schwester und ihre zwei Kinder, die ich oft besuche. In meiner Freizeit reise ich leidenschaftlich gerne, am liebsten mit dem Zug durch Europa. Letztes Jahr war ich drei Wochen in Portugal, und im Sommer möchte ich nach Polen. Außerdem lese ich gerne Reiseblogs und plane schon Routen für kommende Ferien. Neben Deutsch spreche ich Englisch flüssig und Französisch auf einem guten Niveau – das hilft mir in vielen Ländern. Gerade lerne ich noch ein bisschen Portugiesisch. Und wie ist das bei dir? Woher kommst du, und wo warst du zuletzt im Urlaub?",
+          "evaluationTips": [
+            "Strukturieren Sie Ihre Vorstellung: Name, Herkunft, Wohnort, Familie, Beruf, Hobbys",
+            "Verwenden Sie Nebensätze mit 'weil', 'der/die', 'wo' – das zeigt B1-Niveau",
+            "Nennen Sie konkrete Details (Stadt, Jahre, Berufsbezeichnung, Reiseziel)",
+            "Stellen Sie W-Fragen, keine Ja/Nein-Fragen",
+            "Reagieren Sie auf die Antworten Ihres Partners mit kurzen Kommentaren",
+            "Verbinden Sie Themen: 'Ich reise gerne, weil ich ...'"
+          ],
+          "keyPhrases": [
+            "Mein Name ist ... und ich komme aus ...",
+            "Seit ... Jahren wohne ich in ...",
+            "Beruflich arbeite ich als ...",
+            "In meiner Freizeit ...",
+            "Neben Deutsch spreche ich ...",
+            "Und wie ist das bei dir/Ihnen?",
+            "Darf ich dich/Sie etwas fragen?"
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "discussion",
+          "instructions": "Sie erhalten einen kurzen Text zum Thema. Fassen Sie den Inhalt für Ihren Partner zusammen, beantworten Sie die drei Leitfragen, und tauschen Sie Ihre Meinung mit dem Partner aus.",
+          "instructionsTranslation": "You receive a short text on the topic. Summarize the content for your partner, answer the three guiding questions, and exchange your opinions with your partner.",
+          "prompt": "Thema: Reisen und Umwelt\n\nLesen Sie den folgenden kurzen Text:\n\n'Eine aktuelle Umfrage zeigt: Rund 60 Prozent der Deutschen unter 30 Jahren finden nachhaltiges Reisen wichtig. Trotzdem fliegen viele auch nach Mallorca oder Thailand in den Urlaub. Fachleute sagen, dass vor allem der Preis die Entscheidung beeinflusst: Flüge sind oft günstiger als die Bahnfahrt innerhalb Europas.'\n\nLeitfragen:\n1. Fassen Sie kurz den Inhalt des Textes zusammen (in 2–3 Sätzen).\n2. Wie reisen Sie persönlich am liebsten, und warum?\n3. Was müsste Ihrer Meinung nach passieren, damit mehr Menschen umweltfreundlich reisen?\n\nSprechen Sie mit Ihrem Partner/Ihrer Partnerin über das Thema – fragen Sie auch nach seiner/ihrer Meinung.",
+          "sampleResponse": "Der Text sagt, dass rund 60 Prozent der jungen Deutschen nachhaltiges Reisen wichtig finden. Trotzdem fliegen viele ins Ausland, weil Flüge oft günstiger sind als Bahnreisen in Europa.\n\nIch reise selbst am liebsten mit dem Zug. Letztes Jahr war ich zum Beispiel drei Wochen in Portugal – meistens mit Zug und Bus. Das hat länger gedauert als ein Flug, aber ich habe unterwegs viele kleine Städte gesehen. Leider finde ich auch die Preise für die Bahn in Deutschland oft zu hoch.\n\nMeiner Meinung nach müsste der Staat die Zugpreise senken und Kurzstreckenflüge teurer machen. Einerseits ist die Freiheit zu reisen wichtig, andererseits müssen wir aufs Klima achten. Außerdem finde ich, dass Schulen und Firmen mehr Ausflüge mit dem Zug planen sollten – so lernen wir, wie entspannt das sein kann. Wie reist du am liebsten? Nimmst du oft das Flugzeug?",
+          "evaluationTips": [
+            "Beginnen Sie mit einer Zusammenfassung in 2–3 Sätzen, bevor Sie Ihre Meinung äußern",
+            "Nennen Sie konkrete Beispiele aus Ihren eigenen Reisen",
+            "Verwenden Sie Meinungsformulierungen: 'Meiner Meinung nach ...', 'Ich finde, dass ...'",
+            "Gliedern Sie Vor- und Nachteile: 'Einerseits ..., andererseits ...'",
+            "Stellen Sie dem Partner eine offene Rückfrage",
+            "Benutzen Sie Konnektoren wie 'allerdings', 'außerdem', 'deshalb'"
+          ],
+          "keyPhrases": [
+            "Im Text geht es um ...",
+            "Der Text berichtet, dass ...",
+            "Meiner Meinung nach ...",
+            "Ich finde es wichtig, dass ...",
+            "Einerseits ... andererseits ...",
+            "Ein Vorteil/Nachteil ist, dass ...",
+            "Wie siehst du das?",
+            "Stimmst du mir da zu?"
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Sie sollen mit Ihrem Partner gemeinsam etwas planen. Machen Sie Vorschläge, reagieren Sie auf die Ideen Ihres Partners und einigen Sie sich am Ende auf eine gemeinsame Lösung.",
+          "instructionsTranslation": "You are going to plan something together with your partner. Make suggestions, respond to your partner's ideas, and agree on a joint solution at the end.",
+          "prompt": "Sie und Ihr Partner / Ihre Partnerin möchten zusammen einen einwöchigen Urlaub planen. Besprechen Sie Ihre Ideen und einigen Sie sich auf ein gemeinsames Ziel.\n\nBesprechen Sie bitte folgende Punkte und kommen Sie zu einer gemeinsamen Entscheidung:\n\n- Wann soll der Urlaub stattfinden und wohin (Inland oder Ausland, Stadt oder Land)?\n- Wie reisen Sie (Zug, Flugzeug, Auto)?\n- Welche Unterkunft wählen Sie (Hotel, Ferienwohnung, Camping)?\n- Was möchten Sie im Urlaub erleben (Kultur, Natur, Sport, Erholung)?\n- Wie viel Geld möchten Sie pro Person insgesamt ausgeben? Wer übernimmt welche Aufgabe (Buchung, Anreise, Aktivitäten)?\n\nMachen Sie Vorschläge, gehen Sie auf die Vorschläge Ihres Partners ein und einigen Sie sich am Ende.",
+          "sampleResponse": "Also, ich würde vorschlagen, dass wir Mitte September für eine Woche verreisen – da ist das Wetter noch schön und die Preise sind schon etwas niedriger. Was hältst du von Südtirol? Dort können wir Natur, Kultur und gutes Essen kombinieren.\n\nBei der Anreise schlage ich den Zug vor. Die Fahrt dauert zwar länger, aber wir können unterwegs schon entspannen, und es ist umweltfreundlicher. Was meinst du?\n\nAls Unterkunft würde ich eine kleine Ferienwohnung buchen – so haben wir mehr Platz als im Hotel und können auch mal selbst kochen. Bei den Aktivitäten schlage ich eine Mischung vor: ein paar Wanderungen, einen Ausflug in die Stadt Bozen und einen Tag am See zur Erholung.\n\nBeim Budget schlage ich ungefähr 800 Euro pro Person vor – Unterkunft, Zug und Essen. Ist das realistisch für dich? Bei den Aufgaben: Ich buche gerne die Unterkunft und die Zugtickets. Könntest du die Wandertouren recherchieren und die Karten besorgen? Dann ist alles gut aufgeteilt. Einverstanden? Prima, dann halten wir das so fest.",
+          "evaluationTips": [
+            "Hören Sie aktiv zu und reagieren Sie konkret auf die Vorschläge Ihres Partners",
+            "Machen Sie Vorschläge mit Konjunktiv II ('Ich würde vorschlagen ...', 'Wir könnten ...')",
+            "Begründen Sie Vorschläge kurz mit 'weil' oder 'damit'",
+            "Einigen Sie sich klar am Ende: 'Einverstanden?' oder 'Dann halten wir das so fest.'",
+            "Teilen Sie Aufgaben explizit auf – wer macht was",
+            "Fassen Sie am Ende die wichtigsten Entscheidungen kurz zusammen"
+          ],
+          "keyPhrases": [
+            "Ich würde vorschlagen, dass ...",
+            "Was hältst du davon, wenn ...?",
+            "Wir könnten zum Beispiel ...",
+            "Das ist eine gute Idee, aber ...",
+            "Alternativ könnten wir auch ...",
+            "Wer übernimmt ...?",
+            "Ich buche ..., kannst du ...?",
+            "Einverstanden!",
+            "Dann halten wir fest: ..."
+          ]
+        }
+      ]
+    }
   }
 }
