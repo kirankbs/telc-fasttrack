@@ -600,7 +600,7 @@
                 { "id": "B2_m01_R3_ad_k", "label": "k" }, { "id": "B2_m01_R3_ad_l", "label": "l" }
               ],
               "correctAnswer": "x",
-              "explanation": "Keine der zwölf Anzeigen bietet eine mehrtägige Assessment-Center-Simulation. Anzeige c) deckt nur schriftliches Feedback auf Unterlagen ab, nicht das Auftreten. Anzeige i) ist ein Fachkongress zur Zukunft der Arbeit, keine AC-Simulation. Anzeige a) ist eine 90-minütige Einzelberatung – kein mehrtägiges Assessment. Die Situation erfordert also die Antwort 'x' (kein passendes Angebot). Anzeigen j) (VHS-Deutschkurs C1) und l) (Fernstudium Wirtschaftspsychologie) bleiben als Distraktoren in der Anzeigenliste übrig, passen zu keiner der zehn Situationen."
+              "explanation": "Keine der zwölf Anzeigen bietet eine mehrtägige Assessment-Center-Simulation. Anzeige c) deckt nur schriftliches Feedback auf Unterlagen ab, nicht das Auftreten. Anzeige i) ist ein Fachkongress zur Zukunft der Arbeit, keine AC-Simulation. Anzeige a) ist eine 90-minütige Einzelberatung – kein mehrtägiges Assessment. Die Situation erfordert also die Antwort 'x' (kein passendes Angebot). [PEDAGOGY-REWRITE] Anzeigen i) (Kongress 'Zukunft Arbeit 2026'), j) (VHS-Deutschkurs C1) und l) (Fernstudium Wirtschaftspsychologie) bleiben als die drei ungenutzten Distraktoren in der Anzeigenliste übrig."
             }
           ]
         }
@@ -618,7 +618,7 @@
               "type": "mcq",
               "options": ["a) durchgeführt", "b) durchführte", "c) durchzuführen", "d) durchführend"],
               "correctAnswer": "a",
-              "explanation": "Zustandspassiv/Passiv-Perfekt: 'die von der Personalabteilung durchgeführt worden ist' — Vorgangspassiv im Perfekt (wurde + Partizip II, hier mit 'ist worden' als Passiv-Perfekt). Das Partizip II 'durchgeführt' ist zwingend. Distraktoren: b) 'durchführte' wäre Aktiv-Präteritum (falsche Diathese), c) zu+Infinitiv passt grammatisch nicht zu 'ist worden', d) Partizip I signalisiert laufende Handlung und kombiniert nicht mit 'worden'. B2-Grammatik: Passiv-Perfekt."
+              "explanation": "Vorgangspassiv Perfekt: 'die von der Personalabteilung durchgeführt worden ist' — Bildung: sein + Partizip II + worden (nicht: Zustandspassiv, das 'sein + Partizip II' ohne 'worden' wäre). Das Partizip II 'durchgeführt' ist zwingend. Distraktoren: b) 'durchführte' wäre Aktiv-Präteritum (falsche Diathese), c) zu+Infinitiv passt grammatisch nicht zu 'ist worden', d) Partizip I signalisiert laufende Handlung und kombiniert nicht mit 'worden'. B2-Grammatik: Vorgangspassiv Perfekt."
             },
             {
               "blankNumber": 2,
@@ -644,9 +644,9 @@
             {
               "blankNumber": 5,
               "type": "mcq",
-              "options": ["a) Wegen", "b) Trotz", "c) Angesichts", "d) Außer"],
+              "options": ["a) Mangels", "b) Trotz", "c) Angesichts", "d) Außer"],
               "correctAnswer": "c",
-              "explanation": "Genitiv-Präposition mit passender Semantik: 'Angesichts der erheblichen Investitionen' = 'in Anbetracht, im Hinblick auf' – betont, dass die Investitionen die Erwartung rechtfertigen. Distraktoren: a) 'Wegen' wäre semantisch möglich, aber im formellen B2-Register ist 'angesichts' präziser und gehobener, b) 'Trotz' widerspricht der Logik (Erwartung trotz Investitionen ergibt keinen Sinn), d) 'Außer' heißt 'mit Ausnahme von' – unsinnig. B2-Präposition mit Genitiv: 'angesichts' ist die erwartete Form."
+              "explanation": "[PEDAGOGY-REWRITE] Genitiv-Präposition mit passender Semantik: 'Angesichts der erheblichen Investitionen' = 'in Anbetracht, im Hinblick auf' – betont, dass die Investitionen die Erwartung rechtfertigen. Distraktoren: a) 'Mangels' (= für Mangel an) widerspricht dem Kontext – es WERDEN investiert, es fehlt nichts, b) 'Trotz' widerspricht der Logik (Erwartung trotz Investitionen ergibt keinen Sinn), d) 'Außer' heißt 'mit Ausnahme von' – unsinnig. Alle vier Optionen regieren den Genitiv, aber nur 'angesichts' passt semantisch. B2-Präposition mit Genitiv."
             },
             {
               "blankNumber": 6,
@@ -688,24 +688,24 @@
         {
           "partNumber": 2,
           "instructions": "Lesen Sie den folgenden Text. Welches Wort aus der Liste a–o passt in die Lücken? Jedes Wort passt nur einmal. Fünf Wörter bleiben übrig.",
-          "text": "Wer sich heute um eine anspruchsvolle Stelle bewirbt, steht unter hohem Erwartungsdruck. Die Zahl der Bewerberinnen und Bewerber ist in vielen Branchen erheblich, und Personalabteilungen sichten täglich __(11)__ Lebensläufe. Ein sorgfältig gestaltetes Anschreiben kann in __(12)__ Fällen den Unterschied zwischen Einladung und Absage ausmachen.\n\nAllerdings reicht es nicht aus, lediglich frühere Aufgaben zu beschreiben. Moderne Bewerbungsberatungen empfehlen __(13)__, die eigene Motivation klar zu benennen und konkrete Bezüge zur ausgeschriebenen Stelle herzustellen. __(14)__ gelingt es oft, aus einer Bewerbung eine einprägsame Geschichte zu machen, die Personalverantwortliche auch nach Hunderten anderer Unterlagen noch im Kopf behalten.\n\nEin weiterer wichtiger Punkt __(15)__ die realistische Selbsteinschätzung. Wer Kompetenzen übertreibt, fliegt spätestens im Vorstellungsgespräch __(16)__. Umgekehrt führen unnötige Bescheidenheit und das Herunterspielen eigener Leistungen dazu, dass vorhandenes Potenzial gar nicht erst wahrgenommen wird. Ein ehrlicher, präziser Ton gilt deshalb als goldene __(17)__.\n\n__(18)__ der hohen Belastung im Auswahlprozess setzen viele Unternehmen inzwischen auf strukturierte Interviews und digitale Vorauswahl. Das nimmt Bewerbenden zwar Spielraum, erhöht aber die Vergleichbarkeit der Ergebnisse. Fachleute sehen __(19)__ eine faire Tendenz – sofern die eingesetzten Verfahren transparent bleiben.\n\nWer seine Bewerbung auf diese Weise __(20)__ plant, vergrößert seine Chancen erheblich. Eine Bewerbung ist keine Formalität, sondern die erste berufliche Leistung für den potenziellen neuen Arbeitgeber.",
+          "text": "Wer sich heute um eine anspruchsvolle Stelle bewirbt, steht unter hohem Erwartungsdruck. Die Zahl der Bewerberinnen und Bewerber ist in vielen Branchen erheblich, und Personalabteilungen sichten täglich __(11)__ Lebensläufe. Ein sorgfältig gestaltetes Anschreiben kann in __(12)__ Fällen den Unterschied zwischen Einladung und Absage ausmachen.\n\nAllerdings reicht es nicht aus, lediglich frühere Aufgaben zu beschreiben. Moderne Bewerbungsberatungen raten __(13)__, die eigene Motivation klar zu benennen und konkrete Bezüge zur ausgeschriebenen Stelle herzustellen. __(14)__ gelingt es oft, aus einer Bewerbung eine einprägsame Geschichte zu machen, die Personalverantwortliche auch nach Hunderten anderer Unterlagen noch im Kopf behalten.\n\nEin weiterer wichtiger Punkt __(15)__ die realistische Selbsteinschätzung. Wer Kompetenzen übertreibt, fliegt spätestens im Vorstellungsgespräch __(16)__. Umgekehrt führen unnötige Bescheidenheit und das Herunterspielen eigener Leistungen dazu, dass vorhandenes Potenzial gar nicht erst wahrgenommen wird. Ein ehrlicher, präziser Ton gilt deshalb als goldene __(17)__.\n\n__(18)__ der hohen Belastung im Auswahlprozess setzen viele Unternehmen inzwischen auf strukturierte Interviews und digitale Vorauswahl. Das nimmt Bewerbenden zwar Spielraum, erhöht aber die Vergleichbarkeit der Ergebnisse. Fachleute sehen __(19)__ eine faire Tendenz – sofern die eingesetzten Verfahren transparent bleiben.\n\nWer seine Bewerbung auf diese Weise plant, kann seine Chancen __(20)__ verbessern. Eine Bewerbung ist keine Formalität, sondern die erste berufliche Leistung für den potenziellen neuen Arbeitgeber.",
           "questions": [
             {
               "blankNumber": 11,
               "type": "word_bank",
               "options": [
-                "a) hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
                 "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
                 "k) bei", "l) entscheidend", "m) jeden", "n) stellt", "o) wenigen"
               ],
               "correctAnswer": "a",
-              "explanation": "'hunderte Lebensläufe' — indefinite Mengenangabe (Plural ohne Artikel). Distraktor o) 'wenigen' würde das Gegenteil bedeuten und widerspricht dem Kontext ('erheblich', 'täglich'). B2-Vokabular: 'hunderte' als großzügige Mengenangabe, typisch für Nachrichtensprache."
+              "explanation": "'Hunderte Lebensläufe' — indefinite Mengenangabe (Plural ohne Artikel). Als substantivierte Zahladjektiv-Form wird 'Hunderte' großgeschrieben. Distraktor o) 'wenigen' würde das Gegenteil bedeuten und widerspricht dem Kontext ('erheblich', 'täglich'). B2-Vokabular: 'Hunderte' als großzügige Mengenangabe, typisch für Nachrichtensprache."
             },
             {
               "blankNumber": 12,
               "type": "word_bank",
               "options": [
-                "a) hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
                 "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
                 "k) bei", "l) entscheidend", "m) jeden", "n) stellt", "o) wenigen"
               ],
@@ -716,18 +716,18 @@
               "blankNumber": 13,
               "type": "word_bank",
               "options": [
-                "a) hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
                 "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
                 "k) bei", "l) entscheidend", "m) jeden", "n) stellt", "o) wenigen"
               ],
               "correctAnswer": "c",
-              "explanation": "Feste Kombination: 'raten zu etwas' → hier als Pronominaladverb: 'empfehlen dazu, ... zu benennen' (auf das Folgende verweisend). 'dazu' verweist auf den zu+Infinitiv-Nebensatz. Distraktor i) 'darin' verweist eher auf 'in etwas', hier folgt aber 'zu+Infinitiv'. Pronominaladverb-Kenntnisse gehören zu B2."
+              "explanation": "Feste Kombination: 'jemandem raten zu etwas' → korrelatives Pronominaladverb 'dazu' verweist auf den nachfolgenden zu+Infinitiv-Satz: 'raten dazu, ... zu benennen'. Distraktor i) 'darin' verweist auf 'in etwas' und passt nicht zu einem zu+Infinitiv-Anschluss. Pronominaladverb-Kenntnisse gehören zu B2."
             },
             {
               "blankNumber": 14,
               "type": "word_bank",
               "options": [
-                "a) hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
                 "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
                 "k) bei", "l) entscheidend", "m) jeden", "n) stellt", "o) wenigen"
               ],
@@ -738,7 +738,7 @@
               "blankNumber": 15,
               "type": "word_bank",
               "options": [
-                "a) hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
                 "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
                 "k) bei", "l) entscheidend", "m) jeden", "n) stellt", "o) wenigen"
               ],
@@ -749,7 +749,7 @@
               "blankNumber": 16,
               "type": "word_bank",
               "options": [
-                "a) hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
                 "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
                 "k) bei", "l) entscheidend", "m) jeden", "n) stellt", "o) wenigen"
               ],
@@ -760,7 +760,7 @@
               "blankNumber": 17,
               "type": "word_bank",
               "options": [
-                "a) hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
                 "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
                 "k) bei", "l) entscheidend", "m) jeden", "n) stellt", "o) wenigen"
               ],
@@ -771,7 +771,7 @@
               "blankNumber": 18,
               "type": "word_bank",
               "options": [
-                "a) hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
                 "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
                 "k) bei", "l) entscheidend", "m) jeden", "n) stellt", "o) wenigen"
               ],
@@ -782,7 +782,7 @@
               "blankNumber": 19,
               "type": "word_bank",
               "options": [
-                "a) hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
                 "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
                 "k) bei", "l) entscheidend", "m) jeden", "n) stellt", "o) wenigen"
               ],
@@ -793,12 +793,12 @@
               "blankNumber": 20,
               "type": "word_bank",
               "options": [
-                "a) hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
                 "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
                 "k) bei", "l) entscheidend", "m) jeden", "n) stellt", "o) wenigen"
               ],
               "correctAnswer": "l",
-              "explanation": "Adverbiale Funktion: 'entscheidend plant' = in einer entscheidenden Weise. 'entscheidend' als unflektiertes Adverb verstärkt das Verb 'plant' und fasst die zentrale Aussage des Textes zusammen (alle vorher genannten Punkte sind entscheidend für den Erfolg). Distraktoren: j) 'über' wäre Präposition ohne passenden Kontext (kein Objekt), k) 'bei' ebenso, m) 'jeden' wäre Determiner ohne nachfolgendes Substantiv, n) 'stellt' würde Verbdopplung erzeugen (neben 'plant'), o) 'wenigen' kehrt die positive Aussage unsinnig um. Die verbleibenden fünf Distraktoren (j, k, m, n, o) passen zu keiner Lücke im Text."
+              "explanation": "[PEDAGOGY-REWRITE] Adverbiale Funktion: 'kann seine Chancen entscheidend verbessern' — 'entscheidend' als unflektiertes Adverb verstärkt das Verb 'verbessern' und bildet eine natürliche Kollokation (vgl. 'entscheidend beitragen', 'entscheidend verändern'). Es fasst die zentrale Aussage des Textes zusammen. Distraktoren: j) 'über' wäre Präposition ohne passenden Kontext (kein Objekt), k) 'bei' ebenso, m) 'jeden' wäre Determiner ohne nachfolgendes Substantiv, n) 'stellt' würde Verbdopplung erzeugen, o) 'wenigen' kehrt die positive Aussage unsinnig um. Die verbleibenden fünf Distraktoren (j, k, m, n, o) passen zu keiner Lücke im Text."
             }
           ]
         }
