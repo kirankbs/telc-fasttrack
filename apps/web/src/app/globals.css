@@ -1,63 +1,211 @@
 @import "tailwindcss";
 
+/* ------------------------------------------------------------------ */
+/* Fastrack Deutsch — Design Tokens (Phase 1)                         */
+/* Source: .planning/design-system/tokens.md                          */
+/* Palette tokens are static; semantic tokens remap in dark mode.     */
+/* ------------------------------------------------------------------ */
+
 @theme {
-  /* Brand */
-  --color-brand-primary: #1a3a5c;
-  --color-brand-primary-light: #2a5298;
-  --color-brand-primary-surface: #e8f0fe;
+  /* -- Fonts ------------------------------------------------------- */
+  --font-sans: var(--font-sans-var), system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: var(--font-display-var), Georgia, "Times New Roman", serif;
+  --font-mono: var(--font-mono-var), ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
 
-  /* Levels */
-  --color-level-a1: #4caf50;
-  --color-level-a2: #8bc34a;
-  --color-level-b1: #ff9800;
-  --color-level-b2: #ff5722;
-  --color-level-c1: #9c27b0;
+  /* -- Brand palette (Ink Navy) ------------------------------------ */
+  --color-brand-50: #eef2f8;
+  --color-brand-100: #d5e0ef;
+  --color-brand-200: #a8bfdf;
+  --color-brand-300: #7099c8;
+  --color-brand-400: #3d72b0;
+  --color-brand-500: #1e5599;
+  --color-brand-600: #1a3a5c;
+  --color-brand-700: #152e4a;
+  --color-brand-800: #0e2038;
+  --color-brand-900: #081527;
+  --color-brand-950: #040c18;
 
-  /* Semantic */
-  --color-success: #2e7d32;
-  --color-success-light: #e8f5e9;
-  --color-warning: #f57c00;
-  --color-warning-light: #fff3e0;
-  --color-error: #c62828;
-  --color-error-light: #ffebee;
+  /* -- Neutral palette --------------------------------------------- */
+  --color-neutral-0: #ffffff;
+  --color-neutral-50: #f7f7f8;
+  --color-neutral-100: #f0f0f1;
+  --color-neutral-150: #e8e8ea;
+  --color-neutral-200: #d9d9db;
+  --color-neutral-300: #c0c0c3;
+  --color-neutral-400: #9a9a9e;
+  --color-neutral-500: #6b6b70;
+  --color-neutral-600: #48484e;
+  --color-neutral-700: #2e2e34;
+  --color-neutral-800: #1c1c21;
+  --color-neutral-900: #101013;
+  --color-neutral-950: #08080a;
 
-  /* Pass / Fail */
-  --color-pass: #2e7d32;
-  --color-fail: #c62828;
-  --color-pass-light: #e8f5e9;
-  --color-fail-light: #ffebee;
+  /* -- CEFR level colors (WCAG AA on white text) ------------------- */
+  --color-level-a1-solid: #2d8a4e;
+  --color-level-a1-surface: #eaf7ef;
+  --color-level-a1-text: #1a5c34;
+  --color-level-a2-solid: #5e8a1a;
+  --color-level-a2-surface: #f1f7e6;
+  --color-level-a2-text: #3d5c10;
+  --color-level-b1-solid: #b86200;
+  --color-level-b1-surface: #fff4e6;
+  --color-level-b1-text: #7a4200;
+  --color-level-b2-solid: #c0390b;
+  --color-level-b2-surface: #fdeee9;
+  --color-level-b2-text: #8a2608;
+  --color-level-c1-solid: #6b2fa0;
+  --color-level-c1-surface: #f3ecfa;
+  --color-level-c1-text: #4a1f70;
 
-  /* Neutral surfaces */
+  /* -- Semantic: Surfaces ------------------------------------------ */
+  --color-background: #f7f7f8;
   --color-surface: #ffffff;
-  --color-surface-container: #f0f4f8;
-  --color-surface-container-high: #e4e8ec;
+  --color-surface-raised: #ffffff;
+  --color-surface-container: #f0f0f1;
+  --color-surface-container-hi: #e8e8ea;
+  /* Legacy alias used by existing components */
+  --color-surface-container-high: #e8e8ea;
 
-  /* Text */
-  --color-text-primary: #1a1a2e;
-  --color-text-secondary: #5f6368;
-  --color-text-disabled: #9e9e9e;
+  /* -- Semantic: Borders ------------------------------------------- */
+  --color-border: #d9d9db;
+  --color-border-hover: #c0c0c3;
+  --color-border-focus: #1e5599;
 
-  /* Timer */
+  /* -- Semantic: Text ---------------------------------------------- */
+  --color-text-primary: #2e2e34;
+  --color-text-secondary: #6b6b70;
+  --color-text-tertiary: #9a9a9e;
+  --color-text-disabled: #9a9a9e;
+  --color-text-on-brand: #ffffff;
+  --color-text-on-level: #ffffff;
+
+  /* -- Semantic: Interactive --------------------------------------- */
+  --color-interactive-primary: #1a3a5c;
+  --color-interactive-primary-hover: #152e4a;
+  --color-interactive-primary-focus: #1e5599;
+
+  /* -- Semantic: Status -------------------------------------------- */
+  --color-success: #1e6e36;
+  --color-success-surface: #eaf7ef;
+  --color-warning: #9a5200;
+  --color-warning-surface: #fff4e6;
+  --color-error: #b91c1c;
+  --color-error-surface: #fdecea;
+  --color-info: #1e5599;
+  --color-info-surface: #eef2f8;
+
+  /* -- Semantic: Pass / Fail (exam) -------------------------------- */
+  --color-pass: #1e6e36;
+  --color-pass-surface: #eaf7ef;
+  --color-fail: #b91c1c;
+  --color-fail-surface: #fdecea;
+
+  /* -- Semantic: Timer (never red — amber is max alarm) ------------ */
+  --color-timer-default: #1a3a5c;
+  --color-timer-warning: #9a5200;
+  --color-timer-warning-surface: #fff4e6;
+
+  /* -- Semantic: Streak (calm brand tint, no fire) ----------------- */
+  --color-streak: #1e5599;
+  --color-streak-surface: #eef2f8;
+
+  /* -- Semantic: Readiness stages ---------------------------------- */
+  --color-readiness-building: #9a9a9e;
+  --color-readiness-developing: #1e5599;
+  --color-readiness-almost: #9a5200;
+  --color-readiness-ready: #1e6e36;
+
+  /* ---------------------------------------------------------------- */
+  /* Legacy aliases — kept so existing Tailwind utilities (e.g.       */
+  /* `bg-brand-primary`, `text-text-primary`) continue to resolve     */
+  /* without component churn. These point at the new values above.   */
+  /* ---------------------------------------------------------------- */
+  --color-brand-primary: #1a3a5c;
+  --color-brand-primary-light: #1e5599;
+  --color-brand-primary-surface: #eef2f8;
+
+  --color-level-a1: #2d8a4e;
+  --color-level-a2: #5e8a1a;
+  --color-level-b1: #b86200;
+  --color-level-b2: #c0390b;
+  --color-level-c1: #6b2fa0;
+
+  --color-success-light: #eaf7ef;
+  --color-warning-light: #fff4e6;
+  --color-error-light: #fdecea;
+  --color-pass-light: #eaf7ef;
+  --color-fail-light: #fdecea;
+
   --color-timer-normal: #1a3a5c;
-  --color-timer-warning: #f57c00;
 
-  /* Readiness */
-  --color-readiness-building: #78909c;
-  --color-readiness-developing: #1565c0;
-  --color-readiness-almost: #f57c00;
-  --color-readiness-ready: #2e7d32;
+  --color-streak-fire: #1e5599;
+  --color-streak-bg: #eef2f8;
+}
 
-  /* Streak */
-  --color-streak-fire: #ff6d00;
-  --color-streak-bg: #fff3e0;
+/* ------------------------------------------------------------------ */
+/* Dark mode — remap semantic tokens only; palette stays static.      */
+/* Activated by system preference; no in-product toggle in Phase 1.   */
+/* ------------------------------------------------------------------ */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #08080a;
+    --color-surface: #101013;
+    --color-surface-raised: #1c1c21;
+    --color-surface-container: #1c1c21;
+    --color-surface-container-hi: #2e2e34;
+    --color-surface-container-high: #2e2e34;
 
-  /* Border */
-  --color-border: #e0e0e0;
-  --color-border-hover: #bdbdbd;
+    --color-border: #2e2e34;
+    --color-border-hover: #48484e;
+
+    --color-text-primary: #f7f7f8;
+    --color-text-secondary: #9a9a9e;
+    --color-text-tertiary: #6b6b70;
+    --color-text-disabled: #48484e;
+
+    --color-interactive-primary: #3d72b0;
+    --color-interactive-primary-hover: #7099c8;
+
+    --color-level-a1-surface: #0e2a18;
+    --color-level-a2-surface: #1a2208;
+    --color-level-b1-surface: #2a1800;
+    --color-level-b2-surface: #2a0e06;
+    --color-level-c1-surface: #1a0e2a;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Base element styling                                               */
+/* ------------------------------------------------------------------ */
+:root {
+  color-scheme: light dark;
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-sans);
   color: var(--color-text-primary);
-  background-color: #f5f5f5;
+  background-color: var(--color-background);
+}
+
+/* German text: long compound words may hyphenate in body copy,
+ * but never in headings where the break breaks the visual rhythm. */
+[lang="de"] {
+  hyphens: auto;
+}
+h1,
+h2,
+h3 {
+  hyphens: none;
+}
+
+/* Display face for editorial headings (dashboard readiness, results hero). */
+.font-display {
+  font-family: var(--font-display);
+  font-feature-settings: "ss01";
+}
+
+/* Monospace face for the exam timer — tabular digits prevent jitter. */
+.font-mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
 }
