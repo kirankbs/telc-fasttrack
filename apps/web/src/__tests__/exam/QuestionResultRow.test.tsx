@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react';
 import { QuestionResultRow } from '../../components/exam/QuestionResultRow';
 
 describe('QuestionResultRow', () => {
-  it('shows ✓ and success styling when correct', () => {
+  it('shows success styling when correct', () => {
     const { container } = render(
       <QuestionResultRow
         label="Teil 1, Aufgabe 1"
@@ -14,13 +14,12 @@ describe('QuestionResultRow', () => {
       />,
     );
 
-    expect(screen.getByText('✓')).toBeTruthy();
     const el = container.firstChild as HTMLElement;
-    expect(el.className).toMatch(/border-success/);
-    expect(el.className).toMatch(/bg-success-light/);
+    expect(el.className).toMatch(/border-pass/);
+    expect(el.className).toMatch(/bg-pass-surface/);
   });
 
-  it('shows ✗ and error styling when wrong', () => {
+  it('shows error styling when wrong', () => {
     const { container } = render(
       <QuestionResultRow
         label="Teil 1, Aufgabe 2"
@@ -31,10 +30,9 @@ describe('QuestionResultRow', () => {
       />,
     );
 
-    expect(screen.getByText('✗')).toBeTruthy();
     const el = container.firstChild as HTMLElement;
-    expect(el.className).toMatch(/border-error/);
-    expect(el.className).toMatch(/bg-error-light/);
+    expect(el.className).toMatch(/border-fail/);
+    expect(el.className).toMatch(/bg-fail-surface/);
   });
 
   it('shows user answer and correct answer when wrong', () => {

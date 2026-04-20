@@ -31,7 +31,7 @@ describe('ExercisePlayer', () => {
     render(<ExercisePlayer exercises={exercises} topicName="Test" />);
 
     expect(screen.getByTestId('exercise-player')).toBeDefined();
-    expect(screen.getByTestId('exercise-counter')).toHaveTextContent('Übung 1 von 3');
+    expect(screen.getByTestId('exercise-counter')).toHaveTextContent('Aufgabe 1 von 3');
     expect(screen.getByTestId('exercise-prompt')).toHaveTextContent(fillBlank.prompt);
   });
 
@@ -108,7 +108,7 @@ describe('ExercisePlayer', () => {
     fireEvent.click(screen.getByTestId('check-button'));
     fireEvent.click(screen.getByTestId('next-button'));
 
-    expect(screen.getByTestId('exercise-counter')).toHaveTextContent('Übung 2 von 3');
+    expect(screen.getByTestId('exercise-counter')).toHaveTextContent('Aufgabe 2 von 3');
   });
 
   it('shows summary after completing all exercises', () => {
@@ -122,9 +122,9 @@ describe('ExercisePlayer', () => {
     });
     fireEvent.click(screen.getByTestId('check-button'));
 
-    // last exercise — button should say "Ergebnis anzeigen"
+    // last exercise — button should say "Abschluss"
     const nextBtn = screen.getByTestId('next-button');
-    expect(nextBtn).toHaveTextContent('Ergebnis anzeigen');
+    expect(nextBtn).toHaveTextContent('Abschluss');
     fireEvent.click(nextBtn);
 
     expect(screen.getByTestId('exercise-summary')).toBeDefined();
@@ -158,7 +158,7 @@ describe('ExercisePlayer', () => {
     fireEvent.click(screen.getByTestId('retry-button'));
 
     expect(screen.getByTestId('exercise-player')).toBeDefined();
-    expect(screen.getByTestId('exercise-counter')).toHaveTextContent('Übung 1 von 1');
+    expect(screen.getByTestId('exercise-counter')).toHaveTextContent('Aufgabe 1 von 1');
   });
 
   it('handles reorder type with text input', () => {

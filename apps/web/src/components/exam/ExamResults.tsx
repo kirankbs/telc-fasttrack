@@ -13,39 +13,35 @@ interface ExamResultsProps {
 }
 
 const SECTION_META = [
-  { key: 'listening' as const, label: 'Hören', icon: '🎧', aggregate: 'written' as const },
-  { key: 'reading' as const, label: 'Lesen', icon: '📖', aggregate: 'written' as const },
+  { key: 'listening' as const, label: 'Hören', aggregate: 'written' as const },
+  { key: 'reading' as const, label: 'Lesen', aggregate: 'written' as const },
   {
     key: 'sprachbausteine' as const,
     label: 'Sprachbausteine',
-    icon: '🧩',
     aggregate: 'written' as const,
   },
-  { key: 'writing' as const, label: 'Schreiben', icon: '✍️', aggregate: 'written' as const },
-  { key: 'speaking' as const, label: 'Sprechen', icon: '🗣️', aggregate: 'oral' as const },
+  { key: 'writing' as const, label: 'Schreiben', aggregate: 'written' as const },
+  { key: 'speaking' as const, label: 'Sprechen', aggregate: 'oral' as const },
 ] as const;
 
-function SectionScoreCard({
+type SectionKey = (typeof SECTION_META)[number]['key'];
+
+function SectionScoreRow({
   label,
-  icon,
   result,
   isHumanGraded,
 }: {
   label: string;
-  icon: string;
   result: SectionResult | undefined;
   isHumanGraded: boolean;
 }) {
   if (!result) {
     return (
-      <div className="flex items-center justify-between rounded-xl border border-border bg-white p-5">
-        <div className="flex items-center gap-3">
-          <span className="text-2xl">{icon}</span>
-          <span className="font-semibold text-text-primary">{label}</span>
-        </div>
+      <div className="flex items-center justify-between rounded-lg border border-border bg-surface p-4">
+        <span className="font-medium text-text-primary">{label}</span>
         <span
           data-testid={`section-status-${label.toLowerCase()}`}
-          className="text-sm font-medium text-text-disabled"
+          className="text-sm text-text-disabled"
         >
           Nicht bearbeitet
         </span>
@@ -59,26 +55,31 @@ function SectionScoreCard({
   return (
     <div
       data-testid={`section-result-${label.toLowerCase()}`}
-      className={`rounded-xl border-2 p-5 ${
-        result.score.passed ? 'border-pass bg-pass-light' : 'border-fail bg-fail-light'
-      }`}
+      className="rounded-lg border border-border bg-surface p-4"
     >
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between gap-3">
+        <span className="font-medium text-text-primary">{label}</span>
         <div className="flex items-center gap-3">
-          <span className="text-2xl">{icon}</span>
-          <span className="font-semibold text-text-primary">{label}</span>
-        </div>
-        <div className="text-right">
-          <div className={`text-xl font-bold ${result.score.passed ? 'text-pass' : 'text-fail'}`}>
+          <span className="text-sm text-text-secondary">
             {result.score.earned}/{result.score.max}
-          </div>
-          <div className={`text-sm ${result.score.passed ? 'text-pass' : 'text-fail'}`}>
+          </span>
+          <span
+            className={`text-sm font-semibold ${
+              result.score.passed ? 'text-pass' : 'text-fail'
+            }`}
+          >
             {pct}%
-          </div>
+          </span>
+          <span
+            aria-hidden="true"
+            className={`h-2 w-2 rounded-full ${
+              result.score.passed ? 'bg-pass' : 'bg-fail'
+            }`}
+          />
         </div>
       </div>
       {isHumanGraded && !hasAssessment && (
-        <p className="mt-2 text-xs text-text-secondary italic">
+        <p className="mt-2 text-xs italic text-text-secondary">
           Prüferbewertung ausstehend
         </p>
       )}
@@ -118,7 +119,12 @@ function computeAggregates(session: ExamSessionState) {
   const oralPassed = oralPct >= 0.6;
   const passed = writtenPassed && oralPassed;
 
-  const isComplete = !!(sections.listening && sections.reading && sections.writing && sections.speaking);
+  const isComplete = !!(
+    sections.listening &&
+    sections.reading &&
+    sections.writing &&
+    sections.speaking
+  );
 
   return {
     written: { earned: writtenEarned, max: writtenMax, pct: writtenPct, passed: writtenPassed },
@@ -127,6 +133,57 @@ function computeAggregates(session: ExamSessionState) {
     passed,
     isComplete,
   };
+}
+
+interface Recommendation {
+  section: SectionKey | 'generic';
+  text: string;
+}
+
+function buildRecommendations(
+  session: ExamSessionState,
+  agg: ReturnType<typeof computeAggregates>,
+): Recommendation[] {
+  const recs: Recommendation[] = [];
+
+  if (agg.isComplete && agg.passed) {
+    recs.push({
+      section: 'generic',
+      text: 'Gut gemacht — dieses Ergebnis reicht für die Prüfung. Mach weiter.',
+    });
+    return recs;
+  }
+
+  // For every failing section, attach at least one actionable recommendation.
+  for (const meta of SECTION_META) {
+    const result = session.sections[meta.key];
+    if (!result) continue;
+    if (!result.score.passed) {
+      recs.push({
+        section: meta.key,
+        text: `${meta.label} — 3 weitere Übungen empfohlen.`,
+      });
+    }
+  }
+
+  // If no per-section failure but aggregates fail (e.g., mix of missing +
+  // weak), fall back to aggregate-level nudges.
+  if (recs.length === 0) {
+    if (!agg.written.passed) {
+      recs.push({
+        section: 'generic',
+        text: 'Schriftlich — zusätzliche Übungen in den schriftlichen Teilen empfohlen.',
+      });
+    }
+    if (!agg.oral.passed) {
+      recs.push({
+        section: 'generic',
+        text: 'Mündlich — Sprechen weiter üben.',
+      });
+    }
+  }
+
+  return recs;
 }
 
 export function ExamResults({ mockId, level, mockNumber }: ExamResultsProps) {
@@ -144,9 +201,8 @@ export function ExamResults({ mockId, level, mockNumber }: ExamResultsProps) {
   if (!session || !hasAnySection(session)) {
     return (
       <div data-testid="results-empty" className="mx-auto max-w-3xl space-y-6">
-        <div className="rounded-xl border border-border bg-white p-8 text-center">
-          <div className="text-4xl">📋</div>
-          <h2 className="mt-3 text-xl font-bold text-text-primary">
+        <div className="rounded-xl border border-border bg-surface p-8 text-center">
+          <h2 className="text-xl font-bold text-text-primary">
             Keine Prüfungsdaten vorhanden
           </h2>
           <p className="mt-2 text-sm text-text-secondary">
@@ -154,7 +210,7 @@ export function ExamResults({ mockId, level, mockNumber }: ExamResultsProps) {
           </p>
           <a
             href={`/exam/${mockId}`}
-            className="mt-4 inline-block rounded-xl bg-brand-primary px-6 py-3 text-sm font-semibold text-white hover:opacity-90"
+            className="mt-4 inline-block rounded-xl bg-brand-600 px-6 py-3 text-sm font-semibold text-white hover:bg-brand-700"
           >
             Zur Prüfungsübersicht
           </a>
@@ -164,6 +220,7 @@ export function ExamResults({ mockId, level, mockNumber }: ExamResultsProps) {
   }
 
   const agg = computeAggregates(session);
+  const recommendations = buildRecommendations(session, agg);
 
   const handleRestart = () => {
     clearSession(mockId);
@@ -171,10 +228,10 @@ export function ExamResults({ mockId, level, mockNumber }: ExamResultsProps) {
   };
 
   return (
-    <div data-testid="results-page" className="mx-auto max-w-3xl space-y-6">
+    <div data-testid="results-page" className="mx-auto max-w-3xl space-y-8">
       <a
         href={`/exam/${mockId}`}
-        className="inline-flex items-center gap-1 text-sm text-text-secondary hover:text-brand-primary"
+        className="inline-flex items-center gap-1 text-sm text-text-secondary hover:text-text-primary"
       >
         <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
@@ -182,109 +239,135 @@ export function ExamResults({ mockId, level, mockNumber }: ExamResultsProps) {
         Zurück zur Prüfung
       </a>
 
-      <div className="rounded-xl border border-border bg-white p-6 text-center">
-        <h1 className="text-xl font-bold text-text-primary">
+      {/* 1. Header */}
+      <header data-testid="results-header" className="space-y-2">
+        <p className="text-xs font-medium uppercase tracking-wide text-text-tertiary">
+          {level} Prüfungsergebnis
+        </p>
+        <h1 className="font-sans text-2xl font-semibold text-text-primary">
           Übungstest {mockNumber} — Ergebnisse
         </h1>
-        <p className="mt-1 text-sm text-text-secondary">{level} Prüfungsergebnis</p>
-      </div>
+      </header>
 
-      {/* Overall verdict */}
-      <div
-        data-testid="overall-verdict"
-        className={`rounded-xl border-2 p-6 text-center ${
-          agg.isComplete
-            ? agg.passed
-              ? 'border-pass bg-pass-light'
-              : 'border-fail bg-fail-light'
-            : 'border-warning bg-warning-light'
-        }`}
+      {/* 2. Score headline — absolute score leads, never the verdict */}
+      <section data-testid="score-headline" className="space-y-1">
+        <p className="font-display text-4xl font-semibold leading-tight text-text-primary">
+          Du hast {agg.total.earned} von {agg.total.max} Punkten erreicht.
+        </p>
+        <p className="text-sm text-text-secondary">
+          {Math.round(agg.total.pct * 100)}% insgesamt
+          {!agg.isComplete && ' · Einige Abschnitte wurden noch nicht bearbeitet.'}
+        </p>
+      </section>
+
+      {/* 3. Written + Oral aggregate cards, side by side */}
+      <section
+        aria-label="Aggregate scores"
+        className="grid gap-4 sm:grid-cols-2"
       >
-        <div
-          className={`text-3xl font-bold ${
-            agg.isComplete
-              ? agg.passed
-                ? 'text-pass'
-                : 'text-fail'
-              : 'text-warning'
-          }`}
-        >
-          {agg.total.earned}/{agg.total.max}
-        </div>
-        <div
-          className={`mt-1 text-lg font-medium ${
-            agg.isComplete
-              ? agg.passed
-                ? 'text-pass'
-                : 'text-fail'
-              : 'text-warning'
-          }`}
-        >
-          {Math.round(agg.total.pct * 100)}% —{' '}
-          {agg.isComplete
-            ? agg.passed
-              ? 'Bestanden'
-              : 'Nicht bestanden'
-            : 'Unvollständig'}
-        </div>
-        {!agg.isComplete && (
-          <p className="mt-1 text-sm text-text-secondary">
-            Einige Abschnitte wurden noch nicht bearbeitet.
-          </p>
-        )}
-      </div>
+        <AggregateCard
+          testId="written-aggregate"
+          label="Schriftlich"
+          sectionName="Schriftlich"
+          pct={agg.written.pct}
+          passed={agg.written.passed}
+          hasData={agg.written.max > 0}
+        />
+        <AggregateCard
+          testId="oral-aggregate"
+          label="Mündlich"
+          sectionName="Mündlich"
+          pct={agg.oral.pct}
+          passed={agg.oral.passed}
+          hasData={agg.oral.max > 0}
+        />
+      </section>
 
-      {/* Written / Oral aggregates */}
-      <div className="grid gap-4 sm:grid-cols-2">
-        <div
-          data-testid="written-aggregate"
-          className={`rounded-xl border p-4 text-center ${
-            agg.written.passed ? 'border-pass' : 'border-fail'
-          }`}
+      {/* 4. Pass/fail as small dot line — not hero */}
+      {agg.isComplete && (
+        <section
+          data-testid="overall-verdict"
+          className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-text-secondary"
+          aria-label="Bestanden-Status"
         >
-          <div className="text-sm font-medium text-text-secondary">Schriftlich</div>
-          <div className={`text-2xl font-bold ${agg.written.passed ? 'text-pass' : 'text-fail'}`}>
-            {agg.written.earned}/{agg.written.max}
-          </div>
-          <div className={`text-sm ${agg.written.passed ? 'text-pass' : 'text-fail'}`}>
-            {Math.round(agg.written.pct * 100)}% — {agg.written.passed ? 'Bestanden' : 'Nicht bestanden'}
-          </div>
-        </div>
-        <div
-          data-testid="oral-aggregate"
-          className={`rounded-xl border p-4 text-center ${
-            agg.oral.passed ? 'border-pass' : 'border-fail'
-          }`}
-        >
-          <div className="text-sm font-medium text-text-secondary">Mündlich</div>
-          <div className={`text-2xl font-bold ${agg.oral.passed ? 'text-pass' : 'text-fail'}`}>
-            {agg.oral.earned}/{agg.oral.max}
-          </div>
-          <div className={`text-sm ${agg.oral.passed ? 'text-pass' : 'text-fail'}`}>
-            {Math.round(agg.oral.pct * 100)}% — {agg.oral.passed ? 'Bestanden' : 'Nicht bestanden'}
-          </div>
-        </div>
-      </div>
+          <span className="inline-flex items-center gap-2">
+            <span
+              aria-hidden="true"
+              className={`h-2 w-2 rounded-full ${agg.written.passed ? 'bg-pass' : 'bg-fail'}`}
+            />
+            <span>
+              Schriftlich:{' '}
+              <span
+                className={`font-medium ${
+                  agg.written.passed ? 'text-pass' : 'text-fail'
+                }`}
+              >
+                {agg.written.passed ? 'Bestanden' : 'Nicht bestanden'}
+              </span>
+            </span>
+          </span>
+          <span aria-hidden="true" className="text-text-tertiary">
+            •
+          </span>
+          <span className="inline-flex items-center gap-2">
+            <span
+              aria-hidden="true"
+              className={`h-2 w-2 rounded-full ${agg.oral.passed ? 'bg-pass' : 'bg-fail'}`}
+            />
+            <span>
+              Mündlich:{' '}
+              <span
+                className={`font-medium ${
+                  agg.oral.passed ? 'text-pass' : 'text-fail'
+                }`}
+              >
+                {agg.oral.passed ? 'Bestanden' : 'Nicht bestanden'}
+              </span>
+            </span>
+          </span>
+        </section>
+      )}
 
-      {/* Per-section scores */}
-      <div className="space-y-3">
-        <h2 className="text-lg font-semibold text-text-primary">Abschnitte</h2>
+      {/* 5. Per-section breakdown */}
+      <section className="space-y-3">
+        <h2 className="text-sm font-semibold uppercase tracking-wide text-text-tertiary">
+          Abschnitte
+        </h2>
         {SECTION_META
-          // Only show Sprachbausteine row if the exam actually has it (i.e. session
-          // already recorded a result). A1/A2/C1 don't have this section.
+          // Only show Sprachbausteine row if the exam actually has it.
           .filter(
             (meta) => meta.key !== 'sprachbausteine' || !!session.sections.sprachbausteine,
           )
           .map((meta) => (
-            <SectionScoreCard
+            <SectionScoreRow
               key={meta.key}
               label={meta.label}
-              icon={meta.icon}
               result={session.sections[meta.key]}
               isHumanGraded={meta.key === 'writing' || meta.key === 'speaking'}
             />
           ))}
-      </div>
+      </section>
+
+      {/* 6. Recommendations */}
+      {recommendations.length > 0 && (
+        <section data-testid="recommendations" className="space-y-3">
+          <h2 className="text-sm font-semibold uppercase tracking-wide text-text-tertiary">
+            Empfehlungen
+          </h2>
+          <ul className="space-y-2">
+            {recommendations.map((rec, i) => (
+              <li
+                key={i}
+                data-testid={`recommendation-${rec.section}`}
+                className="rounded-lg border border-border bg-surface p-4 text-sm text-text-primary"
+                lang="de"
+              >
+                {rec.text}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {/* Actions */}
       <div className="flex gap-3 pt-2">
@@ -297,11 +380,58 @@ export function ExamResults({ mockId, level, mockNumber }: ExamResultsProps) {
         </button>
         <a
           href="/exam"
-          className="flex-1 rounded-xl bg-brand-primary py-3 text-center text-sm font-semibold text-white hover:opacity-90"
+          className="flex-1 rounded-xl bg-brand-600 py-3 text-center text-sm font-semibold text-white hover:bg-brand-700"
         >
           Alle Übungstests
         </a>
       </div>
+    </div>
+  );
+}
+
+function AggregateCard({
+  testId,
+  label,
+  sectionName,
+  pct,
+  passed,
+  hasData,
+}: {
+  testId: string;
+  label: string;
+  sectionName: string;
+  pct: number;
+  passed: boolean;
+  hasData: boolean;
+}) {
+  const pctValue = Math.round(pct * 100);
+  return (
+    <div
+      data-testid={testId}
+      className="rounded-xl border border-border bg-surface p-5"
+    >
+      <div className="text-xs font-medium uppercase tracking-wide text-text-tertiary">
+        {label}
+      </div>
+      <div className="mt-2 flex items-baseline gap-2">
+        <span
+          className={`font-sans text-3xl font-semibold ${
+            hasData ? (passed ? 'text-pass' : 'text-fail') : 'text-text-disabled'
+          }`}
+        >
+          {hasData ? `${pctValue}%` : '—'}
+        </span>
+      </div>
+      <p className="mt-2 text-xs text-text-secondary" lang="de">
+        {hasData
+          ? `60% Mindestpunktzahl — Du hast ${pctValue}% erreicht.`
+          : 'Noch keine Daten für diesen Teil.'}
+      </p>
+      {hasData && !passed && (
+        <p className="mt-1 text-xs font-medium text-text-primary" lang="de">
+          Empfehlung: {sectionName} üben.
+        </p>
+      )}
     </div>
   );
 }

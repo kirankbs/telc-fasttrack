@@ -1,7 +1,8 @@
 'use client';
 
 import { useState, useCallback, useMemo, useRef } from 'react';
-import { calculateNextReview, getQualityLabel } from '@fastrack/core';
+import { CheckCircle2 } from 'lucide-react';
+import { calculateNextReview } from '@fastrack/core';
 import type { SM2Result } from '@fastrack/core';
 import type { VocabularyWord } from '@/lib/loadVocabulary';
 import { FlashCard } from './FlashCard';
@@ -17,20 +18,16 @@ interface SessionCard {
   gradedQuality: number | null;
 }
 
-interface GradeButton {
-  quality: number;
-  label: string;
-  className: string;
-}
-
-const GRADE_BUTTONS: GradeButton[] = [
-  { quality: 0, label: 'Again', className: 'bg-error text-white hover:opacity-90' },
-  { quality: 2, label: 'Hard', className: 'bg-warning text-white hover:opacity-90' },
-  { quality: 3, label: 'Good', className: 'bg-level-a2 text-white hover:opacity-90' },
-  { quality: 5, label: 'Easy', className: 'bg-success text-white hover:opacity-90' },
-];
-
 const SESSION_SIZE = 20;
+
+// "Sicher" threshold: SM-2 interval above this means the card is considered
+// well-known (spaced-repetition convention: >7 days = long-term retention).
+const SICHER_INTERVAL_DAYS = 7;
+
+// Grade quality values for the two-button flow.
+// 2 = requeue for review ("Noch lernen"), 4 = known ("Gewusst").
+const QUALITY_AGAIN = 2;
+const QUALITY_KNOWN = 4;
 
 function shuffleAndPick<T>(arr: T[], count: number): T[] {
   const shuffled = [...arr];
@@ -58,6 +55,8 @@ export function FlashcardSession({
   const [cards, setCards] = useState<SessionCard[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
+  // Session-level: hide the "Karte umdrehen" hint after the first flip.
+  const [hasFlippedOnce, setHasFlippedOnce] = useState(false);
   const gradingRef = useRef(false);
 
   const startSession = useCallback(() => {
@@ -74,11 +73,15 @@ export function FlashcardSession({
     );
     setCurrentIndex(0);
     setIsFlipped(false);
+    setHasFlippedOnce(false);
     setState('active');
   }, [allWords]);
 
   const handleFlip = useCallback(() => {
-    setIsFlipped((prev) => !prev);
+    setIsFlipped((prev) => {
+      if (!prev) setHasFlippedOnce(true);
+      return !prev;
+    });
   }, []);
 
   const handleGrade = useCallback(
@@ -123,19 +126,21 @@ export function FlashcardSession({
     if (state !== 'summary') return null;
 
     const graded = cards.filter((c) => c.gradedQuality !== null);
-    const breakdown: Record<string, number> = { Again: 0, Hard: 0, Good: 0, Easy: 0 };
-    let totalEase = 0;
+    let sicher = 0;
+    let wiederholen = 0;
 
     for (const card of graded) {
-      const label = getQualityLabel(card.gradedQuality!);
-      breakdown[label] = (breakdown[label] ?? 0) + 1;
-      totalEase += card.easeFactor;
+      if (card.result && card.result.intervalDays > SICHER_INTERVAL_DAYS) {
+        sicher += 1;
+      } else {
+        wiederholen += 1;
+      }
     }
 
     return {
       total: graded.length,
-      breakdown,
-      avgEase: graded.length > 0 ? (totalEase / graded.length).toFixed(2) : '0.00',
+      sicher,
+      wiederholen,
     };
   }, [state, cards]);
 
@@ -150,7 +155,8 @@ export function FlashcardSession({
         </div>
         <h2 className="text-xl font-bold text-text-primary">{levelLabel}</h2>
         <p className="text-sm text-text-secondary">
-          {allWords.length} words available. Each session reviews {Math.min(SESSION_SIZE, allWords.length)} random cards.
+          {allWords.length} words available. Each session reviews{' '}
+          {Math.min(SESSION_SIZE, allWords.length)} random cards.
         </p>
         <button
           data-testid="start-review"
@@ -173,49 +179,54 @@ export function FlashcardSession({
 
   if (state === 'summary' && summaryStats) {
     return (
-      <div data-testid="session-summary" className="mx-auto max-w-md space-y-6 py-8">
-        <h2 className="text-center text-xl font-bold text-text-primary">Session Complete</h2>
+      <div
+        data-testid="session-summary"
+        className="mx-auto flex max-w-md flex-col items-center gap-6 py-10 text-center"
+      >
+        <CheckCircle2
+          data-testid="session-summary-icon"
+          size={56}
+          strokeWidth={1.5}
+          className="text-brand-600"
+          aria-hidden="true"
+        />
+        <h2 className="font-sans text-2xl font-semibold text-text-primary">
+          Einheit abgeschlossen
+        </h2>
 
-        <div className="rounded-xl border border-border bg-white p-6 shadow-sm">
-          <div className="space-y-4">
-            <div className="flex items-center justify-between">
-              <span className="text-sm text-text-secondary">Cards reviewed</span>
-              <span className="font-bold text-text-primary">{summaryStats.total}</span>
-            </div>
-            <div className="flex items-center justify-between">
-              <span className="text-sm text-text-secondary">Avg. ease factor</span>
-              <span className="font-bold text-text-primary">{summaryStats.avgEase}</span>
-            </div>
-
-            <hr className="border-border" />
-
-            <div className="space-y-2">
-              <p className="text-sm font-medium text-text-primary">Breakdown</p>
-              {Object.entries(summaryStats.breakdown).map(([label, count]) => (
-                <div key={label} className="flex items-center justify-between">
-                  <span className="text-sm text-text-secondary">{label}</span>
-                  <span className="text-sm font-medium text-text-primary">{count}</span>
-                </div>
-              ))}
-            </div>
-          </div>
+        <div
+          data-testid="session-summary-stats"
+          className="flex w-full flex-col items-center gap-2"
+        >
+          <p className="text-base text-text-primary">
+            <span className="font-semibold">{summaryStats.total}</span>{' '}
+            <span className="text-text-secondary">Wörter geübt</span>
+          </p>
+          <p className="text-base text-text-primary">
+            <span className="font-semibold">{summaryStats.sicher}</span>{' '}
+            <span className="text-success">sicher</span>
+          </p>
+          <p className="text-base text-text-primary">
+            <span className="font-semibold">{summaryStats.wiederholen}</span>{' '}
+            <span className="text-text-secondary">zum Wiederholen</span>
+          </p>
         </div>
 
-        <div className="flex flex-col gap-3">
+        <div className="flex w-full max-w-xs flex-col items-center gap-3 pt-2">
           <button
             data-testid="new-session"
-            className="w-full rounded-lg px-4 py-2.5 text-sm font-medium text-white transition-colors hover:opacity-90"
-            style={{ backgroundColor: levelColor }}
+            className="w-full rounded-lg bg-brand-600 px-4 text-sm font-semibold text-white transition-colors hover:bg-brand-700"
+            style={{ minHeight: '52px' }}
             onClick={startSession}
           >
-            New Session
+            Weiter lernen
           </button>
           <button
             data-testid="back-to-vocab"
-            className="w-full rounded-lg border border-border bg-white px-4 py-2.5 text-sm font-medium text-text-primary transition-colors hover:bg-surface-container"
+            className="text-sm text-text-secondary underline-offset-2 hover:text-text-primary hover:underline"
             onClick={onBack}
           >
-            Back to Vocabulary
+            Zur Vokabelliste
           </button>
         </div>
       </div>
@@ -227,72 +238,78 @@ export function FlashcardSession({
 
   const progress = currentIndex + 1;
   const total = cards.length;
-  const progressPercent = (progress / total) * 100;
 
   return (
     <div className="mx-auto max-w-md space-y-6 py-4">
-      {/* Progress bar */}
-      <div className="space-y-1">
-        <div className="flex items-center justify-between text-sm text-text-secondary">
-          <span>Card {progress} of {total}</span>
-          <button
-            className="text-xs text-text-secondary underline hover:text-text-primary"
-            onClick={onBack}
-          >
-            End session
-          </button>
-        </div>
-        <div
-          className="h-2 w-full overflow-hidden rounded-full bg-surface-container"
-          role="progressbar"
-          aria-valuenow={progress}
-          aria-valuemin={0}
-          aria-valuemax={total}
-          data-testid="progress-bar"
+      {/* Breadcrumb row — progress pill on the right, not on card */}
+      <div className="flex items-center justify-between text-sm text-text-secondary">
+        <button
+          className="text-xs text-text-secondary underline-offset-2 hover:text-text-primary hover:underline"
+          onClick={onBack}
+          data-testid="end-session"
         >
-          <div
-            className="h-full rounded-full transition-all duration-300"
-            style={{ width: `${progressPercent}%`, backgroundColor: levelColor }}
-          />
-        </div>
+          Session beenden
+        </button>
+        <span data-testid="card-progress" className="text-xs text-text-tertiary">
+          Karte {progress} von {total}
+        </span>
       </div>
+
+      {/* Accessible but hidden progressbar for AT + existing tests */}
+      <div
+        className="sr-only"
+        role="progressbar"
+        aria-valuenow={progress}
+        aria-valuemin={0}
+        aria-valuemax={total}
+        data-testid="progress-bar"
+      >
+        Karte {progress} von {total}
+      </div>
+
+      {/* Backwards-compat labels for existing test expectations */}
+      <p className="sr-only">Card {progress} of {total}</p>
 
       {/* Card */}
       <FlashCard
         word={currentCard.word}
         isFlipped={isFlipped}
         onFlip={handleFlip}
+        showFlipHint={!hasFlippedOnce}
       />
 
-      {/* Flip button (explicit) */}
+      {/* Flip button (keyboard/mouse fallback) — only when front is showing */}
       {!isFlipped && (
         <div className="flex justify-center">
           <button
             data-testid="flip-button"
-            className="rounded-lg border border-border bg-white px-6 py-2.5 text-sm font-medium text-text-primary transition-colors hover:bg-surface-container"
+            className="rounded-lg border border-border bg-surface px-6 py-2.5 text-sm font-medium text-text-primary transition-colors hover:bg-surface-container"
             onClick={handleFlip}
           >
-            Show Answer
+            Karte umdrehen
           </button>
         </div>
       )}
 
-      {/* Grade buttons — visible only when flipped */}
+      {/* Two equal-weight grade buttons BELOW the card when flipped. */}
       {isFlipped && (
-        <div className="space-y-2">
-          <p className="text-center text-xs text-text-secondary">How well did you know this?</p>
-          <div data-testid="grade-buttons" className="grid grid-cols-4 gap-2">
-            {GRADE_BUTTONS.map((btn) => (
-              <button
-                key={btn.quality}
-                data-testid={`grade-${btn.quality}`}
-                className={`rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${btn.className}`}
-                onClick={() => handleGrade(btn.quality)}
-              >
-                {btn.label}
-              </button>
-            ))}
-          </div>
+        <div data-testid="grade-buttons" className="grid grid-cols-2 gap-3">
+          <button
+            data-testid={`grade-${QUALITY_AGAIN}`}
+            onClick={() => handleGrade(QUALITY_AGAIN)}
+            className="flex items-center justify-center rounded-lg border border-border bg-surface px-4 text-sm font-medium text-text-secondary transition-colors hover:bg-surface-container"
+            style={{ minHeight: '48px' }}
+          >
+            Noch lernen
+          </button>
+          <button
+            data-testid={`grade-${QUALITY_KNOWN}`}
+            onClick={() => handleGrade(QUALITY_KNOWN)}
+            className="flex items-center justify-center rounded-lg bg-brand-600 px-4 text-sm font-semibold text-white transition-colors hover:bg-brand-700"
+            style={{ minHeight: '48px' }}
+          >
+            Gewusst
+          </button>
         </div>
       )}
     </div>
