@@ -1,13 +1,959 @@
 {
   "id": "B1_mock_06",
   "level": "B1",
-  "title": "Übungstest 6",
-  "version": 0,
-  "_stub": true,
+  "title": "B1 Übungstest 6: Gesellschaft",
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 30,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Texte. Entscheiden Sie bei jedem Text: Ist die Aussage richtig oder falsch? Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short texts. For each text, decide: Is the statement correct or incorrect? You will hear each text only once.",
+          "audioFile": "assets/audio/B1/mock06/listening_part1.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B1_m06_L1_q1",
+              "type": "true_false",
+              "questionText": "Die Ansage informiert über einen neuen ehrenamtlichen Vorlesedienst in der Bibliothek.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Durchsage kündigt an: 'Unsere Bibliothek startet im April einen neuen Vorlesedienst für Senioren – wer einmal pro Woche Zeit hat, kann sich gerne melden.' Das bestätigt die Aussage.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "B1_m06_L1_q2",
+              "type": "true_false",
+              "questionText": "Herr Altmann kann den Termin der Nachbarschaftsversammlung nicht wahrnehmen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Auf dem Anrufbeantworter sagt Herr Altmann: 'Leider komme ich am Mittwoch doch nicht zu unserer Nachbarschaftsversammlung – ich habe einen wichtigen Arzttermin dazwischen.' Er kann also nicht kommen.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "B1_m06_L1_q3",
+              "type": "true_false",
+              "questionText": "Das Ferienprogramm für Kinder kostet dieses Jahr mehr als im Vorjahr.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Ansage lautet: 'Die Teilnahmegebühr bleibt wie im Vorjahr bei 45 Euro pro Kind – dank der Unterstützung der Stadt.' Der Preis ist also gleich geblieben, nicht gestiegen.",
+              "audioTimestamp": 11
+            },
+            {
+              "id": "B1_m06_L1_q4",
+              "type": "true_false",
+              "questionText": "Die Kollegin bittet um Hilfe bei der Organisation eines Sommerfestes.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Kollegin sagt: 'Kannst du mir kurz helfen, die Tische für unser kleines Sommerfest zu planen? Ich weiß nicht, wie viele wir brauchen.' Sie bittet um Hilfe für genau dieses Fest.",
+              "audioTimestamp": 10
+            },
+            {
+              "id": "B1_m06_L1_q5",
+              "type": "true_false",
+              "questionText": "Das Integrationscafé findet ab sofort auch am Samstag statt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Durchsage informiert: 'Unser Integrationscafé findet weiterhin jeden Mittwoch um 16 Uhr statt – Samstagtermine sind leider nicht möglich.' Samstag ist also ausgeschlossen.",
+              "audioTimestamp": 8
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören einen Radiobericht. Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind. Sie hören den Text nur einmal.",
+          "instructionsTranslation": "You will hear a radio report. Decide whether the following ten statements are correct or incorrect. You will hear the text only once.",
+          "audioFile": "assets/audio/B1/mock06/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B1_m06_L2_q1",
+              "type": "true_false",
+              "questionText": "Die Sendung beschäftigt sich mit dem Thema Ehrenamt in Deutschland.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Moderatorin leitet ein: 'Heute geht es um das Ehrenamt – und darum, wer in Deutschland eigentlich welche ehrenamtlichen Aufgaben übernimmt.' Das ist das Thema.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "B1_m06_L2_q2",
+              "type": "true_false",
+              "questionText": "Laut der Studie engagiert sich ungefähr jeder dritte Erwachsene in Deutschland ehrenamtlich.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Sprecher berichtet: 'Rund 30 Prozent der Erwachsenen in Deutschland sind regelmäßig ehrenamtlich aktiv – also etwa jeder dritte.' Die Aussage stimmt.",
+              "audioTimestamp": 28
+            },
+            {
+              "id": "B1_m06_L2_q3",
+              "type": "true_false",
+              "questionText": "Herr Dr. Hofmann arbeitet an der Universität Münster.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Moderatorin stellt den Gast vor: 'Mit uns im Studio ist Dr. Thomas Hofmann vom Institut für Sozialforschung der Universität Münster.' Die Aussage trifft zu.",
+              "audioTimestamp": 50
+            },
+            {
+              "id": "B1_m06_L2_q4",
+              "type": "true_false",
+              "questionText": "Dr. Hofmann meint, dass sich junge Menschen heute weniger engagieren als früher.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Hofmann sagt: 'Gerade unter jungen Leuten sehen wir seit einigen Jahren wieder ein wachsendes Interesse am Ehrenamt.' Er sieht also das Gegenteil.",
+              "audioTimestamp": 72
+            },
+            {
+              "id": "B1_m06_L2_q5",
+              "type": "true_false",
+              "questionText": "Der Sport ist der Bereich, in dem sich in Deutschland die meisten Menschen ehrenamtlich engagieren.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Dr. Hofmann erklärt: 'Der Sport ist mit Abstand der größte Bereich – Trainer, Schiedsrichter, Vorstände in den Vereinen, all das ist meist ehrenamtlich.' Sport führt die Liste an.",
+              "audioTimestamp": 95
+            },
+            {
+              "id": "B1_m06_L2_q6",
+              "type": "true_false",
+              "questionText": "Viele Ehrenamtliche klagen darüber, dass ihnen die nötige Zeit fehlt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Dr. Hofmann sagt: 'Das größte Hindernis ist die fehlende Zeit – Beruf, Familie und eigenes Leben lassen oft nur wenig übrig.' Die Aussage ist damit richtig.",
+              "audioTimestamp": 120
+            },
+            {
+              "id": "B1_m06_L2_q7",
+              "type": "true_false",
+              "questionText": "Laut Dr. Hofmann bekommen Ehrenamtliche in Deutschland fast immer eine kleine Bezahlung.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Hofmann stellt klar: 'Der Kern des Ehrenamts ist, dass man keine Bezahlung bekommt – nur manchmal werden kleine Aufwandsentschädigungen gezahlt.' Die Aussage ist also falsch.",
+              "audioTimestamp": 142
+            },
+            {
+              "id": "B1_m06_L2_q8",
+              "type": "true_false",
+              "questionText": "Dr. Hofmann empfiehlt, dass Vereine unbedingt auf digitale Anmeldungen verzichten sollen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Hofmann sagt: 'Moderne Vereine brauchen einfache digitale Anmeldeformulare – das senkt die Einstiegshürde erheblich.' Er empfiehlt also genau das Gegenteil.",
+              "audioTimestamp": 162
+            },
+            {
+              "id": "B1_m06_L2_q9",
+              "type": "true_false",
+              "questionText": "Der Experte empfiehlt, dass neue Mitglieder von Anfang an einen persönlichen Ansprechpartner bekommen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Dr. Hofmann rät: 'Jede neue Ehrenamtliche braucht vom ersten Tag an eine feste Person, die man fragen kann – ohne Umwege, ohne Aufwand.' Die Empfehlung wird explizit genannt.",
+              "audioTimestamp": 182
+            },
+            {
+              "id": "B1_m06_L2_q10",
+              "type": "true_false",
+              "questionText": "Am Ende der Sendung wird auf eine neue Plattform für freiwillige Helfer hingewiesen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Moderatorin schließt: 'Auf unserer Webseite finden Sie eine neue Plattform, auf der alle freien Ehrenämter in Ihrer Stadt auf einen Blick gesammelt sind.' Der Hinweis erfolgt am Ende.",
+              "audioTimestamp": 200
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jedes Gespräch zweimal.",
+          "instructionsTranslation": "You will hear five short conversations. For each conversation there is one task. What is correct? Mark: a, b, or c. You will hear each conversation twice.",
+          "audioFile": "assets/audio/B1/mock06/listening_part3.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "B1_m06_L3_q1",
+              "type": "mcq",
+              "questionText": "Warum ruft der Mann bei der Freiwilligenagentur an?",
+              "options": [
+                "a) Er möchte sich selbst ehrenamtlich engagieren.",
+                "b) Er sucht eine bezahlte Stelle in einer Hilfsorganisation.",
+                "c) Er möchte sich über einen Mitarbeiter beschweren."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Anrufer sagt: 'Ich habe ab Sommer mehr Zeit und würde mich gerne ein paar Stunden pro Woche engagieren – vielleicht mit älteren Menschen.' Sein Anliegen ist also eindeutig ein Ehrenamt. Bezahlung und Beschwerde spielen keine Rolle.",
+              "audioTimestamp": 14
+            },
+            {
+              "id": "B1_m06_L3_q2",
+              "type": "mcq",
+              "questionText": "Worauf einigen sich die beiden Kolleginnen am Ende?",
+              "options": [
+                "a) Sie gehen nach der Arbeit gemeinsam essen.",
+                "b) Sie helfen zusammen im Altenheim als ehrenamtliche Vorleserinnen.",
+                "c) Sie verschieben die Entscheidung auf nächsten Monat."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Am Schluss sagt eine: 'Gut, dann melden wir uns beide beim Altenheim an – ich rufe morgen dort an.' Beide werden also ehrenamtliche Vorleserinnen. Essen und Vertagung werden nur kurz erwähnt.",
+              "audioTimestamp": 52
+            },
+            {
+              "id": "B1_m06_L3_q3",
+              "type": "mcq",
+              "questionText": "Was empfiehlt die Mitarbeiterin im Familienbüro?",
+              "options": [
+                "a) sofort einen Platz in einer privaten Kita zu suchen",
+                "b) sich auf einem städtischen Online-Portal für die Kitas anzumelden",
+                "c) direkt bei der nächstgelegenen Kita persönlich vorbeizugehen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Mitarbeiterin sagt: 'Am einfachsten ist es, wenn Sie sich auf unserem Online-Portal anmelden – dann können wir für ganze Stadtteile gleichzeitig suchen.' Private Kita und persönlicher Besuch werden nicht empfohlen.",
+              "audioTimestamp": 88
+            },
+            {
+              "id": "B1_m06_L3_q4",
+              "type": "mcq",
+              "questionText": "Warum möchte die Tochter nicht zum Familienfest kommen?",
+              "options": [
+                "a) Sie hat am selben Tag eine Prüfung an der Uni.",
+                "b) Sie hat sich mit ihren Geschwistern gestritten.",
+                "c) Sie arbeitet an diesem Wochenende ehrenamtlich in einem Camp."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Tochter erklärt: 'Ich betreue dieses Wochenende ein Zeltlager für Jugendliche – das habe ich schon vor Monaten zugesagt.' Das Ehrenamt ist also der Grund. Prüfung und Streit kommen nicht vor.",
+              "audioTimestamp": 122
+            },
+            {
+              "id": "B1_m06_L3_q5",
+              "type": "mcq",
+              "questionText": "Was ist für die Studentin das größte Problem in ihrer neuen WG?",
+              "options": [
+                "a) Die Miete ist deutlich zu hoch für sie.",
+                "b) Die Zimmer sind zu klein und zu dunkel.",
+                "c) Es gibt zu wenig Kontakt zwischen den Mitbewohnern."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Studentin sagt: 'Zimmer und Preis sind in Ordnung – aber wir sehen uns kaum, jeder macht nur sein Ding, und das finde ich wirklich schade.' Der fehlende Kontakt ist also das Hauptproblem.",
+              "audioTimestamp": 155
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 60,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie zuerst die fünf Situationen (1–5) und dann die acht Überschriften (a–h). Welche Überschrift passt zu welcher Situation? Für jede Situation gibt es genau eine passende Überschrift. Drei Überschriften bleiben übrig.",
+          "instructionsTranslation": "First read the five situations (1–5) and then the eight headlines (a–h). Which headline matches which situation? For each situation there is exactly one matching headline. Three headlines remain unused.",
+          "texts": [
+            { "id": "B1_m06_R1_head_a", "type": "notice", "content": "a) Integrationskurs Deutsch und Kultur – Kostenlose Plätze für Neuzugezogene" },
+            { "id": "B1_m06_R1_head_b", "type": "notice", "content": "b) Mehrgenerationenhaus sucht Ehrenamtliche für wöchentliches Frühstück" },
+            { "id": "B1_m06_R1_head_c", "type": "notice", "content": "c) Hilfe beim Umgang mit Behörden – Beratung für Menschen mit wenig Zeit" },
+            { "id": "B1_m06_R1_head_d", "type": "notice", "content": "d) Besuchsdienst für einsame Seniorinnen und Senioren – Freiwillige gesucht" },
+            { "id": "B1_m06_R1_head_e", "type": "notice", "content": "e) Nachhilfeprogramm für Schulkinder aus einkommensschwachen Familien" },
+            { "id": "B1_m06_R1_head_f", "type": "notice", "content": "f) Wohnraumbörse für Studierende – Zimmer bei älteren Menschen gegen Hilfe im Haushalt" },
+            { "id": "B1_m06_R1_head_g", "type": "notice", "content": "g) Stadtteilfest am Samstag – Mitmachen, Kennenlernen, Kulturen erleben" },
+            { "id": "B1_m06_R1_head_h", "type": "notice", "content": "h) Aufruf an alle Eltern: Gemeinsam einen neuen Spielplatz planen" }
+          ],
+          "questions": [
+            {
+              "id": "B1_m06_R1_q1",
+              "type": "matching",
+              "questionText": "1. Ahmed ist letzten Monat aus Syrien nach Deutschland gezogen. Er möchte schnell Deutsch lernen und gleichzeitig etwas über das Leben und die Kultur in seiner neuen Stadt erfahren – am besten kostenlos.",
+              "matchingSources": [
+                { "id": "B1_m06_R1_head_a", "label": "a" },
+                { "id": "B1_m06_R1_head_b", "label": "b" },
+                { "id": "B1_m06_R1_head_c", "label": "c" },
+                { "id": "B1_m06_R1_head_d", "label": "d" },
+                { "id": "B1_m06_R1_head_e", "label": "e" },
+                { "id": "B1_m06_R1_head_f", "label": "f" },
+                { "id": "B1_m06_R1_head_g", "label": "g" },
+                { "id": "B1_m06_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Überschrift a) beschreibt einen kostenlosen Integrationskurs für Neuzugezogene zum Thema Sprache und Kultur – genau das, was Ahmed sucht. Kein anderes Angebot passt so präzise zu seinem Profil.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m06_R1_q2",
+              "type": "matching",
+              "questionText": "2. Frau Brand ist vor einem Jahr in Rente gegangen, lebt allein und fühlt sich manchmal einsam. Sie hätte gerne jemanden, der sie regelmäßig besucht und mit dem sie reden kann.",
+              "matchingSources": [
+                { "id": "B1_m06_R1_head_a", "label": "a" },
+                { "id": "B1_m06_R1_head_b", "label": "b" },
+                { "id": "B1_m06_R1_head_c", "label": "c" },
+                { "id": "B1_m06_R1_head_d", "label": "d" },
+                { "id": "B1_m06_R1_head_e", "label": "e" },
+                { "id": "B1_m06_R1_head_f", "label": "f" },
+                { "id": "B1_m06_R1_head_g", "label": "g" },
+                { "id": "B1_m06_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Überschrift d) ruft zu einem Besuchsdienst für einsame Seniorinnen und Senioren auf – genau die Zielgruppe, zu der Frau Brand gehört. Kein anderes Angebot betrifft Besuche bei älteren Menschen.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m06_R1_q3",
+              "type": "matching",
+              "questionText": "3. Herr Eriksson lernt als Student gerade Deutsch und sucht eine günstige Wohnmöglichkeit. Er hat gehört, dass man bei älteren Menschen wohnen kann, wenn man ihnen bei Alltagsaufgaben hilft.",
+              "matchingSources": [
+                { "id": "B1_m06_R1_head_a", "label": "a" },
+                { "id": "B1_m06_R1_head_b", "label": "b" },
+                { "id": "B1_m06_R1_head_c", "label": "c" },
+                { "id": "B1_m06_R1_head_d", "label": "d" },
+                { "id": "B1_m06_R1_head_e", "label": "e" },
+                { "id": "B1_m06_R1_head_f", "label": "f" },
+                { "id": "B1_m06_R1_head_g", "label": "g" },
+                { "id": "B1_m06_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Überschrift f) beschreibt genau dieses Konzept: Zimmer bei älteren Menschen gegen Hilfe im Haushalt. Das ist die Lösung für Herrn Erikssons Suche.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m06_R1_q4",
+              "type": "matching",
+              "questionText": "4. Julia ist Erzieherin und möchte sich ehrenamtlich engagieren. Sie würde gerne regelmäßig Kinder aus Familien unterstützen, die sich keine teure Nachhilfe leisten können.",
+              "matchingSources": [
+                { "id": "B1_m06_R1_head_a", "label": "a" },
+                { "id": "B1_m06_R1_head_b", "label": "b" },
+                { "id": "B1_m06_R1_head_c", "label": "c" },
+                { "id": "B1_m06_R1_head_d", "label": "d" },
+                { "id": "B1_m06_R1_head_e", "label": "e" },
+                { "id": "B1_m06_R1_head_f", "label": "f" },
+                { "id": "B1_m06_R1_head_g", "label": "g" },
+                { "id": "B1_m06_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Überschrift e) beschreibt ein Nachhilfeprogramm für Schulkinder aus einkommensschwachen Familien – genau Julias Anliegen als ehrenamtliche Unterstützerin.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m06_R1_q5",
+              "type": "matching",
+              "questionText": "5. Familie Saldivar ist neu im Viertel und möchte Kontakt zu den Nachbarn knüpfen. Am Wochenende wäre am liebsten eine Veranstaltung, auf der die ganze Familie dabei sein kann.",
+              "matchingSources": [
+                { "id": "B1_m06_R1_head_a", "label": "a" },
+                { "id": "B1_m06_R1_head_b", "label": "b" },
+                { "id": "B1_m06_R1_head_c", "label": "c" },
+                { "id": "B1_m06_R1_head_d", "label": "d" },
+                { "id": "B1_m06_R1_head_e", "label": "e" },
+                { "id": "B1_m06_R1_head_f", "label": "f" },
+                { "id": "B1_m06_R1_head_g", "label": "g" },
+                { "id": "B1_m06_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Überschrift g) kündigt ein Stadtteilfest am Samstag zum Kennenlernen und Mitmachen an – ideal für Familie Saldivar, um die Nachbarschaft zu entdecken.",
+              "pointValue": 5
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den Zeitungsartikel. Was ist richtig? Kreuzen Sie an: a, b oder c.",
+          "instructionsTranslation": "Read the newspaper article. What is correct? Mark: a, b, or c.",
+          "texts": [
+            {
+              "id": "B1_m06_R2_article",
+              "type": "article",
+              "content": "Wohnen in der Stadt – Warum junge Familien neue Modelle entdecken\n\nEine neue Untersuchung der Universität Leipzig zeigt, dass immer mehr junge Familien in den größeren Städten Deutschlands neue Wohnmodelle ausprobieren. Klassische Einzelfamilien-Wohnungen werden für viele zu teuer, und gleichzeitig wünschen sich Eltern wie Kinder mehr Gemeinschaft im Alltag. Rund 24 Prozent der befragten jungen Familien geben an, dass sie sich für eine Wohngruppe mit anderen Familien interessieren würden.\n\nBesonders auffällig ist das wachsende Interesse an sogenannten Mehrgenerationen-Häusern. Dort leben Kinder, Eltern und ältere Menschen zwar in eigenen Wohnungen, teilen aber einen gemeinsamen Innenhof, eine große Küche und manchmal auch eine Waschküche. 'Viele Eltern erzählen uns, wie entlastend es ist, wenn eine Nachbarin kurz auf das Kind aufpasst, während man selbst schnell einkaufen geht', erklärt Studienleiterin Dr. Miriam Lehmann. 'Gleichzeitig fühlen sich ältere Menschen weniger einsam.'\n\nDie Folgen sind spürbar. Wenn mehrere Familien zusammen wohnen, können Kosten geteilt werden, und Kinder wachsen mit mehr Kontakten auf. Allerdings berichten manche Bewohner auch von Konflikten – etwa über Putzdienste oder die Frage, wie laut es abends sein darf. 'Ohne klare Regeln funktioniert es langfristig nicht', sagt Dr. Lehmann. Viele erfolgreiche Projekte haben deshalb einen eigenen kleinen Hausvertrag, der Aufgaben und Ruhezeiten verbindlich regelt.\n\nTrotz der Herausforderungen sieht Dr. Lehmann das Modell positiv. In Zeiten hoher Mieten und vieler Alleinerziehender bietet es konkrete Entlastung für den Alltag. Sie empfiehlt drei Punkte für Interessierte: Besuchen Sie vor dem Einzug mindestens zwei bestehende Projekte, sprechen Sie offen über Ihre eigenen Gewohnheiten, und stellen Sie sicher, dass der Vertrag klare Regeln für Konfliktfälle enthält. Wer diese Hinweise beachtet, berichtet nach wenigen Monaten oft von einem spürbar leichteren Familienalltag und neuen Freundschaften, die sonst kaum entstanden wären.",
+              "source": "Leipziger Volkszeitung, April 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "B1_m06_R2_q1",
+              "type": "mcq",
+              "questionText": "Was ist das zentrale Ergebnis der Studie aus Leipzig?",
+              "relatedTextId": "B1_m06_R2_article",
+              "options": [
+                "a) Junge Familien ziehen immer häufiger aufs Land zurück.",
+                "b) Immer mehr junge Familien interessieren sich für gemeinschaftliche Wohnformen.",
+                "c) Klassische Einzelwohnungen werden für junge Familien immer preiswerter."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Im Text steht: 'Rund 24 Prozent der befragten jungen Familien geben an, dass sie sich für eine Wohngruppe mit anderen Familien interessieren würden.' Option a) kommt nicht vor, Option c) widerspricht dem Text.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m06_R2_q2",
+              "type": "mcq",
+              "questionText": "Was wird an Mehrgenerationen-Häusern besonders geschätzt?",
+              "relatedTextId": "B1_m06_R2_article",
+              "options": [
+                "a) Die Bewohner teilen immer eine einzige große Wohnung.",
+                "b) Die Bewohner zahlen keine Miete, sondern nur Nebenkosten.",
+                "c) Die Bewohner haben eigene Wohnungen, aber gemeinsame Räume."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text sagt: 'Dort leben Kinder, Eltern und ältere Menschen zwar in eigenen Wohnungen, teilen aber einen gemeinsamen Innenhof, eine große Küche und manchmal auch eine Waschküche.' Die Antwort entspricht diesem Modell.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m06_R2_q3",
+              "type": "mcq",
+              "questionText": "Welche Schwierigkeit wird im Text ausdrücklich genannt?",
+              "relatedTextId": "B1_m06_R2_article",
+              "options": [
+                "a) Konflikte über Putzdienste und Ruhezeiten",
+                "b) dauerhaft zu wenig Heizung in den Wohnungen",
+                "c) fehlender Internetzugang in alten Gebäuden"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Text erwähnt: 'Allerdings berichten manche Bewohner auch von Konflikten – etwa über Putzdienste oder die Frage, wie laut es abends sein darf.' Das sind die konkret genannten Schwierigkeiten.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m06_R2_q4",
+              "type": "mcq",
+              "questionText": "Wie bewertet Dr. Lehmann das Wohnmodell insgesamt?",
+              "relatedTextId": "B1_m06_R2_article",
+              "options": [
+                "a) Sie sieht es wegen der Konflikte als eher gescheitert an.",
+                "b) Sie empfindet es als nutzlos in Großstädten mit hohen Mieten.",
+                "c) Sie sieht es trotz Herausforderungen als eine sinnvolle Entlastung für Familien."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text sagt: 'Trotz der Herausforderungen sieht Dr. Lehmann das Modell positiv. In Zeiten hoher Mieten und vieler Alleinerziehender bietet es konkrete Entlastung für den Alltag.' Also ist Option c richtig.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m06_R2_q5",
+              "type": "mcq",
+              "questionText": "Welche Empfehlung gibt Dr. Lehmann Interessierten ausdrücklich?",
+              "relatedTextId": "B1_m06_R2_article",
+              "options": [
+                "a) mindestens zwei bestehende Projekte vor dem Einzug zu besuchen",
+                "b) nur bei Verwandten in solche Projekte einzuziehen",
+                "c) ohne Vertrag zu starten, um flexibel zu bleiben"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Im Text steht als erste Empfehlung wörtlich: 'Besuchen Sie vor dem Einzug mindestens zwei bestehende Projekte.' Option b) und c) widersprechen dem Text.",
+              "pointValue": 5
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie lesen zehn Situationen (1–10) und zwölf kurze Anzeigen (a–l). Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es genau eine passende Anzeige. Zwei Anzeigen bleiben übrig. Wenn keine Anzeige passt, schreiben Sie 'x'.",
+          "instructionsTranslation": "You read ten situations (1–10) and twelve short advertisements (a–l). Which advertisement matches which situation? For each situation there is exactly one matching advertisement. Two advertisements remain unused. If no advertisement fits, write 'x'.",
+          "texts": [
+            { "id": "B1_m06_R3_ad_a", "type": "ad", "content": "a) Deutschkurs B1 am Abend – 12 Wochen, montags und mittwochs 18–20 Uhr, kleine Gruppe. 240 €. Volkshochschule Leipzig. Anmeldung: vhs-leipzig@mail.de" },
+            { "id": "B1_m06_R3_ad_b", "type": "ad", "content": "b) Kinderkleidertausch im Familienzentrum – Jeden zweiten Samstag. Bringen, tauschen, neue Sachen finden. Eintritt frei. Ringstr. 22, 10–14 Uhr." },
+            { "id": "B1_m06_R3_ad_c", "type": "ad", "content": "c) Tafel Köln-Süd sucht ehrenamtliche Helfer – 3 Stunden pro Woche, dienstags oder freitags. Aufgaben: Lebensmittel sortieren und ausgeben. helfer@tafel-ks.de" },
+            { "id": "B1_m06_R3_ad_d", "type": "ad", "content": "d) Mitfahrgelegenheit Dresden–Berlin jeden Freitag 15 Uhr. 15 € pro Person, nur Nichtraucher. Meldet euch bei Stefan: 0176 998 77 12" },
+            { "id": "B1_m06_R3_ad_e", "type": "ad", "content": "e) Senioren-Computerkurs: Internet, E-Mail und Videoanrufe. 6 Termine, 35 € gesamt. Dienstagnachmittag 14–15:30 Uhr. Seniorenbüro: tel. 0341 559 32 10" },
+            { "id": "B1_m06_R3_ad_f", "type": "ad", "content": "f) Babysitter gesucht – Familie mit zwei Kindern (3 und 6 Jahre) braucht Hilfe am Freitagabend (19–23 Uhr). 15 €/Stunde. Erfahrung mit Kindern gewünscht. Tel. 0151 223 78 90" },
+            { "id": "B1_m06_R3_ad_g", "type": "ad", "content": "g) Übersetzungshilfe für Behördenbriefe – Freiwillige Juristen helfen kostenlos. Jeden Donnerstag 17–19 Uhr im Stadtteilzentrum Nord. Anmeldung: info@buergerhilfe.de" },
+            { "id": "B1_m06_R3_ad_h", "type": "ad", "content": "h) Seniorenchor Harmonie sucht neue Mitglieder – Alter 60+, Probe mittwochs 17 Uhr. Keine Vorkenntnisse nötig, Freude am Singen reicht. kontakt@harmonie-chor.de" },
+            { "id": "B1_m06_R3_ad_i", "type": "ad", "content": "i) Gebrauchtes Kinderbett mit Matratze – sehr gut erhalten, nur 60 €. Abholung in München. lena-k@mail.de" },
+            { "id": "B1_m06_R3_ad_j", "type": "ad", "content": "j) Kulturführung Mein neues Berlin – Kostenlose Stadtrundgänge für Neuzugezogene. Jeden ersten Sonntag, Treffpunkt Alexanderplatz, 11 Uhr. willkommen@kultur-berlin.de" },
+            { "id": "B1_m06_R3_ad_k", "type": "ad", "content": "k) Wohngemeinschaft 50+ in der Altstadt – Zimmer (20 m²) frei, 380 € warm. Gemeinsames Leben, aber jeder mit eigenem Bad. wg-altstadt@mail.de" },
+            { "id": "B1_m06_R3_ad_l", "type": "ad", "content": "l) Bücherei AM WASSER – Neue Leihkarten für Kinder kostenlos. Montag bis Freitag 10–18 Uhr, Uferstraße 7. Veranstaltungen für Familien auf unserer Webseite." }
+          ],
+          "questions": [
+            {
+              "id": "B1_m06_R3_q1",
+              "type": "matching",
+              "questionText": "1. Herr Öncel ist neu in Leipzig und möchte sein Deutsch auf B1-Niveau verbessern. Er arbeitet tagsüber und kann nur am Abend einen Kurs besuchen.",
+              "matchingSources": [
+                { "id": "B1_m06_R3_ad_a", "label": "a" }, { "id": "B1_m06_R3_ad_b", "label": "b" },
+                { "id": "B1_m06_R3_ad_c", "label": "c" }, { "id": "B1_m06_R3_ad_d", "label": "d" },
+                { "id": "B1_m06_R3_ad_e", "label": "e" }, { "id": "B1_m06_R3_ad_f", "label": "f" },
+                { "id": "B1_m06_R3_ad_g", "label": "g" }, { "id": "B1_m06_R3_ad_h", "label": "h" },
+                { "id": "B1_m06_R3_ad_i", "label": "i" }, { "id": "B1_m06_R3_ad_j", "label": "j" },
+                { "id": "B1_m06_R3_ad_k", "label": "k" }, { "id": "B1_m06_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Anzeige a) bietet einen B1-Deutschkurs abends an der VHS Leipzig – genau Herrn Öncels Profil. Kein anderes Angebot ist ein B1-Sprachkurs am Abend.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m06_R3_q2",
+              "type": "matching",
+              "questionText": "2. Frau Wagner hat sich entschieden, zweimal pro Woche ehrenamtlich zu helfen. Sie möchte am liebsten mit Lebensmitteln arbeiten und Menschen unterstützen, die wenig Geld haben.",
+              "matchingSources": [
+                { "id": "B1_m06_R3_ad_a", "label": "a" }, { "id": "B1_m06_R3_ad_b", "label": "b" },
+                { "id": "B1_m06_R3_ad_c", "label": "c" }, { "id": "B1_m06_R3_ad_d", "label": "d" },
+                { "id": "B1_m06_R3_ad_e", "label": "e" }, { "id": "B1_m06_R3_ad_f", "label": "f" },
+                { "id": "B1_m06_R3_ad_g", "label": "g" }, { "id": "B1_m06_R3_ad_h", "label": "h" },
+                { "id": "B1_m06_R3_ad_i", "label": "i" }, { "id": "B1_m06_R3_ad_j", "label": "j" },
+                { "id": "B1_m06_R3_ad_k", "label": "k" }, { "id": "B1_m06_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Anzeige c) sucht ehrenamtliche Helfer für die Tafel – genau Lebensmittelarbeit für Menschen mit wenig Geld. Das passt exakt zu Frau Wagners Wunsch.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m06_R3_q3",
+              "type": "matching",
+              "questionText": "3. Herr Nguyen versteht seine Briefe vom Jobcenter nicht immer richtig. Er wünscht sich kostenlose Hilfe von Fachleuten, die ihm die Formulierungen erklären.",
+              "matchingSources": [
+                { "id": "B1_m06_R3_ad_a", "label": "a" }, { "id": "B1_m06_R3_ad_b", "label": "b" },
+                { "id": "B1_m06_R3_ad_c", "label": "c" }, { "id": "B1_m06_R3_ad_d", "label": "d" },
+                { "id": "B1_m06_R3_ad_e", "label": "e" }, { "id": "B1_m06_R3_ad_f", "label": "f" },
+                { "id": "B1_m06_R3_ad_g", "label": "g" }, { "id": "B1_m06_R3_ad_h", "label": "h" },
+                { "id": "B1_m06_R3_ad_i", "label": "i" }, { "id": "B1_m06_R3_ad_j", "label": "j" },
+                { "id": "B1_m06_R3_ad_k", "label": "k" }, { "id": "B1_m06_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Anzeige g) bietet kostenlose Übersetzungshilfe für Behördenbriefe durch freiwillige Juristen – genau Herrn Nguyens Bedarf. Kein anderes Angebot passt.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m06_R3_q4",
+              "type": "matching",
+              "questionText": "4. Frau Markovic ist 72 Jahre alt und möchte endlich lernen, mit ihrer Familie im Ausland per Videoanruf zu sprechen. Ein Kurs speziell für ältere Anfänger wäre hilfreich.",
+              "matchingSources": [
+                { "id": "B1_m06_R3_ad_a", "label": "a" }, { "id": "B1_m06_R3_ad_b", "label": "b" },
+                { "id": "B1_m06_R3_ad_c", "label": "c" }, { "id": "B1_m06_R3_ad_d", "label": "d" },
+                { "id": "B1_m06_R3_ad_e", "label": "e" }, { "id": "B1_m06_R3_ad_f", "label": "f" },
+                { "id": "B1_m06_R3_ad_g", "label": "g" }, { "id": "B1_m06_R3_ad_h", "label": "h" },
+                { "id": "B1_m06_R3_ad_i", "label": "i" }, { "id": "B1_m06_R3_ad_j", "label": "j" },
+                { "id": "B1_m06_R3_ad_k", "label": "k" }, { "id": "B1_m06_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Anzeige e) ist ein Senioren-Computerkurs mit Fokus auf Videoanrufe und E-Mails – perfekt für Frau Markovics Anliegen.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m06_R3_q5",
+              "type": "matching",
+              "questionText": "5. Familie Johansson ist vor wenigen Wochen nach Berlin gezogen und möchte die Stadt kennenlernen. Ideal wäre ein Angebot speziell für Neuzugezogene, ohne Kosten.",
+              "matchingSources": [
+                { "id": "B1_m06_R3_ad_a", "label": "a" }, { "id": "B1_m06_R3_ad_b", "label": "b" },
+                { "id": "B1_m06_R3_ad_c", "label": "c" }, { "id": "B1_m06_R3_ad_d", "label": "d" },
+                { "id": "B1_m06_R3_ad_e", "label": "e" }, { "id": "B1_m06_R3_ad_f", "label": "f" },
+                { "id": "B1_m06_R3_ad_g", "label": "g" }, { "id": "B1_m06_R3_ad_h", "label": "h" },
+                { "id": "B1_m06_R3_ad_i", "label": "i" }, { "id": "B1_m06_R3_ad_j", "label": "j" },
+                { "id": "B1_m06_R3_ad_k", "label": "k" }, { "id": "B1_m06_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "j",
+              "explanation": "Anzeige j) beschreibt kostenlose Stadtrundgänge für Neuzugezogene in Berlin – genau das, was die Familie sucht.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m06_R3_q6",
+              "type": "matching",
+              "questionText": "6. Herr Sari freut sich auf die Rente und sucht eine Aktivität in der Gruppe. Er singt sehr gerne, ist aber nicht geübt und möchte ohne Vorauswahl teilnehmen.",
+              "matchingSources": [
+                { "id": "B1_m06_R3_ad_a", "label": "a" }, { "id": "B1_m06_R3_ad_b", "label": "b" },
+                { "id": "B1_m06_R3_ad_c", "label": "c" }, { "id": "B1_m06_R3_ad_d", "label": "d" },
+                { "id": "B1_m06_R3_ad_e", "label": "e" }, { "id": "B1_m06_R3_ad_f", "label": "f" },
+                { "id": "B1_m06_R3_ad_g", "label": "g" }, { "id": "B1_m06_R3_ad_h", "label": "h" },
+                { "id": "B1_m06_R3_ad_i", "label": "i" }, { "id": "B1_m06_R3_ad_j", "label": "j" },
+                { "id": "B1_m06_R3_ad_k", "label": "k" }, { "id": "B1_m06_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "h",
+              "explanation": "Anzeige h) lädt Menschen ab 60 zum Seniorenchor ein, ohne Vorkenntnisse – ideal für Herrn Saris Wunsch nach einer offenen Gruppe.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m06_R3_q7",
+              "type": "matching",
+              "questionText": "7. Frau Tamir braucht am Freitagabend eine verlässliche Betreuung für ihre beiden Kinder (3 und 6 Jahre), damit sie mit ihrem Mann zu einem Familienfest gehen kann.",
+              "matchingSources": [
+                { "id": "B1_m06_R3_ad_a", "label": "a" }, { "id": "B1_m06_R3_ad_b", "label": "b" },
+                { "id": "B1_m06_R3_ad_c", "label": "c" }, { "id": "B1_m06_R3_ad_d", "label": "d" },
+                { "id": "B1_m06_R3_ad_e", "label": "e" }, { "id": "B1_m06_R3_ad_f", "label": "f" },
+                { "id": "B1_m06_R3_ad_g", "label": "g" }, { "id": "B1_m06_R3_ad_h", "label": "h" },
+                { "id": "B1_m06_R3_ad_i", "label": "i" }, { "id": "B1_m06_R3_ad_j", "label": "j" },
+                { "id": "B1_m06_R3_ad_k", "label": "k" }, { "id": "B1_m06_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Anzeige f) ist exakt das Spiegelbild: Eine Familie mit zwei Kindern (3 und 6) sucht eine Babysitterin am Freitagabend. Frau Tamir könnte darauf antworten und so ihre Betreuung organisieren.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m06_R3_q8",
+              "type": "matching",
+              "questionText": "8. Elena ist frisch getrennt und möchte nicht mehr allein wohnen, aber auch nicht mit sehr jungen Leuten. Eine gemischte Wohngemeinschaft von Erwachsenen über 50 wäre ideal.",
+              "matchingSources": [
+                { "id": "B1_m06_R3_ad_a", "label": "a" }, { "id": "B1_m06_R3_ad_b", "label": "b" },
+                { "id": "B1_m06_R3_ad_c", "label": "c" }, { "id": "B1_m06_R3_ad_d", "label": "d" },
+                { "id": "B1_m06_R3_ad_e", "label": "e" }, { "id": "B1_m06_R3_ad_f", "label": "f" },
+                { "id": "B1_m06_R3_ad_g", "label": "g" }, { "id": "B1_m06_R3_ad_h", "label": "h" },
+                { "id": "B1_m06_R3_ad_i", "label": "i" }, { "id": "B1_m06_R3_ad_j", "label": "j" },
+                { "id": "B1_m06_R3_ad_k", "label": "k" }, { "id": "B1_m06_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "k",
+              "explanation": "Anzeige k) beschreibt eine Wohngemeinschaft 50+ mit eigenem Bad und gemeinsamen Flächen – passt genau zu Elenas Situation und Altersprofil.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m06_R3_q9",
+              "type": "matching",
+              "questionText": "9. Frau Bashir hat zwei kleine Kinder, die gerade ein Jahr und drei Jahre alt sind. Sie möchte Kleidung für die nächsten Jahre nachhaltig und günstig organisieren.",
+              "matchingSources": [
+                { "id": "B1_m06_R3_ad_a", "label": "a" }, { "id": "B1_m06_R3_ad_b", "label": "b" },
+                { "id": "B1_m06_R3_ad_c", "label": "c" }, { "id": "B1_m06_R3_ad_d", "label": "d" },
+                { "id": "B1_m06_R3_ad_e", "label": "e" }, { "id": "B1_m06_R3_ad_f", "label": "f" },
+                { "id": "B1_m06_R3_ad_g", "label": "g" }, { "id": "B1_m06_R3_ad_h", "label": "h" },
+                { "id": "B1_m06_R3_ad_i", "label": "i" }, { "id": "B1_m06_R3_ad_j", "label": "j" },
+                { "id": "B1_m06_R3_ad_k", "label": "k" }, { "id": "B1_m06_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Anzeige b) beschreibt einen regelmäßigen Kinderkleidertausch im Familienzentrum mit freiem Eintritt – ideal für Frau Bashirs Wunsch nach günstiger und nachhaltiger Kinderkleidung.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m06_R3_q10",
+              "type": "matching",
+              "questionText": "10. Familie Klein möchte ihren beiden Kindern (5 und 9 Jahre) regelmäßig Lesestoff besorgen, ohne viel Geld auszugeben. Sie wohnen nahe der Stadtmitte.",
+              "matchingSources": [
+                { "id": "B1_m06_R3_ad_a", "label": "a" }, { "id": "B1_m06_R3_ad_b", "label": "b" },
+                { "id": "B1_m06_R3_ad_c", "label": "c" }, { "id": "B1_m06_R3_ad_d", "label": "d" },
+                { "id": "B1_m06_R3_ad_e", "label": "e" }, { "id": "B1_m06_R3_ad_f", "label": "f" },
+                { "id": "B1_m06_R3_ad_g", "label": "g" }, { "id": "B1_m06_R3_ad_h", "label": "h" },
+                { "id": "B1_m06_R3_ad_i", "label": "i" }, { "id": "B1_m06_R3_ad_j", "label": "j" },
+                { "id": "B1_m06_R3_ad_k", "label": "k" }, { "id": "B1_m06_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "l",
+              "explanation": "Anzeige l) bietet kostenlose Kinder-Leihkarten in der Bücherei an – ideal für Familie Klein. Übrig bleiben Anzeige d) (Mitfahrgelegenheit) und i) (Kinderbett) als Distraktoren.",
+              "pointValue": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    "sprachbausteine": {
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie den folgenden Text und entscheiden Sie, welches Wort (a, b oder c) in die Lücke passt. Es gibt jeweils nur eine richtige Lösung.",
+          "text": "Liebe Martina,\n\nwie geht es dir? Ich wollte dir schon lange von meinem neuen Projekt erzählen. Seit drei Monaten arbeite ich nebenbei ehrenamtlich __(1)__ einer kleinen Stiftung, die junge Menschen in der Ausbildung unterstützt. Ich bin wirklich froh, __(2)__ ich mich damals dafür entschieden habe. Meine Ansprechpartnerin, __(3)__ mich in alles eingeführt hat, ist eine ruhige und erfahrene Sozialarbeiterin. __(4)__ ich am Anfang unsicher war, habe ich mich schnell zurechtgefunden.\n\nLetzte Woche haben wir einen kleinen Infoabend in einer Schule organisiert. Die Einleitung __(5)__ von mir gehalten, und ich war zwar aufgeregt, aber die Schüler haben freundlich zugehört. Wenn ich mehr Routine __(6)__, würde ich das gerne öfter machen – vielleicht klappt das im nächsten Schuljahr.\n\nAm Wochenende gehe ich mit meinen Mitbewohnerinnen oft __(7)__ Sport, meistens Yoga im Park. Am letzten Sonntag __(8)__ wir sogar zusammen zu einer Kundgebung gefahren, bei der es um bessere Wohnungen für junge Familien ging. Hoffentlich schaffst du es bald, mich mal zu besuchen – ich würde mich wirklich __(9)__ freuen. Übrigens habe ich kürzlich deinen Cousin Felix getroffen. Er hat erzählt, dass er letztes Jahr __(10)__ schönsten Urlaub seines Lebens in Portugal verbracht hat.\n\nMelde dich bald, ich vermisse dich!\n\nLiebe Grüße,\nClara",
+          "questions": [
+            {
+              "blankNumber": 1,
+              "type": "mcq",
+              "options": ["a) in", "b) an", "c) bei"],
+              "correctAnswer": "c",
+              "explanation": "Bei Organisationen, Firmen oder Stiftungen verwendet man 'bei' + Dativ: 'bei einer Stiftung arbeiten'. 'in' wäre für ein Gebäude, 'an' für Institutionen wie Universität.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 2,
+              "type": "mcq",
+              "options": ["a) weil", "b) dass", "c) ob"],
+              "correctAnswer": "b",
+              "explanation": "'Ich bin froh, dass ...' ist die Standardkonstruktion. Ein dass-Satz gibt das Objekt der Freude an. 'weil' wäre ein Grund, 'ob' eine indirekte Frage – beides passt hier nicht.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 3,
+              "type": "mcq",
+              "options": ["a) der", "b) die", "c) den"],
+              "correctAnswer": "b",
+              "explanation": "Relativsatz: 'Meine Ansprechpartnerin, die mich eingeführt hat'. Das Pronomen bezieht sich auf 'Ansprechpartnerin' (Femininum) im Nominativ (Subjekt des Relativsatzes).",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 4,
+              "type": "mcq",
+              "options": ["a) Obwohl", "b) Weil", "c) Trotzdem"],
+              "correctAnswer": "a",
+              "explanation": "Der Satz beschreibt einen Gegensatz (unsicher vs. zurechtgefunden) → 'obwohl' (konzessiv, Verb am Ende). 'weil' würde einen Grund angeben (unlogisch). 'trotzdem' ist ein Adverb mit Hauptsatzstellung.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 5,
+              "type": "mcq",
+              "options": ["a) wurde", "b) hat", "c) war"],
+              "correctAnswer": "a",
+              "explanation": "Passiv Präteritum: 'Die Einleitung wurde gehalten.' Das Subjekt ('Die Einleitung') führt die Handlung nicht selbst aus. 'hat' wäre Aktiv-Perfekt, 'war' Zustandspassiv.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 6,
+              "type": "mcq",
+              "options": ["a) habe", "b) hätte", "c) hatte"],
+              "correctAnswer": "b",
+              "explanation": "Irreale Bedingung 'Wenn ich mehr Routine hätte, würde ich ...' → Konjunktiv II 'hätte'. 'habe' und 'hatte' passen nicht zur würde-Form im Hauptsatz.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 7,
+              "type": "mcq",
+              "options": ["a) zu", "b) auf", "c) zum"],
+              "correctAnswer": "c",
+              "explanation": "Feste Wendung 'zum Sport gehen' (zu + dem = zum, Dativ). 'zu' ohne Artikel ist unvollständig; 'auf' passt hier nicht.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 8,
+              "type": "mcq",
+              "options": ["a) haben", "b) sind", "c) waren"],
+              "correctAnswer": "b",
+              "explanation": "Perfekt von 'fahren' (Bewegung) mit 'sein': 'Wir sind gefahren'. 'haben' ist bei Bewegungsverben falsch. 'waren' wäre Präteritum und passt nicht zum Partizip.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 9,
+              "type": "mcq",
+              "options": ["a) mich", "b) mir", "c) für mich"],
+              "correctAnswer": "a",
+              "explanation": "Reflexives Verb 'sich freuen' + Akkusativ: 'ich freue mich'. 'mir' (Dativ) passt bei 'sich etwas wünschen'. 'für mich' ist kein Reflexivpronomen.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 10,
+              "type": "mcq",
+              "options": ["a) das", "b) dem", "c) den"],
+              "correctAnswer": "c",
+              "explanation": "'den schönsten Urlaub' – direktes Objekt (Akkusativ Maskulinum): 'den'. 'das' wäre Neutrum, 'dem' Dativ. Die Adjektivendung '-sten' bestätigt Akkusativ Maskulinum.",
+              "pointValue": 1.5
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Text. Welches Wort aus der Liste a–o passt in die Lücken? Jedes Wort passt nur einmal. Fünf Wörter bleiben übrig.",
+          "text": "Liebe Theresa,\n\nvielen __(11)__ für deinen lieben Brief aus Hamburg. Ich habe mich so gefreut, endlich wieder von dir zu hören! Wie du weißt, bin ich vor vier Monaten in eine Mehrgenerationen-WG gezogen. Der Anfang war ehrlich gesagt schwierig, aber __(12)__ fühle ich mich hier sehr wohl.\n\nMit meinen Mitbewohnerinnen habe ich schon oft über unser Zusammenleben __(13)__, besonders über die Hausregeln. Am Ende haben wir einen kleinen Vertrag verfasst, und das __(14)__ tatsächlich besser als gedacht. Jeder weiß, wer welche Aufgaben übernimmt und wann Ruhezeit ist.\n\nIm Haus bin ich außerdem __(15)__ den gemeinsamen Garten zuständig – gießen, ein bisschen schneiden, ab und zu Unkraut zupfen. __(16)__ der letzten Woche hat uns sogar die örtliche Zeitung besucht und ein paar Fotos gemacht. Das war eine kleine Überraschung.\n\nNur eines ärgert mich gerade: Der Verein hat die Monatsbeiträge für die WG-Nebenkosten leider __(17)__. Ich hatte mich fest __(18)__ ein günstiges Frühjahr gefreut, aber jetzt zahle ich zwölf Euro mehr pro Monat. Ich denke __(19)__ darüber nach, ob ich einen kleinen Nebenjob für ein paar Stunden am Wochenende übernehme.\n\nKomm mich doch bald mal besuchen! __(20)__ können wir zusammen durch die Altstadt spazieren und in einem schönen Café frühstücken.\n\nLiebe Grüße,\nJonas",
+          "questions": [
+            {
+              "blankNumber": 11,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) ernsthaft", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Standardformel 'vielen Dank' am Briefanfang – 'vielen' verlangt direkt 'Dank'. 'herzlichen' (k) wäre auch möglich, aber 'vielen' steht schon und lässt nur 'Dank' zu.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 12,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) ernsthaft", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Temporales Adverb 'inzwischen' – beschreibt den Wandel vom schwierigen Anfang bis heute. 'damit' wäre Finalkonnektor und passt nicht.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 13,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) ernsthaft", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "c",
+              "explanation": "'Ich habe mit den Mitbewohnerinnen gesprochen' – Perfekt von 'sprechen mit/über'. Distraktor l) 'nachgedacht' verlangt 'über' und passt schlechter zu 'mit den Mitbewohnerinnen'.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 14,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) ernsthaft", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "d",
+              "explanation": "'Das funktioniert besser als gedacht' – idiomatisch für 'es klappt'. Subjekt 'das' + 3. Person Singular verlangt 'funktioniert'. 'reicht' (m) hat eine andere Bedeutung ('genug sein').",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 15,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) ernsthaft", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "e",
+              "explanation": "Feste Kombination 'zuständig sein für + Akkusativ': 'zuständig für den Garten'. 'durch' passt nicht zur Bedeutung (Verantwortung vs. Mittel).",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 16,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) ernsthaft", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "f",
+              "explanation": "Zeitangabe 'In der letzten Woche' mit Dativ. 'In' am Satzanfang, deshalb großgeschrieben.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 17,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) ernsthaft", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "g",
+              "explanation": "'Der Verein hat die Beiträge erhöht' – das Kollokat 'Beiträge erhöhen'. Partizip II 'erhöht' schließt das Perfekt ab.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 18,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) ernsthaft", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "h",
+              "explanation": "Feste Verb+Präposition 'sich freuen auf + Akkusativ' (Vorfreude). 'Ich hatte mich auf ein günstiges Frühjahr gefreut.'",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 19,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) ernsthaft", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "i",
+              "explanation": "Das Adverb 'ernsthaft' passt: 'Ich denke ernsthaft darüber nach'. Es betont die ernste Absicht. Die Alternative 'wahrscheinlich' fehlt bewusst in dieser Wortbank, 'ernsthaft' ist für diesen Blank das einzige passende Adverb.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 20,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) ernsthaft", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "j",
+              "explanation": "Satzanfang 'Dann können wir ...' – zeitliche Verknüpfung mit Großschreibung am Satzanfang. Übrig bleiben k) herzlichen, l) nachgedacht, m) reicht, n) durch, o) damit als Distraktoren.",
+              "pointValue": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 30,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "letter",
+          "instructions": "Ein alter Bekannter, Herr Schulz, ist seit kurzem Vorsitzender eines Nachbarschaftsvereins in Ihrer Stadt. Er sucht Freiwillige, die sich ehrenamtlich engagieren, und hat Sie per E-Mail angefragt. Schreiben Sie eine Antwort-E-Mail an Herrn Schulz. Gehen Sie auf alle vier Punkte unten ein. Achten Sie auf eine passende Anrede und einen passenden Gruß. Schreiben Sie ca. 150 Wörter.",
+          "instructionsTranslation": "An old acquaintance, Mr. Schulz, has recently become chairman of a neighborhood association in your city. He is looking for volunteers and has contacted you by email. Write a reply email to Mr. Schulz. Address all four points below. Pay attention to appropriate greeting and closing. Write approximately 150 words.",
+          "prompt": "Situation: Ein alter Bekannter, Herr Schulz, ist seit kurzem Vorsitzender eines Nachbarschaftsvereins in Ihrer Stadt. Er sucht ehrenamtliche Helfer und hat Ihnen geschrieben.\n\nSchreiben Sie eine E-Mail an Herrn Schulz. Gehen Sie auf die folgenden vier Punkte ein:\n\n- Zusage: Bestätigen Sie, dass Sie grundsätzlich mitmachen möchten.\n- Zeit: Wie viele Stunden pro Woche können Sie realistisch einbringen?\n- Aufgabe: Welche Aufgabe würde Ihnen am besten liegen und warum?\n- Rückfrage: Fragen Sie nach einem wichtigen organisatorischen Detail (z.B. Versicherung, erster Termin, Einarbeitung).\n\nVergessen Sie nicht Anrede, Einleitung und Grußformel. Schreiben Sie ca. 150 Wörter.",
+          "promptTranslation": "Situation: An old acquaintance, Mr. Schulz, has recently become chairman of a neighborhood association in your city. He is looking for volunteer helpers and has written to you.\n\nWrite an email to Mr. Schulz. Address these four points:\n\n- Acceptance: Confirm that you would generally like to take part.\n- Time: How many hours per week can you realistically contribute?\n- Task: Which task would suit you best and why?\n- Question: Ask about an important organizational detail (e.g. insurance, first meeting, onboarding).\n\nDon't forget greeting, introduction, and closing. Write approximately 150 words.",
+          "requiredPoints": [
+            "Grundsätzliche Zusage zur Mitarbeit im Nachbarschaftsverein",
+            "Angabe der verfügbaren Zeit pro Woche",
+            "Konkrete Aufgabe, die Sie übernehmen möchten, mit Begründung",
+            "Organisatorische Rückfrage (Versicherung, Termin, Einarbeitung o.ä.)"
+          ],
+          "wordCountMin": 130,
+          "wordCountMax": 170,
+          "sampleAnswer": "Sehr geehrter Herr Schulz,\n\nvielen Dank für Ihre E-Mail und die freundliche Anfrage. Ich freue mich sehr, dass Sie an mich gedacht haben, und möchte Ihnen gerne zusagen.\n\nNeben meiner Arbeit als Buchhalter habe ich am Wochenende noch etwas Zeit übrig. Realistisch könnte ich zwei bis drei Stunden pro Woche einbringen, am liebsten samstags am Vormittag. An Feiertagen oder im Urlaub müsste ich allerdings kurz vorher Bescheid geben.\n\nAm besten würde mir die Organisation des monatlichen Nachbarschaftscafés liegen. Ich koche gerne, kann gut mit Menschen umgehen und habe in meiner alten Firma oft kleine Veranstaltungen mitgeplant. So könnte ich meine Erfahrung direkt einbringen.\n\nEine Frage hätte ich noch: Wie ist man bei solchen ehrenamtlichen Einsätzen eigentlich versichert? Und gibt es eine Einarbeitung mit anderen Helfern, bevor es losgeht?\n\nIch freue mich auf Ihre Antwort und auf unsere Zusammenarbeit.\n\nMit freundlichen Grüßen\nPaul Schmitt",
+          "scoringCriteria": [
+            {
+              "criterion": "I. Inhaltliche Vollständigkeit",
+              "maxPoints": 15,
+              "description": "Alle vier Leitpunkte (Zusage, Zeit, Aufgabe, Rückfrage) sind klar behandelt. Wird einer dieser Punkte als nicht bearbeitet bewertet (D), erhält der gesamte Text 0 Punkte."
+            },
+            {
+              "criterion": "II. Kommunikative Gestaltung",
+              "maxPoints": 15,
+              "description": "Angemessene Anrede ('Sehr geehrter Herr Schulz'), logische Einleitung mit Bezug auf die empfangene E-Mail, passende Konnektoren (allerdings, am besten, außerdem), formelle Grußformel, sinnvolle Absatzstruktur."
+            },
+            {
+              "criterion": "III. Formale Richtigkeit",
+              "maxPoints": 15,
+              "description": "Grammatik, Rechtschreibung und Wortwahl auf B1-Niveau. Korrekte Verbformen (Perfekt, Konjunktiv II für höfliche Bitten), Satzstellung in Nebensätzen, Kasus nach Präpositionen. Schwere Grammatikfehler, die das Verständnis blockieren, führen zu D (und damit 0 Punkten für den gesamten Text)."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "introduce",
+          "instructions": "Stellen Sie sich Ihrem Gesprächspartner/Ihrer Gesprächspartnerin vor. Sprechen Sie über sich: Name, Herkunft, Wohnort, Familie, Beruf oder Ausbildung, Hobbys und Sprachen. Stellen Sie anschließend Ihrem Partner/Ihrer Partnerin mindestens zwei Fragen.",
+          "instructionsTranslation": "Introduce yourself to your conversation partner. Talk about: name, origin, place of residence, family, work or education, hobbies, and languages. Afterwards ask your partner at least two questions.",
+          "prompt": "Bitte stellen Sie sich Ihrem Partner / Ihrer Partnerin vor. Sprechen Sie u.a. über:\n- Ihren Namen und Ihre Herkunft\n- Ihren aktuellen Wohnort und seit wann Sie dort leben\n- Ihre Familie\n- Ihren Beruf oder Ihr Studium\n- Ihre Hobbys und Interessen\n- Die Sprachen, die Sie sprechen\n\nStellen Sie danach Ihrem Partner / Ihrer Partnerin mindestens zwei Fragen, um mehr über sie/ihn zu erfahren. Vorbereitungszeit: 20 Minuten für die gesamte mündliche Prüfung.",
+          "sampleResponse": "Guten Tag, mein Name ist Paul Schmitt, und ich komme ursprünglich aus einer kleinen Stadt in Thüringen. Seit zehn Jahren wohne ich in Leipzig, wo ich auch studiert habe und heute als Buchhalter in einem Familienbetrieb arbeite. Meine Frau und ich haben zwei Kinder – acht und elf Jahre alt. In meiner Freizeit engagiere ich mich ehrenamtlich im Nachbarschaftsverein und helfe einmal pro Monat beim Stadtteilfrühstück. Außerdem spiele ich im Verein Volleyball und lese gerne Biografien. Neben Deutsch spreche ich Englisch recht flüssig und ein bisschen Russisch, das ich in der Schule gelernt habe. Und wie ist das bei dir? Woher kommst du, und was hat dich nach Leipzig gebracht?",
+          "evaluationTips": [
+            "Strukturieren Sie Ihre Vorstellung: Name, Herkunft, Wohnort, Familie, Beruf, Hobbys",
+            "Verwenden Sie Nebensätze mit 'weil', 'der/die', 'wo' – das zeigt B1-Niveau",
+            "Nennen Sie konkrete Details (Stadt, Jahre, Berufsbezeichnung)",
+            "Stellen Sie W-Fragen, keine Ja/Nein-Fragen",
+            "Reagieren Sie auf die Antworten Ihres Partners mit kurzen Kommentaren",
+            "Verbinden Sie Themen: 'Ich engagiere mich ehrenamtlich, weil ...'"
+          ],
+          "keyPhrases": [
+            "Mein Name ist ... und ich komme aus ...",
+            "Seit ... Jahren wohne ich in ...",
+            "Beruflich arbeite ich als ... / Ich studiere ...",
+            "In meiner Freizeit ...",
+            "Ich engagiere mich ehrenamtlich bei ...",
+            "Und wie ist das bei dir/Ihnen?",
+            "Darf ich dich/Sie etwas fragen?"
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "discussion",
+          "instructions": "Sie erhalten einen kurzen Text zum Thema. Fassen Sie den Inhalt für Ihren Partner zusammen, beantworten Sie die drei Leitfragen, und tauschen Sie Ihre Meinung mit dem Partner aus.",
+          "instructionsTranslation": "You receive a short text on the topic. Summarize the content for your partner, answer the three guiding questions, and exchange your opinions with your partner.",
+          "prompt": "Thema: Ehrenamt und Gesellschaft\n\nLesen Sie den folgenden kurzen Text:\n\n'Eine neue Studie zeigt: Ungefähr 30 Prozent der Erwachsenen in Deutschland engagieren sich regelmäßig ehrenamtlich, zum Beispiel im Sportverein, in der Kirche oder bei sozialen Projekten. Gerade junge Menschen entdecken das Ehrenamt seit einigen Jahren wieder neu. Viele Vereine berichten jedoch, dass ihnen dauerhaft engagierte Helfer fehlen.'\n\nLeitfragen:\n1. Fassen Sie kurz den Inhalt des Textes zusammen (in 2–3 Sätzen).\n2. Haben Sie selbst schon einmal etwas ehrenamtlich gemacht? Wenn ja, was? Wenn nein, warum nicht?\n3. Was sollte Ihrer Meinung nach getan werden, damit mehr Menschen sich regelmäßig ehrenamtlich engagieren?\n\nSprechen Sie mit Ihrem Partner/Ihrer Partnerin über das Thema – fragen Sie auch nach seiner/ihrer Meinung.",
+          "sampleResponse": "Der Text berichtet, dass rund 30 Prozent der Erwachsenen in Deutschland regelmäßig ehrenamtlich aktiv sind – vor allem in Vereinen oder sozialen Projekten. Auch viele junge Menschen interessieren sich wieder dafür. Den Vereinen fehlen aber oft dauerhafte Helfer.\n\nIch habe selbst schon einmal ehrenamtlich gearbeitet: Zwei Jahre lang habe ich im Sportverein unserer Kinder als Schriftwart geholfen. Das hat mir Spaß gemacht, weil ich dort viele Familien aus dem Stadtteil kennengelernt habe. Im Moment fehlt mir allerdings die Zeit, weil ich im Beruf viel zu tun habe.\n\nMeiner Meinung nach sollten Vereine flexibler werden. Nicht jeder kann sich für mehrere Jahre verpflichten – kurze Projekte wären für Berufstätige oft leichter. Außerdem fände ich gut, wenn Firmen Mitarbeitern ein paar Stunden pro Monat während der Arbeitszeit für ein Ehrenamt schenken würden. Einerseits ist Eigeninitiative wichtig, andererseits braucht es gute Strukturen. Wie siehst du das? Hast du schon mal in einem Verein mitgeholfen?",
+          "evaluationTips": [
+            "Beginnen Sie mit einer Zusammenfassung in 2–3 Sätzen, bevor Sie Ihre Meinung äußern",
+            "Nennen Sie konkrete Beispiele aus Ihrem Leben (welcher Verein, wie lange, was haben Sie gemacht)",
+            "Verwenden Sie Meinungsformulierungen: 'Meiner Meinung nach ...', 'Ich finde, dass ...'",
+            "Gliedern Sie Vor- und Nachteile: 'Einerseits ..., andererseits ...'",
+            "Stellen Sie dem Partner eine offene Rückfrage",
+            "Benutzen Sie Konnektoren wie 'allerdings', 'außerdem', 'deshalb'"
+          ],
+          "keyPhrases": [
+            "Im Text geht es um ...",
+            "Der Text berichtet, dass ...",
+            "Meiner Meinung nach ...",
+            "Ich finde es wichtig, dass ...",
+            "Einerseits ... andererseits ...",
+            "Ein Vorteil/Nachteil ist, dass ...",
+            "Wie siehst du das?",
+            "Stimmst du mir da zu?"
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Sie sollen mit Ihrem Partner gemeinsam etwas planen. Machen Sie Vorschläge, reagieren Sie auf die Ideen Ihres Partners und einigen Sie sich am Ende auf eine gemeinsame Lösung.",
+          "instructionsTranslation": "You are going to plan something together with your partner. Make suggestions, respond to your partner's ideas, and agree on a joint solution at the end.",
+          "prompt": "In Ihrem Stadtteil soll ein kleines Willkommensfest für neue Nachbarinnen und Nachbarn stattfinden. Sie und Ihr Partner / Ihre Partnerin sollen dieses Fest gemeinsam organisieren.\n\nBesprechen Sie bitte folgende Punkte und kommen Sie zu einer gemeinsamen Entscheidung:\n\n- Wann und wo soll das Fest stattfinden?\n- Wen laden Sie ein (nur neue Nachbarn oder alle)?\n- Wie laden Sie die Leute ein (Zettel im Hausflur, E-Mail, Aushang)?\n- Was soll es zu essen und zu trinken geben? Wer bringt was mit?\n- Welches kleine Programm planen Sie (z.B. Vorstellungsrunde, Quiz, Musik)?\n\nMachen Sie Vorschläge, gehen Sie auf die Vorschläge Ihres Partners ein und einigen Sie sich am Ende.",
+          "sampleResponse": "Also, ich würde vorschlagen, dass wir das Fest an einem Samstagnachmittag im Mai machen – zum Beispiel am 15. Mai ab 15 Uhr. Als Ort könnten wir den kleinen Innenhof hinter unserem Haus nehmen, der ist geschützt und groß genug. Was hältst du davon?\n\nIch finde, wir sollten alle Nachbarn einladen, nicht nur die neuen. So lernen sich alle gegenseitig kennen. Mein Vorschlag: Wir hängen einen freundlichen Aushang im Hausflur auf und werfen einen Zettel in jeden Briefkasten.\n\nBeim Essen würde ich ein kleines Buffet vorschlagen, jeder bringt etwas mit. Ich kann zwei Bleche Pizza machen und Apfelsaft mitbringen. Vielleicht könntest du für Salate und Wasser sorgen? Dann haben wir schon mal eine gute Basis.\n\nAls Programm schlage ich eine kurze Vorstellungsrunde vor und danach ein einfaches Quiz über unsere Nachbarschaft – etwa wann das älteste Haus gebaut wurde oder wo der nächste Spielplatz ist. Zum Schluss könnten wir leise Musik aus einer Bluetooth-Box spielen. Bist du mit dem Plan einverstanden? Prima, dann halten wir das so fest.",
+          "evaluationTips": [
+            "Hören Sie aktiv zu und reagieren Sie konkret auf die Vorschläge Ihres Partners",
+            "Machen Sie Vorschläge mit Konjunktiv II ('Ich würde vorschlagen ...', 'Wir könnten ...')",
+            "Begründen Sie Vorschläge kurz mit 'weil' oder 'damit'",
+            "Einigen Sie sich klar am Ende: 'Einverstanden?' oder 'Dann halten wir das so fest.'",
+            "Teilen Sie Aufgaben explizit auf – wer bringt was mit",
+            "Fassen Sie am Ende die wichtigsten Entscheidungen kurz zusammen"
+          ],
+          "keyPhrases": [
+            "Ich würde vorschlagen, dass ...",
+            "Was hältst du davon, wenn ...?",
+            "Wir könnten zum Beispiel ...",
+            "Das ist eine gute Idee, aber ...",
+            "Alternativ könnten wir auch ...",
+            "Wer übernimmt ...?",
+            "Ich bringe ... mit, kannst du ...?",
+            "Einverstanden!",
+            "Dann halten wir fest: ..."
+          ]
+        }
+      ]
+    }
   }
 }

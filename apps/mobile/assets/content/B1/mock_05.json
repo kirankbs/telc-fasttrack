@@ -1,13 +1,959 @@
 {
   "id": "B1_mock_05",
   "level": "B1",
-  "title": "Übungstest 5",
-  "version": 0,
-  "_stub": true,
+  "title": "B1 Übungstest 5: Umwelt",
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 30,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Texte. Entscheiden Sie bei jedem Text: Ist die Aussage richtig oder falsch? Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short texts. For each text, decide: Is the statement correct or incorrect? You will hear each text only once.",
+          "audioFile": "assets/audio/B1/mock05/listening_part1.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B1_m05_L1_q1",
+              "type": "true_false",
+              "questionText": "Am Wochenende ist eine große Müllsammelaktion im Park geplant.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Moderatorin kündigt an: 'Am kommenden Samstag findet im Stadtpark unsere große Müllsammelaktion statt – Handschuhe und Säcke werden vom Umweltamt gestellt.' Die Aussage ist damit richtig.",
+              "audioTimestamp": 10
+            },
+            {
+              "id": "B1_m05_L1_q2",
+              "type": "true_false",
+              "questionText": "Frau Keller bittet ihren Mann, den Biomüll noch rauszubringen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Auf dem Anrufbeantworter sagt Frau Keller: 'Schatz, kannst du bitte noch die Biotonne rausstellen? Die Müllabfuhr kommt morgen früh schon um sieben.' Sie bittet also konkret um den Biomüll.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "B1_m05_L1_q3",
+              "type": "true_false",
+              "questionText": "Der Unverpackt-Laden hat ab nächster Woche längere Öffnungszeiten.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Ansage lautet: 'Liebe Kundinnen und Kunden, ab nächster Woche öffnen wir leider erst um 10 statt um 9 Uhr – wir bitten um Verständnis.' Die Öffnungszeiten werden also verkürzt, nicht verlängert.",
+              "audioTimestamp": 11
+            },
+            {
+              "id": "B1_m05_L1_q4",
+              "type": "true_false",
+              "questionText": "Der Kollege schlägt vor, gemeinsam mit dem Fahrrad zur Arbeit zu fahren.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Kollege sagt: 'Ich dachte, wir könnten ab nächster Woche zusammen mit dem Rad ins Büro fahren – das spart Benzin und macht mehr Spaß.' Er macht also genau diesen Vorschlag.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "B1_m05_L1_q5",
+              "type": "true_false",
+              "questionText": "Die Wettervorhersage meldet starken Regen für das ganze Wochenende.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Wetterbericht sagt: 'Am Samstag noch vereinzelte Schauer, am Sonntag wird es dann sonnig und trocken bei bis zu 18 Grad.' Starker Dauerregen ist das also nicht.",
+              "audioTimestamp": 8
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören einen Radiobericht. Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind. Sie hören den Text nur einmal.",
+          "instructionsTranslation": "You will hear a radio report. Decide whether the following ten statements are correct or incorrect. You will hear the text only once.",
+          "audioFile": "assets/audio/B1/mock05/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B1_m05_L2_q1",
+              "type": "true_false",
+              "questionText": "Die Sendung beschäftigt sich mit dem Thema Elektromobilität in Deutschland.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Moderatorin leitet ein: 'Heute geht es um das Thema Elektroautos – und um die Frage, ob sich Deutschland wirklich so schnell verändert, wie viele hoffen.' Das ist das Hauptthema.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "B1_m05_L2_q2",
+              "type": "true_false",
+              "questionText": "Laut der Studie fährt inzwischen jedes fünfte Neuauto elektrisch.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Sprecher zitiert: 'Etwa 20 Prozent der neu zugelassenen Fahrzeuge im letzten Jahr waren Elektroautos – also jedes fünfte.' Damit stimmt die Aussage.",
+              "audioTimestamp": 30
+            },
+            {
+              "id": "B1_m05_L2_q3",
+              "type": "true_false",
+              "questionText": "Frau Dr. Brandt arbeitet an einem Forschungsinstitut in Hamburg.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Moderatorin stellt vor: 'Unser heutiger Studiogast ist Dr. Katharina Brandt vom Institut für Mobilitätsforschung in München.' Ihr Institut liegt also in München, nicht in Hamburg.",
+              "audioTimestamp": 52
+            },
+            {
+              "id": "B1_m05_L2_q4",
+              "type": "true_false",
+              "questionText": "Dr. Brandt sieht Elektroautos als einzige Lösung für die Verkehrswende.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Brandt sagt: 'Elektroautos sind nur ein Baustein – ohne einen besseren öffentlichen Nahverkehr und mehr Radwege kommen wir nicht weiter.' Sie hält sie also nicht für die einzige Lösung.",
+              "audioTimestamp": 74
+            },
+            {
+              "id": "B1_m05_L2_q5",
+              "type": "true_false",
+              "questionText": "Die Zahl öffentlicher Ladestationen ist im letzten Jahr deutlich gestiegen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Sprecher berichtet: 'Innerhalb von zwölf Monaten ist die Zahl der öffentlichen Ladesäulen um rund 40 Prozent gewachsen.' Das ist ein deutlicher Anstieg.",
+              "audioTimestamp": 96
+            },
+            {
+              "id": "B1_m05_L2_q6",
+              "type": "true_false",
+              "questionText": "Viele Menschen auf dem Land haben Probleme, bequem zu laden.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Dr. Brandt erklärt: 'Wer in einer ländlichen Gegend wohnt, findet oft keine Schnellladestation in der Nähe – das macht den Alltag mit einem Elektroauto schwierig.' Das Problem wird klar benannt.",
+              "audioTimestamp": 118
+            },
+            {
+              "id": "B1_m05_L2_q7",
+              "type": "true_false",
+              "questionText": "Laut Dr. Brandt sind gebrauchte Elektroautos inzwischen günstiger als viele denken.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Sie sagt: 'Auf dem Gebrauchtmarkt bekommt man heute schon ordentliche Modelle für unter 15.000 Euro – viele Leute wissen das einfach nicht.' Die Aussage trifft also zu.",
+              "audioTimestamp": 140
+            },
+            {
+              "id": "B1_m05_L2_q8",
+              "type": "true_false",
+              "questionText": "Die Expertin empfiehlt, am besten weiterhin einen Dieselwagen zu fahren.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Brandt sagt: 'Wer ohnehin ein neues Auto braucht, sollte heute kaum noch einen Diesel kaufen – die Zeiten ändern sich schnell.' Sie empfiehlt klar das Gegenteil.",
+              "audioTimestamp": 160
+            },
+            {
+              "id": "B1_m05_L2_q9",
+              "type": "true_false",
+              "questionText": "Fahrgemeinschaften werden als zusätzliche Maßnahme empfohlen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Expertin rät: 'Schon eine einfache Fahrgemeinschaft mit Kollegen spart Emissionen und Geld – das ist der schnellste Schritt, den jeder selbst machen kann.' Fahrgemeinschaften werden explizit genannt.",
+              "audioTimestamp": 178
+            },
+            {
+              "id": "B1_m05_L2_q10",
+              "type": "true_false",
+              "questionText": "Am Ende der Sendung wird ein neues Buch der Expertin vorgestellt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Moderatorin verabschiedet sich: 'Weitere Informationen finden Sie auf der Internetseite unseres Senders.' Ein Buch von Dr. Brandt wird nicht erwähnt.",
+              "audioTimestamp": 200
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jedes Gespräch zweimal.",
+          "instructionsTranslation": "You will hear five short conversations. For each conversation there is one task. What is correct? Mark: a, b, or c. You will hear each conversation twice.",
+          "audioFile": "assets/audio/B1/mock05/listening_part3.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "B1_m05_L3_q1",
+              "type": "mcq",
+              "questionText": "Warum ruft die Frau im Umweltamt an?",
+              "options": [
+                "a) Sie möchte sich über laute Nachbarn beschweren.",
+                "b) Sie möchte wissen, wie sie alte Batterien entsorgen kann.",
+                "c) Sie möchte einen Termin für den Sperrmüll vereinbaren."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Anruferin sagt zu Beginn: 'Ich habe hier seit Monaten eine Schachtel mit alten Batterien und weiß nicht, wo ich die hinbringen soll.' Die Frage nach der Entsorgung ist der Grund. Sperrmüll und Lärm kommen nicht vor.",
+              "audioTimestamp": 14
+            },
+            {
+              "id": "B1_m05_L3_q2",
+              "type": "mcq",
+              "questionText": "Worauf einigen sich die beiden Nachbarinnen am Ende?",
+              "options": [
+                "a) Sie bauen zusammen ein Hochbeet im Innenhof.",
+                "b) Sie pflanzen nur Blumen auf ihren eigenen Balkonen.",
+                "c) Sie verzichten ganz auf den Gartenplan."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Am Schluss sagt eine: 'Dann bauen wir das Hochbeet tatsächlich gemeinsam auf – ich spreche morgen mit der Hausverwaltung.' Das Hochbeet ist die Entscheidung. Blumen auf Balkonen und Verzicht werden nur diskutiert.",
+              "audioTimestamp": 52
+            },
+            {
+              "id": "B1_m05_L3_q3",
+              "type": "mcq",
+              "questionText": "Was empfiehlt der Verkäufer im Fahrradladen?",
+              "options": [
+                "a) ein besonders leichtes Rennrad für den Arbeitsweg",
+                "b) ein gebrauchtes Stadtrad mit neuer Inspektion",
+                "c) ein teures E-Bike mit extrastarkem Motor"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Verkäufer sagt: 'Für Ihren Arbeitsweg würde ich Ihnen dieses gebrauchte Stadtrad für 380 Euro empfehlen – wir haben es gerade komplett durchgecheckt.' Er rät also zum Gebrauchtrad. Rennrad und E-Bike werden zwar erwähnt, aber nicht empfohlen.",
+              "audioTimestamp": 88
+            },
+            {
+              "id": "B1_m05_L3_q4",
+              "type": "mcq",
+              "questionText": "Warum möchte der Vater die Heizung nicht höher stellen?",
+              "options": [
+                "a) Die Heizung funktioniert seit gestern gar nicht mehr.",
+                "b) Die Nachbarn beschweren sich über die Wärme im Haus.",
+                "c) Er möchte die Kosten und den Verbrauch niedrig halten."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Vater erklärt: 'Ich möchte unsere Heizkosten dieses Jahr wirklich senken – und ehrlich gesagt tut es auch der Umwelt gut.' Kosten und Umwelt sind also der Grund. Weder Defekt noch Beschwerden werden genannt.",
+              "audioTimestamp": 122
+            },
+            {
+              "id": "B1_m05_L3_q5",
+              "type": "mcq",
+              "questionText": "Was ist das Hauptproblem der Studentin mit dem neuen Fahrradschloss?",
+              "options": [
+                "a) Das Schloss ist viel zu schwer für ihren Rucksack.",
+                "b) Das Schloss geht nur mit einem Code auf, den sie vergessen hat.",
+                "c) Das Schloss hat nach einer Woche einen Defekt."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Studentin klagt: 'Das Schloss hat wirklich gut ausgesehen, aber nach einer Woche hat sich der Schlüssel nicht mehr drehen lassen.' Der Defekt ist also das Hauptproblem. Gewicht und Code werden nicht genannt.",
+              "audioTimestamp": 155
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 60,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie zuerst die fünf Situationen (1–5) und dann die acht Überschriften (a–h). Welche Überschrift passt zu welcher Situation? Für jede Situation gibt es genau eine passende Überschrift. Drei Überschriften bleiben übrig.",
+          "instructionsTranslation": "First read the five situations (1–5) and then the eight headlines (a–h). Which headline matches which situation? For each situation there is exactly one matching headline. Three headlines remain unused.",
+          "texts": [
+            { "id": "B1_m05_R1_head_a", "type": "notice", "content": "a) Reparatur-Café im Bürgerhaus: Kleingeräte kostenlos reparieren statt wegwerfen" },
+            { "id": "B1_m05_R1_head_b", "type": "notice", "content": "b) Unverpackt-Laden Grünlich – Eröffnung am Samstag mit Führung und Kaffee" },
+            { "id": "B1_m05_R1_head_c", "type": "notice", "content": "c) Bus und Bahn am Aktionstag kostenlos nutzen – Aktion für saubere Luft" },
+            { "id": "B1_m05_R1_head_d", "type": "notice", "content": "d) Neue Stadtgärten auf dem Dach des Parkhauses – freie Beete zu vergeben" },
+            { "id": "B1_m05_R1_head_e", "type": "notice", "content": "e) Beratung zum Energiesparen zu Hause – kostenlose Termine mit Fachleuten" },
+            { "id": "B1_m05_R1_head_f", "type": "notice", "content": "f) Kurs Kleidung selbst reparieren – Näharbeiten für den Alltag lernen" },
+            { "id": "B1_m05_R1_head_g", "type": "notice", "content": "g) Baumpflanzaktion am Waldrand – Freiwillige gesucht, jede Hand hilft" },
+            { "id": "B1_m05_R1_head_h", "type": "notice", "content": "h) Flohmarkt für gebrauchte Möbel – Stände anmelden bis Ende des Monats" }
+          ],
+          "questions": [
+            {
+              "id": "B1_m05_R1_q1",
+              "type": "matching",
+              "questionText": "1. Der Wasserkocher von Herrn Petrov funktioniert plötzlich nicht mehr. Er möchte ihn nicht gleich wegwerfen und sucht jemanden, der ihm hilft, das Gerät wieder zum Laufen zu bringen – am liebsten ohne Kosten.",
+              "matchingSources": [
+                { "id": "B1_m05_R1_head_a", "label": "a" },
+                { "id": "B1_m05_R1_head_b", "label": "b" },
+                { "id": "B1_m05_R1_head_c", "label": "c" },
+                { "id": "B1_m05_R1_head_d", "label": "d" },
+                { "id": "B1_m05_R1_head_e", "label": "e" },
+                { "id": "B1_m05_R1_head_f", "label": "f" },
+                { "id": "B1_m05_R1_head_g", "label": "g" },
+                { "id": "B1_m05_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Überschrift a) bietet genau das: ein Reparatur-Café, in dem man Kleingeräte kostenlos reparieren kann. Das passt zu Herrn Petrovs defektem Wasserkocher. Andere Angebote betreffen Pflanzen, Energie oder Mobilität.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m05_R1_q2",
+              "type": "matching",
+              "questionText": "2. Familie Chen möchte weniger Plastikmüll im Haushalt produzieren. Sie haben gehört, dass in der Nähe eine neue Möglichkeit eröffnet, wo man lose Lebensmittel mit eigenen Dosen kaufen kann.",
+              "matchingSources": [
+                { "id": "B1_m05_R1_head_a", "label": "a" },
+                { "id": "B1_m05_R1_head_b", "label": "b" },
+                { "id": "B1_m05_R1_head_c", "label": "c" },
+                { "id": "B1_m05_R1_head_d", "label": "d" },
+                { "id": "B1_m05_R1_head_e", "label": "e" },
+                { "id": "B1_m05_R1_head_f", "label": "f" },
+                { "id": "B1_m05_R1_head_g", "label": "g" },
+                { "id": "B1_m05_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Überschrift b) kündigt die Eröffnung eines Unverpackt-Ladens an – genau das Konzept, das Familie Chen sucht, um Plastikmüll zu vermeiden. Kein anderes Angebot passt.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m05_R1_q3",
+              "type": "matching",
+              "questionText": "3. Frau Ikeda wohnt zur Miete und hat das Gefühl, dass ihre Heizkosten zu hoch sind. Sie möchte wissen, wo sie am meisten Energie sparen könnte, ohne gleich renovieren zu müssen.",
+              "matchingSources": [
+                { "id": "B1_m05_R1_head_a", "label": "a" },
+                { "id": "B1_m05_R1_head_b", "label": "b" },
+                { "id": "B1_m05_R1_head_c", "label": "c" },
+                { "id": "B1_m05_R1_head_d", "label": "d" },
+                { "id": "B1_m05_R1_head_e", "label": "e" },
+                { "id": "B1_m05_R1_head_f", "label": "f" },
+                { "id": "B1_m05_R1_head_g", "label": "g" },
+                { "id": "B1_m05_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Überschrift e) bietet eine kostenlose Energieberatung zu Hause – ideal, um konkrete Spartipps zu bekommen, ohne zu renovieren. Die anderen Angebote sind nicht themenrelevant.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m05_R1_q4",
+              "type": "matching",
+              "questionText": "4. Marie wohnt in einem Mietshaus ohne Garten und vermisst das Gärtnern. Sie hätte gerne ein eigenes kleines Beet, wo sie Kräuter und Gemüse anbauen kann.",
+              "matchingSources": [
+                { "id": "B1_m05_R1_head_a", "label": "a" },
+                { "id": "B1_m05_R1_head_b", "label": "b" },
+                { "id": "B1_m05_R1_head_c", "label": "c" },
+                { "id": "B1_m05_R1_head_d", "label": "d" },
+                { "id": "B1_m05_R1_head_e", "label": "e" },
+                { "id": "B1_m05_R1_head_f", "label": "f" },
+                { "id": "B1_m05_R1_head_g", "label": "g" },
+                { "id": "B1_m05_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Überschrift d) beschreibt neue Stadtgärten auf einem Parkhausdach mit freien Beeten – perfekt für Marie, die ohne eigenen Garten gärtnern möchte. Kein anderes Angebot ist passend.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m05_R1_q5",
+              "type": "matching",
+              "questionText": "5. Florian ist an einem freien Samstag körperlich aktiv und möchte etwas Sinnvolles für die Umwelt tun – am besten draußen in der Natur mit anderen zusammen.",
+              "matchingSources": [
+                { "id": "B1_m05_R1_head_a", "label": "a" },
+                { "id": "B1_m05_R1_head_b", "label": "b" },
+                { "id": "B1_m05_R1_head_c", "label": "c" },
+                { "id": "B1_m05_R1_head_d", "label": "d" },
+                { "id": "B1_m05_R1_head_e", "label": "e" },
+                { "id": "B1_m05_R1_head_f", "label": "f" },
+                { "id": "B1_m05_R1_head_g", "label": "g" },
+                { "id": "B1_m05_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Überschrift g) ruft zu einer Baumpflanzaktion am Waldrand auf – genau passend für Florian, der draußen aktiv etwas für die Umwelt tun möchte. Kein anderes Angebot kombiniert Umwelt und körperliche Aktivität.",
+              "pointValue": 5
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den Zeitungsartikel. Was ist richtig? Kreuzen Sie an: a, b oder c.",
+          "instructionsTranslation": "Read the newspaper article. What is correct? Mark: a, b, or c.",
+          "texts": [
+            {
+              "id": "B1_m05_R2_article",
+              "type": "article",
+              "content": "Mülltrennung – wie viel bringt sie wirklich?\n\nEine neue Untersuchung des Umweltinstituts in Freiburg kommt zu einem überraschenden Ergebnis: Obwohl die Deutschen als Weltmeister im Mülltrennen gelten, landet immer noch rund ein Drittel der gelben Tonne in der Verbrennung statt im Recycling. Die Gründe sind vielfältig – falsche Sortierung durch die Verbraucher, aber auch technische Probleme in den Sortieranlagen.\n\nBesonders häufig wird Kunststoff mit Resten von Lebensmitteln zum Problem. Ein Joghurtbecher mit halb vollem Inhalt oder eine Plastikverpackung mit viel fettigem Essen lässt sich nicht mehr sinnvoll recyceln. 'Viele Menschen glauben, dass sie alles gründlich auswaschen müssen – das stimmt so nicht', erklärt die Leiterin der Studie, Dr. Christine Vogt. 'Ein grober Löffel reicht, aber das Material darf nicht triefen.' Auch falsche Materialien in der gelben Tonne, etwa Windeln oder Stofflappen, machen die Arbeit der Anlagen schwer.\n\nDie Folgen sind beachtlich. Wenn Kunststoff nicht sauber genug ist, wandert er in die Verbrennung – und damit in die Atmosphäre. Fachleute schätzen, dass so jedes Jahr mehrere Hunderttausend Tonnen wertvoller Rohstoffe verloren gehen. Gleichzeitig fehlen diese Stoffe der Industrie, die neue Produkte aus frischem Öl herstellen muss. Das ist teuer und belastet das Klima zusätzlich.\n\nDr. Vogt betont aber auch, dass die Situation nicht nur negativ ist. In den letzten Jahren sei die Sortierung in Deutschland deutlich besser geworden, und es gebe immer mehr Produkte aus recyceltem Material. Entscheidend sei, so die Expertin, eine Kombination aus besserer Information und moderner Technik. Sie empfiehlt drei einfache Regeln für den Alltag: Verpackungen grob entleeren, Deckel von Verpackungen abtrennen, und Papier nicht in die gelbe Tonne werfen. Wer das beachtet, erhöht den Anteil an echtem Recycling spürbar und spart gleichzeitig Energie im eigenen Haushalt, weil Fehlwürfe oft zu Müllgebührenerhöhungen führen.",
+              "source": "Freiburger Wochenblatt, März 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "B1_m05_R2_q1",
+              "type": "mcq",
+              "questionText": "Was ist das zentrale Ergebnis der Studie aus Freiburg?",
+              "relatedTextId": "B1_m05_R2_article",
+              "options": [
+                "a) Die Deutschen trennen ihren Müll weltweit am besten.",
+                "b) Etwa ein Drittel des Inhalts der gelben Tonne wird nicht recycelt.",
+                "c) Fast der gesamte Plastikmüll wird inzwischen recycelt."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Im Text steht: 'Rund ein Drittel der gelben Tonne landet in der Verbrennung statt im Recycling.' Option a) greift nur die Einleitung auf, ist aber nicht das Hauptergebnis; Option c) widerspricht dem Text.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m05_R2_q2",
+              "type": "mcq",
+              "questionText": "Was sagt Dr. Vogt über das Auswaschen von Verpackungen?",
+              "relatedTextId": "B1_m05_R2_article",
+              "options": [
+                "a) Grobes Entleeren reicht, ganz sauber muss es nicht sein.",
+                "b) Verpackungen müssen immer gründlich gespült werden.",
+                "c) Verpackungen sollten gar nicht ausgeleert werden."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Dr. Vogt sagt wörtlich: 'Ein grober Löffel reicht, aber das Material darf nicht triefen.' Sie widerspricht also ausdrücklich dem Irrglauben, alles müsse gründlich gewaschen werden.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m05_R2_q3",
+              "type": "mcq",
+              "questionText": "Welche Folge schmutziger Verpackungen wird im Text ausdrücklich genannt?",
+              "relatedTextId": "B1_m05_R2_article",
+              "options": [
+                "a) Schmutziger Kunststoff landet häufig in der Verbrennung.",
+                "b) Schmutziger Kunststoff wird ins Ausland verkauft.",
+                "c) Schmutziger Kunststoff wird in Supermärkten direkt recycelt."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Text sagt klar: 'Wenn Kunststoff nicht sauber genug ist, wandert er in die Verbrennung.' Weder Auslandshandel noch Supermarktrecycling werden erwähnt.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m05_R2_q4",
+              "type": "mcq",
+              "questionText": "Wie bewertet Dr. Vogt die Entwicklung der letzten Jahre in Deutschland?",
+              "relatedTextId": "B1_m05_R2_article",
+              "options": [
+                "a) Sie meint, dass sich in den letzten Jahren nichts verändert hat.",
+                "b) Sie hält die Entwicklung für rückläufig und besorgniserregend.",
+                "c) Sie sieht deutliche Fortschritte bei Sortierung und Recyclingprodukten."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text sagt: 'In den letzten Jahren sei die Sortierung in Deutschland deutlich besser geworden, und es gebe immer mehr Produkte aus recyceltem Material.' Sie sieht also positive Entwicklung.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m05_R2_q5",
+              "type": "mcq",
+              "questionText": "Welche Alltagsregel nennt Dr. Vogt ausdrücklich?",
+              "relatedTextId": "B1_m05_R2_article",
+              "options": [
+                "a) Man sollte das Plastik mindestens zweimal auswaschen.",
+                "b) Papier gehört grundsätzlich nicht in die gelbe Tonne.",
+                "c) Alle Verpackungen sollten zuerst in die Spülmaschine."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text listet drei Regeln auf, darunter wörtlich: 'Papier nicht in die gelbe Tonne werfen.' Option a) und c) stehen nirgends im Artikel.",
+              "pointValue": 5
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie lesen zehn Situationen (1–10) und zwölf kurze Anzeigen (a–l). Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es genau eine passende Anzeige. Zwei Anzeigen bleiben übrig. Wenn keine Anzeige passt, schreiben Sie 'x'.",
+          "instructionsTranslation": "You read ten situations (1–10) and twelve short advertisements (a–l). Which advertisement matches which situation? For each situation there is exactly one matching advertisement. Two advertisements remain unused. If no advertisement fits, write 'x'.",
+          "texts": [
+            { "id": "B1_m05_R3_ad_a", "type": "ad", "content": "a) Zweitfahrrad gesucht? FAHRRADTEILER bietet Abos ab 12 €/Monat – ein Rad immer in Ihrer Nähe, Reparaturen inklusive. www.fahrradteiler.de" },
+            { "id": "B1_m05_R3_ad_b", "type": "ad", "content": "b) Gebrauchte Kinderkleidung – Größen 80 bis 128, sehr gut erhalten, Karton mit ca. 30 Teilen für 40 €. Selbstabholung in Bonn. claudia.m@mail.de" },
+            { "id": "B1_m05_R3_ad_c", "type": "ad", "content": "c) E-Auto-Mitfahrzentrale PENDELGRÜN – Sparen Sie Benzin und Emissionen. Strecken innerhalb Bayerns, günstige Preise. Anmeldung: www.pendelgruen.de" },
+            { "id": "B1_m05_R3_ad_d", "type": "ad", "content": "d) Solaranlage für das Eigenheim – Kostenlose Beratung bei Ihnen zu Hause, unverbindlich. Montag bis Samstag. Tel. 0800 445 66 77" },
+            { "id": "B1_m05_R3_ad_e", "type": "ad", "content": "e) Bio-Gemüsekiste direkt vom Hof – Wöchentliche Lieferung bis vor die Tür, ab 18 €/Woche. Saisonale Auswahl aus der Region. www.gemuese-lieferung.de" },
+            { "id": "B1_m05_R3_ad_f", "type": "ad", "content": "f) Regentonne aus Kunststoff (220 Liter) günstig abzugeben – gebraucht, aber dicht, 25 €. Abholung in Hannover am Wochenende. Tel. 0151 334 55 21" },
+            { "id": "B1_m05_R3_ad_g", "type": "ad", "content": "g) Lauftreff Grüne Lunge – Jeden Samstag 9 Uhr vom Stadtpark aus. Kostenlos, alle Niveaus willkommen. Kontakt: laufgruppe-gl@mail.de" },
+            { "id": "B1_m05_R3_ad_h", "type": "ad", "content": "h) Workshop Kompostieren im Garten – Halbtageskurs, 35 €. Samstag 10–14 Uhr, Kleingartenverein Süd. Anmeldung: info@kompost-kurs.de" },
+            { "id": "B1_m05_R3_ad_i", "type": "ad", "content": "i) Secondhand-Laden LUPINE – Mode, Bücher und Geschirr aus zweiter Hand. Mo–Sa 11–19 Uhr, Rathausstraße 7. Geschenkideen ab 2 €." },
+            { "id": "B1_m05_R3_ad_j", "type": "ad", "content": "j) Fahrradwerkstatt KETTENFIT – Reparaturen aller Marken innerhalb von 24 Stunden. Mo–Fr 9–18 Uhr, Nordstraße 3. Tel. 0221 665 99 01" },
+            { "id": "B1_m05_R3_ad_k", "type": "ad", "content": "k) Kurs Eigenen Balkon bepflanzen – 4 Abende à 90 Minuten, 48 €. Für Einsteiger ohne Vorkenntnisse. Volkshochschule Bremen. www.vhs-bremen.de" },
+            { "id": "B1_m05_R3_ad_l", "type": "ad", "content": "l) Elektrogeräte-Sammlung am Samstag – Bringen Sie alte Handys, Akkus und Kleingeräte zum Wertstoffhof. 8–14 Uhr, Hauptstr. 200. Eintritt frei." }
+          ],
+          "questions": [
+            {
+              "id": "B1_m05_R3_q1",
+              "type": "matching",
+              "questionText": "1. Hamza braucht für seinen neuen Arbeitsweg ein Rad, möchte aber kein eigenes kaufen. Ihm wäre wichtig, dass Reparaturen im Preis enthalten sind.",
+              "matchingSources": [
+                { "id": "B1_m05_R3_ad_a", "label": "a" }, { "id": "B1_m05_R3_ad_b", "label": "b" },
+                { "id": "B1_m05_R3_ad_c", "label": "c" }, { "id": "B1_m05_R3_ad_d", "label": "d" },
+                { "id": "B1_m05_R3_ad_e", "label": "e" }, { "id": "B1_m05_R3_ad_f", "label": "f" },
+                { "id": "B1_m05_R3_ad_g", "label": "g" }, { "id": "B1_m05_R3_ad_h", "label": "h" },
+                { "id": "B1_m05_R3_ad_i", "label": "i" }, { "id": "B1_m05_R3_ad_j", "label": "j" },
+                { "id": "B1_m05_R3_ad_k", "label": "k" }, { "id": "B1_m05_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Anzeige a) FAHRRADTEILER bietet ein Fahrrad-Abo mit Reparaturen inklusive – ideal für Hamzas Wunsch. Die Werkstatt (j) repariert nur, verleiht aber keine Räder.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m05_R3_q2",
+              "type": "matching",
+              "questionText": "2. Frau Kovač pendelt zweimal die Woche von Augsburg nach München und möchte dabei Benzin sparen. Sie hat gehört, dass es Mitfahrgelegenheiten speziell für Elektroautos gibt.",
+              "matchingSources": [
+                { "id": "B1_m05_R3_ad_a", "label": "a" }, { "id": "B1_m05_R3_ad_b", "label": "b" },
+                { "id": "B1_m05_R3_ad_c", "label": "c" }, { "id": "B1_m05_R3_ad_d", "label": "d" },
+                { "id": "B1_m05_R3_ad_e", "label": "e" }, { "id": "B1_m05_R3_ad_f", "label": "f" },
+                { "id": "B1_m05_R3_ad_g", "label": "g" }, { "id": "B1_m05_R3_ad_h", "label": "h" },
+                { "id": "B1_m05_R3_ad_i", "label": "i" }, { "id": "B1_m05_R3_ad_j", "label": "j" },
+                { "id": "B1_m05_R3_ad_k", "label": "k" }, { "id": "B1_m05_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Anzeige c) PENDELGRÜN ist genau eine E-Auto-Mitfahrzentrale innerhalb Bayerns – perfekt für Frau Kovačs Pendelstrecke.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m05_R3_q3",
+              "type": "matching",
+              "questionText": "3. Herr Scholl überlegt, auf seinem Hausdach eine Solaranlage zu installieren. Er möchte eine Fachperson zu sich nach Hause einladen, die ihm unverbindlich erklärt, was möglich ist.",
+              "matchingSources": [
+                { "id": "B1_m05_R3_ad_a", "label": "a" }, { "id": "B1_m05_R3_ad_b", "label": "b" },
+                { "id": "B1_m05_R3_ad_c", "label": "c" }, { "id": "B1_m05_R3_ad_d", "label": "d" },
+                { "id": "B1_m05_R3_ad_e", "label": "e" }, { "id": "B1_m05_R3_ad_f", "label": "f" },
+                { "id": "B1_m05_R3_ad_g", "label": "g" }, { "id": "B1_m05_R3_ad_h", "label": "h" },
+                { "id": "B1_m05_R3_ad_i", "label": "i" }, { "id": "B1_m05_R3_ad_j", "label": "j" },
+                { "id": "B1_m05_R3_ad_k", "label": "k" }, { "id": "B1_m05_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Anzeige d) bietet eine kostenlose und unverbindliche Solaranlagen-Beratung zu Hause – genau Herrn Scholls Anliegen. Kein anderes Angebot passt.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m05_R3_q4",
+              "type": "matching",
+              "questionText": "4. Die Familie Weiß möchte regionales Bio-Gemüse kaufen, hat aber werktags keine Zeit, zum Markt zu fahren. Ideal wäre eine regelmäßige Lieferung nach Hause.",
+              "matchingSources": [
+                { "id": "B1_m05_R3_ad_a", "label": "a" }, { "id": "B1_m05_R3_ad_b", "label": "b" },
+                { "id": "B1_m05_R3_ad_c", "label": "c" }, { "id": "B1_m05_R3_ad_d", "label": "d" },
+                { "id": "B1_m05_R3_ad_e", "label": "e" }, { "id": "B1_m05_R3_ad_f", "label": "f" },
+                { "id": "B1_m05_R3_ad_g", "label": "g" }, { "id": "B1_m05_R3_ad_h", "label": "h" },
+                { "id": "B1_m05_R3_ad_i", "label": "i" }, { "id": "B1_m05_R3_ad_j", "label": "j" },
+                { "id": "B1_m05_R3_ad_k", "label": "k" }, { "id": "B1_m05_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Anzeige e) beschreibt eine wöchentliche Bio-Gemüsekiste aus der Region, direkt bis vor die Tür – das ist genau, was Familie Weiß sucht.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m05_R3_q5",
+              "type": "matching",
+              "questionText": "5. Nils möchte sich im Freien bewegen und etwas Sinnvolles tun, hat aber kein Geld, um einen Verein zu bezahlen. Am Wochenende hat er Zeit.",
+              "matchingSources": [
+                { "id": "B1_m05_R3_ad_a", "label": "a" }, { "id": "B1_m05_R3_ad_b", "label": "b" },
+                { "id": "B1_m05_R3_ad_c", "label": "c" }, { "id": "B1_m05_R3_ad_d", "label": "d" },
+                { "id": "B1_m05_R3_ad_e", "label": "e" }, { "id": "B1_m05_R3_ad_f", "label": "f" },
+                { "id": "B1_m05_R3_ad_g", "label": "g" }, { "id": "B1_m05_R3_ad_h", "label": "h" },
+                { "id": "B1_m05_R3_ad_i", "label": "i" }, { "id": "B1_m05_R3_ad_j", "label": "j" },
+                { "id": "B1_m05_R3_ad_k", "label": "k" }, { "id": "B1_m05_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Anzeige g) beschreibt einen kostenlosen Lauftreff jeden Samstag – ideal für Nils. Kein anderes Angebot ist frei, am Wochenende und draußen.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m05_R3_q6",
+              "type": "matching",
+              "questionText": "6. Frau Zahra hat einen kleinen Garten und möchte endlich einen eigenen Komposthaufen anlegen, weiß aber nicht genau, wie man richtig anfängt.",
+              "matchingSources": [
+                { "id": "B1_m05_R3_ad_a", "label": "a" }, { "id": "B1_m05_R3_ad_b", "label": "b" },
+                { "id": "B1_m05_R3_ad_c", "label": "c" }, { "id": "B1_m05_R3_ad_d", "label": "d" },
+                { "id": "B1_m05_R3_ad_e", "label": "e" }, { "id": "B1_m05_R3_ad_f", "label": "f" },
+                { "id": "B1_m05_R3_ad_g", "label": "g" }, { "id": "B1_m05_R3_ad_h", "label": "h" },
+                { "id": "B1_m05_R3_ad_i", "label": "i" }, { "id": "B1_m05_R3_ad_j", "label": "j" },
+                { "id": "B1_m05_R3_ad_k", "label": "k" }, { "id": "B1_m05_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "h",
+              "explanation": "Anzeige h) beschreibt einen Halbtageskurs zum Kompostieren im Garten – ideal für Frau Zahras Wunsch, richtig anzufangen.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m05_R3_q7",
+              "type": "matching",
+              "questionText": "7. Thomas möchte Geschenke und Bücher kaufen, ohne immer neue Sachen zu verbrauchen. Ein Laden mit gebrauchten Dingen in der Innenstadt wäre für ihn ideal.",
+              "matchingSources": [
+                { "id": "B1_m05_R3_ad_a", "label": "a" }, { "id": "B1_m05_R3_ad_b", "label": "b" },
+                { "id": "B1_m05_R3_ad_c", "label": "c" }, { "id": "B1_m05_R3_ad_d", "label": "d" },
+                { "id": "B1_m05_R3_ad_e", "label": "e" }, { "id": "B1_m05_R3_ad_f", "label": "f" },
+                { "id": "B1_m05_R3_ad_g", "label": "g" }, { "id": "B1_m05_R3_ad_h", "label": "h" },
+                { "id": "B1_m05_R3_ad_i", "label": "i" }, { "id": "B1_m05_R3_ad_j", "label": "j" },
+                { "id": "B1_m05_R3_ad_k", "label": "k" }, { "id": "B1_m05_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "i",
+              "explanation": "Anzeige i) LUPINE ist ein Secondhand-Laden mit Büchern, Mode und Geschirr zu günstigen Preisen – genau für Thomas' Anliegen.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m05_R3_q8",
+              "type": "matching",
+              "questionText": "8. Mia wohnt in einer Stadtwohnung ohne Garten, aber ihr Balkon ist groß genug für Pflanzen. Sie möchte grundlegend lernen, was sie dort anbauen kann.",
+              "matchingSources": [
+                { "id": "B1_m05_R3_ad_a", "label": "a" }, { "id": "B1_m05_R3_ad_b", "label": "b" },
+                { "id": "B1_m05_R3_ad_c", "label": "c" }, { "id": "B1_m05_R3_ad_d", "label": "d" },
+                { "id": "B1_m05_R3_ad_e", "label": "e" }, { "id": "B1_m05_R3_ad_f", "label": "f" },
+                { "id": "B1_m05_R3_ad_g", "label": "g" }, { "id": "B1_m05_R3_ad_h", "label": "h" },
+                { "id": "B1_m05_R3_ad_i", "label": "i" }, { "id": "B1_m05_R3_ad_j", "label": "j" },
+                { "id": "B1_m05_R3_ad_k", "label": "k" }, { "id": "B1_m05_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "k",
+              "explanation": "Anzeige k) beschreibt einen Kurs 'Eigenen Balkon bepflanzen' für Einsteiger – genau Mias Bedarf. Anzeige h) betrifft den Garten, nicht den Balkon.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m05_R3_q9",
+              "type": "matching",
+              "questionText": "9. Herr Vogel hat im Keller alte Handys und einen kaputten Radiowecker herumliegen. Er möchte die Geräte endlich fachgerecht loswerden – und zwar am Samstag.",
+              "matchingSources": [
+                { "id": "B1_m05_R3_ad_a", "label": "a" }, { "id": "B1_m05_R3_ad_b", "label": "b" },
+                { "id": "B1_m05_R3_ad_c", "label": "c" }, { "id": "B1_m05_R3_ad_d", "label": "d" },
+                { "id": "B1_m05_R3_ad_e", "label": "e" }, { "id": "B1_m05_R3_ad_f", "label": "f" },
+                { "id": "B1_m05_R3_ad_g", "label": "g" }, { "id": "B1_m05_R3_ad_h", "label": "h" },
+                { "id": "B1_m05_R3_ad_i", "label": "i" }, { "id": "B1_m05_R3_ad_j", "label": "j" },
+                { "id": "B1_m05_R3_ad_k", "label": "k" }, { "id": "B1_m05_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "l",
+              "explanation": "Anzeige l) kündigt eine Elektrogeräte-Sammlung am Samstag an – ideal für Herrn Vogels Keller-Fund. Kein anderes Angebot passt zur Elektroentsorgung.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m05_R3_q10",
+              "type": "matching",
+              "questionText": "10. Frau Albrecht hat ein Enkelkind, das gerade auf die Welt gekommen ist. Sie sucht gebrauchte Kleidung in verschiedenen Größen für die nächsten Jahre.",
+              "matchingSources": [
+                { "id": "B1_m05_R3_ad_a", "label": "a" }, { "id": "B1_m05_R3_ad_b", "label": "b" },
+                { "id": "B1_m05_R3_ad_c", "label": "c" }, { "id": "B1_m05_R3_ad_d", "label": "d" },
+                { "id": "B1_m05_R3_ad_e", "label": "e" }, { "id": "B1_m05_R3_ad_f", "label": "f" },
+                { "id": "B1_m05_R3_ad_g", "label": "g" }, { "id": "B1_m05_R3_ad_h", "label": "h" },
+                { "id": "B1_m05_R3_ad_i", "label": "i" }, { "id": "B1_m05_R3_ad_j", "label": "j" },
+                { "id": "B1_m05_R3_ad_k", "label": "k" }, { "id": "B1_m05_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Anzeige b) verkauft gebrauchte Kinderkleidung in den Größen 80 bis 128 – passt zu Frau Albrechts Bedarf für die nächsten Jahre. Übrig bleiben Anzeige f) (Regentonne) und j) (Fahrradwerkstatt) als Distraktoren.",
+              "pointValue": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    "sprachbausteine": {
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie den folgenden Text und entscheiden Sie, welches Wort (a, b oder c) in die Lücke passt. Es gibt jeweils nur eine richtige Lösung.",
+          "text": "Lieber Stefan,\n\nwie geht es dir? Ich wollte dir schon lange schreiben und habe es immer wieder verschoben. Seit zwei Monaten arbeite ich jetzt __(1)__ einer kleinen Umweltberatung in Freiburg, und ich bin richtig froh, __(2)__ ich mich damals beworben habe. Meine Chefin, __(3)__ mich persönlich eingestellt hat, ist eine sehr erfahrene Biologin. __(4)__ die Einarbeitung am Anfang anstrengend war, fühle ich mich mittlerweile gut im Team angekommen.\n\nLetzte Woche haben wir einen großen Infoabend zum Thema Klimaschutz organisiert. Der Vortrag __(5)__ von meiner Kollegin gehalten, und ich habe sie mit Folien und Fragen unterstützt. Wenn ich schon mehr Erfahrung __(6)__, würde ich mich auch schon allein vor Publikum trauen. Aber das kommt sicher noch.\n\nAm Wochenende gehe ich oft mit Freunden __(7)__ Sport, meistens Laufen durch den Park. Am letzten Samstag __(8)__ wir zusammen ins Freibad gegangen, das Wasser war zwar noch kühl, aber richtig erfrischend. Ich würde mich sehr __(9)__ freuen, wenn du mich bald mal hier besuchen kommst – Freiburg hat im Frühling wirklich viel zu bieten. Übrigens habe ich unsere alte Nachbarin Frau Weiß getroffen. Sie hat erzählt, dass sie mit ihrem Mann __(10)__ schönsten Urlaub ihres Lebens in Norwegen verbracht hat.\n\nIch freue mich auf deine Antwort.\n\nHerzliche Grüße,\nHannah",
+          "questions": [
+            {
+              "blankNumber": 1,
+              "type": "mcq",
+              "options": ["a) in", "b) an", "c) bei"],
+              "correctAnswer": "c",
+              "explanation": "Bei Arbeitgebern verwendet man 'bei' + Dativ: 'bei einer Beratung arbeiten'. 'in' würde ein Gebäude oder Stadt beschreiben. 'an' gilt für Institutionen wie 'an der Universität'.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 2,
+              "type": "mcq",
+              "options": ["a) weil", "b) dass", "c) ob"],
+              "correctAnswer": "b",
+              "explanation": "'Ich bin froh, dass ...' ist die Standardkonstruktion nach 'froh sein' – dass-Satz als Objekt. 'weil' würde nur einen Grund nennen und klingt unsauber. 'ob' wäre eine indirekte Frage und passt inhaltlich nicht.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 3,
+              "type": "mcq",
+              "options": ["a) der", "b) die", "c) den"],
+              "correctAnswer": "b",
+              "explanation": "Relativsatz: 'Meine Chefin, die mich eingestellt hat'. Das Pronomen bezieht sich auf 'Chefin' (Femininum) im Nominativ (Subjekt des Relativsatzes). 'der' wäre Maskulinum, 'den' wäre Akkusativ.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 4,
+              "type": "mcq",
+              "options": ["a) Obwohl", "b) Weil", "c) Trotzdem"],
+              "correctAnswer": "a",
+              "explanation": "Der Satz beschreibt einen Gegensatz (Einarbeitung anstrengend – heute im Team angekommen) → 'obwohl' (konzessiv, Subjunktion mit Verb am Ende). 'weil' würde einen Grund angeben und passt inhaltlich nicht. 'trotzdem' ist ein Adverb mit Hauptsatzstellung.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 5,
+              "type": "mcq",
+              "options": ["a) wurde", "b) hat", "c) war"],
+              "correctAnswer": "a",
+              "explanation": "Passiv Präteritum: 'Der Vortrag wurde gehalten.' Das Subjekt ('der Vortrag') führt die Handlung nicht selbst aus. 'hat' würde Aktiv-Perfekt sein, 'war' wäre Zustandspassiv und hier falsch.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 6,
+              "type": "mcq",
+              "options": ["a) habe", "b) hätte", "c) hatte"],
+              "correctAnswer": "b",
+              "explanation": "Irreale Bedingung: 'Wenn ich mehr Erfahrung hätte, würde ich ...' verlangt Konjunktiv II ('hätte'). 'habe' wäre Indikativ Präsens, 'hatte' Präteritum – beide passen nicht zur irrealen Konstruktion.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 7,
+              "type": "mcq",
+              "options": ["a) zu", "b) auf", "c) zum"],
+              "correctAnswer": "c",
+              "explanation": "Feste Wendung 'zum Sport gehen' (zu + dem = zum, Dativ). 'zu' ohne Artikel ist unvollständig. 'auf' passt bei Sport nicht.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 8,
+              "type": "mcq",
+              "options": ["a) haben", "b) sind", "c) waren"],
+              "correctAnswer": "b",
+              "explanation": "Perfekt von 'gehen' (Bewegung) wird mit 'sein' gebildet: 'Wir sind gegangen'. 'haben' ist bei Bewegungsverben falsch. 'waren' wäre Präteritum und passt nicht zum Partizip.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 9,
+              "type": "mcq",
+              "options": ["a) mich", "b) mir", "c) für mich"],
+              "correctAnswer": "a",
+              "explanation": "Reflexives Verb 'sich freuen' mit Akkusativ: 'ich freue mich'. 'mir' (Dativ) passt nur bei 'sich etwas wünschen'. 'für mich' ist kein Reflexivpronomen.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 10,
+              "type": "mcq",
+              "options": ["a) das", "b) dem", "c) den"],
+              "correctAnswer": "c",
+              "explanation": "'den schönsten Urlaub' ist Akkusativobjekt (Maskulinum): 'den'. 'das' wäre Neutrum, 'dem' Dativ. Die Adjektivendung '-sten' bestätigt Akkusativ Maskulinum.",
+              "pointValue": 1.5
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Text. Welches Wort aus der Liste a–o passt in die Lücken? Jedes Wort passt nur einmal. Fünf Wörter bleiben übrig.",
+          "text": "Liebe Ella,\n\nvielen __(11)__ für deinen langen Brief! Ich habe mich sehr gefreut und gleich zweimal gelesen. Du weißt ja, dass ich vor einem halben Jahr in eine kleinere Wohnung gezogen bin, um Strom und Heizkosten zu sparen. Die ersten Wochen waren ehrlich gesagt schwer, aber __(12)__ fühle ich mich hier richtig wohl.\n\nMit meinen neuen Nachbarn habe ich auch schon mehrfach __(13)__, weil wir gemeinsam einen kleinen Innenhofgarten anlegen wollen. Wir haben uns auf erste Beete geeinigt, und das __(14)__ bisher sehr gut. Jeder pflanzt, was ihm gefällt, und wir tauschen die Ernte.\n\nIn der Wohnanlage bin ich außerdem __(15)__ die Mülltrennung im Treppenhaus zuständig – klingt langweilig, ist aber wichtig, weil früher viel im falschen Container gelandet ist. __(16)__ der letzten Woche habe ich ein kleines Schild mit Erklärungen aufgehängt, und seitdem klappt es deutlich besser.\n\nNur eines ärgert mich gerade: Die Stadt hat die Müllgebühren zum Januar leider __(17)__. Ich hatte mich fest __(18)__ ein ruhiges Jahr finanziell gefreut, aber nun muss ich __(19)__ doch ein bisschen mehr sparen. Vielleicht verzichte ich auf meinen zweiten Streamingdienst, den brauche ich ohnehin kaum.\n\nMelde dich bald, ich vermisse dich sehr. __(20)__ machen wir im Sommer wieder zusammen einen Ausflug in den Schwarzwald – ich würde mich riesig freuen.\n\nLiebe Grüße,\nPhilipp",
+          "questions": [
+            {
+              "blankNumber": 11,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) wahrscheinlich", "j) Vielleicht",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Standardformel 'vielen Dank' am Briefanfang – 'vielen' verlangt direkt 'Dank'. Distraktor k) 'herzlichen' ist grammatisch möglich, aber 'vielen' steht schon im Text und lässt nur 'Dank' als Fortsetzung zu.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 12,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) wahrscheinlich", "j) Vielleicht",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Temporales Adverb 'inzwischen' – beschreibt den Wandel vom schwierigen Anfang bis heute. 'damit' wäre ein Finalkonnektor und passt hier nicht.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 13,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) wahrscheinlich", "j) Vielleicht",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "c",
+              "explanation": "'Ich habe mit meinen Nachbarn gesprochen' – Perfekt von 'sprechen mit'. Distraktor l) 'nachgedacht' verlangt 'über' und passt nicht zu 'mit den Nachbarn'.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 14,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) wahrscheinlich", "j) Vielleicht",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "d",
+              "explanation": "'Das funktioniert bisher sehr gut' – idiomatisch für 'es klappt'. Subjekt 'das' + 3. Person Singular verlangt 'funktioniert'. 'reicht' (m) bedeutet 'genug sein' und passt inhaltlich schlechter.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 15,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) wahrscheinlich", "j) Vielleicht",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "e",
+              "explanation": "Feste Kombination 'zuständig sein für + Akkusativ'. 'durch' würde Mittel/Weg anzeigen und ergibt hier keinen Sinn.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 16,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) wahrscheinlich", "j) Vielleicht",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "f",
+              "explanation": "Zeitangabe 'In der letzten Woche' – 'in' + Dativ am Satzanfang, deshalb großgeschrieben.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 17,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) wahrscheinlich", "j) Vielleicht",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "g",
+              "explanation": "'Die Stadt hat die Gebühren erhöht' – das Kollokat 'Gebühren erhöhen'. Partizip II 'erhöht' schließt Perfekt korrekt ab.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 18,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) wahrscheinlich", "j) Vielleicht",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "h",
+              "explanation": "Feste Verb+Präposition 'sich freuen auf + Akkusativ' (Vorfreude). 'Ich hatte mich auf ein ruhiges Jahr gefreut.'",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 19,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) wahrscheinlich", "j) Vielleicht",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "i",
+              "explanation": "Das Adverb 'wahrscheinlich' drückt im Satzinneren Unsicherheit aus. 'Vielleicht' (j) wäre semantisch ähnlich, ist hier aber als Großbuchstabe für den letzten Blank reserviert.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 20,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) inzwischen", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) wahrscheinlich", "j) Vielleicht",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) durch", "o) damit"
+              ],
+              "correctAnswer": "j",
+              "explanation": "Satzanfang 'Vielleicht' – modales Adverb mit Großschreibung am Satzanfang. Einladung mit höflicher Unsicherheit. Übrig bleiben k) herzlichen, l) nachgedacht, m) reicht, n) durch, o) damit als Distraktoren.",
+              "pointValue": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 30,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "letter",
+          "instructions": "In Ihrer Nachbarschaft beginnt bald ein Projekt für einen gemeinsamen Stadtgarten. Die Organisatorin, Frau Richter, hat eine E-Mail an alle Interessierten geschickt und bittet um Rückmeldungen. Schreiben Sie eine Antwort-E-Mail an Frau Richter. Gehen Sie auf alle vier Punkte unten ein. Achten Sie auf eine passende Anrede und einen passenden Gruß. Schreiben Sie ca. 150 Wörter.",
+          "instructionsTranslation": "A community garden project is starting in your neighborhood. The organizer, Ms. Richter, has sent an email to all interested parties asking for feedback. Write a reply email to Ms. Richter. Address all four points below. Pay attention to appropriate greeting and closing. Write approximately 150 words.",
+          "prompt": "Situation: In Ihrer Nachbarschaft startet ein Projekt für einen gemeinsamen Stadtgarten. Die Organisatorin, Frau Richter, hat eine E-Mail an alle Interessierten geschickt und bittet um Antworten.\n\nSchreiben Sie eine E-Mail an Frau Richter. Gehen Sie auf die folgenden vier Punkte ein:\n\n- Anmeldung: Warum möchten Sie mitmachen?\n- Einbringen: Was können Sie zum Projekt beitragen (Zeit, Material, Wissen)?\n- Rückfrage: Fragen Sie nach einem wichtigen Detail (z.B. Kosten oder Zeitplan).\n- Vorschlag: Machen Sie einen konkreten Vorschlag, wie das Projekt noch besser werden könnte.\n\nVergessen Sie nicht Anrede, Einleitung und Grußformel. Schreiben Sie ca. 150 Wörter.",
+          "promptTranslation": "Situation: A community garden project is starting in your neighborhood. The organizer, Ms. Richter, has emailed everyone interested and is asking for responses.\n\nWrite an email to Ms. Richter. Address these four points:\n\n- Registration: Why do you want to take part?\n- Contribution: What can you contribute to the project (time, materials, knowledge)?\n- Question: Ask about an important detail (e.g. costs or schedule).\n- Suggestion: Make a concrete suggestion for how the project could be improved.\n\nDon't forget greeting, introduction, and closing. Write approximately 150 words.",
+          "requiredPoints": [
+            "Motivation für die Teilnahme am Stadtgarten",
+            "Eigener Beitrag (Zeit, Material oder Wissen)",
+            "Rückfrage zu einem wichtigen Detail (Kosten, Zeitplan o.ä.)",
+            "Konkreter Vorschlag zur Verbesserung des Projekts"
+          ],
+          "wordCountMin": 130,
+          "wordCountMax": 170,
+          "sampleAnswer": "Sehr geehrte Frau Richter,\n\nvielen Dank für Ihre E-Mail und die ausführlichen Informationen zum geplanten Stadtgarten. Ich möchte mich gerne für das Projekt anmelden.\n\nIch wohne seit drei Jahren in der Nachbarschaft und freue mich sehr über die Idee. Für mich wäre das eine tolle Möglichkeit, Leute kennenzulernen und gleichzeitig etwas für die Umwelt zu tun. Außerdem vermisse ich in meiner Mietwohnung einen eigenen Garten.\n\nIch könnte zwei Nachmittage pro Woche mithelfen, vor allem samstags. Beruflich arbeite ich als Biologin und kenne mich mit Pflanzen und Kompostieren gut aus. Gerne würde ich mein Wissen mit den anderen Teilnehmern teilen.\n\nEine Frage hätte ich noch: Wie viel kostet die Teilnahme pro Person im ersten Jahr, und muss man einmalig zahlen oder monatlich?\n\nAls Vorschlag möchte ich einbringen: Vielleicht könnten wir einmal im Monat einen Pflanztag für Kinder organisieren. So werden auch Familien eingebunden und die Nachbarschaft lernt sich besser kennen.\n\nMit freundlichen Grüßen\nLena Bauer",
+          "scoringCriteria": [
+            {
+              "criterion": "I. Inhaltliche Vollständigkeit",
+              "maxPoints": 15,
+              "description": "Alle vier Leitpunkte (Motivation, Beitrag, Rückfrage, Vorschlag) sind klar behandelt. Wird einer dieser Punkte als nicht bearbeitet bewertet (D), erhält der gesamte Text 0 Punkte."
+            },
+            {
+              "criterion": "II. Kommunikative Gestaltung",
+              "maxPoints": 15,
+              "description": "Angemessene Anrede ('Sehr geehrte Frau Richter'), logische Einleitung mit Bezug auf die empfangene E-Mail, passende Konnektoren (außerdem, gerne, vielleicht), formelle Grußformel, sinnvolle Absatzstruktur."
+            },
+            {
+              "criterion": "III. Formale Richtigkeit",
+              "maxPoints": 15,
+              "description": "Grammatik, Rechtschreibung und Wortwahl auf B1-Niveau. Korrekte Verbformen, Satzstellung in Nebensätzen, Kasus nach Präpositionen. Schwere Grammatikfehler, die das Verständnis blockieren, führen zu D (und damit 0 Punkten für den gesamten Text)."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "introduce",
+          "instructions": "Stellen Sie sich Ihrem Gesprächspartner/Ihrer Gesprächspartnerin vor. Sprechen Sie über sich: Name, Herkunft, Wohnort, Familie, Beruf oder Ausbildung, Hobbys und Sprachen. Stellen Sie anschließend Ihrem Partner/Ihrer Partnerin mindestens zwei Fragen.",
+          "instructionsTranslation": "Introduce yourself to your conversation partner. Talk about: name, origin, place of residence, family, work or education, hobbies, and languages. Afterwards ask your partner at least two questions.",
+          "prompt": "Bitte stellen Sie sich Ihrem Partner / Ihrer Partnerin vor. Sprechen Sie u.a. über:\n- Ihren Namen und Ihre Herkunft\n- Ihren aktuellen Wohnort und seit wann Sie dort leben\n- Ihre Familie\n- Ihren Beruf oder Ihr Studium\n- Ihre Hobbys und Interessen\n- Die Sprachen, die Sie sprechen\n\nStellen Sie danach Ihrem Partner / Ihrer Partnerin mindestens zwei Fragen, um mehr über sie/ihn zu erfahren. Vorbereitungszeit: 20 Minuten für die gesamte mündliche Prüfung.",
+          "sampleResponse": "Guten Tag, ich heiße Lena Bauer und komme ursprünglich aus einem kleinen Dorf im Schwarzwald. Seit sechs Jahren wohne ich in Freiburg, weil ich hier zuerst Biologie studiert habe und jetzt für eine Umweltberatung arbeite. Meine Eltern leben noch auf unserem alten Hof, und meine jüngere Schwester ist gerade nach Berlin gezogen. In meiner Freizeit fahre ich gerne mit dem Rad ins Umland oder arbeite im Kleingarten meiner Familie. Außerdem koche ich sehr gerne vegetarisch und besuche mit Freunden den Wochenmarkt. Neben Deutsch spreche ich Englisch und ein bisschen Französisch, weil wir im Süden viel Kontakt mit dem Elsass haben. Und wie ist das bei dir? Woher kommst du, und was hat dich hierher gebracht?",
+          "evaluationTips": [
+            "Strukturieren Sie Ihre Vorstellung – Name und Herkunft zuerst, dann Beruf, dann Hobbys",
+            "Verwenden Sie Nebensätze mit 'weil', 'der/die', 'damit' – das zeigt B1-Niveau",
+            "Nennen Sie konkrete Orte und Zeiten statt nur 'aus Deutschland'",
+            "Stellen Sie echte W-Fragen, keine Ja/Nein-Fragen",
+            "Reagieren Sie auf die Antworten: 'Interessant, seit wann machst du das?'",
+            "Verbinden Sie Themen sinnvoll (Beruf → Hobbys → Sprachen)"
+          ],
+          "keyPhrases": [
+            "Ich heiße ... und komme aus ...",
+            "Seit ... wohne ich in ...",
+            "Beruflich arbeite ich als ...",
+            "In meiner Freizeit ...",
+            "Ich interessiere mich für ...",
+            "Und wie ist das bei dir?",
+            "Darf ich dich etwas fragen?"
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "discussion",
+          "instructions": "Sie erhalten einen kurzen Text zum Thema. Fassen Sie den Inhalt für Ihren Partner zusammen, beantworten Sie die drei Leitfragen, und tauschen Sie Ihre Meinung mit dem Partner aus.",
+          "instructionsTranslation": "You receive a short text on the topic. Summarize the content for your partner, answer the three guiding questions, and exchange your opinions with your partner.",
+          "prompt": "Thema: Umwelt im Alltag\n\nLesen Sie den folgenden kurzen Text:\n\n'Eine neue Studie zeigt, dass die Deutschen im Alltag zwar auf Umweltschutz achten wollen, die Praxis aber oft schwierig ist. Rund 70 Prozent sagen, sie trennen ihren Müll gewissenhaft, aber nur 35 Prozent nutzen regelmäßig den öffentlichen Nahverkehr. Viele Menschen geben an, dass ihnen im Alltag schlicht die Zeit und manchmal auch das passende Angebot fehlt.'\n\nLeitfragen:\n1. Fassen Sie kurz den Inhalt des Textes zusammen (in 2–3 Sätzen).\n2. Was tun Sie persönlich im Alltag für die Umwelt, und was fällt Ihnen schwer?\n3. Was sollte Ihrer Meinung nach der Staat oder die Stadt tun, damit umweltfreundliches Leben leichter wird?\n\nSprechen Sie mit Ihrem Partner/Ihrer Partnerin über das Thema – fragen Sie auch nach seiner/ihrer Meinung.",
+          "sampleResponse": "Der Text berichtet, dass viele Deutsche zwar auf die Umwelt achten wollen, dies aber im Alltag nicht immer umsetzen. Rund 70 Prozent trennen ihren Müll, aber nur 35 Prozent fahren oft mit Bus oder Bahn. Die häufigsten Gründe sind Zeitmangel und fehlende Angebote.\n\nIch persönlich trenne meinen Müll konsequent und kaufe meistens Gemüse aus der Region. Schwer fällt mir allerdings, auf das Auto zu verzichten. Ich wohne am Stadtrand, und mit dem Bus brauche ich doppelt so lange zur Arbeit.\n\nMeiner Meinung nach sollte die Stadt mehr in den Nahverkehr investieren – häufigere Busse und bessere Verbindungen am Abend. Außerdem fände ich gut, wenn Unverpackt-Läden oder Reparatur-Cafés finanziell unterstützt würden. Einerseits muss jeder selbst etwas tun, andererseits brauchen wir gute Rahmenbedingungen, damit es im Alltag wirklich klappt. Wie siehst du das? Kommst du mit dem öffentlichen Verkehr gut zurecht?",
+          "evaluationTips": [
+            "Beginnen Sie mit einer Zusammenfassung in 2–3 Sätzen, dann Meinung",
+            "Nennen Sie konkrete Beispiele aus Ihrem Alltag (was Sie tun, was schwer fällt)",
+            "Verwenden Sie Meinungsformulierungen: 'Meiner Meinung nach ...', 'Ich finde, dass ...'",
+            "Gliedern Sie Vor- und Nachteile: 'Einerseits ..., andererseits ...'",
+            "Stellen Sie dem Partner eine Rückfrage zum Thema",
+            "Benutzen Sie Konnektoren wie 'allerdings', 'außerdem', 'deshalb'"
+          ],
+          "keyPhrases": [
+            "Im Text geht es um ...",
+            "Der Text berichtet, dass ...",
+            "Meiner Meinung nach ...",
+            "Ich finde es wichtig, dass ...",
+            "Einerseits ... andererseits ...",
+            "Ein Vorteil/Nachteil ist, dass ...",
+            "Wie siehst du das?",
+            "Stimmst du mir da zu?"
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Sie sollen mit Ihrem Partner gemeinsam etwas planen. Machen Sie Vorschläge, reagieren Sie auf die Ideen Ihres Partners und einigen Sie sich am Ende auf eine gemeinsame Lösung.",
+          "instructionsTranslation": "You are going to plan something together with your partner. Make suggestions, respond to your partner's ideas, and agree on a joint solution at the end.",
+          "prompt": "In Ihrer Firma soll es einen Umwelttag geben, an dem die Kolleginnen und Kollegen etwas Gutes für die Umwelt tun. Sie und Ihr Partner / Ihre Partnerin sollen diesen Tag gemeinsam organisieren.\n\nBesprechen Sie bitte folgende Punkte und kommen Sie zu einer gemeinsamen Entscheidung:\n\n- Wann soll der Umwelttag stattfinden (Wochentag, Uhrzeit)?\n- Welche Aktion bietet sich an (z.B. Müll sammeln, Bäume pflanzen, Fahrrad-Check)?\n- Wie viele Kolleginnen und Kollegen laden Sie ein, und wie informieren Sie alle?\n- Was brauchen Sie an Material, und woher bekommen Sie es?\n- Wer kümmert sich um welche Aufgabe?\n\nMachen Sie Vorschläge, gehen Sie auf die Vorschläge Ihres Partners ein und einigen Sie sich am Ende.",
+          "sampleResponse": "Also, ich würde vorschlagen, dass wir den Umwelttag an einem Freitag machen – zum Beispiel am letzten Freitag im Mai. Freitagnachmittag sind die meisten ohnehin ruhiger im Büro, und wir können um 14 Uhr losgehen. Was hältst du davon?\n\nAls Aktion schlage ich vor, dass wir Müll im Park hinter unserem Gebäude sammeln. Das ist schnell organisiert und die Wirkung ist direkt sichtbar. Vielleicht können wir zusätzlich einen Fahrrad-Check für Kolleginnen und Kollegen anbieten, die mit dem Rad kommen wollen.\n\nWir sollten alle 45 Personen einladen, aber vorbereitet sein, dass nur etwa die Hälfte mitmacht. Ich würde die Einladung per E-Mail verschicken und im Aufzug ein kleines Plakat aufhängen.\n\nAn Material brauchen wir Handschuhe, Müllsäcke und ein paar Zangen. Das Umweltamt verleiht solche Sachen oft kostenlos – ich rufe dort am Montag an. Kümmerst du dich dann um die Einladungen und das Plakat? Perfekt, dann halten wir das so fest.",
+          "evaluationTips": [
+            "Hören Sie aktiv zu und reagieren Sie auf die Vorschläge Ihres Partners",
+            "Machen Sie Vorschläge mit Konjunktiv II ('Ich würde vorschlagen ...', 'Wir könnten ...')",
+            "Begründen Sie Vorschläge kurz mit 'weil', 'damit'",
+            "Einigen Sie sich am Ende klar: 'Einverstanden?' oder 'Dann halten wir das so fest.'",
+            "Teilen Sie Aufgaben explizit auf – wer ruft an, wer schreibt",
+            "Fassen Sie am Ende die wichtigsten Entscheidungen zusammen"
+          ],
+          "keyPhrases": [
+            "Ich würde vorschlagen, dass ...",
+            "Was hältst du davon, wenn ...?",
+            "Wir könnten zum Beispiel ...",
+            "Das ist eine gute Idee, aber ...",
+            "Alternativ könnten wir auch ...",
+            "Wer übernimmt ...?",
+            "Ich kümmere mich um ... Kannst du ...?",
+            "Einverstanden!",
+            "Dann halten wir fest: ..."
+          ]
+        }
+      ]
+    }
   }
 }
