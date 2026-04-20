@@ -1,0 +1,177 @@
+<speak>
+  <!-- B2 Mock 05 — Teil 2 (10 True/False, playCount=1) -->
+  <!-- Moderator: de-DE-Wavenet-E (male) — interviewer -->
+  <!-- Expert Prof. Vogt: de-DE-Wavenet-D (male) — guest (using different male voice to distinguish) -->
+  <!-- NOTE: for distinct speakers, moderator uses Wavenet-E, expert uses Wavenet-F (female) to guarantee audio separation -->
+  <!-- B2 spec: natural speed 1.0x, continuous interview, no item-level pauses, played ONCE -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Hörverstehen, Teil 2. Sie hören ein Interview zum Thema Verkehrswende in
+      deutschen Städten. Entscheiden Sie, ob die folgenden zehn Aussagen richtig
+      oder falsch sind. Sie hören das Interview nur einmal.
+    </prosody>
+    <break time="10s"/>
+  </voice>
+
+  <!-- Intro and speaker presentation -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Guten Morgen, liebe Hörerinnen und Hörer. Heute geht es um die Verkehrswende
+      in deutschen Städten. Unser Gast ist Prof. Dr. Ulrich Vogt vom Institut für
+      Verkehrsforschung in Dresden. Schön, dass Sie bei uns sind, Herr Prof. Vogt.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Guten Morgen, ich freue mich auf das Gespräch.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q2 context: NL-DK vergleich -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Herr Prof. Vogt, beginnen wir international. Wie gut ist Deutschland beim
+      Radverkehrsausbau aufgestellt?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Da muss ich leider ernüchtern: Verglichen mit den Niederlanden oder Dänemark
+      hinken deutsche Städte beim Radwegeausbau nach wie vor deutlich hinterher.
+      In Kopenhagen fährt rund ein Drittel der Pendelnden täglich Rad, in deutschen
+      Großstädten sind es im Schnitt acht bis zwölf Prozent.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q3 context: hedging trap — manche fordern Autos verbannen -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Manche Umweltverbände fordern, Autos ganz aus den Innenstädten zu verbannen.
+      Ist das Ihre Position?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Manche fordern ja, Autos komplett aus den Zentren zu verbannen. Das halte ich
+      für unrealistisch und auch nicht für sinnvoll. Uns geht es um faire
+      Flächenverteilung, nicht um Vertreibung. Lieferverkehr, Handwerksbetriebe und
+      mobilitätseingeschränkte Menschen brauchen weiterhin Zugang.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q4: DUH klagt gegen Städte -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Die Deutsche Umwelthilfe hat gegen mehrere Städte geklagt, weil deren
+      Luftreinhaltepläne nicht ausreichten. Wie bewerten Sie das?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Die Klagen haben tatsächlich Bewegung in die Debatte gebracht. Ohne diesen Druck
+      wären viele Umweltzonen nie gekommen. Das muss man den Verbänden zugestehen.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q5: ÖPNV als Hauptschlüssel -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Wo liegt aus Ihrer Sicht der größte Hebel für saubere Luft in den Städten?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Der mit Abstand wichtigste Hebel für sauberere Luft ist nach unseren
+      Modellrechnungen der konsequente Ausbau eines attraktiven ÖPNV – Elektroautos
+      allein reichen nicht. Wir brauchen Takte, Zuverlässigkeit und bezahlbare Tarife.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q6: Neun-Euro-Ticket Effekte -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Und wie bewerten Sie das Neun-Euro-Ticket rückblickend?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Das Neun-Euro-Ticket hat messbar Pkw-Fahrten reduziert – unsere Auswertungen
+      zeigen rund fünf bis sieben Prozent weniger Autoverkehr während der Laufzeit.
+      Das war ein klarer Effekt, auch wenn die Auslastung der Züge teilweise
+      schwierig war.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q7: Tempo 30 innerorts -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Welche weiteren Maßnahmen empfehlen Sie konkret in Wohngebieten?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Tempo dreißig innerorts als Regelgeschwindigkeit – das senkt Lärm, erhöht die
+      Sicherheit für Kinder und verbessert messbar die Luftqualität. Hannover hat
+      das vorgemacht, die Zahlen sprechen für sich.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q8: E-Auto-Anteil steigt stetig -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Apropos Autos: Wie entwickelt sich der Anteil der Elektroautos bei den
+      Neuzulassungen?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Der Anteil rein elektrischer Neuwagen steigt kontinuierlich, auch wenn die
+      Zuwachsraten zuletzt etwas flacher ausgefallen sind. Wir liegen inzwischen bei
+      rund zwanzig Prozent aller Neuzulassungen – ein klarer Aufwärtstrend.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q9: Kaufprämie, gezielter statt abschaffen -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Soll man die Kaufprämie für E-Autos beibehalten?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Die Prämie ist im Grundsatz richtig; sie sollte aber gezielter auf Haushalte
+      mit mittlerem Einkommen zugeschnitten werden. Zu viel Geld ist bisher in
+      Premium-Segmente geflossen, die ohnehin gekauft hätten.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q10: closing — Mediathek, keine Konferenz -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Herr Prof. Vogt, herzlichen Dank für das aufschlussreiche Gespräch.
+      Weiterführende Beiträge finden Sie in der Mediathek. Einen schönen Tag wünschen wir.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Ihnen auch, vielen Dank.
+    </prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>
