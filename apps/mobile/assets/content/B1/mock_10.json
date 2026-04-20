@@ -1,13 +1,959 @@
 {
   "id": "B1_mock_10",
   "level": "B1",
-  "title": "Übungstest 10",
-  "version": 0,
-  "_stub": true,
+  "title": "B1 Übungstest 10: Konsum",
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 30,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Texte. Entscheiden Sie bei jedem Text: Ist die Aussage richtig oder falsch? Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short texts. For each text, decide: Is the statement correct or incorrect? You will hear each text only once.",
+          "audioFile": "assets/audio/B1/mock10/listening_part1.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B1_m10_L1_q1",
+              "type": "true_false",
+              "questionText": "Der Supermarkt hat am Samstag bis 20 Uhr geöffnet.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Durchsage informiert: 'Unsere erweiterten Öffnungszeiten an Samstagen: wir haben von 7 bis 20 Uhr für Sie geöffnet.' Die Aussage ist damit richtig.",
+              "audioTimestamp": 9
+            },
+            {
+              "id": "B1_m10_L1_q2",
+              "type": "true_false",
+              "questionText": "Herr Vogel bittet seine Frau, eine Lieferung zurückzusenden.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Auf dem Anrufbeantworter sagt Herr Vogel: 'Kannst du das Paket, das heute gekommen ist, bitte wieder zur Post bringen? Die Größe passt leider nicht.' Er bittet also um eine Rücksendung.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "B1_m10_L1_q3",
+              "type": "true_false",
+              "questionText": "Das Kleidungsgeschäft bietet in dieser Woche 30 Prozent Rabatt auf Jacken.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Ansage lautet: 'Diese Woche finden Sie alle Winterjacken um 40 Prozent reduziert in unserem Geschäft.' 40 Prozent, nicht 30 – also falsch.",
+              "audioTimestamp": 10
+            },
+            {
+              "id": "B1_m10_L1_q4",
+              "type": "true_false",
+              "questionText": "Die Kollegin empfiehlt, Kleidung lieber gebraucht zu kaufen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Kollegin sagt: 'Ehrlich, ich kaufe kaum noch neue Sachen – auf Second-Hand-Portalen findet man super Qualität zum halben Preis.' Sie empfiehlt Gebrauchtes.",
+              "audioTimestamp": 11
+            },
+            {
+              "id": "B1_m10_L1_q5",
+              "type": "true_false",
+              "questionText": "Das Paket wird am Donnerstagvormittag geliefert.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die automatische Nachricht des Lieferdienstes informiert: 'Ihr Paket erreicht Sie am Donnerstag voraussichtlich zwischen 14 und 18 Uhr.' Donnerstagnachmittag, nicht Vormittag – also falsch.",
+              "audioTimestamp": 9
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören einen Radiobericht. Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind. Sie hören den Text nur einmal.",
+          "instructionsTranslation": "You will hear a radio report. Decide whether the following ten statements are correct or incorrect. You will hear the text only once.",
+          "audioFile": "assets/audio/B1/mock10/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B1_m10_L2_q1",
+              "type": "true_false",
+              "questionText": "Die Sendung beschäftigt sich mit dem Thema Lebensmittelverschwendung.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Moderatorin leitet ein: 'Heute geht es um ein großes Thema: die Verschwendung von Lebensmitteln in deutschen Haushalten.' Das ist das zentrale Thema.",
+              "audioTimestamp": 6
+            },
+            {
+              "id": "B1_m10_L2_q2",
+              "type": "true_false",
+              "questionText": "In Deutschland werden pro Person und Jahr rund 75 Kilogramm Lebensmittel weggeworfen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Sprecher sagt: 'Pro Person landen in Deutschland rund 75 Kilogramm Lebensmittel jedes Jahr im Müll – das ist viel mehr als viele denken.' Die Aussage trifft zu.",
+              "audioTimestamp": 28
+            },
+            {
+              "id": "B1_m10_L2_q3",
+              "type": "true_false",
+              "questionText": "Die Gästin Frau Dr. Walter forscht an der Universität Göttingen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Moderatorin stellt sie vor: 'Mit uns im Studio ist Dr. Ines Walter von der Universität Göttingen, die seit Jahren zum Thema Lebensmittelverschwendung forscht.' Die Aussage stimmt.",
+              "audioTimestamp": 52
+            },
+            {
+              "id": "B1_m10_L2_q4",
+              "type": "true_false",
+              "questionText": "Laut Dr. Walter werfen die Deutschen vor allem Brot und Obst weg.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Dr. Walter sagt: 'Am häufigsten landen Brot, Obst und Gemüse in der Tonne – oft, weil sie optisch nicht mehr frisch aussehen.' Die Aussage trifft zu.",
+              "audioTimestamp": 76
+            },
+            {
+              "id": "B1_m10_L2_q5",
+              "type": "true_false",
+              "questionText": "Dr. Walter findet, das Mindesthaltbarkeitsdatum ist immer absolut zuverlässig.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Walter sagt: 'Das Mindesthaltbarkeitsdatum ist keine Garantie, dass etwas genau an diesem Tag schlecht wird – prüfen Sie ruhig selbst mit Auge und Nase.' Sie warnt also vor blindem Vertrauen.",
+              "audioTimestamp": 96
+            },
+            {
+              "id": "B1_m10_L2_q6",
+              "type": "true_false",
+              "questionText": "Planung beim Einkaufen hilft laut Dr. Walter, weniger wegzuwerfen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Dr. Walter empfiehlt: 'Wer einen kurzen Einkaufszettel schreibt und nicht hungrig einkauft, kauft deutlich weniger Unnötiges – und wirft weniger weg.' Die Aussage stimmt.",
+              "audioTimestamp": 120
+            },
+            {
+              "id": "B1_m10_L2_q7",
+              "type": "true_false",
+              "questionText": "Junge Erwachsene werfen laut Studie weniger weg als ältere Menschen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Bericht nennt: 'Gerade junge Erwachsene zwischen 20 und 30 werfen am meisten weg – oft, weil sie im Alltag wenig Zeit für Planung haben.' Jüngere werfen also mehr weg, nicht weniger.",
+              "audioTimestamp": 140
+            },
+            {
+              "id": "B1_m10_L2_q8",
+              "type": "true_false",
+              "questionText": "Dr. Walter rät, Reste immer ungekühlt aufzubewahren.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Walter sagt ausdrücklich: 'Reste gehören in den Kühlschrank, am besten in gut verschlossene Boxen.' Sie rät also genau das Gegenteil.",
+              "audioTimestamp": 158
+            },
+            {
+              "id": "B1_m10_L2_q9",
+              "type": "true_false",
+              "questionText": "Apps zum Retten von Lebensmitteln werden als sinnvolle Idee genannt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Sprecher erwähnt: 'Apps, die günstige Restwaren aus Bäckereien und Restaurants anbieten, sind inzwischen ein großer Erfolg und helfen, viel zu retten.' Die Aussage stimmt.",
+              "audioTimestamp": 178
+            },
+            {
+              "id": "B1_m10_L2_q10",
+              "type": "true_false",
+              "questionText": "Am Ende der Sendung wird die Telefonnummer der Verbraucherzentrale genannt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Moderatorin schließt: 'Mehr Tipps finden Sie auf der Webseite der Verbraucherzentrale – sehen Sie gerne dort nach.' Eine Telefonnummer wird nicht genannt.",
+              "audioTimestamp": 198
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Gespräche. Zu jedem Gespräch gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jedes Gespräch zweimal.",
+          "instructionsTranslation": "You will hear five short conversations. For each conversation there is one task. What is correct? Mark: a, b, or c. You will hear each conversation twice.",
+          "audioFile": "assets/audio/B1/mock10/listening_part3.mp3",
+          "playCount": 2,
+          "questions": [
+            {
+              "id": "B1_m10_L3_q1",
+              "type": "mcq",
+              "questionText": "Warum ruft die Frau bei dem Online-Shop an?",
+              "options": [
+                "a) Sie möchte sich über ein neues Produkt informieren.",
+                "b) Sie möchte eine falsch gelieferte Jacke zurückschicken.",
+                "c) Sie möchte den Liefertermin verschieben."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Frau sagt: 'Ich habe eine rote Jacke in Größe 38 bestellt, aber ihr habt mir eine schwarze in Größe 40 geschickt – wie schicke ich die zurück?' Sie ruft also wegen einer Rücksendung an. Information und Lieferung sind nicht das Thema.",
+              "audioTimestamp": 16
+            },
+            {
+              "id": "B1_m10_L3_q2",
+              "type": "mcq",
+              "questionText": "Worauf einigen sich die beiden Freundinnen am Ende?",
+              "options": [
+                "a) Sie gehen am Samstag zusammen auf einen Flohmarkt.",
+                "b) Sie bestellen gemeinsam im großen Online-Shop.",
+                "c) Sie treffen sich zum Kleidertausch bei Mia zu Hause."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Am Schluss sagt Sara: 'Gut, dann machen wir einen Kleidertausch bei dir zu Hause – das ist am günstigsten.' Flohmarkt und Online-Shop werden zwar angesprochen, aber verworfen.",
+              "audioTimestamp": 50
+            },
+            {
+              "id": "B1_m10_L3_q3",
+              "type": "mcq",
+              "questionText": "Was empfiehlt der Verkäufer im Elektronikladen?",
+              "options": [
+                "a) ein älteres Ausstellungsstück mit Rabatt",
+                "b) das teuerste Modell mit der längsten Akkulaufzeit",
+                "c) ein Gerät mit zwei Jahren Garantie zum mittleren Preis"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Verkäufer sagt: 'Wenn Sie etwas sparen möchten, würde ich Ihnen unser Ausstellungsstück empfehlen – das Gerät ist technisch auf dem neuesten Stand, aber 20 Prozent günstiger.' Das Ausstellungsstück wird empfohlen.",
+              "audioTimestamp": 88
+            },
+            {
+              "id": "B1_m10_L3_q4",
+              "type": "mcq",
+              "questionText": "Warum möchte der Mann weniger Pakete bestellen?",
+              "options": [
+                "a) Die Lieferungen kosten ihm inzwischen zu viel Porto.",
+                "b) Er ärgert sich über den vielen Verpackungsmüll bei seinen Bestellungen.",
+                "c) Seine Wohnung ist zu klein, um die Pakete alle anzunehmen."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Mann sagt: 'Bei jeder Lieferung habe ich mehr Plastik und Karton als Inhalt – das ärgert mich wirklich, ich will das reduzieren.' Der Verpackungsmüll ist der Grund. Porto und Wohnung werden nicht erwähnt.",
+              "audioTimestamp": 122
+            },
+            {
+              "id": "B1_m10_L3_q5",
+              "type": "mcq",
+              "questionText": "Was ist das größte Problem der Kundin mit ihrer Rechnung?",
+              "options": [
+                "a) Die Rechnung enthält zwei Artikel, die sie nicht gekauft hat.",
+                "b) Die Rechnung kommt sehr spät per Post.",
+                "c) Der gewährte Rabatt fehlt auf der Rechnung."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Kundin erklärt: 'Ich hatte 15 Prozent Neukundenrabatt bekommen, aber auf der Rechnung ist der Betrag gar nicht abgezogen – können Sie das prüfen?' Der fehlende Rabatt ist das Problem. Die anderen Optionen werden nicht erwähnt.",
+              "audioTimestamp": 160
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 60,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie zuerst die fünf Situationen (1–5) und dann die acht Überschriften (a–h). Welche Überschrift passt zu welcher Situation? Für jede Situation gibt es genau eine passende Überschrift. Drei Überschriften bleiben übrig.",
+          "instructionsTranslation": "First read the five situations (1–5) and then the eight headlines (a–h). Which headline matches which situation? For each situation there is exactly one matching headline. Three headlines remain unused.",
+          "texts": [
+            { "id": "B1_m10_R1_head_a", "type": "notice", "content": "a) Second-Hand-Laden für Kinderkleidung eröffnet – Annahme von Spenden ab sofort" },
+            { "id": "B1_m10_R1_head_b", "type": "notice", "content": "b) Sonntags-Flohmarkt am Hafen – über 100 private Stände, Eintritt frei" },
+            { "id": "B1_m10_R1_head_c", "type": "notice", "content": "c) Reparatur-Café im Stadtteilzentrum – Geräte gemeinsam wieder flott machen" },
+            { "id": "B1_m10_R1_head_d", "type": "notice", "content": "d) Verbraucherzentrale berät zu Online-Shop-Betrug – kostenlose Sprechstunde" },
+            { "id": "B1_m10_R1_head_e", "type": "notice", "content": "e) Bio-Wochenmarkt samstags am Rathausplatz – 8 bis 14 Uhr, regionale Anbieter" },
+            { "id": "B1_m10_R1_head_f", "type": "notice", "content": "f) Neuer Unverpackt-Laden im Viertel – Mehrweg statt Müll, eigene Behälter mitbringen" },
+            { "id": "B1_m10_R1_head_g", "type": "notice", "content": "g) Großer Möbel-Räumungsverkauf – nur noch diese Woche, bis zu 60 Prozent Rabatt" },
+            { "id": "B1_m10_R1_head_h", "type": "notice", "content": "h) Workshop für junge Verbraucher: Handy-Verträge klug vergleichen" }
+          ],
+          "questions": [
+            {
+              "id": "B1_m10_R1_q1",
+              "type": "matching",
+              "questionText": "1. Frau Pham hat ein gebrauchtes Smartphone online gekauft und vermutet jetzt, dass sie betrogen wurde. Sie möchte sich beraten lassen, ohne dafür etwas zu bezahlen.",
+              "matchingSources": [
+                { "id": "B1_m10_R1_head_a", "label": "a" },
+                { "id": "B1_m10_R1_head_b", "label": "b" },
+                { "id": "B1_m10_R1_head_c", "label": "c" },
+                { "id": "B1_m10_R1_head_d", "label": "d" },
+                { "id": "B1_m10_R1_head_e", "label": "e" },
+                { "id": "B1_m10_R1_head_f", "label": "f" },
+                { "id": "B1_m10_R1_head_g", "label": "g" },
+                { "id": "B1_m10_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Überschrift d) bietet eine kostenlose Beratung der Verbraucherzentrale zu Online-Shop-Betrug – exakt Frau Phams Problem. Keine andere Überschrift passt.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m10_R1_q2",
+              "type": "matching",
+              "questionText": "2. Familie Meyer hat viele Kinderkleider aussortiert, die noch gut sind. Sie möchten die Sachen spenden, damit andere Familien sie günstig bekommen.",
+              "matchingSources": [
+                { "id": "B1_m10_R1_head_a", "label": "a" },
+                { "id": "B1_m10_R1_head_b", "label": "b" },
+                { "id": "B1_m10_R1_head_c", "label": "c" },
+                { "id": "B1_m10_R1_head_d", "label": "d" },
+                { "id": "B1_m10_R1_head_e", "label": "e" },
+                { "id": "B1_m10_R1_head_f", "label": "f" },
+                { "id": "B1_m10_R1_head_g", "label": "g" },
+                { "id": "B1_m10_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Überschrift a) kündigt einen Second-Hand-Laden für Kinderkleidung an, der Spenden annimmt – ideal für Familie Meyers Anliegen.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m10_R1_q3",
+              "type": "matching",
+              "questionText": "3. Herr Popov versucht, seinen Alltag plastikfrei zu gestalten. Er sucht einen Ort, an dem er Nudeln, Mehl und Seife ohne Verpackung kaufen kann.",
+              "matchingSources": [
+                { "id": "B1_m10_R1_head_a", "label": "a" },
+                { "id": "B1_m10_R1_head_b", "label": "b" },
+                { "id": "B1_m10_R1_head_c", "label": "c" },
+                { "id": "B1_m10_R1_head_d", "label": "d" },
+                { "id": "B1_m10_R1_head_e", "label": "e" },
+                { "id": "B1_m10_R1_head_f", "label": "f" },
+                { "id": "B1_m10_R1_head_g", "label": "g" },
+                { "id": "B1_m10_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Überschrift f) beschreibt einen Unverpackt-Laden mit Mehrweg-Konzept – genau das, was Herr Popov für seinen plastikfreien Alltag sucht.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m10_R1_q4",
+              "type": "matching",
+              "questionText": "4. Lena ist 17 Jahre alt und möchte ihren ersten eigenen Handyvertrag abschließen. Sie möchte lernen, worauf sie achten muss.",
+              "matchingSources": [
+                { "id": "B1_m10_R1_head_a", "label": "a" },
+                { "id": "B1_m10_R1_head_b", "label": "b" },
+                { "id": "B1_m10_R1_head_c", "label": "c" },
+                { "id": "B1_m10_R1_head_d", "label": "d" },
+                { "id": "B1_m10_R1_head_e", "label": "e" },
+                { "id": "B1_m10_R1_head_f", "label": "f" },
+                { "id": "B1_m10_R1_head_g", "label": "g" },
+                { "id": "B1_m10_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "h",
+              "explanation": "Überschrift h) bietet einen Workshop für junge Verbraucher zum Vergleich von Handy-Verträgen – genau Lenas Situation.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m10_R1_q5",
+              "type": "matching",
+              "questionText": "5. Herr Baum hat einen alten Toaster, der seit Kurzem nicht mehr funktioniert. Er möchte ihn reparieren lassen, ohne viel Geld auszugeben.",
+              "matchingSources": [
+                { "id": "B1_m10_R1_head_a", "label": "a" },
+                { "id": "B1_m10_R1_head_b", "label": "b" },
+                { "id": "B1_m10_R1_head_c", "label": "c" },
+                { "id": "B1_m10_R1_head_d", "label": "d" },
+                { "id": "B1_m10_R1_head_e", "label": "e" },
+                { "id": "B1_m10_R1_head_f", "label": "f" },
+                { "id": "B1_m10_R1_head_g", "label": "g" },
+                { "id": "B1_m10_R1_head_h", "label": "h" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Überschrift c) beschreibt ein Reparatur-Café, wo Geräte gemeinsam repariert werden – perfekt für Herrn Baum, der günstig seinen Toaster reparieren möchte.",
+              "pointValue": 5
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den Zeitungsartikel. Was ist richtig? Kreuzen Sie an: a, b oder c.",
+          "instructionsTranslation": "Read the newspaper article. What is correct? Mark: a, b, or c.",
+          "texts": [
+            {
+              "id": "B1_m10_R2_article",
+              "type": "article",
+              "content": "Second-Hand boomt – Warum gebrauchte Kleidung immer beliebter wird\n\nEine aktuelle Untersuchung des Instituts für Konsumforschung in Nürnberg zeigt, dass Second-Hand-Kleidung in den letzten Jahren einen großen Aufschwung erlebt hat. Rund 46 Prozent der befragten Erwachsenen haben im vergangenen Jahr mindestens ein gebrauchtes Kleidungsstück gekauft. Vor fünf Jahren waren es nur 28 Prozent. Besonders stark ist das Wachstum bei jungen Frauen zwischen 18 und 30 – in dieser Gruppe kaufen fast sieben von zehn regelmäßig gebraucht ein.\n\n'Früher galt Second-Hand als etwas für Leute mit wenig Geld', erklärt Studienleiterin Dr. Anna Kirchner. 'Heute ist es ein bewusster Stil, oft sogar ein modisches Statement.' Die Gründe sind vielfältig: Ein großer Teil der Befragten gibt an, die Umwelt schonen zu wollen. Andere nennen den günstigen Preis, und viele schätzen einfach die Einzelstücke, die es in keinem großen Laden mehr zu kaufen gibt. Neben klassischen Second-Hand-Läden wachsen vor allem Online-Plattformen wie Flohmarkt-Apps, auf denen private Anbieter ihre Kleidung direkt verkaufen.\n\nDie positiven Effekte sind also deutlich. Gleichzeitig warnt Dr. Kirchner vor einer unerwünschten Nebenwirkung. 'Manche kaufen jetzt noch mehr ein, weil es ja günstig ist – und werfen die Sachen dann trotzdem nach kurzer Zeit weg.' Kritiker fordern deshalb eine klarere Haltung beim Einkauf. Außerdem gibt es Berichte, dass einige große Ketten zwar Second-Hand-Ware anbieten, dieses Angebot aber nur als Werbung nutzen, ohne selbst wirklich nachhaltig zu wirtschaften.\n\nTrotz der Herausforderungen empfiehlt Dr. Kirchner drei einfache Schritte: Kaufen Sie nur Stücke, die Sie wirklich tragen wollen, achten Sie auf den Zustand vor dem Kauf, und tauschen Sie mit Freundinnen oder Nachbarinnen, bevor Sie etwas wegwerfen. Wer diese Hinweise beachtet, berichtet laut Studie nicht nur von einer volleren Auswahl im Kleiderschrank, sondern auch von einem besseren Gewissen – und einem deutlich geringeren monatlichen Kleiderbudget.",
+              "source": "Nürnberger Nachrichten, März 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "B1_m10_R2_q1",
+              "type": "mcq",
+              "questionText": "Was ist das zentrale Ergebnis der Studie aus Nürnberg?",
+              "relatedTextId": "B1_m10_R2_article",
+              "options": [
+                "a) Der Anteil der Menschen, die gebrauchte Kleidung kaufen, ist deutlich gestiegen.",
+                "b) Immer mehr Menschen in Deutschland kaufen nur noch neue Kleidung.",
+                "c) Second-Hand-Kleidung ist in Deutschland kaum noch erhältlich."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Text sagt: 'Rund 46 Prozent ... Vor fünf Jahren waren es nur 28 Prozent.' Das entspricht Option a. Die anderen Optionen widersprechen dem Text.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m10_R2_q2",
+              "type": "mcq",
+              "questionText": "Welche Gruppe kauft laut Studie besonders häufig Second-Hand?",
+              "relatedTextId": "B1_m10_R2_article",
+              "options": [
+                "a) ältere Männer über 60",
+                "b) junge Frauen zwischen 18 und 30",
+                "c) Familien mit mehreren Kindern"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text sagt: 'Besonders stark ist das Wachstum bei jungen Frauen zwischen 18 und 30 – in dieser Gruppe kaufen fast sieben von zehn regelmäßig gebraucht ein.' Das ist Option b wörtlich.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m10_R2_q3",
+              "type": "mcq",
+              "questionText": "Wie hat sich Dr. Kirchner zufolge das Image von Second-Hand verändert?",
+              "relatedTextId": "B1_m10_R2_article",
+              "options": [
+                "a) Second-Hand gilt heute als etwas nur für Leute mit wenig Geld.",
+                "b) Second-Hand wird inzwischen fast ausschließlich online betrachtet.",
+                "c) Second-Hand ist heute oft ein bewusster Stil und ein modisches Statement."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Dr. Kirchner wird zitiert: 'Heute ist es ein bewusster Stil, oft sogar ein modisches Statement.' Das trifft Option c wörtlich. Option a ist das alte Image, das Dr. Kirchner ablehnt.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m10_R2_q4",
+              "type": "mcq",
+              "questionText": "Welche Nebenwirkung des Trends wird im Text genannt?",
+              "relatedTextId": "B1_m10_R2_article",
+              "options": [
+                "a) Second-Hand-Kleidung wird dadurch generell teurer.",
+                "b) Manche Menschen kaufen jetzt mehr ein und werfen Kleidung schneller weg.",
+                "c) Große Ketten bieten gar keine gebrauchte Ware an."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Dr. Kirchner warnt: 'Manche kaufen jetzt noch mehr ein, weil es ja günstig ist – und werfen die Sachen dann trotzdem nach kurzer Zeit weg.' Das ist Option b. Option c widerspricht dem Text.",
+              "pointValue": 5
+            },
+            {
+              "id": "B1_m10_R2_q5",
+              "type": "mcq",
+              "questionText": "Welche konkrete Empfehlung gibt Dr. Kirchner?",
+              "relatedTextId": "B1_m10_R2_article",
+              "options": [
+                "a) so viele Kleidungsstücke wie möglich zu kaufen, solange sie günstig sind",
+                "b) grundsätzlich nur bei großen Ketten einzukaufen",
+                "c) nur Stücke zu kaufen, die man wirklich tragen wird"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text listet als ersten Tipp wörtlich: 'Kaufen Sie nur Stücke, die Sie wirklich tragen wollen.' Option c trifft das genau.",
+              "pointValue": 5
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie lesen zehn Situationen (1–10) und zwölf kurze Anzeigen (a–l). Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es genau eine passende Anzeige. Zwei Anzeigen bleiben übrig. Wenn keine Anzeige passt, schreiben Sie 'x'.",
+          "instructionsTranslation": "You read ten situations (1–10) and twelve short advertisements (a–l). Which advertisement matches which situation? For each situation there is exactly one matching advertisement. Two advertisements remain unused. If no advertisement fits, write 'x'.",
+          "texts": [
+            { "id": "B1_m10_R3_ad_a", "type": "ad", "content": "a) Second-Hand-Boutique 'Zweitstück' – Marken-Kleidung zu kleinen Preisen, Annahme auf Kommission. Friedrichstr. 8. Di–Sa 11–19 Uhr." },
+            { "id": "B1_m10_R3_ad_b", "type": "ad", "content": "b) Online-Plattform 'Tauschregal' – Kleidung kostenlos mit anderen tauschen. Registrierung gratis, pro Artikel nur 2 € Versand. www.tauschregal.de" },
+            { "id": "B1_m10_R3_ad_c", "type": "ad", "content": "c) Reparatur-Werkstatt für Elektrogeräte – Staubsauger, Toaster, Lampen. Pauschale: 25 € plus Ersatzteile. Schulstraße 14, Mo–Fr 10–17 Uhr." },
+            { "id": "B1_m10_R3_ad_d", "type": "ad", "content": "d) Großer Second-Hand-Möbelmarkt – Über 500 Möbelstücke zu kleinen Preisen. Lieferung möglich. Sa 10–16 Uhr in der alten Fabrikhalle." },
+            { "id": "B1_m10_R3_ad_e", "type": "ad", "content": "e) Gebrauchte Kinderfahrräder – Größen 16 bis 24 Zoll, geprüft, ab 35 €. Abholung in Essen. fahrradkeller@mail.de" },
+            { "id": "B1_m10_R3_ad_f", "type": "ad", "content": "f) Bücher-Flohmarkt im Park – Jeden letzten Samstag. Bücher spenden oder kaufen ab 50 Cent. Stadtbibliothek, Eintritt frei." },
+            { "id": "B1_m10_R3_ad_g", "type": "ad", "content": "g) Verbraucherzentrale Hamburg – Beratung zu Verträgen, Online-Käufen und Widerruf. Termine Mo–Fr, 50 € Pauschale oder gratis bei Einkommensnachweis." },
+            { "id": "B1_m10_R3_ad_h", "type": "ad", "content": "h) Rette deine Lebensmittel! – Mit der App 'Tafelteller' kaufst du Restwaren aus Bäckereien bis zu 70 Prozent günstiger. Kostenlos für Android und iPhone." },
+            { "id": "B1_m10_R3_ad_i", "type": "ad", "content": "i) Unverpackt-Markt 'Lose & Gut' – Nudeln, Mehl, Kaffee aus eigenen Behältern. Bio-Qualität, Mo–Fr 9–18 Uhr, Sa 9–14 Uhr. Poststraße 3." },
+            { "id": "B1_m10_R3_ad_j", "type": "ad", "content": "j) Workshop Finanzen für Jugendliche – Lernen, wie man ein Konto führt, spart und Verträge liest. Ein Samstag, 30 €. jugendzentrum@mail.de" },
+            { "id": "B1_m10_R3_ad_k", "type": "ad", "content": "k) Haushaltsauflösung – Geschirr, Bettwäsche, Lampen. Alles muss raus, Samstag 10–15 Uhr. Händler willkommen. Kölner Str. 44." },
+            { "id": "B1_m10_R3_ad_l", "type": "ad", "content": "l) Bio-Wochenmarkt 'Grün & Frisch' – Jeden Donnerstag 14–19 Uhr, Marktplatz Süd. Gemüse, Obst, Käse direkt vom Hof." }
+          ],
+          "questions": [
+            {
+              "id": "B1_m10_R3_q1",
+              "type": "matching",
+              "questionText": "1. Frau Weber zieht in eine neue Wohnung und braucht günstig einen Küchentisch sowie ein Sofa. Sie hätte gerne die Möglichkeit, sich die Sachen liefern zu lassen.",
+              "matchingSources": [
+                { "id": "B1_m10_R3_ad_a", "label": "a" }, { "id": "B1_m10_R3_ad_b", "label": "b" },
+                { "id": "B1_m10_R3_ad_c", "label": "c" }, { "id": "B1_m10_R3_ad_d", "label": "d" },
+                { "id": "B1_m10_R3_ad_e", "label": "e" }, { "id": "B1_m10_R3_ad_f", "label": "f" },
+                { "id": "B1_m10_R3_ad_g", "label": "g" }, { "id": "B1_m10_R3_ad_h", "label": "h" },
+                { "id": "B1_m10_R3_ad_i", "label": "i" }, { "id": "B1_m10_R3_ad_j", "label": "j" },
+                { "id": "B1_m10_R3_ad_k", "label": "k" }, { "id": "B1_m10_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Anzeige d) bietet einen großen Second-Hand-Möbelmarkt mit Lieferoption – exakt Frau Webers Bedarf.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m10_R3_q2",
+              "type": "matching",
+              "questionText": "2. Herr Tran ärgert sich, dass bei seinen Einkäufen so viel Bio-Gemüse weggeworfen wird. Er möchte günstig Restwaren aus Bäckereien direkt vor Ort abholen.",
+              "matchingSources": [
+                { "id": "B1_m10_R3_ad_a", "label": "a" }, { "id": "B1_m10_R3_ad_b", "label": "b" },
+                { "id": "B1_m10_R3_ad_c", "label": "c" }, { "id": "B1_m10_R3_ad_d", "label": "d" },
+                { "id": "B1_m10_R3_ad_e", "label": "e" }, { "id": "B1_m10_R3_ad_f", "label": "f" },
+                { "id": "B1_m10_R3_ad_g", "label": "g" }, { "id": "B1_m10_R3_ad_h", "label": "h" },
+                { "id": "B1_m10_R3_ad_i", "label": "i" }, { "id": "B1_m10_R3_ad_j", "label": "j" },
+                { "id": "B1_m10_R3_ad_k", "label": "k" }, { "id": "B1_m10_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "h",
+              "explanation": "Anzeige h) beschreibt eine App, über die man Restwaren aus Bäckereien günstig kaufen kann – genau Herrn Trans Anliegen.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m10_R3_q3",
+              "type": "matching",
+              "questionText": "3. Frau Kowalska hat viele gut erhaltene Kleidungsstücke, die ihr nicht mehr passen. Sie möchte sie nicht verkaufen, sondern kostenlos mit anderen tauschen.",
+              "matchingSources": [
+                { "id": "B1_m10_R3_ad_a", "label": "a" }, { "id": "B1_m10_R3_ad_b", "label": "b" },
+                { "id": "B1_m10_R3_ad_c", "label": "c" }, { "id": "B1_m10_R3_ad_d", "label": "d" },
+                { "id": "B1_m10_R3_ad_e", "label": "e" }, { "id": "B1_m10_R3_ad_f", "label": "f" },
+                { "id": "B1_m10_R3_ad_g", "label": "g" }, { "id": "B1_m10_R3_ad_h", "label": "h" },
+                { "id": "B1_m10_R3_ad_i", "label": "i" }, { "id": "B1_m10_R3_ad_j", "label": "j" },
+                { "id": "B1_m10_R3_ad_k", "label": "k" }, { "id": "B1_m10_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Anzeige b) ist die Online-Plattform 'Tauschregal', wo Kleidung kostenlos getauscht werden kann – exakt Frau Kowalskas Wunsch.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m10_R3_q4",
+              "type": "matching",
+              "questionText": "4. Familie Said hat vier Kinder und möchte ihnen keine neuen Fahrräder kaufen, die nach einem Jahr schon zu klein sind. Gebrauchte Räder wären ideal.",
+              "matchingSources": [
+                { "id": "B1_m10_R3_ad_a", "label": "a" }, { "id": "B1_m10_R3_ad_b", "label": "b" },
+                { "id": "B1_m10_R3_ad_c", "label": "c" }, { "id": "B1_m10_R3_ad_d", "label": "d" },
+                { "id": "B1_m10_R3_ad_e", "label": "e" }, { "id": "B1_m10_R3_ad_f", "label": "f" },
+                { "id": "B1_m10_R3_ad_g", "label": "g" }, { "id": "B1_m10_R3_ad_h", "label": "h" },
+                { "id": "B1_m10_R3_ad_i", "label": "i" }, { "id": "B1_m10_R3_ad_j", "label": "j" },
+                { "id": "B1_m10_R3_ad_k", "label": "k" }, { "id": "B1_m10_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Anzeige e) bietet geprüfte gebrauchte Kinderfahrräder ab 35 € in verschiedenen Größen – ideal für Familie Said.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m10_R3_q5",
+              "type": "matching",
+              "questionText": "5. Herr Dupont hat einen alten Staubsauger, der nicht mehr richtig zieht. Er möchte ihn reparieren lassen, bevor er einen neuen kauft.",
+              "matchingSources": [
+                { "id": "B1_m10_R3_ad_a", "label": "a" }, { "id": "B1_m10_R3_ad_b", "label": "b" },
+                { "id": "B1_m10_R3_ad_c", "label": "c" }, { "id": "B1_m10_R3_ad_d", "label": "d" },
+                { "id": "B1_m10_R3_ad_e", "label": "e" }, { "id": "B1_m10_R3_ad_f", "label": "f" },
+                { "id": "B1_m10_R3_ad_g", "label": "g" }, { "id": "B1_m10_R3_ad_h", "label": "h" },
+                { "id": "B1_m10_R3_ad_i", "label": "i" }, { "id": "B1_m10_R3_ad_j", "label": "j" },
+                { "id": "B1_m10_R3_ad_k", "label": "k" }, { "id": "B1_m10_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Anzeige c) bietet eine Reparatur-Werkstatt für Elektrogeräte an, explizit auch für Staubsauger – genau Herrn Duponts Bedarf.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m10_R3_q6",
+              "type": "matching",
+              "questionText": "6. Frau Schmidt hat online ein Kleid gekauft, das nach drei Wochen kaputt war. Die Firma antwortet nicht auf ihre Mails. Sie sucht Beratung, am liebsten kostenlos.",
+              "matchingSources": [
+                { "id": "B1_m10_R3_ad_a", "label": "a" }, { "id": "B1_m10_R3_ad_b", "label": "b" },
+                { "id": "B1_m10_R3_ad_c", "label": "c" }, { "id": "B1_m10_R3_ad_d", "label": "d" },
+                { "id": "B1_m10_R3_ad_e", "label": "e" }, { "id": "B1_m10_R3_ad_f", "label": "f" },
+                { "id": "B1_m10_R3_ad_g", "label": "g" }, { "id": "B1_m10_R3_ad_h", "label": "h" },
+                { "id": "B1_m10_R3_ad_i", "label": "i" }, { "id": "B1_m10_R3_ad_j", "label": "j" },
+                { "id": "B1_m10_R3_ad_k", "label": "k" }, { "id": "B1_m10_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Anzeige g) bietet eine Verbraucherzentrale mit Beratung zu Online-Käufen, kostenlos bei Einkommensnachweis – passt zu Frau Schmidts Problem.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m10_R3_q7",
+              "type": "matching",
+              "questionText": "7. Herr Bianchi möchte im Alltag weniger Verpackungsmüll produzieren und seine Grundnahrungsmittel mit eigenen Dosen einkaufen.",
+              "matchingSources": [
+                { "id": "B1_m10_R3_ad_a", "label": "a" }, { "id": "B1_m10_R3_ad_b", "label": "b" },
+                { "id": "B1_m10_R3_ad_c", "label": "c" }, { "id": "B1_m10_R3_ad_d", "label": "d" },
+                { "id": "B1_m10_R3_ad_e", "label": "e" }, { "id": "B1_m10_R3_ad_f", "label": "f" },
+                { "id": "B1_m10_R3_ad_g", "label": "g" }, { "id": "B1_m10_R3_ad_h", "label": "h" },
+                { "id": "B1_m10_R3_ad_i", "label": "i" }, { "id": "B1_m10_R3_ad_j", "label": "j" },
+                { "id": "B1_m10_R3_ad_k", "label": "k" }, { "id": "B1_m10_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "i",
+              "explanation": "Anzeige i) beschreibt den Unverpackt-Markt 'Lose & Gut' mit eigenen Behältern – ideal für Herrn Bianchis Ziel.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m10_R3_q8",
+              "type": "matching",
+              "questionText": "8. Lars ist 16 Jahre alt und möchte lernen, wie er sein Konto führt und was bei Verträgen wichtig ist. Er sucht ein Format, in dem er in einem Tag viel mitnimmt.",
+              "matchingSources": [
+                { "id": "B1_m10_R3_ad_a", "label": "a" }, { "id": "B1_m10_R3_ad_b", "label": "b" },
+                { "id": "B1_m10_R3_ad_c", "label": "c" }, { "id": "B1_m10_R3_ad_d", "label": "d" },
+                { "id": "B1_m10_R3_ad_e", "label": "e" }, { "id": "B1_m10_R3_ad_f", "label": "f" },
+                { "id": "B1_m10_R3_ad_g", "label": "g" }, { "id": "B1_m10_R3_ad_h", "label": "h" },
+                { "id": "B1_m10_R3_ad_i", "label": "i" }, { "id": "B1_m10_R3_ad_j", "label": "j" },
+                { "id": "B1_m10_R3_ad_k", "label": "k" }, { "id": "B1_m10_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "j",
+              "explanation": "Anzeige j) beschreibt einen Finanzen-Workshop für Jugendliche an einem Samstag – genau Lars' Bedarf und Format.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m10_R3_q9",
+              "type": "matching",
+              "questionText": "9. Frau Becker hat viele alte Bücher aussortiert. Sie möchte sie nicht wegwerfen, sondern weitergeben, und sucht eine konkrete Möglichkeit in der Nähe.",
+              "matchingSources": [
+                { "id": "B1_m10_R3_ad_a", "label": "a" }, { "id": "B1_m10_R3_ad_b", "label": "b" },
+                { "id": "B1_m10_R3_ad_c", "label": "c" }, { "id": "B1_m10_R3_ad_d", "label": "d" },
+                { "id": "B1_m10_R3_ad_e", "label": "e" }, { "id": "B1_m10_R3_ad_f", "label": "f" },
+                { "id": "B1_m10_R3_ad_g", "label": "g" }, { "id": "B1_m10_R3_ad_h", "label": "h" },
+                { "id": "B1_m10_R3_ad_i", "label": "i" }, { "id": "B1_m10_R3_ad_j", "label": "j" },
+                { "id": "B1_m10_R3_ad_k", "label": "k" }, { "id": "B1_m10_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Anzeige f) kündigt einen Bücher-Flohmarkt mit Spenden- und Kaufoption in der Stadtbibliothek an – genau Frau Beckers Wunsch.",
+              "pointValue": 2.5
+            },
+            {
+              "id": "B1_m10_R3_q10",
+              "type": "matching",
+              "questionText": "10. Familie Yildiz zieht um und braucht dringend und günstig Geschirr und Bettwäsche für ihre neue Wohnung.",
+              "matchingSources": [
+                { "id": "B1_m10_R3_ad_a", "label": "a" }, { "id": "B1_m10_R3_ad_b", "label": "b" },
+                { "id": "B1_m10_R3_ad_c", "label": "c" }, { "id": "B1_m10_R3_ad_d", "label": "d" },
+                { "id": "B1_m10_R3_ad_e", "label": "e" }, { "id": "B1_m10_R3_ad_f", "label": "f" },
+                { "id": "B1_m10_R3_ad_g", "label": "g" }, { "id": "B1_m10_R3_ad_h", "label": "h" },
+                { "id": "B1_m10_R3_ad_i", "label": "i" }, { "id": "B1_m10_R3_ad_j", "label": "j" },
+                { "id": "B1_m10_R3_ad_k", "label": "k" }, { "id": "B1_m10_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "k",
+              "explanation": "Anzeige k) beschreibt eine Haushaltsauflösung mit Geschirr und Bettwäsche – genau das, was Familie Yildiz günstig sucht. Übrig bleiben a) (Second-Hand-Boutique) und l) (Bio-Wochenmarkt) als Distraktoren.",
+              "pointValue": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    "sprachbausteine": {
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie den folgenden Text und entscheiden Sie, welches Wort (a, b oder c) in die Lücke passt. Es gibt jeweils nur eine richtige Lösung.",
+          "text": "Lieber Thomas,\n\nwie geht es dir? Ich muss dir unbedingt von meinem kleinen Experiment erzählen. Seit zwei Monaten kaufe ich jetzt bewusster ein und gehe __(1)__ den Unverpackt-Laden in meiner Nachbarschaft, und ich bin wirklich froh, __(2)__ ich das angefangen habe. Die Verkäuferin, __(3)__ mich gleich am ersten Tag nett begrüßt hat, hilft mir immer bei Fragen. __(4)__ der Weg ein bisschen weiter ist als zum Supermarkt, nehme ich das gerne in Kauf.\n\nLetzte Woche gab es im Laden einen kleinen Aktionstag. Verschiedene Seifen __(5)__ von einem lokalen Hersteller vorgestellt, und ich habe gleich drei Stück mitgenommen. Wenn ich zusätzlich mehr Platz in der Küche __(6)__, würde ich auch größere Gläser für Nudeln und Mehl besorgen – aber das kommt sicher im Sommer.\n\nAm Wochenende gehe ich übrigens mit meiner Mitbewohnerin oft __(7)__ Flohmarkt am Hafen. Letzten Sonntag __(8)__ wir zusammen um 8 Uhr morgens losgegangen und haben richtig tolle Sachen gefunden. Hoffentlich schaffst du es bald, mich zu besuchen – ich würde mich wirklich __(9)__ freuen! Übrigens: Ich habe deinen Kollegen Max auf dem Flohmarkt getroffen. Er hat mir erzählt, dass er kürzlich __(10)__ besten Kauf seines Lebens gemacht hat.\n\nIch freue mich auf deine Antwort.\n\nLiebe Grüße,\nLaura",
+          "questions": [
+            {
+              "blankNumber": 1,
+              "type": "mcq",
+              "options": ["a) zu", "b) in", "c) auf"],
+              "correctAnswer": "b",
+              "explanation": "Richtung mit Akkusativ: 'in den Laden gehen'. 'in' bei Gebäuden/Räumen, die man betritt. 'zu' würde 'zum Laden' (ohne Eintritt ins Gebäude) bedeuten und passt hier schlechter. 'auf' ist unpassend.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 2,
+              "type": "mcq",
+              "options": ["a) ob", "b) weil", "c) dass"],
+              "correctAnswer": "c",
+              "explanation": "Der Hauptsatz 'Ich bin froh, ...' verlangt einen dass-Satz. 'weil' wäre ein Grund (unpassend), 'ob' ist indirekte Frage.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 3,
+              "type": "mcq",
+              "options": ["a) die", "b) der", "c) den"],
+              "correctAnswer": "a",
+              "explanation": "Relativsatz: 'Die Verkäuferin, die mich begrüßt hat'. Das Relativpronomen bezieht sich auf 'Verkäuferin' (Femininum) und ist Subjekt des Relativsatzes → Nominativ Femininum: 'die'. 'der' wäre Maskulinum, 'den' Akkusativ.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 4,
+              "type": "mcq",
+              "options": ["a) Weil", "b) Deshalb", "c) Obwohl"],
+              "correctAnswer": "c",
+              "explanation": "Gegensatz zwischen 'Weg weiter' und 'gerne in Kauf' → konzessiv 'obwohl' (Verb am Ende). 'weil' wäre ein Grund (unpassend), 'deshalb' verlangt Hauptsatzstellung.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 5,
+              "type": "mcq",
+              "options": ["a) haben", "b) wurden", "c) waren"],
+              "correctAnswer": "b",
+              "explanation": "Passiv Präteritum, Plural: 'Seifen wurden vorgestellt.' Das Subjekt ('Seifen') wird nicht selbst aktiv. 'haben' wäre Aktiv-Perfekt, 'waren' Zustandspassiv.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 6,
+              "type": "mcq",
+              "options": ["a) habe", "b) hatte", "c) hätte"],
+              "correctAnswer": "c",
+              "explanation": "Irreale Bedingung 'Wenn ich mehr Platz hätte, würde ich ...' → Konjunktiv II 'hätte'. Die Indikativ-Formen passen nicht zur 'würde'-Form.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 7,
+              "type": "mcq",
+              "options": ["a) auf", "b) zum", "c) zu"],
+              "correctAnswer": "b",
+              "explanation": "Feste Wendung: 'zum Flohmarkt gehen' (zu + dem = zum, Dativ). 'auf' wird bei 'Markt' zwar auch verwendet ('auf dem Markt sein'), aber Bewegung + Markt ist 'zum'. 'zu' ohne Artikel ist unvollständig.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 8,
+              "type": "mcq",
+              "options": ["a) haben", "b) waren", "c) sind"],
+              "correctAnswer": "c",
+              "explanation": "Perfekt von 'gehen' (Bewegung) mit 'sein': 'Wir sind losgegangen'. 'haben' ist falsch bei Bewegungsverben, 'waren' wäre Präteritum.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 9,
+              "type": "mcq",
+              "options": ["a) mir", "b) mich", "c) für mich"],
+              "correctAnswer": "b",
+              "explanation": "Reflexives Verb 'sich freuen' + Akkusativ: 'ich freue mich'. 'mir' wäre Dativ, 'für mich' ist kein Reflexivpronomen.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 10,
+              "type": "mcq",
+              "options": ["a) den", "b) dem", "c) das"],
+              "correctAnswer": "a",
+              "explanation": "'den besten Kauf' – direktes Objekt von 'gemacht' (Akkusativ Maskulinum): 'den'. Die Adjektivendung '-en' nach 'den' bestätigt die schwache Deklination im Akkusativ Maskulinum. 'dem' wäre Dativ, 'das' Neutrum.",
+              "pointValue": 1.5
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Text. Welches Wort aus der Liste a–o passt in die Lücken? Jedes Wort passt nur einmal. Fünf Wörter bleiben übrig.",
+          "text": "Liebe Laura,\n\nvielen __(11)__ für deinen spannenden Brief! Ich habe mich richtig gefreut zu lesen, wie bewusst du jetzt einkaufst. __(12)__ achte ich auch mehr auf meinen Konsum und habe einige Dinge verändert.\n\nMit meinem Mitbewohner Paul habe ich dagegen oft über unser Konsumverhalten __(13)__. Wir schreiben jetzt immer einen Einkaufszettel, und das __(14)__ erstaunlich gut. Am Ende der Woche ist kaum noch Gemüse übrig, das schlecht wird.\n\nAußerdem habe ich mich interessiert __(15)__ eine App, die Restwaren aus Bäckereien günstiger anbietet. __(16)__ der letzten Woche habe ich drei Tage hintereinander frische Brötchen für nur einen Euro bekommen – das war großartig.\n\nNur eines ärgert mich: Mein Stromanbieter hat den Tarif zum 1. Juli leider __(17)__. Ich hatte mich schon __(18)__ einen entspannten Sommer gefreut, aber jetzt muss ich __(19)__ nach günstigeren Angeboten schauen. Vielleicht wechsle ich zu einem grünen Anbieter, der nicht so viel teurer ist.\n\nKomm mich doch bald einmal besuchen! __(20)__ können wir zusammen den Flohmarkt am Hafen ausprobieren – genau der, von dem du mir geschrieben hast.\n\nLiebe Grüße,\nThomas",
+          "questions": [
+            {
+              "blankNumber": 11,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) Mittlerweile", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) dringend", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) an", "o) damit"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Standardformel 'vielen Dank' am Briefanfang – 'vielen' verlangt direkt 'Dank'. Distraktor k) 'herzlichen' passt ebenfalls, aber 'vielen' steht schon und lässt nur 'Dank' zu.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 12,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) Mittlerweile", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) dringend", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) an", "o) damit"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Temporales Adverb 'Mittlerweile' – beschreibt den Wandel ('jetzt, inzwischen'). Großschreibung am Satzanfang.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 13,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) Mittlerweile", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) dringend", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) an", "o) damit"
+              ],
+              "correctAnswer": "c",
+              "explanation": "'Mit Paul habe ich oft über unser Konsumverhalten gesprochen' – Perfekt von 'sprechen über'. Die Kombination 'mit jemandem + über etwas sprechen' ist das übliche Verb für Gespräche. Distraktor l) 'nachgedacht' ist ein innerer, alleiniger Denkprozess und passt nicht zu 'mit Paul'.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 14,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) Mittlerweile", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) dringend", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) an", "o) damit"
+              ],
+              "correctAnswer": "d",
+              "explanation": "'Das funktioniert erstaunlich gut' – idiomatisch für 'es klappt'. Subjekt 'das' + 3. Person Singular verlangt 'funktioniert'. 'reicht' hat andere Bedeutung.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 15,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) Mittlerweile", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) dringend", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) an", "o) damit"
+              ],
+              "correctAnswer": "e",
+              "explanation": "Feste Verb+Präposition 'sich interessieren für + Akkusativ': 'Ich habe mich interessiert für eine App'. 'an' würde zu 'interessiert an' nur in seltenen akademischen Kontexten passen.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 16,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) Mittlerweile", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) dringend", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) an", "o) damit"
+              ],
+              "correctAnswer": "f",
+              "explanation": "Zeitangabe 'In der letzten Woche' mit Dativ. 'In' am Satzanfang, deshalb großgeschrieben.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 17,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) Mittlerweile", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) dringend", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) an", "o) damit"
+              ],
+              "correctAnswer": "g",
+              "explanation": "'Der Stromanbieter hat den Tarif erhöht' – übliches Kollokat 'Tarif/Preise erhöhen'. Partizip II 'erhöht' schließt das Perfekt ab.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 18,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) Mittlerweile", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) dringend", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) an", "o) damit"
+              ],
+              "correctAnswer": "h",
+              "explanation": "Feste Verb+Präposition 'sich freuen auf + Akkusativ' (Vorfreude). 'Ich hatte mich auf einen entspannten Sommer gefreut.'",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 19,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) Mittlerweile", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) dringend", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) an", "o) damit"
+              ],
+              "correctAnswer": "i",
+              "explanation": "Adverb 'dringend' passt: 'muss ich dringend nach günstigeren Angeboten schauen' (starke Notwendigkeit). Kein anderes Adverb passt an diese Stelle.",
+              "pointValue": 1.5
+            },
+            {
+              "blankNumber": 20,
+              "type": "word_bank",
+              "options": [
+                "a) Dank", "b) Mittlerweile", "c) gesprochen", "d) funktioniert", "e) für",
+                "f) In", "g) erhöht", "h) auf", "i) dringend", "j) Dann",
+                "k) herzlichen", "l) nachgedacht", "m) reicht", "n) an", "o) damit"
+              ],
+              "correctAnswer": "j",
+              "explanation": "Satzanfang 'Dann können wir ...' – zeitliche Verknüpfung. Großschreibung am Satzanfang. Übrig bleiben k) herzlichen, l) nachgedacht, m) reicht, n) an, o) damit als Distraktoren.",
+              "pointValue": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 30,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "letter",
+          "instructions": "Sie haben vor drei Wochen in einem Online-Shop ein Paar Schuhe bestellt. Die Schuhe sind leider kaputt angekommen, und der Kundenservice hat bisher nicht geantwortet. Schreiben Sie eine E-Mail an den Kundenservice. Gehen Sie auf alle vier Punkte unten ein. Achten Sie auf eine passende Anrede und einen passenden Gruß. Schreiben Sie ca. 150 Wörter.",
+          "instructionsTranslation": "You ordered a pair of shoes from an online shop three weeks ago. The shoes unfortunately arrived broken, and customer service has not responded so far. Write an email to customer service. Address all four points below. Pay attention to appropriate greeting and closing. Write approximately 150 words.",
+          "prompt": "Situation: Sie haben im Online-Shop 'Schuhwelt' vor drei Wochen ein Paar Lederschuhe für 89 Euro bestellt. Die Schuhe sind kaputt (ein Riss an der Seite) angekommen. Auf zwei E-Mails hat der Kundenservice noch nicht geantwortet.\n\nSchreiben Sie eine E-Mail an den Kundenservice. Gehen Sie auf die folgenden vier Punkte ein:\n\n- Beschwerde: Beschreiben Sie den Schaden und das Problem.\n- Forderung: Was möchten Sie (Ersatzlieferung, Reparatur oder Geld zurück)?\n- Frist: Bis wann erwarten Sie eine Antwort?\n- Rückfrage: Fragen Sie nach der genauen Adresse für die Rücksendung und nach der Kostenübernahme.\n\nVergessen Sie nicht Anrede, Einleitung und Grußformel. Schreiben Sie ca. 150 Wörter.",
+          "promptTranslation": "Situation: You ordered a pair of leather shoes for 89 euros from the online shop 'Schuhwelt' three weeks ago. The shoes arrived broken (a rip on the side). Customer service has not responded to two emails so far.\n\nWrite an email to customer service. Address these four points:\n\n- Complaint: Describe the damage and the problem.\n- Request: What do you want (replacement, repair or money back)?\n- Deadline: By when do you expect a reply?\n- Question: Ask for the exact address for the return and about cost coverage.\n\nDon't forget greeting, introduction, and closing. Write approximately 150 words.",
+          "requiredPoints": [
+            "Beschreibung des Schadens an den Schuhen",
+            "Konkrete Forderung (Ersatzlieferung, Reparatur oder Geld zurück)",
+            "Angabe einer konkreten Frist für die Rückmeldung",
+            "Rückfrage zu Rücksendeadresse und Kostenübernahme"
+          ],
+          "wordCountMin": 130,
+          "wordCountMax": 170,
+          "sampleAnswer": "Sehr geehrte Damen und Herren,\n\nvor drei Wochen habe ich bei Ihnen ein Paar Lederschuhe zum Preis von 89 Euro bestellt (Bestellnummer 2026-4471). Die Schuhe sind am 5. April bei mir angekommen, allerdings mit einem deutlichen Riss an der rechten Seite – sie sind also schon beim Versand beschädigt worden.\n\nIch habe Ihnen bereits zweimal per E-Mail geschrieben, aber bis heute keine Antwort erhalten. Das ärgert mich sehr. Ich bitte Sie daher, mir schnellstmöglich Ersatz zu schicken. Falls das nicht möglich ist, möchte ich den vollen Betrag zurückerstattet bekommen.\n\nIch hoffe, bis spätestens zum 25. April eine Rückmeldung von Ihnen zu erhalten. Sollte das nicht der Fall sein, werde ich die Verbraucherzentrale einschalten.\n\nAußerdem wäre es nett, wenn Sie mir die genaue Adresse für die Rücksendung schicken könnten. Eine kurze Frage noch: Übernehmen Sie die Versandkosten für die Rücksendung?\n\nVielen Dank für Ihre baldige Antwort.\n\nMit freundlichen Grüßen\nJonas Lehmann",
+          "scoringCriteria": [
+            {
+              "criterion": "I. Inhaltliche Vollständigkeit",
+              "maxPoints": 15,
+              "description": "Alle vier Leitpunkte (Beschwerde, Forderung, Frist, Rückfrage) sind klar behandelt. Wird einer dieser Punkte als nicht bearbeitet bewertet (D), erhält der gesamte Text 0 Punkte."
+            },
+            {
+              "criterion": "II. Kommunikative Gestaltung",
+              "maxPoints": 15,
+              "description": "Formelle Anrede ('Sehr geehrte Damen und Herren'), klare Einleitung mit Bestellnummer und Datum, passende Konnektoren (allerdings, außerdem, falls), formelle Grußformel, sinnvolle Absatzstruktur."
+            },
+            {
+              "criterion": "III. Formale Richtigkeit",
+              "maxPoints": 15,
+              "description": "Grammatik, Rechtschreibung und Wortwahl auf B1-Niveau. Korrekte Verbformen (Perfekt, Konjunktiv II für höfliche Bitten), Satzstellung in Nebensätzen, Kasus nach Präpositionen. Schwere Grammatikfehler, die das Verständnis blockieren, führen zu D (und damit 0 Punkten für den gesamten Text)."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "introduce",
+          "instructions": "Stellen Sie sich Ihrem Gesprächspartner/Ihrer Gesprächspartnerin vor. Sprechen Sie über sich: Name, Herkunft, Wohnort, Familie, Beruf oder Ausbildung, Hobbys und Sprachen. Stellen Sie anschließend Ihrem Partner/Ihrer Partnerin mindestens zwei Fragen.",
+          "instructionsTranslation": "Introduce yourself to your conversation partner. Talk about: name, origin, place of residence, family, work or education, hobbies, and languages. Afterwards ask your partner at least two questions.",
+          "prompt": "Bitte stellen Sie sich Ihrem Partner / Ihrer Partnerin vor. Sprechen Sie u.a. über:\n- Ihren Namen und Ihre Herkunft\n- Ihren aktuellen Wohnort und seit wann Sie dort leben\n- Ihre Familie\n- Ihren Beruf oder Ihr Studium\n- Ihre Hobbys und Interessen\n- Die Sprachen, die Sie sprechen\n\nStellen Sie danach Ihrem Partner / Ihrer Partnerin mindestens zwei Fragen, um mehr über sie/ihn zu erfahren. Vorbereitungszeit: 20 Minuten für die gesamte mündliche Prüfung.",
+          "sampleResponse": "Guten Tag, mein Name ist Jonas Lehmann, und ich komme ursprünglich aus einer kleinen Stadt in Schleswig-Holstein. Seit drei Jahren wohne ich in Hamburg, wo ich eine Ausbildung zum Einzelhandelskaufmann absolviere. Meine Familie lebt noch im Norden – meine Eltern und ein jüngerer Bruder. In meiner Freizeit gehe ich gerne auf Flohmärkte, weil ich spannende gebrauchte Sachen finde, und ich repariere Dinge lieber, als sie wegzuwerfen. Außerdem koche ich viel mit regionalen Zutaten und treffe mich regelmäßig mit Freunden zum Essen. Neben Deutsch spreche ich Englisch flüssig – das brauche ich auch im Verkauf – und ich lerne gerade Dänisch, weil mein Opa aus Dänemark kommt. Und wie ist das bei dir? Wo bist du aufgewachsen, und was machst du beruflich?",
+          "evaluationTips": [
+            "Strukturieren Sie Ihre Vorstellung: Name, Herkunft, Wohnort, Familie, Beruf, Hobbys",
+            "Verwenden Sie Nebensätze mit 'weil', 'der/die', 'wo' – das zeigt B1-Niveau",
+            "Nennen Sie konkrete Details (Stadt, Jahre, Berufsbezeichnung)",
+            "Stellen Sie W-Fragen, keine Ja/Nein-Fragen",
+            "Reagieren Sie auf die Antworten Ihres Partners mit kurzen Kommentaren",
+            "Verbinden Sie Themen: 'Ich repariere gerne, weil ...'"
+          ],
+          "keyPhrases": [
+            "Mein Name ist ... und ich komme aus ...",
+            "Seit ... Jahren wohne ich in ...",
+            "Beruflich arbeite ich als ... / Ich mache eine Ausbildung als ...",
+            "In meiner Freizeit ...",
+            "Neben Deutsch spreche ich ...",
+            "Und wie ist das bei dir/Ihnen?",
+            "Darf ich dich/Sie etwas fragen?"
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "discussion",
+          "instructions": "Sie erhalten einen kurzen Text zum Thema. Fassen Sie den Inhalt für Ihren Partner zusammen, beantworten Sie die drei Leitfragen, und tauschen Sie Ihre Meinung mit dem Partner aus.",
+          "instructionsTranslation": "You receive a short text on the topic. Summarize the content for your partner, answer the three guiding questions, and exchange your opinions with your partner.",
+          "prompt": "Thema: Online-Shopping und Umwelt\n\nLesen Sie den folgenden kurzen Text:\n\n'Eine aktuelle Umfrage zeigt: Rund 70 Prozent der Deutschen kaufen mindestens einmal im Monat etwas im Internet. Besonders beliebt sind Kleidung, Technik und Lebensmittel. Viele Menschen schätzen die große Auswahl und die schnelle Lieferung. Gleichzeitig kritisieren Umweltschützer den vielen Verpackungsmüll und die Rücksendungen, die häufig direkt entsorgt werden.'\n\nLeitfragen:\n1. Fassen Sie kurz den Inhalt des Textes zusammen (in 2–3 Sätzen).\n2. Kaufen Sie selbst oft online ein? Wenn ja, was? Wenn nein, warum nicht?\n3. Was sollte Ihrer Meinung nach getan werden, damit Online-Shopping umweltfreundlicher wird?\n\nSprechen Sie mit Ihrem Partner/Ihrer Partnerin über das Thema – fragen Sie auch nach seiner/ihrer Meinung.",
+          "sampleResponse": "Der Text sagt, dass rund 70 Prozent der Deutschen regelmäßig online einkaufen, vor allem Kleidung, Technik und Lebensmittel. Viele finden die Auswahl und die schnelle Lieferung gut, aber Umweltschützer kritisieren den Verpackungsmüll und die vielen Rücksendungen.\n\nIch kaufe selbst relativ oft online, aber hauptsächlich Technik oder Bücher – also Dinge, bei denen ich die Größe oder Passform nicht ausprobieren muss. Kleidung bestelle ich eher selten, weil ich zu oft zurückschicken muss. Dadurch wird mir schlecht, wenn ich an den Müll denke.\n\nMeiner Meinung nach sollten Online-Shops ehrlicher mit Rücksendungen umgehen. Manche werfen Ware einfach weg, statt sie weiterzuverkaufen. Einerseits ist die Freiheit, bequem zu shoppen, sehr wichtig, andererseits müssen wir alle bewusster sein. Außerdem finde ich gute Größentabellen und Mehrweg-Verpackungen hilfreich. Wie siehst du das? Bestellst du viel online?",
+          "evaluationTips": [
+            "Beginnen Sie mit einer Zusammenfassung in 2–3 Sätzen, bevor Sie Ihre Meinung äußern",
+            "Nennen Sie konkrete Beispiele aus Ihrem Online-Kaufverhalten",
+            "Verwenden Sie Meinungsformulierungen: 'Meiner Meinung nach ...', 'Ich finde, dass ...'",
+            "Gliedern Sie Vor- und Nachteile: 'Einerseits ..., andererseits ...'",
+            "Stellen Sie dem Partner eine offene Rückfrage",
+            "Benutzen Sie Konnektoren wie 'allerdings', 'außerdem', 'deshalb'"
+          ],
+          "keyPhrases": [
+            "Im Text geht es um ...",
+            "Der Text berichtet, dass ...",
+            "Meiner Meinung nach ...",
+            "Ich finde es wichtig, dass ...",
+            "Einerseits ... andererseits ...",
+            "Ein Vorteil/Nachteil ist, dass ...",
+            "Wie siehst du das?",
+            "Stimmst du mir da zu?"
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Sie sollen mit Ihrem Partner gemeinsam etwas planen. Machen Sie Vorschläge, reagieren Sie auf die Ideen Ihres Partners und einigen Sie sich am Ende auf eine gemeinsame Lösung.",
+          "instructionsTranslation": "You are going to plan something together with your partner. Make suggestions, respond to your partner's ideas, and agree on a joint solution at the end.",
+          "prompt": "Ihr Freundeskreis möchte einen Kleidertausch-Tag bei Ihnen zu Hause organisieren. Sie und Ihr Partner / Ihre Partnerin sollen diesen Tag gemeinsam planen.\n\nBesprechen Sie bitte folgende Punkte und kommen Sie zu einer gemeinsamen Entscheidung:\n\n- Wann soll der Kleidertausch stattfinden und in welchem Raum?\n- Wen laden Sie ein (nur enge Freunde oder auch Nachbarn)?\n- Welche Regeln legen Sie fest (z.B. nur saubere Kleidung, maximale Menge pro Person)?\n- Was soll es zu essen und zu trinken geben?\n- Was passiert mit der übrig gebliebenen Kleidung am Ende (Spende, lagern, entsorgen)?\n\nMachen Sie Vorschläge, gehen Sie auf die Vorschläge Ihres Partners ein und einigen Sie sich am Ende.",
+          "sampleResponse": "Also, ich würde vorschlagen, dass wir den Kleidertausch an einem Samstagnachmittag machen – zum Beispiel am 14. Juni ab 14 Uhr. Was hältst du davon? Bei mir zu Hause gibt es das große Wohnzimmer mit Tisch, da passen wir gut hin.\n\nIch würde alle zehn engen Freunde einladen, keine Nachbarn – so bleibt es entspannt. Wir schreiben die Einladung einfach per Chat-Gruppe. Was meinst du?\n\nAls Regel finde ich wichtig: Jeder bringt maximal zehn saubere Kleidungsstücke mit. Wenn alles okay ist und nicht kaputt, darf jeder so viel mitnehmen, wie er möchte – egal, ob er selbst viel oder wenig mitgebracht hat.\n\nZum Essen schlage ich ein kleines Buffet vor. Jeder bringt etwas mit – ich mache eine große Suppe und Brot, und du kümmerst dich vielleicht um Getränke und Kuchen? Einverstanden?\n\nUnd zum Schluss: Was übrig bleibt, könnten wir direkt zum Second-Hand-Laden in der Nähe bringen. Die freuen sich sicher. Oder siehst du das anders? Prima, dann halten wir das so fest.",
+          "evaluationTips": [
+            "Hören Sie aktiv zu und reagieren Sie konkret auf die Vorschläge Ihres Partners",
+            "Machen Sie Vorschläge mit Konjunktiv II ('Ich würde vorschlagen ...', 'Wir könnten ...')",
+            "Begründen Sie Vorschläge kurz mit 'weil' oder 'damit'",
+            "Einigen Sie sich klar am Ende: 'Einverstanden?' oder 'Dann halten wir das so fest.'",
+            "Teilen Sie Aufgaben explizit auf – wer macht was",
+            "Fassen Sie am Ende die wichtigsten Entscheidungen kurz zusammen"
+          ],
+          "keyPhrases": [
+            "Ich würde vorschlagen, dass ...",
+            "Was hältst du davon, wenn ...?",
+            "Wir könnten zum Beispiel ...",
+            "Das ist eine gute Idee, aber ...",
+            "Alternativ könnten wir auch ...",
+            "Wer übernimmt ...?",
+            "Ich bringe ..., kannst du ...?",
+            "Einverstanden!",
+            "Dann halten wir fest: ..."
+          ]
+        }
+      ]
+    }
   }
 }
