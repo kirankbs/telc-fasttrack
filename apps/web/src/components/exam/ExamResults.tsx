@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import type { Level } from '@telc/types';
+import type { Level } from '@fastrack/types';
 import { getSession, clearSession, hasAnySection } from '@/lib/examSession';
 import type { ExamSessionState, SectionResult } from '@/lib/examSession';
 

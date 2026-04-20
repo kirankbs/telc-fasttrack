@@ -3,7 +3,7 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import { FlashcardSession } from '../../components/vocab/FlashcardSession';
 import type { VocabularyWord } from '../../lib/loadVocabulary';
 
-vi.mock('@telc/core', () => ({
+vi.mock('@fastrack/core', () => ({
   calculateNextReview: vi.fn((quality: number) => ({
     easeFactor: quality >= 3 ? 2.6 : 2.1,
     intervalDays: quality >= 3 ? 1 : 0,
@@ -98,7 +98,7 @@ describe('FlashcardSession', () => {
   });
 
   it('calls calculateNextReview with correct args on grade', async () => {
-    const { calculateNextReview } = await import('@telc/core');
+    const { calculateNextReview } = await import('@fastrack/core');
     render(<FlashcardSession allWords={makeWords(25)} {...defaultProps} />);
     fireEvent.click(screen.getByTestId('start-review'));
     fireEvent.click(screen.getByTestId('flip-button'));

@@ -1,5 +1,5 @@
 // SQLite database initialization and migrations
-// Source: telc-fasttrack-implementation-plan.md section 6
+// Source: fastrack-deutsch-implementation-plan.md section 6
 //
 // All database operations are async. Use execAsync, getAllAsync, getFirstAsync.
 // WAL mode is enabled for better concurrent read performance.
@@ -10,7 +10,7 @@ let db: SQLite.SQLiteDatabase | null = null;
 
 export async function getDatabase(): Promise<SQLite.SQLiteDatabase> {
   if (db) return db;
-  db = await SQLite.openDatabaseAsync('telcfasttrack.db');
+  db = await SQLite.openDatabaseAsync('fastrackdeutsch.db');
   await enableWAL(db);
   await runMigrations(db);
   return db;

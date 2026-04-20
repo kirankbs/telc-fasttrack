@@ -20,6 +20,18 @@ importers:
       '@expo/vector-icons':
         specifier: ^15.0.3
         version: 15.1.1(expo-font@14.0.11(expo@54.0.33)(react-native@0.81.5(@babel/core@7.29.0)(@types/react@18.2.79)(react@19.1.0))(react@19.1.0))(react-native@0.81.5(@babel/core@7.29.0)(@types/react@18.2.79)(react@19.1.0))(react@19.1.0)
+      '@fastrack/config':
+        specifier: workspace:*
+        version: link:../../packages/config
+      '@fastrack/content':
+        specifier: workspace:*
+        version: link:../../packages/content
+      '@fastrack/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+      '@fastrack/types':
+        specifier: workspace:*
+        version: link:../../packages/types
       '@jamsch/expo-speech-recognition':
         specifier: ^0.2.15
         version: 0.2.15(expo@54.0.33)(react-native@0.81.5(@babel/core@7.29.0)(@types/react@18.2.79)(react@19.1.0))(react@19.1.0)
@@ -29,18 +41,6 @@ importers:
       '@react-navigation/native':
         specifier: ^7.0.0
         version: 7.2.2(react-native@0.81.5(@babel/core@7.29.0)(@types/react@18.2.79)(react@19.1.0))(react@19.1.0)
-      '@telc/config':
-        specifier: workspace:*
-        version: link:../../packages/config
-      '@telc/content':
-        specifier: workspace:*
-        version: link:../../packages/content
-      '@telc/core':
-        specifier: workspace:*
-        version: link:../../packages/core
-      '@telc/types':
-        specifier: workspace:*
-        version: link:../../packages/types
       date-fns:
         specifier: ^3.0.0
         version: 3.6.0
@@ -117,16 +117,16 @@ importers:
 
   apps/web:
     dependencies:
-      '@telc/config':
+      '@fastrack/config':
         specifier: workspace:*
         version: link:../../packages/config
-      '@telc/content':
+      '@fastrack/content':
         specifier: workspace:*
         version: link:../../packages/content
-      '@telc/core':
+      '@fastrack/core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@telc/types':
+      '@fastrack/types':
         specifier: workspace:*
         version: link:../../packages/types
       next:
@@ -190,7 +190,7 @@ importers:
 
   packages/content:
     dependencies:
-      '@telc/types':
+      '@fastrack/types':
         specifier: workspace:*
         version: link:../types
     devDependencies:
@@ -203,7 +203,7 @@ importers:
 
   packages/core:
     dependencies:
-      '@telc/types':
+      '@fastrack/types':
         specifier: workspace:*
         version: link:../types
     devDependencies:

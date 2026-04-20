@@ -1,4 +1,6 @@
-# Telc-FastTrack — Complete Implementation Plan for Claude Code
+# Fastrack Deutsch — Complete Implementation Plan for Claude Code
+
+> **Note:** This product was formerly referred to as "Telc-FastTrack" in earlier drafts of this document. The brand is now **Fastrack Deutsch**. Historical references to the old name below are preserved for context.
 
 > **App Vision:** "Spend X hours. Pass telc." — A practical, exam-focused German language prep app that consolidates mock exams, drills, and resources so candidates can pass telc A1 through C1 with focused study.
 >

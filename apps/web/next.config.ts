@@ -6,10 +6,10 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const nextConfig: NextConfig = {
   transpilePackages: [
-    "@telc/config",
-    "@telc/content",
-    "@telc/core",
-    "@telc/types",
+    "@fastrack/config",
+    "@fastrack/content",
+    "@fastrack/core",
+    "@fastrack/types",
   ],
   turbopack: {
     root: path.resolve(__dirname, "../../"),

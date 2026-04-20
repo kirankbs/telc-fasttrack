@@ -1,11 +1,11 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import type { Level } from '@telc/types';
-import { LEVEL_CONFIG } from '@telc/config';
-import { getReadinessLevel } from '@telc/core';
-import { getMocksForLevel } from '@telc/content';
-import { SECTION_DURATIONS } from '@telc/core';
+import type { Level } from '@fastrack/types';
+import { LEVEL_CONFIG } from '@fastrack/config';
+import { getReadinessLevel } from '@fastrack/core';
+import { getMocksForLevel } from '@fastrack/content';
+import { SECTION_DURATIONS } from '@fastrack/core';
 import {
   getSession,
   hasAnySection,

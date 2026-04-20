@@ -1,4 +1,4 @@
-// Re-export all design tokens from the shared @telc/config package.
+// Re-export all design tokens from the shared @fastrack/config package.
 export {
   colors,
   typography,
@@ -7,4 +7,4 @@ export {
   shadows,
   MIN_TOUCH_TARGET,
   LEVEL_CONFIG,
-} from '@telc/config';
+} from '@fastrack/config';

@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Telc-FastTrack",
-    "slug": "telc-fasttrack",
+    "name": "Fastrack Deutsch",
+    "slug": "fastrack-deutsch",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "telc-fasttrack",
+    "scheme": "fastrack-deutsch",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {

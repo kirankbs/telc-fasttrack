@@ -3,7 +3,7 @@ import type {
   ListeningSection,
   ReadingSection,
   SprachbausteineSection,
-} from '@telc/types';
+} from '@fastrack/types';
 
 export interface SectionScore {
   earned: number;

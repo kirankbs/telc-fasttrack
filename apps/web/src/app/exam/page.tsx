@@ -1,6 +1,6 @@
-import { LEVEL_CONFIG } from "@telc/config";
-import { getMocksForLevel, getAvailableLevels } from "@telc/content";
-import type { Level } from "@telc/types";
+import { LEVEL_CONFIG } from "@fastrack/config";
+import { getMocksForLevel, getAvailableLevels } from "@fastrack/content";
+import type { Level } from "@fastrack/types";
 
 export default function ExamListPage({
   searchParams,

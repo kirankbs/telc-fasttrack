@@ -10,9 +10,9 @@ import type {
   SprachbausteineSection,
   SprachbausteinePart,
   SprachbausteineQuestion,
-} from '@telc/types';
+} from '@fastrack/types';
 
-vi.mock('@telc/core', () => ({
+vi.mock('@fastrack/core', () => ({
   SECTION_DURATIONS: {
     B1: { sprachbausteine: 15 * 60, reading: 75 * 60 },
     A1: { reading: 25 * 60 },

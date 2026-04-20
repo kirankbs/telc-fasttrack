@@ -1,5 +1,5 @@
 {
-  "name": "@telc/core",
+  "name": "@fastrack/core",
   "version": "0.0.1",
   "private": true,
   "main": "./src/index.ts",
@@ -10,7 +10,7 @@
     "test:coverage": "vitest run --coverage --passWithNoTests"
   },
   "dependencies": {
-    "@telc/types": "workspace:*"
+    "@fastrack/types": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.8.0",

@@ -1,6 +1,6 @@
 'use client';
 
-import type { GrammarTopic } from '@telc/types';
+import type { GrammarTopic } from '@fastrack/types';
 
 interface TopicDetailProps {
   topic: GrammarTopic;

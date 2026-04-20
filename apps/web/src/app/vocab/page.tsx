@@ -1,5 +1,5 @@
-import { LEVEL_CONFIG } from '@telc/config';
-import type { Level } from '@telc/types';
+import { LEVEL_CONFIG } from '@fastrack/config';
+import type { Level } from '@fastrack/types';
 import { loadVocabulary } from '@/lib/loadVocabulary';
 import { VocabPageClient } from './VocabPageClient';
 

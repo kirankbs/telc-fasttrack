@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
-import { LEVEL_CONFIG } from "@telc/config";
-import { SECTION_DURATIONS, formatTime } from "@telc/core";
-import type { Level } from "@telc/types";
+import { LEVEL_CONFIG } from "@fastrack/config";
+import { SECTION_DURATIONS, formatTime } from "@fastrack/core";
+import type { Level } from "@fastrack/types";
 import { loadMockExam, parseMockId } from "@/lib/loadMockExam";
 import { SectionStatusBadge, SectionActionButton, ViewResultsLink } from "@/components/exam/SectionStatus";
 

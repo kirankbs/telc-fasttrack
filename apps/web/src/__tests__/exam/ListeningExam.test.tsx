@@ -2,9 +2,9 @@ import { describe, it, expect, vi } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { ListeningExam } from '../../components/exam/ListeningExam';
-import type { ListeningSection, ListeningPart } from '@telc/types';
+import type { ListeningSection, ListeningPart } from '@fastrack/types';
 
-vi.mock('@telc/core', () => ({
+vi.mock('@fastrack/core', () => ({
   SECTION_DURATIONS: { A1: { listening: 1200 } },
   calculateSectionScore: vi.fn(() => ({
     earned: 8,

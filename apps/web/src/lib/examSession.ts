@@ -1,5 +1,5 @@
-import type { SectionScore } from '@telc/core';
-import type { Level } from '@telc/types';
+import type { SectionScore } from '@fastrack/core';
+import type { Level } from '@fastrack/types';
 
 export interface SectionResult {
   answers: Record<string, string>;

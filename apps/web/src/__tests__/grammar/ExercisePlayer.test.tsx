@@ -1,7 +1,7 @@
 import { describe, it, expect, vi } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { ExercisePlayer } from '../../components/grammar/ExercisePlayer';
-import type { GrammarExercise } from '@telc/types';
+import type { GrammarExercise } from '@fastrack/types';
 
 const fillBlank: GrammarExercise = {
   type: 'fill_blank',

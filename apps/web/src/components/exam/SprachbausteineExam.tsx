@@ -1,13 +1,13 @@
 'use client';
 
 import { useState, useCallback, useMemo, useEffect } from 'react';
-import { SECTION_DURATIONS, scoreSprachbausteine } from '@telc/core';
+import { SECTION_DURATIONS, scoreSprachbausteine } from '@fastrack/core';
 import type {
   SprachbausteineSection,
   SprachbausteinePart,
   SprachbausteineQuestion,
   Level,
-} from '@telc/types';
+} from '@fastrack/types';
 import type { ExamPhase } from '@/lib/examTypes';
 import { saveSection } from '@/lib/examSession';
 import { ExamTimer } from './ExamTimer';

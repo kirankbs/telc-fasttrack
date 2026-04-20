@@ -5,14 +5,14 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@telc/types": ["../../packages/types/src/index.ts"],
-      "@telc/types/*": ["../../packages/types/src/*"],
-      "@telc/core": ["../../packages/core/src/index.ts"],
-      "@telc/core/*": ["../../packages/core/src/*"],
-      "@telc/config": ["../../packages/config/src/index.ts"],
-      "@telc/config/*": ["../../packages/config/src/*"],
-      "@telc/content": ["../../packages/content/src/index.ts"],
-      "@telc/content/*": ["../../packages/content/src/*"]
+      "@fastrack/types": ["../../packages/types/src/index.ts"],
+      "@fastrack/types/*": ["../../packages/types/src/*"],
+      "@fastrack/core": ["../../packages/core/src/index.ts"],
+      "@fastrack/core/*": ["../../packages/core/src/*"],
+      "@fastrack/config": ["../../packages/config/src/index.ts"],
+      "@fastrack/config/*": ["../../packages/config/src/*"],
+      "@fastrack/content": ["../../packages/content/src/index.ts"],
+      "@fastrack/content/*": ["../../packages/content/src/*"]
     }
   },
   "include": [

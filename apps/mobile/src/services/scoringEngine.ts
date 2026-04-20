@@ -1,13 +1,13 @@
-// Re-export scoring logic from the shared @telc/core package.
+// Re-export scoring logic from the shared @fastrack/core package.
 export {
   calculateSectionScore,
   calculateExamScore,
   getReadinessLevel,
   formatScore,
-} from '@telc/core';
+} from '@fastrack/core';
 export type {
   SectionScore,
   ExamScore,
   QuestionResponse,
   ReadinessLevel,
-} from '@telc/core';
+} from '@fastrack/core';
