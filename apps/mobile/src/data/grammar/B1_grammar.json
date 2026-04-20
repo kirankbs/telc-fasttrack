@@ -1,1 +1,1114 @@
-[]
+[
+  {
+    "id": 1,
+    "level": "B1",
+    "topic": "Konjunktiv II — würde-Form, hätte und wäre",
+    "explanation": "Der Konjunktiv II drückt Irreales, Hypothetisches, Wünsche und höfliche Bitten aus. In der gesprochenen Sprache dominiert die Umschreibung mit 'würde + Infinitiv': Ich würde gern nach Italien fahren. Bei den Hilfsverben 'haben' und 'sein' sowie bei Modalverben werden die originalen Konjunktiv-II-Formen bevorzugt: hätte, wäre, könnte, müsste, sollte, dürfte, möchte. 'Wäre ich reich, würde ich reisen.' zeigt den irrealen Bedingungssatz. Höfliche Bitten: 'Könnten Sie mir helfen?', 'Ich hätte gern einen Kaffee.' In Nebensätzen steht das konjugierte Verb am Ende: 'Wenn ich Zeit hätte, käme ich.' Die Konjunktiv-II-Vergangenheit wird mit hätte/wäre + Partizip II gebildet: 'Wenn ich das gewusst hätte, wäre ich nicht gekommen.'",
+    "examples": [
+      "Ich würde gern mehr reisen, aber ich habe keine Zeit.",
+      "Wenn ich reich wäre, hätte ich ein großes Haus.",
+      "Könnten Sie bitte das Fenster schließen?",
+      "An deiner Stelle würde ich den Arzt anrufen.",
+      "Ich hätte gern ein Glas Wasser.",
+      "Wenn wir früher losgefahren wären, hätten wir den Zug erreicht.",
+      "Es wäre schön, wenn du morgen kommen könntest.",
+      "Ich wünschte, ich könnte besser Deutsch sprechen."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Wenn ich Zeit ___ (haben), ___ ich dir helfen. (würde-Form)",
+        "correctAnswer": "hätte, würde",
+        "explanation": "Irrealer Bedingungssatz: haben → hätte (Konjunktiv II), im Hauptsatz würde + Infinitiv."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ Sie mir bitte das Salz reichen? (höfliche Bitte mit können)",
+        "correctAnswer": "Könnten",
+        "explanation": "Höfliche Bitte: Konjunktiv II von können → könnten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz drückt einen irrealen Wunsch aus?",
+        "correctAnswer": "Ich wünschte, ich wäre jetzt im Urlaub.",
+        "explanation": "'wäre' ist Konjunktiv II von sein und signalisiert einen irrealen, nicht-realisierten Zustand."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Wenn du mich angerufen ___, ___ ich dich abgeholt. (Vergangenheit Konjunktiv II — haben/haben)",
+        "correctAnswer": "hättest, hätte",
+        "explanation": "Konjunktiv II der Vergangenheit: hätte + Partizip II in beiden Satzteilen."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Form ist korrekt für 'An deiner Stelle ___ ich das nicht machen.'?",
+        "correctAnswer": "würde",
+        "explanation": "Hypothetische Empfehlung → würde + Infinitiv ist die gebräuchlichste Form."
+      },
+      {
+        "type": "reorder",
+        "prompt": "wäre / ich / wenn / zu Hause / geblieben / krank",
+        "correctAnswer": "Wenn ich krank wäre, wäre ich zu Hause geblieben.",
+        "explanation": "Konditional irreal: wenn-Satz mit Verbendstellung, Hauptsatz mit wäre + Partizip II."
+      }
+    ],
+    "orderIndex": 1
+  },
+  {
+    "id": 2,
+    "level": "B1",
+    "topic": "Passiv — Vorgangspassiv und Zustandspassiv",
+    "explanation": "Im Deutschen unterscheidet man zwei Passivformen. Das Vorgangspassiv mit 'werden + Partizip II' beschreibt einen Prozess: 'Die Tür wird geöffnet.' Das Agens (wer handelt) wird mit 'von + Dativ' (Person) oder 'durch + Akkusativ' (Mittel/Ursache) angegeben: 'Der Brief wird vom Postboten gebracht.' Das Zustandspassiv mit 'sein + Partizip II' beschreibt das Resultat: 'Die Tür ist geöffnet.' Vergleich: 'Das Fenster wird geputzt.' (Vorgang) vs. 'Das Fenster ist geputzt.' (Zustand). Passiv in allen Zeiten: Präsens (wird gemacht), Präteritum (wurde gemacht), Perfekt (ist gemacht worden — beachte 'worden' statt 'geworden'), Plusquamperfekt (war gemacht worden). Modalverben + Passiv: 'Das muss gemacht werden.'",
+    "examples": [
+      "Der Kuchen wird von meiner Mutter gebacken.",
+      "Das Haus wurde 1920 gebaut.",
+      "Das Problem ist schon gelöst. (Zustandspassiv)",
+      "Der Brief ist gestern geschrieben worden.",
+      "Die Straße wurde durch den Sturm beschädigt.",
+      "Hier darf nicht geraucht werden.",
+      "Die Rechnung muss bis Freitag bezahlt werden.",
+      "Nach dem Unfall waren alle Fenster kaputt."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Das Auto ___ gestern ___ (reparieren — Präteritum Passiv).",
+        "correctAnswer": "wurde repariert",
+        "explanation": "Vorgangspassiv Präteritum: wurde + Partizip II."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Die E-Mail ___ schon ___ ___ (schreiben — Perfekt Passiv).",
+        "correctAnswer": "ist geschrieben worden",
+        "explanation": "Perfekt Passiv: sein + Partizip II + worden. 'worden' (nicht 'geworden') nach Partizip."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Vorgangspassiv oder Zustandspassiv? 'Das Geschäft ist geöffnet.'",
+        "correctAnswer": "Zustandspassiv — beschreibt den Zustand",
+        "explanation": "'sein + Partizip II' beschreibt den resultierenden Zustand, nicht den Prozess."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Das Buch ___ von vielen Studenten ___ (lesen — Präsens Passiv).",
+        "correctAnswer": "wird gelesen",
+        "explanation": "Vorgangspassiv Präsens: wird + Partizip II. Agens mit 'von + Dativ'."
+      },
+      {
+        "type": "reorder",
+        "prompt": "muss / heute / werden / erledigt / Arbeit / die",
+        "correctAnswer": "Die Arbeit muss heute erledigt werden.",
+        "explanation": "Modalverb + Passiv: Modalverb an 2. Stelle, Passiv-Infinitiv (Partizip II + werden) am Ende."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Form ist korrekt für Präteritum Passiv von 'machen'?",
+        "correctAnswer": "wurde gemacht",
+        "explanation": "Präteritum Passiv: wurde + Partizip II. 'ist gemacht' wäre Zustandspassiv."
+      }
+    ],
+    "orderIndex": 2
+  },
+  {
+    "id": 3,
+    "level": "B1",
+    "topic": "Relativsätze — der, die, das in allen Kasus",
+    "explanation": "Relativsätze geben zusätzliche Informationen zu einem Nomen. Das Relativpronomen (der, die, das + Plural die) kongruiert mit dem Nomen im Genus und Numerus, bekommt aber seinen Kasus vom Verb oder der Präposition im Relativsatz. Wichtige Dativ-Plural-Form: 'denen'. Genitiv: dessen (mask/neut), deren (fem/Plural). Bei Präpositionen steht die Präposition vor dem Relativpronomen: 'Der Mann, mit dem ich gesprochen habe, ...'. Relativadverbien: 'wo' für Orte, 'was' nach 'alles, etwas, nichts, das' und nach Substantivierungen. Der Relativsatz steht direkt nach dem Bezugswort (oder möglichst nah) und endet mit dem konjugierten Verb.",
+    "examples": [
+      "Der Mann, der dort steht, ist mein Onkel.",
+      "Die Frau, die ich gestern getroffen habe, ist Ärztin.",
+      "Das Kind, dem ich das Eis gekauft habe, lacht.",
+      "Die Kollegen, mit denen ich arbeite, sind sehr nett.",
+      "Der Student, dessen Buch ich gefunden habe, wohnt nebenan.",
+      "Die Stadt, in der ich geboren bin, liegt im Süden.",
+      "Alles, was er sagt, ist wahr.",
+      "Das Restaurant, wo wir gestern waren, war teuer."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Der Film, ___ wir gestern gesehen haben, war langweilig.",
+        "correctAnswer": "den",
+        "explanation": "Bezugswort 'Film' = maskulinum, im Relativsatz Akkusativobjekt (sehen verlangt Akkusativ) → den."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Die Freunde, mit ___ ich gereist bin, sind sehr nett.",
+        "correctAnswer": "denen",
+        "explanation": "Plural + Präposition 'mit' (Dativ) → Dativ Plural: denen."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Form ist korrekt? 'Die Frau, ___ Auto ich gekauft habe, wohnt hier.'",
+        "correctAnswer": "deren",
+        "explanation": "Femininum Genitiv → deren (zeigt Besitz: ihr Auto → deren Auto)."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Das Haus, in ___ wir wohnen, ist über 100 Jahre alt.",
+        "correctAnswer": "dem",
+        "explanation": "Neutrum + Präposition 'in' bei Lage (Wo?) → Dativ: dem."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "correctAnswer": "Alles, was er erzählt, ist interessant.",
+        "explanation": "Nach 'alles, etwas, nichts, viel' steht 'was' als Relativpronomen, nicht 'das'."
+      },
+      {
+        "type": "reorder",
+        "prompt": "der / Mann / ich / kenne / ist / Lehrer / den",
+        "correctAnswer": "Der Mann, den ich kenne, ist Lehrer.",
+        "explanation": "Relativsatz eingeschoben nach dem Bezugswort; Verb (kenne) am Ende des Relativsatzes."
+      }
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": 4,
+    "level": "B1",
+    "topic": "Konnektoren — weil, da, denn, obwohl, trotzdem",
+    "explanation": "Konnektoren verbinden Sätze und drücken logische Beziehungen aus. Sie unterscheiden sich wichtig in der Wortstellung. Subordinierende Konjunktionen (Verb am Ende): weil, da (kausal), obwohl (konzessiv), wenn, falls (konditional), damit (final). Koordinierende Konjunktionen (Position 0, Verb an 2. Stelle): denn (kausal), aber, oder, und. Adverbien (Position 1, Inversion — Verb vor Subjekt): trotzdem, deshalb, darum, deswegen, dann, danach. Vergleich: 'Ich komme nicht, weil ich krank bin.' (Nebensatz) — 'Ich bin krank, deshalb komme ich nicht.' (Inversion) — 'Ich bin krank, denn ich habe Fieber.' (Hauptsatz). 'Da' wirkt formeller und erklärt bekannte Gründe; 'weil' ist neutraler. 'Obwohl' (Nebensatz) und 'trotzdem' (Inversion) drücken beide Konzessivität aus.",
+    "examples": [
+      "Ich bleibe zu Hause, weil ich müde bin.",
+      "Da du schon hier bist, können wir anfangen.",
+      "Er ist krank, denn er hat Fieber.",
+      "Obwohl es regnet, gehen wir spazieren.",
+      "Es regnet, trotzdem gehen wir spazieren.",
+      "Der Zug hatte Verspätung, deshalb kam ich zu spät.",
+      "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann.",
+      "Falls du Zeit hast, ruf mich bitte an."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Er geht nicht zur Arbeit, ___ er ist krank. (Hauptsatz-Hauptsatz)",
+        "correctAnswer": "denn",
+        "explanation": "'denn' ist koordinierend — beide Sätze bleiben Hauptsätze, Verb an 2. Stelle."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Es ist kalt. ___ ziehe ich eine Jacke an. (Folge, mit Inversion)",
+        "correctAnswer": "Deshalb",
+        "explanation": "'Deshalb' steht auf Position 1; Inversion: Verb (ziehe) auf Position 2, dann Subjekt (ich)."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz verwendet 'obwohl' korrekt?",
+        "correctAnswer": "Obwohl er müde war, hat er weitergearbeitet.",
+        "explanation": "Nach 'obwohl' steht das Verb am Satzende; im Hauptsatz folgt Inversion."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Ich lerne viel, ___ ich die Prüfung bestehe. (Ziel)",
+        "correctAnswer": "damit",
+        "explanation": "'damit' drückt ein Ziel aus und verlangt Verbendstellung im Nebensatz."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist grammatisch korrekt?",
+        "correctAnswer": "Es regnet, trotzdem gehen wir spazieren.",
+        "explanation": "Nach 'trotzdem' (Adverb, Position 1) folgt Inversion: Verb (gehen) vor Subjekt (wir)."
+      },
+      {
+        "type": "reorder",
+        "prompt": "weil / viel / gearbeitet / ich / habe / müde / bin / ich",
+        "correctAnswer": "Ich bin müde, weil ich viel gearbeitet habe.",
+        "explanation": "Hauptsatz + Komma + weil-Nebensatz mit Hilfsverb (habe) am Ende."
+      }
+    ],
+    "orderIndex": 4
+  },
+  {
+    "id": 5,
+    "level": "B1",
+    "topic": "Temporale Nebensätze — wenn, als, nachdem, bevor, während",
+    "explanation": "Temporale Konnektoren ordnen Ereignisse zeitlich ein. 'Wenn' wird für Gegenwart, Zukunft und wiederholte Vergangenheitsereignisse benutzt: 'Jedes Mal, wenn er kommt, bringt er Blumen.' 'Als' nur für einmalige Ereignisse in der Vergangenheit: 'Als ich Kind war, wohnte ich in Köln.' 'Nachdem' + Plusquamperfekt (Nebensatz) + Präteritum/Perfekt (Hauptsatz): Reihenfolge der Ereignisse. 'Bevor' + Hauptsatz, beide im gleichen Tempus: 'Bevor ich esse, wasche ich mir die Hände.' 'Während' drückt Gleichzeitigkeit aus: 'Während ich koche, hört er Musik.' 'Sobald' markiert unmittelbare Folge. 'Seit/seitdem' gibt Anfangspunkt an. In allen diesen Nebensätzen steht das Verb am Ende.",
+    "examples": [
+      "Wenn ich Zeit habe, besuche ich dich.",
+      "Als ich 10 Jahre alt war, zog ich nach Berlin.",
+      "Nachdem er gegessen hatte, ging er spazieren.",
+      "Bevor du gehst, schließ bitte das Fenster.",
+      "Während sie telefoniert, arbeitet er am Computer.",
+      "Sobald ich zu Hause bin, rufe ich dich an.",
+      "Seit ich in München wohne, lerne ich Deutsch.",
+      "Immer wenn es regnet, werde ich traurig."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "___ ich jung war, spielte ich viel Fußball. (einmalige Vergangenheit)",
+        "correctAnswer": "Als",
+        "explanation": "'Als' für einmalige, abgeschlossene Vergangenheitsereignisse; 'wenn' wäre hier falsch."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ ich das Buch gelesen hatte, gab ich es zurück. (Ereignisreihenfolge)",
+        "correctAnswer": "Nachdem",
+        "explanation": "'Nachdem' markiert Vorzeitigkeit — Plusquamperfekt im Nebensatz, Präteritum im Hauptsatz."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Konnektor passt? '___ du kommst, koche ich schon.'",
+        "correctAnswer": "Während",
+        "explanation": "Gleichzeitigkeit zweier Handlungen → während."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Ich putze die Zähne, ___ ich ins Bett gehe. (vorher)",
+        "correctAnswer": "bevor",
+        "explanation": "'bevor' markiert die frühere Handlung; das Ereignis im bevor-Satz passiert danach."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "correctAnswer": "Immer wenn ich nach Hause komme, ist die Katze glücklich.",
+        "explanation": "'Immer wenn' bei wiederholten Handlungen (auch in Vergangenheit) — nicht 'als'."
+      },
+      {
+        "type": "reorder",
+        "prompt": "gelernt / ich / hatte / hatte / Prüfung / nachdem / ich / die / bestanden",
+        "correctAnswer": "Nachdem ich gelernt hatte, hatte ich die Prüfung bestanden.",
+        "explanation": "Nachdem-Satz im Plusquamperfekt; Hauptsatz ebenfalls Plusquamperfekt oder Präteritum."
+      }
+    ],
+    "orderIndex": 5
+  },
+  {
+    "id": 6,
+    "level": "B1",
+    "topic": "Finale Nebensätze — damit und um...zu",
+    "explanation": "Finale Nebensätze drücken Absicht, Zweck oder Ziel aus. Zwei Strukturen konkurrieren. 'Um...zu + Infinitiv' wird nur verwendet, wenn Subjekt im Haupt- und Nebensatz identisch ist: 'Ich lerne Deutsch, um in Deutschland zu arbeiten.' (ich lerne — ich arbeite, gleiches Subjekt). 'Damit' wird für alle Fälle verwendet, aber besonders wenn die Subjekte unterschiedlich sind: 'Ich kaufe ein Spielzeug, damit mein Sohn glücklich ist.' (ich kaufe — er ist glücklich, verschiedene Subjekte). 'Damit' kann auch bei gleichem Subjekt stehen, klingt dann aber formeller. Im um-zu-Satz steht 'zu' direkt vor dem Infinitiv am Ende; bei trennbaren Verben zwischen Präfix und Stamm: 'um einzukaufen'.",
+    "examples": [
+      "Ich arbeite viel, um genug Geld zu verdienen.",
+      "Er lernt Deutsch, damit er bessere Jobchancen hat.",
+      "Wir fahren früh los, um den Stau zu vermeiden.",
+      "Die Mutter kocht Suppe, damit das Kind gesund wird.",
+      "Sie geht ins Fitnessstudio, um fit zu bleiben.",
+      "Ich rufe dich an, damit du informiert bist.",
+      "Er spart Geld, um eine Weltreise zu machen.",
+      "Wir öffnen das Fenster, damit frische Luft reinkommt."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich gehe zum Supermarkt, ___ Brot ___ kaufen. (gleiches Subjekt)",
+        "correctAnswer": "um zu",
+        "explanation": "Gleiches Subjekt (ich-ich) → um...zu-Konstruktion."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Ich erkläre es dir, ___ du es verstehst. (verschiedene Subjekte)",
+        "correctAnswer": "damit",
+        "explanation": "Verschiedene Subjekte (ich-du) → damit."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "correctAnswer": "Sie lernt viel, um die Prüfung zu bestehen.",
+        "explanation": "Sie-sie = gleiches Subjekt, daher um...zu. 'zu bestehen' am Satzende."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Er schließt die Tür, ___ die Katze nicht raus___ (laufen). (damit + trennbar)",
+        "correctAnswer": "damit rausläuft",
+        "explanation": "'damit' + Verb am Ende; trennbares 'rauslaufen' bleibt im Nebensatz zusammen: rausläuft."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist falsch?",
+        "correctAnswer": "Ich kaufe ein Geschenk, um mein Bruder sich freut.",
+        "explanation": "Falsch — verschiedene Subjekte (ich-Bruder) verlangen 'damit'. Richtig: '..., damit mein Bruder sich freut.'"
+      },
+      {
+        "type": "reorder",
+        "prompt": "lernt / um / zu / verbessern / Deutsch / Aussprache / seine / Er",
+        "correctAnswer": "Er lernt Deutsch, um seine Aussprache zu verbessern.",
+        "explanation": "Um...zu-Infinitivsatz: 'um' am Anfang, 'zu + Infinitiv' am Ende."
+      }
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": 7,
+    "level": "B1",
+    "topic": "Wechselpräpositionen und feste Präpositionen — Dativ/Akkusativ",
+    "explanation": "Neun Wechselpräpositionen regieren Dativ oder Akkusativ: an, auf, hinter, in, neben, über, unter, vor, zwischen. Wo? → Dativ (Lage). Wohin? → Akkusativ (Richtung). Feste Präpositionen ohne Wahl: mit Dativ: aus, bei, mit, nach, seit, von, zu, gegenüber. Nur Akkusativ: durch, für, gegen, ohne, um. Genitiv (formeller): während, wegen, trotz, (an)statt, innerhalb, außerhalb. Im gesprochenen Deutsch wird nach 'wegen' und 'trotz' zunehmend Dativ benutzt, der Genitiv bleibt aber standardsprachlich richtig. Kausale Präpositionen: wegen, aufgrund. Temporale: seit (Dativ, Zeitpunkt in der Vergangenheit bis jetzt), während (Genitiv), vor (Dativ — vor drei Tagen). Modal: mit, ohne, auf...Weise.",
+    "examples": [
+      "Das Buch liegt auf dem Tisch. (Wo? → Dativ)",
+      "Ich lege das Buch auf den Tisch. (Wohin? → Akkusativ)",
+      "Wegen des Regens bleiben wir zu Hause.",
+      "Trotz der Kälte gehen wir raus.",
+      "Seit drei Jahren lerne ich Deutsch.",
+      "Während der Pause trinken wir Kaffee.",
+      "Er fährt mit seinem Auto zur Arbeit.",
+      "Sie wohnt gegenüber dem Park."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Das Bild hängt ___ ___ Wand. (an, Dativ — Wo?)",
+        "correctAnswer": "an der",
+        "explanation": "Lage → Dativ. Femininum: die Wand → Dativ: der Wand."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Sie hängt das Bild ___ ___ Wand. (an, Akkusativ — Wohin?)",
+        "correctAnswer": "an die",
+        "explanation": "Bewegung → Akkusativ. die Wand → Akkusativ: die Wand."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt? 'Wegen ___ Wetters können wir nicht schwimmen.'",
+        "correctAnswer": "des",
+        "explanation": "'wegen' verlangt Genitiv. Neutrum Genitiv: das Wetter → des Wetters."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Seit ___ Woche regnet es. (ein)",
+        "correctAnswer": "einer",
+        "explanation": "'seit' verlangt Dativ. Femininum: eine → einer (Dativ)."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Präposition verlangt immer den Akkusativ?",
+        "correctAnswer": "für",
+        "explanation": "'für' gehört zu den festen Akkusativ-Präpositionen (durch, für, gegen, ohne, um)."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Trotz ___ Regens gehen wir spazieren. (der)",
+        "correctAnswer": "des",
+        "explanation": "'trotz' verlangt Genitiv. Maskulinum der Regen → Genitiv: des Regens."
+      }
+    ],
+    "orderIndex": 7
+  },
+  {
+    "id": 8,
+    "level": "B1",
+    "topic": "Reflexive Verben mit Präpositionen",
+    "explanation": "Viele reflexive Verben haben eine feste Präposition, die man mitlernen muss — sie bestimmt den Kasus der Ergänzung. Häufige Kombinationen: sich freuen auf + Akkusativ (Zukunft: Ich freue mich auf den Urlaub.) vs. sich freuen über + Akkusativ (Geschehenes: Ich freue mich über das Geschenk.). sich interessieren für + Akk. sich ärgern über + Akk. sich erinnern an + Akk. sich kümmern um + Akk. sich entschuldigen für/bei + Akk/Dat. sich bedanken für + Akk, bei + Dativ. sich gewöhnen an + Akk. sich bewerben um + Akk. sich unterhalten über/mit + Akk/Dat. Echte reflexive Verben (nur reflexiv verwendbar): sich beeilen, sich erholen, sich irren, sich verlieben, sich erkälten, sich schämen. Unechte reflexive: sich waschen, sich kämmen, sich anziehen — können auch transitiv benutzt werden.",
+    "examples": [
+      "Ich freue mich auf das Wochenende.",
+      "Sie interessiert sich für Musik.",
+      "Wir erinnern uns gern an den Urlaub.",
+      "Er ärgert sich über die Verspätung.",
+      "Ich entschuldige mich für die Verspätung.",
+      "Sie bewirbt sich um die Stelle.",
+      "Wir haben uns über das Geschenk gefreut.",
+      "Kannst du dich an meinen Namen erinnern?"
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich freue ___ ___ das Wochenende.",
+        "correctAnswer": "mich auf",
+        "explanation": "'sich freuen auf' + Akkusativ für zukünftige Ereignisse; Reflexivpronomen 1. Person: mich."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Er interessiert ___ ___ Politik.",
+        "correctAnswer": "sich für",
+        "explanation": "'sich interessieren für' + Akkusativ; 3. Person Sg: sich."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Präposition passt? 'Ich bedanke mich ___ die Hilfe.'",
+        "correctAnswer": "für",
+        "explanation": "'sich bedanken für' + Akkusativ (Grund des Danks). 'bei' wäre die Person."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Wir müssen ___ beeilen, sonst verpassen wir den Zug.",
+        "correctAnswer": "uns",
+        "explanation": "'sich beeilen' ist echtes reflexives Verb; 1. Person Plural: uns."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "correctAnswer": "Sie ärgert sich über den Chef.",
+        "explanation": "'sich ärgern über' + Akkusativ. 'über den Chef' (maskulinum Akkusativ)."
+      },
+      {
+        "type": "reorder",
+        "prompt": "sich / an / gewöhnt / Klima / das / hat / neue / Er",
+        "correctAnswer": "Er hat sich an das neue Klima gewöhnt.",
+        "explanation": "Perfekt: hat + Reflexivpronomen + Akkusativergänzung + Partizip II."
+      }
+    ],
+    "orderIndex": 8
+  },
+  {
+    "id": 9,
+    "level": "B1",
+    "topic": "Modalverben im Perfekt und in der Vergangenheit",
+    "explanation": "Modalverben in der Vergangenheit haben zwei wichtige Formen. In der gesprochenen Sprache wird meist das Präteritum verwendet: 'Ich musste gestern arbeiten.' Das Perfekt der Modalverben wird mit zwei Infinitiven (doppelter Infinitiv) gebildet: haben + Infinitiv + Modalverb-Infinitiv. 'Ich habe arbeiten müssen.' (nicht 'gemusst'!). Nur wenn das Modalverb allein ohne Hauptverb steht, gibt es ein Partizip II: 'Das habe ich nicht gewollt.' (= das wollte ich nicht). Im Nebensatz mit doppeltem Infinitiv steht das Hilfsverb VOR den beiden Infinitiven, nicht am Ende: 'Ich weiß, dass er hat arbeiten müssen.' — das ist eine Ausnahme von der Verbendstellungsregel. Vergleich: Präteritum (alltäglich) vs. Perfekt (selten, stilistisch markiert).",
+    "examples": [
+      "Ich habe gestern arbeiten müssen.",
+      "Er hat nicht ins Kino gehen können.",
+      "Wir haben das Problem lösen wollen.",
+      "Sie hat früh aufstehen müssen.",
+      "Das hast du nicht machen dürfen.",
+      "Ich weiß, dass er hat gehen müssen.",
+      "Er musste gestern zum Arzt. (Präteritum — alltäglicher)",
+      "Das hätte ich wissen sollen. (Konjunktiv II)"
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich ___ gestern lange ___ ___. (arbeiten müssen — Perfekt)",
+        "correctAnswer": "habe arbeiten müssen",
+        "explanation": "Modalverb-Perfekt: haben + Vollverb-Infinitiv + Modalverb-Infinitiv. Kein 'gemusst'."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Er ___ (müssen — Präteritum) sehr früh aufstehen.",
+        "correctAnswer": "musste",
+        "explanation": "Präteritum ist die häufigere Form für Modalverben in der Vergangenheit."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Perfektform ist korrekt?",
+        "correctAnswer": "Ich habe das nicht sehen können.",
+        "explanation": "Doppelter Infinitiv: 'sehen können' — kein Partizip II ('gekonnt')."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Wir ___ leider nicht kommen können. (Perfekt)",
+        "correctAnswer": "haben",
+        "explanation": "Haben + Infinitiv + Modalverb-Infinitiv: haben + kommen + können."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Nebensatz ist korrekt?",
+        "correctAnswer": "Ich weiß, dass er hat warten müssen.",
+        "explanation": "Ausnahme: Bei doppeltem Infinitiv steht das Hilfsverb VOR den Infinitiven, nicht am Ende."
+      },
+      {
+        "type": "reorder",
+        "prompt": "gestern / hat / gehen / Er / früh / schlafen / müssen",
+        "correctAnswer": "Er hat gestern früh schlafen gehen müssen.",
+        "explanation": "Perfekt mit Modalverb: habe + Zeitangabe + weitere Infinitive am Ende."
+      }
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": 10,
+    "level": "B1",
+    "topic": "Futur I — Zukunft und Vermutung",
+    "explanation": "Das Futur I wird mit 'werden (Präsens) + Infinitiv' gebildet: Ich werde morgen kommen. Im Alltag wird reine Zukunft meist mit Präsens + Zeitangabe ausgedrückt: 'Morgen gehe ich ins Kino.' — kürzer und natürlicher. Das Futur I wird häufiger für Vermutungen über die Gegenwart oder Zukunft benutzt: 'Er wird jetzt zu Hause sein.' (= wahrscheinlich ist er zu Hause). Oft kombiniert mit Adverbien wie 'wohl', 'wahrscheinlich', 'vielleicht': 'Das wird wohl stimmen.' Weitere Funktionen: Versprechen ('Ich werde dir helfen.'), feste Absicht, Vorhersagen ('Das Wetter wird schlechter werden.'). Im Nebensatz steht werden am Ende, nach dem Infinitiv: 'Ich glaube, dass er kommen wird.'",
+    "examples": [
+      "Ich werde morgen nach Berlin fahren.",
+      "Er wird jetzt wohl schlafen. (Vermutung)",
+      "Das Wetter wird besser werden.",
+      "Ich werde dir immer helfen. (Versprechen)",
+      "Wir werden das Problem bald lösen.",
+      "Sie wird bestimmt anrufen.",
+      "In zehn Jahren wird die Welt anders aussehen.",
+      "Ich denke, er wird die Prüfung bestehen."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Nächstes Jahr ___ wir nach Spanien ___. (fahren — Futur I)",
+        "correctAnswer": "werden fahren",
+        "explanation": "Futur I: werden (konjugiert) + Infinitiv (fahren) am Satzende."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Er ___ wohl schon zu Hause ___. (sein — Vermutung über Gegenwart)",
+        "correctAnswer": "wird sein",
+        "explanation": "Futur I für Vermutung: wird + sein + 'wohl' als Unsicherheitsmarker."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz drückt eine Vermutung aus?",
+        "correctAnswer": "Sie wird wohl im Büro sein.",
+        "explanation": "'werden + Infinitiv + wohl/wahrscheinlich' signalisiert Vermutung, nicht reine Zukunft."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Ich verspreche dir, ich ___ dich nie ___ lassen. (alleine — Futur I)",
+        "correctAnswer": "werde alleine",
+        "explanation": "Futur I für Versprechen: werde + Objekte + Infinitiv am Ende."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist kein Futur I?",
+        "correctAnswer": "Er ist gestern gekommen.",
+        "explanation": "Das ist Perfekt (Vergangenheit). Futur I braucht 'werden + Infinitiv'."
+      },
+      {
+        "type": "reorder",
+        "prompt": "wird / glaube / dass / er / kommen / ich",
+        "correctAnswer": "Ich glaube, dass er kommen wird.",
+        "explanation": "Nebensatz: Infinitiv (kommen) + Hilfsverb (wird) am Ende."
+      }
+    ],
+    "orderIndex": 10
+  },
+  {
+    "id": 11,
+    "level": "B1",
+    "topic": "Infinitiv mit und ohne zu",
+    "explanation": "Wann kommt 'zu' vor den Infinitiv? Infinitiv OHNE zu steht nach: Modalverben (können, müssen, wollen usw.) — 'Ich kann schwimmen.' Bewegungsverben (gehen, fahren, kommen) + Zweckinfinitiv — 'Ich gehe einkaufen.' Hilfsverben (werden, lassen) — 'Ich lasse mir die Haare schneiden.' Verben der Wahrnehmung (sehen, hören) — 'Ich höre ihn singen.' Infinitiv MIT zu steht nach den meisten anderen Verben: anfangen, aufhören, versuchen, vergessen, planen, hoffen, versprechen, beschließen. Nach Ausdrücken mit 'es' oder Adjektiv: 'Es ist wichtig, pünktlich zu sein.' Nach 'um/ohne/anstatt + zu' immer mit zu. Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm: 'einzukaufen', 'anzurufen'. Komma vor längeren Infinitivgruppen (optional, aber empfohlen).",
+    "examples": [
+      "Ich muss heute viel arbeiten. (ohne zu — Modalverb)",
+      "Er hat vergessen, die Milch zu kaufen. (mit zu)",
+      "Sie geht schwimmen. (ohne zu — Bewegungsverb + Zweck)",
+      "Es ist schwierig, Deutsch zu lernen.",
+      "Ich versuche, jeden Tag zu üben.",
+      "Ich lasse die Wohnung putzen. (ohne zu)",
+      "Anstatt zu arbeiten, schläft er.",
+      "Sie plant, im Sommer zu verreisen."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich versuche, jeden Tag eine Stunde ___ lernen.",
+        "correctAnswer": "zu",
+        "explanation": "'versuchen' verlangt Infinitiv mit zu."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Kannst du morgen früh ___? (kommen — nach Modalverb)",
+        "correctAnswer": "kommen",
+        "explanation": "Nach Modalverben: Infinitiv ohne zu."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "correctAnswer": "Er hat angefangen, Gitarre zu spielen.",
+        "explanation": "'anfangen' verlangt Infinitiv mit zu."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Ich habe vergessen, dich ___ (anrufen — trennbar mit zu).",
+        "correctAnswer": "anzurufen",
+        "explanation": "Trennbare Verben: 'zu' zwischen Präfix und Stamm → an-zu-rufen = anzurufen."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist falsch?",
+        "correctAnswer": "Ich muss zu arbeiten.",
+        "explanation": "Nach Modalverben steht Infinitiv ohne 'zu'. Richtig: 'Ich muss arbeiten.'"
+      },
+      {
+        "type": "reorder",
+        "prompt": "wichtig / Es / zu / gesund / ist / leben",
+        "correctAnswer": "Es ist wichtig, gesund zu leben.",
+        "explanation": "Ausdruck mit 'Es ist + Adjektiv' + Infinitivsatz mit zu am Ende."
+      }
+    ],
+    "orderIndex": 11
+  },
+  {
+    "id": 12,
+    "level": "B1",
+    "topic": "Adjektivdeklination — alle Artikel, alle Kasus",
+    "explanation": "Die Adjektivdeklination folgt drei Mustern. Schwache Deklination (nach bestimmtem Artikel der/die/das, dieser, jener, jeder, mancher, welcher): Nominativ Sg. -e (Mask/Fem/Neut), sonst überall -en. Mischdeklination (nach ein/kein/Possessivartikel): Adjektiv übernimmt die Artikel-Endung, wenn der Artikel keine Endung hat — Nominativ Mask: ein alter Mann, Nominativ/Akkusativ Neutrum: ein kleines Kind. Starke Deklination (ohne Artikel): Adjektiv trägt die vollen Endungen wie der bestimmte Artikel — guter Wein, kalte Milch, frisches Brot, alten Freunden (Dativ Plural: -en). Merkhilfe: Signal-Endung (-r/-e/-s/-n) muss irgendwo im Nominalphrasenkopf erscheinen. Schwache Endungen nur -e oder -en; starke decken die ganze Artikelpalette ab.",
+    "examples": [
+      "Der alte Mann liest die neue Zeitung. (schwach)",
+      "Ein alter Mann sitzt auf einer kleinen Bank. (gemischt)",
+      "Kalter Kaffee schmeckt nicht. (stark)",
+      "Ich trinke das frische Wasser. (schwach)",
+      "Er sucht einen guten Job. (gemischt)",
+      "Mit freundlichen Grüßen (stark, Dativ Plural)",
+      "Ich mag diesen schönen Film. (schwach — dieser)",
+      "Ohne warme Kleidung friert man schnell. (stark)"
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich habe einen ___ (interessant) Film gesehen.",
+        "correctAnswer": "interessanten",
+        "explanation": "Gemischt (ein + Mask. Akk.): Artikel 'einen' trägt Endung, Adjektiv -en."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Der ___ (alt) Mann wohnt nebenan.",
+        "correctAnswer": "alte",
+        "explanation": "Schwach (Nom. Mask. Sg. nach bestimmtem Artikel): -e."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Form ist korrekt? 'Mit ___ Grüßen'",
+        "correctAnswer": "freundlichen",
+        "explanation": "Stark (Dativ Plural ohne Artikel): Adjektiv trägt die starke Endung -en."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Sie kauft ein ___ (neu) Kleid.",
+        "correctAnswer": "neues",
+        "explanation": "Gemischt (ein + Neut. Akk.): Artikel hat keine Endung, Adjektiv trägt -es."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "correctAnswer": "Kalter Regen fällt seit Tagen.",
+        "explanation": "Stark (Nom. Mask. Sg. ohne Artikel): Adjektiv -er (wie bestimmter Artikel 'der')."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Ich trinke kein ___ (warm) Bier.",
+        "correctAnswer": "warmes",
+        "explanation": "Gemischt (kein + Neut. Akk.): kein-Form ohne Endung → Adjektiv trägt -es."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wie lautet die richtige Form? 'Die ___ (schön) Blumen sind im Garten.'",
+        "correctAnswer": "schönen",
+        "explanation": "Schwach (Nom. Plural nach bestimmtem Artikel 'die'): -en."
+      }
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": 13,
+    "level": "B1",
+    "topic": "Indirekte Rede — Konjunktiv I (Grundlagen)",
+    "explanation": "Die indirekte Rede gibt wieder, was jemand gesagt hat, ohne die Originalworte zu zitieren. In formeller Schriftsprache (Nachrichten, Zeitungen) benutzt man den Konjunktiv I. Bildung: Verbstamm + e/est/e/en/et/en. Beispiele: er sage, er habe, er komme, er sei (unregelmäßig). Wenn Konjunktiv I wie Indikativ aussieht (vor allem Plural: wir sagen = Konj. I wir sagen), weicht man auf Konjunktiv II aus: 'Sie sagten, sie würden kommen.' oder würde-Umschreibung. Bei 'sein' sind alle Formen unterscheidbar: sei, seist, sei, seien, seiet, seien. Einleitung: 'Er sagt/sagte, dass...' (dass-Satz) oder ohne dass mit Hauptsatzwortstellung: 'Er sagte, er sei müde.' Im gesprochenen Deutsch wird oft einfach der Indikativ benutzt: 'Er hat gesagt, dass er müde ist.'",
+    "examples": [
+      "Er sagt, er sei krank.",
+      "Sie behauptete, sie habe keine Zeit.",
+      "Der Minister erklärte, die Situation werde besser.",
+      "Er fragt, ob ich komme. (indirekte Frage)",
+      "Sie sagte, sie würden morgen kommen. (Konj. II, weil Konj. I = Indikativ)",
+      "Die Zeitung meldet, es gebe einen Streik.",
+      "Er sagte mir, ich solle warten.",
+      "Sie sagte, sie habe das Buch gelesen."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Er sagt, er ___ (sein — Konj. I) sehr müde.",
+        "correctAnswer": "sei",
+        "explanation": "Konjunktiv I von sein (3. Person Sg.): sei."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Sie sagte, sie ___ (haben — Konj. I) keine Zeit.",
+        "correctAnswer": "habe",
+        "explanation": "Konjunktiv I von haben (3. Person Sg.): habe."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz steht in indirekter Rede?",
+        "correctAnswer": "Er erklärte, er sei nicht schuldig.",
+        "explanation": "'sei' ist Konjunktiv I — typisches Merkmal formeller indirekter Rede."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Der Minister sagte, die Wirtschaft ___ (wachsen — Konj. I).",
+        "correctAnswer": "wachse",
+        "explanation": "Konjunktiv I: Verbstamm wach + e = wachse."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wann weicht man auf Konjunktiv II / würde-Form aus?",
+        "correctAnswer": "Wenn Konjunktiv I wie Indikativ aussieht.",
+        "explanation": "Beispiel: 'wir kommen' = Indikativ und Konj. I identisch → Konj. II 'kämen' oder 'würden kommen'."
+      },
+      {
+        "type": "reorder",
+        "prompt": "er / habe / gesagt / sagte / er / alles / sie",
+        "correctAnswer": "Sie sagte, er habe alles gesagt.",
+        "explanation": "Indirekte Rede ohne 'dass': Hauptsatzwortstellung mit Konjunktiv-I-Verb (habe)."
+      }
+    ],
+    "orderIndex": 13
+  },
+  {
+    "id": 14,
+    "level": "B1",
+    "topic": "Komparativ und Superlativ — Sonderformen",
+    "explanation": "Auf B1-Niveau müssen Lernende unregelmäßige Steigerungsformen sicher beherrschen. Die wichtigsten: gut – besser – am besten; viel – mehr – am meisten; gern – lieber – am liebsten; hoch – höher – am höchsten (Achtung: h im Komparativ fällt weg); nah – näher – am nächsten; groß – größer – am größten. Viele einsilbige Adjektive mit a/o/u nehmen Umlaut: alt-älter, jung-jünger, kalt-kälter, warm-wärmer, dumm-dümmer. Prädikativ (nach sein) oder adverbial: 'am + Superlativ-sten' — Er läuft am schnellsten. Attributiv (vor Nomen): 'der/die/das + Superlativ + Adjektiv-Endung' — der schnellste Läufer. Vergleiche: 'X ist (gen)auso...wie Y' (Gleichheit), 'X ist ...-er als Y' (Komparativ). Bei 'je...desto': 'Je mehr ich lerne, desto besser verstehe ich.' (Komparativ in beiden Teilen).",
+    "examples": [
+      "Sie ist älter als ihr Bruder.",
+      "Das ist der beste Film des Jahres.",
+      "Ich trinke lieber Tee als Kaffee.",
+      "Am liebsten esse ich Pizza.",
+      "Der Mount Everest ist der höchste Berg der Welt.",
+      "Mein Haus ist genauso groß wie deins.",
+      "Je mehr du lernst, desto besser wirst du.",
+      "Dieses Zimmer ist am wärmsten."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich esse am ___ (gern) Schokolade.",
+        "correctAnswer": "liebsten",
+        "explanation": "Unregelmäßiger Superlativ: gern → lieber → am liebsten."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Das ist das ___ (gut) Restaurant der Stadt.",
+        "correctAnswer": "beste",
+        "explanation": "Unregelmäßig: gut → besser → am besten. Attributiv: das beste (schwach, Neutrum, Nom/Akk)."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Komparativform ist korrekt für 'hoch'?",
+        "correctAnswer": "höher",
+        "explanation": "'hoch' verliert das 'c/h' im Komparativ: hoch → höher → am höchsten."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Er ist genauso groß ___ ich.",
+        "correctAnswer": "wie",
+        "explanation": "Gleichheitsvergleich: 'so/genauso + Grundform + wie'. Komparativ verlangt 'als'."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "correctAnswer": "Je früher du kommst, desto besser.",
+        "explanation": "'Je...desto' verlangt Komparativ in beiden Teilen."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Dieses Auto ist ___ (teuer — Komparativ) als das andere.",
+        "correctAnswer": "teurer",
+        "explanation": "teuer → teurer (e fällt aus) → am teuersten."
+      }
+    ],
+    "orderIndex": 14
+  },
+  {
+    "id": 15,
+    "level": "B1",
+    "topic": "Pronomen — Personal, Possessiv, Demonstrativ, Indefinit",
+    "explanation": "Auf B1-Niveau werden alle Pronomentypen sicher beherrscht. Personalpronomen: Akk. (mich, dich, ihn, sie, es, uns, euch, sie/Sie), Dat. (mir, dir, ihm, ihr, ihm, uns, euch, ihnen/Ihnen). Possessivpronomen: mein, dein, sein, ihr, unser, euer, ihr/Ihr — mit Endungen nach Kasus, Genus, Numerus wie ein-Wörter. Demonstrativpronomen: dieser/diese/dieses (nah), jener/jene/jenes (fern, selten), derselbe/dieselbe/dasselbe (derselbe wie ein bestimmter Artikel + selbe-Adjektiv). 'der/die/das' als Demonstrativpronomen stärker betont als Personalpronomen: 'Kennst du den Mann? — Den kenne ich.' Indefinitpronomen: man (generisch), jemand/niemand (Personen), etwas/nichts (Sachen), alle/alles, einige/wenige/viele, jeder/jede/jedes, beide. 'Niemand' und 'jemand' werden dekliniert: Akk. niemanden (oder niemand), Dat. niemandem. Achtung: 'man' ist nur Nominativ — Akkusativ wird 'einen', Dativ wird 'einem'.",
+    "examples": [
+      "Ich sehe sie jeden Tag. (Personalpronomen Akk.)",
+      "Das ist mein Auto; deins steht da drüben. (Possessiv, allein)",
+      "Dieser Film ist besser als jener. (Demonstrativ)",
+      "Kennst du diesen Mann? — Den kenne ich gut. (betontes Demonstrativ)",
+      "Man sollte immer pünktlich sein.",
+      "Niemand hat die Antwort gewusst.",
+      "Hast du etwas gefunden? — Nein, nichts.",
+      "Jeder kann Deutsch lernen."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Kannst du ___ (ich — Dat.) das Buch geben?",
+        "correctAnswer": "mir",
+        "explanation": "geben verlangt Dativ (wem?) + Akkusativ (was?). ich → mir."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ (man — Akk.) sollte das nicht vergessen. Wenn ___ (man — Akk.) fragt, antworte ich.",
+        "correctAnswer": "Einen, einen",
+        "explanation": "'man' hat keine eigene Akkusativform — man verwendet 'einen'."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Form ist korrekt? 'Ich habe ___ gesehen.' (niemand, Akk.)",
+        "correctAnswer": "niemanden",
+        "explanation": "'niemand' wird im Akkusativ dekliniert: niemanden (auch 'niemand' zulässig, aber seltener)."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Das ist mein Auto und das ist ___ (dein — Possessivpronomen allein, Nom. Neut.).",
+        "correctAnswer": "deins",
+        "explanation": "Possessivpronomen ohne Nomen: deins (Neut. Nom./Akk.) — endet wie bestimmter Artikel -s."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz verwendet 'jeder' korrekt?",
+        "correctAnswer": "Jedes Kind bekommt ein Geschenk.",
+        "explanation": "'jeder' wird wie ein bestimmter Artikel dekliniert: jedes (Neut. Nom.)."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Kennst du den Mann dort? — Ja, ___ kenne ich. (betontes Demonstrativ)",
+        "correctAnswer": "den",
+        "explanation": "Betontes Demonstrativpronomen 'der/die/das' (hier Akk. Mask.: den) — stärker als 'ihn'."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Form ist korrekt? 'Ich helfe ___ nicht.' (niemand, Dat.)",
+        "correctAnswer": "niemandem",
+        "explanation": "'helfen' regiert Dativ; Dativ von niemand → niemandem."
+      }
+    ],
+    "orderIndex": 15
+  },
+  {
+    "id": 16,
+    "level": "B1",
+    "topic": "Verben mit festen Präpositionen",
+    "explanation": "Viele Verben haben eine feste Präposition, die zum Verb gehört — die Präposition bestimmt den Kasus der Ergänzung, unabhängig von der Wo/Wohin-Logik. Diese Verben müssen mit der Präposition gelernt werden. Wichtige Kombinationen: warten auf + Akk., denken an + Akk., glauben an + Akk., antworten auf + Akk., sich erinnern an + Akk., achten auf + Akk., sich interessieren für + Akk., sorgen für + Akk., bitten um + Akk., sprechen über/von + Akk./Dat., erzählen von + Dat., träumen von + Dat., abhängen von + Dat., passen zu + Dat., teilnehmen an + Dat., arbeiten an + Dat., bestehen aus + Dat., gehören zu + Dat. Fragen mit solchen Verben nutzen 'wo(r)+Präposition' (Sachen) oder 'Präposition + Pronomen' (Personen): 'Worauf wartest du?' vs. 'Auf wen wartest du?' Antworten: 'darauf' (Sache) vs. 'auf ihn' (Person).",
+    "examples": [
+      "Ich warte seit einer Stunde auf den Bus.",
+      "Wir denken oft an unsere Großeltern.",
+      "Er bittet mich um einen Gefallen.",
+      "Sie interessiert sich für klassische Musik.",
+      "Worauf wartest du? — Auf den Zug.",
+      "An wen denkst du? — An meine Familie.",
+      "Der Kurs besteht aus drei Teilen.",
+      "Die Entscheidung hängt vom Wetter ab."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Wir warten seit 30 Minuten ___ den Bus.",
+        "correctAnswer": "auf",
+        "explanation": "'warten auf + Akkusativ' — feste Präposition."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Ich erinnere mich gern ___ meine Kindheit.",
+        "correctAnswer": "an",
+        "explanation": "'sich erinnern an + Akkusativ'."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Präposition passt? 'Er träumt ___ einer Karriere als Sänger.'",
+        "correctAnswer": "von",
+        "explanation": "'träumen von + Dativ'."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ denkst du gerade? (Sache erfragen)",
+        "correctAnswer": "Woran",
+        "explanation": "'denken an' + Sache → wor + an = woran."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "correctAnswer": "Der Vertrag besteht aus drei Teilen.",
+        "explanation": "'bestehen aus + Dativ' — drei Teilen (Dat. Pl.)."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Das Ergebnis hängt ___ vielen Faktoren ab.",
+        "correctAnswer": "von",
+        "explanation": "'abhängen von + Dativ' — trennbares Verb mit fester Präposition."
+      }
+    ],
+    "orderIndex": 16
+  },
+  {
+    "id": 17,
+    "level": "B1",
+    "topic": "Nominalisierung und n-Deklination",
+    "explanation": "Nominalisierung macht aus Verben oder Adjektiven Substantive. Zwei häufige Formen: Verb-Infinitiv als Neutrum mit bestimmtem Artikel — 'das Lesen, das Schwimmen, das Essen'. Adjektiv + Endung wird Substantiv — 'der Deutsche, der Kleine, ein Bekannter'. Substantivierte Adjektive werden wie normale Adjektive dekliniert, aber groß geschrieben. Beispiele: 'Ich kenne einen Deutschen.' (Mask. Akk. gemischt). Nominalisierte Verben oft mit Präpositionen: 'beim Lesen, zum Essen, nach dem Schwimmen'. Die n-Deklination betrifft bestimmte maskuline Substantive — meist Lebewesen oder männliche Personen. In allen Kasus außer Nominativ Singular bekommen sie -n oder -en: der Student → den Studenten, dem Studenten, des Studenten. Typische n-Deklination-Wörter: Student, Kollege, Nachbar, Junge, Mensch, Herr (den Herrn — nur -n!), Kunde, Polizist, Präsident, Bauer, Automat, Planet, Name (Sonderfall: mit Genitiv -ns → des Namens).",
+    "examples": [
+      "Das Schwimmen macht mir Spaß.",
+      "Beim Lesen entspanne ich mich.",
+      "Ich kenne den Studenten gut.",
+      "Wir helfen dem Nachbarn.",
+      "Der Name des Kollegen ist Peter.",
+      "Ich grüße den Herrn höflich.",
+      "Eine Bekannte von mir wohnt hier. (nominalisiert)",
+      "Das Wichtigste ist die Gesundheit."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich kenne den ___ (Student) sehr gut.",
+        "correctAnswer": "Studenten",
+        "explanation": "n-Deklination: der Student → den Studenten (Akk.)."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Er spricht mit dem ___ (Nachbar).",
+        "correctAnswer": "Nachbarn",
+        "explanation": "n-Deklination: der Nachbar → dem Nachbarn (Dat.)."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Form ist korrekt? 'Der Name des ___ (Herr).'",
+        "correctAnswer": "Herrn",
+        "explanation": "'Herr' bekommt nur -n (nicht -en): den/dem/des Herrn."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Nach dem ___ (essen) gehen wir spazieren.",
+        "correctAnswer": "Essen",
+        "explanation": "Nominalisierung: das Essen (Infinitiv als Neutrum). Nach 'nach' → Dativ: dem Essen."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "correctAnswer": "Ich habe einen Deutschen getroffen.",
+        "explanation": "Substantiviertes Adjektiv: der Deutsche → einen Deutschen (Mask. Akk. gemischt, groß geschrieben)."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Beim ___ (lernen) höre ich Musik.",
+        "correctAnswer": "Lernen",
+        "explanation": "Nominalisierter Infinitiv: das Lernen. 'bei + Dativ' → beim Lernen."
+      }
+    ],
+    "orderIndex": 17
+  },
+  {
+    "id": 18,
+    "level": "B1",
+    "topic": "Partizip I und Partizip II als Adjektiv",
+    "explanation": "Partizipien können attributiv als Adjektive vor Nomen stehen und werden dann dekliniert. Partizip I (Präsens): Infinitiv + -d. Aktive Bedeutung, Gleichzeitigkeit. 'lachen' → lachend → das lachende Kind (= das Kind, das lacht). 'laufen' → laufend → der laufende Mann. Partizip II: je nach Verb ge-stamm-t/-en. Bei transitiven Verben passive Bedeutung, oft abgeschlossen. 'reparieren' → repariert → das reparierte Auto (= das Auto, das repariert wurde). Bei intransitiven sein-Verben aktive Bedeutung, abgeschlossen: 'ankommen' → angekommen → der angekommene Zug. Als Adjektiv werden beide nach den normalen Adjektivregeln dekliniert: ein lachendes Kind, einem lachenden Kind, des lachenden Kindes. Partizip I nicht als Prädikat im Deutschen benutzen (anders als 'ing' im Englischen). Partizipialkonstruktionen: 'Der im Garten spielende Hund...' ersetzt Relativsätze in formeller Schriftsprache.",
+    "examples": [
+      "Das weinende Kind braucht Trost.",
+      "Der schlafende Hund liegt auf dem Sofa.",
+      "Die reparierte Waschmaschine funktioniert wieder.",
+      "Ich habe das gelesene Buch zurückgebracht.",
+      "Der gerade angekommene Zug ist aus Hamburg.",
+      "Wir suchen einen erfahrenen Mitarbeiter.",
+      "Die verlorenen Schlüssel sind wieder da.",
+      "Ein lächelnder Kellner brachte das Essen."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Das ___ (weinen — Partizip I) Kind hat sich verletzt.",
+        "correctAnswer": "weinende",
+        "explanation": "Partizip I: weinen + d = weinend. Attributiv mit Adjektivendung -e (Neut. Nom. schwach)."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Ich habe die ___ (reparieren — Partizip II) Uhr abgeholt.",
+        "correctAnswer": "reparierte",
+        "explanation": "Partizip II passiv: repariert + -e (Fem. Akk. schwach, nach 'die')."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz verwendet Partizip I korrekt?",
+        "correctAnswer": "Der bellende Hund stört die Nachbarn.",
+        "explanation": "Partizip I 'bellend' (= der bellt, aktiv, gleichzeitig) + Adjektivendung -e."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Der gerade ___ (ankommen — Partizip II) Zug ist voll.",
+        "correctAnswer": "angekommene",
+        "explanation": "Partizip II von 'ankommen': angekommen. Sein-Verb → aktive Bedeutung, abgeschlossen."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Unterschied besteht zwischen Partizip I und Partizip II?",
+        "correctAnswer": "Partizip I ist aktiv/gleichzeitig, Partizip II oft passiv/abgeschlossen.",
+        "explanation": "Partizip I: 'das lesende Kind' = das Kind liest (aktiv, jetzt). Partizip II: 'das gelesene Buch' = das Buch wurde gelesen (passiv, abgeschlossen)."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Wir brauchen einen ___ (erfahren — Partizip II) Lehrer.",
+        "correctAnswer": "erfahrenen",
+        "explanation": "erfahren (Partizip II) + -en (Mask. Akk. gemischt nach 'einen')."
+      }
+    ],
+    "orderIndex": 18
+  },
+  {
+    "id": 19,
+    "level": "B1",
+    "topic": "Trennbare und untrennbare Verben",
+    "explanation": "Viele deutsche Verben haben Vorsilben, die das Verb in der Bedeutung ändern. Die Regel: Betonte Vorsilben sind trennbar, unbetonte sind untrennbar. Trennbare Vorsilben (betont): an-, auf-, aus-, ein-, mit-, nach-, vor-, zu-, ab-, bei-, her-, hin-, los-, weg-, zurück-. Im Hauptsatz trennen sie sich und gehen ans Satzende: 'Ich rufe dich an.' Partizip II mit ge-: an-ge-rufen. Untrennbare Vorsilben (unbetont): be-, emp-, ent-, er-, ge-, ver-, zer-, miss-. Sie bleiben immer am Verb: 'Ich verstehe dich.' Partizip II ohne ge-: verstanden, bekommen, erzählt. Zwei-fache Vorsilben (durch-, über-, um-, unter-, wider-, wieder-): können trennbar oder untrennbar sein — je nach Bedeutung. 'übersetzen' trennbar (= rüberbringen: Ich setze über.) vs. untrennbar (= translate: Ich übersetze den Text.). Merken: Bedeutungsunterschied oft wörtlich (trennbar) vs. übertragen (untrennbar).",
+    "examples": [
+      "Der Zug kommt um 8 Uhr an. (trennbar)",
+      "Ich verstehe die Frage nicht. (untrennbar)",
+      "Wir sind gestern angekommen.",
+      "Sie hat das Buch erhalten. (untrennbar, kein ge-)",
+      "Hat er dich angerufen?",
+      "Ich habe alles bekommen. (untrennbar)",
+      "Kannst du das Wort übersetzen? (untrennbar = translate)",
+      "Der Fährmann setzt uns über. (trennbar = to ferry across)"
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich ___ dich heute Abend ___ (anrufen).",
+        "correctAnswer": "rufe an",
+        "explanation": "'anrufen' ist trennbar (betonte Vorsilbe 'an'). Im Hauptsatz: 'rufe' + Präfix 'an' ans Ende."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Er ___ die Erklärung gut. (verstehen)",
+        "correctAnswer": "versteht",
+        "explanation": "'verstehen' ist untrennbar (unbetontes 'ver-'). Verb bleibt ganz zusammen."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welches Partizip II ist korrekt?",
+        "correctAnswer": "angekommen",
+        "explanation": "Trennbare Verben: Präfix + ge + Stamm → an-ge-kommen. Untrennbare: kein ge- → bekommen, verstanden."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Sie hat das Paket ___ (bekommen — Perfekt).",
+        "correctAnswer": "bekommen",
+        "explanation": "'bekommen' ist untrennbar, Partizip II ohne ge-: bekommen."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "correctAnswer": "Der Übersetzer übersetzt den Vertrag.",
+        "explanation": "'übersetzen' (= translate) ist hier untrennbar; 'übersetzt' bleibt zusammen. Trennbar wäre 'setzt über' = rüberbringen."
+      },
+      {
+        "type": "reorder",
+        "prompt": "gestern / Wir / die / eingekauft / im / Supermarkt / Lebensmittel / haben",
+        "correctAnswer": "Wir haben gestern die Lebensmittel im Supermarkt eingekauft.",
+        "explanation": "Trennbares Verb 'einkaufen' im Perfekt: Partizip II 'eingekauft' (mit ge- zwischen Präfix und Stamm) am Ende."
+      }
+    ],
+    "orderIndex": 19
+  },
+  {
+    "id": 20,
+    "level": "B1",
+    "topic": "Je...desto und andere Vergleichskonstruktionen",
+    "explanation": "'Je...desto' (seltener 'je...umso') drückt aus, dass zwei Größen proportional zusammenhängen. Struktur: 'Je + Komparativ + Subjekt + ... + Verb, desto + Komparativ + Verb + Subjekt + ...' Der je-Teil ist ein Nebensatz (Verb am Ende); der desto-Teil ist ein Hauptsatz mit Inversion (Verb an zweiter Stelle, nach dem Komparativ). Beispiel: 'Je mehr ich lerne, desto besser verstehe ich.' Andere Vergleichskonstruktionen: 'nicht so ... wie' (Ungleichheit), 'genau so ... wie' (Gleichheit), 'als ob / als wenn' (irrealer Vergleich, mit Konjunktiv II): 'Er tut so, als ob er schlafen würde.' 'Anstatt dass' + Verbendstellung als Nebensatz (Alternative): 'Anstatt dass er lernt, spielt er Computerspiele.' Gleichwertig mit 'anstatt zu + Infinitiv' (bei gleichem Subjekt). 'Ohne dass' + Verbendstellung — Ereignis ohne erwartete Begleitung: 'Er ging, ohne dass ich es merkte.'",
+    "examples": [
+      "Je mehr ich esse, desto dicker werde ich.",
+      "Je älter man wird, desto weiser wird man.",
+      "Je schneller du läufst, desto früher kommst du an.",
+      "Er spricht Deutsch, als ob er hier aufgewachsen wäre.",
+      "Anstatt zu schlafen, schaut er fern.",
+      "Anstatt dass er lernt, spielt er Computerspiele.",
+      "Sie ging, ohne dass ich etwas bemerkte.",
+      "Je länger ich warte, desto nervöser werde ich."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Je mehr ich lerne, ___ besser verstehe ich.",
+        "correctAnswer": "desto",
+        "explanation": "'Je...desto' — fester Konstruktionsteil nach dem je-Nebensatz."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Je ___ (alt — Komparativ) man wird, desto ___ (weise — Komparativ) wird man.",
+        "correctAnswer": "älter, weiser",
+        "explanation": "In 'je...desto' stehen beide Adjektive im Komparativ."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz verwendet 'als ob' korrekt?",
+        "correctAnswer": "Er tut so, als ob er krank wäre.",
+        "explanation": "'als ob' + Konjunktiv II (wäre) für irrealen Vergleich; Verb am Ende des Nebensatzes."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ zu lernen, spielt er den ganzen Tag Fußball. (= statt zu)",
+        "correctAnswer": "Anstatt",
+        "explanation": "'anstatt zu + Infinitiv' bei gleichem Subjekt. Alternative: 'anstatt dass er lernt...'."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist grammatisch korrekt?",
+        "correctAnswer": "Je schneller er fährt, desto gefährlicher wird es.",
+        "explanation": "'Je + Komparativ + Nebensatz (Verb am Ende), desto + Komparativ + Hauptsatz-Inversion.'"
+      },
+      {
+        "type": "reorder",
+        "prompt": "desto / ich / trainiere / je / werde / mehr / fitter / ich",
+        "correctAnswer": "Je mehr ich trainiere, desto fitter werde ich.",
+        "explanation": "Je-Nebensatz zuerst (Verb 'trainiere' am Ende), desto-Hauptsatz mit Inversion (Verb 'werde' nach 'fitter')."
+      }
+    ],
+    "orderIndex": 20
+  }
+]
