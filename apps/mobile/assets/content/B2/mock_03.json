@@ -1,13 +1,938 @@
 {
   "id": "B2_mock_03",
   "level": "B2",
-  "title": "Übungstest 3",
-  "version": 0,
-  "_stub": true,
+  "title": "B2 Übungstest 3: Gesundheit & Medizin",
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Nachrichtenmeldungen aus dem Gesundheitsbereich. Entscheiden Sie bei jeder Aussage: richtig oder falsch? Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short news bulletins from the health sector. For each statement decide: correct or incorrect? You will hear each text only once.",
+          "audioFile": "assets/audio/B2/mock03/listening_part1.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m03_L1_q1",
+              "type": "true_false",
+              "questionText": "Laut dem Robert-Koch-Institut ist die Grippewelle in Deutschland in dieser Saison besonders früh ausgebrochen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Sprecherin nennt wörtlich: 'Nach Einschätzung des Robert-Koch-Instituts hat die diesjährige Grippewelle deutlich früher als üblich eingesetzt – bereits Mitte Oktober wurden die ersten bundesweiten Ausbrüche registriert.' 'früher als üblich eingesetzt' bestätigt die Aussage. B2-Falle: Der Prompt benutzt 'ausgebrochen', das Audio 'eingesetzt' – semantische Äquivalenz über Paraphrase, typischer B2-Distraktor-Test.",
+              "audioTimestamp": 14
+            },
+            {
+              "id": "B2_m03_L1_q2",
+              "type": "true_false",
+              "questionText": "Der Bundesgesundheitsminister hat angekündigt, dass die gesetzlichen Krankenkassen ab 2027 die Kosten für alle Präventionskurse vollständig übernehmen werden.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Nachricht formuliert: 'Der Bundesgesundheitsminister hat angekündigt, dass künftig bis zu 80 Prozent der Kosten für zertifizierte Präventionskurse von den gesetzlichen Krankenkassen übernommen werden sollen.' '80 Prozent' widerspricht 'vollständig'. B2-Trap: Das Stichwort 'Präventionskurse' stimmt, aber die Quantifizierung ist falsch. Wer nur auf Schlüsselwörter scannt, übersieht den Unterschied.",
+              "audioTimestamp": 52
+            },
+            {
+              "id": "B2_m03_L1_q3",
+              "type": "true_false",
+              "questionText": "Eine neue Studie zeigt, dass sich psychische Erkrankungen am Arbeitsplatz innerhalb von zehn Jahren fast verdoppelt haben.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Meldung sagt: 'Laut einer heute veröffentlichten Untersuchung der Techniker Krankenkasse haben sich die Krankschreibungen aufgrund psychischer Diagnosen in den letzten zehn Jahren nahezu verdoppelt.' 'nahezu verdoppelt' = fast verdoppelt. Die Zeitangabe 'zehn Jahre' und die Verdoppelung werden beide bestätigt. Grammatik-Hinweis: 'sich verdoppeln' ist reflexives Vorgangsverb.",
+              "audioTimestamp": 88
+            },
+            {
+              "id": "B2_m03_L1_q4",
+              "type": "true_false",
+              "questionText": "Die Deutsche Gesellschaft für Ernährung empfiehlt, den Konsum von rotem Fleisch vollständig einzustellen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Im Audio heißt es: 'Die Deutsche Gesellschaft für Ernährung rät in ihrer überarbeiteten Empfehlung dazu, den Verzehr von rotem Fleisch auf höchstens 300 Gramm pro Woche zu beschränken – ein vollständiger Verzicht wird hingegen nicht gefordert.' Die explizite Negation 'ein vollständiger Verzicht wird hingegen nicht gefordert' macht die Aussage falsch. B2-Falle: Begrenzung ≠ Einstellung; 'hingegen' markiert den Kontrast.",
+              "audioTimestamp": 121
+            },
+            {
+              "id": "B2_m03_L1_q5",
+              "type": "true_false",
+              "questionText": "Das Bundesministerium für Gesundheit plant, die elektronische Patientenakte ab kommendem Jahr für alle Versicherten verpflichtend einzuführen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Text stellt klar: 'Ab Januar 2027 wird die elektronische Patientenakte für alle gesetzlich Versicherten automatisch eingerichtet – wer sie nicht nutzen möchte, muss aktiv widersprechen.' Das ist das sogenannte Opt-out-Verfahren, nicht eine Nutzungspflicht. B2-Trap: 'automatisch eingerichtet' klingt wie 'verpflichtend', aber der Satz 'wer sie nicht nutzen möchte, muss aktiv widersprechen' zeigt, dass ein Widerspruchsrecht besteht.",
+              "audioTimestamp": 158
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören ein Interview zum Thema psychische Gesundheit am Arbeitsplatz. Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind. Sie hören das Interview nur einmal.",
+          "instructionsTranslation": "You will hear an interview about mental health in the workplace. Decide whether the following ten statements are correct or incorrect. You will hear the interview only once.",
+          "audioFile": "assets/audio/B2/mock03/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m03_L2_q1",
+              "type": "true_false",
+              "questionText": "Dr. Lorenz arbeitet als Psychotherapeut am Universitätsklinikum Heidelberg.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Moderator stellt vor: 'Mein heutiger Gast ist Dr. Clemens Lorenz, Facharzt für Arbeitsmedizin und Leiter der Abteilung für betriebliche Gesundheitsförderung an der Charité in Berlin.' Nicht Heidelberg (Psychotherapeut), sondern Berlin (Arbeitsmediziner). B2-Trap: Hochschulklinik wird genannt, aber Ort und Fach sind vertauscht – typische Name-Ort-Falle.",
+              "audioTimestamp": 18
+            },
+            {
+              "id": "B2_m03_L2_q2",
+              "type": "true_false",
+              "questionText": "Laut Dr. Lorenz ist Stress am Arbeitsplatz grundsätzlich schädlich und sollte vollständig vermieden werden.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Lorenz differenziert: 'Stress ist per se nichts Krankhaftes – wir brauchen eine gewisse Anspannung, um leistungsfähig zu sein. Problematisch wird es erst, wenn Erholungsphasen ausbleiben und chronischer Dauerstress entsteht.' 'per se nichts Krankhaftes' = nicht grundsätzlich schädlich. B2-Hedging-Falle: Wer 'Stress' + 'problematisch' hört, denkt an Zustimmung, aber die Position ist differenziert.",
+              "audioTimestamp": 52
+            },
+            {
+              "id": "B2_m03_L2_q3",
+              "type": "true_false",
+              "questionText": "Dr. Lorenz weist darauf hin, dass die Zahl der Burnout-Diagnosen in den letzten Jahren stark zugenommen hat.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Experte sagt: 'Was uns Sorgen bereitet, ist der massive Anstieg der Burnout-Diagnosen in den vergangenen sieben Jahren – mit knapp vierzig Prozent Zuwachs gehört Deutschland hier zur europäischen Spitzengruppe.' Der Anstieg ('massiver Anstieg', '40 % Zuwachs') bestätigt die Aussage.",
+              "audioTimestamp": 95
+            },
+            {
+              "id": "B2_m03_L2_q4",
+              "type": "true_false",
+              "questionText": "Der Moderator behauptet, dass ausschließlich jüngere Beschäftigte unter 30 von Burnout betroffen seien.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Lorenz widerspricht genau dieser Annahme: 'Ein weit verbreitetes Vorurteil ist, dass Burnout vor allem Jüngere trifft – unsere Daten zeigen das Gegenteil: Am häufigsten betroffen sind Beschäftigte zwischen fünfundvierzig und fünfundfünfzig Jahren.' 'weit verbreitetes Vorurteil' signalisiert, dass die folgende Aussage eine falsche Meinung ist, die der Experte korrigiert. B2-Hedging-Falle: Man muss erkennen, dass 'Vorurteil' die Behauptung entwertet.",
+              "audioTimestamp": 132
+            },
+            {
+              "id": "B2_m03_L2_q5",
+              "type": "true_false",
+              "questionText": "Dr. Lorenz sieht in der ständigen Erreichbarkeit außerhalb der Arbeitszeit einen der wichtigsten Risikofaktoren.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Experte erklärt: 'Zu den zentralen Belastungsfaktoren gehört unbestritten die permanente Erreichbarkeit – wer auch abends und am Wochenende auf E-Mails reagiert, findet schlicht nicht mehr in die Regeneration.' 'unbestritten' und 'zentrale Belastungsfaktoren' bestätigen die Aussage klar.",
+              "audioTimestamp": 172
+            },
+            {
+              "id": "B2_m03_L2_q6",
+              "type": "true_false",
+              "questionText": "Die Expertenmeinung lautet, dass Sportangebote der Arbeitgeber das einzige wirksame Mittel gegen psychische Belastung sind.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Lorenz sagt: 'Firmensport kann ein Baustein sein, aber allein reicht er bei Weitem nicht. Entscheidend ist eine Kombination aus klaren Regeln zur Arbeitszeit, qualifizierter Führung und niedrigschwelligen Beratungsangeboten.' Er relativiert ('ein Baustein', 'allein reicht bei Weitem nicht') und nennt mehrere Faktoren. 'einzige wirksame Mittel' widerspricht seiner differenzierten Position.",
+              "audioTimestamp": 210
+            },
+            {
+              "id": "B2_m03_L2_q7",
+              "type": "true_false",
+              "questionText": "Dr. Lorenz empfiehlt Unternehmen, verpflichtende Pausenzeiten für alle Beschäftigten in Betriebsvereinbarungen festzuhalten.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Experte fordert konkret: 'Wir raten Unternehmen dringend, verbindliche Ruhe- und Pausenzeiten in den Betriebsvereinbarungen zu verankern – insbesondere eine klare Grenze zwischen Dienst und Feierabend.' 'verbindliche Ruhezeiten verankern' entspricht 'verpflichtende Pausenzeiten festhalten'. Die Empfehlung ist eindeutig.",
+              "audioTimestamp": 248
+            },
+            {
+              "id": "B2_m03_L2_q8",
+              "type": "true_false",
+              "questionText": "Laut Dr. Lorenz nehmen Männer betriebliche Beratungsangebote zu psychischen Problemen häufiger in Anspruch als Frauen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Experte stellt fest: 'Leider beobachten wir nach wie vor, dass Männer deutlich zurückhaltender sind, Beratungsangebote wahrzunehmen – Frauen suchen sich im Schnitt früher und öfter Unterstützung.' Männer sind also 'zurückhaltender', Frauen nehmen die Angebote häufiger in Anspruch – genau das Gegenteil der Behauptung. B2-Trap: 'häufiger' im Prompt verdreht die Aussage 'deutlich zurückhaltender'.",
+              "audioTimestamp": 285
+            },
+            {
+              "id": "B2_m03_L2_q9",
+              "type": "true_false",
+              "questionText": "Dr. Lorenz findet das neue Gesetz zur psychischen Gefährdungsbeurteilung am Arbeitsplatz grundsätzlich begrüßenswert, aber noch unvollständig.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Experte bewertet: 'Die gesetzliche Verpflichtung zur psychischen Gefährdungsbeurteilung ist grundsätzlich ein Schritt in die richtige Richtung, allerdings fehlen bislang klare Sanktionen, wenn Betriebe die Beurteilung gar nicht oder nur oberflächlich durchführen.' 'Schritt in die richtige Richtung' = begrüßenswert; 'allerdings fehlen Sanktionen' = noch unvollständig. B2-Trap: Kritik am Detail bedeutet nicht Ablehnung.",
+              "audioTimestamp": 320
+            },
+            {
+              "id": "B2_m03_L2_q10",
+              "type": "true_false",
+              "questionText": "Am Ende des Interviews wird ein kostenloses Webinar zur betrieblichen Gesundheitsförderung angekündigt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Moderator verabschiedet sich mit: 'Vielen Dank, Herr Dr. Lorenz. Mehr zu diesem Thema finden Sie in unserem ausführlichen Online-Artikel auf unserer Webseite.' Ein Webinar wird nicht erwähnt, nur ein Online-Artikel. B2-Trap: Die Erwartung einer abschließenden Veranstaltungsankündigung wird enttäuscht – ähnliche Struktur wie Mock 01, aber anderes Thema.",
+              "audioTimestamp": 358
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Ansagen oder Nachrichten aus dem Gesundheitsalltag. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short announcements or messages from healthcare daily life. What is correct? Choose a, b, or c. You will hear each text only once.",
+          "audioFile": "assets/audio/B2/mock03/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m03_L3_q1",
+              "type": "mcq",
+              "questionText": "Warum ruft Frau Hoffmann in der Arztpraxis an?",
+              "options": [
+                "a) Sie möchte einen Kontrolltermin für die nächste Woche vereinbaren.",
+                "b) Sie bittet darum, ihr Rezept elektronisch an die Apotheke zu senden.",
+                "c) Sie sagt den heutigen Termin wegen einer Erkältung ab."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Frau Hoffmann sagt auf der Mailbox: 'Könnten Sie bitte mein Blutdruckrezept direkt als E-Rezept an die Sonnenapotheke in der Gartenstraße übermitteln? Dann spare ich mir den Weg in die Praxis.' Sie bittet also um elektronische Übermittlung des Rezepts. Distraktor a) nennt 'Termin', das Wort kommt im Audio nicht vor. Distraktor c) verdreht die Situation (keine Erkältung, keine Absage).",
+              "audioTimestamp": 18
+            },
+            {
+              "id": "B2_m03_L3_q2",
+              "type": "mcq",
+              "questionText": "Was teilt die Krankenhausverwaltung den Besucherinnen und Besuchern mit?",
+              "options": [
+                "a) Die Cafeteria im Erdgeschoss bleibt wegen Renovierung bis Juni geschlossen.",
+                "b) Ab sofort gelten neue, erweiterte Besuchszeiten auf der Intensivstation.",
+                "c) Die Anmeldung erfolgt nur noch über das digitale Patientenportal."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Ansage informiert: 'Wir weisen unsere Patientinnen, Patienten und Besucher darauf hin, dass unsere Cafeteria im Erdgeschoss ab Montag wegen umfassender Renovierungsarbeiten bis voraussichtlich Anfang Juni geschlossen bleibt. Eine Ausweichcafeteria steht im Gartenflügel zur Verfügung.' Renovierung und Zeitraum werden wörtlich genannt. Distraktoren b) und c) werden im Audio nicht erwähnt.",
+              "audioTimestamp": 58
+            },
+            {
+              "id": "B2_m03_L3_q3",
+              "type": "mcq",
+              "questionText": "Was empfiehlt die Ernährungsberaterin der Anruferin?",
+              "options": [
+                "a) sofort eine strenge Diät ohne Kohlenhydrate zu beginnen",
+                "b) zunächst ein Ernährungstagebuch über zwei Wochen zu führen",
+                "c) regelmäßig Nahrungsergänzungsmittel einzunehmen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Beraterin sagt: 'Bevor wir über Diäten oder Nahrungsergänzungsmittel nachdenken, würde ich Ihnen dringend empfehlen, zunächst über zwei Wochen ein detailliertes Ernährungstagebuch zu führen.' Sie empfiehlt explizit das Tagebuch als ersten Schritt und schiebt Diäten/Ergänzungsmittel ausdrücklich auf einen späteren Zeitpunkt. Distraktoren a) und c) nennen genau die Dinge, die vertagt werden.",
+              "audioTimestamp": 108
+            },
+            {
+              "id": "B2_m03_L3_q4",
+              "type": "mcq",
+              "questionText": "Was ist das Hauptanliegen der Voicemail vom Physiotherapeuten?",
+              "options": [
+                "a) Er bestätigt einen bereits vereinbarten ersten Behandlungstermin.",
+                "b) Er informiert über eine kurzfristige Terminabsage wegen Krankheit.",
+                "c) Er fordert die Patientin auf, vor dem Termin eine Überweisung zu bringen."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Therapeut sagt deutlich: 'Bitte denken Sie daran, die aktuelle Verordnung Ihres Hausarztes mitzubringen. Ohne eine gültige Überweisung mit Diagnose können wir die Behandlung kassenseitig leider nicht abrechnen.' Die Aufforderung zur Mitnahme der Überweisung ist zentral. Distraktoren a) und b) passen nicht – der Termin steht, niemand ist krank.",
+              "audioTimestamp": 150
+            },
+            {
+              "id": "B2_m03_L3_q5",
+              "type": "mcq",
+              "questionText": "Worüber informiert die Ansage im Gesundheitszentrum?",
+              "options": [
+                "a) Der Grippeschutzimpftag findet wegen hoher Nachfrage in einem größeren Raum statt.",
+                "b) Die Laborergebnisse werden nur noch persönlich und nicht mehr telefonisch mitgeteilt.",
+                "c) Das Gesundheitszentrum öffnet ab nächster Woche eine Stunde früher am Morgen."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Ansage sagt: 'Aufgrund der großen Nachfrage verlegen wir unseren heutigen Grippeschutzimpftag kurzfristig vom Beratungsraum zwei in den größeren Konferenzsaal im ersten Obergeschoss.' Der Grund (hohe Nachfrage) und die Raumverlegung werden genannt. Distraktoren b) und c) werden nicht erwähnt; insbesondere wird keine telefonische Befundauskunft abgesagt.",
+              "audioTimestamp": 195
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 90,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie zuerst die fünf Kurztexte (1–5) und dann die zehn Überschriften (a–j). Welche Überschrift passt am besten zu welchem Text? Für jeden Text gibt es genau eine passende Überschrift. Fünf Überschriften bleiben übrig.",
+          "instructionsTranslation": "First read the five short texts (1–5) and then the ten headlines (a–j). Which headline best matches which text? For each text there is exactly one matching headline. Five headlines remain unused.",
+          "texts": [
+            { "id": "B2_m03_R1_head_a", "type": "notice", "content": "a) Impfmüdigkeit unter Jugendlichen – Ärzteverband warnt vor Folgelücken" },
+            { "id": "B2_m03_R1_head_b", "type": "notice", "content": "b) Neue Studie: Mediterrane Ernährung senkt Herzinfarktrisiko deutlich" },
+            { "id": "B2_m03_R1_head_c", "type": "notice", "content": "c) Pflegenotstand: Krankenhäuser schließen ganze Stationen" },
+            { "id": "B2_m03_R1_head_d", "type": "notice", "content": "d) Gesundheits-Apps auf Rezept – Kassen übernehmen hundertste DiGA" },
+            { "id": "B2_m03_R1_head_e", "type": "notice", "content": "e) Zuckersteuer kommt: Softdrinks werden ab Januar teurer" },
+            { "id": "B2_m03_R1_head_f", "type": "notice", "content": "f) Landärztemangel: Gemeinden locken mit Stipendien und Praxen" },
+            { "id": "B2_m03_R1_head_g", "type": "notice", "content": "g) Einsamkeit als Gesundheitsrisiko – Studie vergleicht mit Rauchen" },
+            { "id": "B2_m03_R1_head_h", "type": "notice", "content": "h) Bewegung auf Rezept – Hausärzte verordnen Sport statt Tabletten" },
+            { "id": "B2_m03_R1_head_i", "type": "notice", "content": "i) Schlafmangel macht Deutschland krank – Experten fordern spätere Schulzeiten" },
+            { "id": "B2_m03_R1_head_j", "type": "notice", "content": "j) Organspende-Reform: Opt-out-Modell weiter umstritten" }
+          ],
+          "questions": [
+            {
+              "id": "B2_m03_R1_q1",
+              "type": "matching",
+              "questionText": "Text 1: Eine umfassende Langzeitstudie der Universität Freiburg hat über acht Jahre hinweg mehr als zwölftausend Teilnehmerinnen und Teilnehmer begleitet, die sich überwiegend nach südeuropäischen Ernährungsmustern richteten. Das Ergebnis ist eindeutig: Das Risiko, einen Herzinfarkt zu erleiden, sank in dieser Gruppe im Vergleich zur Kontrollgruppe um knapp dreißig Prozent. Besonders stark fiel der Effekt bei Personen aus, die regelmäßig Fisch, Olivenöl, Hülsenfrüchte und frisches Gemüse konsumierten. Die Autoren betonen, dass weder eine strenge Diät noch ein vollständiger Verzicht auf Fleisch notwendig sei – entscheidend sei die Gesamtkomposition der Ernährung über viele Jahre hinweg.",
+              "matchingSources": [
+                { "id": "B2_m03_R1_head_a", "label": "a" },
+                { "id": "B2_m03_R1_head_b", "label": "b" },
+                { "id": "B2_m03_R1_head_c", "label": "c" },
+                { "id": "B2_m03_R1_head_d", "label": "d" },
+                { "id": "B2_m03_R1_head_e", "label": "e" },
+                { "id": "B2_m03_R1_head_f", "label": "f" },
+                { "id": "B2_m03_R1_head_g", "label": "g" },
+                { "id": "B2_m03_R1_head_h", "label": "h" },
+                { "id": "B2_m03_R1_head_i", "label": "i" },
+                { "id": "B2_m03_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text beschreibt eine Langzeitstudie zur mediterranen Ernährung und deren Wirkung auf das Herzinfarktrisiko (knapp 30 % weniger). Das entspricht exakt Überschrift b) 'Mediterrane Ernährung senkt Herzinfarktrisiko deutlich'. Distraktor e) (Zuckersteuer) passt nicht – Softdrinks/Steuer werden nicht erwähnt. Der Fokus liegt auf Ernährungsmustern, nicht auf fiskalischen Maßnahmen."
+            },
+            {
+              "id": "B2_m03_R1_q2",
+              "type": "matching",
+              "questionText": "Text 2: In mehreren ländlichen Regionen Mecklenburg-Vorpommerns und Brandenburgs werden junge Medizinerinnen und Mediziner inzwischen gezielt mit finanziellen Anreizen umworben, um die Nachfolge alt werdender Landärzte zu sichern. Gemeinden vergeben monatliche Stipendien von bis zu tausend Euro während des Studiums, verpflichten die Stipendiaten aber zugleich, nach Abschluss mindestens fünf Jahre vor Ort zu praktizieren. Mancherorts werden zusätzlich voll ausgestattete Praxisräume zu günstigen Konditionen überlassen. Ärztekammern begrüßen die Initiativen, warnen aber, dass einzelne Kommunen die Lücken der Bundespolitik allein nicht schließen könnten.",
+              "matchingSources": [
+                { "id": "B2_m03_R1_head_a", "label": "a" },
+                { "id": "B2_m03_R1_head_b", "label": "b" },
+                { "id": "B2_m03_R1_head_c", "label": "c" },
+                { "id": "B2_m03_R1_head_d", "label": "d" },
+                { "id": "B2_m03_R1_head_e", "label": "e" },
+                { "id": "B2_m03_R1_head_f", "label": "f" },
+                { "id": "B2_m03_R1_head_g", "label": "g" },
+                { "id": "B2_m03_R1_head_h", "label": "h" },
+                { "id": "B2_m03_R1_head_i", "label": "i" },
+                { "id": "B2_m03_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Der Text beschreibt genau Stipendien und günstige Praxisräume als Lockmittel gegen den Landärztemangel – deckungsgleich mit Überschrift f) 'Landärztemangel: Gemeinden locken mit Stipendien und Praxen'. Distraktor c) (Pflegenotstand / Stationsschließungen) behandelt zwar ebenfalls Personalmangel, aber Pflegepersonal im Krankenhaus, nicht Ärzte auf dem Land."
+            },
+            {
+              "id": "B2_m03_R1_q3",
+              "type": "matching",
+              "questionText": "Text 3: Mit der jüngsten Freigabe des Bundesinstituts für Arzneimittel und Medizinprodukte hat es die hundertste digitale Gesundheitsanwendung auf den Verordnungsweg geschafft. Gesetzlich Versicherte können damit von ihrem Hausarzt eine App gegen chronische Rückenschmerzen, Tinnitus, Schlafstörungen oder auch depressive Episoden verschrieben bekommen; die Krankenkasse trägt die Kosten in voller Höhe. Die Bundesregierung wertet den Meilenstein als Erfolg ihrer Digitalstrategie, während Fachgesellschaften weiterhin fordern, den Nachweis des tatsächlichen medizinischen Nutzens deutlich strenger zu prüfen, bevor weitere Anwendungen in den Katalog aufgenommen werden.",
+              "matchingSources": [
+                { "id": "B2_m03_R1_head_a", "label": "a" },
+                { "id": "B2_m03_R1_head_b", "label": "b" },
+                { "id": "B2_m03_R1_head_c", "label": "c" },
+                { "id": "B2_m03_R1_head_d", "label": "d" },
+                { "id": "B2_m03_R1_head_e", "label": "e" },
+                { "id": "B2_m03_R1_head_f", "label": "f" },
+                { "id": "B2_m03_R1_head_g", "label": "g" },
+                { "id": "B2_m03_R1_head_h", "label": "h" },
+                { "id": "B2_m03_R1_head_i", "label": "i" },
+                { "id": "B2_m03_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Der Text behandelt die hundertste digitale Gesundheitsanwendung (DiGA), die auf Rezept verschreibungsfähig ist und von der Krankenkasse bezahlt wird. Das entspricht exakt Überschrift d) 'Gesundheits-Apps auf Rezept – Kassen übernehmen hundertste DiGA'. Distraktor h) (Bewegung auf Rezept) klingt thematisch verwandt – 'auf Rezept' kommt auch vor –, betrifft aber Sport, nicht digitale Anwendungen."
+            },
+            {
+              "id": "B2_m03_R1_q4",
+              "type": "matching",
+              "questionText": "Text 4: Immer mehr Kliniken in Nordrhein-Westfalen sehen sich gezwungen, einzelne Stationen zeitweise oder dauerhaft zu schließen, weil schlicht kein Pflegepersonal mehr zur Verfügung steht. Die Deutsche Krankenhausgesellschaft meldet für das laufende Jahr bereits über achtzig dokumentierte Stationsschließungen allein in Westdeutschland. Betroffen sind vor allem Innere Medizin und Geriatrie. Gewerkschaften machen unzureichende Bezahlung, hohe Arbeitsbelastung und den anhaltenden Schichtdienst verantwortlich. Bundesweit fehlen nach aktuellen Schätzungen bis 2030 mehr als hundertachtzigtausend Pflegekräfte.",
+              "matchingSources": [
+                { "id": "B2_m03_R1_head_a", "label": "a" },
+                { "id": "B2_m03_R1_head_b", "label": "b" },
+                { "id": "B2_m03_R1_head_c", "label": "c" },
+                { "id": "B2_m03_R1_head_d", "label": "d" },
+                { "id": "B2_m03_R1_head_e", "label": "e" },
+                { "id": "B2_m03_R1_head_f", "label": "f" },
+                { "id": "B2_m03_R1_head_g", "label": "g" },
+                { "id": "B2_m03_R1_head_h", "label": "h" },
+                { "id": "B2_m03_R1_head_i", "label": "i" },
+                { "id": "B2_m03_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text beschreibt Stationsschließungen in Krankenhäusern wegen Pflegepersonalmangels – deckungsgleich mit Überschrift c) 'Pflegenotstand: Krankenhäuser schließen ganze Stationen'. Distraktor f) (Landärztemangel) betrifft Ärzte, nicht Pflegekräfte, und den ambulanten, nicht stationären Bereich."
+            },
+            {
+              "id": "B2_m03_R1_q5",
+              "type": "matching",
+              "questionText": "Text 5: Eine aufsehenerregende Metaanalyse britischer und deutscher Forscher legt nahe, dass chronische Einsamkeit die Lebenserwartung ähnlich stark verkürzt wie regelmäßiger Zigarettenkonsum. Die Autorinnen werteten Daten von über dreihunderttausend Menschen weltweit aus und kamen zu dem Schluss, dass anhaltende soziale Isolation das Risiko für Herz-Kreislauf-Erkrankungen, Demenz und Depression dramatisch erhöht. Besonders gefährdet seien ältere Alleinlebende, aber auch jüngere Erwachsene mit wenigen engen Kontakten. Die Forscherinnen fordern, Einsamkeit künftig auf Augenhöhe mit klassischen Gesundheitsrisiken wie Rauchen oder Bluthochdruck zu behandeln.",
+              "matchingSources": [
+                { "id": "B2_m03_R1_head_a", "label": "a" },
+                { "id": "B2_m03_R1_head_b", "label": "b" },
+                { "id": "B2_m03_R1_head_c", "label": "c" },
+                { "id": "B2_m03_R1_head_d", "label": "d" },
+                { "id": "B2_m03_R1_head_e", "label": "e" },
+                { "id": "B2_m03_R1_head_f", "label": "f" },
+                { "id": "B2_m03_R1_head_g", "label": "g" },
+                { "id": "B2_m03_R1_head_h", "label": "h" },
+                { "id": "B2_m03_R1_head_i", "label": "i" },
+                { "id": "B2_m03_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Der Text beschreibt genau den Vergleich von chronischer Einsamkeit mit Rauchen als Gesundheitsrisiko – deckungsgleich mit Überschrift g) 'Einsamkeit als Gesundheitsrisiko – Studie vergleicht mit Rauchen'. Die verbleibenden Distraktoren a, e, h, i, j beziehen sich auf andere Themenbereiche (Impfen, Zuckersteuer, Sport auf Rezept, Schlaf, Organspende) und werden im Text nicht behandelt."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Zeitungsartikel. Wählen Sie bei jeder Aufgabe die beste Antwort (a, b oder c) aufgrund der Informationen im Text.",
+          "instructionsTranslation": "Read the following newspaper article. For each task choose the best answer (a, b, or c) based on the information in the text.",
+          "texts": [
+            {
+              "id": "B2_m03_R2_article",
+              "type": "article",
+              "content": "Zwischen Vorsorge und Bevormundung – wie weit darf Prävention gehen?\n\nFünf Jahre nach Einführung der erweiterten Präventionspauschale lässt sich in Deutschland eine Verschiebung erkennen, die das Verhältnis zwischen Gesundheitssystem und Bürgerinnen und Bürgern nachhaltig verändert. Waren frühere Gesundheitsreformen vor allem auf die Behandlung bereits bestehender Krankheiten ausgerichtet, stehen heute Früherkennung, Lebensstilberatung und digitale Risikoanalysen im Mittelpunkt. Gut jeder dritte gesetzlich Versicherte nimmt inzwischen mindestens eine präventive Leistung pro Jahr in Anspruch; bei Berufstätigen in Wissensberufen sind es deutlich mehr. Gleichzeitig mehren sich die Stimmen, die vor einer schleichenden Bevormundung warnen. 'Gute Prävention erhöht Selbstbestimmung – sie darf nicht zum Druckmittel werden', sagt die Gesundheitssoziologin Prof. Dr. Ines Kraus von der Universität Hamburg. 'Sobald Versicherte Nachteile fürchten müssen, wenn sie ein Angebot ablehnen, kippt die Logik.'\n\nEine von ihr geleitete Untersuchung hat über drei Jahre hinweg achtzig Betriebe und mehrere tausend Versicherte begleitet. Das Ergebnis fällt differenziert aus. Einerseits berichten Beschäftigte, die regelmäßig an betrieblichen Präventionskursen teilnehmen, von messbar geringeren Fehlzeiten, besserer Schlafqualität und höherer Arbeitszufriedenheit. Andererseits zeigte die Studie eine wachsende Zahl an Fällen, in denen Versicherungsgesellschaften oder Arbeitgeber informelle Erwartungen an die Lebensführung ihrer Versicherten oder Angestellten richten – von sichtbarer Teilnahme an Sportprogrammen bis hin zur Aufforderung, bestimmte Gesundheits-Apps zu installieren. 'In etwa jedem siebten Fall empfanden die Betroffenen diese Erwartungen als stillschweigenden Zwang', so Kraus.\n\nBesonders heikel wird die Frage bei digitalen Angeboten. Immer mehr Krankenkassen bieten Bonusprogramme an, die regelmäßige Aktivitätsdaten belohnen – von geteilten Schrittzahlen bis zu bestimmten Blutdruckwerten, die über vernetzte Geräte erfasst werden. 'Diese Programme wirken attraktiv, solange man fit ist', sagt Kraus. 'Wer aber aus gesundheitlichen Gründen die Kriterien nicht erfüllen kann, fühlt sich schnell doppelt benachteiligt – krank und zusätzlich um Vorteile gebracht.' Ihre Studie zeigt, dass vor allem Menschen mit chronischen Erkrankungen bei solchen Programmen häufig außen vor bleiben. Datenschützerinnen mahnen zudem, dass die gesammelten Gesundheitsdaten in einem zunehmend kommerziellen Kontext ausgewertet werden – mit langfristigen Konsequenzen, die heute noch kaum absehbar sind.\n\nEin weiteres Ergebnis überrascht: Der oft unterstellte Produktivitätsgewinn durch Präventionsmaßnahmen in Unternehmen zeigt sich nicht automatisch. Nur dort, wo Beschäftigte selbst über Art und Zeitpunkt der Teilnahme entscheiden dürfen und das Angebot als Unterstützung, nicht als Pflicht wahrnehmen, treten messbare Effekte auf. Wird Prävention von oben verordnet, schlägt die Wirkung nicht selten ins Gegenteil um – bis hin zu höherer Fluktuation. Kraus empfiehlt daher, Präventionsmaßnahmen konsequent freiwillig zu gestalten, transparent über die Verwendung von Daten zu informieren und besondere Rücksicht auf Beschäftigte mit bestehenden gesundheitlichen Einschränkungen zu nehmen.\n\nBlickt man in die Zukunft, so dürfte sich das Spannungsverhältnis zwischen individueller Freiheit und systemischer Vorsorge weiter zuspitzen. Bereits heute experimentieren erste Kassen mit genetischen Risikoprofilen, die individuelle Präventionspläne vorschlagen. Entscheidend wird nach Kraus' Einschätzung sein, ob das Gesundheitssystem bereit ist, Prävention als Angebot und nicht als Verpflichtung zu denken. 'Wer das Missverhältnis zwischen individuellem Risiko und kollektivem Nutzen aus den Augen verliert, wird das Vertrauen der Versicherten nachhaltig beschädigen.' Das Präventionssystem der Zukunft, so zeichnet sich ab, wird umfassender sein – aber genau deshalb muss der Schutz der individuellen Entscheidung umso ernster genommen werden.",
+              "source": "Süddeutsche Zeitung, Magazin Gesundheit, März 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "B2_m03_R2_q1",
+              "type": "mcq",
+              "questionText": "Was ist die zentrale These von Prof. Dr. Kraus im Text?",
+              "relatedTextId": "B2_m03_R2_article",
+              "options": [
+                "a) Präventionsangebote sollten flächendeckend verpflichtend für alle Versicherten eingeführt werden.",
+                "b) Prävention stärkt die Selbstbestimmung nur dann, wenn sie freiwillig und ohne Druck bleibt.",
+                "c) Präventionsmaßnahmen sind grundsätzlich wirkungslos und sollten abgeschafft werden."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Kraus sagt im ersten Absatz: 'Gute Prävention erhöht Selbstbestimmung – sie darf nicht zum Druckmittel werden' und fordert durchgehend eine konsequent freiwillige Gestaltung. Sie verlangt also weder Pflicht (a widerspricht ihrer Position) noch Abschaffung (c widerspricht ebenfalls – sie hebt positive Effekte bei freiwilliger Teilnahme hervor). Ihre These ist die Bindung an Freiwilligkeit – Option b. B2-Trap: Alle drei Positionen werden im Text erwähnt oder gestreift, aber nur b ist Kraus' eigene."
+            },
+            {
+              "id": "B2_m03_R2_q2",
+              "type": "mcq",
+              "questionText": "Was zeigt die Studie zu Bonusprogrammen der Krankenkassen?",
+              "relatedTextId": "B2_m03_R2_article",
+              "options": [
+                "a) Chronisch Kranke profitieren besonders stark von den angebotenen Boni.",
+                "b) Die Programme erhöhen messbar die durchschnittliche Lebenserwartung der Teilnehmer.",
+                "c) Menschen mit chronischen Erkrankungen werden bei solchen Programmen häufig benachteiligt."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text stellt explizit fest: 'Ihre Studie zeigt, dass vor allem Menschen mit chronischen Erkrankungen bei solchen Programmen häufig außen vor bleiben.' Das entspricht genau Option c. Option a kehrt die Aussage um (Chronisch Kranke profitieren gerade nicht). Option b wird im Text nicht gesagt – Lebenserwartung wird im Abschnitt zu Bonusprogrammen nicht behandelt. B2-Trap: Option a nutzt die richtigen Stichwörter ('Bonusprogramme', 'chronisch') und invertiert die Logik."
+            },
+            {
+              "id": "B2_m03_R2_q3",
+              "type": "mcq",
+              "questionText": "Wie bewertet die Studie den Produktivitätseffekt von Prävention in Unternehmen?",
+              "relatedTextId": "B2_m03_R2_article",
+              "options": [
+                "a) Der Produktivitätsgewinn tritt nur bei freiwilliger Teilnahme messbar ein.",
+                "b) Präventionsmaßnahmen führen grundsätzlich zu einer Steigerung der Produktivität.",
+                "c) Von oben verordnete Prävention erhöht regelmäßig die Arbeitszufriedenheit."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Text sagt: 'Nur dort, wo Beschäftigte selbst über Art und Zeitpunkt der Teilnahme entscheiden dürfen ... treten messbare Effekte auf. Wird Prävention von oben verordnet, schlägt die Wirkung nicht selten ins Gegenteil um.' Das bedeutet: Nur freiwillige Teilnahme wirkt. Option a fasst das präzise. Option b ist zu pauschal – 'grundsätzlich' widerspricht dem differenzierten Befund. Option c kehrt die Wirkung verordneter Prävention um (laut Text wirkt sie gerade negativ)."
+            },
+            {
+              "id": "B2_m03_R2_q4",
+              "type": "mcq",
+              "questionText": "Wie häufig empfinden Beschäftigte die Präventions-Erwartungen ihrer Arbeitgeber als Zwang?",
+              "relatedTextId": "B2_m03_R2_article",
+              "options": [
+                "a) in etwa jedem zweiten Fall",
+                "b) in etwa jedem siebten Fall",
+                "c) in etwa jedem zwanzigsten Fall"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text zitiert Kraus wörtlich: 'In etwa jedem siebten Fall empfanden die Betroffenen diese Erwartungen als stillschweigenden Zwang.' Das entspricht Option b. Optionen a und c nennen andere Häufigkeiten, die im Text nicht stehen. B2-Skill: Zahlenbezug im Text präzise erfassen – numerische Detaildaten sind typische B2-Leseprüfungspunkte."
+            },
+            {
+              "id": "B2_m03_R2_q5",
+              "type": "mcq",
+              "questionText": "Worin sieht Kraus die größte Herausforderung für die Zukunft?",
+              "relatedTextId": "B2_m03_R2_article",
+              "options": [
+                "a) die technische Ausstattung aller Praxen mit digitalen Gesundheits-Apps",
+                "b) die Bindung an das Prinzip Prävention als Angebot, nicht als Verpflichtung",
+                "c) die vollständige Abschaffung genetischer Risikoprofile in Bonusprogrammen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Kraus betont im letzten Absatz: 'Entscheidend wird ... sein, ob das Gesundheitssystem bereit ist, Prävention als Angebot und nicht als Verpflichtung zu denken.' Option b fasst das präzise zusammen. Option a (technische Ausstattung) wird im Text nicht als Kernherausforderung benannt, nur als Nebenbeobachtung. Option c (Abschaffung) ist zu radikal – Kraus fordert transparente Rahmung, nicht Abschaffung."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die zehn Situationen (1–10) und die zwölf Anzeigen (a–l). Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es höchstens eine passende Anzeige. Zwei Anzeigen bleiben übrig. Wenn keine Anzeige passt, schreiben Sie 'x'.",
+          "instructionsTranslation": "Read the ten situations (1–10) and the twelve advertisements (a–l). Which advertisement matches which situation? For each situation there is at most one matching advertisement. Two advertisements remain unused. If no advertisement fits, write 'x'.",
+          "texts": [
+            { "id": "B2_m03_R3_ad_a", "type": "ad", "content": "a) AOK-Präventionskurs 'Rückenfit im Büro' – 10 Einheiten, dienstags 18–19:30 Uhr, Gesundheitszentrum Köln-Mitte. Zertifiziert nach § 20 SGB V, 80 % der Kosten (insgesamt 160 €) werden von allen gesetzlichen Krankenkassen erstattet. www.aok-praevention.de" },
+            { "id": "B2_m03_R3_ad_b", "type": "ad", "content": "b) Psychotherapeutische Praxis Dr. Eva Hartmann – Schwerpunkt Burnout, Depression und Angststörungen. Kurzfristige Termine im Rahmen der Akutsprechstunde, Kassenabrechnung möglich. Hamburg-Eimsbüttel, Terminvereinbarung online unter praxis-hartmann.de" },
+            { "id": "B2_m03_R3_ad_c", "type": "ad", "content": "c) Ernährungsberatung 'Gesund essen im Alltag' – vier Einzeltermine à 60 Minuten bei zertifizierter Ökotrophologin. Individueller Ernährungsplan, Begleitung per App. Pauschal 380 €, bis zu 75 % kassenerstattungsfähig nach § 20 SGB V. info@ernaehrung-gesund.de" },
+            { "id": "B2_m03_R3_ad_d", "type": "ad", "content": "d) Pflegekurs für Angehörige – kostenlose vierteilige Schulung für pflegende Familienmitglieder. Themen: Grundpflege, Medikamentengabe, Sturzprävention, rechtliche Grundlagen. Nächster Kurs: 14.–17. Mai, Volkshochschule München. Anmeldung: pflege-schulung-muenchen.de" },
+            { "id": "B2_m03_R3_ad_e", "type": "ad", "content": "e) Online-Kurs 'Schlaf besser lernen' – digitales Präventionsprogramm der Techniker Krankenkasse. 8 Wochen flexibel, wöchentliche Module zu Schlafhygiene, Atemübungen, kognitiven Techniken. Für Versicherte kostenfrei, für Nicht-Versicherte 120 €. tk.de/schlafbesser" },
+            { "id": "B2_m03_R3_ad_f", "type": "ad", "content": "f) Zweitmeinungsportal 'MedSecond' – kostenfreie unabhängige ärztliche Zweitmeinung vor größeren Operationen (Knie, Hüfte, Wirbelsäule, Bandscheibe). Fachärztliche Begutachtung binnen fünf Werktagen. Für gesetzlich Versicherte vollständig gedeckt. medsecond.de" },
+            { "id": "B2_m03_R3_ad_g", "type": "ad", "content": "g) Raucherentwöhnungskurs 'NichtraucherIn in 7 Wochen' – Präsenzkurs in Berlin-Mitte, donnerstags 19–21 Uhr. Kombination aus Verhaltenstherapie und Atemübungen. 220 € Kursgebühr, Erstattung bis zu 80 % bei regelmäßiger Teilnahme über alle gesetzlichen Krankenkassen. rauchfrei-berlin.de" },
+            { "id": "B2_m03_R3_ad_h", "type": "ad", "content": "h) Coaching 'Wiedereinstieg nach langer Krankheit' – Gruppenprogramm für Beschäftigte, die nach mindestens sechsmonatiger Arbeitsunfähigkeit in den Beruf zurückkehren. Zehn Einheiten, dienstags 9–11 Uhr, gefördert durch Deutsche Rentenversicherung. 120 € Eigenbeitrag. www.wiedereinstieg-gesundheit.de" },
+            { "id": "B2_m03_R3_ad_i", "type": "ad", "content": "i) Fachkongress 'Zukunft der digitalen Medizin' – zwei Tage mit Vorträgen, Workshops und Networking. Themen: DiGAs, elektronische Patientenakte, telemedizinische Versorgung. 15.–16. Juni, Frankfurt. Frühbucher bis 1. Mai: 390 € statt 490 €. digimed-kongress.de" },
+            { "id": "B2_m03_R3_ad_j", "type": "ad", "content": "j) Online-Sprechstunde Kinder- und Jugendmedizin – schnelle Videoberatung bei akuten Fragen zu Fieber, Hautausschlag, Impfungen. Montag–Samstag 8–20 Uhr, ohne Voranmeldung. Für AOK-, Barmer- und DAK-Versicherte kostenfrei. kindermed-online.de" },
+            { "id": "B2_m03_R3_ad_k", "type": "ad", "content": "k) Patientenberatungsstelle der Unabhängigen Patientenberatung Deutschland – kostenfreie juristische und medizinische Erstberatung zu Behandlungsfehlern, Kassenablehnungen und Patientenrechten. Telefon, Chat oder persönlich in fünfzig Städten bundesweit. patientenberatung.de" },
+            { "id": "B2_m03_R3_ad_l", "type": "ad", "content": "l) Hebammen-Praxis 'Gute Hoffnung' – Schwangerenvorsorge, Geburtsvorbereitung und Wochenbettbetreuung in Stuttgart-West. Alle Leistungen werden direkt mit allen gesetzlichen Krankenkassen abgerechnet. Terminvereinbarung unter hebammen-gutehoffnung.de" }
+          ],
+          "questions": [
+            {
+              "id": "B2_m03_R3_q1",
+              "type": "matching",
+              "questionText": "1. Frau Özdemir arbeitet ganztags im Büro und leidet seit einigen Monaten unter wiederkehrenden Rückenschmerzen. Sie sucht einen von der Krankenkasse anerkannten Präventionskurs am Abend in der Nähe von Köln.",
+              "matchingSources": [
+                { "id": "B2_m03_R3_ad_a", "label": "a" }, { "id": "B2_m03_R3_ad_b", "label": "b" },
+                { "id": "B2_m03_R3_ad_c", "label": "c" }, { "id": "B2_m03_R3_ad_d", "label": "d" },
+                { "id": "B2_m03_R3_ad_e", "label": "e" }, { "id": "B2_m03_R3_ad_f", "label": "f" },
+                { "id": "B2_m03_R3_ad_g", "label": "g" }, { "id": "B2_m03_R3_ad_h", "label": "h" },
+                { "id": "B2_m03_R3_ad_i", "label": "i" }, { "id": "B2_m03_R3_ad_j", "label": "j" },
+                { "id": "B2_m03_R3_ad_k", "label": "k" }, { "id": "B2_m03_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Anzeige a) AOK-Präventionskurs 'Rückenfit im Büro' bietet exakt, was Frau Özdemir braucht: Rücken-Prävention, Köln-Mitte, dienstags abends, nach § 20 SGB V zertifiziert und kassenerstattungsfähig. Distraktor c) (Ernährungsberatung) passt nicht zum Rückenthema."
+            },
+            {
+              "id": "B2_m03_R3_q2",
+              "type": "matching",
+              "questionText": "2. Herr Becker hat seit Wochen depressive Verstimmungen und möglichst schnell einen Termin in einer psychotherapeutischen Praxis in Hamburg gesucht, der über die Krankenkasse abrechenbar ist.",
+              "matchingSources": [
+                { "id": "B2_m03_R3_ad_a", "label": "a" }, { "id": "B2_m03_R3_ad_b", "label": "b" },
+                { "id": "B2_m03_R3_ad_c", "label": "c" }, { "id": "B2_m03_R3_ad_d", "label": "d" },
+                { "id": "B2_m03_R3_ad_e", "label": "e" }, { "id": "B2_m03_R3_ad_f", "label": "f" },
+                { "id": "B2_m03_R3_ad_g", "label": "g" }, { "id": "B2_m03_R3_ad_h", "label": "h" },
+                { "id": "B2_m03_R3_ad_i", "label": "i" }, { "id": "B2_m03_R3_ad_j", "label": "j" },
+                { "id": "B2_m03_R3_ad_k", "label": "k" }, { "id": "B2_m03_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Anzeige b) Praxis Dr. Hartmann deckt Burnout und Depression, bietet kurzfristige Termine im Rahmen der Akutsprechstunde und rechnet mit der Kasse ab – genau Herrn Beckers Bedarf. Sitz Hamburg-Eimsbüttel passt geografisch. Distraktor h) (Wiedereinstieg nach Krankheit) setzt mindestens sechs Monate Arbeitsunfähigkeit voraus, die Herr Becker laut Situation nicht hat."
+            },
+            {
+              "id": "B2_m03_R3_q3",
+              "type": "matching",
+              "questionText": "3. Frau Walter pflegt seit kurzem ihre an Demenz erkrankte Mutter zu Hause und sucht eine kostenlose Schulung, in der sie Grundwissen zur Medikamentengabe und zur Sturzprävention erhält.",
+              "matchingSources": [
+                { "id": "B2_m03_R3_ad_a", "label": "a" }, { "id": "B2_m03_R3_ad_b", "label": "b" },
+                { "id": "B2_m03_R3_ad_c", "label": "c" }, { "id": "B2_m03_R3_ad_d", "label": "d" },
+                { "id": "B2_m03_R3_ad_e", "label": "e" }, { "id": "B2_m03_R3_ad_f", "label": "f" },
+                { "id": "B2_m03_R3_ad_g", "label": "g" }, { "id": "B2_m03_R3_ad_h", "label": "h" },
+                { "id": "B2_m03_R3_ad_i", "label": "i" }, { "id": "B2_m03_R3_ad_j", "label": "j" },
+                { "id": "B2_m03_R3_ad_k", "label": "k" }, { "id": "B2_m03_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Anzeige d) 'Pflegekurs für Angehörige' ist kostenlos, richtet sich an pflegende Familienmitglieder und behandelt exakt die genannten Themen Medikamentengabe und Sturzprävention. Passt eins zu eins zur Situation von Frau Walter."
+            },
+            {
+              "id": "B2_m03_R3_q4",
+              "type": "matching",
+              "questionText": "4. Herr Toma raucht seit über zwanzig Jahren und möchte endlich aufhören. Er sucht einen mehrwöchigen Präsenzkurs in Berlin, bei dem ein Großteil der Kosten von seiner Krankenkasse übernommen wird.",
+              "matchingSources": [
+                { "id": "B2_m03_R3_ad_a", "label": "a" }, { "id": "B2_m03_R3_ad_b", "label": "b" },
+                { "id": "B2_m03_R3_ad_c", "label": "c" }, { "id": "B2_m03_R3_ad_d", "label": "d" },
+                { "id": "B2_m03_R3_ad_e", "label": "e" }, { "id": "B2_m03_R3_ad_f", "label": "f" },
+                { "id": "B2_m03_R3_ad_g", "label": "g" }, { "id": "B2_m03_R3_ad_h", "label": "h" },
+                { "id": "B2_m03_R3_ad_i", "label": "i" }, { "id": "B2_m03_R3_ad_j", "label": "j" },
+                { "id": "B2_m03_R3_ad_k", "label": "k" }, { "id": "B2_m03_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Anzeige g) Raucherentwöhnungskurs in Berlin-Mitte läuft sieben Wochen, ist ein Präsenzkurs und wird zu 80 % von den gesetzlichen Krankenkassen erstattet – erfüllt alle drei Kriterien (Ort, Dauer, Erstattung)."
+            },
+            {
+              "id": "B2_m03_R3_q5",
+              "type": "matching",
+              "questionText": "5. Vor einer anstehenden Knie-Operation möchte Frau Yildiz eine unabhängige ärztliche Zweitmeinung einholen, ohne dafür extra zu zahlen.",
+              "matchingSources": [
+                { "id": "B2_m03_R3_ad_a", "label": "a" }, { "id": "B2_m03_R3_ad_b", "label": "b" },
+                { "id": "B2_m03_R3_ad_c", "label": "c" }, { "id": "B2_m03_R3_ad_d", "label": "d" },
+                { "id": "B2_m03_R3_ad_e", "label": "e" }, { "id": "B2_m03_R3_ad_f", "label": "f" },
+                { "id": "B2_m03_R3_ad_g", "label": "g" }, { "id": "B2_m03_R3_ad_h", "label": "h" },
+                { "id": "B2_m03_R3_ad_i", "label": "i" }, { "id": "B2_m03_R3_ad_j", "label": "j" },
+                { "id": "B2_m03_R3_ad_k", "label": "k" }, { "id": "B2_m03_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Anzeige f) Zweitmeinungsportal 'MedSecond' ist genau darauf spezialisiert: kostenfreie unabhängige Zweitmeinung vor Knie-OP innerhalb von fünf Werktagen, für gesetzlich Versicherte voll gedeckt. Passt exakt zu Frau Yildiz' Situation."
+            },
+            {
+              "id": "B2_m03_R3_q6",
+              "type": "matching",
+              "questionText": "6. Frau Hoffmann kehrt nach acht Monaten Krankschreibung wegen einer schweren Erschöpfungsdepression an ihren Arbeitsplatz zurück und sucht eine begleitende Gruppe, die sie beim Wiedereinstieg unterstützt.",
+              "matchingSources": [
+                { "id": "B2_m03_R3_ad_a", "label": "a" }, { "id": "B2_m03_R3_ad_b", "label": "b" },
+                { "id": "B2_m03_R3_ad_c", "label": "c" }, { "id": "B2_m03_R3_ad_d", "label": "d" },
+                { "id": "B2_m03_R3_ad_e", "label": "e" }, { "id": "B2_m03_R3_ad_f", "label": "f" },
+                { "id": "B2_m03_R3_ad_g", "label": "g" }, { "id": "B2_m03_R3_ad_h", "label": "h" },
+                { "id": "B2_m03_R3_ad_i", "label": "i" }, { "id": "B2_m03_R3_ad_j", "label": "j" },
+                { "id": "B2_m03_R3_ad_k", "label": "k" }, { "id": "B2_m03_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "h",
+              "explanation": "Anzeige h) 'Wiedereinstieg nach langer Krankheit' ist genau für diese Zielgruppe konzipiert – mindestens sechs Monate Arbeitsunfähigkeit (Frau Hoffmann erfüllt mit acht Monaten), Gruppenformat, gefördert durch die Rentenversicherung. Kriterien werden alle erfüllt."
+            },
+            {
+              "id": "B2_m03_R3_q7",
+              "type": "matching",
+              "questionText": "7. Frau Aslan ist im siebten Monat schwanger und sucht eine Hebamme in Stuttgart, die Geburtsvorbereitungskurse anbietet und direkt mit ihrer Krankenkasse abrechnet.",
+              "matchingSources": [
+                { "id": "B2_m03_R3_ad_a", "label": "a" }, { "id": "B2_m03_R3_ad_b", "label": "b" },
+                { "id": "B2_m03_R3_ad_c", "label": "c" }, { "id": "B2_m03_R3_ad_d", "label": "d" },
+                { "id": "B2_m03_R3_ad_e", "label": "e" }, { "id": "B2_m03_R3_ad_f", "label": "f" },
+                { "id": "B2_m03_R3_ad_g", "label": "g" }, { "id": "B2_m03_R3_ad_h", "label": "h" },
+                { "id": "B2_m03_R3_ad_i", "label": "i" }, { "id": "B2_m03_R3_ad_j", "label": "j" },
+                { "id": "B2_m03_R3_ad_k", "label": "k" }, { "id": "B2_m03_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "l",
+              "explanation": "Anzeige l) Hebammen-Praxis 'Gute Hoffnung' bietet Schwangerenvorsorge und Geburtsvorbereitung in Stuttgart-West mit direkter Krankenkassenabrechnung. Geografisch und inhaltlich passgenau für Frau Aslan."
+            },
+            {
+              "id": "B2_m03_R3_q8",
+              "type": "matching",
+              "questionText": "8. Herr Müller ist Nachtarbeiter und leidet seit Monaten unter massiven Schlafstörungen. Er sucht ein flexibles Online-Angebot, das er neben seinen unregelmäßigen Schichten nutzen kann – am liebsten kostenfrei als Versicherter einer Krankenkasse.",
+              "matchingSources": [
+                { "id": "B2_m03_R3_ad_a", "label": "a" }, { "id": "B2_m03_R3_ad_b", "label": "b" },
+                { "id": "B2_m03_R3_ad_c", "label": "c" }, { "id": "B2_m03_R3_ad_d", "label": "d" },
+                { "id": "B2_m03_R3_ad_e", "label": "e" }, { "id": "B2_m03_R3_ad_f", "label": "f" },
+                { "id": "B2_m03_R3_ad_g", "label": "g" }, { "id": "B2_m03_R3_ad_h", "label": "h" },
+                { "id": "B2_m03_R3_ad_i", "label": "i" }, { "id": "B2_m03_R3_ad_j", "label": "j" },
+                { "id": "B2_m03_R3_ad_k", "label": "k" }, { "id": "B2_m03_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Anzeige e) Online-Kurs 'Schlaf besser lernen' der TK ist 8 Wochen flexibel, für TK-Versicherte kostenfrei und speziell auf Schlafhygiene ausgelegt – passgenau für Herrn Müllers unregelmäßige Schichten."
+            },
+            {
+              "id": "B2_m03_R3_q9",
+              "type": "matching",
+              "questionText": "9. Herr und Frau Becker sind unsicher, ob die Ablehnung einer Behandlungskostenerstattung durch ihre Krankenkasse rechtmäßig war, und möchten eine kostenlose unabhängige Erstberatung.",
+              "matchingSources": [
+                { "id": "B2_m03_R3_ad_a", "label": "a" }, { "id": "B2_m03_R3_ad_b", "label": "b" },
+                { "id": "B2_m03_R3_ad_c", "label": "c" }, { "id": "B2_m03_R3_ad_d", "label": "d" },
+                { "id": "B2_m03_R3_ad_e", "label": "e" }, { "id": "B2_m03_R3_ad_f", "label": "f" },
+                { "id": "B2_m03_R3_ad_g", "label": "g" }, { "id": "B2_m03_R3_ad_h", "label": "h" },
+                { "id": "B2_m03_R3_ad_i", "label": "i" }, { "id": "B2_m03_R3_ad_j", "label": "j" },
+                { "id": "B2_m03_R3_ad_k", "label": "k" }, { "id": "B2_m03_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "k",
+              "explanation": "Anzeige k) Patientenberatungsstelle der UPD bietet genau dieses Leistungsprofil: kostenfreie juristische Erstberatung zu Kassenablehnungen und Patientenrechten. Bundesweit in fünfzig Städten verfügbar. Passt exakt zu Herrn und Frau Beckers Anliegen."
+            },
+            {
+              "id": "B2_m03_R3_q10",
+              "type": "matching",
+              "questionText": "10. Frau Bianchi sucht für ihren hochbetagten Vater eine aufsuchende ärztliche Betreuung zu Hause, weil er nicht mehr in die Praxis kommen kann und sie selbst berufsbedingt keine langen Wartezeiten abbilden kann.",
+              "matchingSources": [
+                { "id": "B2_m03_R3_ad_a", "label": "a" }, { "id": "B2_m03_R3_ad_b", "label": "b" },
+                { "id": "B2_m03_R3_ad_c", "label": "c" }, { "id": "B2_m03_R3_ad_d", "label": "d" },
+                { "id": "B2_m03_R3_ad_e", "label": "e" }, { "id": "B2_m03_R3_ad_f", "label": "f" },
+                { "id": "B2_m03_R3_ad_g", "label": "g" }, { "id": "B2_m03_R3_ad_h", "label": "h" },
+                { "id": "B2_m03_R3_ad_i", "label": "i" }, { "id": "B2_m03_R3_ad_j", "label": "j" },
+                { "id": "B2_m03_R3_ad_k", "label": "k" }, { "id": "B2_m03_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "x",
+              "explanation": "Keine der zwölf Anzeigen bietet einen klassischen Hausbesuchsdienst für ältere, nicht mehr mobile Patienten. Anzeige j) (Online-Sprechstunde Kinder- und Jugendmedizin) ist altersmäßig und thematisch nicht passend (Kinder, nicht Hochbetagte; Video, nicht Hausbesuch). Anzeige d) richtet sich an pflegende Angehörige mit Schulungen, nicht an die medizinische Versorgung des Vaters selbst. Anzeige f) deckt nur Zweitmeinungen vor großen Operationen, keine laufende Betreuung. Die Situation erfordert also die Antwort 'x' (kein passendes Angebot). Als ungenutzte Distraktoren bleiben in der Anzeigenliste: c) Ernährungsberatung, i) Fachkongress 'Zukunft der digitalen Medizin' und j) Online-Sprechstunde Kinder- und Jugendmedizin."
+            }
+          ]
+        }
+      ]
+    },
+    "sprachbausteine": {
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie den folgenden Text und entscheiden Sie, welches Wort (a, b, c oder d) in die Lücke passt. Es gibt jeweils nur eine richtige Lösung.",
+          "text": "Sehr geehrte Patientinnen und Patienten,\n\nhiermit möchten wir Sie über die Neuorganisation unseres Praxis-Netzwerks 'Gesund im Quartier' informieren. Im Rahmen einer Qualitätsprüfung, die von einer externen Expertenkommission __(1)__ worden ist, wurden die Strukturen unserer sieben Standorte umfassend überarbeitet. Ab dem ersten Mai wird ein digitales Terminsystem eingeführt, __(2)__ Ihnen rund um die Uhr Zugang zu freien Sprechzeiten ermöglicht.\n\nWir legen besonderen Wert darauf, dass jede Patientin und jeder Patient im Bedarfsfall einen kurzfristigen Beratungstermin __(3)__ kann. Sollte ein ärztlicher Hausbesuch in Ausnahmefällen nicht möglich sein, __(4)__ die Praxis dies schriftlich begründen und eine Alternative vorschlagen. __(5)__ der steigenden Anfragen im vergangenen Winter haben wir das Hausbesuchsteam um drei Medizinische Fachangestellte erweitert.\n\nDas neue Versorgungskonzept umfasst selbstverständlich die gewohnten Präsenzsprechstunden, __(6)__ auch neu eingeführte Videosprechstunden für Folgerezepte und kurze Rückfragen. Patientinnen und Patienten, die eine zusätzliche Ernährungsberatung __(7)__, erhalten von uns eine Überweisung an zertifizierte Kooperationspartner. __(8)__ ist die enge Abstimmung mit dem jeweiligen Facharzt, damit Ihre Therapie aus einem Guss bleibt.\n\nDie von uns __(9)__ Reform des Terminsystems ist Teil einer umfassenden Qualitätsoffensive. Das gesamte Team ist überzeugt, __(10)__ investierte Euro in Digitalisierung und Prävention mehrfach zurückfließt – durch kürzere Wartezeiten, bessere Versorgung und zufriedenere Patientinnen und Patienten.\n\nMit freundlichen Grüßen\nDr. Stefan Lang, ärztlicher Leiter",
+          "questions": [
+            {
+              "blankNumber": 1,
+              "type": "mcq",
+              "options": ["a) durchgeführt", "b) durchführte", "c) durchzuführen", "d) durchführend"],
+              "correctAnswer": "a",
+              "explanation": "Vorgangspassiv Perfekt: 'die von einer externen Expertenkommission durchgeführt worden ist' — Bildung: sein + Partizip II + worden. Das Partizip II 'durchgeführt' ist zwingend. Distraktoren: b) 'durchführte' wäre Aktiv-Präteritum (falsche Diathese), c) zu+Infinitiv passt grammatisch nicht zu 'ist worden', d) Partizip I signalisiert laufende Handlung und kombiniert nicht mit 'worden'. B2-Grammatik: Vorgangspassiv Perfekt (Kernthema aus Lernzielkatalog §3)."
+            },
+            {
+              "blankNumber": 2,
+              "type": "mcq",
+              "options": ["a) der", "b) das", "c) die", "d) was"],
+              "correctAnswer": "b",
+              "explanation": "Relativsatz: 'ein digitales Terminsystem, das Ihnen ... ermöglicht.' Das Relativpronomen bezieht sich auf 'Terminsystem' (Neutrum) im Nominativ: 'das'. Distraktoren: a) 'der' = Maskulin, c) 'die' = Feminin/Plural, d) 'was' nur nach unbestimmten Pronomen wie 'etwas, alles, nichts' oder nach neutralen Nominalisierungen wie 'das Beste'. Hier verlangt 'Terminsystem' das Relativpronomen 'das' (Nominativ Neutrum Singular)."
+            },
+            {
+              "blankNumber": 3,
+              "type": "mcq",
+              "options": ["a) in Anspruch nehmen", "b) in Anspruch genommen", "c) beanspruchen lassen", "d) sich beanspruchen"],
+              "correctAnswer": "a",
+              "explanation": "Funktionsverbgefüge (typisches B2-Konstrukt): 'etwas in Anspruch nehmen' = nutzen, beanspruchen. Nach Modalverb 'kann' folgt der Infinitiv: 'in Anspruch nehmen'. Distraktoren: b) Partizip passt nicht zu 'kann' (Modalverb verlangt reinen Infinitiv), c) 'beanspruchen lassen' wäre reflexiv-kausativ und sinnverändernd ('etwas durch jemand anderen beanspruchen lassen'), d) 'sich beanspruchen' ist keine idiomatisch akzeptierte reflexive Verwendung im Deutschen."
+            },
+            {
+              "blankNumber": 4,
+              "type": "mcq",
+              "options": ["a) muss", "b) soll", "c) müsste", "d) hätte"],
+              "correctAnswer": "a",
+              "explanation": "Inversion nach vorangestelltem Konditionalsatz ohne 'wenn': 'Sollte ein ärztlicher Hausbesuch ... nicht möglich sein, muss die Praxis dies ... begründen.' Hier geht es um eine klare Verpflichtung im formellen Praxis-Informationsschreiben → Indikativ 'muss'. Distraktoren: b) 'soll' wäre schwächer (moralischer Auftrag, nicht verpflichtend), c) 'müsste' wäre Konjunktiv II und würde irrealen Ton geben, d) 'hätte' ist formal-grammatisch unvollständig (Hilfsverb ohne Partizip II ergibt keinen finiten Satz). B2-Grammatik: Inversion nach uneingeleitetem Konditionalsatz."
+            },
+            {
+              "blankNumber": 5,
+              "type": "mcq",
+              "options": ["a) Infolge", "b) Trotz", "c) Zwecks", "d) Außer"],
+              "correctAnswer": "a",
+              "explanation": "Genitiv-Präposition mit kausaler Semantik: 'Infolge der steigenden Anfragen ... haben wir das Team erweitert' = aufgrund, wegen. Die steigenden Anfragen sind die URSACHE der Erweiterung. Distraktoren: b) 'Trotz' widerspricht der Logik (man erweitert nicht trotz, sondern wegen steigender Nachfrage), c) 'Zwecks' (= zum Zweck des/der) verlangt normalerweise ein Ziel-Nomen und klingt hier stilistisch falsch ('Zwecks der Anfragen' bedeutet 'um die Anfragen zu ...'), d) 'Außer' heißt 'mit Ausnahme von' – inhaltlich unsinnig. Alle vier regieren formal den Genitiv, aber nur 'infolge' drückt die kausale Beziehung korrekt aus. B2-Präposition mit Genitiv."
+            },
+            {
+              "blankNumber": 6,
+              "type": "mcq",
+              "options": ["a) sondern", "b) aber auch", "c) dennoch", "d) zudem"],
+              "correctAnswer": "b",
+              "explanation": "Additiver Konnektor: 'Das Konzept umfasst ... Präsenzsprechstunden, aber auch ... Videosprechstunden.' Die Struktur fordert eine Hinzufügung mit leichtem Kontrast. Distraktoren: a) 'sondern' verlangt vorangegangene Negation (hier fehlt 'nicht nur'), c) 'dennoch' drückt Gegensatz aus (passt inhaltlich nicht – die beiden Sprechstundenarten schließen sich nicht aus), d) 'zudem' wäre ein reines Additiv, aber würde Verb-Zweitstellung erzwingen und den Satzbau brechen. 'aber auch' passt hier in der Aufzählung."
+            },
+            {
+              "blankNumber": 7,
+              "type": "mcq",
+              "options": ["a) wünschen", "b) zu wünschen", "c) wünschten", "d) gewünscht"],
+              "correctAnswer": "a",
+              "explanation": "Relativsatz mit Präsens-Indikativ: 'Patientinnen und Patienten, die eine Ernährungsberatung wünschen, erhalten ...' Das Verb kongruiert mit dem Subjekt 'Patientinnen und Patienten' (Plural Präsens). Distraktoren: b) Infinitiv mit zu passt nicht in einen finiten Relativsatz, c) Präteritum bricht die Zeitebene (der gesamte Text ist im Präsens/Futur), d) Partizip II allein ohne Hilfsverb ist syntaktisch unmöglich im finiten Satz."
+            },
+            {
+              "blankNumber": 8,
+              "type": "mcq",
+              "options": ["a) Entscheidend", "b) Entscheidung", "c) Entscheidende", "d) Entschieden"],
+              "correctAnswer": "a",
+              "explanation": "Prädikatives Adjektiv: 'Entscheidend ist die enge Abstimmung ...' Die endungslose Form signalisiert, dass das Adjektiv als Prädikativum nach 'sein' steht (vgl. 'Wichtig ist ...', 'Ausschlaggebend ist ...'). Distraktoren: b) 'Entscheidung' ist Substantiv und würde 'Eine Entscheidung ist ...' verlangen, c) 'Entscheidende' mit Endung wäre substantivierte Form und passt nur mit Artikel ('Das Entscheidende ist ...'), d) 'Entschieden' wäre Partizip II und passt nicht als Satzanfang mit 'ist'. B2-Grammatik: prädikatives Adjektiv als Satzanfang (Ellipsengebrauch für Hervorhebung)."
+            },
+            {
+              "blankNumber": 9,
+              "type": "mcq",
+              "options": ["a) umgesetzte", "b) umsetzende", "c) umzusetzende", "d) umgesetzt"],
+              "correctAnswer": "a",
+              "explanation": "Partizipialattribut als B2-Kernthema: 'Die von uns umgesetzte Reform' = 'Die Reform, die von uns umgesetzt wurde'. Partizip II 'umgesetzt' + Adjektivendung -e (Nom. Sg. Fem. schwache Deklination nach 'Die'). Distraktoren: b) 'umsetzende' (Partizip I) würde aktive, gleichzeitige Handlung anzeigen – passt nicht (die Reform setzt nicht sich selbst um), c) 'umzusetzende' wäre Gerundivum (zukünftig/notwendig umzusetzen) und widerspricht dem Perfektaspekt der 'von uns'-Phrase, d) 'umgesetzt' ohne Endung – unflektiert – bricht die Deklination im erweiterten Attribut. Passivisches Partizipialattribut mit Agens-Angabe 'von uns'."
+            },
+            {
+              "blankNumber": 10,
+              "type": "mcq",
+              "options": ["a) dass jeder", "b) dass jedem", "c) dass alle", "d) dass man"],
+              "correctAnswer": "a",
+              "explanation": "Subjekt des dass-Satzes im Nominativ: 'dass jeder investierte Euro ... zurückfließt'. 'jeder' (Nom. Sg. Mask.) als Subjekt zu 'zurückfließt' (Singular Präsens). Distraktoren: b) 'jedem' wäre Dativ, aber der Satz braucht ein Nominativ-Subjekt für das Verb 'zurückfließt', c) 'dass alle ... zurückfließt' würde eine Subjekt-Verb-Inkongruenz erzeugen (Plural vs. Singular), d) 'man' ist grammatisch zwar möglich, aber semantisch falsch – das Subjekt soll nicht eine Person, sondern der Euro sein, der in den Vordergrund gestellt wird."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Text. Welches Wort aus der Liste a–o passt in die Lücken? Jedes Wort passt nur einmal. Fünf Wörter bleiben übrig.",
+          "text": "Wer heute gesund bleiben möchte, sieht sich mit einer wachsenden Zahl von Empfehlungen konfrontiert. Die Flut an Ratschlägen ist in vielen Medien erheblich, und Leserinnen und Leser stoßen täglich auf __(11)__ Gesundheitstipps. Eine sorgfältig ausgewählte Strategie kann in __(12)__ Fällen den Unterschied zwischen Erfolg und Resignation ausmachen.\n\nAllerdings reicht es nicht aus, lediglich einzelne Maßnahmen auszuprobieren. Moderne Präventionsmediziner raten __(13)__, die eigenen Lebensumstände ehrlich zu analysieren und konkrete Ziele mit dem Hausarzt abzustimmen. __(14)__ gelingt es oft, aus guten Vorsätzen eine tragfähige Gewohnheit zu machen, die nach vielen Monaten noch trägt.\n\nEin weiterer wichtiger Punkt __(15)__ die realistische Selbsteinschätzung. Wer zu ehrgeizige Pläne verfolgt, scheitert oft schon in den ersten Wochen __(16)__ eigenen Erwartungen. Umgekehrt führen völlig zaghafte Schritte dazu, dass sich messbare gesundheitliche Effekte erst gar nicht einstellen. Ein moderater, planvoller Einstieg gilt deshalb als goldene __(17)__.\n\n__(18)__ der hohen Bedeutung psychischer Belastungen setzen viele Fachleute inzwischen auf einen ganzheitlichen Präventionsansatz, der Bewegung, Ernährung und Stressbewältigung gleichrangig behandelt. Das erhöht zwar die Anforderungen an die einzelne Person, steigert aber die Nachhaltigkeit. Expertinnen und Experten sehen __(19)__ die entscheidende Voraussetzung – sofern die umgesetzten Maßnahmen individuell abgestimmt sind.\n\nWer seine Gesundheit auf diese Weise plant, kann sein Wohlbefinden __(20)__ verbessern. Prävention ist keine Modeerscheinung, sondern eine langfristige Investition in die eigene Lebensqualität.",
+          "questions": [
+            {
+              "blankNumber": 11,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) an", "g) Regel", "h) Aufgrund", "i) darin", "j) über",
+                "k) bei", "l) nachhaltig", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "a",
+              "explanation": "'Hunderte Gesundheitstipps' — indefinite Mengenangabe (Plural ohne Artikel). Als substantiviertes Zahlwort wird 'Hunderte' großgeschrieben. Distraktor o) 'wenigen' würde das Gegenteil bedeuten und widerspricht dem Kontext ('Flut', 'erheblich', 'täglich'). B2-Vokabular: 'Hunderte' als großzügige Mengenangabe, typisch für publizistische Sprache."
+            },
+            {
+              "blankNumber": 12,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) an", "g) Regel", "h) Aufgrund", "i) darin", "j) über",
+                "k) bei", "l) nachhaltig", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "'in vielen Fällen' — feste Wendung (Dativ Plural, starke Deklination nach Präposition 'in'). Distraktoren: o) 'wenigen' kehrt die Aussage um (wäre zwar grammatisch möglich, widerspricht aber dem Sinn 'den Unterschied ausmachen kann'), m) 'jeden' wäre Akkusativ Singular und passt nicht zu 'in ... Fällen'."
+            },
+            {
+              "blankNumber": 13,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) an", "g) Regel", "h) Aufgrund", "i) darin", "j) über",
+                "k) bei", "l) nachhaltig", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Feste Kombination: 'jemandem raten zu etwas' → korrelatives Pronominaladverb 'dazu' verweist auf den nachfolgenden zu+Infinitiv-Satz: 'raten dazu, ... zu analysieren'. Distraktor i) 'darin' verweist auf 'in etwas' und passt nicht zu einem zu+Infinitiv-Anschluss. Pronominaladverb-Kenntnisse gehören zum B2-Kernrepertoire."
+            },
+            {
+              "blankNumber": 14,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) an", "g) Regel", "h) Aufgrund", "i) darin", "j) über",
+                "k) bei", "l) nachhaltig", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "d",
+              "explanation": "Satzanfang + kausaler Konnektor: 'Dadurch gelingt es oft, ...' — fasst die vorherige Empfehlung (ehrliche Analyse + konkrete Ziele) zusammen und leitet daraus die Folge ab. Großschreibung signalisiert den Satzanfang. 'Dadurch' verbindet kausal-folgernd (lat. Mittel-Folge-Beziehung)."
+            },
+            {
+              "blankNumber": 15,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) an", "g) Regel", "h) Aufgrund", "i) darin", "j) über",
+                "k) bei", "l) nachhaltig", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "e",
+              "explanation": "Kopulaverb: 'Ein weiterer wichtiger Punkt ist die realistische Selbsteinschätzung.' 'ist' verbindet Subjekt mit prädikativem Nomen in der Gleichsetzung 'Punkt = Selbsteinschätzung'. Distraktor n) 'stellt' würde ein Objekt + 'dar' verlangen ('stellt ... dar') und bricht hier die Syntax."
+            },
+            {
+              "blankNumber": 16,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) an", "g) Regel", "h) Aufgrund", "i) darin", "j) über",
+                "k) bei", "l) nachhaltig", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "f",
+              "explanation": "Idiomatische Wendung: 'scheitern an etwas' = aufgrund von etwas nicht gelingen. Die Präposition 'an' regiert hier den Dativ ('an den eigenen Erwartungen'). Distraktor k) 'bei' wäre möglich in 'scheitert bei etwas' (= im Zuge von), aber 'scheitern an' ist die feststehende B2-Kollokation für die Ursache des Scheiterns. j) 'über' wäre semantisch falsch."
+            },
+            {
+              "blankNumber": 17,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) an", "g) Regel", "h) Aufgrund", "i) darin", "j) über",
+                "k) bei", "l) nachhaltig", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "g",
+              "explanation": "Feste Kollokation: 'goldene Regel' = allgemein anerkannte Grundregel (analog zum biblischen Prinzip). Substantiv nach Adjektiv 'goldene'. Distraktoren: l) 'nachhaltig' wäre Adjektiv und passt nicht nach 'goldene' (Adjektiv-auf-Adjektiv doppelt attribuiert wäre ungrammatisch)."
+            },
+            {
+              "blankNumber": 18,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) an", "g) Regel", "h) Aufgrund", "i) darin", "j) über",
+                "k) bei", "l) nachhaltig", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "h",
+              "explanation": "Genitiv-Präposition 'Aufgrund der hohen Bedeutung psychischer Belastungen' (Satzanfang, großgeschrieben). Passt zur nachfolgenden Schlussfolgerung ('setzen viele Fachleute ... auf einen ganzheitlichen Präventionsansatz'). Die Bedeutung ist kausal: WEGEN der hohen Bedeutung. Distraktor b) 'vielen' ist Pronomen und schon verbraucht. B2-Präposition mit Genitiv (anders als das synonyme, aber hier vermiedene 'angesichts'; bewusst Variation gegen mock_01)."
+            },
+            {
+              "blankNumber": 19,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) an", "g) Regel", "h) Aufgrund", "i) darin", "j) über",
+                "k) bei", "l) nachhaltig", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "i",
+              "explanation": "Pronominaladverb: 'sehen darin die entscheidende Voraussetzung' = 'sehen im ganzheitlichen Ansatz ...'. 'darin' verweist auf den zuvor beschriebenen Präventionsansatz (Bewegung + Ernährung + Stressbewältigung). Das Verb 'sehen in etwas' ist die feste Kollokation für Einschätzungen (vgl. 'darin liegt der Schlüssel')."
+            },
+            {
+              "blankNumber": 20,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) an", "g) Regel", "h) Aufgrund", "i) darin", "j) über",
+                "k) bei", "l) nachhaltig", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "l",
+              "explanation": "Adverbiale Funktion: 'kann sein Wohlbefinden nachhaltig verbessern' — 'nachhaltig' als unflektiertes Adverb verstärkt das Verb 'verbessern' und bildet eine natürliche Kollokation im Gesundheitskontext (vgl. 'nachhaltig wirken', 'nachhaltig verändern'). Es fasst die zentrale Aussage des Textes zusammen (Prävention als langfristige Investition). Distraktoren: j) 'über' wäre Präposition ohne passendes Objekt, k) 'bei' ebenso, m) 'jeden' wäre Determiner ohne Substantiv, n) 'stellt' würde Verbdopplung mit 'kann ... verbessern' erzeugen, o) 'wenigen' kehrt die positive Aussage unsinnig um. Die verbleibenden fünf Distraktoren (j, k, m, n, o) passen zu keiner Lücke im Text."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 30,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "letter",
+          "instructions": "Wählen Sie EINE der beiden folgenden Aufgaben (A oder B) und bearbeiten Sie diese. Beachten Sie die Leitpunkte und schreiben Sie mindestens 150 Wörter (Richtwert: 200 Wörter). Kennzeichnen Sie am Anfang Ihres Textes deutlich, welche Aufgabe Sie gewählt haben.",
+          "instructionsTranslation": "Choose ONE of the two tasks (A or B) below and complete it. Address the guiding points and write at least 150 words (target: around 200 words). Clearly mark at the top of your text which task you have chosen.",
+          "prompt": "AUFGABE A (Beschwerdebrief):\n\nSituation: Vor zwei Wochen haben Sie in Ihrer Krankenkasse, der 'GesundheitPlus AG' in Düsseldorf, einen genehmigten Antrag auf Erstattung eines zertifizierten Präventionskurses 'Stressbewältigung' eingereicht. Die Kursgebühr von 220 € haben Sie bereits persönlich an den Kursanbieter gezahlt. Obwohl die Kasse Ihnen die Erstattung schriftlich zugesagt hatte, ist bis heute kein Geld auf Ihrem Konto eingegangen; schriftliche Nachfragen per E-Mail wurden mehrfach nicht beantwortet, und an der Servicehotline hängen Sie regelmäßig mehr als 30 Minuten in der Warteschleife.\n\nSchreiben Sie eine formelle Beschwerde an die Kundenbeschwerdestelle der 'GesundheitPlus AG' (Frau Dr. Katharina Brandt). Gehen Sie auf die folgenden drei Leitpunkte ein:\n\n• Beschreiben Sie die konkreten Mängel im Service der Krankenkasse (ausbleibende Erstattung, nicht beantwortete E-Mails, unerreichbare Hotline).\n• Erläutern Sie, welche finanziellen oder persönlichen Folgen die Verzögerung für Sie hat.\n• Formulieren Sie eine klare Forderung (Erstattung plus Verzugszinsen, schriftliche Stellungnahme, konkrete Frist).\n\nBeachten Sie Anrede, Einleitung und Grußformel. Schreiben Sie mindestens 150 Wörter.\n\n— ODER —\n\nAUFGABE B (Bitte um Information):\n\nSituation: Sie interessieren sich für eine berufsbegleitende Weiterbildung zur 'Präventionsberaterin / zum Präventionsberater im Betrieb', die von der Deutschen Akademie für Gesundheitsbildung in Frankfurt angeboten wird. In einer Anzeige haben Sie von dem 12-monatigen Programm erfahren, das zertifiziert nach § 20 SGB V sein soll und teils online, teils in Präsenz stattfindet. Vor einer verbindlichen Anmeldung benötigen Sie noch mehrere Detailinformationen.\n\nSchreiben Sie einen formellen Brief an die Kursleitung (Herrn Prof. Dr. Andreas Vogel). Gehen Sie auf die folgenden drei Leitpunkte ein:\n\n• Fragen Sie nach dem genauen Kursaufbau (Umfang der Online- und Präsenzanteile, Prüfungsform, Anerkennung durch Krankenkassen).\n• Erkundigen Sie sich nach Fördermöglichkeiten (Bildungsgutschein, Aufstiegs-BAföG oder steuerliche Absetzbarkeit).\n• Bitten Sie um Informationen zum Zeitplan und zur Anmeldefrist für den nächsten Durchgang.\n\nBeachten Sie eine passende formelle Anrede, strukturierte Fragen und eine höfliche Grußformel. Schreiben Sie mindestens 150 Wörter.",
+          "promptTranslation": "TASK A (Complaint letter):\n\nSituation: Two weeks ago you submitted an approved application for reimbursement of a certified prevention course 'Stress management' to your health insurer 'GesundheitPlus AG' in Düsseldorf. You already personally paid the 220 € course fee to the provider. Although the insurer confirmed reimbursement in writing, no money has arrived; written e-mail inquiries have been ignored repeatedly, and the service hotline keeps you waiting more than 30 minutes.\n\nWrite a formal complaint to the customer complaint office (Dr. Katharina Brandt). Address these three guiding points:\n\n• Describe the concrete service shortcomings (missing reimbursement, unanswered e-mails, unreachable hotline).\n• Explain the financial or personal consequences of the delay.\n• Formulate a clear demand (reimbursement plus interest, written statement, concrete deadline).\n\nInclude salutation, opening, and closing. Write at least 150 words.\n\n— OR —\n\nTASK B (Request for information):\n\nSituation: You are interested in a part-time further-education program 'Prevention Advisor in the Workplace' offered by the German Academy for Health Education in Frankfurt. From an advertisement you learned that the 12-month program is certified under § 20 SGB V and combines online and in-person classes. Before committing, you need further details.\n\nWrite a formal letter to the course director (Prof. Dr. Andreas Vogel). Address these three guiding points:\n\n• Ask about the exact course structure (online/in-person share, exam format, recognition by insurers).\n• Inquire about funding options (training voucher, Aufstiegs-BAföG, tax deductibility).\n• Ask for the timeline and application deadline for the next intake.\n\nUse an appropriate formal greeting, structured questions, and a polite closing. Write at least 150 words.",
+          "requiredPoints": [
+            "Aufgabe A: konkrete Service-Mängel, finanzielle/persönliche Folgen, klare Forderung + Frist",
+            "Aufgabe B: Frage zum Kursaufbau, Frage zu Fördermöglichkeiten, Frage zu Zeitplan/Anmeldefrist"
+          ],
+          "wordCountMin": 150,
+          "wordCountMax": 230,
+          "sampleAnswer": "[AUFGABE A — Beispielantwort: Beschwerdebrief]\n\nSehr geehrte Frau Dr. Brandt,\n\nvor mehr als zwei Wochen reichte ich bei Ihrem Haus einen genehmigten Antrag auf Erstattung meiner Kursgebühr für den Präventionskurs 'Stressbewältigung' in Höhe von 220 Euro ein. Leider sehe ich mich nun gezwungen, auf mehrere gravierende Mängel im Service hinzuweisen.\n\nZunächst ist die zugesagte Erstattung bis heute nicht auf meinem Konto eingegangen. Darüber hinaus habe ich Ihrem Haus bereits drei schriftliche Nachfragen per E-Mail gesandt, von denen keine einzige beantwortet wurde. Auch die telefonische Servicehotline ist regelmäßig so überlastet, dass ich dort mehrfach nach einer Wartezeit von über 30 Minuten wieder aufgelegt habe.\n\nDiese Verzögerung hat für mich konkrete finanzielle Folgen. Die von mir bereits vollständig ausgelegten 220 Euro fehlen aktuell in meinem monatlichen Budget, und die anhaltende Ungewissheit belastet mich zusätzlich.\n\nIch fordere Sie daher auf, den genehmigten Betrag innerhalb von zehn Werktagen zuzüglich gesetzlicher Verzugszinsen auf mein bekanntes Konto zu überweisen und mir eine schriftliche Stellungnahme zum Bearbeitungsstand zukommen zu lassen. Andernfalls werde ich die Unabhängige Patientenberatung einschalten.\n\nMit freundlichen Grüßen\nJulia Neumann\n\n— — — — —\n\n[AUFGABE B — Beispielantwort: Bitte um Information]\n\nSehr geehrter Herr Prof. Dr. Vogel,\n\nmit großem Interesse habe ich die Ausschreibung Ihrer Weiterbildung zur Präventionsberaterin im Betrieb gelesen und möchte Sie vor einer verbindlichen Anmeldung um einige weiterführende Informationen bitten.\n\nZunächst interessiert mich der genaue Aufbau des Programms. Könnten Sie mir mitteilen, wie sich die Online- und Präsenzanteile über die zwölf Monate verteilen und welche Prüfungsform am Ende vorgesehen ist? Außerdem wäre es wichtig zu erfahren, ob das Zertifikat von allen gesetzlichen Krankenkassen nach § 20 SGB V anerkannt wird.\n\nDarüber hinaus möchte ich mich nach den Fördermöglichkeiten erkundigen. Ist die Teilnahme über einen Bildungsgutschein der Agentur für Arbeit abrechenbar, oder kommt alternativ das Aufstiegs-BAföG infrage? Falls keine dieser Varianten greift, würde mich interessieren, in welchem Umfang die Kursgebühr steuerlich als Werbungskosten absetzbar ist.\n\nSchließlich bitte ich Sie um konkrete Angaben zum Beginn des nächsten Durchgangs und zur Anmeldefrist, damit ich meine berufliche Planung rechtzeitig darauf abstimmen kann.\n\nFür Ihre Rückmeldung bedanke ich mich im Voraus und verbleibe mit freundlichen Grüßen\nMartin Schröder",
+          "scoringCriteria": [
+            {
+              "criterion": "I. Berücksichtigung der Leitpunkte",
+              "maxPoints": 15,
+              "description": "Alle drei Leitpunkte der gewählten Aufgabe (A oder B) werden inhaltlich mit B2-typischer Tiefe behandelt – nicht nur erwähnt, sondern mit Begründung und konkreten Details ausgeführt. A: A++ (15 Pkt) / B: B+ (10 Pkt) / C: C (5 Pkt) / D: unbehandelt (0 Pkt). Wird diese Kategorie mit D bewertet, erhält die gesamte Aufgabe 0 Punkte."
+            },
+            {
+              "criterion": "II. Kommunikative Gestaltung",
+              "maxPoints": 15,
+              "description": "Formelle Anrede, logischer Textaufbau (Einleitung – Hauptteil – Schluss), konsistenter Sie-Register, B2-typische Diskursmarker (darüber hinaus, allerdings, zunächst, infolgedessen, angesichts, im Übrigen), passende Grußformel. Register-Sprünge (z.B. 'Hallo' in Beschwerde) werden abgewertet. Bei Aufgabe B: strukturierte Reihenfolge der Fragen und höfliche Modalisierung ('Könnten Sie mir mitteilen ...') werden positiv gewichtet."
+            },
+            {
+              "criterion": "III. Formale Richtigkeit",
+              "maxPoints": 15,
+              "description": "B2-Grammatik korrekt eingesetzt: Passiv, Konjunktiv II für höfliche Forderungen/Bitten ('Ich möchte Sie darum bitten', 'Könnten Sie mir mitteilen ...'), Nominalisierung, komplexe Nebensätze, Genitiv-Präpositionen. Rechtschreibung und Zeichensetzung. Fehler, die das Verständnis blockieren, führen zu D und damit zu 0 Punkten gesamt."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "presentation",
+          "instructions": "Teil 1 — Präsentation (ca. 3 Minuten pro Kandidat:in). Jede:r Kandidat:in erhält eine Themenkarte und hält eine kurze, strukturierte Präsentation (Einstieg, Hauptteil, Schluss). Anschließend stellt die Partnerin/der Partner 1–2 Nachfragen.",
+          "instructionsTranslation": "Part 1 — Presentation (approx. 3 minutes per candidate). Each candidate receives a topic card and gives a short, structured presentation (intro, main body, conclusion). Afterwards the partner asks 1–2 follow-up questions.",
+          "prompt": "KANDIDAT:IN A — Thema: 'Die Bedeutung von Prävention und Vorsorge für die Gesundheit'\n\nHalten Sie eine kurze Präsentation (ca. 3 Minuten) zu diesem Thema. Strukturieren Sie Ihren Vortrag so:\n\n• Einstieg: Warum ist Prävention heute wichtiger als noch vor zwanzig Jahren? Nennen Sie ein konkretes Beispiel aus Ihrem persönlichen Umfeld.\n• Hauptteil: Welche Vorteile bringt regelmäßige Vorsorge – für die einzelne Person und für das Gesundheitssystem insgesamt? Welche Hürden halten Menschen davon ab (Zeit, Kosten, Angst, mangelnde Information)?\n• Schluss: Wie könnten Krankenkassen und Politik Prävention stärker fördern? Ihre persönliche Einschätzung.\n\n—\n\nKANDIDAT:IN B — Thema: 'Digitale Gesundheit: Apps, E-Rezept und Telemedizin'\n\nHalten Sie eine kurze Präsentation (ca. 3 Minuten) zu diesem Thema. Strukturieren Sie Ihren Vortrag so:\n\n• Einstieg: Wie verbreitet sind digitale Gesundheitsangebote heute in Deutschland und in Ihrem Umfeld? Ein konkretes Beispiel (Gesundheits-App, E-Rezept, Videosprechstunde).\n• Hauptteil: Welche Vorteile bietet digitale Gesundheit (für Patientinnen, Ärzte, chronisch Kranke)? Welche Nachteile oder Bedenken sehen Sie (Datenschutz, Ungleichheit beim Zugang, Qualitätssicherung)?\n• Schluss: Welche Bedingungen sollten erfüllt sein, damit digitale Gesundheit allen zugute kommt? Ihre Einschätzung.",
+          "sampleResponse": "[Kandidat:in A — Prävention und Vorsorge]\n\nMeine Damen und Herren, ich möchte heute über die Bedeutung von Prävention und Vorsorge sprechen. In kaum einem anderen Bereich hat sich das Denken so verändert wie in der Medizin: Während früher vor allem behandelt wurde, wenn die Krankheit schon da war, rückt heute das Vermeiden in den Mittelpunkt. Ein Beispiel aus meinem Umfeld: Mein Onkel, Jahrgang 1960, hat erst nach einem Herzinfarkt angefangen, regelmäßig zur Vorsorge zu gehen – seine Kinder dagegen lassen ihren Blutdruck schon mit dreißig kontrollieren. Der Wandel ist spürbar.\n\nIm Hauptteil möchte ich auf Vorteile und Hürden eingehen. Für den Einzelnen bedeutet Prävention längere Lebenserwartung, höhere Lebensqualität und weniger schwere Eingriffe im Alter. Für das Gesundheitssystem wiederum bedeutet sie geringere Behandlungskosten und weniger Krankenhausaufenthalte. Allerdings darf man die Hürden nicht unterschätzen. Viele Menschen haben schlicht keine Zeit, bestimmte Vorsorgeuntersuchungen werden von den Kassen nicht komplett übernommen, und eine diffuse Angst vor Diagnosen spielt ebenfalls eine Rolle.\n\nAbschließend bin ich überzeugt, dass Prävention stärker gefördert werden muss – etwa durch arbeitgeberfinanzierte Vorsorge-Zeitfenster, niedrigschwellige Aufklärung in Schulen und verständliche, mehrsprachige Informationen für alle Bevölkerungsgruppen. Vielen Dank – was denkst du dazu?\n\n[Beispielhafte Nachfrage der Partnerin/des Partners: 'Welche Vorsorgeuntersuchung hältst du persönlich für am wichtigsten?']",
+          "evaluationTips": [
+            "Strukturieren Sie die Präsentation klar: Einstieg – Hauptteil – Schluss",
+            "Verwenden Sie B2-Diskursmarker: 'Zunächst', 'Darüber hinaus', 'Allerdings', 'Abschließend'",
+            "Nennen Sie EIN konkretes Beispiel (aus Familie/Umfeld/Erfahrung), keine rein abstrakten Aussagen",
+            "Balance aus Vorteilen UND Hürden zeigen – B2 verlangt Differenzierung",
+            "Konjunktiv II für Einschätzungen: 'Sinnvoll wäre ...', 'Ich könnte mir vorstellen, dass ...'",
+            "Fachvokabular Gesundheit: Prävention, Vorsorgeuntersuchung, Früherkennung, Lebenserwartung, Gesundheitskompetenz",
+            "Direkter Schluss mit persönlicher Einschätzung + Übergabe an Partner",
+            "Zeitlimit (~3 Min) beachten – nicht länger, nicht kürzer"
+          ],
+          "keyPhrases": [
+            "Ich möchte heute über ... sprechen.",
+            "Ein konkretes Beispiel dafür ist ...",
+            "Einerseits ..., andererseits ...",
+            "Besonders hervorheben möchte ich ...",
+            "Allerdings darf man nicht übersehen, dass ...",
+            "Meiner Ansicht nach ...",
+            "Abschließend lässt sich festhalten ...",
+            "Was denken Sie / was denkst du dazu?"
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "discussion",
+          "instructions": "Teil 2 — Diskussion (ca. 5 Minuten gemeinsam). Beide Kandidat:innen erhalten denselben provokanten Satz und diskutieren ihn. Ziel: eigene Position vertreten, auf die Argumente der Partnerin/des Partners eingehen, widersprechen oder weiterentwickeln.",
+          "instructionsTranslation": "Part 2 — Discussion (approx. 5 minutes together). Both candidates receive the same provocative statement and discuss it. Goal: defend your own position, engage with the partner's arguments, disagree or build on them.",
+          "prompt": "Thema für beide Kandidat:innen:\n\n'Impfungen gegen vermeidbare Krankheiten sollten in Deutschland grundsätzlich zur Pflicht werden – wer sich weigert, sollte finanzielle Nachteile in der gesetzlichen Krankenversicherung in Kauf nehmen.'\n\n— Leitfragen für die Diskussion —\n\n• Stimmen Sie dieser These zu oder widersprechen Sie?\n• Welche Argumente sprechen für eine Impfpflicht? Für wen?\n• Welche Argumente sprechen dagegen – rechtlich, ethisch, medizinisch?\n• Wäre ein moderates Anreizsystem (Bonus für Geimpfte, statt Strafe für Ungeimpfte) ein sinnvoller Kompromiss?\n\nReagieren Sie auf die Argumente Ihrer Partnerin/Ihres Partners, widersprechen Sie höflich, wo nötig, und versuchen Sie am Ende, Ihre Positionen zusammenzuführen oder respektvoll unterschiedlich stehen zu lassen.",
+          "sampleResponse": "KANDIDAT:IN A: 'Also, grundsätzlich sehe ich die These kritisch. Eine allgemeine Impfpflicht greift sehr tief in die körperliche Selbstbestimmung ein. Aus meiner Sicht sollte man zuerst über bessere Aufklärung und niedrigschwellige Angebote nachdenken, bevor man zu Sanktionen greift.'\n\nKANDIDAT:IN B: 'Da möchte ich teilweise widersprechen. Ich sehe zwar das Argument der Selbstbestimmung, aber bei hochansteckenden Krankheiten wie Masern geht es eben nicht nur um den Einzelnen, sondern auch um den Schutz von Säuglingen und Menschen, die aus medizinischen Gründen gar nicht geimpft werden können. Da würde ich tatsächlich eine Pflicht für bestimmte Impfungen befürworten.'\n\nKANDIDAT:IN A: 'Das ist ein starkes Argument. Allerdings sehe ich den Unterschied zwischen einer klar begrenzten Impfpflicht – etwa für Kitakinder gegen Masern, wie es sie ja bereits gibt – und einer allgemeinen Regelung mit finanziellen Sanktionen in der Krankenversicherung. Letzteres halte ich für problematisch, weil es sozial schwache Menschen doppelt trifft.'\n\nKANDIDAT:IN B: 'Guter Punkt – wenn man die Sanktionen so sieht, gebe ich dir recht. Vielleicht wäre es dann sinnvoller, mit Anreizen zu arbeiten: Bonuszahlungen für nachgewiesenen Impfschutz, ähnlich wie bei Vorsorgeuntersuchungen. Damit bleibt Freiwilligkeit erhalten, und die Nachteile treffen niemanden unverhältnismäßig.'\n\nKANDIDAT:IN A: 'Da stimme ich dir zu. Ein moderates Bonussystem empfinde ich als fairen Kompromiss. Wichtig wäre mir zusätzlich, dass die Aufklärung in der hausärztlichen Sprechstunde verbessert wird – viele Unsicherheiten entstehen ja durch Fehlinformationen.'\n\nKANDIDAT:IN B: 'Einverstanden. Insgesamt sehe ich die Idee einer Impfpflicht differenziert: begrenzt und wohlbegründet bei gefährlichen Infektionen, aber keine pauschale finanzielle Bestrafung für alle Ungeimpften.'",
+          "evaluationTips": [
+            "Klare Position beziehen – 'Ich stimme zu / Ich widerspreche'",
+            "Auf das Gesagte des Partners konkret eingehen – nicht nur die eigene Position wiederholen",
+            "Widerspruch höflich: 'Da möchte ich teilweise widersprechen ...', 'Das sehe ich anders, weil ...'",
+            "Konjunktiv II für hypothetische Argumentation: 'Wäre ...', 'Würde ...', 'Könnte ...'",
+            "Konkrete Beispiele oder Krankheiten nennen (Masern, Grippe, HPV), keine rein theoretischen Argumente",
+            "Ethische und rechtliche Begriffe einbringen: körperliche Selbstbestimmung, Herdenschutz, Verhältnismäßigkeit",
+            "Versuch der Synthese am Ende: 'Ein Kompromiss wäre ...', 'Wenn man es so staffelt ...'",
+            "Diskursmarker der Argumentation: 'allerdings', 'andererseits', 'demgegenüber', 'darüber hinaus'"
+          ],
+          "keyPhrases": [
+            "Meiner Meinung nach ...",
+            "Ich kann dem nur teilweise zustimmen.",
+            "Das sehe ich anders, weil ...",
+            "Ein starkes Argument dafür/dagegen ist ...",
+            "Darf ich kurz darauf eingehen?",
+            "Ich verstehe deinen Punkt, allerdings ...",
+            "Wenn man es so betrachtet, ...",
+            "Ein Kompromiss könnte sein, dass ...",
+            "Da sind wir uns wohl einig."
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Teil 3 — Gemeinsam Planen (ca. 5 Minuten). Beide Kandidat:innen erhalten denselben Planungsauftrag und müssen gemeinsam zu einer konkreten Lösung kommen: Vorschläge machen, abwägen, verhandeln, Entscheidung treffen.",
+          "instructionsTranslation": "Part 3 — Collaborative Planning (approx. 5 minutes). Both candidates receive the same planning task and must reach a concrete joint solution: make proposals, weigh options, negotiate, decide.",
+          "prompt": "Planungsauftrag für beide Kandidat:innen:\n\nIhr gemeinsamer Freund Matteo Russo ist vor kurzem aus dem Krankenhaus entlassen worden, nachdem er aufgrund eines Burnouts sechs Wochen stationär behandelt wurde. Seine Ärztin hat ihm dringend empfohlen, seinen Lebensstil umzustellen und wieder aktiver am sozialen Leben teilzunehmen. Sie beide möchten ihm dabei helfen und planen einen 'Gesundheits-Neustart-Samstag', an dem Sie gemeinsam mit ihm mehrere gesundheitsfördernde Aktivitäten ausprobieren.\n\nBesprechen Sie folgende Punkte und treffen Sie konkrete Entscheidungen:\n\n• Zeitpunkt: An welchem Samstag soll der Neustart stattfinden? Morgens, nachmittags oder ganztägig?\n• Ort & Aktivitäten: Welche konkreten gesundheitsfördernden Aktivitäten werden Sie einplanen (z. B. Spaziergang im Park, gemeinsames gesundes Kochen, Entspannungskurs, Yoga, leichtes Schwimmen)? Wo genau?\n• Rücksichtnahme: Wie stellen Sie sicher, dass Matteo nicht überfordert wird und jederzeit abbrechen kann? Welche Gesprächsthemen vermeiden Sie bewusst?\n• Budget: Wie viel sind Sie bereit auszugeben? Wie teilen Sie die Ausgaben unter sich auf?\n• Aufgabenverteilung: Wer übernimmt welche konkrete Vorbereitung bis zum Samstag (Einkauf, Buchung, Fahrt zu Matteo, Nachbesprechung am Abend)?\n\nEinigen Sie sich am Ende auf einen klaren Plan.",
+          "sampleResponse": "KANDIDAT:IN A: 'Fangen wir mit dem Zeitpunkt an. Ich würde vorschlagen, den Samstag in zwei Wochen zu nehmen, also den zehnten Mai – das gibt Matteo etwas Abstand zur Klinikentlassung. Lieber nicht ganztägig, sondern von zehn Uhr bis siebzehn Uhr mit langer Mittagspause, damit er nicht überfordert ist. Was hältst du davon?'\n\nKANDIDAT:IN B: 'Der zehnte Mai klingt gut. Ganztägig wäre tatsächlich zu viel. Wie wäre es, wenn wir morgens mit einem ruhigen Spaziergang am Stadtpark anfangen, dann gemeinsam bei mir zu Hause gesund kochen – ich habe da ein Rezept für eine mediterrane Gemüsepfanne – und nachmittags zu einem sanften Yoga-Kurs gehen, der um fünfzehn Uhr im Gesundheitszentrum Mitte beginnt?'\n\nKANDIDAT:IN A: 'Okay, das klingt richtig ausgewogen – Bewegung, Ernährung, Entspannung, alles dabei. Wichtig ist mir aber auch, dass Matteo jederzeit ausssteigen kann. Ich würde ihm am Vorabend schreiben, dass wir absolut flexibel sind, wenn er Pausen braucht oder etwas auslassen möchte. Und wir sollten bewusst nicht über Arbeitsstress oder die Rückkehr in den Job sprechen – darauf hat ihn die Therapeutin ja vorbereitet.'\n\nKANDIDAT:IN B: 'Einverstanden. Zum Budget: Sollten wir 60 Euro einplanen? Der Yoga-Kurs kostet 15 Euro pro Person als Tagespass, das Essen etwa 15 Euro insgesamt. Wir beide übernehmen je die Hälfte, und Matteo laden wir selbstverständlich ein – das passt dann genau.'\n\nKANDIDAT:IN A: 'Gute Rechnung. Zur Aufgabenverteilung: Ich übernehme den Einkauf für das Mittagessen und buche den Yoga-Kurs im Voraus. Außerdem hole ich Matteo um neun Uhr ab, weil er aktuell nicht Auto fahren soll.'\n\nKANDIDAT:IN B: 'Prima, dann kümmere ich mich um das Kochen – Einkaufsliste schicke ich dir heute noch – und bereite den Park-Spaziergang vor. Abends könnten wir zu dritt kurz besprechen, wie es gelaufen ist, ob wir einen zweiten Samstag in vier Wochen einplanen.'\n\nKANDIDAT:IN A: 'Perfekt. Also zusammengefasst: Samstag, 10. Mai, zehn bis siebzehn Uhr, Spaziergang + Kochen bei dir + Yoga ab 15 Uhr, 60 Euro Budget geteilt durch zwei (Matteo eingeladen), du kochst und planst den Spaziergang, ich mache Einkauf + Yoga-Buchung + Fahrdienst. Abgemacht!'",
+          "evaluationTips": [
+            "Konkrete Vorschläge statt vager Ideen: Datum, Uhrzeit, Ort, Betrag nennen",
+            "Aktiv zuhören – reagieren Sie spezifisch auf die Vorschläge des Partners",
+            "Konjunktiv II für Vorschläge: 'Ich würde vorschlagen ...', 'Wir könnten ...', 'Wie wäre es mit ...?'",
+            "Kompromisse zeigen: 'Ganztägig ist zu viel – wie wäre halbtags?'",
+            "Sensibilitätskriterium: Rücksicht auf Matteos Gesundheitslage explizit besprechen",
+            "Am Ende zusammenfassen: 'Also zusammengefasst: ...'",
+            "Aufgabenverteilung explizit machen: 'Du übernimmst ..., ich übernehme ...'",
+            "Höfliche Zustimmung/Widerspruch: 'Einverstanden', 'Abgemacht', 'Das sehe ich anders'",
+            "Budget und Aufgabenverteilung müssen beide konkret benannt werden"
+          ],
+          "keyPhrases": [
+            "Ich würde vorschlagen, dass ...",
+            "Wie wäre es, wenn wir ...?",
+            "Das klingt sinnvoll, aber ...",
+            "Können wir uns darauf einigen, dass ...?",
+            "Wer übernimmt ...?",
+            "Ich kümmere mich um ..., du übernimmst bitte ...",
+            "Einverstanden / Abgemacht.",
+            "Also zusammengefasst: ...",
+            "Sollen wir das so festhalten?"
+          ]
+        }
+      ]
+    }
   }
 }

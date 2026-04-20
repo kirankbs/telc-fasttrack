@@ -1,0 +1,180 @@
+<speak>
+  <!-- B2 Mock 03 — Teil 2 (10 True/False, playCount=1) -->
+  <!-- Moderator: de-DE-Wavenet-E (male) — interviewer -->
+  <!-- Expert Dr. Lorenz: de-DE-Wavenet-D (male) — guest / arbeitsmediziner Charité -->
+  <!-- B2 spec: natural speed 1.0x, continuous interview, no item-level pauses, played ONCE -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Hörverstehen, Teil 2. Sie hören ein Interview zum Thema psychische Gesundheit am
+      Arbeitsplatz. Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind.
+      Sie hören das Interview nur einmal.
+    </prosody>
+    <break time="10s"/>
+  </voice>
+
+  <!-- Intro and speaker presentation -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Guten Morgen, liebe Hörerinnen und Hörer. In unserer heutigen Sendung sprechen wir
+      über psychische Gesundheit am Arbeitsplatz. Mein heutiger Gast ist Dr. Clemens Lorenz,
+      Facharzt für Arbeitsmedizin und Leiter der Abteilung für betriebliche
+      Gesundheitsförderung an der Charité in Berlin. Herzlich willkommen, Herr Dr. Lorenz.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Vielen Dank für die Einladung – ich freue mich, zu einem so wichtigen Thema
+      mit Ihnen zu sprechen.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q2 context: Stress per se -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Herr Dr. Lorenz, viele Menschen klagen heute über Stress im Beruf. Ist Stress
+      grundsätzlich etwas Krankhaftes, das wir vollständig vermeiden sollten?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Nein, ganz klar nicht. Stress ist per se nichts Krankhaftes – wir brauchen eine
+      gewisse Anspannung, um überhaupt leistungsfähig zu sein. Problematisch wird es erst,
+      wenn Erholungsphasen ausbleiben und chronischer Dauerstress entsteht. Genau dieser
+      Kipppunkt ist es, den wir in der Arbeitsmedizin im Blick behalten müssen.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q3: Burnout-Anstieg -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Wie entwickelt sich denn die Zahl der Burnout-Diagnosen in den letzten Jahren?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Was uns Sorgen bereitet, ist der massive Anstieg der Burnout-Diagnosen in den
+      vergangenen sieben Jahren – mit knapp vierzig Prozent Zuwachs gehört Deutschland
+      hier zur europäischen Spitzengruppe. Das ist ein Alarmsignal, das wir ernst
+      nehmen müssen.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q4: Vorurteil junge trifft -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Betrifft Burnout denn vor allem jüngere Beschäftigte unter dreißig, wie man oft hört?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Ein weit verbreitetes Vorurteil ist, dass Burnout vor allem Jüngere trifft – unsere
+      Daten zeigen aber das Gegenteil: Am häufigsten betroffen sind Beschäftigte zwischen
+      fünfundvierzig und fünfundfünfzig Jahren. Gerade in dieser Lebensphase verdichten sich
+      berufliche Verantwortung, familiäre Sorgepflichten und oft auch gesundheitliche
+      Vorbelastungen.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q5: Erreichbarkeit als Risikofaktor -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Welche Rolle spielt die ständige Erreichbarkeit außerhalb der Arbeitszeit?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Eine enorme. Zu den zentralen Belastungsfaktoren gehört unbestritten die permanente
+      Erreichbarkeit – wer auch abends und am Wochenende auf E-Mails reagiert, findet
+      schlicht nicht mehr in die Regeneration. Das Gehirn kommt nie ganz zur Ruhe, und
+      das hat messbare Folgen für Schlaf und Konzentration.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q6: Firmensport relativiert -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Viele Unternehmen setzen heute auf Firmensport. Ist das ausreichend, um gegen
+      psychische Belastung vorzubeugen?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Firmensport kann ein Baustein sein, aber allein reicht er bei Weitem nicht.
+      Entscheidend ist eine Kombination aus klaren Regeln zur Arbeitszeit, qualifizierter
+      Führung und niedrigschwelligen Beratungsangeboten. Wer ausschließlich auf Yoga-Kurse
+      am Dienstagabend setzt, geht an den eigentlichen Ursachen vorbei.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q7: Pausenzeiten verankern -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Was empfehlen Sie Unternehmen konkret?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Wir raten Unternehmen dringend, verbindliche Ruhe- und Pausenzeiten in den
+      Betriebsvereinbarungen zu verankern – insbesondere eine klare Grenze zwischen
+      Dienst und Feierabend. Eine solche Regelung muss für alle Beschäftigten gelten,
+      auch für Führungskräfte, sonst bleibt sie wirkungslos.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q8: Männer zurückhaltender -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Nehmen Männer und Frauen die betrieblichen Beratungsangebote unterschiedlich wahr?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Leider beobachten wir nach wie vor, dass Männer deutlich zurückhaltender sind,
+      Beratungsangebote wahrzunehmen – Frauen suchen sich im Schnitt früher und öfter
+      Unterstützung. Das ist ein gesellschaftliches Erbe, an dem wir als Arbeitsmediziner
+      kontinuierlich mitarbeiten.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q9: Gesetz begrüßenswert aber unvollständig -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Seit einiger Zeit gibt es eine gesetzliche Verpflichtung zur psychischen
+      Gefährdungsbeurteilung am Arbeitsplatz. Wie bewerten Sie diese?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Die gesetzliche Verpflichtung zur psychischen Gefährdungsbeurteilung ist grundsätzlich
+      ein Schritt in die richtige Richtung, allerdings fehlen bislang klare Sanktionen,
+      wenn Betriebe die Beurteilung gar nicht oder nur oberflächlich durchführen.
+      Ohne Kontrolle und Konsequenzen bleibt jedes gute Gesetz am Ende zahnlos.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q10: Verabschiedung -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Herr Dr. Lorenz, vielen Dank für diese klaren Einschätzungen. Mehr zu diesem Thema
+      finden Sie in unserem ausführlichen Online-Artikel auf unserer Webseite. Ich wünsche
+      Ihnen allen einen gesunden Tag.
+    </prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>
