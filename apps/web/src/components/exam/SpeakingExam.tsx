@@ -8,6 +8,8 @@ import type { ExamPhase } from '@/lib/examTypes';
 import { saveSection } from '@/lib/examSession';
 import { ExamTimer } from './ExamTimer';
 import { SectionIntro } from './SectionIntro';
+import { SpeakingRecorder } from './SpeakingRecorder';
+import { PrepTimer } from './PrepTimer';
 
 interface SpeakingExamProps {
   mockId: string;
@@ -165,6 +167,10 @@ export function SpeakingExam({ mockId, level, section }: SpeakingExamProps) {
         />
       </div>
 
+      {section.prepTimeMinutes > 0 && (
+        <PrepTimer totalSeconds={section.prepTimeMinutes * 60} />
+      )}
+
       <div className="flex gap-2">
         {section.parts.map((p, i) => (
           <button
@@ -232,6 +238,20 @@ export function SpeakingExam({ mockId, level, section }: SpeakingExamProps) {
             </ul>
           </div>
         )}
+
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-wide text-text-secondary mb-2">
+            Ihre Aufnahme:
+          </p>
+          <SpeakingRecorder
+            key={`recorder-part-${part.partNumber}`}
+            label={`Aufgabe ${part.partNumber}`}
+          />
+          <p className="mt-2 text-xs text-text-secondary">
+            Tipp: Nehmen Sie Ihre Antwort auf, hören Sie sie ab und vergleichen Sie sie mit
+            der Musterlösung. Aufnahmen werden nicht gespeichert.
+          </p>
+        </div>
 
         {part.sampleResponse && (
           <div>
