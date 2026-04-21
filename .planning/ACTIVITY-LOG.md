@@ -46,3 +46,4 @@ HH:MM | agent-name | START/DONE/BLOCKED | work-item-id | description
 18:30 | ux-engineer | START | #53 | Phase 4 — flashcards + grammar topic + results sequencing (worktree ui-upgrade-phase4-vocab-grammar-results)
 19:05 | ux-engineer | DONE  | #53 | Phase 4 complete — typecheck+tests+build all green locally, 178 web tests passing (14 new), handoff at .planning/handoffs/2026-04-20-ux-phase4-vocab-grammar-results.md
 22:21 | implementation-lead | START | #71 | B2 mock_10 Wirtschaft & Konsum — authoring full mock + SSML scripts
+23:05 | implementation-lead | DONE  | #71 | B2 mock_10 Wirtschaft & Konsum complete — PR #80 all 3 CI checks green, catalog title updated, SSML deferred to audio task, handoff at .planning/handoffs/2026-04-21-impl-b2-mock-10.md
