@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Sans, Instrument_Serif, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import { FeedbackFAB } from "@/components/FeedbackFAB";
 
 const sans = DM_Sans({
   subsets: ["latin"],
@@ -54,6 +55,7 @@ export default function RootLayout({
           </main>
           <Footer />
         </div>
+        <FeedbackFAB />
       </body>
     </html>
   );
