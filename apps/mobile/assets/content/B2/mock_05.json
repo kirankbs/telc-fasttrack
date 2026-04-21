@@ -1,13 +1,936 @@
 {
   "id": "B2_mock_05",
   "level": "B2",
-  "title": "Übungstest 5",
-  "version": 0,
-  "_stub": true,
+  "title": "B2 Übungstest 5: Umwelt & Nachhaltigkeit",
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Nachrichtenmeldungen. Entscheiden Sie bei jeder Aussage: richtig oder falsch? Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short news bulletins. For each statement decide: correct or incorrect? You will hear each text only once.",
+          "audioFile": "assets/audio/B2/mock05/listening_part1.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m05_L1_q1",
+              "type": "true_false",
+              "questionText": "Laut dem neuen IPCC-Bericht sinken die weltweiten Treibhausgasemissionen bereits deutlich.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Meldung sagt: 'Die globalen Emissionen sind im vergangenen Jahr erneut leicht gestiegen; ein Rückgang zeichnet sich bislang nicht ab.' 'erneut gestiegen' und 'kein Rückgang in Sicht' widerlegen die Behauptung eines deutlichen Sinkens. B2-Falle: 'leicht gestiegen' klingt beruhigend, bedeutet aber das Gegenteil eines Rückgangs.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "B2_m05_L1_q2",
+              "type": "true_false",
+              "questionText": "Der neue Offshore-Windpark vor Rügen wird die Stromversorgung von rund 400 000 Haushalten sichern.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Im Audio heißt es: 'Der neue Offshore-Windpark vor Rügen nimmt planmäßig den Betrieb auf und wird rechnerisch rund vierhunderttausend Haushalte mit Strom versorgen.' Zahl und Region werden wörtlich bestätigt.",
+              "audioTimestamp": 48
+            },
+            {
+              "id": "B2_m05_L1_q3",
+              "type": "true_false",
+              "questionText": "Das Umweltbundesamt fordert ein sofortiges, vollständiges Verbot aller Einwegkunststoffe.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Text formuliert: 'Das Umweltbundesamt empfiehlt, die Abgabe auf Einwegkunststoffe schrittweise auszuweiten – ein pauschales Verbot sei derzeit nicht vorgesehen.' Die Behörde rät also zur Ausweitung einer Abgabe, nicht zu einem Komplettverbot. B2-Trap: 'Verbot' ist emotional aufgeladen, aber das Audio spricht nur von schrittweiser Ausweitung einer Abgabe.",
+              "audioTimestamp": 85
+            },
+            {
+              "id": "B2_m05_L1_q4",
+              "type": "true_false",
+              "questionText": "Die Deutsche Bahn will ihre Fernverkehrszüge bis 2030 vollständig mit Ökostrom betreiben.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Meldung sagt wörtlich: 'Bis zum Jahr zweitausenddreißig will die Deutsche Bahn ihre Fernverkehrszüge zu hundert Prozent mit Strom aus erneuerbaren Quellen betreiben.' 'zu hundert Prozent' = 'vollständig'; Zieljahr und Zweck decken sich mit der Aussage.",
+              "audioTimestamp": 118
+            },
+            {
+              "id": "B2_m05_L1_q5",
+              "type": "true_false",
+              "questionText": "Eine aktuelle Studie zeigt, dass in Deutschland der Artenbestand bei Vögeln und Insekten weitgehend stabil geblieben ist.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Text widerspricht dem klar: 'Laut einer Studie der Universität Jena ist der Bestand bei Feldvögeln und Insekten im vergangenen Jahrzehnt dramatisch zurückgegangen.' 'dramatisch zurückgegangen' ist das Gegenteil von 'stabil'. B2-Falle: Prompt verwendet neutrale Wortwahl ('stabil'), Audio dokumentiert einen starken Rückgang.",
+              "audioTimestamp": 155
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören ein Interview zum Thema Verkehrswende in deutschen Städten. Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind. Sie hören das Interview nur einmal.",
+          "instructionsTranslation": "You will hear an interview about the transport transition in German cities. Decide whether the following ten statements are correct or incorrect. You will hear the interview only once.",
+          "audioFile": "assets/audio/B2/mock05/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m05_L2_q1",
+              "type": "true_false",
+              "questionText": "Prof. Dr. Vogt arbeitet am Institut für Verkehrsforschung in Dresden.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Moderator stellt ihn vor: 'Unser Gast ist Prof. Dr. Ulrich Vogt vom Institut für Verkehrsforschung in Dresden.' Name, Titel und Arbeitsort stimmen überein.",
+              "audioTimestamp": 15
+            },
+            {
+              "id": "B2_m05_L2_q2",
+              "type": "true_false",
+              "questionText": "Laut Prof. Vogt liegt Deutschland beim Ausbau der Radverkehrsinfrastruktur inzwischen auf dem Niveau der Niederlande.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Prof. Vogt sagt: 'Verglichen mit den Niederlanden oder Dänemark hinken deutsche Städte beim Radwegeausbau nach wie vor deutlich hinterher.' 'nach wie vor hinterherhinken' = weiterhin weniger. B2-Hedging-Trap: 'inzwischen' suggeriert Fortschritt, aber der Experte widerspricht dem explizit.",
+              "audioTimestamp": 48
+            },
+            {
+              "id": "B2_m05_L2_q3",
+              "type": "true_false",
+              "questionText": "Prof. Vogt meint, Autofahrer müssten grundsätzlich aus den Innenstädten verbannt werden.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Er differenziert: 'Manche fordern ja, Autos komplett aus den Zentren zu verbannen. Das halte ich für unrealistisch und auch nicht für sinnvoll. Uns geht es um faire Flächenverteilung, nicht um Vertreibung.' Klassische B2-Hedging-Falle: 'Manche fordern' markiert eine fremde Meinung, die Prof. Vogt gerade NICHT vertritt. Er lehnt den Vorschlag ab.",
+              "audioTimestamp": 92
+            },
+            {
+              "id": "B2_m05_L2_q4",
+              "type": "true_false",
+              "questionText": "Der Moderator weist darauf hin, dass die Deutsche Umwelthilfe Klagen gegen mehrere Kommunen führt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Moderator sagt: 'Die Deutsche Umwelthilfe hat gegen mehrere Städte geklagt, weil deren Luftreinhaltepläne nicht ausreichten.' 'gegen mehrere Städte geklagt' entspricht 'Klagen gegen mehrere Kommunen'.",
+              "audioTimestamp": 138
+            },
+            {
+              "id": "B2_m05_L2_q5",
+              "type": "true_false",
+              "questionText": "Prof. Vogt sieht im Ausbau des ÖPNV den entscheidenden Hebel für saubere Luft.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Er betont deutlich: 'Der mit Abstand wichtigste Hebel für sauberere Luft ist nach unseren Modellrechnungen der konsequente Ausbau eines attraktiven ÖPNV – Elektroautos allein reichen nicht.' 'mit Abstand wichtigster Hebel' = 'entscheidender Hebel'.",
+              "audioTimestamp": 175
+            },
+            {
+              "id": "B2_m05_L2_q6",
+              "type": "true_false",
+              "questionText": "Prof. Vogt behauptet, das Neun-Euro-Ticket habe keinerlei messbare Wirkung gehabt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Er sagt das Gegenteil: 'Das Neun-Euro-Ticket hat messbar Pkw-Fahrten reduziert – unsere Auswertungen zeigen rund fünf bis sieben Prozent weniger Autoverkehr während der Laufzeit.' B2-Trap: Prompt nutzt absolute Verneinung ('keinerlei'), die der Expertenaussage direkt widerspricht.",
+              "audioTimestamp": 212
+            },
+            {
+              "id": "B2_m05_L2_q7",
+              "type": "true_false",
+              "questionText": "Prof. Vogt empfiehlt, in Wohngebieten die zulässige Höchstgeschwindigkeit zu reduzieren.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Er führt aus: 'Tempo dreißig innerorts als Regelgeschwindigkeit – das senkt Lärm, erhöht die Sicherheit für Kinder und verbessert messbar die Luftqualität.' Die Empfehlung einer reduzierten Höchstgeschwindigkeit in Wohngebieten ist eindeutig.",
+              "audioTimestamp": 245
+            },
+            {
+              "id": "B2_m05_L2_q8",
+              "type": "true_false",
+              "questionText": "Laut Prof. Vogt nimmt der Anteil der Elektroautos bei Neuzulassungen in Deutschland stetig zu.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Prof. Vogt bestätigt: 'Der Anteil rein elektrischer Neuwagen steigt kontinuierlich, auch wenn die Zuwachsraten zuletzt etwas flacher ausgefallen sind.' 'steigt kontinuierlich' = 'nimmt stetig zu'. B2-Trap: 'flachere Zuwachsraten' bedeutet immer noch Zuwachs, nicht Rückgang.",
+              "audioTimestamp": 275
+            },
+            {
+              "id": "B2_m05_L2_q9",
+              "type": "true_false",
+              "questionText": "Prof. Vogt findet, dass die Kaufprämie für E-Autos sofort abgeschafft gehört.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Er sagt: 'Die Prämie ist im Grundsatz richtig; sie sollte aber gezielter auf Haushalte mit mittlerem Einkommen zugeschnitten werden.' Kritik an der Ausgestaltung ist keine Forderung nach Abschaffung. B2-Trap: Verbesserungsvorschlag ≠ Ablehnung der Maßnahme.",
+              "audioTimestamp": 305
+            },
+            {
+              "id": "B2_m05_L2_q10",
+              "type": "true_false",
+              "questionText": "Am Ende des Interviews kündigt der Moderator eine weitere Sendung zum Thema Klimaschutz in der Industrie an.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Moderator verabschiedet lediglich mit: 'Weiterführende Beiträge finden Sie in der Mediathek.' Eine konkrete Folgesendung zum Thema Industrie wird nicht angekündigt. B2-Trap: Die Erwartung einer strukturierten Themen-Ankündigung wird nicht erfüllt.",
+              "audioTimestamp": 345
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Ansagen oder Nachrichten rund um das Thema Umwelt. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short announcements or messages on the topic of environment. What is correct? Choose a, b, or c. You will hear each text only once.",
+          "audioFile": "assets/audio/B2/mock05/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m05_L3_q1",
+              "type": "mcq",
+              "questionText": "Warum ruft Frau Wagner im Rathaus an?",
+              "options": [
+                "a) Sie möchte einen Termin für eine energetische Gebäudeberatung vereinbaren.",
+                "b) Sie beschwert sich über die späte Leerung der Biotonne in ihrer Straße.",
+                "c) Sie bittet um Informationen zur Förderung von Solaranlagen für Privathäuser."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Frau Wagner sagt: 'Ich rufe an, weil mein Mann und ich überlegen, im Sommer eine Photovoltaikanlage aufs Dach zu setzen. Welche Förderungen für Privathaushalte bieten Sie derzeit an?' Der Kern ist die Bitte um Förderinfo zu Solaranlagen – Option c). Distraktor a) 'Gebäudeberatung' ist ein verwandtes Thema, wird aber nicht erwähnt. Distraktor b) nutzt Alltagsvokabular, passt aber nicht zum Inhalt.",
+              "audioTimestamp": 18
+            },
+            {
+              "id": "B2_m05_L3_q2",
+              "type": "mcq",
+              "questionText": "Was teilt die Stadtverwaltung den Bürgerinnen und Bürgern mit?",
+              "options": [
+                "a) In der gesamten Stadt gilt ab Montag ein generelles Fahrverbot für Dieselfahrzeuge.",
+                "b) Ab Montag wird in der Innenstadt eine neue Umweltzone eingerichtet.",
+                "c) Die öffentlichen Parkhäuser werden künftig kostenfrei für Elektroautos."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Ansage informiert: 'Ab Montag, dem fünfzehnten Juni, gilt im Innenstadtbereich eine neue Umweltzone. Einfahren dürfen nur Fahrzeuge mit grüner Plakette.' Die neue Umweltzone mit Plakettenpflicht entspricht Option b). Distraktor a) 'generelles Fahrverbot' geht zu weit – nur Fahrzeuge ohne grüne Plakette sind betroffen, nicht pauschal alle Diesel. Distraktor c) wird nicht erwähnt.",
+              "audioTimestamp": 58
+            },
+            {
+              "id": "B2_m05_L3_q3",
+              "type": "mcq",
+              "questionText": "Was empfiehlt die Energieberaterin dem Anrufer?",
+              "options": [
+                "a) zunächst die Heizungsanlage komplett austauschen zu lassen",
+                "b) mit einer gründlichen Dämmung der Außenwände anzufangen",
+                "c) den Energieverbrauch zwei Monate lang systematisch zu dokumentieren"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Beraterin sagt: 'Bevor Sie über größere Investitionen nachdenken, würde ich Ihnen dringend empfehlen, zunächst zwei Monate lang jede Woche Ihre Zählerstände zu notieren. Nur so wissen wir, wo der Hebel überhaupt liegt.' Sie empfiehlt also explizit die Verbrauchserfassung – Option c). Heizungstausch (a) und Dämmung (b) werden als mögliche Folgeschritte nicht ausgeschlossen, aber sind ausdrücklich NICHT der erste Schritt.",
+              "audioTimestamp": 108
+            },
+            {
+              "id": "B2_m05_L3_q4",
+              "type": "mcq",
+              "questionText": "Was ist das Hauptanliegen der Nachricht an den Hausmeister?",
+              "options": [
+                "a) Er soll die defekte Mülltrennungsanlage im Hof reparieren lassen.",
+                "b) Er soll die Heizung im Treppenhaus wegen milder Witterung reduzieren.",
+                "c) Er wird gebeten, die Fahrradständer im Innenhof zu erweitern."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Hausverwalter hinterlässt auf der Mailbox: 'Angesichts der ungewöhnlich milden Temperaturen in dieser Woche bitte ich Sie dringend, die Treppenhausheizung herunterzuregeln – wir verschwenden hier unnötig Energie.' Die Kernbitte ist die Reduzierung der Heizung – Option b). Mülltrennung (a) und Fahrradständer (c) werden nicht erwähnt.",
+              "audioTimestamp": 150
+            },
+            {
+              "id": "B2_m05_L3_q5",
+              "type": "mcq",
+              "questionText": "Worüber informiert die Durchsage im Naturschutzzentrum?",
+              "options": [
+                "a) Die Führung durch das Moorgebiet fällt wegen Unwetters aus.",
+                "b) Die geplante Vogelstimmenwanderung wird wegen Brutzeit vorverlegt.",
+                "c) Der Vortrag zur Biodiversität wird in einen größeren Saal verlegt."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Ansage sagt: 'Wegen der unerwartet hohen Teilnehmerzahl findet der heutige Vortrag zur Biodiversität in Europa nicht im Seminarraum A, sondern im großen Vortragssaal im ersten Stock statt. Beginn wie geplant um achtzehn Uhr.' Der Raumwechsel ist der Kern – Option c). Moorgebiet-Führung (a) und Vogelstimmenwanderung (b) werden nicht erwähnt; Zeit bleibt unverändert.",
+              "audioTimestamp": 195
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 90,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie zuerst die fünf Kurztexte (1–5) und dann die zehn Überschriften (a–j). Welche Überschrift passt am besten zu welchem Text? Für jeden Text gibt es genau eine passende Überschrift. Fünf Überschriften bleiben übrig.",
+          "instructionsTranslation": "First read the five short texts (1–5) and then the ten headlines (a–j). Which headline best matches which text? For each text there is exactly one matching headline. Five headlines remain unused.",
+          "texts": [
+            { "id": "B2_m05_R1_head_a", "type": "notice", "content": "a) Solaranlagen-Boom auf deutschen Dächern – Installateure kommen nicht hinterher" },
+            { "id": "B2_m05_R1_head_b", "type": "notice", "content": "b) Unverpackt-Läden kämpfen ums Überleben – Kundenzahlen brechen ein" },
+            { "id": "B2_m05_R1_head_c", "type": "notice", "content": "c) Tempo 30 innerorts: Hannover zieht nach zwei Jahren positive Bilanz" },
+            { "id": "B2_m05_R1_head_d", "type": "notice", "content": "d) Deutsche Wälder im Stress – Hitze und Schädlinge setzen Fichten zu" },
+            { "id": "B2_m05_R1_head_e", "type": "notice", "content": "e) Neuer Pfand auf Kaffeebecher: Einweg-Kultur auf dem Rückzug" },
+            { "id": "B2_m05_R1_head_f", "type": "notice", "content": "f) Klage gegen Braunkohletagebau – Gericht stärkt Umweltverbände" },
+            { "id": "B2_m05_R1_head_g", "type": "notice", "content": "g) Kreislaufwirtschaft: Münchner Start-up verwandelt alte Textilien in Dämmstoffe" },
+            { "id": "B2_m05_R1_head_h", "type": "notice", "content": "h) Bauernprotest: Landwirte klagen über strengere Düngemittelverordnung" },
+            { "id": "B2_m05_R1_head_i", "type": "notice", "content": "i) Deutsche Bahn kündigt Ökostrom-Zielmarke für 2030 an" },
+            { "id": "B2_m05_R1_head_j", "type": "notice", "content": "j) Fleischkonsum sinkt erstmals unter 50 Kilo pro Kopf und Jahr" }
+          ],
+          "questions": [
+            {
+              "id": "B2_m05_R1_q1",
+              "type": "matching",
+              "questionText": "Text 1: Seit Jahresbeginn verzeichnen Solarteure in Nordrhein-Westfalen ein Auftragsplus von rund 55 Prozent. Ausschlaggebend sind zum einen die hohen Strompreise der vergangenen zwei Jahre, zum anderen eine verbesserte Einspeisevergütung für kleine Anlagen. Viele Betriebe melden Wartezeiten von bis zu neun Monaten; besonders qualifizierte Fachkräfte sind kaum noch zu bekommen. Die Handwerkskammern fordern deshalb verstärkte Ausbildungsinitiativen und Quereinsteigerprogramme, um dem anhaltenden Andrang gerecht werden zu können. Ohne zusätzliches Personal, so die Einschätzung der Branche, werde die Energiewende auf den Dächern deutlich langsamer vorankommen als geplant.",
+              "matchingSources": [
+                { "id": "B2_m05_R1_head_a", "label": "a" },
+                { "id": "B2_m05_R1_head_b", "label": "b" },
+                { "id": "B2_m05_R1_head_c", "label": "c" },
+                { "id": "B2_m05_R1_head_d", "label": "d" },
+                { "id": "B2_m05_R1_head_e", "label": "e" },
+                { "id": "B2_m05_R1_head_f", "label": "f" },
+                { "id": "B2_m05_R1_head_g", "label": "g" },
+                { "id": "B2_m05_R1_head_h", "label": "h" },
+                { "id": "B2_m05_R1_head_i", "label": "i" },
+                { "id": "B2_m05_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Text beschreibt einen Solar-Boom mit langen Wartezeiten und Fachkräftemangel bei Installateuren – exakt Überschrift a). Distraktor i) (Deutsche Bahn) passt nicht, weil es um private Dächer, nicht um Bahninfrastruktur geht; Distraktor g) (Textil-Recycling) hat den falschen technologischen Gegenstand."
+            },
+            {
+              "id": "B2_m05_R1_q2",
+              "type": "matching",
+              "questionText": "Text 2: Die Stadt Hannover hat nach einer zweijährigen Modellphase nun Bilanz gezogen: In den Straßen, in denen Tempo 30 als Regelgeschwindigkeit eingeführt wurde, sank die Zahl schwerer Unfälle um 28 Prozent. Auch die Lärmbelastung ging messbar zurück; Messstationen registrierten im Durchschnitt drei Dezibel weniger. Besonders Anwohnerinnen und Anwohner ziehen ein positives Fazit. Kritik kommt vor allem aus Speditionsbetrieben, die über längere Lieferzeiten klagen. Die Stadtverwaltung plant dennoch eine Ausweitung des Konzepts auf weitere Viertel und verweist auf Erfahrungen aus Paris und Helsinki.",
+              "matchingSources": [
+                { "id": "B2_m05_R1_head_a", "label": "a" },
+                { "id": "B2_m05_R1_head_b", "label": "b" },
+                { "id": "B2_m05_R1_head_c", "label": "c" },
+                { "id": "B2_m05_R1_head_d", "label": "d" },
+                { "id": "B2_m05_R1_head_e", "label": "e" },
+                { "id": "B2_m05_R1_head_f", "label": "f" },
+                { "id": "B2_m05_R1_head_g", "label": "g" },
+                { "id": "B2_m05_R1_head_h", "label": "h" },
+                { "id": "B2_m05_R1_head_i", "label": "i" },
+                { "id": "B2_m05_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text dokumentiert eine zweijährige Bilanz der Tempo-30-Regelung in Hannover mit konkreten Unfall- und Lärmzahlen – deckungsgleich mit Überschrift c). Distraktor f) passt nicht (Gericht/Braunkohle), ebenso wenig j) (Fleischkonsum)."
+            },
+            {
+              "id": "B2_m05_R1_q3",
+              "type": "matching",
+              "questionText": "Text 3: Ein junges Unternehmen aus dem Münchner Osten hat ein Verfahren entwickelt, mit dem aus ausgedienten Baumwoll- und Polyestertextilien hochwertige Dämmstoffe für den Hochbau hergestellt werden können. Die zerkleinerten Fasern werden in einem mehrstufigen Verfahren gereinigt, gepresst und mit einem biobasierten Bindemittel stabilisiert. Das Ergebnis: Dämmplatten, die in Wärmeleitfähigkeit und Brandverhalten mit konventionellen Mineralwolleplatten mithalten, dabei aber deutlich weniger CO₂ verursachen. Erste Pilotprojekte sind bereits in zwei kommunalen Bauvorhaben vorgesehen; die Gründerinnen rechnen damit, dass der industrielle Hochlauf ab Mitte kommenden Jahres beginnt.",
+              "matchingSources": [
+                { "id": "B2_m05_R1_head_a", "label": "a" },
+                { "id": "B2_m05_R1_head_b", "label": "b" },
+                { "id": "B2_m05_R1_head_c", "label": "c" },
+                { "id": "B2_m05_R1_head_d", "label": "d" },
+                { "id": "B2_m05_R1_head_e", "label": "e" },
+                { "id": "B2_m05_R1_head_f", "label": "f" },
+                { "id": "B2_m05_R1_head_g", "label": "g" },
+                { "id": "B2_m05_R1_head_h", "label": "h" },
+                { "id": "B2_m05_R1_head_i", "label": "i" },
+                { "id": "B2_m05_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Der Text beschreibt ein Münchner Start-up, das aus Alttextilien Dämmstoffe herstellt – exakt Überschrift g). Distraktor e) (Kaffeebecher-Pfand) passt thematisch zwar zu Kreislaufwirtschaft, aber das Produkt stimmt nicht überein."
+            },
+            {
+              "id": "B2_m05_R1_q4",
+              "type": "matching",
+              "questionText": "Text 4: Nach einer aktuellen Erhebung des Bundesinformationszentrums Landwirtschaft ist der durchschnittliche Pro-Kopf-Verbrauch an Fleisch in Deutschland im vergangenen Jahr auf 48,3 Kilogramm gesunken – der niedrigste Wert seit Beginn der Aufzeichnungen Anfang der neunziger Jahre. Besonders deutlich ging der Konsum bei jüngeren Erwachsenen zurück, die vermehrt auf pflanzliche Alternativen zurückgreifen. Gesundheitliche, ökologische und ethische Gründe werden in Umfragen am häufigsten genannt. Die Fleischindustrie reagiert zurückhaltend; mehrere Verbände kündigen eine Neuausrichtung auf Qualitätsprodukte und regionale Erzeugung an.",
+              "matchingSources": [
+                { "id": "B2_m05_R1_head_a", "label": "a" },
+                { "id": "B2_m05_R1_head_b", "label": "b" },
+                { "id": "B2_m05_R1_head_c", "label": "c" },
+                { "id": "B2_m05_R1_head_d", "label": "d" },
+                { "id": "B2_m05_R1_head_e", "label": "e" },
+                { "id": "B2_m05_R1_head_f", "label": "f" },
+                { "id": "B2_m05_R1_head_g", "label": "g" },
+                { "id": "B2_m05_R1_head_h", "label": "h" },
+                { "id": "B2_m05_R1_head_i", "label": "i" },
+                { "id": "B2_m05_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "j",
+              "explanation": "Der Text nennt 48,3 kg – erstmals unter 50 kg – und deckt sich präzise mit Überschrift j). Distraktor h) (Bauernprotest) berührt den Agrarsektor, aber inhaltlich geht es um Düngung, nicht um Fleischkonsum."
+            },
+            {
+              "id": "B2_m05_R1_q5",
+              "type": "matching",
+              "questionText": "Text 5: Das Verwaltungsgericht Köln hat einer Klage mehrerer Umweltverbände stattgegeben: Der geplante Weiterbetrieb eines Braunkohletagebaus am Niederrhein über das ursprünglich vorgesehene Datum hinaus ist nach Einschätzung der Richter nicht mit dem aktuellen Klimaschutzgesetz vereinbar. Die Verbände hatten insbesondere auf die Verpflichtung verwiesen, Emissionsminderungspfade konsequent einzuhalten. Der Energiekonzern, der den Tagebau betreibt, prüft nun eine Berufung. Experten werten das Urteil als Präzedenzfall, der auch für andere fossile Großprojekte in Deutschland Signalwirkung entfalten dürfte.",
+              "matchingSources": [
+                { "id": "B2_m05_R1_head_a", "label": "a" },
+                { "id": "B2_m05_R1_head_b", "label": "b" },
+                { "id": "B2_m05_R1_head_c", "label": "c" },
+                { "id": "B2_m05_R1_head_d", "label": "d" },
+                { "id": "B2_m05_R1_head_e", "label": "e" },
+                { "id": "B2_m05_R1_head_f", "label": "f" },
+                { "id": "B2_m05_R1_head_g", "label": "g" },
+                { "id": "B2_m05_R1_head_h", "label": "h" },
+                { "id": "B2_m05_R1_head_i", "label": "i" },
+                { "id": "B2_m05_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Der Text beschreibt genau eine erfolgreiche Klage gegen einen Braunkohletagebau – Überschrift f) 'Gericht stärkt Umweltverbände'. Die verbleibenden fünf ungenutzten Überschriften (b, d, e, h, i) beziehen sich auf andere Themenbereiche (Unverpackt-Läden, Wälder, Kaffeebecher, Bauernprotest, Bahn-Ökostrom)."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Zeitungsartikel. Wählen Sie bei jeder Aufgabe die beste Antwort (a, b oder c) aufgrund der Informationen im Text.",
+          "instructionsTranslation": "Read the following newspaper article. For each task choose the best answer (a, b, or c) based on the information in the text.",
+          "texts": [
+            {
+              "id": "B2_m05_R2_article",
+              "type": "article",
+              "content": "Reparieren statt wegwerfen – wie die Kreislaufwirtschaft in die deutsche Industrie kommt\n\nLange galt sie in Deutschland als Nischenthema. Heute aber ist die Kreislaufwirtschaft in den Vorstandsetagen angekommen: Von Maschinenbauern in Schwaben bis zu Chemiekonzernen an Rhein und Ruhr suchen Unternehmen nach Wegen, Rohstoffe mehrfach zu nutzen und Produktkreisläufe zu schließen. Auslöser sind keineswegs nur ökologische Überzeugungen. Gestiegene Rohstoffpreise, unterbrochene Lieferketten und die neuen europäischen Vorgaben zum 'Recht auf Reparatur' zwingen Firmen zum Umdenken. 'Wer heute noch linear wirtschaftet, also Rohstoff – Produkt – Abfall, verliert mittelfristig seine Wettbewerbsfähigkeit', sagt Prof. Dr. Katrin Börner, die am Wuppertal-Institut zum industriellen Stoffwechsel forscht.\n\nEine von ihr geleitete Studie hat über achtzehn Monate hinweg 32 Unternehmen aus Maschinenbau, Elektroindustrie und Konsumgüterbranche begleitet. Das Ergebnis fällt differenziert aus. Viele Firmen optimieren bislang nur den eigenen Produktionsprozess, etwa durch Ausschussreduzierung oder interne Materialkreisläufe. Der wirklich systemische Schritt – Produkte von vornherein so zu entwerfen, dass sie am Lebensende demontiert, repariert oder in hochwertige Rohstoffe zurückgeführt werden können – bleibt die Ausnahme. 'Viele Ingenieurinnen und Ingenieure sind noch in der klassischen Logik ausgebildet: möglichst billig, möglichst schnell, möglichst stabil. Die Rückbaubarkeit kommt in der Konstruktion oft gar nicht vor', kritisiert Börner.\n\nWas funktioniert, sind konkrete Pilotprojekte mit klarem Geschäftsmodell. Ein mittelständischer Werkzeughersteller aus Baden-Württemberg etwa nimmt seit zwei Jahren alte Elektrowerkzeuge seiner Kundinnen zurück, zerlegt sie in einer eigenen Werkstatt und verkauft die aufgearbeiteten Geräte mit vollem Gewährleistungsanspruch weiter – zu Preisen, die rund dreißig Prozent unter dem Neupreis liegen. Das Modell rentiert sich: Die Nachfrage übersteigt das Angebot, und der Anteil der wiederaufbereiteten Geräte am Gesamtumsatz stieg im vergangenen Jahr auf knapp zwölf Prozent. Ähnliche Erfahrungen melden Hersteller von Haushaltsgeräten und Möbeln, die inzwischen gezielt auf Langlebigkeit und Ersatzteilverfügbarkeit setzen.\n\nEin weiteres Ergebnis überrascht: Die größten Hindernisse liegen selten in der Technik, sondern in den Strukturen. Rücknahmelogistik, Qualitätssicherung bei gebrauchten Bauteilen und die Frage, wer für wiederaufgearbeitete Produkte haftet, sind juristisch und organisatorisch anspruchsvoll. Gerade kleine und mittlere Unternehmen scheuen die Investitionen, solange der regulatorische Rahmen nicht stabil ist. Börner fordert deshalb langfristig verlässliche Rahmenbedingungen – und zwar europaweit, nicht nur national. Isolierte deutsche Vorgaben, so die Forscherin, würden den Standort sonst eher belasten als stärken.\n\nBlickt man in die Zukunft, so dürfte sich die industrielle Produktion in den nächsten Jahren spürbar wandeln. Erste Branchen – Elektronik, Textil, Bauwirtschaft – experimentieren bereits mit digitalen Materialpässen, die jedes Produkt über seinen gesamten Lebenszyklus hinweg dokumentieren. Entscheidend wird nach Börners Einschätzung sein, ob Unternehmen bereit sind, Kreislaufwirtschaft nicht als Kostenfaktor, sondern als Innovationsfeld zu begreifen. 'Wer die Kreisläufe beherrscht, beherrscht künftig auch die Rohstoffe – und damit ein Stück weit seinen Marktzugang.' Die Kreislaufwirtschaft der Zukunft, das zeichnet sich ab, wird nicht weniger industriell, aber deutlich schlauer gebaut sein.",
+              "source": "Süddeutsche Zeitung, Wirtschaftsbeilage April 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "B2_m05_R2_q1",
+              "type": "mcq",
+              "questionText": "Was ist laut Text der Hauptgrund, warum sich deutsche Unternehmen der Kreislaufwirtschaft zuwenden?",
+              "relatedTextId": "B2_m05_R2_article",
+              "options": [
+                "a) rein ökologische Überzeugung der Unternehmensleitungen",
+                "b) wirtschaftlicher Druck durch Rohstoffpreise, Lieferketten und neue EU-Regeln",
+                "c) Forderungen von Umweltverbänden nach strengeren Gesetzen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text sagt klar: 'Auslöser sind keineswegs nur ökologische Überzeugungen. Gestiegene Rohstoffpreise, unterbrochene Lieferketten und die neuen europäischen Vorgaben zum Recht auf Reparatur zwingen Firmen zum Umdenken.' Die Dreifach-Begründung entspricht Option b). Distraktor a) wird explizit negiert ('keineswegs nur'), Distraktor c) (Umweltverbände) wird nicht erwähnt."
+            },
+            {
+              "id": "B2_m05_R2_q2",
+              "type": "mcq",
+              "questionText": "Wie beurteilt Prof. Börner die Rolle der klassischen Ingenieursausbildung?",
+              "relatedTextId": "B2_m05_R2_article",
+              "options": [
+                "a) Sie bereitet junge Ingenieure inzwischen gezielt auf Kreislaufdenken vor.",
+                "b) Sie ist zwar veraltet, hat aber keinen Einfluss auf reale Produktentwicklung.",
+                "c) Sie vernachlässigt die Rückbaubarkeit und steht einer echten Kreislaufwirtschaft im Weg."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Börner sagt: 'Viele Ingenieurinnen und Ingenieure sind noch in der klassischen Logik ausgebildet ... Die Rückbaubarkeit kommt in der Konstruktion oft gar nicht vor.' Das ist eine klare Kritik – Option c). Option a) widerspricht dem Text; Option b) verharmlost ('kein Einfluss'), was Börner gerade nicht sagt."
+            },
+            {
+              "id": "B2_m05_R2_q3",
+              "type": "mcq",
+              "questionText": "Was zeigt das Beispiel des Werkzeugherstellers aus Baden-Württemberg?",
+              "relatedTextId": "B2_m05_R2_article",
+              "options": [
+                "a) Wiederaufbereitete Geräte verkaufen sich trotz niedrigerer Preise schlechter als Neuware.",
+                "b) Rücknahme und Aufarbeitung können ein profitables Geschäftsmodell ergeben.",
+                "c) Ohne staatliche Subventionen ist das Modell nicht wirtschaftlich tragfähig."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text betont: 'Das Modell rentiert sich: Die Nachfrage übersteigt das Angebot, und der Anteil der wiederaufbereiteten Geräte am Gesamtumsatz stieg ... auf knapp zwölf Prozent.' Wirtschaftlichkeit + steigende Nachfrage = Option b). Option a) widerspricht ('Nachfrage übersteigt das Angebot'). Subventionen (c) werden nicht erwähnt."
+            },
+            {
+              "id": "B2_m05_R2_q4",
+              "type": "mcq",
+              "questionText": "Was sind laut Studie die größten Hindernisse für die Kreislaufwirtschaft?",
+              "relatedTextId": "B2_m05_R2_article",
+              "options": [
+                "a) fehlende technische Verfahren zur Wiederaufbereitung",
+                "b) mangelndes Umweltbewusstsein auf Seiten der Verbraucher",
+                "c) juristische und organisatorische Strukturen wie Haftung und Rücknahmelogistik"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text formuliert ausdrücklich: 'Die größten Hindernisse liegen selten in der Technik, sondern in den Strukturen. Rücknahmelogistik, Qualitätssicherung bei gebrauchten Bauteilen und die Frage, wer für wiederaufgearbeitete Produkte haftet ...' – Option c). Option a) wird explizit ausgeschlossen ('selten in der Technik'). Option b) (Verbraucher) taucht im Text nicht als Hindernis auf. B2-Trap: Option a) enthält die richtigen Stichwörter aus dem Textkontext ('Technik', 'Wiederaufbereitung'), kehrt aber die zentrale These um."
+            },
+            {
+              "id": "B2_m05_R2_q5",
+              "type": "mcq",
+              "questionText": "Worin sieht Prof. Börner die zentrale Zukunftsfrage für die Kreislaufwirtschaft?",
+              "relatedTextId": "B2_m05_R2_article",
+              "options": [
+                "a) ob Unternehmen sie als Innovationsfeld statt als Kostenfaktor begreifen",
+                "b) ob Deutschland bei digitalen Materialpässen weltweit die Vorreiterrolle einnimmt",
+                "c) ob die Verbraucher bereit sind, für reparierbare Produkte deutlich mehr zu zahlen"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Börner betont: 'Entscheidend wird sein, ob Unternehmen bereit sind, Kreislaufwirtschaft nicht als Kostenfaktor, sondern als Innovationsfeld zu begreifen.' Die wörtliche Formulierung entspricht Option a). Materialpässe (b) werden als Beispiel erwähnt, aber nicht als zentrale Frage. Verbraucherpreise (c) werden nicht thematisiert."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die zehn Situationen (1–10) und die zwölf Anzeigen (a–l). Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es höchstens eine passende Anzeige. Zwei Anzeigen bleiben übrig. Wenn keine Anzeige passt, schreiben Sie 'x'.",
+          "instructionsTranslation": "Read the ten situations (1–10) and the twelve advertisements (a–l). Which advertisement matches which situation? For each situation there is at most one matching advertisement. Two advertisements remain unused. If no advertisement fits, write 'x'.",
+          "texts": [
+            { "id": "B2_m05_R3_ad_a", "type": "ad", "content": "a) Energetische Gebäudeberatung Vor Ort – Zertifizierte Energieberaterin prüft Ihr Eigenheim, erstellt einen individuellen Sanierungsfahrplan und beantragt die Förderung. 90 Minuten, 180 € pauschal, zu 80 % über die BAFA-Förderung rückerstattbar. beratung-vor-ort.de" },
+            { "id": "B2_m05_R3_ad_b", "type": "ad", "content": "b) Reparaturcafé Köln-Ehrenfeld – Jeden zweiten Samstag bringen Ehrenamtliche Elektrogeräte, Fahrräder und Kleidung wieder in Schuss. Gegen freiwillige Spende; Ersatzteile zum Selbstkostenpreis. Ohne Anmeldung. Nächste Termine auf reparatur-koeln.de" },
+            { "id": "B2_m05_R3_ad_c", "type": "ad", "content": "c) Volkshochschul-Seminar 'Nachhaltige Ernährung im Alltag' – 8 Termine dienstags 18–20 Uhr, Bielefeld. Themen: saisonal einkaufen, Lebensmittel retten, pflanzliche Alternativen. 95 € (ermäßigt 55 €). vhs-bielefeld.de/nachhaltig" },
+            { "id": "B2_m05_R3_ad_d", "type": "ad", "content": "d) Umweltzertifikat IHK – Berufsbegleitende Weiterbildung zur Nachhaltigkeitsbeauftragten im Betrieb. 12 Wochenenden, Hamburg. Abschluss mit IHK-Prüfung. 2.400 €, Bildungsurlaub möglich. ihk-nord.de/umweltmanagement" },
+            { "id": "B2_m05_R3_ad_e", "type": "ad", "content": "e) Klimawanderung im Nationalpark Schwarzwald – Geführte Halbtagestour mit Ranger:in, Thema: Folgen des Klimawandels für Wald und Wildtiere. Samstags 9–13 Uhr, Treffpunkt Ruhestein. 18 € pro Person; Familien 40 €. schwarzwald-klimatouren.de" },
+            { "id": "B2_m05_R3_ad_f", "type": "ad", "content": "f) Rechtsberatung Umwelt- und Nachbarschaftsrecht – Erste Orientierung bei Lärmbelästigung, Bauvorhaben in der Nachbarschaft, Fahrverboten. Erstgespräch 30 Minuten kostenlos bei Mitgliedschaft im Bund Umwelt (BUND). bund.net/beratung" },
+            { "id": "B2_m05_R3_ad_g", "type": "ad", "content": "g) Lastenrad mieten statt kaufen – Kostenfreie Ausleihe in München für 24 oder 48 Stunden. 12 Stationen im Stadtgebiet, Buchung per App, Pfand 50 €. Ideal für Umzüge, Großeinkäufe und Kita-Fahrten. muenchen-lastenrad.de" },
+            { "id": "B2_m05_R3_ad_h", "type": "ad", "content": "h) Bürgerenergiegenossenschaft Sonne für alle eG – Beteiligen Sie sich ab 500 € an neuen Solaranlagen auf kommunalen Dächern. Jahresrendite rund 3,5 %. Jährliche Mitgliederversammlung. sonne-fuer-alle.de" },
+            { "id": "B2_m05_R3_ad_i", "type": "ad", "content": "i) Online-Kurs 'CO₂-Bilanz meines Haushalts' – 4 Wochen, wöchentlich Live-Sessions plus Lernplattform. Sie erstellen Ihre persönliche Klimabilanz und identifizieren Einsparpotenziale. 89 €, Zertifikat nach Abschluss. klimabilanz-online.de" },
+            { "id": "B2_m05_R3_ad_j", "type": "ad", "content": "j) Fachmesse IFAT 2026 – Die weltweite Leitmesse für Wasser-, Abwasser-, Abfall- und Rohstoffwirtschaft. 4.–8. Mai, München. Tagesticket 45 €, Studierende 15 €. Fachprogramm mit über 600 Vorträgen. ifat.de" },
+            { "id": "B2_m05_R3_ad_k", "type": "ad", "content": "k) Kleidertauschparty Leipzig – Einmal im Monat: Bringen Sie bis zu 10 gut erhaltene Kleidungsstücke mit und tauschen Sie mit anderen. Eintritt frei, Kuchenbuffet gegen Spende. Nächster Termin: Sa., 25. April, 14–18 Uhr. kleidertausch-leipzig.de" },
+            { "id": "B2_m05_R3_ad_l", "type": "ad", "content": "l) Ökolandbau-Praktikum auf dem Hof Waldblick – 4-wöchiges freiwilliges Praktikum auf einem Demeter-Betrieb in Brandenburg. Unterkunft, Verpflegung und Taschengeld inklusive. Mindestalter 18, Körperkondition erforderlich. hof-waldblick.de" }
+          ],
+          "questions": [
+            {
+              "id": "B2_m05_R3_q1",
+              "type": "matching",
+              "questionText": "1. Frau Becker besitzt ein 50 Jahre altes Einfamilienhaus und möchte es energetisch sanieren. Sie sucht eine fachlich fundierte Begleitung, die auch die Antragstellung der staatlichen Förderung übernimmt.",
+              "matchingSources": [
+                { "id": "B2_m05_R3_ad_a", "label": "a" }, { "id": "B2_m05_R3_ad_b", "label": "b" },
+                { "id": "B2_m05_R3_ad_c", "label": "c" }, { "id": "B2_m05_R3_ad_d", "label": "d" },
+                { "id": "B2_m05_R3_ad_e", "label": "e" }, { "id": "B2_m05_R3_ad_f", "label": "f" },
+                { "id": "B2_m05_R3_ad_g", "label": "g" }, { "id": "B2_m05_R3_ad_h", "label": "h" },
+                { "id": "B2_m05_R3_ad_i", "label": "i" }, { "id": "B2_m05_R3_ad_j", "label": "j" },
+                { "id": "B2_m05_R3_ad_k", "label": "k" }, { "id": "B2_m05_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Anzeige a) 'Energetische Gebäudeberatung Vor Ort' liefert genau das, was Frau Becker sucht: Sanierungsfahrplan für Einfamilienhäuser, zertifizierte Energieberaterin und Antragstellung für die BAFA-Förderung. Distraktor h) (Genossenschaft) passt nicht – das wäre Kapitalanlage, keine Sanierungsberatung."
+            },
+            {
+              "id": "B2_m05_R3_q2",
+              "type": "matching",
+              "questionText": "2. Herr Akbar arbeitet als Controller in einem mittelständischen Maschinenbaubetrieb und soll dort künftig die Nachhaltigkeitsberichterstattung verantworten. Er sucht eine anerkannte, berufsbegleitende Weiterbildung mit Prüfung.",
+              "matchingSources": [
+                { "id": "B2_m05_R3_ad_a", "label": "a" }, { "id": "B2_m05_R3_ad_b", "label": "b" },
+                { "id": "B2_m05_R3_ad_c", "label": "c" }, { "id": "B2_m05_R3_ad_d", "label": "d" },
+                { "id": "B2_m05_R3_ad_e", "label": "e" }, { "id": "B2_m05_R3_ad_f", "label": "f" },
+                { "id": "B2_m05_R3_ad_g", "label": "g" }, { "id": "B2_m05_R3_ad_h", "label": "h" },
+                { "id": "B2_m05_R3_ad_i", "label": "i" }, { "id": "B2_m05_R3_ad_j", "label": "j" },
+                { "id": "B2_m05_R3_ad_k", "label": "k" }, { "id": "B2_m05_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Anzeige d) 'Umweltzertifikat IHK – Weiterbildung zur Nachhaltigkeitsbeauftragten im Betrieb' passt exakt: berufsbegleitend (Wochenenden), anerkannter Abschluss mit IHK-Prüfung, direkt auf die betriebliche Nachhaltigkeitsrolle zugeschnitten. Bildungsurlaub ist möglich."
+            },
+            {
+              "id": "B2_m05_R3_q3",
+              "type": "matching",
+              "questionText": "3. Die Familie Stein hat einen kaputten Staubsauger und ein wackliges Fahrrad im Keller. Sie möchten die Geräte nicht wegwerfen, haben aber kein Werkzeug und keine Reparaturerfahrung.",
+              "matchingSources": [
+                { "id": "B2_m05_R3_ad_a", "label": "a" }, { "id": "B2_m05_R3_ad_b", "label": "b" },
+                { "id": "B2_m05_R3_ad_c", "label": "c" }, { "id": "B2_m05_R3_ad_d", "label": "d" },
+                { "id": "B2_m05_R3_ad_e", "label": "e" }, { "id": "B2_m05_R3_ad_f", "label": "f" },
+                { "id": "B2_m05_R3_ad_g", "label": "g" }, { "id": "B2_m05_R3_ad_h", "label": "h" },
+                { "id": "B2_m05_R3_ad_i", "label": "i" }, { "id": "B2_m05_R3_ad_j", "label": "j" },
+                { "id": "B2_m05_R3_ad_k", "label": "k" }, { "id": "B2_m05_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Anzeige b) 'Reparaturcafé Köln-Ehrenfeld' ist exakt auf solche Fälle zugeschnitten: Elektrogeräte und Fahrräder werden von Ehrenamtlichen gemeinsam mit den Besitzern repariert, ohne Anmeldung, gegen Spende. Kein Vorwissen nötig."
+            },
+            {
+              "id": "B2_m05_R3_q4",
+              "type": "matching",
+              "questionText": "4. Frau Tran möchte für ihre Familie den CO₂-Fußabdruck systematisch ermitteln und daraus konkrete Maßnahmen ableiten. Sie arbeitet viel und braucht ein flexibles Format mit fachlicher Betreuung.",
+              "matchingSources": [
+                { "id": "B2_m05_R3_ad_a", "label": "a" }, { "id": "B2_m05_R3_ad_b", "label": "b" },
+                { "id": "B2_m05_R3_ad_c", "label": "c" }, { "id": "B2_m05_R3_ad_d", "label": "d" },
+                { "id": "B2_m05_R3_ad_e", "label": "e" }, { "id": "B2_m05_R3_ad_f", "label": "f" },
+                { "id": "B2_m05_R3_ad_g", "label": "g" }, { "id": "B2_m05_R3_ad_h", "label": "h" },
+                { "id": "B2_m05_R3_ad_i", "label": "i" }, { "id": "B2_m05_R3_ad_j", "label": "j" },
+                { "id": "B2_m05_R3_ad_k", "label": "k" }, { "id": "B2_m05_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "i",
+              "explanation": "Anzeige i) Online-Kurs 'CO₂-Bilanz meines Haushalts' bietet genau das: vierwöchiger Kurs mit Live-Sessions, Erstellung der persönlichen Klimabilanz, Ableitung konkreter Einsparpotenziale – flexibel neben dem Beruf machbar."
+            },
+            {
+              "id": "B2_m05_R3_q5",
+              "type": "matching",
+              "questionText": "5. Herr und Frau Lenz wollen Geld sinnvoll anlegen und gleichzeitig die Energiewende vor Ort unterstützen. Eine rein ökologische Beratung interessiert sie nicht, sie suchen eine konkrete Beteiligungsmöglichkeit.",
+              "matchingSources": [
+                { "id": "B2_m05_R3_ad_a", "label": "a" }, { "id": "B2_m05_R3_ad_b", "label": "b" },
+                { "id": "B2_m05_R3_ad_c", "label": "c" }, { "id": "B2_m05_R3_ad_d", "label": "d" },
+                { "id": "B2_m05_R3_ad_e", "label": "e" }, { "id": "B2_m05_R3_ad_f", "label": "f" },
+                { "id": "B2_m05_R3_ad_g", "label": "g" }, { "id": "B2_m05_R3_ad_h", "label": "h" },
+                { "id": "B2_m05_R3_ad_i", "label": "i" }, { "id": "B2_m05_R3_ad_j", "label": "j" },
+                { "id": "B2_m05_R3_ad_k", "label": "k" }, { "id": "B2_m05_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "h",
+              "explanation": "Anzeige h) Bürgerenergiegenossenschaft 'Sonne für alle' bietet eine konkrete finanzielle Beteiligung ab 500 € an Solaranlagen auf kommunalen Dächern mit jährlicher Rendite – passt zur Kombination aus Geldanlage und Energiewende-Unterstützung."
+            },
+            {
+              "id": "B2_m05_R3_q6",
+              "type": "matching",
+              "questionText": "6. Nina studiert Umweltingenieurwesen im fünften Semester und möchte die weltweit führende Messe für Abfall- und Wasserwirtschaft besuchen, um Kontakte für ihre Bachelorarbeit zu knüpfen.",
+              "matchingSources": [
+                { "id": "B2_m05_R3_ad_a", "label": "a" }, { "id": "B2_m05_R3_ad_b", "label": "b" },
+                { "id": "B2_m05_R3_ad_c", "label": "c" }, { "id": "B2_m05_R3_ad_d", "label": "d" },
+                { "id": "B2_m05_R3_ad_e", "label": "e" }, { "id": "B2_m05_R3_ad_f", "label": "f" },
+                { "id": "B2_m05_R3_ad_g", "label": "g" }, { "id": "B2_m05_R3_ad_h", "label": "h" },
+                { "id": "B2_m05_R3_ad_i", "label": "i" }, { "id": "B2_m05_R3_ad_j", "label": "j" },
+                { "id": "B2_m05_R3_ad_k", "label": "k" }, { "id": "B2_m05_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "j",
+              "explanation": "Anzeige j) Fachmesse IFAT 2026 ist die weltweite Leitmesse für Wasser-, Abwasser-, Abfall- und Rohstoffwirtschaft – genau Ninas Fachgebiet. Studierendenticket 15 € macht den Besuch bezahlbar; das Fachprogramm mit 600 Vorträgen eignet sich ideal für Kontaktaufnahme."
+            },
+            {
+              "id": "B2_m05_R3_q7",
+              "type": "matching",
+              "questionText": "7. Herr Wiese besitzt keine Auto, muss aber am Wochenende mehrere große Pakete und einen Schrank zum neuen Wohnort transportieren. Er wohnt zentral in München und will keine extra Autovermietung bezahlen.",
+              "matchingSources": [
+                { "id": "B2_m05_R3_ad_a", "label": "a" }, { "id": "B2_m05_R3_ad_b", "label": "b" },
+                { "id": "B2_m05_R3_ad_c", "label": "c" }, { "id": "B2_m05_R3_ad_d", "label": "d" },
+                { "id": "B2_m05_R3_ad_e", "label": "e" }, { "id": "B2_m05_R3_ad_f", "label": "f" },
+                { "id": "B2_m05_R3_ad_g", "label": "g" }, { "id": "B2_m05_R3_ad_h", "label": "h" },
+                { "id": "B2_m05_R3_ad_i", "label": "i" }, { "id": "B2_m05_R3_ad_j", "label": "j" },
+                { "id": "B2_m05_R3_ad_k", "label": "k" }, { "id": "B2_m05_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Anzeige g) 'Lastenrad mieten statt kaufen' in München bietet kostenfreie Ausleihe für 24–48 Stunden, explizit 'ideal für Umzüge' – genau was Herr Wiese braucht. Keine Autovermietung, 12 Stationen im Stadtgebiet."
+            },
+            {
+              "id": "B2_m05_R3_q8",
+              "type": "matching",
+              "questionText": "8. Frau Pieper ärgert sich seit Monaten über die Abgase einer benachbarten Heizanlage. Sie ist Mitglied im BUND und möchte zunächst kostenlos prüfen lassen, ob sie rechtliche Schritte einleiten kann.",
+              "matchingSources": [
+                { "id": "B2_m05_R3_ad_a", "label": "a" }, { "id": "B2_m05_R3_ad_b", "label": "b" },
+                { "id": "B2_m05_R3_ad_c", "label": "c" }, { "id": "B2_m05_R3_ad_d", "label": "d" },
+                { "id": "B2_m05_R3_ad_e", "label": "e" }, { "id": "B2_m05_R3_ad_f", "label": "f" },
+                { "id": "B2_m05_R3_ad_g", "label": "g" }, { "id": "B2_m05_R3_ad_h", "label": "h" },
+                { "id": "B2_m05_R3_ad_i", "label": "i" }, { "id": "B2_m05_R3_ad_j", "label": "j" },
+                { "id": "B2_m05_R3_ad_k", "label": "k" }, { "id": "B2_m05_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Anzeige f) Rechtsberatung Umwelt- und Nachbarschaftsrecht deckt genau solche Fälle ab (Lärmbelästigung, Bauvorhaben, Fahrverbote – per Analogie Abgase einer Nachbaranlage) und bietet das kostenfreie Erstgespräch für BUND-Mitglieder, dessen Frau Pieper ist."
+            },
+            {
+              "id": "B2_m05_R3_q9",
+              "type": "matching",
+              "questionText": "9. Jan möchte ein Semester Pause machen und praktische Erfahrung im biologischen Anbau sammeln. Er wohnt gerade allein, braucht eine Unterkunft vor Ort und ein kleines Taschengeld, um die Zeit finanziell zu überbrücken.",
+              "matchingSources": [
+                { "id": "B2_m05_R3_ad_a", "label": "a" }, { "id": "B2_m05_R3_ad_b", "label": "b" },
+                { "id": "B2_m05_R3_ad_c", "label": "c" }, { "id": "B2_m05_R3_ad_d", "label": "d" },
+                { "id": "B2_m05_R3_ad_e", "label": "e" }, { "id": "B2_m05_R3_ad_f", "label": "f" },
+                { "id": "B2_m05_R3_ad_g", "label": "g" }, { "id": "B2_m05_R3_ad_h", "label": "h" },
+                { "id": "B2_m05_R3_ad_i", "label": "i" }, { "id": "B2_m05_R3_ad_j", "label": "j" },
+                { "id": "B2_m05_R3_ad_k", "label": "k" }, { "id": "B2_m05_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "l",
+              "explanation": "Anzeige l) Ökolandbau-Praktikum auf dem Hof Waldblick passt exakt zu Jans Wunsch: vierwöchiges Praktikum auf einem Demeter-Betrieb, Unterkunft, Verpflegung und Taschengeld inklusive, Brandenburg bietet Ortswechsel. Das Mindestalter von 18 wird als Studierender erfüllt."
+            },
+            {
+              "id": "B2_m05_R3_q10",
+              "type": "matching",
+              "questionText": "10. Sophie möchte vor dem Sommer ihren Kleiderschrank reduzieren und sucht eine Möglichkeit, intensiv beraten zu werden, wie sie ihren persönlichen Kleidungsstil nachhaltiger und langlebiger gestalten kann.",
+              "matchingSources": [
+                { "id": "B2_m05_R3_ad_a", "label": "a" }, { "id": "B2_m05_R3_ad_b", "label": "b" },
+                { "id": "B2_m05_R3_ad_c", "label": "c" }, { "id": "B2_m05_R3_ad_d", "label": "d" },
+                { "id": "B2_m05_R3_ad_e", "label": "e" }, { "id": "B2_m05_R3_ad_f", "label": "f" },
+                { "id": "B2_m05_R3_ad_g", "label": "g" }, { "id": "B2_m05_R3_ad_h", "label": "h" },
+                { "id": "B2_m05_R3_ad_i", "label": "i" }, { "id": "B2_m05_R3_ad_j", "label": "j" },
+                { "id": "B2_m05_R3_ad_k", "label": "k" }, { "id": "B2_m05_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "x",
+              "explanation": "Keine der zwölf Anzeigen bietet eine individuelle Stilberatung zu nachhaltiger Kleidung. Anzeige k) 'Kleidertauschparty Leipzig' deckt zwar den Kleidungsaspekt ab, bietet aber keine persönliche Beratung zum Kleidungsstil; sie ist ein reines Tausch-Event. Anzeige c) (VHS-Ernährungsseminar) und d) (IHK-Weiterbildung) haben das falsche Thema. Die Antwort lautet 'x' (kein passendes Angebot). Die drei ungenutzten Anzeigen in der Anzeigenliste sind damit c) (Nachhaltige Ernährung), e) (Klimawanderung Schwarzwald) und k) (Kleidertauschparty Leipzig)."
+            }
+          ]
+        }
+      ]
+    },
+    "sprachbausteine": {
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie den folgenden Text und entscheiden Sie, welches Wort (a, b, c oder d) in die Lücke passt. Es gibt jeweils nur eine richtige Lösung.",
+          "text": "Sehr geehrte Damen und Herren,\n\nhiermit möchten wir Sie über die Ergebnisse unseres diesjährigen Nachhaltigkeitsberichts informieren. Nach einer ausführlichen Analyse, die von einer externen Prüfgesellschaft __(1)__ wurde, stehen die wesentlichen Kennzahlen nun fest. Besonders erfreulich ist, dass die CO₂-Emissionen an unserem Standort in Leipzig, __(2)__ im Vorjahr ein Rekordhoch verzeichnet wurde, deutlich gesunken sind.\n\nDer neue Energieverbrauch liegt fast dreißig Prozent unter dem Niveau von 2024. Möglich wurde dies, __(3)__ wir konsequent in Wärmepumpen, Dachphotovoltaik und eine neue Gebäudeleittechnik investiert haben. __(4)__ der erheblichen Anfangskosten haben sich diese Maßnahmen nach weniger als drei Jahren amortisiert.\n\nIm kommenden Geschäftsjahr wollen wir die Einsparung weiter __(5)__. Dazu werden wir unsere Lieferantenkette systematisch auf Nachhaltigkeitskriterien hin prüfen. Lieferanten, die bis Ende 2027 keine verbindliche CO₂-Reduktionsstrategie __(6)__ können, werden ausgetauscht werden müssen. Unser Einkauf wird darüber hinaus dazu angehalten, regionale Anbieter __(7)__.\n\n__(8)__ ist unsere interne Kommunikation. Alle Beschäftigten erhalten halbjährlich einen transparenten Fortschrittsbericht. Die __(9)__ Kampagne 'Jedes Watt zählt' motiviert zudem dazu, auch im Büroalltag Energie zu sparen – vom Licht ausschalten bis zum bewussten Drucken.\n\nUnser Ziel ist klar: Bis 2035 wollen wir klimaneutral wirtschaften. Der Aufsichtsrat ist überzeugt, __(10)__ in Nachhaltigkeit eingesetzte Euro sich doppelt auszahlt – ökologisch und ökonomisch.\n\nMit freundlichen Grüßen\nDr. Heinrich Sauer, Vorstand Nachhaltigkeit",
+          "questions": [
+            {
+              "blankNumber": 1,
+              "type": "mcq",
+              "options": ["a) durchgeführt", "b) durchführte", "c) durchzuführen", "d) durchführend"],
+              "correctAnswer": "a",
+              "explanation": "Vorgangspassiv Präteritum: 'die von einer externen Prüfgesellschaft durchgeführt wurde'. Bildung: 'wurde' + Partizip II ('durchgeführt'). Distraktoren: b) 'durchführte' wäre Aktiv-Präteritum (falsche Diathese – die Analyse führt sich nicht selbst durch), c) 'zu'+Infinitiv passt nicht zu 'wurde', d) Partizip I ('durchführend') wäre aktive, gleichzeitige Handlung und kombiniert nicht mit 'wurde'. B2-Grammatik: Vorgangspassiv Präteritum im Relativsatz."
+            },
+            {
+              "blankNumber": 2,
+              "type": "mcq",
+              "options": ["a) in dem", "b) an dem", "c) bei dem", "d) auf dem"],
+              "correctAnswer": "a",
+              "explanation": "Relativsatz mit Lokativ-Präposition: 'unseres Standorts in Leipzig, in dem im Vorjahr ein Rekordhoch verzeichnet wurde'. 'in' + Dativ (Standort als Ort des Geschehens). Distraktoren: b) 'an dem' (an einem Ort = Punktlokal, bei Gebäuden/Flächen üblich, aber 'Standort' kombiniert sich idiomatisch mit 'in'), c) 'bei dem' würde 'bei einem Standort' bedeuten – semantisch unpassend, d) 'auf dem' passt nur zu flachen Oberflächen (Platz, Dach) oder Inseln. B2-Grammatik: Relativsatz mit Präposition + Dativ."
+            },
+            {
+              "blankNumber": 3,
+              "type": "mcq",
+              "options": ["a) obwohl", "b) indem", "c) nachdem", "d) sofern"],
+              "correctAnswer": "b",
+              "explanation": "Modaler Nebensatz mit 'indem': 'Möglich wurde dies, indem wir konsequent investiert haben' = 'durch die Tatsache, dass wir investierten'. 'indem' drückt das Mittel/die Methode aus. Distraktoren: a) 'obwohl' wäre konzessiv (Widerspruch, inhaltlich falsch – Investitionen sind der Grund, nicht der Widerspruch), c) 'nachdem' wäre temporal und verlangt Vorzeitigkeit (Perfekt/Plusquamperfekt-Abfolge passt nicht zum Kausalsinn), d) 'sofern' wäre konditional ('falls'), passt inhaltlich nicht – das Investieren ist bereits erfolgt. B2-Grammatik: Modalsatz mit indem."
+            },
+            {
+              "blankNumber": 4,
+              "type": "mcq",
+              "options": ["a) Wegen", "b) Trotz", "c) Außer", "d) Infolge"],
+              "correctAnswer": "b",
+              "explanation": "Konzessive Genitiv-Präposition: 'Trotz der erheblichen Anfangskosten haben sich diese Maßnahmen ... amortisiert' – der Gegensatz zwischen hohen Kosten und schneller Amortisation wird hier markiert. Distraktoren: a) 'Wegen' wäre kausal (ergibt den Unsinn 'wegen der hohen Kosten amortisieren sich die Maßnahmen'), c) 'Außer' heißt 'mit Ausnahme von' und passt semantisch nicht, d) 'Infolge' ist kausal-folgernd ('als Folge') und widerspricht der Logik. Alle vier Optionen regieren den Genitiv, aber nur 'Trotz' passt semantisch. B2-Präposition mit Genitiv."
+            },
+            {
+              "blankNumber": 5,
+              "type": "mcq",
+              "options": ["a) ausbauen", "b) ausgebaut", "c) auszubauen", "d) auszubauende"],
+              "correctAnswer": "a",
+              "explanation": "Modalverb + Infinitiv: 'wollen wir ... ausbauen'. Nach Modalverb 'wollen' folgt der Infinitiv ohne 'zu'. Distraktoren: b) Partizip II passt nicht zu 'wollen' (Modalverb verlangt Infinitiv, kein Partizip allein), c) 'zu'+Infinitiv ist falsch nach 'wollen' (im Gegensatz zu 'planen, beabsichtigen'), d) Gerundivform ('zu + Partizip I + Endung') käme nur als Attribut zu einem Substantiv vor. B2-Grammatik: Modalverb-Syntax."
+            },
+            {
+              "blankNumber": 6,
+              "type": "mcq",
+              "options": ["a) vorweisen", "b) vorwiesen", "c) vorgewiesen", "d) vorzuweisen"],
+              "correctAnswer": "a",
+              "explanation": "Modalverb + Infinitiv: 'Lieferanten, die ... keine ... Strategie vorweisen können'. Nach 'können' folgt der Infinitiv ('vorweisen'). Distraktoren: b) 'vorwiesen' wäre Konjunktiv II/Präteritum – nach Modalverb grammatisch unmöglich, c) Partizip II passt nicht zu 'können' (ohne Hilfsverb sinnlos), d) 'zu'+Infinitiv ist falsch nach Modalverb. B2-Kollokation: 'eine Strategie/ein Zeugnis/einen Nachweis vorweisen' = präsentieren/vorlegen."
+            },
+            {
+              "blankNumber": 7,
+              "type": "mcq",
+              "options": ["a) zu bevorzugen", "b) bevorzugt", "c) bevorzugend", "d) bevorzugen"],
+              "correctAnswer": "a",
+              "explanation": "Infinitivkonstruktion mit 'dazu ... zu': 'dazu angehalten, regionale Anbieter zu bevorzugen'. Das Verb 'anhalten' (transitiv, jmdn zu etw anhalten) verlangt einen zu-Infinitiv als Objektergänzung. Distraktoren: b) Partizip II allein würde adjektivisch gelesen ('bevorzugte Anbieter'), keine Handlungsaufforderung, c) Partizip I ist attributiv, bildet keine Infinitivkonstruktion, d) Infinitiv ohne 'zu' funktioniert nur nach Modalverben/sehen/hören/lassen. B2-Grammatik: zu+Infinitiv nach 'anhalten'."
+            },
+            {
+              "blankNumber": 8,
+              "type": "mcq",
+              "options": ["a) Entscheidend", "b) Entscheidung", "c) Entscheidende", "d) Entschieden"],
+              "correctAnswer": "a",
+              "explanation": "Prädikatives Adjektiv am Satzanfang: 'Entscheidend ist unsere interne Kommunikation' (vgl. 'Wichtig ist ...', 'Ausschlaggebend ist ...'). Die endungslose Form steht als Prädikativum nach 'sein'. Distraktoren: b) 'Entscheidung' ist Substantiv und würde 'Eine Entscheidung ist ...' verlangen, c) 'Entscheidende' mit Endung wäre substantiviert und käme nur mit Artikel ('Das Entscheidende ist ...'), d) 'Entschieden' als Partizip II bildet keine Satzeinleitung mit 'ist'. B2-Grammatik: Nominalisierung vs. prädikatives Adjektiv."
+            },
+            {
+              "blankNumber": 9,
+              "type": "mcq",
+              "options": ["a) laufende", "b) gelaufene", "c) zu laufende", "d) laufend"],
+              "correctAnswer": "a",
+              "explanation": "Partizip-I-Attribut als B2-Kernthema: 'Die laufende Kampagne' = 'Die Kampagne, die gerade läuft'. Partizip I 'laufend' + Adjektivendung -e (Nom. Sg. Fem. schwache Deklination nach 'Die'). Distraktoren: b) 'gelaufene' (Partizip II) würde abgeschlossene Handlung markieren (= die bereits durchgeführte), passt nicht, da die Kampagne aktuell aktiv ist, c) 'zu laufende' wäre Gerundivum (notwendig zu tun), unsinnig, d) 'laufend' ohne Endung bricht die Attribut-Deklination. Aktives Partizipialattribut: laufende."
+            },
+            {
+              "blankNumber": 10,
+              "type": "mcq",
+              "options": ["a) dass jeder", "b) dass jedem", "c) dass alle", "d) dass man"],
+              "correctAnswer": "a",
+              "explanation": "Subjekt des dass-Satzes im Nominativ: 'dass jeder ... eingesetzte Euro sich doppelt auszahlt'. 'jeder' (Nom. Sg. Mask.) kongruiert mit dem Prädikat 'auszahlt' (Singular). Distraktoren: b) 'jedem' wäre Dativ, aber hier wird ein Subjekt benötigt, c) 'dass alle ... auszahlt' erzeugt Subjekt-Verb-Inkongruenz (Plural Subjekt + Singular Verb), d) 'man' wäre grammatisch möglich, kollidiert aber mit dem Partizipialattribut 'eingesetzte Euro' – das Substantiv 'Euro' muss das Subjekt sein, nicht 'man'. B2-Grammatik: Subjekt-Verb-Kongruenz im dass-Satz."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Text. Welches Wort aus der Liste a–o passt in die Lücken? Jedes Wort passt nur einmal. Fünf Wörter bleiben übrig.",
+          "text": "Der Klimawandel zählt zu den drängendsten Herausforderungen unserer Zeit. Wissenschaftliche Berichte sprechen eine deutliche Sprache: Die Erde erwärmt sich schneller als __(11)__ angenommen. Dürreperioden, Starkregen und zurückweichende Gletscher sind inzwischen __(12)__ in vielen Regionen der Welt zu beobachten.\n\nPolitische Entscheidungsträger sehen __(13)__ einem Dilemma gegenüber. Einerseits erfordern wirksame Klimaschutzmaßnahmen oft unpopuläre Eingriffe in den Alltag der Bevölkerung. Andererseits __(14)__ jede Verzögerung die langfristigen Kosten drastisch. Fachleute __(15)__ deshalb, entschlossen zu handeln, statt kurzfristige Konflikte zu scheuen. Ihre Studien __(16)__, dass untätiges Zuwarten die teuerste aller Strategien ist.\n\nGleichzeitig darf man __(17)__ nicht übersehen: Technologische Fortschritte bieten ernsthafte Chancen. Die Kosten für Solarenergie und Batteriespeicher sind in den __(18)__ zehn Jahren um über achtzig Prozent gefallen. Elektromobilität hat __(19)__ von einer Randerscheinung zu einer ernstzunehmenden Option entwickelt.\n\nIn der Wissenschaft besteht weitgehender Konsens: Ein wirksames Umsteuern ist __(20)__ möglich, erfordert aber das gemeinsame Engagement von Staaten, Unternehmen und Zivilgesellschaft. Der Einzelne allein wird die Wende nicht schaffen; ohne individuelles Verhalten wiederum gelingen Systemveränderungen nur unvollständig. Die Kombination macht den Unterschied.",
+          "questions": [
+            {
+              "blankNumber": 11,
+              "type": "word_bank",
+              "options": [
+                "a) bislang", "b) Folgen", "c) demnach", "d) vergangenen", "e) deutlich",
+                "f) zwischen", "g) fordern", "h) erhöht", "i) sich", "j) stehen",
+                "k) allerdings", "l) zeigen", "m) nunmehr", "n) durchaus", "o) erschwert"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Temporaladverb der Vorvergangenheit: 'schneller als bislang angenommen' = 'schneller als bis zu diesem Zeitpunkt angenommen'. 'bislang' ist typisch für wissenschaftlichen Diskurs zur Kennzeichnung früherer Annahmen. Distraktor m) 'nunmehr' würde die Gegenwart/Zukunft markieren (= 'von nun an') – semantisch verkehrt. B2-Diskursmarker: 'bislang' als Temporaladverb der Rückschau."
+            },
+            {
+              "blankNumber": 12,
+              "type": "word_bank",
+              "options": [
+                "a) bislang", "b) Folgen", "c) demnach", "d) vergangenen", "e) deutlich",
+                "f) zwischen", "g) fordern", "h) erhöht", "i) sich", "j) stehen",
+                "k) allerdings", "l) zeigen", "m) nunmehr", "n) durchaus", "o) erschwert"
+              ],
+              "correctAnswer": "e",
+              "explanation": "Gradpartikel: 'sind inzwischen deutlich ... zu beobachten' – 'deutlich' verstärkt adverbiell das Verb 'beobachten'. Die feste Kollokation ist 'deutlich zu beobachten/erkennen/sehen'. Distraktor n) 'durchaus' wäre bestätigend ('tatsächlich, sehr wohl'), passt in der Satzposition grammatisch, aber verschiebt die Aussage – 'deutlich' misst die Intensität der Wahrnehmung, 'durchaus' bestätigt nur, dass beobachtet wird; Kontext ('Dürre, Starkregen') verlangt Intensitätsmarker, nicht Bestätigungsmarker."
+            },
+            {
+              "blankNumber": 13,
+              "type": "word_bank",
+              "options": [
+                "a) bislang", "b) Folgen", "c) demnach", "d) vergangenen", "e) deutlich",
+                "f) zwischen", "g) fordern", "h) erhöht", "i) sich", "j) stehen",
+                "k) allerdings", "l) zeigen", "m) nunmehr", "n) durchaus", "o) erschwert"
+              ],
+              "correctAnswer": "j",
+              "explanation": "Finites Verb 3. Pers. Plural Präsens: 'Politische Entscheidungsträger stehen ... einem Dilemma gegenüber'. Die Konstruktion 'jemandem gegenüberstehen' ist trennbar und wird hier im Präsens mit 'stehen' am Verbzweit und 'gegenüber' am Satzende realisiert. Distraktor g) 'fordern' wäre grammatisch möglich (transitiv), aber inhaltlich und in Kombination mit 'gegenüber' nicht idiomatisch. B2-Kollokation: 'einem Dilemma gegenüberstehen'."
+            },
+            {
+              "blankNumber": 14,
+              "type": "word_bank",
+              "options": [
+                "a) bislang", "b) Folgen", "c) demnach", "d) vergangenen", "e) deutlich",
+                "f) zwischen", "g) fordern", "h) erhöht", "i) sich", "j) stehen",
+                "k) allerdings", "l) zeigen", "m) nunmehr", "n) durchaus", "o) erschwert"
+              ],
+              "correctAnswer": "h",
+              "explanation": "Transitives Verb 3. Pers. Singular Präsens: 'jede Verzögerung erhöht die langfristigen Kosten'. Subjekt 'jede Verzögerung' (Sg.) + Objekt 'die Kosten' + Verb 'erhöht'. Distraktor o) 'erschwert' wäre semantisch möglich ('verschärft die Lage'), kollidiert aber mit der Kollokation – man erschwert Aufgaben oder Vorhaben, aber nicht Kosten; Kosten werden 'erhöht'. B2-Kollokation: 'Kosten erhöhen'."
+            },
+            {
+              "blankNumber": 15,
+              "type": "word_bank",
+              "options": [
+                "a) bislang", "b) Folgen", "c) demnach", "d) vergangenen", "e) deutlich",
+                "f) zwischen", "g) fordern", "h) erhöht", "i) sich", "j) stehen",
+                "k) allerdings", "l) zeigen", "m) nunmehr", "n) durchaus", "o) erschwert"
+              ],
+              "correctAnswer": "g",
+              "explanation": "Finites Verb 3. Pers. Plural Präsens: 'Fachleute fordern deshalb, entschlossen zu handeln'. Die Konstruktion 'jmd fordert, etw zu tun' verlangt ein transitives Forderungsverb. Distraktor l) 'zeigen' passt grammatisch, aber semantisch nicht – 'Fachleute zeigen, zu handeln' ergibt keinen Sinn; man zeigt keine Handlungsaufforderung, man fordert sie. B2-Kollokation: 'fordern + zu-Infinitiv'."
+            },
+            {
+              "blankNumber": 16,
+              "type": "word_bank",
+              "options": [
+                "a) bislang", "b) Folgen", "c) demnach", "d) vergangenen", "e) deutlich",
+                "f) zwischen", "g) fordern", "h) erhöht", "i) sich", "j) stehen",
+                "k) allerdings", "l) zeigen", "m) nunmehr", "n) durchaus", "o) erschwert"
+              ],
+              "correctAnswer": "l",
+              "explanation": "Finites Verb 3. Pers. Plural Präsens: 'Ihre Studien zeigen, dass untätiges Zuwarten die teuerste aller Strategien ist'. Kollokation 'Studien zeigen, dass ...' ist Standardformel im wissenschaftlichen Diskurs. Distraktor g) 'fordern' ist schon verbraucht und semantisch falsch – Studien fordern nichts, sie zeigen Ergebnisse. B2-Kollokation: 'Studien zeigen, dass'."
+            },
+            {
+              "blankNumber": 17,
+              "type": "word_bank",
+              "options": [
+                "a) bislang", "b) Folgen", "c) demnach", "d) vergangenen", "e) deutlich",
+                "f) zwischen", "g) fordern", "h) erhöht", "i) sich", "j) stehen",
+                "k) allerdings", "l) zeigen", "m) nunmehr", "n) durchaus", "o) erschwert"
+              ],
+              "correctAnswer": "k",
+              "explanation": "Konzessiver Diskursmarker an Satzposition: 'Gleichzeitig darf man allerdings nicht übersehen'. 'allerdings' markiert eine einschränkende Perspektive, die den vorigen Gedanken (= Dringlichkeit, hohe Kosten) mit einer Gegenperspektive (= technologische Chancen) verbindet. Distraktor c) 'demnach' wäre kausal-folgernd ('daraus folgt') und kehrt die Logik um. B2-Diskursmarker: konzessives 'allerdings'."
+            },
+            {
+              "blankNumber": 18,
+              "type": "word_bank",
+              "options": [
+                "a) bislang", "b) Folgen", "c) demnach", "d) vergangenen", "e) deutlich",
+                "f) zwischen", "g) fordern", "h) erhöht", "i) sich", "j) stehen",
+                "k) allerdings", "l) zeigen", "m) nunmehr", "n) durchaus", "o) erschwert"
+              ],
+              "correctAnswer": "d",
+              "explanation": "Attributives Adjektiv in Dativ-Plural schwacher Deklination: 'in den vergangenen zehn Jahren' = 'in den letzten zehn Jahren'. 'vergangenen' bezieht sich auf 'Jahren' (Dat. Pl.) und bekommt die Endung '-en' nach dem bestimmten Artikel 'den'. Feste Zeitangabe im journalistischen und wissenschaftlichen Stil."
+            },
+            {
+              "blankNumber": 19,
+              "type": "word_bank",
+              "options": [
+                "a) bislang", "b) Folgen", "c) demnach", "d) vergangenen", "e) deutlich",
+                "f) zwischen", "g) fordern", "h) erhöht", "i) sich", "j) stehen",
+                "k) allerdings", "l) zeigen", "m) nunmehr", "n) durchaus", "o) erschwert"
+              ],
+              "correctAnswer": "i",
+              "explanation": "Reflexivpronomen im Perfekt: 'Elektromobilität hat sich ... zu einer ernstzunehmenden Option entwickelt'. Das reflexive Verb 'sich entwickeln zu' bildet Perfekt mit 'haben' + 'sich' + Partizip II. Der Satz enthält 'hat ... entwickelt', die Lücke nimmt das obligatorische Reflexivpronomen 'sich' auf. B2-Grammatik: Reflexivkonstruktion im Perfekt."
+            },
+            {
+              "blankNumber": 20,
+              "type": "word_bank",
+              "options": [
+                "a) bislang", "b) Folgen", "c) demnach", "d) vergangenen", "e) deutlich",
+                "f) zwischen", "g) fordern", "h) erhöht", "i) sich", "j) stehen",
+                "k) allerdings", "l) zeigen", "m) nunmehr", "n) durchaus", "o) erschwert"
+              ],
+              "correctAnswer": "n",
+              "explanation": "Bestätigendes Modaladverb: 'Ein wirksames Umsteuern ist durchaus möglich, erfordert aber ...' 'durchaus' verstärkt die positive Aussage vor der einschränkenden 'aber'-Wendung und ist charakteristisch für argumentativen Text. Distraktor c) 'demnach' ist kausal-folgernd und passt in der Satzposition semantisch nicht. Die verbleibenden fünf ungenutzten Distraktoren (b Folgen, c demnach, f zwischen, m nunmehr, o erschwert) passen zu keiner Lücke im Text: 'Folgen' und 'erschwert' haben keinen passenden syntaktischen Slot, 'demnach' kehrt die Logik um, 'zwischen' verlangt eine ganz andere Satzstruktur, und 'nunmehr' ist zeitlich gegenläufig zu 'bislang'."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 30,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "letter",
+          "instructions": "Wählen Sie EINE der beiden folgenden Aufgaben (A oder B) und bearbeiten Sie diese. Beachten Sie die Leitpunkte und schreiben Sie mindestens 150 Wörter (Richtwert: 200 Wörter). Kennzeichnen Sie am Anfang Ihres Textes deutlich, welche Aufgabe Sie gewählt haben.",
+          "instructionsTranslation": "Choose ONE of the two tasks (A or B) below and complete it. Address the guiding points and write at least 150 words (target: around 200 words). Clearly mark at the top of your text which task you have chosen.",
+          "prompt": "AUFGABE A (Bitte um Information):\n\nSituation: Sie haben auf der Website des Bildungszentrums 'Grüne Zukunft' in Freiburg einen berufsbegleitenden Kurs mit dem Titel 'Zertifizierte Nachhaltigkeitsbeauftragte im Unternehmen' entdeckt. Der Kurs beginnt voraussichtlich im September. Die online verfügbaren Informationen sind knapp gehalten; Sie möchten sich vor einer Anmeldung genauer informieren, da Sie den Kurs parallel zu Ihrer Vollzeitstelle absolvieren möchten.\n\nSchreiben Sie eine formelle E-Mail an die Kursleitung (Frau Dr. Marlene Ruppert). Gehen Sie auf die folgenden drei Leitpunkte ein:\n\n• Fragen Sie nach den genauen Kursinhalten und der Art der Prüfung am Ende.\n• Erkundigen Sie sich nach Terminen, Lernaufwand pro Woche und ob der Kurs berufsbegleitend wirklich zu schaffen ist.\n• Bitten Sie um Informationen zu Förderungsmöglichkeiten und zum verbindlichen Anmeldeverfahren.\n\nBeachten Sie Anrede, Einleitung und Grußformel. Schreiben Sie mindestens 150 Wörter.\n\n— ODER —\n\nAUFGABE B (Stellungnahme):\n\nSituation: In der Wochenzeitschrift 'Perspektive' ist unter dem Titel 'Klimaschutz ist Sache des Einzelnen – alles andere ist Ausrede' ein Leitartikel erschienen. Die Autorin behauptet darin, dass individuelle Lebensstiländerungen (weniger Fleisch, Verzicht auf Flugreisen, bewusster Konsum) der entscheidende Hebel für den Klimaschutz seien und dass die Berufung auf politische oder industrielle Verantwortung nur bequeme Ausrede sei. Sie wollen auf diesen Artikel mit einem Leserbrief antworten.\n\nSchreiben Sie einen Leserbrief an die Redaktion (Herrn Michael Brehm, Chefredakteur 'Perspektive'). Gehen Sie auf die folgenden drei Leitpunkte ein:\n\n• Nehmen Sie begründet Stellung zur Hauptthese des Artikels – stimmen Sie zu, widersprechen Sie oder differenzieren Sie?\n• Bringen Sie mindestens zwei konkrete Beispiele oder Argumente aus Politik, Wirtschaft oder eigener Erfahrung.\n• Formulieren Sie einen konstruktiven Vorschlag, wie individuelle und systemische Klimamaßnahmen sinnvoll verzahnt werden könnten.\n\nBeachten Sie eine passende semi-formelle Anrede und eine sachliche Argumentation. Schreiben Sie mindestens 150 Wörter.",
+          "promptTranslation": "TASK A (Request for information):\n\nSituation: On the website of the 'Green Future' educational centre in Freiburg you have found a part-time course called 'Certified Sustainability Officer in Companies'. The course is scheduled to start in September. The information available online is sparse; you want detailed information before enrolling, as you plan to take the course alongside a full-time job.\n\nWrite a formal email to the course director (Dr. Marlene Ruppert). Address these three guiding points:\n\n• Ask about the exact course content and the type of final examination.\n• Enquire about dates, weekly workload and whether the course is realistically doable alongside full-time work.\n• Ask for information on funding opportunities and the binding registration procedure.\n\nInclude greeting, opening and closing. Write at least 150 words.\n\n— OR —\n\nTASK B (Opinion piece):\n\nSituation: The weekly magazine 'Perspektive' has published a lead article titled 'Climate protection is up to the individual – everything else is an excuse'. The author argues that individual lifestyle changes (less meat, no flights, conscious consumption) are the decisive lever for climate protection, and that referring to political or industrial responsibility is merely a convenient excuse. You want to respond with a letter to the editor.\n\nWrite a letter to the editor (Mr. Michael Brehm, Editor-in-Chief 'Perspektive'). Address these three guiding points:\n\n• State your well-reasoned position on the main thesis – agree, disagree, or differentiate.\n• Provide at least two concrete examples or arguments from politics, business or your own experience.\n• Formulate a constructive suggestion for how individual and systemic climate action could be combined.\n\nUse an appropriate semi-formal salutation and factual reasoning. Write at least 150 words.",
+          "requiredPoints": [
+            "Aufgabe A: Fragen zu Kursinhalten und Prüfungsform, Fragen zu Terminen und Lernaufwand, Fragen zu Förderung und Anmeldeverfahren",
+            "Aufgabe B: begründete Stellungnahme zur These, zwei konkrete Beispiele/Argumente, konstruktiver Vorschlag zur Verzahnung von individuellem und systemischem Handeln"
+          ],
+          "wordCountMin": 150,
+          "wordCountMax": 230,
+          "sampleAnswer": "[AUFGABE A — Beispielantwort]\n\nSehr geehrte Frau Dr. Ruppert,\n\nauf der Website des Bildungszentrums 'Grüne Zukunft' bin ich auf Ihren berufsbegleitenden Kurs 'Zertifizierte Nachhaltigkeitsbeauftragte im Unternehmen' gestoßen. Der Kurs interessiert mich sehr, da ich in meinem Betrieb künftig die Nachhaltigkeitsberichterstattung aufbauen soll. Bevor ich mich anmelde, möchte ich Sie höflich um einige weitere Informationen bitten.\n\nZunächst würde mich interessieren, welche konkreten Themen im Kurs behandelt werden und in welcher Form die Abschlussprüfung stattfindet. Gibt es eine schriftliche Klausur, eine Projektarbeit oder eine Kombination aus beidem? Darüber hinaus wäre ich Ihnen dankbar, wenn Sie mir die genauen Termine der Präsenzphasen und den durchschnittlichen wöchentlichen Lernaufwand nennen könnten. Besonders wichtig ist für mich die Frage, ob der Kurs realistisch neben einer Vollzeitstelle zu bewältigen ist.\n\nSchließlich möchte ich mich erkundigen, ob für Berufstätige finanzielle Förderungen – etwa über den Bildungsgutschein oder Bildungsurlaub – in Anspruch genommen werden können. Könnten Sie mir zudem das Anmeldeverfahren und die entsprechenden Fristen erläutern?\n\nFür Ihre Antwort bedanke ich mich im Voraus herzlich.\n\nMit freundlichen Grüßen\nJulia Wegener",
+          "scoringCriteria": [
+            {
+              "criterion": "I. Berücksichtigung der Leitpunkte",
+              "maxPoints": 15,
+              "description": "Alle drei Leitpunkte der gewählten Aufgabe (A oder B) werden inhaltlich mit B2-typischer Tiefe behandelt – nicht nur erwähnt, sondern mit Begründung und konkreten Details ausgeführt. A: A++ (15 Pkt) / B: B+ (10 Pkt) / C: C (5 Pkt) / D: unbehandelt (0 Pkt). Wird diese Kategorie mit D bewertet, erhält die gesamte Aufgabe 0 Punkte."
+            },
+            {
+              "criterion": "II. Kommunikative Gestaltung",
+              "maxPoints": 15,
+              "description": "Formelle/semi-formelle Anrede, logischer Textaufbau (Einleitung – Hauptteil – Schluss), konsistenter Sie-Register, B2-typische Diskursmarker (allerdings, darüber hinaus, im Übrigen, folglich, angesichts, hinsichtlich), passende Grußformel. Register-Sprünge (z.B. 'Hallo' in einer formellen Anfrage) werden abgewertet."
+            },
+            {
+              "criterion": "III. Formale Richtigkeit",
+              "maxPoints": 15,
+              "description": "B2-Grammatik korrekt eingesetzt: Passiv, Konjunktiv II für höfliche Bitten ('Ich würde mich freuen, wenn Sie ...', 'Könnten Sie mir ... mitteilen?'), Nominalisierung, komplexe Nebensätze, Genitiv-Präpositionen. Rechtschreibung und Zeichensetzung. Fehler, die das Verständnis blockieren, führen zu D und damit zu 0 Punkten gesamt."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "presentation",
+          "instructions": "Teil 1 — Präsentation (ca. 3 Minuten pro Kandidat:in). Jede:r Kandidat:in erhält eine Themenkarte und hält eine kurze, strukturierte Präsentation (Einstieg, Hauptteil, Schluss). Anschließend stellt die Partnerin/der Partner 1–2 Nachfragen.",
+          "instructionsTranslation": "Part 1 — Presentation (approx. 3 minutes per candidate). Each candidate receives a topic card and gives a short, structured presentation (intro, main body, conclusion). Afterwards the partner asks 1–2 follow-up questions.",
+          "prompt": "KANDIDAT:IN A — Thema: 'Klimaschutz im Alltag – was jede:r konkret tun kann'\n\nHalten Sie eine kurze Präsentation (ca. 3 Minuten) zu diesem Thema. Strukturieren Sie Ihren Vortrag so:\n\n• Einstieg: Warum ist Klimaschutz im Alltag inzwischen ein so präsentes Thema? Nennen Sie ein konkretes Beispiel aus Ihrer Umgebung.\n• Hauptteil: Welche konkreten Maßnahmen im Alltag haben einen spürbaren Effekt – und welche wirken eher symbolisch? Welche Herausforderungen (Zeit, Geld, Bequemlichkeit) begegnen Ihnen dabei?\n• Schluss: Welche Verantwortung hat Ihrer Meinung nach das Individuum, welche die Politik? Ihre persönliche Einschätzung.\n\n—\n\nKANDIDAT:IN B — Thema: 'Erneuerbare Energien in Deutschland – Chancen und Grenzen'\n\nHalten Sie eine kurze Präsentation (ca. 3 Minuten) zu diesem Thema. Strukturieren Sie Ihren Vortrag so:\n\n• Einstieg: Wie stark sind erneuerbare Energien heute in Deutschland ausgebaut? Ein konkretes Beispiel aus Ihrer Umgebung (Solaranlage, Windpark, Bürgerenergie).\n• Hauptteil: Welche Chancen bieten Solar-, Wind- und Biomasseenergie – für Umwelt, Wirtschaft und Arbeitsmarkt? Welche Grenzen sehen Sie (Speicherproblem, Netzausbau, Flächenkonflikte)?\n• Schluss: Wie beurteilen Sie den weiteren Ausbau bis 2030? Ihre Einschätzung.",
+          "sampleResponse": "[Kandidat:in A — Klimaschutz im Alltag]\n\nMeine Damen und Herren, ich möchte heute darüber sprechen, was jede und jeder Einzelne konkret zum Klimaschutz beitragen kann. Das Thema ist präsenter denn je. In meinem Wohnviertel gibt es seit einem halben Jahr ein Reparaturcafé, das inzwischen so voll ist, dass man sich anmelden muss. Das zeigt mir: Viele Menschen wollen handeln, suchen aber nach alltagstauglichen Wegen.\n\nIm Hauptteil möchte ich kurz zwischen wirksamen und eher symbolischen Maßnahmen unterscheiden. Einen wirklich spürbaren Effekt haben nach allen Studien der Verzicht auf Kurzstreckenflüge, weniger Fleisch und die energetische Sanierung der eigenen Wohnung. Das sind die großen Hebel. Demgegenüber wirken viele kleinere Gesten – der Jutebeutel statt der Plastiktüte – eher symbolisch, obwohl sie kaum schaden. Allerdings darf man die Herausforderungen nicht unterschätzen: Viele nachhaltige Alternativen sind teurer oder zeitaufwendiger. Gerade Familien mit kleinem Budget haben hier einen Nachteil.\n\nAbschließend bin ich überzeugt, dass Individuum und Politik beide in der Pflicht stehen. Das Individuum muss wollen, die Politik muss die Rahmenbedingungen schaffen – bezahlbare Bahntickets, bessere Fahrradinfrastruktur, klare Vorschriften für Industrie. Nur gemeinsam geht es. Vielen Dank – was denken Sie dazu?\n\n[Beispielhafte Nachfrage der Partnerin/des Partners: 'Welche Maßnahme hat bei dir selbst den größten Effekt gebracht?']",
+          "evaluationTips": [
+            "Strukturieren Sie die Präsentation klar: Einstieg – Hauptteil – Schluss",
+            "Verwenden Sie B2-Diskursmarker: 'Zunächst', 'Darüber hinaus', 'Allerdings', 'Demgegenüber', 'Abschließend'",
+            "Nennen Sie EIN konkretes Beispiel (aus Umfeld/Alltag/Beobachtung), keine rein abstrakten Aussagen",
+            "Unterscheiden Sie wirksam zwischen großen und kleinen Hebeln (Differenzierung ist B2-Kernkompetenz)",
+            "Konjunktiv II für Einschätzungen: 'Ich könnte mir vorstellen, dass ...', 'Sinnvoll wäre ...'",
+            "Direkter Schluss mit persönlicher Einschätzung + Übergabe an Partner",
+            "Zeitlimit (~3 Min) beachten – nicht länger, nicht kürzer"
+          ],
+          "keyPhrases": [
+            "Ich möchte heute über ... sprechen.",
+            "Ein konkretes Beispiel dafür ist ...",
+            "Einerseits ..., andererseits ...",
+            "Den größten Hebel sehe ich in ...",
+            "Demgegenüber wirken andere Maßnahmen eher symbolisch.",
+            "Allerdings darf man nicht übersehen, dass ...",
+            "Meiner Ansicht nach ...",
+            "Abschließend lässt sich festhalten ...",
+            "Was denken Sie / was denkst du dazu?"
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "discussion",
+          "instructions": "Teil 2 — Diskussion (ca. 5 Minuten gemeinsam). Beide Kandidat:innen erhalten denselben provokanten Satz und diskutieren ihn. Ziel: eigene Position vertreten, auf die Argumente der Partnerin/des Partners eingehen, widersprechen oder weiterentwickeln.",
+          "instructionsTranslation": "Part 2 — Discussion (approx. 5 minutes together). Both candidates receive the same provocative statement and discuss it. Goal: defend your own position, engage with the partner's arguments, disagree or build on them.",
+          "prompt": "Thema für beide Kandidat:innen:\n\n'Kurzstreckenflüge innerhalb Deutschlands sollten gesetzlich verboten werden. Wer zwischen deutschen Großstädten reist, soll Bahn, Bus oder Auto nehmen – nicht das Flugzeug.'\n\n— Leitfragen für die Diskussion —\n\n• Stimmen Sie dieser Forderung zu oder widersprechen Sie?\n• Welche Vorteile hätte ein solches Verbot – für Klima, Verkehr, Bahn?\n• Welche Nachteile oder praktischen Probleme sehen Sie (Reisezeit, Geschäftsreisen, Anschlussflüge, Ausweichen auf andere Länder)?\n• Wären Sie selbst bereit, auf Inlandsflüge zu verzichten, auch wenn sie nicht verboten sind? Warum (nicht)?\n\nReagieren Sie auf die Argumente Ihrer Partnerin/Ihres Partners, widersprechen Sie höflich, wo nötig, und versuchen Sie am Ende, Ihre Positionen zusammenzuführen oder respektvoll unterschiedlich stehen zu lassen.",
+          "sampleResponse": "KANDIDAT:IN A: 'Also, ich stimme der Forderung grundsätzlich zu. Ein Flug von Hamburg nach München verursacht pro Person ein Vielfaches des CO₂-Ausstoßes einer ICE-Fahrt. Angesichts der Klimakrise ist das einfach nicht mehr vermittelbar.'\n\nKANDIDAT:IN B: 'Da möchte ich differenzieren. Ich sehe zwar das Klimaargument, aber ein pauschales Verbot halte ich für problematisch. Viele Inlandsflüge sind Anschlussflüge zu Interkontinentalverbindungen. Wenn jemand in Frankfurt nach New York umsteigen muss, würde ein Bahnverbot bis Frankfurt dreieinhalb Stunden zusätzlich bedeuten.'\n\nKANDIDAT:IN A: 'Das ist ein berechtigter Einwand. Aber genau solche Anschlussflüge könnte man ja von der Regelung ausnehmen. Das Problem sind die reinen Inlandsstrecken wie München–Berlin, wo die Bahn konkurrenzfähig ist. Meinst du nicht, dass dort ein Verbot funktionieren würde?'\n\nKANDIDAT:IN B: 'Wenn es so differenziert formuliert ist, dann sehe ich das tatsächlich anders. Dann bleibt allerdings das Problem, dass die Bahn bei Verspätungen und Streiks regelmäßig ausfällt. Ein Verbot müsste also mit einem massiven Investitionspaket für den Schienenverkehr einhergehen.'\n\nKANDIDAT:IN A: 'Da stimme ich dir absolut zu. Ein Flugverbot ohne zuverlässigere Bahn wäre nur Symbolpolitik. Vielleicht sollte man mit einer CO₂-Abgabe anfangen und schrittweise zu einem Verbot übergehen, wenn die Bahn nachgezogen hat.'\n\nKANDIDAT:IN B: 'Das klingt nach einem vernünftigen Kompromiss. Ich könnte mir vorstellen, das so zu unterstützen. Persönlich verzichte ich übrigens schon heute auf Inlandsflüge, außer bei eben diesen Anschlussfällen.'",
+          "evaluationTips": [
+            "Klare Position beziehen – 'Ich stimme zu / Ich widerspreche / Ich differenziere'",
+            "Auf das Gesagte des Partners konkret eingehen – nicht nur die eigene Position wiederholen",
+            "Widerspruch höflich: 'Da möchte ich differenzieren ...', 'Das sehe ich anders, weil ...'",
+            "Konjunktiv II für hypothetische Argumentation: 'Wäre ...', 'Würde ...', 'Könnte ...'",
+            "Konkrete Beispiele nennen (Strecken, Zahlen, eigene Erfahrungen), keine rein theoretischen Argumente",
+            "Versuch der Synthese am Ende: 'Vielleicht sollte man mit ... anfangen', 'Ein möglicher Kompromiss wäre ...'",
+            "Diskursmarker der Argumentation: 'allerdings', 'andererseits', 'demgegenüber', 'darüber hinaus', 'angesichts'"
+          ],
+          "keyPhrases": [
+            "Meiner Meinung nach ...",
+            "Ich kann dem nur teilweise zustimmen.",
+            "Das sehe ich anders, weil ...",
+            "Ein starkes Argument dafür/dagegen ist ...",
+            "Darf ich kurz darauf eingehen?",
+            "Ich verstehe deinen Punkt, allerdings ...",
+            "Wenn es so differenziert formuliert ist, ...",
+            "Ein Kompromiss könnte sein, dass ...",
+            "Da sind wir uns wohl einig."
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Teil 3 — Gemeinsam Planen (ca. 5 Minuten). Beide Kandidat:innen erhalten denselben Planungsauftrag und müssen gemeinsam zu einer konkreten Lösung kommen: Vorschläge machen, abwägen, verhandeln, Entscheidung treffen.",
+          "instructionsTranslation": "Part 3 — Collaborative Planning (approx. 5 minutes). Both candidates receive the same planning task and must reach a concrete joint solution: make proposals, weigh options, negotiate, decide.",
+          "prompt": "Planungsauftrag für beide Kandidat:innen:\n\nIhre Firma hat Sie beide gebeten, gemeinsam eine 'Nachhaltigkeitswoche' am Standort zu organisieren. Ziel ist es, die rund 120 Beschäftigten für Klimaschutz im beruflichen Alltag zu sensibilisieren – mit Vorträgen, Workshops und konkreten Mitmach-Aktionen.\n\nBesprechen Sie folgende Punkte und treffen Sie konkrete Entscheidungen:\n\n• Zeitpunkt: In welchem Monat soll die Woche stattfinden? Welche Tage eignen sich besonders (Montag–Freitag ganztägig? einzelne Schwerpunkttage)?\n• Programm: Welche inhaltlichen Elemente sollen vertreten sein (Vortrag externer Expertin, Workshop zu nachhaltiger Ernährung in der Kantine, Fahrradcheck auf dem Firmenparkplatz, Kleidertausch)?\n• Budget: Wie viel Budget halten Sie für realistisch? Wie teilen Sie die Kosten auf (externe Referentinnen, Material, Catering)?\n• Beteiligung: Wie motivieren Sie möglichst viele Kolleginnen und Kollegen zur Teilnahme? Wie erreichen Sie auch die bisher eher uninteressierten?\n• Aufgabenverteilung: Wer übernimmt welche konkrete Vorbereitung bis zur Nachhaltigkeitswoche?\n\nEinigen Sie sich am Ende auf einen klaren Plan.",
+          "sampleResponse": "KANDIDAT:IN A: 'Fangen wir mit dem Zeitpunkt an. Ich würde vorschlagen, die Nachhaltigkeitswoche im September zu machen, gleich nach den Sommerferien – da ist die Motivation hoch, und wir haben den Termin vor der dunklen Jahreszeit. Was hältst du davon?'\n\nKANDIDAT:IN B: 'September klingt gut. Ich würde aber nicht jeden Tag ganztägig planen – die Leute müssen ja weiterarbeiten. Wie wäre es, wenn wir pro Tag einen Schwerpunkt haben, jeweils vormittags ein 90-Minuten-Event? Montag bis Freitag, insgesamt fünf Themen.'\n\nKANDIDAT:IN A: 'Genau, das ist realistischer. Inhaltlich würde ich vorschlagen: Montag ein Vortrag mit einer externen Klimaforscherin zum Einstieg, Dienstag der Workshop in der Kantine zu nachhaltiger Ernährung, Mittwoch der Fahrradcheck auf dem Firmenparkplatz, Donnerstag ein Kleidertausch, Freitag eine Abschlussdiskussion mit Vorstand und Belegschaft.'\n\nKANDIDAT:IN B: 'Einverstanden. Zum Budget: Ich würde etwa 4.000 Euro ansetzen. Der größte Posten wäre das Honorar für die externe Referentin – circa 1.500 Euro – und das vegetarische Catering für den Dienstag. Materialkosten für Fahrradcheck und Kleidertausch sind überschaubar.'\n\nKANDIDAT:IN A: 'Das passt. Um möglichst viele zu erreichen, würde ich eine kurze Befragung vorab machen – welche Themen interessieren die Kolleginnen am meisten? Und vielleicht eine kleine Teilnahme-Karte, die abgestempelt wird; wer drei Events besucht, nimmt an einer Verlosung eines Lastenrad-Gutscheins teil.'\n\nKANDIDAT:IN B: 'Gute Idee mit der Karte! Zur Aufgabenverteilung: Ich übernehme die externe Referentin und das Catering, du kümmerst dich um Fahrradcheck und Kleidertausch plus die Verlosung. Interne Kommunikation machen wir gemeinsam.'\n\nKANDIDAT:IN A: 'Perfekt. Also zusammengefasst: Nachhaltigkeitswoche im September, fünf Vormittage, je ein Schwerpunkt, 4.000 Euro Budget, Vorabbefragung und Stempelkarte zur Motivation, du Referentin und Catering, ich Fahrrad und Kleidertausch, Kommunikation gemeinsam. Abgemacht?' – KANDIDAT:IN B: 'Abgemacht.'",
+          "evaluationTips": [
+            "Konkrete Vorschläge statt vager Ideen: Monat, Uhrzeit, Betrag, Format nennen",
+            "Aktiv zuhören – reagieren Sie spezifisch auf die Vorschläge des Partners",
+            "Konjunktiv II für Vorschläge: 'Ich würde vorschlagen ...', 'Wir könnten ...', 'Wie wäre es mit ...?'",
+            "Kompromisse zeigen: 'Ganztägig ist mir zu viel – wie wäre ein Schwerpunkt pro Tag?'",
+            "Am Ende zusammenfassen: 'Also zusammengefasst: ...'",
+            "Aufgabenverteilung explizit machen: 'Ich übernehme ..., du kümmerst dich um ...'",
+            "Höfliche Zustimmung/Widerspruch: 'Einverstanden', 'Abgemacht', 'Das sehe ich anders'",
+            "Budget und Aufgabenverteilung müssen beide konkret benannt werden"
+          ],
+          "keyPhrases": [
+            "Ich würde vorschlagen, dass ...",
+            "Wie wäre es, wenn wir ...?",
+            "Das klingt sinnvoll, aber ...",
+            "Können wir uns darauf einigen, dass ...?",
+            "Wer übernimmt ...?",
+            "Ich kümmere mich um ..., du übernimmst bitte ...",
+            "Einverstanden / Abgemacht.",
+            "Also zusammengefasst: ...",
+            "Sollen wir das so festhalten?"
+          ]
+        }
+      ]
+    }
   }
 }
