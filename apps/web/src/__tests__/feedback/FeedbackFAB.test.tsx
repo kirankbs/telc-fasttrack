@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
-import { render, screen, waitFor, act } from "@testing-library/react";
+import { render, screen, waitFor, act, fireEvent } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { FeedbackFAB } from "@/components/FeedbackFAB";
 
@@ -122,11 +122,9 @@ describe("FeedbackFAB — form fields", () => {
   it("live counter updates as description changes", async () => {
     render(<FeedbackFAB />);
     await userEvent.click(screen.getByTestId("feedback-fab"));
-    // Use a no-space string so userEvent.type count is deterministic
-    await userEvent.type(
-      screen.getByTestId("feedback-description"),
-      "HelloWorld"
-    );
+    // Use fireEvent.change for deterministic character count across environments
+    const textarea = screen.getByTestId("feedback-description");
+    fireEvent.change(textarea, { target: { value: "HelloWorld" } });
     const counter = document.getElementById("feedback-desc-counter");
     expect(counter?.textContent).toMatch(/10/);
   });
