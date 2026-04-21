@@ -8,7 +8,16 @@ import {
   type FormEvent,
 } from "react";
 import { usePathname } from "next/navigation";
+import { upload } from "@vercel/blob/client";
 import { submitFeedback, type FeedbackCategory } from "@/lib/actions/feedback";
+
+const MAX_FILES = 5;
+const MAX_FILE_SIZE = 10 * 1024 * 1024; // 10 MB
+
+interface AttachmentItem {
+  file: File;
+  error?: string;
+}
 
 const MAX_TITLE_LENGTH = 80;
 const MIN_DESCRIPTION_LENGTH = 20;
@@ -33,9 +42,13 @@ export function FeedbackFAB() {
   const [apiError, setApiError] = useState<string | null>(null);
   const [titleError, setTitleError] = useState<string | null>(null);
   const [descError, setDescError] = useState<string | null>(null);
+  const [attachments, setAttachments] = useState<AttachmentItem[]>([]);
+  const [attachmentError, setAttachmentError] = useState<string | null>(null);
+  const [attachmentsFailed, setAttachmentsFailed] = useState(false);
 
   const dialogRef = useRef<HTMLDialogElement>(null);
   const firstFocusableRef = useRef<HTMLInputElement>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const resetForm = useCallback(() => {
     setTitle("");
@@ -46,7 +59,35 @@ export function FeedbackFAB() {
     setApiError(null);
     setTitleError(null);
     setDescError(null);
+    setAttachments([]);
+    setAttachmentError(null);
+    setAttachmentsFailed(false);
   }, []);
+
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const selected = Array.from(e.target.files ?? []);
+    if (!selected.length) return;
+    const combined = [...attachments, ...selected.map((f) => ({ file: f }))];
+    if (combined.length > MAX_FILES) {
+      setAttachmentError(`Maximum ${MAX_FILES} files allowed`);
+      if (fileInputRef.current) fileInputRef.current.value = "";
+      return;
+    }
+    const validated = combined.map((item) => ({
+      file: item.file,
+      error: item.file.size > MAX_FILE_SIZE ? "File exceeds 10 MB limit" : undefined,
+    }));
+    setAttachments(validated);
+    setAttachmentError(null);
+    if (fileInputRef.current) fileInputRef.current.value = "";
+  };
+
+  const removeAttachment = (index: number) => {
+    setAttachments((prev) => prev.filter((_, i) => i !== index));
+    setAttachmentError(null);
+  };
+
+  const hasAttachmentErrors = attachments.some((a) => a.error);
 
   const openModal = useCallback(() => {
     resetForm();
@@ -136,6 +177,21 @@ export function FeedbackFAB() {
         ? "Tablet"
         : "Desktop";
 
+    const uploadedAttachments = await Promise.all(
+      attachments.filter((a) => !a.error).map(async ({ file }) => {
+        try {
+          const blob = await upload(
+            `feedback-attachments/${file.name}`,
+            file,
+            { access: "public", handleUploadUrl: "/api/blob-upload" }
+          );
+          return { name: file.name, url: blob.url };
+        } catch {
+          return { name: file.name, url: null as string | null };
+        }
+      })
+    );
+
     const result = await submitFeedback({
       title: title.trim(),
       description,
@@ -143,6 +199,7 @@ export function FeedbackFAB() {
       pathname,
       userAgent: ua,
       deviceType,
+      attachments: uploadedAttachments.length > 0 ? uploadedAttachments : undefined,
     });
 
     if (result.error) {
@@ -150,6 +207,7 @@ export function FeedbackFAB() {
       setModalState("error");
     } else {
       setIssueNumber(result.issueNumber ?? null);
+      setAttachmentsFailed(result.attachmentsFailed === true);
       setModalState("success");
     }
   };
@@ -250,6 +308,14 @@ export function FeedbackFAB() {
                     >
                       #{issueNumber}
                     </a>
+                  </p>
+                )}
+                {attachmentsFailed && (
+                  <p
+                    data-testid="feedback-attachments-warning"
+                    className="text-sm text-text-secondary bg-surface-container rounded-xl px-4 py-2"
+                  >
+                    Some attachments could not be uploaded and are missing from the issue.
                   </p>
                 )}
                 <button
@@ -403,6 +469,60 @@ export function FeedbackFAB() {
                   </select>
                 </div>
 
+                {/* File attachments */}
+                <div className="flex flex-col gap-1">
+                  <label
+                    htmlFor="feedback-attachment-input"
+                    className="text-sm font-medium text-text-secondary"
+                  >
+                    Screenshots or files{" "}
+                    <span className="text-text-tertiary font-normal">(optional)</span>
+                  </label>
+                  <input
+                    id="feedback-attachment-input"
+                    ref={fileInputRef}
+                    data-testid="feedback-attachment"
+                    type="file"
+                    multiple
+                    accept="image/*,application/pdf,text/plain"
+                    onChange={handleFileChange}
+                    className="text-sm text-text-secondary file:mr-3 file:rounded-lg file:border-0 file:bg-brand-600/10 file:px-3 file:py-1 file:text-brand-600 file:cursor-pointer file:font-medium"
+                  />
+                  <p className="text-xs text-text-tertiary">
+                    Up to {MAX_FILES} files, 10 MB each
+                  </p>
+                  {attachmentError && (
+                    <p role="alert" className="text-error text-xs">
+                      {attachmentError}
+                    </p>
+                  )}
+                  {attachments.length > 0 && (
+                    <ul className="flex flex-col gap-1 mt-1">
+                      {attachments.map((item, i) => (
+                        <li key={i} className="flex items-center gap-2 text-xs">
+                          <span
+                            className={
+                              item.error ? "text-error" : "text-text-secondary"
+                            }
+                          >
+                            {item.file.name}{" "}
+                            ({(item.file.size / 1024 / 1024).toFixed(2)} MB)
+                            {item.error && ` — ${item.error}`}
+                          </span>
+                          <button
+                            type="button"
+                            onClick={() => removeAttachment(i)}
+                            className="text-error hover:opacity-70 focus:outline-none focus-visible:ring-1 focus-visible:ring-error"
+                            aria-label={`Remove ${item.file.name}`}
+                          >
+                            ✕
+                          </button>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+
                 {/* API error */}
                 {modalState === "error" && apiError && (
                   <div
@@ -441,7 +561,7 @@ export function FeedbackFAB() {
                     <button
                       type="submit"
                       data-testid="feedback-submit"
-                      disabled={modalState === "submitting"}
+                      disabled={modalState === "submitting" || hasAttachmentErrors}
                       className="min-h-[44px] px-4 py-2 rounded-xl bg-brand-600 text-white font-medium hover:bg-brand-700 transition-colors disabled:opacity-60 disabled:cursor-not-allowed focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2"
                     >
                       {modalState === "submitting" ? "Submitting..." : "Submit"}

@@ -15,26 +15,33 @@ pnpm build         # production build
 
 A floating action button is mounted globally in the root layout. Users can report bugs, request features, or ask questions. Each submission creates a GitHub issue on `kirankbs/fastrack-deutsch` with metadata (route, browser, device type, commit SHA, timestamp).
 
-### Required environment variable
+### Environment variables
 
-| Variable | Description |
-|----------|-------------|
-| `GITHUB_TOKEN` | Personal access token with `issues: write` scope on `kirankbs/fastrack-deutsch` |
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `GITHUB_TOKEN` | Yes | Fine-grained PAT, `issues: write` on `kirankbs/fastrack-deutsch` |
+| `BLOB_READ_WRITE_TOKEN` | Yes (attachments) | Vercel Blob token — Vercel dashboard → Storage → Blob store |
+| `CRON_SECRET` | Yes (cron) | Random secret: `openssl rand -hex 32` |
 
-The PAT must have **Contents: Read** and **Issues: Read and Write** permissions on the `kirankbs/fastrack-deutsch` repository (fine-grained PAT) or `repo` scope (classic PAT).
+Add all three to Vercel (**Settings → Environment Variables**, Production + Preview + Development) and to `apps/web/.env.local`.
 
 ### Local setup
 
-Add to `apps/web/.env.local`:
-
 ```
 GITHUB_TOKEN=ghp_your_token_here
+BLOB_READ_WRITE_TOKEN=vercel_blob_...
+CRON_SECRET=your_random_secret
 ```
 
-### Vercel setup
+### Vercel Blob store
 
-Add `GITHUB_TOKEN` as an environment variable in Vercel dashboard under **Settings → Environment Variables** for both **Production** and **Preview** environments.
+Create a Blob store in the Vercel dashboard under **Storage → Blob**, then copy the `BLOB_READ_WRITE_TOKEN`. Feedback attachments are stored under the `feedback-attachments/` prefix.
+
+### Cleanup cron
+
+A weekly cron runs every Monday at 03:00 UTC (`0 3 * * 1`) via `vercel.json`. It deletes all blobs in `feedback-attachments/` older than 7 days. The route is at `/api/cron/cleanup-feedback-attachments` and is protected by `Authorization: Bearer <CRON_SECRET>`.
 
 ### Graceful degradation
 
-If `GITHUB_TOKEN` is missing or invalid, the FAB still renders. Submitting the form returns a friendly error message to the user rather than crashing. No issues are silently dropped.
+- `GITHUB_TOKEN` missing → FAB renders, submit returns friendly error, no issue created.
+- `BLOB_READ_WRITE_TOKEN` missing → FAB renders, file uploads fail gracefully, issue still created without attachments.
