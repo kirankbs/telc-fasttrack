@@ -23,7 +23,7 @@ function generateEntries(level: Level, count: number): MockExamEntry[] {
     ],
     B2: [
       'Wissenschaft', 'Beruf', 'Bildung', 'Medien', 'Umwelt',
-      'Gesellschaft', 'Kultur', 'Wirtschaft', 'Politik', 'Technologie',
+      'Gesellschaft', 'Kultur', 'Gesellschaft & Integration', 'Politik', 'Technologie',
     ],
     C1: [
       'Wissenschaft', 'Forschung', 'Bildung', 'Medien', 'Umwelt',
