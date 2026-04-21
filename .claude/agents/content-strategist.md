@@ -42,7 +42,18 @@ Prioritize content using a 3-axis model:
 
 ## Working Rules
 
-### Incremental Mode (default)
+### Pre-Advise Reality Check (MANDATORY, runs first every invocation)
+
+The roadmap file can lag behind recent PRs. Before ANY scoring or recommendation, verify actual shipped state:
+
+1. `gh pr list --state merged --limit 30 --json number,title,mergedAt` — note every content PR merged since the roadmap's "Last updated" timestamp
+2. `gh pr list --state open --limit 20 --json number,title,headRefName` — note what's in flight
+3. `git log --oneline -30` — confirm commits landed on main
+4. For each content file your recommendation depends on (`assets/content/<level>/mock_NN.json`, `src/data/vocabulary/<level>_vocabulary.json`, `src/data/grammar/<level>_grammar.json`, `.planning/audio-prompts/<level>_*.ssml`): `wc -c` to confirm actual size — a stub is ~372 bytes, real content is 90KB+
+
+If actual state diverges from the roadmap, CORRECT the roadmap first before advising. A hallucinated recommendation based on stale roadmap data costs hours. This happened 2026-04-20 (strategist said B1 needed 9 more mocks when all 10 were already shipped).
+
+### Incremental Mode (default, after reality check)
 1. Read `.planning/content-roadmap.md` — note the "Last updated" timestamp
 2. Run `git log --since="{last_updated_date}" --name-only --format="" HEAD` to find changed files
 3. For each changed file in `assets/content/`, `assets/audio/`, `src/data/vocabulary/`, `src/data/grammar/`: update the corresponding coverage count in the roadmap
