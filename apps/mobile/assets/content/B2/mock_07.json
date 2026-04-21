@@ -374,11 +374,10 @@
               "options": [
                 "a) KI-Werkzeuge sollten in allen Entscheidungsprozessen die Oberhand behalten.",
                 "b) Die zentrale Frage beim KI-Einsatz ist nicht die Effizienz, sondern wer am Ende entscheidet.",
-                "c) Unternehmen sollten generative KI grundsätzlich wieder aus ihren Abläufen entfernen.",
-                "d) KI ist für den deutschen Mittelstand keine relevante Technologie."
+                "c) Unternehmen sollten generative KI grundsätzlich wieder aus ihren Abläufen entfernen."
               ],
               "correctAnswer": "b",
-              "explanation": "Hoffmann sagt wörtlich: 'Entscheidend ist nicht, wie viel Zeit gespart wird, sondern wer künftig welche Entscheidung trifft.' Das entspricht Option b. Option a widerspricht ihr explizit (sie fordert menschliche Letztentscheidung bei kritischen Fällen); Option c ist eine Karikatur ihrer Position (sie lehnt KI nicht ab, sondern fordert klare Regeln); Option d ist eine Behauptung, die im Text nirgends fällt. B2-Trap: Der Text erwähnt Effizienz prominent, nur Option b kehrt aber ihre eigentliche Prioritätssetzung richtig heraus."
+              "explanation": "Hoffmann sagt wörtlich: 'Entscheidend ist nicht, wie viel Zeit gespart wird, sondern wer künftig welche Entscheidung trifft.' Das entspricht Option b. Option a widerspricht ihr explizit (sie fordert menschliche Letztentscheidung bei kritischen Fällen); Option c ist eine Karikatur ihrer Position (sie lehnt KI nicht ab, sondern fordert klare Regeln). B2-Trap: Der Text erwähnt Effizienz prominent, nur Option b kehrt aber ihre eigentliche Prioritätssetzung richtig heraus. [PEDAGOGY-REWRITE: Option d entfernt – telc B2 Lesen Teil 2 verwendet 3 Optionen (a/b/c), nicht 4.]"
             },
             {
               "id": "B2_m07_R2_q2",
