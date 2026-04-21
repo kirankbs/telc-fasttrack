@@ -10,10 +10,10 @@
 | **A1** | **10/10** | 10 | **650** | 650 | **12** | **100%** (60 MP3s) | Reviewed — 40 rewrites (#39) | **Shipped** |
 | **A2** | **10/10** | 10 | **1,300** | 1,300 | **15** | **100%** (60 MP3s) | Reviewed — 17 rewrites (#37) | **Shipped** |
 | **B1** | **10/10** | 10 | **2,400** | 2,400 | **20** | **100%** (30 MP3s + 30 SSML, #47) | Authored per B1-exam-format.md | **Shipped** |
-| **B2** | **10/10** | 10 | **4,016** | 4,000 | **25** | **0%** (SSML ready, MP3 pending) | All 10 PASS — 4 rewrites total | **Shipped pending merge + MP3 render** |
+| **B2** | **10/10** | 10 | **4,016** | 4,000 | **25** | **100%** (30 MP3s + 30 SSML, #83) | All 10 PASS — 4 rewrites total | **Shipped** |
 | **C1** | 0/10 real (stubs) | 10 | 0 | 6,000 | 0 | 0% | — | Backlog |
 
-**Note (2026-04-21):** B2 is content-complete. mock_01 and mock_03 are merged. 8 PRs (#74, #73, #76, #75, #81, #79, #78, #80) are open, CI green, pedagogy approved — awaiting user merge. MP3 render blocked on GCP WaveNet credentials.
+**Note (2026-04-21):** B2 fully shipped. All 12 content PRs (#61, #62, #72-82) merged. Audio MP3s rendered via GCP WaveNet (PR #83, 130K chars, $0 actual cost — within free tier).
 
 ---
 
