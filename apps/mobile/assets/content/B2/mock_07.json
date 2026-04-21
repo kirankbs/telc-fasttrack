@@ -1,13 +1,935 @@
 {
   "id": "B2_mock_07",
   "level": "B2",
-  "title": "Übungstest 7",
-  "version": 0,
-  "_stub": true,
+  "title": "B2 Übungstest 7: Technologie & Digitalisierung",
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Nachrichtenmeldungen aus dem Bereich Technologie und Digitalisierung. Entscheiden Sie bei jeder Aussage: richtig oder falsch? Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short news bulletins on technology and digitalisation. For each statement decide: correct or incorrect? You will hear each text only once.",
+          "audioFile": "assets/audio/B2/mock07/listening_part1.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m07_L1_q1",
+              "type": "true_false",
+              "questionText": "Die Bundesregierung plant laut der Meldung, den Einsatz von Künstlicher Intelligenz in Behörden komplett zu verbieten.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Meldung sagt: 'Das Bundesinnenministerium hat heute eine neue Rahmenrichtlinie vorgestellt, die den Einsatz von KI-Systemen in Bundesbehörden strenger regulieren soll – ein Verbot ist ausdrücklich nicht vorgesehen.' Die Formulierung 'strenger regulieren' steht im Gegensatz zu einem Verbot. B2-Falle: Das Wort 'strenger' klingt nach Verschärfung und verführt dazu, ein Verbot mitzudenken – der Text präzisiert aber mit 'ausdrücklich nicht'.",
+              "audioTimestamp": 14
+            },
+            {
+              "id": "B2_m07_L1_q2",
+              "type": "true_false",
+              "questionText": "Ein Krankenhaus in Leipzig setzt erstmals Operationsroboter ein, die ohne Ärzte arbeiten.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Text formuliert: 'Am Universitätsklinikum Leipzig wurde gestern das erste vollständig KI-gestützte Operationsassistenzsystem in Betrieb genommen – die Chirurginnen und Chirurgen behalten dabei die volle Kontrolle.' 'Assistenzsystem' und 'die Chirurginnen und Chirurgen behalten die volle Kontrolle' widerlegen die Behauptung, die Roboter arbeiteten ohne Ärzte. B2-Trap: 'KI-gestützt' wird leicht mit 'autonom' verwechselt.",
+              "audioTimestamp": 52
+            },
+            {
+              "id": "B2_m07_L1_q3",
+              "type": "true_false",
+              "questionText": "Die Datenschutzbehörde warnt, dass Smart-Home-Geräte in vielen Haushalten Daten an ausländische Server senden.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Sprecherin sagt: 'Nach einer aktuellen Stichprobe der Datenschutzkonferenz übermitteln mehr als sechzig Prozent der geprüften Smart-Home-Geräte personenbezogene Daten an Server außerhalb der Europäischen Union – häufig ohne hinreichende Einwilligung.' Die Formulierung 'Server außerhalb der EU' bestätigt 'ausländische Server'.",
+              "audioTimestamp": 88
+            },
+            {
+              "id": "B2_m07_L1_q4",
+              "type": "true_false",
+              "questionText": "Der Bundestag hat gestern das neue Gesetz zur digitalen Bürger-ID endgültig verabschiedet.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Im Audio heißt es: 'Die geplante digitale Bürger-ID wurde im Bundestag zwar in erster Lesung beraten, eine endgültige Abstimmung ist jedoch erst für Herbst vorgesehen.' 'in erster Lesung' und 'erst für Herbst vorgesehen' zeigen, dass das Gesetz eben NICHT verabschiedet ist. B2-Trap: 'beraten' und 'verabschieden' klingen ähnlich nach formellem Gesetzgebungsakt, sind aber zwei verschiedene Stufen.",
+              "audioTimestamp": 124
+            },
+            {
+              "id": "B2_m07_L1_q5",
+              "type": "true_false",
+              "questionText": "Eine Studie zeigt, dass immer mehr deutsche Schulen Tablets durch gedruckte Schulbücher ersetzen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Text stellt klar: 'Nach einer bundesweiten Erhebung der Kultusministerkonferenz setzen inzwischen vier von fünf weiterführenden Schulen digitale Lernplattformen parallel zum Schulbuch ein – ein Ersatz findet jedoch nirgendwo vollständig statt.' Die Behauptung dreht die Richtung um: Tablets kommen hinzu, sie verdrängen das Schulbuch nicht. B2-Falle: 'parallel zum Schulbuch' ist das entscheidende Signal.",
+              "audioTimestamp": 160
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören ein Interview zum Thema Künstliche Intelligenz und Datenschutz. Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind. Sie hören das Interview nur einmal.",
+          "instructionsTranslation": "You will hear an interview about artificial intelligence and data protection. Decide whether the following ten statements are correct or incorrect. You will hear the interview only once.",
+          "audioFile": "assets/audio/B2/mock07/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m07_L2_q1",
+              "type": "true_false",
+              "questionText": "Professor Friedemann forscht am Fraunhofer-Institut in Karlsruhe zur algorithmischen Transparenz.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Moderator stellt ihn vor: 'Professor Jens Friedemann, Leiter der Forschungsgruppe Algorithmische Transparenz am Fraunhofer-Institut IOSB in Karlsruhe.' Institut, Ort und Forschungsschwerpunkt werden wörtlich genannt.",
+              "audioTimestamp": 14
+            },
+            {
+              "id": "B2_m07_L2_q2",
+              "type": "true_false",
+              "questionText": "Laut Prof. Friedemann nutzen deutsche Unternehmen Künstliche Intelligenz inzwischen häufiger als amerikanische Konzerne.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Prof. Friedemann sagt: 'Im internationalen Vergleich hinken deutsche Mittelständler den amerikanischen Konzernen bei der praktischen KI-Anwendung nach wie vor deutlich hinterher.' 'nach wie vor hinterherhinken' = weiterhin weniger nutzen. B2-Hedging-Falle: Das Adverb 'inzwischen' im Prompt suggeriert einen Aufholvorgang, das Audio bestätigt aber den umgekehrten Befund.",
+              "audioTimestamp": 48
+            },
+            {
+              "id": "B2_m07_L2_q3",
+              "type": "true_false",
+              "questionText": "Der Professor meint, dass die Öffentlichkeit KI-Systeme grundsätzlich ablehnt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Prof. Friedemann differenziert deutlich: 'Man hört oft, die Bevölkerung lehne KI geschlossen ab – das stimmt so pauschal nicht. Unsere Erhebungen zeigen, dass die meisten Menschen KI bei Übersetzungen oder Navigation akzeptieren, aber bei Bewerbungen oder Kreditvergaben skeptisch werden.' Die Floskel 'Man hört oft' kennzeichnet eine fremde Meinung, die er gerade NICHT teilt. Klassische B2-Hedging-Falle.",
+              "audioTimestamp": 92
+            },
+            {
+              "id": "B2_m07_L2_q4",
+              "type": "true_false",
+              "questionText": "Der Moderator weist darauf hin, dass viele Beschäftigte die Fähigkeiten von KI überschätzen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Moderator formuliert: 'Studien deuten darauf hin, dass Beschäftigte die tatsächlichen Fähigkeiten von KI-Systemen eher zu hoch einschätzen. Wie erklären Sie sich das?' 'zu hoch einschätzen' = überschätzen. Die Aussage wird also korrekt wiedergegeben.",
+              "audioTimestamp": 138
+            },
+            {
+              "id": "B2_m07_L2_q5",
+              "type": "true_false",
+              "questionText": "Prof. Friedemann sieht in der Automatisierung vor allem eine Chance für anspruchsvolle Berufe.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Experte betont: 'Zweifellos gibt es Belastungen, aber überwiegend sehe ich enorme Chancen – gerade für qualifizierte Berufe, weil Routineaufgaben wegfallen und mehr Zeit für wirklich anspruchsvolle Tätigkeiten bleibt.' Trotz Erwähnung der Belastungen ist seine Position klar: 'überwiegend Chancen', und ausdrücklich für 'qualifizierte Berufe'.",
+              "audioTimestamp": 178
+            },
+            {
+              "id": "B2_m07_L2_q6",
+              "type": "true_false",
+              "questionText": "Die Expertenmeinung ist, dass reine KI-Entscheidungen in der Verwaltung bessere Ergebnisse liefern als menschliche Entscheidungen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Prof. Friedemann plädiert stattdessen für eine Mischform: 'Hybride Entscheidungen, also eine Kombination aus algorithmischer Vorauswertung und menschlicher Letztentscheidung, liefern nachweislich die besten Ergebnisse – rein algorithmische Verfahren allein nicht.' Er sagt also das Gegenteil: Mischung ist überlegen, nicht reine KI. B2-Trap: 'bessere Ergebnisse' klingt nach Verbesserung durch KI, der Text relativiert es aber genau.",
+              "audioTimestamp": 215
+            },
+            {
+              "id": "B2_m07_L2_q7",
+              "type": "true_false",
+              "questionText": "Prof. Friedemann empfiehlt Unternehmen, ihre KI-Systeme von einer unabhängigen Stelle prüfen zu lassen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Experte sagt deutlich: 'Entscheidend ist, dass jede produktive KI-Anwendung von einer unabhängigen Stelle auditiert wird – eine Selbstprüfung durch den Entwickler allein reicht nicht.' Die Empfehlung ist eindeutig.",
+              "audioTimestamp": 248
+            },
+            {
+              "id": "B2_m07_L2_q8",
+              "type": "true_false",
+              "questionText": "Laut Prof. Friedemann werden Frauen bei algorithmischen Bewerbungsverfahren häufiger benachteiligt als Männer.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Experte räumt ein: 'Unsere Daten zeigen leider, dass Frauen bei automatisierten Vorauswahlverfahren messbar häufiger aus der engeren Auswahl fallen als vergleichbar qualifizierte männliche Bewerber – häufig, weil die Trainingsdaten der vergangenen Einstellungsentscheidungen diese Muster spiegeln.' Dies bestätigt die Aussage.",
+              "audioTimestamp": 278
+            },
+            {
+              "id": "B2_m07_L2_q9",
+              "type": "true_false",
+              "questionText": "Der Professor fordert, dass der geplante europäische AI Act sofort zurückgenommen werden sollte.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Im Gegenteil: 'Der AI Act ist ein Schritt in die richtige Richtung, auch wenn einige Vorgaben aus meiner Sicht noch präziser gefasst werden müssten.' Er begrüßt das Gesetz und fordert lediglich Nachschärfungen. B2-Trap: Kritik an Formulierungen ist nicht dasselbe wie Ablehnung des Ganzen.",
+              "audioTimestamp": 308
+            },
+            {
+              "id": "B2_m07_L2_q10",
+              "type": "true_false",
+              "questionText": "Am Ende des Interviews wird auf ein bevorstehendes KI-Symposium in München hingewiesen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Moderator verabschiedet mit: 'Mehr zu diesem Thema finden Sie in unserer Mediathek.' Von einem Symposium in München ist nicht die Rede. B2-Trap: Die Erwartung einer abschließenden Veranstaltungsankündigung wird gezielt nicht bedient.",
+              "audioTimestamp": 348
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Ansagen oder Nachrichten aus dem digitalen Alltag. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short announcements or messages from digital daily life. What is correct? Choose a, b, or c. You will hear each text only once.",
+          "audioFile": "assets/audio/B2/mock07/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m07_L3_q1",
+              "type": "mcq",
+              "questionText": "Worüber informiert die Ansage des IT-Supports?",
+              "options": [
+                "a) Die firmeneigene Cloud wird heute Nacht abgeschaltet und nicht wieder reaktiviert.",
+                "b) Während eines geplanten Wartungsfensters sind zentrale Systeme vorübergehend nicht erreichbar.",
+                "c) Alle Beschäftigten müssen ihr Passwort bis zum Tagesende zurücksetzen."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Ansage sagt: 'Am kommenden Donnerstag zwischen zwanzig Uhr und vierundzwanzig Uhr findet ein planmäßiges Wartungsfenster statt. In dieser Zeit sind das Intranet und die zentrale Projektplattform vorübergehend nicht erreichbar.' Das entspricht exakt Option b. Distraktor a) verdreht 'Wartungsfenster' zu einer endgültigen Abschaltung; c) (Passwortreset) wird nicht erwähnt.",
+              "audioTimestamp": 18
+            },
+            {
+              "id": "B2_m07_L3_q2",
+              "type": "mcq",
+              "questionText": "Was ist die zentrale Botschaft der Personalabteilung?",
+              "options": [
+                "a) Ab nächster Woche werden alle Bewerbungen automatisch durch ein KI-System vorgefiltert.",
+                "b) Die interne Weiterbildung zum Thema KI wird ab sofort freiwillig.",
+                "c) Die Beschäftigten werden gebeten, einen kostenlosen Online-Kurs zu KI-Grundlagen zu absolvieren."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Ansage informiert: 'Wir möchten Sie herzlich einladen, in den kommenden vier Wochen den neuen, kostenlos freigeschalteten Online-Kurs KI-Grundlagen auf unserer Lernplattform zu absolvieren. Der Kurs ist freiwillig, wird aber ausdrücklich empfohlen.' Damit ist c) korrekt. a) (KI-Vorfilter für Bewerbungen) wird nicht erwähnt; b) verwechselt Pflicht/Freiwilligkeit: die Weiterbildung war nicht vorher verpflichtend.",
+              "audioTimestamp": 58
+            },
+            {
+              "id": "B2_m07_L3_q3",
+              "type": "mcq",
+              "questionText": "Was empfiehlt die Datenschutzbeauftragte der Anruferin konkret?",
+              "options": [
+                "a) sofort Anzeige bei der Polizei zu erstatten",
+                "b) zunächst eine schriftliche Auskunft beim Unternehmen zu verlangen",
+                "c) alle Geräte mit Internetzugang auszuschalten"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Datenschutzbeauftragte sagt: 'Bevor Sie einen förmlichen Schritt einleiten, würde ich Ihnen dringend raten, zunächst eine schriftliche Auskunftsanfrage nach Artikel fünfzehn der Datenschutz-Grundverordnung an das Unternehmen zu richten.' Sie empfiehlt also explizit die Auskunftsanfrage als ersten Schritt. Eine Anzeige (a) wird nicht ausgeschlossen, aber nicht als erster Schritt empfohlen. Das Abschalten von Geräten (c) wird nicht erwähnt.",
+              "audioTimestamp": 108
+            },
+            {
+              "id": "B2_m07_L3_q4",
+              "type": "mcq",
+              "questionText": "Was ist das Hauptanliegen der Voicemail der Kundin?",
+              "options": [
+                "a) Sie möchte die Lieferung ihres neuen Smartphones bestätigen.",
+                "b) Sie beschwert sich, weil ihre App ohne Vorwarnung persönliche Daten teilt.",
+                "c) Sie interessiert sich für ein günstigeres Mobilfunktarif-Angebot."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Kundin sagt deutlich: 'Heute Morgen habe ich in der neuesten Version Ihrer App eine Einstellung entdeckt, die ohne meine Zustimmung Standortdaten an Dritte weitergibt. Ich erwarte bis Ende der Woche eine Erklärung und eine Bestätigung, dass diese Datenweitergabe sofort beendet wird.' Die Beschwerde über die unangekündigte Datenweitergabe ist zentral. a) und c) passen nicht zum Inhalt. B2-Trap: 'App' und 'Smartphone' gehören zum selben Feld, aber der Text erwähnt kein neues Gerät.",
+              "audioTimestamp": 150
+            },
+            {
+              "id": "B2_m07_L3_q5",
+              "type": "mcq",
+              "questionText": "Worüber informiert die Durchsage im Konferenzzentrum?",
+              "options": [
+                "a) Ein Workshop zur Robotik beginnt wegen technischer Probleme 30 Minuten später.",
+                "b) Ein geplanter Workshop wurde kurzfristig in einen anderen Saal verlegt.",
+                "c) Die Abendveranstaltung zum Thema Datenschutz wurde komplett abgesagt."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Durchsage sagt: 'Liebe Teilnehmerinnen und Teilnehmer, der Workshop Mensch-Maschine-Interaktion findet heute ausnahmsweise nicht wie angekündigt in Saal A, sondern im Seminarraum B-drei-null-vier im Erdgeschoss statt.' Eine Verspätung (a) oder Absage (c) wird nicht erwähnt – der Workshop findet statt, nur am anderen Ort. B2-Falle: Das Stichwort 'ausnahmsweise' kann mit Zeitverschiebung verwechselt werden.",
+              "audioTimestamp": 195
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 90,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie zuerst die fünf Kurztexte (1–5) und dann die zehn Überschriften (a–j). Welche Überschrift passt am besten zu welchem Text? Für jeden Text gibt es genau eine passende Überschrift. Fünf Überschriften bleiben übrig.",
+          "instructionsTranslation": "First read the five short texts (1–5) and then the ten headlines (a–j). Which headline best matches which text? For each text there is exactly one matching headline. Five headlines remain unused.",
+          "texts": [
+            { "id": "B2_m07_R1_head_a", "type": "notice", "content": "a) Digitale Bürger-ID startet als Pilotprojekt in drei Bundesländern" },
+            { "id": "B2_m07_R1_head_b", "type": "notice", "content": "b) Wenn der Chatbot zum Kollegen wird – Grenzen von KI im Büroalltag" },
+            { "id": "B2_m07_R1_head_c", "type": "notice", "content": "c) Tablets an jeder Schule: neues Förderprogramm des Bundes vorgestellt" },
+            { "id": "B2_m07_R1_head_d", "type": "notice", "content": "d) Deutscher Mittelstand entdeckt Cybersicherheit als Chefsache" },
+            { "id": "B2_m07_R1_head_e", "type": "notice", "content": "e) Roboter in der Pflege – erste Bilanz aus bayerischen Kliniken" },
+            { "id": "B2_m07_R1_head_f", "type": "notice", "content": "f) Städte setzen auf Open Data – Transparenz bei Bürgerdaten gewinnt" },
+            { "id": "B2_m07_R1_head_g", "type": "notice", "content": "g) Digitale Sucht: Beratungsstellen melden Rekordzahlen bei Jugendlichen" },
+            { "id": "B2_m07_R1_head_h", "type": "notice", "content": "h) Start-ups gegen Konzerne – wo Programmiererinnen heute lieber arbeiten" },
+            { "id": "B2_m07_R1_head_i", "type": "notice", "content": "i) Glasfaser für das Dorf – ländlicher Raum holt beim Netzausbau auf" },
+            { "id": "B2_m07_R1_head_j", "type": "notice", "content": "j) Quantencomputer aus Sachsen: neues Forschungszentrum eröffnet" }
+          ],
+          "questions": [
+            {
+              "id": "B2_m07_R1_q1",
+              "type": "matching",
+              "questionText": "Text 1: Das Bundesministerium des Innern hat heute ein Pilotprojekt zur sogenannten digitalen Bürger-ID vorgestellt. In Hamburg, Nordrhein-Westfalen und Bayern werden ab Mai rund 20.000 Freiwillige eine App testen können, über die sich Behördengänge wie Wohnsitzummeldungen, Anträge auf Kindergeld oder die Ausstellung eines Führungszeugnisses vollständig digital erledigen lassen. Die Identifikation erfolgt über den neuen Personalausweis in Kombination mit einer zusätzlichen biometrischen Bestätigung auf dem Smartphone. Datenschützer begrüßen das Konzept grundsätzlich, fordern jedoch eine unabhängige Prüfung der Sicherheitsarchitektur, bevor das Projekt bundesweit ausgerollt werden kann. Eine endgültige Entscheidung darüber wird für das Jahr 2027 erwartet.",
+              "matchingSources": [
+                { "id": "B2_m07_R1_head_a", "label": "a" },
+                { "id": "B2_m07_R1_head_b", "label": "b" },
+                { "id": "B2_m07_R1_head_c", "label": "c" },
+                { "id": "B2_m07_R1_head_d", "label": "d" },
+                { "id": "B2_m07_R1_head_e", "label": "e" },
+                { "id": "B2_m07_R1_head_f", "label": "f" },
+                { "id": "B2_m07_R1_head_g", "label": "g" },
+                { "id": "B2_m07_R1_head_h", "label": "h" },
+                { "id": "B2_m07_R1_head_i", "label": "i" },
+                { "id": "B2_m07_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Text beschreibt präzise den Start eines Pilotprojekts zur digitalen Bürger-ID in drei Bundesländern – deckungsgleich mit Überschrift a). Distraktor f) (Open Data) berührt zwar das Feld 'Bürgerdaten', geht aber um Veröffentlichung städtischer Datensätze, nicht um eine persönliche Identifikations-App für Einzelpersonen."
+            },
+            {
+              "id": "B2_m07_R1_q2",
+              "type": "matching",
+              "questionText": "Text 2: Eine Untersuchung des Bitkom-Branchenverbands zeigt: Zwei von drei mittelständischen Unternehmen in Deutschland haben inzwischen eine eigene Stelle oder zumindest eine feste Verantwortliche für Informationssicherheit eingerichtet. Vor fünf Jahren war dieser Anteil nur halb so hoch. Auslöser waren neben einer wachsenden Zahl spektakulärer Ransomware-Angriffe vor allem neue gesetzliche Meldepflichten sowie Anforderungen von Versicherern und Großkunden. Besonders in Branchen wie Maschinenbau, Logistik und Automobilzulieferung wird das Thema inzwischen auf Geschäftsführungsebene verhandelt. Skeptisch bleiben allerdings kleinere Betriebe mit weniger als 50 Beschäftigten: Dort fehlen häufig Budget und qualifiziertes Personal, um eigene Sicherheitsstrukturen aufzubauen.",
+              "matchingSources": [
+                { "id": "B2_m07_R1_head_a", "label": "a" },
+                { "id": "B2_m07_R1_head_b", "label": "b" },
+                { "id": "B2_m07_R1_head_c", "label": "c" },
+                { "id": "B2_m07_R1_head_d", "label": "d" },
+                { "id": "B2_m07_R1_head_e", "label": "e" },
+                { "id": "B2_m07_R1_head_f", "label": "f" },
+                { "id": "B2_m07_R1_head_g", "label": "g" },
+                { "id": "B2_m07_R1_head_h", "label": "h" },
+                { "id": "B2_m07_R1_head_i", "label": "i" },
+                { "id": "B2_m07_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Der Text behandelt Mittelständler, die Cybersicherheit organisatorisch auf Geschäftsführungsebene verankern – genau die Aussage von Überschrift d) 'Cybersicherheit als Chefsache'. Distraktor h) (Start-ups vs. Konzerne) passt nicht, weil weder Start-ups noch Programmiererinnen im Text vorkommen."
+            },
+            {
+              "id": "B2_m07_R1_q3",
+              "type": "matching",
+              "questionText": "Text 3: An sieben kommunalen Kliniken in Bayern werden seit rund anderthalb Jahren sogenannte Assistenzroboter eingesetzt, die Pflegekräfte bei Routineaufgaben wie dem Transport von Medikamenten, Wäsche oder Verpflegung unterstützen. Eine Zwischenauswertung des bayerischen Gesundheitsministeriums zieht nun eine gemischte Bilanz. Die Pflegekräfte berichten, dass sie durchschnittlich 40 Minuten pro Schicht einsparen und die Zeit verstärkt in direkte Patientenbetreuung investieren können. Gleichzeitig zeigen sich Grenzen: Die Roboter kommen in engen Fluren oder bei kurzfristigen Umplanungen oft nicht zurecht, und ältere Patientinnen und Patienten reagieren auf die Geräte zum Teil verunsichert. Das Ministerium kündigte daher an, das Programm vor einer flächendeckenden Einführung deutlich nachzujustieren.",
+              "matchingSources": [
+                { "id": "B2_m07_R1_head_a", "label": "a" },
+                { "id": "B2_m07_R1_head_b", "label": "b" },
+                { "id": "B2_m07_R1_head_c", "label": "c" },
+                { "id": "B2_m07_R1_head_d", "label": "d" },
+                { "id": "B2_m07_R1_head_e", "label": "e" },
+                { "id": "B2_m07_R1_head_f", "label": "f" },
+                { "id": "B2_m07_R1_head_g", "label": "g" },
+                { "id": "B2_m07_R1_head_h", "label": "h" },
+                { "id": "B2_m07_R1_head_i", "label": "i" },
+                { "id": "B2_m07_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Der Text berichtet exakt von einer ersten Bilanz zum Einsatz von Assistenzrobotern in bayerischen Kliniken – deckungsgleich mit Überschrift e). Distraktor b) (Chatbot im Büroalltag) passt nicht: Der Text handelt weder vom Büro noch von Chatbots, sondern von physischen Assistenzrobotern in der Klinik."
+            },
+            {
+              "id": "B2_m07_R1_q4",
+              "type": "matching",
+              "questionText": "Text 4: Mit einem neuen Förderprogramm des Bundesministeriums für Bildung und Forschung werden in den kommenden drei Jahren erstmals flächendeckend digitale Endgeräte an allen weiterführenden Schulen bereitgestellt. Pro Schülerin und Schüler stehen bis zu 400 Euro zur Verfügung, die für Tablets, Laptops und die nötige Infrastruktur in den Klassenräumen verwendet werden können. Anders als beim Digitalpakt der vergangenen Jahre müssen die Länder nun nachweisen, dass die Geräte tatsächlich in den Unterricht eingebunden werden und nicht lediglich im Schrank lagern. Lehrerverbände begrüßen den Schritt, weisen aber zugleich darauf hin, dass ohne umfassende Fortbildung vieler Kolleginnen und Kollegen auch die besten Geräte wirkungslos blieben.",
+              "matchingSources": [
+                { "id": "B2_m07_R1_head_a", "label": "a" },
+                { "id": "B2_m07_R1_head_b", "label": "b" },
+                { "id": "B2_m07_R1_head_c", "label": "c" },
+                { "id": "B2_m07_R1_head_d", "label": "d" },
+                { "id": "B2_m07_R1_head_e", "label": "e" },
+                { "id": "B2_m07_R1_head_f", "label": "f" },
+                { "id": "B2_m07_R1_head_g", "label": "g" },
+                { "id": "B2_m07_R1_head_h", "label": "h" },
+                { "id": "B2_m07_R1_head_i", "label": "i" },
+                { "id": "B2_m07_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text beschreibt präzise ein neues Bundesförderprogramm für digitale Endgeräte an allen weiterführenden Schulen – Überschrift c) 'Tablets an jeder Schule: neues Förderprogramm des Bundes'. Distraktor g) (digitale Sucht bei Jugendlichen) passt thematisch nur scheinbar; der Text spricht nicht über Abhängigkeit, sondern über Ausstattung und Unterrichtseinbindung."
+            },
+            {
+              "id": "B2_m07_R1_q5",
+              "type": "matching",
+              "questionText": "Text 5: In der Region Dresden-Freiberg ist heute ein neues Forschungszentrum für Quantencomputing feierlich eröffnet worden. Das Zentrum, das gemeinsam von der Max-Planck-Gesellschaft, der TU Dresden und mehreren Industriepartnern getragen wird, soll Grundlagenforschung mit konkreten Anwendungen für Materialforschung und Kryptografie verbinden. Die Bundesregierung hat für die kommenden fünf Jahre insgesamt 480 Millionen Euro zugesagt. Beobachter sehen in der Ansiedlung ein wichtiges Signal im internationalen Wettbewerb um Schlüsseltechnologien: Bislang galten vor allem die USA und China als Vorreiter, Europa hinkte bei der praktischen Umsetzung hinterher. Erste Prototypen des sächsischen Zentrums sollen bereits Ende des kommenden Jahres einsatzbereit sein.",
+              "matchingSources": [
+                { "id": "B2_m07_R1_head_a", "label": "a" },
+                { "id": "B2_m07_R1_head_b", "label": "b" },
+                { "id": "B2_m07_R1_head_c", "label": "c" },
+                { "id": "B2_m07_R1_head_d", "label": "d" },
+                { "id": "B2_m07_R1_head_e", "label": "e" },
+                { "id": "B2_m07_R1_head_f", "label": "f" },
+                { "id": "B2_m07_R1_head_g", "label": "g" },
+                { "id": "B2_m07_R1_head_h", "label": "h" },
+                { "id": "B2_m07_R1_head_i", "label": "i" },
+                { "id": "B2_m07_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "j",
+              "explanation": "Der Text beschreibt die Eröffnung eines neuen Quantencomputing-Forschungszentrums in Sachsen – Überschrift j) 'Quantencomputer aus Sachsen: neues Forschungszentrum eröffnet' trifft exakt zu. Die verbleibenden Distraktoren b, f, g, h, i beziehen sich auf andere Themenbereiche (Büro-KI, Open Data, digitale Sucht, Start-ups, Glasfaser)."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Zeitungsartikel. Wählen Sie bei jeder Aufgabe die beste Antwort (a, b oder c) aufgrund der Informationen im Text.",
+          "instructionsTranslation": "Read the following newspaper article. For each task choose the best answer (a, b, or c) based on the information in the text.",
+          "texts": [
+            {
+              "id": "B2_m07_R2_article",
+              "type": "article",
+              "content": "Zwischen Effizienz und Kontrolle – wie Künstliche Intelligenz die Arbeitswelt neu sortiert\n\nFünf Jahre nach dem Durchbruch großer Sprachmodelle steht fest, dass sich die deutsche Arbeitswelt nicht nur in Details, sondern in ihren Grundstrukturen verändert hat. Was viele zu Beginn des Jahrzehnts als Spielzeug für Entwicklerinnen betrachteten, ist inzwischen Bestandteil beinahe jeder größeren Organisation. Nach einer aktuellen Erhebung des Instituts für Arbeit und Technologie nutzen gut vier von zehn Beschäftigten KI-Werkzeuge mindestens einmal pro Woche im beruflichen Kontext; in Wissensberufen sind es deutlich mehr. Gleichzeitig mehren sich die Stimmen, die vor einer naiven Euphorie warnen. 'Unternehmen, die KI als reine Effizienzmaschine einführen, unterschätzen die Nebenwirkungen regelmäßig', sagt Arbeitssoziologin Dr. Mira Hoffmann vom Wissenschaftszentrum Berlin. 'Entscheidend ist nicht, wie viel Zeit gespart wird, sondern wer künftig welche Entscheidung trifft.'\n\nEine von ihr geleitete Studie hat über zwei Jahre hinweg 35 Unternehmen aus verschiedenen Branchen beim Einsatz generativer KI begleitet. Das Ergebnis fällt differenziert aus. Reine Effizienz-Einführungen führen nach zwölf bis achtzehn Monaten häufig zu einer schleichenden Entwertung von Routinetätigkeiten; zugleich tun sich neu eingestellte Mitarbeitende schwerer, überhaupt noch einfache Aufgaben zu erhalten, an denen sie lernen könnten. Gleichzeitig zeigt sich: Eine vollständige Ablehnung der neuen Werkzeuge ist weder realistisch noch wünschenswert. In einer begleitenden Umfrage gaben 72 Prozent der Beschäftigten an, sie wollten KI-Werkzeuge im eigenen Alltag nicht mehr missen – bei Beschäftigten unter 35 waren es sogar 86 Prozent.\n\nWas funktioniert, sind aus Hoffmanns Sicht klar strukturierte Einsatzmodelle. 'Die Firmen, die bei uns am besten abschneiden, haben klare Regeln, wo KI nur vorschlägt und wo sie selbst entscheiden darf – und vor allem haben sie die Beschäftigten frühzeitig in die Gestaltung dieser Regeln einbezogen.' Routineanalysen, Texterstellung und Klassifikationen gehören zu den Aufgaben, die sich gut an KI delegieren lassen. Kritische Entscheidungen – etwa über Einstellungen, Kündigungen oder medizinische Diagnosen – sollten dagegen grundsätzlich beim Menschen bleiben, auch wenn ein Algorithmus schneller oder vermeintlich objektiver entscheidet. Viele Unternehmen hätten diese Logik allerdings noch nicht verstanden und setzten KI vor allem dort ein, wo sie am meisten Aufmerksamkeit erzeuge, statt dort, wo sie tatsächlich Last abnehme.\n\nEin weiteres Ergebnis überrascht: Der oft beschworene Produktivitätssprung durch KI ist in der Studie nicht einheitlich nachweisbar. Wo Beschäftigte klare Aufgabenstellungen haben und regelmäßige Rückmeldungen erhalten, steigt die Qualität ihrer Arbeit spürbar. Dort, wo sie ohne Begleitung mit KI konfrontiert werden, kommt es dagegen häufig zu subtiler Unsicherheit: Man weiß nicht mehr, ob man einem Entwurf trauen kann, ob das eigene Urteil noch gebraucht wird und wo Verantwortung endet. Hoffmann empfiehlt daher verpflichtende Schulungen, die nicht nur Werkzeuge erklären, sondern auch Grenzen und ethische Leitplanken vermitteln – und zwar für Führungskräfte ebenso wie für die Belegschaft.\n\nBlickt man in die Zukunft, so dürfte sich die Arbeitswelt in den nächsten Jahren weiter verschieben. Bereits heute experimentieren erste Firmen mit KI-gestützten Auswahlverfahren, mit dynamischer Arbeitsplanung und sogar mit algorithmischer Leistungsbewertung. Entscheidend wird nach Hoffmanns Einschätzung sein, ob Unternehmen bereit sind, nicht nur Prozesse, sondern auch Machtverhältnisse neu zu denken. 'Wer KI nur einsetzt, um den Einfluss der Beschäftigten zu verringern, wird es künftig schwer haben, qualifizierte Menschen überhaupt zu halten.' Die digitale Arbeitswelt der Zukunft, das zeichnet sich ab, wird nicht einfach schneller – sie wird umso bewusster gestaltet werden müssen.",
+              "source": "Süddeutsche Zeitung, Wirtschaftsteil April 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "B2_m07_R2_q1",
+              "type": "mcq",
+              "questionText": "Was ist die zentrale These von Dr. Hoffmann im Text?",
+              "relatedTextId": "B2_m07_R2_article",
+              "options": [
+                "a) KI-Werkzeuge sollten in allen Entscheidungsprozessen die Oberhand behalten.",
+                "b) Die zentrale Frage beim KI-Einsatz ist nicht die Effizienz, sondern wer am Ende entscheidet.",
+                "c) Unternehmen sollten generative KI grundsätzlich wieder aus ihren Abläufen entfernen."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Hoffmann sagt wörtlich: 'Entscheidend ist nicht, wie viel Zeit gespart wird, sondern wer künftig welche Entscheidung trifft.' Das entspricht Option b. Option a widerspricht ihr explizit (sie fordert menschliche Letztentscheidung bei kritischen Fällen); Option c ist eine Karikatur ihrer Position (sie lehnt KI nicht ab, sondern fordert klare Regeln). B2-Trap: Der Text erwähnt Effizienz prominent, nur Option b kehrt aber ihre eigentliche Prioritätssetzung richtig heraus. [PEDAGOGY-REWRITE: Option d entfernt – telc B2 Lesen Teil 2 verwendet 3 Optionen (a/b/c), nicht 4.]"
+            },
+            {
+              "id": "B2_m07_R2_q2",
+              "type": "mcq",
+              "questionText": "Was sagt die Studie zu neu eingestellten Mitarbeitenden in reinen Effizienz-Einführungen von KI?",
+              "relatedTextId": "B2_m07_R2_article",
+              "options": [
+                "a) Sie werden schneller produktiv, weil die KI Einarbeitungszeit spart.",
+                "b) Sie entwickeln schneller als ältere Kollegen eigene Entscheidungsroutinen.",
+                "c) Sie haben größere Schwierigkeiten, überhaupt noch einfache Aufgaben zum Lernen zu erhalten."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text formuliert: 'Neu eingestellte Mitarbeitende tun sich schwerer, überhaupt noch einfache Aufgaben zu erhalten, an denen sie lernen könnten.' Das ist exakt Option c. Option a widerspricht dem Text direkt – KI spart hier gerade NICHT die für Einarbeitung nötigen Aufgaben ein, sondern lässt sie verschwinden. Option b (Entscheidungsroutinen) wird im Text nicht behauptet."
+            },
+            {
+              "id": "B2_m07_R2_q3",
+              "type": "mcq",
+              "questionText": "Wie würden laut Umfrage Beschäftigte unter 35 auf ein Verbot von KI-Werkzeugen am Arbeitsplatz reagieren?",
+              "relatedTextId": "B2_m07_R2_article",
+              "options": [
+                "a) Eine knappe Mehrheit wäre einverstanden, solange die Bezahlung stimmt.",
+                "b) Eine große Mehrheit würde die Werkzeuge im eigenen Alltag vermissen.",
+                "c) Nur eine Minderheit würde den Wegfall spürbar bedauern."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text sagt: 'Bei Beschäftigten unter 35 waren es sogar 86 Prozent', die KI-Werkzeuge nicht mehr missen wollten. 86 % ist eine klare Mehrheit – Option b. Option c widerspricht der 86-Prozent-Zahl, Option a fügt einen Gehaltsaspekt hinzu, den der Text nie nennt. B2-Trap: 'nicht missen wollen' = 'vermissen, wenn weg' – die Formulierung muss umgekehrt gelesen werden."
+            },
+            {
+              "id": "B2_m07_R2_q4",
+              "type": "mcq",
+              "questionText": "Welche Art des KI-Einsatzes empfiehlt Dr. Hoffmann?",
+              "relatedTextId": "B2_m07_R2_article",
+              "options": [
+                "a) KI sollte vor allem dort eingesetzt werden, wo sie für Außenstehende sichtbar ist.",
+                "b) KI sollte grundsätzlich nur vorschlagen und niemals Entscheidungen treffen.",
+                "c) KI sollte nach klaren Regeln eingesetzt werden, mit Beschäftigten, die die Regeln mitgestalten."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Hoffmann sagt: 'Die Firmen, die bei uns am besten abschneiden, haben klare Regeln ... und vor allem haben sie die Beschäftigten frühzeitig in die Gestaltung dieser Regeln einbezogen.' Das ist Option c. Option a kehrt die Empfehlung um: Der Text kritisiert genau jene Unternehmen, die KI vor allem sichtbarkeitsorientiert einsetzen. Option b ist zu absolut – Hoffmann lässt KI-Entscheidungen in unkritischen Bereichen zu. B2-Trap: Option a enthält alle richtigen Stichwörter (Aufmerksamkeit, Einsatz), kehrt aber die Logik um."
+            },
+            {
+              "id": "B2_m07_R2_q5",
+              "type": "mcq",
+              "questionText": "Worin sieht Hoffmann die zentrale Herausforderung der nächsten Jahre?",
+              "relatedTextId": "B2_m07_R2_article",
+              "options": [
+                "a) die technische Weiterentwicklung der Sprachmodelle",
+                "b) die Bereitschaft, Prozesse und zugleich Machtverhältnisse im Unternehmen neu zu denken",
+                "c) die Einführung eines einheitlichen europäischen KI-Kennzeichens auf allen Produkten"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Hoffmann betont: 'Entscheidend wird nach Hoffmanns Einschätzung sein, ob Unternehmen bereit sind, nicht nur Prozesse, sondern auch Machtverhältnisse neu zu denken.' Option b fasst das präzise zusammen. Die technische Weiterentwicklung (a) wird im Text nicht als ihre zentrale Sorge genannt; ein europäisches KI-Kennzeichen (c) ist im Text gar nicht erwähnt."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die zehn Situationen (1–10) und die zwölf Anzeigen (a–l). Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es höchstens eine passende Anzeige. Zwei Anzeigen bleiben übrig. Wenn keine Anzeige passt, schreiben Sie 'x'.",
+          "instructionsTranslation": "Read the ten situations (1–10) and the twelve advertisements (a–l). Which advertisement matches which situation? For each situation there is at most one matching advertisement. Two advertisements remain unused. If no advertisement fits, write 'x'.",
+          "texts": [
+            { "id": "B2_m07_R3_ad_a", "type": "ad", "content": "a) DigitalCoach Hamburg – Individuelle Karriereberatung für Fach- und Führungskräfte im Bereich Digitalisierung. 90-minütige Einzelgespräche, kostenfrei gefördert über den Bildungsgutschein der Agentur für Arbeit. Termine auch abends. www.digitalcoach-hamburg.de" },
+            { "id": "B2_m07_R3_ad_b", "type": "ad", "content": "b) Präsenzworkshop 'KI im Büroalltag' – zweitägiger Intensivkurs für Beschäftigte ohne Vorkenntnisse. Schwerpunkte: Chatbots sinnvoll nutzen, Prompt-Grundlagen, Risiken und Grenzen. Nächster Termin: 14.–15. Juni, Stuttgart. 560 € inkl. Materialien. info@ki-akademie.de" },
+            { "id": "B2_m07_R3_ad_c", "type": "ad", "content": "c) Datenschutz-Schnellprüfung für kleine Unternehmen – Eine erfahrene Juristin prüft Ihre Website, Cookie-Einstellungen und Auftragsverarbeitungsverträge innerhalb von 72 Stunden und liefert schriftliches Feedback. Pauschal 149 €. kontakt@dsgvo-klar.de" },
+            { "id": "B2_m07_R3_ad_d", "type": "ad", "content": "d) IHK-Fortbildung zum Geprüften IT-Projektleiter – berufsbegleitend, 15 Monate, abends und samstags. Abschluss auf Master-Niveau. Start: Oktober. Förderung über Aufstiegs-BAföG möglich. ihk-digital-weiterbildung.de" },
+            { "id": "B2_m07_R3_ad_e", "type": "ad", "content": "e) Online-Kurs 'Python für Einsteiger' – 10 Wochen, flexibel lernen, wöchentliche Live-Sessions mit erfahrenen Entwicklerinnen. Zertifikat nach bestandener Prüfung. Monatlich 39 €. www.python-klassenzimmer.de" },
+            { "id": "B2_m07_R3_ad_f", "type": "ad", "content": "f) Rechtsberatung Arbeitsrecht in der digitalen Arbeitswelt – Erstgespräch kostenlos für Mitglieder der Gewerkschaft ver.di. Themen: Überwachung am Arbeitsplatz, mobiles Arbeiten, algorithmische Leistungsbewertung. Online oder vor Ort. mitglieder.verdi.de" },
+            { "id": "B2_m07_R3_ad_g", "type": "ad", "content": "g) Bootcamp 'Cyber Security Analyst' – 16 Wochen Vollzeit, Präsenz Berlin oder remote. Jobgarantie: Bei Nichtvermittlung nach 6 Monaten volle Geldrückgabe. 10.900 €, vollständig über Bildungsgutschein abrechenbar. bootcamp-security.dev" },
+            { "id": "B2_m07_R3_ad_h", "type": "ad", "content": "h) Elternworkshop 'Kinder und Bildschirmzeit' – Sechs Abendsitzungen, jeweils donnerstags 19–21 Uhr. Themen: Mediennutzung, Gesprächsregeln zu Hause, digitale Sucht erkennen. Gefördert durch die Landesmedienanstalt. 60 € Eigenbeitrag. www.medien-eltern.de" },
+            { "id": "B2_m07_R3_ad_i", "type": "ad", "content": "i) Messe 'Future Tech 2026' – drei Tage mit Vorträgen, Aussteller-Demos und Networking. Themen: KI, Robotik, Quantencomputing, Cybersicherheit. 12.–14. Juni, Hannover. Frühbucher bis 1. Mai: 320 € statt 420 €. future-tech-messe.de" },
+            { "id": "B2_m07_R3_ad_j", "type": "ad", "content": "j) VHS-Kurs 'Grundlagen Smartphone und Internet' – speziell für Seniorinnen und Senioren ab 65. 20 Unterrichtseinheiten, dienstags 10–12 Uhr. Volkshochschule Essen, 95 €. Keine Vorkenntnisse erforderlich. www.vhs-essen.de" },
+            { "id": "B2_m07_R3_ad_k", "type": "ad", "content": "k) Praktikumsbörse für IT-Studierende – Über 600 aktuelle Angebote aus Softwareunternehmen, Industrie und öffentlichem Dienst. Kostenlose Registrierung, Filter nach Fachrichtung und Ort. Persönliche Beratung jeden Mittwoch im Career-Center. www.it-praktikum-boerse.de" },
+            { "id": "B2_m07_R3_ad_l", "type": "ad", "content": "l) Fernstudium 'Bachelor Wirtschaftsinformatik' – Akkreditiert, berufsbegleitend in 7 Semestern. Keine Anwesenheitspflicht. Betreuung durch Online-Tutorien. 15.400 € gesamt, monatliche Raten möglich. www.fernhochschule-digital.de" }
+          ],
+          "questions": [
+            {
+              "id": "B2_m07_R3_q1",
+              "type": "matching",
+              "questionText": "1. Nadja ist Teamleiterin in einer Marketingagentur und merkt, dass ihre Mitarbeitenden KI-Werkzeuge schon privat benutzen, im Büro aber unsicher sind. Sie sucht eine kompakte Präsenzweiterbildung, bei der das Team Grundlagen und Grenzen gemeinsam kennenlernt.",
+              "matchingSources": [
+                { "id": "B2_m07_R3_ad_a", "label": "a" }, { "id": "B2_m07_R3_ad_b", "label": "b" },
+                { "id": "B2_m07_R3_ad_c", "label": "c" }, { "id": "B2_m07_R3_ad_d", "label": "d" },
+                { "id": "B2_m07_R3_ad_e", "label": "e" }, { "id": "B2_m07_R3_ad_f", "label": "f" },
+                { "id": "B2_m07_R3_ad_g", "label": "g" }, { "id": "B2_m07_R3_ad_h", "label": "h" },
+                { "id": "B2_m07_R3_ad_i", "label": "i" }, { "id": "B2_m07_R3_ad_j", "label": "j" },
+                { "id": "B2_m07_R3_ad_k", "label": "k" }, { "id": "B2_m07_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Anzeige b) 'KI im Büroalltag' ist ein zweitägiger Präsenzworkshop speziell für Beschäftigte ohne Vorkenntnisse und vermittelt genau die gesuchten Inhalte (Chatbots nutzen, Grenzen, Risiken). Das passt exakt zu Nadjas Bedürfnis, ihr Team gemeinsam und kompakt abzuholen. Distraktor d) (IHK-IT-Projektleiter) ist viel zu lang (15 Monate) und nicht für das ganze Team gedacht."
+            },
+            {
+              "id": "B2_m07_R3_q2",
+              "type": "matching",
+              "questionText": "2. Herr Sadeghi möchte nach zehn Jahren in der Verwaltung einen Karrieresprung machen und denkt an eine anerkannte, staatlich förderbare Weiterbildung im IT-Projektmanagement, die er neben seinem Vollzeitjob absolvieren kann.",
+              "matchingSources": [
+                { "id": "B2_m07_R3_ad_a", "label": "a" }, { "id": "B2_m07_R3_ad_b", "label": "b" },
+                { "id": "B2_m07_R3_ad_c", "label": "c" }, { "id": "B2_m07_R3_ad_d", "label": "d" },
+                { "id": "B2_m07_R3_ad_e", "label": "e" }, { "id": "B2_m07_R3_ad_f", "label": "f" },
+                { "id": "B2_m07_R3_ad_g", "label": "g" }, { "id": "B2_m07_R3_ad_h", "label": "h" },
+                { "id": "B2_m07_R3_ad_i", "label": "i" }, { "id": "B2_m07_R3_ad_j", "label": "j" },
+                { "id": "B2_m07_R3_ad_k", "label": "k" }, { "id": "B2_m07_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Anzeige d) IHK-Fortbildung zum Geprüften IT-Projektleiter ist genau für berufsbegleitende Aufstiegsqualifizierung konzipiert (abends und samstags, Aufstiegs-BAföG möglich). Das deckt Herrn Sadeghis Wunsch nach Karrieresprung neben dem Vollzeitjob präzise ab."
+            },
+            {
+              "id": "B2_m07_R3_q3",
+              "type": "matching",
+              "questionText": "3. Frau Groß merkt, dass ihr 13-jähriger Sohn immer mehr Zeit am Smartphone verbringt, und möchte in einer Gruppe mit anderen Eltern lernen, wie sie Grenzen setzen und eine beginnende digitale Abhängigkeit erkennen kann.",
+              "matchingSources": [
+                { "id": "B2_m07_R3_ad_a", "label": "a" }, { "id": "B2_m07_R3_ad_b", "label": "b" },
+                { "id": "B2_m07_R3_ad_c", "label": "c" }, { "id": "B2_m07_R3_ad_d", "label": "d" },
+                { "id": "B2_m07_R3_ad_e", "label": "e" }, { "id": "B2_m07_R3_ad_f", "label": "f" },
+                { "id": "B2_m07_R3_ad_g", "label": "g" }, { "id": "B2_m07_R3_ad_h", "label": "h" },
+                { "id": "B2_m07_R3_ad_i", "label": "i" }, { "id": "B2_m07_R3_ad_j", "label": "j" },
+                { "id": "B2_m07_R3_ad_k", "label": "k" }, { "id": "B2_m07_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "h",
+              "explanation": "Anzeige h) 'Kinder und Bildschirmzeit' ist genau auf Frau Großs Situation zugeschnitten – Elterngruppe, Mediennutzung, digitale Sucht erkennen. Keine andere Anzeige kombiniert das Gruppenformat mit dem Elternthema und der Jugendsuchtperspektive."
+            },
+            {
+              "id": "B2_m07_R3_q4",
+              "type": "matching",
+              "questionText": "4. Tobias ist Quereinsteiger und möchte innerhalb weniger Monate Fähigkeiten im Bereich IT-Sicherheit erwerben, um als Analyst in die Branche zu wechseln. Er braucht möglichst hohe Erfolgsgarantien, weil er dafür seine jetzige Stelle aufgeben müsste.",
+              "matchingSources": [
+                { "id": "B2_m07_R3_ad_a", "label": "a" }, { "id": "B2_m07_R3_ad_b", "label": "b" },
+                { "id": "B2_m07_R3_ad_c", "label": "c" }, { "id": "B2_m07_R3_ad_d", "label": "d" },
+                { "id": "B2_m07_R3_ad_e", "label": "e" }, { "id": "B2_m07_R3_ad_f", "label": "f" },
+                { "id": "B2_m07_R3_ad_g", "label": "g" }, { "id": "B2_m07_R3_ad_h", "label": "h" },
+                { "id": "B2_m07_R3_ad_i", "label": "i" }, { "id": "B2_m07_R3_ad_j", "label": "j" },
+                { "id": "B2_m07_R3_ad_k", "label": "k" }, { "id": "B2_m07_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Anzeige g) Bootcamp 'Cyber Security Analyst' bietet exakt das: 16 Wochen Vollzeit, Fokus IT-Sicherheit und eine Jobgarantie mit vollständiger Geldrückgabe bei Nichtvermittlung. Das deckt Tobias' Sicherheitsbedürfnis beim Quereinstieg präzise ab."
+            },
+            {
+              "id": "B2_m07_R3_q5",
+              "type": "matching",
+              "questionText": "5. Frau López hat den Verdacht, dass ihr Arbeitgeber ihre Nutzung des firmeninternen Messengers heimlich für eine automatische Leistungsbewertung auswertet. Als Gewerkschaftsmitglied sucht sie eine schnelle juristische Erstberatung.",
+              "matchingSources": [
+                { "id": "B2_m07_R3_ad_a", "label": "a" }, { "id": "B2_m07_R3_ad_b", "label": "b" },
+                { "id": "B2_m07_R3_ad_c", "label": "c" }, { "id": "B2_m07_R3_ad_d", "label": "d" },
+                { "id": "B2_m07_R3_ad_e", "label": "e" }, { "id": "B2_m07_R3_ad_f", "label": "f" },
+                { "id": "B2_m07_R3_ad_g", "label": "g" }, { "id": "B2_m07_R3_ad_h", "label": "h" },
+                { "id": "B2_m07_R3_ad_i", "label": "i" }, { "id": "B2_m07_R3_ad_j", "label": "j" },
+                { "id": "B2_m07_R3_ad_k", "label": "k" }, { "id": "B2_m07_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Anzeige f) Rechtsberatung Arbeitsrecht in der digitalen Arbeitswelt behandelt genau die Themen Überwachung am Arbeitsplatz und algorithmische Leistungsbewertung – kostenlos für Gewerkschaftsmitglieder. Das passt exakt zu Frau López' Situation."
+            },
+            {
+              "id": "B2_m07_R3_q6",
+              "type": "matching",
+              "questionText": "6. Paul ist seit Kurzem arbeitslos, hat zwanzig Jahre im Bankensektor gearbeitet und will sich nun gezielt in Richtung digitaler Branchen neu orientieren. Wichtig ist ihm, dass die Beratung von der Arbeitsagentur finanziert wird.",
+              "matchingSources": [
+                { "id": "B2_m07_R3_ad_a", "label": "a" }, { "id": "B2_m07_R3_ad_b", "label": "b" },
+                { "id": "B2_m07_R3_ad_c", "label": "c" }, { "id": "B2_m07_R3_ad_d", "label": "d" },
+                { "id": "B2_m07_R3_ad_e", "label": "e" }, { "id": "B2_m07_R3_ad_f", "label": "f" },
+                { "id": "B2_m07_R3_ad_g", "label": "g" }, { "id": "B2_m07_R3_ad_h", "label": "h" },
+                { "id": "B2_m07_R3_ad_i", "label": "i" }, { "id": "B2_m07_R3_ad_j", "label": "j" },
+                { "id": "B2_m07_R3_ad_k", "label": "k" }, { "id": "B2_m07_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Anzeige a) DigitalCoach Hamburg bietet genau diese individuelle Karriereberatung für den Bereich Digitalisierung, finanziert über den Bildungsgutschein der Agentur für Arbeit. Die Abendtermine passen zusätzlich zu einer flexiblen Umorientierungsphase."
+            },
+            {
+              "id": "B2_m07_R3_q7",
+              "type": "matching",
+              "questionText": "7. Herr Yılmaz führt einen kleinen Online-Handel und ist unsicher, ob seine Website, Cookie-Banner und Auftragsverarbeitungsverträge den aktuellen Datenschutzanforderungen entsprechen. Er wünscht sich schnell eine schriftliche Einschätzung.",
+              "matchingSources": [
+                { "id": "B2_m07_R3_ad_a", "label": "a" }, { "id": "B2_m07_R3_ad_b", "label": "b" },
+                { "id": "B2_m07_R3_ad_c", "label": "c" }, { "id": "B2_m07_R3_ad_d", "label": "d" },
+                { "id": "B2_m07_R3_ad_e", "label": "e" }, { "id": "B2_m07_R3_ad_f", "label": "f" },
+                { "id": "B2_m07_R3_ad_g", "label": "g" }, { "id": "B2_m07_R3_ad_h", "label": "h" },
+                { "id": "B2_m07_R3_ad_i", "label": "i" }, { "id": "B2_m07_R3_ad_j", "label": "j" },
+                { "id": "B2_m07_R3_ad_k", "label": "k" }, { "id": "B2_m07_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Anzeige c) 'Datenschutz-Schnellprüfung für kleine Unternehmen' prüft innerhalb von 72 Stunden Website, Cookies und Auftragsverarbeitungsverträge und liefert schriftliches Feedback. Das ist genau die schnelle schriftliche Rückmeldung, die Herr Yılmaz braucht."
+            },
+            {
+              "id": "B2_m07_R3_q8",
+              "type": "matching",
+              "questionText": "8. Frau Kowalska arbeitet seit Langem in der Buchhaltung und möchte berufsbegleitend erste Programmierkenntnisse erwerben, um mit ihren IT-Kolleginnen besser kommunizieren zu können. Sie braucht dabei maximale zeitliche Flexibilität.",
+              "matchingSources": [
+                { "id": "B2_m07_R3_ad_a", "label": "a" }, { "id": "B2_m07_R3_ad_b", "label": "b" },
+                { "id": "B2_m07_R3_ad_c", "label": "c" }, { "id": "B2_m07_R3_ad_d", "label": "d" },
+                { "id": "B2_m07_R3_ad_e", "label": "e" }, { "id": "B2_m07_R3_ad_f", "label": "f" },
+                { "id": "B2_m07_R3_ad_g", "label": "g" }, { "id": "B2_m07_R3_ad_h", "label": "h" },
+                { "id": "B2_m07_R3_ad_i", "label": "i" }, { "id": "B2_m07_R3_ad_j", "label": "j" },
+                { "id": "B2_m07_R3_ad_k", "label": "k" }, { "id": "B2_m07_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Anzeige e) Online-Kurs 'Python für Einsteiger' ist ein flexibler 10-Wochen-Online-Kurs mit wöchentlichen Live-Sessions – ideal neben dem Job und passgenau für Einstiegsprogrammierkenntnisse. Das deckt Frau Kowalskas Wunsch nach Flexibilität und Einstiegsniveau ab."
+            },
+            {
+              "id": "B2_m07_R3_q9",
+              "type": "matching",
+              "questionText": "9. Marco studiert im fünften Semester Informatik und sucht für die vorlesungsfreie Zeit ein Pflichtpraktikum in einem Softwareunternehmen in Nord- oder Westdeutschland.",
+              "matchingSources": [
+                { "id": "B2_m07_R3_ad_a", "label": "a" }, { "id": "B2_m07_R3_ad_b", "label": "b" },
+                { "id": "B2_m07_R3_ad_c", "label": "c" }, { "id": "B2_m07_R3_ad_d", "label": "d" },
+                { "id": "B2_m07_R3_ad_e", "label": "e" }, { "id": "B2_m07_R3_ad_f", "label": "f" },
+                { "id": "B2_m07_R3_ad_g", "label": "g" }, { "id": "B2_m07_R3_ad_h", "label": "h" },
+                { "id": "B2_m07_R3_ad_i", "label": "i" }, { "id": "B2_m07_R3_ad_j", "label": "j" },
+                { "id": "B2_m07_R3_ad_k", "label": "k" }, { "id": "B2_m07_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "k",
+              "explanation": "Anzeige k) Praktikumsbörse für IT-Studierende listet über 600 Angebote aus Softwareunternehmen, Industrie und öffentlichem Dienst, filterbar nach Fachrichtung und Ort. Genau das sucht Marco für sein Pflichtpraktikum."
+            },
+            {
+              "id": "B2_m07_R3_q10",
+              "type": "matching",
+              "questionText": "10. Frau Schulte leitet eine Kinderarztpraxis und sucht eine mehrtägige Inhouse-Schulung, in der das gesamte Praxisteam lernt, wie es eine neu eingeführte Patientensoftware mit KI-Funktionen sicher im Alltag nutzt.",
+              "matchingSources": [
+                { "id": "B2_m07_R3_ad_a", "label": "a" }, { "id": "B2_m07_R3_ad_b", "label": "b" },
+                { "id": "B2_m07_R3_ad_c", "label": "c" }, { "id": "B2_m07_R3_ad_d", "label": "d" },
+                { "id": "B2_m07_R3_ad_e", "label": "e" }, { "id": "B2_m07_R3_ad_f", "label": "f" },
+                { "id": "B2_m07_R3_ad_g", "label": "g" }, { "id": "B2_m07_R3_ad_h", "label": "h" },
+                { "id": "B2_m07_R3_ad_i", "label": "i" }, { "id": "B2_m07_R3_ad_j", "label": "j" },
+                { "id": "B2_m07_R3_ad_k", "label": "k" }, { "id": "B2_m07_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "x",
+              "explanation": "Keine der zwölf Anzeigen bietet eine mehrtägige, praxisinterne Schulung für eine medizinische Patientensoftware mit KI-Funktionen. Anzeige b) ist ein allgemeiner Büro-Workshop an festem Ort (Stuttgart), keine Inhouse-Schulung für ein Praxisteam. Anzeige i) ist eine öffentliche Tech-Messe, keine Team-Schulung. Anzeige j) richtet sich an Seniorinnen und Senioren für Smartphone-Grundlagen und hat weder Praxis- noch KI-Fokus. Die Situation erfordert daher 'x' (kein passendes Angebot). Die drei ungenutzten Distraktor-Anzeigen in der Liste sind damit i) (Messe Future Tech), j) (VHS-Senioren-Kurs) und l) (Fernstudium Wirtschaftsinformatik)."
+            }
+          ]
+        }
+      ]
+    },
+    "sprachbausteine": {
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie den folgenden Text und entscheiden Sie, welches Wort (a, b, c oder d) in die Lücke passt. Es gibt jeweils nur eine richtige Lösung.",
+          "text": "Sehr geehrte Kolleginnen und Kollegen,\n\nhiermit möchte ich Sie über die geplanten Neuerungen beim Einsatz Künstlicher Intelligenz in unserem Unternehmen informieren. Nach einer ausführlichen Risikoanalyse, die von einer externen Prüfstelle __(1)__ worden ist, stehen nun die Leitlinien für das kommende Geschäftsjahr fest. Zum ersten Mal werden wir ein KI-gestütztes Assistenzsystem einführen, __(2)__ sich sowohl an Vertrieb als auch an Kundenservice richtet.\n\nBesonderer Wert wird darauf gelegt, dass jede Beschäftigte und jeder Beschäftigte eine verpflichtende Grundlagenschulung __(3)__ kann. Sollte die Abteilungsleitung in Einzelfällen einer späteren Nutzung nicht zustimmen können, __(4)__ sie dies schriftlich begründen. __(5)__ der wachsenden Bedeutung automatisierter Entscheidungsvorschläge erwarten wir eine deutlich höhere Kompetenz im Umgang mit den neuen Werkzeugen.\n\nDas Programm umfasst klassische Präsenzseminare, __(6)__ auch digitale Selbstlerneinheiten, die individuell genutzt werden können. Beschäftigte, die eine zusätzliche Zertifizierung __(7)__, erhalten die Prüfungsgebühren vollständig erstattet. __(8)__ ist die enge Abstimmung mit der Datenschutzbeauftragten, damit der Einsatz der Systeme zu unseren internen Richtlinien passt.\n\nDie von uns __(9)__ Maßnahme ist Teil einer umfassenderen Digitalstrategie. Die Geschäftsleitung ist überzeugt, __(10)__ investierte Euro in KI-Kompetenz mehrfach zurückfließt – durch weniger Fehler, geringeren Aufwand und eine bessere Position am Markt.\n\nMit freundlichen Grüßen\nDr. Lena Brandt, Leiterin Digitalstrategie",
+          "questions": [
+            {
+              "blankNumber": 1,
+              "type": "mcq",
+              "options": ["a) durchgeführt", "b) durchführte", "c) durchzuführen", "d) durchführend"],
+              "correctAnswer": "a",
+              "explanation": "Vorgangspassiv Perfekt: 'die von einer externen Prüfstelle durchgeführt worden ist' — Bildung: sein + Partizip II + worden. Das Partizip II 'durchgeführt' ist zwingend. Distraktoren: b) 'durchführte' wäre Aktiv-Präteritum (falsche Diathese), c) zu+Infinitiv passt nicht zu 'ist worden', d) Partizip I signalisiert laufende Handlung und kombiniert nicht mit 'worden'. B2-Grammatik: Vorgangspassiv Perfekt."
+            },
+            {
+              "blankNumber": 2,
+              "type": "mcq",
+              "options": ["a) der", "b) das", "c) die", "d) was"],
+              "correctAnswer": "b",
+              "explanation": "Relativsatz: 'ein KI-gestütztes Assistenzsystem, das sich ... richtet.' Das Relativpronomen bezieht sich auf 'System' (Neutrum) im Nominativ: 'das'. Distraktoren: a) 'der' = Maskulin, c) 'die' = Feminin/Plural, d) 'was' nur nach unbestimmten Pronomen wie 'etwas, alles, nichts' oder nach neutralen Nominalisierungen. Hier verlangt 'System' das Relativpronomen 'das'."
+            },
+            {
+              "blankNumber": 3,
+              "type": "mcq",
+              "options": ["a) absolvieren", "b) absolviert", "c) absolvieren lassen", "d) sich absolvieren"],
+              "correctAnswer": "a",
+              "explanation": "Nach dem Modalverb 'kann' folgt der reine Infinitiv: 'eine Grundlagenschulung absolvieren kann'. Das Kollokationspaar 'Schulung absolvieren' ist B2-typischer Funktionsverbgebrauch. Distraktoren: b) Partizip II passt nicht hinter 'kann' ohne Hilfsverb, c) 'absolvieren lassen' wäre reflexiv-kausativ und sinnverändernd (man lässt jemand anderen absolvieren), d) 'sich absolvieren' ist nicht reflexiv belegt."
+            },
+            {
+              "blankNumber": 4,
+              "type": "mcq",
+              "options": ["a) muss", "b) soll", "c) müsste", "d) hätte"],
+              "correctAnswer": "a",
+              "explanation": "Inversion nach vorangestelltem Konditionalsatz ohne 'wenn': 'Sollte ... nicht zustimmen können, muss sie dies ... begründen.' In formeller Geschäftskommunikation steht hier eine klare Verpflichtung → Indikativ 'muss'. Distraktoren: b) 'soll' wäre schwächer (moralischer Auftrag, nicht Pflicht), c) 'müsste' wäre Konjunktiv II und würde einen irrealen Ton hinzufügen, d) 'hätte' ist ohne Partizip II syntaktisch unvollständig."
+            },
+            {
+              "blankNumber": 5,
+              "type": "mcq",
+              "options": ["a) Mangels", "b) Trotz", "c) Angesichts", "d) Außer"],
+              "correctAnswer": "c",
+              "explanation": "Genitiv-Präposition mit passender Semantik: 'Angesichts der wachsenden Bedeutung' = 'in Anbetracht, im Hinblick auf' – betont, dass die wachsende Bedeutung die Erwartung rechtfertigt. Distraktoren: a) 'Mangels' (= wegen Fehlens) widerspricht dem Kontext – es FEHLT nichts, die Bedeutung wächst, b) 'Trotz' widerspricht der kausalen Logik (Erwartung trotz wachsender Bedeutung wäre unsinnig), d) 'Außer' heißt 'mit Ausnahme von' – unpassend. Alle vier Optionen regieren den Genitiv, aber nur 'Angesichts' passt semantisch. B2-Präposition mit Genitiv."
+            },
+            {
+              "blankNumber": 6,
+              "type": "mcq",
+              "options": ["a) sondern", "b) aber auch", "c) dennoch", "d) zudem"],
+              "correctAnswer": "b",
+              "explanation": "Additiver Konnektor mit leichtem Kontrast: 'Das Programm umfasst ... Präsenzseminare, aber auch digitale Selbstlerneinheiten.' Distraktoren: a) 'sondern' verlangt vorher eine Negation (hier fehlt 'nicht nur'), c) 'dennoch' drückt Gegensatz aus (passt nicht – die beiden Formate schließen sich nicht aus), d) 'zudem' ist ein Adverb, das die Verbstellung (Verb an Position 2) verlangen würde; als Konnektor im Aufzählungskontext unüblich. 'aber auch' fügt sich natürlich in die Aufzählung ein."
+            },
+            {
+              "blankNumber": 7,
+              "type": "mcq",
+              "options": ["a) anstreben", "b) anzustreben", "c) anstrebten", "d) angestrebt"],
+              "correctAnswer": "a",
+              "explanation": "Relativsatz im Präsens-Indikativ: 'Beschäftigte, die eine zusätzliche Zertifizierung anstreben, erhalten ...' Das Verb kongruiert mit Subjekt 'Beschäftigte' (Plural Präsens). Distraktoren: b) Infinitiv mit zu passt nicht in den Relativsatz, c) Präteritum bricht die Zeitebene (der gesamte Text ist im Präsens), d) Partizip II allein ohne Hilfsverb ist in einem finiten Satz syntaktisch unmöglich."
+            },
+            {
+              "blankNumber": 8,
+              "type": "mcq",
+              "options": ["a) Entscheidend", "b) Entscheidung", "c) Entscheidende", "d) Entschieden"],
+              "correctAnswer": "a",
+              "explanation": "Prädikatives Adjektiv: 'Entscheidend ist die enge Abstimmung ...' Die endungslose Form signalisiert, dass das Adjektiv als Prädikativum nach 'sein' steht (vgl. 'Wichtig ist ...'). Distraktoren: b) 'Entscheidung' ist Substantiv und würde 'Eine Entscheidung ist ...' verlangen, c) 'Entscheidende' mit Endung wäre substantiviert und bräuchte einen Artikel ('Das Entscheidende ist ...'), d) 'Entschieden' wäre Partizip II und passt semantisch nicht. B2-Grammatik: prädikatives Adjektiv."
+            },
+            {
+              "blankNumber": 9,
+              "type": "mcq",
+              "options": ["a) getroffene", "b) treffende", "c) zu treffende", "d) getroffen"],
+              "correctAnswer": "a",
+              "explanation": "Partizipialattribut als B2-Kernthema: 'Die von uns getroffene Maßnahme' = 'Die Maßnahme, die von uns getroffen wurde'. Partizip II 'getroffen' + Adjektivendung -e (Nom. Sg. Fem. schwache Deklination nach 'Die'). Distraktoren: b) 'treffende' (Partizip I) würde aktive, gleichzeitige Handlung anzeigen (passt nicht, da die Maßnahme nicht selbst trifft), c) 'zu treffende' wäre Gerundivum (zukünftig/notwendig zu tun, nicht bereits geschehen), d) 'getroffen' unflektiert bricht die Deklination im Attribut. Passivisches Partizipialattribut."
+            },
+            {
+              "blankNumber": 10,
+              "type": "mcq",
+              "options": ["a) dass jeder", "b) dass jedem", "c) dass alle", "d) dass man"],
+              "correctAnswer": "a",
+              "explanation": "Subjekt des dass-Satzes im Nominativ: 'dass jeder investierte Euro ... zurückfließt'. 'jeder' (Nom. Sg. Mask.) als Subjekt zu 'zurückfließt' (Singular). Distraktoren: b) 'jedem' wäre Dativ, aber hier braucht es das Subjekt, c) 'dass alle ... zurückfließt' würde Subjekt-Verb-Inkongruenz erzeugen (Plural Subjekt + Singular Verb), d) 'dass man ... Euro zurückfließt' – 'man' kann nicht gleichzeitig Subjekt bleiben, wenn das Substantiv 'Euro' ins Zentrum rückt; das Verb kongruiert hier klar mit 'Euro' im Singular."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Text. Welches Wort aus der Liste a–o passt in die Lücken? Jedes Wort passt nur einmal. Fünf Wörter bleiben übrig.",
+          "text": "Wer heute einen Online-Dienst nutzt, hinterlässt fast unvermerkt Spuren. Schon ein kurzer Besuch auf einer Nachrichtenseite kann __(11)__ Datenpunkte erzeugen, die Werbenetzwerke anschließend miteinander verknüpfen. In __(12)__ Fällen bemerken Nutzerinnen und Nutzer davon überhaupt nichts.\n\nAllerdings reicht es längst nicht mehr aus, sich nur auf die Einstellungen einzelner Geräte zu verlassen. Moderne Datenschutzberatungen raten __(13)__, die eigenen Rechte nach der Datenschutz-Grundverordnung aktiv wahrzunehmen und regelmäßig Auskunft über die gespeicherten Daten zu verlangen. __(14)__ gelingt es oft, heimliche Sammelaktionen sichtbar zu machen und gegebenenfalls zu stoppen.\n\nEin weiterer wichtiger Punkt __(15)__ die Sensibilisierung der Mitarbeitenden in Unternehmen. Wer einfache Phishing-Mails nicht erkennt, öffnet Angreifern oft in wenigen Sekunden die Tür. Umgekehrt führt ein zu strenges, misstrauisches Klima dazu, dass legitime Kundenanfragen unbeantwortet liegen bleiben. Ein ausgewogener, gut geschulter Umgang mit Daten gilt deshalb als goldene __(16)__.\n\n__(17)__ der wachsenden Zahl an Regulierungen setzen viele Firmen inzwischen auf strukturierte Datenschutz-Prozesse und unabhängige Audits. Das nimmt ihnen zwar Spielraum, erhöht aber die Verlässlichkeit nach außen. Fachleute sehen __(18)__ eine faire Entwicklung – sofern die eingesetzten Verfahren transparent bleiben.\n\nWer seine digitalen Spuren auf diese Weise ernst nimmt, kann seine Sicherheit __(19)__ verbessern. Und spätestens dann, wenn Bußgelder drohen, zeigt sich: Datenschutz ist keine Formalität, sondern eine berufliche Grundkompetenz __(20)__ alle Beschäftigten.",
+          "questions": [
+            {
+              "blankNumber": 11,
+              "type": "word_bank",
+              "options": [
+                "a) zahlreiche", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) darin", "g) Regel", "h) Angesichts", "i) bei", "j) für",
+                "k) über", "l) deutlich", "m) jedem", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "a",
+              "explanation": "'zahlreiche Datenpunkte' — unbestimmtes Mengenadjektiv im Akkusativ Plural. Die Endung -e (stark dekliniert nach Nullartikel im Akkusativ Plural) ist zwingend. Distraktor o) 'wenigen' widerspricht dem Kontext ('fast unvermerkt', 'anschließend miteinander verknüpfen'), der gerade große Datenmengen impliziert. B2-Vokabular: 'zahlreich' als präzisere Alternative zu 'viele', typisch für formelle Nachrichtensprache."
+            },
+            {
+              "blankNumber": 12,
+              "type": "word_bank",
+              "options": [
+                "a) zahlreiche", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) darin", "g) Regel", "h) Angesichts", "i) bei", "j) für",
+                "k) über", "l) deutlich", "m) jedem", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "'In vielen Fällen' — feste Wendung für 'in many cases'. 'vielen' (Dativ Plural, starke Deklination nach 'in'). Distraktoren: o) 'wenigen' kehrt die Aussage um (wäre zwar grammatisch möglich, widerspricht aber dem Sinn – gerade weil Nutzer NICHTS bemerken, müssen viele Fälle unbemerkt bleiben), m) 'jedem' wäre Singular/Dativ."
+            },
+            {
+              "blankNumber": 13,
+              "type": "word_bank",
+              "options": [
+                "a) zahlreiche", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) darin", "g) Regel", "h) Angesichts", "i) bei", "j) für",
+                "k) über", "l) deutlich", "m) jedem", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Feste Kombination: 'jemandem raten zu etwas' → korrelatives Pronominaladverb 'dazu' verweist auf den nachfolgenden zu+Infinitiv-Satz: 'raten dazu, ... wahrzunehmen'. Distraktor f) 'darin' verweist auf 'in etwas' und passt nicht zu einem zu+Infinitiv-Anschluss. Pronominaladverb-Kenntnisse gehören zum B2-Kern."
+            },
+            {
+              "blankNumber": 14,
+              "type": "word_bank",
+              "options": [
+                "a) zahlreiche", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) darin", "g) Regel", "h) Angesichts", "i) bei", "j) für",
+                "k) über", "l) deutlich", "m) jedem", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "d",
+              "explanation": "Satzanfang + kausaler Konnektor: 'Dadurch gelingt es oft, heimliche Sammelaktionen sichtbar zu machen.' Die Großschreibung signalisiert Satzanfang. 'Dadurch' verbindet kausal-folgernd mit dem vorherigen Satz (Rechte wahrnehmen → dadurch Sichtbarmachung von Datensammlung)."
+            },
+            {
+              "blankNumber": 15,
+              "type": "word_bank",
+              "options": [
+                "a) zahlreiche", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) darin", "g) Regel", "h) Angesichts", "i) bei", "j) für",
+                "k) über", "l) deutlich", "m) jedem", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "e",
+              "explanation": "Kopulaverb: 'Ein weiterer wichtiger Punkt ist die Sensibilisierung ...' 'ist' verbindet Subjekt ('Punkt') mit prädikativem Nomen ('Sensibilisierung'). Distraktor n) 'stellt' würde das Verb 'darstellen' verlangen ('stellt ... dar') und eine andere Satzstruktur erzwingen."
+            },
+            {
+              "blankNumber": 16,
+              "type": "word_bank",
+              "options": [
+                "a) zahlreiche", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) darin", "g) Regel", "h) Angesichts", "i) bei", "j) für",
+                "k) über", "l) deutlich", "m) jedem", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "g",
+              "explanation": "Feste Kollokation: 'goldene Regel' = allgemein anerkannte Grundregel. Substantiv nach Adjektiv 'goldene'. Distraktoren: l) 'deutlich' wäre Adjektiv/Adverb und passt nicht nach 'goldene' (doppelte Attribuierung wäre ungrammatisch). Idiomatische B2-Kollokation."
+            },
+            {
+              "blankNumber": 17,
+              "type": "word_bank",
+              "options": [
+                "a) zahlreiche", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) darin", "g) Regel", "h) Angesichts", "i) bei", "j) für",
+                "k) über", "l) deutlich", "m) jedem", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "h",
+              "explanation": "Genitiv-Präposition 'Angesichts der wachsenden Zahl' (Satzanfang, großgeschrieben). Passt zur nachfolgenden Schlussfolgerung ('setzen viele Firmen inzwischen auf strukturierte Datenschutz-Prozesse'). B2-Präposition mit Genitiv. Der Kandidat muss 'Angesichts' vom bereits belegten 'vielen' aus Gap 12 unterscheiden."
+            },
+            {
+              "blankNumber": 18,
+              "type": "word_bank",
+              "options": [
+                "a) zahlreiche", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) darin", "g) Regel", "h) Angesichts", "i) bei", "j) für",
+                "k) über", "l) deutlich", "m) jedem", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "f",
+              "explanation": "Pronominaladverb: 'sehen darin eine faire Entwicklung' = 'sehen in diesem Vorgehen ...'. 'darin' verweist auf das zuvor beschriebene Verfahren (strukturierte Datenschutz-Prozesse, unabhängige Audits). 'sehen in etwas' ist die feste Kollokation. B2-Pronominaladverb."
+            },
+            {
+              "blankNumber": 19,
+              "type": "word_bank",
+              "options": [
+                "a) zahlreiche", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) darin", "g) Regel", "h) Angesichts", "i) bei", "j) für",
+                "k) über", "l) deutlich", "m) jedem", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "l",
+              "explanation": "Adverb zur Verstärkung: 'kann seine Sicherheit deutlich verbessern' — 'deutlich' als unflektiertes Adverb verstärkt das Verb 'verbessern' und bildet eine natürliche Kollokation (vgl. 'deutlich steigern', 'deutlich reduzieren'). Es fasst die zentrale Botschaft des Absatzes zusammen. Distraktoren: k) 'über' wäre Präposition ohne passenden Kontext, i) 'bei' ebenso ohne geeignete Ergänzung, m) 'jedem' verlangt ein nachfolgendes Substantiv, n) 'stellt' würde Verbdopplung erzeugen, o) 'wenigen' kehrt die positive Aussage unsinnig um."
+            },
+            {
+              "blankNumber": 20,
+              "type": "word_bank",
+              "options": [
+                "a) zahlreiche", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) darin", "g) Regel", "h) Angesichts", "i) bei", "j) für",
+                "k) über", "l) deutlich", "m) jedem", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "j",
+              "explanation": "Präposition: 'eine Grundkompetenz für Beschäftigten' — 'für' + Akkusativ kennzeichnet den Adressaten einer Kompetenz. Die Formulierung 'Kompetenz für + Personengruppe' ist B2-typisch und fasst die Schlussbotschaft in allgemeingültige Form. Distraktoren: k) 'über Beschäftigten' wäre semantisch schief (Kompetenz 'über' jemanden gibt es nicht in diesem Sinn), i) 'bei Beschäftigten' wäre grammatisch möglich, aber schwächt den Verpflichtungsaspekt ('für' ist hier die präzisere Rolle). Die verbleibenden fünf Distraktoren (i, k, m, n, o) passen zu keiner Lücke im Text."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 30,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "letter",
+          "instructions": "Wählen Sie EINE der beiden folgenden Aufgaben (A oder B) und bearbeiten Sie diese. Beachten Sie die Leitpunkte und schreiben Sie mindestens 150 Wörter (Richtwert: 200 Wörter). Kennzeichnen Sie am Anfang Ihres Textes deutlich, welche Aufgabe Sie gewählt haben.",
+          "instructionsTranslation": "Choose ONE of the two tasks (A or B) below and complete it. Address the guiding points and write at least 150 words (target: around 200 words). Clearly mark at the top of your text which task you have chosen.",
+          "prompt": "AUFGABE A (Stellungnahme):\n\nSituation: In der überregionalen Wochenzeitung 'Zeit & Gesellschaft' ist ein Leitartikel unter dem Titel 'Künstliche Intelligenz gefährdet unsere Kinder' erschienen. Die Autorin behauptet darin, Schülerinnen und Schüler, die regelmäßig KI-Werkzeuge für Hausaufgaben und Referate nutzten, würden langfristig verlernen, selbst zu denken, zu argumentieren und selbstständig Informationen zu bewerten. Sie wollen auf diesen Artikel mit einem Leserbrief antworten.\n\nSchreiben Sie einen Leserbrief an die Redaktion (Herrn Bernhard Lutz, Redaktion 'Zeit & Gesellschaft'). Gehen Sie auf die folgenden drei Leitpunkte ein:\n\n• Nehmen Sie Stellung zu der zentralen These des Artikels – stimmen Sie zu oder widersprechen Sie?\n• Nennen Sie mindestens zwei konkrete Argumente oder Beispiele aus Ihrer eigenen Erfahrung oder Beobachtung.\n• Machen Sie einen konstruktiven Vorschlag, wie Schulen und Familien einen verantwortungsvollen Umgang mit KI fördern könnten.\n\nBeachten Sie eine passende semi-formelle Anrede und eine sachliche Argumentation. Schreiben Sie mindestens 150 Wörter.\n\n— ODER —\n\nAUFGABE B (Beschwerdebrief):\n\nSituation: Vor vier Wochen haben Sie bei der Online-Plattform NextLearn ein einjähriges Premium-Abonnement für digitale Sprachkurse abgeschlossen und dafür 348 € bezahlt. Die Plattform hat jedoch erhebliche Mängel: Die Live-Sessions fallen regelmäßig aus oder werden ohne Vorwarnung verschoben, die versprochenen Lernmaterialien zum Download sind teilweise nicht verfügbar, und Ihr persönlicher Lernfortschritt wurde nach einem Update der App vollständig zurückgesetzt. Sie haben zweimal den Kundenservice per E-Mail kontaktiert, jedoch keine Antwort erhalten.\n\nSchreiben Sie eine formelle Beschwerde an die Geschäftsführung der NextLearn GmbH (Frau Dr. Andrea Hoffmann). Gehen Sie auf die folgenden drei Leitpunkte ein:\n\n• Beschreiben Sie die konkreten Mängel während der ersten vier Wochen.\n• Erläutern Sie, welche Folgen diese Mängel für Ihre persönlichen Lernziele haben.\n• Formulieren Sie eine klare Forderung (z. B. Teilerstattung, vollständige Rückabwicklung, Gutschrift) und setzen Sie eine Frist.\n\nBeachten Sie Anrede, Einleitung und Grußformel. Schreiben Sie mindestens 150 Wörter.",
+          "promptTranslation": "TASK A (Opinion piece):\n\nSituation: A national weekly newspaper has published an article titled 'Artificial intelligence endangers our children'. The author claims that pupils who regularly use AI tools for homework and presentations will, over time, lose the ability to think independently, argue, and evaluate information on their own. You want to respond with a letter to the editor.\n\nWrite a letter to the editor (Mr. Bernhard Lutz). Address these three guiding points:\n\n• State your position on the main thesis – agree or disagree.\n• Give at least two concrete arguments or examples from your own experience or observation.\n• Suggest constructively how schools and families could promote responsible use of AI.\n\nUse an appropriate semi-formal salutation and factual reasoning. Write at least 150 words.\n\n— OR —\n\nTASK B (Complaint letter):\n\nSituation: Four weeks ago you took out a one-year premium subscription with the online platform NextLearn for digital language courses and paid 348 €. The platform has serious shortcomings: live sessions are repeatedly cancelled or rescheduled without warning, promised downloadable materials are sometimes unavailable, and after an app update your personal learning progress was completely reset. You have contacted customer service twice by e-mail but received no reply.\n\nWrite a formal complaint to the management of NextLearn GmbH (Dr. Andrea Hoffmann). Address these three guiding points:\n\n• Describe the concrete shortcomings during the first four weeks.\n• Explain what consequences these have for your personal learning goals.\n• Formulate a clear demand (e.g. partial refund, full cancellation, credit) and set a deadline.\n\nInclude greeting, opening, and closing. Write at least 150 words.",
+          "requiredPoints": [
+            "Aufgabe A: Positionsbezug zur These, zwei eigene Argumente/Beispiele, konstruktiver Vorschlag",
+            "Aufgabe B: konkrete Mängel, Folgen für persönliche Lernziele, klare Forderung + Frist"
+          ],
+          "wordCountMin": 150,
+          "wordCountMax": 230,
+          "sampleAnswer": "[AUFGABE A — Beispielantwort]\n\nSehr geehrter Herr Lutz,\n\nmit großem Interesse habe ich Ihren Leitartikel 'Künstliche Intelligenz gefährdet unsere Kinder' gelesen. Der zentralen These kann ich mich allerdings nur teilweise anschließen, und ich möchte Ihnen darlegen, warum.\n\nZunächst ist es meines Erachtens zu kurz gegriffen, KI pauschal als Gefahr für das selbstständige Denken darzustellen. Meine Nichte, die in der neunten Klasse eines Gymnasiums in Köln ist, nutzt KI vor allem, um komplexe Texte zusammenzufassen – anschließend setzt sie sich mit der Lehrerin jedoch weiterhin mündlich mit den Inhalten auseinander. Darüber hinaus beobachte ich in meinem eigenen beruflichen Umfeld, dass Kolleginnen, die KI gezielt einsetzen, ihre eigenen Argumente eher schärfer als schwächer formulieren, weil sie die Vorschläge kritisch hinterfragen müssen.\n\nGleichwohl halte ich eine begleitende Erziehung für unverzichtbar. Ich schlage daher vor, dass Schulen verpflichtende Unterrichtseinheiten zur kritischen Nutzung von KI anbieten und Eltern über klare Hausregeln informiert werden. Nur so kann aus einem potenziellen Risiko ein echter Bildungsgewinn werden.\n\nMit freundlichen Grüßen\nAlexander Keller",
+          "scoringCriteria": [
+            {
+              "criterion": "I. Berücksichtigung der Leitpunkte",
+              "maxPoints": 15,
+              "description": "Alle drei Leitpunkte der gewählten Aufgabe (A oder B) werden inhaltlich mit B2-typischer Tiefe behandelt – nicht nur erwähnt, sondern mit Begründung und konkreten Details ausgeführt. A: A++ (15 Pkt) / B: B+ (10 Pkt) / C: C (5 Pkt) / D: unbehandelt (0 Pkt). Wird diese Kategorie mit D bewertet, erhält die gesamte Aufgabe 0 Punkte."
+            },
+            {
+              "criterion": "II. Kommunikative Gestaltung",
+              "maxPoints": 15,
+              "description": "Formelle/semi-formelle Anrede, logischer Textaufbau (Einleitung – Hauptteil – Schluss), konsistenter Sie-Register, B2-typische Diskursmarker (allerdings, darüber hinaus, im Übrigen, folglich, angesichts, hinsichtlich), passende Grußformel. Register-Sprünge (z. B. 'Hallo' in einer Beschwerde) werden abgewertet."
+            },
+            {
+              "criterion": "III. Formale Richtigkeit",
+              "maxPoints": 15,
+              "description": "B2-Grammatik korrekt eingesetzt: Passiv, Konjunktiv II für höfliche Forderungen ('Ich möchte Sie darum bitten', 'Ich erwarte, dass ...'), Nominalisierung, komplexe Nebensätze, Genitiv-Präpositionen. Rechtschreibung und Zeichensetzung. Fehler, die das Verständnis blockieren, führen zu D und damit zu 0 Punkten gesamt."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "presentation",
+          "instructions": "Teil 1 — Präsentation (ca. 3 Minuten pro Kandidat:in). Jede:r Kandidat:in erhält eine Themenkarte und hält eine kurze, strukturierte Präsentation (Einstieg, Hauptteil, Schluss). Anschließend stellt die Partnerin/der Partner 1–2 Nachfragen.",
+          "instructionsTranslation": "Part 1 — Presentation (approx. 3 minutes per candidate). Each candidate receives a topic card and gives a short, structured presentation (intro, main body, conclusion). Afterwards the partner asks 1–2 follow-up questions.",
+          "prompt": "KANDIDAT:IN A — Thema: 'Künstliche Intelligenz im Alltag – Chancen und Grenzen'\n\nHalten Sie eine kurze Präsentation (ca. 3 Minuten) zu diesem Thema. Strukturieren Sie Ihren Vortrag so:\n\n• Einstieg: Wo begegnet Ihnen KI heute im Alltag? Nennen Sie ein konkretes Beispiel aus Ihrem Umfeld.\n• Hauptteil: Welche Chancen bietet KI – für Einzelne, für Unternehmen, für die Gesellschaft? Welche Grenzen sehen Sie (Datenschutz, Vorurteile, Abhängigkeit)?\n• Schluss: Wo sollte KI Ihrer Meinung nach künftig besonders eingesetzt werden, wo eher nicht? Ihre persönliche Einschätzung.\n\n—\n\nKANDIDAT:IN B — Thema: 'Datenschutz in einer vernetzten Welt'\n\nHalten Sie eine kurze Präsentation (ca. 3 Minuten) zu diesem Thema. Strukturieren Sie Ihren Vortrag so:\n\n• Einstieg: Wie sichtbar ist Datenschutz in Ihrem Alltag? Ein konkretes Beispiel (Cookie-Banner, Messenger, Smart-Home).\n• Hauptteil: Warum ist Datenschutz heute wichtiger als früher? Welche Rolle spielen Unternehmen, Staat und Einzelne? Welche Spannungen gibt es (Bequemlichkeit vs. Schutz)?\n• Schluss: Welche Maßnahmen halten Sie für unverzichtbar? Ihre Einschätzung.",
+          "sampleResponse": "[Kandidat:in A — Künstliche Intelligenz im Alltag]\n\nMeine Damen und Herren, ich möchte heute über Chancen und Grenzen von Künstlicher Intelligenz im Alltag sprechen. In kaum einem anderen Bereich hat sich in den vergangenen Jahren so viel verändert. Ein Beispiel aus meinem eigenen Umfeld: Mein Vater, der über siebzig ist, nutzt inzwischen täglich einen digitalen Sprachassistenten, um Rezepte abzurufen oder Termine einzutragen. Vor drei Jahren wäre das noch undenkbar gewesen. Daran zeigt sich, wie selbstverständlich KI geworden ist.\n\nIm Hauptteil möchte ich kurz auf Chancen und Grenzen eingehen. Für Einzelne bedeutet KI vor allem Zeitgewinn – bei Übersetzungen, Recherche oder der Planung. Für Unternehmen eröffnet sie Produktivitätsgewinne und neue Geschäftsmodelle. Gesellschaftlich könnte sie bei der Auswertung medizinischer Daten enorme Fortschritte bringen. Allerdings darf man die Grenzen nicht unterschätzen. Datenschutz ist eine echte Herausforderung, ebenso wie algorithmische Vorurteile. Gerade bei Bewerbungsverfahren besteht die Gefahr, dass bestehende Ungleichheiten festgeschrieben werden.\n\nAbschließend bin ich überzeugt, dass KI dort eingesetzt werden sollte, wo sie Routineaufgaben abnimmt – jedoch niemals dort, wo es um Menschenwürde oder existenzielle Lebensentscheidungen geht. Vielen Dank – was denken Sie dazu?\n\n[Beispielhafte Nachfrage der Partnerin/des Partners: 'Welches KI-Werkzeug nutzt du privat am häufigsten, und wo würdest du lieber auf KI verzichten?']",
+          "evaluationTips": [
+            "Strukturieren Sie die Präsentation klar: Einstieg – Hauptteil – Schluss",
+            "Verwenden Sie B2-Diskursmarker: 'Zunächst', 'Darüber hinaus', 'Allerdings', 'Abschließend'",
+            "Nennen Sie EIN konkretes Beispiel (aus Umfeld/Beruf/Erfahrung), keine rein abstrakten Aussagen",
+            "Balance aus Chancen UND Grenzen zeigen – B2 verlangt Differenzierung",
+            "Konjunktiv II für Einschätzungen: 'Ich könnte mir vorstellen, dass ...', 'Sinnvoll wäre ...'",
+            "Direkter Schluss mit persönlicher Einschätzung + Übergabe an Partner",
+            "Zeitlimit (~3 Min) beachten – nicht länger, nicht kürzer"
+          ],
+          "keyPhrases": [
+            "Ich möchte heute über ... sprechen.",
+            "Ein konkretes Beispiel dafür ist ...",
+            "Einerseits ..., andererseits ...",
+            "Besonders hervorheben möchte ich ...",
+            "Allerdings darf man nicht übersehen, dass ...",
+            "Meiner Ansicht nach ...",
+            "Abschließend lässt sich festhalten ...",
+            "Was denken Sie / was denkst du dazu?"
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "discussion",
+          "instructions": "Teil 2 — Diskussion (ca. 5 Minuten gemeinsam). Beide Kandidat:innen erhalten denselben provokanten Satz und diskutieren ihn. Ziel: eigene Position vertreten, auf die Argumente der Partnerin/des Partners eingehen, widersprechen oder weiterentwickeln.",
+          "instructionsTranslation": "Part 2 — Discussion (approx. 5 minutes together). Both candidates receive the same provocative statement and discuss it. Goal: defend your own position, engage with the partner's arguments, disagree or build on them.",
+          "prompt": "Thema für beide Kandidat:innen:\n\n'Personenbezogene Entscheidungen über Kredite, Bewerbungen oder Sozialleistungen sollten grundsätzlich niemals einem Algorithmus überlassen werden.'\n\n— Leitfragen für die Diskussion —\n\n• Stimmen Sie dieser These zu oder widersprechen Sie?\n• Welche Vorteile hätten algorithmische Entscheidungen? Für wen?\n• Welche Nachteile oder Risiken sehen Sie (Verzerrung, Intransparenz, Verantwortungslücke)?\n• Würden Sie sich selbst von einem Algorithmus einschätzen lassen? Warum (nicht)?\n\nReagieren Sie auf die Argumente Ihrer Partnerin/Ihres Partners, widersprechen Sie höflich, wo nötig, und versuchen Sie am Ende, Ihre Positionen zusammenzuführen oder respektvoll unterschiedlich stehen zu lassen.",
+          "sampleResponse": "KANDIDAT:IN A: 'Also, grundsätzlich finde ich die These zu absolut. Algorithmen können in Bewerbungsverfahren eine sinnvolle Vorsortierung leisten – solange ein Mensch am Ende entscheidet. Ich würde also nur teilweise zustimmen.'\n\nKANDIDAT:IN B: 'Da möchte ich kurz widersprechen. Das Problem ist doch, dass der Algorithmus schon die Vorauswahl prägt. Wer dort herausfällt, bekommt die Stelle nie, egal, was der Mensch am Ende entschieden hätte. Nach meiner Einschätzung ist das gerade bei Kreditvergaben besonders heikel.'\n\nKANDIDAT:IN A: 'Das ist ein interessanter Einwand. Allerdings könnte man ja gerade durch klare Regeln und regelmäßige Überprüfung der Modelle genau diese Verzerrungen sichtbar machen. Meinst du nicht, dass ein gut auditierter Algorithmus am Ende fairer sein könnte als ein einzelner Sachbearbeiter, der einen schlechten Tag hat?'\n\nKANDIDAT:IN B: 'Guter Punkt – wenn man regelmäßig auditiert, sehe ich das tatsächlich milder. Dann bleibt allerdings die Frage nach der Verantwortung. Wer haftet, wenn der Algorithmus sich irrt? Der Entwickler? Die Bank? Der Kunde? Dazu gibt es bislang keine klare Regelung.'\n\nKANDIDAT:IN A: 'Da stimme ich dir zu. Solange die Haftung ungeklärt ist, sollten wir sehr vorsichtig sein. Vielleicht wäre ein Pilotprojekt mit gesetzlich verankerten Prüfpflichten ein realistischer Kompromiss – Algorithmen als Werkzeug, nicht als Letztentscheider.'\n\nKANDIDAT:IN B: 'Ja, das könnte ein tragfähiger Mittelweg sein. Insgesamt sehe ich algorithmische Entscheidungen eher kritisch, aber nicht grundsätzlich ausgeschlossen.'",
+          "evaluationTips": [
+            "Klare Position beziehen – 'Ich stimme zu / Ich widerspreche'",
+            "Auf das Gesagte des Partners konkret eingehen – nicht nur die eigene Position wiederholen",
+            "Widerspruch höflich: 'Da möchte ich teilweise widersprechen ...', 'Das sehe ich anders, weil ...'",
+            "Konjunktiv II für hypothetische Argumentation: 'Wäre ...', 'Würde ...', 'Könnte ...'",
+            "Konkrete Beispiele oder Branchen nennen, keine rein theoretischen Argumente",
+            "Versuch der Synthese am Ende: 'Wenn man es so staffelt, ...', 'Ein möglicher Kompromiss wäre ...'",
+            "Diskursmarker der Argumentation: 'allerdings', 'andererseits', 'demgegenüber', 'darüber hinaus'"
+          ],
+          "keyPhrases": [
+            "Meiner Meinung nach ...",
+            "Ich kann dem nur teilweise zustimmen.",
+            "Das sehe ich anders, weil ...",
+            "Ein starkes Argument dafür/dagegen ist ...",
+            "Darf ich kurz darauf eingehen?",
+            "Ich verstehe deinen Punkt, allerdings ...",
+            "Wenn man es so betrachtet, ...",
+            "Ein Kompromiss könnte sein, dass ...",
+            "Da sind wir uns wohl einig."
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Teil 3 — Gemeinsam Planen (ca. 5 Minuten). Beide Kandidat:innen erhalten denselben Planungsauftrag und müssen gemeinsam zu einer konkreten Lösung kommen: Vorschläge machen, abwägen, verhandeln, Entscheidung treffen.",
+          "instructionsTranslation": "Part 3 — Collaborative Planning (approx. 5 minutes). Both candidates receive the same planning task and must reach a concrete joint solution: make proposals, weigh options, negotiate, decide.",
+          "prompt": "Planungsauftrag für beide Kandidat:innen:\n\nIhr Unternehmen führt in drei Wochen unternehmensweit ein neues KI-Assistenzsystem ein. Ihre Vorgesetzte hat Sie beide gebeten, gemeinsam einen halbtägigen 'Digital Day' für das rund 40-köpfige Team zu organisieren, an dem die Belegschaft das System praxisnah kennenlernt.\n\nBesprechen Sie folgende Punkte und treffen Sie konkrete Entscheidungen:\n\n• Zeitpunkt: Wann genau soll der Digital Day stattfinden? An welchem Tag der Arbeitswoche? Vormittags, nachmittags, ganztägig – oder halbtägig?\n• Ort: Welche Räume werden benötigt? Soll etwas außerhalb des Büros stattfinden (gemeinsames Mittagessen, externer Raum für Workshops)?\n• Budget: Wie viel sind Sie bereit, insgesamt auszugeben? Wie teilen Sie die Ausgaben auf (Schulung, Verpflegung, Materialien)?\n• Aktivitäten: Welche Inhalte sollen enthalten sein (Begrüßung, Kurzvortrag zu Grundlagen, Live-Demo, Hands-on-Übungen, Diskussion zu Datenschutzrisiken, Feedbackrunde)?\n• Aufgabenverteilung: Wer übernimmt welche konkrete Vorbereitung bis zum Starttag?\n\nEinigen Sie sich am Ende auf einen klaren Plan.",
+          "sampleResponse": "KANDIDAT:IN A: 'Fangen wir mit dem Zeitpunkt an. Ich würde vorschlagen, den Digital Day am Donnerstag der Einführungswoche zu machen – halbtägig, vormittags, damit das Team den Nachmittag noch für die eigene Arbeit hat. Was hältst du davon?'\n\nKANDIDAT:IN B: 'Halbtägig finde ich gut, aber der Donnerstag ist bei uns traditionell Abteilungsmeeting. Wie wäre es, wenn wir den Digital Day auf den Dienstag legen – vormittags Schulung und Live-Demo, im Anschluss ein gemeinsames Mittagessen, damit auch die informelle Abstimmung Platz findet?'\n\nKANDIDAT:IN A: 'Einverstanden – Dienstag klingt sinnvoller. Zum Ort: ich würde den großen Konferenzraum für die Begrüßung und den Kurzvortrag nehmen, anschließend Gruppenräume für die Hands-on-Übungen. Fürs Mittagessen könnten wir ins vegetarische Restaurant nebenan gehen, das bietet Gruppenpreise.'\n\nKANDIDAT:IN B: 'Klingt gut. Zum Budget: Sollten wir 1.200 Euro einplanen? Davon gehen rund 600 Euro an einen externen Trainer, 500 Euro an das Mittagessen und etwa 100 Euro an gedruckte Cheat-Sheets zum Mitnehmen. Die Firma übernimmt bei internen Schulungstagen normalerweise die Hälfte.'\n\nKANDIDAT:IN A: 'Einverstanden. Und zum Inhalt: Ich würde eine kurze Begrüßung vorschlagen, dann einen 20-minütigen Impulsvortrag zu KI-Grundlagen, eine Live-Demo des Assistenzsystems und anschließend Hands-on-Übungen in Vierergruppen. Ganz am Ende eine kurze Diskussion zu Datenschutzrisiken – den Trainer für die Demo kontaktiere ich.'\n\nKANDIDAT:IN B: 'Prima, dann kümmere ich mich um die Restaurantreservierung, die Cheat-Sheets und eine kurze Feedbackumfrage für den Nachmittag, damit wir den Tag auswerten können. Können wir uns am Freitag davor nochmal kurz abstimmen?'\n\nKANDIDAT:IN A: 'Perfekt. Also zusammengefasst: Dienstag vormittags, Konferenzraum plus Gruppenräume, Mittagessen im Italiener, 1.200 Euro Budget, du machst Reservierung, Cheat-Sheets und Feedback, ich kläre Trainer und Räume. Abgemacht!'",
+          "evaluationTips": [
+            "Konkrete Vorschläge statt vager Ideen: Tag, Uhrzeit, Ort, Betrag nennen",
+            "Aktiv zuhören – reagieren Sie spezifisch auf die Vorschläge des Partners",
+            "Konjunktiv II für Vorschläge: 'Ich würde vorschlagen ...', 'Wir könnten ...', 'Wie wäre es mit ...?'",
+            "Kompromisse zeigen: 'Ganztägig ist mir zu viel – wie wäre halbtags?'",
+            "Am Ende zusammenfassen: 'Also zusammengefasst: ...'",
+            "Aufgabenverteilung explizit machen: 'Du übernimmst ..., ich übernehme ...'",
+            "Höfliche Zustimmung/Widerspruch: 'Einverstanden', 'Abgemacht', 'Das sehe ich anders'",
+            "Budget und Aufgabenverteilung müssen beide konkret benannt werden"
+          ],
+          "keyPhrases": [
+            "Ich würde vorschlagen, dass ...",
+            "Wie wäre es, wenn wir ...?",
+            "Das klingt sinnvoll, aber ...",
+            "Können wir uns darauf einigen, dass ...?",
+            "Wer übernimmt ...?",
+            "Ich kümmere mich um ..., du übernimmst bitte ...",
+            "Einverstanden / Abgemacht.",
+            "Also zusammengefasst: ...",
+            "Sollen wir das so festhalten?"
+          ]
+        }
+      ]
+    }
   }
 }
