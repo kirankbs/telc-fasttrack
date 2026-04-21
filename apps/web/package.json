@@ -17,6 +17,7 @@
     "@fastrack/content": "workspace:*",
     "@fastrack/core": "workspace:*",
     "@fastrack/types": "workspace:*",
+    "@vercel/blob": "^2.3.3",
     "lucide-react": "^1.8.0",
     "next": "^15.3.0",
     "react": "^19.2.0",

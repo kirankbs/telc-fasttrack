@@ -11,6 +11,10 @@ vi.mock("@/lib/actions/feedback", () => ({
   submitFeedback: vi.fn(),
 }));
 
+vi.mock("@vercel/blob/client", () => ({
+  upload: vi.fn().mockResolvedValue({ url: "https://blob.vercel.com/test.png" }),
+}));
+
 import { submitFeedback } from "@/lib/actions/feedback";
 
 const mockSubmit = vi.mocked(submitFeedback);
@@ -232,5 +236,48 @@ describe("FeedbackFAB — submission states", () => {
     await act(async () => {
       resolveSubmit({ issueNumber: 1 });
     });
+  });
+});
+
+describe("FeedbackFAB — attachments", () => {
+  it("renders file input in form", async () => {
+    render(<FeedbackFAB />);
+    await userEvent.click(screen.getByTestId("feedback-fab"));
+    expect(screen.getByTestId("feedback-attachment")).toBeInTheDocument();
+  });
+
+  it("shows attachmentsFailed warning on success when blobs failed", async () => {
+    mockSubmit.mockResolvedValue({ issueNumber: 5, attachmentsFailed: true });
+
+    render(<FeedbackFAB />);
+    await userEvent.click(screen.getByTestId("feedback-fab"));
+    await userEvent.type(screen.getByTestId("feedback-title"), "My bug report");
+    await userEvent.type(
+      screen.getByTestId("feedback-description"),
+      "This is a detailed description that is long enough to pass validation."
+    );
+    await userEvent.click(screen.getByTestId("feedback-submit"));
+
+    await waitFor(() => {
+      expect(screen.getByTestId("feedback-attachments-warning")).toBeInTheDocument();
+    });
+  });
+
+  it("does not show attachmentsFailed warning when all uploads succeed", async () => {
+    mockSubmit.mockResolvedValue({ issueNumber: 6 });
+
+    render(<FeedbackFAB />);
+    await userEvent.click(screen.getByTestId("feedback-fab"));
+    await userEvent.type(screen.getByTestId("feedback-title"), "My bug report");
+    await userEvent.type(
+      screen.getByTestId("feedback-description"),
+      "This is a detailed description that is long enough to pass validation."
+    );
+    await userEvent.click(screen.getByTestId("feedback-submit"));
+
+    await waitFor(() => {
+      expect(screen.getByTestId("feedback-success")).toBeInTheDocument();
+    });
+    expect(screen.queryByTestId("feedback-attachments-warning")).not.toBeInTheDocument();
   });
 });

@@ -8,6 +8,11 @@ const CATEGORY_LABELS: Record<FeedbackCategory, string> = {
   question: "question",
 };
 
+export interface FeedbackAttachment {
+  name: string;
+  url: string | null;
+}
+
 export interface FeedbackParams {
   title: string;
   description: string;
@@ -15,11 +20,13 @@ export interface FeedbackParams {
   pathname: string;
   userAgent: string;
   deviceType: "Mobile" | "Tablet" | "Desktop";
+  attachments?: FeedbackAttachment[];
 }
 
 export interface FeedbackResult {
   issueNumber?: number;
   error?: string;
+  attachmentsFailed?: boolean;
 }
 
 const COMMIT_SHA =
@@ -33,11 +40,21 @@ export async function submitFeedback(
     return { error: "Feedback is unavailable — GitHub token not configured." };
   }
 
-  const { title, description, category, pathname, userAgent, deviceType } =
+  const { title, description, category, pathname, userAgent, deviceType, attachments } =
     params;
 
   const timestamp = new Date().toISOString();
   const label = CATEGORY_LABELS[category];
+
+  const attachmentSection =
+    attachments && attachments.length > 0
+      ? "\n\n**Attachments:**\n" +
+        attachments
+          .map((a) =>
+            a.url ? `![${a.name}](${a.url})` : `- ${a.name} (upload failed)`
+          )
+          .join("\n")
+      : "";
 
   const body = [
     `**Description:**\n${description}`,
@@ -46,7 +63,7 @@ export async function submitFeedback(
     `**Browser:** ${userAgent.slice(0, 120)}`,
     `**Device:** ${deviceType}`,
     `**Submitted at:** ${timestamp}`,
-  ].join("\n\n");
+  ].join("\n\n") + attachmentSection;
 
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 10_000);
@@ -85,7 +102,8 @@ export async function submitFeedback(
     }
 
     const data = (await response.json()) as { number: number };
-    return { issueNumber: data.number };
+    const attachmentsFailed = attachments?.some((a) => a.url === null) ?? false;
+    return { issueNumber: data.number, ...(attachmentsFailed ? { attachmentsFailed: true } : {}) };
   } catch (err) {
     if (err instanceof Error && err.name === "AbortError") {
       return { error: "Request timed out. Please try again." };

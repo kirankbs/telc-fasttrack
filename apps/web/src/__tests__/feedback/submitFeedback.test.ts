@@ -175,3 +175,81 @@ describe("submitFeedback — error cases", () => {
     expect(result.error).toBe("Network failure");
   });
 });
+
+describe("submitFeedback — attachments", () => {
+  it("embeds successful attachment as markdown image in body", async () => {
+    const fetchMock = vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => ({ number: 10 }),
+    });
+    vi.stubGlobal("fetch", fetchMock);
+
+    await submitFeedback({
+      ...BASE_PARAMS,
+      attachments: [{ name: "screenshot.png", url: "https://cdn.example.com/screenshot.png" }],
+    });
+
+    const body = JSON.parse(fetchMock.mock.calls[0][1].body);
+    expect(body.body).toContain("![screenshot.png](https://cdn.example.com/screenshot.png)");
+  });
+
+  it("notes failed attachment in body when url is null", async () => {
+    const fetchMock = vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => ({ number: 11 }),
+    });
+    vi.stubGlobal("fetch", fetchMock);
+
+    await submitFeedback({
+      ...BASE_PARAMS,
+      attachments: [{ name: "screenshot.png", url: null }],
+    });
+
+    const body = JSON.parse(fetchMock.mock.calls[0][1].body);
+    expect(body.body).toContain("screenshot.png (upload failed)");
+  });
+
+  it("omits attachments section when no attachments provided", async () => {
+    const fetchMock = vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => ({ number: 12 }),
+    });
+    vi.stubGlobal("fetch", fetchMock);
+
+    await submitFeedback(BASE_PARAMS);
+
+    const body = JSON.parse(fetchMock.mock.calls[0][1].body);
+    expect(body.body).not.toContain("**Attachments:**");
+  });
+
+  it("returns attachmentsFailed: true when any url is null", async () => {
+    vi.stubGlobal("fetch", vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => ({ number: 13 }),
+    }));
+
+    const result = await submitFeedback({
+      ...BASE_PARAMS,
+      attachments: [
+        { name: "ok.png", url: "https://cdn.example.com/ok.png" },
+        { name: "fail.png", url: null },
+      ],
+    });
+
+    expect(result.attachmentsFailed).toBe(true);
+  });
+
+  it("does not set attachmentsFailed when all uploads succeed", async () => {
+    vi.stubGlobal("fetch", vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => ({ number: 14 }),
+    }));
+
+    const result = await submitFeedback({
+      ...BASE_PARAMS,
+      attachments: [{ name: "ok.png", url: "https://cdn.example.com/ok.png" }],
+    });
+
+    expect(result.attachmentsFailed).toBeUndefined();
+  });
+});
