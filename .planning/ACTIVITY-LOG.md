@@ -46,4 +46,4 @@ HH:MM | agent-name | START/DONE/BLOCKED | work-item-id | description
 18:30 | ux-engineer | START | #53 | Phase 4 — flashcards + grammar topic + results sequencing (worktree ui-upgrade-phase4-vocab-grammar-results)
 19:05 | ux-engineer | DONE  | #53 | Phase 4 complete — typecheck+tests+build all green locally, 178 web tests passing (14 new), handoff at .planning/handoffs/2026-04-20-ux-phase4-vocab-grammar-results.md
 21:46 | implementation-lead | DONE  | PR-62 | B2 grammar language-check fixes — topics 11, 14, 22 reorder exercises corrected; PR #62 all CI green (Typecheck+Tests, E2E, Vercel x2, Vercel Preview Comments)
-06:12 | implementation-lead | DONE  | #70 | B2 mock_09 (Kultur & Kunst) — PR #78 all CI green; catalog B2 titles[8] → 'Kultur & Kunst'; handoff at .planning/handoffs/2026-04-21-impl-b2-mock-09.md
+23:15 | implementation-lead | DONE  | #65 | B2 mock_04 complete — PR #73, all 5 CI checks green (E2E 45s, Typecheck+Tests 38s, Vercel x3); Medien & Kommunikation; handoff at .planning/handoffs/2026-04-20-impl-b2-mock-04.md
