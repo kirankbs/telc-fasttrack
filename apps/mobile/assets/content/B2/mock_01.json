@@ -1,13 +1,935 @@
 {
   "id": "B2_mock_01",
   "level": "B2",
-  "title": "Übungstest 1",
-  "version": 0,
-  "_stub": true,
+  "title": "B2 Übungstest 1: Beruf & Arbeitswelt",
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Nachrichtenmeldungen. Entscheiden Sie bei jeder Aussage: richtig oder falsch? Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short news bulletins. For each statement decide: correct or incorrect? You will hear each text only once.",
+          "audioFile": "assets/audio/B2/mock01/listening_part1.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m01_L1_q1",
+              "type": "true_false",
+              "questionText": "Laut der Meldung sinkt der Fachkräftemangel in der deutschen Industrie seit zwei Jahren.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Meldung sagt: 'Der Fachkräftemangel im verarbeitenden Gewerbe hat sich im zweiten Jahr in Folge verschärft – betroffen sind vor allem technische Berufe.' 'verschärft' bedeutet zugenommen, also ist die Aussage, dass er sinkt, falsch. B2-Falle: 'sinken' und 'sich verschärfen' klingen beide wie quantitative Aussagen, aber nur eine stimmt mit dem Audio überein.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "B2_m01_L1_q2",
+              "type": "true_false",
+              "questionText": "Das neue Weiterbildungsgesetz soll die Kosten für Qualifizierungsmaßnahmen komplett von den Arbeitgebern übernehmen lassen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Nachricht formuliert: 'Nach dem neuen Gesetz sollen die Kosten zwischen Bundesagentur für Arbeit und Betrieb geteilt werden.' Nicht die Arbeitgeber allein tragen die Kosten, sondern sie werden geteilt. 'komplett' macht die Aussage falsch.",
+              "audioTimestamp": 48
+            },
+            {
+              "id": "B2_m01_L1_q3",
+              "type": "true_false",
+              "questionText": "Das Bundesamt empfiehlt Unternehmen, ihren Beschäftigten pro Jahr mindestens fünf Tage bezahlte Weiterbildung zu gewähren.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Sprecherin nennt die konkrete Empfehlung: 'Das Bundesamt rät Arbeitgebern, jährlich mindestens fünf bezahlte Weiterbildungstage pro Mitarbeiter anzubieten.' Die Zahl und das Adjektiv 'bezahlt' werden wörtlich genannt.",
+              "audioTimestamp": 85
+            },
+            {
+              "id": "B2_m01_L1_q4",
+              "type": "true_false",
+              "questionText": "Die Deutsche Bahn hat einen Tarifabschluss mit den Gewerkschaften erzielt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Im Audio heißt es: 'Nach sieben Verhandlungsrunden bleiben Bahn und Gewerkschaft weiterhin uneinig; ein Abschluss ist bislang nicht in Sicht.' 'nicht in Sicht' bedeutet, dass kein Abschluss erzielt wurde. Die Aussage ist also falsch. B2-Trap: Das Verb 'verhandeln' suggeriert Ergebnis, aber der Hedging-Ausdruck 'weiterhin uneinig' zeigt den fehlenden Abschluss.",
+              "audioTimestamp": 118
+            },
+            {
+              "id": "B2_m01_L1_q5",
+              "type": "true_false",
+              "questionText": "Eine Studie der Hans-Böckler-Stiftung zeigt, dass der Anteil der Homeoffice-Beschäftigten in Deutschland weiter zunimmt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Text stellt klar: 'Laut einer aktuellen Studie stagniert der Anteil der Beschäftigten im Homeoffice seit eineinhalb Jahren bei rund 24 Prozent.' 'stagniert' bedeutet bleibt gleich – weder Zunahme noch Abnahme. Die Behauptung 'nimmt zu' ist also falsch.",
+              "audioTimestamp": 155
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören ein Interview zum Thema Weiterbildung im Beruf. Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind. Sie hören das Interview nur einmal.",
+          "instructionsTranslation": "You will hear an interview about professional further education. Decide whether the following ten statements are correct or incorrect. You will hear the interview only once.",
+          "audioFile": "assets/audio/B2/mock01/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m01_L2_q1",
+              "type": "true_false",
+              "questionText": "Frau Dr. Richter leitet das Institut für Berufsbildungsforschung in Bonn.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Moderator stellt sie vor: 'Frau Dr. Sabine Richter, Leiterin des Instituts für Berufsbildungsforschung in Bonn.' Die Aussage wird wörtlich bestätigt.",
+              "audioTimestamp": 15
+            },
+            {
+              "id": "B2_m01_L2_q2",
+              "type": "true_false",
+              "questionText": "Laut Dr. Richter investieren deutsche Unternehmen inzwischen so viel in Weiterbildung wie Unternehmen in Skandinavien.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Richter sagt: 'Im internationalen Vergleich hinken deutsche Betriebe den skandinavischen Ländern nach wie vor deutlich hinterher.' 'nach wie vor hinterherhinken' bedeutet weiterhin weniger. B2-Falle: 'inzwischen' im Prompt deutet auf Veränderung hin, aber das Audio zeigt das Gegenteil.",
+              "audioTimestamp": 48
+            },
+            {
+              "id": "B2_m01_L2_q3",
+              "type": "true_false",
+              "questionText": "Dr. Richter ist der Meinung, dass kleine Betriebe Weiterbildung grundsätzlich ablehnen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Expertin differenziert: 'Man hört oft, kleine Betriebe würden Weiterbildung ablehnen – das stimmt so pauschal nicht. Viele wollen, können aber ihre Mitarbeiter schlicht nicht freistellen.' Sie widerspricht also der Behauptung. Dies ist eine klassische B2-Hedging-Falle: 'Man hört oft' kennzeichnet eine fremde Meinung, die die Sprecherin gerade NICHT teilt.",
+              "audioTimestamp": 92
+            },
+            {
+              "id": "B2_m01_L2_q4",
+              "type": "true_false",
+              "questionText": "Der Moderator weist darauf hin, dass viele Beschäftigte ihren Weiterbildungsbedarf unterschätzen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Moderator fragt: 'Studien zeigen, dass viele Beschäftigte ihren eigenen Qualifizierungsbedarf eher zu niedrig einschätzen. Wie kommt das?' 'zu niedrig einschätzen' = unterschätzen. Die Aussage ist also korrekt.",
+              "audioTimestamp": 138
+            },
+            {
+              "id": "B2_m01_L2_q5",
+              "type": "true_false",
+              "questionText": "Dr. Richter sieht in der Digitalisierung vor allem Chancen für Weiterbildung.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Expertin betont: 'Die Digitalisierung bringt zweifellos Belastungen mit sich, aber überwiegend sehe ich enorme Chancen – vor allem durch orts- und zeitflexible Lernformate.' Trotz Nennen der Belastungen ist ihre Position klar: 'überwiegend sehe ich enorme Chancen'.",
+              "audioTimestamp": 175
+            },
+            {
+              "id": "B2_m01_L2_q6",
+              "type": "true_false",
+              "questionText": "Die Expertin behauptet, dass reine Online-Kurse besser wirken als Präsenzformate.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Richter plädiert stattdessen für Mischformen: 'Blended Learning, also die Kombination aus Online- und Präsenzphasen, erzielt nachweislich die besten Lerneffekte – reine Online-Formate allein nicht.' Sie sagt also das Gegenteil: Mischung ist am besten, nicht reines Online.",
+              "audioTimestamp": 212
+            },
+            {
+              "id": "B2_m01_L2_q7",
+              "type": "true_false",
+              "questionText": "Dr. Richter empfiehlt Arbeitgebern, die Weiterbildungszeit als Arbeitszeit anzuerkennen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Expertin sagt deutlich: 'Entscheidend ist, dass Weiterbildung als Arbeitszeit gilt und nicht in die Freizeit verlagert wird – sonst brechen gerade Beschäftigte mit Familie schnell ab.' Die Empfehlung ist klar.",
+              "audioTimestamp": 245
+            },
+            {
+              "id": "B2_m01_L2_q8",
+              "type": "true_false",
+              "questionText": "Laut Dr. Richter nehmen Frauen seltener an Weiterbildungen teil als Männer.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Dr. Richter räumt ein: 'Leider zeigen unsere Daten, dass Frauen, vor allem in der Familienphase, deutlich seltener an betrieblichen Weiterbildungen teilnehmen als ihre männlichen Kollegen.' Das bestätigt die Aussage.",
+              "audioTimestamp": 275
+            },
+            {
+              "id": "B2_m01_L2_q9",
+              "type": "true_false",
+              "questionText": "Dr. Richter findet, dass die neue staatliche Bildungsprämie sofort abgeschafft werden sollte.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Im Gegenteil: 'Die Bildungsprämie ist ein Schritt in die richtige Richtung, auch wenn sie noch zu niedrig angesetzt ist.' Sie begrüßt die Prämie, fordert nur deren Aufstockung. B2-Trap: Kritik am Umfang bedeutet nicht Ablehnung der Idee.",
+              "audioTimestamp": 305
+            },
+            {
+              "id": "B2_m01_L2_q10",
+              "type": "true_false",
+              "questionText": "Am Ende des Interviews wird auf eine kommende Fachkonferenz in Köln hingewiesen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Moderator verabschiedet mit: 'Mehr zu diesem Thema finden Sie auf unserer Website.' Eine Konferenz in Köln wird nicht erwähnt. B2-Trap: Die Erwartung einer abschließenden Veranstaltungsankündigung wird nicht erfüllt.",
+              "audioTimestamp": 345
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Ansagen oder Nachrichten aus dem beruflichen Alltag. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short announcements or messages from professional daily life. What is correct? Choose a, b, or c. You will hear each text only once.",
+          "audioFile": "assets/audio/B2/mock01/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m01_L3_q1",
+              "type": "mcq",
+              "questionText": "Warum hat Herr Weber seinen Kollegen angerufen?",
+              "options": [
+                "a) Er möchte das Vorstellungsgespräch auf einen anderen Tag verschieben.",
+                "b) Er bittet darum, Unterlagen zum Vorstellungsgespräch mitzubringen.",
+                "c) Er sagt sein Kommen zum Vorstellungsgespräch endgültig ab."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Herr Weber sagt auf der Mailbox: 'Könntest du bitte die aktualisierte Projektliste und die Zeugniskopien mitbringen? Ohne die kann ich im Gespräch nicht sinnvoll argumentieren.' Er verschiebt also nicht und sagt auch nicht ab, sondern bittet um Unterlagen. Distraktor a) nutzt 'Vorstellungsgespräch' aus dem Audio, verdreht aber den Zweck.",
+              "audioTimestamp": 18
+            },
+            {
+              "id": "B2_m01_L3_q2",
+              "type": "mcq",
+              "questionText": "Was teilt die Personalabteilung den Mitarbeitenden mit?",
+              "options": [
+                "a) Der diesjährige Betriebsausflug wird komplett abgesagt.",
+                "b) Ab sofort gilt eine neue Regelung zur Homeoffice-Abrechnung.",
+                "c) Das interne Weiterbildungsportal wird auf eine neue Plattform umgestellt."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Ansage informiert: 'Ab Montag, dem 12. Mai, finden Sie alle internen Schulungen auf unserer neuen Lernplattform Talento. Die bisherige Seite wird abgeschaltet.' Der Umzug der Weiterbildungsplattform ist der Kern. Distraktor a) und b) werden nicht erwähnt.",
+              "audioTimestamp": 58
+            },
+            {
+              "id": "B2_m01_L3_q3",
+              "type": "mcq",
+              "questionText": "Was empfiehlt die Karriereberaterin der Anruferin?",
+              "options": [
+                "a) sofort eine schriftliche Kündigung einzureichen",
+                "b) zunächst ein Gespräch mit der Vorgesetzten zu suchen",
+                "c) sich heimlich bei einer anderen Firma zu bewerben"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Beraterin sagt: 'Bevor Sie über eine Kündigung nachdenken, würde ich Ihnen dringend raten, zunächst das offene Gespräch mit Ihrer Vorgesetzten zu suchen.' Sie empfiehlt also explizit das Gespräch. Die Kündigung wird nicht abgelehnt, aber nicht als erster Schritt empfohlen (a falsch). Heimliche Bewerbung wird gar nicht genannt (c falsch).",
+              "audioTimestamp": 108
+            },
+            {
+              "id": "B2_m01_L3_q4",
+              "type": "mcq",
+              "questionText": "Was ist das Hauptanliegen der Voicemail vom Kunden?",
+              "options": [
+                "a) Er möchte einen bereits vereinbarten Liefertermin bestätigen.",
+                "b) Er beschwert sich über fehlerhafte Ware und fordert Ersatz.",
+                "c) Er interessiert sich für ein zusätzliches Produktangebot."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Kunde beschwert sich deutlich: 'Drei der gelieferten Geräte weisen erhebliche Mängel auf – ich erwarte bis Ende der Woche eine Ersatzlieferung oder eine vollständige Gutschrift.' Die Mängelrüge und Ersatzforderung sind zentral. Distraktor a) und c) passen nicht zum Inhalt.",
+              "audioTimestamp": 150
+            },
+            {
+              "id": "B2_m01_L3_q5",
+              "type": "mcq",
+              "questionText": "Worüber informiert die Ansage im Tagungshotel?",
+              "options": [
+                "a) Die Fachkonferenz beginnt wegen technischer Probleme 30 Minuten später.",
+                "b) Die Kaffeepause wurde auf den Wintergarten verlegt.",
+                "c) Die Abendveranstaltung fällt wegen Krankheit des Redners aus."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Ansage sagt: 'Liebe Teilnehmerinnen und Teilnehmer, die Kaffeepause findet heute ausnahmsweise nicht im Foyer, sondern im Wintergarten im Erdgeschoss statt.' Distraktor a) und c) werden nicht erwähnt – eine Verspätung der Konferenz oder eine Absage des Abendprogramms wird nirgends angekündigt.",
+              "audioTimestamp": 195
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 90,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie zuerst die fünf Kurztexte (1–5) und dann die zehn Überschriften (a–j). Welche Überschrift passt am besten zu welchem Text? Für jeden Text gibt es genau eine passende Überschrift. Fünf Überschriften bleiben übrig.",
+          "instructionsTranslation": "First read the five short texts (1–5) and then the ten headlines (a–j). Which headline best matches which text? For each text there is exactly one matching headline. Five headlines remain unused.",
+          "texts": [
+            { "id": "B2_m01_R1_head_a", "type": "notice", "content": "a) Flexible Arbeitszeiten steigern die Produktivität – neue Studie aus München" },
+            { "id": "B2_m01_R1_head_b", "type": "notice", "content": "b) Wenn der Chef zum Freund wird: Grenzen im modernen Büro" },
+            { "id": "B2_m01_R1_head_c", "type": "notice", "content": "c) Weiterbildung zahlt sich aus – Gehaltssprünge nach Qualifizierung" },
+            { "id": "B2_m01_R1_head_d", "type": "notice", "content": "d) Bewerben ohne Foto und Namen – Pilotprojekt in Hamburger Behörden" },
+            { "id": "B2_m01_R1_head_e", "type": "notice", "content": "e) Vier-Tage-Woche: erste deutsche Firmen ziehen Bilanz" },
+            { "id": "B2_m01_R1_head_f", "type": "notice", "content": "f) Fachkräftemangel: Handwerksbetriebe setzen auf ausländische Azubis" },
+            { "id": "B2_m01_R1_head_g", "type": "notice", "content": "g) Burnout im Lehrerzimmer: psychische Belastung steigt weiter" },
+            { "id": "B2_m01_R1_head_h", "type": "notice", "content": "h) Startups gegen Konzerne – wo Berufseinsteiger heute lieber anfangen" },
+            { "id": "B2_m01_R1_head_i", "type": "notice", "content": "i) Rückkehr ins Büro – Unternehmen kassieren Homeoffice-Rechte wieder ein" },
+            { "id": "B2_m01_R1_head_j", "type": "notice", "content": "j) Rente mit 63: Anträge erreichen Höchststand" }
+          ],
+          "questions": [
+            {
+              "id": "B2_m01_R1_q1",
+              "type": "matching",
+              "questionText": "Text 1: Mehrere mittelständische Firmen aus dem Raum Köln, die seit 2024 die Vier-Tage-Woche bei vollem Lohnausgleich eingeführt haben, haben nun erste Ergebnisse veröffentlicht. Die Unternehmensleitungen berichten übereinstimmend von einem Rückgang der Krankheitstage um knapp 20 Prozent und einer spürbar höheren Zufriedenheit unter den Beschäftigten. Überraschend zeigt sich, dass die Produktivität nicht gelitten hat, sondern im Schnitt sogar leicht gestiegen ist. Skeptisch bleiben allerdings einige Geschäftsführer, vor allem im Dienstleistungssektor: Dort sei der Kundenkontakt an fünf Tagen pro Woche schwer zu ersetzen. Die Studien werten den Modellversuch dennoch als Erfolg, der zumindest für bestimmte Branchen ein Umdenken rechtfertige.",
+              "matchingSources": [
+                { "id": "B2_m01_R1_head_a", "label": "a" },
+                { "id": "B2_m01_R1_head_b", "label": "b" },
+                { "id": "B2_m01_R1_head_c", "label": "c" },
+                { "id": "B2_m01_R1_head_d", "label": "d" },
+                { "id": "B2_m01_R1_head_e", "label": "e" },
+                { "id": "B2_m01_R1_head_f", "label": "f" },
+                { "id": "B2_m01_R1_head_g", "label": "g" },
+                { "id": "B2_m01_R1_head_h", "label": "h" },
+                { "id": "B2_m01_R1_head_i", "label": "i" },
+                { "id": "B2_m01_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Der Text berichtet, wie deutsche Firmen nach der Einführung der Vier-Tage-Woche Bilanz ziehen – Krankheitstage, Produktivität, Skepsis im Dienstleistungssektor. Das entspricht exakt Überschrift e) 'Vier-Tage-Woche: erste deutsche Firmen ziehen Bilanz'. Distraktor a) 'flexible Arbeitszeiten' ist zu unspezifisch; der Text behandelt kein Gleitzeitmodell, sondern ein spezifisches Wochenmodell."
+            },
+            {
+              "id": "B2_m01_R1_q2",
+              "type": "matching",
+              "questionText": "Text 2: Die Stadt Hamburg testet seit diesem Frühjahr ein neues Verfahren im öffentlichen Dienst: Bewerbungsunterlagen werden vor der Sichtung anonymisiert. Name, Foto, Geburtsjahr und auch die Herkunft des Bewerbers werden durch die Personalabteilung entfernt, bevor die Fachabteilung über eine Einladung zum Gespräch entscheidet. Das Projekt läuft zunächst in drei Behörden, darunter das Sozialamt und die Schulverwaltung. Ziel ist es, unbewusste Vorurteile im Auswahlprozess zu reduzieren. Kritiker wenden ein, dass Namen und Fotos in persönlichen Gesprächen ohnehin bekannt würden; Befürworter verweisen auf ähnliche Programme in skandinavischen Städten, die messbare Effekte auf die Vielfalt der Belegschaft gehabt haben.",
+              "matchingSources": [
+                { "id": "B2_m01_R1_head_a", "label": "a" },
+                { "id": "B2_m01_R1_head_b", "label": "b" },
+                { "id": "B2_m01_R1_head_c", "label": "c" },
+                { "id": "B2_m01_R1_head_d", "label": "d" },
+                { "id": "B2_m01_R1_head_e", "label": "e" },
+                { "id": "B2_m01_R1_head_f", "label": "f" },
+                { "id": "B2_m01_R1_head_g", "label": "g" },
+                { "id": "B2_m01_R1_head_h", "label": "h" },
+                { "id": "B2_m01_R1_head_i", "label": "i" },
+                { "id": "B2_m01_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Das Hamburger Pilotprojekt zu anonymisierten Bewerbungen ohne Foto und Name entspricht präzise Überschrift d). Distraktor f) (ausländische Azubis im Handwerk) berührt zwar das Thema Vielfalt, aber weder Azubis noch Handwerk werden im Text erwähnt."
+            },
+            {
+              "id": "B2_m01_R1_q3",
+              "type": "matching",
+              "questionText": "Text 3: Eine aktuelle Untersuchung des Instituts für Arbeitsmarktforschung Nürnberg zeigt: Beschäftigte, die im vergangenen Jahr an einer zertifizierten Weiterbildung teilgenommen haben, verdienten zwei Jahre später durchschnittlich acht Prozent mehr als vergleichbare Kolleginnen und Kollegen ohne diese Qualifizierung. Besonders ausgeprägt ist der Effekt in den Branchen IT, Gesundheit und Logistik, wo technische Zertifikate unmittelbar in Aufgabenerweiterungen münden. Der Effekt tritt allerdings nur ein, wenn die Weiterbildung branchenbezogen ist und mit einer anerkannten Prüfung abschließt. Kurse ohne Prüfung oder Zertifikat zeigen in der Studie keinen messbaren Einfluss auf das Gehalt.",
+              "matchingSources": [
+                { "id": "B2_m01_R1_head_a", "label": "a" },
+                { "id": "B2_m01_R1_head_b", "label": "b" },
+                { "id": "B2_m01_R1_head_c", "label": "c" },
+                { "id": "B2_m01_R1_head_d", "label": "d" },
+                { "id": "B2_m01_R1_head_e", "label": "e" },
+                { "id": "B2_m01_R1_head_f", "label": "f" },
+                { "id": "B2_m01_R1_head_g", "label": "g" },
+                { "id": "B2_m01_R1_head_h", "label": "h" },
+                { "id": "B2_m01_R1_head_i", "label": "i" },
+                { "id": "B2_m01_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text beschreibt messbare Gehaltssprünge nach zertifizierter Weiterbildung – exakt Überschrift c). Distraktor a) (flexible Arbeitszeiten) passt nicht, da der Text keine Arbeitszeitmodelle diskutiert."
+            },
+            {
+              "id": "B2_m01_R1_q4",
+              "type": "matching",
+              "questionText": "Text 4: Immer mehr Handwerksbetriebe in Süddeutschland entscheiden sich dafür, ihre Lehrlingsausbildung international zu öffnen. Die Handwerkskammer Stuttgart meldet für das laufende Ausbildungsjahr einen Zuwachs von 35 Prozent bei Bewerbern aus dem Ausland – vor allem aus Marokko, Vietnam und der Ukraine. Kleine und mittlere Betriebe reagieren damit auf den zunehmenden Mangel an Nachwuchs: In mehr als jedem zweiten Betrieb blieben im vergangenen Jahr Ausbildungsplätze unbesetzt. Die Kammer fordert zugleich mehr Unterstützung bei Sprachförderung und Anerkennungsverfahren, damit die neuen Azubis auch langfristig im Betrieb bleiben.",
+              "matchingSources": [
+                { "id": "B2_m01_R1_head_a", "label": "a" },
+                { "id": "B2_m01_R1_head_b", "label": "b" },
+                { "id": "B2_m01_R1_head_c", "label": "c" },
+                { "id": "B2_m01_R1_head_d", "label": "d" },
+                { "id": "B2_m01_R1_head_e", "label": "e" },
+                { "id": "B2_m01_R1_head_f", "label": "f" },
+                { "id": "B2_m01_R1_head_g", "label": "g" },
+                { "id": "B2_m01_R1_head_h", "label": "h" },
+                { "id": "B2_m01_R1_head_i", "label": "i" },
+                { "id": "B2_m01_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Der Text behandelt konkret Handwerksbetriebe, die ausländische Auszubildende einstellen – deckungsgleich mit Überschrift f). Distraktor h) (Startups vs. Konzerne) passt nicht, weil Startups nicht erwähnt werden und es um Handwerk statt Büroberufe geht."
+            },
+            {
+              "id": "B2_m01_R1_q5",
+              "type": "matching",
+              "questionText": "Text 5: Nachdem die meisten großen Unternehmen in den Jahren seit der Pandemie großzügige Homeoffice-Regelungen eingeführt hatten, ruft eine wachsende Zahl von Konzernen ihre Beschäftigten zurück an den festen Arbeitsplatz. Mehrere DAX-Unternehmen haben zuletzt verkündet, dass Mitarbeitende künftig wieder mindestens drei Tage pro Woche im Büro präsent sein müssen. Die Begründungen reichen von 'schwacher Teamkultur' über 'sinkender Innovationskraft' bis zu 'Kontrollproblemen'. Gewerkschaften kritisieren den Schritt als einseitige Rücknahme erworbener Rechte. In Umfragen äußern zwei Drittel der Betroffenen, sie würden bei strikten Präsenzpflichten über einen Arbeitgeberwechsel nachdenken.",
+              "matchingSources": [
+                { "id": "B2_m01_R1_head_a", "label": "a" },
+                { "id": "B2_m01_R1_head_b", "label": "b" },
+                { "id": "B2_m01_R1_head_c", "label": "c" },
+                { "id": "B2_m01_R1_head_d", "label": "d" },
+                { "id": "B2_m01_R1_head_e", "label": "e" },
+                { "id": "B2_m01_R1_head_f", "label": "f" },
+                { "id": "B2_m01_R1_head_g", "label": "g" },
+                { "id": "B2_m01_R1_head_h", "label": "h" },
+                { "id": "B2_m01_R1_head_i", "label": "i" },
+                { "id": "B2_m01_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "i",
+              "explanation": "Der Text beschreibt genau den Widerruf von Homeoffice-Rechten durch DAX-Konzerne – Überschrift i) 'Unternehmen kassieren Homeoffice-Rechte wieder ein' passt exakt. Die verbleibenden Distraktoren a, b, g, h, j beziehen sich auf andere Themenbereiche (Flexzeit, Hierarchie, Burnout, Startups, Rente)."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Zeitungsartikel. Wählen Sie bei jeder Aufgabe die beste Antwort (a, b oder c) aufgrund der Informationen im Text.",
+          "instructionsTranslation": "Read the following newspaper article. For each task choose the best answer (a, b, or c) based on the information in the text.",
+          "texts": [
+            {
+              "id": "B2_m01_R2_article",
+              "type": "article",
+              "content": "Digital, aber nicht entmenschlicht – was die neue Arbeitswelt vom Büro übrig lässt\n\nFünf Jahre nach dem großen Homeoffice-Schub steht fest, dass sich die Arbeitswelt in deutschen Unternehmen grundlegend verändert hat. Was viele zu Beginn der 2020er Jahre als Übergangslösung betrachteten, ist inzwischen Alltag. Gut ein Viertel aller Beschäftigten arbeitet mindestens einen Tag pro Woche von zu Hause; in Wissensberufen sind es deutlich mehr. Gleichzeitig mehren sich die Stimmen, die vor einem vorschnellen Rückzug aus dem physischen Büro warnen. 'Unternehmen, die das Präsenzbüro ganz aufgeben, handeln oft kurzsichtig', sagt Arbeitssoziologin Dr. Mira Hoffmann vom Wissenschaftszentrum Berlin. 'Vieles, was ein Team zusammenhält, entsteht nicht in der Videokonferenz, sondern in der Kaffeeküche.'\n\nEine von ihr geleitete Studie hat über zwei Jahre hinweg 40 Unternehmen aus verschiedenen Branchen begleitet. Das Ergebnis fällt differenziert aus. Reine Homeoffice-Modelle führen nach zwölf bis achtzehn Monaten häufig zu einer schleichenden Entfremdung zwischen Kollegen. Neu eingestellte Mitarbeitende tun sich schwerer, in die Unternehmenskultur hineinzufinden. Gleichzeitig zeigt sich: Eine vollständige Rückkehr in das klassische Fünf-Tage-Büro ist weder gewünscht noch realistisch. In einer begleitenden Umfrage gaben über 70 Prozent der Beschäftigten an, sie würden bei einer strikten Präsenzpflicht den Arbeitgeber wechseln – bei Fachkräften im IT-Bereich waren es sogar 85 Prozent.\n\nWas funktioniert, sind hybride Modelle mit klaren Strukturen. 'Die Firmen, die bei uns am besten abschneiden, haben zwei oder drei feste Bürotage pro Woche – und nutzen diese Tage bewusst für Teamarbeit, nicht für einsame Konzentrationsphasen am eigenen Schreibtisch', so Hoffmann. Konzeptionsarbeit, kreative Sprints und der Austausch zwischen Abteilungen gehören ins Büro. Einzelne Aufgaben, die lange Phasen ungestörter Aufmerksamkeit erfordern, werden zu Hause besser erledigt. Viele Unternehmen hätten diese Logik allerdings noch nicht verstanden und planten ihre Büroräume wie vor zehn Jahren: als Arbeitsplätze statt als Begegnungsräume.\n\nEin weiteres Ergebnis überrascht: Der oft beschworene Produktivitätsverlust bei Homeoffice ist in der Studie nicht nachweisbar. Wo Beschäftigte ihre Aufgaben klar definiert haben und regelmäßig Rückmeldungen erhalten, arbeiten sie zu Hause genauso gut wie im Büro. Kritisch wird es allerdings bei Führungskräften, die ihre Teams aus der Ferne steuern. Fehlt der informelle Austausch, wachsen Missverständnisse und Unsicherheit bei den Beschäftigten. Hoffmann empfiehlt daher regelmäßige persönliche Gespräche – nicht zwingend im Büro, aber doch in einer Weise, die über Bildschirmkontakt hinausgeht.\n\nBlickt man in die Zukunft, so dürfte sich das Büro in den nächsten Jahren weiter wandeln. Bereits heute experimentieren erste Firmen mit geteilten Arbeitsplätzen, spezialisierten Projekträumen und kleineren, regionalen Büros statt großer Zentralen. Entscheidend wird nach Hoffmanns Einschätzung sein, ob Unternehmen bereit sind, nicht nur Arbeitsorte, sondern auch Führungskulturen neu zu denken. 'Wer nach wie vor auf Kontrolle statt auf Vertrauen setzt, wird es künftig schwer haben, die besten Köpfe zu halten.' Das Büro der Zukunft, das zeichnet sich ab, wird weniger sein – aber das, was es ist, muss umso bewusster gestaltet werden.",
+              "source": "Frankfurter Rundschau, Wirtschaftsbeilage März 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "B2_m01_R2_q1",
+              "type": "mcq",
+              "questionText": "Was ist die zentrale These von Dr. Hoffmann im Text?",
+              "relatedTextId": "B2_m01_R2_article",
+              "options": [
+                "a) Unternehmen sollten zur klassischen Fünf-Tage-Bürowoche zurückkehren.",
+                "b) Das Büro bleibt wichtig, aber seine Funktion muss neu definiert werden.",
+                "c) Homeoffice ist grundsätzlich produktiver als Präsenzarbeit."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Hoffmann sagt klar: 'Vieles, was ein Team zusammenhält, entsteht nicht in der Videokonferenz' und plädiert für hybride Modelle mit 'klaren Strukturen'. Sie fordert also keine Rückkehr zur alten Fünf-Tage-Woche (a widerspricht ihr explizit) und stellt Homeoffice nicht als grundsätzlich überlegen dar (c). Ihre These ist die Neudefinition der Bürofunktion – Option b. B2-Trap: Der Text erwähnt alle drei Varianten, aber nur b ist Hoffmanns Position."
+            },
+            {
+              "id": "B2_m01_R2_q2",
+              "type": "mcq",
+              "questionText": "Was sagt die Studie zu neu eingestellten Mitarbeitenden in reinen Homeoffice-Modellen?",
+              "relatedTextId": "B2_m01_R2_article",
+              "options": [
+                "a) Sie sind nach kurzer Zeit genauso integriert wie langjährige Beschäftigte.",
+                "b) Sie werden in den ersten Monaten produktiver als ältere Kollegen.",
+                "c) Sie haben mehr Schwierigkeiten, in die Unternehmenskultur hineinzufinden."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text stellt fest: 'Neu eingestellte Mitarbeitende tun sich schwerer, in die Unternehmenskultur hineinzufinden.' Das ist genau Option c. Option a widerspricht dem Text, Option b wird nicht behauptet – Produktivität wird separat behandelt und nicht als Vorteil junger Mitarbeiter dargestellt."
+            },
+            {
+              "id": "B2_m01_R2_q3",
+              "type": "mcq",
+              "questionText": "Wie würden laut Umfrage IT-Fachkräfte auf eine strikte Rückkehr ins Büro reagieren?",
+              "relatedTextId": "B2_m01_R2_article",
+              "options": [
+                "a) Die Mehrheit würde widerwillig zustimmen, aber bleiben.",
+                "b) Eine große Mehrheit würde den Arbeitgeber wechseln.",
+                "c) Sie würden eine Gehaltserhöhung als Ausgleich fordern."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text sagt: 'Bei Fachkräften im IT-Bereich waren es sogar 85 Prozent', die bei Präsenzpflicht wechseln würden. 85 % ist eine klare Mehrheit – Option b. Gehaltserhöhung (c) wird nicht erwähnt; widerwilliges Bleiben (a) widerspricht der 85-Prozent-Zahl."
+            },
+            {
+              "id": "B2_m01_R2_q4",
+              "type": "mcq",
+              "questionText": "Welche Nutzung der Bürotage empfiehlt Dr. Hoffmann?",
+              "relatedTextId": "B2_m01_R2_article",
+              "options": [
+                "a) Bürotage für individuelle Konzentrationsarbeit reservieren, die zu Hause schwer fällt.",
+                "b) Bürotage gezielt für Team- und Austauschaufgaben nutzen, nicht für Einzelarbeit.",
+                "c) Bürotage abwechselnd zwischen den Abteilungen rotieren, um Kosten zu sparen."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Hoffmann sagt: 'Teams nutzen diese Tage bewusst für Teamarbeit, nicht für einsame Konzentrationsphasen.' Das entspricht Option b. Option a kehrt die Empfehlung um (einsames Konzentrieren sei gerade nicht der Zweck des Bürotags). Kostenrotation (c) wird nicht genannt. B2-Trap: Option a enthält alle richtigen Stichwörter (Bürotag, Konzentrationsarbeit, Zuhause), kehrt aber die Logik um."
+            },
+            {
+              "id": "B2_m01_R2_q5",
+              "type": "mcq",
+              "questionText": "Worin sieht Hoffmann die größte Herausforderung für die Zukunft?",
+              "relatedTextId": "B2_m01_R2_article",
+              "options": [
+                "a) der Wandel von Kontroll- hin zu Vertrauenskulturen in der Führung",
+                "b) die flächendeckende technische Ausstattung aller Beschäftigten",
+                "c) die rechtliche Absicherung des Homeoffice-Anspruchs"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Hoffmann betont: 'Wer nach wie vor auf Kontrolle statt auf Vertrauen setzt, wird es künftig schwer haben, die besten Köpfe zu halten.' Sie fordert, 'nicht nur Arbeitsorte, sondern auch Führungskulturen neu zu denken'. Option a fasst das präzise zusammen. Technik (b) und Rechtsanspruch (c) werden nicht thematisiert."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die zehn Situationen (1–10) und die zwölf Anzeigen (a–l). Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es höchstens eine passende Anzeige. Zwei Anzeigen bleiben übrig. Wenn keine Anzeige passt, schreiben Sie 'x'.",
+          "instructionsTranslation": "Read the ten situations (1–10) and the twelve advertisements (a–l). Which advertisement matches which situation? For each situation there is at most one matching advertisement. Two advertisements remain unused. If no advertisement fits, write 'x'.",
+          "texts": [
+            { "id": "B2_m01_R3_ad_a", "type": "ad", "content": "a) KarriereKompass Berlin – Individuelle Laufbahnberatung für Fach- und Führungskräfte. 90-minütige Einzelgespräche, kostenfrei gefördert über den Bildungsgutschein der Agentur für Arbeit. Termine auch abends. www.karrierekompass-berlin.de" },
+            { "id": "B2_m01_R3_ad_b", "type": "ad", "content": "b) Seminar 'Gelingende Teamführung' – zweitägiger Präsenzworkshop für neue Führungskräfte. Schwerpunkte: Feedbackkultur, Delegation, Konfliktgespräche. Nächster Termin: 18.–19. Juni, Leipzig. 690 € inkl. Materialien. info@leadership-akademie.de" },
+            { "id": "B2_m01_R3_ad_c", "type": "ad", "content": "c) Bewerbungsunterlagen-Check – Eine erfahrene HR-Beraterin prüft Lebenslauf und Anschreiben innerhalb von 48 Stunden und liefert schriftliches Feedback. Pauschal 89 €. Ideal vor wichtigen Bewerbungen. kontakt@bewerbungsprofi.de" },
+            { "id": "B2_m01_R3_ad_d", "type": "ad", "content": "d) IHK-Fortbildung zum Geprüften Betriebswirt – berufsbegleitend, 18 Monate, abends und samstags. Abschluss auf Master-Niveau. Start: Oktober. Förderung über Aufstiegs-BAföG möglich. ihk-weiterbildung.de" },
+            { "id": "B2_m01_R3_ad_e", "type": "ad", "content": "e) Online-Kurs 'Englisch für den Beruf B2' – 12 Wochen, flexibel lernen, wöchentliche Live-Sessions mit Muttersprachlern. Zertifikat nach bestandener Prüfung. Monatlich 49 €. www.business-english-online.de" },
+            { "id": "B2_m01_R3_ad_f", "type": "ad", "content": "f) Rechtsberatung Arbeitsrecht – Erstgespräch kostenlos für Mitglieder der Gewerkschaft ver.di. Themen: Kündigungsschutz, Abfindung, Arbeitszeugnis. Online oder vor Ort in unseren Büros in allen Bundesländern. mitglieder.verdi.de" },
+            { "id": "B2_m01_R3_ad_g", "type": "ad", "content": "g) Programmier-Bootcamp 'Full-Stack-Entwicklung' – 14 Wochen Vollzeit, Präsenz Berlin oder remote. Jobgarantie: Bei Nichtvermittlung nach 6 Monaten volle Geldrückgabe. 9.900 €, vollständig über Bildungsgutschein abrechenbar. bootcamp.dev" },
+            { "id": "B2_m01_R3_ad_h", "type": "ad", "content": "h) Coaching für Wiedereinstieg nach Elternzeit – Zehn Gruppensitzungen, jeweils montags 10–12 Uhr. Themen: Selbstbewusstsein, Zeitmanagement, Verhandlungstechniken. Gefördert durch das Familienministerium. 120 € Eigenbeitrag. www.wiedereinstieg-coaching.de" },
+            { "id": "B2_m01_R3_ad_i", "type": "ad", "content": "i) Kongress 'Zukunft Arbeit 2026' – zwei Tage mit Vorträgen, Workshops und Networking. Themen: Digitalisierung, hybride Teams, Fachkräftesicherung. 08.–09. Mai, Köln. Frühbucher bis 15. März: 390 € statt 490 €. zukunft-arbeit-kongress.de" },
+            { "id": "B2_m01_R3_ad_j", "type": "ad", "content": "j) Sprachkurs Deutsch für den Beruf C1 – Vorbereitung auf telc Deutsch C1 Beruf. 60 Unterrichtseinheiten, dienstags und donnerstags, 19–21 Uhr. Volkshochschule München, 240 €. Einstiegstest erforderlich. www.vhs-muenchen.de" },
+            { "id": "B2_m01_R3_ad_k", "type": "ad", "content": "k) Praktikumsbörse für Studierende – Über 800 aktuelle Angebote aus Industrie, Medien und öffentlichem Dienst. Kostenlose Registrierung, Filter nach Fachrichtung und Ort. Persönliche Beratung jeden Mittwoch in der Jobcenter-Außenstelle. praktikum-finder.de" },
+            { "id": "B2_m01_R3_ad_l", "type": "ad", "content": "l) Fernstudium 'Bachelor Wirtschaftspsychologie' – Akkreditiert, berufsbegleitend in 7 Semestern. Keine Anwesenheitspflicht. Betreuung durch Online-Tutorien. 14.900 € gesamt, monatliche Raten möglich. www.fernhochschule-nord.de" }
+          ],
+          "questions": [
+            {
+              "id": "B2_m01_R3_q1",
+              "type": "matching",
+              "questionText": "1. Lena hat vor zwei Monaten eine Führungsposition in einem mittelständischen Unternehmen übernommen. Sie fühlt sich bei Konfliktgesprächen mit dem Team unsicher und sucht eine kompakte Weiterbildung im Präsenzformat.",
+              "matchingSources": [
+                { "id": "B2_m01_R3_ad_a", "label": "a" }, { "id": "B2_m01_R3_ad_b", "label": "b" },
+                { "id": "B2_m01_R3_ad_c", "label": "c" }, { "id": "B2_m01_R3_ad_d", "label": "d" },
+                { "id": "B2_m01_R3_ad_e", "label": "e" }, { "id": "B2_m01_R3_ad_f", "label": "f" },
+                { "id": "B2_m01_R3_ad_g", "label": "g" }, { "id": "B2_m01_R3_ad_h", "label": "h" },
+                { "id": "B2_m01_R3_ad_i", "label": "i" }, { "id": "B2_m01_R3_ad_j", "label": "j" },
+                { "id": "B2_m01_R3_ad_k", "label": "k" }, { "id": "B2_m01_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Anzeige b) 'Gelingende Teamführung' bietet genau die Themen, die Lena braucht (Feedbackkultur, Konfliktgespräche), im geforderten Präsenzformat und als zweitägiger Kompaktworkshop. Distraktor d) (Betriebswirt-Fortbildung) ist viel zu lang (18 Monate) und nicht auf Führung fokussiert."
+            },
+            {
+              "id": "B2_m01_R3_q2",
+              "type": "matching",
+              "questionText": "2. Herr Öztürk möchte nach zehn Jahren als Sachbearbeiter einen Karrieresprung machen und denkt an eine anerkannte Weiterbildung mit staatlicher Förderung, die er neben seinem Vollzeitjob absolvieren kann.",
+              "matchingSources": [
+                { "id": "B2_m01_R3_ad_a", "label": "a" }, { "id": "B2_m01_R3_ad_b", "label": "b" },
+                { "id": "B2_m01_R3_ad_c", "label": "c" }, { "id": "B2_m01_R3_ad_d", "label": "d" },
+                { "id": "B2_m01_R3_ad_e", "label": "e" }, { "id": "B2_m01_R3_ad_f", "label": "f" },
+                { "id": "B2_m01_R3_ad_g", "label": "g" }, { "id": "B2_m01_R3_ad_h", "label": "h" },
+                { "id": "B2_m01_R3_ad_i", "label": "i" }, { "id": "B2_m01_R3_ad_j", "label": "j" },
+                { "id": "B2_m01_R3_ad_k", "label": "k" }, { "id": "B2_m01_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Anzeige d) IHK-Fortbildung zum Geprüften Betriebswirt ist genau für berufsbegleitende Aufstiegsqualifizierung konzipiert, abends/samstags, mit Aufstiegs-BAföG-Förderung. Das passt zu Herrn Öztürks Wunsch nach Karrieresprung neben dem Vollzeitjob."
+            },
+            {
+              "id": "B2_m01_R3_q3",
+              "type": "matching",
+              "questionText": "3. Sarah hat nach der zweiten Elternzeit beschlossen, wieder Vollzeit zu arbeiten, fühlt sich aber nach drei Jahren Pause unsicher und sucht eine gezielte Unterstützung in einer Gruppe mit ähnlich betroffenen Frauen.",
+              "matchingSources": [
+                { "id": "B2_m01_R3_ad_a", "label": "a" }, { "id": "B2_m01_R3_ad_b", "label": "b" },
+                { "id": "B2_m01_R3_ad_c", "label": "c" }, { "id": "B2_m01_R3_ad_d", "label": "d" },
+                { "id": "B2_m01_R3_ad_e", "label": "e" }, { "id": "B2_m01_R3_ad_f", "label": "f" },
+                { "id": "B2_m01_R3_ad_g", "label": "g" }, { "id": "B2_m01_R3_ad_h", "label": "h" },
+                { "id": "B2_m01_R3_ad_i", "label": "i" }, { "id": "B2_m01_R3_ad_j", "label": "j" },
+                { "id": "B2_m01_R3_ad_k", "label": "k" }, { "id": "B2_m01_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "h",
+              "explanation": "Anzeige h) 'Coaching für Wiedereinstieg nach Elternzeit' ist genau auf Sarahs Situation zugeschnitten – Gruppenformat, Wiedereinstieg, Selbstbewusstsein und Verhandlungstechniken. Andere Anzeigen betreffen nicht speziell den Wiedereinstieg nach Elternzeit."
+            },
+            {
+              "id": "B2_m01_R3_q4",
+              "type": "matching",
+              "questionText": "4. Tobias ist Quereinsteiger und möchte innerhalb weniger Monate Programmierkenntnisse erwerben, um in die IT-Branche zu wechseln. Er benötigt möglichst hohe Erfolgsgarantien, da er dafür seine jetzige Stelle kündigen müsste.",
+              "matchingSources": [
+                { "id": "B2_m01_R3_ad_a", "label": "a" }, { "id": "B2_m01_R3_ad_b", "label": "b" },
+                { "id": "B2_m01_R3_ad_c", "label": "c" }, { "id": "B2_m01_R3_ad_d", "label": "d" },
+                { "id": "B2_m01_R3_ad_e", "label": "e" }, { "id": "B2_m01_R3_ad_f", "label": "f" },
+                { "id": "B2_m01_R3_ad_g", "label": "g" }, { "id": "B2_m01_R3_ad_h", "label": "h" },
+                { "id": "B2_m01_R3_ad_i", "label": "i" }, { "id": "B2_m01_R3_ad_j", "label": "j" },
+                { "id": "B2_m01_R3_ad_k", "label": "k" }, { "id": "B2_m01_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Anzeige g) Bootcamp 'Full-Stack-Entwicklung' bietet exakt das: 14 Wochen intensive Programmierausbildung und eine Jobgarantie (Geld zurück bei Nichtvermittlung). Das deckt Tobias' Sicherheitsbedürfnis beim Quereinstieg."
+            },
+            {
+              "id": "B2_m01_R3_q5",
+              "type": "matching",
+              "questionText": "5. Frau Sánchez hat eine Kündigung erhalten und möchte wissen, welche Ansprüche auf eine Abfindung sie hat. Als Gewerkschaftsmitglied sucht sie eine schnelle Erstberatung.",
+              "matchingSources": [
+                { "id": "B2_m01_R3_ad_a", "label": "a" }, { "id": "B2_m01_R3_ad_b", "label": "b" },
+                { "id": "B2_m01_R3_ad_c", "label": "c" }, { "id": "B2_m01_R3_ad_d", "label": "d" },
+                { "id": "B2_m01_R3_ad_e", "label": "e" }, { "id": "B2_m01_R3_ad_f", "label": "f" },
+                { "id": "B2_m01_R3_ad_g", "label": "g" }, { "id": "B2_m01_R3_ad_h", "label": "h" },
+                { "id": "B2_m01_R3_ad_i", "label": "i" }, { "id": "B2_m01_R3_ad_j", "label": "j" },
+                { "id": "B2_m01_R3_ad_k", "label": "k" }, { "id": "B2_m01_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Anzeige f) Rechtsberatung Arbeitsrecht bietet Erstgespräche speziell zum Thema Kündigungsschutz und Abfindung – kostenlos für Gewerkschaftsmitglieder. Passt exakt zu Frau Sánchez' Situation."
+            },
+            {
+              "id": "B2_m01_R3_q6",
+              "type": "matching",
+              "questionText": "6. Paul ist seit kurzem arbeitslos und möchte mit professioneller Hilfe eine neue Perspektive entwickeln. Ihm ist wichtig, dass die Beratung von der Arbeitsagentur finanziert wird.",
+              "matchingSources": [
+                { "id": "B2_m01_R3_ad_a", "label": "a" }, { "id": "B2_m01_R3_ad_b", "label": "b" },
+                { "id": "B2_m01_R3_ad_c", "label": "c" }, { "id": "B2_m01_R3_ad_d", "label": "d" },
+                { "id": "B2_m01_R3_ad_e", "label": "e" }, { "id": "B2_m01_R3_ad_f", "label": "f" },
+                { "id": "B2_m01_R3_ad_g", "label": "g" }, { "id": "B2_m01_R3_ad_h", "label": "h" },
+                { "id": "B2_m01_R3_ad_i", "label": "i" }, { "id": "B2_m01_R3_ad_j", "label": "j" },
+                { "id": "B2_m01_R3_ad_k", "label": "k" }, { "id": "B2_m01_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Anzeige a) KarriereKompass Berlin bietet genau diese individuelle Laufbahnberatung, die über den Bildungsgutschein der Agentur für Arbeit finanziert wird. Die Abendtermine passen ebenfalls zu Pauls Situation."
+            },
+            {
+              "id": "B2_m01_R3_q7",
+              "type": "matching",
+              "questionText": "7. Herr Bauer bewirbt sich nächste Woche auf eine Stelle als Projektleiter. Er ist unsicher, ob sein Anschreiben überzeugt, und möchte noch vor dem Abschicken eine professionelle Rückmeldung erhalten.",
+              "matchingSources": [
+                { "id": "B2_m01_R3_ad_a", "label": "a" }, { "id": "B2_m01_R3_ad_b", "label": "b" },
+                { "id": "B2_m01_R3_ad_c", "label": "c" }, { "id": "B2_m01_R3_ad_d", "label": "d" },
+                { "id": "B2_m01_R3_ad_e", "label": "e" }, { "id": "B2_m01_R3_ad_f", "label": "f" },
+                { "id": "B2_m01_R3_ad_g", "label": "g" }, { "id": "B2_m01_R3_ad_h", "label": "h" },
+                { "id": "B2_m01_R3_ad_i", "label": "i" }, { "id": "B2_m01_R3_ad_j", "label": "j" },
+                { "id": "B2_m01_R3_ad_k", "label": "k" }, { "id": "B2_m01_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Anzeige c) 'Bewerbungsunterlagen-Check' liefert innerhalb von 48 Stunden schriftliches Feedback zu Lebenslauf und Anschreiben – genau die schnelle professionelle Rückmeldung, die Herr Bauer vor dem Abschicken braucht."
+            },
+            {
+              "id": "B2_m01_R3_q8",
+              "type": "matching",
+              "questionText": "8. Frau Weber arbeitet in einem internationalen Unternehmen und braucht für eine bevorstehende Versetzung nach London gute Wirtschaftsenglisch-Kenntnisse, die sie flexibel neben dem Job erwerben kann.",
+              "matchingSources": [
+                { "id": "B2_m01_R3_ad_a", "label": "a" }, { "id": "B2_m01_R3_ad_b", "label": "b" },
+                { "id": "B2_m01_R3_ad_c", "label": "c" }, { "id": "B2_m01_R3_ad_d", "label": "d" },
+                { "id": "B2_m01_R3_ad_e", "label": "e" }, { "id": "B2_m01_R3_ad_f", "label": "f" },
+                { "id": "B2_m01_R3_ad_g", "label": "g" }, { "id": "B2_m01_R3_ad_h", "label": "h" },
+                { "id": "B2_m01_R3_ad_i", "label": "i" }, { "id": "B2_m01_R3_ad_j", "label": "j" },
+                { "id": "B2_m01_R3_ad_k", "label": "k" }, { "id": "B2_m01_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Anzeige e) 'Englisch für den Beruf B2' ist ein flexibler 12-Wochen-Online-Kurs mit wöchentlichen Live-Sessions – ideal neben dem Job. Das passt zu Frau Webers Bedarf an Business-Englisch vor der Versetzung."
+            },
+            {
+              "id": "B2_m01_R3_q9",
+              "type": "matching",
+              "questionText": "9. Marco studiert im vierten Semester Maschinenbau und sucht für die vorlesungsfreie Zeit ein Pflichtpraktikum in einem Industrieunternehmen in Nord- oder Westdeutschland.",
+              "matchingSources": [
+                { "id": "B2_m01_R3_ad_a", "label": "a" }, { "id": "B2_m01_R3_ad_b", "label": "b" },
+                { "id": "B2_m01_R3_ad_c", "label": "c" }, { "id": "B2_m01_R3_ad_d", "label": "d" },
+                { "id": "B2_m01_R3_ad_e", "label": "e" }, { "id": "B2_m01_R3_ad_f", "label": "f" },
+                { "id": "B2_m01_R3_ad_g", "label": "g" }, { "id": "B2_m01_R3_ad_h", "label": "h" },
+                { "id": "B2_m01_R3_ad_i", "label": "i" }, { "id": "B2_m01_R3_ad_j", "label": "j" },
+                { "id": "B2_m01_R3_ad_k", "label": "k" }, { "id": "B2_m01_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "k",
+              "explanation": "Anzeige k) Praktikumsbörse für Studierende listet über 800 aktuelle Praktikumsangebote aus Industrie und weiteren Bereichen, filterbar nach Fachrichtung und Ort – genau, was Marco für sein Pflichtpraktikum benötigt."
+            },
+            {
+              "id": "B2_m01_R3_q10",
+              "type": "matching",
+              "questionText": "10. Herr Nowak bereitet sich auf ein Assessment Center bei einer Unternehmensberatung vor und sucht eine mehrtägige Simulation mit realistischen Übungen und individuellem Feedback zu seinem Auftreten.",
+              "matchingSources": [
+                { "id": "B2_m01_R3_ad_a", "label": "a" }, { "id": "B2_m01_R3_ad_b", "label": "b" },
+                { "id": "B2_m01_R3_ad_c", "label": "c" }, { "id": "B2_m01_R3_ad_d", "label": "d" },
+                { "id": "B2_m01_R3_ad_e", "label": "e" }, { "id": "B2_m01_R3_ad_f", "label": "f" },
+                { "id": "B2_m01_R3_ad_g", "label": "g" }, { "id": "B2_m01_R3_ad_h", "label": "h" },
+                { "id": "B2_m01_R3_ad_i", "label": "i" }, { "id": "B2_m01_R3_ad_j", "label": "j" },
+                { "id": "B2_m01_R3_ad_k", "label": "k" }, { "id": "B2_m01_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "x",
+              "explanation": "Keine der zwölf Anzeigen bietet eine mehrtägige Assessment-Center-Simulation. Anzeige c) deckt nur schriftliches Feedback auf Unterlagen ab, nicht das Auftreten. Anzeige i) ist ein Fachkongress zur Zukunft der Arbeit, keine AC-Simulation. Anzeige a) ist eine 90-minütige Einzelberatung – kein mehrtägiges Assessment. Die Situation erfordert also die Antwort 'x' (kein passendes Angebot). [PEDAGOGY-REWRITE] Anzeigen i) (Kongress 'Zukunft Arbeit 2026'), j) (VHS-Deutschkurs C1) und l) (Fernstudium Wirtschaftspsychologie) bleiben als die drei ungenutzten Distraktoren in der Anzeigenliste übrig."
+            }
+          ]
+        }
+      ]
+    },
+    "sprachbausteine": {
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie den folgenden Text und entscheiden Sie, welches Wort (a, b, c oder d) in die Lücke passt. Es gibt jeweils nur eine richtige Lösung.",
+          "text": "Sehr geehrte Kolleginnen und Kollegen,\n\nhiermit möchte ich Sie über die geplanten Neuerungen bei unserem betrieblichen Weiterbildungsangebot informieren. Nach einer ausführlichen Bedarfsanalyse, die von der Personalabteilung __(1)__ worden ist, stehen nun die Eckpunkte für das kommende Jahr fest. Zum ersten Mal werden wir ein vollständig neues Qualifizierungsprogramm anbieten, __(2)__ sich sowohl an Führungskräfte als auch an Fachkräfte richtet.\n\nBesonderer Wert wird darauf gelegt, dass jeder Beschäftigte mindestens fünf bezahlte Weiterbildungstage pro Jahr __(3)__ kann. Sollte die Geschäftsleitung in Einzelfällen einem Antrag nicht zustimmen können, __(4)__ sie dies schriftlich begründen. __(5)__ der erheblichen Investitionen erwarten wir eine deutliche Steigerung der Qualifikation in allen Bereichen.\n\nDas Programm umfasst klassische Präsenzseminare, __(6)__ auch digitale Lernformate, die individuell genutzt werden können. Teilnehmende, die eine externe Zertifizierung __(7)__, erhalten die vollen Gebühren erstattet. __(8)__ ist die enge Abstimmung mit der jeweiligen Führungskraft, damit die Weiterbildung zu den Aufgaben im Team passt.\n\nDie von uns __(9)__ Maßnahme ist Teil einer umfassenderen Personalstrategie. Die Geschäftsleitung ist überzeugt, __(10)__ investierte Euro in Weiterbildung mehrfach zurückfließt – durch höhere Motivation, geringere Fluktuation und eine bessere Position am Markt.\n\nMit freundlichen Grüßen\nDr. Martina Klose, Leiterin Personalentwicklung",
+          "questions": [
+            {
+              "blankNumber": 1,
+              "type": "mcq",
+              "options": ["a) durchgeführt", "b) durchführte", "c) durchzuführen", "d) durchführend"],
+              "correctAnswer": "a",
+              "explanation": "Vorgangspassiv Perfekt: 'die von der Personalabteilung durchgeführt worden ist' — Bildung: sein + Partizip II + worden (nicht: Zustandspassiv, das 'sein + Partizip II' ohne 'worden' wäre). Das Partizip II 'durchgeführt' ist zwingend. Distraktoren: b) 'durchführte' wäre Aktiv-Präteritum (falsche Diathese), c) zu+Infinitiv passt grammatisch nicht zu 'ist worden', d) Partizip I signalisiert laufende Handlung und kombiniert nicht mit 'worden'. B2-Grammatik: Vorgangspassiv Perfekt."
+            },
+            {
+              "blankNumber": 2,
+              "type": "mcq",
+              "options": ["a) der", "b) das", "c) die", "d) was"],
+              "correctAnswer": "b",
+              "explanation": "Relativsatz: 'ein Qualifizierungsprogramm, das sich ... richtet.' Das Relativpronomen bezieht sich auf 'Programm' (Neutrum) im Nominativ: 'das'. Distraktoren: a) 'der' = Maskulin, c) 'die' = Feminin/Plural, d) 'was' nur nach unbestimmten Pronomen wie 'etwas, alles, nichts' oder nach neutralen Nominalisierungen wie 'das Beste'. Hier verlangt 'Programm' das Relativpronomen 'das'."
+            },
+            {
+              "blankNumber": 3,
+              "type": "mcq",
+              "options": ["a) in Anspruch nehmen", "b) in Anspruch genommen", "c) beanspruchen lassen", "d) sich beanspruchen"],
+              "correctAnswer": "a",
+              "explanation": "Funktionsverbgefüge (typisches B2-Konstrukt): 'etwas in Anspruch nehmen' = nutzen, beanspruchen. Nach Modalverb 'kann' folgt Infinitiv: 'in Anspruch nehmen'. Distraktoren: b) Partizip passt nicht zu 'kann' (Modalverb + Infinitiv, nicht + Partizip II ohne Hilfsverb), c) 'beanspruchen lassen' wäre reflexiv-kausativ und sinnverändernd, d) 'sich beanspruchen' ist kein idiomatisches Verb im Deutschen."
+            },
+            {
+              "blankNumber": 4,
+              "type": "mcq",
+              "options": ["a) muss", "b) soll", "c) müsste", "d) hätte"],
+              "correctAnswer": "a",
+              "explanation": "Inversion nach vorangestelltem Konditionalsatz ohne 'wenn': 'Sollte ... nicht zustimmen können, muss sie dies ... begründen.' Es geht um eine klare Verpflichtung in der formellen Geschäftskommunikation → Indikativ 'muss'. Distraktoren: b) 'soll' wäre schwächer (moralischer Auftrag, nicht verpflichtend), c) 'müsste' wäre Konjunktiv II und würde irrealen Ton geben, d) 'hätte' ist formal-grammatisch falsch (Hilfsverb, aber ohne Partizip II sinnlos)."
+            },
+            {
+              "blankNumber": 5,
+              "type": "mcq",
+              "options": ["a) Mangels", "b) Trotz", "c) Angesichts", "d) Außer"],
+              "correctAnswer": "c",
+              "explanation": "[PEDAGOGY-REWRITE] Genitiv-Präposition mit passender Semantik: 'Angesichts der erheblichen Investitionen' = 'in Anbetracht, im Hinblick auf' – betont, dass die Investitionen die Erwartung rechtfertigen. Distraktoren: a) 'Mangels' (= für Mangel an) widerspricht dem Kontext – es WERDEN investiert, es fehlt nichts, b) 'Trotz' widerspricht der Logik (Erwartung trotz Investitionen ergibt keinen Sinn), d) 'Außer' heißt 'mit Ausnahme von' – unsinnig. Alle vier Optionen regieren den Genitiv, aber nur 'angesichts' passt semantisch. B2-Präposition mit Genitiv."
+            },
+            {
+              "blankNumber": 6,
+              "type": "mcq",
+              "options": ["a) sondern", "b) aber auch", "c) dennoch", "d) zudem"],
+              "correctAnswer": "b",
+              "explanation": "Additiver Konnektor: 'Das Programm umfasst ... Präsenzseminare, aber auch digitale Lernformate.' Die Struktur fordert eine Hinzufügung mit leichtem Kontrast. Distraktoren: a) 'sondern' verlangt vorher Negation (hier fehlt 'nicht nur'), c) 'dennoch' drückt Gegensatz aus (passt inhaltlich nicht – die beiden Formate schließen sich nicht aus), d) 'zudem' wäre ein reines Additiv, aber würde wie ein eigener Satz wirken (Verb an Position 2). 'aber auch' passt hier im Aufzählungskontext."
+            },
+            {
+              "blankNumber": 7,
+              "type": "mcq",
+              "options": ["a) anstreben", "b) anzustreben", "c) anstrebten", "d) angestrebt"],
+              "correctAnswer": "a",
+              "explanation": "Relativsatz mit Präsens-Indikativ: 'Teilnehmende, die eine externe Zertifizierung anstreben, erhalten ...' Das Verb kongruiert mit Subjekt 'Teilnehmende' (Plural Präsens). Distraktoren: b) Infinitiv mit zu passt nicht in den Relativsatz, c) Präteritum bricht die Zeitebene (der gesamte Text ist im Präsens), d) Partizip II allein ohne Hilfsverb ist syntaktisch unmöglich im finiten Satz."
+            },
+            {
+              "blankNumber": 8,
+              "type": "mcq",
+              "options": ["a) Entscheidend", "b) Entscheidung", "c) Entscheidende", "d) Entschieden"],
+              "correctAnswer": "a",
+              "explanation": "Prädikatives Adjektiv: 'Entscheidend ist die enge Abstimmung ...' Die endungslose Form signalisiert, dass das Adjektiv als Prädikativum nach 'sein' steht (vgl. 'Wichtig ist ...'). Distraktoren: b) 'Entscheidung' ist Substantiv und würde 'Eine Entscheidung ist ...' verlangen, c) 'Entscheidende' mit Endung wäre substantivierte Form und passt nur mit Artikel ('Das Entscheidende ist ...'), d) 'Entschieden' wäre Partizip II (z.B. 'entschieden haben wir ...'), passt nicht als Satzanfang mit 'ist'. B2-Grammatik: Nominalisierung vs. Adjektiv."
+            },
+            {
+              "blankNumber": 9,
+              "type": "mcq",
+              "options": ["a) getroffene", "b) treffende", "c) zu treffende", "d) getroffen"],
+              "correctAnswer": "a",
+              "explanation": "Partizipialattribut als B2-Kernthema: 'Die von uns getroffene Maßnahme' = 'Die Maßnahme, die von uns getroffen wurde'. Partizip II 'getroffen' + Adjektivendung -e (Nom. Sg. Fem. schwache Deklination nach 'Die'). Distraktoren: b) 'treffende' (Partizip I) würde aktive, gleichzeitige Handlung anzeigen (passt nicht: die Maßnahme trifft nicht sich selbst), c) 'zu treffende' wäre Gerundivum (zukünftig/notwendig zu tun), d) 'getroffen' ohne Endung – unflektiert – bricht die Deklination im Attribut. Passivisches Partizipialattribut: getroffene."
+            },
+            {
+              "blankNumber": 10,
+              "type": "mcq",
+              "options": ["a) dass jeder", "b) dass jedem", "c) dass alle", "d) dass man"],
+              "correctAnswer": "a",
+              "explanation": "Subjekt des dass-Satzes im Nominativ: 'dass jeder investierte Euro ... zurückfließt'. 'jeder' (Nom. Sg. Mask.) als Subjekt zu 'zurückfließt' (Singular). Distraktoren: b) 'jedem' wäre Dativ, aber hier braucht es Subjekt, c) 'dass alle ... zurückfließt' würde Subjekt-Verb-Inkongruenz verursachen (Plural Subjekt + Singular Verb), d) 'man' ist zu unspezifisch und kollidiert mit 'investierte Euro' als gemeinter Referenz – grammatisch möglich, aber inhaltlich und stilistisch falsch, da das Substantiv 'Euro' das Subjekt sein muss."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Text. Welches Wort aus der Liste a–o passt in die Lücken? Jedes Wort passt nur einmal. Fünf Wörter bleiben übrig.",
+          "text": "Wer sich heute um eine anspruchsvolle Stelle bewirbt, steht unter hohem Erwartungsdruck. Die Zahl der Bewerberinnen und Bewerber ist in vielen Branchen erheblich, und Personalabteilungen sichten täglich __(11)__ Lebensläufe. Ein sorgfältig gestaltetes Anschreiben kann in __(12)__ Fällen den Unterschied zwischen Einladung und Absage ausmachen.\n\nAllerdings reicht es nicht aus, lediglich frühere Aufgaben zu beschreiben. Moderne Bewerbungsberatungen raten __(13)__, die eigene Motivation klar zu benennen und konkrete Bezüge zur ausgeschriebenen Stelle herzustellen. __(14)__ gelingt es oft, aus einer Bewerbung eine einprägsame Geschichte zu machen, die Personalverantwortliche auch nach Hunderten anderer Unterlagen noch im Kopf behalten.\n\nEin weiterer wichtiger Punkt __(15)__ die realistische Selbsteinschätzung. Wer Kompetenzen übertreibt, fliegt spätestens im Vorstellungsgespräch __(16)__. Umgekehrt führen unnötige Bescheidenheit und das Herunterspielen eigener Leistungen dazu, dass vorhandenes Potenzial gar nicht erst wahrgenommen wird. Ein ehrlicher, präziser Ton gilt deshalb als goldene __(17)__.\n\n__(18)__ der hohen Belastung im Auswahlprozess setzen viele Unternehmen inzwischen auf strukturierte Interviews und digitale Vorauswahl. Das nimmt Bewerbenden zwar Spielraum, erhöht aber die Vergleichbarkeit der Ergebnisse. Fachleute sehen __(19)__ eine faire Tendenz – sofern die eingesetzten Verfahren transparent bleiben.\n\nWer seine Bewerbung auf diese Weise plant, kann seine Chancen __(20)__ verbessern. Eine Bewerbung ist keine Formalität, sondern die erste berufliche Leistung für den potenziellen neuen Arbeitgeber.",
+          "questions": [
+            {
+              "blankNumber": 11,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) entscheidend", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "a",
+              "explanation": "'Hunderte Lebensläufe' — indefinite Mengenangabe (Plural ohne Artikel). Als substantivierte Zahladjektiv-Form wird 'Hunderte' großgeschrieben. Distraktor o) 'wenigen' würde das Gegenteil bedeuten und widerspricht dem Kontext ('erheblich', 'täglich'). B2-Vokabular: 'Hunderte' als großzügige Mengenangabe, typisch für Nachrichtensprache."
+            },
+            {
+              "blankNumber": 12,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) entscheidend", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "'in vielen Fällen' — feste Wendung für 'in a lot of cases'. 'vielen' (Dativ Plural, starke Deklination nach 'in'). Distraktoren: o) 'wenigen' kehrt die Aussage um (wäre semantisch zwar möglich, widerspricht aber dem Sinn 'den Unterschied ausmachen'), m) 'jeden' wäre Singular/Akkusativ."
+            },
+            {
+              "blankNumber": 13,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) entscheidend", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Feste Kombination: 'jemandem raten zu etwas' → korrelatives Pronominaladverb 'dazu' verweist auf den nachfolgenden zu+Infinitiv-Satz: 'raten dazu, ... zu benennen'. Distraktor i) 'darin' verweist auf 'in etwas' und passt nicht zu einem zu+Infinitiv-Anschluss. Pronominaladverb-Kenntnisse gehören zu B2."
+            },
+            {
+              "blankNumber": 14,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) entscheidend", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "d",
+              "explanation": "Satzanfang + kausaler Konnektor: 'Dadurch gelingt es oft, ...' = 'Mit diesem Vorgehen gelingt es ...'. Großschreibung signalisiert den Satzanfang. 'Dadurch' verbindet kausal-folgernd mit dem vorherigen Satz (Motivation klar benennen → dadurch eine Geschichte formen)."
+            },
+            {
+              "blankNumber": 15,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) entscheidend", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "e",
+              "explanation": "Kopulaverb: 'Ein weiterer wichtiger Punkt ist die realistische Selbsteinschätzung.' 'ist' verbindet Subjekt mit prädikativem Nomen. Distraktor n) 'stellt' würde 'stellt ... dar' verlangen (zu 'ist' strukturell anders)."
+            },
+            {
+              "blankNumber": 16,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) entscheidend", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "f",
+              "explanation": "Idiomatische Wendung: 'auffliegen' = entdeckt werden (jmds Lüge fliegt auf). Trennbares Verb: 'fliegt ... auf'. Die Präposition 'auf' ist Teil der trennbaren Verbpartikel. Alternative Lesart mit 'k) bei' wäre syntaktisch möglich ('fliegt bei ...'), aber 'auffliegen' als Idiom für Enttarnung verlangt 'auf'."
+            },
+            {
+              "blankNumber": 17,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) entscheidend", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "g",
+              "explanation": "Feste Kollokation: 'goldene Regel' = allgemein anerkannte Grundregel. Substantiv nach Adjektiv 'goldene'. Distraktoren: l) 'entscheidend' wäre Adjektiv und passt nicht nach 'goldene' (doppelte Attribution 'goldene entscheidend' wäre ungrammatisch)."
+            },
+            {
+              "blankNumber": 18,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) entscheidend", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "h",
+              "explanation": "Genitiv-Präposition 'Angesichts der hohen Belastung' (Satzanfang, großgeschrieben). Passt zur nachfolgenden Schlussfolgerung ('setzen viele Unternehmen ... auf strukturierte Verfahren'). Distraktor b) 'vielen' ist Pronomen und schon verbraucht. B2-Präposition."
+            },
+            {
+              "blankNumber": 19,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) entscheidend", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "i",
+              "explanation": "Pronominaladverb: 'sehen darin eine faire Tendenz' = 'sehen in diesem Vorgehen ...'. 'darin' verweist auf das zuvor beschriebene Verfahren (strukturierte Interviews, digitale Vorauswahl). Das Verb 'sehen in etwas' ist die feste Kollokation."
+            },
+            {
+              "blankNumber": 20,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) entscheidend", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "l",
+              "explanation": "[PEDAGOGY-REWRITE] Adverbiale Funktion: 'kann seine Chancen entscheidend verbessern' — 'entscheidend' als unflektiertes Adverb verstärkt das Verb 'verbessern' und bildet eine natürliche Kollokation (vgl. 'entscheidend beitragen', 'entscheidend verändern'). Es fasst die zentrale Aussage des Textes zusammen. Distraktoren: j) 'über' wäre Präposition ohne passenden Kontext (kein Objekt), k) 'bei' ebenso, m) 'jeden' wäre Determiner ohne nachfolgendes Substantiv, n) 'stellt' würde Verbdopplung erzeugen, o) 'wenigen' kehrt die positive Aussage unsinnig um. Die verbleibenden fünf Distraktoren (j, k, m, n, o) passen zu keiner Lücke im Text."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 30,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "letter",
+          "instructions": "Wählen Sie EINE der beiden folgenden Aufgaben (A oder B) und bearbeiten Sie diese. Beachten Sie die Leitpunkte und schreiben Sie mindestens 150 Wörter (Richtwert: 200 Wörter). Kennzeichnen Sie am Anfang Ihres Textes deutlich, welche Aufgabe Sie gewählt haben.",
+          "instructionsTranslation": "Choose ONE of the two tasks (A or B) below and complete it. Address the guiding points and write at least 150 words (target: around 200 words). Clearly mark at the top of your text which task you have chosen.",
+          "prompt": "AUFGABE A (Beschwerdebrief):\n\nSituation: Vor drei Wochen haben Sie an einem viertägigen Weiterbildungsseminar zum Thema 'Projektmanagement im digitalen Zeitalter' bei der Weiterbildungsakademie BusinessPro in Frankfurt teilgenommen. Sie hatten sich viel davon versprochen, waren aber sehr enttäuscht: Der Dozent war mehrfach nicht anwesend, die angekündigten Fallstudien wurden durch allgemeine Vorträge ersetzt, und die versprochenen Lernunterlagen haben Sie bis heute nicht erhalten. Die Kursgebühr von 890 € wurde bereits komplett abgebucht.\n\nSchreiben Sie eine formelle Beschwerde an die Geschäftsleitung (Frau Dr. Andrea Hoffmann) der BusinessPro Weiterbildungsakademie. Gehen Sie auf die folgenden drei Leitpunkte ein:\n\n• Beschreiben Sie die konkreten Mängel während des Seminars.\n• Erläutern Sie, welche Folgen diese Mängel für Ihre beruflichen Ziele haben.\n• Formulieren Sie eine klare Forderung (z. B. Teilerstattung, kostenfreie Nachholveranstaltung) und setzen Sie eine Frist.\n\nBeachten Sie Anrede, Einleitung und Grußformel. Schreiben Sie mindestens 150 Wörter.\n\n— ODER —\n\nAUFGABE B (Stellungnahme):\n\nSituation: In der überregionalen Wochenzeitung 'Zeit & Gesellschaft' ist ein Leitartikel unter dem Titel 'Homeoffice macht Karrieren unsichtbar' erschienen. Die Autorin behauptet darin, Beschäftigte, die überwiegend von zu Hause arbeiten, würden seltener befördert, bekämen weniger Sichtbarkeit und riskierten langfristig ihre Karrierechancen. Sie wollen auf diesen Artikel mit einem Leserbrief antworten.\n\nSchreiben Sie einen Leserbrief an die Redaktion (Herrn Bernhard Lutz, Redaktion 'Zeit & Gesellschaft'). Gehen Sie auf die folgenden drei Leitpunkte ein:\n\n• Nehmen Sie Stellung zu der zentralen These des Artikels – stimmen Sie zu oder widersprechen Sie?\n• Nennen Sie mindestens zwei konkrete Argumente oder Beispiele aus Ihrer eigenen Erfahrung oder Beobachtung.\n• Machen Sie einen konstruktiven Vorschlag, wie Unternehmen beide Arbeitsformen fair gestalten könnten.\n\nBeachten Sie eine passende semi-formelle Anrede und eine sachliche Argumentation. Schreiben Sie mindestens 150 Wörter.",
+          "promptTranslation": "TASK A (Complaint letter):\n\nSituation: Three weeks ago you attended a four-day further-education seminar on 'Project Management in the Digital Age' at BusinessPro Academy in Frankfurt. You had high expectations but were deeply disappointed: the trainer was absent several times, the announced case studies were replaced with generic lectures, and the promised learning materials have not arrived. The fee of 890 € was already charged.\n\nWrite a formal complaint to the director (Dr. Andrea Hoffmann), BusinessPro Academy. Address these three guiding points:\n\n• Describe the concrete shortcomings during the seminar.\n• Explain what consequences these have for your professional goals.\n• Formulate a clear demand (e.g. partial refund, free replacement course) and set a deadline.\n\nInclude greeting, opening, and closing. Write at least 150 words.\n\n— OR —\n\nTASK B (Opinion piece):\n\nSituation: A national weekly newspaper has published an article titled 'Home office makes careers invisible'. The author claims that employees who work mostly from home get promoted less often, have less visibility, and risk their long-term career. You want to respond with a letter to the editor.\n\nWrite a letter to the editor (Mr. Bernhard Lutz). Address these three guiding points:\n\n• State your position on the main thesis – agree or disagree.\n• Give at least two concrete arguments or examples from your own experience or observation.\n• Suggest constructively how companies could make both work forms fair.\n\nUse an appropriate semi-formal salutation and factual reasoning. Write at least 150 words.",
+          "requiredPoints": [
+            "Aufgabe A: konkrete Mängel, Folgen für berufliche Ziele, klare Forderung + Frist",
+            "Aufgabe B: Positionsbezug zur These, zwei eigene Argumente/Beispiele, konstruktiver Vorschlag"
+          ],
+          "wordCountMin": 150,
+          "wordCountMax": 230,
+          "sampleAnswer": "[AUFGABE A — Beispielantwort]\n\nSehr geehrte Frau Dr. Hoffmann,\n\nvor drei Wochen nahm ich an dem viertägigen Seminar 'Projektmanagement im digitalen Zeitalter' in Ihrem Hause teil. Leider sehe ich mich gezwungen, auf erhebliche Mängel hinzuweisen.\n\nZunächst war der angekündigte Dozent an zwei von vier Tagen nicht anwesend, sondern wurde durch eine fachfremde Vertretung ersetzt. Die im Programm versprochenen Fallstudien aus realen Unternehmen wurden vollständig gestrichen und durch allgemeine Vorträge ersetzt. Darüber hinaus habe ich die angekündigten digitalen Lernunterlagen bis heute nicht erhalten, obwohl mir zu Beginn des Seminars zugesichert wurde, sie innerhalb einer Woche zu erhalten.\n\nDiese Mängel haben konkrete berufliche Folgen für mich. Ich hatte das Seminar gezielt gebucht, um eine interne Bewerbung auf eine Projektleitungsstelle zu unterstützen. Ohne die angekündigten Inhalte und Materialien ist meine Vorbereitung unvollständig, und die Kursgebühr von 890 € entspricht in keiner Weise der erbrachten Leistung.\n\nIch fordere Sie daher auf, mir entweder 50 Prozent der Kursgebühr zu erstatten oder eine kostenfreie Nachholveranstaltung mit dem ursprünglich angekündigten Dozenten anzubieten. Bis spätestens zum 30. April erwarte ich eine verbindliche schriftliche Rückmeldung.\n\nMit freundlichen Grüßen\nAlexander Keller",
+          "scoringCriteria": [
+            {
+              "criterion": "I. Berücksichtigung der Leitpunkte",
+              "maxPoints": 15,
+              "description": "Alle drei Leitpunkte der gewählten Aufgabe (A oder B) werden inhaltlich mit B2-typischer Tiefe behandelt – nicht nur erwähnt, sondern mit Begründung und konkreten Details ausgeführt. A: A++ (15 Pkt) / B: B+ (10 Pkt) / C: C (5 Pkt) / D: unbehandelt (0 Pkt). Wird diese Kategorie mit D bewertet, erhält die gesamte Aufgabe 0 Punkte."
+            },
+            {
+              "criterion": "II. Kommunikative Gestaltung",
+              "maxPoints": 15,
+              "description": "Formelle/semi-formelle Anrede, logischer Textaufbau (Einleitung – Hauptteil – Schluss), konsistenter Sie-Register, B2-typische Diskursmarker (allerdings, darüber hinaus, im Übrigen, folglich, angesichts, hinsichtlich), passende Grußformel. Register-Sprünge (z.B. 'Hallo' in Beschwerde) werden abgewertet."
+            },
+            {
+              "criterion": "III. Formale Richtigkeit",
+              "maxPoints": 15,
+              "description": "B2-Grammatik korrekt eingesetzt: Passiv, Konjunktiv II für höfliche Forderungen ('Ich möchte Sie darum bitten', 'Ich erwarte, dass ...'), Nominalisierung, komplexe Nebensätze, Genitiv-Präpositionen. Rechtschreibung und Zeichensetzung. Fehler, die das Verständnis blockieren, führen zu D und damit zu 0 Punkten gesamt."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "presentation",
+          "instructions": "Teil 1 — Präsentation (ca. 3 Minuten pro Kandidat:in). Jede:r Kandidat:in erhält eine Themenkarte und hält eine kurze, strukturierte Präsentation (Einstieg, Hauptteil, Schluss). Anschließend stellt die Partnerin/der Partner 1–2 Nachfragen.",
+          "instructionsTranslation": "Part 1 — Presentation (approx. 3 minutes per candidate). Each candidate receives a topic card and gives a short, structured presentation (intro, main body, conclusion). Afterwards the partner asks 1–2 follow-up questions.",
+          "prompt": "KANDIDAT:IN A — Thema: 'Die Bedeutung von Weiterbildung im Beruf'\n\nHalten Sie eine kurze Präsentation (ca. 3 Minuten) zu diesem Thema. Strukturieren Sie Ihren Vortrag so:\n\n• Einstieg: Warum ist Weiterbildung heute wichtiger als früher? Nennen Sie ein konkretes Beispiel aus Ihrem Umfeld.\n• Hauptteil: Welche Vorteile bringt lebenslanges Lernen – für Beschäftigte und für Unternehmen? Welche Herausforderungen gibt es (Zeit, Kosten, Motivation)?\n• Schluss: Wie könnte Weiterbildung in der Zukunft gefördert werden? Ihre persönliche Einschätzung.\n\n—\n\nKANDIDAT:IN B — Thema: 'Vorteile und Nachteile von Homeoffice'\n\nHalten Sie eine kurze Präsentation (ca. 3 Minuten) zu diesem Thema. Strukturieren Sie Ihren Vortrag so:\n\n• Einstieg: Wie verbreitet ist Homeoffice heute in Deutschland und in Ihrem Umfeld? Ein konkretes Beispiel.\n• Hauptteil: Welche Vorteile bietet Homeoffice (für Beschäftigte, Unternehmen, Umwelt)? Welche Nachteile beobachten Sie (soziale Isolation, unklare Grenzen, Ausstattung)?\n• Schluss: Welche Bedingungen sollten erfüllt sein, damit Homeoffice funktioniert? Ihre Einschätzung.",
+          "sampleResponse": "[Kandidat:in A — Weiterbildung im Beruf]\n\nMeine Damen und Herren, ich möchte heute über die Bedeutung von Weiterbildung im Beruf sprechen. In kaum einem anderen Bereich hat sich so viel verändert wie in der Arbeitswelt. Eine gute Freundin von mir arbeitet als Krankenpflegerin und muss sich jedes Jahr verpflichtend digital fortbilden, weil die Software ständig weiterentwickelt wird. An diesem Beispiel zeigt sich: Berufliches Wissen hat heute eine kürzere Haltbarkeit als früher.\n\nIm Hauptteil möchte ich kurz auf Vorteile und Herausforderungen eingehen. Für Beschäftigte eröffnet lebenslanges Lernen neue Karrierewege, stärkt das Selbstbewusstsein und reduziert die Angst vor Veränderungen. Für Unternehmen wiederum bedeutet es motivierte Mitarbeitende, geringere Fluktuation und eine bessere Position am Markt. Allerdings darf man die Herausforderungen nicht unterschätzen. Weiterbildung kostet Zeit, Geld und innere Motivation. Gerade Eltern kleiner Kinder kommen oft an ihre Grenzen, wenn Kurse in die Freizeit verlegt werden.\n\nAbschließend bin ich überzeugt, dass Weiterbildung in Zukunft stärker gefördert werden muss – durch bezahlte Lerntage, staatliche Zuschüsse und flexible Online-Angebote. Nur so kann man den Übergang in eine digitale Arbeitswelt fair gestalten. Vielen Dank – was denken Sie dazu?\n\n[Beispielhafte Nachfrage der Partnerin/des Partners: 'Welche Art von Weiterbildung hat dir persönlich am meisten gebracht?']",
+          "evaluationTips": [
+            "Strukturieren Sie die Präsentation klar: Einstieg – Hauptteil – Schluss",
+            "Verwenden Sie B2-Diskursmarker: 'Zunächst', 'Darüber hinaus', 'Allerdings', 'Abschließend'",
+            "Nennen Sie EIN konkretes Beispiel (aus Umfeld/Beruf/Erfahrung), keine rein abstrakten Aussagen",
+            "Balance aus Vorteilen UND Herausforderungen zeigen – B2 verlangt Differenzierung",
+            "Konjunktiv II für Einschätzungen: 'Ich könnte mir vorstellen, dass ...', 'Sinnvoll wäre ...'",
+            "Direkter Schluss mit persönlicher Einschätzung + Übergabe an Partner",
+            "Zeitlimit (~3 Min) beachten – nicht länger, nicht kürzer"
+          ],
+          "keyPhrases": [
+            "Ich möchte heute über ... sprechen.",
+            "Ein konkretes Beispiel dafür ist ...",
+            "Einerseits ..., andererseits ...",
+            "Besonders hervorheben möchte ich ...",
+            "Allerdings darf man nicht übersehen, dass ...",
+            "Meiner Ansicht nach ...",
+            "Abschließend lässt sich festhalten ...",
+            "Was denken Sie / was denkst du dazu?"
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "discussion",
+          "instructions": "Teil 2 — Diskussion (ca. 5 Minuten gemeinsam). Beide Kandidat:innen erhalten denselben provokanten Satz und diskutieren ihn. Ziel: eigene Position vertreten, auf die Argumente der Partnerin/des Partners eingehen, widersprechen oder weiterentwickeln.",
+          "instructionsTranslation": "Part 2 — Discussion (approx. 5 minutes together). Both candidates receive the same provocative statement and discuss it. Goal: defend your own position, engage with the partner's arguments, disagree or build on them.",
+          "prompt": "Thema für beide Kandidat:innen:\n\n'Bewerbungen sollten grundsätzlich anonym sein. Foto, Name, Alter und Geschlecht gehören nicht in einen Lebenslauf.'\n\n— Leitfragen für die Diskussion —\n\n• Stimmen Sie dieser These zu oder widersprechen Sie?\n• Welche Vorteile hätten anonyme Bewerbungen? Für wen?\n• Welche Nachteile oder praktischen Probleme sehen Sie?\n• Wären Sie selbst bereit, sich anonym zu bewerben? Warum (nicht)?\n\nReagieren Sie auf die Argumente Ihrer Partnerin/Ihres Partners, widersprechen Sie höflich, wo nötig, und versuchen Sie am Ende, Ihre Positionen zusammenzuführen oder respektvoll unterschiedlich stehen zu lassen.",
+          "sampleResponse": "KANDIDAT:IN A: 'Also, grundsätzlich finde ich die Idee spannend. Studien zeigen, dass Namen, Fotos und Alter unbewusst in die Vorauswahl einfließen – das ist einfach nicht fair. Ich würde deshalb eher zustimmen: Die erste Sichtung sollte anonym sein.'\n\nKANDIDAT:IN B: 'Da möchte ich teilweise widersprechen. Ich sehe zwar das Fairness-Argument, aber in manchen Branchen – zum Beispiel im Vertrieb – spielt die Persönlichkeit eine entscheidende Rolle. Ohne irgendwelche persönlichen Informationen wird die Vorauswahl nach meiner Einschätzung zu technisch.'\n\nKANDIDAT:IN A: 'Das ist ein interessanter Einwand. Allerdings geht es ja nur um die erste Sichtung. Im Vorstellungsgespräch trifft man sich dann doch persönlich, und da kommt die Persönlichkeit voll zum Tragen. Meinst du nicht, dass genau diese Trennung sinnvoll wäre?'\n\nKANDIDAT:IN B: 'Guter Punkt – wenn man es so staffelt, sehe ich das tatsächlich anders. Dann bleibt allerdings die Frage, ob die Verwaltungskosten für eine solche Anonymisierung angemessen sind, besonders für kleinere Betriebe.'\n\nKANDIDAT:IN A: 'Da stimme ich dir zu. Kleine Firmen haben nicht die Kapazitäten. Vielleicht wäre ein Pilotprojekt im öffentlichen Dienst ein guter Einstieg – dort ist die Verwaltung sowieso vorhanden.'\n\nKANDIDAT:IN B: 'Ja, das könnte ein realistischer Kompromiss sein. Insgesamt sehe ich die Idee anonymer Bewerbungen positiv, aber mit klaren Grenzen.'",
+          "evaluationTips": [
+            "Klare Position beziehen – 'Ich stimme zu / Ich widerspreche'",
+            "Auf das Gesagte des Partners konkret eingehen – nicht nur die eigene Position wiederholen",
+            "Widerspruch höflich: 'Da möchte ich teilweise widersprechen ...', 'Das sehe ich anders, weil ...'",
+            "Konjunktiv II für hypothetische Argumentation: 'Wäre ...', 'Würde ...', 'Könnte ...'",
+            "Konkrete Beispiele oder Branchen nennen, keine rein theoretischen Argumente",
+            "Versuch der Synthese am Ende: 'Wenn man es so staffelt, ...', 'Ein möglicher Kompromiss wäre ...'",
+            "Diskursmarker der Argumentation: 'allerdings', 'andererseits', 'demgegenüber', 'darüber hinaus'"
+          ],
+          "keyPhrases": [
+            "Meiner Meinung nach ...",
+            "Ich kann dem nur teilweise zustimmen.",
+            "Das sehe ich anders, weil ...",
+            "Ein starkes Argument dafür/dagegen ist ...",
+            "Darf ich kurz darauf eingehen?",
+            "Ich verstehe deinen Punkt, allerdings ...",
+            "Wenn man es so betrachtet, ...",
+            "Ein Kompromiss könnte sein, dass ...",
+            "Da sind wir uns wohl einig."
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Teil 3 — Gemeinsam Planen (ca. 5 Minuten). Beide Kandidat:innen erhalten denselben Planungsauftrag und müssen gemeinsam zu einer konkreten Lösung kommen: Vorschläge machen, abwägen, verhandeln, Entscheidung treffen.",
+          "instructionsTranslation": "Part 3 — Collaborative Planning (approx. 5 minutes). Both candidates receive the same planning task and must reach a concrete joint solution: make proposals, weigh options, negotiate, decide.",
+          "prompt": "Planungsauftrag für beide Kandidat:innen:\n\nIn Ihrer Abteilung beginnt kommende Woche eine neue Kollegin, Frau Daria Kowalski (aus Polen, zwei Jahre Berufserfahrung in einer ähnlichen Position). Ihre Vorgesetzte hat Sie beide gebeten, gemeinsam einen 'Willkommenstag' für sie zu organisieren.\n\nBesprechen Sie folgende Punkte und treffen Sie konkrete Entscheidungen:\n\n• Zeitpunkt: Wann genau soll der Willkommenstag stattfinden? An welchem Tag der Arbeitswoche? Morgens, nachmittags, ganztägig?\n• Ort: Welche Räume werden benötigt? Soll etwas außerhalb des Büros stattfinden (Mittagessen, kurze Stadtführung, Teambuilding-Aktivität)?\n• Budget: Wie viel sind Sie bereit auszugeben? Wie teilen Sie die Ausgaben auf?\n• Aktivitäten: Welche inhaltlichen Punkte sollen enthalten sein (Begrüßung, Vorstellungsrunde, technische Einrichtung, Einführung in Arbeitsabläufe, gemeinsames Essen)?\n• Aufgabenverteilung: Wer übernimmt welche konkrete Vorbereitung bis zum Starttag?\n\nEinigen Sie sich am Ende auf einen klaren Plan.",
+          "sampleResponse": "KANDIDAT:IN A: 'Fangen wir mit dem Zeitpunkt an. Ich würde vorschlagen, den Willkommenstag gleich am Montag zu machen, an dem Daria anfängt – ganztägig, damit sie einen strukturierten Start hat. Was hältst du davon?'\n\nKANDIDAT:IN B: 'Ganztägig finde ich etwas zu viel für den ersten Tag. Wie wäre es, wenn wir vormittags die offiziellen Sachen machen – Begrüßung, IT, Einweisung – und nachmittags mit einem Mittagessen und einem kleinen Teamrundgang ausklingen lassen?'\n\nKANDIDAT:IN A: 'Okay, das klingt sinnvoller – nicht zu überfordern. Zum Ort: den kleinen Konferenzraum für die offizielle Begrüßung, und fürs Essen könnten wir ins italienische Restaurant nebenan gehen, das kennen alle im Team.'\n\nKANDIDAT:IN B: 'Einverstanden. Zum Budget: Sollten wir 150 Euro einplanen? Das reicht für ein gemeinsames Mittagessen und ein kleines Willkommensgeschenk, zum Beispiel einen Gutschein für eine lokale Buchhandlung. Die Firma übernimmt bei Willkommenstagen normalerweise die Hälfte.'\n\nKANDIDAT:IN A: 'Gute Idee mit dem Gutschein. Und zum Inhalt: Ich würde vorschlagen, dass wir eine kurze Vorstellungsrunde im Team machen, gefolgt von einer Einführung in unsere Projektplattform. Der IT-Kollege kann die technische Einrichtung ab 10 Uhr übernehmen – den spreche ich an.'\n\nKANDIDAT:IN B: 'Prima, dann übernehme ich die Restaurantreservierung und bereite eine kurze Übersicht unserer aktuellen Projekte vor, damit Daria direkt einen Überblick hat. Können wir uns Freitag nochmal kurz abstimmen?'\n\nKANDIDAT:IN A: 'Perfekt. Also zusammengefasst: Montag, vormittags offiziell, nachmittags Essen im Italiener, 150 Euro Budget, du machst Reservierung und Projektübersicht, ich klär IT-Kollegen und Gutschein. Abgemacht!'",
+          "evaluationTips": [
+            "Konkrete Vorschläge statt vager Ideen: Tag, Uhrzeit, Ort, Betrag nennen",
+            "Aktiv zuhören – reagieren Sie spezifisch auf die Vorschläge des Partners",
+            "Konjunktiv II für Vorschläge: 'Ich würde vorschlagen ...', 'Wir könnten ...', 'Wie wäre es mit ...?'",
+            "Kompromisse zeigen: 'Ganztägig ist mir zu viel – wie wäre halbtags?'",
+            "Am Ende zusammenfassen: 'Also zusammengefasst: ...'",
+            "Aufgabenverteilung explizit machen: 'Du übernimmst ..., ich übernehme ...'",
+            "Höfliche Zustimmung/Widerspruch: 'Einverstanden', 'Abgemacht', 'Das sehe ich anders'",
+            "Budget und Aufgabenverteilung müssen beide konkret benannt werden"
+          ],
+          "keyPhrases": [
+            "Ich würde vorschlagen, dass ...",
+            "Wie wäre es, wenn wir ...?",
+            "Das klingt sinnvoll, aber ...",
+            "Können wir uns darauf einigen, dass ...?",
+            "Wer übernimmt ...?",
+            "Ich kümmere mich um ..., du übernimmst bitte ...",
+            "Einverstanden / Abgemacht.",
+            "Also zusammengefasst: ...",
+            "Sollen wir das so festhalten?"
+          ]
+        }
+      ]
+    }
   }
 }

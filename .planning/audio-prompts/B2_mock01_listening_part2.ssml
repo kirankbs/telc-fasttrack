@@ -1,0 +1,181 @@
+<speak>
+  <!-- B2 Mock 01 — Teil 2 (10 True/False, playCount=1) -->
+  <!-- Moderator: de-DE-Wavenet-E (male) — interviewer -->
+  <!-- Expert Dr. Richter: de-DE-Wavenet-F (female) — guest -->
+  <!-- B2 spec: natural speed 1.0x, continuous interview, no item-level pauses, played ONCE -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Hörverstehen, Teil 2. Sie hören ein Interview zum Thema Weiterbildung im Beruf.
+      Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind.
+      Sie hören das Interview nur einmal.
+    </prosody>
+    <break time="10s"/>
+  </voice>
+
+  <!-- Intro and speaker presentation -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Guten Morgen, liebe Hörerinnen und Hörer. In unserer heutigen Sendung sprechen wir
+      über berufliche Weiterbildung in Deutschland. Mein Gast ist Frau Dr. Sabine Richter,
+      Leiterin des Instituts für Berufsbildungsforschung in Bonn. Herzlich willkommen,
+      Frau Dr. Richter.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Vielen Dank für die Einladung – ich freue mich, hier zu sein.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q2 context: international comparison -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Frau Dr. Richter, wenn wir uns im internationalen Vergleich ansehen: Wo steht
+      Deutschland beim Thema betriebliche Weiterbildung?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Da muss ich ehrlich sein: Im internationalen Vergleich hinken deutsche Betriebe den
+      skandinavischen Ländern nach wie vor deutlich hinterher. In Schweden und Dänemark
+      beispielsweise investieren Unternehmen im Schnitt doppelt so viel pro Mitarbeiter
+      in Qualifizierung. Da haben wir erheblichen Nachholbedarf.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q3 context: hedging trap — small businesses don't reject training -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Man hört ja immer wieder die Kritik, dass vor allem kleine Betriebe kein Interesse
+      an Weiterbildung hätten.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Das stimmt so pauschal nicht. Man hört oft, kleine Betriebe würden Weiterbildung
+      ablehnen – unsere Daten zeigen ein anderes Bild. Viele wollen, können aber ihre
+      Mitarbeiter schlicht nicht freistellen. Wenn in einem Handwerksbetrieb mit fünf Leuten
+      einer eine Woche in der Schulung sitzt, dann fehlt ein Fünftel der Produktion.
+      Das ist ein strukturelles Problem, kein Einstellungsproblem.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q4: self-assessment -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Studien zeigen auch, dass viele Beschäftigte ihren eigenen Qualifizierungsbedarf eher
+      zu niedrig einschätzen. Wie kommt das?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Das ist in der Tat paradox. Viele glauben, solange sie ihren Job erledigen können,
+      sei alles in Ordnung. Aber die Halbwertszeit beruflichen Wissens sinkt – gerade in
+      digitalen Bereichen. Wer heute gut ist, muss in drei Jahren nicht mehr gut sein.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q5: digitalization -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Apropos Digitalisierung: Bringt die nicht auch eher zusätzliche Belastung mit sich?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Ja, die Digitalisierung bringt zweifellos Belastungen mit sich – das kann ich nicht
+      bestreiten. Aber überwiegend sehe ich enorme Chancen, vor allem durch orts- und
+      zeitflexible Lernformate. Eine Pflegekraft in einem ländlichen Pflegeheim kann heute
+      Abend um neun Uhr einen Fortbildungskurs besuchen – das war vor zehn Jahren völlig
+      undenkbar.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q6: online vs blended -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Bedeutet das, reine Online-Kurse sind die Zukunft?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Da muss ich differenzieren. Blended Learning, also die Kombination aus Online- und
+      Präsenzphasen, erzielt nachweislich die besten Lerneffekte – reine Online-Formate
+      allein nicht. Der persönliche Austausch, die Diskussion mit anderen Lernenden,
+      das lässt sich durch eine Videokonferenz nicht vollständig ersetzen.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q7: work time -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Welche Bedingungen müssen Arbeitgeber schaffen, damit Weiterbildung tatsächlich gelingt?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Entscheidend ist, dass Weiterbildung als Arbeitszeit gilt und nicht in die Freizeit
+      verlagert wird – sonst brechen gerade Beschäftigte mit Familie schnell ab.
+      Das ist der wichtigste Punkt.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q8: gender gap -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Wie sieht es denn mit der Teilnahme von Frauen aus?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Leider zeigen unsere Daten, dass Frauen, vor allem in der Familienphase, deutlich
+      seltener an betrieblichen Weiterbildungen teilnehmen als ihre männlichen Kollegen.
+      Das hat mit Teilzeitarbeit, Kinderbetreuung und auch mit subtilen Ausschlussmechanismen
+      in den Unternehmen zu tun. Hier besteht dringender Handlungsbedarf.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q9: Bildungsprämie -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Die Bundesregierung hat die Bildungsprämie gerade erhöht – wie bewerten Sie das?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Die Bildungsprämie ist ein Schritt in die richtige Richtung, auch wenn sie noch zu
+      niedrig angesetzt ist. Wir müssen hier deutlich nachlegen, wenn wir den internationalen
+      Anschluss nicht verlieren wollen. Aber grundsätzlich: ja, richtiges Signal.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q10: closing without conference -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Frau Dr. Richter, herzlichen Dank für das aufschlussreiche Gespräch. Mehr zu diesem
+      Thema finden Sie auf unserer Website. Von hier aus wünsche ich Ihnen einen schönen Tag.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Ihnen auch, vielen Dank.
+    </prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>
