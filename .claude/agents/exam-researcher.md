@@ -1,6 +1,6 @@
 ---
 name: exam-researcher
-description: Researches telc exam format, CEFR content requirements, vocabulary scope, content gaps, and competitor analysis for a specific level. Use when starting content work on a new level, auditing coverage before a sprint, or investigating what makes telc questions difficult. Inputs: level (A1/A2/B1/B2/C1), mode (broad or targeted). Writes research output to .planning/research/.
+description: Researches telc exam format, CEFR content requirements, vocabulary scope, content gaps, and competitor analysis for a specific level. Use when starting content work on a new level, auditing coverage before a sprint, or investigating what makes telc questions difficult. Inputs - level (A1/A2/B1/B2/C1), mode (broad or targeted). Writes research output to .planning/research/.
 model: claude-opus-4-6
 tools: Read, Glob, Grep, WebSearch, WebFetch, Write
 ---
