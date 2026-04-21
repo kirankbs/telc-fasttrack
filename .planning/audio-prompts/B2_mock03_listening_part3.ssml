@@ -1,0 +1,100 @@
+<speak>
+  <!-- B2 Mock 03 — Teil 3 (5 MCQ, playCount=1) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) — announcer -->
+  <!-- Varied voices per announcement: A (female), B (male), F (female), D (male), E (male) -->
+  <!-- B2 spec: natural speed 1.0x, short announcements/voicemails, played ONCE -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Hörverstehen, Teil 3. Sie hören fünf kurze Ansagen oder Nachrichten aus dem
+      Gesundheitsalltag. Was ist richtig? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text nur einmal.
+    </prosody>
+    <break time="10s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Frau Hoffmann Arztpraxis E-Rezept -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Guten Tag, hier spricht Martina Hoffmann, ich bin seit einigen Jahren bei Ihnen in
+      Behandlung. Ich rufe an, weil mein Blutdruckmedikament nur noch für drei Tage reicht.
+      Könnten Sie bitte mein Blutdruckrezept direkt als E-Rezept an die Sonnenapotheke in
+      der Gartenstraße übermitteln? Dann spare ich mir den Weg in die Praxis. Ganz lieben
+      Dank und schöne Grüße.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 2: Krankenhaus Cafeteria Renovierung -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Liebe Patientinnen, liebe Patienten, liebe Besucherinnen und Besucher. Wir weisen
+      Sie darauf hin, dass unsere Cafeteria im Erdgeschoss ab Montag wegen umfassender
+      Renovierungsarbeiten bis voraussichtlich Anfang Juni geschlossen bleibt. Eine
+      Ausweichcafeteria steht Ihnen im Gartenflügel zur Verfügung. Wir danken für
+      Ihr Verständnis.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 3: Ernährungsberaterin Tagebuch -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Frau Seidel, vielen Dank für Ihre Nachricht. Ich verstehe, dass Sie möglichst schnell
+      Ergebnisse sehen möchten. Bevor wir aber über Diäten oder Nahrungsergänzungsmittel
+      nachdenken, würde ich Ihnen dringend empfehlen, zunächst über zwei Wochen ein
+      detailliertes Ernährungstagebuch zu führen. Auf dieser Grundlage können wir dann
+      gezielt einen realistischen Plan erarbeiten.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 4: Physiotherapeut Überweisung -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Guten Tag, Frau Schneider, hier ist Ihr Physiotherapeut Herr Bauer. Ich rufe wegen
+      Ihres ersten Termins morgen um neun Uhr an. Bitte denken Sie daran, die aktuelle
+      Verordnung Ihres Hausarztes mitzubringen. Ohne eine gültige Überweisung mit Diagnose
+      können wir die Behandlung kassenseitig leider nicht abrechnen. Bis morgen – schönen
+      Abend noch.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 5: Gesundheitszentrum Impftag Raumwechsel -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Liebe Patientinnen und Patienten, aufgrund der großen Nachfrage verlegen wir unseren
+      heutigen Grippeschutzimpftag kurzfristig vom Beratungsraum zwei in den größeren
+      Konferenzsaal im ersten Obergeschoss. Die Wartezeit vor Ort dürfte dadurch spürbar
+      kürzer ausfallen. Wir bitten Sie, sich dort zu melden.
+    </prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>
