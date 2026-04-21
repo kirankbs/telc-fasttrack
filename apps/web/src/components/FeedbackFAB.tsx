@@ -177,38 +177,49 @@ export function FeedbackFAB() {
         ? "Tablet"
         : "Desktop";
 
-    const uploadedAttachments = await Promise.all(
-      attachments.filter((a) => !a.error).map(async ({ file }) => {
-        try {
-          const blob = await upload(
-            `feedback-attachments/${file.name}`,
-            file,
-            { access: "public", handleUploadUrl: "/api/blob-upload" }
-          );
-          return { name: file.name, url: blob.url };
-        } catch {
-          return { name: file.name, url: null as string | null };
-        }
-      })
-    );
+    try {
+      const uploadedAttachments = await Promise.all(
+        attachments.filter((a) => !a.error).map(async ({ file }) => {
+          try {
+            const blob = await upload(
+              `feedback-attachments/${file.name}`,
+              file,
+              { access: "public", handleUploadUrl: "/api/blob-upload" }
+            );
+            return { name: file.name, url: blob.url };
+          } catch (err) {
+            console.error(`Blob upload failed for ${file.name}:`, err);
+            return { name: file.name, url: null as string | null };
+          }
+        })
+      );
 
-    const result = await submitFeedback({
-      title: title.trim(),
-      description,
-      category,
-      pathname,
-      userAgent: ua,
-      deviceType,
-      attachments: uploadedAttachments.length > 0 ? uploadedAttachments : undefined,
-    });
+      const result = await submitFeedback({
+        title: title.trim(),
+        description,
+        category,
+        pathname,
+        userAgent: ua,
+        deviceType,
+        attachments: uploadedAttachments.length > 0 ? uploadedAttachments : undefined,
+      });
 
-    if (result.error) {
-      setApiError(result.error);
+      if (result.error) {
+        setApiError(result.error);
+        setModalState("error");
+      } else {
+        setIssueNumber(result.issueNumber ?? null);
+        setAttachmentsFailed(result.attachmentsFailed === true);
+        setModalState("success");
+      }
+    } catch (err) {
+      console.error("Feedback submit failed:", err);
+      setApiError(
+        err instanceof Error
+          ? err.message
+          : "Something went wrong. Please try again."
+      );
       setModalState("error");
-    } else {
-      setIssueNumber(result.issueNumber ?? null);
-      setAttachmentsFailed(result.attachmentsFailed === true);
-      setModalState("success");
     }
   };
 
