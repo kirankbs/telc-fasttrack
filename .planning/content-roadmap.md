@@ -1,212 +1,168 @@
-# Content Roadmap — Telc-FastTrack
-> Last updated: 2026-04-19 (overnight session) | Maintained by `content-strategist`
+# Content Roadmap — Fastrack Deutsch
+> Last updated: 2026-04-21 (post-B2-shipped) | Maintained by `content-strategist`
 
 ---
 
 ## Current State
 
-| Level | Mocks (real) | Target | Vocab Words | Target | Grammar Topics | Audio | Pedagogy | Status |
-|-------|-------------|--------|-------------|--------|----------------|-------|----------|--------|
-| **A1** | **10/10** | 10 | **650** | 650 | **12** | **100%** (60 MP3s) | In review (mid-session re-review A1 01-10 in flight) | Near-shippable |
-| **A2** | **10/10** | 10 | **1,300*** | 1,300 | **15** | **100%** (60 MP3s) | Reviewed — 17 rewrites incl. mock_05 bug fixes (#37) | Shippable pending PR merges |
-| B1 | **1/10 real** + 9 stubs | 10 | 0 | 2,400 | 0 | 0% | mock_01 authored per B1 research doc | Active — first real content |
-| B2 | 0/10 real (stubs) | 10 | 0 | 4,000 | 0 | 0% | — | Scaffolding only |
-| C1 | 0/10 real (stubs) | 10 | 0 | 6,000 | 0 | 0% | — | Scaffolding only |
+| Level | Mocks (real) | Target | Vocab | Target | Grammar | Audio | Pedagogy | Status |
+|-------|-------------|--------|-------|--------|---------|-------|----------|--------|
+| **A1** | **10/10** | 10 | **650** | 650 | **12** | **100%** (60 MP3s) | Reviewed — 40 rewrites (#39) | **Shipped** |
+| **A2** | **10/10** | 10 | **1,300** | 1,300 | **15** | **100%** (60 MP3s) | Reviewed — 17 rewrites (#37) | **Shipped** |
+| **B1** | **10/10** | 10 | **2,400** | 2,400 | **20** | **100%** (30 MP3s + 30 SSML, #47) | Authored per B1-exam-format.md | **Shipped** |
+| **B2** | **10/10** | 10 | **4,016** | 4,000 | **25** | **0%** (SSML ready, MP3 pending) | All 10 PASS — 4 rewrites total | **Shipped pending merge + MP3 render** |
+| **C1** | 0/10 real (stubs) | 10 | 0 | 6,000 | 0 | 0% | — | Backlog |
 
-*A2 vocab 1,300 is post-merge state (PR #36 CI green, awaiting merge). Disk currently shows 800.
-
-**Critical:** B1 stubs (mocks 02-10) carry `_stub: true` with 4 skeleton sections and no content. B2/C1 stubs are identical. Do not count them as authored mocks.
+**Note (2026-04-21):** B2 is content-complete. mock_01 and mock_03 are merged. 8 PRs (#74, #73, #76, #75, #81, #79, #78, #80) are open, CI green, pedagogy approved — awaiting user merge. MP3 render blocked on GCP WaveNet credentials.
 
 ---
 
-## A1 Section Coverage
+## A1 / A2 / B1 — Shipped Reference
 
-### Mock Exams
+All three levels are production-ready:
 
-| Mock | Hören | Lesen | Schreiben | Sprechen | Audio (MP3) | Pedagogy | Status |
-|------|-------|-------|-----------|----------|-------------|----------|--------|
-| mock_01 | 11q | 15q | full | full | 3 MP3s | Reviewed; re-review in flight | Complete |
-| mock_02 | 11q | 15q | full | full | 3 MP3s | Reviewed; re-review in flight | Complete |
-| mock_03 | 11q | 15q | full | full | 3 MP3s | Reviewed; re-review in flight | Complete |
-| mock_04 | 11q | 15q | full | full | 3 MP3s | Reviewed; re-review in flight | Complete |
-| mock_05 | 11q | 15q | full | full | 3 MP3s | Reviewed; re-review in flight | Complete |
-| mock_06 | 11q | 15q | full | full | 3 MP3s (#35) | Re-review in flight | Complete — audio shipped |
-| mock_07 | 11q | 15q | full | full | 3 MP3s (#35) | Re-review in flight | Complete — audio shipped |
-| mock_08 | 11q | 15q | full | full | 3 MP3s (#35) | Re-review in flight | Complete — audio shipped |
-| mock_09 | 11q | 15q | full | full | 3 MP3s (#35) | Re-review in flight | Complete — audio shipped |
-| mock_10 | 11q | 15q | full | full | 3 MP3s (#35) | Re-review in flight | Complete — audio shipped |
+- 10 real mocks each with all required sections (A1/A2: 4 sections; B1: 5 including Sprachbausteine).
+- Vocab and grammar at Goethe target counts.
+- Listening audio rendered via GCP WaveNet (`render_audio.py`).
+- Pedagogy review passes complete.
 
-### Vocabulary — A1
+Renderer components in `apps/web/src/components/exam/`:
+- `ListeningExam.tsx`, `ReadingExam.tsx`, `WritingExam.tsx`, `SpeakingExam.tsx`
+- `SprachbausteineExam.tsx` (shipped PR #40 — covers B1 + B2)
+- Audio player shipped PR #34.
 
-| Metric | Count | Target | Coverage |
-|--------|-------|--------|----------|
-| Total words | 650 | 650 | 100% |
-| Grammar topics | 12 | 12 | 100% |
-
-### Audio Pipeline — A1
-
-| Asset | State |
-|-------|-------|
-| All 10 mocks SSML (30 files) | Complete — PR #35 |
-| All 10 mocks MP3s (30 files) | Complete — PR #33 (01-05) + PR #35 (06-10) |
+Speaking recorder with mic + playback + retry shipped PR #46.
 
 ---
 
-## A2 Section Coverage
+## B2 — Completed (Pending Merge + MP3 Render)
 
-### Mock Exams
+### PR Status by Mock
 
-| Mock | Hören | Lesen | Schreiben | Sprechen | Audio (MP3) | Pedagogy | Status |
-|------|-------|-------|-----------|----------|-------------|----------|--------|
-| mock_01 | full | full | full | full | 3 MP3s (#35) | Reviewed (#37) | Complete |
-| mock_02 | full | full | full | full | 3 MP3s (#35) | Reviewed (#37) | Complete |
-| mock_03 | full | full | full | full | 3 MP3s (#35) | Reviewed (#37) | Complete |
-| mock_04 | full | full | full | full | 3 MP3s (#35) | Reviewed (#37) | Complete |
-| mock_05 | full | full | full | full | 3 MP3s (#35) | Reviewed; wrong-answer bugs fixed (#37) | Complete |
-| mock_06 | full | full | full | full | 3 MP3s (#35) | Reviewed (#37) | Complete |
-| mock_07 | full | full | full | full | 3 MP3s (#35) | Reviewed (#37) | Complete |
-| mock_08 | full | full | full | full | 3 MP3s (#35) | Reviewed (#37) | Complete |
-| mock_09 | full | full | full | full | 3 MP3s (#35) | Reviewed (#37) | Complete |
-| mock_10 | full | full | full | full | 3 MP3s (#35) | Reviewed (#37) | Complete |
+| Mock | Theme | PR | Status |
+|------|-------|----|--------|
+| mock_01 | Beruf & Arbeitswelt | #61 | **Merged** |
+| mock_02 | Bildung & Studium | #74 | Open — CI green, pedagogy PASS |
+| mock_03 | Gesundheit & Medizin | #72 | **Merged** |
+| mock_04 | Medien & Kommunikation | #73 | Open — CI green, pedagogy PASS |
+| mock_05 | Umwelt & Nachhaltigkeit | #76 | Open — CI green, pedagogy PASS |
+| mock_06 | Reisen & Mobilität | #75 | Open — CI green, pedagogy PASS |
+| mock_07 | Technologie & Digitalisierung | #81 | Open — CI green, pedagogy PASS (1 rewrite applied) |
+| mock_08 | Gesellschaft & Integration | #79 | Open — CI green, pedagogy PASS |
+| mock_09 | Kultur & Kunst | #78 | Open — CI green, pedagogy PASS |
+| mock_10 | Wirtschaft & Konsum | #80 | Open — CI green, pedagogy PASS |
+| B2_vocabulary.json (4,016 entries) | — | #77 | Open — CI green, schema uniform |
+| B2_grammar.json (25 topics) | — | #62 | **Merged** (3 reorder-exercise fixes applied) |
+| B2 SSML mocks 01-06 | — | embedded in mock PRs | Shipped with respective mock PRs |
+| B2 SSML mocks 07-10 | — | #82 | Open |
 
-### Vocabulary — A2
+### B2 Topic Distribution (actual)
 
-| Metric | Count | Target | Coverage |
-|--------|-------|--------|----------|
-| Total words | 1,300 (post PR #36) | 1,300 | 100% |
-| Grammar topics | 15 | ~20 | 75% |
+| Mock | Theme | Hören T2 Guest | Schreiben Prompts |
+|------|-------|----------------|-------------------|
+| 01 | Beruf & Arbeitswelt | Dr. Sabine Richter (Berufsbildungsforschung Bonn) | Beschwerdebrief / Homeoffice-Stellungnahme |
+| 02 | Bildung & Studium | — | — |
+| 03 | Gesundheit & Medizin | — | — |
+| 04 | Medien & Kommunikation | — | — |
+| 05 | Umwelt & Nachhaltigkeit | — | Kreislaufwirtschaft theme |
+| 06 | Reisen & Mobilität | — | Nachtzug/E-Bike/Overtourism |
+| 07 | Technologie & Digitalisierung | — | KI & Mittelstand |
+| 08 | Gesellschaft & Integration | — | — |
+| 09 | Kultur & Kunst | — | — |
+| 10 | Wirtschaft & Konsum | — | — |
 
-### Audio Pipeline — A2
+### B2 — Remaining Follow-Ups
 
-| Asset | State |
-|-------|-------|
-| All 10 mocks SSML (30 files) | Complete — PR #35 |
-| All 10 mocks MP3s (30 files) | Complete — PR #35 |
+1. **MP3 render (GCP, user task)** — Run `render_audio.py` against all 30 B2 SSML scripts (mocks 01-10, 3 parts each) once GCP WaveNet credentials are available. Output to `assets/audio/B2/mock{01-10}/listening_part{1,2,3}.mp3`. No code changes needed; pipeline validated on A1+A2+B1.
 
----
+2. **User merge queue** — 8 mock PRs + #77 (vocab) + #82 (SSML 07-10) = 10 open PRs. All CI green, all pedagogy approved. Recommend merging in order: #74, #73, #76, #75, #81, #79, #78, #80, #77, #82.
 
-## B1 Section Coverage
-
-### Mock Exams
-
-| Mock | Hören | Lesen | Sprachbausteine | Schreiben | Sprechen | Audio | Pedagogy | Status |
-|------|-------|-------|-----------------|-----------|----------|-------|----------|--------|
-| mock_01 | 3 parts | 3 parts | 2 sets | full | 3 tasks | 0% | Authored per B1 research doc | Real content — PR #38 |
-| mock_02 | stub | stub | stub | stub | stub | 0% | — | Stub (4 skeleton sections) |
-| mock_03–10 | stub | stub | stub | stub | stub | 0% | — | Stub (4 skeleton sections) |
-
-**Note:** B1 stubs have only 4 sections — Sprachbausteine is missing from the skeleton. mock_01 has all 5 sections with real content.
-
-### Vocabulary — B1
-
-| Metric | Count | Target | Coverage |
-|--------|-------|--------|----------|
-| Total words | 0 | 2,400 | 0% |
-| Grammar topics | 0 | ~25 | 0% (Konjunktiv II, Passiv, Relativsätze etc. unstarted) |
-
-### Audio Pipeline — B1
-
-No audio. SSML authoring and GCP render pass blocked until at least mocks 02-05 have real content — not efficient to pipeline single mocks.
+3. **Advisory items from pedagogy review (non-blocking):**
+   - mock_02 Lesen T3: instruction text says "Zwei" — verify count matches items authored.
+   - mock_05 and mock_06: Sprechen T2 both use "Innerdeutsche Kurzstreckenflüge verbieten" — if a future mock_11+ is ever authored, rotate this topic.
+   - mock_09 and mock_10: Dr. Mertens surname appears in both (different first name + field) — consider renaming one before merge.
+   - SB T1 gap-position pattern (gap 1=Passiv, gap 5=Genitiv-Präp, gap 8=prädikatives Adj, gap 9=Partizipialattribut) uniform across mocks 02-06; varied in 07-10. Carry the rotation into C1.
 
 ---
 
-## B2 / C1 — Stub State
+## B2 Calibration Rules (legacy reference for C1 authoring)
 
-Both levels have 10 JSON files per level. All carry `_stub: true` with empty section arrays. Route/catalog scaffolding only — zero content.
+Extracted from mock_01 pedagogy review and `.planning/handoffs/2026-04-20-impl-b2-mock-01.md`. Apply to all future B2-or-higher content:
 
-| Level | Mock Files | Content | Vocab | Grammar | Audio | Needed Before Real Work |
-|-------|-----------|---------|-------|---------|-------|------------------------|
-| B2 | 10 (stubs) | 0 | 0 | 0 | 0 | B1 substantially complete; B2 section spec; vocab list |
-| C1 | 10 (stubs) | 0 | 0 | 0 | 0 | B2 substantially complete; C1 section spec; vocab list |
+| # | Rule |
+|---|------|
+| 1 | Hören: `playCount: 1` throughout. No exceptions at B2+. |
+| 2 | Sprachbausteine T1: exactly 4 options per gap (a/b/c/d). B1 uses 3. |
+| 3 | Sprachbausteine T2: exactly 15-option word bank, 10 gaps. |
+| 4 | Lesen T1: 5 texts, 10 headings (5 distractors). |
+| 5 | Lesen T2: 3-option MCQ only (not 4). |
+| 6 | Lesen T3: 10 situations → 12 offers, at least 1 `"x"` (no match). |
+| 7 | Schreiben: 2 prompts, candidate chooses 1. ~200 words, formal register. |
+| 8 | Sprechen: 3 parts — Präsentation (dual topic cards A/B), Diskussion (4 Leitfragen), Gemeinsam Planen (5 dimensions). |
+| 9 | Every question must have an `explanation` citing source + grammar rule + ≥1 distractor rationale. |
+| 10 | No metalinguistic terms (Nominalisierung, Konjunktiv) in exam-facing question text — explanations only. |
 
 ---
 
-## Web App Gaps
+## C1 — Active Backlog
 
-### Sprachbausteine Renderer — Missing
+Not started. Targets:
+- ~6,000 vocab words (Goethe C1 Wortliste)
+- ~30-35 grammar topics (rhetorical + stylistic devices layer added)
+- 10 mocks — C1-specific Schreiben (Erörterung, Bericht, Kommentar)
+- Audio at natural speed (1.0x), potentially 2 voices for interview sections
+- Sprechen: monologue + discussion, no Gemeinsam Planen at C1
 
-`packages/types` has the Sprachbausteine TypeScript interfaces. `apps/web/src` has **no** `SprachbausteineExam.tsx` component. B1 mock_01 (which has a Sprachbausteine section) will play with 4 of 5 sections until this component is built.
-
-| Gap | Blocking | Effort estimate | Priority |
-|-----|---------|-----------------|----------|
-| `SprachbausteineExam.tsx` web component | B1 full playability in browser | ~1 day (UI only, types exist) | P0 before B1 launch |
+Do not start authoring until B2 MP3 render is unblocked or explicitly deprioritized.
 
 ---
 
 ## Reusable Tooling
 
-| Tool | Location | Description |
-|------|----------|-------------|
-| `render_audio.py` | `.planning/render_audio.py` | GCP WaveNet renderer. Handles chunking, quota project header, batch SSML-to-MP3. Validated on 60 A1+A2 files. |
-| B1 authoring contract | `.planning/research/B1-exam-format.md` | B1 section spec, item counts, scoring rules, CEFR calibration notes. Reusable template for mocks 02-10. |
+| Tool | Location | Notes |
+|------|----------|-------|
+| `render_audio.py` | `.planning/render_audio.py` | GCP WaveNet. Validated on A1+A2+B1 (90 MP3s). Ready for B2 run. |
+| B1 authoring contract | `.planning/research/B1-exam-format.md` | Template reference. |
+| B2 authoring contract | `.planning/research/B2-exam-format.md` | Authoritative B2 spec. Use as C1 template baseline. |
+| B2 pedagogy verdict | `.planning/pedagogy-review-b2-batch.md` | All 10 mocks scored. Advisory items listed. |
 
 ---
 
 ## Next Up — Top 5 Items
 
 Scored on 3 axes: Exam Coverage (40%) + Content Quality Gap (35%) + Production Readiness (25%).
-No A1 multiplier — A1 target met. A2 multiplier retired this session.
 
-### 1. Merge PRs #36, #37, #38 (Score: 97 — gate item)
+### 1. B2 MP3 render — GCP WaveNet (Score: 92 — user task, unblocks audio completeness)
 
-Three PRs are CI green. Until they merge, A2 vocab shows 800 on disk, A2 pedagogy is officially unlogged, and B1 mock_01 is not in main.
+30 SSML scripts are ready. Run `render_audio.py` batch once GCP WaveNet credentials are provisioned. No further code or content work required — this is an infrastructure/credentials task.
 
-- #36: A2 vocab 800 → 1,300 (coverage gap closed)
-- #37: A2 pedagogy 6-dim review, 17 rewrites, mock_05 wrong-answer bug fixes
-- #38: B1 mock_01 first real content
+### 2. User merge queue — 10 open B2 PRs (Score: 88 — gate for B2 "fully shipped")
 
-Action: Merge in order #36, #37, #38. No code changes needed.
+PRs #74, #73, #76, #75, #81, #79, #78, #80, #77, #82. All CI green, all pedagogy approved. Merge in order to keep history clean. B2 cannot be counted as fully shipped until these land.
 
-### 2. Sprachbausteine web renderer (Score: 82)
+### 3. C1 exam format research (Score: 80 — gate item for all C1 authoring)
 
-**Why second:** B1 mock_01 is real content but the cloze section is invisible in the web app. Types exist; this is a UI build task only. Without it B1 is unplayable in the browser even after #38 merges. One engineer, one day.
+Dispatch `exam-researcher` to produce `.planning/research/C1-exam-format.md`. Without a C1 section spec, no authoring can start without rewrite risk. Confirm: Schreiben types (Erörterung/Bericht/Kommentar), Sprechen structure, whether Sprachbausteine appears at C1 (it does not in telc C1 Hochschule), timing.
 
-- Coverage: Types ready, component absent
-- Quality: Not a content gap — a render gap
-- Readiness: High. Schema, types, scoring logic all exist.
+### 4. C1 vocabulary — 6,000 words (Score: 74)
 
-Action: Build `SprachbausteineExam.tsx` in `apps/web/src/components/exam/`. Ship as standalone PR.
+From Goethe C1 Wortliste. Non-blocking for mocks but enables flashcard flow for C1 users. Can run in parallel with C1 format research.
 
-### 3. B1 mocks 02-05 authoring (Score: 76)
+### 5. C1 mock_01 — worked example (Score: 68)
 
-**Why third:** mock_01 proves the authoring contract works. The B1 research doc is the repeatable template. Writing mocks 02-05 (batching to 4 at once) hits the threshold where audio pipeline becomes efficient. Each mock: 5 sections, ~60 items, themed per Goethe B1 topic list.
-
-- Coverage gap: 1/10 real mocks — 90% of the level is stubs
-- Quality gap: Sprachbausteine section is novel; needs 4 more examples to validate calibration
-- Readiness: Research doc ready, mock_01 is the worked example
-
-Action: Author B1 mocks 02-05. Reuse B1-exam-format.md contract. Ship as single PR.
-
-### 4. B1 vocabulary — 0 → 1,200 words (half-target sprint) (Score: 68)
-
-**Why fourth:** Zero vocab means zero spaced-repetition coverage at B1. Users can take a mock but have no deck to study from. Targeting 1,200 first (half of 2,400) is the pragmatic sprint — enough to cover mock_01 topic areas before audio arrives.
-
-- Coverage gap: 0/2,400 words (worst gap in the project)
-- Quality gap: No deck = no retention loop for B1
-- Readiness: Vocab JSON schema identical to A1/A2. Drop-in.
-
-Action: Source from Goethe B1 Wortliste. Author 1,200 highest-frequency words first. One PR.
-
-### 5. A1 pedagogy re-review — close the loop (Score: 61)
-
-**Why fifth:** A1 mocks 01-05 had a pre-audio pedagogy pass. Mocks 06-10 were added after that pass. The mid-session re-review is in flight but not complete. Until it closes, A1 has an asterisk on its pedagogy sign-off.
-
-- Coverage: 0/10 mocks have had a post-audio review
-- Quality: Listening audio may have introduced prosody issues not visible in text review
-- Readiness: All mocks and audio are live — this is human review work only
-
-Action: Complete re-review for A1 01-05 (check audio alignment) + first-pass review for 06-10. Ship findings as content corrections PR if rewrites are needed.
+Single mock authored per C1 spec, pedagogy review before batch. Blocks mocks 02-10. Dependency: C1-exam-format.md must be complete.
 
 ---
 
 ## Strategic Rules
 
-1. **A2 is shippable once PRs #36/#37 merge.** All four sections complete, vocab at target, audio 100%, pedagogy reviewed.
-2. **B1 needs the Sprachbausteine renderer before any B1 launch claim.** It is the #1 web gap.
-3. **B1 content before B1 audio.** Pipeline is not efficient until at least 4-5 mocks have real SSML.
-4. **Never count stubs as content.** B1 mocks 02-10, all B2, all C1 are empty scaffolds.
-5. **Vocab and content authoring are parallel workstreams.** Neither blocks the other.
-6. **Complete levels beat partial coverage.** Finish A2 → build B1 to shippable → defer B2/C1.
+1. **A1/A2/B1 are fully shipped. No re-opening unless bug-driven.**
+2. **B2 content is complete. Remaining work is user merge queue + GCP MP3 render.**
+3. **B2 mock_01 calibration rules (table above) carry forward to C1 authoring.**
+4. **B2 audio runs as a batch.** `render_audio.py` is the only step; do not re-author SSML.
+5. **Never count stubs as content.** C1 mocks are 372-byte placeholders.
+6. **C1 does not start authoring until C1-exam-format.md exists.**
+7. **Sprachbausteine renderer (PR #40) is level-agnostic — works for B1 and B2.** Confirm C1 telc spec before assuming it applies there.
 
 ---
 
@@ -214,9 +170,13 @@ Action: Complete re-review for A1 01-05 (check audio alignment) + first-pass rev
 
 | Date | Built | PRs |
 |------|-------|-----|
-| pre-2026-04-10 | A1 mocks 01-10, vocab 650 words, grammar 12 topics | Multiple |
-| 2026-04-10 | A1 SSML for mocks 01-05 (15 scripts) | — |
-| 2026-04-13 | Audio player component (web) | #34 |
-| 2026-04-13 | A1 MP3s for mocks 01-05 (GCP WaveNet, 15 files) | #33 |
-| 2026-04-13 | A2 mocks 01-10, vocab 800 words, grammar 15 topics | #21-#32 |
-| 2026-04-19 | A1+A2 audio complete (60 MP3s + 60 SSML); A2 vocab 1,300; A2 pedagogy review + 17 rewrites; B1 mock_01 first real content | #35 (merged), #36/#37/#38 (CI green) |
+| pre-2026-04-10 | A1 mocks 01-10, vocab 650, grammar 12 | Multiple |
+| 2026-04-10 | A1 SSML mocks 01-05 (15 scripts) | — |
+| 2026-04-13 | Audio player (web) | #34 |
+| 2026-04-13 | A1 MP3s mocks 01-05 (WaveNet) | #33 |
+| 2026-04-13 | A2 mocks 01-10, vocab 800, grammar 15 | #21-#32 |
+| 2026-04-19 | A1+A2 audio complete (60 MP3s); A2 vocab 1,300; A2 pedagogy review (17 rewrites); A1 pedagogy review (40 rewrites); B1 mock_01 | #35, #36, #37, #38, #39 |
+| 2026-04-19–20 | Sprachbausteine renderer; B1 grammar 20 topics; B1 mocks 02-10; B1 vocab 2,400; B1 full listening audio | #40, #41, #42, #43, #44, #45, #47 |
+| 2026-04-20 | Speaking recorder; rebrand telc-fasttrack → Fastrack Deutsch; UI upgrade phases 1-4 | #46, #48, #50, #51, #52, #53 |
+| 2026-04-20 eve | B2 exam format spec; B2 mock_01 (Beruf & Arbeitswelt, worked example, 3 pedagogy rewrites + 3 language fixes); B2_grammar.json 25 topics (3 reorder fixes) | #61, #62 |
+| 2026-04-20–21 | B2 mocks 02-10 (all themes, all CI green); B2_vocabulary.json 4,016 entries; B2 SSML mocks 01-10 (30 scripts); B2 pedagogy batch review — all 10 PASS | #72 (merged), #73, #74, #75, #76, #77, #78, #79, #80, #81, #82 |
