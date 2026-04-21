@@ -1,13 +1,960 @@
 {
   "id": "B2_mock_04",
   "level": "B2",
-  "title": "Übungstest 4",
-  "version": 0,
-  "_stub": true,
+  "title": "B2 Übungstest 4: Medien & Kommunikation",
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Nachrichtenmeldungen. Entscheiden Sie bei jeder Aussage: richtig oder falsch? Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short news bulletins. For each statement decide: correct or incorrect? You will hear each text only once.",
+          "audioFile": "assets/audio/B2/mock04/listening_part1.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m04_L1_q1",
+              "type": "true_false",
+              "questionText": "Laut der Meldung hat die Zahl der Menschen, die sich in Deutschland überwiegend aus sozialen Medien informieren, innerhalb eines Jahres deutlich abgenommen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Meldung sagt: 'Der Anteil der Bundesbürger, die sich vorwiegend über soziale Netzwerke informieren, ist binnen Jahresfrist um weitere vier Prozentpunkte auf nunmehr achtundzwanzig Prozent gestiegen.' 'gestiegen' ist das Gegenteil von 'abgenommen'. B2-Falle: 'vorwiegend' und 'überwiegend' sind synonym – aber die Richtung der Veränderung (Zunahme statt Abnahme) macht die Behauptung falsch.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "B2_m04_L1_q2",
+              "type": "true_false",
+              "questionText": "Reporter ohne Grenzen meldet, dass Deutschland im aktuellen Ranking zur Pressefreiheit um mehrere Plätze aufgestiegen ist.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Sprecher nennt konkret: 'Deutschland verbessert sich im aktuellen Ranking von Reporter ohne Grenzen um fünf Plätze und liegt nun auf Rang zehn.' 'sich verbessern' + 'fünf Plätze' bestätigt die Aussage 'aufgestiegen'. B2-Vokabular: 'aufsteigen' im Ranking = 'sich verbessern um Plätze'.",
+              "audioTimestamp": 50
+            },
+            {
+              "id": "B2_m04_L1_q3",
+              "type": "true_false",
+              "questionText": "Die neue EU-Verordnung zwingt große Plattformen, Fake-News-Inhalte innerhalb von 24 Stunden zu löschen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Ansage sagt: 'Nach der neuen EU-Verordnung müssen große Online-Plattformen illegale Inhalte zügig entfernen; eine starre Vierundzwanzig-Stunden-Frist sieht das Gesetz jedoch ausdrücklich nicht vor.' Die Zeitvorgabe wird explizit verneint. B2-Trap: 'zügig entfernen' klingt nach schneller Löschpflicht, der Zusatz 'ausdrücklich nicht' zu 24 Stunden kippt die Aussage.",
+              "audioTimestamp": 88
+            },
+            {
+              "id": "B2_m04_L1_q4",
+              "type": "true_false",
+              "questionText": "Ein Gericht hat entschieden, dass ein großes soziales Netzwerk Nutzerdaten deutscher Teenager an Werbepartner weitergeben darf.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Im Audio heißt es: 'Das Landgericht Hamburg hat einem bekannten sozialen Netzwerk untersagt, die Daten minderjähriger Nutzer ohne ausdrückliche elterliche Einwilligung an Werbepartner weiterzugeben.' 'untersagt' = verboten. Das Gericht hat also GEGEN die Weitergabe entschieden. B2-Trap: 'untersagen' klingt wie 'unter sich sagen' oder 'aussagen' – bedeutet aber 'verbieten'.",
+              "audioTimestamp": 128
+            },
+            {
+              "id": "B2_m04_L1_q5",
+              "type": "true_false",
+              "questionText": "Laut einer Studie der Universität Leipzig geben jüngere Menschen seltener Geld für journalistische Online-Abonnements aus als ältere.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Text berichtet: 'In der Altersgruppe unter dreißig Jahren schließen lediglich zwölf Prozent ein kostenpflichtiges Nachrichtenabo ab, während bei den über Fünfzigjährigen der Anteil mit achtundzwanzig Prozent mehr als doppelt so hoch liegt.' 'mehr als doppelt so hoch' bei den Älteren bestätigt, dass Jüngere seltener zahlen. Die Aussage ist also richtig.",
+              "audioTimestamp": 165
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören ein Interview zum Thema Journalismus im Wandel. Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind. Sie hören das Interview nur einmal.",
+          "instructionsTranslation": "You will hear an interview about journalism in transition. Decide whether the following ten statements are correct or incorrect. You will hear the interview only once.",
+          "audioFile": "assets/audio/B2/mock04/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m04_L2_q1",
+              "type": "true_false",
+              "questionText": "Prof. Hendrik Lehmann arbeitet am Institut für Medienforschung der Universität Mainz.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Moderator stellt ihn vor: 'Prof. Dr. Hendrik Lehmann vom Institut für Medienforschung an der Johannes-Gutenberg-Universität Mainz'. Das ist exakt die Aussage. Die Johannes-Gutenberg-Universität IST die Universität Mainz.",
+              "audioTimestamp": 15
+            },
+            {
+              "id": "B2_m04_L2_q2",
+              "type": "true_false",
+              "questionText": "Prof. Lehmann findet, dass der klassische Qualitätsjournalismus in Deutschland bereits weitgehend gescheitert ist.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Lehmann differenziert: 'Manche Kolleginnen behaupten, der Qualitätsjournalismus sei am Ende – das halte ich für übertrieben. Die Reichweiten guter Häuser sind online sogar höher als je zuvor; nur das Geschäftsmodell ist ins Wanken geraten.' Er widerspricht der Behauptung. B2-Hedging-Trap: 'Manche Kolleginnen behaupten' markiert eine fremde Position, die er gerade NICHT teilt.",
+              "audioTimestamp": 52
+            },
+            {
+              "id": "B2_m04_L2_q3",
+              "type": "true_false",
+              "questionText": "Der Professor weist darauf hin, dass die Werbeeinnahmen traditioneller Zeitungen in den letzten zehn Jahren stark zurückgegangen sind.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Lehmann sagt: 'Die Anzeigenerlöse klassischer Tageszeitungen haben sich seit 2015 nahezu halbiert – das ist der eigentliche Grund für die Redaktionsschließungen.' 'sich nahezu halbieren' = stark zurückgehen. Die Zeitspanne (seit 2015) entspricht rund 'zehn Jahren'.",
+              "audioTimestamp": 98
+            },
+            {
+              "id": "B2_m04_L2_q4",
+              "type": "true_false",
+              "questionText": "Laut Prof. Lehmann ist die Verbreitung von Falschmeldungen vor allem ein Problem älterer Nutzer.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Experte räumt ein: 'Entgegen der verbreiteten Annahme teilen gerade Nutzer über fünfzig besonders häufig unverifizierte Inhalte – allerdings ist Desinformation insgesamt ein generationenübergreifendes Problem, keineswegs nur eines der Älteren.' Er betont: GENERATIONENÜBERGREIFEND, nicht nur älter. 'keineswegs nur' widerlegt die Aussage. B2-Falle: Das 'allerdings' schwächt den ersten Satz ab und kehrt die scheinbare Bestätigung um.",
+              "audioTimestamp": 140
+            },
+            {
+              "id": "B2_m04_L2_q5",
+              "type": "true_false",
+              "questionText": "Der Moderator berichtet, dass die Bundesregierung plant, öffentlich-rechtliche Sender abzuschaffen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Moderator fragt: 'Stimmen aus der Politik fordern eine Reform, manche gar die Abschaffung der Öffentlich-Rechtlichen – wie stehen Sie dazu?' Er BERICHTET, dass Stimmen aus der Politik das fordern – NICHT, dass die Bundesregierung dies plant. B2-Hedging-Trap: 'Stimmen ... fordern' ist eine indirekte Quelle, nicht identisch mit einer Regierungsabsicht.",
+              "audioTimestamp": 182
+            },
+            {
+              "id": "B2_m04_L2_q6",
+              "type": "true_false",
+              "questionText": "Prof. Lehmann hält Algorithmen, die Nachrichteninhalte personalisieren, für eine überwiegend positive Entwicklung.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Experte warnt: 'Personalisierte Nachrichten-Feeds verstärken die sogenannte Filterblase – wir sehen im Netz vor allem, was unsere bestehenden Meinungen bestätigt. Das ist für eine demokratische Öffentlichkeit keineswegs unproblematisch.' Er sieht klar mehr Risiken als Chancen. 'keineswegs unproblematisch' = sehr problematisch.",
+              "audioTimestamp": 220
+            },
+            {
+              "id": "B2_m04_L2_q7",
+              "type": "true_false",
+              "questionText": "Der Experte empfiehlt, Medienkompetenz stärker in den Schulunterricht einzubauen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Lehmann sagt deutlich: 'Medienbildung darf nicht länger ein Randthema bleiben. Sie gehört in jedes Schulfach – nicht als Extra-Stunde am Freitagnachmittag, sondern systematisch in den Alltag des Unterrichts integriert.' Das bestätigt die Empfehlung direkt.",
+              "audioTimestamp": 258
+            },
+            {
+              "id": "B2_m04_L2_q8",
+              "type": "true_false",
+              "questionText": "Laut Prof. Lehmann informieren sich junge Erwachsene in Deutschland inzwischen kaum noch über Fernsehnachrichten.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Experte nennt Zahlen: 'In der Altersgruppe der Achtzehn- bis Neunundzwanzigjährigen schaltet nur noch jeder Zehnte regelmäßig eine klassische Fernsehnachrichtensendung ein – das ist ein historischer Tiefstand.' 'nur jeder Zehnte' + 'historischer Tiefstand' bestätigt 'kaum noch'.",
+              "audioTimestamp": 295
+            },
+            {
+              "id": "B2_m04_L2_q9",
+              "type": "true_false",
+              "questionText": "Prof. Lehmann fordert, dass unabhängige Faktencheck-Plattformen ausschließlich vom Staat finanziert werden sollten.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Professor differenziert: 'Faktenchecks brauchen eine solide Finanzierung – Stiftungen, Medienhäuser und öffentliche Gelder können gemeinsam einen Beitrag leisten. Eine rein staatliche Finanzierung wäre aus Gründen der Unabhängigkeit eher problematisch.' Er plädiert für MEHRERE Quellen, nicht ausschließlich staatlich. 'eher problematisch' ist eine Ablehnung der Exklusivfinanzierung. B2-Falle: 'ausschließlich' macht die Aussage falsch.",
+              "audioTimestamp": 330
+            },
+            {
+              "id": "B2_m04_L2_q10",
+              "type": "true_false",
+              "questionText": "Am Ende des Interviews kündigt der Moderator eine Fortsetzung des Gesprächs in der nächsten Sendung an.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Moderator verabschiedet: 'Vielen Dank für Ihre Einschätzungen, Herr Professor Lehmann. Unsere Hörerinnen und Hörer finden weitere Informationen auf unserer Internetseite.' Eine Fortsetzung wird nicht erwähnt. B2-Trap: Die Erwartung einer Folgesendung wird nicht eingelöst; der Hinweis auf die Website ersetzt sie.",
+              "audioTimestamp": 368
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Ansagen oder Nachrichten aus dem Bereich Medien und Kommunikation. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short announcements or messages from the area of media and communication. What is correct? Choose a, b, or c. You will hear each text only once.",
+          "audioFile": "assets/audio/B2/mock04/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m04_L3_q1",
+              "type": "mcq",
+              "questionText": "Worum bittet Frau Arslan in ihrer Sprachnachricht an die Pressestelle?",
+              "options": [
+                "a) Sie möchte das geplante Interview wegen einer Erkrankung verschieben.",
+                "b) Sie möchte vor der Veröffentlichung die Zitate autorisieren.",
+                "c) Sie möchte die Publikation des Artikels vollständig verhindern."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Frau Arslan sagt auf der Mailbox: 'Könnten Sie mir bitte die wörtlichen Zitate vor der Veröffentlichung noch einmal zum Gegenlesen schicken? Ich möchte nur sicherstellen, dass alles korrekt wiedergegeben ist.' Sie bittet also um Autorisierung. Sie verschiebt nicht (a) und will den Artikel nicht stoppen (c) – im Gegenteil, sie möchte ihn in korrekter Form.",
+              "audioTimestamp": 18
+            },
+            {
+              "id": "B2_m04_L3_q2",
+              "type": "mcq",
+              "questionText": "Was teilt die Leiterin der Redaktionskonferenz dem Team mit?",
+              "options": [
+                "a) Die Redaktion zieht in neue Räumlichkeiten im anderen Stadtteil um.",
+                "b) Die Printausgabe erscheint künftig nur noch einmal pro Woche.",
+                "c) Die Tageszeitung stellt den gedruckten Erscheinungstag schrittweise auf ein digital-first-Konzept um."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Ansage informiert: 'Ab September gilt für unsere Redaktion das Prinzip Digital-first. Wir schreiben zuerst für die Online-Ausgabe; die gedruckte Zeitung erscheint weiterhin täglich, wird aber nachgelagert produziert.' Das Kernkonzept ist also Digital-first bei fortgesetzter Tagesausgabe. Distraktor b) (nur noch einmal pro Woche) widerspricht 'erscheint weiterhin täglich'. Distraktor a) (Umzug) wird nicht erwähnt.",
+              "audioTimestamp": 62
+            },
+            {
+              "id": "B2_m04_L3_q3",
+              "type": "mcq",
+              "questionText": "Was empfiehlt die Datenschutzbeauftragte dem Anrufer?",
+              "options": [
+                "a) sofort Strafanzeige gegen die Plattform bei der Polizei zu stellen",
+                "b) zuerst schriftlich die Löschung seiner Daten bei der Plattform zu beantragen",
+                "c) sein Nutzerprofil stillschweigend zu löschen und kein weiteres Vorgehen einzuleiten"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Beraterin sagt: 'Bevor Sie rechtliche Schritte einleiten, sollten Sie die Plattform formell schriftlich zur Löschung Ihrer Daten auffordern – mit Fristsetzung. Erst wenn das erfolglos bleibt, lohnt eine Beschwerde bei der Aufsichtsbehörde.' Sie empfiehlt also zuerst den formellen Löschantrag (b). Strafanzeige bei der Polizei (a) wird nicht empfohlen; stilles Löschen (c) widerspricht dem aktiven Vorgehen.",
+              "audioTimestamp": 108
+            },
+            {
+              "id": "B2_m04_L3_q4",
+              "type": "mcq",
+              "questionText": "Was ist das Hauptanliegen des Kunden in der Voicemail an den Kundenservice?",
+              "options": [
+                "a) Er beschwert sich über eine irreführend beworbene Streaming-Abo-Option.",
+                "b) Er möchte ein Premium-Abo abschließen und bittet um Beratung.",
+                "c) Er fragt nach dem Starttermin einer neuen Dokumentationsreihe."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Kunde sagt deutlich: 'In Ihrer Werbung hieß es ausdrücklich werbefrei, tatsächlich laufen aber vor jeder Folge drei Einblendungen. Das halte ich schlicht für irreführend und erwarte eine anteilige Rückerstattung.' Die Beschwerde über irreführende Werbung ist zentral. Er will KEIN neues Abo (b) und fragt NICHT nach einem Starttermin (c).",
+              "audioTimestamp": 152
+            },
+            {
+              "id": "B2_m04_L3_q5",
+              "type": "mcq",
+              "questionText": "Worüber informiert die Ansage beim Online-Medienkongress?",
+              "options": [
+                "a) Der Eröffnungsvortrag beginnt aufgrund technischer Probleme eine halbe Stunde später.",
+                "b) Die Abendveranstaltung wird wegen zu geringer Anmeldezahlen komplett abgesagt.",
+                "c) Das Panel zum Thema Künstliche Intelligenz in Redaktionen findet in einem anderen Raum statt."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Ansage sagt: 'Liebe Teilnehmerinnen und Teilnehmer, das heutige Panel Künstliche Intelligenz in der Redaktion wurde kurzfristig aus dem Saal Blau in den größeren Saal Gelb verlegt, da die Nachfrage sehr hoch ist.' Raumwechsel des KI-Panels ist der Kern. Distraktor a) (Vortragsverspätung) und b) (Absage der Abendveranstaltung) werden nicht erwähnt.",
+              "audioTimestamp": 198
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 90,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie zuerst die fünf Kurztexte (1–5) und dann die zehn Überschriften (a–j). Welche Überschrift passt am besten zu welchem Text? Für jeden Text gibt es genau eine passende Überschrift. Fünf Überschriften bleiben übrig.",
+          "instructionsTranslation": "First read the five short texts (1–5) and then the ten headlines (a–j). Which headline best matches which text? For each text there is exactly one matching headline. Five headlines remain unused.",
+          "texts": [
+            { "id": "B2_m04_R1_head_a", "type": "notice", "content": "a) Podcast-Boom flacht ab – Hörerschaft bleibt aber stabil" },
+            { "id": "B2_m04_R1_head_b", "type": "notice", "content": "b) Lokalzeitungen vor dem Aus: weitere Redaktionen schließen" },
+            { "id": "B2_m04_R1_head_c", "type": "notice", "content": "c) Kinder und Smartphones – neue Leitlinien für Eltern" },
+            { "id": "B2_m04_R1_head_d", "type": "notice", "content": "d) Faktenchecker gewinnen an Einfluss – Stiftungen verdoppeln Budget" },
+            { "id": "B2_m04_R1_head_e", "type": "notice", "content": "e) Öffentlich-Rechtliche vor Reform: Landtage beschließen Staatsvertrag" },
+            { "id": "B2_m04_R1_head_f", "type": "notice", "content": "f) Influencer-Werbung wird strenger reguliert – Kennzeichnungspflicht ausgeweitet" },
+            { "id": "B2_m04_R1_head_g", "type": "notice", "content": "g) KI im Newsroom: erste deutsche Redaktionen ziehen Bilanz" },
+            { "id": "B2_m04_R1_head_h", "type": "notice", "content": "h) Datenschutz-Strafen für soziale Netzwerke erreichen Rekordhöhe" },
+            { "id": "B2_m04_R1_head_i", "type": "notice", "content": "i) Bürgerfunk feiert Comeback in ländlichen Regionen" },
+            { "id": "B2_m04_R1_head_j", "type": "notice", "content": "j) Journalistinnen berichten häufiger von Hass im Netz" }
+          ],
+          "questions": [
+            {
+              "id": "B2_m04_R1_q1",
+              "type": "matching",
+              "questionText": "Text 1: Mehrere mittelgroße deutsche Redaktionen haben in diesem Jahr erstmals systematisch mit KI-Werkzeugen experimentiert – von automatisch generierten Wetterberichten bis hin zu computergestützter Recherche in großen Dokumentensammlungen. Die nun veröffentlichten Zwischenbilanzen fallen differenziert aus: Routineaufgaben lassen sich spürbar beschleunigen, und Reporterinnen gewinnen Zeit für aufwendige Recherchen. Gleichzeitig berichten mehrere Chefredakteure von inhaltlichen Fehlern, die ohne eine gründliche menschliche Gegenkontrolle unentdeckt geblieben wären. Als Konsequenz wird in fast allen Häusern inzwischen ein verpflichtender Vier-Augen-Check für alle KI-gestützten Texte eingeführt. Die Redaktionen betonen: ohne journalistische Aufsicht kein KI-Einsatz.",
+              "matchingSources": [
+                { "id": "B2_m04_R1_head_a", "label": "a" },
+                { "id": "B2_m04_R1_head_b", "label": "b" },
+                { "id": "B2_m04_R1_head_c", "label": "c" },
+                { "id": "B2_m04_R1_head_d", "label": "d" },
+                { "id": "B2_m04_R1_head_e", "label": "e" },
+                { "id": "B2_m04_R1_head_f", "label": "f" },
+                { "id": "B2_m04_R1_head_g", "label": "g" },
+                { "id": "B2_m04_R1_head_h", "label": "h" },
+                { "id": "B2_m04_R1_head_i", "label": "i" },
+                { "id": "B2_m04_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Der Text berichtet, wie deutsche Redaktionen nach der Einführung von KI-Werkzeugen Bilanz ziehen – Zwischenergebnisse, Fehlerquellen, Vier-Augen-Prinzip. Das entspricht exakt Überschrift g) 'KI im Newsroom: erste deutsche Redaktionen ziehen Bilanz'. Distraktor d) (Faktenchecker-Stiftungen) passt nicht, weil der Text weder Stiftungen noch Faktenchecks in den Mittelpunkt stellt.",
+              "relatedTextId": "B2_m04_R1_head_g"
+            },
+            {
+              "id": "B2_m04_R1_q2",
+              "type": "matching",
+              "questionText": "Text 2: In Bayern, Sachsen und Nordrhein-Westfalen haben allein im vergangenen Jahr mehr als zwanzig regionale Tageszeitungen ihre eigenständige Redaktion aufgegeben. In den betroffenen Städten gibt es häufig keine lokale journalistische Berichterstattung mehr – Gemeinderatssitzungen, Vereinsleben und Lokalpolitik werden nicht mehr systematisch begleitet. Medienforscher sprechen von 'Nachrichtenwüsten', in denen die Öffentlichkeit keine verlässliche Kontrolle lokaler Institutionen mehr leistet. Der Deutsche Journalistenverband fordert daher eine öffentliche Förderung lokaler Medien nach dem Vorbild Skandinaviens, um eine Grundversorgung mit geprüften Informationen auch in kleineren Regionen sicherzustellen.",
+              "matchingSources": [
+                { "id": "B2_m04_R1_head_a", "label": "a" },
+                { "id": "B2_m04_R1_head_b", "label": "b" },
+                { "id": "B2_m04_R1_head_c", "label": "c" },
+                { "id": "B2_m04_R1_head_d", "label": "d" },
+                { "id": "B2_m04_R1_head_e", "label": "e" },
+                { "id": "B2_m04_R1_head_f", "label": "f" },
+                { "id": "B2_m04_R1_head_g", "label": "g" },
+                { "id": "B2_m04_R1_head_h", "label": "h" },
+                { "id": "B2_m04_R1_head_i", "label": "i" },
+                { "id": "B2_m04_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text schildert präzise das Phänomen der Schließung regionaler Redaktionen und der 'Nachrichtenwüsten' – das entspricht Überschrift b) 'Lokalzeitungen vor dem Aus: weitere Redaktionen schließen'. Distraktor i) (Bürgerfunk-Comeback) ist das Gegenteil: Comeback vs. Aus, und der Text erwähnt weder Bürgerfunk noch ländliche Radioprogramme.",
+              "relatedTextId": "B2_m04_R1_head_b"
+            },
+            {
+              "id": "B2_m04_R1_q3",
+              "type": "matching",
+              "questionText": "Text 3: Ab dem kommenden Jahr müssen alle Personen, die auf sozialen Netzwerken Produkte oder Dienstleistungen präsentieren, deutlich erkennbar machen, ob es sich um bezahlte Partnerschaften handelt. Das gilt künftig selbst dann, wenn sie lediglich Produkte empfehlen, die sie nach eigener Darstellung privat nutzen und nicht unmittelbar bezahlt wurden. Die neue Verbraucherschutzverordnung richtet sich vor allem an reichweitenstarke Accounts und präzisiert die bisherige Kennzeichnungspflicht. Verstöße können mit Bußgeldern von bis zu fünfzigtausend Euro geahndet werden. Verbraucherzentralen begrüßen die Maßnahme als längst überfällig, Branchenvertreter warnen vor einem bürokratischen Aufwand für kleinere Kanäle.",
+              "matchingSources": [
+                { "id": "B2_m04_R1_head_a", "label": "a" },
+                { "id": "B2_m04_R1_head_b", "label": "b" },
+                { "id": "B2_m04_R1_head_c", "label": "c" },
+                { "id": "B2_m04_R1_head_d", "label": "d" },
+                { "id": "B2_m04_R1_head_e", "label": "e" },
+                { "id": "B2_m04_R1_head_f", "label": "f" },
+                { "id": "B2_m04_R1_head_g", "label": "g" },
+                { "id": "B2_m04_R1_head_h", "label": "h" },
+                { "id": "B2_m04_R1_head_i", "label": "i" },
+                { "id": "B2_m04_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Der Text beschreibt die Verschärfung der Kennzeichnungspflicht für Influencer-Werbung – Überschrift f) fasst das wortgleich zusammen. Distraktor h) (Datenschutz-Strafen) passt nicht, weil es nicht um Datenschutz, sondern um Werbekennzeichnung geht – ein völlig anderes Rechtsgebiet.",
+              "relatedTextId": "B2_m04_R1_head_f"
+            },
+            {
+              "id": "B2_m04_R1_q4",
+              "type": "matching",
+              "questionText": "Text 4: Die Landesmedienanstalten haben heute eine neue Orientierungshilfe veröffentlicht, die Eltern von Grundschulkindern bei Fragen zur Handynutzung unterstützen soll. Das dreißigseitige Dokument fasst aktuelle Forschungsergebnisse verständlich zusammen und gibt konkrete Empfehlungen – von bildschirmfreien Schlafzimmern bis hin zu Regeln für gemeinsame Familienmahlzeiten. Besonders hervorgehoben wird, dass ein vollständiges Verbot meist nicht zielführend sei; entscheidender seien altersgerechte Zeitfenster und das gemeinsame Gespräch über Inhalte. Die Broschüre wird kostenlos an Kitas, Grundschulen und Kinderärzte verteilt.",
+              "matchingSources": [
+                { "id": "B2_m04_R1_head_a", "label": "a" },
+                { "id": "B2_m04_R1_head_b", "label": "b" },
+                { "id": "B2_m04_R1_head_c", "label": "c" },
+                { "id": "B2_m04_R1_head_d", "label": "d" },
+                { "id": "B2_m04_R1_head_e", "label": "e" },
+                { "id": "B2_m04_R1_head_f", "label": "f" },
+                { "id": "B2_m04_R1_head_g", "label": "g" },
+                { "id": "B2_m04_R1_head_h", "label": "h" },
+                { "id": "B2_m04_R1_head_i", "label": "i" },
+                { "id": "B2_m04_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text beschreibt eine Handreichung der Medienanstalten an Eltern zur kindlichen Smartphone-Nutzung – das entspricht genau Überschrift c). Distraktor a) (Podcasts) hat keinerlei thematische Überschneidung.",
+              "relatedTextId": "B2_m04_R1_head_c"
+            },
+            {
+              "id": "B2_m04_R1_q5",
+              "type": "matching",
+              "questionText": "Text 5: Eine aktuelle Umfrage unter Journalistinnen in Deutschland zeigt, dass sich die Häufigkeit von Hassnachrichten und Drohungen im Netz in den vergangenen drei Jahren noch einmal deutlich erhöht hat. Besonders Frauen, die sich politisch oder gesellschaftlich positionieren, berichten von systematischen Kampagnen, die zunehmend auch auf ihr privates Umfeld zielen. Gewerkschaften fordern einen besseren Rechtsschutz und verlässliche Ansprechpartner bei den Strafverfolgungsbehörden. Erste Medienhäuser richten inzwischen interne Anlaufstellen ein, die betroffene Kolleginnen juristisch und psychologisch begleiten. Die Umfrage belegt: Hass im Netz bleibt nicht folgenlos – viele Journalistinnen passen ihre Themenwahl inzwischen aus Selbstschutz an.",
+              "matchingSources": [
+                { "id": "B2_m04_R1_head_a", "label": "a" },
+                { "id": "B2_m04_R1_head_b", "label": "b" },
+                { "id": "B2_m04_R1_head_c", "label": "c" },
+                { "id": "B2_m04_R1_head_d", "label": "d" },
+                { "id": "B2_m04_R1_head_e", "label": "e" },
+                { "id": "B2_m04_R1_head_f", "label": "f" },
+                { "id": "B2_m04_R1_head_g", "label": "g" },
+                { "id": "B2_m04_R1_head_h", "label": "h" },
+                { "id": "B2_m04_R1_head_i", "label": "i" },
+                { "id": "B2_m04_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "j",
+              "explanation": "Der Text bilanziert die zunehmenden Hass- und Drohnachrichten gegen Journalistinnen – Überschrift j) 'Journalistinnen berichten häufiger von Hass im Netz' passt exakt. Die verbleibenden Distraktoren a, d, e, h, i beziehen sich auf andere Themenbereiche (Podcasts, Faktencheck-Stiftungen, ÖRR-Staatsvertrag, Datenschutzbußgelder, Bürgerfunk).",
+              "relatedTextId": "B2_m04_R1_head_j"
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Zeitungsartikel. Wählen Sie bei jeder Aufgabe die beste Antwort (a, b oder c) aufgrund der Informationen im Text.",
+          "instructionsTranslation": "Read the following newspaper article. For each task choose the best answer (a, b, or c) based on the information in the text.",
+          "texts": [
+            {
+              "id": "B2_m04_R2_article",
+              "type": "article",
+              "content": "Algorithmus vor Redaktion – wer entscheidet, was wir morgen lesen?\n\nWer heute morgens sein Smartphone entsperrt, sieht die Welt durch eine Linse, die von keiner Chefredakteurin mehr geschliffen wird. Stattdessen berechnen Empfehlungssysteme großer Plattformen, welche Schlagzeilen oben stehen und welche unsichtbar bleiben. Für viele Nutzerinnen und Nutzer in Deutschland sind solche Algorithmen inzwischen der wichtigste Einstieg in den Nachrichtentag – noch vor Fernsehen, Radio oder der klassischen Tageszeitung.\n\nDie Medienwissenschaftlerin Dr. Karla Weidemann vom Zentrum für Digitalisierung in Karlsruhe hat in einer zweijährigen Studie untersucht, wie sich diese Verschiebung auf das Nachrichtenverhalten auswirkt. Ihr Befund fällt nüchtern aus. 'Wir sehen nicht, dass Algorithmen in erster Linie Falschmeldungen verbreiten – die Realität ist subtiler. Sie bevorzugen Beiträge, die starke Emotionen auslösen, und das führt mittelfristig zu einer Verengung des öffentlichen Gesprächs.' Artikel mit sachlich-kühlem Ton fänden unter gleichen inhaltlichen Voraussetzungen nachweislich weniger Reichweite als solche, die Empörung oder Faszination auslösen.\n\nBesonders heikel werde es, so Weidemann, wenn Plattformen an der Schnittstelle zwischen privater Kommunikation und öffentlicher Debatte operierten. Dort vermische sich, was Freundinnen einander empfehlen, mit dem, was Medienhäuser professionell recherchieren – und für viele Nutzerinnen sei der Unterschied nicht mehr erkennbar. Die Studie zeigt jedoch auch: Wer bewusst mehrere unterschiedliche Quellen aufsucht und sich nicht allein auf die Startseite eines Netzwerks verlässt, kommt zu einem deutlich breiteren Bild.\n\nSchwierig wird es für jene, die vor allem aus Zeitnot auf einen einzigen algorithmischen Feed vertrauen. 'Diese Gruppe wächst, nicht nur bei jungen Menschen', stellt Weidemann fest. Ein zweites Ergebnis überrascht: Die oft beschworene Jugend, die sich angeblich ausschließlich über TikTok informiert, ist in ihrer Studie nicht so einseitig, wie häufig behauptet. Viele Schülerinnen und Schüler griffen durchaus auf klassische Nachrichtenangebote zurück – allerdings nur, wenn diese sprachlich und visuell ansprechbar gestaltet seien. Reine Textwände schreckten sie ab.\n\nWelche Konsequenzen sollten Redaktionen daraus ziehen? Weidemann plädiert für eine klare Trennung zweier Ebenen. Auf der Plattformebene müssten Medienhäuser zwar präsent und sichtbar sein, aber zugleich konsequent auf ihre eigenen Angebote verweisen: 'Wer allein für fremde Algorithmen produziert, begibt sich in eine riskante Abhängigkeit.' Auf der inhaltlichen Ebene dagegen rät sie zu Mut: weniger rein emotionale Zuspitzung, mehr langfristige Einordnung, auch wenn das kurzfristig weniger Klicks bringe. 'Die stabilste Leserbindung entsteht nicht durch die nächste aufregende Schlagzeile, sondern durch Verlässlichkeit über Monate hinweg.'\n\nBlickt man in die Zukunft, so dürfte sich der Konflikt zwischen algorithmischer Logik und journalistischer Auswahl weiter verschärfen. Dass sich die meisten Plattformen freiwillig selbst regulieren, halten Fachleute inzwischen für unwahrscheinlich. Eher denkbar sind europäische Regelwerke, die für Transparenz bei Empfehlungsalgorithmen sorgen und Nutzerinnen echte Alternativen bieten. Weidemanns Fazit: 'Wir haben technisch viele Möglichkeiten. Die Frage ist, ob wir auch gesellschaftlich bereit sind, sie zu nutzen.'",
+              "source": "Süddeutsche Zeitung, Medienbeilage April 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "B2_m04_R2_q1",
+              "type": "mcq",
+              "questionText": "Was ist die zentrale These von Dr. Weidemann im Text?",
+              "relatedTextId": "B2_m04_R2_article",
+              "options": [
+                "a) Algorithmen verbreiten vor allem gezielt Falschinformationen.",
+                "b) Algorithmen verengen das öffentliche Gespräch, weil sie emotional aufgeladene Beiträge bevorzugen.",
+                "c) Algorithmen sollten komplett verboten werden, weil sie demokratieschädlich sind."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Weidemann sagt klar: 'Wir sehen nicht, dass Algorithmen in erster Linie Falschmeldungen verbreiten – die Realität ist subtiler. Sie bevorzugen Beiträge, die starke Emotionen auslösen, und das führt mittelfristig zu einer Verengung des öffentlichen Gesprächs.' Das entspricht Option b. Option a wird von ihr explizit zurückgewiesen ('Wir sehen nicht, dass ... Falschmeldungen'), ein Verbot (c) fordert sie nirgends. B2-Trap: Option a greift 'Falschmeldungen' aus dem Text auf, aber mit umgedrehter Aussage."
+            },
+            {
+              "id": "B2_m04_R2_q2",
+              "type": "mcq",
+              "questionText": "Was sagt die Studie über den Nachrichtenkonsum von Schülerinnen und Schülern?",
+              "relatedTextId": "B2_m04_R2_article",
+              "options": [
+                "a) Sie informieren sich fast ausschließlich über TikTok und meiden klassische Medien.",
+                "b) Sie nutzen klassische Nachrichtenangebote häufiger, als oft behauptet wird – wenn die Aufbereitung passt.",
+                "c) Sie lesen ausschließlich gedruckte Zeitungen ihrer Eltern."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text stellt fest: 'Die oft beschworene Jugend, die sich angeblich ausschließlich über TikTok informiert, ist in ihrer Studie nicht so einseitig, wie häufig behauptet. Viele Schülerinnen und Schüler griffen durchaus auf klassische Nachrichtenangebote zurück – allerdings nur, wenn diese sprachlich und visuell ansprechbar gestaltet seien.' Das entspricht b. Option a wird durch 'nicht so einseitig' widerlegt, Option c ist im Text nirgends behauptet. B2-Trap: 'angeblich ausschließlich' ist ein Hedging-Signal; die These wird gerade NICHT bestätigt."
+            },
+            {
+              "id": "B2_m04_R2_q3",
+              "type": "mcq",
+              "questionText": "Warum ist laut Weidemann die Vermischung von privater Kommunikation und professionellem Journalismus problematisch?",
+              "relatedTextId": "B2_m04_R2_article",
+              "options": [
+                "a) Weil Freundinnen grundsätzlich unzuverlässiger informieren als Medienhäuser.",
+                "b) Weil Nutzerinnen den Unterschied zwischen Empfehlung und geprüfter Recherche häufig nicht mehr erkennen.",
+                "c) Weil Plattformen private Nachrichten an Medienhäuser verkaufen."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text sagt: 'Dort vermische sich, was Freundinnen einander empfehlen, mit dem, was Medienhäuser professionell recherchieren – und für viele Nutzerinnen sei der Unterschied nicht mehr erkennbar.' Das ist Option b. Option a enthält eine pauschale Wertung ('grundsätzlich unzuverlässiger'), die der Text gerade nicht macht – er spricht nur von Nicht-Erkennbarkeit. Option c (Verkauf privater Nachrichten) ist im Text nirgends erwähnt."
+            },
+            {
+              "id": "B2_m04_R2_q4",
+              "type": "mcq",
+              "questionText": "Welche Strategie empfiehlt Dr. Weidemann Redaktionen auf der inhaltlichen Ebene?",
+              "relatedTextId": "B2_m04_R2_article",
+              "options": [
+                "a) Emotional noch stärker zuspitzen, um im Algorithmus besser abzuschneiden.",
+                "b) Weniger Zuspitzung, mehr langfristige Einordnung – auch um den Preis kurzfristig geringerer Klickzahlen.",
+                "c) Inhalte ausschließlich hinter Bezahlschranken anbieten, um die Plattform-Logik zu umgehen."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Weidemann rät 'zu Mut: weniger rein emotionale Zuspitzung, mehr langfristige Einordnung, auch wenn das kurzfristig weniger Klicks bringe.' Das ist Option b wörtlich. Option a kehrt die Empfehlung um; Bezahlschranken (c) werden nicht erwähnt. B2-Trap: Option a greift den Begriff 'emotional' aus dem Text auf, dreht die Richtung aber um."
+            },
+            {
+              "id": "B2_m04_R2_q5",
+              "type": "mcq",
+              "questionText": "Wie bewerten Fachleute laut Artikel die freiwillige Selbstregulierung der Plattformen?",
+              "relatedTextId": "B2_m04_R2_article",
+              "options": [
+                "a) Als wahrscheinliches Mittel, das den Gesetzgeber entlasten wird.",
+                "b) Als überflüssig, weil Nutzerinnen selbst genug Medienkompetenz hätten.",
+                "c) Als unwahrscheinlich, weshalb europäische Regelwerke die realistischere Perspektive seien."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text hält fest: 'Dass sich die meisten Plattformen freiwillig selbst regulieren, halten Fachleute inzwischen für unwahrscheinlich. Eher denkbar sind europäische Regelwerke ...' Das ist Option c. Option a widerspricht dem Text direkt, Option b wird nirgends behauptet – Medienkompetenz ist kein Thema dieses Abschnitts."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die zehn Situationen (1–10) und die zwölf Anzeigen (a–l). Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es höchstens eine passende Anzeige. Zwei Anzeigen bleiben übrig. Wenn keine Anzeige passt, schreiben Sie 'x'.",
+          "instructionsTranslation": "Read the ten situations (1–10) and the twelve advertisements (a–l). Which advertisement matches which situation? For each situation there is at most one matching advertisement. Two advertisements remain unused. If no advertisement fits, write 'x'.",
+          "texts": [
+            { "id": "B2_m04_R3_ad_a", "type": "ad", "content": "a) MedienCampus Leipzig – Zertifikatskurs 'Datenjournalismus' für Journalistinnen und Journalisten. 8 Wochen berufsbegleitend, Online-Unterricht plus zwei Präsenzwochenenden. Abschluss: anerkanntes Hochschulzertifikat. 1.450 €, förderfähig über Bildungsscheck. www.mediencampus-leipzig.de" },
+            { "id": "B2_m04_R3_ad_b", "type": "ad", "content": "b) Fortbildung 'Umgang mit Hass im Netz' – zweitägiger Präsenzworkshop für Redakteurinnen, Moderator:innen und Öffentlichkeitsarbeiter:innen. Rechtliche Grundlagen, Selbstschutz, Reaktionsstrategien. 12.–13. Juni, Hamburg. 480 € inkl. Materialien. info@mediensicher.de" },
+            { "id": "B2_m04_R3_ad_c", "type": "ad", "content": "c) Beratung für Eltern zur Mediennutzung – Einzelgespräche mit erfahrenen Medienpädagog:innen, jeweils 60 Minuten, online oder vor Ort in Berlin, München oder Stuttgart. 75 € pro Termin, Ermäßigung für Familienpass-Inhaber:innen. www.medien-und-familie.de" },
+            { "id": "B2_m04_R3_ad_d", "type": "ad", "content": "d) Volkshochschule Köln – Kurs 'Fake News erkennen' für Erwachsene. 5 Abende, dienstags 18:30–20:30 Uhr. Inhalte: Quellenprüfung, Bilderrückwärtssuche, typische Manipulationsmuster. 85 € Gesamtgebühr. vhs-koeln.de/medien" },
+            { "id": "B2_m04_R3_ad_e", "type": "ad", "content": "e) Podcast-Produktionskurs 'Vom Thema zum Hörerlebnis' – 6 Wochen online, inklusive Ausleihe einer professionellen Mikrofonausstattung. Ideal für Neueinsteiger:innen ohne technische Vorkenntnisse. 349 €. www.podcast-akademie.de" },
+            { "id": "B2_m04_R3_ad_f", "type": "ad", "content": "f) Rechtsberatung Medien- und Datenschutzrecht – Erstgespräch kostenlos für Mitglieder des Deutschen Journalisten-Verbandes (DJV). Themen: Persönlichkeitsrecht, DSGVO, Unterlassungsverfahren. Online oder in den regionalen DJV-Geschäftsstellen. mitglieder.djv.de" },
+            { "id": "B2_m04_R3_ad_g", "type": "ad", "content": "g) Masterstudiengang 'Digital Media Management' – 4 Semester, berufsbegleitend, Hochschule Düsseldorf. Zulassung mit erstem Hochschulabschluss. 7.200 € gesamt, monatliche Raten, förderfähig über Aufstiegs-BAföG. start-m.dmm@hs-d.de" },
+            { "id": "B2_m04_R3_ad_h", "type": "ad", "content": "h) Workshop 'Interviewtraining für junge Reporterinnen' – drei Nachmittage in kleiner Gruppe (max. 8 Personen). Kamera-Übungen, Fragetechniken, konstruktives Einzelfeedback. Gefördert durch die Bundeszentrale für politische Bildung. 90 € Eigenbeitrag. www.young-reporters.de" },
+            { "id": "B2_m04_R3_ad_i", "type": "ad", "content": "i) Fachkongress 'Zukunft der Öffentlich-Rechtlichen' – zwei Tage mit Vorträgen, Panels und Networking zum Thema Reform der Rundfunkanstalten. 22.–23. September, Berlin. Frühbucher bis 30. Juni: 420 € statt 520 €. oerr-zukunft.de" },
+            { "id": "B2_m04_R3_ad_j", "type": "ad", "content": "j) Sprachkurs Spanisch für Journalist:innen B1 – Vorbereitung auf Korrespondenten- und Recherche-Einsätze in Spanien oder Lateinamerika. 50 Unterrichtseinheiten, dienstags und donnerstags, 19–21 Uhr. Sprachinstitut Frankfurt, 380 €. Einstiegstest erforderlich. www.sprachinstitut-frankfurt.de" },
+            { "id": "B2_m04_R3_ad_k", "type": "ad", "content": "k) Praktikumsbörse Medien – Aktuelle Angebote bei Redaktionen, Verlagen, PR-Agenturen und öffentlich-rechtlichen Rundfunkanstalten in ganz Deutschland. Kostenlose Registrierung für Studierende, Filter nach Fachrichtung, Stadt und Dauer. Persönliche Beratung jeden Donnerstag in der Uni-Karriereberatung. praktikum-medien.de" },
+            { "id": "B2_m04_R3_ad_l", "type": "ad", "content": "l) Fernstudium 'Bachelor Kommunikationswissenschaft' – Akkreditiert, berufsbegleitend in 7 Semestern. Vollständig online, keine Anwesenheitspflicht. Betreuung durch Online-Tutorien und individuelle Feedbackschleifen. 12.900 € gesamt, monatliche Raten möglich. www.fernhochschule-weser.de" }
+          ],
+          "questions": [
+            {
+              "id": "B2_m04_R3_q1",
+              "type": "matching",
+              "questionText": "1. Teresa arbeitet seit einem Jahr als Lokalreporterin und möchte ihre Fähigkeiten im Umgang mit großen Datensätzen deutlich ausbauen. Sie sucht eine kompakte, anerkannte Weiterbildung, die sie neben dem Beruf absolvieren kann.",
+              "matchingSources": [
+                { "id": "B2_m04_R3_ad_a", "label": "a" }, { "id": "B2_m04_R3_ad_b", "label": "b" },
+                { "id": "B2_m04_R3_ad_c", "label": "c" }, { "id": "B2_m04_R3_ad_d", "label": "d" },
+                { "id": "B2_m04_R3_ad_e", "label": "e" }, { "id": "B2_m04_R3_ad_f", "label": "f" },
+                { "id": "B2_m04_R3_ad_g", "label": "g" }, { "id": "B2_m04_R3_ad_h", "label": "h" },
+                { "id": "B2_m04_R3_ad_i", "label": "i" }, { "id": "B2_m04_R3_ad_j", "label": "j" },
+                { "id": "B2_m04_R3_ad_k", "label": "k" }, { "id": "B2_m04_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Anzeige a) 'Datenjournalismus'-Zertifikatskurs am MedienCampus Leipzig trifft Teresas Bedarf exakt: Datensatzarbeit, berufsbegleitend, kompakt (8 Wochen), anerkanntes Hochschulzertifikat. Distraktor g) (Masterstudiengang 'Digital Media Management') ist mit 4 Semestern viel zu lang und nicht auf Datenjournalismus fokussiert."
+            },
+            {
+              "id": "B2_m04_R3_q2",
+              "type": "matching",
+              "questionText": "2. Herr Bieler ist Moderator beim öffentlich-rechtlichen Radio und wird seit Monaten Ziel von Hassmails und Drohungen im Netz. Er sucht eine konkrete, praxisnahe Fortbildung in Präsenz, in der rechtliche Grundlagen und Selbstschutzstrategien vermittelt werden.",
+              "matchingSources": [
+                { "id": "B2_m04_R3_ad_a", "label": "a" }, { "id": "B2_m04_R3_ad_b", "label": "b" },
+                { "id": "B2_m04_R3_ad_c", "label": "c" }, { "id": "B2_m04_R3_ad_d", "label": "d" },
+                { "id": "B2_m04_R3_ad_e", "label": "e" }, { "id": "B2_m04_R3_ad_f", "label": "f" },
+                { "id": "B2_m04_R3_ad_g", "label": "g" }, { "id": "B2_m04_R3_ad_h", "label": "h" },
+                { "id": "B2_m04_R3_ad_i", "label": "i" }, { "id": "B2_m04_R3_ad_j", "label": "j" },
+                { "id": "B2_m04_R3_ad_k", "label": "k" }, { "id": "B2_m04_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Anzeige b) 'Umgang mit Hass im Netz' ist exakt auf Herrn Bielers Situation zugeschnitten: Präsenzworkshop, explizit für Moderator:innen, rechtliche Grundlagen und Selbstschutz. Distraktor f) (DJV-Rechtsberatung) deckt zwar Rechtsfragen ab, bietet aber keine Fortbildung – nur Einzelberatung – und fehlt die Selbstschutz-Komponente."
+            },
+            {
+              "id": "B2_m04_R3_q3",
+              "type": "matching",
+              "questionText": "3. Familie Sommer weiß nicht, wie sie die Handynutzung ihrer zehnjährigen Tochter sinnvoll begleiten soll. Sie wünschen sich ein individuelles Gespräch mit einer Fachperson, das sie flexibel von zu Hause aus wahrnehmen können.",
+              "matchingSources": [
+                { "id": "B2_m04_R3_ad_a", "label": "a" }, { "id": "B2_m04_R3_ad_b", "label": "b" },
+                { "id": "B2_m04_R3_ad_c", "label": "c" }, { "id": "B2_m04_R3_ad_d", "label": "d" },
+                { "id": "B2_m04_R3_ad_e", "label": "e" }, { "id": "B2_m04_R3_ad_f", "label": "f" },
+                { "id": "B2_m04_R3_ad_g", "label": "g" }, { "id": "B2_m04_R3_ad_h", "label": "h" },
+                { "id": "B2_m04_R3_ad_i", "label": "i" }, { "id": "B2_m04_R3_ad_j", "label": "j" },
+                { "id": "B2_m04_R3_ad_k", "label": "k" }, { "id": "B2_m04_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Anzeige c) 'Beratung für Eltern zur Mediennutzung' bietet genau das: Einzelgespräche mit Medienpädagog:innen, online möglich, individuell. Das passt zur Situation von Familie Sommer (10-jährige Tochter, flexibel, individuell). Distraktor d) (VHS 'Fake News erkennen') richtet sich an Erwachsene allgemein und behandelt nicht die Handynutzung von Kindern."
+            },
+            {
+              "id": "B2_m04_R3_q4",
+              "type": "matching",
+              "questionText": "4. Herr Okafor hat nach einer journalistischen Ausbildung nun vor, sich mit einem eigenen Podcast selbstständig zu machen. Er hat keine Vorerfahrung in Audioproduktion und benötigt sowohl das technische Grundwissen als auch Zugang zu einer ordentlichen Aufnahmeausrüstung.",
+              "matchingSources": [
+                { "id": "B2_m04_R3_ad_a", "label": "a" }, { "id": "B2_m04_R3_ad_b", "label": "b" },
+                { "id": "B2_m04_R3_ad_c", "label": "c" }, { "id": "B2_m04_R3_ad_d", "label": "d" },
+                { "id": "B2_m04_R3_ad_e", "label": "e" }, { "id": "B2_m04_R3_ad_f", "label": "f" },
+                { "id": "B2_m04_R3_ad_g", "label": "g" }, { "id": "B2_m04_R3_ad_h", "label": "h" },
+                { "id": "B2_m04_R3_ad_i", "label": "i" }, { "id": "B2_m04_R3_ad_j", "label": "j" },
+                { "id": "B2_m04_R3_ad_k", "label": "k" }, { "id": "B2_m04_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Anzeige e) Podcast-Produktionskurs richtet sich ausdrücklich an Einsteiger:innen ohne Vorkenntnisse, liefert technisches Grundwissen und stellt eine Mikrofonausstattung leihweise zur Verfügung – exakt Herrn Okafors Anforderungen."
+            },
+            {
+              "id": "B2_m04_R3_q5",
+              "type": "matching",
+              "questionText": "5. Frau Larsson ist freie Journalistin und wurde von einem Unternehmen wegen eines kritischen Artikels abgemahnt. Als DJV-Mitglied sucht sie eine schnelle, kostenfreie juristische Ersteinschätzung zu ihrem Persönlichkeitsrechtsfall.",
+              "matchingSources": [
+                { "id": "B2_m04_R3_ad_a", "label": "a" }, { "id": "B2_m04_R3_ad_b", "label": "b" },
+                { "id": "B2_m04_R3_ad_c", "label": "c" }, { "id": "B2_m04_R3_ad_d", "label": "d" },
+                { "id": "B2_m04_R3_ad_e", "label": "e" }, { "id": "B2_m04_R3_ad_f", "label": "f" },
+                { "id": "B2_m04_R3_ad_g", "label": "g" }, { "id": "B2_m04_R3_ad_h", "label": "h" },
+                { "id": "B2_m04_R3_ad_i", "label": "i" }, { "id": "B2_m04_R3_ad_j", "label": "j" },
+                { "id": "B2_m04_R3_ad_k", "label": "k" }, { "id": "B2_m04_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Anzeige f) Rechtsberatung Medien- und Datenschutzrecht bietet genau das: Erstgespräch kostenlos für DJV-Mitglieder, Thema Persönlichkeitsrecht – exakt Frau Larssons Situation."
+            },
+            {
+              "id": "B2_m04_R3_q6",
+              "type": "matching",
+              "questionText": "6. Gabriel studiert im sechsten Semester Kommunikationswissenschaft und sucht für die vorlesungsfreie Zeit ein Praktikum bei einer Redaktion oder PR-Agentur – idealerweise mit persönlicher Beratung an seiner Hochschule.",
+              "matchingSources": [
+                { "id": "B2_m04_R3_ad_a", "label": "a" }, { "id": "B2_m04_R3_ad_b", "label": "b" },
+                { "id": "B2_m04_R3_ad_c", "label": "c" }, { "id": "B2_m04_R3_ad_d", "label": "d" },
+                { "id": "B2_m04_R3_ad_e", "label": "e" }, { "id": "B2_m04_R3_ad_f", "label": "f" },
+                { "id": "B2_m04_R3_ad_g", "label": "g" }, { "id": "B2_m04_R3_ad_h", "label": "h" },
+                { "id": "B2_m04_R3_ad_i", "label": "i" }, { "id": "B2_m04_R3_ad_j", "label": "j" },
+                { "id": "B2_m04_R3_ad_k", "label": "k" }, { "id": "B2_m04_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "k",
+              "explanation": "Anzeige k) Praktikumsbörse Medien listet genau das: Redaktionen, Verlage, PR-Agenturen, filterbar nach Fachrichtung, mit persönlicher Beratung in der Uni-Karriereberatung – exakt Gabriels Bedarf."
+            },
+            {
+              "id": "B2_m04_R3_q7",
+              "type": "matching",
+              "questionText": "7. Frau Díaz möchte in ihrer Redaktion eine Informationsveranstaltung für ein älteres Ehrenamtspublikum organisieren – zum Thema, wie man Falschnachrichten im Netz erkennt. Sie sucht einen erprobten Volkshochschulkurs zu dieser Thematik, den sie als Vorlage oder Kooperationspartner nutzen kann.",
+              "matchingSources": [
+                { "id": "B2_m04_R3_ad_a", "label": "a" }, { "id": "B2_m04_R3_ad_b", "label": "b" },
+                { "id": "B2_m04_R3_ad_c", "label": "c" }, { "id": "B2_m04_R3_ad_d", "label": "d" },
+                { "id": "B2_m04_R3_ad_e", "label": "e" }, { "id": "B2_m04_R3_ad_f", "label": "f" },
+                { "id": "B2_m04_R3_ad_g", "label": "g" }, { "id": "B2_m04_R3_ad_h", "label": "h" },
+                { "id": "B2_m04_R3_ad_i", "label": "i" }, { "id": "B2_m04_R3_ad_j", "label": "j" },
+                { "id": "B2_m04_R3_ad_k", "label": "k" }, { "id": "B2_m04_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Anzeige d) VHS Köln 'Fake News erkennen' richtet sich an Erwachsene und deckt genau die Inhalte ab, die Frau Díaz braucht: Quellenprüfung, Bilderrückwärtssuche, Manipulationsmuster – im bewährten VHS-Format."
+            },
+            {
+              "id": "B2_m04_R3_q8",
+              "type": "matching",
+              "questionText": "8. Lina ist sechzehn und plant eine Karriere als Reporterin. Sie möchte vor dem Abitur praktische Erfahrung sammeln: Interviews führen, vor der Kamera sprechen, individuelles Feedback bekommen. Eine kompakte, günstige Form wäre ideal.",
+              "matchingSources": [
+                { "id": "B2_m04_R3_ad_a", "label": "a" }, { "id": "B2_m04_R3_ad_b", "label": "b" },
+                { "id": "B2_m04_R3_ad_c", "label": "c" }, { "id": "B2_m04_R3_ad_d", "label": "d" },
+                { "id": "B2_m04_R3_ad_e", "label": "e" }, { "id": "B2_m04_R3_ad_f", "label": "f" },
+                { "id": "B2_m04_R3_ad_g", "label": "g" }, { "id": "B2_m04_R3_ad_h", "label": "h" },
+                { "id": "B2_m04_R3_ad_i", "label": "i" }, { "id": "B2_m04_R3_ad_j", "label": "j" },
+                { "id": "B2_m04_R3_ad_k", "label": "k" }, { "id": "B2_m04_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "h",
+              "explanation": "Anzeige h) Workshop 'Interviewtraining für junge Reporterinnen' ist genau darauf zugeschnitten: Kamera-Übungen, Fragetechniken, Einzelfeedback, kleine Gruppe, gefördert (nur 90 € Eigenbeitrag) – ideal für Lina."
+            },
+            {
+              "id": "B2_m04_R3_q9",
+              "type": "matching",
+              "questionText": "9. Herr Kowalczyk ist in einer Redaktion angestellt und möchte seinen Bachelor in Kommunikationswissenschaft berufsbegleitend, vollständig online und ohne Präsenztermine nachholen.",
+              "matchingSources": [
+                { "id": "B2_m04_R3_ad_a", "label": "a" }, { "id": "B2_m04_R3_ad_b", "label": "b" },
+                { "id": "B2_m04_R3_ad_c", "label": "c" }, { "id": "B2_m04_R3_ad_d", "label": "d" },
+                { "id": "B2_m04_R3_ad_e", "label": "e" }, { "id": "B2_m04_R3_ad_f", "label": "f" },
+                { "id": "B2_m04_R3_ad_g", "label": "g" }, { "id": "B2_m04_R3_ad_h", "label": "h" },
+                { "id": "B2_m04_R3_ad_i", "label": "i" }, { "id": "B2_m04_R3_ad_j", "label": "j" },
+                { "id": "B2_m04_R3_ad_k", "label": "k" }, { "id": "B2_m04_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "l",
+              "explanation": "Anzeige l) Fernstudium 'Bachelor Kommunikationswissenschaft' ist akkreditiert, berufsbegleitend, vollständig online und ohne Anwesenheitspflicht – exakt Herrn Kowalczyks Bedarf. Distraktor g) (Master Digital Media Management) setzt bereits einen ersten Abschluss voraus, hier fehlt der Bachelor."
+            },
+            {
+              "id": "B2_m04_R3_q10",
+              "type": "matching",
+              "questionText": "10. Frau Beck bereitet sich auf eine Recherchereise nach Kolumbien und Argentinien vor und benötigt innerhalb der nächsten vier Wochen einen journalistisch ausgerichteten Crashkurs Spanisch auf A2-Niveau, der komplett online stattfinden kann.",
+              "matchingSources": [
+                { "id": "B2_m04_R3_ad_a", "label": "a" }, { "id": "B2_m04_R3_ad_b", "label": "b" },
+                { "id": "B2_m04_R3_ad_c", "label": "c" }, { "id": "B2_m04_R3_ad_d", "label": "d" },
+                { "id": "B2_m04_R3_ad_e", "label": "e" }, { "id": "B2_m04_R3_ad_f", "label": "f" },
+                { "id": "B2_m04_R3_ad_g", "label": "g" }, { "id": "B2_m04_R3_ad_h", "label": "h" },
+                { "id": "B2_m04_R3_ad_i", "label": "i" }, { "id": "B2_m04_R3_ad_j", "label": "j" },
+                { "id": "B2_m04_R3_ad_k", "label": "k" }, { "id": "B2_m04_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "x",
+              "explanation": "Keine der zwölf Anzeigen passt. Anzeige j) ist zwar ein Spanischkurs für Journalist:innen, aber (1) auf B1-Niveau statt A2, (2) präsenz in Frankfurt (dienstags/donnerstags 19–21 Uhr) statt vollständig online, und (3) mit 50 Unterrichtseinheiten kein Crashkurs in 4 Wochen. Frau Becks Anforderungen (A2, online, 4 Wochen) werden damit nicht erfüllt – richtige Antwort 'x'. Die drei übrigen nicht zugeordneten Anzeigen sind: i) (Fachkongress 'Zukunft der Öffentlich-Rechtlichen'), g) (Master Digital Media Management) und j) (Spanischkurs B1 – der inhaltlich knapp, aber nicht passend ist). Diese drei Anzeigen (g, i, j) bleiben als ungenutzte Distraktoren in der Liste."
+            }
+          ]
+        }
+      ]
+    },
+    "sprachbausteine": {
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie den folgenden Text und entscheiden Sie, welches Wort (a, b, c oder d) in die Lücke passt. Es gibt jeweils nur eine richtige Lösung.",
+          "text": "Sehr geehrte Damen und Herren,\n\nim Namen der Verbraucherzentrale möchten wir Sie über die neue Informationskampagne zum Thema digitale Medienkompetenz informieren. Die Kampagne, die von einem Zusammenschluss mehrerer Landesstellen __(1)__ worden ist, richtet sich an erwachsene Nutzerinnen und Nutzer aller Altersgruppen. Ziel ist es, verlässliche Werkzeuge an die Hand zu geben, __(2)__ dabei helfen, seriöse Informationen von Fehlinformationen zu unterscheiden.\n\nBesonderer Wert wird darauf gelegt, dass jede Interessierte und jeder Interessierte die angebotenen Online-Trainings kostenfrei __(3)__ kann. Sollte eine Einrichtung diese Materialien auch in den eigenen Unterricht einbinden wollen, __(4)__ sie dies formlos per E-Mail anmelden. __(5)__ der rasanten Entwicklung im Bereich der sozialen Medien halten wir einen breit angelegten Bildungsansatz für notwendig.\n\nDas Angebot umfasst klassische Webinare, __(6)__ auch interaktive Lernmodule, die individuell bearbeitet werden können. Teilnehmende, die das Abschlussquiz erfolgreich __(7)__, erhalten ein persönliches Teilnahmezertifikat. __(8)__ ist die enge Zusammenarbeit mit Schulen, Bibliotheken und lokalen Vereinen, damit die Inhalte auch außerhalb des Online-Raums sichtbar werden.\n\nDie von uns __(9)__ Kampagne ist Teil einer umfassenderen Strategie gegen gezielte Desinformation. Wir sind überzeugt, __(10)__ vermittelte Fähigkeit zur Quellenprüfung langfristig zu einem besser informierten öffentlichen Diskurs beiträgt.\n\nMit freundlichen Grüßen\nDr. Elena Burkhardt, Leiterin Verbraucherbildung",
+          "questions": [
+            {
+              "blankNumber": 1,
+              "type": "mcq",
+              "options": ["a) entwickelt", "b) entwickelte", "c) zu entwickeln", "d) entwickelnd"],
+              "correctAnswer": "a",
+              "explanation": "Vorgangspassiv Perfekt: 'die von einem Zusammenschluss ... entwickelt worden ist' — Bildung: sein + Partizip II + worden. Das Partizip II 'entwickelt' ist zwingend. Distraktoren: b) 'entwickelte' wäre Aktiv-Präteritum (falsche Diathese), c) zu+Infinitiv passt grammatisch nicht zu 'ist worden', d) Partizip I signalisiert laufende Handlung und kombiniert nicht mit 'worden'. B2-Grammatik: Vorgangspassiv Perfekt.",
+              "id": "B2_m04_S1_q1"
+            },
+            {
+              "blankNumber": 2,
+              "type": "mcq",
+              "options": ["a) das", "b) der", "c) die", "d) denen"],
+              "correctAnswer": "c",
+              "explanation": "Relativsatz: 'Werkzeuge, die dabei helfen, ...' Das Relativpronomen bezieht sich auf 'Werkzeuge' (Plural) im Nominativ: 'die'. Distraktoren: a) 'das' = Neutrum Singular, b) 'der' = Maskulin Singular/Genitiv Plural, d) 'denen' wäre Dativ Plural (z. B. 'Werkzeuge, mit denen ...') – passt nicht als Subjekt des Nebensatzes. Hier verlangt 'Werkzeuge' (Plural, Nominativ) das Relativpronomen 'die'. B2-Grammatik: Relativpronomen mit Numerus- und Kasus-Kongruenz.",
+              "id": "B2_m04_S1_q2"
+            },
+            {
+              "blankNumber": 3,
+              "type": "mcq",
+              "options": ["a) in Anspruch nehmen", "b) in Anspruch genommen", "c) beanspruchen lassen", "d) sich beanspruchen"],
+              "correctAnswer": "a",
+              "explanation": "Funktionsverbgefüge (typisches B2-Konstrukt): 'etwas in Anspruch nehmen' = nutzen. Nach Modalverb 'kann' folgt Infinitiv: 'in Anspruch nehmen'. Distraktoren: b) Partizip passt nicht zu 'kann' (Modalverb + Infinitiv, nicht + Partizip II ohne Hilfsverb), c) 'beanspruchen lassen' wäre kausativ und sinnverändernd, d) 'sich beanspruchen' ist keine idiomatische Verbindung im Deutschen.",
+              "id": "B2_m04_S1_q3"
+            },
+            {
+              "blankNumber": 4,
+              "type": "mcq",
+              "options": ["a) muss", "b) soll", "c) müsste", "d) hätte"],
+              "correctAnswer": "a",
+              "explanation": "Inversion nach vorangestelltem Konditionalsatz ohne 'wenn': 'Sollte eine Einrichtung ... einbinden wollen, muss sie dies ... anmelden.' In formellen Mitteilungen mit klarem Verfahrensschritt → Indikativ 'muss'. Distraktoren: b) 'soll' wäre weicher (moralischer Auftrag), c) 'müsste' (Konjunktiv II) gäbe irrealen Ton, der hier unpassend ist, d) 'hätte' ist formal-grammatisch falsch (Hilfsverb ohne Partizip II). B2-Grammatik: Inversion nach Konditionalsatz.",
+              "id": "B2_m04_S1_q4"
+            },
+            {
+              "blankNumber": 5,
+              "type": "mcq",
+              "options": ["a) Mangels", "b) Trotz", "c) Anlässlich", "d) Aufgrund"],
+              "correctAnswer": "d",
+              "explanation": "Genitiv-Präposition mit kausaler Funktion: 'Aufgrund der rasanten Entwicklung ... halten wir einen breit angelegten Ansatz für notwendig.' 'aufgrund' = 'wegen, infolge von' – stellt die rasante Entwicklung als Ursache dar, auf die die beschriebene Maßnahme folgt. Distraktoren: a) 'Mangels' (= aus Mangel an) widerspricht dem Kontext – es gibt rasante Entwicklung, nicht Mangel, b) 'Trotz' fordert einen Gegensatz, den der Text nicht aufbaut (die Notwendigkeit folgt aus der Entwicklung, nicht trotz ihrer), c) 'Anlässlich' (= aus Anlass) passt nur zu einem Einzelereignis, nicht zu einem laufenden Prozess wie 'rasante Entwicklung'. Alle vier Optionen regieren den Genitiv, nur 'aufgrund' passt semantisch. B2-Präposition mit Genitiv.",
+              "id": "B2_m04_S1_q5"
+            },
+            {
+              "blankNumber": 6,
+              "type": "mcq",
+              "options": ["a) sondern", "b) aber auch", "c) dennoch", "d) zudem"],
+              "correctAnswer": "b",
+              "explanation": "Additiver Konnektor mit leichtem Kontrast: 'Das Angebot umfasst ... Webinare, aber auch interaktive Lernmodule.' Distraktoren: a) 'sondern' verlangt vorher Negation ('nicht nur ...'), die hier fehlt, c) 'dennoch' signalisiert Gegensatz – die beiden Formate schließen sich inhaltlich aber nicht aus, sind komplementär, d) 'zudem' würde als Satzadverb wirken und ein neues Verb in Position 2 verlangen; 'aber auch' fügt innerhalb des Aufzählungssatzes natürlich an.",
+              "id": "B2_m04_S1_q6"
+            },
+            {
+              "blankNumber": 7,
+              "type": "mcq",
+              "options": ["a) bestehen", "b) zu bestehen", "c) bestanden", "d) bestünden"],
+              "correctAnswer": "a",
+              "explanation": "Relativsatz im Präsens-Indikativ: 'Teilnehmende, die das Abschlussquiz erfolgreich bestehen, erhalten ...' Das Verb kongruiert mit Plural-Subjekt 'Teilnehmende' im Präsens. Distraktoren: b) Infinitiv mit zu passt nicht in den Relativsatz (bräuchte ein regierendes Verb), c) Partizip II allein ohne Hilfsverb unmöglich im finiten Satz, d) 'bestünden' (Konjunktiv II) würde eine irreale Bedingung signalisieren, passt aber nicht zum Indikativ der Ankündigung 'erhalten'. B2-Grammatik: Tempus-/Modus-Kongruenz im Relativsatz.",
+              "id": "B2_m04_S1_q7"
+            },
+            {
+              "blankNumber": 8,
+              "type": "mcq",
+              "options": ["a) Entscheidend", "b) Entscheidung", "c) Entscheidende", "d) Entschieden"],
+              "correctAnswer": "a",
+              "explanation": "Prädikatives Adjektiv: 'Entscheidend ist die enge Zusammenarbeit ...' Die endungslose Form signalisiert, dass das Adjektiv prädikativ nach 'sein' steht (vgl. 'Wichtig ist ...'). Distraktoren: b) 'Entscheidung' ist Substantiv und würde 'Eine Entscheidung ist ...' verlangen, c) 'Entscheidende' mit Endung wäre substantivierte Form und bräuchte einen Artikel ('Das Entscheidende ist ...'), d) 'Entschieden' wäre Partizip II und passt nicht als Satzanfang mit 'ist'. B2-Grammatik: prädikatives Adjektiv vs. Nominalisierung.",
+              "id": "B2_m04_S1_q8"
+            },
+            {
+              "blankNumber": 9,
+              "type": "mcq",
+              "options": ["a) gestartete", "b) startende", "c) zu startende", "d) gestartet"],
+              "correctAnswer": "a",
+              "explanation": "Partizipialattribut als B2-Kernthema: 'Die von uns gestartete Kampagne' = 'Die Kampagne, die von uns gestartet wurde'. Partizip II 'gestartet' + Adjektivendung -e (Nom. Sg. Fem. schwache Deklination nach 'Die'). Distraktoren: b) 'startende' (Partizip I) würde gleichzeitige aktive Handlung anzeigen – passt nicht, da die Kampagne sich nicht selbst startet, c) 'zu startende' wäre Gerundivum (zukünftig/notwendig zu starten), hier aber ist die Kampagne bereits gestartet, d) 'gestartet' unflektiert bricht die Adjektivdeklination im Attribut. Passivisches Partizipialattribut: gestartete.",
+              "id": "B2_m04_S1_q9"
+            },
+            {
+              "blankNumber": 10,
+              "type": "mcq",
+              "options": ["a) dass jede", "b) dass jeder", "c) dass alle", "d) dass man"],
+              "correctAnswer": "a",
+              "explanation": "Subjekt des dass-Satzes im Nominativ: 'dass jede vermittelte Fähigkeit ... beiträgt'. 'jede' (Nom. Sg. Fem.) bezieht sich auf 'Fähigkeit' (Feminin), Verb 'beiträgt' im Singular. Distraktoren: b) 'jeder' wäre Maskulin/Dativ – passt nicht zum Bezugsnomen Fähigkeit (Fem.), c) 'dass alle ... beiträgt' würde Subjekt-Verb-Inkongruenz verursachen (Plural Subjekt + Singular Verb), d) 'man' ist zu unspezifisch und würde den Bezug zu 'vermittelte Fähigkeit' zerschlagen. B2-Grammatik: Genus-Kongruenz im dass-Satz.",
+              "id": "B2_m04_S1_q10"
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Text. Welches Wort aus der Liste a–o passt in die Lücken? Jedes Wort passt nur einmal. Fünf Wörter bleiben übrig.",
+          "text": "Wer sich heute im Netz bewegt, gerät beinahe zwangsläufig in den Sog der sogenannten Filterblase. Empfehlungsalgorithmen zeigen uns vorrangig das, __(11)__ unsere bisherigen Klicks ohnehin bestätigt. Wer sich nicht bewusst gegensteuert, verliert in vielen Fällen den Zugang __(12)__ Perspektiven, die von der eigenen abweichen.\n\nMedienpädagoginnen raten __(13)__, regelmäßig den eigenen Konsum zu überprüfen und gezielt Quellen aus verschiedenen politischen Lagern zu lesen. __(14)__ gelingt es oft, den Eindruck zu durchbrechen, alle dächten ohnehin ähnlich. Wer darin geübter wird, bemerkt schneller, wenn eine Plattform versucht, ihn in eine bestimmte Richtung zu lenken.\n\nEin weiterer zentraler Punkt __(15)__ die Unterscheidung zwischen Meinung und Fakt. Wer Kommentare für Nachrichten hält, gerät leicht __(16)__ die Irre – besonders dann, wenn Kommentare im Design einer Nachrichtenmeldung daherkommen. Als verlässliche __(17)__ gilt deshalb ein kurzer Blick ins Impressum und ein Abgleich mit mindestens einer unabhängigen Quelle.\n\n__(18)__ der steigenden Komplexität setzen viele Schulen mittlerweile auf Medienkompetenz-Unterricht und interne Trainings. Fachleute sehen __(19)__ einen wichtigen Schritt – sofern der Unterricht nicht als einmaliges Projekt, sondern als fester Bestandteil verankert wird.\n\nWer sich auf diese Weise informiert, kann seine digitale Urteilskraft __(20)__ stärken. Medienkompetenz ist heute keine Zusatzqualifikation mehr, sondern eine Grundvoraussetzung für gesellschaftliche Teilhabe.",
+          "questions": [
+            {
+              "blankNumber": 11,
+              "type": "word_bank",
+              "options": [
+                "a) was", "b) zu", "c) dazu", "d) Dadurch", "e) ist",
+                "f) in", "g) Faustregel", "h) Hinsichtlich", "i) darin", "j) unter",
+                "k) bei", "l) nachhaltig", "m) jede", "n) stellt", "o) unnötig"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Relativpronomen nach verallgemeinerndem 'das': 'zeigen uns vorrangig das, was unsere bisherigen Klicks ohnehin bestätigt'. Nach dem neutralen 'das' als Verweiswort steht 'was' – Standardregel der Relativsatzbildung. Distraktor m) 'jede' passt nicht: ein Determiner ohne Bezugswort. B2-Grammatik: Relativpronomen 'was' nach 'das/alles/etwas/nichts'.",
+              "id": "B2_m04_S2_q11"
+            },
+            {
+              "blankNumber": 12,
+              "type": "word_bank",
+              "options": [
+                "a) was", "b) zu", "c) dazu", "d) Dadurch", "e) ist",
+                "f) in", "g) Faustregel", "h) Hinsichtlich", "i) darin", "j) unter",
+                "k) bei", "l) nachhaltig", "m) jede", "n) stellt", "o) unnötig"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Feste Kollokation: 'Zugang zu etwas (Dat.)' = Möglichkeit, zu etwas zu gelangen. 'Zugang zu Perspektiven'. Distraktor j) 'unter' wäre untypisch ('unter Perspektiven' ergibt keine idiomatische Wendung), k) 'bei' passt lokal/temporal, nicht zu 'Zugang'. B2-Präpositionsvalenz: Zugang + zu.",
+              "id": "B2_m04_S2_q12"
+            },
+            {
+              "blankNumber": 13,
+              "type": "word_bank",
+              "options": [
+                "a) was", "b) zu", "c) dazu", "d) Dadurch", "e) ist",
+                "f) in", "g) Faustregel", "h) Hinsichtlich", "i) darin", "j) unter",
+                "k) bei", "l) nachhaltig", "m) jede", "n) stellt", "o) unnötig"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Korrelatives Pronominaladverb: 'raten dazu, ... zu überprüfen und ... zu lesen'. 'dazu' verweist auf den nachfolgenden zu+Infinitiv-Satz. Distraktor i) 'darin' verweist auf 'in etwas' und passt nicht zu einem zu+Infinitiv-Anschluss im Verbgefüge 'raten zu etwas'. B2-Grammatik: Pronominaladverbien als Korrelate.",
+              "id": "B2_m04_S2_q13"
+            },
+            {
+              "blankNumber": 14,
+              "type": "word_bank",
+              "options": [
+                "a) was", "b) zu", "c) dazu", "d) Dadurch", "e) ist",
+                "f) in", "g) Faustregel", "h) Hinsichtlich", "i) darin", "j) unter",
+                "k) bei", "l) nachhaltig", "m) jede", "n) stellt", "o) unnötig"
+              ],
+              "correctAnswer": "d",
+              "explanation": "Satzanfang, kausal-instrumentaler Konnektor: 'Dadurch gelingt es oft ...' – 'dadurch' verweist zurück auf das unmittelbar zuvor beschriebene Vorgehen (Konsum überprüfen, verschiedene Quellen lesen). Großschreibung signalisiert den Satzanfang. B2-Diskursmarker: 'dadurch' als instrumentaler Rückverweis.",
+              "id": "B2_m04_S2_q14"
+            },
+            {
+              "blankNumber": 15,
+              "type": "word_bank",
+              "options": [
+                "a) was", "b) zu", "c) dazu", "d) Dadurch", "e) ist",
+                "f) in", "g) Faustregel", "h) Hinsichtlich", "i) darin", "j) unter",
+                "k) bei", "l) nachhaltig", "m) jede", "n) stellt", "o) unnötig"
+              ],
+              "correctAnswer": "e",
+              "explanation": "Kopulaverb: 'Ein weiterer zentraler Punkt ist die Unterscheidung ...' 'ist' verbindet Subjekt mit prädikativem Nomen. Distraktor n) 'stellt' wäre nur mit Ergänzung 'stellt ... dar' korrekt – hier fehlt aber 'dar' am Ende des Satzes.",
+              "id": "B2_m04_S2_q15"
+            },
+            {
+              "blankNumber": 16,
+              "type": "word_bank",
+              "options": [
+                "a) was", "b) zu", "c) dazu", "d) Dadurch", "e) ist",
+                "f) in", "g) Faustregel", "h) Hinsichtlich", "i) darin", "j) unter",
+                "k) bei", "l) nachhaltig", "m) jede", "n) stellt", "o) unnötig"
+              ],
+              "correctAnswer": "f",
+              "explanation": "Idiomatische Wendung: 'in die Irre geraten' = getäuscht werden. Feste Präposition 'in' + Akkusativ 'die Irre'. Die Redewendung ist B2-typisch. Distraktor j) 'unter' würde 'unter die Irre' produzieren – grammatisch unmöglich, da 'Irre' hier keine lokale Präposition außer 'in' akzeptiert. B2-Idiom.",
+              "id": "B2_m04_S2_q16"
+            },
+            {
+              "blankNumber": 17,
+              "type": "word_bank",
+              "options": [
+                "a) was", "b) zu", "c) dazu", "d) Dadurch", "e) ist",
+                "f) in", "g) Faustregel", "h) Hinsichtlich", "i) darin", "j) unter",
+                "k) bei", "l) nachhaltig", "m) jede", "n) stellt", "o) unnötig"
+              ],
+              "correctAnswer": "g",
+              "explanation": "Feste Kollokation: 'verlässliche Faustregel' = eine praktische, bewährte Grundregel. Substantiv nach Adjektiv 'verlässliche'. Distraktoren: l) 'nachhaltig' wäre Adjektiv und passt nicht nach 'verlässliche' (doppelte Attribution ungrammatisch); eine 'verlässliche nachhaltig' ergibt keinen Satz. B2-Vokabular: Faustregel.",
+              "id": "B2_m04_S2_q17"
+            },
+            {
+              "blankNumber": 18,
+              "type": "word_bank",
+              "options": [
+                "a) was", "b) zu", "c) dazu", "d) Dadurch", "e) ist",
+                "f) in", "g) Faustregel", "h) Hinsichtlich", "i) darin", "j) unter",
+                "k) bei", "l) nachhaltig", "m) jede", "n) stellt", "o) unnötig"
+              ],
+              "correctAnswer": "h",
+              "explanation": "Genitiv-Präposition 'Hinsichtlich der steigenden Komplexität' (Satzanfang, großgeschrieben) = 'in Bezug auf, was ... betrifft'. Passt zur nachfolgenden Folgeaussage über Schulmaßnahmen. B2-Präposition mit Genitiv. Distraktor h kann im Text nur einmal vorkommen – hier passt 'hinsichtlich' semantisch besser als die rein adverbialen/temporalen Alternativen.",
+              "id": "B2_m04_S2_q18"
+            },
+            {
+              "blankNumber": 19,
+              "type": "word_bank",
+              "options": [
+                "a) was", "b) zu", "c) dazu", "d) Dadurch", "e) ist",
+                "f) in", "g) Faustregel", "h) Hinsichtlich", "i) darin", "j) unter",
+                "k) bei", "l) nachhaltig", "m) jede", "n) stellt", "o) unnötig"
+              ],
+              "correctAnswer": "i",
+              "explanation": "Pronominaladverb: 'sehen darin einen wichtigen Schritt' = 'sehen in dieser Maßnahme (= Medienkompetenz-Unterricht) ...'. 'darin' verweist auf den zuvor beschriebenen Schulansatz. Das Verb 'etwas in etwas sehen' ist die feste Kollokation. B2-Grammatik: Pronominaladverbien.",
+              "id": "B2_m04_S2_q19"
+            },
+            {
+              "blankNumber": 20,
+              "type": "word_bank",
+              "options": [
+                "a) was", "b) zu", "c) dazu", "d) Dadurch", "e) ist",
+                "f) in", "g) Faustregel", "h) Hinsichtlich", "i) darin", "j) unter",
+                "k) bei", "l) nachhaltig", "m) jede", "n) stellt", "o) unnötig"
+              ],
+              "correctAnswer": "l",
+              "explanation": "Adverbiale Funktion: 'kann seine digitale Urteilskraft nachhaltig stärken' – 'nachhaltig' als unflektiertes Adverb verstärkt 'stärken' und bildet eine natürliche Kollokation (vgl. 'nachhaltig verbessern', 'nachhaltig prägen'). Es fasst die zentrale These des Textes zusammen. Distraktoren: j) 'unter' wäre Präposition ohne passenden Kontext, k) 'bei' ebenso, m) 'jede' wäre Determiner ohne nachfolgendes Substantiv, n) 'stellt' würde Verbdopplung erzeugen, o) 'unnötig' kehrt die positive Aussage ins Sinnlose. Die verbleibenden fünf Distraktoren (j, k, m, n, o) passen zu keiner Lücke im Text.",
+              "id": "B2_m04_S2_q20"
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 30,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "letter",
+          "instructions": "Wählen Sie EINE der beiden folgenden Aufgaben (A oder B) und bearbeiten Sie diese. Beachten Sie die Leitpunkte und schreiben Sie mindestens 150 Wörter (Richtwert: 200 Wörter). Kennzeichnen Sie am Anfang Ihres Textes deutlich, welche Aufgabe Sie gewählt haben.",
+          "instructionsTranslation": "Choose ONE of the two tasks (A or B) below and complete it. Address the guiding points and write at least 150 words (target: around 200 words). Clearly mark at the top of your text which task you have chosen.",
+          "prompt": "AUFGABE A (Stellungnahme):\n\nSituation: In der überregionalen Wochenzeitung 'Gesellschaft & Debatte' ist ein Leitartikel mit dem Titel 'Soziale Medien machen unsere Jugend krank' erschienen. Die Autorin argumentiert, der tägliche Konsum sozialer Medien führe bei Jugendlichen nachweislich zu Schlafproblemen, Konzentrationsstörungen und psychischer Belastung. Sie fordert deshalb ein gesetzliches Verbot sozialer Netzwerke für Personen unter sechzehn Jahren. Sie wollen auf diesen Artikel mit einem Leserbrief antworten.\n\nSchreiben Sie einen Leserbrief an die Redaktion (Herrn Dr. Clemens Voigt, Redaktion 'Gesellschaft & Debatte'). Gehen Sie auf die folgenden drei Leitpunkte ein:\n\n• Nehmen Sie Stellung zu der zentralen These des Artikels – stimmen Sie zu oder widersprechen Sie?\n• Nennen Sie mindestens zwei konkrete Argumente oder Beispiele aus Ihrer eigenen Erfahrung oder Beobachtung.\n• Machen Sie einen konstruktiven Vorschlag, wie Familien, Schulen oder der Staat den Umgang Jugendlicher mit sozialen Medien sinnvoller gestalten könnten als durch ein pauschales Verbot.\n\nBeachten Sie eine passende semi-formelle Anrede und eine sachliche Argumentation. Schreiben Sie mindestens 150 Wörter.\n\n— ODER —\n\nAUFGABE B (Beschwerdebrief):\n\nSituation: Vor sechs Wochen haben Sie bei dem Streaming-Dienst 'MediaFlix' ein Premium-Jahresabonnement für 179 € abgeschlossen. Laut Werbung sollte das Angebot werbefrei sein, eine deutsche Sprachausgabe für alle Serien enthalten und auf bis zu vier Endgeräten gleichzeitig nutzbar sein. In den vergangenen Wochen haben Sie jedoch festgestellt: Vor jeder Folge laufen drei Werbeeinblendungen, viele Serien sind nur auf Englisch verfügbar, und die gleichzeitige Nutzung auf mehr als zwei Geräten wurde zweimal gesperrt. Ihre bisherigen E-Mails an den Kundenservice sind unbeantwortet geblieben.\n\nSchreiben Sie eine formelle Beschwerde an die Geschäftsleitung (Frau Dr. Beatrice Neumann) der MediaFlix GmbH. Gehen Sie auf die folgenden drei Leitpunkte ein:\n\n• Beschreiben Sie die konkreten Mängel am Premium-Abo.\n• Erläutern Sie, warum diese Mängel eine spürbare Beeinträchtigung darstellen – etwa für Ihren beruflichen oder familiären Alltag.\n• Formulieren Sie eine klare Forderung (z. B. anteilige Rückerstattung, Umwandlung in ein anderes Abo, Sonderkündigungsrecht) und setzen Sie eine Frist.\n\nBeachten Sie Anrede, Einleitung und Grußformel. Schreiben Sie mindestens 150 Wörter.",
+          "promptTranslation": "TASK A (Opinion piece):\n\nSituation: A national weekly has published an opinion piece titled 'Social media is making our youth sick'. The author argues that daily social media use demonstrably leads to sleep problems, concentration issues, and mental health strain for teenagers. She therefore calls for a legal ban on social networks for people under sixteen. You want to respond with a letter to the editor.\n\nWrite a letter to the editor (Dr. Clemens Voigt, editorial team of 'Gesellschaft & Debatte'). Address these three guiding points:\n\n• State your position on the main thesis – agree or disagree.\n• Give at least two concrete arguments or examples from your own experience or observation.\n• Suggest constructively how families, schools, or the state could handle teenagers' social media use more sensibly than with a blanket ban.\n\nUse an appropriate semi-formal salutation and factual reasoning. Write at least 150 words.\n\n— OR —\n\nTASK B (Complaint letter):\n\nSituation: Six weeks ago you took out a Premium annual subscription (179 €) with the streaming service 'MediaFlix'. The advertising promised an ad-free experience, a German dub for all series, and use on up to four devices at once. In reality, there are three ads before each episode, many series are English-only, and simultaneous use on more than two devices has been blocked twice. Previous emails to customer service have gone unanswered.\n\nWrite a formal complaint to the managing director (Dr. Beatrice Neumann), MediaFlix GmbH. Address these three guiding points:\n\n• Describe the concrete shortcomings of the Premium subscription.\n• Explain why these deficiencies amount to a tangible impairment – for your work or family life.\n• Formulate a clear demand (e.g. partial refund, switch to another plan, special termination right) and set a deadline.\n\nInclude greeting, opening, and closing. Write at least 150 words.",
+          "requiredPoints": [
+            "Aufgabe A: Positionsbezug zur These, zwei eigene Argumente/Beispiele, konstruktiver Vorschlag statt Verbot",
+            "Aufgabe B: konkrete Mängel, Auswirkungen auf Alltag, klare Forderung + Frist"
+          ],
+          "wordCountMin": 150,
+          "wordCountMax": 230,
+          "sampleAnswer": "[AUFGABE A — Beispielantwort]\n\nSehr geehrter Herr Dr. Voigt,\n\nmit großem Interesse habe ich Ihren Leitartikel 'Soziale Medien machen unsere Jugend krank' gelesen. Während ich viele Sorgen der Autorin teile, halte ich ein pauschales Verbot für Jugendliche unter sechzehn für den falschen Weg.\n\nZunächst stimmt es, dass exzessiver Konsum messbare Folgen hat. In meinem eigenen Umfeld kenne ich mehrere Jugendliche, die abends kaum noch abschalten können. Allerdings ist das Problem weder flächendeckend noch allein durch die Plattformen verursacht – Schulstress, familiäre Umbrüche und fehlende Freizeitangebote spielen oft eine ebenso große Rolle. Ein gesetzliches Verbot würde diese tieferen Ursachen nicht berühren.\n\nDarüber hinaus zeigt meine Beobachtung als ehrenamtlicher Jugendtrainer: Verbote führen bei Teenagern zuverlässig zu Umgehungsstrategien – falsche Altersangaben, Zweitkonten, VPN-Zugänge. Die Wirkung wäre also begrenzt, der gesellschaftliche Druck aber hoch.\n\nKonstruktiver wäre aus meiner Sicht ein verpflichtender Medienkompetenz-Unterricht ab der fünften Klasse, kombiniert mit klaren Eltern-Jugendliche-Vereinbarungen und einer stärkeren Haftung der Plattformen für Empfehlungsalgorithmen gegenüber Minderjährigen. Damit ließen sich Risiken reduzieren, ohne die Selbstständigkeit junger Menschen grundsätzlich in Frage zu stellen.\n\nMit freundlichen Grüßen\nAnna Reinhardt",
+          "scoringCriteria": [
+            {
+              "criterion": "I. Berücksichtigung der Leitpunkte",
+              "maxPoints": 15,
+              "description": "Alle drei Leitpunkte der gewählten Aufgabe (A oder B) werden inhaltlich mit B2-typischer Tiefe behandelt – nicht nur erwähnt, sondern mit Begründung und konkreten Details ausgeführt. A: A++ (15 Pkt) / B: B+ (10 Pkt) / C: C (5 Pkt) / D: unbehandelt (0 Pkt). Wird diese Kategorie mit D bewertet, erhält die gesamte Aufgabe 0 Punkte."
+            },
+            {
+              "criterion": "II. Kommunikative Gestaltung",
+              "maxPoints": 15,
+              "description": "Formelle/semi-formelle Anrede, logischer Textaufbau (Einleitung – Hauptteil – Schluss), konsistenter Sie-Register, B2-typische Diskursmarker (allerdings, darüber hinaus, im Übrigen, folglich, hinsichtlich, angesichts), passende Grußformel. Register-Sprünge (z.B. 'Hallo' in Beschwerde) werden abgewertet."
+            },
+            {
+              "criterion": "III. Formale Richtigkeit",
+              "maxPoints": 15,
+              "description": "B2-Grammatik korrekt eingesetzt: Passiv, Konjunktiv II für höfliche Forderungen ('Ich möchte Sie darum bitten', 'Ich erwarte, dass ...'), Nominalisierung, komplexe Nebensätze, Genitiv-Präpositionen. Rechtschreibung und Zeichensetzung. Fehler, die das Verständnis blockieren, führen zu D und damit zu 0 Punkten gesamt."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "presentation",
+          "instructions": "Teil 1 — Präsentation (ca. 3 Minuten pro Kandidat:in). Jede:r Kandidat:in erhält eine Themenkarte und hält eine kurze, strukturierte Präsentation (Einstieg, Hauptteil, Schluss). Anschließend stellt die Partnerin/der Partner 1–2 Nachfragen.",
+          "instructionsTranslation": "Part 1 — Presentation (approx. 3 minutes per candidate). Each candidate receives a topic card and gives a short, structured presentation (intro, main body, conclusion). Afterwards the partner asks 1–2 follow-up questions.",
+          "prompt": "KANDIDAT:IN A — Thema: 'Wie soziale Medien unser Miteinander verändern'\n\nHalten Sie eine kurze Präsentation (ca. 3 Minuten) zu diesem Thema. Strukturieren Sie Ihren Vortrag so:\n\n• Einstieg: Welche Rolle spielen soziale Medien in Ihrem eigenen Alltag? Ein konkretes Beispiel.\n• Hauptteil: Welche positiven Veränderungen beobachten Sie (neue Kontakte, schneller Zugang zu Informationen, Teilhabe)? Welche negativen (Oberflächlichkeit, Hass, Vergleichsdruck)?\n• Schluss: Wie sollten einzelne Menschen und die Gesellschaft mit sozialen Medien umgehen? Ihre persönliche Einschätzung.\n\n—\n\nKANDIDAT:IN B — Thema: 'Zwischen Pressefreiheit und Fake News – die Rolle des Journalismus heute'\n\nHalten Sie eine kurze Präsentation (ca. 3 Minuten) zu diesem Thema. Strukturieren Sie Ihren Vortrag so:\n\n• Einstieg: Warum ist Pressefreiheit in Ihren Augen besonders wichtig? Ein konkretes Beispiel aus einem beliebigen Land.\n• Hauptteil: Welche Herausforderungen hat der Journalismus heute (Finanzierung, Fake News, Algorithmen, Vertrauensverlust)? Welche Aufgaben bleiben weiterhin zentral (Kontrolle, Einordnung, Vielfalt der Stimmen)?\n• Schluss: Was können wir als Leserinnen und Leser tun, um guten Journalismus zu unterstützen? Ihre persönliche Einschätzung.",
+          "sampleResponse": "[Kandidat:in A — Wie soziale Medien unser Miteinander verändern]\n\nMeine Damen und Herren, ich möchte heute über soziale Medien und ihre Wirkung auf unser Miteinander sprechen. Eine kurze Anekdote zu Beginn: Vor einigen Wochen habe ich über ein Netzwerk den Kontakt zu einer ehemaligen Schulfreundin nach zwölf Jahren wiederaufgenommen – wir treffen uns inzwischen regelmäßig. Ohne diese Plattform wäre das sehr unwahrscheinlich gewesen.\n\nIm Hauptteil möchte ich kurz Chancen und Schattenseiten beleuchten. Positiv ist, dass soziale Medien einen niedrigschwelligen Zugang zu Wissen, Kampagnen und Communities bieten. Sie geben Menschen eine Stimme, die früher schwer sichtbar waren. Allerdings darf man die Schattenseiten nicht übersehen: Ständige Vergleiche mit idealisierten Lebensbildern erzeugen Druck, besonders bei Jugendlichen. Hinzu kommt ein zunehmend rauer Tonfall, der echte Gespräche erschwert, und Algorithmen, die Emotionen belohnen statt Einordnung.\n\nAbschließend bin ich überzeugt, dass wir einen bewussteren Umgang lernen müssen – feste Zeiten, klare Quellen, regelmäßige digitale Pausen. Gleichzeitig sollte der Gesetzgeber die Plattformen stärker in die Verantwortung nehmen, vor allem bei der Sichtbarkeit extremer Inhalte. Nur so kann man die Vorteile bewahren, ohne den Preis zu hoch werden zu lassen. Vielen Dank – was denken Sie dazu?\n\n[Beispielhafte Nachfrage der Partnerin/des Partners: 'Hast du selbst schon einmal bewusst eine Plattform verlassen oder eingeschränkt – und wie war das?']",
+          "evaluationTips": [
+            "Strukturieren Sie die Präsentation klar: Einstieg – Hauptteil – Schluss",
+            "Verwenden Sie B2-Diskursmarker: 'Zunächst', 'Darüber hinaus', 'Allerdings', 'Abschließend'",
+            "Nennen Sie EIN konkretes Beispiel (aus Umfeld/Beruf/Erfahrung), keine rein abstrakten Aussagen",
+            "Balance aus Chancen UND Risiken zeigen – B2 verlangt Differenzierung",
+            "Konjunktiv II für Einschätzungen: 'Ich könnte mir vorstellen, dass ...', 'Sinnvoll wäre ...'",
+            "Direkter Schluss mit persönlicher Einschätzung + Übergabe an Partner",
+            "Zeitlimit (~3 Min) beachten – nicht länger, nicht kürzer"
+          ],
+          "keyPhrases": [
+            "Ich möchte heute über ... sprechen.",
+            "Ein konkretes Beispiel dafür ist ...",
+            "Einerseits ..., andererseits ...",
+            "Besonders hervorheben möchte ich ...",
+            "Allerdings darf man nicht übersehen, dass ...",
+            "Meiner Ansicht nach ...",
+            "Abschließend lässt sich festhalten ...",
+            "Was denken Sie / was denkst du dazu?"
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "discussion",
+          "instructions": "Teil 2 — Diskussion (ca. 5 Minuten gemeinsam). Beide Kandidat:innen erhalten denselben provokanten Satz und diskutieren ihn. Ziel: eigene Position vertreten, auf die Argumente der Partnerin/des Partners eingehen, widersprechen oder weiterentwickeln.",
+          "instructionsTranslation": "Part 2 — Discussion (approx. 5 minutes together). Both candidates receive the same provocative statement and discuss it. Goal: defend your own position, engage with the partner's arguments, disagree or build on them.",
+          "prompt": "Thema für beide Kandidat:innen:\n\n'Der Staat sollte große soziale Netzwerke streng regulieren – zur Not bis hin zu einem vollständigen Verbot für Minderjährige unter sechzehn Jahren.'\n\n— Leitfragen für die Diskussion —\n\n• Stimmen Sie dieser These zu oder widersprechen Sie?\n• Welche Probleme würde eine strengere Regulierung lösen? Welche neuen könnte sie schaffen?\n• Wer trägt überhaupt die Verantwortung – Staat, Plattformen, Eltern, Jugendliche selbst?\n• Sehen Sie praktikable Alternativen zu einem Verbot (Altersnachweis, Medienkompetenz im Unterricht, Algorithmus-Transparenz)?\n\nReagieren Sie auf die Argumente Ihrer Partnerin/Ihres Partners, widersprechen Sie höflich, wo nötig, und versuchen Sie am Ende, Ihre Positionen zusammenzuführen oder respektvoll unterschiedlich stehen zu lassen.",
+          "sampleResponse": "KANDIDAT:IN A: 'Also, ich sehe das Thema zwiespältig. Einerseits teile ich die Sorge, dass Jugendliche unter sechzehn mit bestimmten Inhalten überfordert sind. Andererseits halte ich ein striktes Verbot für zu grob – es ersetzt kein vernünftiges Bildungsangebot.'\n\nKANDIDAT:IN B: 'Da möchte ich zustimmend, aber deutlich ergänzen. Ein reines Verbot würde Jugendliche nur in weniger kontrollierte Räume treiben. Trotzdem finde ich, dass der Staat stärker regulieren muss – zum Beispiel bei der Haftung der Plattformen für schädliche Empfehlungsalgorithmen.'\n\nKANDIDAT:IN A: 'Das ist ein guter Punkt. Die Verantwortung liegt meiner Meinung nach tatsächlich in erster Linie bei den Plattformen – sie verdienen ja mit den Daten ihr Geld. Gleichzeitig darf man Eltern und Schulen nicht aus der Pflicht lassen; ein Algorithmus ersetzt keine echte Medienerziehung.'\n\nKANDIDAT:IN B: 'Einverstanden. Nur: Wie realistisch ist es, Eltern flächendeckend medienpädagogisch zu schulen? Ich würde deshalb eher auf verpflichtenden Medienunterricht setzen, und zwar ab der fünften Klasse. Das erreicht alle Kinder, unabhängig vom Elternhaus.'\n\nKANDIDAT:IN A: 'Gute Idee. Ein möglicher Kompromiss wäre: kein pauschales Verbot, aber harte Vorgaben an die Plattformen – etwa eine strikte Trennung zwischen normalen und minderjährigen Accounts, verpflichtender Medienunterricht und transparente Algorithmen.'\n\nKANDIDAT:IN B: 'Darauf können wir uns einigen. Insgesamt sehe ich Regulierung positiv, aber eher strukturell als verbietend.'",
+          "evaluationTips": [
+            "Klare Position beziehen – 'Ich stimme zu / Ich widerspreche'",
+            "Auf das Gesagte des Partners konkret eingehen – nicht nur die eigene Position wiederholen",
+            "Widerspruch höflich: 'Da möchte ich teilweise widersprechen ...', 'Das sehe ich anders, weil ...'",
+            "Konjunktiv II für hypothetische Argumentation: 'Wäre ...', 'Würde ...', 'Könnte ...'",
+            "Konkrete Beispiele oder Bereiche nennen, keine rein theoretischen Argumente",
+            "Versuch der Synthese am Ende: 'Ein möglicher Kompromiss wäre ...', 'Darauf können wir uns einigen.'",
+            "Diskursmarker der Argumentation: 'allerdings', 'andererseits', 'demgegenüber', 'darüber hinaus'"
+          ],
+          "keyPhrases": [
+            "Meiner Meinung nach ...",
+            "Ich kann dem nur teilweise zustimmen.",
+            "Das sehe ich anders, weil ...",
+            "Ein starkes Argument dafür/dagegen ist ...",
+            "Darf ich kurz darauf eingehen?",
+            "Ich verstehe deinen Punkt, allerdings ...",
+            "Wenn man es so betrachtet, ...",
+            "Ein Kompromiss könnte sein, dass ...",
+            "Da sind wir uns wohl einig."
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Teil 3 — Gemeinsam Planen (ca. 5 Minuten). Beide Kandidat:innen erhalten denselben Planungsauftrag und müssen gemeinsam zu einer konkreten Lösung kommen: Vorschläge machen, abwägen, verhandeln, Entscheidung treffen.",
+          "instructionsTranslation": "Part 3 — Collaborative Planning (approx. 5 minutes together). Both candidates receive the same planning task and must reach a concrete joint solution: make proposals, weigh options, negotiate, decide.",
+          "prompt": "Planungsauftrag für beide Kandidat:innen:\n\nIhr Stadtteilzentrum möchte einen 'Tag der Medienkompetenz' für Jugendliche im Alter von dreizehn bis siebzehn Jahren organisieren. Die Leitung des Zentrums hat Sie beide gebeten, gemeinsam das Konzept dafür zu entwickeln.\n\nBesprechen Sie folgende Punkte und treffen Sie konkrete Entscheidungen:\n\n• Zeitpunkt: An welchem Wochentag und zu welcher Uhrzeit soll der Tag stattfinden (Samstag, Ferienwoche, Schulzeit)? Ganztägig oder halbtägig?\n• Ort und Räume: In welchem Teil des Stadtteilzentrums – Saal, Workshop-Räume, Außenbereich? Soll etwas an einer Schule stattfinden?\n• Inhalte: Welche konkreten Workshops und Stationen soll es geben (z. B. Fake-News-Rallye, Umgang mit Hasskommentaren, eigene Kurzvideos erstellen, Diskussionsrunde mit Lokaljournalistin)?\n• Externe Gäste: Wen wollen Sie einladen – Journalistinnen, Polizei-Medienexpert:innen, Influencer:innen, Eltern?\n• Budget und Aufgabenverteilung: Wie hoch soll das Budget sein (das Zentrum stellt maximal 600 € zur Verfügung)? Wer übernimmt welche konkrete Vorbereitung bis zum Veranstaltungstag?\n\nEinigen Sie sich am Ende auf einen klaren Plan.",
+          "sampleResponse": "KANDIDAT:IN A: 'Fangen wir mit dem Zeitpunkt an. Ich würde vorschlagen, den Tag der Medienkompetenz in den Herbstferien an einem Donnerstag zu machen, von zehn bis sechzehn Uhr – dann haben die Jugendlichen frei und müssen nicht zwischen Schule und Workshop hin- und herpendeln.'\n\nKANDIDAT:IN B: 'Die Ferien finde ich etwas riskant, weil viele Familien verreist sind. Wie wäre es, wenn wir einen Samstag im September nehmen, direkt nach Schulstart? Da ist die Motivation meistens hoch, und wir erreichen mehr Teilnehmende.'\n\nKANDIDAT:IN A: 'Okay, das klingt sinnvoller. Zum Ort: den Saal des Stadtteilzentrums für die Eröffnung und eine Panel-Diskussion, und die vier Workshop-Räume für parallele Stationen. Den Außenbereich können wir für eine Pausenzone mit Snacks nutzen.'\n\nKANDIDAT:IN B: 'Einverstanden. Zum Inhalt: Ich würde folgende vier Stationen vorschlagen – erstens eine Fake-News-Rallye, zweitens einen Workshop zum Umgang mit Hass im Netz, drittens ein Kurzvideo-Studio mit Smartphone, viertens eine Gesprächsrunde mit einer Lokaljournalistin.'\n\nKANDIDAT:IN A: 'Perfekt. Für die Journalistin könnten wir die Redakteurin der Stadtzeitung anfragen – sie kenne ich aus einer früheren Veranstaltung. Für das Videostudio würde ich eine junge Content-Creatorin anfragen, das senkt die Hemmschwelle bei den Jugendlichen.'\n\nKANDIDAT:IN B: 'Gute Idee. Zum Budget: von den 600 Euro würde ich je 150 Euro für die beiden externen Gäste einplanen, 200 Euro für Snacks und Getränke, und 100 Euro für Materialien – Plakate, Moderationskarten, Preise für die Rallye. Passt das für dich?'\n\nKANDIDAT:IN A: 'Passt. Aufgabenverteilung: Ich übernehme die Einladung der externen Gäste und die Kommunikation mit den Schulen. Du könntest dich um Budget, Einkauf und Raumorganisation kümmern. Drei Wochen vorher machen wir nochmal einen kurzen Check-in.'\n\nKANDIDAT:IN B: 'Abgemacht. Also zusammengefasst: Samstag im September, Stadtteilzentrum, vier Stationen plus Panel, 600 Euro Budget aufgeteilt, du machst Gäste und Schulen, ich Einkauf und Räume – Check-in drei Wochen vorher.'\n\nKANDIDAT:IN A: 'Perfekt. Dann können wir das der Leitung so vorschlagen.'",
+          "evaluationTips": [
+            "Konkrete Vorschläge statt vager Ideen: Tag, Uhrzeit, Ort, Betrag, Station nennen",
+            "Aktiv zuhören – reagieren Sie spezifisch auf die Vorschläge des Partners",
+            "Konjunktiv II für Vorschläge: 'Ich würde vorschlagen ...', 'Wir könnten ...', 'Wie wäre es mit ...?'",
+            "Kompromisse zeigen: 'Ferien finde ich riskant – wie wäre ein Samstag?'",
+            "Am Ende zusammenfassen: 'Also zusammengefasst: ...'",
+            "Aufgabenverteilung explizit machen: 'Du übernimmst ..., ich übernehme ...'",
+            "Höfliche Zustimmung/Widerspruch: 'Einverstanden', 'Abgemacht', 'Das sehe ich anders'",
+            "Budget und Aufgabenverteilung müssen beide konkret benannt werden"
+          ],
+          "keyPhrases": [
+            "Ich würde vorschlagen, dass ...",
+            "Wie wäre es, wenn wir ...?",
+            "Das klingt sinnvoll, aber ...",
+            "Können wir uns darauf einigen, dass ...?",
+            "Wer übernimmt ...?",
+            "Ich kümmere mich um ..., du übernimmst bitte ...",
+            "Einverstanden / Abgemacht.",
+            "Also zusammengefasst: ...",
+            "Sollen wir das so festhalten?"
+          ]
+        }
+      ]
+    }
   }
 }
