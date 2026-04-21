@@ -1,13 +1,935 @@
 {
   "id": "B2_mock_08",
   "level": "B2",
-  "title": "Übungstest 8",
-  "version": 0,
-  "_stub": true,
+  "title": "B2 Übungstest 8: Gesellschaft & Integration",
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Nachrichtenmeldungen zum Thema Gesellschaft. Entscheiden Sie bei jeder Aussage: richtig oder falsch? Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short news bulletins on society topics. For each statement decide: correct or incorrect? You will hear each text only once.",
+          "audioFile": "assets/audio/B2/mock08/listening_part1.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m08_L1_q1",
+              "type": "true_false",
+              "questionText": "Laut der Meldung geht die Zahl der Einbürgerungen in Deutschland zum dritten Mal in Folge zurück.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Meldung sagt: 'Die Zahl der Einbürgerungen ist im dritten Jahr in Folge deutlich gestiegen und erreicht mit rund zweihundertfünfzigtausend einen neuen Höchststand.' 'gestiegen' und 'Höchststand' widersprechen klar einem Rückgang. B2-Falle: 'zum dritten Mal in Folge' klingt wie ein Trend, aber der Trend geht nach oben, nicht nach unten.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "B2_m08_L1_q2",
+              "type": "true_false",
+              "questionText": "Das Statistische Bundesamt prognostiziert, dass bis 2040 jede dritte Person in Deutschland über 65 Jahre alt sein wird.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Nachricht formuliert: 'Bis zum Jahr zweitausendvierzig wird nach Berechnungen des Statistischen Bundesamtes etwa jede vierte Person in Deutschland älter als fünfundsechzig Jahre sein.' Die Prognose nennt 'jede vierte', nicht 'jede dritte'. B2-Trap: Beide Zahlen klingen plausibel, aber nur eine steht im Audio.",
+              "audioTimestamp": 48
+            },
+            {
+              "id": "B2_m08_L1_q3",
+              "type": "true_false",
+              "questionText": "Ein neues Pilotprojekt des Bundesministeriums soll Ehrenamtlichen eine finanzielle Aufwandsentschädigung ermöglichen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Sprecherin nennt die Maßnahme: 'Das Bundesministerium für Familie hat ein Modellprojekt gestartet, in dessen Rahmen Ehrenamtliche erstmals eine monatliche Aufwandsentschädigung von bis zu zweihundert Euro erhalten.' Die Aufwandsentschädigung wird explizit bestätigt.",
+              "audioTimestamp": 85
+            },
+            {
+              "id": "B2_m08_L1_q4",
+              "type": "true_false",
+              "questionText": "Die Studie aus Leipzig zeigt, dass ländliche Regionen ihre jungen Fachkräfte inzwischen halten können.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Im Audio heißt es: 'Trotz zahlreicher Initiativen gelingt es dem ländlichen Raum nach wie vor kaum, junge Fachkräfte nach der Ausbildung vor Ort zu halten – die Abwanderung in die Großstädte setzt sich ungebremst fort.' 'nach wie vor kaum' und 'ungebremst fort' widersprechen der positiven Formulierung im Prompt. B2-Trap: 'zahlreiche Initiativen' könnte Erfolg suggerieren, aber die Hedging-Wendung 'gelingt kaum' zeigt das Gegenteil.",
+              "audioTimestamp": 118
+            },
+            {
+              "id": "B2_m08_L1_q5",
+              "type": "true_false",
+              "questionText": "Eine Umfrage der Bertelsmann-Stiftung zeigt, dass die Mehrheit der Deutschen Mehrsprachigkeit in Kitas positiv bewertet.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Text stellt fest: 'Laut einer aktuellen Umfrage der Bertelsmann-Stiftung begrüßen vierundsechzig Prozent der Befragten, dass in Kitas mehrere Sprachen gefördert werden.' Vierundsechzig Prozent sind eine deutliche Mehrheit und 'begrüßen' ist positiv. Die Aussage ist also richtig.",
+              "audioTimestamp": 155
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören ein Interview zum Thema Generationen und gesellschaftlicher Zusammenhalt. Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind. Sie hören das Interview nur einmal.",
+          "instructionsTranslation": "You will hear an interview on generations and social cohesion. Decide whether the following ten statements are correct or incorrect. You will hear the interview only once.",
+          "audioFile": "assets/audio/B2/mock08/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m08_L2_q1",
+              "type": "true_false",
+              "questionText": "Prof. Dr. Sonja Walter leitet das Institut für Sozialforschung an der Universität Heidelberg.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Moderator stellt sie vor: 'Heute bei uns Frau Prof. Dr. Sonja Walter, Leiterin des Instituts für Sozialforschung an der Universität Heidelberg.' Die Aussage wird wörtlich bestätigt.",
+              "audioTimestamp": 15
+            },
+            {
+              "id": "B2_m08_L2_q2",
+              "type": "true_false",
+              "questionText": "Laut Prof. Walter haben Jüngere und Ältere in Deutschland heute deutlich weniger persönlichen Kontakt als noch vor zwanzig Jahren.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Walter erklärt: 'Unsere Langzeitdaten zeigen, dass die Häufigkeit direkter Begegnungen zwischen den Generationen in den letzten zwei Jahrzehnten spürbar abgenommen hat – außerhalb der eigenen Familie treffen sich Jung und Alt heute seltener als früher.' 'spürbar abgenommen' bestätigt die Aussage.",
+              "audioTimestamp": 48
+            },
+            {
+              "id": "B2_m08_L2_q3",
+              "type": "true_false",
+              "questionText": "Prof. Walter ist der Meinung, dass ältere Menschen grundsätzlich digital abgehängt sind.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Expertin differenziert: 'Man liest oft, Ältere seien digital abgehängt – das halte ich in dieser Pauschalität für ein Klischee. Wir sehen sehr aktive Seniorinnen und Senioren, die Videotelefonie und soziale Medien selbstverständlich nutzen.' Sie widerspricht also dem Pauschalurteil. Klassische B2-Hedging-Falle: 'Man liest oft' markiert eine fremde Meinung, die die Sprecherin gerade nicht teilt.",
+              "audioTimestamp": 92
+            },
+            {
+              "id": "B2_m08_L2_q4",
+              "type": "true_false",
+              "questionText": "Der Moderator weist darauf hin, dass viele Großstädte mittlerweile Mehrgenerationenhäuser eingerichtet haben.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Moderator sagt: 'Inzwischen haben viele deutsche Städte Mehrgenerationenhäuser eingerichtet, in denen Jung und Alt sich begegnen können.' Die Aussage wird im Interview bestätigt.",
+              "audioTimestamp": 138
+            },
+            {
+              "id": "B2_m08_L2_q5",
+              "type": "true_false",
+              "questionText": "Prof. Walter sieht in der Altersvorsorge die größte Quelle für Konflikte zwischen den Generationen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Walter nennt die größte Konfliktquelle anders: 'Das größte Konfliktpotenzial liegt heute eindeutig beim Wohnraum – junge Familien und Senioren konkurrieren in den Städten um die wenigen bezahlbaren Wohnungen.' Die Altersvorsorge wird als zweitrangig erwähnt, aber nicht als größte Quelle. B2-Trap: Beide Themen werden genannt, aber nur eines als das 'größte'.",
+              "audioTimestamp": 175
+            },
+            {
+              "id": "B2_m08_L2_q6",
+              "type": "true_false",
+              "questionText": "Die Expertin behauptet, dass reine Online-Begegnungen persönliche Treffen vollwertig ersetzen können.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Walter plädiert für Mischformen: 'Digitale Kontakte können persönliche Begegnungen ergänzen, aber nicht ersetzen – für echtes Vertrauen zwischen den Generationen braucht es den gemeinsamen Raum.' Sie sagt also das Gegenteil: Ergänzung ja, Ersatz nein.",
+              "audioTimestamp": 212
+            },
+            {
+              "id": "B2_m08_L2_q7",
+              "type": "true_false",
+              "questionText": "Prof. Walter empfiehlt, ehrenamtliches Engagement schon in der Schulzeit systematisch zu fördern.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Expertin sagt deutlich: 'Entscheidend ist, dass wir Ehrenamt und gesellschaftliches Engagement bereits in der Schule systematisch verankern – wer als Jugendlicher einmal Verantwortung übernommen hat, bleibt ein Leben lang engagierter.' Die Empfehlung ist klar.",
+              "audioTimestamp": 245
+            },
+            {
+              "id": "B2_m08_L2_q8",
+              "type": "true_false",
+              "questionText": "Laut Prof. Walter engagieren sich Menschen mit Migrationshintergrund deutlich seltener ehrenamtlich als alteingesessene Deutsche.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Walter räumt mit dem Vorurteil auf: 'Anders als oft angenommen engagieren sich Menschen mit Migrationshintergrund in Vereinen und Initiativen inzwischen praktisch genauso häufig wie Personen ohne Migrationsgeschichte – in einigen Altersgruppen sogar häufiger.' 'praktisch genauso häufig' widerspricht dem 'deutlich seltener' im Prompt.",
+              "audioTimestamp": 275
+            },
+            {
+              "id": "B2_m08_L2_q9",
+              "type": "true_false",
+              "questionText": "Prof. Walter findet, dass die geplante Reform des Ehrenamts-Gesetzes sofort zurückgezogen werden sollte.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Im Gegenteil: 'Die geplante Reform des Ehrenamts-Gesetzes ist ein Schritt in die richtige Richtung, auch wenn sie im Detail noch nachjustiert werden muss.' Walter begrüßt die Reform und fordert nur Anpassungen. B2-Trap: Kritik an Details bedeutet nicht Ablehnung des Gesamtvorhabens.",
+              "audioTimestamp": 305
+            },
+            {
+              "id": "B2_m08_L2_q10",
+              "type": "true_false",
+              "questionText": "Am Ende des Interviews verweist der Moderator auf einen ausführlichen Bericht auf der Website des Senders.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Moderator verabschiedet mit: 'Einen ausführlichen Hintergrundbericht zu den Studienergebnissen finden Sie ab sofort auf unserer Senderwebsite.' Die Aussage ist also korrekt.",
+              "audioTimestamp": 345
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Ansagen oder Nachrichten aus dem gesellschaftlichen Alltag. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short announcements or messages from everyday social life. What is correct? Choose a, b, or c. You will hear each text only once.",
+          "audioFile": "assets/audio/B2/mock08/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m08_L3_q1",
+              "type": "mcq",
+              "questionText": "Warum ruft Frau Özdemir im Bürgerbüro an?",
+              "options": [
+                "a) Sie möchte einen Termin zur Passverlängerung buchen.",
+                "b) Sie bittet um Auskunft zu den Unterlagen für die Einbürgerung.",
+                "c) Sie beschwert sich über die lange Wartezeit in der Behörde."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Frau Özdemir sagt auf der Mailbox: 'Ich stehe kurz vor meiner Einbürgerung und bin mir unsicher, welche Unterlagen ich zusätzlich zum Einkommensnachweis einreichen muss. Könnten Sie mir bitte eine vollständige Liste zuschicken?' Sie fragt also nach Unterlagen zur Einbürgerung. Distraktor a) nutzt das Stichwort 'Behörde' aus der Ansage, aber Pass wird nicht erwähnt. Distraktor c) widerspricht dem höflichen Ton.",
+              "audioTimestamp": 18
+            },
+            {
+              "id": "B2_m08_L3_q2",
+              "type": "mcq",
+              "questionText": "Was teilt die Gemeindeverwaltung den Bürgerinnen und Bürgern mit?",
+              "options": [
+                "a) Der geplante Neubau eines Seniorenheims wird um ein Jahr verschoben.",
+                "b) Ab Oktober eröffnet im Rathaus eine kostenlose Migrationsberatung.",
+                "c) Der diesjährige Ehrenamtspreis wird an einen Kulturverein verliehen."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Ansage informiert: 'Ab Montag, dem ersten Oktober, steht Ihnen im Erdgeschoss des Rathauses eine neue kostenlose Migrationsberatung zur Verfügung – jeden Dienstag- und Donnerstagvormittag.' Die Eröffnung der Migrationsberatung ist der Kern. Distraktoren a) und c) werden nicht erwähnt.",
+              "audioTimestamp": 58
+            },
+            {
+              "id": "B2_m08_L3_q3",
+              "type": "mcq",
+              "questionText": "Was empfiehlt die Nachbarschaftskoordinatorin der Anruferin?",
+              "options": [
+                "a) sich direkt an die Polizei zu wenden",
+                "b) zunächst das persönliche Gespräch mit den neuen Nachbarn zu suchen",
+                "c) einen offiziellen Beschwerdebrief an die Hausverwaltung zu schreiben"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Koordinatorin sagt: 'Bevor wir formelle Schritte überlegen, würde ich Ihnen dringend raten, zunächst das persönliche Gespräch mit den neuen Nachbarn zu suchen – in den meisten Fällen lassen sich Missverständnisse direkt klären.' Sie empfiehlt also explizit das Gespräch. Polizei (a) und Beschwerdebrief (c) werden zwar als 'formelle Schritte' angedeutet, aber nicht als erste Empfehlung ausgesprochen.",
+              "audioTimestamp": 108
+            },
+            {
+              "id": "B2_m08_L3_q4",
+              "type": "mcq",
+              "questionText": "Was ist das Hauptanliegen der Voicemail vom Vereinsvorstand?",
+              "options": [
+                "a) Er möchte die Mitgliederversammlung wegen zu weniger Anmeldungen absagen.",
+                "b) Er sucht dringend neue Ehrenamtliche für die Nachhilfe für geflüchtete Kinder.",
+                "c) Er kündigt eine Erhöhung des Mitgliedsbeitrags an."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Vereinsvorstand sagt deutlich: 'Wir suchen dringend zwei bis drei weitere Ehrenamtliche, die bereit wären, unsere kostenlose Nachhilfe für geflüchtete Kinder am Nachmittag zu unterstützen. Ohne zusätzliche Hilfe müssten wir das Angebot leider einschränken.' Der Aufruf nach Ehrenamtlichen ist zentral. Distraktoren a) und c) passen nicht zum Inhalt.",
+              "audioTimestamp": 150
+            },
+            {
+              "id": "B2_m08_L3_q5",
+              "type": "mcq",
+              "questionText": "Worüber informiert die Ansage im Mehrgenerationenhaus?",
+              "options": [
+                "a) Das geplante Sprachcafé fällt wegen Krankheit der Leiterin aus.",
+                "b) Der monatliche Gesprächskreis zwischen Jung und Alt findet heute im Garten statt.",
+                "c) Die Öffnungszeiten werden ab Januar um zwei Stunden verkürzt."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Ansage sagt: 'Liebe Besucherinnen und Besucher, unser monatlicher Gesprächskreis zwischen Jung und Alt findet heute ausnahmsweise nicht im großen Saal, sondern bei dem schönen Wetter draußen im Garten statt.' Die Verlegung des Gesprächskreises in den Garten ist die Hauptinformation. Distraktoren a) und c) werden nicht erwähnt.",
+              "audioTimestamp": 195
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 90,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie zuerst die fünf Kurztexte (1–5) und dann die zehn Überschriften (a–j). Welche Überschrift passt am besten zu welchem Text? Für jeden Text gibt es genau eine passende Überschrift. Fünf Überschriften bleiben übrig.",
+          "instructionsTranslation": "First read the five short texts (1–5) and then the ten headlines (a–j). Which headline best matches which text? For each text there is exactly one matching headline. Five headlines remain unused.",
+          "texts": [
+            { "id": "B2_m08_R1_head_a", "type": "notice", "content": "a) Deutsch lernen per App – wie digitale Kurse Integration erleichtern" },
+            { "id": "B2_m08_R1_head_b", "type": "notice", "content": "b) Wenn das Dorf stirbt: Strukturwandel auf dem Land beschleunigt sich" },
+            { "id": "B2_m08_R1_head_c", "type": "notice", "content": "c) Ehrenamt-Rekord: Vereine verzeichnen mehr junge Mitglieder als je zuvor" },
+            { "id": "B2_m08_R1_head_d", "type": "notice", "content": "d) Rente mit 70? Politik streitet über Altersgrenze" },
+            { "id": "B2_m08_R1_head_e", "type": "notice", "content": "e) Neue Studie: Mehrsprachige Kinder haben Vorteile in der Schule" },
+            { "id": "B2_m08_R1_head_f", "type": "notice", "content": "f) Soziale Schere: Vermögensunterschiede in Deutschland wachsen weiter" },
+            { "id": "B2_m08_R1_head_g", "type": "notice", "content": "g) Mehrgenerationenhäuser: Pilotprojekt aus Bremen macht Schule" },
+            { "id": "B2_m08_R1_head_h", "type": "notice", "content": "h) Neue Heimat Großstadt – warum Hunderttausende aufs Land verzichten" },
+            { "id": "B2_m08_R1_head_i", "type": "notice", "content": "i) Einbürgerungsreform: Deutlich mehr Anträge als erwartet" },
+            { "id": "B2_m08_R1_head_j", "type": "notice", "content": "j) Gesundheitssystem am Limit: Pflegeberufe suchen Nachwuchs" }
+          ],
+          "questions": [
+            {
+              "id": "B2_m08_R1_q1",
+              "type": "matching",
+              "questionText": "Text 1: Ein halbes Jahr nach Inkrafttreten der reformierten Einbürgerungsregeln ziehen die Ausländerbehörden eine erste Bilanz: Die Zahl der Anträge liegt in vielen Bundesländern doppelt so hoch wie im Vorjahreszeitraum. Vor allem in Nordrhein-Westfalen und Berlin sind die Wartezeiten inzwischen auf bis zu neun Monate gestiegen. Das Bundesinnenministerium rechnet für das laufende Jahr mit der höchsten Einbürgerungszahl seit Beginn der Erhebung. Gleichzeitig fordern kommunale Spitzenverbände zusätzliches Personal, da die Behörden der Antragsflut kaum noch Herr werden. Erste Bundesländer haben bereits eigene digitale Antragsportale eingerichtet, um die Verfahren zu beschleunigen.",
+              "matchingSources": [
+                { "id": "B2_m08_R1_head_a", "label": "a" },
+                { "id": "B2_m08_R1_head_b", "label": "b" },
+                { "id": "B2_m08_R1_head_c", "label": "c" },
+                { "id": "B2_m08_R1_head_d", "label": "d" },
+                { "id": "B2_m08_R1_head_e", "label": "e" },
+                { "id": "B2_m08_R1_head_f", "label": "f" },
+                { "id": "B2_m08_R1_head_g", "label": "g" },
+                { "id": "B2_m08_R1_head_h", "label": "h" },
+                { "id": "B2_m08_R1_head_i", "label": "i" },
+                { "id": "B2_m08_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "i",
+              "explanation": "Der Text beschreibt die höhere Zahl an Einbürgerungsanträgen nach der Reform sowie die entstehenden Wartezeiten – exakt Überschrift i) 'Einbürgerungsreform: Deutlich mehr Anträge als erwartet'. Distraktor a) (Deutsch per App) passt nicht, weil digitale Antragsportale (Verwaltung) und digitale Sprachkurse zwei unterschiedliche Themen sind."
+            },
+            {
+              "id": "B2_m08_R1_q2",
+              "type": "matching",
+              "questionText": "Text 2: Die Universität Tübingen hat in einer dreijährigen Langzeitstudie untersucht, wie sich die gleichzeitige Förderung von Deutsch und Herkunftssprache auf die Schulleistungen auswirkt. Begleitet wurden rund zwölfhundert Grundschulkinder in fünf Bundesländern. Das Ergebnis fällt eindeutig aus: Kinder, die in der Kita und der ersten Klasse systematisch in beiden Sprachen gefördert wurden, schneiden in der vierten Klasse sowohl im Fach Deutsch als auch in Mathematik besser ab als einsprachig geförderte Vergleichsgruppen. Die Forschenden empfehlen, die Förderung der Mehrsprachigkeit als Regelangebot in den Bildungsauftrag aufzunehmen. Die Kultusministerien reagieren bislang zurückhaltend auf die Empfehlung.",
+              "matchingSources": [
+                { "id": "B2_m08_R1_head_a", "label": "a" },
+                { "id": "B2_m08_R1_head_b", "label": "b" },
+                { "id": "B2_m08_R1_head_c", "label": "c" },
+                { "id": "B2_m08_R1_head_d", "label": "d" },
+                { "id": "B2_m08_R1_head_e", "label": "e" },
+                { "id": "B2_m08_R1_head_f", "label": "f" },
+                { "id": "B2_m08_R1_head_g", "label": "g" },
+                { "id": "B2_m08_R1_head_h", "label": "h" },
+                { "id": "B2_m08_R1_head_i", "label": "i" },
+                { "id": "B2_m08_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Die Tübinger Langzeitstudie zeigt klare Vorteile mehrsprachig geförderter Grundschulkinder in Deutsch und Mathematik – Überschrift e) 'Mehrsprachige Kinder haben Vorteile in der Schule' passt exakt. Distraktor a) 'Deutsch lernen per App' verweist auf digitale Werkzeuge, die im Text nicht vorkommen."
+            },
+            {
+              "id": "B2_m08_R1_q3",
+              "type": "matching",
+              "questionText": "Text 3: Eine in Bremen entwickelte Einrichtung wird inzwischen bundesweit kopiert: Unter einem Dach leben, arbeiten und lernen Menschen aus vier Generationen gemeinsam – von Kita-Kindern bis hin zu Seniorinnen und Senioren, die sonst allein zu Hause sitzen würden. Das Modell verbindet Kinderbetreuung, Jugendtreff, Sprachcafé und Seniorennachmittag in einem Gebäude. Zwei Jahre nach Eröffnung melden bereits mehr als dreißig Städte Interesse an einer eigenen Umsetzung. Die Wissenschaft bestätigt den Nutzen: Erste Auswertungen zeigen messbare Effekte auf Einsamkeit bei Älteren und Schulleistungen bei Kindern. Das Bundesministerium hat angekündigt, ähnliche Projekte deutlich stärker zu fördern.",
+              "matchingSources": [
+                { "id": "B2_m08_R1_head_a", "label": "a" },
+                { "id": "B2_m08_R1_head_b", "label": "b" },
+                { "id": "B2_m08_R1_head_c", "label": "c" },
+                { "id": "B2_m08_R1_head_d", "label": "d" },
+                { "id": "B2_m08_R1_head_e", "label": "e" },
+                { "id": "B2_m08_R1_head_f", "label": "f" },
+                { "id": "B2_m08_R1_head_g", "label": "g" },
+                { "id": "B2_m08_R1_head_h", "label": "h" },
+                { "id": "B2_m08_R1_head_i", "label": "i" },
+                { "id": "B2_m08_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Der Text beschreibt exakt das Bremer Mehrgenerationenhaus-Modell, das bundesweit Schule macht – Überschrift g). Distraktor c) (Ehrenamt-Rekord) passt nicht, weil der Text nicht über Vereinsmitglieder, sondern über institutionelle Einrichtungen berichtet."
+            },
+            {
+              "id": "B2_m08_R1_q4",
+              "type": "matching",
+              "questionText": "Text 4: In vielen Regionen Ostdeutschlands und in Teilen Niederbayerns beschleunigt sich der Strukturwandel: Kleine Dörfer verlieren jedes Jahr ein bis zwei Prozent ihrer Bevölkerung, Grundschulen schließen, der letzte Dorfladen verschwindet oft gleich mit. Eine neue Untersuchung des Deutschen Instituts für Urbanistik spricht vom 'kritischen Kipppunkt', ab dem sich Abwanderung selbst verstärkt: Wenn die letzte Buslinie gestrichen wird oder der Hausarzt in Rente geht, ziehen auch die Unentschlossenen weg. Kommunalpolitikerinnen und -politiker fordern ein koordiniertes Gegensteuern von Bund und Ländern – Glasfaser, mobile Gesundheitsversorgung und bezahlbares Wohnen für Rückkehrwillige stünden ganz oben auf der Liste.",
+              "matchingSources": [
+                { "id": "B2_m08_R1_head_a", "label": "a" },
+                { "id": "B2_m08_R1_head_b", "label": "b" },
+                { "id": "B2_m08_R1_head_c", "label": "c" },
+                { "id": "B2_m08_R1_head_d", "label": "d" },
+                { "id": "B2_m08_R1_head_e", "label": "e" },
+                { "id": "B2_m08_R1_head_f", "label": "f" },
+                { "id": "B2_m08_R1_head_g", "label": "g" },
+                { "id": "B2_m08_R1_head_h", "label": "h" },
+                { "id": "B2_m08_R1_head_i", "label": "i" },
+                { "id": "B2_m08_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text dokumentiert das Sterben kleiner Dörfer durch Abwanderung und wegfallende Infrastruktur – Überschrift b) 'Wenn das Dorf stirbt: Strukturwandel auf dem Land beschleunigt sich' trifft den Inhalt exakt. Distraktor h) 'Neue Heimat Großstadt' fokussiert die Perspektive der Ankommenden, der Text jedoch die der Zurückbleibenden."
+            },
+            {
+              "id": "B2_m08_R1_q5",
+              "type": "matching",
+              "questionText": "Text 5: Eine aktuelle Auswertung des Deutschen Instituts für Wirtschaftsforschung zeigt, dass sich die Vermögensverteilung in Deutschland im vergangenen Jahrzehnt weiter zugunsten der obersten zehn Prozent verschoben hat. Das oberste Zehntel besitzt inzwischen mehr als sechzig Prozent des gesamten privaten Nettovermögens. Zugleich bleibt die untere Hälfte der Bevölkerung praktisch ohne nennenswertes Vermögen. Besonders deutlich sei die Kluft beim Immobilienbesitz: Wer geerbt hat, kommt leichter an eine eigene Wohnung. Die Studienautoren empfehlen eine grundlegende Reform der Erbschaftsteuer sowie mehr staatlich geförderten Wohnungsbau, um die soziale Mobilität zu erhöhen.",
+              "matchingSources": [
+                { "id": "B2_m08_R1_head_a", "label": "a" },
+                { "id": "B2_m08_R1_head_b", "label": "b" },
+                { "id": "B2_m08_R1_head_c", "label": "c" },
+                { "id": "B2_m08_R1_head_d", "label": "d" },
+                { "id": "B2_m08_R1_head_e", "label": "e" },
+                { "id": "B2_m08_R1_head_f", "label": "f" },
+                { "id": "B2_m08_R1_head_g", "label": "g" },
+                { "id": "B2_m08_R1_head_h", "label": "h" },
+                { "id": "B2_m08_R1_head_i", "label": "i" },
+                { "id": "B2_m08_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Der Text behandelt die wachsende Vermögensungleichheit, belegt durch DIW-Zahlen – deckungsgleich mit Überschrift f) 'Soziale Schere: Vermögensunterschiede in Deutschland wachsen weiter'. Die verbleibenden unbenutzten Überschriften (a, c, d, h, j) beziehen sich auf andere Themen (digitale Kurse, Ehrenamt, Rentenalter, Zuzug, Pflegeberufe)."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Zeitungsartikel. Wählen Sie bei jeder Aufgabe die beste Antwort (a, b oder c) aufgrund der Informationen im Text.",
+          "instructionsTranslation": "Read the following newspaper article. For each task choose the best answer (a, b, or c) based on the information in the text.",
+          "texts": [
+            {
+              "id": "B2_m08_R2_article",
+              "type": "article",
+              "content": "Ankommen ist ein langer Weg – was Integration in der alltäglichen Praxis wirklich bedeutet\n\nWenn von Integration die Rede ist, denken viele zuerst an Sprachkurse, Arbeitsplätze und Einbürgerungsurkunden. Wer allerdings mit Menschen spricht, die den langen Weg nach Deutschland tatsächlich hinter sich haben, hört eine andere Geschichte. 'Einen Sprachkurs zu bestehen ist das Einfachste – die eigentliche Integration beginnt danach, im Supermarkt, in der Elternversammlung, in der Nachbarschaft', sagt Dr. Aylin Kaya, Soziologin am Deutschen Zentrum für Integrations- und Migrationsforschung in Berlin. Eine von ihr geleitete Studie hat drei Jahre lang rund fünfhundert Zugewanderte aus unterschiedlichen Herkunftsländern begleitet. Das Ergebnis ist ernüchternd, aber auch hoffnungsvoll.\n\nDie befragten Zugewanderten berichten übereinstimmend, dass der größte Bruch nicht beim Ankommen passiert, sondern zwei bis drei Jahre später. 'In den ersten Monaten sind alle freundlich, alles ist neu, man ist im Schonraum von Behörden und Sprachkursen', erläutert Kaya. 'Doch sobald die eigentliche Beteiligung am Alltag beginnt – ein Kind in der Schule, eine Bewerbung um eine Wohnung, ein Konflikt mit dem Arbeitgeber – zeigen sich Hürden, die vorher unsichtbar waren.' Für Kaya liegt hier das eigentliche Versagen bisheriger Integrationspolitik: Sie ende praktisch mit dem Sprachzertifikat, während die wirklich harten Situationen erst danach kämen.\n\nBesonders aufschlussreich ist der zweite Teil der Studie. Die Forschenden haben gefragt, welche Erfahrungen den Zugewanderten am meisten geholfen haben. Die Antworten waren überraschend einheitlich: Nicht staatliche Programme oder offizielle Berater, sondern persönliche Beziehungen zu alteingesessenen Deutschen machten den Unterschied. Eine Kollegin, die beim ersten Elternabend neben einem sitzt. Ein Nachbar, der zeigt, wie der Müll getrennt wird. Ein Trainer im Sportverein, der die Kinder in die Mannschaft aufnimmt. 'Integration entsteht in der Kaffeepause, nicht im Amtszimmer', bringt es ein vierzigjähriger Befragter aus Syrien auf den Punkt. Genau diese informellen Brücken seien aber immer seltener: Wer neu ankommt, trifft heute häufig auf ein Umfeld, das selbst unter Zeitdruck und Unsicherheit steht.\n\nEine weitere zentrale Erkenntnis betrifft die sogenannte zweite Generation. Kinder und Jugendliche von Zugewanderten fühlen sich laut Studie häufiger fremd als ihre Eltern, obwohl sie in Deutschland geboren sind. Sie erleben Diskriminierung vor allem in Momenten, in denen sie nicht damit rechnen: beim Stellenwechsel, bei der Wohnungssuche, auf dem Spielplatz. 'Die erste Generation hatte klare Erwartungen – sie wusste, dass es schwer würde. Die zweite Generation hat Deutschland als Heimat erlebt und erlebt dann, dass Deutschland sie manchmal nicht als Teil von sich betrachtet.' Dieser Bruch, so Kaya, sei politisch bislang unterschätzt worden.\n\nTrotz aller Schwierigkeiten bleibt die Soziologin hoffnungsvoll. Die Studie zeige nämlich auch, dass gelungene Integration fast immer an sehr konkreten Orten stattfinde: an der Schule, im Verein, in der Volkshochschule, in der Kirchengemeinde oder Moschee. 'Wer nach Deutschland kommt und nach zwei Jahren mindestens einen Verein, eine feste Nachbarschaft und ein berufliches Netzwerk hat, ist angekommen – unabhängig von Sprachzertifikaten.' Kayas Empfehlung an die Politik lautet daher, weniger auf große nationale Programme zu setzen und stattdessen lokale Begegnungsräume konsequent zu fördern. 'Wir müssen begreifen: Integration ist keine Verwaltungsaufgabe. Sie ist etwas, das zwischen Menschen geschieht – oder eben nicht.'",
+              "source": "Süddeutsche Zeitung, Wochenendmagazin April 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "B2_m08_R2_q1",
+              "type": "mcq",
+              "questionText": "Was ist nach Dr. Kayas Einschätzung der wichtigste Schritt der Integration?",
+              "relatedTextId": "B2_m08_R2_article",
+              "options": [
+                "a) das erfolgreiche Bestehen eines anerkannten Deutschkurses",
+                "b) die Beteiligung am Alltag nach Abschluss der ersten Formalitäten",
+                "c) der rechtliche Status durch eine Einbürgerungsurkunde"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Kaya sagt klar: 'Einen Sprachkurs zu bestehen ist das Einfachste – die eigentliche Integration beginnt danach, im Supermarkt, in der Elternversammlung, in der Nachbarschaft.' Sie setzt den wichtigsten Schritt explizit NACH dem Sprachkurs an: die alltägliche Beteiligung. Option a wird im Text ausdrücklich als 'das Einfachste' abgewertet; Option c wird im Artikel zwar als verbreitete Vorstellung erwähnt, aber nicht als Kayas Position. B2-Trap: Alle drei Varianten werden genannt, aber nur b ist ihre These."
+            },
+            {
+              "id": "B2_m08_R2_q2",
+              "type": "mcq",
+              "questionText": "Was geschieht laut Studie typischerweise zwei bis drei Jahre nach der Ankunft?",
+              "relatedTextId": "B2_m08_R2_article",
+              "options": [
+                "a) Die meisten Zugewanderten kehren in ihr Heimatland zurück.",
+                "b) Die eigentlichen Hürden im Alltag werden sichtbar.",
+                "c) Die sprachlichen Fähigkeiten erreichen ein stabiles Endniveau."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text stellt fest: 'Doch sobald die eigentliche Beteiligung am Alltag beginnt ... zeigen sich Hürden, die vorher unsichtbar waren.' Das ist exakt Option b. Option a widerspricht der hoffnungsvollen Studienaussage, und Option c – Sprachstand – wird nicht als zeitliches Merkmal nach zwei bis drei Jahren genannt."
+            },
+            {
+              "id": "B2_m08_R2_q3",
+              "type": "mcq",
+              "questionText": "Welche Erfahrung war laut den Befragten am hilfreichsten für ihre Integration?",
+              "relatedTextId": "B2_m08_R2_article",
+              "options": [
+                "a) der Zugang zu staatlichen Integrationsprogrammen und offiziellen Beratern",
+                "b) persönliche Begegnungen mit alteingesessenen Deutschen im Alltag",
+                "c) die systematische Information durch mehrsprachige Online-Portale"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text sagt ausdrücklich: 'Nicht staatliche Programme oder offizielle Berater, sondern persönliche Beziehungen zu alteingesessenen Deutschen machten den Unterschied.' Option a wird im Text explizit abgegrenzt und kann daher nicht richtig sein; Option c (Online-Portale) wird im Text gar nicht thematisiert. B2-Trap: Option a enthält Stichwörter aus dem Text, aber der Text stellt sie genau als NICHT entscheidend dar."
+            },
+            {
+              "id": "B2_m08_R2_q4",
+              "type": "mcq",
+              "questionText": "Was zeigt die Studie über die zweite Generation von Zugewanderten?",
+              "relatedTextId": "B2_m08_R2_article",
+              "options": [
+                "a) Sie empfinden sich häufig stärker deutsch als ihre Eltern und fühlen sich deshalb weniger fremd.",
+                "b) Sie erleben überraschende Diskriminierung gerade in Alltagssituationen wie Wohnungssuche oder Spielplatz.",
+                "c) Sie kehren seltener in die Heimat ihrer Eltern zurück und planen langfristig in Deutschland."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text sagt: 'Sie erleben Diskriminierung vor allem in Momenten, in denen sie nicht damit rechnen: beim Stellenwechsel, bei der Wohnungssuche, auf dem Spielplatz.' Das entspricht Option b exakt. Option a kehrt die Textaussage um: Die zweite Generation fühlt sich laut Studie fremder, nicht stärker deutsch. Option c (Rückkehrverhalten) wird nicht thematisiert. B2-Trap: Option a enthält plausibles Alltagswissen, widerspricht aber dem Text."
+            },
+            {
+              "id": "B2_m08_R2_q5",
+              "type": "mcq",
+              "questionText": "Was empfiehlt Dr. Kaya der Politik am Ende des Artikels?",
+              "relatedTextId": "B2_m08_R2_article",
+              "options": [
+                "a) lokale Begegnungsräume konsequent zu fördern statt auf große nationale Programme zu setzen",
+                "b) die finanzielle Unterstützung für staatliche Integrationsbeauftragte spürbar zu erhöhen",
+                "c) bundesweit einheitliche Standards für Sprachprüfungen und Einbürgerungstests zu schaffen"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Kaya empfiehlt explizit: 'weniger auf große nationale Programme zu setzen und stattdessen lokale Begegnungsräume konsequent zu fördern.' Option a fasst das präzise zusammen. Option b (mehr Geld für Beauftragte) wird nicht empfohlen – Kaya spricht sogar gegen institutionelle Lösungen. Option c (bundesweite Standards) wird nicht thematisiert."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die zehn Situationen (1–10) und die zwölf Anzeigen (a–l). Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es höchstens eine passende Anzeige. Zwei Anzeigen bleiben übrig. Wenn keine Anzeige passt, schreiben Sie 'x'.",
+          "instructionsTranslation": "Read the ten situations (1–10) and the twelve advertisements (a–l). Which advertisement matches which situation? For each situation there is at most one matching advertisement. Two advertisements remain unused. If no advertisement fits, write 'x'.",
+          "texts": [
+            { "id": "B2_m08_R3_ad_a", "type": "ad", "content": "a) Sprachcafé Hamburg Altona – Jeden Mittwoch von 18 bis 20 Uhr treffen sich Menschen mit und ohne Migrationsgeschichte zum ungezwungenen Deutschsprechen. Kostenlos, ohne Anmeldung, Kaffee und Kuchen inklusive. sprachcafe-altona.de" },
+            { "id": "B2_m08_R3_ad_b", "type": "ad", "content": "b) Ehrenamtsbörse Berlin – Zentrale Plattform für freiwilliges Engagement: Über tausend aktuelle Einsätze in Nachhilfe, Seniorenbegleitung, Integrationspatenschaften und Kulturarbeit. Kostenlose Registrierung, Matching nach Zeit und Interesse. ehrenamt-berlin.de" },
+            { "id": "B2_m08_R3_ad_c", "type": "ad", "content": "c) Migrationsberatung der Caritas Köln – Kostenfreie Einzelberatung zu Aufenthaltsrecht, Anerkennung ausländischer Abschlüsse und Einbürgerungsverfahren. Termine mit Dolmetscher auf Türkisch, Arabisch, Russisch, Farsi. caritas-koeln.de" },
+            { "id": "B2_m08_R3_ad_d", "type": "ad", "content": "d) Interkulturelles Eltern-Kind-Turnen – Für Familien mit Kindern von zwei bis sechs Jahren. Sport, Spiel und Austausch zwischen Eltern aus verschiedenen Kulturen. Jeden Samstagvormittag im TSV Vereinsheim München. Zehn Euro pro Familie und Semester. tsv-muenchen.de" },
+            { "id": "B2_m08_R3_ad_e", "type": "ad", "content": "e) Mehrgenerationenhaus Frankfurt Bockenheim – Offener Treffpunkt für Jung und Alt. Wöchentlicher Gesprächskreis, gemeinsame Mittagstafel dienstags und donnerstags, Hilfe bei Behördengängen. Kostenfrei, ohne Vorbedingungen. mgh-bockenheim.de" },
+            { "id": "B2_m08_R3_ad_f", "type": "ad", "content": "f) Integrationskurs B1/B2 an der Volkshochschule Stuttgart – 600 Unterrichtseinheiten Deutsch plus Orientierungskurs zu Geschichte, Recht und Alltag in Deutschland. Vollförderung über das BAMF möglich. Einstiegstest erforderlich. vhs-stuttgart.de" },
+            { "id": "B2_m08_R3_ad_g", "type": "ad", "content": "g) Pflegekurs für pflegende Angehörige – Vier Abende à drei Stunden, Schwerpunkte: Heben und Lagern, Medikamentenmanagement, Entlastung für Pflegende. Kostenlos für Mitglieder der AOK. Nächster Start: 15. Mai, Hannover. aok-pflege.de" },
+            { "id": "B2_m08_R3_ad_h", "type": "ad", "content": "h) Nachbarschaftshilfe 'Zusammen im Viertel' Dresden Neustadt – Für Seniorinnen und Senioren, die Unterstützung im Alltag brauchen: Einkauf, Behördenwege, Gesellschaft bei Spaziergängen. Koordiniert durch Ehrenamtliche, ein Euro pro angefangener halber Stunde. zusammen-im-viertel.de" },
+            { "id": "B2_m08_R3_ad_i", "type": "ad", "content": "i) Sommercamp 'Demokratie erleben' – Einwöchiges Ferienlager für Jugendliche zwischen vierzehn und siebzehn Jahren mit Workshops zu Mitbestimmung, Engagement und interkulturellem Dialog. Vom achten bis fünfzehnten August in Brandenburg. 180 Euro, Ermäßigung auf Antrag. demokratie-camp.de" },
+            { "id": "B2_m08_R3_ad_j", "type": "ad", "content": "j) Anerkennungsberatung für akademische Abschlüsse – Kostenlose Erstberatung zu Hochschulabschlüssen aus Drittstaaten: Medizin, Ingenieurwesen, Lehramt. Dokumentenprüfung, Brückenkurse, Förderwege. Persönliche Beratung in zehn Städten. anerkennung-deutschland.de" },
+            { "id": "B2_m08_R3_ad_k", "type": "ad", "content": "k) Integrationspatenschaft werden – Begleiten Sie eine zugewanderte Familie für ein Jahr: zwei Treffen im Monat, Hilfe bei Behörden, Schule, Alltag. Für Ehrenamtliche ab achtzehn Jahren. Kostenlose Schulung und Supervision. Start in Leipzig, Dresden, Magdeburg. paten-fuer-integration.de" },
+            { "id": "B2_m08_R3_ad_l", "type": "ad", "content": "l) Seniorenakademie 'Aktiv im Alter' – Offene Vortragsreihe jeden zweiten Donnerstag in der Stadtbibliothek Münster. Themen: Digitales, Gesundheit, Reisen, Kultur. Freier Eintritt, kein Abo nötig. senioren-akademie-muenster.de" }
+          ],
+          "questions": [
+            {
+              "id": "B2_m08_R3_q1",
+              "type": "matching",
+              "questionText": "1. Leyla ist vor einem halben Jahr mit ihrer Familie aus dem Iran nach Deutschland gekommen. Ihr Deutsch ist noch nicht fließend, sie sucht eine kostenlose Beratung zu Aufenthaltsfragen in ihrer Muttersprache Farsi.",
+              "matchingSources": [
+                { "id": "B2_m08_R3_ad_a", "label": "a" }, { "id": "B2_m08_R3_ad_b", "label": "b" },
+                { "id": "B2_m08_R3_ad_c", "label": "c" }, { "id": "B2_m08_R3_ad_d", "label": "d" },
+                { "id": "B2_m08_R3_ad_e", "label": "e" }, { "id": "B2_m08_R3_ad_f", "label": "f" },
+                { "id": "B2_m08_R3_ad_g", "label": "g" }, { "id": "B2_m08_R3_ad_h", "label": "h" },
+                { "id": "B2_m08_R3_ad_i", "label": "i" }, { "id": "B2_m08_R3_ad_j", "label": "j" },
+                { "id": "B2_m08_R3_ad_k", "label": "k" }, { "id": "B2_m08_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Anzeige c) Migrationsberatung der Caritas Köln bietet kostenfreie Einzelberatung zu Aufenthaltsrecht und stellt explizit Dolmetscher auf Farsi bereit – exakt Leylas Bedarf. Anzeige f) (Integrationskurs) würde Deutschunterricht abdecken, nicht individuelle Aufenthaltsberatung."
+            },
+            {
+              "id": "B2_m08_R3_q2",
+              "type": "matching",
+              "questionText": "2. Herr Schmidt ist kürzlich in Rente gegangen und möchte sich sinnvoll engagieren. Er hat viele Jahre als Gymnasiallehrer gearbeitet und könnte sich gut vorstellen, geflüchteten Jugendlichen bei den Hausaufgaben zu helfen.",
+              "matchingSources": [
+                { "id": "B2_m08_R3_ad_a", "label": "a" }, { "id": "B2_m08_R3_ad_b", "label": "b" },
+                { "id": "B2_m08_R3_ad_c", "label": "c" }, { "id": "B2_m08_R3_ad_d", "label": "d" },
+                { "id": "B2_m08_R3_ad_e", "label": "e" }, { "id": "B2_m08_R3_ad_f", "label": "f" },
+                { "id": "B2_m08_R3_ad_g", "label": "g" }, { "id": "B2_m08_R3_ad_h", "label": "h" },
+                { "id": "B2_m08_R3_ad_i", "label": "i" }, { "id": "B2_m08_R3_ad_j", "label": "j" },
+                { "id": "B2_m08_R3_ad_k", "label": "k" }, { "id": "B2_m08_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Anzeige b) Ehrenamtsbörse Berlin vermittelt konkret Einsätze in Nachhilfe und Integrationsarbeit, mit Matching nach Interesse – ideal für Herrn Schmidts Qualifikation und sein Engagementwunsch."
+            },
+            {
+              "id": "B2_m08_R3_q3",
+              "type": "matching",
+              "questionText": "3. Frau Yılmaz pflegt seit einigen Monaten ihre kranke Mutter zu Hause und merkt, dass sie körperlich an ihre Grenzen kommt. Sie möchte praktische Techniken lernen und sich mit anderen Betroffenen austauschen.",
+              "matchingSources": [
+                { "id": "B2_m08_R3_ad_a", "label": "a" }, { "id": "B2_m08_R3_ad_b", "label": "b" },
+                { "id": "B2_m08_R3_ad_c", "label": "c" }, { "id": "B2_m08_R3_ad_d", "label": "d" },
+                { "id": "B2_m08_R3_ad_e", "label": "e" }, { "id": "B2_m08_R3_ad_f", "label": "f" },
+                { "id": "B2_m08_R3_ad_g", "label": "g" }, { "id": "B2_m08_R3_ad_h", "label": "h" },
+                { "id": "B2_m08_R3_ad_i", "label": "i" }, { "id": "B2_m08_R3_ad_j", "label": "j" },
+                { "id": "B2_m08_R3_ad_k", "label": "k" }, { "id": "B2_m08_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Anzeige g) Pflegekurs für pflegende Angehörige deckt exakt Frau Yılmaz' Bedürfnisse ab: Heben und Lagern (körperliche Entlastung), Austausch mit anderen Pflegenden. Kostenlos über AOK."
+            },
+            {
+              "id": "B2_m08_R3_q4",
+              "type": "matching",
+              "questionText": "4. Familie Okonkwo hat zwei kleine Kinder und ist vor einem Jahr aus Nigeria nach München gekommen. Die Eltern möchten andere Familien kennenlernen und gleichzeitig ihre Kinder körperlich aktiv halten.",
+              "matchingSources": [
+                { "id": "B2_m08_R3_ad_a", "label": "a" }, { "id": "B2_m08_R3_ad_b", "label": "b" },
+                { "id": "B2_m08_R3_ad_c", "label": "c" }, { "id": "B2_m08_R3_ad_d", "label": "d" },
+                { "id": "B2_m08_R3_ad_e", "label": "e" }, { "id": "B2_m08_R3_ad_f", "label": "f" },
+                { "id": "B2_m08_R3_ad_g", "label": "g" }, { "id": "B2_m08_R3_ad_h", "label": "h" },
+                { "id": "B2_m08_R3_ad_i", "label": "i" }, { "id": "B2_m08_R3_ad_j", "label": "j" },
+                { "id": "B2_m08_R3_ad_k", "label": "k" }, { "id": "B2_m08_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Anzeige d) Interkulturelles Eltern-Kind-Turnen im TSV München passt exakt: Familien mit kleinen Kindern, interkultureller Austausch, körperliche Aktivität, günstiger Semesterbeitrag."
+            },
+            {
+              "id": "B2_m08_R3_q5",
+              "type": "matching",
+              "questionText": "5. Dr. Rahimi hat in Teheran Humanmedizin studiert und zehn Jahre als Kinderärztin gearbeitet. In Deutschland möchte sie ihren Abschluss anerkennen lassen und weiß nicht, welche Unterlagen sie braucht.",
+              "matchingSources": [
+                { "id": "B2_m08_R3_ad_a", "label": "a" }, { "id": "B2_m08_R3_ad_b", "label": "b" },
+                { "id": "B2_m08_R3_ad_c", "label": "c" }, { "id": "B2_m08_R3_ad_d", "label": "d" },
+                { "id": "B2_m08_R3_ad_e", "label": "e" }, { "id": "B2_m08_R3_ad_f", "label": "f" },
+                { "id": "B2_m08_R3_ad_g", "label": "g" }, { "id": "B2_m08_R3_ad_h", "label": "h" },
+                { "id": "B2_m08_R3_ad_i", "label": "i" }, { "id": "B2_m08_R3_ad_j", "label": "j" },
+                { "id": "B2_m08_R3_ad_k", "label": "k" }, { "id": "B2_m08_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "j",
+              "explanation": "Anzeige j) Anerkennungsberatung für akademische Abschlüsse nennt Medizin explizit als Zielbranche und bietet Dokumentenprüfung sowie Brückenkurse – das trifft Dr. Rahimis Situation genau."
+            },
+            {
+              "id": "B2_m08_R3_q6",
+              "type": "matching",
+              "questionText": "6. Paul ist fünfundzwanzig und berufstätig, würde aber gerne zweimal im Monat Zeit investieren, um einer zugewanderten Familie beim Einstieg in Leipzig zu helfen – von Behördengängen bis Alltagsfragen.",
+              "matchingSources": [
+                { "id": "B2_m08_R3_ad_a", "label": "a" }, { "id": "B2_m08_R3_ad_b", "label": "b" },
+                { "id": "B2_m08_R3_ad_c", "label": "c" }, { "id": "B2_m08_R3_ad_d", "label": "d" },
+                { "id": "B2_m08_R3_ad_e", "label": "e" }, { "id": "B2_m08_R3_ad_f", "label": "f" },
+                { "id": "B2_m08_R3_ad_g", "label": "g" }, { "id": "B2_m08_R3_ad_h", "label": "h" },
+                { "id": "B2_m08_R3_ad_i", "label": "i" }, { "id": "B2_m08_R3_ad_j", "label": "j" },
+                { "id": "B2_m08_R3_ad_k", "label": "k" }, { "id": "B2_m08_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "k",
+              "explanation": "Anzeige k) Integrationspatenschaft entspricht exakt Pauls Vorstellung: zwei Treffen pro Monat, ein Jahr Begleitung, Hilfe bei Behörden und Alltag, Standort Leipzig ist ausdrücklich genannt."
+            },
+            {
+              "id": "B2_m08_R3_q7",
+              "type": "matching",
+              "questionText": "7. Frau Mehrotra ist allein erziehend und sucht für ihren sechzehnjährigen Sohn eine sinnvolle Ferienaktivität, bei der er Gleichaltrige trifft und etwas über Engagement und gesellschaftliche Mitbestimmung lernt.",
+              "matchingSources": [
+                { "id": "B2_m08_R3_ad_a", "label": "a" }, { "id": "B2_m08_R3_ad_b", "label": "b" },
+                { "id": "B2_m08_R3_ad_c", "label": "c" }, { "id": "B2_m08_R3_ad_d", "label": "d" },
+                { "id": "B2_m08_R3_ad_e", "label": "e" }, { "id": "B2_m08_R3_ad_f", "label": "f" },
+                { "id": "B2_m08_R3_ad_g", "label": "g" }, { "id": "B2_m08_R3_ad_h", "label": "h" },
+                { "id": "B2_m08_R3_ad_i", "label": "i" }, { "id": "B2_m08_R3_ad_j", "label": "j" },
+                { "id": "B2_m08_R3_ad_k", "label": "k" }, { "id": "B2_m08_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "i",
+              "explanation": "Anzeige i) Sommercamp 'Demokratie erleben' zielt genau auf Jugendliche zwischen vierzehn und siebzehn, mit Workshops zu Mitbestimmung und Engagement, plus Ermäßigungsmöglichkeit für Alleinerziehende."
+            },
+            {
+              "id": "B2_m08_R3_q8",
+              "type": "matching",
+              "questionText": "8. Herr Novák kam vor zwei Monaten aus der Slowakei nach Stuttgart und möchte nun einen anerkannten Deutschkurs auf B2-Niveau mit staatlicher Förderung besuchen.",
+              "matchingSources": [
+                { "id": "B2_m08_R3_ad_a", "label": "a" }, { "id": "B2_m08_R3_ad_b", "label": "b" },
+                { "id": "B2_m08_R3_ad_c", "label": "c" }, { "id": "B2_m08_R3_ad_d", "label": "d" },
+                { "id": "B2_m08_R3_ad_e", "label": "e" }, { "id": "B2_m08_R3_ad_f", "label": "f" },
+                { "id": "B2_m08_R3_ad_g", "label": "g" }, { "id": "B2_m08_R3_ad_h", "label": "h" },
+                { "id": "B2_m08_R3_ad_i", "label": "i" }, { "id": "B2_m08_R3_ad_j", "label": "j" },
+                { "id": "B2_m08_R3_ad_k", "label": "k" }, { "id": "B2_m08_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Anzeige f) Integrationskurs B1/B2 an der Volkshochschule Stuttgart bietet exakt das angefragte Niveau mit BAMF-Förderung am richtigen Ort. Passt präzise."
+            },
+            {
+              "id": "B2_m08_R3_q9",
+              "type": "matching",
+              "questionText": "9. Frau Gertrud Hansen, dreiundachtzig, wohnt allein in Dresden Neustadt. Seit dem Tod ihres Mannes fällt ihr das Einkaufen schwer und sie wünscht sich gelegentlich auch einfach jemanden zum Reden.",
+              "matchingSources": [
+                { "id": "B2_m08_R3_ad_a", "label": "a" }, { "id": "B2_m08_R3_ad_b", "label": "b" },
+                { "id": "B2_m08_R3_ad_c", "label": "c" }, { "id": "B2_m08_R3_ad_d", "label": "d" },
+                { "id": "B2_m08_R3_ad_e", "label": "e" }, { "id": "B2_m08_R3_ad_f", "label": "f" },
+                { "id": "B2_m08_R3_ad_g", "label": "g" }, { "id": "B2_m08_R3_ad_h", "label": "h" },
+                { "id": "B2_m08_R3_ad_i", "label": "i" }, { "id": "B2_m08_R3_ad_j", "label": "j" },
+                { "id": "B2_m08_R3_ad_k", "label": "k" }, { "id": "B2_m08_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "h",
+              "explanation": "Anzeige h) Nachbarschaftshilfe 'Zusammen im Viertel' Dresden Neustadt bietet genau den passenden Dienst: Einkauf, Spaziergänge und Begleitung für alleinstehende Ältere, am richtigen Standort, zu bezahlbarem Tarif."
+            },
+            {
+              "id": "B2_m08_R3_q10",
+              "type": "matching",
+              "questionText": "10. Herr Lange und seine Frau möchten als Ehepaar im Rentenalter ein sechsmonatiges intensives Auslandsseminar zu interkultureller Mediation in Lateinamerika absolvieren, finanziert durch eine öffentliche Stiftung.",
+              "matchingSources": [
+                { "id": "B2_m08_R3_ad_a", "label": "a" }, { "id": "B2_m08_R3_ad_b", "label": "b" },
+                { "id": "B2_m08_R3_ad_c", "label": "c" }, { "id": "B2_m08_R3_ad_d", "label": "d" },
+                { "id": "B2_m08_R3_ad_e", "label": "e" }, { "id": "B2_m08_R3_ad_f", "label": "f" },
+                { "id": "B2_m08_R3_ad_g", "label": "g" }, { "id": "B2_m08_R3_ad_h", "label": "h" },
+                { "id": "B2_m08_R3_ad_i", "label": "i" }, { "id": "B2_m08_R3_ad_j", "label": "j" },
+                { "id": "B2_m08_R3_ad_k", "label": "k" }, { "id": "B2_m08_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "x",
+              "explanation": "Keine der zwölf Anzeigen bietet ein sechsmonatiges Auslandsseminar zu interkultureller Mediation in Lateinamerika mit Stiftungsfinanzierung. Anzeige k) (Integrationspatenschaft) ist inlands- und kurzzeitlich strukturiert; Anzeige i) (Demokratiecamp) richtet sich an Jugendliche und dauert nur eine Woche; Anzeige l) (Seniorenakademie Münster) ist eine offene Vortragsreihe vor Ort, kein Auslandsaufenthalt. Die Situation erfordert also 'x'. Die unbenutzten Anzeigen sind a) (Sprachcafé Altona), e) (Mehrgenerationenhaus Bockenheim) und l) (Seniorenakademie Münster)."
+            }
+          ]
+        }
+      ]
+    },
+    "sprachbausteine": {
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie den folgenden Text und entscheiden Sie, welches Wort (a, b, c oder d) in die Lücke passt. Es gibt jeweils nur eine richtige Lösung.",
+          "text": "Sehr geehrte Bürgerinnen und Bürger,\n\nhiermit möchte ich Sie über die geplante Neuausrichtung unserer kommunalen Integrationsarbeit informieren. Nach einer ausführlichen Bedarfserhebung, die in Zusammenarbeit mit mehreren freien Trägern __(1)__ worden ist, stehen nun die Eckpunkte für das kommende Jahr fest. Zum ersten Mal werden wir ein wohnortnahes Beratungsnetzwerk anbieten, __(2)__ sich an neu Zugezogene ebenso wie an alteingesessene Nachbarschaften richtet.\n\nBesonderer Wert wird darauf gelegt, dass jede Ratsuchende und jeder Ratsuchende innerhalb von zwei Wochen einen Termin __(3)__ kann. Sollte die Verwaltung in Einzelfällen einen Wunschtermin nicht ermöglichen können, __(4)__ sie dies schriftlich begründen und eine zeitnahe Alternative anbieten. __(5)__ der steigenden Nachfrage halten wir eine flächendeckende Beratung für unverzichtbar.\n\n\nDas Angebot umfasst persönliche Sprechstunden in allen Stadtteilen, __(6)__ auch aufsuchende Beratung, die individuell genutzt werden kann. Familien, die eine intensivere Begleitung __(7)__, erhalten automatisch Zugang zu unserem Patenschaftsprogramm. __(8)__ ist die enge Abstimmung mit Kitas, Schulen und Vereinen, damit kein Lebensbereich außen vor bleibt.\n\nDie von uns __(9)__ Reform ist Teil einer umfassenderen gesellschaftspolitischen Strategie. Die Stadtverwaltung ist überzeugt, __(10)__ investierte Euro in Zusammenhalt sich langfristig mehrfach auszahlt – durch geringere Konflikte, mehr Ehrenamt und eine bessere Zukunftsperspektive für alle Generationen.\n\nMit freundlichen Grüßen\nDr. Matthias Winterberg, Dezernent für Soziales und Integration",
+          "questions": [
+            {
+              "blankNumber": 1,
+              "type": "mcq",
+              "options": ["a) durchgeführt", "b) durchführte", "c) durchzuführen", "d) durchführend"],
+              "correctAnswer": "a",
+              "explanation": "Vorgangspassiv Perfekt: 'die in Zusammenarbeit mit mehreren freien Trägern durchgeführt worden ist' — Bildung: sein + Partizip II + worden. Das Partizip II 'durchgeführt' ist zwingend. Distraktoren: b) 'durchführte' wäre Aktiv-Präteritum (falsche Diathese und widerspricht 'worden ist'), c) 'zu+Infinitiv' passt grammatisch nicht zu 'ist worden', d) Partizip I ('durchführend') signalisiert laufende aktive Handlung und kombiniert nicht mit 'worden'. B2-Grammatik: Vorgangspassiv Perfekt."
+            },
+            {
+              "blankNumber": 2,
+              "type": "mcq",
+              "options": ["a) der", "b) das", "c) die", "d) was"],
+              "correctAnswer": "b",
+              "explanation": "Relativsatz: 'ein Beratungsnetzwerk, das sich ... richtet.' Das Relativpronomen bezieht sich auf 'Netzwerk' (Neutrum, Nominativ) → 'das'. Distraktoren: a) 'der' wäre Maskulin, c) 'die' wäre Feminin/Plural, d) 'was' nur nach unbestimmten Pronomen (etwas, alles, nichts) oder substantivierten Neutra mit Artikel (das Beste). B2-Grammatik: Relativpronomen Genus/Numerus/Kasus."
+            },
+            {
+              "blankNumber": 3,
+              "type": "mcq",
+              "options": ["a) in Anspruch nehmen", "b) in Anspruch genommen", "c) beanspruchen lassen", "d) sich beanspruchen"],
+              "correctAnswer": "a",
+              "explanation": "Funktionsverbgefüge: 'einen Termin in Anspruch nehmen' = einen Termin nutzen/bekommen. Nach Modalverb 'kann' folgt der Infinitiv: 'in Anspruch nehmen'. Distraktoren: b) Partizip ohne Hilfsverb passt nicht zu 'kann' (Modalverb + Infinitiv), c) 'beanspruchen lassen' wäre kausativ-reflexiv und sinnverändernd, d) 'sich beanspruchen' ist kein idiomatisches Verb im Deutschen. B2-Kernkonstrukt."
+            },
+            {
+              "blankNumber": 4,
+              "type": "mcq",
+              "options": ["a) muss", "b) soll", "c) müsste", "d) hätte"],
+              "correctAnswer": "a",
+              "explanation": "Inversion nach vorangestelltem Konditionalsatz ohne 'wenn': 'Sollte ... nicht ermöglichen können, muss sie dies ... begründen.' Klare Verpflichtung in formeller Behördenkommunikation → Indikativ 'muss'. Distraktoren: b) 'soll' wäre schwächer (moralischer Auftrag), c) 'müsste' wäre Konjunktiv II mit irrealem Ton (unpassend für geltende Dienstanweisung), d) 'hätte' ist als Hilfsverb ohne Partizip II inhaltlich leer. B2-Grammatik: Inversion nach Konditionalsatz."
+            },
+            {
+              "blankNumber": 5,
+              "type": "mcq",
+              "options": ["a) Mangels", "b) Trotz", "c) Angesichts", "d) Außer"],
+              "correctAnswer": "c",
+              "explanation": "Genitiv-Präposition: 'Angesichts der steigenden Nachfrage' = in Anbetracht, im Hinblick auf. Der Kontext (hohe Nachfrage rechtfertigt die flächendeckende Beratung) verlangt genau diese Semantik. Distraktoren: a) 'Mangels' (= wegen Fehlens von) widerspricht dem Kontext, denn die Nachfrage IST da, b) 'Trotz' kehrt die Logik um (flächendeckende Beratung trotz Nachfrage ergäbe keinen Sinn), d) 'Außer' bedeutet 'mit Ausnahme von' – semantisch unsinnig. Alle vier regieren den Genitiv, aber nur 'angesichts' passt. B2-Präposition mit Genitiv."
+            },
+            {
+              "blankNumber": 6,
+              "type": "mcq",
+              "options": ["a) sondern", "b) aber auch", "c) dennoch", "d) zudem"],
+              "correctAnswer": "b",
+              "explanation": "Additiver Konnektor mit leichtem Kontrast: 'Das Angebot umfasst ... Sprechstunden, aber auch aufsuchende Beratung.' Zwei sich ergänzende Formate, die nebeneinander existieren. Distraktoren: a) 'sondern' verlangt vorher Negation ('nicht nur'), fehlt hier, c) 'dennoch' signalisiert Gegensatz (die Formate widersprechen sich aber nicht), d) 'zudem' wäre reines Additiv, erzwingt aber Verb-Zweit-Stellung (eigener Satz), passt syntaktisch nicht in die Aufzählung."
+            },
+            {
+              "blankNumber": 7,
+              "type": "mcq",
+              "options": ["a) wünschen", "b) zu wünschen", "c) wünschten", "d) gewünscht"],
+              "correctAnswer": "a",
+              "explanation": "Relativsatz im Präsens-Indikativ: 'Familien, die eine intensivere Begleitung wünschen, erhalten ...' Das Verb kongruiert mit Subjekt 'Familien' (Plural Präsens). Distraktoren: b) zu-Infinitiv passt nicht in einen Relativsatz mit Subjekt, c) Präteritum bricht die Zeitebene (der gesamte Text ist Präsens), d) Partizip II allein ohne Hilfsverb ist im finiten Satz syntaktisch unmöglich."
+            },
+            {
+              "blankNumber": 8,
+              "type": "mcq",
+              "options": ["a) Entscheidend", "b) Entscheidung", "c) Entscheidende", "d) Entschieden"],
+              "correctAnswer": "a",
+              "explanation": "Prädikatives Adjektiv: 'Entscheidend ist die enge Abstimmung ...' Die endungslose Form signalisiert das Prädikativum nach 'sein' (vgl. 'Wichtig ist ...', 'Zentral ist ...'). Distraktoren: b) 'Entscheidung' ist Substantiv und würde 'Eine Entscheidung ist ...' verlangen (andere Bedeutung), c) 'Entscheidende' mit Endung wäre substantiviertes Adjektiv und setzt Artikel voraus ('Das Entscheidende ist ...'), d) 'Entschieden' wäre Partizip II (Vergangenheitsbezug), passt nicht als Satzanfang mit 'ist'. B2-Grammatik: Nominalisierung vs. prädikatives Adjektiv."
+            },
+            {
+              "blankNumber": 9,
+              "type": "mcq",
+              "options": ["a) geplante", "b) planende", "c) zu planende", "d) geplant"],
+              "correctAnswer": "a",
+              "explanation": "Partizipialattribut als B2-Kernthema: 'Die von uns geplante Reform' = 'Die Reform, die von uns geplant wurde'. Partizip II 'geplant' + Adjektivendung -e (Nom. Sg. Fem. schwache Deklination nach 'Die'). Distraktoren: b) 'planende' (Partizip I) signalisiert aktive gleichzeitige Handlung (die Reform plant nicht sich selbst), c) 'zu planende' wäre Gerundivum (künftig/notwendig zu tun, hier falsch, weil bereits geplant), d) 'geplant' ohne Endung bricht die Adjektivdeklination. Passivisches Partizipialattribut: geplante."
+            },
+            {
+              "blankNumber": 10,
+              "type": "mcq",
+              "options": ["a) dass jeder", "b) dass jedem", "c) dass alle", "d) dass man"],
+              "correctAnswer": "a",
+              "explanation": "Subjekt im Nominativ Singular: 'dass jeder investierte Euro ... sich ... auszahlt'. 'jeder' (Nom. Sg. Mask.) als Subjekt zu 'sich auszahlt' (Singular). Distraktoren: b) 'jedem' wäre Dativ, hier braucht es aber ein Subjekt, c) 'dass alle ... auszahlt' erzeugt Subjekt-Verb-Inkongruenz (Plural + Singular), d) 'man' ist zu unspezifisch und kollidiert mit 'investierte Euro' als gemeintem Referenten – grammatisch möglich, aber stilistisch falsch, weil Euro das eigentliche Subjekt sein muss."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Text. Welches Wort aus der Liste a–o passt in die Lücken? Jedes Wort passt nur einmal. Fünf Wörter bleiben übrig.",
+          "text": "Wer heute in einer deutschen Großstadt lebt, erlebt Gesellschaft oft als buntes Nebeneinander. Verschiedene Sprachen, unterschiedliche Feste, vielfältige Biografien prägen das Bild vieler Viertel und sind für __(11)__ Bewohner längst Alltag. Ein respektvoller Umgang miteinander gilt in __(12)__ Fällen als Grundlage eines gelingenden Zusammenlebens.\n\nAllerdings reicht es nicht aus, bloß nebeneinander zu wohnen. Stadtforscherinnen und Stadtforscher raten __(13)__, aktiv Begegnungsräume zu schaffen, in denen sich Menschen tatsächlich treffen und ins Gespräch kommen. __(14)__ entstehen aus oberflächlichem Miteinander langfristige Beziehungen, die auch in Krisenzeiten tragen.\n\nEin weiterer wichtiger Punkt __(15)__ die faire Beteiligung aller Gruppen an gesellschaftlichen Entscheidungen. Gerade benachteiligte Gruppen sind dabei __(16)__ niedrigschwellige Angebote angewiesen, weil sie sonst nicht erreicht werden. Umgekehrt führt echte Mitbestimmung dazu, dass sich auch Randgruppen mit der Gemeinschaft identifizieren. Ein einfacher Zugang zu Informationen und Ämtern gilt deshalb als goldene __(17)__ moderner Integrationspolitik.\n\n__(18)__ der wachsenden Unterschiede zwischen Arm und Reich setzen viele Kommunen inzwischen auf gezielte Programme in benachteiligten Stadtteilen. Das kostet Geld, erhöht aber die soziale Stabilität messbar. Fachleute sehen __(19)__ einen vielversprechenden Weg – sofern die Maßnahmen langfristig angelegt werden und nicht mit jedem Regierungswechsel auslaufen.\n\nWer gesellschaftlichen Zusammenhalt auf diese Weise ernst nimmt, kann ihn __(20)__ stärken. Eine lebendige Gesellschaft entsteht nicht durch Zufall, sondern durch bewusste Gestaltung – Tag für Tag, Stadtteil für Stadtteil.",
+          "questions": [
+            {
+              "blankNumber": 11,
+              "type": "word_bank",
+              "options": [
+                "a) viele", "b) meisten", "c) dazu", "d) Dadurch", "e) ist",
+                "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) deutlich", "m) jede", "n) stellt", "o) wenige"
+              ],
+              "correctAnswer": "a",
+              "explanation": "'viele Bewohner' — indefinite Mengenangabe (Akkusativ Plural, starke Deklination nach 'für'). 'viele' ist das gängige Indefinitpronomen für 'a lot of'. Distraktor o) 'wenige' widerspricht dem Kontext ('buntes Nebeneinander', 'längst Alltag'). B2-Wortschatz: 'viele' als zentrale indefinite Quantifizierung."
+            },
+            {
+              "blankNumber": 12,
+              "type": "word_bank",
+              "options": [
+                "a) viele", "b) meisten", "c) dazu", "d) Dadurch", "e) ist",
+                "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) deutlich", "m) jede", "n) stellt", "o) wenige"
+              ],
+              "correctAnswer": "b",
+              "explanation": "'in den meisten Fällen' — feste Wendung für 'in most cases'. 'meisten' (Superlativ mit bestimmtem Artikel, Dativ Plural). Distraktoren: o) 'wenige' kehrt den Sinn um (wäre semantisch möglich, widerspricht aber dem positiven Ton), m) 'jede' wäre Singular/Akkusativ und bricht die Wendung."
+            },
+            {
+              "blankNumber": 13,
+              "type": "word_bank",
+              "options": [
+                "a) viele", "b) meisten", "c) dazu", "d) Dadurch", "e) ist",
+                "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) deutlich", "m) jede", "n) stellt", "o) wenige"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Feste Struktur: 'jemandem raten zu etwas' → kataphorisches Pronominaladverb 'dazu' verweist auf den nachfolgenden zu+Infinitiv-Satz: 'raten dazu, ... zu schaffen'. Die Kollokation 'raten zu' + 'dazu' ist in der B2-Norm fest verankert. Distraktor i) 'darin' steht für 'in etwas' und passt nicht zu einem zu+Infinitiv-Anschluss ('raten darin' ist ungrammatisch). Pronominaladverb-Kenntnisse gehören zu B2."
+            },
+            {
+              "blankNumber": 14,
+              "type": "word_bank",
+              "options": [
+                "a) viele", "b) meisten", "c) dazu", "d) Dadurch", "e) ist",
+                "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) deutlich", "m) jede", "n) stellt", "o) wenige"
+              ],
+              "correctAnswer": "d",
+              "explanation": "Satzanfang + kausal-folgernder Konnektor: 'Dadurch entstehen aus oberflächlichem Miteinander langfristige Beziehungen.' Großschreibung signalisiert Satzanfang. 'Dadurch' stellt die kausale Verbindung zur vorigen Aufforderung her (Begegnungsräume schaffen → dadurch entstehen tragfähige Beziehungen). B2-Diskursmarker im Satzanfang."
+            },
+            {
+              "blankNumber": 15,
+              "type": "word_bank",
+              "options": [
+                "a) viele", "b) meisten", "c) dazu", "d) Dadurch", "e) ist",
+                "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) deutlich", "m) jede", "n) stellt", "o) wenige"
+              ],
+              "correctAnswer": "e",
+              "explanation": "Kopulaverb: 'Ein weiterer wichtiger Punkt ist die faire Beteiligung ...' 'ist' verbindet Subjekt mit prädikativem Nomen. Distraktor n) 'stellt' würde 'stellt ... dar' verlangen (zusätzliche Partikel nötig), bleibt strukturell fremd. B2-Satzbau: Kopulastruktur."
+            },
+            {
+              "blankNumber": 16,
+              "type": "word_bank",
+              "options": [
+                "a) viele", "b) meisten", "c) dazu", "d) Dadurch", "e) ist",
+                "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) deutlich", "m) jede", "n) stellt", "o) wenige"
+              ],
+              "correctAnswer": "f",
+              "explanation": "Feste Kollokation: 'angewiesen sein auf etwas' (+ Akkusativ). Die Präposition 'auf' gehört obligatorisch zum Verbanschluss 'angewiesen sein'. Im Satz: 'sind ... auf niedrigschwellige Angebote angewiesen'. Distraktoren: k) 'bei' und j) 'über' kollokieren nicht mit 'angewiesen sein'; beide passen nicht zum Verbrahmen. Typisches B2-Kollokationspaar: angewiesen sein auf + Akk."
+            },
+            {
+              "blankNumber": 17,
+              "type": "word_bank",
+              "options": [
+                "a) viele", "b) meisten", "c) dazu", "d) Dadurch", "e) ist",
+                "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) deutlich", "m) jede", "n) stellt", "o) wenige"
+              ],
+              "correctAnswer": "g",
+              "explanation": "Feste Kollokation: 'goldene Regel' = allgemein anerkannte Grundregel. Substantiv nach Adjektiv 'goldene' (schwache Deklination nach Nullartikel im Genitiv-Kontext 'moderner Integrationspolitik'). Distraktoren: l) 'deutlich' wäre Adjektiv und passt semantisch nicht nach 'goldene' (Doppelattribut wäre ungrammatisch), n) 'stellt' wäre Verb und bricht die Nominalphrase."
+            },
+            {
+              "blankNumber": 18,
+              "type": "word_bank",
+              "options": [
+                "a) viele", "b) meisten", "c) dazu", "d) Dadurch", "e) ist",
+                "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) deutlich", "m) jede", "n) stellt", "o) wenige"
+              ],
+              "correctAnswer": "h",
+              "explanation": "Genitiv-Präposition 'Angesichts der wachsenden Unterschiede zwischen Arm und Reich' (Satzanfang, großgeschrieben). Passt zur anschließenden Schlussfolgerung ('setzen viele Kommunen ... auf Programme'). Distraktor b) 'meisten' ist Adjektiv/Pronomen und bereits verbraucht. B2-Konnektor + Genitiv."
+            },
+            {
+              "blankNumber": 19,
+              "type": "word_bank",
+              "options": [
+                "a) viele", "b) meisten", "c) dazu", "d) Dadurch", "e) ist",
+                "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) deutlich", "m) jede", "n) stellt", "o) wenige"
+              ],
+              "correctAnswer": "i",
+              "explanation": "Pronominaladverb: 'sehen darin einen vielversprechenden Weg' = 'sehen in diesen Programmen einen Weg ...'. 'darin' verweist auf das zuvor beschriebene Vorgehen (gezielte Programme in benachteiligten Stadtteilen). Die Kollokation 'in etwas einen Weg sehen' ist fest. B2-Pronominaladverb im Kataphorisch-/Anaphorischverweis."
+            },
+            {
+              "blankNumber": 20,
+              "type": "word_bank",
+              "options": [
+                "a) viele", "b) meisten", "c) dazu", "d) Dadurch", "e) ist",
+                "f) auf", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) deutlich", "m) jede", "n) stellt", "o) wenige"
+              ],
+              "correctAnswer": "l",
+              "explanation": "Adverbialer Verstärker: 'kann ihn deutlich stärken' — 'deutlich' als unflektiertes Adverb verstärkt das Verb 'stärken' und bildet eine natürliche Kollokation (vgl. 'deutlich verbessern', 'deutlich steigern'). Es fasst die Kernaussage des Textes zusammen. Distraktoren: j) 'über' wäre Präposition ohne passendes Objekt, k) 'bei' ebenso, m) 'jede' wäre Determiner ohne nachfolgendes Substantiv, n) 'stellt' würde Verbdoppelung erzeugen, o) 'wenige' kehrt die positive Aussage unsinnig um. Die verbleibenden fünf Distraktoren (j, k, m, n, o) passen zu keiner Lücke im Text."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 30,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "letter",
+          "instructions": "Wählen Sie EINE der beiden folgenden Aufgaben (A oder B) und bearbeiten Sie diese. Beachten Sie die Leitpunkte und schreiben Sie mindestens 150 Wörter (Richtwert: 200 Wörter). Kennzeichnen Sie am Anfang Ihres Textes deutlich, welche Aufgabe Sie gewählt haben.",
+          "instructionsTranslation": "Choose ONE of the two tasks (A or B) below and complete it. Address the guiding points and write at least 150 words (target: around 200 words). Clearly mark at the top of your text which task you have chosen.",
+          "prompt": "AUFGABE A (Bitte um Information):\n\nSituation: Sie leben seit einem Jahr in Hamburg und möchten sich als Integrationspatin oder Integrationspate für eine neu zugezogene Familie engagieren. In der Tageszeitung haben Sie einen kurzen Bericht über das Ehrenamtsprogramm 'Brückenbauen Hamburg' des Vereins 'Nachbarn International e.V.' gelesen, finden darin aber nur allgemeine Informationen. Sie möchten sich mit einem formellen Schreiben direkt an die Koordinationsstelle wenden, um konkretere Auskünfte zu erhalten, bevor Sie sich verbindlich bewerben.\n\nSchreiben Sie eine formelle E-Mail an die Koordinatorin Frau Dr. Miriam Lange vom Verein 'Nachbarn International e.V.'. Gehen Sie auf die folgenden drei Leitpunkte ein:\n\n• Erklären Sie kurz, wie Sie auf das Programm aufmerksam geworden sind und warum Sie sich engagieren möchten.\n• Fragen Sie gezielt nach konkreten Details (z. B. Zeitaufwand pro Monat, Dauer der Patenschaft, verpflichtende Schulungen, Unterstützung durch den Verein).\n• Bitten Sie um Informationen zum nächsten Einführungstermin und dazu, welche Unterlagen Sie einreichen müssten.\n\nBeachten Sie Anrede, höflichen Einstieg und Grußformel. Schreiben Sie mindestens 150 Wörter.\n\n— ODER —\n\nAUFGABE B (Stellungnahme):\n\nSituation: In der überregionalen Wochenzeitung 'Der Kompass' ist ein kontroverser Leitartikel unter dem Titel 'Work-Life-Balance ist ein Luxus der Gutverdiener' erschienen. Die Autorin argumentiert darin, dass die öffentliche Debatte über Arbeitszeitverkürzung und Selbstverwirklichung an der Lebensrealität vieler Beschäftigter mit niedrigem Einkommen, Schichtdienst und mehreren Jobs vollständig vorbeigehe. Sie möchten auf diesen Artikel mit einem Leserbrief antworten.\n\nSchreiben Sie einen Leserbrief an die Redaktion (Herrn Ralf Steinmann, Redaktion 'Der Kompass'). Gehen Sie auf die folgenden drei Leitpunkte ein:\n\n• Nehmen Sie Stellung zur zentralen These der Autorin – stimmen Sie zu, widersprechen Sie oder differenzieren Sie?\n• Nennen Sie mindestens zwei konkrete Argumente oder Beispiele aus Ihrer eigenen Beobachtung (Beruf, Umfeld, Familie).\n• Machen Sie einen konkreten Vorschlag, wie Politik oder Unternehmen die Work-Life-Balance auch für einkommensschwache Gruppen fairer gestalten könnten.\n\nBeachten Sie eine passende semi-formelle Anrede und sachliche Argumentation. Schreiben Sie mindestens 150 Wörter.",
+          "promptTranslation": "TASK A (Request for information):\n\nSituation: You have been living in Hamburg for a year and want to volunteer as an integration mentor for a newly arrived family. In the local newspaper you read a short article about the volunteer programme 'Brückenbauen Hamburg' run by the association 'Nachbarn International e.V.', but the article only contains general information. You want to contact the coordination office directly with a formal letter to get more detailed information before applying.\n\nWrite a formal email to coordinator Dr. Miriam Lange at 'Nachbarn International e.V.'. Address these three guiding points:\n\n• Briefly explain how you heard about the programme and why you want to get involved.\n• Ask specifically about concrete details (time per month, duration, mandatory training, support from the association).\n• Request information about the next introductory meeting and which documents you would need to submit.\n\nInclude greeting, polite opening, and closing. Write at least 150 words.\n\n— OR —\n\nTASK B (Opinion piece):\n\nSituation: A national weekly newspaper has published a controversial opinion piece titled 'Work-Life Balance is a luxury for high earners'. The author argues that the public debate about shorter working hours and self-fulfilment completely ignores the reality of low-wage workers, shift workers, and people holding several jobs. You want to respond with a letter to the editor.\n\nWrite a letter to the editor (Mr. Ralf Steinmann). Address these three guiding points:\n\n• State your position on the central thesis – agree, disagree, or differentiate.\n• Give at least two concrete arguments or examples from your own observation (work, environment, family).\n• Suggest concretely how politics or companies could make work-life balance fairer for low-income groups.\n\nUse an appropriate semi-formal salutation and factual reasoning. Write at least 150 words.",
+          "requiredPoints": [
+            "Aufgabe A: Motivation + wie auf Programm aufmerksam, gezielte Detailfragen (Zeitaufwand, Dauer, Schulung, Unterstützung), Frage nach nächstem Termin + Unterlagen",
+            "Aufgabe B: Positionsbezug zur These, zwei konkrete eigene Argumente/Beispiele, konstruktiver Vorschlag"
+          ],
+          "wordCountMin": 150,
+          "wordCountMax": 230,
+          "sampleAnswer": "[AUFGABE A — Beispielantwort]\n\nSehr geehrte Frau Dr. Lange,\n\nin der letzten Wochenendausgabe des Hamburger Abendblatts habe ich mit großem Interesse den Bericht über Ihr Ehrenamtsprogramm 'Brückenbauen Hamburg' gelesen. Da ich selbst vor einem Jahr aus beruflichen Gründen nach Hamburg gezogen bin und noch sehr gut weiß, wie sehr ein persönlicher Ansprechpartner das Ankommen erleichtert, würde ich mich gerne als Integrationspatin engagieren.\n\nBevor ich eine verbindliche Bewerbung einreiche, möchte ich Sie um einige konkrete Auskünfte bitten. Wie viel Zeit pro Monat sollte man für eine Patenschaft realistischerweise einplanen, und über welchen Zeitraum erstreckt sich eine Begleitung in der Regel? Sind bestimmte Schulungen verpflichtend, und wie werden Ehrenamtliche im Alltag durch den Verein unterstützt, falls schwierige Situationen auftreten?\n\nDarüber hinaus wäre ich dankbar, wenn Sie mir mitteilen könnten, wann der nächste Einführungstermin stattfindet und welche Unterlagen – zum Beispiel polizeiliches Führungszeugnis oder Motivationsschreiben – mit der Bewerbung eingereicht werden müssen.\n\nFür Ihre Rückmeldung bedanke ich mich im Voraus.\n\nMit freundlichen Grüßen\nElisa Sommer",
+          "scoringCriteria": [
+            {
+              "criterion": "I. Berücksichtigung der Leitpunkte",
+              "maxPoints": 15,
+              "description": "Alle drei Leitpunkte der gewählten Aufgabe (A oder B) werden mit B2-typischer Tiefe behandelt – nicht nur erwähnt, sondern mit Begründung und konkreten Details ausgeführt. A = 15 Pkt, B = 10 Pkt, C = 5 Pkt, D = 0 Pkt. Wird diese Kategorie mit D bewertet, erhält die gesamte Aufgabe 0 Punkte."
+            },
+            {
+              "criterion": "II. Kommunikative Gestaltung",
+              "maxPoints": 15,
+              "description": "Formelle/semi-formelle Anrede, logischer Textaufbau (Einleitung – Hauptteil – Schluss), konsistenter Sie-Register, B2-typische Diskursmarker (darüber hinaus, allerdings, folglich, angesichts, hinsichtlich), passende Grußformel. Register-Sprünge (z.B. 'Hallo' in einer formellen Anfrage) werden abgewertet."
+            },
+            {
+              "criterion": "III. Formale Richtigkeit",
+              "maxPoints": 15,
+              "description": "B2-Grammatik korrekt eingesetzt: Passiv, Konjunktiv II für höfliche Bitten ('Ich wäre Ihnen dankbar, wenn ...', 'Könnten Sie mir mitteilen, ...'), Nominalisierung, komplexe Nebensätze, Genitiv-Präpositionen. Rechtschreibung und Zeichensetzung. Fehler, die das Verständnis blockieren, führen zu D und damit zu 0 Punkten gesamt."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "presentation",
+          "instructions": "Teil 1 — Präsentation (ca. 3 Minuten pro Kandidat:in). Jede:r Kandidat:in erhält eine Themenkarte und hält eine kurze, strukturierte Präsentation (Einstieg, Hauptteil, Schluss). Anschließend stellt die Partnerin/der Partner 1–2 Nachfragen.",
+          "instructionsTranslation": "Part 1 — Presentation (approx. 3 minutes per candidate). Each candidate receives a topic card and gives a short, structured presentation (intro, main body, conclusion). Afterwards the partner asks 1–2 follow-up questions.",
+          "prompt": "KANDIDAT:IN A — Thema: 'Mehrsprachigkeit in Deutschland – Chance oder Herausforderung?'\n\nHalten Sie eine kurze Präsentation (ca. 3 Minuten) zu diesem Thema. Strukturieren Sie Ihren Vortrag so:\n\n• Einstieg: Wie erleben Sie Mehrsprachigkeit in Ihrem Alltag (Schule, Arbeit, Nachbarschaft)? Nennen Sie ein konkretes Beispiel.\n• Hauptteil: Welche Vorteile bringt Mehrsprachigkeit – für Kinder, Unternehmen und die Gesellschaft insgesamt? Welche Herausforderungen gibt es (schulische Förderung, Verständigung im Alltag, Identität)?\n• Schluss: Wie sollte Mehrsprachigkeit Ihrer Meinung nach in Zukunft besser unterstützt werden? Ihre persönliche Einschätzung.\n\n—\n\nKANDIDAT:IN B — Thema: 'Ehrenamt im demografischen Wandel'\n\nHalten Sie eine kurze Präsentation (ca. 3 Minuten) zu diesem Thema. Strukturieren Sie Ihren Vortrag so:\n\n• Einstieg: Welche Rolle spielt Ehrenamt heute in Ihrem Umfeld? Ein konkretes Beispiel (Verein, Nachbarschaft, Initiative).\n• Hauptteil: Welche Bedeutung hat freiwilliges Engagement gerade angesichts einer alternden Gesellschaft (Pflege, Generationenkontakt, Gemeindeleben)? Welche Hürden sehen Sie (Zeit, Anerkennung, Nachwuchs)?\n• Schluss: Wie könnte Ehrenamt attraktiver gemacht werden, damit auch jüngere Menschen sich stärker engagieren? Ihre Einschätzung.",
+          "sampleResponse": "[Kandidat:in A — Mehrsprachigkeit in Deutschland]\n\nMeine Damen und Herren, ich möchte heute über Mehrsprachigkeit in Deutschland sprechen – für mich persönlich eher eine Chance als eine Herausforderung. In unserer Nachbarschaft wachsen viele Kinder mit zwei, manchmal sogar drei Sprachen auf. Eine Freundin von mir ist Grundschullehrerin in Berlin-Neukölln; in ihrer Klasse werden mehr als fünfzehn Muttersprachen gesprochen. An diesem Beispiel zeigt sich, wie normal Mehrsprachigkeit inzwischen ist.\n\nIm Hauptteil möchte ich kurz auf Vorteile und Herausforderungen eingehen. Kinder, die früh mehrere Sprachen lernen, profitieren nachweislich auch in anderen Fächern. Für Unternehmen bedeutet Mehrsprachigkeit einen Wettbewerbsvorteil, gerade im Kontakt mit internationalen Kunden. Gesellschaftlich entsteht eine Brücke zwischen Alteingesessenen und Zugewanderten. Allerdings darf man die Herausforderungen nicht unterschätzen. Ohne gezielte Förderung in Kita und Schule kann keine Sprache wirklich solide entwickelt werden – weder Deutsch noch die Herkunftssprache. Gerade in Gebieten mit vielen Sprachen braucht es kleinere Klassen und gut ausgebildete Fachkräfte.\n\nAbschließend bin ich überzeugt, dass Mehrsprachigkeit in Zukunft stärker als Ressource begriffen werden muss – nicht als Defizit. Eine systematische Förderung in beiden Sprachen wäre ein sinnvoller Schritt. Vielen Dank – was denken Sie dazu?\n\n[Beispielhafte Nachfrage der Partnerin/des Partners: 'Welche Herkunftssprache findest du persönlich in Deutschland besonders wichtig?']",
+          "evaluationTips": [
+            "Strukturieren Sie die Präsentation klar: Einstieg – Hauptteil – Schluss",
+            "Verwenden Sie B2-Diskursmarker: 'Zunächst', 'Darüber hinaus', 'Allerdings', 'Abschließend'",
+            "Nennen Sie EIN konkretes Beispiel (aus Umfeld/Beruf/Erfahrung), keine rein abstrakten Aussagen",
+            "Balance aus Vorteilen UND Herausforderungen zeigen – B2 verlangt Differenzierung",
+            "Konjunktiv II für Einschätzungen: 'Ich könnte mir vorstellen, dass ...', 'Sinnvoll wäre ...'",
+            "Direkter Schluss mit persönlicher Einschätzung + Übergabe an Partner",
+            "Zeitlimit (~3 Min) beachten – nicht länger, nicht kürzer"
+          ],
+          "keyPhrases": [
+            "Ich möchte heute über ... sprechen.",
+            "Ein konkretes Beispiel dafür ist ...",
+            "Einerseits ..., andererseits ...",
+            "Besonders hervorheben möchte ich ...",
+            "Allerdings darf man nicht übersehen, dass ...",
+            "Meiner Ansicht nach ...",
+            "Abschließend lässt sich festhalten ...",
+            "Was denken Sie / was denkst du dazu?"
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "discussion",
+          "instructions": "Teil 2 — Diskussion (ca. 5 Minuten gemeinsam). Beide Kandidat:innen erhalten denselben provokanten Satz und diskutieren ihn. Ziel: eigene Position vertreten, auf die Argumente der Partnerin/des Partners eingehen, widersprechen oder weiterentwickeln.",
+          "instructionsTranslation": "Part 2 — Discussion (approx. 5 minutes together). Both candidates receive the same provocative statement and discuss it. Goal: defend your own position, engage with the partner's arguments, disagree or build on them.",
+          "prompt": "Thema für beide Kandidat:innen:\n\n'Für Einbürgerung und dauerhaftes Wohnrecht sollten in Deutschland ab sofort doppelte Staatsbürgerschaften uneingeschränkt erlaubt sein – unabhängig vom Herkunftsland.'\n\n— Leitfragen für die Diskussion —\n\n• Stimmen Sie dieser These zu oder widersprechen Sie?\n• Welche Vorteile hätten uneingeschränkte Doppelstaatsbürgerschaften? Für wen?\n• Welche Nachteile oder rechtliche Probleme sehen Sie?\n• Welche Rolle spielt aus Ihrer Sicht die Identität – Heimatgefühl, Zugehörigkeit, Loyalität?\n\nReagieren Sie auf die Argumente Ihrer Partnerin/Ihres Partners, widersprechen Sie höflich, wo nötig, und versuchen Sie am Ende, Ihre Positionen zusammenzuführen oder respektvoll unterschiedlich stehen zu lassen.",
+          "sampleResponse": "KANDIDAT:IN A: 'Also, grundsätzlich finde ich die Idee richtig. Wer seit vielen Jahren in Deutschland lebt, hier arbeitet und Steuern zahlt, sollte nicht gezwungen sein, seinen ursprünglichen Pass abzugeben. Das Gefühl, Teil von zwei Welten zu sein, ist für viele Menschen Alltag – das kann das Recht doch widerspiegeln.'\n\nKANDIDAT:IN B: 'Da möchte ich teilweise widersprechen. Ich sehe den emotionalen Punkt, aber in manchen Fällen – zum Beispiel bei Wahlrechten in zwei Ländern oder Wehrpflicht – entstehen rechtliche Konflikte. Es ist nach meiner Einschätzung nicht so unproblematisch, wie es auf den ersten Blick klingt.'\n\nKANDIDAT:IN A: 'Das ist ein wichtiger Einwand. Allerdings gibt es ja schon heute Millionen Menschen weltweit mit doppelter Staatsbürgerschaft – die rechtlichen Fragen sind lösbar. In EU-Ländern funktioniert es praktisch überall. Meinst du nicht, dass Deutschland hier schlicht nachzieht?'\n\nKANDIDAT:IN B: 'Guter Punkt – wenn man die europäische Praxis vergleicht, sehe ich das tatsächlich anders. Dann bleibt allerdings die Frage der Identität: Wer gehört wirklich wohin? Viele befürchten, dass Integration weniger ernst genommen wird, wenn man jederzeit zurückkehren kann.'\n\nKANDIDAT:IN A: 'Da stimme ich dir in einem Punkt zu – Integration darf nicht zur Formsache werden. Trotzdem zeigt die Forschung, dass Menschen mit doppelter Staatsbürgerschaft sich oft stärker mit beiden Ländern identifizieren, nicht weniger. Vielleicht wäre eine verpflichtende Orientierung zu Rechten und Pflichten ein guter Kompromiss.'\n\nKANDIDAT:IN B: 'Ja, das könnte ein realistischer Weg sein – Öffnung mit klarer Orientierung. Insgesamt sehe ich die uneingeschränkte Doppelstaatsbürgerschaft jetzt positiver, auch wenn ich beim Wahlrecht weiter Fragen hätte.'",
+          "evaluationTips": [
+            "Klare Position beziehen – 'Ich stimme zu / Ich widerspreche'",
+            "Auf das Gesagte des Partners konkret eingehen – nicht nur die eigene Position wiederholen",
+            "Widerspruch höflich: 'Da möchte ich teilweise widersprechen ...', 'Das sehe ich anders, weil ...'",
+            "Konjunktiv II für hypothetische Argumentation: 'Wäre ...', 'Würde ...', 'Könnte ...'",
+            "Konkrete Beispiele oder Länder/Branchen nennen, keine rein theoretischen Argumente",
+            "Versuch der Synthese am Ende: 'Wenn man es so staffelt, ...', 'Ein möglicher Kompromiss wäre ...'",
+            "Diskursmarker der Argumentation: 'allerdings', 'andererseits', 'demgegenüber', 'darüber hinaus'"
+          ],
+          "keyPhrases": [
+            "Meiner Meinung nach ...",
+            "Ich kann dem nur teilweise zustimmen.",
+            "Das sehe ich anders, weil ...",
+            "Ein starkes Argument dafür/dagegen ist ...",
+            "Darf ich kurz darauf eingehen?",
+            "Ich verstehe deinen Punkt, allerdings ...",
+            "Wenn man es so betrachtet, ...",
+            "Ein Kompromiss könnte sein, dass ...",
+            "Da sind wir uns wohl einig."
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Teil 3 — Gemeinsam Planen (ca. 5 Minuten). Beide Kandidat:innen erhalten denselben Planungsauftrag und müssen gemeinsam zu einer konkreten Lösung kommen: Vorschläge machen, abwägen, verhandeln, Entscheidung treffen.",
+          "instructionsTranslation": "Part 3 — Collaborative Planning (approx. 5 minutes). Both candidates receive the same planning task and must reach a concrete joint solution: make proposals, weigh options, negotiate, decide.",
+          "prompt": "Planungsauftrag für beide Kandidat:innen:\n\nIhr Verein 'Nachbarschaft aktiv e.V.' möchte im nächsten Herbst ein Stadtteilfest veranstalten, das verschiedene Generationen und Kulturen zusammenbringt. Ihre Vorstandsvorsitzende hat Sie beide gebeten, das Fest gemeinsam zu planen.\n\nBesprechen Sie folgende Punkte und treffen Sie konkrete Entscheidungen:\n\n• Zeitpunkt und Dauer: An welchem Wochenende im Herbst soll das Fest stattfinden? Ganztägig oder nur nachmittags?\n• Ort: Welcher Platz im Stadtteil eignet sich am besten (Park, Schulhof, Marktplatz)? Gibt es Genehmigungen zu beachten?\n• Programm und Aktivitäten: Welche Angebote gibt es für Kinder, Jugendliche, Erwachsene und Ältere? Kulinarisches (z. B. internationales Büfett)? Musik?\n• Budget und Finanzierung: Wie hoch ist Ihr Rahmen? Wie teilen Sie Kosten auf (Spenden, Stadt, Eigenbeitrag)?\n• Aufgabenverteilung: Wer übernimmt welche konkrete Vorbereitung bis zum Festtag?\n\nEinigen Sie sich am Ende auf einen klaren Plan.",
+          "sampleResponse": "KANDIDAT:IN A: 'Fangen wir mit dem Zeitpunkt an. Ich würde das dritte Septemberwochenende vorschlagen – noch warm genug für draußen und vor den Herbstferien. Samstagnachmittag bis Abend, nicht ganztägig. Was hältst du davon?'\n\nKANDIDAT:IN B: 'Der dritte September klingt gut. Nachmittag bis Abend reicht auch, aber wir sollten wirklich bis mindestens zwanzig Uhr gehen – dann können auch Berufstätige entspannt dazukommen. Was den Ort angeht: den Stadtteilpark finde ich ideal, es gibt Bänke, Spielgeräte und genug Platz für Stände. Genehmigung müssten wir frühzeitig beim Ordnungsamt einholen.'\n\nKANDIDAT:IN A: 'Einverstanden. Zum Programm: Ich schlage vor, dass wir einen Bereich für Kinder einrichten – Spielestation mit ehrenamtlichen Betreuerinnen. Für Ältere einen ruhigen Bereich mit Kaffeetafel und Stühlen, und in der Mitte eine kleine Bühne für Musik und Tanz aus verschiedenen Kulturen.'\n\nKANDIDAT:IN B: 'Gute Idee. Das internationale Büfett sollten die Nachbarinnen und Nachbarn selbst beitragen – jede Familie bringt ein Gericht aus ihrer Herkunftskultur mit. Das spart Kosten und schafft sofort Kontakt. Zum Budget: Ich würde mit ungefähr zweitausend Euro planen – Bühne, Technik, Werbung, Versicherung. Die Hälfte könnten wir über den Stadtteilfonds bekommen, den Rest über Sponsoring bei lokalen Geschäften.'\n\nKANDIDAT:IN A: 'Klingt realistisch. Zur Aufgabenverteilung: Ich übernehme die Genehmigung beim Ordnungsamt und die Absprache mit dem Stadtteilfonds. Du könntest die Technik organisieren und die Musikgruppen anfragen. Die Flyer und Social-Media-Werbung machen wir gemeinsam.'\n\nKANDIDAT:IN B: 'Prima. Ich kümmere mich außerdem um die Versicherung, damit da nichts schiefgeht. Können wir in zwei Wochen nochmal Zwischenbilanz ziehen?'\n\nKANDIDAT:IN A: 'Perfekt. Also zusammengefasst: drittes Septemberwochenende, Samstag fünfzehn bis zwanzig Uhr, Stadtteilpark, Budget zweitausend Euro mit Stadtteilfonds plus Sponsoring, du Technik und Versicherung, ich Genehmigung und Finanzierung. Werbung gemeinsam. Abgemacht!'",
+          "evaluationTips": [
+            "Konkrete Vorschläge statt vager Ideen: Tag, Uhrzeit, Ort, Betrag nennen",
+            "Aktiv zuhören – reagieren Sie spezifisch auf die Vorschläge des Partners",
+            "Konjunktiv II für Vorschläge: 'Ich würde vorschlagen ...', 'Wir könnten ...', 'Wie wäre es mit ...?'",
+            "Kompromisse zeigen: 'Ganztägig ist mir zu viel – wie wäre halbtags?'",
+            "Am Ende zusammenfassen: 'Also zusammengefasst: ...'",
+            "Aufgabenverteilung explizit machen: 'Du übernimmst ..., ich übernehme ...'",
+            "Höfliche Zustimmung/Widerspruch: 'Einverstanden', 'Abgemacht', 'Das sehe ich anders'",
+            "Budget und Aufgabenverteilung müssen beide konkret benannt werden"
+          ],
+          "keyPhrases": [
+            "Ich würde vorschlagen, dass ...",
+            "Wie wäre es, wenn wir ...?",
+            "Das klingt sinnvoll, aber ...",
+            "Können wir uns darauf einigen, dass ...?",
+            "Wer übernimmt ...?",
+            "Ich kümmere mich um ..., du übernimmst bitte ...",
+            "Einverstanden / Abgemacht.",
+            "Also zusammengefasst: ...",
+            "Sollen wir das so festhalten?"
+          ]
+        }
+      ]
+    }
   }
 }
