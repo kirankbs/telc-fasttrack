@@ -1,1 +1,1377 @@
-[]
+[
+  {
+    "id": 1,
+    "level": "B2",
+    "topic": "Konjunktiv I — indirekte Rede",
+    "explanation": "Der Konjunktiv I wird in der geschriebenen Sprache für die indirekte Wiedergabe fremder Aussagen verwendet, besonders in Zeitungstexten, Berichten und Protokollen. Der Sprecher distanziert sich so von der Aussage und signalisiert: 'Ich gebe nur wieder.' Gebildet wird er aus dem Verbstamm plus -e, -est, -e, -en, -et, -en. Typische Formen: er sage, er habe, er sei, er komme, er gehe. Für die Vergangenheit kombiniert man den Konjunktiv I von haben oder sein mit dem Partizip II: er habe gesagt, er sei gekommen. Wenn der Konjunktiv I formgleich mit dem Indikativ ist (oft im Plural), weicht man auf den Konjunktiv II aus: 'Sie sagten' klingt wie Indikativ, also: 'Sie sagten, sie kämen morgen.' Typischer Fehler: Lernende wechseln die Zeitform an den Redemoment. Regel: die ursprüngliche Zeitebene bleibt erhalten, nur der Modus wechselt.",
+    "examples": [
+      "Der Minister sagte, er sei über die Entwicklung besorgt.",
+      "Die Zeitung berichtet, die Regierung plane neue Reformen.",
+      "Sie erklärte, sie habe das Dokument nie gesehen.",
+      "Der Zeuge behauptete, er wisse nichts von dem Vorfall.",
+      "Laut Polizei befinde sich der Verdächtige noch auf der Flucht.",
+      "Der Arzt teilte mit, der Patient könne bald entlassen werden.",
+      "Die Forscher meinen, der Klimawandel beschleunige sich weiter.",
+      "Er sagte, er werde morgen zurückkehren."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Er sagte, er ___ (haben) keine Zeit. (Konjunktiv I)",
+        "correctAnswer": "habe",
+        "explanation": "3. Person Singular Konjunktiv I von haben ist 'habe'."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Die Sprecherin erklärte, das Projekt ___ (sein) erfolgreich gewesen.",
+        "correctAnswer": "sei",
+        "explanation": "Konjunktiv I Vergangenheit: sei + Partizip II."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Form gibt indirekte Rede korrekt wieder? Direkt: 'Ich komme morgen.'",
+        "correctAnswer": "Er sagte, er komme morgen.",
+        "explanation": "Konjunktiv I der 3. Person Singular von kommen ist 'komme'."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Der Journalist schrieb, die Minister ___ (kommen) zur Sitzung. (bei Formgleichheit Konjunktiv II)",
+        "correctAnswer": "kämen",
+        "explanation": "Plural 'kommen' ist formgleich mit Indikativ; Ausweichform Konjunktiv II 'kämen'."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekte indirekte Rede?",
+        "correctAnswer": "Sie behauptete, sie habe den Brief nicht erhalten.",
+        "explanation": "Konjunktiv I Vergangenheit: habe + Partizip II signalisiert Distanz zur Aussage."
+      },
+      {
+        "type": "reorder",
+        "prompt": "sagte / er / er / sei / müde / ,",
+        "correctAnswer": "Er sagte, er sei müde.",
+        "explanation": "Einleitungssatz mit Komma, dann Nebensatz mit Konjunktiv I 'sei'."
+      }
+    ],
+    "orderIndex": 1
+  },
+  {
+    "id": 2,
+    "level": "B2",
+    "topic": "Konjunktiv II — Irrealis und höfliche Bitten",
+    "explanation": "Der Konjunktiv II drückt Irreales, Hypothetisches, unerfüllte Wünsche und höfliche Bitten aus. Im Unterschied zu B1 erweitert sich das Thema auf B2 um die Vergangenheitsform und stilistische Feinheiten. Die Gegenwart bildet man mit originalen Formen (hätte, wäre, könnte, wüsste, ginge, käme) oder mit 'würde + Infinitiv'. Die Vergangenheit steht ausschließlich mit hätte oder wäre plus Partizip II: 'Wenn ich das gewusst hätte, wäre ich nicht gekommen.' Auf B2-Niveau sollte man würde nicht bei haben, sein und Modalverben verwenden — stilistisch besser: 'Ich hätte gern', nicht 'Ich würde gern haben'. In schriftlichen Texten erwartet man die Originalformen starker Verben (käme, ginge, fände). Typischer Lernerfehler: Vermischung der Zeitebenen in irrealen Bedingungssätzen. Regel: Beide Satzteile stehen in derselben Zeit — entweder beide Gegenwart oder beide Vergangenheit.",
+    "examples": [
+      "Wenn ich mehr Zeit gehabt hätte, wäre ich länger geblieben.",
+      "An deiner Stelle hätte ich anders reagiert.",
+      "Hätte ich das früher gewusst, wäre alles anders gekommen.",
+      "Könnten Sie mir bitte kurz erklären, wie das funktioniert?",
+      "Es wäre sinnvoll, wenn wir die Frist verlängern würden.",
+      "Ich wünschte, ich hätte damals besser aufgepasst.",
+      "Wäre ich nicht krank gewesen, hätte ich die Prüfung bestanden.",
+      "Hätten Sie Zeit, mich kurz zu empfangen?"
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Wenn du mich gestern angerufen ___, ___ ich dich abgeholt.",
+        "correctAnswer": "hättest, hätte",
+        "explanation": "Irrealis der Vergangenheit: hätte + Partizip II in beiden Teilen."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ Sie bitte einen Moment Geduld? (höfliche Bitte)",
+        "correctAnswer": "Hätten",
+        "explanation": "Höfliche Bitte mit Konjunktiv II von haben."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist Irrealis der Vergangenheit?",
+        "correctAnswer": "Ich wäre früher aufgestanden, wenn der Wecker geklingelt hätte.",
+        "explanation": "Beide Satzteile nutzen wäre/hätte + Partizip II — Vergangenheitsform."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Wenn er nicht so laut gesprochen ___, ___ wir ihn nicht verstanden.",
+        "correctAnswer": "hätte, hätten",
+        "explanation": "Irrealis Vergangenheit in beiden Satzteilen."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Formulierung klingt am natürlichsten?",
+        "correctAnswer": "Ich hätte gern einen Kaffee.",
+        "explanation": "Bei haben ist die Originalform 'hätte' stilistisch besser als 'würde haben'."
+      },
+      {
+        "type": "reorder",
+        "prompt": "gewusst / hätte / das / ich / , / hätte / nichts / ich / gesagt / wenn",
+        "correctAnswer": "Wenn ich das gewusst hätte, hätte ich nichts gesagt.",
+        "explanation": "Irrealer Konditionalsatz der Vergangenheit: Nebensatz vor Hauptsatz."
+      }
+    ],
+    "orderIndex": 2
+  },
+  {
+    "id": 3,
+    "level": "B2",
+    "topic": "Passiv — Präsens, Präteritum und Perfekt",
+    "explanation": "Das Vorgangspassiv betont die Handlung, nicht den Handelnden. Es wird mit werden plus Partizip II gebildet und tritt in allen Zeitformen auf. Präsens: Das Problem wird gelöst. Präteritum: Das Problem wurde gelöst. Perfekt: Das Problem ist gelöst worden. Plusquamperfekt: Das Problem war gelöst worden. Futur I: Das Problem wird gelöst werden. Zentral ist die Unterscheidung zwischen worden und geworden. Beim Passivperfekt steht worden, weil werden als Hilfsverb fungiert: Der Brief ist geschrieben worden. Bei werden als Vollverb ('werden zu etwas') nutzt man geworden: Sie ist Ärztin geworden. Das Agens nennt man mit 'von + Dativ' (Person) oder 'durch + Akkusativ' (Mittel, Ursache). Typischer Fehler: 'Das Haus wurde gebaut worden' — doppeltes Hilfsverb. Richtig: 'Das Haus ist gebaut worden.' Im Präteritum nur wurde, im Perfekt nur ist...worden.",
+    "examples": [
+      "Die Rechnung wird heute noch bezahlt.",
+      "Das Gebäude wurde im 19. Jahrhundert errichtet.",
+      "Der Antrag ist bereits bearbeitet worden.",
+      "Vor dem Umzug waren alle Möbel verkauft worden.",
+      "Der Vorschlag wurde vom Vorstand einstimmig angenommen.",
+      "Durch den Sturm sind viele Bäume beschädigt worden.",
+      "In diesem Labor werden neue Medikamente getestet.",
+      "Die Entscheidung ist gestern Abend getroffen worden."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Die Unterlagen ___ gestern ___ (prüfen — Präteritum Passiv).",
+        "correctAnswer": "wurden geprüft",
+        "explanation": "Präteritum Passiv Plural: wurden + Partizip II."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Der Bericht ___ schon ___ ___ (veröffentlichen — Perfekt Passiv).",
+        "correctAnswer": "ist veröffentlicht worden",
+        "explanation": "Perfekt Passiv: sein + Partizip II + worden."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrektes Perfekt Passiv?",
+        "correctAnswer": "Das Projekt ist erfolgreich abgeschlossen worden.",
+        "explanation": "Perfekt Passiv benötigt worden, nicht geworden."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Diese Software ___ von Experten ___ (entwickeln — Präsens Passiv).",
+        "correctAnswer": "wird entwickelt",
+        "explanation": "Präsens Passiv: wird + Partizip II; Agens mit 'von'."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Präposition signalisiert das Mittel bzw. die Ursache?",
+        "correctAnswer": "durch",
+        "explanation": "'durch + Akkusativ' nennt Mittel oder Ursache, 'von + Dativ' nennt Personen."
+      },
+      {
+        "type": "reorder",
+        "prompt": "gestern / worden / Gesetz / verabschiedet / das / ist",
+        "correctAnswer": "Das Gesetz ist gestern verabschiedet worden.",
+        "explanation": "Perfekt Passiv: Subjekt — ist — Zeitangabe — Partizip II — worden."
+      }
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": 4,
+    "level": "B2",
+    "topic": "Passiv-Ersatzformen",
+    "explanation": "Passiv-Ersatzformen drücken passivische Bedeutung ohne die werden-Konstruktion aus. Sie sind typisch für anspruchsvolle schriftliche Texte und häufig Thema in telc B2 Sprachbausteinen. Die wichtigsten Varianten: 1) 'sich lassen + Infinitiv' bedeutet 'kann...werden': Das Problem lässt sich lösen. 2) 'sein + zu + Infinitiv' bedeutet 'muss oder kann...werden': Die Aufgabe ist bis Freitag zu erledigen. 3) 'man-Konstruktion': Man kann das Problem lösen. 4) Adjektive auf -bar, -lich oder -abel drücken Möglichkeit aus: lösbar, verständlich, akzeptabel. Die Wahl hängt vom Register und der Modalbedeutung ab: 'sein + zu' klingt formeller als 'sich lassen'. Typischer Fehler: Lernende nutzen 'sein + zu' mit intransitiven Verben. Regel: alle diese Formen setzen ein transitives Verb voraus, dessen Objekt im Passiv zum Subjekt wird.",
+    "examples": [
+      "Das Problem lässt sich leicht lösen.",
+      "Der Antrag ist bis zum Monatsende einzureichen.",
+      "Man kann diese Regel in wenigen Minuten lernen.",
+      "Diese Entscheidung ist nicht mehr rückgängig zu machen.",
+      "Das Dokument ist problemlos lesbar.",
+      "Die Tür lässt sich nicht öffnen.",
+      "Solche Fehler sind kaum zu vermeiden.",
+      "Das Ergebnis ist überprüfbar."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Das Fenster ___ ___ nicht öffnen. (Ersatzform mit lassen)",
+        "correctAnswer": "lässt sich",
+        "explanation": "'sich lassen + Infinitiv' ersetzt 'kann geöffnet werden'."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Die Rechnung ___ sofort ___ ___ (bezahlen — sein+zu+Inf.).",
+        "correctAnswer": "ist sofort zu bezahlen",
+        "explanation": "'sein + zu + Infinitiv' drückt Notwendigkeit aus (= muss bezahlt werden)."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Form ersetzt 'kann gelesen werden'?",
+        "correctAnswer": "ist lesbar",
+        "explanation": "Das Suffix -bar signalisiert Möglichkeit."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Der Text ___ leicht ___ (verstehen — Adjektiv auf -lich).",
+        "correctAnswer": "ist verständlich",
+        "explanation": "Adjektiv 'verständlich' bedeutet 'kann verstanden werden'."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz entspricht 'Das Problem kann gelöst werden.'?",
+        "correctAnswer": "Das Problem lässt sich lösen.",
+        "explanation": "'sich lassen + Infinitiv' ersetzt das Modalverb können im Passiv."
+      },
+      {
+        "type": "reorder",
+        "prompt": "ist / beantworten / Frage / leicht / die / zu",
+        "correctAnswer": "Die Frage ist leicht zu beantworten.",
+        "explanation": "Passiv-Ersatzform mit 'sein + zu + Infinitiv', Adverb vor zu-Infinitiv."
+      }
+    ],
+    "orderIndex": 4
+  },
+  {
+    "id": 5,
+    "level": "B2",
+    "topic": "Partizipialkonstruktionen",
+    "explanation": "Partizipien werden im Deutschen als attributive Adjektive verwendet und sind ein typisches Merkmal gehobener Sprache. Das Partizip I (Präsens) bildet sich aus dem Infinitiv plus d: lachend, schlafend, sprechend. Es hat aktive Bedeutung und drückt eine gleichzeitig ablaufende Handlung aus: der lachende Mann — der Mann, der lacht. Das Partizip II hat bei transitiven Verben meist passive Bedeutung und bezeichnet einen Zustand oder eine abgeschlossene Handlung: das gelöste Problem — das Problem, das gelöst wurde. Bei intransitiven Verben mit sein-Perfekt hat Partizip II aktive Bedeutung: der eingeschlafene Junge — der Junge, der eingeschlafen ist. Beide Formen werden wie normale Adjektive dekliniert. Typischer Lernerfehler: Verwechslung der Aktiv-Passiv-Bedeutung. Faustregel: Partizip I = aktiv gleichzeitig; Partizip II transitiv = passiv vorzeitig; Partizip II mit sein-Perfekt = aktiv vorzeitig.",
+    "examples": [
+      "Der spielende Junge lacht fröhlich.",
+      "Das gelöste Problem überraschte niemanden.",
+      "Die schlafenden Kinder störten wir nicht.",
+      "Der verbrannte Kuchen konnte nicht gerettet werden.",
+      "Die eingegangenen Briefe wurden sortiert.",
+      "Ein weinendes Kind stand am Bahnhof.",
+      "Die verlorene Zeit lässt sich nicht zurückholen.",
+      "Der angekommene Gast wurde herzlich begrüßt."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Der ___ (schlafen) Hund lag auf dem Sofa. (Partizip I)",
+        "correctAnswer": "schlafende",
+        "explanation": "Partizip I: Infinitiv + d + Adjektivendung -e (Nominativ Maskulinum mit bestimmtem Artikel)."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Das ___ (reparieren) Auto steht vor der Tür. (Partizip II)",
+        "correctAnswer": "reparierte",
+        "explanation": "Partizip II passiv: 'das reparierte Auto' = das Auto, das repariert wurde."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Bedeutung hat 'der lesende Student'?",
+        "correctAnswer": "der Student, der liest",
+        "explanation": "Partizip I drückt eine aktive, gleichzeitig ablaufende Handlung aus."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Die ___ (verkaufen) Waren wurden abgeholt. (Partizip II)",
+        "correctAnswer": "verkauften",
+        "explanation": "Partizip II 'verkauft' + Adjektivendung -en (Nominativ Plural bestimmter Artikel)."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Ausdruck bedeutet 'der Mann, der eingeschlafen ist'?",
+        "correctAnswer": "der eingeschlafene Mann",
+        "explanation": "Partizip II von intransitiven sein-Verben hat aktive, abgeschlossene Bedeutung."
+      },
+      {
+        "type": "reorder",
+        "prompt": "gelesene / ist / Zeitung / alt / die",
+        "correctAnswer": "Die gelesene Zeitung ist alt.",
+        "explanation": "Partizip II als Attribut vor dem Nomen, dekliniert wie ein Adjektiv."
+      }
+    ],
+    "orderIndex": 5
+  },
+  {
+    "id": 6,
+    "level": "B2",
+    "topic": "Erweiterte Attribute",
+    "explanation": "Erweiterte Attribute sind Partizipial- oder Adjektivgruppen, die vor dem Nomen stehen und eigene Ergänzungen enthalten. Sie sind typisch für Zeitungssprache, wissenschaftliche Texte und Verwaltungssprache. Struktur: Artikel + Ergänzungen + Partizip oder Adjektiv + Nomen. Beispiel: das an der Wand hängende Bild — das Bild, das an der Wand hängt. Oder: die von allen geliebte Lehrerin — die Lehrerin, die von allen geliebt wird. Der Leser muss die Partizipialgruppe mental in einen Relativsatz umwandeln. Typischer Lernerfehler: die Reihenfolge der Elemente. Regel: Artikel steht ganz vorn, dann alle Ergänzungen, dann das Partizip beziehungsweise Adjektiv, zuletzt das Nomen. Auflösung in einen Relativsatz ist immer möglich und oft stilistisch angenehmer. Auf B2-Niveau sollte man erweiterte Attribute verstehen und paraphrasieren können, in eigenen Texten sparsam einsetzen.",
+    "examples": [
+      "Das an der Wand hängende Bild ist sehr wertvoll.",
+      "Die von vielen Lesern bewunderte Autorin erhielt einen Preis.",
+      "Der in Berlin geborene Sänger lebt heute in Wien.",
+      "Eine schon lange geplante Reise wurde endlich möglich.",
+      "Das von der Firma angebotene Praktikum dauert drei Monate.",
+      "Die gestern Abend gesendete Nachricht erreichte alle Mitarbeiter.",
+      "Das nach langem Nachdenken gefällte Urteil überraschte niemanden.",
+      "Der mit viel Aufwand renovierte Saal glänzt wieder."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Das ___ ___ hängende Bild ist teuer. (an der Wand — erweiterte Attribute)",
+        "correctAnswer": "an der Wand",
+        "explanation": "Die Präpositionalergänzung steht zwischen Artikel und Partizip."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Relativsatz entspricht 'der in München wohnende Student'?",
+        "correctAnswer": "der Student, der in München wohnt",
+        "explanation": "Die erweiterte Partizipgruppe wird zu einem Relativsatz mit wohnt."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Die ___ ___ bekannte Schauspielerin ist jung. (in ganz Deutschland)",
+        "correctAnswer": "in ganz Deutschland",
+        "explanation": "Lokal-Ergänzung steht zwischen Artikel und Partizip bekannte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Paraphrase passt zu 'das von allen gelobte Ergebnis'?",
+        "correctAnswer": "das Ergebnis, das von allen gelobt wird",
+        "explanation": "Partizip II mit von-Phrase entspricht einem Passiv-Relativsatz."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz enthält ein erweitertes Attribut?",
+        "correctAnswer": "Der von allen erwartete Besuch kam doch noch.",
+        "explanation": "'von allen erwartete' ist eine Partizipgruppe vor dem Nomen Besuch."
+      },
+      {
+        "type": "reorder",
+        "prompt": "gestern / der / eröffnete / Laden / ist / klein",
+        "correctAnswer": "Der gestern eröffnete Laden ist klein.",
+        "explanation": "Artikel — Zeitangabe — Partizip II — Nomen: die typische Reihenfolge des erweiterten Attributs."
+      }
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": 7,
+    "level": "B2",
+    "topic": "Nominalisierung",
+    "explanation": "Nominalisierung ist die Umwandlung von Verben oder Adjektiven in Nomen. Sie verdichtet Information und ist typisch für schriftliche, formelle Texte. Verben werden durch verschiedene Verfahren zu Nomen: substantivierter Infinitiv (das Laufen, das Lesen) ist immer neutrum. Nominalisierung mit Endung -ung (die Untersuchung, die Entwicklung) ergibt feminine Nomen. Seltener mit -e (die Frage, die Reise) oder ohne Suffix (der Beginn, der Schlaf). Adjektive werden substantiviert und behalten Adjektivdeklination: der Kranke, eine Kranke, die Kranken. Abstrakta mit -heit, -keit, -tät, -ion: die Schönheit, die Möglichkeit, die Qualität, die Funktion. Nominalisierung hilft in Sprachbausteinen, Prüfungstexten und Zusammenfassungen. Typischer Lernerfehler: Genus der Nominalisierungen. Faustregel: -ung, -heit, -keit, -tät, -ion sind immer feminin; substantivierte Infinitive sind immer neutrum.",
+    "examples": [
+      "Das schnelle Laufen ermüdet mich.",
+      "Die Untersuchung dauerte mehrere Stunden.",
+      "Die Schönheit der Landschaft ist beeindruckend.",
+      "Der Kranke wurde sofort behandelt.",
+      "Die Möglichkeit einer Einigung besteht weiterhin.",
+      "Sein ständiges Reden nervt alle Kollegen.",
+      "Die Entwicklung neuer Technologien geht schnell voran.",
+      "Die Qualität der Produkte überzeugt die Kunden."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Das ___ (lesen) von Büchern macht Spaß. (substantivierter Infinitiv)",
+        "correctAnswer": "Lesen",
+        "explanation": "Substantivierter Infinitiv ist immer neutrum und großgeschrieben."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Die ___ (entwickeln) neuer Medikamente dauert lange. (Nomen auf -ung)",
+        "correctAnswer": "Entwicklung",
+        "explanation": "Verben auf -eln/-en bilden Nomen mit -ung: entwickeln → Entwicklung (feminin)."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welches Genus hat 'die Möglichkeit'?",
+        "correctAnswer": "feminin",
+        "explanation": "Nomen mit der Endung -keit sind immer feminin."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Die ___ (schön) der Natur beruhigt mich. (Abstraktum auf -heit)",
+        "correctAnswer": "Schönheit",
+        "explanation": "Adjektiv schön + Suffix -heit → die Schönheit (feminin)."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welches Nomen gehört zum Verb 'untersuchen'?",
+        "correctAnswer": "die Untersuchung",
+        "explanation": "untersuchen + -ung → die Untersuchung; Verbalsubstantiv auf -ung ist feminin."
+      },
+      {
+        "type": "reorder",
+        "prompt": "ist / Lernen / ständige / anstrengend / das",
+        "correctAnswer": "Das ständige Lernen ist anstrengend.",
+        "explanation": "Substantivierter Infinitiv 'das Lernen', vorangestelltes Adjektiv dekliniert schwach."
+      }
+    ],
+    "orderIndex": 7
+  },
+  {
+    "id": 8,
+    "level": "B2",
+    "topic": "Substantivierte Infinitive",
+    "explanation": "Der substantivierte Infinitiv ist eine besondere Form der Nominalisierung. Jedes Verb kann durch Großschreibung zu einem Neutrum-Nomen werden: das Essen, das Lernen, das Zustandekommen. Die Bedeutung liegt zwischen Verb und Nomen — die Tätigkeit wird als Prozess oder Sache beschrieben. Besonders formelle Ausdrücke wie 'das Inkrafttreten', 'das Zustandekommen', 'das Verhältnis' sind typisch für Verwaltungs- und Rechtssprache. Häufige Kombinationen mit Präpositionen: beim Lesen (während des Lesens), vom Lernen (Herkunft/Ursache), zum Verständnis (Zweck), nach dem Essen (zeitlich), durch ständiges Üben (Mittel). Die Präposition plus substantivierter Infinitiv ersetzt oft einen ganzen Nebensatz: Beim Lesen entspannt er sich — Wenn er liest, entspannt er sich. Typischer Lernerfehler: Kleinschreibung. Regel: substantivierte Infinitive werden immer großgeschrieben und mit bestimmtem Artikel 'das' verwendet.",
+    "examples": [
+      "Beim Lesen entspannt er sich am besten.",
+      "Das Inkrafttreten des Gesetzes ist für Januar geplant.",
+      "Vom vielen Sitzen tut mir der Rücken weh.",
+      "Zum Verständnis der Lage braucht man Hintergrundwissen.",
+      "Das Zustandekommen der Einigung überraschte alle.",
+      "Durch ständiges Üben verbessert sich die Aussprache.",
+      "Nach dem Essen machen wir einen Spaziergang.",
+      "Beim Sprechen vergisst er oft die Grammatik."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "___ ___ (kochen) höre ich gern Musik. (beim + subst. Inf.)",
+        "correctAnswer": "Beim Kochen",
+        "explanation": "'beim' + Dativ des substantivierten Infinitivs drückt Gleichzeitigkeit aus."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ ___ (lernen) wird man klüger. (durch + subst. Inf.)",
+        "correctAnswer": "Durch Lernen",
+        "explanation": "'durch' + substantivierter Infinitiv drückt Mittel oder Ursache aus."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Nebensatz entspricht 'Beim Essen schweigt sie.'?",
+        "correctAnswer": "Während sie isst, schweigt sie.",
+        "explanation": "'beim + Infinitiv' entspricht einem während-Satz."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ ___ (schreiben) benutzt er immer einen Füller. (zum)",
+        "correctAnswer": "Zum Schreiben",
+        "explanation": "'zum' + substantivierter Infinitiv drückt einen Zweck aus."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welches Genus hat 'das Laufen'?",
+        "correctAnswer": "neutrum",
+        "explanation": "Substantivierte Infinitive sind immer neutrum und großgeschrieben."
+      },
+      {
+        "type": "reorder",
+        "prompt": "beim / sie / singt / Kochen / gern",
+        "correctAnswer": "Beim Kochen singt sie gern.",
+        "explanation": "'beim Kochen' einleitend, dann Verb an 2. Stelle."
+      }
+    ],
+    "orderIndex": 8
+  },
+  {
+    "id": 9,
+    "level": "B2",
+    "topic": "Konnektoren — Kausalität, Konzessivität, Finalität",
+    "explanation": "Konnektoren verbinden Haupt- und Nebensätze und drücken logische Beziehungen aus. Im Unterschied zu B1 erweitert sich das Repertoire auf B2 um formellere Varianten. Kausal (Grund): weil und da leiten Nebensätze ein (Verb am Ende), denn ist ein Hauptsatzkonnektor (Verb an 2. Stelle), nämlich steht nach dem Verb im zweiten Hauptsatz. 'Da' klingt schriftlicher und steht oft am Satzanfang. Konzessiv (Einräumung): obwohl und obgleich leiten Nebensätze ein; trotzdem und dennoch sind Adverbien im Hauptsatz und lösen Inversion aus. Final (Zweck): damit leitet einen Nebensatz ein, wenn die Subjekte verschieden sind. 'um...zu + Infinitiv' verwendet man bei identischen Subjekten. Typischer Lernerfehler: 'um...zu' mit unterschiedlichen Subjekten. Faustregel: Gleiches Subjekt → um...zu; verschiedene Subjekte → damit.",
+    "examples": [
+      "Da das Wetter schlecht ist, bleiben wir zu Hause.",
+      "Er kam nicht, denn er war krank.",
+      "Sie ist nicht gekommen, sie hatte nämlich einen Termin.",
+      "Obgleich er müde war, arbeitete er weiter.",
+      "Das Wetter war schlecht, trotzdem gingen wir spazieren.",
+      "Ich lerne Deutsch, um in Berlin zu studieren.",
+      "Die Mutter spart, damit die Kinder studieren können.",
+      "Er ging früh ins Bett, weil er am nächsten Tag früh raus musste."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "___ er krank war, ging er nicht zur Arbeit. (formell, Nebensatz)",
+        "correctAnswer": "Da",
+        "explanation": "Da leitet einen kausalen Nebensatz ein, formeller als weil."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Sie lernt Italienisch, ___ sie nach Rom reisen will. (gleiches Subjekt)",
+        "correctAnswer": "um",
+        "explanation": "Bei identischem Subjekt nutzt man um...zu + Infinitiv."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Konnektor braucht Inversion im Hauptsatz?",
+        "correctAnswer": "trotzdem",
+        "explanation": "trotzdem ist Adverb; der Hauptsatz beginnt mit ihm und zeigt Inversion."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Er spart viel Geld, ___ seine Kinder studieren können. (verschiedene Subjekte)",
+        "correctAnswer": "damit",
+        "explanation": "Damit leitet einen Finalsatz ein, wenn die Subjekte unterschiedlich sind."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz drückt einen Grund aus?",
+        "correctAnswer": "Er blieb im Bett, weil er krank war.",
+        "explanation": "weil-Satz nennt den Grund für die Handlung im Hauptsatz."
+      },
+      {
+        "type": "reorder",
+        "prompt": "trotzdem / , / ich / regnete / mir / ging / es / schlecht / aus",
+        "correctAnswer": "Es regnete, trotzdem ging ich aus.",
+        "explanation": "'trotzdem' am Satzanfang des Hauptsatzes führt zu Inversion (Verb vor Subjekt)."
+      }
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": 10,
+    "level": "B2",
+    "topic": "Zweiteilige Konnektoren",
+    "explanation": "Zweiteilige Konnektoren verknüpfen zwei Satzteile durch ein festes Paar von Wörtern. Sie sind zentral für präzisen, nuancierten Ausdruck und erscheinen häufig in telc B2 Sprachbausteinen. Wichtige Paare: zwar...aber (Einräumung gefolgt von Gegensatz), je...desto/umso (proportionale Steigerung), entweder...oder (Alternative), weder...noch (doppelte Verneinung), nicht nur...sondern auch (Addition mit Betonung), sowohl...als auch (beide gleichwertig). Bei je...desto folgt das Verb am Ende im je-Teil und nach desto steht Komparativ: Je mehr ich übe, desto besser werde ich. Bei 'nicht nur...sondern auch' braucht der erste Teil Inversion, wenn er am Satzanfang steht. Typischer Lernerfehler: 'weder...oder' statt 'weder...noch'. Regel: weder verlangt immer noch; nach weder darf kein nicht mehr stehen, die Verneinung steckt schon in weder drin.",
+    "examples": [
+      "Zwar ist das Buch teuer, aber es lohnt sich.",
+      "Je mehr ich lese, desto besser verstehe ich den Text.",
+      "Entweder wir fahren mit dem Auto oder wir nehmen den Zug.",
+      "Weder der Vater noch die Mutter war zu Hause.",
+      "Nicht nur die Kinder, sondern auch die Eltern hatten Spaß.",
+      "Er spricht sowohl Englisch als auch Französisch.",
+      "Je länger man wartet, umso schwieriger wird es.",
+      "Zwar kenne ich ihn, aber wir sind keine Freunde."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "___ mehr ich lerne, ___ leichter wird es. (Paar je...desto)",
+        "correctAnswer": "Je, desto",
+        "explanation": "je...desto drückt proportionale Steigerung aus, beide mit Komparativ."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Wir essen ___ Pizza ___ Pasta. (Alternative)",
+        "correctAnswer": "entweder, oder",
+        "explanation": "entweder...oder markiert eine Wahl zwischen zwei Alternativen."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welches Paar drückt doppelte Verneinung aus?",
+        "correctAnswer": "weder...noch",
+        "explanation": "weder...noch verneint beide Elemente gleichzeitig."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Er spricht ___ Deutsch ___ ___ Englisch. (beide gleichwertig)",
+        "correctAnswer": "sowohl, als auch",
+        "explanation": "sowohl...als auch drückt aus, dass zwei Dinge gleichermaßen zutreffen."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "correctAnswer": "Nicht nur die Studenten, sondern auch die Lehrer protestieren.",
+        "explanation": "nicht nur...sondern auch fügt hinzu und betont beide Elemente."
+      },
+      {
+        "type": "reorder",
+        "prompt": "Brot / weder / sie / isst / noch / Nudeln",
+        "correctAnswer": "Sie isst weder Brot noch Nudeln.",
+        "explanation": "Standardstellung: Subjekt — Verb — weder + Objekt 1 — noch + Objekt 2."
+      }
+    ],
+    "orderIndex": 10
+  },
+  {
+    "id": 11,
+    "level": "B2",
+    "topic": "Relativsätze mit was, wo, wer",
+    "explanation": "Neben den bekannten Relativpronomen der, die, das gibt es spezielle Relativwörter für abstrakte oder unbestimmte Bezugswörter. 'Was' verwendet man nach alles, etwas, nichts, vieles, weniges und nach neutralen substantivierten Adjektiven sowie nach ganzen Satzinhalten: Alles, was er sagt, ist wahr. Er hat alles vergessen, was er gelernt hatte. Das Wichtigste, was ich gelernt habe, ist Geduld. 'Wo' ersetzt Relativkonstruktionen mit lokaler Bedeutung, besonders nach Ortsnamen und Adverbien wie überall, dort, da: Die Stadt, wo ich geboren wurde. Überall, wo man hinschaut, sieht man Werbung. 'Wer...der' leitet verallgemeinernde Aussagen ein, meist als Sprichwort: Wer zuletzt lacht, lacht am besten. Typischer Lernerfehler: 'das' statt 'was' nach alles. Regel: nach unbestimmten Mengenausdrücken steht immer was, nicht das.",
+    "examples": [
+      "Alles, was er sagt, klingt plausibel.",
+      "Das Beste, was wir tun können, ist zu warten.",
+      "Die Stadt, wo ich aufgewachsen bin, liegt im Süden.",
+      "Überall, wo man hinsieht, stehen Hochhäuser.",
+      "Wer zuletzt lacht, lacht am besten.",
+      "Etwas, was mich sehr beeindruckt hat, war die Architektur.",
+      "Das ist das Einzige, was mich noch interessiert.",
+      "Das Hotel, wo wir letztes Jahr waren, hat geschlossen."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Alles, ___ er sagt, ist interessant. (Relativwort)",
+        "correctAnswer": "was",
+        "explanation": "Nach 'alles' steht das Relativpronomen 'was', nicht 'das'."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Die Stadt, ___ ich studiere, ist schön. (lokal)",
+        "correctAnswer": "wo",
+        "explanation": "wo ersetzt Präposition + Relativpronomen bei Ortsbezug."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist grammatisch korrekt?",
+        "correctAnswer": "Das Wichtigste, was ich gelernt habe, ist Disziplin.",
+        "explanation": "Nach substantivierten Neutrum-Adjektiven steht was als Relativpronomen."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ früh aufsteht, ___ gewinnt der Tag. (Sprichwort)",
+        "correctAnswer": "Wer, dem",
+        "explanation": "wer...dem leitet eine verallgemeinernde Aussage ein; dem ist Dativ."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welches Relativwort passt: 'Überall, ___ Touristen sind, ist es laut.'?",
+        "correctAnswer": "wo",
+        "explanation": "Nach 'überall' und lokalen Adverbien steht wo."
+      },
+      {
+        "type": "reorder",
+        "prompt": "nichts / gibt / es / beklagen / zu / was",
+        "correctAnswer": "Es gibt nichts, was zu beklagen ist.",
+        "explanation": "Nach 'nichts' steht das Relativwort 'was'; Verb steht am Ende des Relativsatzes."
+      }
+    ],
+    "orderIndex": 11
+  },
+  {
+    "id": 12,
+    "level": "B2",
+    "topic": "Präpositionen mit Genitiv",
+    "explanation": "Genitivpräpositionen sind typisch für gehobene und amtliche Sprache. Sie kommen in Zeitungen, Behördentexten und wissenschaftlichen Artikeln häufig vor. Die wichtigsten Vertreter sind: aufgrund, hinsichtlich, mittels, seitens, infolge, anhand, angesichts, bezüglich. 'Trotz', 'während' und 'wegen' regieren in der Standardsprache den Genitiv, werden aber in der Umgangssprache oft mit Dativ verwendet: trotz des Regens (Schriftsprache), trotz dem Regen (Umgangssprache). 'Aufgrund' und 'infolge' nennen Ursachen, 'hinsichtlich' und 'bezüglich' nennen einen Bezugspunkt, 'anhand' und 'mittels' nennen ein Hilfsmittel, 'angesichts' nennt einen Anlass. Typischer Lernerfehler: Nomen nach Genitivpräpositionen ohne Artikel nutzen. Regel: Der Genitiv verlangt bei Maskulinum und Neutrum meist die Endung -s oder -es am Nomen: trotz des Regens, wegen des Problems.",
+    "examples": [
+      "Aufgrund des schlechten Wetters wurde das Konzert abgesagt.",
+      "Hinsichtlich der Kosten gibt es noch offene Fragen.",
+      "Mittels moderner Technik lassen sich viele Probleme lösen.",
+      "Seitens der Behörde liegen keine Einwände vor.",
+      "Infolge des Unfalls kam es zu einem Stau.",
+      "Anhand der Daten konnte man klare Trends erkennen.",
+      "Angesichts der Lage müssen wir schnell handeln.",
+      "Während des Vortrags klingelte mehrmals ein Handy."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "___ ___ Regens (wegen — Schriftsprache) bleiben wir zu Hause.",
+        "correctAnswer": "Wegen des",
+        "explanation": "wegen verlangt in der Schriftsprache Genitiv: wegen des Regens."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ ___ Unfalls (infolge) gab es einen Stau.",
+        "correctAnswer": "Infolge des",
+        "explanation": "infolge + Genitiv nennt die Folge einer Ursache."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Präposition nennt das Hilfsmittel oder Werkzeug?",
+        "correctAnswer": "mittels",
+        "explanation": "mittels + Genitiv zeigt das verwendete Mittel."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ ___ Krise (angesichts) müssen wir umdenken.",
+        "correctAnswer": "Angesichts der",
+        "explanation": "angesichts + Genitiv drückt den Anlass oder Auslöser aus."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist in der Schriftsprache korrekt?",
+        "correctAnswer": "Trotz des Regens gingen wir spazieren.",
+        "explanation": "trotz + Genitiv ist die korrekte Schriftsprache."
+      },
+      {
+        "type": "reorder",
+        "prompt": "des / wurde / Problems / Sitzung / aufgrund / die / abgesagt",
+        "correctAnswer": "Aufgrund des Problems wurde die Sitzung abgesagt.",
+        "explanation": "Präpositionalphrase mit aufgrund + Genitiv am Satzanfang, Verb an 2. Stelle."
+      }
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": 13,
+    "level": "B2",
+    "topic": "n-Deklination",
+    "explanation": "Einige maskuline Nomen bilden alle Fälle außer dem Nominativ Singular mit der Endung -n oder -en. Man spricht von n-Deklination oder schwacher Deklination. Typische Gruppen: maskuline Personenbezeichnungen auf -e wie der Junge, der Kollege, der Kunde, der Franzose; Nomen auf -ist, -ent, -ant, -at, -loge wie der Tourist, der Student, der Praktikant, der Soldat, der Psychologe; einige andere wie der Herr, der Mensch, der Nachbar, der Bauer, der Held. Beispiel: der Student (Nom.), den Studenten (Akk.), dem Studenten (Dat.), des Studenten (Gen.). Der Herr ist eine Ausnahme: im Plural en, im Singular ebenfalls en (den Herrn, dem Herrn, des Herrn). Typischer Lernerfehler: den Akkusativ oder Dativ ohne -n zu bilden — 'Ich sehe den Student' ist falsch, richtig: 'Ich sehe den Studenten.' Auch im Plural bleibt die Endung: die Studenten.",
+    "examples": [
+      "Der Student trifft seinen Kollegen.",
+      "Ich habe mit dem Nachbarn gesprochen.",
+      "Kennen Sie Herrn Müller?",
+      "Die Polizei verhaftete den Täter.",
+      "Der Tourist fragt den Herrn nach dem Weg.",
+      "Ich helfe dem Praktikanten bei der Arbeit.",
+      "Der Professor lobt seinen besten Studenten.",
+      "Sie spricht mit dem Jungen über die Schule."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich habe den ___ (Student) gefragt.",
+        "correctAnswer": "Studenten",
+        "explanation": "Nomen auf -ent gehören zur n-Deklination, Akkusativ Singular mit -en."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Wir sprechen mit ___ ___ (Herr Schmidt).",
+        "correctAnswer": "Herrn Schmidt",
+        "explanation": "Herr: Dativ Singular erhält -n."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Form ist korrekt?",
+        "correctAnswer": "Ich sehe den Jungen.",
+        "explanation": "der Junge gehört zur n-Deklination, Akkusativ bekommt -n."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Der Lehrer kennt den ___ (Kollege) gut.",
+        "correctAnswer": "Kollegen",
+        "explanation": "Kollege: n-Deklination, Akkusativ Singular mit -n."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welches Nomen gehört NICHT zur n-Deklination?",
+        "correctAnswer": "der Tisch",
+        "explanation": "der Tisch wird normal dekliniert, ohne -n im Akkusativ."
+      },
+      {
+        "type": "reorder",
+        "prompt": "hilft / Nachbarn / dem / er / alten",
+        "correctAnswer": "Er hilft dem alten Nachbarn.",
+        "explanation": "Dativ: dem alten Nachbarn; Nachbar → Nachbarn im Dativ Singular."
+      }
+    ],
+    "orderIndex": 13
+  },
+  {
+    "id": 14,
+    "level": "B2",
+    "topic": "Adjektivdeklination — gemischt und rein",
+    "explanation": "Die Adjektivendung hängt vom vorangehenden Artikel ab. Drei Muster gibt es: schwach (nach bestimmtem Artikel der, die, das), gemischt (nach unbestimmtem Artikel ein, kein, mein), rein oder stark (ohne Artikel). Schwach: der gute Mann, die gute Frau, das gute Kind, die guten Männer. Gemischt: ein guter Mann, eine gute Frau, ein gutes Kind, keine guten Männer. Rein: guter Wein, kalte Milch, kaltes Wasser, starke Männer. Die starke Deklination übernimmt die Endungen des bestimmten Artikels, weil der Artikel fehlt und das Genus markiert werden muss. Typischer Lernerfehler: -en nach ein im Nominativ Maskulinum oder -e nach ein im Nominativ Neutrum. Regel: ein/kein/mein enthalten keine Kasus- oder Genusendung im Nominativ Maskulinum und im Nominativ und Akkusativ Neutrum — das Adjektiv übernimmt diese Funktion mit -er oder -es.",
+    "examples": [
+      "Das ist ein guter Wein aus Frankreich.",
+      "Mit gutem Wein schmeckt das Essen besser.",
+      "Ich trinke gern kaltes Bier.",
+      "Eine kluge Studentin hat die Frage gestellt.",
+      "Starke Argumente überzeugen mich.",
+      "Der fleißige Mitarbeiter erhielt eine Prämie.",
+      "Mein alter Freund besuchte mich gestern.",
+      "Ohne frische Luft kann ich nicht arbeiten."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich trinke gern ___ (kalt) Wasser. (ohne Artikel)",
+        "correctAnswer": "kaltes",
+        "explanation": "Reine Deklination: Neutrum Akkusativ → kaltes."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Das ist ein ___ (nett) Kollege. (gemischt, Nominativ Mask.)",
+        "correctAnswer": "netter",
+        "explanation": "Nach ein (Nom. Mask.) zeigt das Adjektiv die Endung -er."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Form ist korrekt: 'Mit ___ Wein kochen wir.'?",
+        "correctAnswer": "gutem",
+        "explanation": "Reine Deklination Dativ Maskulinum → gutem."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Ich kaufe eine ___ (neu) Tasche.",
+        "correctAnswer": "neue",
+        "explanation": "Nach eine (Akk. Fem.) gemischte Deklination mit -e."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Form ist korrekt: 'Das ist ein ___ Kind.'?",
+        "correctAnswer": "gutes",
+        "explanation": "Gemischt, Nominativ Neutrum nach ein → gutes."
+      },
+      {
+        "type": "reorder",
+        "prompt": "mein / altes / Haus / hat / einen / schönen / großen / Garten",
+        "correctAnswer": "Mein altes Haus hat einen schönen großen Garten.",
+        "explanation": "Mein altes (gemischt, Neutrum) Haus; einen schönen großen Garten (gemischt, Akk. Mask.)."
+      }
+    ],
+    "orderIndex": 14
+  },
+  {
+    "id": 15,
+    "level": "B2",
+    "topic": "Modalverben subjektiv",
+    "explanation": "Modalverben haben neben ihrer objektiven Bedeutung auch subjektive Lesarten, die eine Einschätzung des Sprechers wiedergeben. Sie sind zentral für nuancierte Aussagen auf B2-Niveau. 'Müssen' als Vermutung bedeutet eine hohe Wahrscheinlichkeit: Er muss krank sein — ich bin fast sicher. 'Können' drückt eine schwächere Möglichkeit aus: Er kann krank sein — es ist denkbar. 'Dürfte' signalisiert eine vorsichtige Vermutung: Er dürfte schon zu Hause sein. 'Mögen' in der Vermutungslesart ist selten, häufig in Konzessivsätzen: Er mag recht haben, aber... 'Wollen' drückt eine unbewiesene Behauptung aus: Er will Arzt sein — er behauptet es. 'Sollen' signalisiert Hörensagen: Er soll sehr reich sein — andere sagen das. Typischer Lernerfehler: Verwechslung von wollen und sollen in diesen Lesarten. Faustregel: wollen = Selbstbehauptung der 3. Person; sollen = Gerücht aus zweiter Hand.",
+    "examples": [
+      "Er muss sehr klug sein, alle reden von ihm.",
+      "Sie kann durchaus recht haben.",
+      "Das Paket dürfte morgen ankommen.",
+      "Er will den Unfall nicht gesehen haben.",
+      "Das Hotel soll ausgezeichnet sein.",
+      "Du musst jetzt hungrig sein.",
+      "Sie soll früher eine berühmte Sängerin gewesen sein.",
+      "Er will gestern zehn Stunden gearbeitet haben."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Er ___ krank sein, denn er ist ganz blass. (hohe Wahrscheinlichkeit)",
+        "correctAnswer": "muss",
+        "explanation": "Subjektives müssen drückt eine sehr wahrscheinliche Vermutung aus."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Er ___ ein berühmter Schauspieler sein. (Hörensagen)",
+        "correctAnswer": "soll",
+        "explanation": "Subjektives sollen signalisiert eine Information aus zweiter Hand."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz drückt eine unbewiesene Selbstbehauptung aus?",
+        "correctAnswer": "Er will den Dieb nicht gesehen haben.",
+        "explanation": "Subjektives wollen kennzeichnet eine vom Sprecher angezweifelte Selbstaussage."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Der Zug ___ pünktlich ankommen. (vorsichtige Vermutung)",
+        "correctAnswer": "dürfte",
+        "explanation": "dürfte drückt eine begründete, aber zurückhaltende Vermutung aus."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Was bedeutet 'Er soll reich sein.'?",
+        "correctAnswer": "Andere Leute sagen, er sei reich.",
+        "explanation": "Subjektives sollen gibt wieder, was andere behaupten."
+      },
+      {
+        "type": "reorder",
+        "prompt": "soll / das / teuer / Restaurant / sehr / sein",
+        "correctAnswer": "Das Restaurant soll sehr teuer sein.",
+        "explanation": "Subjektives sollen = Hörensagen; Struktur: Subjekt — soll — Rest — Infinitiv."
+      }
+    ],
+    "orderIndex": 15
+  },
+  {
+    "id": 16,
+    "level": "B2",
+    "topic": "Temporalsätze",
+    "explanation": "Temporalsätze ordnen Handlungen zeitlich zueinander. Die Wahl des Konnektors bestimmt das Verhältnis: gleichzeitig, vorzeitig oder nachzeitig. 'Nachdem' leitet eine vorzeitige Handlung ein; die Zeitenfolge ist streng: Perfekt oder Plusquamperfekt im nachdem-Satz, Präsens oder Präteritum im Hauptsatz. 'Bevor' und 'ehe' leiten eine nachzeitige Handlung ein: Bevor ich esse, wasche ich die Hände. 'Während' markiert Gleichzeitigkeit. 'Sobald' bedeutet sofort nachdem, 'solange' eine zeitliche Erstreckung, 'seitdem' einen Startpunkt. 'Als' nutzt man für einmalige Ereignisse in der Vergangenheit, 'wenn' für wiederholte Ereignisse oder Gegenwart und Zukunft. Typischer Lernerfehler: bei nachdem die Zeiten gleichzusetzen. Regel: im nachdem-Satz immer die frühere Zeitform wählen — Plusquamperfekt, wenn der Hauptsatz im Präteritum steht; Perfekt, wenn der Hauptsatz im Präsens steht.",
+    "examples": [
+      "Nachdem ich gegessen hatte, ging ich spazieren.",
+      "Bevor du losfährst, tank bitte noch.",
+      "Während sie kocht, deckt er den Tisch.",
+      "Sobald ich zu Hause bin, rufe ich dich an.",
+      "Solange es regnet, bleiben wir drinnen.",
+      "Seitdem er Sport macht, fühlt er sich besser.",
+      "Als ich jung war, wohnte ich in Köln.",
+      "Immer wenn er nach Hause kommt, begrüßt ihn der Hund."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "___ ich gegessen ___, ging ich ins Bett. (nachdem — Plusquamperfekt)",
+        "correctAnswer": "Nachdem, hatte",
+        "explanation": "Vorzeitigkeit zur Vergangenheit: nachdem + Plusquamperfekt."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ ich nach Hause komme, rufe ich dich an. (sofort danach)",
+        "correctAnswer": "Sobald",
+        "explanation": "sobald bedeutet 'unmittelbar nachdem' und leitet einen Nebensatz ein."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Konjunktion passt: '___ ich klein war, hatten wir einen Hund.'?",
+        "correctAnswer": "Als",
+        "explanation": "Einmaliges Ereignis in der Vergangenheit → als."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Ich frühstücke, ___ ich zur Arbeit gehe. (vorher — bevor)",
+        "correctAnswer": "bevor",
+        "explanation": "bevor leitet einen nachzeitigen Nebensatz ein."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist grammatisch korrekt?",
+        "correctAnswer": "Nachdem ich angekommen war, rief ich dich an.",
+        "explanation": "Nachdem-Satz mit Plusquamperfekt, Hauptsatz mit Präteritum."
+      },
+      {
+        "type": "reorder",
+        "prompt": "Kaffee / ich / trinke / lese / während / Zeitung / die",
+        "correctAnswer": "Während ich Kaffee trinke, lese ich die Zeitung.",
+        "explanation": "während-Nebensatz signalisiert Gleichzeitigkeit; Verb am Ende des Nebensatzes."
+      }
+    ],
+    "orderIndex": 16
+  },
+  {
+    "id": 17,
+    "level": "B2",
+    "topic": "Indefinitpronomen",
+    "explanation": "Indefinitpronomen verweisen auf Personen oder Dinge, ohne sie zu identifizieren. Zentrale Formen für Personen: jemand und niemand werden dekliniert — Nom. jemand/niemand, Akk. jemanden/niemanden, Dat. jemandem/niemandem, Gen. jemandes/niemandes. Die intensiveren Varianten irgendjemand und irgendwer haben dieselbe Deklination. 'Man' ist unpersönlich und nur Nominativ; im Akkusativ wird es durch einen ersetzt, im Dativ durch einem: Das tut einem gut. 'Alle' steht im Plural, 'jeder' im Singular, 'keiner' verneint. 'Alles', 'etwas' und 'nichts' sind neutrum und werden nicht flektiert. Nach ihnen folgt substantiviertes Adjektiv mit Großschreibung und starker Endung -es: etwas Neues, nichts Gutes. Typischer Lernerfehler: 'nichts gutes' klein geschrieben oder ohne Endung. Regel: nach etwas, nichts, alles steht das Adjektiv großgeschrieben mit -es; nach alles mit -e (schwach), nach etwas/nichts mit -es (stark).",
+    "examples": [
+      "Hat jemand meine Schlüssel gesehen?",
+      "Ich habe niemandem davon erzählt.",
+      "Irgendwer muss die Tür offen gelassen haben.",
+      "Das tut einem richtig gut.",
+      "Jeder kann das lernen, wenn er übt.",
+      "Alle Teilnehmer haben bestanden.",
+      "Ich habe etwas Interessantes gelesen.",
+      "Nichts Wichtiges ist passiert."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich habe ___ (niemand) davon erzählt. (Dativ)",
+        "correctAnswer": "niemandem",
+        "explanation": "Dativ Singular: niemandem."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Hast du ___ (jemand) gesehen? (Akkusativ)",
+        "correctAnswer": "jemanden",
+        "explanation": "Akkusativ: jemanden mit Endung -en."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Form ist korrekt?",
+        "correctAnswer": "Das tut einem gut.",
+        "explanation": "Dativ von 'man' wird durch 'einem' ersetzt."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Ich habe etwas ___ (neu) gelesen.",
+        "correctAnswer": "Neues",
+        "explanation": "Nach 'etwas' steht substantiviertes Adjektiv neutrum mit Endung -es, großgeschrieben."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist grammatisch korrekt?",
+        "correctAnswer": "Nichts Wichtiges ist passiert.",
+        "explanation": "Nach nichts steht das substantivierte Adjektiv mit -es und Großschreibung."
+      },
+      {
+        "type": "reorder",
+        "prompt": "Gutes / ich / etwas / wünsche / dir",
+        "correctAnswer": "Ich wünsche dir etwas Gutes.",
+        "explanation": "Standardstellung: Subjekt — Verb — Dativ — Akkusativ; substantiviertes Adjektiv großgeschrieben."
+      }
+    ],
+    "orderIndex": 17
+  },
+  {
+    "id": 18,
+    "level": "B2",
+    "topic": "Modalpartikeln",
+    "explanation": "Modalpartikeln oder Abtönungspartikeln sind kleine Wörter, die die Haltung des Sprechers zur Aussage markieren. Sie sind nicht betont, nicht übersetzbar und stark kontextabhängig. Wichtige Vertreter: 'doch' signalisiert Widerspruch oder Erinnerung (Du kennst ihn doch — du solltest es wissen). 'Ja' drückt etwas Selbstverständliches aus (Das ist ja klar). 'Eben' und 'halt' akzeptieren etwas Unveränderliches (Das ist eben so). 'Mal' macht Aufforderungen höflicher (Komm mal her). 'Schon' wirkt relativierend oder beschwichtigend (Das wird schon klappen). 'Wohl' drückt eine Vermutung aus (Er ist wohl krank). Diese Partikeln kommen fast nur in gesprochener Sprache und informellen Texten vor. Typischer Lernerfehler: sie stark zu betonen oder falsch zu platzieren. Regel: Modalpartikeln stehen im Mittelfeld, direkt nach dem Verb oder dem Subjekt, nie am Satzanfang oder -ende, nie betont.",
+    "examples": [
+      "Du kennst ihn doch, oder?",
+      "Das ist ja selbstverständlich.",
+      "So ist das eben, man kann nichts ändern.",
+      "Komm mal her und hilf mir kurz.",
+      "Das wird schon wieder in Ordnung kommen.",
+      "Er ist wohl noch im Büro.",
+      "Setz dich doch bitte kurz zu uns.",
+      "Ich hab halt keine Zeit für so etwas."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Komm ___ her und hilf mir! (Partikel macht die Aufforderung freundlicher)",
+        "correctAnswer": "mal",
+        "explanation": "mal relativiert eine Aufforderung und macht sie freundlicher."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Er ist ___ nicht da, sein Auto fehlt. (Vermutung)",
+        "correctAnswer": "wohl",
+        "explanation": "wohl markiert eine Vermutung, oft mit sichtbaren Anhaltspunkten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Partikel drückt 'das ist halt so, kann man nichts machen' aus?",
+        "correctAnswer": "eben",
+        "explanation": "eben (oder halt) signalisiert Akzeptanz einer unveränderbaren Tatsache."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Das weißt du ___! (Erinnerung an Bekanntes)",
+        "correctAnswer": "doch",
+        "explanation": "doch erinnert den Gesprächspartner an etwas Bekanntes."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Partikel beruhigt und wirkt relativierend?",
+        "correctAnswer": "schon",
+        "explanation": "schon wirkt in vielen Kontexten beschwichtigend oder relativierend."
+      },
+      {
+        "type": "reorder",
+        "prompt": "ist / das / doch / klar",
+        "correctAnswer": "Das ist doch klar.",
+        "explanation": "Modalpartikel doch steht nach dem finiten Verb im Mittelfeld."
+      }
+    ],
+    "orderIndex": 18
+  },
+  {
+    "id": 19,
+    "level": "B2",
+    "topic": "Trennbare und untrennbare Verben — Bedeutungsnuancen",
+    "explanation": "Einige Präfixe können trennbar oder untrennbar sein, und die Bedeutung ändert sich dabei komplett. Diese Doppeldeutigkeit gehört zu den schwierigsten Themen des Deutschen. Bei 'umfahren' trennbar bedeutet 'umwerfen': Er fährt den Baum um. Untrennbar bedeutet es 'herumfahren, um etwas zu umgehen': Er umfährt den Baum. Ähnlich 'übersetzen': trennbar 'hinüberbringen' (Der Fährmann setzt die Passagiere über), untrennbar 'in eine andere Sprache bringen' (Sie übersetzt den Text). Weitere Beispiele: 'durchfahren' (trennbar: ohne Halt hindurchfahren; untrennbar: komplett durchqueren), 'umschreiben' (trennbar: neu schreiben; untrennbar: paraphrasieren). Die Betonung hilft: trennbare Präfixe sind betont, untrennbare nicht. Typischer Lernerfehler: falsche Perfektbildung. Regel: trennbare Verben bilden Partizip II mit ge- zwischen Präfix und Stamm (umgefahren); untrennbare Verben erhalten kein ge- (umfahren — hat umfahren).",
+    "examples": [
+      "Er ist den Baum umgefahren, als er rückwärts fuhr.",
+      "Er hat den großen See vorsichtig umfahren.",
+      "Der Fährmann hat uns pünktlich übergesetzt.",
+      "Sie hat den Text ins Englische übersetzt.",
+      "Der Zug fuhr ohne Halt durch unseren Bahnhof durch.",
+      "Die Forscher durchfuhren die ganze Wüste in einer Woche.",
+      "Ich schreibe den Aufsatz lieber neu um.",
+      "Sie umschreibt den heiklen Begriff vorsichtig."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Sie hat den englischen Text ins Deutsche ___. (untrennbar — Partizip II)",
+        "correctAnswer": "übersetzt",
+        "explanation": "Untrennbares übersetzen bildet Partizip II ohne ge-."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Der Autofahrer hat aus Versehen einen Radfahrer ___. (trennbar — umwerfen)",
+        "correctAnswer": "umgefahren",
+        "explanation": "Trennbares umfahren bildet Partizip II mit ge- zwischen Präfix und Stamm."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welches Verb ist untrennbar?",
+        "correctAnswer": "umfahren (= herumfahren)",
+        "explanation": "In der Bedeutung 'herumfahren, um etwas zu umgehen' ist umfahren untrennbar."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Der Forscher ___ das ganze Land auf der Reise. (untrennbar — durchqueren, Präteritum)",
+        "correctAnswer": "durchfuhr",
+        "explanation": "Untrennbar durchfahren im Präteritum: durchfuhr."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Bedeutung hat 'Sie hat den Satz umgeschrieben.' (trennbar)?",
+        "correctAnswer": "Sie hat den Satz neu formuliert.",
+        "explanation": "Trennbares umschreiben bedeutet neu oder anders schreiben."
+      },
+      {
+        "type": "reorder",
+        "prompt": "Text / sie / hat / übersetzt / den / schwierigen",
+        "correctAnswer": "Sie hat den schwierigen Text übersetzt.",
+        "explanation": "Untrennbar: Partizip II 'übersetzt' ohne ge- steht am Satzende."
+      }
+    ],
+    "orderIndex": 19
+  },
+  {
+    "id": 20,
+    "level": "B2",
+    "topic": "Funktionsverbgefüge",
+    "explanation": "Funktionsverbgefüge sind feste Verbindungen aus einem inhaltsarmen Verb (Funktionsverb) und einem Nomen, das die eigentliche Bedeutung trägt. Sie sind typisch für Verwaltungs-, Wissenschafts- und Mediensprache. Beispiele: 'zur Verfügung stellen' (= geben, bereitstellen), 'in Kauf nehmen' (= akzeptieren), 'Rücksicht nehmen' (= berücksichtigen), 'in Betracht ziehen' (= erwägen), 'zum Ausdruck bringen' (= ausdrücken), 'in Frage stellen' (= anzweifeln), 'eine Entscheidung treffen' (= sich entscheiden), 'einen Vorschlag machen' (= vorschlagen). Funktionsverbgefüge haben oft eine leichte Bedeutungsverschiebung: 'zum Ausdruck bringen' klingt feierlicher als 'ausdrücken'. Sie sind nicht trennbar im Sinne freier Kombinationen — die Präposition, der Artikel und das Nomen gehören fest zusammen. Typischer Lernerfehler: falsche Präposition oder Artikel. Regel: Funktionsverbgefüge muss man als ganze Einheit lernen, ähnlich wie Phrasen in anderen Sprachen.",
+    "examples": [
+      "Die Firma stellt ihren Mitarbeitern Laptops zur Verfügung.",
+      "Wir müssen einige Nachteile in Kauf nehmen.",
+      "Bitte nimm Rücksicht auf die Nachbarn.",
+      "Wir ziehen alle Alternativen in Betracht.",
+      "Der Redner brachte seine Dankbarkeit zum Ausdruck.",
+      "Diese Entscheidung stelle ich hiermit in Frage.",
+      "Der Vorstand hat eine Entscheidung getroffen.",
+      "Ich möchte einen Vorschlag zur Diskussion machen."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Wir müssen eine Entscheidung ___. (Funktionsverb)",
+        "correctAnswer": "treffen",
+        "explanation": "Funktionsverbgefüge 'eine Entscheidung treffen' = sich entscheiden."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Die Firma stellt uns ein Auto ___ ___. (zur Verfügung)",
+        "correctAnswer": "zur Verfügung",
+        "explanation": "zur Verfügung stellen bedeutet etwas bereitstellen."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Was bedeutet 'in Kauf nehmen'?",
+        "correctAnswer": "akzeptieren, hinnehmen",
+        "explanation": "'etwas in Kauf nehmen' bedeutet einen Nachteil bewusst akzeptieren."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Er ___ seine Meinung deutlich ___ ___. (zum Ausdruck bringen)",
+        "correctAnswer": "brachte zum Ausdruck",
+        "explanation": "Funktionsverbgefüge 'zum Ausdruck bringen' = ausdrücken."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welches Funktionsverbgefüge bedeutet 'erwägen'?",
+        "correctAnswer": "in Betracht ziehen",
+        "explanation": "in Betracht ziehen bedeutet berücksichtigen oder erwägen."
+      },
+      {
+        "type": "reorder",
+        "prompt": "Rücksicht / Kinder / nimmt / die / auf / sie",
+        "correctAnswer": "Sie nimmt Rücksicht auf die Kinder.",
+        "explanation": "Standardstellung: Subjekt — Funktionsverb — festes Nomen — Präpositionalobjekt."
+      }
+    ],
+    "orderIndex": 20
+  },
+  {
+    "id": 21,
+    "level": "B2",
+    "topic": "Negation — Satz- und Wortebene",
+    "explanation": "Die Verneinung im Deutschen kennt zwei Ebenen. Auf Satzebene verneint man mit 'nicht' eine Handlung oder Aussage: Ich komme nicht. Auf Wortebene verneint man einzelne Wörter durch Präfixe wie un-, in-, miss- oder Suffixe wie -los: unfreundlich, inaktiv, missverstehen, arbeitslos. Die Position von 'nicht' ist entscheidend: bei Satznegation steht nicht spät im Mittelfeld, meist vor dem Satzglied, das es betont; bei Teilnegation steht nicht direkt vor dem negierten Element. 'Nicht' vs. 'kein': 'kein' verneint unbestimmte oder fehlende Artikel plus Nomen (Ich habe kein Auto). 'Nicht' verneint Verben, Sätze oder bestimmte Artikel plus Nomen (Ich habe das Auto nicht). Typischer Lernerfehler: 'nicht ein Buch' statt 'kein Buch'. Regel: Wo 'ein' oder gar kein Artikel steht und verneint wird, nutzt man kein; bei bestimmtem Artikel oder Possessivpronomen mit Verneinung nutzt man nicht.",
+    "examples": [
+      "Ich komme heute nicht.",
+      "Er ist sehr unfreundlich geworden.",
+      "Das ist doch unglaublich inakzeptabel.",
+      "Die Firma musste viele arbeitslose Bewerber enttäuschen.",
+      "Ich habe das Buch noch nicht gelesen.",
+      "Sie hat kein Auto, aber ein Fahrrad.",
+      "Er hat meinen Rat nicht befolgt.",
+      "Der Vortrag war nicht besonders interessant."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich habe ___ Zeit. (unbestimmter Artikel, Verneinung)",
+        "correctAnswer": "keine",
+        "explanation": "Ohne Artikel bzw. mit unbestimmtem Artikel wird mit kein verneint."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Er hat meinen Vorschlag ___ akzeptiert.",
+        "correctAnswer": "nicht",
+        "explanation": "Bei Possessivpronomen + Nomen wird mit nicht verneint."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welches Wort ist die verneinende Entsprechung zu 'freundlich'?",
+        "correctAnswer": "unfreundlich",
+        "explanation": "Das Präfix un- verneint Adjektive auf Wortebene."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Das ist ___ das richtige Beispiel. (Verneinung mit bestimmtem Artikel)",
+        "correctAnswer": "nicht",
+        "explanation": "Bei bestimmtem Artikel + Nomen wird mit nicht verneint."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist grammatisch korrekt?",
+        "correctAnswer": "Ich habe kein Geld.",
+        "explanation": "Unbestimmte Menge / fehlender Artikel → kein."
+      },
+      {
+        "type": "reorder",
+        "prompt": "heute / gehe / Büro / ich / nicht / ins",
+        "correctAnswer": "Ich gehe heute nicht ins Büro.",
+        "explanation": "nicht steht im Mittelfeld, typischerweise vor der Präpositionalphrase, die verneint wird."
+      }
+    ],
+    "orderIndex": 21
+  },
+  {
+    "id": 22,
+    "level": "B2",
+    "topic": "Gerundivum — zu + Partizip als Attribut",
+    "explanation": "Das Gerundivum ist eine Partizipialkonstruktion aus 'zu' + Partizip Präsens vor einem Nomen. Sie drückt Notwendigkeit oder Möglichkeit im Passiv aus: das zu lösende Problem — das Problem, das gelöst werden muss oder gelöst werden kann. Die Form bildet man aus 'zu' + Infinitivstamm + -end plus Adjektivendung. Sie ist typisch für formelle, schriftliche Sprache und ersetzt einen Passiv-Relativsatz mit Modalverb. Weitere Beispiele: die zu beachtenden Regeln — die Regeln, die beachtet werden müssen; das zu besprechende Thema — das Thema, das besprochen werden soll; die nicht zu übersehenden Mängel — die Mängel, die nicht übersehen werden können. Das Gerundivum hat passive Bedeutung und steht nur bei transitiven Verben. Typischer Lernerfehler: das Gerundivum mit aktiver Bedeutung zu verwenden. Regel: zu + Partizip I als Attribut bedeutet immer 'muss oder kann getan werden', also passiv und modal.",
+    "examples": [
+      "Das zu lösende Problem ist komplex.",
+      "Die zu beachtenden Regeln stehen im Handbuch.",
+      "Das zu besprechende Thema ist sensibel.",
+      "Die nicht zu übersehenden Mängel fallen auf.",
+      "Der zu lesende Artikel ist sehr lang.",
+      "Die rechtzeitig einzureichenden Unterlagen fehlen noch.",
+      "Ein leicht zu verwechselndes Detail fehlt.",
+      "Die zu klärenden Fragen wurden notiert."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Das zu ___ (lösen) Problem ist komplex. (Gerundivum)",
+        "correctAnswer": "lösende",
+        "explanation": "Gerundivum: zu + Infinitivstamm + -end + Adjektivendung."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Relativsatz entspricht 'die zu erledigenden Aufgaben'?",
+        "correctAnswer": "die Aufgaben, die erledigt werden müssen",
+        "explanation": "Gerundivum hat passive Bedeutung mit modalem Beiklang."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Die zu ___ (beachten) Regeln stehen oben.",
+        "correctAnswer": "beachtenden",
+        "explanation": "Gerundivum zu beachten → zu beachtende; Plural Nominativ bestimmter Artikel → -den."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welche Bedeutung hat das Gerundivum?",
+        "correctAnswer": "passivisch mit Notwendigkeit oder Möglichkeit",
+        "explanation": "Gerundivum = passiv + muss oder kann; entspricht einem Relativsatz im Passiv mit Modalverb."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Der zu ___ (lesen) Artikel ist lang.",
+        "correctAnswer": "lesende",
+        "explanation": "Gerundivum: zu + lesen-Stamm + -end + Adjektivendung Maskulinum (Nom. mit bestimmtem Artikel): -e."
+      },
+      {
+        "type": "reorder",
+        "prompt": "zu / die / klärenden / Fragen / sind / noch / offen",
+        "correctAnswer": "Die zu klärenden Fragen sind noch offen.",
+        "explanation": "Gerundivum-Attribut (zu + Partizip Präsens + Adjektivendung) steht zwischen Artikel und Nomen: die zu klärenden Fragen = die Fragen, die geklärt werden müssen."
+      }
+    ],
+    "orderIndex": 22
+  },
+  {
+    "id": 23,
+    "level": "B2",
+    "topic": "Appositionen",
+    "explanation": "Eine Apposition ist ein nominaler Zusatz, der ein anderes Nomen näher erklärt. Sie steht meist in Kommas, kann aber auch eng angeschlossen sein: Herr Müller, unser Nachbar, ist Arzt. Die Apposition kongruiert normalerweise im Kasus mit dem Bezugsnomen: Ich treffe Herrn Müller, unseren Nachbarn (beide Akkusativ). Enge Appositionen ohne Komma erscheinen häufig bei Titeln, Berufen und geographischen Angaben: Bundeskanzlerin Merkel, die Stadt Berlin, Professor Schmidt. Bei Titeln bleibt das folgende Nomen oft im Nominativ, auch wenn das ganze Gefüge in einem anderen Kasus steht: Ich habe mit Herrn Dr. Schmidt (nicht Dr. Schmidtem) gesprochen. Typischer Lernerfehler: Kasuskongruenz vergessen oder Kommas falsch setzen. Regel: Die Apposition teilt den Kasus des Bezugsnomens; bei nicht-restriktiven Appositionen (Zusatzinformation) stehen Kommas davor und danach; bei restriktiven (notwendigen) Appositionen meist nicht.",
+    "examples": [
+      "Herr Müller, unser Nachbar, ist Arzt.",
+      "Ich spreche mit Herrn Müller, unserem Nachbarn.",
+      "Die Stadt Berlin wächst weiter.",
+      "Wir besuchen Professor Schmidt, den bekannten Physiker.",
+      "Meine Tante Anna, eine Lehrerin aus Bremen, kommt zu Besuch.",
+      "Der Roman 'Der Vorleser', ein Bestseller, wurde verfilmt.",
+      "Kanzlerin Merkel traf den französischen Präsidenten.",
+      "In München, der Hauptstadt Bayerns, gibt es viele Museen."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich treffe Herrn Müller, ___ ___ (unser Nachbar — Akkusativ).",
+        "correctAnswer": "unseren Nachbarn",
+        "explanation": "Apposition kongruiert im Akkusativ mit dem Bezugsnomen."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Wir sprechen mit Frau Schmidt, ___ ___ (die neue Lehrerin — Dativ).",
+        "correctAnswer": "der neuen Lehrerin",
+        "explanation": "Apposition im Dativ kongruiert mit dem Bezugsnomen."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist grammatisch korrekt?",
+        "correctAnswer": "Ich helfe Frau Weber, meiner Kollegin.",
+        "explanation": "Apposition steht im Dativ wie das Bezugsnomen; Komma davor."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Ich kenne den Autor, ___ ___ (ein berühmter Schriftsteller — Akkusativ).",
+        "correctAnswer": "einen berühmten Schriftsteller",
+        "explanation": "Apposition kongruiert im Akkusativ mit Bezugsnomen den Autor."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz enthält eine enge Apposition?",
+        "correctAnswer": "Die Stadt Berlin ist groß.",
+        "explanation": "Enge Apposition: Bezugsnomen und Zusatz ohne Komma, oft bei geographischen Namen."
+      },
+      {
+        "type": "reorder",
+        "prompt": "Nachbarin / unserer / ich / mit / spreche / Frau / , / Müller",
+        "correctAnswer": "Ich spreche mit Frau Müller, unserer Nachbarin.",
+        "explanation": "Apposition im Dativ nach dem Bezugsnomen, durch Komma getrennt."
+      }
+    ],
+    "orderIndex": 23
+  },
+  {
+    "id": 24,
+    "level": "B2",
+    "topic": "Hervorhebung — es-Spaltsätze, Inversion, Topikalisierung",
+    "explanation": "Das Deutsche verfügt über mehrere Strukturen, um bestimmte Satzteile zu betonen. Der es-Spaltsatz stellt einen Teil heraus, indem er ihn in einen kurzen Hauptsatz mit 'es ist' oder 'es war' einbettet: Es ist Peter, der die Arbeit gemacht hat — nicht jemand anderes, sondern Peter. Durch Inversion rückt ein Satzteil an die erste Position und das Verb bleibt an zweiter Stelle: Gestern habe ich ihn gesehen. Die Position eins ist die Topikposition und signalisiert den Ausgangspunkt der Information. Die Topikalisierung funktioniert auch mit ganzen Nebensätzen oder Infinitivphrasen: Was mich betrifft, habe ich keine Bedenken. Der Fokus liegt dann oft am Satzende. Typischer Lernerfehler: die Inversion nach adverbialer Angabe zu vergessen. Regel: Sobald ein Satzglied vor dem Verb steht — ob Subjekt, Objekt oder Adverb —, folgt das konjugierte Verb direkt danach, erst dann das Subjekt.",
+    "examples": [
+      "Es ist Peter, der die Präsentation hält.",
+      "Es war gestern, als ich ihn traf.",
+      "Gestern habe ich das Buch fertig gelesen.",
+      "Am Freitag fahren wir in den Urlaub.",
+      "Diesen Film habe ich schon dreimal gesehen.",
+      "Was mich betrifft, habe ich keine Einwände.",
+      "Nur meinem besten Freund habe ich davon erzählt.",
+      "Es sind die Details, die den Unterschied machen."
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "___ ___ Peter, der die Idee hatte. (es-Spaltsatz)",
+        "correctAnswer": "Es war",
+        "explanation": "Der es-Spaltsatz hebt das Subjekt hervor: Es war X, der ..."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Gestern ___ ich ins Kino gegangen. (Inversion)",
+        "correctAnswer": "bin",
+        "explanation": "Nach adverbialer Angabe in Position 1 folgt das konjugierte Verb an Position 2."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz zeigt eine Topikalisierung des Akkusativobjekts?",
+        "correctAnswer": "Den Film habe ich schon gesehen.",
+        "explanation": "Das Akkusativobjekt steht an Position 1, das Verb bleibt an Position 2."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "___ ___ die Kinder, die den Lärm machen. (es-Spaltsatz, Plural)",
+        "correctAnswer": "Es sind",
+        "explanation": "es-Spaltsatz mit Plural: Es sind X, die ..."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz enthält einen es-Spaltsatz?",
+        "correctAnswer": "Es ist seine Mutter, die ihm hilft.",
+        "explanation": "Der es-Spaltsatz hebt ein Element hervor und folgt mit einem Relativsatz."
+      },
+      {
+        "type": "reorder",
+        "prompt": "Morgen / nach / wir / München / fahren",
+        "correctAnswer": "Morgen fahren wir nach München.",
+        "explanation": "Zeitangabe an Position 1, konjugiertes Verb an Position 2, dann Subjekt."
+      }
+    ],
+    "orderIndex": 24
+  },
+  {
+    "id": 25,
+    "level": "B2",
+    "topic": "Indirekte Fragesätze",
+    "explanation": "Indirekte Fragesätze sind Nebensätze, die eine Frage in einen übergeordneten Satz einbetten. Zwei Typen gibt es: Ja-Nein-Fragen werden mit der Konjunktion 'ob' eingeleitet: Ich weiß nicht, ob er kommt. W-Fragen übernehmen das ursprüngliche Fragewort als Konjunktion: Er fragt, wann die Sitzung beginnt. In beiden Fällen steht das konjugierte Verb am Ende des Nebensatzes, wie bei allen Nebensätzen. Typische einleitende Verben sind: wissen, fragen, überlegen, sich fragen, wissen wollen, nicht sicher sein. Indirekte Fragen erscheinen auch in höflichen Anfragen: Könnten Sie mir sagen, wo der Bahnhof ist? In diesem Beispiel ersetzt die indirekte Frage eine direkte Frage, die weniger höflich klänge. Typischer Lernerfehler: Fragezeichen am Nebensatzende oder Inversion wie in direkter Frage. Regel: Indirekte Fragen enden mit Punkt (oder Fragezeichen am Gesamtsatz-Ende), das Verb steht am Nebensatzende, keine Inversion.",
+    "examples": [
+      "Ich weiß nicht, ob er heute kommt.",
+      "Sie fragt, wann die Sitzung beginnt.",
+      "Können Sie mir sagen, wo der Bahnhof ist?",
+      "Ich bin nicht sicher, wer das Dokument geschrieben hat.",
+      "Er überlegt, ob er das Angebot annehmen soll.",
+      "Sie wollte wissen, warum ich nicht angerufen habe.",
+      "Ich frage mich, wie das funktionieren soll.",
+      "Weißt du, wem das Auto gehört?"
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "prompt": "Ich weiß nicht, ___ er heute kommt. (Ja-Nein-Frage indirekt)",
+        "correctAnswer": "ob",
+        "explanation": "Indirekte Ja-Nein-Frage wird mit ob eingeleitet."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Sie fragt, ___ der Kurs beginnt. (Zeitpunkt)",
+        "correctAnswer": "wann",
+        "explanation": "Das W-Fragewort wann leitet den indirekten Fragesatz ein."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist eine korrekte indirekte Frage?",
+        "correctAnswer": "Er fragt, wo ich wohne.",
+        "explanation": "W-Fragewort als Konjunktion, Verb am Ende des Nebensatzes."
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Können Sie mir sagen, ___ der Bahnhof ist? (Ort)",
+        "correctAnswer": "wo",
+        "explanation": "Ort → wo als Konjunktion der indirekten Frage."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz enthält einen Fehler?",
+        "correctAnswer": "Ich weiß nicht, ob kommt er.",
+        "explanation": "Im Nebensatz gibt es keine Inversion — das konjugierte Verb steht am Ende."
+      },
+      {
+        "type": "reorder",
+        "prompt": "Idee / , / wer / hatte / die / ich / nicht / weiß",
+        "correctAnswer": "Ich weiß nicht, wer die Idee hatte.",
+        "explanation": "Indirekte W-Frage mit wer, Verb am Ende des Nebensatzes."
+      }
+    ],
+    "orderIndex": 25
+  }
+]

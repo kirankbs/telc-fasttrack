@@ -45,3 +45,5 @@ HH:MM | agent-name | START/DONE/BLOCKED | work-item-id | description
 17:55 | ux-engineer | DONE  | #51 | Phase 2 dashboard redesign — 178/178 tests green, typecheck green, build green; 12 files changed (8 new, 4 deleted); handoff at .planning/handoffs/2026-04-20-ux-phase2-dashboard.md
 18:30 | ux-engineer | START | #53 | Phase 4 — flashcards + grammar topic + results sequencing (worktree ui-upgrade-phase4-vocab-grammar-results)
 19:05 | ux-engineer | DONE  | #53 | Phase 4 complete — typecheck+tests+build all green locally, 178 web tests passing (14 new), handoff at .planning/handoffs/2026-04-20-ux-phase4-vocab-grammar-results.md
+21:46 | implementation-lead | DONE  | PR-62 | B2 grammar language-check fixes — topics 11, 14, 22 reorder exercises corrected; PR #62 all CI green (Typecheck+Tests, E2E, Vercel x2, Vercel Preview Comments)
+23:25 | implementation-lead | DONE  | #67 | B2 mock_06 complete — PR #75, all 5 CI checks green (E2E 1m36s, Typecheck+Tests 42s, Vercel x3); Reisen & Mobilität; handoff at .planning/handoffs/2026-04-20-impl-b2-mock-06.md

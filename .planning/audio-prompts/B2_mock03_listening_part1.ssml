@@ -1,0 +1,96 @@
+<speak>
+  <!-- B2 Mock 03 — Teil 1 (5 True/False, playCount=1) -->
+  <!-- Narrator: de-DE-Wavenet-C (female, neutral) — announcer voice -->
+  <!-- News speakers rotate: de-DE-Wavenet-B (male), de-DE-Wavenet-A (female), de-DE-Wavenet-D (male) -->
+  <!-- B2 spec: natural speed 1.0x, no pedagogical slowing, played ONCE -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Hörverstehen, Teil 1. Sie hören fünf kurze Nachrichtenmeldungen aus dem Gesundheitsbereich.
+      Entscheiden Sie bei jeder Aussage: richtig oder falsch?
+      Sie hören jeden Text nur einmal.
+    </prosody>
+    <break time="10s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Grippewelle RKI -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Nach Einschätzung des Robert-Koch-Instituts hat die diesjährige Grippewelle deutlich
+      früher als üblich eingesetzt. Bereits Mitte Oktober wurden die ersten bundesweiten
+      Ausbrüche registriert. Besonders betroffen sind dieses Jahr Kinder unter fünf sowie
+      Beschäftigte im Gesundheitswesen.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 2: Präventionskurse 80% -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Der Bundesgesundheitsminister hat angekündigt, dass künftig bis zu achtzig Prozent der
+      Kosten für zertifizierte Präventionskurse von den gesetzlichen Krankenkassen
+      übernommen werden sollen. Die neue Regelung soll zu Beginn des übernächsten Jahres
+      in Kraft treten und gilt für Bewegung, Ernährung sowie Stressbewältigung.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 3: psychische Krankschreibungen verdoppelt -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Laut einer heute veröffentlichten Untersuchung der Techniker Krankenkasse haben sich
+      die Krankschreibungen aufgrund psychischer Diagnosen in den letzten zehn Jahren
+      nahezu verdoppelt. Besonders stark steigt der Anteil bei Beschäftigten unter dreißig
+      sowie bei Pflegekräften und Lehrpersonal.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 4: DGE rot Fleisch 300g -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Die Deutsche Gesellschaft für Ernährung rät in ihrer überarbeiteten Empfehlung
+      dazu, den Verzehr von rotem Fleisch auf höchstens dreihundert Gramm pro Woche zu
+      beschränken. Ein vollständiger Verzicht wird hingegen nicht gefordert. Pflanzliche
+      Proteine, Hülsenfrüchte und Fisch sollen stärker in den Speiseplan integriert werden.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 5: ePA opt-out -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Ab Januar zweitausendsiebenundzwanzig wird die elektronische Patientenakte für alle
+      gesetzlich Versicherten automatisch eingerichtet. Wer sie nicht nutzen möchte, muss
+      aktiv widersprechen. Ziel der Reform ist es, Doppeluntersuchungen zu vermeiden und
+      Behandlungen effizienter zu gestalten.
+    </prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Das ist das Ende von Teil 1.</prosody>
+  </voice>
+</speak>
