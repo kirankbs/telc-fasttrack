@@ -1,0 +1,183 @@
+<speak>
+  <!-- B2 Mock 04 — Teil 2 (10 True/False, playCount=1) -->
+  <!-- Moderator: de-DE-Wavenet-E (male) — interviewer -->
+  <!-- Expert Prof. Lehmann: de-DE-Wavenet-D (male) — guest expert -->
+  <!-- B2 spec: natural speed 1.0x, continuous interview, no item-level pauses, played ONCE -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Hörverstehen, Teil 2. Sie hören ein Interview zum Thema Journalismus im Wandel.
+      Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind.
+      Sie hören das Interview nur einmal.
+    </prosody>
+    <break time="10s"/>
+  </voice>
+
+  <!-- Intro + Q1: speaker introduction -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Guten Morgen, liebe Hörerinnen und Hörer. In unserer heutigen Sendung sprechen wir
+      über die Zukunft des Journalismus. Mein Gast ist Prof. Dr. Hendrik Lehmann vom Institut
+      für Medienforschung an der Johannes-Gutenberg-Universität Mainz. Herzlich willkommen,
+      Herr Professor Lehmann.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Vielen Dank für die Einladung – ich freue mich, hier zu sein.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q2: state of quality journalism -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Herr Lehmann, man hört ja oft, der klassische Qualitätsjournalismus stehe in Deutschland
+      vor dem Aus. Wie schätzen Sie die Lage ein?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Na ja, manche Kolleginnen behaupten, der Qualitätsjournalismus sei am Ende – das halte ich
+      für übertrieben. Die Reichweiten guter Häuser sind online sogar höher als je zuvor;
+      nur das Geschäftsmodell ist ins Wanken geraten. Wir reden also weniger über ein
+      journalistisches Problem als über ein wirtschaftliches.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q3: ad revenues halved -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Können Sie das noch konkreter machen? Was ist im Geschäftsmodell zusammengebrochen?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Ganz konkret: Die Anzeigenerlöse klassischer Tageszeitungen haben sich seit 2015 nahezu
+      halbiert – das ist der eigentliche Grund für die Redaktionsschließungen. Werbegelder
+      wandern zu globalen Plattformen ab, während die journalistische Produktion genauso teuer
+      bleibt wie vorher. Das zwingt viele Häuser zu harten Einschnitten.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q4: disinformation across generations -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Ein großes Thema ist ja die Verbreitung von Falschmeldungen. Viele sagen, das sei
+      vor allem ein Jugendproblem …
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Entgegen der verbreiteten Annahme teilen gerade Nutzer über fünfzig besonders häufig
+      unverifizierte Inhalte – allerdings ist Desinformation insgesamt ein generationenübergreifendes
+      Problem, keineswegs nur eines der Älteren. Jüngere Menschen geraten eher über Kurzvideos
+      in problematische Informationsblasen; Ältere über Messenger-Kettenbriefe.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q5: ÖRR reform — political voices, not government plan -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Stimmen aus der Politik fordern eine Reform, manche gar die Abschaffung der
+      Öffentlich-Rechtlichen – wie stehen Sie dazu?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Ich halte die Öffentlich-Rechtlichen für eine der tragenden Säulen der demokratischen
+      Öffentlichkeit in Deutschland. Reformen sind sinnvoll, vor allem im Bereich Transparenz
+      und Doppelstrukturen. Eine Abschaffung wäre, offen gesagt, ein historischer Fehler.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q6: personalization algorithms and filter bubbles -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Apropos Öffentlichkeit: Wie bewerten Sie die Personalisierung von Nachrichten-Feeds
+      durch Algorithmen?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Personalisierte Nachrichten-Feeds verstärken die sogenannte Filterblase – wir sehen im Netz
+      vor allem, was unsere bestehenden Meinungen bestätigt. Das ist für eine demokratische
+      Öffentlichkeit keineswegs unproblematisch. Wir verlernen, uns mit dem Widerspruch
+      auseinanderzusetzen, und das geht an die Substanz des öffentlichen Gesprächs.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q7: media education in schools -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Was bedeutet das für Schule und Ausbildung?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Medienbildung darf nicht länger ein Randthema bleiben. Sie gehört in jedes Schulfach –
+      nicht als Extra-Stunde am Freitagnachmittag, sondern systematisch in den Alltag des
+      Unterrichts integriert. Quellenprüfung etwa gehört in den Geschichtsunterricht,
+      Algorithmenverständnis in den Informatik- und Mathematikunterricht.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q8: young adults and TV news -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Wie sieht das Nachrichtenverhalten junger Menschen heute konkret aus?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      In der Altersgruppe der Achtzehn- bis Neunundzwanzigjährigen schaltet nur noch jeder
+      Zehnte regelmäßig eine klassische Fernsehnachrichtensendung ein – das ist ein historischer
+      Tiefstand. Gleichzeitig sehen wir, dass Podcasts und Nachrichten-Newsletter in dieser
+      Altersgruppe deutlich wachsen.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q9: fact checks funding -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Viele fordern unabhängige Faktencheck-Plattformen. Wer soll die bezahlen?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Faktenchecks brauchen eine solide Finanzierung – Stiftungen, Medienhäuser und öffentliche
+      Gelder können gemeinsam einen Beitrag leisten. Eine rein staatliche Finanzierung wäre aus
+      Gründen der Unabhängigkeit eher problematisch. Entscheidend ist eine breite Trägerschaft
+      mit klaren Transparenzregeln.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q10: closing — no sequel, only website hint -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Herr Professor Lehmann, das waren sehr klare Worte. Vielen Dank für Ihre Einschätzungen.
+      Unsere Hörerinnen und Hörer finden weitere Informationen auf unserer Internetseite.
+      Damit verabschiede ich mich für heute – einen schönen Tag Ihnen allen.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Vielen Dank.
+    </prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>
