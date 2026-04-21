@@ -1,0 +1,102 @@
+<speak>
+  <!-- B2 Mock 04 — Teil 3 (5 MCQ, playCount=1) -->
+  <!-- Narrator: de-DE-Wavenet-C (female) — announcer -->
+  <!-- Varied voices per announcement: F (female), A (female), E (male), B (male), D (male) -->
+  <!-- B2 spec: natural speed 1.0x, short announcements/voicemails, played ONCE -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Hörverstehen, Teil 3. Sie hören fünf kurze Ansagen oder Nachrichten aus dem Bereich
+      Medien und Kommunikation. Was ist richtig? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text nur einmal.
+    </prosody>
+    <break time="10s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Frau Arslan — Autorisierung der Zitate -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Guten Tag, hier ist Nesrin Arslan. Ich hatte gestern Nachmittag das Interview zur
+      geplanten Reportage über Integration im Betrieb. Könnten Sie mir bitte die wörtlichen
+      Zitate vor der Veröffentlichung noch einmal zum Gegenlesen schicken? Ich möchte nur
+      sicherstellen, dass alles korrekt wiedergegeben ist, bevor der Artikel online geht.
+      Vielen Dank – Sie erreichen mich heute Abend auf dieser Nummer.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 2: Digital-first-Umstellung der Redaktion -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Liebe Kolleginnen und Kollegen, ab September gilt für unsere Redaktion das Prinzip
+      Digital-first. Das bedeutet: Wir schreiben zuerst für die Online-Ausgabe; die gedruckte
+      Zeitung erscheint weiterhin täglich, wird aber nachgelagert produziert. Die Details zu
+      den geänderten Redaktionsschlüssen finden Sie ab morgen im Intranet. Für Rückfragen
+      steht die Chefredaktion in der Mittwochskonferenz bereit.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 3: Datenschutzbeauftragte — Löschantrag zuerst -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Guten Tag, Herr Baumann, hier spricht Frau Hoppe von der Datenschutzberatung. Zu Ihrer
+      Anfrage: Bevor Sie rechtliche Schritte einleiten, sollten Sie die Plattform formell
+      schriftlich zur Löschung Ihrer Daten auffordern – mit Fristsetzung. Erst wenn das
+      erfolglos bleibt, lohnt eine Beschwerde bei der Aufsichtsbehörde. Eine Musterformulierung
+      für den Löschantrag schicke ich Ihnen per E-Mail zu. Melden Sie sich gern bei Rückfragen.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 4: Beschwerde über irreführende Werbung beim Streaming-Abo -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Guten Tag, hier ist Markus Schneider, Kundennummer acht drei zwei vier. Ich habe vor
+      einem Monat das Premium-Abo abgeschlossen – in Ihrer Werbung hieß es ausdrücklich
+      werbefrei, tatsächlich laufen aber vor jeder Folge drei Einblendungen. Das halte ich
+      schlicht für irreführend und erwarte eine anteilige Rückerstattung. Bitte rufen Sie mich
+      bis Ende der Woche zurück, sonst sehe ich mich gezwungen, die Verbraucherzentrale
+      einzuschalten.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 5: Online-Medienkongress — Raumwechsel KI-Panel -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Liebe Teilnehmerinnen und Teilnehmer des Medienkongresses, eine kurze organisatorische
+      Durchsage: Das heutige Panel Künstliche Intelligenz in der Redaktion wurde kurzfristig
+      aus dem Saal Blau in den größeren Saal Gelb verlegt, da die Nachfrage sehr hoch ist.
+      Beginn bleibt wie geplant um vierzehn Uhr. Eine ausgeschilderte Wegeführung ab dem
+      Hauptfoyer wird gerade eingerichtet. Vielen Dank für Ihr Verständnis.
+    </prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Das ist das Ende von Teil 3 und das Ende des Hörverstehens.</prosody>
+  </voice>
+</speak>
