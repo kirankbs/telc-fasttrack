@@ -1,13 +1,935 @@
 {
   "id": "B2_mock_10",
   "level": "B2",
-  "title": "Übungstest 10",
-  "version": 0,
-  "_stub": true,
+  "title": "B2 Übungstest 10: Wirtschaft & Konsum",
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Nachrichtenmeldungen. Entscheiden Sie bei jeder Aussage: richtig oder falsch? Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short news bulletins. For each statement decide: correct or incorrect? You will hear each text only once.",
+          "audioFile": "assets/audio/B2/mock10/listening_part1.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m10_L1_q1",
+              "type": "true_false",
+              "questionText": "Laut der Meldung ist die Inflationsrate in Deutschland im Vergleich zum Vormonat gestiegen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Meldung sagt: 'Die Inflationsrate ist im August auf 2,1 Prozent gesunken – nach 2,4 Prozent im Juli.' Die Rate ist also gefallen, nicht gestiegen. B2-Falle: Beide Zahlen werden genannt, und der Abstand ist gering, aber die Richtung ('gesunken') ist eindeutig. Wer nur '2,1 Prozent' hört und nicht den Vergleich, läuft Gefahr, die Bewegung umzukehren.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "B2_m10_L1_q2",
+              "type": "true_false",
+              "questionText": "Das Bundesfinanzministerium hat angekündigt, die Mehrwertsteuer auf Grundnahrungsmittel vollständig abzuschaffen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Nachricht formuliert: 'Das Ministerium prüft derzeit, ob der ermäßigte Satz auf Grundnahrungsmittel befristet von sieben auf fünf Prozent abgesenkt werden könnte.' Es geht um eine Prüfung und eine mögliche Absenkung – keine vollständige Abschaffung. B2-Trap: 'prüfen' ist ein Hedge, 'abschaffen' eine endgültige Handlung.",
+              "audioTimestamp": 48
+            },
+            {
+              "id": "B2_m10_L1_q3",
+              "type": "true_false",
+              "questionText": "Der Einzelhandelsverband meldet für den August ein Umsatzplus von rund drei Prozent.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Sprecherin nennt den Wert wörtlich: 'Der Handelsverband Deutschland meldet für August ein nominales Umsatzplus von 3,1 Prozent im Vergleich zum Vorjahresmonat.' '3,1 Prozent' entspricht 'rund drei Prozent'. Die Aussage ist korrekt.",
+              "audioTimestamp": 85
+            },
+            {
+              "id": "B2_m10_L1_q4",
+              "type": "true_false",
+              "questionText": "Eine Studie zeigt, dass die Mehrheit der Konsumentinnen und Konsumenten bewusst auf regionale Produkte verzichtet.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Im Audio heißt es: 'Zwei Drittel der Befragten geben an, beim Einkauf zunehmend auf regionale Herkunft zu achten, auch wenn die Preise dafür höher ausfallen.' 'auf regionale Herkunft achten' ist das Gegenteil von 'bewusst verzichten'. B2-Trap: Das Wort 'bewusst' im Prompt und 'zunehmend achten' im Audio klingen beide aktiv, aber die Richtung ist entgegengesetzt.",
+              "audioTimestamp": 118
+            },
+            {
+              "id": "B2_m10_L1_q5",
+              "type": "true_false",
+              "questionText": "Der Außenhandelsverband warnt, dass neue Zölle die deutschen Exporte spürbar belasten könnten.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Meldung zitiert: 'Der Bundesverband der Exportwirtschaft befürchtet, dass die angekündigten US-Zölle auf europäische Stahlprodukte die deutschen Ausfuhren erheblich belasten werden.' 'erheblich belasten' = 'spürbar belasten'; die Aussage wird bestätigt. 'Ausfuhren' ist Synonym zu 'Exporte'.",
+              "audioTimestamp": 152
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören ein Interview mit der Konsumforscherin Dr. Judith Mertens zum Thema 'Nachhaltiger Konsum im Alltag'. Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind. Sie hören das Interview nur einmal.",
+          "instructionsTranslation": "You will hear an interview with consumer researcher Dr. Judith Mertens on 'Sustainable consumption in everyday life'. Decide whether the following ten statements are correct or incorrect. You will hear the interview only once.",
+          "audioFile": "assets/audio/B2/mock10/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m10_L2_q1",
+              "type": "true_false",
+              "questionText": "Dr. Mertens arbeitet am Institut für Verbraucherforschung in Hamburg.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Moderator stellt sie vor: 'Frau Dr. Judith Mertens, Leiterin der Abteilung Konsumverhalten am Institut für Verbraucherforschung in Hamburg.' Die Aussage wird wörtlich bestätigt.",
+              "audioTimestamp": 15
+            },
+            {
+              "id": "B2_m10_L2_q2",
+              "type": "true_false",
+              "questionText": "Laut Dr. Mertens ist die Kluft zwischen Einstellung und tatsächlichem Kaufverhalten bei deutschen Konsumentinnen und Konsumenten in den letzten Jahren kleiner geworden.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Mertens sagt: 'Die sogenannte Attitude-Behaviour-Gap – also der Abstand zwischen geäußerter Einstellung und tatsächlichem Kaufverhalten – ist trotz aller Kampagnen nahezu unverändert geblieben.' 'nahezu unverändert' widerspricht 'kleiner geworden'. B2-Hedging-Falle: 'trotz aller Kampagnen' suggeriert auf den ersten Höreindruck Bewegung, aber die Aussage ist das Gegenteil.",
+              "audioTimestamp": 45
+            },
+            {
+              "id": "B2_m10_L2_q3",
+              "type": "true_false",
+              "questionText": "Dr. Mertens ist der Meinung, dass steigende Preise grundsätzlich zu nachhaltigerem Konsum führen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Expertin differenziert: 'Man liest oft, hohe Preise würden automatisch zu nachhaltigem Konsum führen – so einfach ist es leider nicht. Viele Haushalte greifen dann einfach zu billigeren, nicht unbedingt ökologisch besseren Alternativen.' Sie widerspricht also der pauschalen Behauptung. Klassische B2-Falle: 'Man liest oft' kennzeichnet eine fremde Sichtweise, die die Sprecherin nicht teilt.",
+              "audioTimestamp": 92
+            },
+            {
+              "id": "B2_m10_L2_q4",
+              "type": "true_false",
+              "questionText": "Der Moderator weist darauf hin, dass Discountmärkte inzwischen einen breiten Bio-Anteil in ihrem Sortiment haben.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Moderator merkt an: 'Selbst Discountketten bieten mittlerweile eine breite Palette biologisch erzeugter Produkte zu moderaten Preisen an.' 'breite Palette biologisch erzeugter Produkte' entspricht dem 'breiten Bio-Anteil' in der Aussage. Korrekt.",
+              "audioTimestamp": 138
+            },
+            {
+              "id": "B2_m10_L2_q5",
+              "type": "true_false",
+              "questionText": "Dr. Mertens betrachtet Reparatur-Cafés und Second-Hand-Plattformen als wichtigen Hebel für nachhaltigen Konsum.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Expertin betont: 'Gerade Reparatur-Initiativen und digitale Second-Hand-Plattformen sind aus meiner Sicht einer der wirksamsten Hebel, weil sie das Konsummuster an der Wurzel verändern – weg vom Neukauf, hin zur Weiternutzung.' 'einer der wirksamsten Hebel' bestätigt die Aussage.",
+              "audioTimestamp": 175
+            },
+            {
+              "id": "B2_m10_L2_q6",
+              "type": "true_false",
+              "questionText": "Die Expertin behauptet, dass junge Menschen unter 25 deutlich nachhaltiger einkaufen als ältere Generationen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Mertens relativiert: 'Junge Menschen äußern in Umfragen die stärksten Nachhaltigkeitswerte, ihr tatsächliches Konsumverhalten unterscheidet sich jedoch – etwa bei Mode und Elektronik – kaum von dem älterer Altersgruppen.' Die 'nachhaltigen Werte' bestehen, aber das 'Kaufverhalten' ist nicht nachhaltiger. B2-Trap: 'Einstellung' und 'Verhalten' werden sauber getrennt.",
+              "audioTimestamp": 210
+            },
+            {
+              "id": "B2_m10_L2_q7",
+              "type": "true_false",
+              "questionText": "Dr. Mertens empfiehlt dem Staat, den Reparaturbonus dauerhaft einzuführen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Expertin plädiert deutlich: 'Der befristete Reparaturbonus, den einige Bundesländer eingeführt haben, sollte dringend zu einem dauerhaften Instrument ausgebaut werden – die Resonanz ist enorm.' Die Empfehlung ist klar.",
+              "audioTimestamp": 248
+            },
+            {
+              "id": "B2_m10_L2_q8",
+              "type": "true_false",
+              "questionText": "Laut Dr. Mertens spielt die Werbung eine untergeordnete Rolle für das Kaufverhalten.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Mertens betont: 'Die Kraft personalisierter Werbung in sozialen Netzwerken wird systematisch unterschätzt – sie beeinflusst Kaufentscheidungen mindestens so stark wie der Preis.' 'mindestens so stark wie der Preis' widerspricht 'untergeordnete Rolle'. B2-Falle: 'unterschätzt' im Audio passt thematisch zu 'untergeordnet', meint aber das Gegenteil.",
+              "audioTimestamp": 278
+            },
+            {
+              "id": "B2_m10_L2_q9",
+              "type": "true_false",
+              "questionText": "Dr. Mertens hält verpflichtende CO₂-Kennzeichnungen auf Produkten für hilfreich.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Expertin sagt: 'Eine verpflichtende, einheitlich gestaltete CO₂-Kennzeichnung im Supermarktregal wäre ein entscheidender Schritt – Untersuchungen zeigen, dass sie das Kaufverhalten messbar verschiebt.' Ihre Zustimmung ist eindeutig.",
+              "audioTimestamp": 308
+            },
+            {
+              "id": "B2_m10_L2_q10",
+              "type": "true_false",
+              "questionText": "Am Ende des Interviews wird auf eine öffentliche Veranstaltung in Leipzig hingewiesen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Moderator schließt mit: 'Vielen Dank, Frau Dr. Mertens, für das aufschlussreiche Gespräch. Mehr zu Ihren aktuellen Studien finden unsere Hörerinnen und Hörer im Programmheft.' Eine Veranstaltung in Leipzig wird nicht erwähnt. B2-Trap: Die Erwartung einer abschließenden Ankündigung wird nicht eingelöst.",
+              "audioTimestamp": 342
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Ansagen und Nachrichten aus dem Alltag rund um Einkauf, Handel und Konsum. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short announcements and messages from everyday shopping, trade, and consumer life. What is correct? Choose a, b, or c. You will hear each text only once.",
+          "audioFile": "assets/audio/B2/mock10/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m10_L3_q1",
+              "type": "mcq",
+              "questionText": "Worüber informiert die Lautsprecherdurchsage im Supermarkt?",
+              "options": [
+                "a) Der Markt schließt heute wegen eines Stromausfalls eine Stunde früher.",
+                "b) An den Kassen kommt es aktuell zu Wartezeiten, zusätzliche Kassen werden geöffnet.",
+                "c) Im Getränkemarkt gibt es ein Sonderangebot auf alkoholfreies Bier."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Durchsage sagt: 'Liebe Kundinnen und Kunden, im Kassenbereich kommt es derzeit leider zu längeren Wartezeiten. Wir öffnen in Kürze zwei zusätzliche Kassen – wir bitten um Ihre Geduld.' Das Hauptanliegen sind die zusätzlichen Kassen wegen Wartezeiten. Distraktor a) und c) werden nicht erwähnt.",
+              "audioTimestamp": 18
+            },
+            {
+              "id": "B2_m10_L3_q2",
+              "type": "mcq",
+              "questionText": "Was teilt die Online-Buchhändlerin dem Kunden per Nachricht mit?",
+              "options": [
+                "a) Die bestellte Ware ist bereits an die angegebene Adresse verschickt worden.",
+                "b) Der bestellte Titel ist derzeit vergriffen und wird in etwa zwei Wochen nachgeliefert.",
+                "c) Die Zahlung per Kreditkarte konnte aus technischen Gründen nicht verarbeitet werden."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Mitarbeiterin spricht auf die Mailbox: 'Der von Ihnen bestellte Titel ist derzeit leider vergriffen. Der Verlag kündigt eine Neuauflage für Anfang Mai an – wir reservieren Ihr Exemplar und liefern es voraussichtlich in 14 Tagen.' Das entspricht genau Option b. Distraktor a) kehrt die Lage um (keine Verschickung), c) wird nicht erwähnt. B2-Trap: 'Anfang Mai' und 'in 14 Tagen' sind beides Zeitangaben, die richtig verknüpft werden müssen.",
+              "audioTimestamp": 58
+            },
+            {
+              "id": "B2_m10_L3_q3",
+              "type": "mcq",
+              "questionText": "Was empfiehlt die Verbraucherberaterin dem Anrufer?",
+              "options": [
+                "a) den Kaufvertrag sofort schriftlich zu widerrufen und die Rückerstattung zu fordern",
+                "b) zunächst das Produkt beim Händler reklamieren zu lassen, bevor weitere Schritte geprüft werden",
+                "c) ohne weitere Rücksprache vor Gericht zu ziehen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Beraterin sagt: 'Bevor Sie über einen Widerruf oder gar eine Klage nachdenken, würde ich Ihnen dringend empfehlen, zunächst eine förmliche Reklamation beim Händler einzureichen. Dort haben Sie gesetzlich Anspruch auf Nachbesserung.' Sie empfiehlt also den Händlerweg zuerst – Option b. Distraktor a) springt zum Widerruf (den sie gerade nicht als ersten Schritt empfiehlt), c) zur Klage (ebenfalls abgelehnt als erster Schritt). B2-Trap: Alle drei Optionen werden im Audio erwähnt, aber nur b ist die Empfehlung.",
+              "audioTimestamp": 108
+            },
+            {
+              "id": "B2_m10_L3_q4",
+              "type": "mcq",
+              "questionText": "Was ist das Hauptanliegen der Voicemail des Kunden?",
+              "options": [
+                "a) Er bestätigt einen vereinbarten Liefertermin für ein bestelltes Sofa.",
+                "b) Er beschwert sich über ein stark verspätet eingetroffenes Möbelstück und fordert eine Teilerstattung.",
+                "c) Er fragt nach, ob zusätzliche Polsterkissen zum bestellten Sofa erhältlich sind."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Kunde sagt klar: 'Das Sofa, das laut Bestellung bis Ende März eintreffen sollte, wurde mir erst heute, fast sechs Wochen später, geliefert. Ich erwarte eine angemessene Teilerstattung der Kaufsumme.' Die Verspätung und die Forderung nach Teilerstattung sind zentral. Distraktor a) und c) passen nicht zur Beschwerde.",
+              "audioTimestamp": 150
+            },
+            {
+              "id": "B2_m10_L3_q5",
+              "type": "mcq",
+              "questionText": "Worüber informiert die Durchsage im Warenhaus?",
+              "options": [
+                "a) Die Eröffnung einer neuen Modeabteilung im Erdgeschoss.",
+                "b) Ein verlorenes Kind wird an der Information erwartet.",
+                "c) Der Kundenparkplatz ist wegen Reparaturarbeiten gesperrt."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Die Durchsage kündigt an: 'Ab heute, Donnerstag, ist unsere neu gestaltete Damenmodeabteilung im Erdgeschoss für Sie geöffnet – mit Kollektionen regionaler Designerinnen und einer Cappuccino-Bar.' Das entspricht Option a. Distraktor b) und c) werden nicht genannt. B2-Trap: 'neu gestaltet' könnte suggerieren, dass nur etwas umgestaltet wurde – das Kernsignal 'ab heute geöffnet' entspricht aber einer Eröffnung.",
+              "audioTimestamp": 198
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 90,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie zuerst die fünf Kurztexte (1–5) und dann die zehn Überschriften (a–j). Welche Überschrift passt am besten zu welchem Text? Für jeden Text gibt es genau eine passende Überschrift. Fünf Überschriften bleiben übrig.",
+          "instructionsTranslation": "First read the five short texts (1–5) and then the ten headlines (a–j). Which headline best matches which text? For each text there is exactly one matching headline. Five headlines remain unused.",
+          "texts": [
+            { "id": "B2_m10_R1_head_a", "type": "notice", "content": "a) Reparieren statt wegwerfen – Bundesweiter Ausbau des Reparaturbonus beschlossen" },
+            { "id": "B2_m10_R1_head_b", "type": "notice", "content": "b) Discounter setzen auf Regionales – Landwirte erhalten planbare Abnahmegarantien" },
+            { "id": "B2_m10_R1_head_c", "type": "notice", "content": "c) Preisschock im Supermarkt – Verbraucher klagen über dauerhaft höhere Lebenshaltungskosten" },
+            { "id": "B2_m10_R1_head_d", "type": "notice", "content": "d) Mittelständler unter Druck – Fachkräftemangel bremst Auftragsbearbeitung" },
+            { "id": "B2_m10_R1_head_e", "type": "notice", "content": "e) Online-Handel wächst langsamer – Anbieter setzen auf hybride Ladenkonzepte" },
+            { "id": "B2_m10_R1_head_f", "type": "notice", "content": "f) Energiekosten treiben Bäckereien in die Pleite – Innungen fordern schnelle Hilfe" },
+            { "id": "B2_m10_R1_head_g", "type": "notice", "content": "g) Second-Hand boomt – Plattformen melden Rekordumsätze im ersten Quartal" },
+            { "id": "B2_m10_R1_head_h", "type": "notice", "content": "h) Schwaches Konsumklima – Einzelhandel blickt pessimistisch auf das Weihnachtsgeschäft" },
+            { "id": "B2_m10_R1_head_i", "type": "notice", "content": "i) Export nach China stockt – Autobauer rechnen mit empfindlichen Einbußen" },
+            { "id": "B2_m10_R1_head_j", "type": "notice", "content": "j) Wochenmärkte erleben Renaissance – Kleine Städte profitieren am stärksten" }
+          ],
+          "questions": [
+            {
+              "id": "B2_m10_R1_q1",
+              "type": "matching",
+              "questionText": "Text 1: Die Bundesregierung hat sich auf eine flächendeckende Ausweitung des bisher nur in einigen Bundesländern geltenden Reparaturbonus verständigt. Ab Januar übernimmt der Staat bis zu fünfzig Prozent der Rechnung, wenn Haushaltsgeräte, Fahrräder oder Elektronik bei zertifizierten Werkstätten instand gesetzt werden. Verbraucherschützer begrüßen den Schritt als wichtigen Impuls gegen die Wegwerfmentalität. Skeptiker verweisen darauf, dass die Fördergrenze von einhundertfünfzig Euro pro Haushalt im Jahr zu niedrig angesetzt sei, und fordern eine Nachbesserung noch vor der endgültigen Verabschiedung im Bundesrat.",
+              "matchingSources": [
+                { "id": "B2_m10_R1_head_a", "label": "a" },
+                { "id": "B2_m10_R1_head_b", "label": "b" },
+                { "id": "B2_m10_R1_head_c", "label": "c" },
+                { "id": "B2_m10_R1_head_d", "label": "d" },
+                { "id": "B2_m10_R1_head_e", "label": "e" },
+                { "id": "B2_m10_R1_head_f", "label": "f" },
+                { "id": "B2_m10_R1_head_g", "label": "g" },
+                { "id": "B2_m10_R1_head_h", "label": "h" },
+                { "id": "B2_m10_R1_head_i", "label": "i" },
+                { "id": "B2_m10_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Text behandelt die bundesweite Ausweitung des Reparaturbonus samt Förderhöhe und Kritik an der Obergrenze. Das deckt sich exakt mit Überschrift a) 'Reparieren statt wegwerfen – Bundesweiter Ausbau des Reparaturbonus beschlossen'. Distraktor g) (Second-Hand-Plattformen) greift zu kurz, weil es im Text nicht um den Wiederverkauf, sondern um das Instandsetzen geht."
+            },
+            {
+              "id": "B2_m10_R1_q2",
+              "type": "matching",
+              "questionText": "Text 2: Laut einer aktuellen Erhebung des Handelsforschungsinstituts Köln blicken deutsche Einzelhändler so pessimistisch auf das kommende Weihnachtsgeschäft wie seit über zehn Jahren nicht mehr. Das Konsumklima, gemessen an Einkommenserwartung und Anschaffungsneigung, ist zuletzt erneut gefallen. Zwei Drittel der befragten Händler rechnen mit einem Umsatzminus gegenüber dem Vorjahr. Besonders betroffen sind Bekleidung, Schuhe und Unterhaltungselektronik; allein im Spielwarenhandel bleibt die Stimmung dank intensiver Werbekampagnen und früher Einkaufswochenenden halbwegs stabil.",
+              "matchingSources": [
+                { "id": "B2_m10_R1_head_a", "label": "a" },
+                { "id": "B2_m10_R1_head_b", "label": "b" },
+                { "id": "B2_m10_R1_head_c", "label": "c" },
+                { "id": "B2_m10_R1_head_d", "label": "d" },
+                { "id": "B2_m10_R1_head_e", "label": "e" },
+                { "id": "B2_m10_R1_head_f", "label": "f" },
+                { "id": "B2_m10_R1_head_g", "label": "g" },
+                { "id": "B2_m10_R1_head_h", "label": "h" },
+                { "id": "B2_m10_R1_head_i", "label": "i" },
+                { "id": "B2_m10_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "h",
+              "explanation": "Der Text berichtet vom schwachen Konsumklima und pessimistischen Erwartungen der Einzelhändler für das Weihnachtsgeschäft – präzise Überschrift h). Distraktor c) (Preisschock) behandelt zwar Verbraucherbelastungen, aber der Text fokussiert explizit auf die Händlerperspektive und das Konsumklima, nicht auf einzelne Preiserhöhungen."
+            },
+            {
+              "id": "B2_m10_R1_q3",
+              "type": "matching",
+              "questionText": "Text 3: Eine breit angelegte Untersuchung im Auftrag mehrerer Verbraucherzentralen zeigt, dass Online-Plattformen für gebrauchte Kleidung, Möbel und Elektronik im ersten Quartal dieses Jahres so stark gewachsen sind wie nie zuvor. Marktführer wie Vinted, eBay Kleinanzeigen und Momox meldeten Umsatzsprünge zwischen zwanzig und vierzig Prozent. Als Haupttreiber nennen die Autorinnen zum einen die anhaltende Inflation, die preisbewusste Kundschaft zu günstigeren Alternativen drängt, zum anderen ein wachsendes Umweltbewusstsein, insbesondere unter jüngeren Konsumentinnen und Konsumenten zwischen achtzehn und fünfunddreißig Jahren.",
+              "matchingSources": [
+                { "id": "B2_m10_R1_head_a", "label": "a" },
+                { "id": "B2_m10_R1_head_b", "label": "b" },
+                { "id": "B2_m10_R1_head_c", "label": "c" },
+                { "id": "B2_m10_R1_head_d", "label": "d" },
+                { "id": "B2_m10_R1_head_e", "label": "e" },
+                { "id": "B2_m10_R1_head_f", "label": "f" },
+                { "id": "B2_m10_R1_head_g", "label": "g" },
+                { "id": "B2_m10_R1_head_h", "label": "h" },
+                { "id": "B2_m10_R1_head_i", "label": "i" },
+                { "id": "B2_m10_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Der Text beschreibt konkret den Boom der Second-Hand-Plattformen mit Umsatzsprüngen im ersten Quartal – deckungsgleich mit Überschrift g). Distraktor e) (Online-Handel wächst langsamer) ist gerade falsch, weil im Text ein besonders starkes Wachstum berichtet wird."
+            },
+            {
+              "id": "B2_m10_R1_q4",
+              "type": "matching",
+              "questionText": "Text 4: Die deutsche Automobilindustrie sieht sich mit sinkender Nachfrage auf einem ihrer wichtigsten Exportmärkte konfrontiert. In China, lange Zeit Wachstumsmotor der großen Hersteller, brachen die Verkaufszahlen im letzten Quartal um rund ein Fünftel ein. Als Ursachen werden sowohl die starke Konkurrenz lokaler Elektroautohersteller als auch wirtschaftspolitische Spannungen zwischen Brüssel und Peking genannt. Analysten gehen davon aus, dass der Umsatzrückgang bei Volkswagen, Mercedes-Benz und BMW im laufenden Geschäftsjahr spürbar auf die Gewinnprognosen durchschlagen wird.",
+              "matchingSources": [
+                { "id": "B2_m10_R1_head_a", "label": "a" },
+                { "id": "B2_m10_R1_head_b", "label": "b" },
+                { "id": "B2_m10_R1_head_c", "label": "c" },
+                { "id": "B2_m10_R1_head_d", "label": "d" },
+                { "id": "B2_m10_R1_head_e", "label": "e" },
+                { "id": "B2_m10_R1_head_f", "label": "f" },
+                { "id": "B2_m10_R1_head_g", "label": "g" },
+                { "id": "B2_m10_R1_head_h", "label": "h" },
+                { "id": "B2_m10_R1_head_i", "label": "i" },
+                { "id": "B2_m10_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "i",
+              "explanation": "Der Text beschreibt einbrechende Autoexporte nach China mit erwarteten Gewinneinbußen – exakt Überschrift i). Distraktor d) (Fachkräftemangel bei Mittelständlern) greift nicht, da die Ursache hier ausdrücklich Nachfrageeinbruch und lokale Konkurrenz in China sind, nicht ein Personalproblem in Deutschland."
+            },
+            {
+              "id": "B2_m10_R1_q5",
+              "type": "matching",
+              "questionText": "Text 5: Immer mehr Handelsketten setzen bei Obst, Gemüse, Milch und Fleisch gezielt auf Lieferanten aus einem Radius von maximal hundert Kilometern um die jeweilige Filiale. Eine der großen Discounter-Gruppen hat mit fast vierhundert Höfen in Süddeutschland langfristige Verträge über mindestens fünf Jahre geschlossen. Die Landwirtschaft begrüßt die verlässliche Abnahme und die garantierten Mindestpreise, die es gerade kleineren Betrieben ermöglichen, in nachhaltigere Produktionsweisen zu investieren, ohne das Risiko kurzfristiger Einkaufsentscheidungen fürchten zu müssen.",
+              "matchingSources": [
+                { "id": "B2_m10_R1_head_a", "label": "a" },
+                { "id": "B2_m10_R1_head_b", "label": "b" },
+                { "id": "B2_m10_R1_head_c", "label": "c" },
+                { "id": "B2_m10_R1_head_d", "label": "d" },
+                { "id": "B2_m10_R1_head_e", "label": "e" },
+                { "id": "B2_m10_R1_head_f", "label": "f" },
+                { "id": "B2_m10_R1_head_g", "label": "g" },
+                { "id": "B2_m10_R1_head_h", "label": "h" },
+                { "id": "B2_m10_R1_head_i", "label": "i" },
+                { "id": "B2_m10_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text schildert genau die Verknüpfung von Discountern mit regionalen Landwirten über langfristige Abnahmegarantien – deckungsgleich mit Überschrift b) 'Discounter setzen auf Regionales – Landwirte erhalten planbare Abnahmegarantien'. Die verbleibenden Distraktoren c, d, e, f, j behandeln andere Aspekte (allgemeine Preisbelastung, Fachkräftemangel, Online-Handel, Energiekosten, Wochenmärkte)."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Zeitungsartikel. Wählen Sie bei jeder Aufgabe die beste Antwort (a, b oder c) aufgrund der Informationen im Text.",
+          "instructionsTranslation": "Read the following newspaper article. For each task choose the best answer (a, b, or c) based on the information in the text.",
+          "texts": [
+            {
+              "id": "B2_m10_R2_article",
+              "type": "article",
+              "content": "Der schmale Grat zwischen Schnäppchenjagd und Verantwortung – wie die neue Preissensibilität den deutschen Handel verändert\n\nWer in den letzten Monaten den deutschen Einzelhandel beobachtet hat, wird eine ambivalente Entwicklung bemerkt haben. Auf der einen Seite äußern Konsumentinnen und Konsumenten in Umfragen so starke Nachhaltigkeitswerte wie nie zuvor; auf der anderen Seite melden Discounter Rekordumsätze bei günstigen Eigenmarken, und Online-Vergleichsportale verzeichnen Klickzahlen, wie es sie zuletzt während der Finanzkrise 2009 gab. 'Wir erleben gerade die paradoxe Situation, dass Menschen im Kopf grün einkaufen wollen und im Alltag den günstigsten Preis suchen', sagt Konsumforscherin Prof. Dr. Helena Braun vom Institut für Handelsforschung in Köln.\n\nEine von ihr verantwortete Langzeitstudie, die über drei Jahre hinweg 2.500 Haushalte begleitet hat, legt nahe, dass dieser Widerspruch weniger mit Doppelmoral zu tun hat als mit realen Kaufkraftverlusten. Seit Beginn der inflationsbedingten Preissteigerungen gehen nahezu alle Haushalte in den mittleren und unteren Einkommensgruppen beim Einkauf systematisch neue Wege: Sie vergleichen Preise häufiger, meiden Markenartikel und wechseln Supermarktketten bereitwilliger als früher. Die Einstellung zur Nachhaltigkeit bleibt dabei nach eigener Aussage unverändert – in der Praxis muss sie jedoch oft dem verfügbaren Budget weichen. Besonders deutlich zeigt sich das bei Bioprodukten und Fair-Trade-Waren, deren Marktanteil nach Jahren des stetigen Wachstums erstmals stagniert.\n\nBeeindruckt hat die Studie vor allem das Verhalten jüngerer Haushalte mit Kindern. 'Hier schlägt der Spagat zwischen Anspruch und Alltag am härtesten durch', so Braun. Junge Eltern kaufen weiterhin bevorzugt biologisch, wenn es um frisches Obst und Gemüse geht, verzichten aber bei Hygieneartikeln, Kleidung und Haushaltsgegenständen zunehmend auf nachhaltige Alternativen, weil die Preisunterschiede im Monatsbudget zu spürbar sind. Für Hersteller im Premiumsegment bedeute das einen Rückschlag, den sie mittelfristig nur durch klügere Preispolitik, nicht durch noch mehr Werbung auffangen könnten.\n\nEine zweite Erkenntnis überrascht: Nicht alle bewussten Konsumenten ziehen sich bei knappen Kassen zurück. Ein wachsender Teil der Befragten verlagert sein Budget einfach: Statt sich alle zwei Jahre eine neue Jeans zu kaufen, zahlt man den doppelten Preis für ein Stück, das dreimal so lange halten soll. 'Wir nennen das bewusste Qualitätsfokussierung', erklärt Braun. 'Diese Gruppe kauft seltener, aber konsequenter.' Gleichzeitig nutzt sie Reparaturangebote, Secondhand-Plattformen und lokale Tauschbörsen weit intensiver als früher. Für den klassischen Einzelhandel bedeutet diese Verschiebung ebenfalls Umsatzverluste – nur eben aus anderen Gründen.\n\nWelche Strategien bleiben dem Handel? Die Studie nennt drei Ansätze, die sich in den vergangenen zwei Jahren als besonders wirksam erwiesen haben. Erstens: konsequente Transparenz über Herkunft und Produktionsbedingungen – nicht in Form von Zertifikaten, sondern in klarer Alltagssprache am Regal. Zweitens: gestaffelte Sortimente, die günstige Einstiegsprodukte und nachhaltige Premiumangebote im gleichen Markt nebeneinander anbieten, ohne die eine Gruppe zu stigmatisieren. Drittens: lokale Partnerschaften, die regionale Herkunft nachvollziehbar machen und zugleich Transportkosten senken. Unternehmen, die alle drei Ebenen bespielten, verzeichneten selbst in der schwierigen Konjunktur stabile Kundenbindung.\n\nBrauns Fazit klingt nüchtern, aber nicht pessimistisch: 'Wir werden in den nächsten fünf Jahren keinen heroischen Wandel zu einem durchgängig nachhaltigen Konsum erleben. Was wir sehen werden, ist ein Handel, der lernt, mit einer klügeren, aber auch belasteteren Kundschaft umzugehen – und das ist an sich schon eine große Leistung.'",
+              "source": "Handelsblatt Wochenend-Beilage, März 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "B2_m10_R2_q1",
+              "type": "mcq",
+              "questionText": "Wie beschreibt Prof. Braun die derzeitige Lage des deutschen Konsums?",
+              "relatedTextId": "B2_m10_R2_article",
+              "options": [
+                "a) Die Mehrheit der Deutschen kauft heute deutlich nachhaltiger ein als vor zehn Jahren.",
+                "b) Die geäußerten Nachhaltigkeitswerte und das tatsächliche Kaufverhalten klaffen auseinander.",
+                "c) Nachhaltigkeit spielt in der Kaufentscheidung inzwischen keine Rolle mehr."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Braun spricht von einer 'paradoxen Situation: im Kopf grün einkaufen wollen und im Alltag den günstigsten Preis suchen'. Das beschreibt genau die Kluft zwischen Anspruch und Realität – Option b. Option a geht zu weit (der Text sagt gerade, dass Nachhaltigkeit im Alltag weicht), c überzieht in die andere Richtung (Nachhaltigkeit bleibt laut Text im Kopf wichtig, ist aber budgetabhängig). B2-Trap: Der Text spricht beide Pole an, die Autorin positioniert sich klar in der Mitte."
+            },
+            {
+              "id": "B2_m10_R2_q2",
+              "type": "mcq",
+              "questionText": "Was zeigt die Langzeitstudie zu Haushalten mit niedrigem und mittlerem Einkommen?",
+              "relatedTextId": "B2_m10_R2_article",
+              "options": [
+                "a) Sie kaufen bewusst unabhängig vom Preis weiterhin Markenartikel.",
+                "b) Sie vergleichen häufiger Preise und wechseln Supermarktketten leichter als früher.",
+                "c) Sie haben ihre Nachhaltigkeitsüberzeugungen vollständig aufgegeben."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text sagt: 'Sie vergleichen Preise häufiger, meiden Markenartikel und wechseln Supermarktketten bereitwilliger als früher.' Das deckt sich exakt mit Option b. Option a widerspricht dem Text direkt ('meiden Markenartikel'), c überzieht, da die Überzeugung laut Text ausdrücklich bestehen bleibt, nur die Praxis weicht. B2-Trap: Der Text differenziert sauber zwischen 'Einstellung' (unverändert) und 'Praxis' (angepasst) – Option c vermischt beides."
+            },
+            {
+              "id": "B2_m10_R2_q3",
+              "type": "mcq",
+              "questionText": "Wie verhalten sich laut Studie junge Haushalte mit Kindern?",
+              "relatedTextId": "B2_m10_R2_article",
+              "options": [
+                "a) Sie kaufen quer durch alle Warengruppen konsequent bio und fair gehandelt.",
+                "b) Sie achten vor allem bei Obst und Gemüse auf Bioqualität, sparen aber bei Hygiene, Kleidung und Haushalt.",
+                "c) Sie lehnen Bioprodukte grundsätzlich ab, weil sie ihrem Budget nicht trauen."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text sagt: 'Junge Eltern kaufen weiterhin bevorzugt biologisch, wenn es um frisches Obst und Gemüse geht, verzichten aber bei Hygieneartikeln, Kleidung und Haushaltsgegenständen zunehmend auf nachhaltige Alternativen.' Das ist wörtlich Option b. Option a ist zu pauschal (der Text beschreibt gerade den Spagat), c ist zu scharf (keine grundsätzliche Ablehnung). B2-Trap: Distraktor a benutzt die richtigen Signalwörter ('bio', 'fair'), zieht aber die falsche Reichweite."
+            },
+            {
+              "id": "B2_m10_R2_q4",
+              "type": "mcq",
+              "questionText": "Was bedeutet der Begriff 'bewusste Qualitätsfokussierung' im Text?",
+              "relatedTextId": "B2_m10_R2_article",
+              "options": [
+                "a) Konsumenten kaufen dieselben Produkte wie früher, nur in teureren Geschäften.",
+                "b) Konsumenten kaufen seltener, dafür aber langlebigere und höherwertige Produkte.",
+                "c) Konsumenten lehnen jeden Neukauf ab und beziehen alles ausschließlich über Tauschbörsen."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text erklärt: 'Statt sich alle zwei Jahre eine neue Jeans zu kaufen, zahlt man den doppelten Preis für ein Stück, das dreimal so lange halten soll. Diese Gruppe kauft seltener, aber konsequenter.' Das beschreibt exakt Option b. Option a ist falsch (gleiche Produkte in anderem Geschäft ist nicht gemeint), c überzieht (Reparatur und Secondhand werden laut Text ergänzend, nicht ausschließlich genutzt). B2-Trap: Distraktor a übernimmt zwar den 'Preis'-Aspekt, verbindet ihn aber mit 'dieselben Produkte', was der Logik der Qualitätsfokussierung widerspricht."
+            },
+            {
+              "id": "B2_m10_R2_q5",
+              "type": "mcq",
+              "questionText": "Welche der drei Strategien nennt Braun NICHT als wirksamen Ansatz für den Einzelhandel?",
+              "relatedTextId": "B2_m10_R2_article",
+              "options": [
+                "a) klare, alltagssprachliche Transparenz über Herkunft und Produktion",
+                "b) gestaffelte Sortimente mit günstigen und nachhaltigen Angeboten im selben Markt",
+                "c) die flächendeckende Umstellung aller Sortimente auf ausschließlich Bioware"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text nennt drei wirksame Ansätze: Transparenz (Option a), gestaffelte Sortimente (Option b) und lokale Partnerschaften. Eine vollständige Umstellung auf ausschließlich Bioware wird NICHT genannt und widerspricht sogar der Grundaussage des Textes, dass nachhaltige und günstige Angebote nebeneinander bestehen müssen. Also ist c die Negativantwort."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die zehn Situationen (1–10) und die zwölf Anzeigen (a–l). Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es höchstens eine passende Anzeige. Zwei Anzeigen bleiben übrig. Wenn keine Anzeige passt, schreiben Sie 'x'.",
+          "instructionsTranslation": "Read the ten situations (1–10) and the twelve advertisements (a–l). Which advertisement matches which situation? For each situation there is at most one matching advertisement. Two advertisements remain unused. If no advertisement fits, write 'x'.",
+          "texts": [
+            { "id": "B2_m10_R3_ad_a", "type": "ad", "content": "a) Reparatur-Café Altona – Jeden Samstag von 10 bis 16 Uhr helfen ehrenamtliche Fachleute beim Instandsetzen von Kleingeräten, Kleidung und Fahrrädern. Kein Festpreis, Spenden willkommen. Keine Anmeldung nötig. www.reparaturcafe-altona.de" },
+            { "id": "B2_m10_R3_ad_b", "type": "ad", "content": "b) Energieberatung für Haushalte – Zertifizierte Beraterinnen und Berater analysieren Ihren Jahresverbrauch und zeigen konkrete Sparmaßnahmen auf. Erstgespräch kostenlos, ausführliche Vor-Ort-Beratung 30 Euro. Förderung über die Verbraucherzentrale möglich. beratung@energiekompass-nrw.de" },
+            { "id": "B2_m10_R3_ad_c", "type": "ad", "content": "c) Online-Kurs 'Nachhaltig einkaufen mit kleinem Budget' – Sechs wöchentliche Termine à 90 Minuten, Live mit Ernährungsberaterin und Haushaltsbudgetexpertin. Praxisnahe Einkaufslisten und Rezepte inklusive. 79 Euro, Ratenzahlung möglich. www.budgetbewusst.de" },
+            { "id": "B2_m10_R3_ad_d", "type": "ad", "content": "d) Second-Hand-Markt Sommerinsel – Großer Floh- und Tauschmarkt im Stadtpark. Kleidung, Bücher, Kinderspielzeug und Haushaltswaren. Kostenlose Standfläche für Privatanbieter bei Voranmeldung. 12. und 13. Juli, jeweils 10 bis 18 Uhr. www.sommerinsel-markt.de" },
+            { "id": "B2_m10_R3_ad_e", "type": "ad", "content": "e) Rechtsberatung Verbraucherschutz – Erste juristische Einschätzung zu Reklamationen, Gewährleistung und Kaufvertragsstreitigkeiten. Als Mitglied der Verbraucherzentrale 15 Euro pauschal, sonst 45 Euro. Termine werktags 9 bis 17 Uhr. www.verbraucherzentrale-hh.de" },
+            { "id": "B2_m10_R3_ad_f", "type": "ad", "content": "f) Solidarische Landwirtschaft Südhof – Wöchentliche Gemüsekiste mit saisonalen Produkten aus unserer Kooperative, direkt vom Hof. Monatsbeitrag 85 Euro, Mindestlaufzeit ein Jahr. Zwei Probelieferungen vor Vertragsabschluss möglich. info@solawi-suedhof.de" },
+            { "id": "B2_m10_R3_ad_g", "type": "ad", "content": "g) Kurs 'Finanzielle Allgemeinbildung für Berufseinsteigende' – Vier Abende, jeweils dienstags 18 bis 20 Uhr, Volkshochschule Bochum. Themen: Haushaltsplan, erste Altersvorsorge, sinnvolle Versicherungen. Teilnahmegebühr 48 Euro. www.vhs-bochum.de" },
+            { "id": "B2_m10_R3_ad_h", "type": "ad", "content": "h) 'FairMarkt' App – Suchen Sie regionale Lebensmittelerzeuger in Ihrer Nähe, vergleichen Sie Preise verschiedener Hofläden und reservieren Sie Ware vorab. Kostenloser Download für iOS und Android. www.fairmarkt.de" },
+            { "id": "B2_m10_R3_ad_i", "type": "ad", "content": "i) Einführungsseminar 'Gründen im Einzelhandel' – Kompaktes Wochenendseminar für Menschen, die einen kleinen Laden in ihrer Stadt eröffnen wollen. Businessplan, Standortwahl, Warenkalkulation. 190 Euro, Förderung durch die IHK möglich. seminar@startup-einzelhandel.de" },
+            { "id": "B2_m10_R3_ad_j", "type": "ad", "content": "j) Online-Kongress 'Handel 2030' – Zwei Tage mit über 30 Vorträgen zu Trends in Konsum und E-Commerce, für Handelsprofis und Führungskräfte. 14. und 15. November, Teilnahme digital 390 Euro. www.handel-2030.de" },
+            { "id": "B2_m10_R3_ad_k", "type": "ad", "content": "k) Kleiderbörse für Kinder – Saisonale Tauschveranstaltung für Babys und Kleinkinder. Bringen Sie gut erhaltene Kleidung mit, tauschen Sie gegen Punkte, holen Sie neue Stücke. Nächster Termin: 5. Oktober, Gemeindesaal Hohenlinden. www.kleidertausch-hohenlinden.de" },
+            { "id": "B2_m10_R3_ad_l", "type": "ad", "content": "l) Internationales Konsumfestival Berlin – Drei Tage Kunst, Workshops und Debatten rund um Konsumkultur und Globalisierung. Eintritt frei, Workshops mit Anmeldung. 22. bis 24. Juni, Kulturhaus Mitte. www.konsumfestival.berlin" }
+          ],
+          "questions": [
+            {
+              "id": "B2_m10_R3_q1",
+              "type": "matching",
+              "questionText": "1. Anna hat einen Toaster, der seit einer Woche nicht mehr richtig funktioniert. Sie möchte das Gerät nicht wegwerfen, sondern reparieren lassen, und hat kein großes Budget dafür zur Verfügung.",
+              "matchingSources": [
+                { "id": "B2_m10_R3_ad_a", "label": "a" }, { "id": "B2_m10_R3_ad_b", "label": "b" },
+                { "id": "B2_m10_R3_ad_c", "label": "c" }, { "id": "B2_m10_R3_ad_d", "label": "d" },
+                { "id": "B2_m10_R3_ad_e", "label": "e" }, { "id": "B2_m10_R3_ad_f", "label": "f" },
+                { "id": "B2_m10_R3_ad_g", "label": "g" }, { "id": "B2_m10_R3_ad_h", "label": "h" },
+                { "id": "B2_m10_R3_ad_i", "label": "i" }, { "id": "B2_m10_R3_ad_j", "label": "j" },
+                { "id": "B2_m10_R3_ad_k", "label": "k" }, { "id": "B2_m10_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Anzeige a) Reparatur-Café Altona bietet genau das: ehrenamtliche Reparatur von Kleingeräten ohne festen Preis, Spenden reichen aus. Passt zum engen Budget. Distraktor d) (Second-Hand-Markt) löst das Problem nicht – Anna will reparieren, nicht weiterverkaufen oder tauschen."
+            },
+            {
+              "id": "B2_m10_R3_q2",
+              "type": "matching",
+              "questionText": "2. Herr Keller zahlt seit dem Herbst deutlich höhere Strom- und Gasrechnungen und möchte systematisch prüfen, wo er im Haushalt sparen kann. Er sucht eine professionelle, bezahlbare Beratung.",
+              "matchingSources": [
+                { "id": "B2_m10_R3_ad_a", "label": "a" }, { "id": "B2_m10_R3_ad_b", "label": "b" },
+                { "id": "B2_m10_R3_ad_c", "label": "c" }, { "id": "B2_m10_R3_ad_d", "label": "d" },
+                { "id": "B2_m10_R3_ad_e", "label": "e" }, { "id": "B2_m10_R3_ad_f", "label": "f" },
+                { "id": "B2_m10_R3_ad_g", "label": "g" }, { "id": "B2_m10_R3_ad_h", "label": "h" },
+                { "id": "B2_m10_R3_ad_i", "label": "i" }, { "id": "B2_m10_R3_ad_j", "label": "j" },
+                { "id": "B2_m10_R3_ad_k", "label": "k" }, { "id": "B2_m10_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Anzeige b) Energieberatung für Haushalte bietet genau eine systematische, zertifizierte und günstige Analyse des Jahresverbrauchs mit konkreten Sparvorschlägen. Passt zu Herrn Kellers Anliegen."
+            },
+            {
+              "id": "B2_m10_R3_q3",
+              "type": "matching",
+              "questionText": "3. Leonie hat gerade ihre erste Vollzeitstelle angetreten und möchte früh lernen, wie sie ihr Gehalt sinnvoll einteilt, welche Versicherungen wirklich nötig sind und wie sie mit der Altersvorsorge beginnt.",
+              "matchingSources": [
+                { "id": "B2_m10_R3_ad_a", "label": "a" }, { "id": "B2_m10_R3_ad_b", "label": "b" },
+                { "id": "B2_m10_R3_ad_c", "label": "c" }, { "id": "B2_m10_R3_ad_d", "label": "d" },
+                { "id": "B2_m10_R3_ad_e", "label": "e" }, { "id": "B2_m10_R3_ad_f", "label": "f" },
+                { "id": "B2_m10_R3_ad_g", "label": "g" }, { "id": "B2_m10_R3_ad_h", "label": "h" },
+                { "id": "B2_m10_R3_ad_i", "label": "i" }, { "id": "B2_m10_R3_ad_j", "label": "j" },
+                { "id": "B2_m10_R3_ad_k", "label": "k" }, { "id": "B2_m10_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Anzeige g) 'Finanzielle Allgemeinbildung für Berufseinsteigende' deckt Leonies drei Kernanliegen ab: Haushaltsplan, erste Altersvorsorge, sinnvolle Versicherungen. Das Format (vier Abende, VHS, moderater Preis) passt ebenfalls."
+            },
+            {
+              "id": "B2_m10_R3_q4",
+              "type": "matching",
+              "questionText": "4. Familie Martens mit zwei kleinen Kindern möchte wöchentlich frisches Gemüse aus ihrer Region beziehen und dafür eine feste Partnerschaft mit einem Hof eingehen, bei der sie vorher ausprobieren kann, ob das Angebot zu ihnen passt.",
+              "matchingSources": [
+                { "id": "B2_m10_R3_ad_a", "label": "a" }, { "id": "B2_m10_R3_ad_b", "label": "b" },
+                { "id": "B2_m10_R3_ad_c", "label": "c" }, { "id": "B2_m10_R3_ad_d", "label": "d" },
+                { "id": "B2_m10_R3_ad_e", "label": "e" }, { "id": "B2_m10_R3_ad_f", "label": "f" },
+                { "id": "B2_m10_R3_ad_g", "label": "g" }, { "id": "B2_m10_R3_ad_h", "label": "h" },
+                { "id": "B2_m10_R3_ad_i", "label": "i" }, { "id": "B2_m10_R3_ad_j", "label": "j" },
+                { "id": "B2_m10_R3_ad_k", "label": "k" }, { "id": "B2_m10_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "f",
+              "explanation": "Anzeige f) Solidarische Landwirtschaft Südhof bietet genau die Kombination aus wöchentlicher Gemüselieferung, regionalem Bezug und zwei unverbindlichen Probelieferungen vor Vertragsabschluss. Ideal für Familie Martens' Wunsch nach Probe."
+            },
+            {
+              "id": "B2_m10_R3_q5",
+              "type": "matching",
+              "questionText": "5. Sven hat vor drei Wochen online eine Waschmaschine gekauft, die schon nach kurzem Gebrauch einen technischen Defekt zeigt. Der Händler weigert sich, das Gerät umzutauschen, und Sven möchte wissen, welche Rechte er hat.",
+              "matchingSources": [
+                { "id": "B2_m10_R3_ad_a", "label": "a" }, { "id": "B2_m10_R3_ad_b", "label": "b" },
+                { "id": "B2_m10_R3_ad_c", "label": "c" }, { "id": "B2_m10_R3_ad_d", "label": "d" },
+                { "id": "B2_m10_R3_ad_e", "label": "e" }, { "id": "B2_m10_R3_ad_f", "label": "f" },
+                { "id": "B2_m10_R3_ad_g", "label": "g" }, { "id": "B2_m10_R3_ad_h", "label": "h" },
+                { "id": "B2_m10_R3_ad_i", "label": "i" }, { "id": "B2_m10_R3_ad_j", "label": "j" },
+                { "id": "B2_m10_R3_ad_k", "label": "k" }, { "id": "B2_m10_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Anzeige e) Rechtsberatung Verbraucherschutz ist auf Reklamationen, Gewährleistung und Kaufvertragsstreitigkeiten spezialisiert – exakt Svens Anliegen bei der defekten Waschmaschine und der Weigerung des Händlers."
+            },
+            {
+              "id": "B2_m10_R3_q6",
+              "type": "matching",
+              "questionText": "6. Frau Okonkwo hat zwei kleine Kinder, die aus ihrer Kleidung herauswachsen. Sie möchte gut erhaltene Sachen weitergeben und im Gegenzug nächstgrößere Kleidung erhalten, ohne neu kaufen zu müssen.",
+              "matchingSources": [
+                { "id": "B2_m10_R3_ad_a", "label": "a" }, { "id": "B2_m10_R3_ad_b", "label": "b" },
+                { "id": "B2_m10_R3_ad_c", "label": "c" }, { "id": "B2_m10_R3_ad_d", "label": "d" },
+                { "id": "B2_m10_R3_ad_e", "label": "e" }, { "id": "B2_m10_R3_ad_f", "label": "f" },
+                { "id": "B2_m10_R3_ad_g", "label": "g" }, { "id": "B2_m10_R3_ad_h", "label": "h" },
+                { "id": "B2_m10_R3_ad_i", "label": "i" }, { "id": "B2_m10_R3_ad_j", "label": "j" },
+                { "id": "B2_m10_R3_ad_k", "label": "k" }, { "id": "B2_m10_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "k",
+              "explanation": "Anzeige k) Kleiderbörse für Kinder ist exakt darauf ausgerichtet: bringen, gegen Punkte tauschen, andere Stücke mitnehmen. Distraktor d) (Flohmarkt) funktioniert zwar ähnlich, verlangt aber einen eigenen Stand und läuft nach Verkaufslogik – nicht nach Tauschprinzip."
+            },
+            {
+              "id": "B2_m10_R3_q7",
+              "type": "matching",
+              "questionText": "7. Herr Lichtenberg will in seiner Heimatstadt einen kleinen Bio-Laden eröffnen und sucht eine kompakte Einführung in Businessplan, Standortanalyse und Warenkalkulation.",
+              "matchingSources": [
+                { "id": "B2_m10_R3_ad_a", "label": "a" }, { "id": "B2_m10_R3_ad_b", "label": "b" },
+                { "id": "B2_m10_R3_ad_c", "label": "c" }, { "id": "B2_m10_R3_ad_d", "label": "d" },
+                { "id": "B2_m10_R3_ad_e", "label": "e" }, { "id": "B2_m10_R3_ad_f", "label": "f" },
+                { "id": "B2_m10_R3_ad_g", "label": "g" }, { "id": "B2_m10_R3_ad_h", "label": "h" },
+                { "id": "B2_m10_R3_ad_i", "label": "i" }, { "id": "B2_m10_R3_ad_j", "label": "j" },
+                { "id": "B2_m10_R3_ad_k", "label": "k" }, { "id": "B2_m10_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "i",
+              "explanation": "Anzeige i) 'Gründen im Einzelhandel' bedient genau die drei Themen in einem Wochenendseminar: Businessplan, Standortwahl, Warenkalkulation – exakt Herr Lichtenbergs Bedarf. Distraktor j) (Handel 2030) ist eine Trend-Konferenz, keine Gründungsschulung."
+            },
+            {
+              "id": "B2_m10_R3_q8",
+              "type": "matching",
+              "questionText": "8. Jenny interessiert sich für bewussten, preisgünstigen Einkauf und möchte praxisnah lernen, wie sie im Alltag nachhaltiger einkaufen kann, ohne das monatliche Budget zu sprengen.",
+              "matchingSources": [
+                { "id": "B2_m10_R3_ad_a", "label": "a" }, { "id": "B2_m10_R3_ad_b", "label": "b" },
+                { "id": "B2_m10_R3_ad_c", "label": "c" }, { "id": "B2_m10_R3_ad_d", "label": "d" },
+                { "id": "B2_m10_R3_ad_e", "label": "e" }, { "id": "B2_m10_R3_ad_f", "label": "f" },
+                { "id": "B2_m10_R3_ad_g", "label": "g" }, { "id": "B2_m10_R3_ad_h", "label": "h" },
+                { "id": "B2_m10_R3_ad_i", "label": "i" }, { "id": "B2_m10_R3_ad_j", "label": "j" },
+                { "id": "B2_m10_R3_ad_k", "label": "k" }, { "id": "B2_m10_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Anzeige c) Online-Kurs 'Nachhaltig einkaufen mit kleinem Budget' trifft Jennys Anliegen exakt: praxisnahe Einkaufslisten, Ernährungs- und Budgetexpertin kombiniert, moderate Gebühr. Distraktor h) (FairMarkt-App) ist nur ein Preisvergleichstool, kein Lernangebot."
+            },
+            {
+              "id": "B2_m10_R3_q9",
+              "type": "matching",
+              "questionText": "9. Herr Sabanović pendelt jede Woche zu verschiedenen Orten und möchte unterwegs schnell sehen, wo es in der Nähe Hofläden mit regionalem Angebot gibt, um dort spontan einzukaufen.",
+              "matchingSources": [
+                { "id": "B2_m10_R3_ad_a", "label": "a" }, { "id": "B2_m10_R3_ad_b", "label": "b" },
+                { "id": "B2_m10_R3_ad_c", "label": "c" }, { "id": "B2_m10_R3_ad_d", "label": "d" },
+                { "id": "B2_m10_R3_ad_e", "label": "e" }, { "id": "B2_m10_R3_ad_f", "label": "f" },
+                { "id": "B2_m10_R3_ad_g", "label": "g" }, { "id": "B2_m10_R3_ad_h", "label": "h" },
+                { "id": "B2_m10_R3_ad_i", "label": "i" }, { "id": "B2_m10_R3_ad_j", "label": "j" },
+                { "id": "B2_m10_R3_ad_k", "label": "k" }, { "id": "B2_m10_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "h",
+              "explanation": "Anzeige h) 'FairMarkt'-App liefert genau das: regionale Erzeuger in der Nähe finden, Preise vergleichen, vorab reservieren – ideal für jemanden, der viel unterwegs ist. Distraktor f) (Solawi Südhof) bietet nur einen festen Hof mit langem Vertrag, keine flexible Suche."
+            },
+            {
+              "id": "B2_m10_R3_q10",
+              "type": "matching",
+              "questionText": "10. Pia plant für den kommenden Herbst einen dreiwöchigen Konsumverzicht ('No-Shopping-Monat') mit einer Gruppe Freundinnen und sucht eine angeleitete Challenge mit täglichen Aufgaben und einer WhatsApp-Community.",
+              "matchingSources": [
+                { "id": "B2_m10_R3_ad_a", "label": "a" }, { "id": "B2_m10_R3_ad_b", "label": "b" },
+                { "id": "B2_m10_R3_ad_c", "label": "c" }, { "id": "B2_m10_R3_ad_d", "label": "d" },
+                { "id": "B2_m10_R3_ad_e", "label": "e" }, { "id": "B2_m10_R3_ad_f", "label": "f" },
+                { "id": "B2_m10_R3_ad_g", "label": "g" }, { "id": "B2_m10_R3_ad_h", "label": "h" },
+                { "id": "B2_m10_R3_ad_i", "label": "i" }, { "id": "B2_m10_R3_ad_j", "label": "j" },
+                { "id": "B2_m10_R3_ad_k", "label": "k" }, { "id": "B2_m10_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "x",
+              "explanation": "Keine der zwölf Anzeigen bietet eine angeleitete dreiwöchige Konsumverzichts-Challenge mit Tagesaufgaben und Community. Anzeige c) adressiert zwar bewussten Einkauf, ist aber ein regulärer Kurs, keine Verzichts-Challenge. Anzeige l) (Konsumfestival) ist ein dreitägiges Event, keine dreiwöchige Challenge. Anzeige j) (Handel 2030) richtet sich an Branchenprofis. Die verbleibenden drei ungenutzten Anzeigen – d) Sommerinsel-Markt, j) Handel 2030 und l) Konsumfestival – passen zu keiner der Situationen 1–9 und bleiben zusammen mit diesem 'x' als die drei im Heft unbelegten Anzeigen übrig."
+            }
+          ]
+        }
+      ]
+    },
+    "sprachbausteine": {
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie den folgenden Text und entscheiden Sie, welches Wort (a, b, c oder d) in die Lücke passt. Es gibt jeweils nur eine richtige Lösung.",
+          "text": "Sehr geehrte Kundinnen und Kunden,\n\nmit diesem Schreiben möchten wir Sie über anstehende Änderungen in unserem Kundenbindungsprogramm informieren. Nach einer umfangreichen Analyse, die in den vergangenen Monaten von einem unabhängigen Marktforschungsinstitut __(1)__ wurde, haben wir ein überarbeitetes Bonusmodell entwickelt. Das neue Programm, __(2)__ zum ersten Juni in Kraft tritt, berücksichtigt sowohl die gestiegenen Lebenshaltungskosten als auch den Wunsch unserer Kundschaft nach mehr Transparenz.\n\nKünftig erhalten Sie für jeden Einkaufseuro genau einen Punkt und können diese Punkte flexibel gegen Rabatte, Spenden an gemeinnützige Organisationen oder saisonale Produkte eintauschen. Sollte es im Einzelfall zu Unstimmigkeiten bei der Punktevergabe kommen, __(3)__ Sie sich bitte an unsere Serviceabteilung wenden. __(4)__ der deutlich einfacheren Regelung rechnen wir mit einer höheren Akzeptanz als beim bisherigen System, das in den letzten Jahren mehrfach als zu kompliziert kritisiert worden ist.\n\nZusätzlich zu den klassischen Vorteilen wird es erstmals einen Nachhaltigkeitsbonus geben: Wer Produkte aus regionalem Anbau oder mit offiziellem Umweltsiegel kauft, __(5)__ zusätzliche Punkte. Teilnehmende, die pro Monat mindestens dreißig Euro in diese Kategorie investieren, __(6)__ eine jährliche Prämie in Form eines Einkaufsgutscheins. __(7)__ ist die Auswahl dieser Produkte, die gut sichtbar in unseren Filialen gekennzeichnet werden.\n\nDie von unserem Vorstand __(8)__ Umstellung ist Teil einer größeren Strategie, bei der Fairness gegenüber Kundinnen und Kunden, Lieferanten und Umwelt im Mittelpunkt steht. Wir sind überzeugt, __(9)__ diese Schritte langfristig Vertrauen schaffen und unsere Rolle im regionalen Handel stärken. __(10)__ Rückfragen stehen Ihnen unsere Filialleitungen sowie unsere Hotline zur Verfügung.\n\nMit freundlichen Grüßen\nMarkus Aichinger, Leiter Kundenservice",
+          "questions": [
+            {
+              "blankNumber": 1,
+              "type": "mcq",
+              "options": ["a) durchgeführt", "b) durchführen", "c) durchzuführen", "d) durchführte"],
+              "correctAnswer": "a",
+              "explanation": "Vorgangspassiv Präteritum: 'die … von einem Marktforschungsinstitut durchgeführt wurde.' Bildung: werden (wurde) + Partizip II. Das Partizip II 'durchgeführt' ist zwingend. Distraktoren: b) Infinitiv ohne 'werden' ergäbe 'wurde durchführen' – ungrammatisch, c) zu+Infinitiv passt grammatisch nicht zu einem finiten Passivsatz, d) 'durchführte' ist Aktiv-Präteritum (falsche Diathese – das Passiv braucht 'wurde + Partizip II'). B2-Grammatik: Vorgangspassiv im Relativsatz."
+            },
+            {
+              "blankNumber": 2,
+              "type": "mcq",
+              "options": ["a) der", "b) die", "c) das", "d) was"],
+              "correctAnswer": "c",
+              "explanation": "Relativsatz: 'das neue Programm, das zum ersten Juni in Kraft tritt.' Das Relativpronomen bezieht sich auf 'Programm' (Neutrum, Nominativ Singular) → 'das'. Distraktoren: a) 'der' = Maskulin, b) 'die' = Feminin oder Plural, d) 'was' nur nach unbestimmten Pronomen (etwas, alles, nichts) oder substantivierten Neutra mit Artikel (das Beste). 'Programm' ist ein normales Neutrum und verlangt 'das'. B2-Grammatik: Relativpronomen mit Kongruenz zum Bezugswort."
+            },
+            {
+              "blankNumber": 3,
+              "type": "mcq",
+              "options": ["a) können", "b) könnten", "c) konnten", "d) hätten gekonnt"],
+              "correctAnswer": "b",
+              "explanation": "Inversion nach vorangestelltem Konditionalsatz ohne 'wenn': 'Sollte es … kommen, könnten Sie sich … wenden.' Höfliche Aufforderung im Konjunktiv II – typisch für formelle Kundenkommunikation. Distraktoren: a) 'können' wäre Indikativ und klingt in dieser Hypothese zu direkt, c) 'konnten' ist Präteritum und würde die Zeitebene brechen, d) 'hätten gekonnt' wäre Konjunktiv II Perfekt und meint eine nicht mehr realisierbare Vergangenheit – hier geht es um künftige Einzelfälle. B2-Grammatik: Konjunktiv II als Höflichkeitsform, Inversion nach 'sollte'."
+            },
+            {
+              "blankNumber": 4,
+              "type": "mcq",
+              "options": ["a) Dank", "b) Trotz", "c) Wegen", "d) Ohne"],
+              "correctAnswer": "a",
+              "explanation": "Genitiv-Präposition mit positivem, ursächlichem Sinn: 'Dank der deutlich einfacheren Regelung rechnen wir mit einer höheren Akzeptanz.' 'Dank' drückt aus, dass die einfachere Regelung der Grund für die erwartete positive Folge ist. Distraktoren: b) 'Trotz' drückt Gegensatz aus und widerspricht der Logik (Erwartung TROTZ einfacherer Regelung ergibt keinen Sinn, wenn die Einfachheit ja der gewünschte Hebel ist), c) 'Wegen' wäre neutral-kausal, in der Geschäftssprache aber weniger passend als 'Dank', wenn eine erwünschte Folge benannt wird – und 'Dank' ist hier die einzige Option, die den positiven Ursachenbezug sauber markiert, d) 'Ohne' würde Akkusativ verlangen ('ohne die deutlich einfachere Regelung') und drückt Ausschluss aus, der hier sinnwidrig wäre. B2-Präposition mit Genitiv + Register."
+            },
+            {
+              "blankNumber": 5,
+              "type": "mcq",
+              "options": ["a) erhält", "b) erhalten", "c) hat erhalten", "d) würde erhalten"],
+              "correctAnswer": "a",
+              "explanation": "Subjekt-Verb-Kongruenz: 'Wer Produkte … kauft, erhält zusätzliche Punkte.' 'Wer' ist als Relativpronomen Singular → Verb im Singular Präsens 'erhält'. Distraktoren: b) 'erhalten' wäre Plural oder Infinitiv, beides ungrammatisch, c) 'hat erhalten' Perfekt passt nicht zur allgemein-gültigen Beschreibung (Präsens dominiert den Text), d) 'würde erhalten' Konjunktiv II suggeriert eine Hypothese, die im Kontext nicht vorhanden ist – die Regelung gilt als Tatsache. B2-Grammatik: Konjugation nach 'wer' (immer Singular)."
+            },
+            {
+              "blankNumber": 6,
+              "type": "mcq",
+              "options": ["a) bekommt", "b) bekommen", "c) bekämen", "d) werden bekommen"],
+              "correctAnswer": "b",
+              "explanation": "Subjekt-Verb-Kongruenz: 'Teilnehmende, die … investieren, bekommen eine jährliche Prämie.' Das Subjekt 'Teilnehmende' ist Plural, das finite Verb des Hauptsatzes muss ebenfalls Plural sein → 'bekommen'. Distraktoren: a) 'bekommt' wäre Singular, widerspricht dem Pluralsubjekt, c) 'bekämen' Konjunktiv II würde eine Hypothese anzeigen – im Kontext geht es aber um eine tatsächliche Regelung, d) 'werden bekommen' Futur I passt stilistisch nicht zur faktisch-neutralen Präsens-Darstellung im Text. B2-Grammatik: Plural-Subjekt im Relativsatz."
+            },
+            {
+              "blankNumber": 7,
+              "type": "mcq",
+              "options": ["a) Entscheidend", "b) Die Entscheidung", "c) Entscheidende", "d) Entschieden"],
+              "correctAnswer": "a",
+              "explanation": "Prädikatives Adjektiv am Satzanfang: 'Entscheidend ist die Auswahl dieser Produkte …' Endungslose Form signalisiert, dass das Adjektiv als Prädikativum nach 'sein' steht (vgl. 'Wichtig ist …'). Distraktoren: b) 'Die Entscheidung' würde einen komplett anderen Satz verlangen ('Die Entscheidung ist …'), aber der folgende Satzinhalt passt nicht zu 'Entscheidung', sondern beschreibt die Auswahl als entscheidend, c) 'Entscheidende' mit Endung wäre substantivierte Form und verlangt einen Artikel ('Das Entscheidende ist …'), d) 'Entschieden' wäre Partizip II und passt nicht als Satzanfang mit 'ist'. B2-Grammatik: Adjektiv vs. Nominalisierung als Satzöffnung."
+            },
+            {
+              "blankNumber": 8,
+              "type": "mcq",
+              "options": ["a) beschlossene", "b) beschließende", "c) zu beschließende", "d) beschlossen"],
+              "correctAnswer": "a",
+              "explanation": "Partizipialattribut – B2-Kernthema: 'Die von unserem Vorstand beschlossene Umstellung' = 'Die Umstellung, die vom Vorstand beschlossen wurde'. Partizip II 'beschlossen' + Adjektivendung -e (Nom. Sg. Fem. schwache Deklination nach 'Die'). Distraktoren: b) 'beschließende' (Partizip I) wäre aktive, gleichzeitige Handlung (die Umstellung beschließt nicht sich selbst), c) 'zu beschließende' wäre Gerundivum (noch zu beschließen, also zukünftig) – widerspricht der Aussage, dass bereits beschlossen wurde, d) 'beschlossen' ohne Endung bricht die Attribut-Deklination. B2-Grammatik: passivisches Partizipialattribut."
+            },
+            {
+              "blankNumber": 9,
+              "type": "mcq",
+              "options": ["a) dass", "b) ob", "c) weil", "d) als"],
+              "correctAnswer": "a",
+              "explanation": "Objektsatz nach 'überzeugt sein': 'Wir sind überzeugt, dass diese Schritte … Vertrauen schaffen.' 'überzeugt sein' verlangt einen dass-Satz als Ergänzung (indirekte Aussage). Distraktoren: b) 'ob' leitet eine indirekte Frage ein ('Wir fragen uns, ob …'), passt nicht zu 'überzeugt sein', weil keine Unsicherheit vorliegt, c) 'weil' leitet einen Kausalsatz ein und passt nicht nach 'überzeugt', das eine Aussage, keinen Grund verlangt, d) 'als' leitet Temporal- oder Vergleichssätze ein – hier weder zeitlich noch vergleichend passend. B2-Grammatik: Konnektor nach Adjektiv-Rektion."
+            },
+            {
+              "blankNumber": 10,
+              "type": "mcq",
+              "options": ["a) Für", "b) Mit", "c) Zu", "d) In"],
+              "correctAnswer": "a",
+              "explanation": "Satzanfang mit Akkusativ-Präposition in fester Wendung: 'Für Rückfragen stehen Ihnen … zur Verfügung.' Die feste Kollokation 'Für Rückfragen stehen wir zur Verfügung' ist Standardformulierung in formellen Briefen. Distraktoren: b) 'Mit' wäre 'Mit Rückfragen wenden Sie sich' – geht, aber Verbkonstruktion passt nicht mehr zu 'stehen zur Verfügung', c) 'Zu' ergäbe 'Zu Rückfragen' – ungebräuchlich in dieser Wendung, d) 'In' passt semantisch nicht. B2-Vokabular: formelhafte Geschäftskommunikation, Präposition in fester Wendung."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Text. Welches Wort aus der Liste a–o passt in die Lücken? Jedes Wort passt nur einmal. Fünf Wörter bleiben übrig.",
+          "text": "Beim Einkauf im Supermarkt treffen Verbraucherinnen und Verbraucher pro Gang etwa dreihundert Kaufentscheidungen – meist innerhalb __(11)__ Sekunden. Hersteller wissen um diese Schnelligkeit und setzen gezielt auf Verpackungen, Farben und Platzierung, um Aufmerksamkeit __(12)__ sich zu ziehen.\n\nInsbesondere Eigenmarken von Discountern haben in den letzten Jahren stark an Bedeutung gewonnen. Marktforscher führen diesen Erfolg nicht nur auf den Preis __(13)__, sondern auch auf eine deutlich verbesserte Produktqualität. Ein Blick ins Regal zeigt: Das Erscheinungsbild unterscheidet sich oft nur __(14)__ von bekannten Markenartikeln, und der Inhalt stammt in vielen Fällen aus denselben Produktionsstätten.\n\nEinen weiteren zentralen Punkt __(15)__ das Thema Transparenz dar. Wer auf regionalen Einkauf oder faire Produktionsbedingungen Wert legt, möchte nicht nur ein Siegel sehen, sondern nachvollziehbare Angaben zur Herkunft. Anbieter, die diese Angaben bereitstellen, verbuchen messbar __(16)__ Kundenbindung.\n\nAuch der zeitliche Faktor spielt eine wachsende __(17)__. Viele Haushalte kombinieren den wöchentlichen Großeinkauf mit kürzeren Spontankäufen unter der Woche. __(18)__ der knapperen Haushaltsbudgets setzen Einzelhändler auf kleinere Packungsgrößen und häufigere Aktionsangebote. Beobachter sehen __(19)__ einen Paradigmenwechsel: Der klassische Wocheneinkauf wird zunehmend ergänzt, teilweise sogar ersetzt.\n\nWer den eigenen Konsum __(20)__ steuern möchte, kann mit einfachen Regeln viel erreichen: Einkaufsliste vorher schreiben, nicht hungrig einkaufen gehen, Aktionsware nur dann mitnehmen, wenn sie wirklich gebraucht wird. So bleibt der Einkauf eine bewusste Entscheidung – und nicht ein von Werbung gesteuerter Automatismus.",
+          "questions": [
+            {
+              "blankNumber": 11,
+              "type": "word_bank",
+              "options": [
+                "a) weniger", "b) an", "c) zurück", "d) kaum", "e) stellt",
+                "f) höhere", "g) Rolle", "h) Infolge", "i) darin", "j) wie",
+                "k) den", "l) gezielt", "m) über", "n) mehr", "o) liegt"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Temporale Mengenangabe: 'innerhalb weniger Sekunden' = in a short span. 'wenig' als Genitivattribut vor einem Plural-Nomen steht in flektierter Form 'weniger'. Distraktor n) 'mehr' würde die Zeit verlängern und widerspricht dem Kontext ('Schnelligkeit'). B2-Vokabular: idiomatisch-temporaler Ausdruck."
+            },
+            {
+              "blankNumber": 12,
+              "type": "word_bank",
+              "options": [
+                "a) weniger", "b) an", "c) zurück", "d) kaum", "e) stellt",
+                "f) höhere", "g) Rolle", "h) Infolge", "i) darin", "j) wie",
+                "k) den", "l) gezielt", "m) über", "n) mehr", "o) liegt"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Feste Wendung: 'Aufmerksamkeit an sich ziehen'. Die Präposition 'an' gehört zur festen Verbverbindung 'etwas an sich ziehen'. Distraktor m) 'über' ist nicht idiomatisch ('Aufmerksamkeit über sich' existiert nicht). B2-Vokabular: Funktionsverbgefüge mit 'ziehen' + Präposition."
+            },
+            {
+              "blankNumber": 13,
+              "type": "word_bank",
+              "options": [
+                "a) weniger", "b) an", "c) zurück", "d) kaum", "e) stellt",
+                "f) höhere", "g) Rolle", "h) Infolge", "i) darin", "j) wie",
+                "k) den", "l) gezielt", "m) über", "n) mehr", "o) liegt"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Trennbares Verb in festem Kontext: 'etwas auf etwas zurückführen' = eine Erklärung für etwas geben. Das Partikel 'zurück' steht am Satzende bzw. vor Präpositionalphrase; hier: 'führen diesen Erfolg … zurück'. Distraktor m) 'über' passt nicht zu 'führen' in dieser Bedeutung. B2-Vokabular: idiomatisches trennbares Verb 'zurückführen auf'."
+            },
+            {
+              "blankNumber": 14,
+              "type": "word_bank",
+              "options": [
+                "a) weniger", "b) an", "c) zurück", "d) kaum", "e) stellt",
+                "f) höhere", "g) Rolle", "h) Infolge", "i) darin", "j) wie",
+                "k) den", "l) gezielt", "m) über", "n) mehr", "o) liegt"
+              ],
+              "correctAnswer": "d",
+              "explanation": "Adverb der Einschränkung: 'unterscheidet sich nur kaum von …' = fast gar nicht. 'kaum' verstärkt 'nur' und meint 'so gut wie gar nicht'. Distraktor a) 'weniger' wäre als Komparativ gebraucht und bricht die Konstruktion 'nur …'; 'nur weniger' klingt unnatürlich. B2-Vokabular: Graduierungsadverb 'kaum'."
+            },
+            {
+              "blankNumber": 15,
+              "type": "word_bank",
+              "options": [
+                "a) weniger", "b) an", "c) zurück", "d) kaum", "e) stellt",
+                "f) höhere", "g) Rolle", "h) Infolge", "i) darin", "j) wie",
+                "k) den", "l) gezielt", "m) über", "n) mehr", "o) liegt"
+              ],
+              "correctAnswer": "e",
+              "explanation": "Funktionsverbgefüge: 'Ein weiterer zentraler Punkt stellt das Thema Transparenz dar' – hier als verkürzte Variante ohne explizites 'dar' am Ende, wie sie in Wirtschaftstexten regelmäßig vorkommt und im Folgesatz durch 'Transparenz' als Prädikativum ergänzt wird. Finite Form Singular 3. Person → 'stellt'. Distraktor o) 'liegt' verlangt 'liegt in …' und passt syntaktisch nicht direkt vor 'das Thema Transparenz' ohne Präposition. B2-Grammatik: Funktionsverbgefüge als Stilmittel."
+            },
+            {
+              "blankNumber": 16,
+              "type": "word_bank",
+              "options": [
+                "a) weniger", "b) an", "c) zurück", "d) kaum", "e) stellt",
+                "f) höhere", "g) Rolle", "h) Infolge", "i) darin", "j) wie",
+                "k) den", "l) gezielt", "m) über", "n) mehr", "o) liegt"
+              ],
+              "correctAnswer": "f",
+              "explanation": "Komparativ-Attribut: 'verbuchen messbar höhere Kundenbindung'. 'höhere' ist die flektierte Komparativform von 'hoch', Akkusativ Singular Feminin vor dem Nomen 'Kundenbindung'. Distraktor n) 'mehr' wäre hier flexionslos, passt aber grammatisch nicht direkt zu 'Kundenbindung' ohne 'mehr an Kundenbindung'. Die attributive Position verlangt das flektierte Adjektiv. B2-Grammatik: Adjektiv-Deklination im Komparativ."
+            },
+            {
+              "blankNumber": 17,
+              "type": "word_bank",
+              "options": [
+                "a) weniger", "b) an", "c) zurück", "d) kaum", "e) stellt",
+                "f) höhere", "g) Rolle", "h) Infolge", "i) darin", "j) wie",
+                "k) den", "l) gezielt", "m) über", "n) mehr", "o) liegt"
+              ],
+              "correctAnswer": "g",
+              "explanation": "Feste Kollokation: 'eine Rolle spielen' = bedeutsam sein. 'eine wachsende Rolle' = immer wichtiger werden. Distraktor l) 'gezielt' ist Adverb und passt nicht als Nomen nach 'eine wachsende'. B2-Vokabular: idiomatische Kollokation 'Rolle spielen'."
+            },
+            {
+              "blankNumber": 18,
+              "type": "word_bank",
+              "options": [
+                "a) weniger", "b) an", "c) zurück", "d) kaum", "e) stellt",
+                "f) höhere", "g) Rolle", "h) Infolge", "i) darin", "j) wie",
+                "k) den", "l) gezielt", "m) über", "n) mehr", "o) liegt"
+              ],
+              "correctAnswer": "h",
+              "explanation": "Genitiv-Präposition als Satzanfang, kausal: 'Infolge der knapperen Haushaltsbudgets setzen Einzelhändler auf …' = 'als Folge der knapperen Budgets'. Großschreibung signalisiert den Satzanfang. Distraktor m) 'über' und b) 'an' sind Präpositionen, aber ohne kausalen Sinn. 'Infolge' passt präzise zur erklärten Ursache-Folge-Beziehung. B2-Präposition: 'infolge' + Genitiv."
+            },
+            {
+              "blankNumber": 19,
+              "type": "word_bank",
+              "options": [
+                "a) weniger", "b) an", "c) zurück", "d) kaum", "e) stellt",
+                "f) höhere", "g) Rolle", "h) Infolge", "i) darin", "j) wie",
+                "k) den", "l) gezielt", "m) über", "n) mehr", "o) liegt"
+              ],
+              "correctAnswer": "i",
+              "explanation": "Pronominaladverb: 'sehen darin einen Paradigmenwechsel' = 'sehen in dieser Entwicklung …'. 'darin' verweist auf das im vorherigen Satz Beschriebene. Das Verb 'sehen in etwas' ist die feste Kollokation. Distraktor m) 'über' ist Präposition ohne passenden Sinn. B2-Grammatik: Pronominaladverb als Rückverweis."
+            },
+            {
+              "blankNumber": 20,
+              "type": "word_bank",
+              "options": [
+                "a) weniger", "b) an", "c) zurück", "d) kaum", "e) stellt",
+                "f) höhere", "g) Rolle", "h) Infolge", "i) darin", "j) wie",
+                "k) den", "l) gezielt", "m) über", "n) mehr", "o) liegt"
+              ],
+              "correctAnswer": "l",
+              "explanation": "Adverbial-Verstärker: 'den eigenen Konsum gezielt steuern' = planvoll und bewusst. 'gezielt' als unflektiertes Adverb verstärkt das Verb 'steuern' und ist eine natürliche Kollokation im Wirtschaftskontext (vgl. 'gezielt investieren', 'gezielt werben'). Distraktoren: j) 'wie' ist Konjunktion oder Fragewort ohne passenden Bezug, k) 'den' ist Artikel, bereits im Satz ('den eigenen Konsum'), m) 'über' wäre Präposition ohne Objekt, n) 'mehr' würde eine Komparativsteigerung erfordern ('mehr als'), o) 'liegt' ist finites Verb und passt nicht adverbial. Die verbleibenden fünf Distraktoren (j, k, m, n, o) passen zu keiner Lücke im Text. B2-Vokabular: adverbialer Intensifier 'gezielt'."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 30,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "letter",
+          "instructions": "Wählen Sie EINE der beiden folgenden Aufgaben (A oder B) und bearbeiten Sie diese. Beachten Sie die Leitpunkte und schreiben Sie mindestens 150 Wörter (Richtwert: 200 Wörter). Kennzeichnen Sie am Anfang Ihres Textes deutlich, welche Aufgabe Sie gewählt haben.",
+          "instructionsTranslation": "Choose ONE of the two tasks (A or B) below and complete it. Address the guiding points and write at least 150 words (target: around 200 words). Clearly mark at the top of your text which task you have chosen.",
+          "prompt": "AUFGABE A (Stellungnahme):\n\nSituation: In der überregionalen Wochenzeitung 'Zeit & Gesellschaft' ist ein Leitartikel unter dem Titel 'Der Nachhaltigkeits-Bluff – Warum grüner Konsum die Welt nicht rettet' erschienen. Die Autorin behauptet darin, individuelle Kaufentscheidungen seien für den Klimaschutz irrelevant. Entscheidend seien ausschließlich politische Regulierung und technische Innovation. Wer sich auf sein Einkaufsverhalten verlasse, verschwende Zeit und Geld. Sie wollen auf diesen Artikel mit einem Leserbrief reagieren.\n\nSchreiben Sie einen Leserbrief an die Redaktion (Frau Carola Schilling, Redaktion 'Zeit & Gesellschaft'). Gehen Sie auf die folgenden drei Leitpunkte ein:\n\n• Nehmen Sie Stellung zu der zentralen These des Artikels – stimmen Sie zu oder widersprechen Sie?\n• Nennen Sie mindestens zwei konkrete Argumente oder Beispiele aus Ihrer eigenen Erfahrung oder Beobachtung.\n• Machen Sie einen konstruktiven Vorschlag, wie sich individuelle Entscheidungen und politische Maßnahmen ergänzen könnten.\n\nBeachten Sie eine passende semi-formelle Anrede und eine sachliche Argumentation. Schreiben Sie mindestens 150 Wörter.\n\n— ODER —\n\nAUFGABE B (Beschwerdebrief):\n\nSituation: Vor zwei Wochen haben Sie bei einem Online-Händler ('GoodHouse24') eine Waschmaschine zum Preis von 649 € gekauft. Der Händler hatte eine Lieferung innerhalb von fünf Werktagen und eine kostenlose Altgerätemitnahme zugesichert. Die Maschine ist erst nach zwölf Tagen eingetroffen, die Altgerätemitnahme wurde vom Fahrer verweigert, und beim ersten Waschgang trat bereits ein Wasserleck auf. Ein erster Anruf beim Kundenservice blieb ohne Rückmeldung.\n\nSchreiben Sie eine formelle Beschwerde an die Geschäftsleitung (Herrn Jonas Keilwerth) der GoodHouse24 GmbH. Gehen Sie auf die folgenden drei Leitpunkte ein:\n\n• Beschreiben Sie die konkreten Mängel bei Lieferung, Service und Produkt.\n• Erläutern Sie, welche Folgen diese Mängel für Sie persönlich haben.\n• Formulieren Sie eine klare Forderung (z. B. Nachbesserung, Teilerstattung, kostenfreie Ersatzlieferung) und setzen Sie eine Frist.\n\nBeachten Sie Anrede, Einleitung und Grußformel. Schreiben Sie mindestens 150 Wörter.",
+          "promptTranslation": "TASK A (Opinion piece):\n\nSituation: A national weekly newspaper has published a lead article titled 'The Sustainability Bluff – Why green consumption won't save the world.' The author claims that individual purchasing decisions are irrelevant for climate protection. Only political regulation and technical innovation matter. Relying on one's shopping behaviour, she writes, wastes time and money. You want to respond to this article with a letter to the editor.\n\nWrite a letter to the editor (Ms Carola Schilling). Address these three guiding points:\n\n• State your position on the main thesis – agree or disagree.\n• Give at least two concrete arguments or examples from your own experience or observation.\n• Suggest constructively how individual decisions and political measures could complement each other.\n\nUse an appropriate semi-formal salutation and factual reasoning. Write at least 150 words.\n\n— OR —\n\nTASK B (Complaint letter):\n\nSituation: Two weeks ago you bought a washing machine for 649 € from an online retailer ('GoodHouse24'). The retailer promised delivery within five working days and free removal of the old appliance. The machine arrived only after twelve days, the driver refused to take the old appliance, and during the first wash cycle a water leak appeared. An initial call to customer service went unanswered.\n\nWrite a formal complaint to the director (Mr Jonas Keilwerth) of GoodHouse24 GmbH. Address these three guiding points:\n\n• Describe the concrete shortcomings in delivery, service, and product.\n• Explain what consequences these have for you personally.\n• Formulate a clear demand (e.g. repair, partial refund, free replacement) and set a deadline.\n\nInclude greeting, opening, and closing. Write at least 150 words.",
+          "requiredPoints": [
+            "Aufgabe A: Positionsbezug zur These, zwei eigene Argumente/Beispiele, konstruktiver Vorschlag zur Ergänzung individueller und politischer Maßnahmen",
+            "Aufgabe B: konkrete Mängel bei Lieferung, Service und Produkt; persönliche Folgen; klare Forderung + Frist"
+          ],
+          "wordCountMin": 150,
+          "wordCountMax": 230,
+          "sampleAnswer": "[AUFGABE B — Beispielantwort]\n\nSehr geehrter Herr Keilwerth,\n\nvor zwei Wochen habe ich in Ihrem Onlineshop die Waschmaschine 'EcoWash 800' zum Preis von 649 € bestellt. Leider sehe ich mich gezwungen, auf mehrere schwerwiegende Mängel hinzuweisen.\n\nObwohl Sie ausdrücklich eine Lieferung innerhalb von fünf Werktagen zugesichert hatten, traf das Gerät erst nach zwölf Tagen bei mir ein. Die ebenfalls angekündigte kostenlose Mitnahme des Altgeräts wurde vom Fahrer mit dem Hinweis verweigert, dafür sei eine gesonderte Buchung nötig, was der ursprünglichen Zusage widerspricht. Darüber hinaus trat bereits beim ersten Waschgang ein deutliches Wasserleck auf, so dass ich die Maschine bis auf Weiteres nicht verwenden kann. Mein Anruf bei Ihrem Kundenservice am vergangenen Montag ist bis heute unbeantwortet geblieben.\n\nAngesichts der Verzögerung und des nicht funktionierenden Geräts bin ich seit mehreren Tagen gezwungen, meine Wäsche extern waschen zu lassen, was mit zusätzlichen Kosten verbunden ist.\n\nIch fordere Sie daher auf, entweder eine kostenfreie Ersatzlieferung samt Altgerätemitnahme innerhalb einer Woche vorzunehmen oder 40 Prozent des Kaufpreises zu erstatten. Bis zum 15. Mai erwarte ich eine verbindliche schriftliche Rückmeldung.\n\nMit freundlichen Grüßen\nDaniel Heinrich",
+          "scoringCriteria": [
+            {
+              "criterion": "I. Berücksichtigung der Leitpunkte",
+              "maxPoints": 15,
+              "description": "Alle drei Leitpunkte der gewählten Aufgabe (A oder B) werden inhaltlich mit B2-typischer Tiefe behandelt – nicht nur erwähnt, sondern mit Begründung und konkreten Details ausgeführt. A: A++ (15 Pkt) / B: B+ (10 Pkt) / C: C (5 Pkt) / D: unbehandelt (0 Pkt). Wird diese Kategorie mit D bewertet, erhält die gesamte Aufgabe 0 Punkte."
+            },
+            {
+              "criterion": "II. Kommunikative Gestaltung",
+              "maxPoints": 15,
+              "description": "Formelle/semi-formelle Anrede, logischer Textaufbau (Einleitung – Hauptteil – Schluss), konsistenter Sie-Register, B2-typische Diskursmarker (allerdings, darüber hinaus, im Übrigen, folglich, angesichts, hinsichtlich), passende Grußformel. Register-Sprünge (z.B. 'Hallo' in Beschwerde) werden abgewertet."
+            },
+            {
+              "criterion": "III. Formale Richtigkeit",
+              "maxPoints": 15,
+              "description": "B2-Grammatik korrekt eingesetzt: Passiv, Konjunktiv II für höfliche Forderungen ('Ich möchte Sie darum bitten', 'Ich erwarte, dass ...'), Nominalisierung, komplexe Nebensätze, Genitiv-Präpositionen. Rechtschreibung und Zeichensetzung. Fehler, die das Verständnis blockieren, führen zu D und damit zu 0 Punkten gesamt."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "presentation",
+          "instructions": "Teil 1 — Präsentation (ca. 3 Minuten pro Kandidat:in). Jede:r Kandidat:in erhält eine Themenkarte und hält eine kurze, strukturierte Präsentation (Einstieg, Hauptteil, Schluss). Anschließend stellt die Partnerin/der Partner 1–2 Nachfragen.",
+          "instructionsTranslation": "Part 1 — Presentation (approx. 3 minutes per candidate). Each candidate receives a topic card and gives a short, structured presentation (intro, main body, conclusion). Afterwards the partner asks 1–2 follow-up questions.",
+          "prompt": "KANDIDAT:IN A — Thema: 'Inflation und ihre Auswirkungen auf den Alltag'\n\nHalten Sie eine kurze Präsentation (ca. 3 Minuten) zu diesem Thema. Strukturieren Sie Ihren Vortrag so:\n\n• Einstieg: Wie hat sich Ihr persönliches Einkaufsverhalten in den letzten Jahren verändert? Nennen Sie ein konkretes Beispiel.\n• Hauptteil: In welchen Bereichen (Lebensmittel, Energie, Mobilität, Freizeit) spüren Haushalte die Inflation am stärksten? Welche Gruppen sind besonders betroffen? Welche Strategien entwickeln Haushalte als Reaktion?\n• Schluss: Welche Maßnahmen könnten helfen – staatlich und individuell? Ihre persönliche Einschätzung.\n\n—\n\nKANDIDAT:IN B — Thema: 'Nachhaltiger Konsum im Alltag – zwischen Anspruch und Wirklichkeit'\n\nHalten Sie eine kurze Präsentation (ca. 3 Minuten) zu diesem Thema. Strukturieren Sie Ihren Vortrag so:\n\n• Einstieg: Wo fällt Ihnen im eigenen Alltag die Lücke zwischen Nachhaltigkeits-Vorsatz und Realität am deutlichsten auf? Ein konkretes Beispiel.\n• Hauptteil: Welche Hürden sehen Sie (Preis, Zeit, Auswahl, Information)? Welche Ansätze funktionieren aus Ihrer Sicht besonders gut (Reparieren, Second-Hand, regionaler Einkauf)?\n• Schluss: Sollte der Staat stärker eingreifen – oder ist das Thema vor allem eine Frage der persönlichen Verantwortung? Ihre Einschätzung.",
+          "sampleResponse": "[Kandidat:in A — Inflation im Alltag]\n\nMeine Damen und Herren, ich möchte heute darüber sprechen, wie sich die Inflation auf unseren Alltag auswirkt. Wenn ich an meinen eigenen Einkauf zurückdenke, merke ich den Unterschied vor allem im Supermarkt. Vor drei Jahren habe ich für meinen Wocheneinkauf etwa fünfzig Euro ausgegeben; heute sind es oft achtzig, obwohl ich ähnliche Produkte kaufe. Besonders Milchprodukte, Brot und Obst sind deutlich teurer geworden.\n\nIm Hauptteil möchte ich drei Bereiche ansprechen. Am stärksten spürt man die Inflation bei Lebensmitteln und Energiekosten. Familien mit niedrigem Einkommen und Alleinerziehende sind besonders betroffen, weil sie einen größeren Anteil ihres Budgets für Grundbedürfnisse ausgeben. In meinem Umfeld sehe ich, dass viele Menschen auf Eigenmarken ausweichen, Sonderangebote gezielt nutzen und die Supermarktkette wechseln, wenn es nötig ist. Andere verzichten schweren Herzens auf Freizeitaktivitäten, um die Grundversorgung zu sichern.\n\nAbschließend bin ich überzeugt, dass es nur im Zusammenspiel funktioniert. Der Staat sollte kurzfristig gezielte Entlastungen für untere Einkommensgruppen anbieten, etwa über die Mehrwertsteuer auf Grundnahrungsmittel. Gleichzeitig kann jeder Einzelne mit Einkaufslisten, Preisvergleichen und bewusstem Konsum viel erreichen. Vielen Dank – was denken Sie dazu?\n\n[Beispielhafte Nachfrage der Partnerin/des Partners: 'Welche der Strategien hat dir persönlich am meisten gebracht?']",
+          "evaluationTips": [
+            "Strukturieren Sie die Präsentation klar: Einstieg – Hauptteil – Schluss",
+            "Verwenden Sie B2-Diskursmarker: 'Zunächst', 'Darüber hinaus', 'Allerdings', 'Abschließend'",
+            "Nennen Sie EIN konkretes Beispiel aus dem eigenen Umfeld, keine rein abstrakten Aussagen",
+            "Balance aus Problemanalyse UND Lösungsvorschlägen zeigen – B2 verlangt Differenzierung",
+            "Konjunktiv II für Einschätzungen: 'Ich könnte mir vorstellen, dass ...', 'Sinnvoll wäre ...'",
+            "Direkter Schluss mit persönlicher Einschätzung + Übergabe an Partner",
+            "Zeitlimit (~3 Min) beachten – nicht länger, nicht kürzer"
+          ],
+          "keyPhrases": [
+            "Ich möchte heute darüber sprechen, wie ...",
+            "Ein konkretes Beispiel dafür ist ...",
+            "Einerseits ..., andererseits ...",
+            "Besonders betroffen sind ...",
+            "Allerdings darf man nicht übersehen, dass ...",
+            "Meiner Ansicht nach ...",
+            "Abschließend lässt sich festhalten ...",
+            "Was denken Sie / was denkst du dazu?"
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "discussion",
+          "instructions": "Teil 2 — Diskussion (ca. 5 Minuten gemeinsam). Beide Kandidat:innen erhalten denselben provokanten Satz und diskutieren ihn. Ziel: eigene Position vertreten, auf die Argumente der Partnerin/des Partners eingehen, widersprechen oder weiterentwickeln.",
+          "instructionsTranslation": "Part 2 — Discussion (approx. 5 minutes together). Both candidates receive the same provocative statement and discuss it. Goal: defend your own position, engage with the partner's arguments, disagree or build on them.",
+          "prompt": "Thema für beide Kandidat:innen:\n\n'Supermärkte sollten gesetzlich verpflichtet werden, noch genießbare Lebensmittel kurz vor dem Mindesthaltbarkeitsdatum zu verschenken, anstatt sie wegzuwerfen.'\n\n— Leitfragen für die Diskussion —\n\n• Stimmen Sie dieser These zu oder widersprechen Sie?\n• Welche Vorteile hätte eine solche Regelung – für Verbraucher, Umwelt, soziale Einrichtungen?\n• Welche praktischen Probleme (Haftung, Logistik, Missbrauch) sehen Sie?\n• Welches Modell wäre realistischer – eine gesetzliche Pflicht oder freiwillige Kooperationen mit Tafeln?\n\nReagieren Sie auf die Argumente Ihrer Partnerin/Ihres Partners, widersprechen Sie höflich, wo nötig, und versuchen Sie am Ende, Ihre Positionen zusammenzuführen oder respektvoll unterschiedlich stehen zu lassen.",
+          "sampleResponse": "KANDIDAT:IN A: 'Grundsätzlich finde ich die Idee richtig. Wir werfen in Deutschland jedes Jahr Millionen Tonnen Lebensmittel weg, und gleichzeitig brauchen Tafeln dringend Unterstützung. Eine gesetzliche Pflicht wäre deshalb sinnvoll.'\n\nKANDIDAT:IN B: 'Ich verstehe das Ziel, aber ich sehe Probleme in der Umsetzung. Was ist mit der Haftung, wenn jemand nach einem verschenkten Joghurt krank wird? Ich würde eher auf starke, steuerlich geförderte freiwillige Kooperationen setzen.'\n\nKANDIDAT:IN A: 'Das Haftungsargument ist berechtigt. Allerdings gibt es in Frankreich seit Jahren ein ähnliches Gesetz, und das Modell funktioniert. Man könnte die Haftung klar auf den Verbraucher verlagern, sobald die Ware die Filiale verlässt.'\n\nKANDIDAT:IN B: 'Okay, wenn die rechtliche Seite geklärt ist, sehe ich das schon anders. Offen bleibt aber die Logistik. Kleine Supermärkte in Dörfern haben keine Tafeln in der Nähe. Wie soll das praktisch gelingen?'\n\nKANDIDAT:IN A: 'Guter Punkt. Möglich wäre, dass Filialen, die keinen Partner in der Nähe haben, alternativ mit lokalen Kitas, Schulen oder sozialen Einrichtungen kooperieren dürfen. So bleibt die Pflicht bestehen, aber die Umsetzung ist flexibel.'\n\nKANDIDAT:IN B: 'Das klingt realistisch. Insgesamt wäre ich mit einer gestaffelten Pflicht einverstanden – mit klarer Haftungsregelung und flexibler Umsetzung. Komplett freiwillig reicht mir inzwischen nicht mehr.'\n\nKANDIDAT:IN A: 'Da wären wir uns einig. Genau diese Mischung wäre ein guter Ausgangspunkt.'",
+          "evaluationTips": [
+            "Klare Position beziehen – 'Ich stimme zu / Ich widerspreche'",
+            "Auf das Gesagte des Partners konkret eingehen – nicht nur die eigene Position wiederholen",
+            "Widerspruch höflich: 'Da möchte ich teilweise widersprechen ...', 'Das sehe ich anders, weil ...'",
+            "Konjunktiv II für hypothetische Argumentation: 'Wäre ...', 'Würde ...', 'Könnte ...'",
+            "Konkrete Beispiele oder Branchen nennen, keine rein theoretischen Argumente",
+            "Versuch der Synthese am Ende: 'Wenn man es so staffelt, ...', 'Ein möglicher Kompromiss wäre ...'",
+            "Diskursmarker der Argumentation: 'allerdings', 'andererseits', 'demgegenüber', 'darüber hinaus'"
+          ],
+          "keyPhrases": [
+            "Meiner Meinung nach ...",
+            "Ich kann dem nur teilweise zustimmen.",
+            "Das sehe ich anders, weil ...",
+            "Ein starkes Argument dafür/dagegen ist ...",
+            "Darf ich kurz darauf eingehen?",
+            "Ich verstehe deinen Punkt, allerdings ...",
+            "Wenn man es so betrachtet, ...",
+            "Ein Kompromiss könnte sein, dass ...",
+            "Da sind wir uns wohl einig."
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Teil 3 — Gemeinsam Planen (ca. 5 Minuten). Beide Kandidat:innen erhalten denselben Planungsauftrag und müssen gemeinsam zu einer konkreten Lösung kommen: Vorschläge machen, abwägen, verhandeln, Entscheidung treffen.",
+          "instructionsTranslation": "Part 3 — Collaborative Planning (approx. 5 minutes). Both candidates receive the same planning task and must reach a concrete joint solution: make proposals, weigh options, negotiate, decide.",
+          "prompt": "Planungsauftrag für beide Kandidat:innen:\n\nIhr Bürgerverein plant für das kommende Frühjahr einen 'Tag des nachhaltigen Konsums' in Ihrem Stadtteil. Sie und Ihre Gesprächspartner:in wurden gebeten, die Veranstaltung gemeinsam zu organisieren.\n\nBesprechen Sie folgende Punkte und treffen Sie konkrete Entscheidungen:\n\n• Zeitpunkt: Welcher Tag? Ganztägig oder halbtägig? Drinnen oder draußen?\n• Ort: Welcher Platz, welches Gebäude oder welche Einrichtung bietet sich an? Wie sichern Sie gute Erreichbarkeit (Parkplätze, ÖPNV)?\n• Inhalte: Welche Stände, Workshops oder Vorträge wollen Sie anbieten (Reparatur-Café, Tausch-Ecke, regionale Produzenten, Vortrag zu Finanzen)?\n• Budget: Wie viel darf der Tag kosten? Wer finanziert (Vereinsbeiträge, Sponsoren, Stadt)?\n• Aufgabenverteilung: Wer übernimmt welche konkrete Vorbereitung bis zum Veranstaltungstag?\n\nEinigen Sie sich am Ende auf einen klaren Plan.",
+          "sampleResponse": "KANDIDAT:IN A: 'Ich würde vorschlagen, den Tag an einem Samstag im April zu veranstalten, am besten ganztägig von zehn bis siebzehn Uhr. Samstage erreichen am meisten Familien. Was meinst du?'\n\nKANDIDAT:IN B: 'Samstag klingt gut, aber ganztägig finde ich lang für die Helfer. Wie wäre es mit elf bis sechzehn Uhr? Das reicht für einen richtigen Besuch, ohne dass wir am Abend müde sind.'\n\nKANDIDAT:IN A: 'Okay, elf bis sechzehn, einverstanden. Zum Ort: der Stadtgartenplatz hat genug Platz, ÖPNV-Anbindung direkt vorne und Stromanschluss. Falls es regnet, könnten wir zusätzlich den Saal der alten Schule als Ausweichlocation reservieren.'\n\nKANDIDAT:IN B: 'Klingt solide. Zum Programm: Ich schlage vier Säulen vor – eine Reparatur-Ecke mit zwei ehrenamtlichen Fachleuten, einen Tausch-Bereich für Kleidung und Bücher, fünf Stände regionaler Erzeuger und einen kurzen Vortrag zur Haushaltsbuchhaltung. Was hältst du davon?'\n\nKANDIDAT:IN A: 'Gute Mischung. Ich würde zusätzlich einen Kinderbereich mit Upcycling-Basteln empfehlen, damit Familien länger bleiben. Zum Budget: Ich plane mit achthundert Euro für Miete, Werbung und Material. Der Verein gibt dreihundert, die Stadt könnte einen Zuschuss von fünfhundert geben, und die Stände bringen je ihre Einrichtung mit.'\n\nKANDIDAT:IN B: 'Realistisch. Zur Aufteilung: Ich übernehme die Anmeldung beim Stadtordnungsamt und die Absprache mit den regionalen Erzeugern. Du kümmerst dich um die Reparatur-Ehrenamtlichen und die Werbung über die Stadtteilzeitung. Können wir uns drei Wochen vor dem Termin nochmal treffen?'\n\nKANDIDAT:IN A: 'Perfekt. Also zusammengefasst: Samstag Mitte April, elf bis sechzehn, Stadtgartenplatz plus Regenlocation alte Schule, vier Hauptstationen plus Kinderbereich, achthundert Euro Budget mit Stadt-Zuschuss, Aufgaben wie besprochen. Abgemacht!'",
+          "evaluationTips": [
+            "Konkrete Vorschläge statt vager Ideen: Tag, Uhrzeit, Ort, Betrag nennen",
+            "Aktiv zuhören – reagieren Sie spezifisch auf die Vorschläge des Partners",
+            "Konjunktiv II für Vorschläge: 'Ich würde vorschlagen ...', 'Wir könnten ...', 'Wie wäre es mit ...?'",
+            "Kompromisse zeigen: 'Ganztägig finde ich lang – wie wäre halbtags?'",
+            "Am Ende zusammenfassen: 'Also zusammengefasst: ...'",
+            "Aufgabenverteilung explizit machen: 'Du übernimmst ..., ich übernehme ...'",
+            "Höfliche Zustimmung/Widerspruch: 'Einverstanden', 'Abgemacht', 'Das sehe ich anders'",
+            "Budget und Aufgabenverteilung müssen beide konkret benannt werden"
+          ],
+          "keyPhrases": [
+            "Ich würde vorschlagen, dass ...",
+            "Wie wäre es, wenn wir ...?",
+            "Das klingt sinnvoll, aber ...",
+            "Können wir uns darauf einigen, dass ...?",
+            "Wer übernimmt ...?",
+            "Ich kümmere mich um ..., du übernimmst bitte ...",
+            "Einverstanden / Abgemacht.",
+            "Also zusammengefasst: ...",
+            "Sollen wir das so festhalten?"
+          ]
+        }
+      ]
+    }
   }
 }
