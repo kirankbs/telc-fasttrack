@@ -1,0 +1,95 @@
+<speak>
+  <!-- B2 Mock 06 — Teil 1 (5 True/False, playCount=1) -->
+  <!-- Narrator: de-DE-Wavenet-C (female, neutral) — announcer voice -->
+  <!-- News speakers rotate: de-DE-Wavenet-B (male), de-DE-Wavenet-A (female), de-DE-Wavenet-D (male), de-DE-Wavenet-E (male) -->
+  <!-- B2 spec: natural speed 1.0x, no pedagogical slowing, played ONCE -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Hörverstehen, Teil 1. Sie hören fünf kurze Nachrichtenmeldungen.
+      Entscheiden Sie bei jeder Aussage: richtig oder falsch?
+      Sie hören jeden Text nur einmal.
+    </prosody>
+    <break time="10s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Bahn-Warnstreik beendet -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Nach Angaben der Deutschen Bahn ist der bundesweite Warnstreik heute um sechs Uhr morgens
+      beendet worden. Ab dem Nachmittag soll der Fernverkehr schrittweise wieder hochgefahren werden.
+      Reisende werden gebeten, sich vor Fahrtantritt über die aktuelle Lage zu informieren.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 2: MobilPlus zieht sich aus kleinen Städten zurück -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Der Carsharing-Anbieter MobilPlus hat heute mitgeteilt, sein Angebot in sämtlichen Städten
+      unter fünfzigtausend Einwohnern zum Jahresende einzustellen. Die Nachfrage sei dort auf Dauer
+      nicht wirtschaftlich tragbar, so ein Sprecher. Betroffen sind über fünfzig Standorte in
+      ganz Deutschland.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 3: Venedig erhöht Eintrittsgebühr -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Die Stadtverwaltung Venedig hat angekündigt, die seit einem Jahr geltende Eintrittsgebühr
+      für Tagestouristen im kommenden Sommer sogar auf zehn Euro anzuheben. Die bisher umstrittene
+      Regelung soll zugleich auf alle Wochenenden zwischen Ostern und Oktober ausgeweitet werden.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 4: Wasserstoffzüge in Niedersachsen -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      In Niedersachsen sind seit Montag vierzehn wasserstoffbetriebene Regionalzüge im regulären
+      Fahrplanbetrieb unterwegs. Deutschland gilt damit weiterhin als Vorreiter bei emissionsfreien
+      Schienenfahrzeugen. Die Züge verkehren zwischen Cuxhaven, Buxtehude und Bremerhaven.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 5: Handgepäckgebühren — Prüfung, kein Verbot -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Das Bundesverkehrsministerium prüft derzeit, ob Handgepäckgebühren bei Billigfluglinien
+      europarechtlich zulässig sind – ein Verbot ist bislang nicht beschlossen. Verbraucherschützer
+      fordern eine klare Rechtslage, während die Airlines auf die Gestaltungsfreiheit ihrer
+      Tarifmodelle verweisen.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Ende von Teil 1. Bitte übertragen Sie Ihre Antworten auf den Antwortbogen.
+    </prosody>
+  </voice>
+</speak>
