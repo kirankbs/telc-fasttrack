@@ -1,0 +1,97 @@
+<speak>
+  <!-- B2 Mock 04 — Teil 1 (5 True/False, playCount=1) -->
+  <!-- Narrator: de-DE-Wavenet-C (female, neutral) — announcer voice -->
+  <!-- News speakers rotate: de-DE-Wavenet-B (male), de-DE-Wavenet-A (female), de-DE-Wavenet-D (male) -->
+  <!-- B2 spec: natural speed 1.0x, no pedagogical slowing, played ONCE -->
+
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Hörverstehen, Teil 1. Sie hören fünf kurze Nachrichtenmeldungen.
+      Entscheiden Sie bei jeder Aussage: richtig oder falsch?
+      Sie hören jeden Text nur einmal.
+    </prosody>
+    <break time="10s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Social-Media-Nachrichtenkonsum steigt -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Eine aktuelle Erhebung des Reuters-Instituts zeigt: Der Anteil der Bundesbürger, die sich
+      vorwiegend über soziale Netzwerke informieren, ist binnen Jahresfrist um weitere vier
+      Prozentpunkte auf nunmehr achtundzwanzig Prozent gestiegen. Klassische Fernsehnachrichten
+      verlieren insbesondere bei jüngeren Zielgruppen weiter an Reichweite.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 2: Pressefreiheit Ranking Deutschland -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Deutschland verbessert sich im aktuellen Ranking von Reporter ohne Grenzen um fünf Plätze
+      und liegt nun auf Rang zehn. Die Organisation führt die Verbesserung unter anderem auf
+      rückläufige Zahlen von Übergriffen bei Demonstrationen und auf eine gestärkte Rechtsprechung
+      beim Informantenschutz zurück.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 3: EU-Verordnung keine 24h-Frist -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Nach der neuen EU-Verordnung müssen große Online-Plattformen illegale Inhalte zügig
+      entfernen; eine starre Vierundzwanzig-Stunden-Frist sieht das Gesetz jedoch ausdrücklich
+      nicht vor. Stattdessen soll die Angemessenheit im Einzelfall beurteilt werden. Bei
+      wiederholten Verstößen drohen Bußgelder in Millionenhöhe.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 4: Gericht untersagt Datenweitergabe minderjähriger Nutzer -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Das Landgericht Hamburg hat einem bekannten sozialen Netzwerk untersagt, die Daten
+      minderjähriger Nutzer ohne ausdrückliche elterliche Einwilligung an Werbepartner
+      weiterzugeben. Der zuständige Verbraucherschutzverband begrüßte das Urteil als
+      richtungsweisend. Das beklagte Unternehmen kündigte Berufung an.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 5: Uni Leipzig — Zahlungsbereitschaft für Journalismus -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Laut einer Studie der Universität Leipzig unterscheidet sich die Bereitschaft, für
+      Nachrichten zu zahlen, deutlich zwischen den Altersgruppen. In der Altersgruppe unter
+      dreißig Jahren schließen lediglich zwölf Prozent ein kostenpflichtiges Nachrichtenabo ab,
+      während bei den über Fünfzigjährigen der Anteil mit achtundzwanzig Prozent mehr als
+      doppelt so hoch liegt.
+    </prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Das ist das Ende von Teil 1.</prosody>
+  </voice>
+</speak>
