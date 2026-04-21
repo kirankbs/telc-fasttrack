@@ -1,0 +1,180 @@
+<speak>
+  <!-- B2 Mock 07 — Teil 2 (10 True/False, playCount=1) -->
+  <!-- Topic: Interview — Künstliche Intelligenz und Datenschutz -->
+  <!-- Moderator: de-DE-Wavenet-E (male) — radio interviewer -->
+  <!-- Guest Prof. Friedemann: de-DE-Wavenet-D (male, warm) — Fraunhofer IOSB Karlsruhe -->
+  <!-- B2 spec: natural speed 1.0x, continuous interview flow, 1s turn-taking pauses, played ONCE -->
+
+  <break time="10s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Hörverstehen, Teil 2. Sie hören ein Interview zum Thema Künstliche Intelligenz und
+      Datenschutz. Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind.
+      Sie hören das Interview nur einmal.
+    </prosody>
+    <break time="10s"/>
+  </voice>
+
+  <!-- Intro — Q1: Friedemann, Fraunhofer IOSB, Karlsruhe -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Guten Tag, liebe Hörerinnen und Hörer. Unser heutiges Thema: Künstliche Intelligenz
+      zwischen Innovationsmotor und Datenschutzrisiko. Zu Gast ist Professor Jens Friedemann,
+      Leiter der Forschungsgruppe Algorithmische Transparenz am Fraunhofer-Institut IOSB
+      in Karlsruhe. Herzlich willkommen, Herr Professor Friedemann.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Vielen Dank für die Einladung. Das Thema ist gerade enorm wichtig, und ich freue mich,
+      es mit Ihnen und Ihren Zuhörerinnen und Zuhörern zu diskutieren.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q2: deutsche Mittelständler hinken US-Konzernen hinterher -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Herr Professor, wie schätzen Sie den Stand der KI-Nutzung in der deutschen Wirtschaft
+      im internationalen Vergleich ein?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Im internationalen Vergleich hinken deutsche Mittelständler den amerikanischen Konzernen
+      bei der praktischen KI-Anwendung nach wie vor deutlich hinterher. Das liegt weniger an
+      fehlendem Interesse als an regulatorischer Unsicherheit und dem Mangel an qualifiziertem
+      Personal, das KI-Projekte intern betreuen kann.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q3: Öffentlichkeit lehnt KI nicht pauschal ab -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Gibt es nicht in der Bevölkerung eine grundsätzliche Ablehnung gegenüber KI-Systemen?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Man hört oft, die Bevölkerung lehne KI geschlossen ab – das stimmt so pauschal nicht.
+      Unsere Erhebungen zeigen, dass die meisten Menschen KI bei Übersetzungen, Navigation
+      oder medizinischer Diagnostik durchaus akzeptieren. Kritisch wird es erst, wenn
+      Entscheidungen über Personen getroffen werden, ohne dass diese die Kriterien kennen.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q4: Beschäftigte überschätzen KI-Fähigkeiten -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Studien deuten darauf hin, dass Beschäftigte die tatsächlichen Fähigkeiten von
+      KI-Systemen eher zu hoch einschätzen. Wie erklären Sie sich das?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Das hat viel mit medialer Berichterstattung zu tun. KI wird wahlweise als Wundermittel
+      oder als existenzielle Bedrohung dargestellt – beides verzerrt das Bild. In der Praxis
+      sind die Systeme leistungsfähig, aber auch eng begrenzt: Sie können keine neuen
+      Konzepte erfinden, nur Muster in vorhandenen Daten erkennen und fortschreiben.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q5: Automatisierung als Chance für qualifizierte Berufe -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Sehen Sie in der Automatisierung durch KI eher Chancen oder Risiken für den Arbeitsmarkt?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Zweifellos gibt es Belastungen, aber überwiegend sehe ich enorme Chancen – gerade für
+      qualifizierte Berufe, weil Routineaufgaben wegfallen und mehr Zeit für wirklich
+      anspruchsvolle Tätigkeiten bleibt. Kritisch wird es für Berufsfelder, in denen
+      Weiterbildungsangebote fehlen oder Beschäftigte nicht rechtzeitig begleitet werden.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q6: hybride Entscheidungen besser als reine KI-Entscheidungen -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Sollten Verwaltungsentscheidungen vollständig an KI-Systeme übertragen werden, um
+      Effizienz und Objektivität zu erhöhen?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Das wäre ein gefährlicher Weg. Hybride Entscheidungen, also eine Kombination aus
+      algorithmischer Vorauswertung und menschlicher Letztentscheidung, liefern nachweislich
+      die besten Ergebnisse. Vollständige Automatisierung erhöht zwar die Schnelligkeit,
+      aber sie beseitigt auch die Möglichkeit, Einzelfallgerechtigkeit zu üben.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q7: unabhängiges Audit empfohlen -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Was raten Sie Unternehmen, die KI-Systeme im Betrieb einsetzen wollen?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Entscheidend ist, dass jede produktive KI-Anwendung von einer unabhängigen Stelle
+      auditiert wird – eine Selbstprüfung durch den Entwickler allein reicht nicht. Das gilt
+      insbesondere dort, wo Systeme Personalentscheidungen unterstützen oder Kredite vergeben,
+      denn dort entstehen sonst schwer korrigierbare Schieflagen.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q8: Frauen bei automatisierten Bewerbungsverfahren häufiger benachteiligt -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Gibt es Hinweise, dass bestimmte Gruppen durch algorithmische Systeme systematisch
+      benachteiligt werden?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Leider ja. Unsere Daten zeigen, dass Frauen bei automatisierten Vorauswahlverfahren
+      messbar häufiger aus der engeren Auswahl fallen als vergleichbar qualifizierte männliche
+      Bewerber. Das ist kein technisches Versehen, sondern eine direkte Folge der
+      Trainingsdaten, die historische Ungleichgewichte einfrieren.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q9: AI Act begrüßt, aber präzisierungsbedürftig -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Wie bewerten Sie den europäischen AI Act als regulatorischen Rahmen?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Der AI Act ist ein Schritt in die richtige Richtung, auch wenn einige Vorgaben aus
+      meiner Sicht noch präziser gefasst werden müssten – insbesondere bei der Definition
+      von Hochrisiko-Systemen und den Anforderungen an die technische Dokumentation.
+      Aber grundsätzlich: Europa setzt hier einen wichtigen Standard.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q10: Verweis auf Mediathek, kein Symposium in München -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Herr Professor Friedemann, vielen Dank für dieses aufschlussreiche Gespräch.
+      Mehr zu diesem Thema finden Sie in unserer Mediathek. Einen schönen Tag Ihnen allen.
+    </prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

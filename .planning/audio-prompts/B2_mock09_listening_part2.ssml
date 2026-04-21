@@ -1,0 +1,180 @@
+<speak>
+  <!-- B2 Mock 09 — Teil 2 (10 True/False, playCount=1) -->
+  <!-- Topic: Interview — digitale Kulturvermittlung -->
+  <!-- Moderator: de-DE-Wavenet-E (male) — radio interviewer -->
+  <!-- Guest Dr. Julia Mertens: de-DE-Wavenet-A (female, clear) — Direktorin Stadtmuseum Leipzig -->
+  <!-- B2 spec: natural speed 1.0x, continuous interview flow, 1s turn-taking pauses, played ONCE -->
+
+  <break time="10s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Hörverstehen, Teil 2. Sie hören ein Interview zum Thema digitale Kulturvermittlung.
+      Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind.
+      Sie hören das Interview nur einmal.
+    </prosody>
+    <break time="10s"/>
+  </voice>
+
+  <!-- Intro — Q1: Dr. Mertens, Direktorin Stadtmuseum Leipzig -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Willkommen zur heutigen Sendung. Unser Gast heute ist Dr. Julia Mertens, Direktorin
+      des Stadtmuseums Leipzig und Vorsitzende der Arbeitsgruppe Digitale Vermittlung im
+      Deutschen Museumsbund. Herzlich willkommen, Frau Dr. Mertens.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Guten Tag, ich freue mich über die Einladung. Digitale Kulturvermittlung ist ein
+      Feld, das uns gerade alle umtreibt.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q2: digitale Angebote haben physische Museen nicht überflüssig gemacht -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Die Pandemie hat viele Kultureinrichtungen zur Digitalisierung gezwungen. Hat das
+      das physische Museum überflüssig gemacht?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Viele Häuser haben während der Pandemie in Rekordzeit Online-Formate aufgebaut, aber
+      die Annahme, dass damit das physische Museum überflüssig würde, hat sich eindeutig
+      nicht bewahrheitet. Die Besuchszahlen nach der Wiedereröffnung zeigen: Menschen wollen
+      das Original, den Raum, die Atmosphäre – das ist nicht digital replizierbar.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q3: nicht jedes Haus braucht eigene App -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Braucht heute jedes Museum eine eigene App?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Es wäre naiv zu behaupten, jedes Haus brauche eine eigene App – für viele kleinere
+      Museen ist eine gut gepflegte Website mit kuratierten Mikrogeschichten viel
+      wirkungsvoller als ein technisch aufwendiges Produkt, das niemand herunterlädt.
+      Digital sein heißt nicht App haben.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q4: Moderator: Unter-Dreißigjährige suchen Museen wieder häufiger auf -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Studien zeigen, dass gerade die Gruppe der Unter-Dreißigjährigen in den letzten Jahren
+      wieder häufiger Museen aufsucht. Was erklärt das?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Das hängt stark mit sozialen Medien zusammen. Wenn eine Ausstellung auf TikTok viral
+      geht, kommen junge Menschen physisch ins Museum – um selbst zu erleben, was sie
+      auf dem Bildschirm gesehen haben. Der digitale Impuls erzeugt den analogen Besuch.
+      Das ist eine Dynamik, die wir aktiv nutzen sollten.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q5: Social Media als Vermittlungswerkzeug, nicht nur Marketing -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Wie nutzen Sie soziale Medien im Stadtmuseum Leipzig?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Social Media ist bei uns kein reines Marketinginstrument – wir nutzen Instagram und
+      TikTok gezielt, um kunsthistorische Zusammenhänge in kurzen, pointierten Geschichten
+      zu erzählen. Das erfordert eine andere Sprache und andere Formate als klassische
+      Pressearbeit, aber es erreicht Menschen, die wir sonst nie ansprechen würden.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q6: VR hat echten Bildungswert, kein kurzlebiger Trend -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Virtual-Reality-Führungen werden in manchen Kreisen als Spielerei abgetan.
+      Wie sehen Sie das?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      VR-Formate sind mehr als Spielerei – in der Vermittlung historischer Räume, die es
+      physisch gar nicht mehr gibt, eröffnen sie didaktische Möglichkeiten, die keine andere
+      Technik bietet. Stellen Sie sich vor, Sie gehen durch ein rekonstruiertes Mittelalter-
+      Leipzig. Das berührt auf eine Weise, die kein Diorama und kein Text leisten können.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q7: Museumspersonal frühzeitig einbeziehen -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Was ist der häufigste Fehler bei digitalen Museumsprojekten?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Der häufigste Fehler ist, dass Agenturen ein Projekt liefern, das an den Kolleginnen
+      im Haus vorbei entstanden ist. Wer die Kuratorinnen, die Aufsichten und die Vermittler
+      nicht von Anfang an einbindet, wird das Ergebnis in der Praxis kaum sinnvoll nutzen
+      können. Digitalprojekte sind kein IT-Projekt, sondern ein Kulturprojekt.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q8: barrierefreie digitale Angebote rechnen sich -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Barrierefreiheit in digitalen Angeboten gilt als teuer. Lohnt sich die Investition?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Barrierefreiheit kostet Geld und Zeit, keine Frage – aber wer ehrlich rechnet, sieht,
+      dass sich die Investition durch die Erschließung neuer Publika mehrfach zurückzahlt.
+      Menschen mit Einschränkungen sind eine große, bislang zu wenig beachtete Besucher-
+      gruppe, und barrierefreie Angebote kommen letztlich allen zugute.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q9: staatliche Förderung deckt nur Projektkosten, nicht laufenden Betrieb -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Reicht die staatliche Förderung für die digitale Museumsarbeit aus Ihrer Sicht aus?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Die Förderung im Programm „dive in" ist ein wichtiger Baustein, aber sie deckt nur
+      Projektkosten, nicht den laufenden Betrieb – und genau dort liegt der tatsächliche
+      Engpass. Ein digitales Angebot, das nach Projektabschluss nicht weiter gepflegt wird,
+      verliert seinen Wert innerhalb von zwei Jahren. Wir brauchen strukturelle Unterstützung.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q10: Moderator kündigt Sonderausstellung zur Industriefotografie an -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Frau Dr. Mertens, herzlichen Dank für dieses Gespräch. Zum Schluss noch ein Hinweis:
+      Vom fünfzehnten Mai an zeigt das Stadtmuseum Leipzig die Sonderausstellung
+      „Fabrik und Blick – 120 Jahre Industriefotografie in Sachsen". Details auf
+      stadtmuseum-leipzig.de. Einen schönen Tag.
+    </prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

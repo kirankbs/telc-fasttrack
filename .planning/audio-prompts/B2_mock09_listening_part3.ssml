@@ -1,0 +1,102 @@
+<speak>
+  <!-- B2 Mock 09 — Teil 3 (5 MCQ short announcements, playCount=1) -->
+  <!-- Topic: Kulturbetrieb — Theaterabo, Filmfestival, Buchhandlung, Musikschule, Kunsthalle -->
+  <!-- Narrator: de-DE-Wavenet-C (female) — item announcer -->
+  <!-- Voices per item: A (female), B (male), F (male), D (male), B (male) -->
+  <!-- B2 spec: natural speed 1.0x, 5s inter-item break, played ONCE -->
+
+  <break time="10s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Hörverstehen, Teil 3. Sie hören fünf kurze Ansagen oder Nachrichten aus dem Kulturbetrieb.
+      Was ist richtig? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text nur einmal.
+    </prosody>
+    <break time="10s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Frau Lehmann — Theaterabo von Mittwoch auf Freitag umbuchen -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Guten Tag, hier ist Eva Lehmann. Ich habe derzeit das Mittwochs-Abo in der dritten
+      Reihe Parkett, bekomme aber ab Herbst einen neuen Arbeitsvertrag mit festen Mittwochs-
+      einsätzen. Könnten Sie mich bitte auf Freitag umschreiben – die Platzkategorie darf
+      gern gleich bleiben? Ich wäre sehr dankbar für eine kurze Rückmeldung.
+      Meine Nummer: null-fünf-eins-eins, sieben-vier-drei-zwei-eins.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 2: Filmfestival München — Retrospektive Ettore Rossi in Saal 1 verlegt -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Eine Mitteilung des Filmfestival München. Aufgrund des unerwartet großen Interesses
+      wird die Retrospektive Ettore Rossi nicht wie geplant im Studio 2 gezeigt, sondern
+      in den großen Saal 1 verlegt. Bereits erworbene Tickets behalten ihre Gültigkeit;
+      die Platzvergabe erfolgt vor Ort in Reihenfolge des Eingangs. Beginn bleibt unverändert
+      um zwanzig Uhr fünfzehn. Wir danken für Ihr Verständnis.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 3: Buchhändlerin — Taschenbuchausgabe mit Einleitung im Oktober, besser warten -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Guten Tag, ich rufe aus der Buchhandlung Seitenweise zurück. Wenn es Ihnen nicht eilig
+      ist, würde ich Ihnen durchaus raten, noch bis Oktober zu warten – dann kommt die
+      Taschenbuchausgabe mit zusätzlicher Einleitung der Autorin heraus. Die gebundene
+      Erstausgabe ist zwar schön, kostet aber das Doppelte. Aber wenn Sie es dringend
+      möchten, legen wir Ihnen natürlich gerne ein Exemplar zurück.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 4: Musikschule — Herr Kovac verlässt Schule, Frau Elena Bianchi übernimmt Violinunterricht -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Eine Nachricht der Städtischen Musikschule. Wir möchten Sie darüber in Kenntnis setzen,
+      dass Herr Kovac die Schule zum Monatsende auf eigenen Wunsch verlässt. Seinen Violin-
+      unterricht übernimmt ab dem ersten Juni Frau Elena Bianchi, die bereits an der Musik-
+      hochschule Köln unterrichtet hat und ausgezeichnete Referenzen mitbringt. Über weitere
+      Details informieren wir Sie in Kürze schriftlich.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 5: Kunsthalle — Audioguide ausgefallen, kostenlose Saaltexte an der Kasse -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Liebe Besucherinnen und Besucher, aufgrund eines Systemausfalls steht Ihnen unser
+      Audioguide heute leider nicht zur Verfügung. Ersatzweise liegen an der Kasse
+      kostenlose Saaltexte in Deutsch und Englisch bereit. Unsere Mitarbeiterinnen und
+      Mitarbeiter begleiten Sie außerdem gerne auf Anfrage durch die Ausstellung.
+      Wir bitten um Ihr Verständnis und wünschen Ihnen einen schönen Besuch.
+    </prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>

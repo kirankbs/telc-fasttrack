@@ -1,0 +1,100 @@
+<speak>
+  <!-- B2 Mock 07 — Teil 3 (5 MCQ short announcements, playCount=1) -->
+  <!-- Topic: digitaler Alltag — IT-Support, Personalansage, Datenschutz, Voicemail, Konferenzzentrum -->
+  <!-- Narrator: de-DE-Wavenet-C (female) — item announcer -->
+  <!-- Voices per item: B (male), D (male), A (female), F (male), B (male) -->
+  <!-- B2 spec: natural speed 1.0x, 5s inter-item break, played ONCE -->
+
+  <break time="10s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Hörverstehen, Teil 3. Sie hören fünf kurze Ansagen oder Nachrichten aus dem digitalen
+      Alltag. Was ist richtig? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text nur einmal.
+    </prosody>
+    <break time="10s"/>
+  </voice>
+
+  <!-- Aufgabe 1: IT-Support — Wartungsfenster Donnerstag, Intranet + Projektplattform nicht erreichbar -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Hier eine Mitteilung des IT-Supports. Am kommenden Donnerstag zwischen zwanzig Uhr und
+      vierundzwanzig Uhr findet ein planmäßiges Wartungsfenster statt. In dieser Zeit sind
+      das Intranet und die zentrale Projektplattform vorübergehend nicht erreichbar.
+      Bitte sichern Sie Ihre laufenden Arbeitsstände rechtzeitig lokal. Vielen Dank.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 2: Personalabteilung — kostenloser Online-Kurs KI-Grundlagen auf Lernplattform -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Eine Nachricht der Personalabteilung. Wir möchten Sie herzlich einladen, in den kommenden
+      vier Wochen den neuen, kostenlos freigeschalteten Online-Kurs KI-Grundlagen auf unserer
+      Lernplattform zu absolvieren. Der Kurs dauert insgesamt sechs Stunden und kann flexibel
+      in kleinen Einheiten bearbeitet werden. Anmeldung und Zugang über das Intranet-Portal.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 3: Datenschutzbeauftragte — zunächst schriftliche Auskunftsanfrage nach Art. 15 DSGVO -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Guten Tag, hier ist Ihre behördliche Datenschutzbeauftragte. Ich antworte auf Ihre
+      Anfrage bezüglich der unerlaubten Datenweitergabe. Bevor Sie einen förmlichen Schritt
+      einleiten, würde ich Ihnen dringend raten, zunächst eine schriftliche Auskunftsanfrage
+      nach Artikel fünfzehn der Datenschutz-Grundverordnung an das betreffende Unternehmen
+      zu senden. Erst wenn keine befriedigende Antwort erfolgt, wäre eine Beschwerde bei
+      der Aufsichtsbehörde der nächste logische Schritt. Gute Besserung.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 4: Kundin per Voicemail — Standortdaten ohne Zustimmung an Dritte weitergegeben -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Guten Tag, mein Name ist Katharina Bremer. Heute Morgen habe ich in der neuesten Version
+      Ihrer App eine Einstellung entdeckt, die ohne meine Zustimmung Standortdaten an Dritte
+      weitergibt. Ich bitte Sie dringend, diese Einstellung umgehend zu deaktivieren oder mir
+      eine verständliche Erklärung zu liefern. Ich erwarte bis Ende der Woche eine schriftliche
+      Stellungnahme. Danke.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 5: Konferenzzentrum — Workshop Mensch-Maschine-Interaktion verlegt nach Saal B-304 -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Liebe Teilnehmerinnen und Teilnehmer, der Workshop Mensch-Maschine-Interaktion findet
+      heute ausnahmsweise nicht wie angekündigt in Saal A, sondern im Seminarraum B-drei-null-vier
+      im zweiten Obergeschoss statt. Wir bitten alle Beteiligten, sich dorthin zu begeben.
+      Der Beginn verzögert sich dadurch um etwa zehn Minuten. Vielen Dank für Ihr Verständnis.
+    </prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>

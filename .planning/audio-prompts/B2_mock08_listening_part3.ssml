@@ -1,0 +1,100 @@
+<speak>
+  <!-- B2 Mock 08 — Teil 3 (5 MCQ short announcements, playCount=1) -->
+  <!-- Topic: gesellschaftlicher Alltag — Bürgerbüro, Gemeindeverwaltung, Nachbarschaft, Verein, Mehrgenerationenhaus -->
+  <!-- Narrator: de-DE-Wavenet-C (female) — item announcer -->
+  <!-- Voices per item: A (female), B (male), F (male), D (male), A (female) -->
+  <!-- B2 spec: natural speed 1.0x, 5s inter-item break, played ONCE -->
+
+  <break time="10s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Hörverstehen, Teil 3. Sie hören fünf kurze Ansagen oder Nachrichten aus dem
+      gesellschaftlichen Alltag. Was ist richtig? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text nur einmal.
+    </prosody>
+    <break time="10s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Frau Özdemir — Auskunft zu Unterlagen für Einbürgerung -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Guten Tag, hier ist Nilüfer Özdemir. Ich stehe kurz vor meiner Einbürgerung und bin
+      mir unsicher, welche Unterlagen ich zusätzlich zum Einkommensnachweis einreichen muss.
+      Könnten Sie mir bitte eine vollständige Liste zuschicken oder mich kurz zurückrufen?
+      Meine Nummer ist auf dem Deckblatt meiner Akte vermerkt. Vielen Dank im Voraus.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 2: Gemeindeverwaltung — kostenlose Migrationsberatung ab Oktober im Rathaus -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Eine Mitteilung der Gemeindeverwaltung. Ab Montag, dem ersten Oktober, steht Ihnen im
+      Erdgeschoss des Rathauses eine neue kostenlose Migrationsberatung zur Verfügung –
+      jeden Dienstag- und Donnerstagvormittag von neun bis zwölf Uhr. Eine Anmeldung ist
+      nicht erforderlich. Das Angebot richtet sich an alle Neubürgerinnen und Neubürger
+      sowie an Personen, die Informationen zu Aufenthaltsrecht und Integration benötigen.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 3: Nachbarschaftskoordinatorin — zunächst persönliches Gespräch mit neuen Nachbarn suchen -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Guten Tag, hier ist Renate Schulz von der Nachbarschaftskoordination. Vielen Dank für
+      Ihre Nachricht. Bevor wir formelle Schritte überlegen, würde ich Ihnen dringend raten,
+      zunächst das persönliche Gespräch mit den neuen Nachbarn zu suchen – in den meisten
+      Fällen lassen sich Missverständnisse direkt klären. Falls das nicht weiterhilft, stehe
+      ich Ihnen gerne für eine Mediation zur Verfügung. Einen schönen Tag noch.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 4: Vereinsvorstand — sucht Ehrenamtliche für Nachhilfe für geflüchtete Kinder -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Hier spricht der Vereinsvorstand des Integrationsvereins Mittendrin. Wir suchen dringend
+      zwei bis drei weitere Ehrenamtliche, die bereit wären, unsere kostenlose Nachhilfe für
+      geflüchtete Kinder am Nachmittag zu unterstützen. Ohne zusätzliche Hilfe müssten wir
+      das Angebot leider einschränken. Falls Sie Interesse haben oder jemanden kennen,
+      melden Sie sich bitte bis Ende der Woche bei uns. Herzlichen Dank.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 5: Mehrgenerationenhaus — monatlicher Gesprächskreis heute im Garten -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Liebe Besucherinnen und Besucher, unser monatlicher Gesprächskreis zwischen Jung und Alt
+      findet heute ausnahmsweise nicht im großen Saal, sondern bei dem schönen Wetter draußen
+      im Garten statt. Bitte bringen Sie bei Bedarf eine Jacke mit. Wir freuen uns auf Sie –
+      Beginn wie gewohnt um fünfzehn Uhr dreißig.
+    </prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>

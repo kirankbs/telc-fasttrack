@@ -1,0 +1,180 @@
+<speak>
+  <!-- B2 Mock 10 — Teil 2 (10 True/False, playCount=1) -->
+  <!-- Topic: Interview — Nachhaltiger Konsum im Alltag -->
+  <!-- Moderator: de-DE-Wavenet-E (male) — radio interviewer -->
+  <!-- Guest Dr. Judith Mertens: de-DE-Wavenet-A (female, clear) — Institut für Verbraucherforschung Hamburg -->
+  <!-- B2 spec: natural speed 1.0x, continuous interview flow, 1s turn-taking pauses, played ONCE -->
+
+  <break time="10s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Hörverstehen, Teil 2. Sie hören ein Interview mit der Konsumforscherin Dr. Judith Mertens
+      zum Thema Nachhaltiger Konsum im Alltag. Entscheiden Sie, ob die folgenden zehn Aussagen
+      richtig oder falsch sind. Sie hören das Interview nur einmal.
+    </prosody>
+    <break time="10s"/>
+  </voice>
+
+  <!-- Intro — Q1: Dr. Mertens, Institut für Verbraucherforschung Hamburg -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Herzlich willkommen. Heute sprechen wir über nachhaltigen Konsum – und wie weit Einstellung
+      und Alltagsverhalten tatsächlich auseinanderliegen. Zu Gast ist Frau Dr. Judith Mertens,
+      Leiterin der Abteilung Konsumverhalten am Institut für Verbraucherforschung in Hamburg.
+      Schön, dass Sie da sind.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Danke schön. Das Thema ist wirklich eines, das mich seit Jahren nicht loslässt –
+      die Diskrepanz zwischen dem, was Menschen sagen, und dem, was sie kaufen, ist
+      faszinierend und manchmal auch frustrierend.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q2: Attitude-Behaviour-Gap nahezu unverändert, nicht kleiner geworden -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Hat das wachsende Bewusstsein für Nachhaltigkeit das Kaufverhalten messbar verändert?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Die sogenannte Attitude-Behaviour-Gap – also der Abstand zwischen geäußerter Einstellung
+      und tatsächlichem Kaufverhalten – ist trotz aller Kampagnen nahezu unverändert geblieben.
+      Menschen wollen nachhaltiger leben, greifen im Supermarkt aber dann doch zum günstigeren
+      Produkt. Das ist keine Heuchelei, sondern Alltagsrationalität.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q3: höhere Preise führen nicht automatisch zu nachhaltigerem Konsum -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Würde eine generelle Verteuerung nicht-nachhaltiger Produkte das Verhalten korrigieren?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Man liest oft, hohe Preise würden automatisch zu nachhaltigem Konsum führen –
+      so einfach ist es leider nicht. Viele Haushalte greifen dann einfach zu billigeren,
+      nicht unbedingt ökologisch besseren Alternativen. Preissteuerung allein reicht nicht;
+      es braucht gleichzeitig bessere Transparenz und einfachere Wahlmöglichkeiten.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q4: Moderator: Discountmärkte haben breiten Bio-Anteil -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Selbst Discountketten bieten mittlerweile eine breite Palette biologisch erzeugter Produkte
+      zu moderaten Preisen an. Müsste das nicht die Kaufentscheidung erleichtern?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Das ist ein wichtiger Schritt, absolut. Verfügbarkeit ist eine Grundvoraussetzung.
+      Aber Verfügbarkeit allein genügt nicht – die Kaufentscheidung hängt auch von
+      Gewohnheit, Markenvertrauen und der Präsentation im Regal ab. Bio neben dem
+      Markenprodukt zu platzieren ist nicht dasselbe wie Bio gut zu vermarkten.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q5: Reparatur-Cafés und Second-Hand als wirksamer Hebel -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Welche Instrumente wirken aus Ihrer Sicht am stärksten auf das Konsumverhalten?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Gerade Reparatur-Initiativen und digitale Second-Hand-Plattformen sind aus meiner Sicht
+      einer der wirksamsten Hebel, weil sie das Konsummuster an der Wurzel verändern –
+      weg vom Neukauf, hin zur Weiternutzung. Wenn es einfacher ist, ein Gerät reparieren
+      zu lassen als ein neues zu kaufen, ändert sich Verhalten strukturell.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q6: junges Kaufverhalten unterscheidet sich kaum von älteren Gruppen -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Junge Menschen gelten als besonders nachhaltigkeitsbewusst. Zeigt sich das auch
+      im tatsächlichen Kaufverhalten?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Junge Menschen äußern in Umfragen die stärksten Nachhaltigkeitswerte, ihr tatsächliches
+      Konsumverhalten unterscheidet sich jedoch – etwa bei Mode und Elektronik – kaum von dem
+      älterer Altersgruppen. Fast Fashion und kurzlebige Gadgets werden quer durch alle
+      Generationen konsumiert; die Einstellung und das Verhalten klaffen besonders stark
+      bei Unter-Fünfundzwanzigjährigen auseinander.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q7: Reparaturbonus dauerhaft einführen -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Was sollte die Politik konkret tun?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Der befristete Reparaturbonus, den einige Bundesländer eingeführt haben, sollte dringend
+      zu einem dauerhaften Instrument ausgebaut werden – die Resonanz ist enorm. Daneben wäre
+      eine verpflichtende Mindesthaltbarkeit für Haushaltsgeräte ein Signal, das die gesamte
+      Branche zum Umdenken zwingen würde.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q8: personalisierte Werbung beeinflusst stark, nicht untergeordnet -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Wie stark ist der Einfluss von Werbung auf Kaufentscheidungen?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Die Kraft personalisierter Werbung in sozialen Netzwerken wird systematisch unterschätzt –
+      sie beeinflusst Kaufentscheidungen mindestens so stark wie der Preis. Algorithmen wissen
+      genau, wann Sie empfänglich sind: nach einem stressigen Tag, beim Scrollen spät abends.
+      Das ist kein Zufall, sondern Absicht.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q9: verpflichtende CO₂-Kennzeichnung hilfreich -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Wäre eine verpflichtende CO₂-Kennzeichnung auf Produkten sinnvoll?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Eine verpflichtende, einheitlich gestaltete CO₂-Kennzeichnung im Supermarktregal
+      wäre ein entscheidender Schritt – Untersuchungen zeigen, dass sie das Kaufverhalten
+      messbar verschiebt. Entscheidend ist aber das Wort einheitlich: Sieben verschiedene
+      Label nebeneinander erzeugen keine Transparenz, sondern Verwirrung.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q10: Verweis auf Programmheft, keine Veranstaltung in Leipzig -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Vielen Dank, Frau Dr. Mertens, für das aufschlussreiche Gespräch. Mehr zu Ihren aktuellen
+      Studien finden unsere Hörerinnen und Hörer im Programmheft. Einen schönen Tag noch.
+    </prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>

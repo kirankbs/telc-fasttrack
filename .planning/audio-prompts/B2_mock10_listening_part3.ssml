@@ -1,0 +1,100 @@
+<speak>
+  <!-- B2 Mock 10 — Teil 3 (5 MCQ short announcements, playCount=1) -->
+  <!-- Topic: Einkauf, Handel, Konsum — Supermarkt, Online-Buchhändlerin, Verbraucherberatung, Kunde, Warenhaus -->
+  <!-- Narrator: de-DE-Wavenet-C (female) — item announcer -->
+  <!-- Voices per item: B (male), A (female), F (male), D (male), B (male) -->
+  <!-- B2 spec: natural speed 1.0x, 5s inter-item break, played ONCE -->
+
+  <break time="10s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Hörverstehen, Teil 3. Sie hören fünf kurze Ansagen und Nachrichten aus dem Alltag
+      rund um Einkauf, Handel und Konsum. Was ist richtig? Kreuzen Sie an: a, b oder c.
+      Sie hören jeden Text nur einmal.
+    </prosody>
+    <break time="10s"/>
+  </voice>
+
+  <!-- Aufgabe 1: Supermarkt-Durchsage — Wartezeiten an Kassen, zwei zusätzliche Kassen werden geöffnet -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 1.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Liebe Kundinnen und Kunden, im Kassenbereich kommt es derzeit leider zu längeren
+      Wartezeiten. Wir öffnen in Kürze zwei zusätzliche Kassen – wir bitten um Ihre Geduld.
+      Für Einkäufe mit bis zu acht Artikeln steht Ihnen außerdem die Schnellkasse im
+      nördlichen Bereich zur Verfügung. Vielen Dank.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 2: Online-Buchhändlerin — Titel vergriffen, Neuauflage Anfang Mai, ca. 14 Tage Lieferzeit -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 2.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Guten Tag, hier ist Ihre Online-Buchhandlung Leselust. Wir melden uns bezüglich Ihrer
+      Bestellung vom dritten April. Der von Ihnen bestellte Titel ist derzeit leider vergriffen.
+      Der Verlag kündigt eine Neuauflage für Anfang Mai an – wir reservieren Ihr Exemplar
+      und liefern es voraussichtlich in vierzehn Tagen nach Erscheinen. Sie müssen nichts
+      weiter tun. Vielen Dank für Ihre Geduld.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 3: Verbraucherberaterin — zunächst förmliche Reklamation beim Händler, nicht sofort Widerruf -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 3.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-F">
+    <prosody rate="1.0">
+      Guten Tag, hier ist Ihre Verbraucherberatung. Danke für Ihre Schilderung. Bevor Sie
+      über einen Widerruf oder gar eine Klage nachdenken, würde ich Ihnen dringend empfehlen,
+      zunächst eine förmliche Reklamation beim Händler einzureichen. Dort haben Sie gesetzlich
+      Anspruch auf Nachbesserung oder Ersatzlieferung. Erst wenn das abgelehnt wird, prüfen
+      wir weitere Schritte. Gerne helfe ich Ihnen dabei, das Schreiben aufzusetzen.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 4: Voicemail Kunde — Sofa stark verspätet, fordert Teilerstattung -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 4.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-D">
+    <prosody rate="1.0">
+      Guten Tag, mein Name ist Markus Friedl. Das Sofa, das laut Bestellung bis Ende März
+      eintreffen sollte, wurde mir erst heute, fast sechs Wochen später, geliefert. Ich bitte
+      Sie, mir bis Ende der Woche schriftlich mitzuteilen, welche Teilerstattung der Kaufsumme
+      Sie mir anbieten. Falls ich keine Rückmeldung erhalte, werde ich mich an die
+      Verbraucherzentrale wenden. Danke.
+    </prosody>
+  </voice>
+  <break time="5s"/>
+
+  <!-- Aufgabe 5: Warenhaus-Durchsage — neue Damenmodeabteilung im Erdgeschoss ab heute geöffnet -->
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Aufgabe 5.</prosody>
+    <break time="1s"/>
+  </voice>
+  <voice name="de-DE-Wavenet-B">
+    <prosody rate="1.0">
+      Liebe Kundinnen und Kunden, ab heute, Donnerstag, ist unsere neu gestaltete Damenmoden-
+      abteilung im Erdgeschoss für Sie geöffnet – mit Kollektionen regionaler Designerinnen
+      und einer Cappuccino-Bar. Zur Eröffnung bieten wir Ihnen zehn Prozent Rabatt auf alle
+      Artikel der neuen Kollektion. Wir freuen uns auf Ihren Besuch.
+    </prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Das ist das Ende von Teil 3.</prosody>
+  </voice>
+</speak>

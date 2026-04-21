@@ -1,0 +1,180 @@
+<speak>
+  <!-- B2 Mock 08 — Teil 2 (10 True/False, playCount=1) -->
+  <!-- Topic: Interview — Generationen und gesellschaftlicher Zusammenhalt -->
+  <!-- Moderator: de-DE-Wavenet-E (male) — radio interviewer -->
+  <!-- Guest Prof. Dr. Sonja Walter: de-DE-Wavenet-A (female, clear) — Institut für Sozialforschung, Uni Heidelberg -->
+  <!-- B2 spec: natural speed 1.0x, continuous interview flow, 1s turn-taking pauses, played ONCE -->
+
+  <break time="10s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">
+      Hörverstehen, Teil 2. Sie hören ein Interview zum Thema Generationen und gesellschaftlicher
+      Zusammenhalt. Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind.
+      Sie hören das Interview nur einmal.
+    </prosody>
+    <break time="10s"/>
+  </voice>
+
+  <!-- Intro — Q1: Prof. Walter, Institut für Sozialforschung, Uni Heidelberg -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Herzlich willkommen zu unserem heutigen Gespräch über Generationen und gesellschaftlichen
+      Zusammenhalt. Heute bei uns Frau Prof. Dr. Sonja Walter, Leiterin des Instituts für
+      Sozialforschung an der Universität Heidelberg. Schön, dass Sie sich die Zeit genommen haben.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Sehr gerne – das Thema liegt mir wirklich am Herzen, weil es unsere gesamte Gesellschaft
+      betrifft.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q2: direkter Kontakt zwischen Generationen hat abgenommen -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Frau Professor Walter, begegnen sich die Generationen in Deutschland heute eigentlich
+      noch ausreichend?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Unsere Langzeitdaten zeigen, dass die Häufigkeit direkter Begegnungen zwischen den
+      Generationen in den letzten zwei Jahrzehnten spürbar abgenommen hat – außerhalb der
+      eigenen Familie treffen sich Jung und Alt heute seltener als früher. Das hat Folgen
+      für gegenseitiges Vertrauen und das Bild, das die Generationen voneinander haben.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q3: Klischee, Ältere seien digital abgehängt -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Ersetzt das Digitale inzwischen den persönlichen Kontakt? Ältere gelten ja oft als
+      digital abgehängt.
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Man liest oft, Ältere seien digital abgehängt – das halte ich in dieser Pauschalität
+      für ein Klischee. Wir sehen sehr aktive Seniorinnen und Senioren, die Videotelefonie
+      und soziale Medien selbstverständlich nutzen. Entscheidend ist der Zugang zu guten
+      Erklär- und Begleitangeboten, nicht das Alter selbst.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q4: Mehrgenerationenhäuser in vielen Großstädten eingerichtet -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Inzwischen haben viele deutsche Städte Mehrgenerationenhäuser eingerichtet, in denen
+      Jung und Alt sich begegnen können. Ist das ein wirksames Modell?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Ja, Mehrgenerationenhäuser sind eines der wirkungsvollsten kommunalen Instrumente –
+      vorausgesetzt, sie sind niedrigschwellig zugänglich und werden nicht zu reinen
+      Veranstaltungsorten. Der Schlüssel liegt im regelmäßigen, informellen Austausch,
+      nicht in organisierten Programmen allein.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q5: größte Konfliktquelle ist Wohnraum, nicht Altersvorsorge -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Wo sehen Sie das größte Konfliktpotenzial zwischen den Generationen?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Das größte Konfliktpotenzial liegt heute eindeutig beim Wohnraum – junge Familien und
+      Senioren konkurrieren in den Städten um die wenigen bezahlbaren Wohnungen. Die
+      Altersvorsorge ist ein weiterer Brennpunkt, aber sie ist weniger sichtbar im Alltag
+      und wird gesellschaftlich differenzierter wahrgenommen.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q6: digitale Kontakte können persönliche nicht ersetzen -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Können Online-Kontakte persönliche Begegnungen zwischen den Generationen vollwertig ersetzen?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Digitale Kontakte können persönliche Begegnungen ergänzen, aber nicht ersetzen –
+      für echtes Vertrauen zwischen den Generationen braucht es den gemeinsamen Raum.
+      Geteilte Erlebnisse schaffen eine andere Qualität der Verbundenheit als
+      ein Videoanruf, so gut er technisch auch sein mag.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q7: Ehrenamt schon in der Schule systematisch fördern -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Was wäre Ihre wichtigste Empfehlung, um den gesellschaftlichen Zusammenhalt
+      zwischen den Generationen zu stärken?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Entscheidend ist, dass wir Ehrenamt und gesellschaftliches Engagement bereits in der
+      Schule systematisch verankern – wer als Jugendlicher einmal Verantwortung übernommen
+      hat, bleibt ein Leben lang engagierter. Das ist keine Utopie: In Ländern mit starker
+      Servicelearning-Tradition sehen wir das deutlich in den Daten.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q8: Menschen mit Migrationshintergrund engagieren sich genauso häufig -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Engagieren sich Menschen mit Migrationshintergrund seltener ehrenamtlich?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Anders als oft angenommen engagieren sich Menschen mit Migrationshintergrund in Vereinen
+      und Initiativen inzwischen praktisch genauso häufig wie Personen ohne Migrationsgeschichte –
+      in einigen Altersgruppen sogar häufiger. Das ist ein Befund, der in der politischen
+      Diskussion leider selten auftaucht.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q9: Ehrenamts-Gesetz-Reform begrüßt, nur Nachbesserung gefordert -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Die geplante Reform des Ehrenamts-Gesetzes wird aktuell diskutiert. Wie bewerten Sie
+      diese Initiative?
+    </prosody>
+  </voice>
+  <voice name="de-DE-Wavenet-A">
+    <prosody rate="1.0">
+      Die geplante Reform des Ehrenamts-Gesetzes ist ein Schritt in die richtige Richtung,
+      auch wenn sie im Detail noch nachjustiert werden muss – besonders bei der Haftungsfreistellung
+      und den steuerlichen Anreizen für kleine Vereine. Aber die Stoßrichtung stimmt.
+    </prosody>
+  </voice>
+  <break time="1s"/>
+
+  <!-- Q10: Moderator verweist auf ausführlichen Bericht auf Senderwebsite -->
+  <voice name="de-DE-Wavenet-E">
+    <prosody rate="1.0">
+      Frau Professor Walter, herzlichen Dank für dieses aufschlussreiche Gespräch.
+      Einen ausführlichen Hintergrundbericht zu den Studienergebnissen finden Sie ab sofort
+      auf unserer Senderwebsite. Ich wünsche Ihnen einen schönen Tag.
+    </prosody>
+  </voice>
+  <break time="3s"/>
+
+  <voice name="de-DE-Wavenet-C">
+    <prosody rate="1.0">Das ist das Ende von Teil 2.</prosody>
+  </voice>
+</speak>
