@@ -1,13 +1,935 @@
 {
   "id": "B2_mock_09",
   "level": "B2",
-  "title": "Übungstest 9",
-  "version": 0,
-  "_stub": true,
+  "title": "B2 Übungstest 9: Kultur & Kunst",
+  "version": 1,
   "sections": {
-    "listening": { "totalTimeMinutes": 20, "parts": [] },
-    "reading": { "totalTimeMinutes": 25, "parts": [] },
-    "writing": { "totalTimeMinutes": 20, "tasks": [] },
-    "speaking": { "totalTimeMinutes": 15, "prepTimeMinutes": 0, "parts": [] }
+    "listening": {
+      "totalTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Sie hören fünf kurze Nachrichtenmeldungen aus dem Kulturbereich. Entscheiden Sie bei jeder Aussage: richtig oder falsch? Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short news bulletins from the cultural sector. For each statement decide: correct or incorrect? You will hear each text only once.",
+          "audioFile": "assets/audio/B2/mock09/listening_part1.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m09_L1_q1",
+              "type": "true_false",
+              "questionText": "Laut der Meldung werden die Theatersubventionen des Bundes im kommenden Jahr gekürzt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Meldung sagt: 'Der Kulturausschuss des Bundestages hat entschieden, die Fördermittel für die freien Theater im kommenden Haushaltsjahr um acht Prozent aufzustocken.' 'aufstocken' bedeutet erhöhen, nicht kürzen. B2-Falle: 'Fördermittel' und 'Haushaltsjahr' klingen bürokratisch, aber das entscheidende Verb 'aufstocken' legt die Richtung fest – eine Kürzung ist das Gegenteil.",
+              "audioTimestamp": 12
+            },
+            {
+              "id": "B2_m09_L1_q2",
+              "type": "true_false",
+              "questionText": "Die Staatlichen Museen zu Berlin melden für das vergangene Jahr einen Besucherrekord.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Nachricht formuliert: 'Die Staatlichen Museen zu Berlin verzeichnen zwar einen Zuwachs von fünf Prozent gegenüber dem Vorjahr, erreichen damit aber noch immer nicht das Niveau von vor der Pandemie.' Ein 'Zuwachs' ist keine Rekordmarke, solange das Vor-Pandemie-Niveau nicht übertroffen wird. B2-Falle: 'Zuwachs' klingt positiv, aber die Einschränkung 'noch immer nicht' schließt einen Rekord aus.",
+              "audioTimestamp": 46
+            },
+            {
+              "id": "B2_m09_L1_q3",
+              "type": "true_false",
+              "questionText": "Der diesjährige Deutsche Buchpreis geht an einen Debütroman über das Aufwachsen im Ruhrgebiet.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Sprecherin nennt konkret: 'Die Jury zeichnet in diesem Jahr den Debütroman „Kohlenstaub und Licht“ aus – eine autobiografisch geprägte Erzählung über eine Kindheit im Ruhrgebiet der neunziger Jahre.' Sowohl 'Debütroman' als auch 'Aufwachsen im Ruhrgebiet' werden bestätigt.",
+              "audioTimestamp": 82
+            },
+            {
+              "id": "B2_m09_L1_q4",
+              "type": "true_false",
+              "questionText": "Laut GEMA hat die Zahl der verkauften Konzerttickets im vergangenen Jahr den höchsten Stand seit zehn Jahren erreicht.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Im Audio heißt es: 'Die GEMA meldet bei den Tantiemen aus Streamingdiensten einen neuen Höchststand – bei den klassischen Konzerteinnahmen bleibt die Entwicklung hingegen hinter den Erwartungen zurück.' Der Rekord betrifft Streaming-Tantiemen, nicht Konzerttickets. B2-Falle: Der Kontrast 'hingegen' markiert den Bruch – wer den Satz überhört, verwechselt die beiden Säulen der Musikwirtschaft.",
+              "audioTimestamp": 118
+            },
+            {
+              "id": "B2_m09_L1_q5",
+              "type": "true_false",
+              "questionText": "Die Stadt Mannheim plant, legale Flächen für Street-Art-Projekte deutlich auszuweiten.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Text bestätigt: 'Der Gemeinderat hat einstimmig beschlossen, die Zahl der sogenannten Freiflächen für genehmigte Street-Art-Werke im Stadtgebiet bis 2027 zu verdoppeln.' 'verdoppeln' und 'deutlich ausweiten' sind semantisch gleichwertig; 'einstimmig' unterstreicht die politische Rückendeckung.",
+              "audioTimestamp": 156
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Sie hören ein Interview zum Thema digitale Kulturvermittlung. Entscheiden Sie, ob die folgenden zehn Aussagen richtig oder falsch sind. Sie hören das Interview nur einmal.",
+          "instructionsTranslation": "You will hear an interview on the topic of digital cultural mediation. Decide whether the following ten statements are correct or incorrect. You will hear the interview only once.",
+          "audioFile": "assets/audio/B2/mock09/listening_part2.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m09_L2_q1",
+              "type": "true_false",
+              "questionText": "Dr. Julia Mertens ist Direktorin des Stadtmuseums Leipzig.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Moderator stellt sie vor: 'Unser Gast heute ist Dr. Julia Mertens, Direktorin des Stadtmuseums Leipzig und Vorsitzende der Arbeitsgruppe Digitale Vermittlung im Deutschen Museumsbund.' Die Aussage wird wörtlich bestätigt.",
+              "audioTimestamp": 14
+            },
+            {
+              "id": "B2_m09_L2_q2",
+              "type": "true_false",
+              "questionText": "Laut Dr. Mertens haben digitale Angebote während der Pandemie die Besucherzahlen in den physischen Räumen dauerhaft ersetzt.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Mertens sagt: 'Viele Häuser haben während der Pandemie in Rekordzeit Online-Formate aufgebaut, aber die Annahme, dass damit das physische Museum überflüssig würde, hat sich eindeutig nicht bewahrheitet.' 'nicht bewahrheitet' + 'eindeutig' widerspricht direkt dem Prompt. B2-Hedging-Falle: Sie erwähnt die Annahme, um sie dann zu widerlegen.",
+              "audioTimestamp": 42
+            },
+            {
+              "id": "B2_m09_L2_q3",
+              "type": "true_false",
+              "questionText": "Dr. Mertens findet, dass jedes Museum heute unbedingt eine eigene App entwickeln sollte.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Expertin differenziert: 'Es wäre naiv zu behaupten, jedes Haus brauche eine eigene App – für viele kleinere Museen ist eine gut gepflegte Website mit kuratierten Mikrogeschichten viel wirkungsvoller als ein technisch aufwendiges Produkt, das niemand herunterlädt.' Sie widerspricht also ausdrücklich. B2-Falle: 'Es wäre naiv zu behaupten, dass ...' markiert eine abgelehnte Position, nicht ihre eigene.",
+              "audioTimestamp": 85
+            },
+            {
+              "id": "B2_m09_L2_q4",
+              "type": "true_false",
+              "questionText": "Der Moderator weist darauf hin, dass besonders junge Besucherinnen und Besucher Museen meiden.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Der Moderator fragt: 'Studien zeigen, dass gerade die Gruppe der Unter-Dreißigjährigen in den letzten Jahren wieder häufiger Museen aufsucht – was erklärt das?' Der Hinweis ist das Gegenteil von 'meiden'. B2-Falle: Die Zahl 'Unter-Dreißigjährige' und 'wieder häufiger aufsucht' kippen die Richtung komplett.",
+              "audioTimestamp": 132
+            },
+            {
+              "id": "B2_m09_L2_q5",
+              "type": "true_false",
+              "questionText": "Dr. Mertens sieht in sozialen Medien vor allem ein Werkzeug zur Kundenbindung, nicht zur Vermittlung von Inhalten.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Sie betont: 'Social Media ist bei uns kein reines Marketinginstrument – wir nutzen Instagram und TikTok gezielt, um kunsthistorische Zusammenhänge in kurzen, pointierten Geschichten zu erzählen.' Der Schwerpunkt liegt also auf Vermittlung und nicht auf reiner Kundenbindung. B2-Hedging: 'kein reines X' schließt reine Kundenbindung aus.",
+              "audioTimestamp": 172
+            },
+            {
+              "id": "B2_m09_L2_q6",
+              "type": "true_false",
+              "questionText": "Die Expertin hält Virtual-Reality-Führungen für einen kurzlebigen Trend ohne Bildungswert.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Dr. Mertens widerspricht dem direkt: 'VR-Formate sind mehr als Spielerei – in der Vermittlung historischer Räume, die es physisch gar nicht mehr gibt, eröffnen sie didaktische Möglichkeiten, die keine andere Technik bietet.' 'mehr als Spielerei' verneint 'kurzlebiger Trend ohne Bildungswert'.",
+              "audioTimestamp": 215
+            },
+            {
+              "id": "B2_m09_L2_q7",
+              "type": "true_false",
+              "questionText": "Dr. Mertens empfiehlt, bei jedem Digitalprojekt das Museumspersonal frühzeitig einzubeziehen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Die Expertin sagt deutlich: 'Der häufigste Fehler ist, dass Agenturen ein Projekt liefern, das an den Kolleginnen im Haus vorbei entstanden ist. Wer die Kuratorinnen, die Aufsichten und die Vermittler nicht von Anfang an einbindet, wird das Ergebnis in der Praxis kaum sinnvoll nutzen können.' Die Empfehlung ist klar und begründet.",
+              "audioTimestamp": 248
+            },
+            {
+              "id": "B2_m09_L2_q8",
+              "type": "true_false",
+              "questionText": "Laut Dr. Mertens stehen die Kosten für barrierefreie digitale Angebote in keinem Verhältnis zum Nutzen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Die Expertin räumt ein: 'Barrierefreiheit kostet Geld und Zeit, keine Frage – aber wer ehrlich rechnet, sieht, dass sich die Investition durch die Erschließung neuer Publika mehrfach zurückzahlt.' Sie bejaht also den Nutzen ausdrücklich. B2-Falle: Der erste Halbsatz scheint zuzustimmen, der zweite dreht die Bewertung um.",
+              "audioTimestamp": 282
+            },
+            {
+              "id": "B2_m09_L2_q9",
+              "type": "true_false",
+              "questionText": "Dr. Mertens findet die aktuelle staatliche Förderung für digitale Museumsarbeit grundsätzlich ausreichend.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "falsch",
+              "explanation": "Sie kritisiert: 'Die Förderung im Programm „dive in“ ist ein wichtiger Baustein, aber sie deckt nur Projektkosten, nicht den laufenden Betrieb – und genau dort liegt der tatsächliche Engpass.' Die Förderung reicht also aus ihrer Sicht nicht. B2-Trap: 'wichtiger Baustein' signalisiert Zustimmung zur Richtung, nicht zur Höhe.",
+              "audioTimestamp": 318
+            },
+            {
+              "id": "B2_m09_L2_q10",
+              "type": "true_false",
+              "questionText": "Am Ende des Interviews wird auf eine Sonderausstellung zur Industriefotografie hingewiesen.",
+              "options": ["richtig", "falsch"],
+              "correctAnswer": "richtig",
+              "explanation": "Der Moderator schließt mit: 'Zum Schluss noch ein Hinweis: Vom fünfzehnten Mai an zeigt das Stadtmuseum Leipzig die Sonderausstellung „Fabrik und Blick – 120 Jahre Industriefotografie in Sachsen“. Details auf stadtmuseum-leipzig.de.' Die Aussage wird wörtlich bestätigt.",
+              "audioTimestamp": 350
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Sie hören fünf kurze Ansagen oder Nachrichten aus dem Kulturbetrieb. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text nur einmal.",
+          "instructionsTranslation": "You will hear five short announcements or messages from the cultural sector. What is correct? Choose a, b, or c. You will hear each text only once.",
+          "audioFile": "assets/audio/B2/mock09/listening_part3.mp3",
+          "playCount": 1,
+          "questions": [
+            {
+              "id": "B2_m09_L3_q1",
+              "type": "mcq",
+              "questionText": "Warum ruft Frau Lehmann im Theaterabonnementbüro an?",
+              "options": [
+                "a) Sie möchte ihr bestehendes Abonnement auf einen anderen Wochentag umbuchen.",
+                "b) Sie will eine Vorstellung zurückgeben und das Geld erstattet bekommen.",
+                "c) Sie kündigt ihr Abonnement zum Ende der Spielzeit."
+              ],
+              "correctAnswer": "a",
+              "explanation": "Frau Lehmann sagt auf der Mailbox: 'Ich habe derzeit das Mittwochs-Abo in der dritten Reihe Parkett, bekomme aber ab Herbst einen neuen Arbeitsvertrag mit festen Mittwochseinsätzen. Könnten Sie mich bitte auf Freitag umschreiben – die Platzkategorie darf gern gleich bleiben?' Weder Rückgabe noch Kündigung; die Umbuchung ist explizit das Ziel. Distraktor b) nutzt 'Vorstellung' aus der Anrufsituation, aber sie will nicht erstatten, sondern umbuchen.",
+              "audioTimestamp": 18
+            },
+            {
+              "id": "B2_m09_L3_q2",
+              "type": "mcq",
+              "questionText": "Was teilt die Ansage zum Filmfestival München mit?",
+              "options": [
+                "a) Das Eröffnungsgala wird wegen schlechten Wetters abgesagt.",
+                "b) Die geplante Retrospektive eines italienischen Regisseurs wird in einen anderen Saal verlegt.",
+                "c) Der Kartenvorverkauf beginnt aus technischen Gründen einen Tag später."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Ansage sagt: 'Aufgrund des unerwartet großen Interesses wird die Retrospektive Ettore Rossi nicht wie geplant im Studio 2 gezeigt, sondern in den großen Saal 1 verlegt. Bereits erworbene Tickets behalten ihre Gültigkeit; die Platzvergabe erfolgt vor Ort in Reihenfolge des Eingangs.' Der Umzug wegen hoher Nachfrage ist der Kern. a) und c) werden nicht erwähnt.",
+              "audioTimestamp": 58
+            },
+            {
+              "id": "B2_m09_L3_q3",
+              "type": "mcq",
+              "questionText": "Was empfiehlt die Buchhändlerin der Anruferin?",
+              "options": [
+                "a) eine Lesung der Autorin zu besuchen, anstatt das Buch vorzubestellen",
+                "b) einen bestimmten Gedichtband statt des gefragten Romans zu kaufen",
+                "c) mit der Kaufentscheidung zu warten, bis die Taschenbuchausgabe erscheint"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Buchhändlerin sagt: 'Wenn es Ihnen nicht eilig ist, würde ich Ihnen durchaus raten, noch bis Oktober zu warten – dann kommt die Taschenbuchausgabe mit zusätzlicher Einleitung der Autorin heraus. Die gebundene Erstausgabe ist zwar schön, kostet aber das Doppelte.' Sie empfiehlt explizit das Abwarten. Distraktor a) 'Lesung' wird nicht thematisiert; b) 'Gedichtband' ist ein Genre, das nicht vorkommt.",
+              "audioTimestamp": 110
+            },
+            {
+              "id": "B2_m09_L3_q4",
+              "type": "mcq",
+              "questionText": "Was ist das Hauptanliegen der Voicemail von der Musikschule?",
+              "options": [
+                "a) Der Termin der Jahresvorspiele muss wegen einer Renovierung verschoben werden.",
+                "b) Die Anmeldefrist für den neuen Chorjahrgang läuft in zwei Wochen aus.",
+                "c) Der bisherige Violinlehrer verlässt die Schule, und es wird ein Ersatzlehrer vorgestellt."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Die Leitung der Musikschule informiert: 'Wir möchten Sie darüber in Kenntnis setzen, dass Herr Kovac die Schule zum Monatsende auf eigenen Wunsch verlässt. Seinen Violinunterricht übernimmt ab dem ersten Juni Frau Elena Bianchi, die bereits an der Musikhochschule Köln unterrichtet hat.' Der Lehrerwechsel ist das zentrale Thema. Distraktor a) und b) werden nicht genannt.",
+              "audioTimestamp": 152
+            },
+            {
+              "id": "B2_m09_L3_q5",
+              "type": "mcq",
+              "questionText": "Worüber informiert die Durchsage in der Kunsthalle?",
+              "options": [
+                "a) Eine Sonderausstellung muss aus versicherungstechnischen Gründen geschlossen werden.",
+                "b) Der Audioguide ist heute nicht verfügbar; stattdessen werden Handzettel ausgegeben.",
+                "c) Die Öffnungszeiten werden ab nächster Woche dauerhaft verlängert."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Die Ansage sagt: 'Liebe Besucherinnen und Besucher, aufgrund eines Systemausfalls steht Ihnen unser Audioguide heute leider nicht zur Verfügung. Ersatzweise liegen an der Kasse kostenlose Saaltexte in Deutsch und Englisch bereit. Wir bitten um Ihr Verständnis.' Distraktor a) und c) werden nicht erwähnt – weder Schließung noch dauerhafte Verlängerung.",
+              "audioTimestamp": 200
+            }
+          ]
+        }
+      ]
+    },
+    "reading": {
+      "totalTimeMinutes": 90,
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie zuerst die fünf Kurztexte (1–5) und dann die zehn Überschriften (a–j). Welche Überschrift passt am besten zu welchem Text? Für jeden Text gibt es genau eine passende Überschrift. Fünf Überschriften bleiben übrig.",
+          "instructionsTranslation": "First read the five short texts (1–5) and then the ten headlines (a–j). Which headline best matches which text? For each text there is exactly one matching headline. Five headlines remain unused.",
+          "texts": [
+            { "id": "B2_m09_R1_head_a", "type": "notice", "content": "a) Kinos in der Provinz: Zwischen Förderstopp und Streamingdruck" },
+            { "id": "B2_m09_R1_head_b", "type": "notice", "content": "b) Street Art als Stadtmarke – wie Wuppertal seine Fassaden öffnet" },
+            { "id": "B2_m09_R1_head_c", "type": "notice", "content": "c) Oper für alle? Neues Preismodell sorgt für Streit im Ensemble" },
+            { "id": "B2_m09_R1_head_d", "type": "notice", "content": "d) Digitale Zwillinge – wie Museen ihre Sammlungen virtuell öffnen" },
+            { "id": "B2_m09_R1_head_e", "type": "notice", "content": "e) Kulturpass für junge Erwachsene: Nach zwei Jahren Bilanz gezogen" },
+            { "id": "B2_m09_R1_head_f", "type": "notice", "content": "f) Literaturfestivals suchen neue Formate – und ein jüngeres Publikum" },
+            { "id": "B2_m09_R1_head_g", "type": "notice", "content": "g) Freie Theater fürchten Kürzungen trotz steigender Nachfrage" },
+            { "id": "B2_m09_R1_head_h", "type": "notice", "content": "h) Klassik-Konzerte unter freiem Himmel – Sommertrend mit Nebenwirkungen" },
+            { "id": "B2_m09_R1_head_i", "type": "notice", "content": "i) Comic und Graphic Novel erobern das Feuilleton" },
+            { "id": "B2_m09_R1_head_j", "type": "notice", "content": "j) Tanztheater geht in die Betriebe – Kunst am Arbeitsplatz" }
+          ],
+          "questions": [
+            {
+              "id": "B2_m09_R1_q1",
+              "type": "matching",
+              "questionText": "Text 1: Das Programm 'KulturPass' der Bundesregierung, das jeder in Deutschland lebenden Person im Jahr des achtzehnten Geburtstags ein Guthaben von zweihundert Euro für Kulturangebote gewährt, wird nach zwei Jahren erstmals systematisch ausgewertet. Die vorgelegten Zahlen sind aufschlussreich: Rund sechzig Prozent der Berechtigten haben das Guthaben tatsächlich in Anspruch genommen, am häufigsten für Bücher, Konzerttickets und Kinobesuche. Museen und Theater landeten weit hinter den Erwartungen. Fachleute debattieren nun, ob die Plattform besser gestaltet oder das Budget auf Bereiche mit höherer Nachfrage konzentriert werden müsse. Die Bundeskulturministerin kündigt für Herbst eine überarbeitete Fassung an.",
+              "matchingSources": [
+                { "id": "B2_m09_R1_head_a", "label": "a" },
+                { "id": "B2_m09_R1_head_b", "label": "b" },
+                { "id": "B2_m09_R1_head_c", "label": "c" },
+                { "id": "B2_m09_R1_head_d", "label": "d" },
+                { "id": "B2_m09_R1_head_e", "label": "e" },
+                { "id": "B2_m09_R1_head_f", "label": "f" },
+                { "id": "B2_m09_R1_head_g", "label": "g" },
+                { "id": "B2_m09_R1_head_h", "label": "h" },
+                { "id": "B2_m09_R1_head_i", "label": "i" },
+                { "id": "B2_m09_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Der Text berichtet explizit über den 'KulturPass' für 18-Jährige nach zwei Jahren Laufzeit, mit Nutzungsquoten und einer angekündigten Reform. Das deckt Überschrift e) 'Kulturpass für junge Erwachsene: Nach zwei Jahren Bilanz gezogen' exakt ab. Distraktor f) (Literaturfestivals) passt zwar zum Stichwort 'jüngeres Publikum', aber der Text handelt von einem Gutscheinprogramm, nicht von Festivals."
+            },
+            {
+              "id": "B2_m09_R1_q2",
+              "type": "matching",
+              "questionText": "Text 2: In der ostbergischen Stadt Wuppertal hat der Stadtrat im vergangenen Jahr rund dreißig Hausfassaden offiziell für legale Wandarbeiten freigegeben. Lokale und internationale Sprühkünstlerinnen bewerben sich mit Entwürfen, die von einer Kuratoriumsrunde bewertet werden; die Eigentümer behalten das letzte Wort. Inzwischen existiert ein digitaler Stadtplan, der alle Werke verzeichnet, und Wochenendführungen locken Gäste aus dem gesamten Ruhrgebiet an. Kritiker hatten anfangs Vandalismus befürchtet; die Polizei meldet jedoch seit Einführung der Regelung einen deutlichen Rückgang illegaler Tags. Die Wirtschaftsförderung spricht bereits von einem 'sanften Tourismusmotor'.",
+              "matchingSources": [
+                { "id": "B2_m09_R1_head_a", "label": "a" },
+                { "id": "B2_m09_R1_head_b", "label": "b" },
+                { "id": "B2_m09_R1_head_c", "label": "c" },
+                { "id": "B2_m09_R1_head_d", "label": "d" },
+                { "id": "B2_m09_R1_head_e", "label": "e" },
+                { "id": "B2_m09_R1_head_f", "label": "f" },
+                { "id": "B2_m09_R1_head_g", "label": "g" },
+                { "id": "B2_m09_R1_head_h", "label": "h" },
+                { "id": "B2_m09_R1_head_i", "label": "i" },
+                { "id": "B2_m09_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text beschreibt präzise die Wuppertaler Öffnung von Fassaden für legale Street Art, digitale Karte, Touristenführungen und Rückgang illegaler Tags – das entspricht Überschrift b). Distraktor j) (Tanztheater in Betrieben) nennt zwar auch ein ungewöhnliches Kultursetting, aber weder Tanz noch Betriebe kommen im Text vor."
+            },
+            {
+              "id": "B2_m09_R1_q3",
+              "type": "matching",
+              "questionText": "Text 3: Das Deutsche Historische Museum in Berlin hat in dieser Woche den Beginn eines ehrgeizigen Digitalisierungsprojekts angekündigt. Bis 2030 sollen sämtliche rund achthunderttausend Sammlungsobjekte hochauflösend fotografiert, dreidimensional erfasst und mit einem einheitlichen Metadatensatz frei im Netz zugänglich gemacht werden. Parallel entsteht ein virtueller 'Zwilling' der Dauerausstellung, in dem Besucherinnen und Besucher einzelne Objekte von zu Hause aus ansehen, drehen und in historische Zusammenhänge einordnen können. Finanziert wird das Projekt über eine Bund-Länder-Förderung. Vergleichbare Vorhaben existieren bislang nur an wenigen europäischen Häusern – beispielsweise im Rijksmuseum Amsterdam.",
+              "matchingSources": [
+                { "id": "B2_m09_R1_head_a", "label": "a" },
+                { "id": "B2_m09_R1_head_b", "label": "b" },
+                { "id": "B2_m09_R1_head_c", "label": "c" },
+                { "id": "B2_m09_R1_head_d", "label": "d" },
+                { "id": "B2_m09_R1_head_e", "label": "e" },
+                { "id": "B2_m09_R1_head_f", "label": "f" },
+                { "id": "B2_m09_R1_head_g", "label": "g" },
+                { "id": "B2_m09_R1_head_h", "label": "h" },
+                { "id": "B2_m09_R1_head_i", "label": "i" },
+                { "id": "B2_m09_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Der Text handelt vom Digitalisierungsvorhaben des DHM inklusive eines 'virtuellen Zwillings' der Dauerausstellung – exakt Überschrift d) 'Digitale Zwillinge – wie Museen ihre Sammlungen virtuell öffnen'. Der Begriff 'Zwilling' ist sogar wörtlich im Text. Distraktor a) (Provinzkinos) passt thematisch nicht."
+            },
+            {
+              "id": "B2_m09_R1_q4",
+              "type": "matching",
+              "questionText": "Text 4: Die freien Theater in vielen Bundesländern schlagen Alarm: Obwohl die Besucherzahlen seit eineinhalb Jahren stetig steigen und einzelne Häuser Auslastungen von über neunzig Prozent melden, drohen in mehreren kommunalen Haushalten deutliche Kürzungen der Betriebszuschüsse. Vertreterinnen des Bundesverbands warnen, dass gerade kleinere Ensembles mit zehn bis zwanzig Festangestellten kaum Reserven hätten, um Mietsteigerungen und Energiekosten ohne zusätzliche öffentliche Mittel aufzufangen. Ein offener Brief an die Kulturpolitik wurde binnen weniger Tage von mehr als fünfhundert Künstlerinnen, Autoren und Regisseurinnen unterzeichnet.",
+              "matchingSources": [
+                { "id": "B2_m09_R1_head_a", "label": "a" },
+                { "id": "B2_m09_R1_head_b", "label": "b" },
+                { "id": "B2_m09_R1_head_c", "label": "c" },
+                { "id": "B2_m09_R1_head_d", "label": "d" },
+                { "id": "B2_m09_R1_head_e", "label": "e" },
+                { "id": "B2_m09_R1_head_f", "label": "f" },
+                { "id": "B2_m09_R1_head_g", "label": "g" },
+                { "id": "B2_m09_R1_head_h", "label": "h" },
+                { "id": "B2_m09_R1_head_i", "label": "i" },
+                { "id": "B2_m09_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Der Text beschreibt genau den Widerspruch zwischen steigender Nachfrage in freien Theatern und drohenden Kürzungen – deckungsgleich mit Überschrift g). Distraktor c) (Oper/Ensemble-Streit) liegt thematisch nahe, betrifft aber ein ganz anderes Preismodell; von Oper oder Preispolitik steht im Text nichts."
+            },
+            {
+              "id": "B2_m09_R1_q5",
+              "type": "matching",
+              "questionText": "Text 5: Graphic Novels und anspruchsvolle Comicbände erhalten immer mehr Raum in den großen Feuilletons deutscher Tageszeitungen. Während die Gattung lange als Randerscheinung galt, werden inzwischen regelmäßig ganzseitige Rezensionen zu neuen Werken publiziert; die renommierte Leipziger Buchmesse hat für die kommende Saison erstmals einen eigenen Preis für graphische Literatur ausgelobt. Autorinnen und Autoren sehen darin die längst überfällige Anerkennung eines Formats, das komplexe gesellschaftliche Themen – von Migration über Pflege bis zu Klima – oft pointierter erzählt als herkömmliche Romane.",
+              "matchingSources": [
+                { "id": "B2_m09_R1_head_a", "label": "a" },
+                { "id": "B2_m09_R1_head_b", "label": "b" },
+                { "id": "B2_m09_R1_head_c", "label": "c" },
+                { "id": "B2_m09_R1_head_d", "label": "d" },
+                { "id": "B2_m09_R1_head_e", "label": "e" },
+                { "id": "B2_m09_R1_head_f", "label": "f" },
+                { "id": "B2_m09_R1_head_g", "label": "g" },
+                { "id": "B2_m09_R1_head_h", "label": "h" },
+                { "id": "B2_m09_R1_head_i", "label": "i" },
+                { "id": "B2_m09_R1_head_j", "label": "j" }
+              ],
+              "correctAnswer": "i",
+              "explanation": "Der Text beschreibt präzise den Aufstieg von Comic und Graphic Novel im seriösen Feuilleton – Überschrift i) passt exakt. Distraktor f) (Literaturfestivals + jüngeres Publikum) ist eng verwandt, aber im Text steht weder 'Festival' noch 'jüngeres Publikum'; es geht um Feuilleton-Rezeption und einen Buchmessenpreis. Die verbleibenden Distraktoren a, c, h, j behandeln andere Kunstformen (Provinzkino, Oper, Open-Air-Klassik, Tanz in Betrieben)."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Zeitungsartikel. Wählen Sie bei jeder Aufgabe die beste Antwort (a, b oder c) aufgrund der Informationen im Text.",
+          "instructionsTranslation": "Read the following newspaper article. For each task choose the best answer (a, b, or c) based on the information in the text.",
+          "texts": [
+            {
+              "id": "B2_m09_R2_article",
+              "type": "article",
+              "content": "Museum im Wohnzimmer – warum die digitale Öffnung der Sammlungen mehr ist als nur Ersatz\n\nWenn man in diesen Tagen durch das Städel Museum in Frankfurt geht, fällt auf, dass viele Besucherinnen und Besucher ein Handy in der Hand halten. Was früher als Störung galt, ist heute Teil der Vermittlung: Über einen QR-Code am Bild öffnet sich ein kurzer Text, eine Restaurationsgeschichte, ein kunsthistorisches Detail. Ob online vom Sofa oder vor dem Original im Saal – das Museum hat sich in den letzten fünf Jahren grundlegend geöffnet.\n\nDoch lange war die digitale Strategie der deutschen Häuser von einer defensiven Haltung geprägt. Digitale Angebote galten als Konkurrenz zum Besuch, als Notlösung für Zeiten geschlossener Säle. Seit der Pandemie hat sich dieses Bild verschoben. 'Wir haben gelernt, dass digitale Formate keine Konkurrenz zum physischen Museum sind, sondern die Tür zu ihm werden können', sagt Kulturwissenschaftlerin Dr. Frauke Berger vom Institut für Museumsforschung Berlin. In einer von ihr geleiteten Untersuchung zu vierzig deutschen Häusern zeigt sich: Besucherinnen und Besucher, die sich vorher online mit einer Sammlung beschäftigt haben, bleiben im Haus länger, stellen mehr Fragen und kommen häufiger zurück.\n\nZwei Modelle prägen das Feld. Auf der einen Seite stehen Häuser wie das Rijksmuseum Amsterdam, das seit Jahren sämtliche Objekte hochauflösend ins Netz stellt und für nicht-kommerzielle Zwecke freigibt. Auf der anderen Seite experimentieren vor allem kleinere deutsche Museen mit kuratierten Mikrogeschichten: Statt die gesamte Sammlung zu fotografieren, werden wenige Objekte in kurzen Filmen, Instagram-Serien oder Audio-Spaziergängen in ihren Kontext gerückt. 'Für kleine Häuser ist die Vollständigkeit weder leistbar noch sinnvoll', so Berger. 'Wichtiger ist, dass das, was gezeigt wird, mit echter Vermittlungsarbeit verbunden ist.' Genau hier liege das eigentliche Potenzial – nicht in der Menge, sondern in der Erzählung.\n\nEin dritter, oft übersehener Strang ist die Barrierefreiheit. Für Menschen mit Sehbehinderung, für Gehörlose, für Rollstuhlnutzende, aber auch für Familien mit kleinen Kindern erschließen digitale Angebote Räume, die physisch schwer zugänglich sind. Tastführungen in 3D, Gebärdensprachvideos, Audiodeskriptionen in einfacher Sprache – all das erfordert Investitionen, bleibt im Alltag aber oft an einzelnen Häusern hängen. Berger fordert eine koordinierte Anstrengung auf Bundesebene: 'Jedes Museum baut heute das Rad neu. Eine gemeinsame Plattform für barrierefreie Vermittlung wäre längst überfällig.'\n\nWas die Wirkung betrifft, warnt die Forscherin vor voreiligen Urteilen. Ob eine gute digitale Vermittlung tatsächlich Menschen ins Museum zieht, die bisher keinen Zugang hatten, ist bisher empirisch schwer zu beantworten. Erste Befunde deuten jedoch darauf hin, dass vor allem in ländlichen Regionen die Hürde zum ersten Besuch sinkt, wenn man im Vorfeld digital hineinschauen kann. 'Das gilt vor allem für Menschen, die nicht im bildungsbürgerlichen Milieu aufgewachsen sind und denen ein Museumsbesuch fremd bleibt. Für sie ist eine gute Website vielleicht der entscheidende erste Schritt.'\n\nAuch für die Häuser selbst lohnt sich der Aufwand. Wer online sichtbar ist, gewinnt Fördermittel leichter, findet Kooperationspartner für Ausstellungen und wird für junge Mitarbeitende attraktiver. Doch die eigentliche Leistung liege, so Berger, nicht im Marketing, sondern in der Haltung: Ein Museum, das seine Sammlung öffnet, behandelt sein Publikum als gleichberechtigten Teil der Wissensgemeinschaft – nicht als Konsument, der bedient wird. Genau darin liege die kulturelle Chance der Digitalisierung, die weit über technische Fragen hinausreiche.",
+              "source": "Süddeutsche Zeitung, Feuilleton-Beilage März 2026"
+            }
+          ],
+          "questions": [
+            {
+              "id": "B2_m09_R2_q1",
+              "type": "mcq",
+              "questionText": "Was ist laut Dr. Berger die zentrale Veränderung in der digitalen Strategie der Museen?",
+              "relatedTextId": "B2_m09_R2_article",
+              "options": [
+                "a) Digitale Angebote ersetzen zunehmend den Besuch des physischen Museums.",
+                "b) Digitale Formate werden nicht mehr als Konkurrenz, sondern als Zugang zum Museum verstanden.",
+                "c) Digitale Angebote dienen vor allem dem Verkauf von Reproduktionen."
+              ],
+              "correctAnswer": "b",
+              "explanation": "Dr. Berger sagt wörtlich: 'Digitale Formate sind keine Konkurrenz zum physischen Museum, sondern die Tür zu ihm.' Das entspricht exakt Option b). Option a) widerspricht dem Text (er stellt gerade keinen Ersatz, sondern eine Ergänzung fest); c) wird nirgends behauptet. B2-Trap: Der Text erwähnt zwar die alte 'defensive Haltung' mit Konkurrenzangst, aber nur, um sie explizit als überholt zu markieren."
+            },
+            {
+              "id": "B2_m09_R2_q2",
+              "type": "mcq",
+              "questionText": "Was zeigt Dr. Bergers Untersuchung der vierzig Häuser über Nutzerinnen und Nutzer, die vorab online recherchieren?",
+              "relatedTextId": "B2_m09_R2_article",
+              "options": [
+                "a) Sie bleiben im Haus kürzer, weil sie die Objekte bereits kennen.",
+                "b) Sie kommen seltener, weil die Online-Erfahrung den Besuch überflüssig macht.",
+                "c) Sie bleiben länger, stellen mehr Fragen und kehren häufiger zurück."
+              ],
+              "correctAnswer": "c",
+              "explanation": "Der Text stellt klar fest: 'Besucherinnen und Besucher, die sich vorher online mit einer Sammlung beschäftigt haben, bleiben im Haus länger, stellen mehr Fragen und kommen häufiger zurück.' Das ist exakt Option c). Distraktor a) und b) kehren jeweils die Aussage um. B2-Falle: Die Distraktoren bedienen die intuitive Annahme ('wer online alles gesehen hat, kommt nicht mehr'), die der Text explizit widerlegt."
+            },
+            {
+              "id": "B2_m09_R2_q3",
+              "type": "mcq",
+              "questionText": "Welches Modell empfiehlt Dr. Berger ausdrücklich für kleinere Museen?",
+              "relatedTextId": "B2_m09_R2_article",
+              "options": [
+                "a) eine vollständige hochauflösende Digitalisierung der gesamten Sammlung wie beim Rijksmuseum",
+                "b) kuratierte Mikrogeschichten zu einzelnen Objekten statt Vollständigkeit",
+                "c) eine Partnerschaft mit kommerziellen Streaminganbietern"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Der Text zitiert Berger direkt: 'Für kleine Häuser ist die Vollständigkeit weder leistbar noch sinnvoll. Wichtiger ist, dass das, was gezeigt wird, mit echter Vermittlungsarbeit verbunden ist.' – das entspricht Option b). a) ist das Rijksmuseum-Modell, das Berger gerade für kleine Häuser ausschließt. c) taucht im Text nicht auf. B2-Trap: Option a) enthält alle Stichwörter (Digitalisierung, hochauflösend), aber der Text nennt es explizit als das Gegenmodell."
+            },
+            {
+              "id": "B2_m09_R2_q4",
+              "type": "mcq",
+              "questionText": "Was fordert Dr. Berger in Bezug auf Barrierefreiheit?",
+              "relatedTextId": "B2_m09_R2_article",
+              "options": [
+                "a) dass jedes Museum eigene Lösungen für jede Zielgruppe entwickelt",
+                "b) eine gemeinsame Plattform auf Bundesebene, damit nicht jedes Haus einzeln arbeitet",
+                "c) eine gesetzliche Verpflichtung zur Einstellung von Gebärdensprachdolmetschenden"
+              ],
+              "correctAnswer": "b",
+              "explanation": "Berger sagt: 'Jedes Museum baut heute das Rad neu. Eine gemeinsame Plattform für barrierefreie Vermittlung wäre längst überfällig.' – das entspricht Option b). Option a) kehrt die Empfehlung genau um (der Status quo, den sie kritisiert). Option c) geht über den Text hinaus. B2-Trap: Option a) klingt zunächst plausibel, weil 'jedes Museum eigene Lösungen' für Individualisierung steht – aber genau das wird als Problem benannt, nicht als Lösung."
+            },
+            {
+              "id": "B2_m09_R2_q5",
+              "type": "mcq",
+              "questionText": "Worin sieht Dr. Berger die eigentliche kulturelle Chance der digitalen Öffnung?",
+              "relatedTextId": "B2_m09_R2_article",
+              "options": [
+                "a) in einer Haltung, die das Publikum als gleichberechtigten Teil der Wissensgemeinschaft behandelt",
+                "b) in einer deutlichen Steigerung der Besucherzahlen",
+                "c) in einer Senkung der Betriebskosten durch weniger Personal"
+              ],
+              "correctAnswer": "a",
+              "explanation": "Der Text endet mit: 'Ein Museum, das seine Sammlung öffnet, behandelt sein Publikum als gleichberechtigten Teil der Wissensgemeinschaft – nicht als Konsument, der bedient wird. Genau darin liege die kulturelle Chance der Digitalisierung.' – Option a) fasst das präzise zusammen. Steigerung der Besucherzahlen (b) wird sogar als 'empirisch schwer zu beantworten' relativiert. Personalkosten (c) werden nicht thematisiert."
+            }
+          ]
+        },
+        {
+          "partNumber": 3,
+          "instructions": "Lesen Sie die zehn Situationen (1–10) und die zwölf Anzeigen (a–l). Welche Anzeige passt zu welcher Situation? Für jede Situation gibt es höchstens eine passende Anzeige. Wenn keine Anzeige passt, schreiben Sie 'x'. Jede Anzeige kann höchstens einmal verwendet werden.",
+          "instructionsTranslation": "Read the ten situations (1–10) and the twelve advertisements (a–l). Which advertisement matches which situation? For each situation there is at most one matching advertisement. If no advertisement fits, write 'x'. Each advertisement can be used at most once.",
+          "texts": [
+            { "id": "B2_m09_R3_ad_a", "type": "ad", "content": "a) Theaterabo 'Jung & Frei' – 6 Vorstellungen pro Spielzeit im Deutschen Schauspielhaus, speziell für unter 28-Jährige. 60 € pro Spielzeit statt 240 € im regulären Abo. Freie Sitzplatzwahl nach Verfügbarkeit. abo@schauspielhaus-hh.de" },
+            { "id": "B2_m09_R3_ad_b", "type": "ad", "content": "b) Kuratorische Weiterbildung 'Ausstellungen gestalten' – berufsbegleitender Zertifikatslehrgang, 9 Monate, 14-tägig Freitag/Samstag, Universität Hildesheim. Abschluss mit Praxisarbeit in einem Partnermuseum. 1.800 €, Bildungsgutschein möglich. kultur-management.uni-hildesheim.de" },
+            { "id": "B2_m09_R3_ad_c", "type": "ad", "content": "c) Street-Art-Rundgang Köln Ehrenfeld – geführte zweistündige Touren durch das Szeneviertel, inklusive Gesprächen mit zwei lokalen Sprühkünstlerinnen. Samstags 14 Uhr, Treffpunkt Venloer Straße. 18 € / 12 € ermäßigt, Anmeldung erforderlich. rundgang@ehrenfeld-streetart.de" },
+            { "id": "B2_m09_R3_ad_d", "type": "ad", "content": "d) Literaturhaus Stuttgart – Abendlesung mit der Autorin Noelia Tavares: 'Zwischen zwei Küsten', gefolgt von einem moderierten Gespräch zur deutsch-portugiesischen Migrationserfahrung. Donnerstag, 19.30 Uhr. Eintritt 10 € / 6 € ermäßigt. tickets@literaturhaus-stuttgart.de" },
+            { "id": "B2_m09_R3_ad_e", "type": "ad", "content": "e) Online-Kurs 'Filmgeschichte für Einsteiger' – 10 Wochen, wöchentlich 90-minütige Live-Session mit einem Filmwissenschaftler der FU Berlin. Thematische Schwerpunkte: Neuer Deutscher Film, Neorealismus, zeitgenössisches Weltkino. 120 € inkl. Lesematerial. www.filmakademie-online.de" },
+            { "id": "B2_m09_R3_ad_f", "type": "ad", "content": "f) Jazz in der Fabrik – wöchentlicher Abendkonzertreihe jeden Donnerstag ab 20 Uhr in der alten Weberei, 14 € Abendkasse / 10 € Vorverkauf. Wechselnde Formationen aus dem In- und Ausland. Getränke und kleine Speisen vor Ort. jazz-fabrik-mannheim.de" },
+            { "id": "B2_m09_R3_ad_g", "type": "ad", "content": "g) Schreibwerkstatt für Jugendliche – achtwöchiger Workshop für 14- bis 18-Jährige im Kulturzentrum Linden, mittwochs 16–18 Uhr, geleitet von der Autorin Malika Rizvi. Am Ende öffentliche Lesung. Kostenlos, gefördert durch die Stadt Hannover. kultur-linden.de/schreibwerkstatt" },
+            { "id": "B2_m09_R3_ad_h", "type": "ad", "content": "h) Bachelor-Studiengang Kunstgeschichte – Präsenzstudium an der Universität Heidelberg, 6 Semester, Numerus Clausus. Schwerpunkte: Mittelalter, italienische Renaissance, zeitgenössische Kunst. Immatrikulation jeweils zum Wintersemester. studienberatung@uni-heidelberg.de" },
+            { "id": "B2_m09_R3_ad_i", "type": "ad", "content": "i) Stadtführung auf Gebärdensprache – monatliche Touren durch die Kunsthalle Hamburg, live übersetzt von einer zertifizierten Gebärdensprachdolmetscherin. Sonntag, 11 Uhr, Anmeldung eine Woche im Voraus erforderlich. Eintritt frei für Schwerhörige und Gehörlose mit Ausweis. kunsthalle-hamburg.de/zugang" },
+            { "id": "B2_m09_R3_ad_j", "type": "ad", "content": "j) Filmpreis-Stipendium 'Neuer Blick' – Arbeitsstipendium über 12 Monate für Nachwuchsregisseurinnen bis 35 Jahre, gefördert mit 12.000 €. Bewerbungsfrist: 30. April. Erforderlich: Exposé, Kurzfilmprobe und Motivationsschreiben. stipendium@filmfonds-nord.de" },
+            { "id": "B2_m09_R3_ad_k", "type": "ad", "content": "k) Konzertreihe 'Alte Musik im Kloster' – zehn Sonntagsnachmittagskonzerte von April bis Juni im Zisterzienserkloster Eberbach, Einzelkarte 25 €, Reihenabo 180 €. Werke des 16. bis 18. Jahrhunderts, Einführung jeweils 15 Minuten vor Beginn. kloster-eberbach.de/musik" },
+            { "id": "B2_m09_R3_ad_l", "type": "ad", "content": "l) Museumspädagogik-Praktikum – dreimonatiges Pflichtpraktikum im Städel Museum Frankfurt für Studierende der Kunstgeschichte, Pädagogik oder verwandter Fächer. Unvergütet, unterstützt durch Lehrveranstaltungen. Bewerbung jederzeit. praktikum@staedelmuseum.de" }
+          ],
+          "questions": [
+            {
+              "id": "B2_m09_R3_q1",
+              "type": "matching",
+              "questionText": "1. Anna (25) studiert in Hamburg und möchte regelmäßig ins Theater gehen, kann sich aber nur ein sehr preiswertes Jahresabonnement leisten.",
+              "matchingSources": [
+                { "id": "B2_m09_R3_ad_a", "label": "a" }, { "id": "B2_m09_R3_ad_b", "label": "b" },
+                { "id": "B2_m09_R3_ad_c", "label": "c" }, { "id": "B2_m09_R3_ad_d", "label": "d" },
+                { "id": "B2_m09_R3_ad_e", "label": "e" }, { "id": "B2_m09_R3_ad_f", "label": "f" },
+                { "id": "B2_m09_R3_ad_g", "label": "g" }, { "id": "B2_m09_R3_ad_h", "label": "h" },
+                { "id": "B2_m09_R3_ad_i", "label": "i" }, { "id": "B2_m09_R3_ad_j", "label": "j" },
+                { "id": "B2_m09_R3_ad_k", "label": "k" }, { "id": "B2_m09_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "a",
+              "explanation": "Anzeige a) 'Theaterabo Jung & Frei' passt exakt: Unter-28-Tarif, Hamburg (Deutsches Schauspielhaus), 60 € statt 240 € pro Spielzeit. Distraktor k) (Alte Musik im Kloster) ist zwar ein preiswerteres Reihenabo, aber ein Konzertabo, kein Theater."
+            },
+            {
+              "id": "B2_m09_R3_q2",
+              "type": "matching",
+              "questionText": "2. Herr Delgado ist seit zehn Jahren als wissenschaftlicher Mitarbeiter an einem kleinen Heimatmuseum tätig und möchte neben seinem Vollzeitjob eine anerkannte Weiterbildung absolvieren, die ihn für die Leitung eigener Ausstellungen qualifiziert.",
+              "matchingSources": [
+                { "id": "B2_m09_R3_ad_a", "label": "a" }, { "id": "B2_m09_R3_ad_b", "label": "b" },
+                { "id": "B2_m09_R3_ad_c", "label": "c" }, { "id": "B2_m09_R3_ad_d", "label": "d" },
+                { "id": "B2_m09_R3_ad_e", "label": "e" }, { "id": "B2_m09_R3_ad_f", "label": "f" },
+                { "id": "B2_m09_R3_ad_g", "label": "g" }, { "id": "B2_m09_R3_ad_h", "label": "h" },
+                { "id": "B2_m09_R3_ad_i", "label": "i" }, { "id": "B2_m09_R3_ad_j", "label": "j" },
+                { "id": "B2_m09_R3_ad_k", "label": "k" }, { "id": "B2_m09_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "b",
+              "explanation": "Anzeige b) – Zertifikatslehrgang 'Ausstellungen gestalten', berufsbegleitend alle zwei Wochen Freitag/Samstag – bildet exakt für die Leitung von Ausstellungen aus und passt zu einem Vollzeitjob. Distraktor h) (Kunstgeschichte-Bachelor) wäre Vollzeitstudium mit NC und ein völlig anderer Karriereweg; l) (unvergütetes Praktikum für Studierende) passt für einen erfahrenen Berufstätigen nicht."
+            },
+            {
+              "id": "B2_m09_R3_q3",
+              "type": "matching",
+              "questionText": "3. Ayşe ist 15 Jahre alt, schreibt gern und möchte in den Sommermonaten an einem kostenlosen Schreibworkshop für Jugendliche teilnehmen, der in einer öffentlichen Einrichtung stattfindet.",
+              "matchingSources": [
+                { "id": "B2_m09_R3_ad_a", "label": "a" }, { "id": "B2_m09_R3_ad_b", "label": "b" },
+                { "id": "B2_m09_R3_ad_c", "label": "c" }, { "id": "B2_m09_R3_ad_d", "label": "d" },
+                { "id": "B2_m09_R3_ad_e", "label": "e" }, { "id": "B2_m09_R3_ad_f", "label": "f" },
+                { "id": "B2_m09_R3_ad_g", "label": "g" }, { "id": "B2_m09_R3_ad_h", "label": "h" },
+                { "id": "B2_m09_R3_ad_i", "label": "i" }, { "id": "B2_m09_R3_ad_j", "label": "j" },
+                { "id": "B2_m09_R3_ad_k", "label": "k" }, { "id": "B2_m09_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "g",
+              "explanation": "Anzeige g) 'Schreibwerkstatt für Jugendliche' ist genau auf Ayşes Situation zugeschnitten: 14–18 Jahre, achtwöchig mittwochs im Kulturzentrum Linden (öffentliche Einrichtung), kostenlos, gefördert durch die Stadt Hannover. Keine andere Anzeige richtet sich an Jugendliche in einem kreativen Schreibworkshop."
+            },
+            {
+              "id": "B2_m09_R3_q4",
+              "type": "matching",
+              "questionText": "4. Lars ist 32 Jahre alt, hat einen Kurzfilm auf zwei Festivals gezeigt und sucht nun ein Arbeitsstipendium, um ohne Nebenjob am Drehbuch seines ersten Langfilms zu arbeiten.",
+              "matchingSources": [
+                { "id": "B2_m09_R3_ad_a", "label": "a" }, { "id": "B2_m09_R3_ad_b", "label": "b" },
+                { "id": "B2_m09_R3_ad_c", "label": "c" }, { "id": "B2_m09_R3_ad_d", "label": "d" },
+                { "id": "B2_m09_R3_ad_e", "label": "e" }, { "id": "B2_m09_R3_ad_f", "label": "f" },
+                { "id": "B2_m09_R3_ad_g", "label": "g" }, { "id": "B2_m09_R3_ad_h", "label": "h" },
+                { "id": "B2_m09_R3_ad_i", "label": "i" }, { "id": "B2_m09_R3_ad_j", "label": "j" },
+                { "id": "B2_m09_R3_ad_k", "label": "k" }, { "id": "B2_m09_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "j",
+              "explanation": "Anzeige j) 'Filmpreis-Stipendium Neuer Blick' ist ein 12-monatiges Arbeitsstipendium für Nachwuchsregisseurinnen bis 35, inklusive Kurzfilmprobe als Bewerbungsmaterial – exakt Lars' Profil und Bedarf. Distraktor e) (Online-Kurs Filmgeschichte) ist kein Stipendium, sondern eine Einsteigerveranstaltung zu Rezeption."
+            },
+            {
+              "id": "B2_m09_R3_q5",
+              "type": "matching",
+              "questionText": "5. Frau Winter hat zwei gehörlose Schüler in ihrer Klasse und möchte mit ihnen einen Ausflug in ein Museum machen, bei dem die Führung in Gebärdensprache angeboten wird.",
+              "matchingSources": [
+                { "id": "B2_m09_R3_ad_a", "label": "a" }, { "id": "B2_m09_R3_ad_b", "label": "b" },
+                { "id": "B2_m09_R3_ad_c", "label": "c" }, { "id": "B2_m09_R3_ad_d", "label": "d" },
+                { "id": "B2_m09_R3_ad_e", "label": "e" }, { "id": "B2_m09_R3_ad_f", "label": "f" },
+                { "id": "B2_m09_R3_ad_g", "label": "g" }, { "id": "B2_m09_R3_ad_h", "label": "h" },
+                { "id": "B2_m09_R3_ad_i", "label": "i" }, { "id": "B2_m09_R3_ad_j", "label": "j" },
+                { "id": "B2_m09_R3_ad_k", "label": "k" }, { "id": "B2_m09_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "i",
+              "explanation": "Anzeige i) 'Stadtführung auf Gebärdensprache' in der Kunsthalle Hamburg bietet genau das – Anmeldung eine Woche im Voraus, Eintritt frei für Gehörlose mit Ausweis. Passt exakt zu Frau Winters Anforderung."
+            },
+            {
+              "id": "B2_m09_R3_q6",
+              "type": "matching",
+              "questionText": "6. Jana lebt in Stuttgart und interessiert sich für zeitgenössische portugiesisch-deutsche Literatur; sie sucht eine Veranstaltung, bei der sie die Autorin auch persönlich hören und mit ihr ins Gespräch kommen kann.",
+              "matchingSources": [
+                { "id": "B2_m09_R3_ad_a", "label": "a" }, { "id": "B2_m09_R3_ad_b", "label": "b" },
+                { "id": "B2_m09_R3_ad_c", "label": "c" }, { "id": "B2_m09_R3_ad_d", "label": "d" },
+                { "id": "B2_m09_R3_ad_e", "label": "e" }, { "id": "B2_m09_R3_ad_f", "label": "f" },
+                { "id": "B2_m09_R3_ad_g", "label": "g" }, { "id": "B2_m09_R3_ad_h", "label": "h" },
+                { "id": "B2_m09_R3_ad_i", "label": "i" }, { "id": "B2_m09_R3_ad_j", "label": "j" },
+                { "id": "B2_m09_R3_ad_k", "label": "k" }, { "id": "B2_m09_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "d",
+              "explanation": "Anzeige d) Literaturhaus Stuttgart mit Noelia Tavares und moderiertem Gespräch zur deutsch-portugiesischen Migrationserfahrung deckt alle drei Kriterien (Stadt, Thema, persönliches Gespräch) exakt ab."
+            },
+            {
+              "id": "B2_m09_R3_q7",
+              "type": "matching",
+              "questionText": "7. Yannick reist am kommenden Samstag nach Köln und möchte das Szeneviertel Ehrenfeld mit einer kuratierten Street-Art-Tour kennenlernen, bei der auch mit Künstlerinnen gesprochen wird.",
+              "matchingSources": [
+                { "id": "B2_m09_R3_ad_a", "label": "a" }, { "id": "B2_m09_R3_ad_b", "label": "b" },
+                { "id": "B2_m09_R3_ad_c", "label": "c" }, { "id": "B2_m09_R3_ad_d", "label": "d" },
+                { "id": "B2_m09_R3_ad_e", "label": "e" }, { "id": "B2_m09_R3_ad_f", "label": "f" },
+                { "id": "B2_m09_R3_ad_g", "label": "g" }, { "id": "B2_m09_R3_ad_h", "label": "h" },
+                { "id": "B2_m09_R3_ad_i", "label": "i" }, { "id": "B2_m09_R3_ad_j", "label": "j" },
+                { "id": "B2_m09_R3_ad_k", "label": "k" }, { "id": "B2_m09_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "c",
+              "explanation": "Anzeige c) Street-Art-Rundgang Köln Ehrenfeld am Samstag um 14 Uhr, inklusive Gesprächen mit zwei lokalen Sprühkünstlerinnen, ist identisch mit Yannicks Anforderungen."
+            },
+            {
+              "id": "B2_m09_R3_q8",
+              "type": "matching",
+              "questionText": "8. Herr Martens möchte sich systematisch in die internationale Filmgeschichte einarbeiten, hat aber nur abends Zeit und lebt in einem kleinen Ort ohne Filmhochschule in der Nähe.",
+              "matchingSources": [
+                { "id": "B2_m09_R3_ad_a", "label": "a" }, { "id": "B2_m09_R3_ad_b", "label": "b" },
+                { "id": "B2_m09_R3_ad_c", "label": "c" }, { "id": "B2_m09_R3_ad_d", "label": "d" },
+                { "id": "B2_m09_R3_ad_e", "label": "e" }, { "id": "B2_m09_R3_ad_f", "label": "f" },
+                { "id": "B2_m09_R3_ad_g", "label": "g" }, { "id": "B2_m09_R3_ad_h", "label": "h" },
+                { "id": "B2_m09_R3_ad_i", "label": "i" }, { "id": "B2_m09_R3_ad_j", "label": "j" },
+                { "id": "B2_m09_R3_ad_k", "label": "k" }, { "id": "B2_m09_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "e",
+              "explanation": "Anzeige e) – Online-Kurs 'Filmgeschichte für Einsteiger' mit wöchentlicher Abend-Live-Session und Dozent der FU Berlin – ermöglicht systematische Filmgeschichte orts- und zeitunabhängig. Passt genau zu Herrn Martens' Rahmenbedingungen."
+            },
+            {
+              "id": "B2_m09_R3_q9",
+              "type": "matching",
+              "questionText": "9. Frau Wächter ist Liebhaberin Barockmusik und sucht für Frühjahr und Frühsommer eine Reihe von Sonntagskonzerten in einem historisch bedeutsamen Veranstaltungsort, idealerweise mit Rabatt für mehrere Termine zusammen.",
+              "matchingSources": [
+                { "id": "B2_m09_R3_ad_a", "label": "a" }, { "id": "B2_m09_R3_ad_b", "label": "b" },
+                { "id": "B2_m09_R3_ad_c", "label": "c" }, { "id": "B2_m09_R3_ad_d", "label": "d" },
+                { "id": "B2_m09_R3_ad_e", "label": "e" }, { "id": "B2_m09_R3_ad_f", "label": "f" },
+                { "id": "B2_m09_R3_ad_g", "label": "g" }, { "id": "B2_m09_R3_ad_h", "label": "h" },
+                { "id": "B2_m09_R3_ad_i", "label": "i" }, { "id": "B2_m09_R3_ad_j", "label": "j" },
+                { "id": "B2_m09_R3_ad_k", "label": "k" }, { "id": "B2_m09_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "k",
+              "explanation": "Anzeige k) 'Alte Musik im Kloster' – zehn Sonntagsnachmittagskonzerte im Zisterzienserkloster Eberbach, Werke des 16.–18. Jahrhunderts (Barock eingeschlossen), Reihenabo mit Rabatt (180 € statt 250 €) – deckt alle Kriterien genau ab. Distraktor f) (Jazz) betrifft ein anderes Genre und findet wöchentlich donnerstags statt, nicht sonntags."
+            },
+            {
+              "id": "B2_m09_R3_q10",
+              "type": "matching",
+              "questionText": "10. Frau Kowalski organisiert für ihren Betrieb eine firmeninterne Kulturveranstaltung und sucht ein professionelles Tanztheaterensemble, das direkt in den Räumen ihres Unternehmens auftritt und ein kurzes Workshop-Format mit den Angestellten anbietet.",
+              "matchingSources": [
+                { "id": "B2_m09_R3_ad_a", "label": "a" }, { "id": "B2_m09_R3_ad_b", "label": "b" },
+                { "id": "B2_m09_R3_ad_c", "label": "c" }, { "id": "B2_m09_R3_ad_d", "label": "d" },
+                { "id": "B2_m09_R3_ad_e", "label": "e" }, { "id": "B2_m09_R3_ad_f", "label": "f" },
+                { "id": "B2_m09_R3_ad_g", "label": "g" }, { "id": "B2_m09_R3_ad_h", "label": "h" },
+                { "id": "B2_m09_R3_ad_i", "label": "i" }, { "id": "B2_m09_R3_ad_j", "label": "j" },
+                { "id": "B2_m09_R3_ad_k", "label": "k" }, { "id": "B2_m09_R3_ad_l", "label": "l" }
+              ],
+              "correctAnswer": "x",
+              "explanation": "Keine der zwölf Anzeigen bietet ein Tanztheaterensemble an, das in Firmenräumen auftritt und ein internes Workshop-Format für Angestellte durchführt. Anzeige a) ist ein Theaterabo im festen Spielort Schauspielhaus (keine Werksbegehung), nicht Tanz. Anzeige f) (Jazz in der Fabrik) findet in einer festen Location statt, ist Musik statt Tanz und kein Firmenformat. Anzeige l) (Museumspädagogik-Praktikum) ist eine Praktikumsstelle, keine Künstlervermittlung. Die Situation erfordert also die Antwort 'x' (kein passendes Angebot). Die verbleibenden drei ungenutzten Anzeigen in der Anzeigenliste sind f) Jazz in der Fabrik, h) Kunstgeschichte-Bachelor Heidelberg und l) Museumspädagogik-Praktikum Städel – sie passen zu keiner der Situationen 1–10."
+            }
+          ]
+        }
+      ]
+    },
+    "sprachbausteine": {
+      "parts": [
+        {
+          "partNumber": 1,
+          "instructions": "Lesen Sie den folgenden Text und entscheiden Sie, welches Wort (a, b, c oder d) in die Lücke passt. Es gibt jeweils nur eine richtige Lösung.",
+          "text": "Sehr geehrte Kolleginnen und Kollegen,\n\nhiermit möchte ich Sie über die Eckpunkte unseres neuen Vermittlungskonzeptes informieren, das in den vergangenen Monaten von einer interdisziplinären Arbeitsgruppe __(1)__ worden ist. Ziel ist es, ein Angebot zu schaffen, __(2)__ sich gleichermaßen an Schulklassen, Seniorengruppen und individuelle Besucherinnen richtet.\n\nBesonderer Wert wird darauf gelegt, dass jede Besucherin und jeder Besucher mindestens eine persönlich begleitete Führung pro Jahr kostenfrei __(3)__ kann. Sollte ein gewünschter Termin ausnahmsweise nicht zur Verfügung stehen, __(4)__ unsere Vermittlungsabteilung dies schriftlich begründen und einen gleichwertigen Ersatztermin anbieten. __(5)__ der wachsenden Nachfrage haben wir das Führungspersonal im laufenden Jahr bereits um ein Drittel aufgestockt.\n\nDas neue Programm umfasst klassische Kuratorenführungen, __(6)__ auch kurze digitale Formate, die orts- und zeitunabhängig genutzt werden können. Gruppen, die eine mehrteilige Kooperation mit unserem Haus __(7)__, erhalten einen Ansprechpartner in der Vermittlungsabteilung zugewiesen. __(8)__ ist die enge Abstimmung zwischen Kurator, Vermittlerin und pädagogischer Leitung, damit der inhaltliche Rahmen jeder Führung konsistent bleibt.\n\nDie von uns __(9)__ Maßnahme ist Teil einer umfassenderen Öffnungsstrategie. Die Direktion ist überzeugt, __(10)__ investierte Euro in die Vermittlung mehrfach zurückfließt – durch höhere Besucherzahlen, neue Publika und eine gestärkte Sichtbarkeit unseres Hauses in der Öffentlichkeit.\n\nMit freundlichen Grüßen\nDr. Miriam Stein, Leiterin Vermittlung und Bildung",
+          "questions": [
+            {
+              "blankNumber": 1,
+              "type": "mcq",
+              "options": ["a) entwickelt", "b) entwickelte", "c) zu entwickeln", "d) entwickelnd"],
+              "correctAnswer": "a",
+              "explanation": "Vorgangspassiv Perfekt: 'das von einer interdisziplinären Arbeitsgruppe entwickelt worden ist' — Bildung: sein + Partizip II + worden. Das Partizip II 'entwickelt' ist zwingend. Distraktoren: b) 'entwickelte' wäre Aktiv-Präteritum (falsche Diathese), c) zu+Infinitiv passt grammatisch nicht zu 'ist worden', d) Partizip I signalisiert laufende Handlung und kombiniert nicht mit 'worden'. B2-Grammatik: Vorgangspassiv Perfekt."
+            },
+            {
+              "blankNumber": 2,
+              "type": "mcq",
+              "options": ["a) der", "b) das", "c) die", "d) was"],
+              "correctAnswer": "b",
+              "explanation": "Relativsatz: 'ein Angebot, das sich ... richtet.' Das Relativpronomen bezieht sich auf 'Angebot' (Neutrum) im Nominativ → 'das'. Distraktoren: a) 'der' wäre Maskulin, c) 'die' Feminin/Plural, d) 'was' nur nach unbestimmten Pronomen (etwas, alles, nichts) oder nach neutraler Nominalisierung (das Beste) – 'Angebot' ist ein konkretes Neutrum und verlangt 'das'."
+            },
+            {
+              "blankNumber": 3,
+              "type": "mcq",
+              "options": ["a) in Anspruch nehmen", "b) in Anspruch genommen", "c) beanspruchen lassen", "d) sich beanspruchen"],
+              "correctAnswer": "a",
+              "explanation": "Funktionsverbgefüge (typisches B2-Konstrukt): 'etwas in Anspruch nehmen' = etwas nutzen/beanspruchen. Nach Modalverb 'kann' folgt Infinitiv: 'in Anspruch nehmen'. Distraktoren: b) Partizip passt nicht zu 'kann' (Modalverb + Infinitiv, nicht Partizip II ohne Hilfsverb), c) 'beanspruchen lassen' wäre reflexiv-kausativ und sinnverändernd, d) 'sich beanspruchen' ist kein idiomatisches Verb im Deutschen."
+            },
+            {
+              "blankNumber": 4,
+              "type": "mcq",
+              "options": ["a) muss", "b) soll", "c) müsste", "d) hätte"],
+              "correctAnswer": "a",
+              "explanation": "Inversion nach vorangestelltem Konditionalsatz ohne 'wenn': 'Sollte ... nicht zur Verfügung stehen, muss unsere Vermittlungsabteilung dies schriftlich begründen ...' Es geht um eine klare Dienstverpflichtung in der formellen Kommunikation → Indikativ 'muss'. Distraktoren: b) 'soll' wäre schwächer (Empfehlung), c) 'müsste' Konjunktiv II mit irrealem Ton, d) 'hätte' ist als Hilfsverb ohne Partizip II sinnlos."
+            },
+            {
+              "blankNumber": 5,
+              "type": "mcq",
+              "options": ["a) Mangels", "b) Trotz", "c) Angesichts", "d) Außer"],
+              "correctAnswer": "c",
+              "explanation": "Genitiv-Präposition mit passender Semantik: 'Angesichts der wachsenden Nachfrage' = 'in Anbetracht, im Hinblick auf' – rechtfertigt die Aufstockung des Personals. Distraktoren: a) 'Mangels' (= für Mangel an) widerspricht dem Kontext (die Nachfrage WÄCHST, es fehlt nicht an ihr), b) 'Trotz' würde eine Gegenläufigkeit signalisieren (Personalaufbau entgegen der Nachfrage ergibt keinen Sinn), d) 'Außer' (= mit Ausnahme von) ist unsinnig. Alle vier Optionen regieren den Genitiv; nur 'angesichts' passt semantisch. B2-Präposition mit Genitiv."
+            },
+            {
+              "blankNumber": 6,
+              "type": "mcq",
+              "options": ["a) sondern", "b) aber auch", "c) dennoch", "d) zudem"],
+              "correctAnswer": "b",
+              "explanation": "Additiver Konnektor mit leichtem Kontrast: 'Das Programm umfasst ... Kuratorenführungen, aber auch kurze digitale Formate.' Aufzählung zweier komplementärer Elemente. Distraktoren: a) 'sondern' verlangt vorangehende Negation ('nicht nur ...'), die hier fehlt, c) 'dennoch' drückt einen Gegensatz aus (die beiden Formate schließen sich aber nicht aus), d) 'zudem' wäre ein reines Additiv mit Hauptsatzstellung (Verb an Position 2), bricht die Aufzählung strukturell."
+            },
+            {
+              "blankNumber": 7,
+              "type": "mcq",
+              "options": ["a) anstreben", "b) anzustreben", "c) anstrebten", "d) angestrebt"],
+              "correctAnswer": "a",
+              "explanation": "Relativsatz mit Präsens-Indikativ: 'Gruppen, die eine mehrteilige Kooperation ... anstreben, erhalten ...' Das Verb kongruiert mit Subjekt 'Gruppen' (Plural Präsens). Distraktoren: b) Infinitiv mit zu passt nicht in einen Relativsatz, c) Präteritum bricht die Zeitebene (der Text ist im Präsens), d) Partizip II allein ohne Hilfsverb ist syntaktisch unmöglich im finiten Satz."
+            },
+            {
+              "blankNumber": 8,
+              "type": "mcq",
+              "options": ["a) Entscheidend", "b) Entscheidung", "c) Entscheidende", "d) Entschieden"],
+              "correctAnswer": "a",
+              "explanation": "Prädikatives Adjektiv: 'Entscheidend ist die enge Abstimmung ...' Die endungslose Form signalisiert Prädikativum nach 'sein'. Distraktoren: b) 'Entscheidung' wäre Substantiv und bräuchte Artikel ('Eine Entscheidung ist ...'), c) 'Entscheidende' mit Endung wäre substantivierte Form und bräuchte Artikel ('Das Entscheidende ist ...'), d) 'Entschieden' wäre Partizip II ohne passende Position am Satzanfang vor 'ist'. B2: Nominalisierung vs. prädikatives Adjektiv."
+            },
+            {
+              "blankNumber": 9,
+              "type": "mcq",
+              "options": ["a) getroffene", "b) treffende", "c) zu treffende", "d) getroffen"],
+              "correctAnswer": "a",
+              "explanation": "Partizipialattribut als B2-Kernthema: 'Die von uns getroffene Maßnahme' = 'Die Maßnahme, die von uns getroffen wurde'. Partizip II 'getroffen' + Adjektivendung -e (Nom. Sg. Fem. schwache Deklination nach 'Die'). Distraktoren: b) 'treffende' (Partizip I) würde aktive Gleichzeitigkeit anzeigen (die Maßnahme trifft nicht sich selbst), c) 'zu treffende' wäre Gerundivum (zukünftig/notwendig zu tun), d) 'getroffen' unflektiert bricht die Deklination. Passivisches Partizipialattribut: getroffene."
+            },
+            {
+              "blankNumber": 10,
+              "type": "mcq",
+              "options": ["a) dass jeder", "b) dass jedem", "c) dass alle", "d) dass man"],
+              "correctAnswer": "a",
+              "explanation": "Subjekt des dass-Satzes im Nominativ: 'dass jeder investierte Euro ... zurückfließt'. 'jeder' (Nom. Sg. Mask.) kongruiert mit dem Singular-Verb 'zurückfließt'. Distraktoren: b) 'jedem' wäre Dativ, hier ist aber Subjekt gefordert; c) 'dass alle ... zurückfließt' verursacht Subjekt-Verb-Inkongruenz (Plural + Singular); d) 'dass man ... zurückfließt' ist semantisch falsch (das Geld fließt zurück, nicht 'man')."
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "instructions": "Lesen Sie den folgenden Text. Welches Wort aus der Liste a–o passt in die Lücken? Jedes Wort passt nur einmal. Fünf Wörter bleiben übrig.",
+          "text": "Wer heute einen Roman veröffentlicht, steht unter hohem Erwartungsdruck. Die Zahl der jährlich erscheinenden Titel ist in den großen Sprachmärkten erheblich, und Feuilletonredaktionen sichten wöchentlich __(11)__ Rezensionsexemplare. Ein sorgfältig gestaltetes Debüt kann in __(12)__ Fällen den Unterschied zwischen literarischem Durchbruch und öffentlicher Unsichtbarkeit ausmachen.\n\nAllerdings reicht es nicht aus, lediglich eine fesselnde Handlung zu konstruieren. Erfahrene Lektorinnen raten Erstautorinnen __(13)__, ihre erzählerische Stimme klar zu formen und einen unverwechselbaren sprachlichen Ton zu finden. __(14)__ gelingt es oft, aus einem guten Manuskript ein literarisch eigenständiges Werk zu machen, das Leserinnen und Kritiker auch nach Hunderten anderer Neuerscheinungen noch im Kopf behalten.\n\nEin weiterer wichtiger Punkt __(15)__ die realistische Selbsteinschätzung. Wer seine Figuren idealisiert oder psychologische Unstimmigkeiten überspielt, verliert spätestens in den Rezensionen schnell die __(16)__ Glaubwürdigkeit. Umgekehrt führt unnötige Zurückhaltung beim Thema oder eine zu vorsichtige Sprache dazu, dass das vorhandene literarische Potenzial gar nicht erst wahrgenommen wird. Ein ehrlicher, präziser Ton gilt deshalb in den großen Verlagen als goldene __(17)__.\n\n__(18)__ der enormen Produktion auf dem Buchmarkt setzen Verlage inzwischen verstärkt auf frühzeitige Lesungen, Residenzprogramme und gezielte Autorinnenförderung. Das bedeutet für Debütierende mehr Öffentlichkeit, erhöht aber gleichzeitig den Druck, sich früh zu positionieren. Fachleute sehen __(19)__ eine vielversprechende Tendenz – sofern die Förderstrukturen tatsächlich literarischen Eigensinn zulassen und nicht nur marktfähige Oberflächen produzieren.\n\nWer sein Schreiben auf diese Weise plant, kann seine Chancen __(20)__ verbessern. Ein literarisches Debüt ist keine Visitenkarte, sondern die erste künstlerische Leistung für ein lesendes Publikum.",
+          "questions": [
+            {
+              "blankNumber": 11,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) künstlerische", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) deutlich", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "a",
+              "explanation": "'Hunderte Rezensionsexemplare' — indefinite Mengenangabe (Plural ohne Artikel). Als substantivierte Zahladjektiv-Form wird 'Hunderte' großgeschrieben. Distraktor o) 'wenigen' kehrt die Aussage sinnwidrig um (die Zahl ist 'erheblich'). B2-Feuilletonvokabular: 'Hunderte' als großzügige Mengenangabe."
+            },
+            {
+              "blankNumber": 12,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) künstlerische", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) deutlich", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "b",
+              "explanation": "'in vielen Fällen' — feste Wendung mit Dativ Plural (starke Deklination nach 'in'). Distraktoren: o) 'wenigen' kehrt die Aussage ebenfalls plausibel um, steht aber dem Satzsinn entgegen ('den Unterschied ausmachen' funktioniert nur in einer größeren Zahl von Fällen); m) 'jeden' wäre Singular/Akkusativ."
+            },
+            {
+              "blankNumber": 13,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) künstlerische", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) deutlich", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "c",
+              "explanation": "Feste Kombination 'jemandem raten zu etwas' → korrelatives Pronominaladverb 'dazu' verweist auf den nachfolgenden zu+Infinitiv-Satz: 'raten dazu, ... zu formen'. Distraktor i) 'darin' verweist auf 'in etwas' und passt nicht zu einem zu+Infinitiv-Anschluss. B2: Pronominaladverbien."
+            },
+            {
+              "blankNumber": 14,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) künstlerische", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) deutlich", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "d",
+              "explanation": "Satzanfang + kausal-folgernder Konnektor: 'Dadurch gelingt es oft, ...' = 'Mit diesem Vorgehen gelingt es ...'. Großschreibung signalisiert den Satzanfang. 'Dadurch' schließt an den vorherigen Satz an (erzählerische Stimme formen → dadurch ein eigenständiges Werk entstehen lassen)."
+            },
+            {
+              "blankNumber": 15,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) künstlerische", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) deutlich", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "e",
+              "explanation": "Kopulaverb: 'Ein weiterer wichtiger Punkt ist die realistische Selbsteinschätzung.' 'ist' verbindet Subjekt mit prädikativem Nomen. Distraktor n) 'stellt' würde '... stellt ... dar' verlangen (ist strukturell inkompatibel mit dem einfachen Kopulasatz hier)."
+            },
+            {
+              "blankNumber": 16,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) künstlerische", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) deutlich", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "f",
+              "explanation": "Attributives Adjektiv: 'die künstlerische Glaubwürdigkeit' — schwache Deklination nach bestimmtem Artikel im Akkusativ Sg. Feminin (+ -e). 'künstlerische Glaubwürdigkeit' ist eine natürliche Feuilleton-Kollokation. Distraktor l) 'deutlich' ist Adverb/unflektiertes Adjektiv und würde hier an der Attributstelle ungrammatisch wirken; j) 'über' wäre Präposition ohne Kontext."
+            },
+            {
+              "blankNumber": 17,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) künstlerische", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) deutlich", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "g",
+              "explanation": "Feste Kollokation: 'goldene Regel' = allgemein anerkannte Grundregel. Substantiv nach Adjektiv 'goldene'. Distraktor f) 'künstlerische' ist ein anderes Adjektiv und bereits als richtige Antwort für Lücke 16 vergeben; j)–o) passen syntaktisch nicht auf die Position nach 'goldene'."
+            },
+            {
+              "blankNumber": 18,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) künstlerische", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) deutlich", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "h",
+              "explanation": "Genitiv-Präposition am Satzanfang (großgeschrieben): 'Angesichts der enormen Produktion auf dem Buchmarkt'. Passt zur nachfolgenden Schlussfolgerung (Verlage setzen verstärkt auf Förderprogramme). 'Angesichts + Genitiv' ist ein B2-Musterbeispiel und unterscheidet sich hier klar von 'Trotz' oder 'Wegen'."
+            },
+            {
+              "blankNumber": 19,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) künstlerische", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) deutlich", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "i",
+              "explanation": "Pronominaladverb: 'sehen darin eine vielversprechende Tendenz' = 'sehen in diesem Vorgehen eine Tendenz ...'. 'darin' verweist auf das zuvor beschriebene Muster (Lesungen, Residenzen, Autorinnenförderung). Das Verb 'in etwas sehen' ist die feste Kollokation."
+            },
+            {
+              "blankNumber": 20,
+              "type": "word_bank",
+              "options": [
+                "a) Hunderte", "b) vielen", "c) dazu", "d) Dadurch", "e) ist",
+                "f) künstlerische", "g) Regel", "h) Angesichts", "i) darin", "j) über",
+                "k) bei", "l) deutlich", "m) jeden", "n) stellt", "o) wenigen"
+              ],
+              "correctAnswer": "l",
+              "explanation": "Adverbiale Funktion: 'kann seine Chancen deutlich verbessern' — 'deutlich' als unflektiertes Adverb verstärkt das Verb 'verbessern' und bildet eine natürliche Kollokation ('deutlich verbessern', 'deutlich erhöhen'). Es fasst die zentrale Aussage des Textes zusammen. Distraktoren: j) 'über' wäre Präposition ohne passendes Objekt, k) 'bei' ebenso, m) 'jeden' wäre Determiner ohne Folge-Nomen, n) 'stellt' würde Verbdopplung erzeugen, o) 'wenigen' kehrt die positive Aussage sinnwidrig um. Die verbleibenden fünf Distraktoren (j, k, m, n, o) passen zu keiner Lücke im Text."
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "totalTimeMinutes": 30,
+      "tasks": [
+        {
+          "taskNumber": 1,
+          "type": "letter",
+          "instructions": "Wählen Sie EINE der beiden folgenden Aufgaben (A oder B) und bearbeiten Sie diese. Beachten Sie die Leitpunkte und schreiben Sie mindestens 150 Wörter (Richtwert: 200 Wörter). Kennzeichnen Sie am Anfang Ihres Textes deutlich, welche Aufgabe Sie gewählt haben.",
+          "instructionsTranslation": "Choose ONE of the two tasks (A or B) below and complete it. Address the guiding points and write at least 150 words (target: around 200 words). Clearly mark at the top of your text which task you have chosen.",
+          "prompt": "AUFGABE A (Beschwerdebrief):\n\nSituation: Vor zwei Wochen haben Sie an einer zweitägigen Kunstführung mit dem Titel 'Große Meister – neu gesehen' der privaten Bildungseinrichtung ArtVision in München teilgenommen. Sie hatten sich viel davon versprochen, wurden aber sehr enttäuscht: Die angekündigte Kuratorin war nicht anwesend und wurde durch eine Studierende ersetzt, die versprochene Museumsführung in der Alten Pinakothek fand wegen angeblicher Terminkollision nicht statt, und die ebenfalls angekündigten digitalen Begleitmaterialien haben Sie bis heute nicht erhalten. Die Teilnahmegebühr von 320 € wurde bereits vollständig abgebucht.\n\nSchreiben Sie eine formelle Beschwerde an die Geschäftsleitung (Frau Dr. Elisabeth Brunner) von ArtVision. Gehen Sie auf die folgenden drei Leitpunkte ein:\n\n• Beschreiben Sie die konkreten Mängel während der Führung.\n• Erläutern Sie, welche Folgen diese Mängel für Sie persönlich haben (z. B. verlorene Vorbereitungszeit, enttäuschte Erwartungen, vergebliche Anreise).\n• Formulieren Sie eine klare Forderung (z. B. Teilerstattung, kostenfreie Nachholveranstaltung mit der ursprünglich angekündigten Kuratorin) und setzen Sie eine Frist.\n\nBeachten Sie Anrede, Einleitung und Grußformel. Schreiben Sie mindestens 150 Wörter.\n\n— ODER —\n\nAUFGABE B (Bitte um Information):\n\nSituation: Sie interessieren sich für den weiterbildenden Masterstudiengang 'Museumspädagogik und kulturelle Bildung' an der Hochschule für Angewandte Wissenschaften Leipzig und möchten konkrete Informationen einholen, bevor Sie sich offiziell bewerben. Im Internet finden Sie nur allgemeine Angaben. Sie möchten eine formelle Anfrage an das Studienbüro schreiben.\n\nSchreiben Sie eine formelle E-Mail an die Studiengangskoordinatorin (Frau Dr. Hannah Vogel). Gehen Sie auf die folgenden drei Leitpunkte ein:\n\n• Erläutern Sie kurz Ihre berufliche Ausgangslage und Ihr Interesse am Studiengang (z. B. bisherige Tätigkeit im Kulturbereich, ehrenamtliches Engagement, eigene Weiterbildungsmotive).\n• Bitten Sie um konkrete Informationen zu mindestens drei Aspekten: Zulassungsvoraussetzungen, Organisation (Präsenz-/Onlineanteile, Berufsbegleitung), Finanzierung (Gebühren, Stipendien, Teilzeitmodell).\n• Fragen Sie nach einem persönlichen Beratungstermin und schlagen Sie mindestens zwei konkrete Terminvorschläge oder einen Zeitraum vor.\n\nBeachten Sie eine formelle Anrede und einen sachlichen, höflichen Ton. Schreiben Sie mindestens 150 Wörter.",
+          "promptTranslation": "TASK A (Complaint letter):\n\nSituation: Two weeks ago you took part in a two-day art tour titled 'Great Masters Reconsidered' at the private academy ArtVision in Munich. You had high expectations but were deeply disappointed: the announced curator was not present and was replaced by a student; the promised museum tour at the Alte Pinakothek was cancelled due to an alleged scheduling conflict; and the promised digital companion materials have not arrived. The fee of 320 € was already charged in full.\n\nWrite a formal complaint to the director (Dr. Elisabeth Brunner) of ArtVision. Address these three guiding points:\n\n• Describe the concrete shortcomings during the tour.\n• Explain the personal consequences (e.g. wasted preparation time, disappointed expectations, futile travel).\n• Formulate a clear demand (e.g. partial refund, free replacement event with the originally announced curator) and set a deadline.\n\nInclude greeting, opening, and closing. Write at least 150 words.\n\n— OR —\n\nTASK B (Request for information):\n\nSituation: You are interested in the further-education master's programme 'Museum Education and Cultural Mediation' at Leipzig University of Applied Sciences and would like concrete information before formally applying. The online information is only general. You want to write a formal enquiry to the programme office.\n\nWrite a formal e-mail to the programme coordinator (Dr. Hannah Vogel). Address these three guiding points:\n\n• Briefly explain your professional background and interest in the programme (e.g. prior work in cultural sector, volunteer engagement, personal training motives).\n• Ask for concrete information on at least three aspects: admission requirements, organisation (on-site / online share, work-compatible format), funding (fees, scholarships, part-time model).\n• Ask for a personal consultation and suggest at least two concrete date proposals or a time window.\n\nUse a formal salutation and a factual, polite tone. Write at least 150 words.",
+          "requiredPoints": [
+            "Aufgabe A: konkrete Mängel, persönliche Folgen, klare Forderung + Frist",
+            "Aufgabe B: eigene Ausgangslage, drei konkrete Informationsaspekte (Zulassung, Organisation, Finanzierung), Beratungstermin mit mindestens zwei Terminvorschlägen"
+          ],
+          "wordCountMin": 150,
+          "wordCountMax": 230,
+          "sampleAnswer": "[AUFGABE B — Beispielantwort]\n\nSehr geehrte Frau Dr. Vogel,\n\nmit großem Interesse habe ich den weiterbildenden Masterstudiengang 'Museumspädagogik und kulturelle Bildung' an Ihrer Hochschule zur Kenntnis genommen. Da ich seit sechs Jahren als wissenschaftliche Mitarbeiterin in einem kommunalen Heimatmuseum in Sachsen tätig bin und mich darüber hinaus ehrenamtlich in der Vermittlungsarbeit eines Kunstvereins engagiere, möchte ich mich fachlich weiter qualifizieren und eine leitende Position im Bereich Vermittlung anstreben.\n\nBevor ich mich offiziell bewerbe, wäre ich Ihnen sehr dankbar, wenn Sie mir zu folgenden drei Punkten genauere Informationen zukommen ließen. Erstens interessiert mich, welche formalen Zulassungsvoraussetzungen gelten – insbesondere, ob ein abgeschlossenes Bachelorstudium in Kunstgeschichte ausreicht oder ob zusätzlich eine pädagogische Grundqualifikation erforderlich ist. Zweitens würde ich gern erfahren, wie der Studiengang organisiert ist: Wie hoch ist der Präsenzanteil, lässt sich das Studium berufsbegleitend absolvieren und welche Online-Formate werden angeboten? Drittens bitte ich um Informationen zu den anfallenden Gebühren, zu möglichen Stipendien sowie zu einem eventuellen Teilzeitmodell.\n\nAbschließend würde ich gern einen persönlichen Beratungstermin vereinbaren. Ich könnte Ihnen am 12. oder am 19. Mai, jeweils nachmittags, sehr gut in Leipzig zur Verfügung stehen. Alternativ wäre auch ein telefonischer oder Online-Termin in derselben Woche für mich möglich.\n\nVielen Dank im Voraus für Ihre Unterstützung.\n\nMit freundlichen Grüßen\nJohanna Albrecht",
+          "scoringCriteria": [
+            {
+              "criterion": "I. Berücksichtigung der Leitpunkte",
+              "maxPoints": 15,
+              "description": "Alle drei Leitpunkte der gewählten Aufgabe (A oder B) werden inhaltlich mit B2-typischer Tiefe behandelt – nicht nur genannt, sondern mit Begründung und konkreten Details ausgeführt. A: A++ (15 Pkt) / B: B+ (10 Pkt) / C: C (5 Pkt) / D: unbehandelt (0 Pkt). Wird diese Kategorie mit D bewertet, erhält die gesamte Aufgabe 0 Punkte."
+            },
+            {
+              "criterion": "II. Kommunikative Gestaltung",
+              "maxPoints": 15,
+              "description": "Formelle Anrede, logischer Textaufbau (Einleitung – Hauptteil – Schluss), konsistenter Sie-Register, B2-typische Diskursmarker (darüber hinaus, im Übrigen, folglich, hinsichtlich, angesichts, zudem, allerdings), passende Grußformel. Register-Sprünge (z. B. 'Hi' in einer Anfrage) werden abgewertet."
+            },
+            {
+              "criterion": "III. Formale Richtigkeit",
+              "maxPoints": 15,
+              "description": "B2-Grammatik korrekt eingesetzt: Konjunktiv II für höfliche Anfragen ('Ich wäre Ihnen sehr dankbar, wenn ...', 'Könnten Sie mir mitteilen, ob ...'), Nominalisierung, komplexe Nebensätze, Genitiv-Präpositionen. Rechtschreibung und Zeichensetzung. Fehler, die das Verständnis blockieren, führen zu D und damit zu 0 Punkten gesamt."
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "totalTimeMinutes": 15,
+      "prepTimeMinutes": 20,
+      "parts": [
+        {
+          "partNumber": 1,
+          "type": "presentation",
+          "instructions": "Teil 1 — Präsentation (ca. 3 Minuten pro Kandidat:in). Jede:r Kandidat:in erhält eine Themenkarte und hält eine kurze, strukturierte Präsentation (Einstieg, Hauptteil, Schluss). Anschließend stellt die Partnerin/der Partner 1–2 Nachfragen.",
+          "instructionsTranslation": "Part 1 — Presentation (approx. 3 minutes per candidate). Each candidate receives a topic card and gives a short, structured presentation (intro, main body, conclusion). Afterwards the partner asks 1–2 follow-up questions.",
+          "prompt": "KANDIDAT:IN A — Thema: 'Die Bedeutung von Museen in der heutigen Gesellschaft'\n\nHalten Sie eine kurze Präsentation (ca. 3 Minuten) zu diesem Thema. Strukturieren Sie Ihren Vortrag so:\n\n• Einstieg: Welche Rolle spielen Museen heute – nur noch Erinnerungsorte oder aktive Bildungsräume? Nennen Sie ein konkretes Museum aus Ihrem Umfeld oder ein Beispiel aus den Medien.\n• Hauptteil: Welche Aufgaben können Museen in einer digitalen Gesellschaft besonders gut übernehmen (Bildung, gesellschaftlicher Dialog, Identitätsstiftung)? Welche Schwierigkeiten sehen Sie (Finanzierung, Zielgruppen, Konkurrenz durch andere Freizeitangebote)?\n• Schluss: Wie stellen Sie sich das Museum in zehn Jahren vor? Ihre persönliche Einschätzung.\n\n—\n\nKANDIDAT:IN B — Thema: 'Die Rolle der Literatur in Zeiten von Streaming und sozialen Medien'\n\nHalten Sie eine kurze Präsentation (ca. 3 Minuten) zu diesem Thema. Strukturieren Sie Ihren Vortrag so:\n\n• Einstieg: Wie viel wird heute noch gelesen – in Ihrem Umfeld, statistisch, im Alltag? Ein konkretes Beispiel.\n• Hauptteil: Welche Funktion behält Literatur (gedruckte Bücher, Hörbücher, digitale Formate) im Zeitalter von Streaming? Welche Rolle spielen soziale Medien wie 'BookTok' für junge Leserinnen und Leser? Welche Risiken oder Verengungen sehen Sie?\n• Schluss: Was würden Sie tun, um Literatur bei jungen Menschen zu fördern? Ihre persönliche Einschätzung.",
+          "sampleResponse": "[Kandidat:in A — Museen heute]\n\nMeine Damen und Herren, ich möchte heute über die Rolle der Museen in der heutigen Gesellschaft sprechen. Ein Beispiel aus meinem Umfeld: Das Stadtmuseum in meiner Heimatstadt war lange Zeit ein eher ruhiger Ort, wird aber seit drei Jahren mit Open-Air-Kuratorenführungen, Schulprojekten und digitalen Zwillingen seiner Sammlungsräume intensiv genutzt. An diesem Beispiel zeigt sich: Museen sind heute weit mehr als Erinnerungsorte.\n\nIm Hauptteil möchte ich auf Aufgaben und Schwierigkeiten eingehen. Museen können heute besonders gut gesellschaftlichen Dialog ermöglichen – etwa, wenn sie umstrittene Objekte der Kolonialgeschichte öffentlich kontextualisieren. Auch für die kulturelle Bildung von Schulklassen und Familien sind sie unverzichtbar. Allerdings darf man die Schwierigkeiten nicht unterschätzen. Die öffentliche Finanzierung stagniert, die Konkurrenz durch Streaming und andere Freizeitangebote ist groß, und viele Häuser erreichen nur bildungsnahe Publika.\n\nAbschließend bin ich überzeugt, dass das Museum der Zukunft kleiner, aber bewusster gestaltet sein wird – mit weniger Objekten in der Dauerausstellung, aber dichteren Vermittlungsangeboten und stärkerer Anbindung an die Stadtgesellschaft. Entscheidend wird sein, ob Politik und Träger bereit sind, in Vermittlung zu investieren und nicht nur in Bauten. Vielen Dank – was denken Sie dazu?\n\n[Beispielhafte Nachfrage der Partnerin/des Partners: 'Welches Museum hat dich persönlich am meisten beeindruckt und warum?']",
+          "evaluationTips": [
+            "Strukturieren Sie die Präsentation klar: Einstieg – Hauptteil – Schluss",
+            "Verwenden Sie B2-Diskursmarker: 'Zunächst', 'Darüber hinaus', 'Allerdings', 'Abschließend'",
+            "Nennen Sie EIN konkretes Beispiel (aus Umfeld/Beruf/Erfahrung), keine rein abstrakten Aussagen",
+            "Balance aus Chancen UND Schwierigkeiten zeigen – B2 verlangt Differenzierung",
+            "Konjunktiv II für Einschätzungen: 'Ich könnte mir vorstellen, dass ...', 'Sinnvoll wäre ...'",
+            "Direkter Schluss mit persönlicher Einschätzung + Übergabe an Partner",
+            "Zeitlimit (~3 Min) beachten – nicht länger, nicht kürzer"
+          ],
+          "keyPhrases": [
+            "Ich möchte heute über ... sprechen.",
+            "Ein konkretes Beispiel dafür ist ...",
+            "Einerseits ..., andererseits ...",
+            "Besonders hervorheben möchte ich ...",
+            "Allerdings darf man nicht übersehen, dass ...",
+            "Meiner Ansicht nach ...",
+            "Abschließend lässt sich festhalten ...",
+            "Was denken Sie / was denkst du dazu?"
+          ]
+        },
+        {
+          "partNumber": 2,
+          "type": "discussion",
+          "instructions": "Teil 2 — Diskussion (ca. 5 Minuten gemeinsam). Beide Kandidat:innen erhalten denselben provokanten Satz und diskutieren ihn. Ziel: eigene Position vertreten, auf die Argumente der Partnerin/des Partners eingehen, widersprechen oder weiterentwickeln.",
+          "instructionsTranslation": "Part 2 — Discussion (approx. 5 minutes together). Both candidates receive the same provocative statement and discuss it. Goal: defend your own position, engage with the partner's arguments, disagree or build on them.",
+          "prompt": "Thema für beide Kandidat:innen:\n\n'Der Eintritt in alle öffentlichen Museen sollte grundsätzlich kostenfrei sein – Kultur darf nicht vom Geldbeutel abhängen.'\n\n— Leitfragen für die Diskussion —\n\n• Stimmen Sie dieser These zu oder widersprechen Sie?\n• Welche Vorteile hätte ein kostenfreier Eintritt? Für wen?\n• Welche Nachteile oder praktischen Probleme sehen Sie (Finanzierung, Überlastung der Häuser, Wertschätzung)?\n• Gäbe es aus Ihrer Sicht einen sinnvollen Kompromiss (z. B. kostenfreie Tage, ermäßigte Gruppen, Kulturpass)?\n\nReagieren Sie auf die Argumente Ihrer Partnerin/Ihres Partners, widersprechen Sie höflich, wo nötig, und versuchen Sie am Ende, Ihre Positionen zusammenzuführen oder respektvoll unterschiedlich stehen zu lassen.",
+          "sampleResponse": "KANDIDAT:IN A: 'Also, grundsätzlich finde ich die Idee überzeugend. Kunst und Kultur sind öffentliche Güter – wer dort Eintrittsgeld nimmt, schließt faktisch Menschen mit wenig Einkommen aus. Ich würde deshalb eher zustimmen: Der Grundeintritt sollte kostenfrei sein.'\n\nKANDIDAT:IN B: 'Da möchte ich teilweise widersprechen. Ich sehe das Fairness-Argument, aber völlig kostenfreier Eintritt hat auch eine Kehrseite – in London, wo viele große Häuser gratis sind, sieht man Massenandrang, der das Erlebnis vor Ort beeinträchtigt. Außerdem fehlt der Einrichtung eine wichtige Einnahmequelle.'\n\nKANDIDAT:IN A: 'Das ist ein interessanter Einwand. Allerdings ließe sich der Andrang ja durch Zeitfensterbuchungen regeln. Und was die Finanzierung betrifft: Die gesellschaftliche Funktion eines Museums wird meiner Ansicht nach nicht durch Eintrittsgelder getragen, sondern durch öffentliche Mittel – das sollte man sauber trennen. Meinst du nicht, dass genau diese Trennung sinnvoller wäre?'\n\nKANDIDAT:IN B: 'Guter Punkt. Wenn man öffentliche Finanzierung entsprechend erhöht, sehe ich es tatsächlich differenzierter. Allerdings bleibt die Frage, wie man das auch für kleinere, privat getragene Häuser lösen würde. Vielleicht wäre ein Kompromissmodell besser: kostenfreie Tage plus ermäßigte Gruppen – wie es in vielen deutschen Städten schon existiert.'\n\nKANDIDAT:IN A: 'Da stimme ich dir zu. Ein bundesweites Modell mit festen Gratistagen und gestaffelten Ermäßigungen für Schülerinnen, Studierende und Senioren könnte pragmatisch sein. Dazu passt auch der bestehende Kulturpass für junge Erwachsene.'\n\nKANDIDAT:IN B: 'Ja, das klingt nach einem realistischen Kompromiss. Insgesamt sehe ich die Idee des kostenfreien Zugangs weiterhin positiv, aber mit klar gestaffelten Modellen statt pauschaler Abschaffung.'",
+          "evaluationTips": [
+            "Klare Position beziehen – 'Ich stimme zu / Ich widerspreche'",
+            "Auf das Gesagte des Partners konkret eingehen – nicht nur die eigene Position wiederholen",
+            "Widerspruch höflich: 'Da möchte ich teilweise widersprechen ...', 'Das sehe ich anders, weil ...'",
+            "Konjunktiv II für hypothetische Argumentation: 'Wäre ...', 'Würde ...', 'Könnte ...', 'Ließe sich ...'",
+            "Konkrete Beispiele oder Städte/Länder nennen, keine rein theoretischen Argumente",
+            "Versuch der Synthese am Ende: 'Wenn man es staffelt, ...', 'Ein möglicher Kompromiss wäre ...'",
+            "Diskursmarker der Argumentation: 'allerdings', 'andererseits', 'demgegenüber', 'darüber hinaus'"
+          ],
+          "keyPhrases": [
+            "Meiner Meinung nach ...",
+            "Ich kann dem nur teilweise zustimmen.",
+            "Das sehe ich anders, weil ...",
+            "Ein starkes Argument dafür/dagegen ist ...",
+            "Darf ich kurz darauf eingehen?",
+            "Ich verstehe deinen Punkt, allerdings ...",
+            "Wenn man es so betrachtet, ...",
+            "Ein Kompromiss könnte sein, dass ...",
+            "Da sind wir uns wohl einig."
+          ]
+        },
+        {
+          "partNumber": 3,
+          "type": "planning",
+          "instructions": "Teil 3 — Gemeinsam Planen (ca. 5 Minuten). Beide Kandidat:innen erhalten denselben Planungsauftrag und müssen gemeinsam zu einer konkreten Lösung kommen: Vorschläge machen, abwägen, verhandeln, Entscheidung treffen.",
+          "instructionsTranslation": "Part 3 — Collaborative Planning (approx. 5 minutes). Both candidates receive the same planning task and must reach a concrete joint solution: make proposals, weigh options, negotiate, decide.",
+          "prompt": "Planungsauftrag für beide Kandidat:innen:\n\nIhr Sprachkurs in der Volkshochschule möchte am Samstag in drei Wochen einen gemeinsamen Kulturnachmittag zum Thema 'Zeitgenössische deutsche Kunst und Literatur' organisieren. Die Kursleiterin hat Sie beide gebeten, die Organisation gemeinsam zu übernehmen.\n\nBesprechen Sie folgende Punkte und treffen Sie konkrete Entscheidungen:\n\n• Programm: Welche zwei bis drei Programmpunkte sollen stattfinden (Museumsbesuch, Lesung, Filmvorführung, Konzert, Street-Art-Tour)? Warum gerade diese?\n• Ort und Zeit: Wo genau findet welcher Programmpunkt statt? Wie ist der zeitliche Ablauf von z. B. 14 bis 19 Uhr?\n• Budget: Wie viel darf der Nachmittag maximal pro Teilnehmerin/Teilnehmer kosten? Welche Posten plant Ihr ein (Eintritt, Verpflegung, eventuell Fahrkarten)?\n• Information der Gruppe: Wie informiert Ihr die anderen Kursteilnehmenden rechtzeitig (E-Mail, Aushang, Gruppenchat)?\n• Aufgabenverteilung: Wer übernimmt welche konkrete Vorbereitung (Reservierungen, Zahlungen, Materialien, Treffpunkt)?\n\nEinigen Sie sich am Ende auf einen klaren Plan.",
+          "sampleResponse": "KANDIDAT:IN A: 'Fangen wir mit dem Programm an. Ich würde vorschlagen, drei Punkte zu kombinieren: eine geführte Tour durch die zeitgenössische Sammlung der Städtischen Galerie, danach eine kurze Autorenlesung im Literaturhaus und zum Abschluss ein gemeinsames Essen im Café nebenan. Was hältst du davon?'\n\nKANDIDAT:IN B: 'Drei Punkte an einem Nachmittag finde ich etwas viel – vor allem, wenn die Lesung eine Stunde dauert. Wie wäre es, wenn wir die Museumstour und die Lesung machen und das Essen optional halten, für die, die Zeit und Lust haben? So bleiben wir im Rahmen von fünf Stunden.'\n\nKANDIDAT:IN A: 'Okay, das klingt realistischer. Zum Ort: Die Städtische Galerie ist zu Fuß vom Literaturhaus in zehn Minuten erreichbar – das spart uns den Bus. Starten wir um vierzehn Uhr mit der Tour, die dauert etwa neunzig Minuten; ab sechzehn Uhr wären wir bei der Lesung; Essen ab achtzehn Uhr für alle, die mögen.'\n\nKANDIDAT:IN B: 'Einverstanden. Zum Budget: Der Eintritt in die Galerie kostet ermäßigt fünf Euro, die Lesung zehn Euro, und das Essen grob fünfzehn Euro. Das heißt pro Person maximal dreißig Euro – wir sollten in der Einladung ausdrücklich schreiben, dass das Essen optional ist, damit niemand durchs Budget fällt.'\n\nKANDIDAT:IN A: 'Gute Idee. Zur Information: Ich könnte heute Abend eine E-Mail mit dem genauen Programm, den Kosten und der Zusagefrist am Montag an die Kursgruppe schicken, und zusätzlich einen Aushang im Kursraum machen.'\n\nKANDIDAT:IN B: 'Prima. Dann übernehme ich die Reservierung der Gruppentour bei der Galerie und die Anmeldung für die Lesung; das Restaurant reserviere ich, sobald wir die endgültige Zahl kennen. Treffpunkt ist dann 13.45 Uhr am Eingang der Galerie – können wir uns Mittwoch kurz abstimmen?'\n\nKANDIDAT:IN A: 'Perfekt. Also zusammengefasst: Samstag vierzehn Uhr Tour, sechzehn Uhr Lesung, achtzehn Uhr optionales Essen, maximal dreißig Euro pro Person, ich mache E-Mail und Aushang, du machst Reservierungen, Abstimmung Mittwoch. Abgemacht!'",
+          "evaluationTips": [
+            "Konkrete Vorschläge statt vager Ideen: Tag, Uhrzeit, Ort, Betrag nennen",
+            "Aktiv zuhören – reagieren Sie spezifisch auf die Vorschläge des Partners",
+            "Konjunktiv II für Vorschläge: 'Ich würde vorschlagen ...', 'Wir könnten ...', 'Wie wäre es mit ...?'",
+            "Kompromisse zeigen: 'Drei Punkte sind mir zu viel – wie wäre es mit zweien?'",
+            "Am Ende zusammenfassen: 'Also zusammengefasst: ...'",
+            "Aufgabenverteilung explizit machen: 'Du übernimmst ..., ich übernehme ...'",
+            "Höfliche Zustimmung/Widerspruch: 'Einverstanden', 'Abgemacht', 'Das sehe ich anders'",
+            "Budget und Aufgabenverteilung müssen beide konkret benannt werden"
+          ],
+          "keyPhrases": [
+            "Ich würde vorschlagen, dass ...",
+            "Wie wäre es, wenn wir ...?",
+            "Das klingt sinnvoll, aber ...",
+            "Können wir uns darauf einigen, dass ...?",
+            "Wer übernimmt ...?",
+            "Ich kümmere mich um ..., du übernimmst bitte ...",
+            "Einverstanden / Abgemacht.",
+            "Also zusammengefasst: ...",
+            "Sollen wir das so festhalten?"
+          ]
+        }
+      ]
+    }
   }
 }
