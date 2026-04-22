@@ -11,16 +11,19 @@ vi.mock("@/lib/actions/feedback", () => ({
   submitFeedback: vi.fn(),
 }));
 
-vi.mock("@vercel/blob/client", () => ({
-  upload: vi.fn().mockResolvedValue({ url: "https://blob.vercel.com/test.png" }),
-}));
-
 import { submitFeedback } from "@/lib/actions/feedback";
 
 const mockSubmit = vi.mocked(submitFeedback);
 
 beforeEach(() => {
   vi.clearAllMocks();
+  vi.stubGlobal(
+    "fetch",
+    vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => ({ url: "https://blob.vercel.com/test.png", name: "test.png" }),
+    })
+  );
 });
 
 describe("FeedbackFAB — open/close", () => {
