@@ -1,20 +1,24 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
 
-vi.mock("@vercel/blob/client", () => ({
-  handleUpload: vi.fn(),
+vi.mock("@vercel/blob", () => ({
+  put: vi.fn(),
 }));
 
-import { handleUpload } from "@vercel/blob/client";
+import { put } from "@vercel/blob";
 import { POST } from "@/app/api/blob-upload/route";
 
-const mockHandleUpload = vi.mocked(handleUpload);
+const mockPut = vi.mocked(put);
 
-function makeRequest(body: unknown): Request {
-  return new Request("http://localhost/api/blob-upload", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(body),
-  });
+type MockRequest = {
+  formData: () => Promise<{ get(name: string): File | string | null }>;
+};
+
+function makeRequest(file: File | null): MockRequest {
+  return {
+    formData: async () => ({
+      get: (name: string) => (name === "file" ? file : null),
+    }),
+  };
 }
 
 beforeEach(() => {
@@ -22,44 +26,58 @@ beforeEach(() => {
 });
 
 describe("POST /api/blob-upload", () => {
-  it("returns handleUpload result on success", async () => {
-    mockHandleUpload.mockResolvedValue({ type: "blob.generate-client-token" } as never);
+  it("returns URL on successful upload", async () => {
+    mockPut.mockResolvedValue({
+      url: "https://blob.vercel.com/feedback-attachments/test.png",
+      pathname: "feedback-attachments/test.png",
+      contentDisposition: "inline",
+      contentType: "image/png",
+      downloadUrl: "",
+    } as never);
 
-    const res = await POST(makeRequest({ type: "blob.generate-client-token" }));
+    const file = new File(["hello"], "test.png", { type: "image/png" });
+    const res = await POST(makeRequest(file) as never);
+
     expect(res.status).toBe(200);
     const json = await res.json();
-    expect(json).toEqual({ type: "blob.generate-client-token" });
+    expect(json.url).toContain("test.png");
+    expect(json.name).toBe("test.png");
   });
 
-  it("rejects upload with invalid path prefix via onBeforeGenerateToken", async () => {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    mockHandleUpload.mockImplementation(async ({ onBeforeGenerateToken }: any) => {
-      await onBeforeGenerateToken("wrong-prefix/file.png");
-      return {} as never;
-    });
-
-    const res = await POST(makeRequest({}));
+  it("returns 400 when no file is provided", async () => {
+    const res = await POST(makeRequest(null) as never);
     expect(res.status).toBe(400);
     const json = await res.json();
-    expect(json.error).toMatch(/Invalid upload path/i);
+    expect(json.error).toMatch(/no file/i);
   });
 
-  it("allows upload with correct feedback-attachments prefix", async () => {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    mockHandleUpload.mockImplementation(async ({ onBeforeGenerateToken }: any) => {
-      const result = await onBeforeGenerateToken("feedback-attachments/screenshot.png");
-      return (result ?? {}) as never;
-    });
-
-    const res = await POST(makeRequest({}));
-    expect(res.status).toBe(200);
-  });
-
-  it("returns 400 when handleUpload throws", async () => {
-    mockHandleUpload.mockRejectedValue(new Error("Storage unavailable"));
-
-    const res = await POST(makeRequest({}));
+  it("returns 400 when file exceeds 10 MB", async () => {
+    const big = new File(
+      [new Uint8Array(11 * 1024 * 1024)],
+      "big.png",
+      { type: "image/png" }
+    );
+    const res = await POST(makeRequest(big) as never);
     expect(res.status).toBe(400);
+    const json = await res.json();
+    expect(json.error).toMatch(/10 MB/i);
+  });
+
+  it("returns 400 for unsupported content type", async () => {
+    const file = new File(["x"], "bad.exe", {
+      type: "application/x-msdownload",
+    });
+    const res = await POST(makeRequest(file) as never);
+    expect(res.status).toBe(400);
+    const json = await res.json();
+    expect(json.error).toMatch(/unsupported/i);
+  });
+
+  it("returns 500 when put throws", async () => {
+    mockPut.mockRejectedValue(new Error("Storage unavailable"));
+    const file = new File(["x"], "test.png", { type: "image/png" });
+    const res = await POST(makeRequest(file) as never);
+    expect(res.status).toBe(500);
     const json = await res.json();
     expect(json.error).toBe("Storage unavailable");
   });

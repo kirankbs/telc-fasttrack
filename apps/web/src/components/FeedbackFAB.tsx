@@ -8,8 +8,36 @@ import {
   type FormEvent,
 } from "react";
 import { usePathname } from "next/navigation";
-import { upload } from "@vercel/blob/client";
 import { submitFeedback, type FeedbackCategory } from "@/lib/actions/feedback";
+
+const UPLOAD_TIMEOUT_MS = 30_000;
+
+async function uploadFile(
+  file: File
+): Promise<{ name: string; url: string | null }> {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), UPLOAD_TIMEOUT_MS);
+  try {
+    const formData = new FormData();
+    formData.append("file", file);
+    const response = await fetch("/api/blob-upload", {
+      method: "POST",
+      body: formData,
+      signal: controller.signal,
+    });
+    if (!response.ok) {
+      console.error(`Blob upload HTTP ${response.status} for ${file.name}`);
+      return { name: file.name, url: null };
+    }
+    const data = (await response.json()) as { url?: string };
+    return { name: file.name, url: data.url ?? null };
+  } catch (err) {
+    console.error(`Blob upload failed for ${file.name}:`, err);
+    return { name: file.name, url: null };
+  } finally {
+    clearTimeout(timeout);
+  }
+}
 
 const MAX_FILES = 5;
 const MAX_FILE_SIZE = 10 * 1024 * 1024; // 10 MB
@@ -179,19 +207,7 @@ export function FeedbackFAB() {
 
     try {
       const uploadedAttachments = await Promise.all(
-        attachments.filter((a) => !a.error).map(async ({ file }) => {
-          try {
-            const blob = await upload(
-              `feedback-attachments/${file.name}`,
-              file,
-              { access: "public", handleUploadUrl: "/api/blob-upload" }
-            );
-            return { name: file.name, url: blob.url };
-          } catch (err) {
-            console.error(`Blob upload failed for ${file.name}:`, err);
-            return { name: file.name, url: null as string | null };
-          }
-        })
+        attachments.filter((a) => !a.error).map(({ file }) => uploadFile(file))
       );
 
       const result = await submitFeedback({
