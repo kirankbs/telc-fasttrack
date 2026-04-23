@@ -1,4 +1,4 @@
-import { describe, it, expect, vi, beforeEach } from "vitest";
+import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
 
 vi.mock("@vercel/blob", () => ({
   put: vi.fn(),
@@ -23,6 +23,11 @@ function makeRequest(file: File | null): MockRequest {
 
 beforeEach(() => {
   vi.clearAllMocks();
+  vi.stubEnv("BLOB_READ_WRITE_TOKEN", "vercel_blob_test_token");
+});
+
+afterEach(() => {
+  vi.unstubAllEnvs();
 });
 
 describe("POST /api/blob-upload", () => {
@@ -79,6 +84,16 @@ describe("POST /api/blob-upload", () => {
     const res = await POST(makeRequest(file) as never);
     expect(res.status).toBe(500);
     const json = await res.json();
-    expect(json.error).toBe("Storage unavailable");
+    expect(json.error).toMatch(/Storage unavailable/);
+    expect(json.stage).toBe("put");
+  });
+
+  it("returns 500 when BLOB_READ_WRITE_TOKEN is missing", async () => {
+    vi.stubEnv("BLOB_READ_WRITE_TOKEN", "");
+    const file = new File(["x"], "test.png", { type: "image/png" });
+    const res = await POST(makeRequest(file) as never);
+    expect(res.status).toBe(500);
+    const json = await res.json();
+    expect(json.error).toMatch(/not configured/i);
   });
 });
