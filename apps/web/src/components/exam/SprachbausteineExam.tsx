@@ -184,7 +184,7 @@ export function SprachbausteineExam({ mockId, level, section }: SprachbausteineE
                   ? 'bg-brand-600 text-white'
                   : done
                     ? 'bg-pass-surface text-pass'
-                    : 'border border-border bg-white text-text-secondary hover:border-border-hover'
+                    : 'border border-border bg-surface text-text-secondary hover:border-border-hover'
               }`}
             >
               Teil {p.partNumber}
@@ -262,14 +262,14 @@ function PartView({
 
   return (
     <div className="space-y-4">
-      <div className="rounded-lg border border-border bg-white p-4">
+      <div className="rounded-lg border border-border bg-surface p-4">
         <p className="text-sm font-medium text-text-primary">{part.instructions}</p>
         <p className="mt-2 text-xs text-text-secondary">
           {answeredCount}/{part.questions.length} Lücken ausgefüllt
         </p>
       </div>
 
-      <div className="rounded-xl border border-border bg-white p-5">
+      <div className="rounded-xl border border-border bg-surface p-5">
         <div className="whitespace-pre-wrap font-sans text-[15px] leading-8 text-text-primary">
           {segments.map((seg, idx) => {
             if (seg.kind === 'text') {
@@ -449,7 +449,7 @@ function ReviewPart({
   const segments = useMemo(() => parseTextSegments(part.text), [part.text]);
 
   return (
-    <div className="rounded-xl border border-border bg-white p-5 space-y-4">
+    <div className="rounded-xl border border-border bg-surface p-5 space-y-4">
       <h3 className="font-semibold text-text-primary">Teil {part.partNumber}</h3>
       <div className="whitespace-pre-wrap font-sans text-[15px] leading-8 text-text-primary">
         {segments.map((seg, idx) => {

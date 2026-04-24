@@ -158,7 +158,7 @@ export function ListeningExam({ mockId, level, section }: ListeningExamProps) {
                     ? 'bg-brand-600 text-white'
                     : partDone
                       ? 'bg-pass-surface text-pass'
-                      : 'border border-border bg-white text-text-secondary hover:border-border-hover'
+                      : 'border border-border bg-surface text-text-secondary hover:border-border-hover'
                 }`}
               >
                 Teil {p.partNumber}
@@ -167,7 +167,7 @@ export function ListeningExam({ mockId, level, section }: ListeningExamProps) {
           })}
         </div>
 
-        <div className="rounded-lg border border-border bg-white p-4">
+        <div className="rounded-lg border border-border bg-surface p-4">
           <p className="text-sm font-medium text-text-primary">{part.instructions}</p>
           {part.instructionsTranslation && (
             <p className="mt-1 text-xs text-text-secondary">{part.instructionsTranslation}</p>
@@ -186,7 +186,7 @@ export function ListeningExam({ mockId, level, section }: ListeningExamProps) {
 
         <div className="space-y-4">
           {part.questions.map((q, qi) => (
-            <div key={q.id} className="rounded-xl border border-border bg-white p-5">
+            <div key={q.id} className="rounded-xl border border-border bg-surface p-5">
               <p className="mb-3 font-medium text-text-primary">
                 {qi + 1}. {q.questionText}
               </p>

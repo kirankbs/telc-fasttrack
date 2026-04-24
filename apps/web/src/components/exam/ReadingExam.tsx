@@ -157,7 +157,7 @@ export function ReadingExam({ mockId, level, section }: ReadingExamProps) {
                     ? 'bg-brand-600 text-white'
                     : done
                       ? 'bg-pass-surface text-pass'
-                      : 'border border-border bg-white text-text-secondary hover:border-border-hover'
+                      : 'border border-border bg-surface text-text-secondary hover:border-border-hover'
                 }`}
               >
                 Teil {p.partNumber}
@@ -214,7 +214,7 @@ function PartView({
 
   return (
     <div className="space-y-4">
-      <div className="rounded-lg border border-border bg-white p-4">
+      <div className="rounded-lg border border-border bg-surface p-4">
         <p className="text-sm font-medium text-text-primary">{part.instructions}</p>
         {part.instructionsTranslation && (
           <p className="mt-1 text-xs text-text-secondary">{part.instructionsTranslation}</p>
@@ -226,7 +226,7 @@ function PartView({
           {part.texts
             .filter((t) => t.type !== 'ad')
             .map((text) => (
-              <div key={text.id} className="rounded-xl border border-border bg-white p-5">
+              <div key={text.id} className="rounded-xl border border-border bg-surface p-5">
                 {text.source && (
                   <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-text-tertiary">
                     {text.source}
@@ -259,7 +259,7 @@ function PartView({
 
       <div className="space-y-4">
         {part.questions.map((q, qi) => (
-          <div key={q.id} className="rounded-xl border border-border bg-white p-5">
+          <div key={q.id} className="rounded-xl border border-border bg-surface p-5">
             <p className="mb-3 font-medium text-text-primary">
               {qi + 1}. {q.questionText}
             </p>

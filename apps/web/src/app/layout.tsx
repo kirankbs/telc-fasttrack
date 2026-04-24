@@ -64,7 +64,7 @@ export default function RootLayout({
 
 function Footer() {
   return (
-    <footer className="border-t border-border bg-white py-6">
+    <footer className="border-t border-border bg-surface py-6">
       <div className="mx-auto max-w-7xl px-4 text-center text-sm text-text-secondary sm:px-6 lg:px-8">
         Fastrack Deutsch — telc exam prep. Offline-first, content-driven.
       </div>
