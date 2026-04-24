@@ -1,15 +1,13 @@
 'use client';
 
-import { useState } from 'react';
-import type { Level, GrammarTopic } from '@fastrack/types';
-import { TopicCard } from '@/components/grammar/TopicCard';
+import Link from 'next/link';
+import type { Level } from '@fastrack/types';
 
 interface LevelConfig {
   level: Level;
   color: string;
   label: string;
   topicCount: number;
-  topics: GrammarTopic[];
 }
 
 interface GrammarPageClientProps {
@@ -17,9 +15,6 @@ interface GrammarPageClientProps {
 }
 
 export function GrammarPageClient({ levels }: GrammarPageClientProps) {
-  const [selectedLevel, setSelectedLevel] = useState<Level | null>(null);
-  const selected = levels.find((l) => l.level === selectedLevel);
-
   return (
     <div className="space-y-6">
       <div>
@@ -32,16 +27,12 @@ export function GrammarPageClient({ levels }: GrammarPageClientProps) {
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {levels.map(({ level, color, label, topicCount }) => {
           const available = topicCount > 0;
-          const isSelected = selectedLevel === level;
 
           return (
             <div
               key={level}
               data-testid={`level-card-${level}`}
-              className={`rounded-xl border bg-white p-6 transition-shadow ${
-                isSelected ? 'border-2 shadow-md' : 'border-border'
-              }`}
-              style={isSelected ? { borderColor: color } : undefined}
+              className="rounded-xl border border-border bg-surface p-6 transition-shadow hover:shadow-sm"
             >
               <div className="flex items-center gap-3">
                 <span
@@ -62,52 +53,30 @@ export function GrammarPageClient({ levels }: GrammarPageClientProps) {
                 </div>
               </div>
               <div className="mt-4">
-                <button
-                  data-testid={`browse-button-${level}`}
-                  className="w-full rounded-lg px-4 py-2.5 text-sm font-medium text-white transition-colors hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed"
-                  style={{ backgroundColor: color }}
-                  disabled={!available}
-                  onClick={() =>
-                    setSelectedLevel(isSelected ? null : level)
-                  }
-                >
-                  {!available
-                    ? 'Coming Soon'
-                    : isSelected
-                      ? 'Hide Topics'
-                      : 'Browse Topics'}
-                </button>
+                {available ? (
+                  <Link
+                    href={`/grammar/${level}`}
+                    data-testid={`browse-button-${level}`}
+                    className="block w-full rounded-lg px-4 py-2.5 text-center text-sm font-medium text-white transition-colors hover:opacity-90"
+                    style={{ backgroundColor: color }}
+                  >
+                    Browse Topics
+                  </Link>
+                ) : (
+                  <button
+                    data-testid={`browse-button-${level}`}
+                    className="w-full rounded-lg px-4 py-2.5 text-sm font-medium text-white opacity-50 cursor-not-allowed"
+                    style={{ backgroundColor: color }}
+                    disabled
+                  >
+                    Coming Soon
+                  </button>
+                )}
               </div>
             </div>
           );
         })}
       </div>
-
-      {selected && selected.topics.length > 0 && (
-        <section data-testid="topic-list">
-          <h2 className="mb-3 text-lg font-semibold text-text-primary">
-            {selected.level} Topics
-          </h2>
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {selected.topics.map((topic) => (
-              <TopicCard
-                key={topic.id}
-                topic={topic}
-                levelColor={selected.color}
-              />
-            ))}
-          </div>
-        </section>
-      )}
-
-      {selected && selected.topics.length === 0 && (
-        <div
-          data-testid="no-topics"
-          className="rounded-xl border border-border bg-white p-8 text-center text-text-secondary"
-        >
-          No grammar topics available for {selected.level}.
-        </div>
-      )}
     </div>
   );
 }
