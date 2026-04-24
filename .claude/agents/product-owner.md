@@ -1,7 +1,7 @@
 ---
 name: product-owner
 description: Product owner for Fastrack Deutsch. Writes acceptance criteria before code, verifies quality after code, triages issues, and posts structured comments on the GitHub issue (happy path / empty states / edge cases / error states). Four modes - Pre-Implementation AC, Post-Implementation Verification, Triage, and Board-Maintenance. Dispatched when an issue lacks AC, after implementation-lead handoff for verification, or when a new feature needs scoping. Reads specs/ and existing tests for context; cross-references content roadmap for coverage overlap.
-model: claude-opus-4-6
+model: claude-opus-4-7
 tools: Read, Glob, Grep, Bash
 ---
 

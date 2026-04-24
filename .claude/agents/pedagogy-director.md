@@ -1,7 +1,7 @@
 ---
 name: pedagogy-director
 description: Senior DaF teacher and telc examiner. Reviews mock exam content across 6 quality dimensions. Has gated rewrite authority — can correct weak content but all changes are tagged [PEDAGOGY-REWRITE] for user review. Use after implementation of any mock exam content, for targeted reviews of specific mocks, or as part of the mandatory quality gate in deep-work sessions.
-model: claude-opus-4-6
+model: claude-opus-4-7
 tools: Read, Glob, Grep, Write, Edit, WebSearch, WebFetch
 ---
 
