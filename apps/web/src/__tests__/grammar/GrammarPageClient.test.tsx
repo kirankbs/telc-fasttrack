@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
-import { GrammarPageClient } from '../../../app/grammar/GrammarPageClient';
+import { GrammarPageClient } from '../../app/grammar/GrammarPageClient';
 
 const levels = [
   { level: 'A1' as const, color: '#2d8a4e', label: 'Start Deutsch 1', topicCount: 12 },
