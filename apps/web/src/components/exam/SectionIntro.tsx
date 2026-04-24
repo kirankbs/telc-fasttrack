@@ -35,7 +35,7 @@ export function SectionIntro({
         <h1 className="text-2xl font-bold text-text-primary">{title}</h1>
         <p className="mt-1 text-sm text-text-secondary">{description}</p>
       </div>
-      <div className="rounded-xl border border-border bg-white p-6 text-left space-y-3">
+      <div className="rounded-xl border border-border bg-surface p-6 text-left space-y-3">
         <p className="text-sm text-text-secondary">
           Sie haben{' '}
           <span className="font-semibold text-text-primary">{minutes} Minuten</span>.

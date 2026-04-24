@@ -48,7 +48,7 @@ describe('TopicCard', () => {
     render(<TopicCard topic={mockTopic} levelColor="#4caf50" />);
 
     const link = screen.getByTestId('topic-card-1');
-    expect(link.getAttribute('href')).toBe('/grammar/1');
+    expect(link.getAttribute('href')).toBe('/grammar/A1/1');
   });
 
   it('hides exercise count when no exercises', () => {

@@ -14,9 +14,9 @@ export function TopicCard({ topic, levelColor }: TopicCardProps) {
 
   return (
     <Link
-      href={`/grammar/${topic.orderIndex}`}
+      href={`/grammar/${topic.level}/${topic.orderIndex}`}
       data-testid={`topic-card-${topic.orderIndex}`}
-      className="block rounded-xl border border-border bg-white p-5 transition-shadow hover:shadow-md focus:outline-none focus:ring-2 focus:ring-brand-primary"
+      className="block rounded-xl border border-border bg-surface p-5 transition-shadow hover:shadow-md focus:outline-none focus:ring-2 focus:ring-brand-primary"
     >
       <div className="flex items-start gap-3">
         <span

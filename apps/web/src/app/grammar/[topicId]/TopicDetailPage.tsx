@@ -53,7 +53,13 @@ export function TopicDetailPage({
         <span className="text-text-tertiary" aria-hidden="true">
           /
         </span>
-        <span>{topic.level}</span>
+        <Link
+          href={`/grammar/${topic.level}`}
+          data-testid="back-to-level"
+          className="hover:text-text-primary"
+        >
+          {topic.level}
+        </Link>
         <span className="text-text-tertiary" aria-hidden="true">
           /
         </span>
@@ -94,14 +100,14 @@ export function TopicDetailPage({
         </>
       )}
 
-      {/* Topic navigation footer */}
+      {/* Topic navigation footer — stays within the same level */}
       <div
         className="mt-12 flex flex-wrap items-center justify-between gap-3 border-t border-border pt-6"
       >
         <button
           data-testid="prev-topic"
           disabled={!hasPrev}
-          onClick={() => router.push(`/grammar/${orderIndex - 1}`)}
+          onClick={() => router.push(`/grammar/${topic.level}/${orderIndex - 1}`)}
           className="rounded-lg border border-border px-3 py-1.5 text-sm font-medium text-text-primary transition-colors hover:bg-surface-container disabled:cursor-not-allowed disabled:opacity-40"
         >
           &larr; Zurück
@@ -112,7 +118,7 @@ export function TopicDetailPage({
         <button
           data-testid="next-topic"
           disabled={!hasNext}
-          onClick={() => router.push(`/grammar/${orderIndex + 1}`)}
+          onClick={() => router.push(`/grammar/${topic.level}/${orderIndex + 1}`)}
           className="rounded-lg border border-border px-3 py-1.5 text-sm font-medium text-text-primary transition-colors hover:bg-surface-container disabled:cursor-not-allowed disabled:opacity-40"
         >
           Weiter &rarr;

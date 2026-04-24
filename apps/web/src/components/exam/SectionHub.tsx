@@ -149,7 +149,7 @@ function Group({
         </h2>
         <span className="text-xs text-text-tertiary">{threshold}</span>
       </div>
-      <div className="divide-y divide-border rounded-xl border border-border bg-white">
+      <div className="divide-y divide-border rounded-xl border border-border bg-surface">
         {sections.map((s) => {
           const Icon = ICON_BY_KEY[s.key];
           const status = statusOf(s.key);

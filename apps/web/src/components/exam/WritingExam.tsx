@@ -145,7 +145,7 @@ function TaskCard({
         Aufgabe {task.taskNumber}
       </h2>
 
-      <div className="rounded-lg border border-border bg-white p-5">
+      <div className="rounded-lg border border-border bg-surface p-5">
         <p className="whitespace-pre-line text-sm text-text-primary">{task.instructions}</p>
         {task.instructionsTranslation && (
           <p className="mt-2 whitespace-pre-line text-xs text-text-secondary">
@@ -155,7 +155,7 @@ function TaskCard({
       </div>
 
       {task.type === 'form_fill' && task.formFields && (
-        <div className="rounded-xl border border-border bg-white p-5">
+        <div className="rounded-xl border border-border bg-surface p-5">
           <p className="mb-4 text-sm font-medium text-text-secondary">Formular ausfüllen:</p>
           <div className="space-y-3">
             {task.formFields.map((field) => (
@@ -177,7 +177,7 @@ function TaskCard({
       )}
 
       {(task.type === 'short_message' || task.type === 'letter' || task.type === 'essay') && (
-        <div className="rounded-xl border border-border bg-white p-5">
+        <div className="rounded-xl border border-border bg-surface p-5">
           <textarea
             value={fields['_freetext'] ?? ''}
             onChange={(e) => onFieldChange('_freetext', e.target.value)}
@@ -225,7 +225,7 @@ function WritingResults({
 }) {
   return (
     <div className="space-y-6">
-      <div className="rounded-xl border border-border bg-white p-6 text-center">
+      <div className="rounded-xl border border-border bg-surface p-6 text-center">
         <div className="text-4xl">✍️</div>
         <h2 className="mt-3 text-xl font-bold text-text-primary">Schreiben eingereicht</h2>
         <p className="mt-1 text-sm text-text-secondary">
@@ -234,7 +234,7 @@ function WritingResults({
         </p>
       </div>
 
-      <div className="rounded-xl border border-border bg-white p-5 space-y-3">
+      <div className="rounded-xl border border-border bg-surface p-5 space-y-3">
         <h3 className="font-semibold text-text-primary">Selbsteinschätzung</h3>
         <p className="text-sm text-text-secondary">
           Wie gut haben Sie Ihrer Meinung nach abgeschnitten? (0-100%)
@@ -264,7 +264,7 @@ function WritingResults({
         return (
           <div
             key={task.taskNumber}
-            className="rounded-xl border border-border bg-white p-5 space-y-4"
+            className="rounded-xl border border-border bg-surface p-5 space-y-4"
           >
             <h3 className="font-semibold text-text-primary">Aufgabe {task.taskNumber}</h3>
 
