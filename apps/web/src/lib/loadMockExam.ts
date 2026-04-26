@@ -4,10 +4,14 @@ import { notFound } from 'next/navigation';
 import { validateMockExam } from '@fastrack/content';
 import type { MockExam } from '@fastrack/types';
 
-// process.cwd() = apps/web/ when Next.js runs; ../mobile resolves to apps/mobile/
-const CONTENT_DIR =
-  process.env.CONTENT_DIR ??
-  path.resolve(process.cwd(), '../mobile/assets/content');
+// Resolved lazily per-call so process.env.CONTENT_DIR overrides work in tests
+// and on Vercel where cwd() may differ from the development machine.
+function getContentDir(): string {
+  return (
+    process.env.CONTENT_DIR ??
+    path.resolve(process.cwd(), '../mobile/assets/content')
+  );
+}
 
 export async function loadMockExam(
   level: string,
@@ -15,7 +19,7 @@ export async function loadMockExam(
 ): Promise<MockExam | null> {
   const padded = String(mockNumber).padStart(2, '0');
   const mockId = `${level}_mock_${padded}`;
-  const filePath = path.join(CONTENT_DIR, level, `mock_${padded}.json`);
+  const filePath = path.join(getContentDir(), level, `mock_${padded}.json`);
 
   try {
     const raw = await readFile(filePath, 'utf-8');
