@@ -1,26 +1,22 @@
-import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
+import { describe, it, expect, vi, beforeEach } from 'vitest';
 import type { MockExam } from '@fastrack/types';
 
-// Stub next/navigation so notFound() doesn't throw an unhandled error in Node.
+// vi.mock is hoisted to the top of the file, so mockReadFile must be declared
+// with vi.hoisted() to be accessible inside the factory.
+const { mockReadFile } = vi.hoisted(() => ({ mockReadFile: vi.fn() }));
+
 vi.mock('next/navigation', () => ({
   notFound: vi.fn(() => {
     throw new Error('NEXT_NOT_FOUND');
   }),
 }));
 
-// Partial mock: spread actual fs/promises so named exports stay intact, then
-// replace readFile with a vi.fn(). Auto-mocking fs/promises fails because
-// vitest requires a default export on the stub when the module has one.
-const mockReadFile = vi.fn();
 vi.mock('fs/promises', async (importOriginal) => {
   const actual = await importOriginal<typeof import('fs/promises')>();
-  return {
-    ...actual,
-    readFile: mockReadFile,
-  };
+  return { ...actual, readFile: mockReadFile };
 });
 
-// Import after mocks are registered.
+// Import the module under test after mocks are registered.
 import { loadMockExam, parseMockId } from '../../lib/loadMockExam';
 
 const VALID_EXAM: MockExam = {
@@ -39,10 +35,6 @@ const VALID_EXAM: MockExam = {
 describe('loadMockExam', () => {
   beforeEach(() => {
     mockReadFile.mockReset();
-  });
-
-  afterEach(() => {
-    vi.restoreAllMocks();
   });
 
   it('returns a parsed MockExam when the file is valid', async () => {
@@ -81,7 +73,7 @@ describe('loadMockExam', () => {
     expect(result).toBeNull();
   });
 
-  it('returns null when JSON root is not an object (null)', async () => {
+  it('returns null when JSON root is null', async () => {
     mockReadFile.mockResolvedValueOnce('null');
 
     const result = await loadMockExam('A1', 1);
@@ -89,7 +81,7 @@ describe('loadMockExam', () => {
     expect(result).toBeNull();
   });
 
-  it('returns null when JSON root is not an object (array)', async () => {
+  it('returns null when JSON root is an array', async () => {
     mockReadFile.mockResolvedValueOnce('[1, 2, 3]');
 
     const result = await loadMockExam('A1', 1);
@@ -97,7 +89,7 @@ describe('loadMockExam', () => {
     expect(result).toBeNull();
   });
 
-  it('pads mock number to two digits when constructing the file path', async () => {
+  it('pads mock number to two digits in the file path', async () => {
     mockReadFile.mockResolvedValueOnce(JSON.stringify({ ...VALID_EXAM, id: 'A1_mock_05' }));
 
     await loadMockExam('A1', 5);
@@ -106,7 +98,7 @@ describe('loadMockExam', () => {
     expect(calledPath).toMatch(/mock_05\.json$/);
   });
 
-  it('uses the level directory in the path', async () => {
+  it('uses the correct level directory in the path', async () => {
     mockReadFile.mockResolvedValueOnce(
       JSON.stringify({ ...VALID_EXAM, id: 'B1_mock_01', level: 'B1' }),
     );
@@ -117,7 +109,7 @@ describe('loadMockExam', () => {
     expect(calledPath).toMatch(/B1[/\\]mock_01\.json$/);
   });
 
-  it('handles EACCES (permission error) as graceful null, not a throw', async () => {
+  it('returns null on EACCES (permission denied), not a throw', async () => {
     const err = Object.assign(new Error('permission denied'), { code: 'EACCES' });
     mockReadFile.mockRejectedValueOnce(err);
 
@@ -135,7 +127,7 @@ describe('parseMockId — supplemental edge cases', () => {
     }
   });
 
-  it('returns null for a level with lowercase letters', () => {
+  it('returns null for lowercase level', () => {
     expect(parseMockId('a1_mock_01')).toBeNull();
   });
 
