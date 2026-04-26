@@ -18,12 +18,12 @@ const nextConfig: NextConfig = {
   // tracing picks them up. Without this, readFile calls in loadMockExam hang on
   // the Vercel runtime because the sibling apps/mobile directory is not traced
   // into the function bundle (root cause of #102).
-  experimental: {
-    outputFileTracingRoot: path.resolve(__dirname, "../../"),
-    outputFileTracingIncludes: {
-      "/exam": ["../../apps/mobile/assets/content/**/*.json"],
-      "/exam/[mockId]": ["../../apps/mobile/assets/content/**/*.json"],
-    },
+  // Note: outputFileTracingRoot and outputFileTracingIncludes moved from
+  // experimental to top-level in Next.js 15.3+.
+  outputFileTracingRoot: path.resolve(__dirname, "../../"),
+  outputFileTracingIncludes: {
+    "/exam": ["../../apps/mobile/assets/content/**/*.json"],
+    "/exam/[mockId]": ["../../apps/mobile/assets/content/**/*.json"],
   },
 };
 
