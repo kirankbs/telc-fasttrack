@@ -1,23 +1,27 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import type { MockExam } from '@fastrack/types';
 
-// Vitest can't resolve 'next/navigation' in a Node environment, so stub it out.
+// Stub next/navigation so notFound() doesn't throw an unhandled error in Node.
 vi.mock('next/navigation', () => ({
   notFound: vi.fn(() => {
     throw new Error('NEXT_NOT_FOUND');
   }),
 }));
 
-// fs/promises is mocked so tests don't touch the real disk.
-vi.mock('fs/promises', () => ({
-  readFile: vi.fn(),
-}));
+// Partial mock: spread actual fs/promises so named exports stay intact, then
+// replace readFile with a vi.fn(). Auto-mocking fs/promises fails because
+// vitest requires a default export on the stub when the module has one.
+const mockReadFile = vi.fn();
+vi.mock('fs/promises', async (importOriginal) => {
+  const actual = await importOriginal<typeof import('fs/promises')>();
+  return {
+    ...actual,
+    readFile: mockReadFile,
+  };
+});
 
-// Import after mocks are set up.
-import { readFile } from 'fs/promises';
+// Import after mocks are registered.
 import { loadMockExam, parseMockId } from '../../lib/loadMockExam';
-
-const mockReadFile = readFile as ReturnType<typeof vi.fn>;
 
 const VALID_EXAM: MockExam = {
   id: 'A1_mock_01',
@@ -103,7 +107,9 @@ describe('loadMockExam', () => {
   });
 
   it('uses the level directory in the path', async () => {
-    mockReadFile.mockResolvedValueOnce(JSON.stringify({ ...VALID_EXAM, id: 'B1_mock_01', level: 'B1' }));
+    mockReadFile.mockResolvedValueOnce(
+      JSON.stringify({ ...VALID_EXAM, id: 'B1_mock_01', level: 'B1' }),
+    );
 
     await loadMockExam('B1', 1);
 
@@ -133,10 +139,9 @@ describe('parseMockId — supplemental edge cases', () => {
     expect(parseMockId('a1_mock_01')).toBeNull();
   });
 
-  it('returns null for missing leading zero in single-digit mock numbers', () => {
-    // "A1_mock_1" has no leading zero — regex requires \d+ so it actually matches
-    // single digits too. This test documents the current behavior.
-    const result = parseMockId('A1_mock_1');
-    expect(result).toEqual({ level: 'A1', mockNumber: 1 });
+  it('returns null for completely invalid shapes', () => {
+    expect(parseMockId('not-a-mock-id')).toBeNull();
+    expect(parseMockId('')).toBeNull();
+    expect(parseMockId('A1_mock_')).toBeNull();
   });
 });
