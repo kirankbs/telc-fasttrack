@@ -1,8 +1,13 @@
 import { LEVEL_CONFIG } from "@fastrack/config";
 import { getMocksForLevel, getAvailableLevels } from "@fastrack/content";
 import type { Level } from "@fastrack/types";
-import { loadMockExam } from "@/lib/loadMockExam";
 import { MockCardList } from "@/components/exam/MockCardList";
+
+// Force static rendering: this page reads only from catalog metadata
+// (baked at build time). No Lambda invocation, no fs reads at request time.
+// Root cause of #104: the previous version ran Promise.all(loadMockExam) for
+// every catalog entry — 10 concurrent fs reads that hung the Vercel function.
+export const dynamic = "force-static";
 
 export default function ExamListPage({
   searchParams,
@@ -22,24 +27,19 @@ async function ExamListContent({
   const activeLevel = (
     levels.includes(selectedLevel as Level) ? selectedLevel : "A1"
   ) as Level;
-  const mocks = getMocksForLevel(activeLevel);
+
+  // Derive mocks from catalog only — hasContent is a static literal in
+  // packages/content/src/catalog.ts, no fs probing at request time.
+  const catalogMocks = getMocksForLevel(activeLevel);
+  const mocks = catalogMocks.map((m) => ({
+    id: m.id,
+    mockNumber: m.mockNumber,
+    title: m.title.split(": ")[1] ?? m.title,
+    hasContent: m.hasContent,
+  }));
+
+  const anyContent = mocks.some((m) => m.hasContent);
   const cfg = LEVEL_CONFIG[activeLevel];
-
-  // Determine which catalog entries actually have JSON content on disk. This
-  // is a cheap fs probe per mock; results are a few dozen per level at most.
-  const mocksWithAvailability = await Promise.all(
-    mocks.map(async (m) => {
-      const exam = await loadMockExam(activeLevel, m.mockNumber);
-      return {
-        id: m.id,
-        mockNumber: m.mockNumber,
-        title: m.title.split(": ")[1] ?? m.title,
-        hasContent: exam !== null,
-      };
-    }),
-  );
-
-  const anyContent = mocksWithAvailability.some((m) => m.hasContent);
   const totalSections = 4; // Hören, Lesen, Schreiben, Sprechen — base count
 
   return (
@@ -98,7 +98,7 @@ async function ExamListContent({
       {anyContent ? (
         <MockCardList
           level={activeLevel}
-          mocks={mocksWithAvailability}
+          mocks={mocks}
           totalSections={totalSections}
         />
       ) : (

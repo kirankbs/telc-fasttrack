@@ -13,6 +13,13 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
+      // Resolve @fastrack/* from the worktree's packages so tests see the
+      // updated catalog (hasContent field) without depending on the pnpm
+      // workspace symlinks, which point at the main worktree's packages.
+      '@fastrack/types': path.resolve(__dirname, '../../packages/types/src/index.ts'),
+      '@fastrack/config': path.resolve(__dirname, '../../packages/config/src/index.ts'),
+      '@fastrack/core': path.resolve(__dirname, '../../packages/core/src/index.ts'),
+      '@fastrack/content': path.resolve(__dirname, '../../packages/content/src/index.ts'),
     },
   },
 });
