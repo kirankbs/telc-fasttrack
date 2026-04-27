@@ -1,3 +1,6 @@
+// This route serves binary MP3 files from disk and cannot use static imports.
+// Allowlisted from the no-restricted-imports fs guard (issue #110).
+// eslint-disable-next-line no-restricted-imports
 import { readFile } from 'fs/promises';
 import path from 'path';
 import { NextResponse } from 'next/server';

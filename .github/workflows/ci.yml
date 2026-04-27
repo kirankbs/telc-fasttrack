@@ -39,6 +39,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Lint
+        run: pnpm turbo run lint --filter='!@fastrack/mobile'
+
       - name: Typecheck
         run: pnpm typecheck
 
