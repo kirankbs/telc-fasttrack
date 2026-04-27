@@ -3,10 +3,19 @@ import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 import { LEVEL_CONFIG } from '@fastrack/config';
 import type { Level } from '@fastrack/types';
-import { loadGrammar } from '@/lib/loadGrammar';
+import { getGrammarTopics, getGrammarLevels } from '@fastrack/content';
 import { TopicCard } from '@/components/grammar/TopicCard';
 
-const VALID_LEVELS: Level[] = ['A1', 'A2', 'B1', 'B2', 'C1'];
+// Defense-in-depth: pre-render all 5 level pages at build time.
+// Root cause of #106: this page previously called loadGrammar (request-time fs read)
+// which hung on Vercel because the grammar JSON was not bundled into the Lambda.
+export const dynamicParams = false;
+
+const VALID_LEVELS = getGrammarLevels();
+
+export function generateStaticParams() {
+  return VALID_LEVELS.map((level) => ({ level }));
+}
 
 interface Props {
   params: Promise<{ level: string }>;
@@ -20,7 +29,7 @@ export default async function GrammarLevelPage({ params }: Props) {
     notFound();
   }
 
-  const topics = await loadGrammar(level);
+  const topics = getGrammarTopics(level);
   const cfg = LEVEL_CONFIG[level];
 
   return (
