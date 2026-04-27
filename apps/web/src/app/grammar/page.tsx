@@ -1,22 +1,20 @@
 import { LEVEL_CONFIG } from '@fastrack/config';
 import type { Level } from '@fastrack/types';
-import { loadGrammar } from '@/lib/loadGrammar';
+import { getGrammarTopics, getGrammarLevels } from '@fastrack/content';
 import { GrammarPageClient } from './GrammarPageClient';
 
-const levels: Level[] = ['A1', 'A2', 'B1', 'B2', 'C1'];
+// Static page — grammar topic counts are baked from statically imported JSON.
+// No fs reads at request time (fixes the /grammar/[level] hang family, #106).
+export const dynamic = 'force-static';
 
-export default async function GrammarPage() {
-  const levelConfigs = await Promise.all(
-    levels.map(async (level) => {
-      const topics = await loadGrammar(level);
-      return {
-        level,
-        color: LEVEL_CONFIG[level].color,
-        label: LEVEL_CONFIG[level].label,
-        topicCount: topics.length,
-      };
-    }),
-  );
+export default function GrammarPage() {
+  const levels = getGrammarLevels();
+  const levelConfigs = levels.map((level: Level) => ({
+    level,
+    color: LEVEL_CONFIG[level].color,
+    label: LEVEL_CONFIG[level].label,
+    topicCount: getGrammarTopics(level).length,
+  }));
 
   return <GrammarPageClient levels={levelConfigs} />;
 }
