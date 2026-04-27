@@ -1,36 +1,17 @@
-import { readFile } from 'fs/promises';
-import path from 'path';
+// loadVocabulary is now a thin shim over the static @fastrack/content accessor.
+// The original implementation called fs.readFile() at request time, which caused
+// Lambda hangs on Vercel (#102, #104, #106, #108 — same root cause across all loaders).
+// All vocab pages now import getVocabulary directly; this shim is kept
+// for backward compatibility with call sites that import loadVocabulary by name.
+import type { Level } from '@fastrack/types';
+import { getVocabulary } from '@fastrack/content';
 
-export interface VocabularyWord {
-  id: number;
-  level: string;
-  german: string;
-  english: string;
-  article: string | null;
-  plural?: string | null;
-  exampleSentence: string;
-  topic: string;
-  audioFile: string | null;
-  easeFactor: number;
-  intervalDays: number;
-  repetitions: number;
-  nextReviewDate: string | null;
-  lastReviewedAt: string | null;
-}
+// Re-export VocabularyWord so callers that import it from this module still work.
+export type { VocabularyWord } from '@fastrack/content';
 
-const VOCAB_DIR =
-  process.env.VOCAB_DIR ??
-  path.resolve(process.cwd(), '../mobile/src/data/vocabulary');
-
-export async function loadVocabulary(level: string): Promise<VocabularyWord[]> {
-  const filePath = path.join(VOCAB_DIR, `${level}_vocabulary.json`);
-
-  try {
-    const raw = await readFile(filePath, 'utf-8');
-    const data = JSON.parse(raw) as unknown;
-    if (!Array.isArray(data)) return [];
-    return data as VocabularyWord[];
-  } catch {
-    return [];
-  }
+export async function loadVocabulary(level: string): Promise<ReturnType<typeof getVocabulary>> {
+  const validLevels: Level[] = ['A1', 'A2', 'B1', 'B2', 'C1'];
+  const upperLevel = level.toUpperCase() as Level;
+  if (!validLevels.includes(upperLevel)) return [];
+  return getVocabulary(upperLevel);
 }

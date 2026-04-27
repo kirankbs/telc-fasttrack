@@ -25,7 +25,7 @@ export function GrammarPageClient({ levels }: GrammarPageClientProps) {
       </div>
 
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {levels.map(({ level, color, label, topicCount }) => {
+        {levels.map(({ level, color, topicCount }) => {
           const available = topicCount > 0;
 
           return (
