@@ -14,15 +14,11 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: path.resolve(__dirname, "../../"),
   },
-  // /exam is now force-static (catalog-driven, no fs at request time — fix #104).
-  // /exam/[mockId] is SSG via generateStaticParams (fix #103).
-  // Both routes are served as static HTML — no Lambda, no file-system reads.
-  // outputFileTracingIncludes is still needed for any remaining dynamic routes
-  // that call loadMockExam (e.g. section subroutes under /exam/[mockId]/).
+  // All /exam routes (index, [mockId], and all 6 subroutes) are fully SSG via
+  // static imports in @fastrack/content — no fs reads at request time (#108 fix).
+  // outputFileTracingIncludes for /exam paths is removed; the bundler traces the
+  // JSON through static import statements in packages/content/src/mocks.ts.
   outputFileTracingRoot: path.resolve(__dirname, "../../"),
-  outputFileTracingIncludes: {
-    "/exam/[mockId]": ["../../apps/mobile/assets/content/**/*.json"],
-  },
 };
 
 export default nextConfig;

@@ -1,33 +1,20 @@
-import { readFile } from 'fs/promises';
-import path from 'path';
+// loadMockExam is now a thin shim over the static @fastrack/content accessor.
+// The original implementation called fs.readFile() at request time, which caused
+// 8s Lambda hangs on Vercel (#108 — same root cause as #102, #104, and #106).
+// All exam subroute pages now call getMockExam directly; this shim is kept
+// for backward compatibility with call sites that import loadMockExam by name.
 import { notFound } from 'next/navigation';
-import { validateMockExam } from '@fastrack/content';
-import type { MockExam } from '@fastrack/types';
-
-// Resolved lazily per-call so process.env.CONTENT_DIR overrides work in tests
-// and on Vercel where cwd() may differ from the development machine.
-function getContentDir(): string {
-  return (
-    process.env.CONTENT_DIR ??
-    path.resolve(process.cwd(), '../mobile/assets/content')
-  );
-}
+import { getMockExam } from '@fastrack/content';
+import type { MockExam, Level } from '@fastrack/types';
 
 export async function loadMockExam(
   level: string,
   mockNumber: number,
 ): Promise<MockExam | null> {
-  const padded = String(mockNumber).padStart(2, '0');
-  const mockId = `${level}_mock_${padded}`;
-  const filePath = path.join(getContentDir(), level, `mock_${padded}.json`);
-
-  try {
-    const raw = await readFile(filePath, 'utf-8');
-    const data = JSON.parse(raw) as unknown;
-    return validateMockExam(data, mockId);
-  } catch {
-    return null;
-  }
+  const validLevels: Level[] = ['A1', 'A2', 'B1', 'B2', 'C1'];
+  const upperLevel = level.toUpperCase() as Level;
+  if (!validLevels.includes(upperLevel)) return null;
+  return getMockExam(upperLevel, mockNumber);
 }
 
 export function parseMockId(mockId: string): { level: string; mockNumber: number } | null {

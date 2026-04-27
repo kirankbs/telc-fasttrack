@@ -1,5 +1,12 @@
+import { MOCK_EXAM_CATALOG } from '@fastrack/content';
 import { getMockExamOrNotFound } from '@/lib/loadMockExam';
 import { SpeakingExam } from '@/components/exam/SpeakingExam';
+
+export function generateStaticParams(): { mockId: string }[] {
+  return MOCK_EXAM_CATALOG.map((entry) => ({ mockId: entry.id }));
+}
+
+export const dynamicParams = false;
 
 export default async function SpeakingPage({
   params,
