@@ -5,6 +5,13 @@ export interface MockExamEntry {
   level: Level;
   mockNumber: number;
   title: string;
+  /**
+   * True when the JSON file for this mock is committed to
+   * apps/mobile/assets/content/{level}/mock_NN.json.
+   * Baked in at catalog-authoring time; never computed at request time.
+   * Update this field whenever a mock JSON is added or removed.
+   */
+  hasContent: boolean;
 }
 
 function generateEntries(level: Level, count: number): MockExamEntry[] {
@@ -31,11 +38,14 @@ function generateEntries(level: Level, count: number): MockExamEntry[] {
     ],
   };
 
+  // All 50 mocks (5 levels × 10) have JSON files committed as of 2026-04-26.
+  // Set hasContent: false for any entry whose JSON has not yet been shipped.
   return Array.from({ length: count }, (_, i) => ({
     id: `${level}_mock_${String(i + 1).padStart(2, '0')}`,
     level,
     mockNumber: i + 1,
     title: `${level} Übungstest ${i + 1}: ${titles[level][i]}`,
+    hasContent: true,
   }));
 }
 

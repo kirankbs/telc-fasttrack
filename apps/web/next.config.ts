@@ -14,15 +14,13 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: path.resolve(__dirname, "../../"),
   },
-  // Bundle the mobile content JSON into /exam/** Lambdas so Vercel's file-system
-  // tracing picks them up. Without this, readFile calls in loadMockExam hang on
-  // the Vercel runtime because the sibling apps/mobile directory is not traced
-  // into the function bundle (root cause of #102).
-  // Note: outputFileTracingRoot and outputFileTracingIncludes moved from
-  // experimental to top-level in Next.js 15.3+.
+  // /exam is now force-static (catalog-driven, no fs at request time — fix #104).
+  // /exam/[mockId] is SSG via generateStaticParams (fix #103).
+  // Both routes are served as static HTML — no Lambda, no file-system reads.
+  // outputFileTracingIncludes is still needed for any remaining dynamic routes
+  // that call loadMockExam (e.g. section subroutes under /exam/[mockId]/).
   outputFileTracingRoot: path.resolve(__dirname, "../../"),
   outputFileTracingIncludes: {
-    "/exam": ["../../apps/mobile/assets/content/**/*.json"],
     "/exam/[mockId]": ["../../apps/mobile/assets/content/**/*.json"],
   },
 };
